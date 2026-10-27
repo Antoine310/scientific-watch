@@ -1,0 +1,117 @@
+name: Test ajout article Notion
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-ajout:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Ajouter un article de test
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          NOTION_DATA_SOURCE_ID: ${{ secrets.NOTION_DATA_SOURCE_ID }}
+
+        run: |
+          python3 - <<'PY'
+          import os
+          import json
+          import urllib.request
+          import urllib.error
+
+          token = os.environ["NOTION_TOKEN"]
+          database_id = os.environ["NOTION_DATABASE_ID"]
+          source_id = os.environ["NOTION_DATA_SOURCE_ID"]
+
+          headers = {
+              "Authorization": f"Bearer {token}",
+              "Notion-Version": "2025-09-03",
+              "Content-Type": "application/json"
+          }
+
+          def notion_post(path, data):
+              request = urllib.request.Request(
+                  "https://api.notion.com/v1/" + path,
+                  data=json.dumps(data).encode("utf-8"),
+                  headers=headers,
+                  method="POST"
+              )
+
+              try:
+                  with urllib.request.urlopen(request) as response:
+                      return json.load(response)
+              except urllib.error.HTTPError as error:
+                  print("Erreur HTTP :", error.code)
+                  print(error.read().decode()[:1000])
+                  raise SystemExit(1)
+
+          print("Recherche d'un éventuel article de test...")
+
+          existing = notion_post(
+              f"data_sources/{source_id}/query",
+              {
+                  "filter": {
+                      "property": "Titre",
+                      "title": {
+                          "equals": "[TEST] Article scientifique automatique"
+                      }
+                  },
+                  "page_size": 1
+              }
+          )
+
+          if existing.get("results"):
+              print("✅ Article de test déjà présent.")
+              print("Aucun doublon créé.")
+              raise SystemExit(0)
+
+          print("Création de l'article...")
+
+          article = {
+              "parent": {
+                  "type": "data_source_id",
+                  "data_source_id": source_id,
+                  "database_id": database_id
+              },
+              "properties": {
+                  "Titre": {
+                      "title": [{
+                          "text": {
+                              "content": "[TEST] Article scientifique automatique"
+                          }
+                      }]
+                  },
+                  "Auteurs": {
+                      "rich_text": [{
+                          "text": {
+                              "content": "Scientific Watch Bot"
+                          }
+                      }]
+                  },
+                  "Thèmes": {
+                      "multi_select": [
+                          {"name": "T01 — Root of Trust & Secure Boot"}
+                      ]
+                  },
+                  "Pertinence": {
+                      "number": 95
+                  },
+                  "Résumé court": {
+                      "rich_text": [{
+                          "text": {
+                              "content":
+                              "Article fictif créé pour tester "
+                              "l'automatisation GitHub vers Notion."
+                          }
+                      }]
+                  }
+              }
+          }
+
+          result = notion_post("pages", article)
+
+          print("✅ Article créé avec succès !")
+          print("Lien Notion :", result.get("url"))
+          PY
