@@ -17,7 +17,7 @@ SOURCE_ID = os.environ['NOTION_DATA_SOURCE_ID']
 DATABASE_ID = os.environ['NOTION_DATABASE_ID']
 API_KEY = os.environ.get('OPENALEX_API_KEY', '').strip()
 GEMINI_KEY = os.environ['GEMINI_API_KEY'].strip()
-MODEL = os.environ.get('GEMINI_MODEL', 'gemini-2.5-flash-lite')
+MODEL = os.environ.get('GEMINI_MODEL', 'gemini-3.5-flash-lite')
 MAX_AI = min(30, max(1, int(os.environ.get('MAX_AI_ARTICLES', '20'))))
 HEADERS = {'Authorization': 'Bearer ' + TOKEN, 'Notion-Version': '2025-09-03', 'Content-Type': 'application/json'}
 
