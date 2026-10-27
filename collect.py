@@ -66,7 +66,7 @@ def openalex_search(term):
     params = {
         'search': term,
         'filter': f'from_publication_date:{(date.today() - timedelta(days=90)).isoformat()}',
-        'sort': '-publication_date',
+        'sort': 'publication_date:desc',
         'per_page': '10',
     }
     if KEY:
