@@ -1,4 +1,4 @@
-"""Scientific watch v4: strict title-based topic screening, default preview mode.
+"""Scientific watch v5: disambiguated topic screening and balanced ranking, preview by default.
 
 Requires NOTION_TOKEN, NOTION_DATA_SOURCE_ID, NOTION_DATABASE_ID.
 Optional OPENALEX_API_KEY. Set WRITE_TO_NOTION=true to save selected papers.
@@ -62,13 +62,19 @@ def relevant(theme_id, title, abstract_text):
     if theme_id == 'T02':
         return contains(t, 'device identifier composition engine', 'compound device identifier', 'dice attestation', 'layered attestation', 'hardware identity', 'device identity') and contains(both, 'attestation', 'cryptograph', 'firmware', 'hardware', 'risc-v', 'root of trust', 'secure boot')
     if theme_id == 'T03':
-        return (contains(t, 'enclave', 'trusted execution environment', 'security monitor', 'keystone', 'penglai', 'sanctorum', 'risc-v tee') and contains(both, 'risc-v', 'riscv', 'keystone', 'penglai', 'sanctorum', 'physical memory protection', 'pmp', 'security monitor'))
+        # Keystone is ambiguous (e.g., ecology). Require an explicit computing-security context.
+        if 'keystone' in t and not contains(both, 'risc-v', 'riscv', 'enclave', 'trusted execution', 'security monitor', 'computer security', 'webassembly', 'tee', 'pmp'):
+            return False
+        return (contains(t, 'enclave', 'trusted execution environment', 'security monitor', 'keystone tee', 'keystone enclave', 'penglai', 'sanctorum', 'risc-v tee') and contains(both, 'risc-v', 'riscv', 'enclave', 'trusted execution', 'sgx', 'keystone tee', 'keystone enclave', 'penglai', 'sanctorum', 'physical memory protection', 'pmp', 'security monitor'))
     if theme_id == 'T04':
         return contains(t, 'runtime attestation', 'run-time attestation', 'continuous attestation', 'control-flow attestation', 'control flow attestation', 'execution attestation') and contains(both, 'hardware', 'processor', 'embedded', 'firmware', 'tee', 'risc-v', 'enclave', 'control flow')
     if theme_id == 'T05':
         return ((contains(t, 'enclave', 'trusted execution') and contains(t, 'start', 'launch', 'creation', 'initializ', 'instantiat', 'accelerat', 'performance', 'overhead', 'measurement')) or (contains(t, 'cryptographic accelerator', 'crypto accelerator', 'sha-256 accelerator') and contains(both, 'secure boot', 'attestation', 'root of trust', 'enclave', 'risc-v')))
     if theme_id == 'T06':
-        return (contains(t, 'side channel', 'side-channel', 'timing attack', 'timing leak', 'prime+probe', 'flush+reload', 'spectre', 'transient execution') and contains(both, 'microarchitect', 'cache', 'processor', 'branch predict', 'enclave', 'risc-v', 'riscv', 'hardware', 'tee', 'cryptograph'))
+        # Avoid physical/thermal/perception and LLM side channels unless they are about processor leakage.
+        if contains(t, 'thermal side-channel', 'thermal side channel', 'power side-channel', 'power side channel', 'physical-layer', 'perception attack') and not contains(both, 'processor', 'microarchitect', 'cpu', 'cache', 'cryptograph', 'risc-v', 'enclave'):
+            return False
+        return (contains(t, 'microarchitectural side channel', 'microarchitectural side-channel', 'cache side channel', 'cache side-channel', 'cache timing', 'timing leak', 'prime+probe', 'flush+reload', 'spectre', 'transient execution', 'processor side-channel', 'processor side channel', 'side-channel analysis') and contains(both, 'microarchitect', 'cache', 'processor', 'cpu', 'branch predict', 'enclave', 'risc-v', 'riscv', 'hardware', 'tee', 'cryptograph', 'rtl'))
     if theme_id == 'T07':
         return contains(t, 'rtl', 'hardware', 'microarchitectur', 'information-flow', 'information flow', 'formal verification') and contains(t, 'security', 'noninterference', 'non-interference', 'fuzz', 'verification', 'leakage', 'flow tracking')
     if theme_id == 'T08':
@@ -83,9 +89,27 @@ def relevant(theme_id, title, abstract_text):
         return contains(t, 'cache restor', 'cache warm-up', 'cache partition', 'cache reconfigur', 'hybrid cache', 'scratchpad', 'working set prediction', 'context-aware prefetch') and contains(t, 'cache', 'memory', 'scratchpad', 'prefetch', 'context', 'working set')
     return False
 
+def rank_record(record):
+    paper = record['paper']
+    title = norm(paper.get('title', ''))
+    body = norm(abstract(paper.get('abstract_inverted_index')))
+    score = 0
+    strong = ('risc-v', 'riscv', 'opentitan', 'cva6', 'dice attestation', 'root of trust',
+              'microarchitect', 'cache side-channel', 'cache side channel',
+              'hardware information-flow', 'hardware information flow', 'keystone enclave',
+              'keystone tee', 'secure boot', 'enclave isolation')
+    score += 8 * sum(phrase in title for phrase in strong)
+    score += 2 * sum(phrase in body for phrase in strong)
+    score += 5 * len(record['themes'])
+    # No abstract: keep, but rank below otherwise comparable candidates.
+    if not body:
+        score -= 2
+    return score
+
+
 def api(url, payload=None):
     data = json.dumps(payload).encode() if payload is not None else None
-    headers = HEADERS if url.startswith('https://api.notion.com/') else {'User-Agent': 'scientific-watch/0.4 (research monitoring)'}
+    headers = HEADERS if url.startswith('https://api.notion.com/') else {'User-Agent': 'scientific-watch/0.5 (research monitoring)'}
     request = urllib.request.Request(url, data=data, headers=headers, method='POST' if data is not None else 'GET')
     for attempt in range(3):
         try:
@@ -147,12 +171,23 @@ def main():
         print(f'{theme_id}: {count} correspondance(s) avant dédoublonnage')
         time.sleep(.3)
     print(f'\nCandidats uniques retenus : {len(candidates)}')
-    selected = list(candidates.values())[:12]
+    # Rank globally, with a soft cap per theme, instead of taking early themes first.
+    ranked = sorted(candidates.values(), key=rank_record, reverse=True)
+    selected = []
+    selected_counts = {}
+    for item in ranked:
+        primary = item['themes'][0].split(' ')[0]
+        if selected_counts.get(primary, 0) >= 3:
+            continue
+        selected.append(item)
+        selected_counts[primary] = selected_counts.get(primary, 0) + 1
+        if len(selected) == 12:
+            break
     print('Mode :', 'ECRITURE NOTION' if WRITE else 'APERÇU UNIQUEMENT — aucun article ajouté')
     for record in selected:
         paper, themes = record['paper'], record['themes']
         title = paper['title']
-        print(' -', title[:130], '|', ', '.join(t[:3] for t in themes))
+        print(' -', title[:130], '|', ', '.join(t[:3] for t in themes), '| score indicatif', rank_record(record))
         if not WRITE:
             continue
         doi = paper.get('doi') or ''
