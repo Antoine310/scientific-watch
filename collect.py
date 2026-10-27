@@ -17,11 +17,26 @@ NOTION_HEADERS = {
     'Content-Type': 'application/json',
 }
 
+# One focused query per theme for this second, manually triggered trial.
 SEARCHES = [
-    ('T01 — Root of Trust & Secure Boot', 'hardware root of trust RISC-V secure boot'),
-    ('T02 — DICE & Hardware Identity', 'device identifier composition engine hardware attestation'),
-    ('T03 — RISC-V TEE & Enclaves', 'RISC-V trusted execution environment Keystone'),
+    ('T01 — Root of Trust & Secure Boot', '"root of trust" "secure boot"'),
+    ('T02 — DICE & Hardware Identity', '"device identifier composition engine" attestation'),
+    ('T03 — RISC-V TEE & Enclaves', '"RISC-V" "trusted execution environment"'),
+    ('T04 — Runtime Attestation', '"runtime attestation" hardware'),
+    ('T05 — Enclave Performance & Crypto', '"enclave" "startup" performance'),
+    ('T06 — Microarchitectural Side Channels', '"microarchitectural" "side channel"'),
+    ('T07 — Hardware Security Verification', '"RTL" security fuzzing'),
+    ('T08 — Cache & Temporal Isolation', '"cache isolation" enclave'),
+    ('T09 — Secure Memory', '"memory integrity" "TEE"'),
+    ('T10 — RISC-V SoC & FPGA', '"OpenTitan" "RISC-V"'),
+    ('T11 — PUF & TRNG', '"physical unclonable function" "root of trust"'),
+    ('T12 — Advanced Memory Architectures', '"cache" "context switch" restoration'),
 ]
+
+# Strict cap keeps the experiment small and distributes results across topics.
+TOTAL_LIMIT = 12
+PER_THEME_LIMIT = 2
+
 
 
 def request_json(url, payload=None, headers=None):
@@ -80,6 +95,7 @@ def main():
     added = 0
     seen = set()
     for theme, term in SEARCHES:
+        theme_added = 0
         print(f'Recherche : {theme}', flush=True)
         for item in openalex_search(term):
             title = (item.get('title') or '').strip()
@@ -87,10 +103,12 @@ def main():
                 continue
             seen.add(title.casefold())
             # First trial: light semantic guard, manual quality check in Notion afterwards.
-            text = title.lower()
-            if not any(s in text for s in ('risc-v', 'riscv', 'trust', 'enclave', 'attestation', 'secure boot', 'dice')):
-                continue
-            if 'fault injection' in text or 'voltage glitch' in text:
+            text = title.casefold()
+            # The user excludes fault-injection-only research, not papers that
+            # study side channels alongside another attack technique.
+            fault_terms = ('fault injection', 'voltage glitch', 'clock glitch', 'laser fault')
+            relevant_other_terms = ('side channel', 'side-channel', 'timing', 'cache', 'enclave', 'attestation', 'root of trust', 'secure boot')
+            if any(term in text for term in fault_terms) and not any(term in text for term in relevant_other_terms):
                 continue
             authors = ', '.join(x.get('author', {}).get('display_name', '') for x in item.get('authorships', [])[:8])
             doi = item.get('doi') or ''
@@ -114,11 +132,14 @@ def main():
                 'properties': props,
             })
             added += 1
+            theme_added += 1
             existing.add(title.casefold())
             print(f'  Ajouté : {title[:100]} — {result.get("url", "")}', flush=True)
-            if added >= 10:
-                print('Limite de 10 articles atteinte.', flush=True)
+            if added >= TOTAL_LIMIT:
+                print(f'Limite de {TOTAL_LIMIT} articles atteinte.', flush=True)
                 return
+            if theme_added >= PER_THEME_LIMIT:
+                break
         time.sleep(1)
     print(f'Terminé : {added} article(s) ajouté(s).', flush=True)
 
