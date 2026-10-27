@@ -1,0 +1,74 @@
+name: Test connexion Notion
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-notion:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Vérifier la connexion Notion
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import json
+          import urllib.request
+          import urllib.error
+
+          token = os.environ["NOTION_TOKEN"]
+          database_id = os.environ["NOTION_DATABASE_ID"]
+
+          headers = {
+              "Authorization": f"Bearer {token}",
+              "Notion-Version": "2025-09-03",
+              "Content-Type": "application/json",
+          }
+
+          def notion_get(path):
+              url = "https://api.notion.com/v1/" + path
+              request = urllib.request.Request(
+                  url, headers=headers
+              )
+              try:
+                  with urllib.request.urlopen(request) as response:
+                      return json.load(response)
+              except urllib.error.HTTPError as error:
+                  print(f"Erreur Notion : HTTP {error.code}")
+                  print(error.read().decode()[:500])
+                  raise SystemExit(1)
+
+          print("Connexion à Notion...")
+
+          database = notion_get(
+              f"databases/{database_id}"
+          )
+
+          print("✅ Bibliothèque accessible !")
+
+          sources = database.get("data_sources", [])
+
+          if not sources:
+              print("Aucune source de données trouvée.")
+              raise SystemExit(1)
+
+          for source in sources:
+              source_id = source["id"]
+              data = notion_get(
+                  f"data_sources/{source_id}"
+              )
+
+              print("✅ Source de données accessible")
+              print("Identifiant :", source_id)
+              print("Colonnes détectées :")
+
+              for name, info in data.get(
+                  "properties", {}
+              ).items():
+                  print(f" - {name} ({info['type']})")
+
+          print("✅ Test terminé avec succès !")
+          PY
