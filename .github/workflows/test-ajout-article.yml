@@ -71,8 +71,6 @@ jobs:
 
           article = {
               "parent": {
-                  "type": "data_source_id",
-                  "data_source_id": source_id,
                   "database_id": database_id
               },
               "properties": {
