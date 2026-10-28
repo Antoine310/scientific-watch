@@ -57,7 +57,7 @@ jobs:
           DBLP_DELAY_SECONDS: '3'
           CROSSREF_ENABLED: 'true'
           IACR_ENABLED: 'true'
-          LOOKBACK_DAYS: '90'
+          LOOKBACK_DAYS: '30'
           WRITE_NOTION: ${{ github.event_name == 'schedule' && 'true' || inputs.import_to_notion && 'true' || 'false' }}
           MAX_AI_ARTICLES: '100'
           AI_BATCH_SIZE: '10'
