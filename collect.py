@@ -1,4 +1,4 @@
-"""Veille scientifique V12 — 5 sources : OpenAlex, arXiv, DBLP, Crossref, IACR ePrint.
+"""Veille scientifique V13 — 5 sources : OpenAlex, arXiv, DBLP, Crossref, IACR ePrint.
 
 Étapes : chercher -> filtrer grossièrement -> fusionner les doublons ->
 faire classer les candidats par Gemini -> préparer des fiches -> éventuellement
@@ -9,6 +9,7 @@ un PDF qui ne serait pas explicitement téléchargé et lu.
 Dépendances : bibliothèque standard Python uniquement.
 """
 import html
+import pathlib
 import json
 import os
 import re
@@ -916,6 +917,7 @@ def main():
     # Dernière relecture des doublons juste avant les écritures (sécurité
     # supplémentaire en cas de lancement parallèle d'un autre workflow).
     latest_titles, latest_dois = existing_items()
+    imported = []  # Publications effectivement créées dans Notion pour l’e-mail.
     for rec, assessment, detail in details:
         title_key = norm(rec['paper'].get('title', ''))
         doi_key = norm(rec['paper'].get('doi', ''))
@@ -927,7 +929,19 @@ def main():
         if doi_key:
             latest_dois.add(doi_key)
         print('✅ Ajout :', rec['paper']['title'][:120], '—', result.get('url', ''))
-    print('Terminé : import Notion réalisé (voir les lignes Ajout ci-dessus).')
+        imported.append({
+            'title': rec['paper']['title'],
+            'score': assessment['score'],
+            'url': result.get('url', ''),
+            'summary': detail.get('resume_court', ''),
+            'category': assessment.get('categorie', ''),
+        })
+    # Le fichier JSON sert uniquement au message de notification de CE lancement.
+    # Il n’est pas un cache persistant : Notion est utilisé comme registre des imports.
+    pathlib.Path('new_articles.json').write_text(
+        json.dumps(imported, ensure_ascii=False, indent=2), encoding='utf-8'
+    )
+    print(f'Terminé : {len(imported)} nouvel(le)(s) publication(s) ajoutée(s) dans Notion.')
 
 if __name__ == '__main__':
     main()
