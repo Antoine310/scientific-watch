@@ -2,13 +2,18 @@
 # Heures UTC : 07:30, 10:30, 14:30 (horaire local variable avec l'heure d'été).
 # Les trois passages quotidiens sont intentionnels : si une API échoue,
 # la prochaine exécution repart des nouveaux articles absents de Notion.
-name: Veille scientifique automatique V13
+name: Veille scientifique automatique V14
 
 on:
   workflow_dispatch:
     inputs:
       import_to_notion:
         description: 'Importer les publications prioritaires dans Notion ?'
+        type: boolean
+        required: true
+        default: false
+      publish_public:
+        description: 'Publier le rapport public pendant le test hebdomadaire ?'
         type: boolean
         required: true
         default: false
@@ -37,7 +42,7 @@ jobs:
       - name: Récupérer le dépôt
         uses: actions/checkout@v4
       - name: Compiler le Python avant toute collecte
-        run: python3 -m py_compile collect.py notify.py
+        run: python3 -m py_compile collect.py notify.py publish_weekly.py
       - name: Rechercher, évaluer et éventuellement importer
         id: collect
         env:
@@ -61,13 +66,13 @@ jobs:
           MIN_SCORE_CORE: '75'
           MIN_SCORE_TRANSFER: '70'
         run: python3 collect.py
-      - name: Envoyer les découvertes Gmail
+      - name: Envoyer les alertes prioritaires Gmail
         if: ${{ success() && (github.event_name == 'schedule' || inputs.import_to_notion) }}
         env:
           GMAIL_FROM: ${{ secrets.GMAIL_FROM }}
           GMAIL_TO: ${{ secrets.GMAIL_TO }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-        run: python3 notify.py new
+        run: python3 notify.py priority
       - name: Signaler une panne par Gmail
         if: ${{ failure() }}
         env:
@@ -91,3 +96,12 @@ jobs:
           GMAIL_TO: ${{ secrets.GMAIL_TO }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: python3 notify.py weekly
+      - name: Publier le rapport hebdomadaire sur le dépôt public
+        if: ${{ success() && (github.event_name == 'schedule' || inputs.publish_public) }}
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATA_SOURCE_ID: ${{ secrets.NOTION_DATA_SOURCE_ID }}
+          PUBLIC_REPO_TOKEN: ${{ secrets.PUBLIC_REPO_TOKEN }}
+          PUBLIC_REPO: Antoine310/scientific-watch-v2
+          PUBLIC_DRY_RUN: 'false'
+        run: python3 publish_weekly.py
