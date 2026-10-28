@@ -18,7 +18,7 @@ jobs:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.5-flash-lite
-          WRITE_NOTION: 'false'
+          WRITE_NOTION: 'true'
           MAX_AI_ARTICLES: '20'
           MAX_WRITE: '3'
           MIN_SCORE: '60'
