@@ -1,4 +1,4 @@
-"""Scientific watch v7: OpenAlex -> Gemini relevance -> optional Notion import.
+"""Scientific watch v8b: OpenAlex -> Gemini relevance -> optional Notion import.
 
 Dry run by default. Never logs credentials. Python standard library only.
 """
@@ -407,7 +407,30 @@ def main():
         print(f'{theme_id}: {count} correspondance(s) avant dédoublonnage')
         time.sleep(.3)
     print(f'Candidates uniques : {len(candidates)}')
-    records = list(candidates.values())[:MAX_AI]
+    # Échantillonnage équilibré AVANT IA pour ne pas favoriser les premiers thèmes
+    # de la liste. Ce n'est PAS un quota final par thème : le classement Gemini
+    # reste global et peut retenir plusieurs articles du même thème.
+    ordered = list(candidates.values())
+    theme_buckets = {name[:3]: [] for name, _ in THEMES}
+    for rec in ordered:
+        for theme in rec['themes']:
+            theme_buckets[theme[:3]].append(rec)
+    records = []
+    selected_ids = set()
+    while len(records) < MAX_AI and any(theme_buckets.values()):
+        for theme_id in theme_buckets:
+            bucket = theme_buckets[theme_id]
+            while bucket:
+                rec = bucket.pop(0)
+                key = rec['paper'].get('doi') or rec['paper'].get('id') or norm(rec['paper'].get('title', ''))
+                if key in selected_ids:
+                    continue
+                selected_ids.add(key)
+                records.append(rec)
+                break
+            if len(records) >= MAX_AI:
+                break
+    print(f'Articles évalués globalement : {len(records)} / {len(candidates)} candidats. Aucun quota final par thème.')
     if not records:
         print('Aucun nouvel article candidat.')
         return
