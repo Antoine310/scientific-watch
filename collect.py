@@ -594,18 +594,48 @@ def add_candidate(candidates, themes, paper, existing_titles, existing_dois):
 
 
 def gemini_json(payload):
-    """Strict response parsing; fail without producing fabricated analyses."""
+    """Appeler Gemini, avec reprise automatique en cas de surcharge HTTP 503.
+
+    La gestion des tentatives est centralisée ici : elle protège à la fois
+    le classement des articles et la génération des fiches détaillées.
+    """
     url = f'https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent'
-    req = urllib.request.Request(url, data=json.dumps(payload, ensure_ascii=False).encode(), method='POST', headers={
-        'Content-Type': 'application/json', 'x-goog-api-key': GEMINI_KEY,
-    })
-    try:
-        with urllib.request.urlopen(req, timeout=120) as resp:
-            response = json.load(resp)
-    except urllib.error.HTTPError as exc:
-        detail = exc.read().decode('utf-8', 'replace')[:500]
-        raise RuntimeError(f'Gemini HTTP {exc.code} : {detail}') from None
-    # Compteur de tokens fourni par l'API : utile pour surveiller les quotas.
+    req = urllib.request.Request(
+        url,
+        data=json.dumps(payload, ensure_ascii=False).encode(),
+        method='POST',
+        headers={
+            'Content-Type': 'application/json',
+            'x-goog-api-key': GEMINI_KEY,
+        },
+    )
+
+    # Quatre essais au maximum : un appel initial puis trois reprises.
+    # Les délais ne s'appliquent qu'en cas de surcharge temporaire HTTP 503.
+    response = None
+    for tentative, attente in enumerate((10, 25, 50, 0), start=1):
+        try:
+            with urllib.request.urlopen(req, timeout=120) as resp:
+                response = json.load(resp)
+            break
+        except urllib.error.HTTPError as exc:
+            detail = exc.read().decode('utf-8', 'replace')[:500]
+
+            # Ne pas réessayer les erreurs de configuration ni les quotas 429.
+            if exc.code != 503 or tentative == 4:
+                raise RuntimeError(f'Gemini HTTP {exc.code} : {detail}') from None
+
+            print(
+                f'Gemini indisponible (HTTP 503, tentative {tentative}/4). '
+                f'Nouvel essai dans {attente} secondes.',
+                flush=True,
+            )
+            time.sleep(attente)
+
+    if response is None:
+        raise RuntimeError('Gemini : aucune réponse après les tentatives.')
+
+    # Comptabiliser une seule fois les tokens de la réponse aboutie.
     usage = response.get('usageMetadata', {})
     if usage:
         TOKEN_USAGE['calls'] += 1
@@ -617,6 +647,7 @@ def gemini_json(payload):
               '| sortie:', usage.get('candidatesTokenCount', 0),
               '| raisonnement:', usage.get('thoughtsTokenCount', 0),
               '| total:', usage.get('totalTokenCount', 0))
+
     parts = response.get('candidates', [{}])[0].get('content', {}).get('parts', [])
     raw = ''.join(x.get('text', '') for x in parts)
     if not raw:
@@ -644,26 +675,7 @@ Indique les informations non vérifiées clairement.
         'generationConfig': {'temperature': 0.1, 'responseMimeType': 'application/json',
             'responseSchema': {'type': 'OBJECT', 'properties': props, 'required': list(props)}},
     }
-    # Réessayer en cas de surcharge temporaire de Gemini.
-
-for tentative, attente in enumerate([10, 25, 50, 0], start=1):
-    try:
-        result = gemini_json(payload)
-        break
-
-    except RuntimeError as erreur:
-        message = str(erreur)
-
-        # Seule une erreur temporaire 503 est réessayée.
-        if "Gemini HTTP 503" not in message or attente == 0:
-            raise
-
-        print(
-            f"Gemini indisponible (tentative {tentative}/4). "
-            f"Nouvel essai dans {attente} secondes."
-        )
-        time.sleep(attente)
-  
+    result = gemini_json(payload)
     if not isinstance(result, dict) or any(not isinstance(result.get(k), str) for k in props):
         raise RuntimeError('Résumé Gemini non conforme : aucun article créé.')
     return result
