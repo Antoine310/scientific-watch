@@ -644,7 +644,26 @@ Indique les informations non vérifiées clairement.
         'generationConfig': {'temperature': 0.1, 'responseMimeType': 'application/json',
             'responseSchema': {'type': 'OBJECT', 'properties': props, 'required': list(props)}},
     }
-    result = gemini_json(payload)
+    # Réessayer en cas de surcharge temporaire de Gemini.
+
+for tentative, attente in enumerate([10, 25, 50, 0], start=1):
+    try:
+        result = gemini_json(payload)
+        break
+
+    except RuntimeError as erreur:
+        message = str(erreur)
+
+        # Seule une erreur temporaire 503 est réessayée.
+        if "Gemini HTTP 503" not in message or attente == 0:
+            raise
+
+        print(
+            f"Gemini indisponible (tentative {tentative}/4). "
+            f"Nouvel essai dans {attente} secondes."
+        )
+        time.sleep(attente)
+  
     if not isinstance(result, dict) or any(not isinstance(result.get(k), str) for k in props):
         raise RuntimeError('Résumé Gemini non conforme : aucun article créé.')
     return result
