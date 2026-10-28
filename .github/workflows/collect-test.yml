@@ -6,11 +6,11 @@ on:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Récupérer le dépôt
         uses: actions/checkout@v4
-      - name: Evaluer les articles et prévisualiser les analyses
+      - name: Évaluer OpenAlex et arXiv en mode aperçu
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
@@ -18,7 +18,8 @@ jobs:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.5-flash-lite
-          WRITE_NOTION: 'true'
+          ARXIV_ENABLED: 'true'
+          WRITE_NOTION: 'false'
           MAX_AI_ARTICLES: '20'
           MAX_WRITE: '3'
           MIN_SCORE: '60'
