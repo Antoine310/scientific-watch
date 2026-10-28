@@ -23,7 +23,7 @@ on:
         required: true
         default: false
   schedule:
-    - cron: '30 7,10,14 * * *'
+    - cron: '30 7 * * *'
     - cron: '0 18 * * 0'
 
 permissions:
