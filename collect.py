@@ -269,19 +269,58 @@ les titres et abstracts. N'affirme jamais avoir lu le PDF.
 
 
 def api(url, payload=None):
+    """Appel HTTP partagé : reprise sur erreurs temporaires.
+
+    OpenAlex peut renvoyer HTTP 429 avec un champ JSON `retryAfter`
+    (en secondes) ou l'en-tête standard `Retry-After`. On respecte ce
+    délai au lieu de refaire immédiatement une requête anonyme/limitée.
+    Les autres API conservent elles aussi un nombre borné de tentatives.
+    """
     data = json.dumps(payload).encode() if payload is not None else None
-    headers = HEADERS if url.startswith('https://api.notion.com/') else {'User-Agent': 'scientific-watch/0.5 (research monitoring)'}
-    request = urllib.request.Request(url, data=data, headers=headers, method='POST' if data is not None else 'GET')
-    for attempt in range(3):
+    headers = (HEADERS if url.startswith('https://api.notion.com/')
+               else {'User-Agent': 'scientific-watch/0.5 (research monitoring)'})
+    request = urllib.request.Request(
+        url, data=data, headers=headers,
+        method='POST' if data is not None else 'GET'
+    )
+    max_attempts = 4
+    for attempt in range(1, max_attempts + 1):
         try:
             with urllib.request.urlopen(request, timeout=40) as response:
                 return json.load(response)
         except urllib.error.HTTPError as exc:
             message = exc.read().decode('utf-8', 'replace')[:800]
-            if exc.code in (429, 500, 502, 503) and attempt < 2:
-                time.sleep(2 ** (attempt + 1))
-                continue
-            raise RuntimeError(f'HTTP {exc.code} for {url.split("?")[0]}: {message}') from exc
+            temporary = exc.code in (429, 500, 502, 503, 504)
+            if not temporary or attempt == max_attempts:
+                raise RuntimeError(
+                    f'HTTP {exc.code} for {url.split("?")[0]}: {message}'
+                ) from exc
+
+            # Par défaut, attendre progressivement entre deux tentatives.
+            pause = min(90, 2 ** attempt)
+            if exc.code == 429:
+                # Certaines réponses OpenAlex contiennent retryAfter dans le JSON.
+                try:
+                    body = json.loads(message)
+                    retry_after = body.get('retryAfter')
+                except (ValueError, AttributeError):
+                    retry_after = None
+                if retry_after is None:
+                    retry_after = exc.headers.get('Retry-After')
+                try:
+                    pause = max(pause, min(120, float(retry_after)))
+                except (TypeError, ValueError):
+                    pass
+                # Petite marge pour ne pas retomber exactement sur la limite.
+                pause += 2
+            print(
+                f'API temporairement indisponible (HTTP {exc.code}), '
+                f'tentative {attempt}/{max_attempts}. '
+                f'Nouvel essai dans {pause:.0f} s.', flush=True
+            )
+            time.sleep(pause)
+
+    raise RuntimeError('API : tentatives épuisées.')
 
 def existing_items():
     titles, dois = set(), set()
@@ -306,6 +345,7 @@ def existing_items():
 def search(query):
     params = {'search': query, 'filter': 'from_publication_date:' + (date.today() - timedelta(days=LOOKBACK_DAYS)).isoformat(), 'sort': 'publication_date:desc', 'per_page': 25}
     if API_KEY:
+        # La clé est transmise par GitHub Actions via OPENALEX_API_KEY.
         params['api_key'] = API_KEY
     return api('https://api.openalex.org/works?' + urllib.parse.urlencode(params)).get('results', [])
 
