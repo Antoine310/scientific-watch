@@ -1,4 +1,4 @@
-"""Veille scientifique V10 — 5 sources : OpenAlex, arXiv, DBLP, Crossref, IACR ePrint.
+"""Veille scientifique V11 — 5 sources : OpenAlex, arXiv, DBLP, Crossref, IACR ePrint.
 
 Étapes : chercher -> filtrer grossièrement -> fusionner les doublons ->
 faire classer les candidats par Gemini -> préparer des fiches -> éventuellement
@@ -28,7 +28,12 @@ MODEL = os.environ.get('GEMINI_MODEL', 'gemini-3.5-flash-lite')
 WRITE_NOTION = os.environ.get('WRITE_NOTION', 'false').lower() == 'true'
 MAX_WRITE = min(10, max(1, int(os.environ.get('MAX_WRITE', '5'))))
 MIN_SCORE = int(os.environ.get('MIN_SCORE', '60'))
-MAX_AI = min(40, max(1, int(os.environ.get('MAX_AI_ARTICLES', '20'))))
+MAX_AI = min(200, max(1, int(os.environ.get('MAX_AI_ARTICLES', '100'))))
+# Batching limite la taille des réponses JSON et les pics de tokens par minute.
+AI_BATCH_SIZE = min(15, max(1, int(os.environ.get('AI_BATCH_SIZE', '10'))))
+# Intervalle entre appels Gemini pour respecter les limites du palier gratuit.
+AI_BATCH_PAUSE = max(0, float(os.environ.get('AI_BATCH_PAUSE_SECONDS', '6')))
+TOKEN_USAGE = {'input': 0, 'output': 0, 'thinking': 0, 'total': 0, 'calls': 0}
 # On active/désactive les nouvelles sources sans toucher au code.
 DBLP_ENABLED = os.environ.get('DBLP_ENABLED', 'true').lower() == 'true'
 CROSSREF_ENABLED = os.environ.get('CROSSREF_ENABLED', 'true').lower() == 'true'
@@ -365,6 +370,13 @@ EXTRA_QUERIES = [
 ]
 
 
+
+# DBLP utilise une syntaxe de recherche par termes ; les longues recherches
+# imbriquées produisent souvent peu de résultats. Trois recherches courtes
+# permettent un test peu agressif et facile à diagnostiquer.
+DBLP_QUERIES = ['RISC-V enclave', 'Keystone attestation', 'microarchitectural side channel']
+DBLP_DELAY_SECONDS = max(2.0, float(os.environ.get('DBLP_DELAY_SECONDS', '2.5')))
+
 def normalized_doi(value):
     """Clé canonique pour rapprocher un DOI venant de deux index."""
     value = (value or '').strip().lower()
@@ -418,7 +430,14 @@ def dblp_search(query):
     url = 'https://dblp.org/search/publ/api?' + urllib.parse.urlencode({
         'q': query, 'h': '25', 'format': 'json'
     })
-    data = safe_get_json(url, 'DBLP')
+    # Les réponses HTML/vides ne sont pas des publications : on les signale.
+    # Ne PAS relancer immédiatement : DBLP peut être en protection anti-abus.
+    try:
+        data = safe_get_json(url, 'DBLP')
+    except json.JSONDecodeError as exc:
+        raise RuntimeError('DBLP_JSON_INVALIDE: réponse vide ou non JSON ; ralentir les appels') from exc
+    if not isinstance(data, dict) or 'result' not in data:
+        raise RuntimeError('DBLP_FORMAT_INATTENDU')
     hits = data.get('result', {}).get('hits', {}).get('hit', [])
     if isinstance(hits, dict):
         hits = [hits]
@@ -577,6 +596,11 @@ def gemini_json(payload):
     # Compteur de tokens fourni par l'API : utile pour surveiller les quotas.
     usage = response.get('usageMetadata', {})
     if usage:
+        TOKEN_USAGE['calls'] += 1
+        TOKEN_USAGE['input'] += usage.get('promptTokenCount', 0)
+        TOKEN_USAGE['output'] += usage.get('candidatesTokenCount', 0)
+        TOKEN_USAGE['thinking'] += usage.get('thoughtsTokenCount', 0)
+        TOKEN_USAGE['total'] += usage.get('totalTokenCount', 0)
         print('Gemini tokens | entrée:', usage.get('promptTokenCount', 0),
               '| sortie:', usage.get('candidatesTokenCount', 0),
               '| raisonnement:', usage.get('thoughtsTokenCount', 0),
@@ -720,27 +744,40 @@ def main():
                 # Une panne arXiv n'efface pas la collecte OpenAlex.
                 print(f'arXiv momentanément indisponible pour {theme_id} : {type(exc).__name__}')
             time.sleep(3.1)  # rythme prudent pour l'API arXiv
-    # Trois sources complémentaires en une seule version, sans trois itérations.
-    # On cherche sur plusieurs expressions ciblées, puis on fait passer tous les
-    # candidats valables par le même filtrage et la même classification Gemini.
-    for enabled, source_name, search_function in [
-        (DBLP_ENABLED, 'DBLP', dblp_search),
-        (CROSSREF_ENABLED, 'Crossref', crossref_search),
-    ]:
-        if not enabled:
-            continue
+    # DBLP a des protections anti-abus : requêtes courtes et espacées,
+    # arrêt si le serveur refuse, sans interrompre les autres sources.
+    if DBLP_ENABLED:
         count = 0
-        for theme_id, query in EXTRA_QUERIES:
+        for idx, query in enumerate(DBLP_QUERIES):
+            if idx:
+                time.sleep(DBLP_DELAY_SECONDS)
             try:
-                papers = search_function(query)
+                papers = dblp_search(query)
                 for paper in papers:
                     themes_found = matching_themes(paper)
                     if themes_found and add_candidate(candidates, themes_found, paper, titles, dois):
                         count += 1
+                print(f'DBLP requête {idx + 1}/{len(DBLP_QUERIES)} : {len(papers)} résultat(s) brut(s)')
+            except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError,
+                    ValueError, KeyError, RuntimeError) as exc:
+                # Si 403/429 ou JSON invalide, une répétition immédiate est
+                # contre-productive. On arrête DBLP pour cette exécution.
+                print(f'ATTENTION DBLP: {type(exc).__name__} ({str(exc)[:130]}). '
+                      'Source interrompue pour cette exécution.')
+                break
+        print(f'DBLP : {count} correspondance(s), doublons possibles')
+    if CROSSREF_ENABLED:
+        count = 0
+        for theme_id, query in EXTRA_QUERIES:
+            try:
+                for paper in crossref_search(query):
+                    themes_found = matching_themes(paper)
+                    if themes_found and add_candidate(candidates, themes_found, paper, titles, dois):
+                        count += 1
             except (urllib.error.URLError, TimeoutError, ValueError, KeyError, RuntimeError) as exc:
-                print(f'ATTENTION {source_name}: recherche indisponible ({type(exc).__name__}).')
-            time.sleep(0.5)
-        print(f'{source_name} : {count} correspondance(s), doublons possibles')
+                print(f'ATTENTION Crossref: requête indisponible ({type(exc).__name__}).')
+            time.sleep(.5)
+        print(f'Crossref : {count} correspondance(s), doublons possibles')
     if IACR_ENABLED:
         try:
             count = 0
@@ -755,37 +792,37 @@ def main():
     print('Sources présentes :', {src: sum(src in rec['sources'] for rec in candidates.values())
                                   for src in SOURCES})
     print(f'Candidates uniques : {len(candidates)}')
-    # Échantillonnage équilibré AVANT IA pour ne pas favoriser les premiers thèmes
-    # de la liste. Ce n'est PAS un quota final par thème : le classement Gemini
-    # reste global et peut retenir plusieurs articles du même thème.
-    ordered = list(candidates.values())
-    theme_buckets = {name[:3]: [] for name, _ in THEMES}
-    for rec in ordered:
-        for theme in rec['themes']:
-            theme_buckets[theme[:3]].append(rec)
-    records = []
-    selected_ids = set()
-    while len(records) < MAX_AI and any(theme_buckets.values()):
-        for theme_id in theme_buckets:
-            bucket = theme_buckets[theme_id]
-            while bucket:
-                rec = bucket.pop(0)
-                key = rec['paper'].get('doi') or rec['paper'].get('id') or norm(rec['paper'].get('title', ''))
-                if key in selected_ids:
-                    continue
-                selected_ids.add(key)
-                records.append(rec)
-                break
-            if len(records) >= MAX_AI:
-                break
-    print(f'Articles évalués globalement : {len(records)} / {len(candidates)} candidats. Aucun quota final par thème.')
+    # On ne tranche pas par thème : chaque candidat peut être évalué.
+    # MAX_AI_ARTICLES est un PLAFOND DE SÉCURITÉ (API), et non un quota par thème.
+    # S'il y a plus de candidats que le plafond, on annonce clairement ce qui
+    # n'a pas été évalué ; aucune prétention à l'exhaustivité.
+    records = list(candidates.values())[:MAX_AI]
+    unevaluated = max(0, len(candidates) - len(records))
+    print(f'Articles à évaluer : {len(records)} / {len(candidates)} candidats.')
+    if unevaluated:
+        print(f'ATTENTION : {unevaluated} article(s) non évalué(s), augmenter MAX_AI_ARTICLES '
+              'ou revoir la collecte. Le classement n’est pas exhaustif.')
     print('Sources des candidats IA :', {src: sum(src in rec['sources'] for rec in records) for src in SOURCES})
     if not records:
         print('Aucun nouvel article candidat.')
         return
-    assessments = ai_assess(records)
-    if len(assessments) != len(records):
-        raise RuntimeError('Réponse IA partielle : rien ne sera ajouté.')
+    assessments = {}
+    # Pour 42 candidats avec AI_BATCH_SIZE=10 : 5 appels Gemini.
+    # ai_assess() reçoit des indices de 0 à len(batch)-1 : on les décale.
+    # Si l'un des lots échoue, l'exécution s'arrête AVANT l'écriture Notion.
+    for offset in range(0, len(records), AI_BATCH_SIZE):
+        batch = records[offset: offset + AI_BATCH_SIZE]
+        print(f'Gemini lot {offset // AI_BATCH_SIZE + 1} : '
+              f'articles {offset + 1}-{offset + len(batch)} sur {len(records)}')
+        local = ai_assess(batch)
+        if len(local) != len(batch):
+            raise RuntimeError(f'Réponse Gemini incomplète pour le lot {offset // AI_BATCH_SIZE + 1}. '
+                               'Import annulé : aucun nouveau document Notion.')
+        for local_index, decision in local.items():
+            assessments[offset + local_index] = decision
+        if offset + len(batch) < len(records):
+            time.sleep(AI_BATCH_PAUSE)
+    print('Évaluations Gemini terminées :', len(assessments), '/', len(records))
     reviewed = sorted(((records[i], assessments[i]) for i in range(len(records))), key=lambda x: x[1]['score'], reverse=True)
     shortlist = []
     for rec, assessment in reviewed:
@@ -809,6 +846,7 @@ def main():
         details.append((rec, assessment, detail))
         print('  Synthèse :', rec['paper'].get('title', '')[:110], '—', detail['resume_court'][:300])
         time.sleep(.5)
+    print('CONSOMMATION GEMINI TOTALE :', TOKEN_USAGE)
     if not WRITE_NOTION:
         print('MODE APERÇU : 0 écriture Notion. Pour importer : WRITE_NOTION=true dans le workflow.')
         return
