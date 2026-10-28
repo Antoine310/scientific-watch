@@ -1,16 +1,29 @@
+# Veille scientifique — lancement manuel sécurisé.
+# Par défaut : aperçu uniquement. Cocher l'option à l'exécution pour importer.
 name: Collecte scientifique - test manuel
 
 on:
   workflow_dispatch:
+    inputs:
+      import_to_notion:
+        description: 'Importer les publications prioritaires dans Notion ?'
+        required: true
+        type: boolean
+        default: false
+
+# Empêche deux collectes parallèles d'ajouter le même article.
+concurrency:
+  group: scientific-watch-notion
+  cancel-in-progress: false
 
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 40
     steps:
       - name: Récupérer le dépôt
         uses: actions/checkout@v4
-      - name: Tester les cinq sources et Gemini par lots
+      - name: Interroger les cinq sources, classer avec Gemini, préparer Notion
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
@@ -19,17 +32,19 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.5-flash-lite
           ARXIV_ENABLED: 'true'
+          # DBLP peut répondre en HTML ou 429 : une panne n'arrête pas la collecte.
           DBLP_ENABLED: 'true'
-          DBLP_DELAY_SECONDS: '2.5'
+          DBLP_DELAY_SECONDS: '3'
           CROSSREF_ENABLED: 'true'
           IACR_ENABLED: 'true'
           LOOKBACK_DAYS: '90'
-          # Première exécution : aucune écriture dans Notion.
-          WRITE_NOTION: 'false'
-          # Jusqu'à 100 candidats, analysés par lots de 10.
+          # Option manuelle explicite, décochée par défaut.
+          WRITE_NOTION: ${{ inputs.import_to_notion }}
           MAX_AI_ARTICLES: '100'
           AI_BATCH_SIZE: '10'
           AI_BATCH_PAUSE_SECONDS: '6'
-          MAX_WRITE: '3'
-          MIN_SCORE: '60'
+          # Import des meilleurs résultats, sans quota par thème.
+          MAX_WRITE: '10'
+          MIN_SCORE_CORE: '75'
+          MIN_SCORE_TRANSFER: '70'
         run: python3 collect.py
