@@ -1,7 +1,14 @@
-"""Scientific watch v9 preview: OpenAlex + arXiv -> Gemini -> optional Notion.
+"""Veille scientifique V10 — 5 sources : OpenAlex, arXiv, DBLP, Crossref, IACR ePrint.
 
-Dry run by default. Never logs credentials. Python standard library only.
+Étapes : chercher -> filtrer grossièrement -> fusionner les doublons ->
+faire classer les candidats par Gemini -> préparer des fiches -> éventuellement
+importer dans Notion. AUCUNE écriture dans Notion par défaut.
+
+Toutes les analyses portent sur le titre et le résumé disponible, jamais sur
+un PDF qui ne serait pas explicitement téléchargé et lu.
+Dépendances : bibliothèque standard Python uniquement.
 """
+import html
 import json
 import os
 import re
@@ -22,10 +29,18 @@ WRITE_NOTION = os.environ.get('WRITE_NOTION', 'false').lower() == 'true'
 MAX_WRITE = min(10, max(1, int(os.environ.get('MAX_WRITE', '5'))))
 MIN_SCORE = int(os.environ.get('MIN_SCORE', '60'))
 MAX_AI = min(40, max(1, int(os.environ.get('MAX_AI_ARTICLES', '20'))))
+# On active/désactive les nouvelles sources sans toucher au code.
+DBLP_ENABLED = os.environ.get('DBLP_ENABLED', 'true').lower() == 'true'
+CROSSREF_ENABLED = os.environ.get('CROSSREF_ENABLED', 'true').lower() == 'true'
+IACR_ENABLED = os.environ.get('IACR_ENABLED', 'true').lower() == 'true'
+LOOKBACK_DAYS = min(365, max(1, int(os.environ.get('LOOKBACK_DAYS', '90'))))
+# IACR est un flux de nouveautés, non un moteur de recherche rétrospectif.
+IACR_RSS_URL = 'https://eprint.iacr.org/rss/rss.xml?order=recent'
 ARXIV_ENABLED = os.environ.get('ARXIV_ENABLED', 'true').lower() == 'true'
 HEADERS = {'Authorization': 'Bearer ' + TOKEN, 'Notion-Version': '2025-09-03', 'Content-Type': 'application/json'}
 
-# Each theme has multiple focused searches; the classification rules are stricter than search.
+# 1. MOTS-CLÉS : chaque thème a plusieurs requêtes.
+# Le classement FINAL se fait globalement par Gemini, sans quota par thème.
 THEMES = [
  ('T01 — Root of Trust & Secure Boot', ['"hardware root of trust"', '"secure boot" RISC-V']),
  ('T02 — DICE & Hardware Identity', ['"device identifier composition engine"', '"DICE attestation"']),
@@ -52,6 +67,8 @@ def abstract(index):
         return ''
     return ' '.join(word for pos, word in sorted((position, word) for word, positions in index.items() for position in positions))
 
+# 2. PRÉFILTRE : empêche seulement les faux positifs les plus évidents.
+# Le jugement scientifique final reste confié à Gemini.
 def relevant(theme_id, title, abstract_text):
     """Conservative rules: paper title must signal the scientific topic.
 
@@ -94,6 +111,8 @@ def relevant(theme_id, title, abstract_text):
         return contains(t, 'cache restor', 'cache warm-up', 'cache partition', 'cache reconfigur', 'hybrid cache', 'scratchpad', 'working set prediction', 'context-aware prefetch') and contains(t, 'cache', 'memory', 'scratchpad', 'prefetch', 'context', 'working set')
     return False
 
+# 3. ÉVALUATION IA : demande une catégorie (cœur, transfert, secondaire, rejet),
+# une justification et une note. La note est indicative, non objective.
 def ai_assess(records):
     """Single structured Gemini request; fail closed on API/format errors."""
     input_papers = []
@@ -261,13 +280,13 @@ def existing_items():
             if title:
                 titles.add(norm(title))
             if doi:
-                dois.add(norm(doi))
+                dois.add(normalized_doi(doi))
         cursor = result.get('next_cursor')
         if not cursor:
             return titles, dois
 
 def search(query):
-    params = {'search': query, 'filter': 'from_publication_date:' + (date.today() - timedelta(days=90)).isoformat(), 'sort': 'publication_date:desc', 'per_page': 25}
+    params = {'search': query, 'filter': 'from_publication_date:' + (date.today() - timedelta(days=LOOKBACK_DAYS)).isoformat(), 'sort': 'publication_date:desc', 'per_page': 25}
     if API_KEY:
         params['api_key'] = API_KEY
     return api('https://api.openalex.org/works?' + urllib.parse.urlencode(params)).get('results', [])
@@ -292,7 +311,7 @@ def arxiv_search(query):
     with urllib.request.urlopen(req, timeout=45) as response:
         root = ET.fromstring(response.read())
     ns = {'a': 'http://www.w3.org/2005/Atom', 'arxiv': 'http://arxiv.org/schemas/atom'}
-    cutoff = date.today() - timedelta(days=90)
+    cutoff = date.today() - timedelta(days=LOOKBACK_DAYS)
     works = []
     for entry in root.findall('a:entry', ns):
         title = ' '.join((entry.findtext('a:title', default='', namespaces=ns)).split())
@@ -325,13 +344,210 @@ def arxiv_search(query):
     return works
 
 
+
+# ---------------------------------------------------------------------------
+# 4. Sources supplémentaires. On convertit chaque résultat au FORMAT COMMUN
+#    utilisé par les anciennes fonctions OpenAlex / Gemini / Notion.
+# ---------------------------------------------------------------------------
+
+# Une poignée de recherches larges dans les nouvelles sources : on pourra
+# augmenter cette liste sans modifier le classement Gemini. Le premier filtre
+# de mots-clés reste volontairement permissif pour ne pas manquer des papiers.
+EXTRA_QUERIES = [
+    ('T01', 'hardware root of trust secure boot RISC-V'),
+    ('T02', 'DICE device identity attestation'),
+    ('T03', 'RISC-V Keystone enclave'),
+    ('T04', 'runtime attestation hardware'),
+    ('T05', 'enclave startup cryptographic acceleration'),
+    ('T06', 'microarchitectural cache side channel'),
+    ('T08', 'cache partitioning enclave security'),
+    ('T10', 'OpenTitan CVA6 RISC-V'),
+]
+
+
+def normalized_doi(value):
+    """Clé canonique pour rapprocher un DOI venant de deux index."""
+    value = (value or '').strip().lower()
+    value = re.sub(r'^https?://(?:dx\.)?doi\.org/', '', value)
+    return value.removeprefix('doi:').strip()
+
+
+def plain_text(value):
+    """Retire les balises HTML simples des abstracts Crossref."""
+    return ' '.join(html.unescape(re.sub(r'<[^>]+>', ' ', value or '')).split())
+
+
+def indexed_abstract(value):
+    """Convertit un résumé en index inversé au format renvoyé par OpenAlex."""
+    result = {}
+    for pos, word in enumerate((value or '').split()):
+        result.setdefault(word, []).append(pos)
+    return result
+
+
+def iso_date(value):
+    """Accepte une date YYYY-MM-DD et vérifie qu'elle est récente."""
+    try:
+        candidate = date.fromisoformat(str(value)[:10])
+    except (ValueError, TypeError):
+        return ''
+    cutoff = date.today() - timedelta(days=LOOKBACK_DAYS)
+    return candidate.isoformat() if cutoff <= candidate <= date.today() else ''
+
+
+def safe_get_json(url, name):
+    """Récupère une source publique avec un nom de User-Agent identifiable.
+
+    Les erreurs sont prises en charge par la boucle appelante afin qu'une
+    source indisponible ne bloque pas toutes les autres.
+    """
+    req = urllib.request.Request(url, headers={
+        'User-Agent': 'scientific-watch/1.0 (noncommercial academic monitoring)',
+        'Accept': 'application/json',
+    })
+    with urllib.request.urlopen(req, timeout=35) as res:
+        return json.load(res)
+
+
+def dblp_search(query):
+    """DBLP : moteur de recherche de publications en informatique.
+
+    DBLP est riche en métadonnées bibliographiques mais fournit rarement
+    un abstract. On laisse l'IA tenir compte de cette absence.
+    """
+    url = 'https://dblp.org/search/publ/api?' + urllib.parse.urlencode({
+        'q': query, 'h': '25', 'format': 'json'
+    })
+    data = safe_get_json(url, 'DBLP')
+    hits = data.get('result', {}).get('hits', {}).get('hit', [])
+    if isinstance(hits, dict):
+        hits = [hits]
+    papers = []
+    for entry in hits:
+        info = entry.get('info', {})
+        title = plain_text(info.get('title', ''))
+        year = str(info.get('year', ''))
+        # DBLP indexe le plus souvent une ANNÉE, pas une date précise.
+        # On conserve l'année comme métadonnée sans prétendre connaître le jour.
+        if not title or not year.isdigit() or int(year) < (date.today() - timedelta(days=LOOKBACK_DAYS)).year:
+            continue
+        doi = normalized_doi(info.get('doi', ''))
+        authors = info.get('authors', {}).get('author', [])
+        if isinstance(authors, dict):
+            authors = [authors]
+        authors = [x.get('text', '') if isinstance(x, dict) else str(x) for x in authors]
+        papers.append({
+            'title': title, 'doi': 'https://doi.org/' + doi if doi else '',
+            'id': info.get('url') or entry.get('@id') or title,
+            # Pas de date de publication fine inventée.
+            'publication_date': '',
+            'abstract_inverted_index': {},
+            'authorships': [{'author': {'display_name': name}} for name in authors],
+            'primary_location': {'landing_page_url': info.get('ee') or info.get('url') or ''},
+            '_discovery_sources': ['DBLP'],
+        })
+    return papers
+
+
+def crossref_search(query):
+    """Crossref : métadonnées enregistrées par les éditeurs et conférences.
+
+    La recherche plein texte peut renvoyer du bruit : on applique ensuite
+    le préfiltre thématique existant avant de demander une évaluation à l'IA.
+    """
+    params = {
+        'query.bibliographic': query,
+        'filter': 'from-pub-date:' + (date.today() - timedelta(days=LOOKBACK_DAYS)).isoformat(),
+        'rows': 20,
+        'select': 'DOI,title,abstract,published,author,URL,type',
+    }
+    url = 'https://api.crossref.org/works?' + urllib.parse.urlencode(params)
+    items = safe_get_json(url, 'Crossref').get('message', {}).get('items', [])
+    papers = []
+    for item in items:
+        title = plain_text((item.get('title') or [''])[0])
+        date_parts = item.get('published', {}).get('date-parts', [[]])
+        parts = date_parts[0] if date_parts else []
+        # On ne connaît parfois que l'année ou le mois ; ne pas inventer le jour.
+        precise_date = ''
+        if len(parts) >= 3:
+            try:
+                precise_date = iso_date(date(*parts[:3]).isoformat())
+            except ValueError:
+                pass
+        elif parts and int(parts[0]) < (date.today() - timedelta(days=LOOKBACK_DAYS)).year:
+            continue
+        doi = normalized_doi(item.get('DOI', ''))
+        if not title:
+            continue
+        authors = [(x.get('given', '') + ' ' + x.get('family', '')).strip() for x in item.get('author', [])]
+        papers.append({
+            'title': title, 'doi': 'https://doi.org/' + doi if doi else '',
+            'id': item.get('URL') or title,
+            'publication_date': precise_date,
+            'abstract_inverted_index': indexed_abstract(plain_text(item.get('abstract', ''))),
+            'authorships': [{'author': {'display_name': name}} for name in authors],
+            'primary_location': {'landing_page_url': item.get('URL') or ''},
+            '_discovery_sources': ['Crossref'],
+        })
+    return papers
+
+
+def iacr_recent():
+    """IACR ePrint : flux RSS des DERNières publications cryptographiques.
+
+    Pas de recherche historique : seulement les éléments présents dans ce flux.
+    Les entrées sans date de publication exploitable sont laissées hors du test.
+    """
+    request = urllib.request.Request(IACR_RSS_URL, headers={
+        'User-Agent': 'scientific-watch/1.0 (academic research monitoring)'
+    })
+    with urllib.request.urlopen(request, timeout=35) as response:
+        root = ET.fromstring(response.read())
+    papers = []
+    from email.utils import parsedate_to_datetime
+    for item in root.findall('.//item'):
+        title = plain_text(item.findtext('title') or '')
+        link = (item.findtext('link') or '').strip()
+        summary = plain_text(item.findtext('description') or '')
+        try:
+            pub = parsedate_to_datetime(item.findtext('pubDate') or '').date().isoformat()
+        except (ValueError, TypeError, IndexError):
+            continue
+        pub = iso_date(pub)
+        if not title or not pub:
+            continue
+        papers.append({
+            'title': title, 'doi': '', 'id': link or title,
+            'publication_date': pub, 'abstract_inverted_index': indexed_abstract(summary),
+            'authorships': [],
+            'primary_location': {'landing_page_url': link},
+            '_discovery_sources': ['IACR ePrint'],
+        })
+    return papers
+
+
+def matching_themes(paper):
+    """Réévalue chaque titre/abstract face aux 12 catégories de recherche."""
+    title = paper.get('title', '')
+    ab = abstract(paper.get('abstract_inverted_index'))
+    return [name for name, _ in THEMES if relevant(name[:3], title, ab)]
+
+
 def add_candidate(candidates, themes, paper, existing_titles, existing_dois):
     title = (paper.get('title') or '').strip()
     doi = (paper.get('doi') or '').strip()
-    if not title or norm(title) in existing_titles or (doi and norm(doi) in existing_dois):
+    if not title or norm(title) in existing_titles or (doi and normalized_doi(doi) in existing_dois):
         return False
     # Cross-source dedup by normalized title, even if DOI is absent or different.
-    key = norm(title)
+    key = norm(re.sub(r"[^\w\s]", " ", title))
+    # DOI prioritaire quand deux titres diffèrent légèrement entre index.
+    doi_key = normalized_doi(doi)
+    if doi_key:
+        for existing_key, rec in candidates.items():
+            if normalized_doi(rec['paper'].get('doi')) == doi_key:
+                key = existing_key
+                break
     if key not in candidates:
         candidates[key] = {'paper': paper, 'themes': [], 'sources': set()}
     record = candidates[key]
@@ -358,6 +574,13 @@ def gemini_json(payload):
     except urllib.error.HTTPError as exc:
         detail = exc.read().decode('utf-8', 'replace')[:500]
         raise RuntimeError(f'Gemini HTTP {exc.code} : {detail}') from None
+    # Compteur de tokens fourni par l'API : utile pour surveiller les quotas.
+    usage = response.get('usageMetadata', {})
+    if usage:
+        print('Gemini tokens | entrée:', usage.get('promptTokenCount', 0),
+              '| sortie:', usage.get('candidatesTokenCount', 0),
+              '| raisonnement:', usage.get('thoughtsTokenCount', 0),
+              '| total:', usage.get('totalTokenCount', 0))
     parts = response.get('candidates', [{}])[0].get('content', {}).get('parts', [])
     raw = ''.join(x.get('text', '') for x in parts)
     if not raw:
@@ -408,6 +631,8 @@ def heading(text):
     return {'object': 'block', 'type': 'heading_2', 'heading_2': {'rich_text': rt(text)}}
 
 
+# 5. IMPORT NOTION : uniquement si WRITE_NOTION=true.
+# Remplit les propriétés puis le corps de page avec l'analyse détaillée.
 def notion_add(record, assessment, detail, schema):
     paper = record['paper']
     title = (paper.get('title') or '')[:1800]
@@ -460,6 +685,8 @@ def notion_add(record, assessment, detail, schema):
     return api('https://api.notion.com/v1/pages', payload)
 
 
+# 6. ORCHESTRATION : Notion (déjà vus) -> 5 sources -> dédoublonnage ->
+# Gemini -> synthèses -> éventuellement Notion.
 def main():
     titles, dois = existing_items()
     candidates = {}
@@ -493,8 +720,40 @@ def main():
                 # Une panne arXiv n'efface pas la collecte OpenAlex.
                 print(f'arXiv momentanément indisponible pour {theme_id} : {type(exc).__name__}')
             time.sleep(3.1)  # rythme prudent pour l'API arXiv
+    # Trois sources complémentaires en une seule version, sans trois itérations.
+    # On cherche sur plusieurs expressions ciblées, puis on fait passer tous les
+    # candidats valables par le même filtrage et la même classification Gemini.
+    for enabled, source_name, search_function in [
+        (DBLP_ENABLED, 'DBLP', dblp_search),
+        (CROSSREF_ENABLED, 'Crossref', crossref_search),
+    ]:
+        if not enabled:
+            continue
+        count = 0
+        for theme_id, query in EXTRA_QUERIES:
+            try:
+                papers = search_function(query)
+                for paper in papers:
+                    themes_found = matching_themes(paper)
+                    if themes_found and add_candidate(candidates, themes_found, paper, titles, dois):
+                        count += 1
+            except (urllib.error.URLError, TimeoutError, ValueError, KeyError, RuntimeError) as exc:
+                print(f'ATTENTION {source_name}: recherche indisponible ({type(exc).__name__}).')
+            time.sleep(0.5)
+        print(f'{source_name} : {count} correspondance(s), doublons possibles')
+    if IACR_ENABLED:
+        try:
+            count = 0
+            for paper in iacr_recent():
+                matching = matching_themes(paper)
+                if matching and add_candidate(candidates, matching, paper, titles, dois):
+                    count += 1
+            print(f'IACR ePrint : {count} correspondance(s), doublons possibles')
+        except (urllib.error.URLError, TimeoutError, ValueError, ET.ParseError) as exc:
+            print(f'ATTENTION IACR ePrint : flux indisponible ({type(exc).__name__}).')
+    SOURCES = ('OpenAlex', 'arXiv', 'DBLP', 'Crossref', 'IACR ePrint')
     print('Sources présentes :', {src: sum(src in rec['sources'] for rec in candidates.values())
-                                  for src in ('OpenAlex', 'arXiv')})
+                                  for src in SOURCES})
     print(f'Candidates uniques : {len(candidates)}')
     # Échantillonnage équilibré AVANT IA pour ne pas favoriser les premiers thèmes
     # de la liste. Ce n'est PAS un quota final par thème : le classement Gemini
@@ -520,7 +779,7 @@ def main():
             if len(records) >= MAX_AI:
                 break
     print(f'Articles évalués globalement : {len(records)} / {len(candidates)} candidats. Aucun quota final par thème.')
-    print('Sources des candidats IA :', {src: sum(src in rec['sources'] for rec in records) for src in ('OpenAlex', 'arXiv')})
+    print('Sources des candidats IA :', {src: sum(src in rec['sources'] for rec in records) for src in SOURCES})
     if not records:
         print('Aucun nouvel article candidat.')
         return
