@@ -1,4 +1,4 @@
-"""Veille scientifique V11 — 5 sources : OpenAlex, arXiv, DBLP, Crossref, IACR ePrint.
+"""Veille scientifique V12 — 5 sources : OpenAlex, arXiv, DBLP, Crossref, IACR ePrint.
 
 Étapes : chercher -> filtrer grossièrement -> fusionner les doublons ->
 faire classer les candidats par Gemini -> préparer des fiches -> éventuellement
@@ -26,8 +26,12 @@ API_KEY = os.environ.get('OPENALEX_API_KEY', '').strip()
 GEMINI_KEY = os.environ['GEMINI_API_KEY'].strip()
 MODEL = os.environ.get('GEMINI_MODEL', 'gemini-3.5-flash-lite')
 WRITE_NOTION = os.environ.get('WRITE_NOTION', 'false').lower() == 'true'
-MAX_WRITE = min(10, max(1, int(os.environ.get('MAX_WRITE', '5'))))
-MIN_SCORE = int(os.environ.get('MIN_SCORE', '60'))
+MAX_WRITE = min(15, max(1, int(os.environ.get('MAX_WRITE', '10'))))
+# Seuils distincts : l'intérêt de la thèse prime sur le score seul.
+# "coeur" : RoT/TEE/RISC-V, runtime attestation du TEE, attaques CPU.
+# "transfert_explicite" : mécanisme directement réutilisable pour ces axes.
+MIN_SCORE_CORE = int(os.environ.get('MIN_SCORE_CORE', '75'))
+MIN_SCORE_TRANSFER = int(os.environ.get('MIN_SCORE_TRANSFER', '70'))
 MAX_AI = min(200, max(1, int(os.environ.get('MAX_AI_ARTICLES', '100'))))
 # Batching limite la taille des réponses JSON et les pics de tokens par minute.
 AI_BATCH_SIZE = min(15, max(1, int(os.environ.get('AI_BATCH_SIZE', '10'))))
@@ -50,7 +54,7 @@ THEMES = [
  ('T01 — Root of Trust & Secure Boot', ['"hardware root of trust"', '"secure boot" RISC-V']),
  ('T02 — DICE & Hardware Identity', ['"device identifier composition engine"', '"DICE attestation"']),
  ('T03 — RISC-V TEE & Enclaves', ['"RISC-V" "enclave"', 'Keystone enclave']),
- ('T04 — Runtime Attestation', ['"runtime attestation"', '"control flow attestation"']),
+ ('T04 — Runtime Attestation', ['"runtime attestation"', '"control flow attestation"', '"TEE" "runtime attestation"', '"enclave" "continuous attestation"']),
  ('T05 — Enclave Performance & Crypto', ['"enclave startup" performance', '"cryptographic accelerator" attestation']),
  ('T06 — Microarchitectural Side Channels', ['"microarchitectural side channel"', '"cache timing attack" processor']),
  ('T07 — Hardware Security Verification', ['"hardware information flow tracking"', '"RTL security verification"']),
@@ -133,6 +137,14 @@ def ai_assess(records):
 1. Root of Trust matérielle, chaîne de confiance, DICE, OpenTitan, secure boot.
 2. TEE/enclaves, surtout RISC-V (Keystone/CVA6), isolation, lancement, attestation,
    optimisation du cycle de vie et des opérations cryptographiques.
+   L'ATTESTATION PENDANT L'EXÉCUTION (runtime/continuous/control-flow attestation)
+   est un objectif important lorsqu'elle vérifie l'intégrité d'un TEE, d'une
+   enclave ou d'une chaîne de confiance enracinée matériellement. Cela peut
+   relever du COEUR de thèse, y compris sur une autre architecture si le
+   mécanisme est explicitement transférable à RISC-V/Keystone. Ne pénalise
+   pas le fait que le papier ne porte pas sur CVA6 lui-même.
+   À l'inverse, l'attestation déclarative d'un agent IA ou d'un service SaaS
+   sans preuve d'intégrité matérielle/d'exécution reste SECONDAIRE.
 3. Attaques par canaux auxiliaires MICROARCHITECTURAUX SUR PROCESSEURS
    (caches CPU, TLB, prédicteurs, exécution spéculative, contention entre domaines)
    et contre-mesures applicables à RoT/TEE.
@@ -158,11 +170,11 @@ Classe chaque article dans UNE catégorie :
 PRIORITÉS EXACTES DE CETTE THÈSE (PAR ORDRE) :
 A. CENTRE DE VEILLE : Keystone et son Security Monitor ; Root of Trust MATÉRIELLE ;
    intégration RoT/TEE sur RISC-V ; CVA6/Ariane ; OpenTitan ; boot et chaîne
-   de confiance ; attestation des enclaves ; attaques TEMPORELLES SUR LES
+   de confiance ; attestation initiale ET RUNTIME de TEE/enclaves ; attaques TEMPORELLES SUR LES
    CACHES CPU (L1/L2/LLC), Prime+Probe, Flush+Reload, contention matérielle ;
    contre-mesures microarchitecturales applicables au CPU/TEE.
 B. TRÈS UTILE SI LIEN CONCRET : DICE et identité liée à RoT ; performance
-   création/démarrage d'enclaves ; attestation runtime ; protection mémoire,
+   création/démarrage d'enclaves ; protection mémoire,
    PMP/ePMP, TLB ; isolation temporelle ; attaques de cache CPU x86/ARM/MIPS
    et mécanismes transférables aux TEE RISC-V.
 C. SECONDAIRE SAUF APPLICATION DIRECTE DÉMONTRÉE À A OU B : méthodes
@@ -712,6 +724,8 @@ def notion_add(record, assessment, detail, schema):
 # 6. ORCHESTRATION : Notion (déjà vus) -> 5 sources -> dédoublonnage ->
 # Gemini -> synthèses -> éventuellement Notion.
 def main():
+    # Rappel : la collecte est manuelle tant que le workflow n'a pas de cron.
+    # En cas de doute, exécuter avec WRITE_NOTION=false : aucun article ajouté.
     titles, dois = existing_items()
     candidates = {}
     for theme, queries in THEMES:
@@ -833,13 +847,25 @@ def main():
         print('  Thèmes :', ', '.join(assessment.get('themes', [])), '| confiance :', assessment.get('confiance'), '| abstract :', bool(ab))
         print('  Catégorie :', assessment.get('categorie'), '| lien :', str(assessment.get('lien_concret', ''))[:160])
         print('  Pourquoi :', str(assessment.get('justification', ''))[:250])
-        # Les sujets secondaires restent visibles mais ne sont PAS importés automatiquement.
-        if (assessment.get('categorie') in ('coeur', 'transfert_explicite')
-                and decision in ('conserver', 'examiner') and score >= MIN_SCORE):
+        # Garde-fou NON-IA avant Notion : seuls les sujets directement utiles
+        # passent, même si Gemini attribue un score élevé à un sujet secondaire.
+        # Le modèle peut dire "consigner" au lieu de "conserver" : on accepte
+        # ces synonymes sans élargir les catégories autorisées.
+        category = str(assessment.get('categorie', '')).casefold().strip()
+        allowed_decisions = {'conserver', 'consigner', 'examiner'}
+        threshold = (MIN_SCORE_CORE if category == 'coeur'
+                     else MIN_SCORE_TRANSFER if category == 'transfert_explicite'
+                     else 101)
+        if decision in allowed_decisions and score >= threshold:
             shortlist.append((rec, assessment))
     shortlisted = shortlist[:MAX_WRITE]
-    print(f'\nÀ synthétiser : {len(shortlisted)} (max {MAX_WRITE}) | WRITE_NOTION={WRITE_NOTION}')
-    # Generate summaries even in preview mode to validate scientific quality before publishing.
+    print(f'\nSélection globale : {len(shortlist)} candidat(s) prioritaires, '
+          f'{len(shortlisted)} importable(s) au maximum pour cette exécution.')
+    print(f'Seuil coeur={MIN_SCORE_CORE} ; transfert explicite={MIN_SCORE_TRANSFER} '
+          f'| WRITE_NOTION={WRITE_NOTION}')
+    # Le mode aperçu génère aussi les fiches pour les contrôler scientifiquement.
+    # Avant un import réel, TOUTES les fiches sont construites en mémoire :
+    # si Gemini échoue sur l'une d'elles, aucune nouvelle page n'est écrite.
     details = []
     for rec, assessment in shortlisted:
         detail = analyze_detail(rec)
@@ -847,15 +873,30 @@ def main():
         print('  Synthèse :', rec['paper'].get('title', '')[:110], '—', detail['resume_court'][:300])
         time.sleep(.5)
     print('CONSOMMATION GEMINI TOTALE :', TOKEN_USAGE)
+    if len(shortlist) > MAX_WRITE:
+        print(f'ATTENTION : {len(shortlist)-MAX_WRITE} article(s) pertinent(s) '
+              'non importé(s) à cause de MAX_WRITE. Relancer après import '
+              'ou ajuster le plafond pour éviter de les manquer.')
     if not WRITE_NOTION:
         print('MODE APERÇU : 0 écriture Notion. Pour importer : WRITE_NOTION=true dans le workflow.')
         return
     source = api(f'https://api.notion.com/v1/data_sources/{SOURCE_ID}')
     schema = source.get('properties', {})
+    # Dernière relecture des doublons juste avant les écritures (sécurité
+    # supplémentaire en cas de lancement parallèle d'un autre workflow).
+    latest_titles, latest_dois = existing_items()
     for rec, assessment, detail in details:
+        title_key = norm(rec['paper'].get('title', ''))
+        doi_key = norm(rec['paper'].get('doi', ''))
+        if title_key in latest_titles or (doi_key and doi_key in latest_dois):
+            print('⏭️ Déjà présent dans Notion :', rec['paper'].get('title', ''))
+            continue
         result = notion_add(rec, assessment, detail, schema)
+        latest_titles.add(title_key)
+        if doi_key:
+            latest_dois.add(doi_key)
         print('✅ Ajout :', rec['paper']['title'][:120], '—', result.get('url', ''))
-    print('Terminé :', len(details), 'publication(s) ajoutée(s).')
+    print('Terminé : import Notion réalisé (voir les lignes Ajout ci-dessus).')
 
 if __name__ == '__main__':
     main()
