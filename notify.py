@@ -100,6 +100,16 @@ def main():
                  'Nouvelles publications ajoutées à Notion :\n\n' + article_lines(articles))
         else:
             print('Aucune nouvelle publication : pas d’e-mail.')
+    elif mode == 'priority':
+        # Seulement les nouveautés réellement importées avec un score très élevé.
+        file = pathlib.Path('new_articles.json')
+        articles = json.loads(file.read_text(encoding='utf-8')) if file.exists() else []
+        priority = [a for a in articles if (a.get('score') or 0) >= 90]
+        if priority:
+            send(f'🚨 Veille scientifique — {len(priority)} découverte(s) prioritaires',
+                 'Publications importantes ajoutées à Notion :\n\n' + article_lines(priority))
+        else:
+            print('Aucune découverte prioritaire : pas de mail immédiat.')
     elif mode == 'weekly':
         articles = recent_from_notion()
         send(f'📚 Récapitulatif scientifique — {len(articles)} publication(s) cette semaine',
@@ -111,7 +121,7 @@ def main():
              'Une collecte a échoué. Elle sera retentée au prochain créneau programmé.\n'
              f'Consulter les journaux GitHub Actions : {url}\n')
     else:
-        raise ValueError('Mode attendu : new, weekly ou failure.')
+        raise ValueError('Mode attendu : new, priority, weekly ou failure.')
 
 if __name__ == '__main__':
     main()
