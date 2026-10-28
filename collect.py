@@ -1,4 +1,4 @@
-"""Scientific watch v8b: OpenAlex -> Gemini relevance -> optional Notion import.
+"""Scientific watch v9 preview: OpenAlex + arXiv -> Gemini -> optional Notion.
 
 Dry run by default. Never logs credentials. Python standard library only.
 """
@@ -9,6 +9,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 from datetime import date, timedelta
 
 TOKEN = os.environ['NOTION_TOKEN']
@@ -20,7 +21,8 @@ MODEL = os.environ.get('GEMINI_MODEL', 'gemini-3.5-flash-lite')
 WRITE_NOTION = os.environ.get('WRITE_NOTION', 'false').lower() == 'true'
 MAX_WRITE = min(10, max(1, int(os.environ.get('MAX_WRITE', '5'))))
 MIN_SCORE = int(os.environ.get('MIN_SCORE', '60'))
-MAX_AI = min(30, max(1, int(os.environ.get('MAX_AI_ARTICLES', '20'))))
+MAX_AI = min(40, max(1, int(os.environ.get('MAX_AI_ARTICLES', '20'))))
+ARXIV_ENABLED = os.environ.get('ARXIV_ENABLED', 'true').lower() == 'true'
 HEADERS = {'Authorization': 'Bearer ' + TOKEN, 'Notion-Version': '2025-09-03', 'Content-Type': 'application/json'}
 
 # Each theme has multiple focused searches; the classification rules are stricter than search.
@@ -270,6 +272,80 @@ def search(query):
         params['api_key'] = API_KEY
     return api('https://api.openalex.org/works?' + urllib.parse.urlencode(params)).get('results', [])
 
+# Requêtes complémentaires courtes pour arXiv, sans quota final par thème.
+ARXIV_QUERIES = [
+    ('T01', 'all:"root of trust" AND all:"RISC-V"'),
+    ('T03', 'all:"RISC-V" AND (all:enclave OR all:Keystone)'),
+    ('T06', 'all:"side channel" AND (all:cache OR all:microarchitecture)'),
+    ('T10', 'all:OpenTitan OR all:CVA6'),
+]
+
+
+def arxiv_search(query):
+    """Interroge l'API Atom arXiv et convertit en structure compatible OpenAlex."""
+    params = urllib.parse.urlencode({
+        'search_query': query, 'start': '0', 'max_results': '25',
+        'sortBy': 'submittedDate', 'sortOrder': 'descending'
+    })
+    url = 'https://export.arxiv.org/api/query?' + params
+    req = urllib.request.Request(url, headers={'User-Agent': 'scientific-watch/0.9 (academic literature monitoring)'})
+    with urllib.request.urlopen(req, timeout=45) as response:
+        root = ET.fromstring(response.read())
+    ns = {'a': 'http://www.w3.org/2005/Atom', 'arxiv': 'http://arxiv.org/schemas/atom'}
+    cutoff = date.today() - timedelta(days=90)
+    works = []
+    for entry in root.findall('a:entry', ns):
+        title = ' '.join((entry.findtext('a:title', default='', namespaces=ns)).split())
+        summary = ' '.join((entry.findtext('a:summary', default='', namespaces=ns)).split())
+        published = entry.findtext('a:published', default='', namespaces=ns)[:10]
+        if not title or not published:
+            continue
+        try:
+            if date.fromisoformat(published) < cutoff:
+                continue
+        except ValueError:
+            continue
+        link = entry.findtext('a:id', default='', namespaces=ns)
+        if not link:
+            continue
+        doi_value = (entry.findtext('arxiv:doi', default='', namespaces=ns) or '').strip()
+        doi = 'https://doi.org/' + doi_value.removeprefix('https://doi.org/') if doi_value else ''
+        words = summary.split()
+        inv = {}
+        for index, word in enumerate(words):
+            inv.setdefault(word, []).append(index)
+        works.append({
+            'id': link, 'title': title, 'doi': doi,
+            'publication_date': published, 'abstract_inverted_index': inv,
+            'authorships': [{'author': {'display_name': x.findtext('a:name', default='', namespaces=ns)}}
+                            for x in entry.findall('a:author', ns)],
+            'primary_location': {'landing_page_url': link},
+            '_discovery_sources': ['arXiv'],
+        })
+    return works
+
+
+def add_candidate(candidates, themes, paper, existing_titles, existing_dois):
+    title = (paper.get('title') or '').strip()
+    doi = (paper.get('doi') or '').strip()
+    if not title or norm(title) in existing_titles or (doi and norm(doi) in existing_dois):
+        return False
+    # Cross-source dedup by normalized title, even if DOI is absent or different.
+    key = norm(title)
+    if key not in candidates:
+        candidates[key] = {'paper': paper, 'themes': [], 'sources': set()}
+    record = candidates[key]
+    for theme in themes:
+        if theme not in record['themes']:
+            record['themes'].append(theme)
+    record['sources'].update(paper.get('_discovery_sources', ['OpenAlex']))
+    # Prefer the richer abstract for AI evaluation, keeping source provenance.
+    if (len(abstract(paper.get('abstract_inverted_index'))) >
+            len(abstract(record['paper'].get('abstract_inverted_index')))):
+        record['paper'] = paper
+    return True
+
+
 def gemini_json(payload):
     """Strict response parsing; fail without producing fabricated analyses."""
     url = f'https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent'
@@ -362,7 +438,7 @@ def notion_add(record, assessment, detail, schema):
     if 'Date de détection' in schema:
         properties['Date de détection'] = {'date': {'start': date.today().isoformat()}}
     if 'Source' in schema:
-        properties['Source'] = {'multi_select': [{'name': 'OpenAlex'}]}
+        properties['Source'] = {'multi_select': [{'name': src} for src in sorted(record.get('sources', {'OpenAlex'}))]}
     if 'Priorité' in schema:
         v = 'Haute' if score >= 80 else 'Moyenne'
         typ = schema['Priorité']['type']
@@ -372,14 +448,14 @@ def notion_add(record, assessment, detail, schema):
             properties['Priorité'] = {'multi_select': [{'name': v}]}
     # Respect database property types and avoid Notion 400 errors from mismatches.
     properties = {k: v for k, v in properties.items() if k in schema and next(iter(v)) == schema[k]['type']}
-    children = [paragraph('Analyse IA fondée uniquement sur le titre et le résumé accessible via OpenAlex.'),
+    children = [paragraph('Analyse IA fondée sur les métadonnées et le résumé accessible. Découvert via : ' + ', '.join(sorted(record.get('sources', {'OpenAlex'}))) + '. Aucun PDF lu.'),
         paragraph('Confiance IA : ' + str(assessment.get('confiance', 'non renseignée'))),
         paragraph('Pertinence pour la thèse : ' + str(assessment.get('justification', '')))]
     for label, key in [('Problématique', 'problematique'), ('Méthodologie', 'methode'),
                         ('Résultats annoncés', 'resultats'), ('Limites', 'limites'),
                         ('Intérêt pour la thèse', 'interet')]:
         children.extend([heading(label), paragraph(detail[key])])
-    children.extend([heading('Résumé source (OpenAlex)'), paragraph(ab if ab else 'Résumé indisponible : vérifier la publication originale.')])
+    children.extend([heading('Résumé source (index scientifique)'), paragraph(ab if ab else 'Résumé indisponible : vérifier la publication originale.')])
     payload = {'parent': {'database_id': DATABASE_ID}, 'properties': properties, 'children': children}
     return api('https://api.notion.com/v1/pages', payload)
 
@@ -393,19 +469,32 @@ def main():
         for query in queries:
             for paper in search(query):
                 title = (paper.get('title') or '').strip()
-                doi = (paper.get('doi') or '').strip()
-                if not title or norm(title) in titles or (doi and norm(doi) in dois):
-                    continue
                 if not relevant(theme_id, title, abstract(paper.get('abstract_inverted_index'))):
                     continue
-                pid = doi.casefold() if doi else norm(title)
-                if pid not in candidates:
-                    candidates[pid] = {'paper': paper, 'themes': []}
-                if theme not in candidates[pid]['themes']:
-                    candidates[pid]['themes'].append(theme)
-                count += 1
-        print(f'{theme_id}: {count} correspondance(s) avant dédoublonnage')
+                if add_candidate(candidates, [theme], paper, titles, dois):
+                    count += 1
+        print(f'{theme_id} OpenAlex : {count} correspondance(s), doublons possibles')
         time.sleep(.3)
+    if ARXIV_ENABLED:
+        print('Recherche complémentaire arXiv (Atom) ...')
+        for theme_id, query in ARXIV_QUERIES:
+            try:
+                papers = arxiv_search(query)
+                count = 0
+                for paper in papers:
+                    title = paper['title']
+                    if not relevant(theme_id, title, abstract(paper.get('abstract_inverted_index'))):
+                        continue
+                    matching = [name for name, _ in THEMES if name.startswith(theme_id)]
+                    if add_candidate(candidates, matching, paper, titles, dois):
+                        count += 1
+                print(f'{theme_id} arXiv : {count} correspondance(s), doublons possibles')
+            except (TimeoutError, urllib.error.URLError, ET.ParseError) as exc:
+                # Une panne arXiv n'efface pas la collecte OpenAlex.
+                print(f'arXiv momentanément indisponible pour {theme_id} : {type(exc).__name__}')
+            time.sleep(3.1)  # rythme prudent pour l'API arXiv
+    print('Sources présentes :', {src: sum(src in rec['sources'] for rec in candidates.values())
+                                  for src in ('OpenAlex', 'arXiv')})
     print(f'Candidates uniques : {len(candidates)}')
     # Échantillonnage équilibré AVANT IA pour ne pas favoriser les premiers thèmes
     # de la liste. Ce n'est PAS un quota final par thème : le classement Gemini
@@ -431,6 +520,7 @@ def main():
             if len(records) >= MAX_AI:
                 break
     print(f'Articles évalués globalement : {len(records)} / {len(candidates)} candidats. Aucun quota final par thème.')
+    print('Sources des candidats IA :', {src: sum(src in rec['sources'] for rec in records) for src in ('OpenAlex', 'arXiv')})
     if not records:
         print('Aucun nouvel article candidat.')
         return
