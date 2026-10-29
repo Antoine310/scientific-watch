@@ -86,6 +86,12 @@ def recent_from_notion():
         cursor = data.get('next_cursor')
         if not cursor:
             break
+    archive = pathlib.Path('data/history_records.json')
+    if archive.exists():
+        import re
+        historical = json.loads(archive.read_text(encoding='utf-8'))
+        old_titles = {re.sub(r'\W+', '', v.get('title', '').casefold()) for v in historical.values()}
+        rows = [r for r in rows if re.sub(r'\W+', '', r['title'].casefold()) not in old_titles]
     rows.sort(key=lambda row: row.get('score') or 0, reverse=True)
     return rows
 
