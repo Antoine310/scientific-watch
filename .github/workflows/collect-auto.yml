@@ -88,7 +88,8 @@ jobs:
           WRITE_NOTION: 'true'
           HISTORY_DRY_RUN: 'false'
           HISTORY_END: '2026-10-28'
-          HISTORY_MAX_AI: '12'
+          HISTORY_MAX_AI: '30'
+          HISTORY_MAX_PAGES: '20'
           PUBLIC_REPO_TOKEN: ${{ secrets.PUBLIC_REPO_TOKEN }}
           PUBLIC_REPO: Antoine310/scientific-watch-v2
           PUBLIC_DRY_RUN: 'false'
