@@ -1,50 +1,62 @@
-# V13 — Collecte programmée, relances régulières et e-mails facultatifs.
-# Heures UTC : 07:30, 10:30, 14:30 (horaire local variable avec l'heure d'été).
-# Les trois passages quotidiens sont intentionnels : si une API échoue,
-# la prochaine exécution repart des nouveaux articles absents de Notion.
-name: Veille scientifique automatique V14
+name: Veille scientifique V16
 
 on:
   workflow_dispatch:
     inputs:
-      import_to_notion:
-        description: 'Importer les publications prioritaires dans Notion ?'
-        type: boolean
+      mode:
+        description: 'preview / daily / historical / weekly'
+        type: choice
+        options: [preview, daily, historical, weekly]
+        default: preview
         required: true
-        default: false
-      publish_public:
-        description: 'Publier le rapport public pendant le test hebdomadaire ?'
-        type: boolean
-        required: true
-        default: false
-      weekly_report:
-        description: 'Envoyer seulement le bilan hebdomadaire ?'
-        type: boolean
-        required: true
-        default: false
   schedule:
-    - cron: '30 7 * * *'
-    - cron: '0 18 * * 0'
+    - cron: '0 7 * * *'
+      timezone: 'Europe/Paris'
+    - cron: '30 8 * * *'
+      timezone: 'Europe/Paris'
+    - cron: '0 19 * * 0'
+      timezone: 'Europe/Paris'
 
 permissions:
-  contents: read
+  contents: write # pour conserver data/ dans le dépôt PRIVÉ
 
+# Évite deux écritures concurrentes du cache ET des index GitHub publics.
 concurrency:
-  group: scientific-watch-notion
+  group: scientific-watch-shared-state
   cancel-in-progress: false
 
 jobs:
-  collect:
-    if: ${{ github.event_name == 'workflow_dispatch' && !inputs.weekly_report || github.event_name == 'schedule' && github.event.schedule != '0 18 * * 0' && vars.AUTO_IMPORT_ENABLED == 'true' }}
+  veille:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 55
+    # Déploiement sécurisé : les cron ne font rien sans activation explicite.
+    if: ${{ github.event_name == 'workflow_dispatch' || vars.AUTO_IMPORT_ENABLED == 'true' }}
     steps:
-      - name: Récupérer le dépôt
-        uses: actions/checkout@v4
-      - name: Compiler le Python avant toute collecte
-        run: python3 -m py_compile collect.py notify.py publish_weekly.py
-      - name: Rechercher, évaluer et éventuellement importer
-        id: collect
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Python — contrôle des fichiers
+        run: python3 -m py_compile collect.py cache_v16.py history.py publish_history.py publish_weekly.py notify.py
+      - name: Sélectionner le mode
+        id: mode
+        env:
+          EVENT: ${{ github.event_name }}
+          CRON: ${{ github.event.schedule }}
+          SELECTED: ${{ inputs.mode }}
+        run: |
+          if [ "$EVENT" = "workflow_dispatch" ]; then
+            MODE="$SELECTED"
+          elif [ "$CRON" = '0 7 * * *' ]; then
+            MODE='historical'
+          elif [ "$CRON" = '30 8 * * *' ]; then
+            MODE='daily'
+          else
+            MODE='weekly'
+          fi
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+          echo "Mode sélectionné : $MODE"
+      - name: Collecte quotidienne (aperçu ou réel)
+        if: ${{ steps.mode.outputs.mode == 'daily' || steps.mode.outputs.mode == 'preview' }}
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
@@ -52,43 +64,55 @@ jobs:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.5-flash-lite
-          ARXIV_ENABLED: 'true'
-          DBLP_ENABLED: 'true'
-          DBLP_DELAY_SECONDS: '3'
-          CROSSREF_ENABLED: 'true'
-          IACR_ENABLED: 'true'
           LOOKBACK_DAYS: '30'
-          WRITE_NOTION: ${{ github.event_name == 'schedule' && 'true' || inputs.import_to_notion && 'true' || 'false' }}
-          MAX_AI_ARTICLES: '100'
+          WRITE_NOTION: ${{ steps.mode.outputs.mode == 'daily' && 'true' || 'false' }}
+          MAX_AI_ARTICLES: '50'
           AI_BATCH_SIZE: '10'
-          AI_BATCH_PAUSE_SECONDS: '6'
           MAX_WRITE: '10'
           MIN_SCORE_CORE: '75'
           MIN_SCORE_TRANSFER: '70'
+          DBLP_ENABLED: 'true'
+          CROSSREF_ENABLED: 'true'
+          IACR_ENABLED: 'true'
+          ARXIV_ENABLED: 'true'
         run: python3 collect.py
-      - name: Envoyer les alertes prioritaires Gmail
-        if: ${{ success() && (github.event_name == 'schedule' || inputs.import_to_notion) }}
+      - name: Historique progressif
+        if: ${{ steps.mode.outputs.mode == 'historical' }}
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          NOTION_DATA_SOURCE_ID: ${{ secrets.NOTION_DATA_SOURCE_ID }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-3.5-flash-lite
+          WRITE_NOTION: 'true'
+          HISTORY_DRY_RUN: 'false'
+          HISTORY_END: '2026-10-28'
+          HISTORY_MAX_AI: '12'
+          PUBLIC_REPO_TOKEN: ${{ secrets.PUBLIC_REPO_TOKEN }}
+          PUBLIC_REPO: Antoine310/scientific-watch-v2
+          PUBLIC_DRY_RUN: 'false'
+        run: python3 history.py
+      - name: Enregistrer le cache et la progression dans le dépôt privé
+        if: ${{ always() && (steps.mode.outputs.mode == 'daily' || steps.mode.outputs.mode == 'historical') }}
+        run: |
+          git config user.name 'scientific-watch-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f data/article_cache.json 2>/dev/null || true
+          git add -f data/history_progress.json data/history_records.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'Veille V16 : cache et progression de recherche'
+            git push
+          fi
+      - name: Alertes prioritaires quotidiennes
+        if: ${{ steps.mode.outputs.mode == 'daily' }}
         env:
           GMAIL_FROM: ${{ secrets.GMAIL_FROM }}
           GMAIL_TO: ${{ secrets.GMAIL_TO }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: python3 notify.py priority
-      - name: Signaler une panne par Gmail
-        if: ${{ failure() }}
-        env:
-          GMAIL_FROM: ${{ secrets.GMAIL_FROM }}
-          GMAIL_TO: ${{ secrets.GMAIL_TO }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
-        run: python3 notify.py failure
-
-  weekly:
-    if: ${{ github.event_name == 'workflow_dispatch' && inputs.weekly_report || github.event_name == 'schedule' && github.event.schedule == '0 18 * * 0' && vars.AUTO_IMPORT_ENABLED == 'true' }}
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - uses: actions/checkout@v4
-      - name: Envoyer le récapitulatif des 7 derniers jours
+      - name: Bilan hebdomadaire
+        if: ${{ steps.mode.outputs.mode == 'weekly' }}
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATA_SOURCE_ID: ${{ secrets.NOTION_DATA_SOURCE_ID }}
@@ -96,8 +120,8 @@ jobs:
           GMAIL_TO: ${{ secrets.GMAIL_TO }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: python3 notify.py weekly
-      - name: Publier le rapport hebdomadaire sur le dépôt public
-        if: ${{ success() && (github.event_name == 'schedule' || inputs.publish_public) }}
+      - name: Publication du rapport hebdomadaire
+        if: ${{ steps.mode.outputs.mode == 'weekly' }}
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATA_SOURCE_ID: ${{ secrets.NOTION_DATA_SOURCE_ID }}
