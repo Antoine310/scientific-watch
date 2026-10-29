@@ -9,6 +9,7 @@ un PDF qui ne serait pas explicitement téléchargé et lu.
 Dépendances : bibliothèque standard Python uniquement.
 """
 import html
+import cache_v16
 import pathlib
 import json
 import os
@@ -799,6 +800,7 @@ def main():
     # Rappel : la collecte est manuelle tant que le workflow n'a pas de cron.
     # En cas de doute, exécuter avec WRITE_NOTION=false : aucun article ajouté.
     titles, dois = existing_items()
+    cache = cache_v16.read()
     candidates = {}
     for theme, queries in THEMES:
         theme_id = theme[:3]
@@ -882,9 +884,12 @@ def main():
     # MAX_AI_ARTICLES est un PLAFOND DE SÉCURITÉ (API), et non un quota par thème.
     # S'il y a plus de candidats que le plafond, on annonce clairement ce qui
     # n'a pas été évalué ; aucune prétention à l'exhaustivité.
-    records = list(candidates.values())[:MAX_AI]
-    unevaluated = max(0, len(candidates) - len(records))
-    print(f'Articles à évaluer : {len(records)} / {len(candidates)} candidats.')
+    # Ignorer aussi les rejets déjà évalués (pas seulement les pages Notion).
+    remaining = [rec for rec in candidates.values() if not cache_v16.done(cache, rec['paper'])]
+    print(f'Cache Gemini : {len(candidates) - len(remaining)} candidat(s) déjà traités.')
+    records = remaining[:MAX_AI]
+    unevaluated = max(0, len(remaining) - len(records))
+    print(f'Articles à évaluer : {len(records)} / {len(remaining)} candidats non mis en cache.')
     if unevaluated:
         print(f'ATTENTION : {unevaluated} article(s) non évalué(s), augmenter MAX_AI_ARTICLES '
               'ou revoir la collecte. Le classement n’est pas exhaustif.')
@@ -931,6 +936,12 @@ def main():
         if decision in allowed_decisions and score >= threshold:
             shortlist.append((rec, assessment))
     shortlisted = shortlist[:MAX_WRITE]
+    # Une sélection non importée reste éligible : ne jamais la cacher comme « terminée ».
+    if WRITE_NOTION:
+        shortlisted_keys = {cache_v16.key(rec['paper']) for rec, _ in shortlisted}
+        for rec, assessment in reviewed:
+            if cache_v16.key(rec['paper']) not in shortlisted_keys and not any(rec is kept for kept, _ in shortlist):
+                cache_v16.set_status(cache, rec['paper'], assessment, 'rejected')
     print(f'\nSélection globale : {len(shortlist)} candidat(s) prioritaires, '
           f'{len(shortlisted)} importable(s) au maximum pour cette exécution.')
     print(f'Seuil coeur={MIN_SCORE_CORE} ; transfert explicite={MIN_SCORE_TRANSFER} '
@@ -969,6 +980,7 @@ def main():
         if doi_key:
             latest_dois.add(doi_key)
         print('✅ Ajout :', rec['paper']['title'][:120], '—', result.get('url', ''))
+        cache_v16.set_status(cache, rec['paper'], assessment, 'imported')
         imported.append({
             'title': rec['paper']['title'],
             'score': assessment['score'],
@@ -981,6 +993,7 @@ def main():
     pathlib.Path('new_articles.json').write_text(
         json.dumps(imported, ensure_ascii=False, indent=2), encoding='utf-8'
     )
+    cache_v16.write(cache)
     print(f'Terminé : {len(imported)} nouvel(le)(s) publication(s) ajoutée(s) dans Notion.')
 
 if __name__ == '__main__':
