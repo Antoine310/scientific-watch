@@ -49,6 +49,31 @@ def all_queries():
     return [(theme, query) for theme, queries in core.THEMES for query in queries]
 
 
+def historical_relevant(theme, paper):
+    """Préfiltre historique élargi : le jugement final revient à Gemini.
+
+    On garde le filtre original et on accepte aussi les titres portant un
+    signal technique reconnu. Le préfiltre reste volontairement imparfait :
+    il limite le bruit et le coût, sans prétendre être exhaustif.
+    """
+    title = core.norm(paper.get('title', ''))
+    abstract = core.norm(core.abstract(paper.get('abstract_inverted_index')))
+
+    if core.relevant(theme[:3], title, abstract):
+        return True
+
+    signals = (
+        'root of trust', 'secure boot', 'trusted boot', 'measured boot',
+        'hardware attestation', 'runtime attestation', 'remote attestation',
+        'risc-v', 'riscv', 'opentitan', 'cva6', 'keystone',
+        'security monitor', 'trusted execution environment',
+        'microarchitectural side channel', 'microarchitectural side-channel',
+        'cache side channel', 'cache side-channel', 'cache timing',
+        'spectre', 'secure enclave', 'memory integrity', 'hardware isolation',
+    )
+    return any(signal in title for signal in signals)
+
+
 def clean_state(state):
     if not state:
         return {'month': '2025-01', 'query_index': 0, 'cursor': '*', 'pending': [],
@@ -83,8 +108,10 @@ def fetch_page(state):
     papers = result.get('results', [])
     next_cursor = result.get('meta', {}).get('next_cursor')
     # On sauvegarde la liste brute pour ne pas perdre un candidat en cas de quota.
-    state['pending'] = [p for p in papers if p.get('title') and
-                        core.relevant(theme[:3], p.get('title', ''), core.abstract(p.get('abstract_inverted_index')))]
+    state['pending'] = [
+        p for p in papers
+        if p.get('title') and historical_relevant(theme, p)
+    ]
     state['cursor'] = next_cursor or '*'
     state['last_page'] = not (next_cursor and papers)
     state['pages_done'] += 1
