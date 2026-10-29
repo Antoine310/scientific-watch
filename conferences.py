@@ -245,8 +245,8 @@ def build(rows, today=None):
             continue
         subset.sort(key=lambda t: (priority[rank(t[2])], t[0].casefold(), -t[1]))
         lines += [f'## {group}', '',
-                  '| Conférence | Rang CORE¹ | Résumé | Article complet | Dates de la conférence | Lieu | Site |',
-                  '|---|---|---|---|---|---|---|']
+                  '| Conférence | Rang CORE¹ | Soumission article | Dates de la conférence | Lieu | Site |',
+                  '|---|---|---|---|---|---|']
         for name, year, item in subset:
             abstract = dates(item, 'abstract_deadline', 'abstract_deadlines')
             papers = dates(item, 'deadline', 'deadlines', 'paper_deadline', 'paper_deadlines')
@@ -254,14 +254,14 @@ def build(rows, today=None):
             url = safe_url(item.get('link') or item.get('url'))
             lines.append('| ' + ' | '.join([
                 f'{escape(name)} {year}', rank(item) or 'Non renseigné',
-                fmt(abstract), fmt(papers), escape(item.get('date')) or 'À confirmer',
+                fmt(papers), escape(item.get('date')) or 'À confirmer',
                 escape(item.get('place') or item.get('location')) or 'À confirmer',
                 f'[Officiel]({url})' if url else 'À confirmer']) + ' |')
         lines.append('')
     lines += ['---', '',
               '¹ **Classement CORE indicatif** transmis par les flux communautaires, **non vérifié automatiquement contre ICORE 2026**. Une conférence non renseignée n’est pas nécessairement de moindre qualité.', '',
               '**Informations manquantes :** « À confirmer » signifie que le flux ne permet pas de fournir une donnée fiable ; cela ne signifie pas qu’aucun appel à communications n’existe.', '',
-              '**Mises à jour :** chaque lundi, sans notification Gmail. La veille scientifique et Notion ne sont pas modifiés.', '']
+              ]
     return '\n'.join(lines)
 
 
