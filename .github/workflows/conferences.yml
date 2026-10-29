@@ -1,0 +1,42 @@
+name: Calendrier des conferences scientifiques
+
+on:
+  workflow_dispatch:
+    inputs:
+      publication:
+        description: "Publier sur le depot public ? (false = apercu)"
+        required: true
+        default: 'false'
+        type: choice
+        options: ['false', 'true']
+  schedule:
+    # Lundi 07:30 en heure de Paris (fuseau DST pris en charge).
+    - cron: '30 7 * * 1'
+      timezone: 'Europe/Paris'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: scientific-watch-public-conferences
+  cancel-in-progress: false
+
+jobs:
+  conferences:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PUBLIC_REPO_TOKEN: ${{ secrets.PUBLIC_REPO_TOKEN }}
+      PUBLIC_REPO: Antoine310/scientific-watch-v2
+      CONFERENCES_DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.publication != 'true' && 'true' || 'false' }}
+    steps:
+      - name: Recuperer le depot prive
+        uses: actions/checkout@v4
+      - name: Preparer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Installer PyYAML
+        run: python -m pip install 'PyYAML>=6,<7'
+      - name: Actualiser les conferences
+        run: python conferences.py
