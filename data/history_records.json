@@ -1,1 +1,32 @@
-{}
+{
+  "doi:10.1109/access.2025.3596829": {
+    "publication_date": "2025-01-01",
+    "score": 95,
+    "source": "https://doi.org/10.1109/access.2025.3596829",
+    "summary": "Cet article présente l'intégration de la spécification TCG DICE (Device Identifier Composition Engine) dans le framework TEE open-source Keystone, qui cible les appareils RISC-V. Les auteurs détaillent la conception, l'implémentation et l'évaluation de cette solution pour renforcer le démarrage sécurisé et l'attestation, démontrant son efficacité en matière de sécurité et de performances.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Implementation of the TCG DICE Specification Into the Keystone TEE Framework"
+  },
+  "doi:10.14722/ndss.2025.240449": {
+    "publication_date": "2025-01-01",
+    "score": 75,
+    "source": "https://doi.org/10.14722/ndss.2025.240449",
+    "summary": "ASGARD est une solution basee sur la virtualisation et un environnement d'execution de confiance (TEE) pour proteger les modeles de deep learning embarques sur des SoC Armv8-A existants, en integrant de maniere securisee les accelerateurs materiels tout en minimisant la base de confiance (TCB) et les surcoûts d'execution.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "ASGARD: Protecting On-Device Deep Neural Networks with Virtualization-Based Trusted Execution Environments"
+  },
+  "title:optimizingtlscryptographicoperationsonriscvsocwithopentitanrot": {
+    "publication_date": "2025-01-01",
+    "score": 90,
+    "source": "https://hdl.handle.net/11583/3002560",
+    "summary": "Cette étude présente une évaluation préliminaire d'une pile logicielle cryptographique utilisant OpenTitan comme module matériel de sécurité dans un SoC basé sur RISC-V. L'implémentation prend en charge la suite de chiffrement TLS_RSA_WITH_AES_256_CBC_SHA256 et intègre des opérations cryptographiques accélérées matériellement pour améliorer la sécurité et les performances.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Optimizing TLS Cryptographic Operations on RISC-V SoC with OpenTitan RoT"
+  }
+}

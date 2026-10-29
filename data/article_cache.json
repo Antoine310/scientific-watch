@@ -1,4 +1,37 @@
 {
-  "articles": {},
+  "articles": {
+    "doi:10.1109/access.2025.3596829": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "Implementation of the TCG DICE Specification Into the Keystone TEE Framework",
+      "updated_at": "2026-10-29T09:20:40.409665+00:00"
+    },
+    "doi:10.1109/access.2025.3635270": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Rethinking Trusted Execution Environments in the Age of Reconfigurable Computing",
+      "updated_at": "2026-10-29T09:20:38.628972+00:00"
+    },
+    "doi:10.14722/ndss.2025.240449": {
+      "category": "transfert_explicite",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "ASGARD: Protecting On-Device Deep Neural Networks with Virtualization-Based Trusted Execution Environments",
+      "updated_at": "2026-10-29T09:20:39.854608+00:00"
+    },
+    "title:optimizingtlscryptographicoperationsonriscvsocwithopentitanrot": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Optimizing TLS Cryptographic Operations on RISC-V SoC with OpenTitan RoT",
+      "updated_at": "2026-10-29T09:20:39.358530+00:00"
+    }
+  },
   "version": 1
 }
