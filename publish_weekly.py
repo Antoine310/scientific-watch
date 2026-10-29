@@ -6,6 +6,7 @@ Aucun lien Notion privé ni secret n'est publié.
 """
 import base64
 import json
+import pathlib
 import os
 import re
 import urllib.error
@@ -79,6 +80,13 @@ def get_articles():
         cursor = result.get('next_cursor')
         if not cursor:
             break
+    # L'historique possède sa propre archive publique : ne pas le mélanger
+    # avec les nouveautés hebdomadaires, même importées aujourd'hui.
+    archive = pathlib.Path('data/history_records.json')
+    if archive.exists():
+        historical = json.loads(archive.read_text(encoding='utf-8'))
+        old_titles = {re.sub(r'\W+', '', v.get('title', '').casefold()) for v in historical.values()}
+        rows = [r for r in rows if re.sub(r'\W+', '', r['title'].casefold()) not in old_titles]
     # Une seule entrée par titre : garde-fou supplémentaire pour le rapport.
     unique = {re.sub(r'\W+', '', r['title'].casefold()): r for r in rows}
     return sorted(unique.values(), key=lambda r: r['score'] or 0, reverse=True), since
