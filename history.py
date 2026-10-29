@@ -1,6 +1,6 @@
 """V16 : rattrapage historique progressif (OpenAlex) depuis janvier 2025.
 
-Une page OpenAlex par exécution, curseur et file d'attente sauvegardés.
+Jusqu'à 20 pages OpenAlex par exécution, avec reprise et budget Gemini distinct.
 Les autres sources conservent leur rôle dans la collecte quotidienne ; ce
 rattrapage n'est PAS exhaustif pour arXiv, Crossref, DBLP ou IACR.
 """
@@ -21,7 +21,8 @@ RECORDS_PATH = pathlib.Path('data/history_records.json')
 HISTORY_START = date(2025, 1, 1)
 # Date fixe de fin : le quotidien couvrira les publications suivantes.
 HISTORY_END = date.fromisoformat(os.environ.get('HISTORY_END', '2026-10-28'))
-MAX_EVAL = max(1, min(25, int(os.environ.get('HISTORY_MAX_AI', '12'))))
+MAX_EVAL = max(1, min(100, int(os.environ.get('HISTORY_MAX_AI', '30'))))
+MAX_PAGES = max(1, min(100, int(os.environ.get('HISTORY_MAX_PAGES', '20'))))
 DRY_RUN = os.environ.get('HISTORY_DRY_RUN', 'true').lower() != 'false'
 
 
@@ -130,6 +131,92 @@ def to_record(paper, theme):
     return {'paper': paper, 'themes': [theme], 'sources': {'OpenAlex'}}
 
 
+def persist(state, cache, records):
+    """Sauvegarde locale après chaque lot, même si le workflow s'arrête ensuite.
+
+    GitHub Actions commite data/ à la fin du job, y compris après erreur.
+    """
+    write_json(RECORDS_PATH, records)
+    cachelib.write(cache)
+    write_json(STATE_PATH, state)
+
+
+def process_pending(state, cache, records, titles, dois, budget):
+    """Traite un maximum de `budget` nouveaux candidats, sans perdre le reliquat."""
+    if not state['pending']:
+        return 0, 0
+
+    theme, _ = all_queries()[state['query_index']]
+    candidates = []
+    consumed = []
+    # Éliminer aussi les doublons à l'intérieur de la page elle-même.
+    seen_in_page = set()
+    for paper in state['pending']:
+        title = core.norm(paper.get('title', ''))
+        doi = core.normalized_doi(paper.get('doi'))
+        identity = cachelib.key(paper)
+        if (title in titles or (doi and doi in dois) or
+                cachelib.done(cache, paper) or (identity and identity in seen_in_page)):
+            consumed.append(paper)
+            continue
+        if len(candidates) >= budget:
+            break
+        candidates.append(to_record(paper, theme))
+        consumed.append(paper)
+        if identity:
+            seen_in_page.add(identity)
+
+    reviewed = []
+    for offset in range(0, len(candidates), core.AI_BATCH_SIZE):
+        batch = candidates[offset:offset + core.AI_BATCH_SIZE]
+        decisions = core.ai_assess(batch)
+        if len(decisions) != len(batch):
+            raise RuntimeError('Lot Gemini incomplet : nouvelle tentative au prochain lancement.')
+        reviewed.extend((rec, decisions[idx]) for idx, rec in enumerate(batch))
+        if offset + len(batch) < len(candidates):
+            time.sleep(core.AI_BATCH_PAUSE)
+
+    accepted_entries = []
+    for rec, decision in reviewed:
+        if accepted(decision):
+            # L'analyse détaillée a lieu uniquement pour les articles retenus.
+            detail = core.analyze_detail(rec)
+            accepted_entries.append((rec, decision, detail))
+        else:
+            cachelib.set_status(cache, rec['paper'], decision, 'rejected')
+
+    schema = (core.api(f'https://api.notion.com/v1/data_sources/{core.SOURCE_ID}')
+              .get('properties', {})) if accepted_entries else {}
+    for rec, decision, detail in accepted_entries:
+        paper = rec['paper']
+        title = core.norm(paper.get('title'))
+        doi = core.normalized_doi(paper.get('doi'))
+        # Revérifier Notion : protège d'un arrêt après import mais avant commit.
+        current_titles, current_dois = core.existing_items()
+        if title not in current_titles and not (doi and doi in current_dois):
+            core.notion_add(rec, decision, detail, schema)
+            print('Notion :', paper['title'][:100])
+        titles.add(title)
+        if doi:
+            dois.add(doi)
+        cachelib.set_status(cache, paper, decision, 'imported')
+        identity = cachelib.key(paper)
+        if identity and identity not in records:
+            loc = paper.get('primary_location') or {}
+            link = loc.get('landing_page_url') or paper.get('doi') or paper.get('id') or ''
+            records[identity] = {
+                'title': paper['title'], 'summary': detail.get('resume_court', ''),
+                'score': int(decision['score']), 'themes': [theme],
+                'source': link, 'publication_date': paper.get('publication_date', ''),
+            }
+
+    # On supprime les candidats uniquement APRÈS traitement complet du lot.
+    consumed_ids = {id(p) for p in consumed}
+    state['pending'] = [p for p in state['pending'] if id(p) not in consumed_ids]
+    persist(state, cache, records)
+    return len(reviewed), len(accepted_entries)
+
+
 def main():
     state = clean_state(read_json(STATE_PATH, {}))
     cache = cachelib.read()
@@ -138,85 +225,64 @@ def main():
         print('Historique achevé :', state['month'])
         return
     if DRY_RUN:
-        # Aperçu sans appel Gemini ni écriture, pour un premier test peu coûteux.
-        print('APERÇU historique :', json.dumps({k: v for k,v in state.items() if k != 'pending'}, ensure_ascii=False))
+        print('APERÇU historique :', json.dumps(
+            {k: v for k, v in state.items() if k != 'pending'}, ensure_ascii=False))
         print('Aucune écriture. Pour importer : HISTORY_DRY_RUN=false.')
         return
     if not core.WRITE_NOTION:
         raise RuntimeError('Le mode historique réel exige WRITE_NOTION=true')
+
     titles, dois = core.existing_items()
-    # Une seule page distante lue par exécution ; le reliquat est ensuite repris.
-    if not state['pending']:
+    pages = 0
+    total_analyzed = 0
+    total_selected = 0
+    print(f'Historique accéléré : maximum {MAX_PAGES} pages OpenAlex et '
+          f'{MAX_EVAL} articles Gemini par lancement.')
+
+    while pages < MAX_PAGES or state['pending']:
+        remaining = MAX_EVAL - total_analyzed
+
+        # Toujours vider les candidats déjà récupérés avant de lire une autre page.
+        if state['pending']:
+            if remaining <= 0:
+                print(f'Budget Gemini atteint : {len(state["pending"])} candidat(s) en attente.')
+                break
+            analyzed, selected = process_pending(
+                state, cache, records, titles, dois, remaining)
+            total_analyzed += analyzed
+            total_selected += selected
+            if state['pending']:
+                # Des candidats ont été laissés : attendre la prochaine exécution.
+                break
+            # Les articles ne sont pas perdus même si on a atteint le budget.
+            if total_analyzed >= MAX_EVAL:
+                break
+            continue
+
+        if pages >= MAX_PAGES or total_analyzed >= MAX_EVAL:
+            break
         if state['last_page']:
             advance_query(state)
-        if state['completed']:
-            write_json(STATE_PATH, state)
-            return
-        raw_count, found = fetch_page(state)
-        print(f"Historique {state['month']} requête {state['query_index'] + 1}/{len(all_queries())}: {raw_count} résultats, {found} pertinents selon le filtre local")
-    theme, query = all_queries()[state['query_index']]
-    print(f"Traitement {state['month']} — {theme} — {query} ; attente={len(state['pending'])}")
-    # On consomme au plus MAX_EVAL candidats non encore connus pour ce lancement.
-    candidates = []
-    processed = []
-    for paper in state['pending']:
-        title = core.norm(paper.get('title', ''))
-        doi = core.normalized_doi(paper.get('doi'))
-        if title in titles or (doi and doi in dois) or cachelib.done(cache, paper):
-            processed.append(paper)
-            continue
-        if len(candidates) < MAX_EVAL:
-            candidates.append(to_record(paper, theme))
-            processed.append(paper)
-        else:
-            break
-    reviewed = []
-    for offset in range(0, len(candidates), core.AI_BATCH_SIZE):
-        batch = candidates[offset:offset + core.AI_BATCH_SIZE]
-        decisions = core.ai_assess(batch)
-        if len(decisions) != len(batch):
-            raise RuntimeError('Lot Gemini incomplet ; progression conservée au dernier commit.')
-        reviewed.extend((rec, decisions[idx]) for idx, rec in enumerate(batch))
-        if offset + len(batch) < len(candidates):
-            time.sleep(core.AI_BATCH_PAUSE)
-    # Préparer toutes les fiches AVANT de commencer à écrire dans Notion.
-    new_entries = []
-    for rec, decision in reviewed:
-        if accepted(decision):
-            detail = core.analyze_detail(rec)
-            new_entries.append((rec, decision, detail))
-        else:
-            cachelib.set_status(cache, rec['paper'], decision, 'rejected')
-    schema = core.api(f'https://api.notion.com/v1/data_sources/{core.SOURCE_ID}').get('properties', {}) if new_entries else {}
-    for rec, decision, detail in new_entries:
-        paper = rec['paper']
-        title = core.norm(paper.get('title'))
-        doi = core.normalized_doi(paper.get('doi'))
-        # Relecture idempotente : un incident entre Notion et le commit ne duplique pas.
-        current_titles, current_dois = core.existing_items()
-        if title not in current_titles and not (doi and doi in current_dois):
-            core.notion_add(rec, decision, detail, schema)
-            print('Notion :', paper['title'][:100])
-        cachelib.set_status(cache, paper, decision, 'imported')
-        identity = cachelib.key(paper)
-        if identity not in records:
-            loc = paper.get('primary_location') or {}
-            link = loc.get('landing_page_url') or paper.get('doi') or paper.get('id') or ''
-            records[identity] = {
-                'title': paper['title'], 'summary': detail.get('resume_court', ''),
-                'score': int(decision['score']), 'themes': [theme],
-                'source': link, 'publication_date': paper.get('publication_date', ''),
-            }
-    # Le cache et la progression sont sauvegardés APRÈS l'import validé.
-    # Si publication GitHub échoue, le prochain run reprend de ce point.
-    completed_ids = {id(p) for p in processed}
-    state['pending'] = [p for p in state['pending'] if id(p) not in completed_ids]
-    write_json(RECORDS_PATH, records)
-    cachelib.write(cache)
-    write_json(STATE_PATH, state)
+            persist(state, cache, records)
+            if state['completed']:
+                print('Recherche historique entièrement parcourue.')
+                break
+
+        count, found = fetch_page(state)
+        pages += 1
+        print(f'[{pages}/{MAX_PAGES}] {state["month"]} '
+              f'requête {state["query_index"] + 1}/{len(all_queries())}: '
+              f'{count} résultats, {found} candidat(s).')
+        # Important : persister le curseur ET les candidats avant de les analyser.
+        persist(state, cache, records)
+
+    # Publication à partir des fiches, regroupées par date de publication.
+    # Si cette étape échoue, records reste sauvegardé et pourra être republié.
     if records:
         publish_history.publish(records)
-    print(f"Fin de lot : {len(reviewed)} analysé(s), {len(new_entries)} retenu(s), {len(state['pending'])} en attente. Pages visitées : {state['pages_done']}")
+    print(f'Fin : {pages} page(s) lue(s), {total_analyzed} analysé(s), '
+          f'{total_selected} retenu(s), {len(state["pending"])} en attente. '
+          f'Pages cumulées : {state["pages_done"]}.')
 
 
 if __name__ == '__main__':
