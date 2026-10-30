@@ -8,6 +8,14 @@
       "title": "Rolling the Dice with Light Competition: Introducing a True Random Number Generator Powered by Photo‐Induced Polarity Current",
       "updated_at": "2026-10-30T09:52:45.186112+00:00"
     },
+    "doi:10.1002/advs.202415820": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Biosecurity Primitive: Polymerase X‐based Genetic Physical Unclonable Functions",
+      "updated_at": "2026-10-30T20:15:50.777885+00:00"
+    },
     "doi:10.1002/cta.4571": {
       "category": "secondaire",
       "decision": "examiner",
@@ -79,6 +87,14 @@
       "status": "imported",
       "title": "Extended version: enabling lattice-based post-quantum cryptography on the opentitan platform",
       "updated_at": "2026-10-30T11:01:48.280077+00:00"
+    },
+    "doi:10.1016/j.biocon.2025.111270": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Feral goats shift keystone cacti communities in Caribbean Islands",
+      "updated_at": "2026-10-30T20:14:00.333625+00:00"
     },
     "doi:10.1038/s41467-024-55380-x": {
       "category": "secondaire",
@@ -152,6 +168,22 @@
       "title": "A Scalable Identity-Based Encryption Approach for Secure Shared Memory Communication in Keystone",
       "updated_at": "2026-10-30T11:02:09.616355+00:00"
     },
+    "doi:10.1109/dac63849.2025.11132094": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "RAP-Track: Efficient Control Flow Attestation via Parallel Tracking in Commodity MCUs",
+      "updated_at": "2026-10-30T20:14:31.535567+00:00"
+    },
+    "doi:10.1109/dac63849.2025.11133149": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Data Oblivious CPU: Microarchitectural Side-channel Leakage-Resilient Processor",
+      "updated_at": "2026-10-30T20:15:22.143802+00:00"
+    },
     "doi:10.1109/dcas65331.2025.11045468": {
       "category": "secondaire",
       "decision": "examiner",
@@ -159,6 +191,22 @@
       "status": "rejected",
       "title": "High-Entropy Metastable Jitter-Based True Random Number Generator (TRNG)",
       "updated_at": "2026-10-30T14:13:50.303549+00:00"
+    },
+    "doi:10.1109/eurosp63326.2025.00028": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Latte: Layered Attestation for Portable Enclaved Applications",
+      "updated_at": "2026-10-30T20:13:52.916218+00:00"
+    },
+    "doi:10.1109/eurospw67616.2025.00055": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "Enclave Application Cache for RISC-V Keystone",
+      "updated_at": "2026-10-30T20:13:52.390287+00:00"
     },
     "doi:10.1109/host64725.2025.11050041": {
       "category": "transfert_explicite",
@@ -232,6 +280,14 @@
       "title": "High Throughput and Compact FPGA TRNGs Based on Hybrid Entropy, Reinforcement Strategies, and Automated Exploration",
       "updated_at": "2026-10-30T17:14:24.805359+00:00"
     },
+    "doi:10.1109/tcad.2025.3575014": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "LayerTEE: Decoupled Memory Protection for Scalable Multilayer Communication on RISC-V",
+      "updated_at": "2026-10-30T20:13:51.793272+00:00"
+    },
     "doi:10.1109/tifs.2025.3592573": {
       "category": "coeur",
       "decision": "conserver",
@@ -296,6 +352,14 @@
       "title": "RTL Verification for Secure Speculation Using Contract Shadow Logic",
       "updated_at": "2026-10-30T10:02:10.391126+00:00"
     },
+    "doi:10.1145/3695053.3731119": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "SpecASan: Mitigating Transient Execution Attacks Using Speculative Address Sanitization",
+      "updated_at": "2026-10-30T20:15:23.600029+00:00"
+    },
     "doi:10.1145/3719276.3725176": {
       "category": "coeur",
       "decision": "conserver",
@@ -328,6 +392,14 @@
       "title": "A Remote Attestation Protocol Oriented to the SuperPOD Structure",
       "updated_at": "2026-10-30T10:01:20.146415+00:00"
     },
+    "doi:10.1145/3734477.3734710": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Run-time Attestation and Auditing: The Verifier's Perspective",
+      "updated_at": "2026-10-30T20:14:32.108099+00:00"
+    },
     "doi:10.1145/3735556": {
       "category": "coeur",
       "decision": "conserver",
@@ -335,6 +407,14 @@
       "status": "imported",
       "title": "Do Not Trust Power Management: A Survey on Internal Energy-based Attacks Circumventing Trusted Execution Environments Security Properties",
       "updated_at": "2026-10-30T14:14:51.170294+00:00"
+    },
+    "doi:10.1145/3743678": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Comprehensive Kernel Safety in the Spectre Era: Mitigations and Performance Evaluation",
+      "updated_at": "2026-10-30T20:15:24.157768+00:00"
     },
     "doi:10.11606/d.18.2025.tde-26032025-083917": {
       "category": "secondaire",
@@ -496,6 +576,14 @@
       "title": "Analysis and Evaluation of Intel Software Guard Extension-Based Trusted Execution Environment Usage in Edge Intelligence and Internet of Things Scenarios",
       "updated_at": "2026-10-30T09:42:56.870000+00:00"
     },
+    "doi:10.3390/fi17070275": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Integrating Physical Unclonable Functions with Machine Learning for the Authentication of Edge Devices in IoT Networks",
+      "updated_at": "2026-10-30T20:15:50.777901+00:00"
+    },
     "doi:10.3390/info16050404": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -648,6 +736,14 @@
       "title": "Design of a TRNG in 600-nm IGZO-TFT FlexlCs for secure IoT applications",
       "updated_at": "2026-10-30T09:52:45.186086+00:00"
     },
+    "title:enforcingriscvteesecurityagainstcachetimingattacks": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Enforcing RISC-V TEE Security Against Cache Timing Attacks",
+      "updated_at": "2026-10-30T20:15:41.595928+00:00"
+    },
     "title:fpgabasedprototypingandperformanceanalysisofalinuxcapableriscvsoc": {
       "category": "coeur",
       "decision": "conserver",
@@ -680,6 +776,14 @@
       "title": "Optimizing TLS Cryptographic Operations on RISC-V SoC with OpenTitan RoT",
       "updated_at": "2026-10-29T09:20:39.358530+00:00"
     },
+    "title:prototypingcustomhardwareperformancecountersingem5simulatoraframeworkforriscvsidechannelattackassessment": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Prototyping Custom Hardware Performance Counters in gem5 Simulator: A Framework for RISC-V Side-Channel Attack Assessment",
+      "updated_at": "2026-10-30T20:15:22.976573+00:00"
+    },
     "title:secureandenergyefficientdsppreprocessingarchitecturesfortrustworthyriscvedgecommunicationsystems": {
       "category": "secondaire",
       "decision": "examiner",
@@ -687,6 +791,14 @@
       "status": "rejected",
       "title": "Secure and Energy-Efficient DSP Preprocessing Architectures for Trustworthy RISC-V Edge Communication Systems",
       "updated_at": "2026-10-30T10:41:11.466884+00:00"
+    },
+    "title:securefunctionasaserviceplatformsusingtrustedexecutionenvironments": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Secure Function-as-a-Service Platforms Using Trusted Execution Environments",
+      "updated_at": "2026-10-30T20:15:00.866632+00:00"
     }
   },
   "version": 1

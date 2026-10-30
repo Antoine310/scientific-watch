@@ -29,6 +29,46 @@
     ],
     "title": "A Scalable Identity-Based Encryption Approach for Secure Shared Memory Communication in Keystone"
   },
+  "doi:10.1109/dac63849.2025.11132094": {
+    "publication_date": "2025-06-22",
+    "score": 85,
+    "source": "https://doi.org/10.1109/dac63849.2025.11132094",
+    "summary": "Cet article présente RAP-Track, une technique d'attestation du flux de contrôle (CFA) pour les microcontrôleurs grand public. En exploitant des extensions matérielles existantes comme le Micro Trace Buffer (MTB) et le Data Watchpoint and Trace Unit (DWT), RAP-Track permet de suivre les chemins d'exécution en parallèle du programme sans les surcoûts liés à l'instrumentation de code ou aux changements de contexte fréquents.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "RAP-Track: Efficient Control Flow Attestation via Parallel Tracking in Commodity MCUs"
+  },
+  "doi:10.1109/dac63849.2025.11133149": {
+    "publication_date": "2025-06-22",
+    "score": 90,
+    "source": "https://doi.org/10.1109/dac63849.2025.11133149",
+    "summary": "Cet article propose une approche générique et dynamique pour atténuer les canaux auxiliaires microarchitecturaux avec des modifications architecturales minimales. La stratégie modifie dynamiquement le décodage des instructions en versions sécurisées ou performantes selon la sensibilité des données traitées. Implémenté sur un processeur RISC-V BOOM, le mécanisme n'augmente l'utilisation des ressources FPGA que de 2 %, tout en maintenant un surcoût de performance nul pour les applications non protégées et allant jusqu'à 25 % pour les charges critiques.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Data Oblivious CPU: Microarchitectural Side-channel Leakage-Resilient Processor"
+  },
+  "doi:10.1109/eurosp63326.2025.00028": {
+    "publication_date": "2025-06-30",
+    "score": 75,
+    "source": "https://doi.org/10.1109/eurosp63326.2025.00028",
+    "summary": "Cet article introduit le concept d'identités portables et propose Latte, un cadre d'attestation en couches pour les applications TEE portables sur des plateformes hétérogènes. Latte résout le compromis entre sécurité et portabilité en évitant les problèmes du modèle d'attestation imbriquée traditionnel. Un prototype utilisant WebAssembly, Intel SGX et RISC-V Penglai démontre une surcharge de performance minimale.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Latte: Layered Attestation for Portable Enclaved Applications"
+  },
+  "doi:10.1109/eurospw67616.2025.00055": {
+    "publication_date": "2025-06-30",
+    "score": 95,
+    "source": "https://doi.org/10.1109/eurospw67616.2025.00055",
+    "summary": "Ce papier propose un mécanisme de cache pour les applications en enclave destiné à l'environnement d'exécution de confiance (TEE) RISC-V Keystone. L'objectif est de contourner le processus de mesure (calcul de hachage coûteux de l'image binaire) lors du démarrage en stockant les images binaires précédemment exécutées dans un espace mémoire sécurisé. Les évaluations montrent une accélération de 6 à 40 fois du temps d'exécution des applications TEE.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Enclave Application Cache for RISC-V Keystone"
+  },
   "doi:10.1109/icet64964.2025.11103069": {
     "publication_date": "2025-05-17",
     "score": 85,
@@ -48,6 +88,16 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Towards ML-KEM & ML-DSA on OpenTitan"
+  },
+  "doi:10.1109/tcad.2025.3575014": {
+    "publication_date": "2025-06-13",
+    "score": 90,
+    "source": "https://doi.org/10.1109/tcad.2025.3575014",
+    "summary": "LayerTEE est un nouveau système de TEE (Trusted Execution Environment) sur RISC-V qui découple la protection mémoire (par segments) de la traduction d'adresses (par tables de pages). Il vise à résoudre les problèmes de passage à l'échelle, de performance et d'isolation des environnements TEE actuels. Un prototype sur FPGA démontre une réduction de la latence de communication de trois ordres de grandeur et une scalabilité multipliée par 10 par rapport aux solutions existantes.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "LayerTEE: Decoupled Memory Protection for Scalable Multilayer Communication on RISC-V"
   },
   "doi:10.1109/tifs.2025.3592573": {
     "publication_date": "2025-01-01",
@@ -69,6 +119,16 @@
     ],
     "title": "Dep-TEE: Decoupled Memory Protection for Secure and Scalable Inter-enclave Communication on RISC-V"
   },
+  "doi:10.1145/3695053.3731119": {
+    "publication_date": "2025-06-20",
+    "score": 80,
+    "source": "https://doi.org/10.1145/3695053.3731119",
+    "summary": "SpecASan est une approche matérielle et logicielle visant à atténuer les attaques par exécution transitoire (comme Spectre et Meltdown) en étendant la protection de la sécurité mémoire du chemin validé au chemin spéculatif. Utilisant l'extension MTE (Memory Tagging Extension) d'ARM, elle retarde les accès spéculatifs ne passant pas la vérification des tags jusqu'à la résolution de la spéculation, le tout avec un faible surcoût et une complexité matérielle minimale.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SpecASan: Mitigating Transient Execution Attacks Using Speculative Address Sanitization"
+  },
   "doi:10.1145/3719276.3725176": {
     "publication_date": "2025-05-28",
     "score": 75,
@@ -79,6 +139,16 @@
     ],
     "title": "PowerSecBench: reveal microarchitectural power leakages using generic RISC-V microbenchmarks"
   },
+  "doi:10.1145/3734477.3734710": {
+    "publication_date": "2025-06-27",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3734477.3734710",
+    "summary": "Cet article analyse les schémas d'attestation à l'exécution, incluant l'attestation de flux de contrôle (CFA) et de données (DFA), en se focalisant sur le point de vue du vérificateur distant (Vrf) et la traçabilité des compromissions, alors que la recherche antérieure se concentrait principalement sur la génération de preuves sécurisées côté prouveur (Prv).",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Run-time Attestation and Auditing: The Verifier's Perspective"
+  },
   "doi:10.1145/3735556": {
     "publication_date": "2025-05-14",
     "score": 75,
@@ -88,6 +158,16 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Do Not Trust Power Management: A Survey on Internal Energy-based Attacks Circumventing Trusted Execution Environments Security Properties"
+  },
+  "doi:10.1145/3743678": {
+    "publication_date": "2025-06-12",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3743678",
+    "summary": "Cette publication étudie la sécurité du noyau sous l'ère des attaques par exécution spéculative et canaux auxiliaires. Les auteurs démontrent que la randomisation de l'espace d'adressage (ASLR) du noyau ne suffit pas face à ces menaces et introduisent de nouveaux mécanismes de mise en conformité pour garantir la sécurité du noyau pour les appels système sûrs, avec une évaluation des performances sur le noyau Linux.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Comprehensive Kernel Safety in the Spectre Era: Mitigations and Performance Evaluation"
   },
   "doi:10.14722/ndss.2025.230253": {
     "publication_date": "2025-01-01",
@@ -219,6 +299,16 @@
     ],
     "title": "Future-proofing Trusted Execution Environments Against the Emerging Threats of Speculative Execution"
   },
+  "title:enforcingriscvteesecurityagainstcachetimingattacks": {
+    "publication_date": "2025-06-15",
+    "score": 90,
+    "source": "https://hal.science/hal-05041492",
+    "summary": "Cette étude analyse la sécurité des environnements d'exécution de confiance (TEE) face aux attaques par canal auxiliaire, en particulier les attaques temporelles sur les caches. Elle propose d'intégrer des contre-mesures spécifiques ciblant ces vulnérabilités au sein d'une architecture RISC-V.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Enforcing RISC-V TEE Security Against Cache Timing Attacks"
+  },
   "title:fpgabasedprototypingandperformanceanalysisofalinuxcapableriscvsoc": {
     "publication_date": "2025-01-01",
     "score": 75,
@@ -258,5 +348,15 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Optimizing TLS Cryptographic Operations on RISC-V SoC with OpenTitan RoT"
+  },
+  "title:prototypingcustomhardwareperformancecountersingem5simulatoraframeworkforriscvsidechannelattackassessment": {
+    "publication_date": "2025-06-30",
+    "score": 85,
+    "source": "https://telecom-paris.hal.science/hal-05097250",
+    "summary": "Cet article présente un nouveau cadre pour concevoir des compteurs de performance matériels personnalisés dans le simulateur gem5 pour l'architecture RISC-V, afin d'évaluer la résilience face aux attaques par canal auxiliaire microarchitecturales.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Prototyping Custom Hardware Performance Counters in gem5 Simulator: A Framework for RISC-V Side-Channel Attack Assessment"
   }
 }
