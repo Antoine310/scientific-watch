@@ -1,4 +1,14 @@
 {
+  "doi:10.1007/s13389-025-00369-5": {
+    "publication_date": "2025-04-28",
+    "score": 90,
+    "source": "https://doi.org/10.1007/s13389-025-00369-5",
+    "summary": "Cette publication étudie l'intégration de la cryptographie post-quantique à base de réseaux euclidiens (lattice-based PQC) au sein d'une racine de confiance matérielle (RoT) open-source, OpenTitan. Les auteurs proposent des extensions du jeu d'instructions de l'accélérateur OpenTitan Big Number (OTBN) pour optimiser l'arithmétique des polynômes et l'échantillonnage, et évaluent les performances sur la vérification des signatures Dilithium-II et Falcon-512.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Extended version: enabling lattice-based post-quantum cryptography on the opentitan platform"
+  },
   "doi:10.1109/access.2025.3596829": {
     "publication_date": "2025-01-01",
     "score": 95,
@@ -8,6 +18,16 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Implementation of the TCG DICE Specification Into the Keystone TEE Framework"
+  },
+  "doi:10.1109/ainit65432.2025.11035700": {
+    "publication_date": "2025-04-11",
+    "score": 95,
+    "source": "https://doi.org/10.1109/ainit65432.2025.11035700",
+    "summary": "Ce papier présente IBEShare, un framework de communication sécurisé et scalable pour les enclaves RISC-V Keystone. Il associe chiffrement basé sur l'identité (IBE) et mémoire partagée renforcée par le matériel pour réduire les surcoûts liés aux méthodes traditionnelles de copie et de chiffrement répété.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "A Scalable Identity-Based Encryption Approach for Secure Shared Memory Communication in Keystone"
   },
   "doi:10.1109/tifs.2025.3592573": {
     "publication_date": "2025-01-01",
@@ -79,6 +99,16 @@
     ],
     "title": "SAluMC: Thwarting Side-Channel Attacks via Random Number Injection in RISC-V"
   },
+  "doi:10.36227/techrxiv.174494750.06122641/v1": {
+    "publication_date": "2025-04-17",
+    "score": 85,
+    "source": "https://doi.org/10.36227/techrxiv.174494750.06122641/v1",
+    "summary": "Cette publication présente SLAD (Smart Learning-assisted Detector), un détecteur intelligent d'attaques Spectre assisté par des événements d'interruption. L'étude montre que les applications réalistes génèrent du bruit réduisant la précision des détecteurs basés sur les compteurs de performance matériels (HPCs) de 99.38% à 81.44% pour SpectreV1. En ajoutant une nouvelle caractéristique d'interruption liée au stress des ressources, SLAD restaure la précision jusqu'à 95.82% tout en permettant l'utilisation élastique de modèles de machine learning via une métrique PST (Performance-Security-Tradeoff).",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "An Interrupt Event Assisted Intelligent Detector of Spectre Attack Under Realistic Applications"
+  },
   "doi:10.3929/ethz-c-000787734": {
     "publication_date": "2025-01-01",
     "score": 85,
@@ -108,6 +138,16 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "μRL: Discovering Transient Execution Vulnerabilities Using Reinforcement Learning"
+  },
+  "doi:10.48550/arxiv.2504.20934": {
+    "publication_date": "2025-04-29",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2504.20934",
+    "summary": "DejaVuzz est un fuzzer pré-silicium pour processeurs, conçu pour détecter les vulnérabilités d'exécution transitoire. Il introduit deux primitives : la mémoire dynamique commutable pour cibler les fenêtres transitoires et le suivi différentiel du flux d'information pour observer la propagation des données sensibles. Il surpasse SpecDoctor et a permis de découvrir 5 nouvelles vulnérabilités (6 CVE) sur BOOM et XiangShan.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "DejaVuzz: Disclosing Transient Execution Bugs with Dynamic Swappable Memory and Differential Information Flow Tracking assisted Processor Fuzzing"
   },
   "doi:10.5220/0013518800003979": {
     "publication_date": "2025-01-01",

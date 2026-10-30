@@ -56,6 +56,14 @@
       "title": "Identifying Ransomware Functions Through Microarchitectural Side-Channel Analysis",
       "updated_at": "2026-10-30T09:43:09.304236+00:00"
     },
+    "doi:10.1007/s13389-025-00369-5": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Extended version: enabling lattice-based post-quantum cryptography on the opentitan platform",
+      "updated_at": "2026-10-30T11:01:48.280077+00:00"
+    },
     "doi:10.1038/s41467-024-55380-x": {
       "category": "secondaire",
       "decision": "examiner",
@@ -112,6 +120,22 @@
       "title": "A Robust and Portable All-Digital TRNG Circuit for Extending the Instruction Set Architecture of RISC-V Processors",
       "updated_at": "2026-10-30T09:52:45.186106+00:00"
     },
+    "doi:10.1109/ainit65432.2025.11035700": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "A Scalable Identity-Based Encryption Approach for Secure Shared Memory Communication in Keystone",
+      "updated_at": "2026-10-30T11:02:09.616355+00:00"
+    },
+    "doi:10.1109/les.2025.3549110": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "High-Speed True Random Number Generator With Multiple Entropy Sources: Ring Oscillator Jitter and Random Telegraph Noise",
+      "updated_at": "2026-10-30T11:01:27.174396+00:00"
+    },
     "doi:10.1109/tifs.2025.3592573": {
       "category": "coeur",
       "decision": "conserver",
@@ -127,6 +151,22 @@
       "status": "rejected",
       "title": "Temperature-Adaptive TRNG-Encrypted MRAM PUF: Enhancing Resistance to Machine Learning Attacks",
       "updated_at": "2026-10-30T10:02:30.751188+00:00"
+    },
+    "doi:10.1109/vts65138.2025.11022949": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "LLM-IFT: LLM-Powered Information Flow Tracking for Secure Hardware",
+      "updated_at": "2026-10-30T11:02:46.486957+00:00"
+    },
+    "doi:10.1126/sciadv.adr0112": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A memristor-based unified PUF and TRNG chip with a concealable ability for advanced edge security",
+      "updated_at": "2026-10-30T11:01:17.572271+00:00"
     },
     "doi:10.1145/3658617.3697763": {
       "category": "coeur",
@@ -224,6 +264,22 @@
       "title": "A Formal Approach to Multi-Layered Privileges for Enclaves",
       "updated_at": "2026-10-30T09:42:57.592805+00:00"
     },
+    "doi:10.18260/1-2-1153-53757": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "A New Dynamic Cache Flushing (DCF) Algorithm to Prevent Cache Timing Attack",
+      "updated_at": "2026-10-30T11:02:36.058403+00:00"
+    },
+    "doi:10.2172/3018824": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "True Random Number Generator with Theory-Backed Entropy Rates for ASICs",
+      "updated_at": "2026-10-30T11:01:27.174377+00:00"
+    },
     "doi:10.23919/date64628.2025.10992999": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -231,6 +287,14 @@
       "status": "rejected",
       "title": "Multi-Partner Project: Advancing the EDA Tools Landscape for the European RISC-V Ecosystem in TRISTAN",
       "updated_at": "2026-10-30T10:41:01.190792+00:00"
+    },
+    "doi:10.23919/date64628.2025.10993119": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "A Synthesizable Thyristor-Like Leakage-Based True Random Number Generator",
+      "updated_at": "2026-10-30T11:01:27.174403+00:00"
     },
     "doi:10.26240/heal.ntua.28646": {
       "category": "coeur",
@@ -264,6 +328,30 @@
       "title": "Analysis and Evaluation of Intel Software Guard Extension-Based Trusted Execution Environment Usage in Edge Intelligence and Internet of Things Scenarios",
       "updated_at": "2026-10-30T09:42:56.870000+00:00"
     },
+    "doi:10.3390/s25051629": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hardware Acceleration-Based Privacy-Aware Authentication Scheme for Internet of Vehicles Using Physical Unclonable Function",
+      "updated_at": "2026-10-30T11:01:17.572251+00:00"
+    },
+    "doi:10.3390/s25061678": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "A High-Entropy True Random Number Generator with Keccak Conditioning for FPGA",
+      "updated_at": "2026-10-30T11:01:27.174408+00:00"
+    },
+    "doi:10.36227/techrxiv.174494750.06122641/v1": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "An Interrupt Event Assisted Intelligent Detector of Spectre Attack Under Realistic Applications",
+      "updated_at": "2026-10-30T11:02:27.933961+00:00"
+    },
     "doi:10.3929/ethz-c-000787734": {
       "category": "coeur",
       "decision": "conserver",
@@ -287,6 +375,14 @@
       "status": "imported",
       "title": "μRL: Discovering Transient Execution Vulnerabilities Using Reinforcement Learning",
       "updated_at": "2026-10-30T10:02:01.734637+00:00"
+    },
+    "doi:10.48550/arxiv.2504.20934": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "DejaVuzz: Disclosing Transient Execution Bugs with Dynamic Swappable Memory and Differential Information Flow Tracking assisted Processor Fuzzing",
+      "updated_at": "2026-10-30T11:02:57.743678+00:00"
     },
     "doi:10.5220/0013518800003979": {
       "category": "coeur",
@@ -343,6 +439,14 @@
       "status": "imported",
       "title": "Future-proofing Trusted Execution Environments Against the Emerging Threats of Speculative Execution",
       "updated_at": "2026-10-30T09:43:14.181816+00:00"
+    },
+    "title:cva6mmulessvirtualizationfromhardwaretosoftwareandviceversa": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "CVA6 MMU-less virtualization - From hardware to software and vice versa",
+      "updated_at": "2026-10-30T11:01:06.268017+00:00"
     },
     "title:desarrollodefirmwareenarquitecturariscvsobreraspberrypipicow2": {
       "category": "hors_sujet",
