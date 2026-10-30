@@ -9,6 +9,36 @@
     ],
     "title": "Implementation of the TCG DICE Specification Into the Keystone TEE Framework"
   },
+  "doi:10.1109/tifs.2025.3592573": {
+    "publication_date": "2025-01-01",
+    "score": 85,
+    "source": "https://doi.org/10.1109/tifs.2025.3592573",
+    "summary": "Cet article présente LiSB, un protocole léger de démarrage sécurisé et d'attestation pour les objets connectés et les appareils en périphérie (edge). Il utilise une primitive matérielle, à savoir des fonctions physiquement non clonables (PUF) servant de racine de confiance (Root-of-Trust), pour garantir l'intégrité du logiciel et du micrologiciel sans stocker de secrets en mémoire. L'évaluation sur FPGA montre des performances supérieures aux schémas commerciaux comme le TPM et une consommation énergétique très faible par rapport à SHA-256.",
+    "themes": [
+      "T02 — DICE & Hardware Identity"
+    ],
+    "title": "LiSB: Lightweight Secure Boot and Attestation Scheme for IoT and Edge Devices"
+  },
+  "doi:10.1145/3658617.3697763": {
+    "publication_date": "2025-01-20",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3658617.3697763",
+    "summary": "Cet article présente Dep-TEE, un nouveau système de TEE basé sur RISC-V qui découple la protection de la mémoire (au niveau des segments) de la traduction d'adresses (au niveau des tables de pages). Cette approche améliore les performances et la scalabilité de la communication inter-enclaves tout en maintenant la sécurité.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Dep-TEE: Decoupled Memory Protection for Secure and Scalable Inter-enclave Communication on RISC-V"
+  },
+  "doi:10.14722/ndss.2025.230253": {
+    "publication_date": "2025-01-01",
+    "score": 85,
+    "source": "https://doi.org/10.14722/ndss.2025.230253",
+    "summary": "Cette étude présente une évaluation systématique de quatre attaques par canal auxiliaire sur les caches CPU (Flush+Reload, Flush+Flush, Evict+Reload, Prime+Probe) et introduit trois nouvelles attaques basées sur l'instruction Demote (Demote+Reload, Demote+Demote, DemoteContention). Les auteurs évaluent neuf caractéristiques sur des microarchitectures Intel récentes et démontrent l'efficacité de ces nouvelles méthodes, notamment pour contourner KASLR et pallier les limitations des caches L3 non inclusifs.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "A Systematic Evaluation of Novel and Existing Cache Side Channels"
+  },
   "doi:10.14722/ndss.2025.240449": {
     "publication_date": "2025-01-01",
     "score": 75,
@@ -18,6 +48,66 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "ASGARD: Protecting On-Device Deep Neural Networks with Virtualization-Based Trusted Execution Environments"
+  },
+  "doi:10.14722/ndss.2025.241301": {
+    "publication_date": "2025-01-01",
+    "score": 90,
+    "source": "https://doi.org/10.14722/ndss.2025.241301",
+    "summary": "Cet article présente PALANTÍR, un modèle de privilèges multi-niveaux vérifiable pour les extensions de fonctionnalités sécurisées dans les environnements d'exécution de confiance (TEE). Il introduit une relation parent-enfant entre enclaves avec des contrôles d'exécution et spatiaux, formalisée par un modèle nommé TAP ∞, et implémentée sur la plateforme RISC-V PENGLAI.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "A Formal Approach to Multi-Layered Privileges for Enclaves"
+  },
+  "doi:10.3929/ethz-c-000787734": {
+    "publication_date": "2025-01-01",
+    "score": 85,
+    "source": "http://hdl.handle.net/20.500.11850/787734",
+    "summary": "Dorami est une approche de séparation des privilèges pour les TEEs sur RISC-V. Elle isole le moniteur de sécurité (SM) du micrologiciel (firmware) afin de réduire la surface d'attaque, en réutilisant les fonctionnalités existantes du jeu d'instructions (ISA) pour faire respecter cette isolation sans surcoût majeur.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Dorami: Privilege Separating Security Monitor on RISC-V TEEs"
+  },
+  "doi:10.48550/arxiv.2501.11207": {
+    "publication_date": "2025-01-20",
+    "score": 85,
+    "source": "https://arxiv.org/abs/2501.11207",
+    "summary": "Cet article présente ENOLA, une solution d'attestation de flux de contrôle (CFA) à espace linéaire et à faible surcoût dédiée aux systèmes à base de microcontrôleurs. ENOLA résout les problèmes d'évolutivité, de vulnérabilité du stockage des clés en mémoire et de performance des approches existantes en utilisant des calculs de mesure assistés par matériel, en évitant le stockage de clés en mémoire et en réduisant les changements de contexte.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "ENOLA: Linear-Space and Low-Overhead Control-Flow Attestation for Microcontroller-based Systems"
+  },
+  "doi:10.5220/0013518800003979": {
+    "publication_date": "2025-01-01",
+    "score": 80,
+    "source": "https://doi.org/10.5220/0013518800003979",
+    "summary": "Cet article étudie l'attaque par canal auxiliaire Flush+Fault sur l'architecture RISC-V en utilisant le simulateur gem5. Bien que ces attaques aient été démontrées sur du matériel réel par de précédents travaux, l'utilisation de gem5 permet d'obtenir un contrôle fin et des analyses détaillées des comportements temporels et des motifs de cache, ouvrant la voie à la conception de contre-mesures.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Assessing Security RISC: Analyzing Flush+Fault Attack on RISC-V Using gem5 Simulator"
+  },
+  "doi:10.7302/25650": {
+    "publication_date": "2025-01-01",
+    "score": 85,
+    "source": "https://hdl.handle.net/2027.42/197224",
+    "summary": "Cette thèse étudie les menaces liées à l'exécution spéculative et aux attaques par échantillonnage de données microarchitecturales (MDS) qui compromettent l'isolation des environnements d'exécution de confiance (TEE) et du cloud confidentiel. Elle démontre que l'approche corrective incrémentielle des constructeurs et des éditeurs est inefficace. Elle propose d'utiliser l'attestation à distance et des mécanismes de récupération transparente de la TCB (Trusted Computing Base) pour garantir la sécurité de ces environnements face aux vulnérabilités futures.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Future-proofing Trusted Execution Environments Against the Emerging Threats of Speculative Execution"
+  },
+  "title:integratingopentitanasasecuritycontrollerforcryptographictasksinriscvsocs": {
+    "publication_date": "2025-01-01",
+    "score": 90,
+    "source": "https://hdl.handle.net/11583/3000272",
+    "summary": "Cet article présente TitanSSL, une pile logicielle sécurisée qui décharge les opérations cryptographiques vers OpenTitan agissant comme contrôleur de sécurité dans un SoC RISC-V. L'architecture combine un cœur d'application CVA6 sous Linux et OpenTitan sur FPGA Xilinx VCU118. L'évaluation montre des gains de performance importants de 40x pour SHA-256 et 82x pour AES-256-CBC par rapport à une implémentation logicielle pure sur le cœur CVA6.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Integrating OpenTitan as a Security Controller for Cryptographic Tasks in RISC-V SoCs"
   },
   "title:optimizingtlscryptographicoperationsonriscvsocwithopentitanrot": {
     "publication_date": "2025-01-01",

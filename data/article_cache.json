@@ -1,5 +1,37 @@
 {
   "articles": {
+    "doi:10.1007/978-3-030-71522-9_300826": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "RTL Security Verification",
+      "updated_at": "2026-10-30T09:43:21.897916+00:00"
+    },
+    "doi:10.1007/978-3-031-94855-8_15": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Evaluating KASLR Break on RISC-V Using Gem5: Microarchitectural Side-Channel Analysis of Page-Table Walks",
+      "updated_at": "2026-10-30T09:43:09.304254+00:00"
+    },
+    "doi:10.1007/978-3-032-00627-1_9": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Exploring Speculation Barriers for RISC-V Selective Speculation",
+      "updated_at": "2026-10-30T09:43:16.824382+00:00"
+    },
+    "doi:10.1007/978-981-96-2417-1_2": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Identifying Ransomware Functions Through Microarchitectural Side-Channel Analysis",
+      "updated_at": "2026-10-30T09:43:09.304236+00:00"
+    },
     "doi:10.1109/access.2025.3596829": {
       "category": "coeur",
       "decision": "conserver",
@@ -7,6 +39,14 @@
       "status": "imported",
       "title": "Implementation of the TCG DICE Specification Into the Keystone TEE Framework",
       "updated_at": "2026-10-29T09:20:40.409665+00:00"
+    },
+    "doi:10.1109/access.2025.3625217": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "ADATA: Asymmetric Device Identifier Composition Engine Compliant Aggregate Trust Attestation",
+      "updated_at": "2026-10-30T09:42:44.741668+00:00"
     },
     "doi:10.1109/access.2025.3635270": {
       "category": "secondaire",
@@ -16,6 +56,38 @@
       "title": "Rethinking Trusted Execution Environments in the Age of Reconfigurable Computing",
       "updated_at": "2026-10-29T09:20:38.628972+00:00"
     },
+    "doi:10.1109/tifs.2025.3592573": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "LiSB: Lightweight Secure Boot and Attestation Scheme for IoT and Edge Devices",
+      "updated_at": "2026-10-30T09:42:49.242109+00:00"
+    },
+    "doi:10.1145/3658617.3697763": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Dep-TEE: Decoupled Memory Protection for Secure and Scalable Inter-enclave Communication on RISC-V",
+      "updated_at": "2026-10-30T09:42:58.124319+00:00"
+    },
+    "doi:10.14722/ndss.2025.230253": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "A Systematic Evaluation of Novel and Existing Cache Side Channels",
+      "updated_at": "2026-10-30T09:43:19.738806+00:00"
+    },
+    "doi:10.14722/ndss.2025.230746": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "WAVEN: WebAssembly Memory Virtualization for Enclaves",
+      "updated_at": "2026-10-30T09:42:56.869981+00:00"
+    },
     "doi:10.14722/ndss.2025.240449": {
       "category": "transfert_explicite",
       "decision": "conserver",
@@ -23,6 +95,94 @@
       "status": "imported",
       "title": "ASGARD: Protecting On-Device Deep Neural Networks with Virtualization-Based Trusted Execution Environments",
       "updated_at": "2026-10-29T09:20:39.854608+00:00"
+    },
+    "doi:10.14722/ndss.2025.241243": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "On Borrowed Time – Preventing Static Side-Channel Analysis",
+      "updated_at": "2026-10-30T09:43:16.824399+00:00"
+    },
+    "doi:10.14722/ndss.2025.241301": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "A Formal Approach to Multi-Layered Privileges for Enclaves",
+      "updated_at": "2026-10-30T09:42:57.592805+00:00"
+    },
+    "doi:10.3390/fi17010032": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Analysis and Evaluation of Intel Software Guard Extension-Based Trusted Execution Environment Usage in Edge Intelligence and Internet of Things Scenarios",
+      "updated_at": "2026-10-30T09:42:56.870000+00:00"
+    },
+    "doi:10.3929/ethz-c-000787734": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Dorami: Privilege Separating Security Monitor on RISC-V TEEs",
+      "updated_at": "2026-10-30T09:42:58.671962+00:00"
+    },
+    "doi:10.48550/arxiv.2501.11207": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "ENOLA: Linear-Space and Low-Overhead Control-Flow Attestation for Microcontroller-based Systems",
+      "updated_at": "2026-10-30T09:43:03.999386+00:00"
+    },
+    "doi:10.5220/0013518800003979": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "Assessing Security RISC: Analyzing Flush+Fault Attack on RISC-V Using gem5 Simulator",
+      "updated_at": "2026-10-30T09:43:13.621067+00:00"
+    },
+    "doi:10.5445/ir/1000190847": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Remote attestation in an isolated server setting through the usage of a tamper-resistant hardware token",
+      "updated_at": "2026-10-30T09:43:06.595852+00:00"
+    },
+    "doi:10.62110/sciencein.jist.2025.v13.1053": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "CPU scheduling algorithms performance analysis in the RISC-V xv6 operating system environment",
+      "updated_at": "2026-10-30T09:42:41.546963+00:00"
+    },
+    "doi:10.7302/25650": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Future-proofing Trusted Execution Environments Against the Emerging Threats of Speculative Execution",
+      "updated_at": "2026-10-30T09:43:14.181816+00:00"
+    },
+    "title:desarrollodefirmwareenarquitecturariscvsobreraspberrypipicow2": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Desarrollo de Firmware en arquitectura RISC-V sobre Raspberry Pi Pico W 2",
+      "updated_at": "2026-10-30T09:42:41.546996+00:00"
+    },
+    "title:integratingopentitanasasecuritycontrollerforcryptographictasksinriscvsocs": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Integrating OpenTitan as a Security Controller for Cryptographic Tasks in RISC-V SoCs",
+      "updated_at": "2026-10-30T09:42:42.256440+00:00"
     },
     "title:optimizingtlscryptographicoperationsonriscvsocwithopentitanrot": {
       "category": "coeur",
