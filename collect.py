@@ -635,6 +635,9 @@ def add_candidate(candidates, themes, paper, existing_titles, existing_dois):
     return True
 
 
+_GEMINI_LAST_REQUEST_START = 0.0
+
+
 def gemini_json(payload):
     """Appeler Gemini, avec reprise automatique en cas de surcharge HTTP 503.
 
@@ -652,23 +655,30 @@ def gemini_json(payload):
         },
     )
 
-    # Quatre essais au maximum : un appel initial puis trois reprises.
+    # GEMINI_RATE_LIMIT_10S_V1611 : espacer tous les appels, reprises comprises.
+    # Quatre essais maximum (429/503 compris).
     # Les délais ne s'appliquent qu'en cas de surcharge temporaire HTTP 503.
     response = None
-    for tentative, attente in enumerate((10, 25, 50, 0), start=1):
+    for tentative, attente in enumerate((30, 60, 90, 0), start=1):
         try:
+            # Dernier début de requête conservé durant cette exécution Python.
+            global _GEMINI_LAST_REQUEST_START
+            elapsed = time.monotonic() - _GEMINI_LAST_REQUEST_START
+            if elapsed < 10:
+                time.sleep(10 - elapsed)
+            _GEMINI_LAST_REQUEST_START = time.monotonic()
             with urllib.request.urlopen(req, timeout=120) as resp:
                 response = json.load(resp)
             break
         except urllib.error.HTTPError as exc:
             detail = exc.read().decode('utf-8', 'replace')[:500]
 
-            # Ne pas réessayer les erreurs de configuration ni les quotas 429.
-            if exc.code != 503 or tentative == 4:
+            # HTTP 429 = limite temporaire ; HTTP 503 = surcharge.
+            if exc.code not in (429, 503) or tentative == 4:
                 raise RuntimeError(f'Gemini HTTP {exc.code} : {detail}') from None
 
             print(
-                f'Gemini indisponible (HTTP 503, tentative {tentative}/4). '
+                f'Gemini HTTP {exc.code} (tentative {tentative}/4). '
                 f'Nouvel essai dans {attente} secondes.',
                 flush=True,
             )
