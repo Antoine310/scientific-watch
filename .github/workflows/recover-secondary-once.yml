@@ -1,0 +1,63 @@
+name: Récupération ponctuelle des articles secondaires
+
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: 'Écrire et publier les références récupérées ?'
+        required: true
+        type: choice
+        options: ['false', 'true']
+        default: 'false'
+
+permissions:
+  contents: write
+
+# Même groupe que la veille : évite les écritures Git concurrentes.
+concurrency:
+  group: scientific-watch-shared-state
+  cancel-in-progress: false
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Récupérer les métadonnées depuis OpenAlex (sans Gemini)
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          HISTORY_END: '2026-10-28'
+          APPLY: ${{ inputs.apply }}
+        run: |
+          if [ "$APPLY" = 'true' ]; then
+            python3 recover_secondary_cache.py --apply
+          else
+            python3 recover_secondary_cache.py
+          fi
+      - name: Enregistrer les références secondaires dans le dépôt privé
+        if: ${{ inputs.apply == 'true' }}
+        run: |
+          git config user.name 'scientific-watch-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f data/history_secondary_records.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Rattrapage ponctuel des articles secondaires depuis le cache'
+            git push
+          fi
+      - name: Actualiser les archives publiques
+        if: ${{ inputs.apply == 'true' }}
+        env:
+          PUBLIC_REPO_TOKEN: ${{ secrets.PUBLIC_REPO_TOKEN }}
+          PUBLIC_REPO: Antoine310/scientific-watch-v2
+          PUBLIC_DRY_RUN: 'false'
+        run: |
+          python3 - <<'PY'
+          import json
+          import pathlib
+          import publish_history
+          def load(name):
+              path = pathlib.Path('data') / name
+              return json.loads(path.read_text(encoding='utf-8')) if path.exists() else {}
+          publish_history.publish(load('history_records.json'), load('history_secondary_records.json'))
+          PY
