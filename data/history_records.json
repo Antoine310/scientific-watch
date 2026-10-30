@@ -69,6 +69,16 @@
     ],
     "title": "Dep-TEE: Decoupled Memory Protection for Secure and Scalable Inter-enclave Communication on RISC-V"
   },
+  "doi:10.1145/3719276.3725176": {
+    "publication_date": "2025-05-28",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3719276.3725176",
+    "summary": "Cet article présente PowerSecBench, un environnement logiciel conçu pour évaluer les fuites par canal caché d'alimentation sur divers processeurs RISC-V. En utilisant des microbenchmarks configurables exécutés sur des cibles simulées et réelles sur FPGA, l'outil permet de caractériser les fuites basées sur les valeurs et les transitions pour différentes microarchitectures, tout en étudiant l'efficacité de stratégies de protection logicielles.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "PowerSecBench: reveal microarchitectural power leakages using generic RISC-V microbenchmarks"
+  },
   "doi:10.1145/3735556": {
     "publication_date": "2025-05-14",
     "score": 75,
@@ -218,6 +228,16 @@
       "T10 — RISC-V SoC & FPGA"
     ],
     "title": "FPGA-Based Prototyping and Performance Analysis of a Linux-Capable RISC-V SoC"
+  },
+  "title:hardeningtrustedexecutionenvironmentsagainstmicroarchitecturalsidechannelattacksaconstructiveapproach": {
+    "publication_date": "2025-05-01",
+    "score": 90,
+    "source": "https://hdl.handle.net/1721.1/164044",
+    "summary": "Cette thèse propose une approche constructive pour renforcer la sécurité des environnements d'exécution de confiance (TEEs) face aux attaques par canaux cachés microarchitecturaux et par exécution spéculative. Elle introduit deux plateformes innovantes : Citadel, qui permet un partage mémoire sécurisé via l'isolation microarchitecturale relaxée (RMI), et Argos, un TEE dédié à l'intégrité pour le chiffrement homomorphe complet (FHE). Les prototypes démontrent une forte sécurité combinée à des surcoûts de performance minimes.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Hardening Trusted Execution Environments Against Microarchitectural Side-Channel Attacks: A Constructive Approach"
   },
   "title:integratingopentitanasasecuritycontrollerforcryptographictasksinriscvsocs": {
     "publication_date": "2025-01-01",
