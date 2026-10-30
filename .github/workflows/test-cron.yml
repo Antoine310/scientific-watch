@@ -5,8 +5,8 @@ on:
 
   schedule:
     # Test temporaire : toutes les 15 minutes
-    - cron: '*/15 * * * *'
-
+    - cron: '7,22,41,52 * * * *'
+    
 jobs:
   test:
     runs-on: ubuntu-latest
