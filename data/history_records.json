@@ -69,6 +69,16 @@
     ],
     "title": "Υλοποιήση και αξιολόγηση της επέκτασης SVNAPOT στην μικροαρχιτεκτονική CVA6"
   },
+  "doi:10.3390/e27020202": {
+    "publication_date": "2025-02-14",
+    "score": 85,
+    "source": "https://doi.org/10.3390/e27020202",
+    "summary": "Cet article présente SAluMC, une nouvelle architecture pour l'unité arithmétique et logique (ALU) et le contrôleur mémoire associé (MC) basée sur le jeu d'instructions RISC-V. L'approche vise à contrer les attaques par canal auxiliaire en utilisant l'injection de nombres aléatoires générés matériellement, avec un faible coût de conception et un impact négligeable sur la structure du système d'origine.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SAluMC: Thwarting Side-Channel Attacks via Random Number Injection in RISC-V"
+  },
   "doi:10.3929/ethz-c-000787734": {
     "publication_date": "2025-01-01",
     "score": 85,
@@ -88,6 +98,16 @@
       "T04 — Runtime Attestation"
     ],
     "title": "ENOLA: Linear-Space and Low-Overhead Control-Flow Attestation for Microcontroller-based Systems"
+  },
+  "doi:10.48550/arxiv.2502.14307": {
+    "publication_date": "2025-02-20",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2502.14307",
+    "summary": "Cet article propose une approche par apprentissage par renforcement (RL) pour automatiser et optimiser la découverte de vulnérabilités d'exécution transitoire (type Spectre et Meltdown) dans les microarchitectures modernes. Contrairement au fuzzing aléatoire, les agents RL utilisent un retour en temps réel pour cibler efficacement les séquences d'instructions révélant des failles. Testée sur Intel Skylake-X et Raptor Lake, la méthode a permis de générer des séquences provoquant des fuites de données sans déclencher d'interruptions.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "μRL: Discovering Transient Execution Vulnerabilities Using Reinforcement Learning"
   },
   "doi:10.5220/0013518800003979": {
     "publication_date": "2025-01-01",

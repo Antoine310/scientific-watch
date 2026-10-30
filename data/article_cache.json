@@ -64,6 +64,14 @@
       "title": "Demonstration of high-reconfigurability and low-power strong physical unclonable function empowered by FeFET cycle-to-cycle variation and charge-domain computing",
       "updated_at": "2026-10-30T09:50:44.218110+00:00"
     },
+    "doi:10.1038/s41598-025-89769-5": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Kernel-based response extraction approach for efficient configurable ring oscillator PUF",
+      "updated_at": "2026-10-30T10:02:20.516876+00:00"
+    },
     "doi:10.1109/access.2025.3543000": {
       "category": "secondaire",
       "decision": "examiner",
@@ -112,6 +120,14 @@
       "title": "LiSB: Lightweight Secure Boot and Attestation Scheme for IoT and Edge Devices",
       "updated_at": "2026-10-30T09:42:49.242109+00:00"
     },
+    "doi:10.1109/tmag.2025.3544442": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Temperature-Adaptive TRNG-Encrypted MRAM PUF: Enhancing Resistance to Machine Learning Attacks",
+      "updated_at": "2026-10-30T10:02:30.751188+00:00"
+    },
     "doi:10.1145/3658617.3697763": {
       "category": "coeur",
       "decision": "conserver",
@@ -119,6 +135,38 @@
       "status": "imported",
       "title": "Dep-TEE: Decoupled Memory Protection for Secure and Scalable Inter-enclave Communication on RISC-V",
       "updated_at": "2026-10-30T09:42:58.124319+00:00"
+    },
+    "doi:10.1145/3669940.3707243": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "RTL Verification for Secure Speculation Using Contract Shadow Logic",
+      "updated_at": "2026-10-30T10:02:10.391126+00:00"
+    },
+    "doi:10.1145/3722041.3723095": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Site Attestation: Browser-based Remote Attestation",
+      "updated_at": "2026-10-30T10:02:40.151789+00:00"
+    },
+    "doi:10.1145/3732365.3732400": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "A Remote Attestation Protocol Oriented to the SuperPOD Structure",
+      "updated_at": "2026-10-30T10:01:20.146415+00:00"
+    },
+    "doi:10.11606/d.18.2025.tde-26032025-083917": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Implementação e análise de um TRNG baseado em RO-PUF",
+      "updated_at": "2026-10-30T10:02:30.751205+00:00"
     },
     "doi:10.1186/s12985-024-02618-1": {
       "category": "hors_sujet",
@@ -184,6 +232,14 @@
       "title": "E-AAPIV: Merkle Tree-Based Real-Time Android Manifest Integrity Verification for Mobile Payment Security",
       "updated_at": "2026-10-30T09:49:17.513077+00:00"
     },
+    "doi:10.3390/e27020202": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "SAluMC: Thwarting Side-Channel Attacks via Random Number Injection in RISC-V",
+      "updated_at": "2026-10-30T10:01:41.772988+00:00"
+    },
     "doi:10.3390/fi17010032": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -207,6 +263,14 @@
       "status": "imported",
       "title": "ENOLA: Linear-Space and Low-Overhead Control-Flow Attestation for Microcontroller-based Systems",
       "updated_at": "2026-10-30T09:43:03.999386+00:00"
+    },
+    "doi:10.48550/arxiv.2502.14307": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "μRL: Discovering Transient Execution Vulnerabilities Using Reinforcement Learning",
+      "updated_at": "2026-10-30T10:02:01.734637+00:00"
     },
     "doi:10.5220/0013518800003979": {
       "category": "coeur",
