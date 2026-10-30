@@ -9,16 +9,7 @@ on:
         options: [preview, daily, historical, weekly]
         default: preview
         required: true
-  schedule:
-    # Recherche historique : 7 h, heure de Paris
-    - cron: '12 7 * * *'
-      timezone: 'Europe/Paris'
-    # Recherche quotidienne : 8 h 30, heure de Paris
-    - cron: '42 8 * * *'
-      timezone: 'Europe/Paris'
-    # Bilan et publication hebdomadaire : dimanche 19 h, heure de Paris
-    - cron: '8 19 * * 0'
-      timezone: 'Europe/Paris'
+
 
 permissions:
   contents: write # sauvegarde de data/ dans le dépôt privé
