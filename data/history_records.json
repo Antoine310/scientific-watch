@@ -59,6 +59,16 @@
     ],
     "title": "A Formal Approach to Multi-Layered Privileges for Enclaves"
   },
+  "doi:10.26240/heal.ntua.28646": {
+    "publication_date": "2025-01-24",
+    "score": 90,
+    "source": "https://dspace.lib.ntua.gr/xmlui/handle/123456789/60950",
+    "summary": "Ce document présente le travail d'évaluation et d'implémentation de l'extension SVNAPOT sur la microarchitecture CVA6, réalisé au sein du Laboratoire des Systèmes Informatiques de l'Université Polytechnique Nationale d'Athènes.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "Υλοποιήση και αξιολόγηση της επέκτασης SVNAPOT στην μικροαρχιτεκτονική CVA6"
+  },
   "doi:10.3929/ethz-c-000787734": {
     "publication_date": "2025-01-01",
     "score": 85,
@@ -98,6 +108,16 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Future-proofing Trusted Execution Environments Against the Emerging Threats of Speculative Execution"
+  },
+  "title:fpgabasedprototypingandperformanceanalysisofalinuxcapableriscvsoc": {
+    "publication_date": "2025-01-01",
+    "score": 75,
+    "source": "https://trepo.tuni.fi/handle/10024/232795",
+    "summary": "Ce travail présente un flux de prototypage sur FPGA et d'évaluation des performances d'un SoC RISC-V open-source capable de faire tourner Linux, basé sur la plateforme Cheshire et implémenté sur une carte AMD-Xilinx Zynq UltraScale+. La pile logicielle Linux complète est intégrée, et les performances sont évaluées via des benchmarks synthétiques et une application réelle (YOLOv8n).",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "FPGA-Based Prototyping and Performance Analysis of a Linux-Capable RISC-V SoC"
   },
   "title:integratingopentitanasasecuritycontrollerforcryptographictasksinriscvsocs": {
     "publication_date": "2025-01-01",

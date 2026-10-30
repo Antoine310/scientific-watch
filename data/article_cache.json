@@ -1,5 +1,13 @@
 {
   "articles": {
+    "doi:10.1002/adma.202419579": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Rolling the Dice with Light Competition: Introducing a True Random Number Generator Powered by Photo‐Induced Polarity Current",
+      "updated_at": "2026-10-30T09:52:45.186112+00:00"
+    },
     "doi:10.1007/978-3-030-71522-9_300826": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -8,6 +16,14 @@
       "title": "RTL Security Verification",
       "updated_at": "2026-10-30T09:43:21.897916+00:00"
     },
+    "doi:10.1007/978-3-031-84100-2_5": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Exploring the New CV-X-IF Interface to Customize RISC-V Instruction Sets: A Case of Study in Cryptography",
+      "updated_at": "2026-10-30T09:50:13.924552+00:00"
+    },
     "doi:10.1007/978-3-031-94855-8_15": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -15,6 +31,14 @@
       "status": "rejected",
       "title": "Evaluating KASLR Break on RISC-V Using Gem5: Microarchitectural Side-Channel Analysis of Page-Table Walks",
       "updated_at": "2026-10-30T09:43:09.304254+00:00"
+    },
+    "doi:10.1007/978-3-032-00627-1_6": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Fast and Efficient Secure L1 Caches for SMT",
+      "updated_at": "2026-10-30T09:49:05.707046+00:00"
     },
     "doi:10.1007/978-3-032-00627-1_9": {
       "category": "transfert_explicite",
@@ -31,6 +55,22 @@
       "status": "rejected",
       "title": "Identifying Ransomware Functions Through Microarchitectural Side-Channel Analysis",
       "updated_at": "2026-10-30T09:43:09.304236+00:00"
+    },
+    "doi:10.1038/s41467-024-55380-x": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Demonstration of high-reconfigurability and low-power strong physical unclonable function empowered by FeFET cycle-to-cycle variation and charge-domain computing",
+      "updated_at": "2026-10-30T09:50:44.218110+00:00"
+    },
+    "doi:10.1109/access.2025.3543000": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Reliability Assessment of Optical Physical Unclonable Functions Based on the Spatial Distribution of Catastrophic Failure Sites in MIM Structures",
+      "updated_at": "2026-10-30T09:53:00.704975+00:00"
     },
     "doi:10.1109/access.2025.3596829": {
       "category": "coeur",
@@ -56,6 +96,14 @@
       "title": "Rethinking Trusted Execution Environments in the Age of Reconfigurable Computing",
       "updated_at": "2026-10-29T09:20:38.628972+00:00"
     },
+    "doi:10.1109/access.2025.3638434": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 55,
+      "status": "rejected",
+      "title": "A Robust and Portable All-Digital TRNG Circuit for Extending the Instruction Set Architecture of RISC-V Processors",
+      "updated_at": "2026-10-30T09:52:45.186106+00:00"
+    },
     "doi:10.1109/tifs.2025.3592573": {
       "category": "coeur",
       "decision": "conserver",
@@ -71,6 +119,14 @@
       "status": "imported",
       "title": "Dep-TEE: Decoupled Memory Protection for Secure and Scalable Inter-enclave Communication on RISC-V",
       "updated_at": "2026-10-30T09:42:58.124319+00:00"
+    },
+    "doi:10.1186/s12985-024-02618-1": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Construction of a Vero cell line expression human KREMEN1 for the development of CVA6 vaccines",
+      "updated_at": "2026-10-30T09:49:23.293929+00:00"
     },
     "doi:10.14722/ndss.2025.230253": {
       "category": "coeur",
@@ -112,6 +168,22 @@
       "title": "A Formal Approach to Multi-Layered Privileges for Enclaves",
       "updated_at": "2026-10-30T09:42:57.592805+00:00"
     },
+    "doi:10.26240/heal.ntua.28646": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Υλοποιήση και αξιολόγηση της επέκτασης SVNAPOT στην μικροαρχιτεκτονική CVA6",
+      "updated_at": "2026-10-30T09:50:14.584375+00:00"
+    },
+    "doi:10.32604/jcs.2025.073547": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "E-AAPIV: Merkle Tree-Based Real-Time Android Manifest Integrity Verification for Mobile Payment Security",
+      "updated_at": "2026-10-30T09:49:17.513077+00:00"
+    },
     "doi:10.3390/fi17010032": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -152,6 +224,14 @@
       "title": "Remote attestation in an isolated server setting through the usage of a tamper-resistant hardware token",
       "updated_at": "2026-10-30T09:43:06.595852+00:00"
     },
+    "doi:10.56975/ijrti.v10i5.203439": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Novel Quantum Optical Physical Unclonable Function with AI-Driven Stabilization for FPGA-based Authentication Systems",
+      "updated_at": "2026-10-30T09:50:44.218126+00:00"
+    },
     "doi:10.62110/sciencein.jist.2025.v13.1053": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -175,6 +255,22 @@
       "status": "rejected",
       "title": "Desarrollo de Firmware en arquitectura RISC-V sobre Raspberry Pi Pico W 2",
       "updated_at": "2026-10-30T09:42:41.546996+00:00"
+    },
+    "title:designofatrngin600nmigzotftflexlcsforsecureiotapplications": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Design of a TRNG in 600-nm IGZO-TFT FlexlCs for secure IoT applications",
+      "updated_at": "2026-10-30T09:52:45.186086+00:00"
+    },
+    "title:fpgabasedprototypingandperformanceanalysisofalinuxcapableriscvsoc": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "FPGA-Based Prototyping and Performance Analysis of a Linux-Capable RISC-V SoC",
+      "updated_at": "2026-10-30T09:50:15.071764+00:00"
     },
     "title:integratingopentitanasasecuritycontrollerforcryptographictasksinriscvsocs": {
       "category": "coeur",
