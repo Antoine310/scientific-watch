@@ -29,6 +29,26 @@
     ],
     "title": "A Scalable Identity-Based Encryption Approach for Secure Shared Memory Communication in Keystone"
   },
+  "doi:10.1109/icet64964.2025.11103069": {
+    "publication_date": "2025-05-17",
+    "score": 85,
+    "source": "https://doi.org/10.1109/icet64964.2025.11103069",
+    "summary": "Cet article propose une solution matérielle de démarrage sécurisé pour les SoC RISC-V basée sur la gestion des permissions et des algorithmes nationaux de sécurité. La conception utilise un micrologiciel ROM pour initialiser et gérer les fonctionnalités de sécurité, tout en restreignant l'accès aux données de la ROM et aux modules cryptographiques aux seules requêtes validées par signature et authentification des permissions.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Research on Security Technologies for RISC-V SoC Based on Permission Management"
+  },
+  "doi:10.1109/sp61157.2025.00220": {
+    "publication_date": "2025-05-12",
+    "score": 85,
+    "source": "https://doi.org/10.1109/sp61157.2025.00220",
+    "summary": "Cet article présente des extensions matérielles et logicielles pour OpenTitan afin d'accélérer la cryptographie post-quantique, en ciblant spécifiquement ML-KEM et ML-DSA sur l'accélérateur OTBN. Les auteurs proposent des optimisations logicielles, une interface entre OTBN et l'accélérateur Keccak (KMAC), ainsi que des extensions du jeu d'instructions (ISA) pour des vecteurs de 256 bits, permettant d'obtenir des accélérations significatives de performance.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Towards ML-KEM & ML-DSA on OpenTitan"
+  },
   "doi:10.1109/tifs.2025.3592573": {
     "publication_date": "2025-01-01",
     "score": 85,
@@ -48,6 +68,16 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Dep-TEE: Decoupled Memory Protection for Secure and Scalable Inter-enclave Communication on RISC-V"
+  },
+  "doi:10.1145/3735556": {
+    "publication_date": "2025-05-14",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3735556",
+    "summary": "Cet article présente la première étude de synthèse complète sur les attaques basées sur l'énergie interne contournant les propriétés de sécurité des environnements d'exécution de confiance (TEE), incluant les attaques par injection de fautes, par canaux auxiliaires et canaux cachés, ainsi qu'une évaluation des contre-mesures de la littérature.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Do Not Trust Power Management: A Survey on Internal Energy-based Attacks Circumventing Trusted Execution Environments Security Properties"
   },
   "doi:10.14722/ndss.2025.230253": {
     "publication_date": "2025-01-01",
@@ -148,6 +178,16 @@
       "T07 — Hardware Security Verification"
     ],
     "title": "DejaVuzz: Disclosing Transient Execution Bugs with Dynamic Swappable Memory and Differential Information Flow Tracking assisted Processor Fuzzing"
+  },
+  "doi:10.48550/arxiv.2505.12995": {
+    "publication_date": "2025-05-19",
+    "score": 75,
+    "source": "https://arxiv.org/abs/2505.12995",
+    "summary": "Cet article présente ACE (Towards A High-Assurance Isolated Virtualization Environment for RISC-V), un système de calcul confidentiel basé sur la virtualisation, open-source et sans redevance, conçu pour l'architecture RISC-V afin de sécuriser les systèmes embarqués haut de gamme et de périphérie (edge). Il isole les logiciels dans des machines virtuelles confidentielles en s'appuyant exclusivement sur du matériel RISC-V standard supportant la virtualisation, sans extensions matérielles spécialisées.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "ACE: Towards A High-Assurance Isolated Virtualization Environment for RISC-V"
   },
   "doi:10.5220/0013518800003979": {
     "publication_date": "2025-01-01",

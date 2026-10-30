@@ -8,6 +8,14 @@
       "title": "Rolling the Dice with Light Competition: Introducing a True Random Number Generator Powered by Photo‐Induced Polarity Current",
       "updated_at": "2026-10-30T09:52:45.186112+00:00"
     },
+    "doi:10.1002/cta.4571": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "A Lightweight and High‐Throughput True Random Number Generator Based on Hybrid Entropy Source",
+      "updated_at": "2026-10-30T14:13:50.303572+00:00"
+    },
     "doi:10.1007/978-3-030-71522-9_300826": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -55,6 +63,14 @@
       "status": "rejected",
       "title": "Identifying Ransomware Functions Through Microarchitectural Side-Channel Analysis",
       "updated_at": "2026-10-30T09:43:09.304236+00:00"
+    },
+    "doi:10.1007/s10836-025-06169-3": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Survey of Verification of RISC-V Processors",
+      "updated_at": "2026-10-30T14:13:26.782730+00:00"
     },
     "doi:10.1007/s13389-025-00369-5": {
       "category": "coeur",
@@ -128,6 +144,30 @@
       "title": "A Scalable Identity-Based Encryption Approach for Secure Shared Memory Communication in Keystone",
       "updated_at": "2026-10-30T11:02:09.616355+00:00"
     },
+    "doi:10.1109/dcas65331.2025.11045468": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "High-Entropy Metastable Jitter-Based True Random Number Generator (TRNG)",
+      "updated_at": "2026-10-30T14:13:50.303549+00:00"
+    },
+    "doi:10.1109/icet64964.2025.11103069": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Research on Security Technologies for RISC-V SoC Based on Permission Management",
+      "updated_at": "2026-10-30T14:14:50.616312+00:00"
+    },
+    "doi:10.1109/isqed65160.2025.11014412": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "XORed Carry Chain Ring Oscillator Factored True Random Number Generator",
+      "updated_at": "2026-10-30T14:13:50.303565+00:00"
+    },
     "doi:10.1109/les.2025.3549110": {
       "category": "secondaire",
       "decision": "examiner",
@@ -135,6 +175,22 @@
       "status": "rejected",
       "title": "High-Speed True Random Number Generator With Multiple Entropy Sources: Ring Oscillator Jitter and Random Telegraph Noise",
       "updated_at": "2026-10-30T11:01:27.174396+00:00"
+    },
+    "doi:10.1109/sp61157.2025.00104": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "BadRAM: Practical Memory Aliasing Attacks on Trusted Execution Environments",
+      "updated_at": "2026-10-30T14:14:23.806252+00:00"
+    },
+    "doi:10.1109/sp61157.2025.00220": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Towards ML-KEM & ML-DSA on OpenTitan",
+      "updated_at": "2026-10-30T14:14:24.630718+00:00"
     },
     "doi:10.1109/tifs.2025.3592573": {
       "category": "coeur",
@@ -151,6 +207,14 @@
       "status": "rejected",
       "title": "Temperature-Adaptive TRNG-Encrypted MRAM PUF: Enhancing Resistance to Machine Learning Attacks",
       "updated_at": "2026-10-30T10:02:30.751188+00:00"
+    },
+    "doi:10.1109/vlsitsa64674.2025.11046852": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "OTP-Generated Physical Unclonable Function for Hardware Security of AIoT Devices in Logic CMOS Platform",
+      "updated_at": "2026-10-30T14:13:35.829981+00:00"
     },
     "doi:10.1109/vts65138.2025.11022949": {
       "category": "hors_sujet",
@@ -184,6 +248,14 @@
       "title": "RTL Verification for Secure Speculation Using Contract Shadow Logic",
       "updated_at": "2026-10-30T10:02:10.391126+00:00"
     },
+    "doi:10.1145/3719276.3727950": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "POSTER: A RISC-V Open-Source Platform for Reliability Evaluation in Safety-Critical Operating Systems",
+      "updated_at": "2026-10-30T14:14:39.649647+00:00"
+    },
     "doi:10.1145/3722041.3723095": {
       "category": "secondaire",
       "decision": "examiner",
@@ -199,6 +271,14 @@
       "status": "rejected",
       "title": "A Remote Attestation Protocol Oriented to the SuperPOD Structure",
       "updated_at": "2026-10-30T10:01:20.146415+00:00"
+    },
+    "doi:10.1145/3735556": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Do Not Trust Power Management: A Survey on Internal Energy-based Attacks Circumventing Trusted Execution Environments Security Properties",
+      "updated_at": "2026-10-30T14:14:51.170294+00:00"
     },
     "doi:10.11606/d.18.2025.tde-26032025-083917": {
       "category": "secondaire",
@@ -320,6 +400,14 @@
       "title": "SAluMC: Thwarting Side-Channel Attacks via Random Number Injection in RISC-V",
       "updated_at": "2026-10-30T10:01:41.772988+00:00"
     },
+    "doi:10.3390/engproc2025092023": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 25,
+      "status": "rejected",
+      "title": "The Implementation of the Physical Unclonable Function in a Field-Programmable Gate Array for Enhancing Hardware Security",
+      "updated_at": "2026-10-30T14:13:35.830005+00:00"
+    },
     "doi:10.3390/fi17010032": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -383,6 +471,14 @@
       "status": "imported",
       "title": "DejaVuzz: Disclosing Transient Execution Bugs with Dynamic Swappable Memory and Differential Information Flow Tracking assisted Processor Fuzzing",
       "updated_at": "2026-10-30T11:02:57.743678+00:00"
+    },
+    "doi:10.48550/arxiv.2505.12995": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "ACE: Towards A High-Assurance Isolated Virtualization Environment for RISC-V",
+      "updated_at": "2026-10-30T14:14:25.224180+00:00"
     },
     "doi:10.5220/0013518800003979": {
       "category": "coeur",
