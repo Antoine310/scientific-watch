@@ -1,19 +1,11 @@
-name: Test du déclenchement automatique
+name: Test Cron
 
 on:
-  workflow_dispatch:
-
   schedule:
-    # Test temporaire : toutes les 15 minutes
-    - cron: '7,22,41,52 * * * *'
-    
+    - cron: '7,18,21,52 * * * *'
+
 jobs:
   test:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Afficher le déclenchement
-        run: |
-          echo "Déclenchement GitHub Actions réussi !"
-          echo "Événement : ${{ github.event_name }}"
-          date -u
+      - run: echo "CRON AUTOMATIQUE OK"
