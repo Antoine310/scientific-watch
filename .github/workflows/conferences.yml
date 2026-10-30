@@ -9,10 +9,7 @@ on:
         default: 'false'
         type: choice
         options: ['false', 'true']
-  schedule:
-    # Lundi 07:30 en heure de Paris (fuseau DST pris en charge).
-    - cron: '30 7 * * 1'
-      timezone: 'Europe/Paris'
+
 
 permissions:
   contents: read
