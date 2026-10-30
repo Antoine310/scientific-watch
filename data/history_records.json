@@ -79,6 +79,16 @@
     ],
     "title": "Research on Security Technologies for RISC-V SoC Based on Permission Management"
   },
+  "doi:10.1109/iolts65288.2025.11117044": {
+    "publication_date": "2025-07-07",
+    "score": 85,
+    "source": "https://doi.org/10.1109/iolts65288.2025.11117044",
+    "summary": "Cet article présente une méthodologie basée sur l'apprentissage automatique et le simulateur gem5 pour détecter les attaques par canal auxiliaire et par injection de fautes, en se concentrant spécifiquement sur l'attaque Flush+Fault sur l'architecture RISC-V.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Side-Channel Attack Detection Using gem5 and Machine Learning: A Case Study on Fault-Based Attacks in RISC-V"
+  },
   "doi:10.1109/sp61157.2025.00220": {
     "publication_date": "2025-05-12",
     "score": 85,
@@ -278,6 +288,16 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "ACE: Towards A High-Assurance Isolated Virtualization Environment for RISC-V"
+  },
+  "doi:10.48550/arxiv.2507.12345": {
+    "publication_date": "2025-07-16",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2507.12345",
+    "summary": "Cet article présente RESPEC-CFA, une extension architecturale pour l'attestation de flux de contrôle (CFA) dans les systèmes embarqués. En spéculant sur la localité des flux de contrôle et leur encodage de Huffman, l'approche réduit significativement la taille des journaux de flux de contrôle (CFlog), diminuant les coûts de stockage et de transmission jusqu'à 90,1 % seule, et jusqu'à 99,7 % lorsqu'elle est combinée avec des méthodes antérieures.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Efficient Control Flow Attestation by Speculating on Control Flow Path Representations"
   },
   "doi:10.5220/0013518800003979": {
     "publication_date": "2025-01-01",

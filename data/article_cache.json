@@ -112,6 +112,14 @@
       "title": "Kernel-based response extraction approach for efficient configurable ring oscillator PUF",
       "updated_at": "2026-10-30T10:02:20.516876+00:00"
     },
+    "doi:10.1038/s44335-025-00027-3": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Enhancing Johnson-Nyquist noise for high-performance Mott memristor-based oscillatory TRNG",
+      "updated_at": "2026-10-30T23:13:24.479825+00:00"
+    },
     "doi:10.1080/03772063.2025.2501178": {
       "category": "secondaire",
       "decision": "examiner",
@@ -224,6 +232,30 @@
       "title": "Research on Security Technologies for RISC-V SoC Based on Permission Management",
       "updated_at": "2026-10-30T14:14:50.616312+00:00"
     },
+    "doi:10.1109/incsst64791.2025.11210272": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 55,
+      "status": "rejected",
+      "title": "RISC-V Processor Design: RTL to GDSII Implementation Using EDA Tools",
+      "updated_at": "2026-10-30T23:13:33.139356+00:00"
+    },
+    "doi:10.1109/iolts65288.2025.11117044": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Side-Channel Attack Detection Using gem5 and Machine Learning: A Case Study on Fault-Based Attacks in RISC-V",
+      "updated_at": "2026-10-30T23:14:34.249711+00:00"
+    },
+    "doi:10.1109/iolts65288.2025.11117118": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Real-Time Fault Analysis in RISC-V Processors: A Case Study Using the Internal State Monitor",
+      "updated_at": "2026-10-30T23:13:53.377336+00:00"
+    },
     "doi:10.1109/iscas56072.2025.11043564": {
       "category": "secondaire",
       "decision": "examiner",
@@ -232,6 +264,14 @@
       "title": "Design of a TRNG in 600-nm IGZO-TFT FlexICs for Secure IoT Applications",
       "updated_at": "2026-10-30T17:14:24.805332+00:00"
     },
+    "doi:10.1109/iscc65549.2025.11326200": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 55,
+      "status": "rejected",
+      "title": "AuRA: Remote Attestation over EDHOC for Constrained Internet-of-Things Use Cases",
+      "updated_at": "2026-10-30T23:14:12.932872+00:00"
+    },
     "doi:10.1109/isqed65160.2025.11014412": {
       "category": "secondaire",
       "decision": "examiner",
@@ -239,6 +279,14 @@
       "status": "rejected",
       "title": "XORed Carry Chain Ring Oscillator Factored True Random Number Generator",
       "updated_at": "2026-10-30T14:13:50.303565+00:00"
+    },
+    "doi:10.1109/jiot.2025.3582869": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 25,
+      "status": "rejected",
+      "title": "A Unified Approach to Strong PUF and TRNG Using Ring Generator for Cryptography",
+      "updated_at": "2026-10-30T23:13:24.479813+00:00"
     },
     "doi:10.1109/les.2025.3549110": {
       "category": "secondaire",
@@ -255,6 +303,14 @@
       "status": "rejected",
       "title": "From Colocation to Exfiltration: Practical Cache Side-Channel Attacks in the Modern Public Cloud",
       "updated_at": "2026-10-30T17:13:34.426937+00:00"
+    },
+    "doi:10.1109/naecon65708.2025.11235410": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "FaultRISC-V: Detecting Fault Injection Vulnerabilities in RISC-V Assembly",
+      "updated_at": "2026-10-30T23:13:33.139373+00:00"
     },
     "doi:10.1109/sp61157.2025.00104": {
       "category": "transfert_explicite",
@@ -488,6 +544,14 @@
       "title": "A New Dynamic Cache Flushing (DCF) Algorithm to Prevent Cache Timing Attack",
       "updated_at": "2026-10-30T11:02:36.058403+00:00"
     },
+    "doi:10.20944/preprints202506.1271.v1": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "A TRNG Implemented Using a Soft-Data Based Sponge Function within a Unified Strong PUF Architecture",
+      "updated_at": "2026-10-30T23:13:24.479830+00:00"
+    },
     "doi:10.2172/3018824": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -536,6 +600,14 @@
       "title": "E-AAPIV: Merkle Tree-Based Real-Time Android Manifest Integrity Verification for Mobile Payment Security",
       "updated_at": "2026-10-30T09:49:17.513077+00:00"
     },
+    "doi:10.3389/fcomp.2025.1521059": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Trusted execution environments for quantum computers",
+      "updated_at": "2026-10-30T23:13:24.479835+00:00"
+    },
     "doi:10.3390/cryptography9020034": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -559,6 +631,14 @@
       "status": "imported",
       "title": "SAluMC: Thwarting Side-Channel Attacks via Random Number Injection in RISC-V",
       "updated_at": "2026-10-30T10:01:41.772988+00:00"
+    },
+    "doi:10.3390/electronics14132591": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 25,
+      "status": "rejected",
+      "title": "Optimized Quantum-Resistant Cryptosystem: Integrating Kyber-KEM with Hardware TRNG on Zynq Platform",
+      "updated_at": "2026-10-30T23:13:24.479786+00:00"
     },
     "doi:10.3390/engproc2025092023": {
       "category": "secondaire",
@@ -624,6 +704,22 @@
       "title": "Dorami: Privilege Separating Security Monitor on RISC-V TEEs",
       "updated_at": "2026-10-30T09:42:58.671962+00:00"
     },
+    "doi:10.4108/eetss.v9i1.2854": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "SeFS: A Secure and Efficient File Sharing Framework based on the Trusted Execution Environment",
+      "updated_at": "2026-10-30T23:13:43.499485+00:00"
+    },
+    "doi:10.46586/tches.v2025.i3.238-261": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 25,
+      "status": "rejected",
+      "title": "On the Characterization of Phase Noise for the Robust and Resilient PLL-TRNG Design",
+      "updated_at": "2026-10-30T23:13:24.479820+00:00"
+    },
     "doi:10.48550/arxiv.2501.11207": {
       "category": "coeur",
       "decision": "conserver",
@@ -655,6 +751,14 @@
       "status": "imported",
       "title": "ACE: Towards A High-Assurance Isolated Virtualization Environment for RISC-V",
       "updated_at": "2026-10-30T14:14:25.224180+00:00"
+    },
+    "doi:10.48550/arxiv.2507.12345": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Efficient Control Flow Attestation by Speculating on Control Flow Path Representations",
+      "updated_at": "2026-10-30T23:14:03.957977+00:00"
     },
     "doi:10.5220/0013518800003979": {
       "category": "coeur",
