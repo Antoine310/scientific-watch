@@ -18,6 +18,7 @@ import publish_history
 
 STATE_PATH = pathlib.Path('data/history_progress.json')
 RECORDS_PATH = pathlib.Path('data/history_records.json')
+SECONDARY_PATH = pathlib.Path('data/history_secondary_records.json')
 HISTORY_START = date(2025, 1, 1)
 # Date fixe de fin : le quotidien couvrira les publications suivantes.
 HISTORY_END = date.fromisoformat(os.environ.get('HISTORY_END', '2026-10-28'))
@@ -131,17 +132,18 @@ def to_record(paper, theme):
     return {'paper': paper, 'themes': [theme], 'sources': {'OpenAlex'}}
 
 
-def persist(state, cache, records):
+def persist(state, cache, records, secondary_records):
     """Sauvegarde locale après chaque lot, même si le workflow s'arrête ensuite.
 
     GitHub Actions commite data/ à la fin du job, y compris après erreur.
     """
     write_json(RECORDS_PATH, records)
+    write_json(SECONDARY_PATH, secondary_records)
     cachelib.write(cache)
     write_json(STATE_PATH, state)
 
 
-def process_pending(state, cache, records, titles, dois, budget):
+def process_pending(state, cache, records, secondary_records, titles, dois, budget):
     """Traite un maximum de `budget` nouveaux candidats, sans perdre le reliquat."""
     if not state['pending']:
         return 0, 0
@@ -183,7 +185,24 @@ def process_pending(state, cache, records, titles, dois, budget):
             detail = core.analyze_detail(rec)
             accepted_entries.append((rec, decision, detail))
         else:
-            cachelib.set_status(cache, rec['paper'], decision, 'rejected')
+            paper = rec['paper']
+            category = str(decision.get('categorie', '')).casefold().strip()
+            score = int(decision.get('score', 0))
+            # Les 60–74 non importés restent visibles, sans analyse détaillée.
+            # Les catégories périphériques / hors sujet ne sont jamais publiées.
+            if 60 <= score <= 74 and category in {'coeur', 'transfert_explicite'}:
+                identity = cachelib.key(paper)
+                date_str = str(paper.get('publication_date') or '')
+                location = paper.get('primary_location') or {}
+                link = paper.get('doi') or location.get('landing_page_url') or paper.get('id') or ''
+                if identity and identity not in secondary_records and len(date_str) == 10:
+                    secondary_records[identity] = {
+                        'title': paper.get('title', ''),
+                        'score': score,
+                        'source': link,
+                        'publication_date': date_str,
+                    }
+            cachelib.set_status(cache, paper, decision, 'rejected')
 
     schema = (core.api(f'https://api.notion.com/v1/data_sources/{core.SOURCE_ID}')
               .get('properties', {})) if accepted_entries else {}
@@ -200,6 +219,7 @@ def process_pending(state, cache, records, titles, dois, budget):
         if doi:
             dois.add(doi)
         cachelib.set_status(cache, paper, decision, 'imported')
+        secondary_records.pop(cachelib.key(paper), None)
         identity = cachelib.key(paper)
         if identity and identity not in records:
             loc = paper.get('primary_location') or {}
@@ -213,7 +233,7 @@ def process_pending(state, cache, records, titles, dois, budget):
     # On supprime les candidats uniquement APRÈS traitement complet du lot.
     consumed_ids = {id(p) for p in consumed}
     state['pending'] = [p for p in state['pending'] if id(p) not in consumed_ids]
-    persist(state, cache, records)
+    persist(state, cache, records, secondary_records)
     return len(reviewed), len(accepted_entries)
 
 
@@ -221,6 +241,7 @@ def main():
     state = clean_state(read_json(STATE_PATH, {}))
     cache = cachelib.read()
     records = read_json(RECORDS_PATH, {})
+    secondary_records = read_json(SECONDARY_PATH, {})
     if state['completed']:
         print('Historique achevé :', state['month'])
         return
@@ -248,7 +269,7 @@ def main():
                 print(f'Budget Gemini atteint : {len(state["pending"])} candidat(s) en attente.')
                 break
             analyzed, selected = process_pending(
-                state, cache, records, titles, dois, remaining)
+                state, cache, records, secondary_records, titles, dois, remaining)
             total_analyzed += analyzed
             total_selected += selected
             if state['pending']:
@@ -263,7 +284,7 @@ def main():
             break
         if state['last_page']:
             advance_query(state)
-            persist(state, cache, records)
+            persist(state, cache, records, secondary_records)
             if state['completed']:
                 print('Recherche historique entièrement parcourue.')
                 break
@@ -274,12 +295,12 @@ def main():
               f'requête {state["query_index"] + 1}/{len(all_queries())}: '
               f'{count} résultats, {found} candidat(s).')
         # Important : persister le curseur ET les candidats avant de les analyser.
-        persist(state, cache, records)
+        persist(state, cache, records, secondary_records)
 
     # Publication à partir des fiches, regroupées par date de publication.
     # Si cette étape échoue, records reste sauvegardé et pourra être republié.
-    if records:
-        publish_history.publish(records)
+    if records or secondary_records:
+        publish_history.publish(records, secondary_records)
     print(f'Fin : {pages} page(s) lue(s), {total_analyzed} analysé(s), '
           f'{total_selected} retenu(s), {len(state["pending"])} en attente. '
           f'Pages cumulées : {state["pages_done"]}.')
