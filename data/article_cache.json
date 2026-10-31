@@ -88,6 +88,22 @@
       "title": "Exploring Speculation Barriers for RISC-V Selective Speculation",
       "updated_at": "2026-10-30T09:43:16.824382+00:00"
     },
+    "doi:10.1007/978-3-032-06665-7_38": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "A Hardware Security Review of RISC-V",
+      "updated_at": "2026-10-31T11:14:30.665198+00:00"
+    },
+    "doi:10.1007/978-3-032-07894-0_2": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Systematic Assessment of Cache Timing Vulnerabilities on RISC-V Processors",
+      "updated_at": "2026-10-31T11:14:49.589909+00:00"
+    },
     "doi:10.1007/978-3-032-36885-0_21": {
       "category": "coeur",
       "decision": "conserver",
@@ -192,6 +208,14 @@
       "title": "Demonstration of high-reconfigurability and low-power strong physical unclonable function empowered by FeFET cycle-to-cycle variation and charge-domain computing",
       "updated_at": "2026-10-30T09:50:44.218110+00:00"
     },
+    "doi:10.1038/s41467-025-63739-x": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Chip-scale reconfigurable carbon nanotube physical unclonable functions",
+      "updated_at": "2026-10-31T11:13:29.560126+00:00"
+    },
     "doi:10.1038/s41598-025-89769-5": {
       "category": "secondaire",
       "decision": "examiner",
@@ -279,6 +303,14 @@
       "status": "imported",
       "title": "A Scalable Identity-Based Encryption Approach for Secure Shared Memory Communication in Keystone",
       "updated_at": "2026-10-30T11:02:09.616355+00:00"
+    },
+    "doi:10.1109/bhi67747.2025.11269531": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Leveraging Trusted Execution Environments For Data Security in Healthcare Workflows",
+      "updated_at": "2026-10-31T11:14:40.055936+00:00"
     },
     "doi:10.1109/csr64739.2025.11130017": {
       "category": "coeur",
@@ -368,6 +400,22 @@
       "title": "Research on Security Technologies for RISC-V SoC Based on Permission Management",
       "updated_at": "2026-10-30T14:14:50.616312+00:00"
     },
+    "doi:10.1109/icicm66614.2025.11315911": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Design and Implementation of a Secure Boot RISC-V Processor for IoT Devices",
+      "updated_at": "2026-10-31T11:14:31.620540+00:00"
+    },
+    "doi:10.1109/icosec67334.2025.11459751": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Implementation of A Hybrid TRNG-PRNG Architecture for Efficient Random Number Generator",
+      "updated_at": "2026-10-31T11:13:40.427886+00:00"
+    },
     "doi:10.1109/incsst64791.2025.11210272": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -424,6 +472,14 @@
       "title": "Microarchitecture Design and Benchmarking of Custom SHA-3 Instruction for RISC-V",
       "updated_at": "2026-10-31T02:13:21.703795+00:00"
     },
+    "doi:10.1109/itc58126.2025.00030": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Power Side-Channel Vulnerabilities of a RISC-V Cryptography Accelerator Integrated into CVA6 via Core-V eXtension Interface (CV-X-IF)",
+      "updated_at": "2026-10-31T11:13:20.504921+00:00"
+    },
     "doi:10.1109/jiot.2025.3582869": {
       "category": "secondaire",
       "decision": "examiner",
@@ -455,6 +511,22 @@
       "status": "rejected",
       "title": "FaultRISC-V: Detecting Fault Injection Vulnerabilities in RISC-V Assembly",
       "updated_at": "2026-10-30T23:13:33.139373+00:00"
+    },
+    "doi:10.1109/socc66126.2025.11235423": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Design and Prototyping of Custom SHA-3 Instruction for CVA6 RISC-V Core",
+      "updated_at": "2026-10-31T11:13:20.504894+00:00"
+    },
+    "doi:10.1109/socc66126.2025.11235487": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Accelerating CRYSTALS-Kyber and Dilithium via a Single Montgomery Reduction ISE on RISC-V",
+      "updated_at": "2026-10-31T11:13:20.504928+00:00"
     },
     "doi:10.1109/sp61157.2025.00104": {
       "category": "transfert_explicite",
@@ -712,6 +784,14 @@
       "title": "Construction of a Vero cell line expression human KREMEN1 for the development of CVA6 vaccines",
       "updated_at": "2026-10-30T09:49:23.293929+00:00"
     },
+    "doi:10.12732/ijam.v38i6s.1640": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "SECURE BOOT AND FIRMWARE PROTECTION IN AUTOMOTIVE SEMICONDUCTORS: A REVIEW OF CURRENT APPROACHES",
+      "updated_at": "2026-10-31T11:14:11.291447+00:00"
+    },
     "doi:10.13189/ms.2026.140504": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -888,6 +968,14 @@
       "title": "Optimized Quantum-Resistant Cryptosystem: Integrating Kyber-KEM with Hardware TRNG on Zynq Platform",
       "updated_at": "2026-10-30T23:13:24.479786+00:00"
     },
+    "doi:10.3390/electronics14214171": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "A Survey of RISC-V Secure Enclaves and Trusted Execution Environments",
+      "updated_at": "2026-10-31T11:14:11.902831+00:00"
+    },
     "doi:10.3390/engproc2025092023": {
       "category": "secondaire",
       "decision": "examiner",
@@ -1016,6 +1104,14 @@
       "title": "On the Characterization of Phase Noise for the Robust and Resilient PLL-TRNG Design",
       "updated_at": "2026-10-30T23:13:24.479820+00:00"
     },
+    "doi:10.46586/tches.v2025.i4.145-171": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Entropy extractor based high-throughput post-processings for True Random Number Generators",
+      "updated_at": "2026-10-31T11:13:40.427892+00:00"
+    },
     "doi:10.48550/arxiv.2501.11207": {
       "category": "coeur",
       "decision": "conserver",
@@ -1055,6 +1151,14 @@
       "status": "imported",
       "title": "Efficient Control Flow Attestation by Speculating on Control Flow Path Representations",
       "updated_at": "2026-10-30T23:14:03.957977+00:00"
+    },
+    "doi:10.48550/arxiv.2509.26393": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Exact Bias of Linear TRNG Correctors -- Spectral Approach",
+      "updated_at": "2026-10-31T11:13:40.427867+00:00"
     },
     "doi:10.48550/arxiv.2610.12695": {
       "category": "coeur",
@@ -1143,6 +1247,14 @@
       "status": "rejected",
       "title": "Hardware Acceleration for Post-Quantum Cryptography in Resource Constrained Embedded Systems with RISC-V ISEs",
       "updated_at": "2026-10-31T02:13:21.703772+00:00"
+    },
+    "doi:10.5753/sbc.18460.5.2": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Implementing new RISC-V Instructions with the LLVM Compiler Infrastructure",
+      "updated_at": "2026-10-31T11:14:40.055909+00:00"
     },
     "doi:10.59256/ijsreat.20260605006": {
       "category": "hors_sujet",

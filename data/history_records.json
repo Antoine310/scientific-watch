@@ -99,6 +99,16 @@
     ],
     "title": "Research on Security Technologies for RISC-V SoC Based on Permission Management"
   },
+  "doi:10.1109/icicm66614.2025.11315911": {
+    "publication_date": "2025-10-17",
+    "score": 85,
+    "source": "https://doi.org/10.1109/icicm66614.2025.11315911",
+    "summary": "Cet article présente la conception et la mise en œuvre d'un processeur RISC-V basse consommation à pipeline pour l'Internet des objets (IoT), intégrant un mécanisme de démarrage sécurisé (secure boot) basé sur l'algorithme cryptographique SM3 et un blocage matériel en cas de falsification du micrologiciel. Le design est validé sur FPGA avec une utilisation modérée des ressources et un temps de démarrage moyen de 49,35 ms.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Design and Implementation of a Secure Boot RISC-V Processor for IoT Devices"
+  },
   "doi:10.1109/iolts65288.2025.11117044": {
     "publication_date": "2025-07-07",
     "score": 85,
@@ -209,6 +219,16 @@
     ],
     "title": "Comprehensive Kernel Safety in the Spectre Era: Mitigations and Performance Evaluation"
   },
+  "doi:10.12732/ijam.v38i6s.1640": {
+    "publication_date": "2025-10-15",
+    "score": 85,
+    "source": "https://doi.org/10.12732/ijam.v38i6s.1640",
+    "summary": "Cet article de revue analyse les architectures de démarrage sécurisé (Secure Boot), les racines de confiance matérielles (hardware roots of trust), l'application de la cryptographie et les mécanismes de mise à jour sécurisée du micrologiciel, en se concentrant sur les unités de contrôle électronique (ECU) automobiles. Il aborde également les défis clés tels que la sécurité post-quantique, la vérification formelle et les vulnérabilités de la chaîne d'approvisionnement, tout en mettant en avant les directions de recherche émergentes comme l'intégrité du flux de contrôle.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "SECURE BOOT AND FIRMWARE PROTECTION IN AUTOMOTIVE SEMICONDUCTORS: A REVIEW OF CURRENT APPROACHES"
+  },
   "doi:10.14722/ndss.2025.230253": {
     "publication_date": "2025-01-01",
     "score": 85,
@@ -258,6 +278,16 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "SAluMC: Thwarting Side-Channel Attacks via Random Number Injection in RISC-V"
+  },
+  "doi:10.3390/electronics14214171": {
+    "publication_date": "2025-10-25",
+    "score": 90,
+    "source": "https://doi.org/10.3390/electronics14214171",
+    "summary": "Cette publication propose une étude bibliographique (survey) sur les environnements d'exécution de confiance (TEEs) et les enclaves sécurisées basés sur l'architecture RISC-V. Elle analyse le paysage actuel, les principes architecturaux, les forces et les faiblesses des différentes solutions, tout en identifiant les défis ouverts et les opportunités de recherche pour un écosystème de confiance.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "A Survey of RISC-V Secure Enclaves and Trusted Execution Environments"
   },
   "doi:10.36227/techrxiv.174494750.06122641/v1": {
     "publication_date": "2025-04-17",
