@@ -1,5 +1,13 @@
 {
   "articles": {
+    "doi:10.1002/adfm.79365": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Fluctuation‐Enhanced True Random Number Generators and Physical Unclonable Functions in a Synaptic Hybrid Ferro‐Ionic Tunnel Diode",
+      "updated_at": "2026-10-31T07:10:38.187493+00:00"
+    },
     "doi:10.1002/adma.202419579": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -15,6 +23,14 @@
       "status": "rejected",
       "title": "Biosecurity Primitive: Polymerase X‐based Genetic Physical Unclonable Functions",
       "updated_at": "2026-10-30T20:15:50.777885+00:00"
+    },
+    "doi:10.1002/aelm.70624": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Physical Unclonable Functions From Microwave Metasurface Fingerprints",
+      "updated_at": "2026-10-31T07:10:38.187499+00:00"
     },
     "doi:10.1002/cta.4571": {
       "category": "secondaire",
@@ -72,6 +88,22 @@
       "title": "Exploring Speculation Barriers for RISC-V Selective Speculation",
       "updated_at": "2026-10-30T09:43:16.824382+00:00"
     },
+    "doi:10.1007/978-3-032-36885-0_21": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 70,
+      "status": "rejected",
+      "title": "MIPSBLEED: Uncovering Microarchitectural Timing Leaks in Pervasive Embedded Processors",
+      "updated_at": "2026-10-31T07:10:38.187390+00:00"
+    },
+    "doi:10.1007/978-3-032-38708-0_24": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "SENTRY-X: Enclave-Assisted Anonymous yet Auditable Broadcast for Proximity Networks",
+      "updated_at": "2026-10-31T07:10:38.187443+00:00"
+    },
     "doi:10.1007/978-981-96-2417-1_2": {
       "category": "secondaire",
       "decision": "examiner",
@@ -96,6 +128,22 @@
       "title": "Extended version: enabling lattice-based post-quantum cryptography on the opentitan platform",
       "updated_at": "2026-10-30T11:01:48.280077+00:00"
     },
+    "doi:10.1016/b978-0-44-318754-4.00008-9": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Introduction to hardware security",
+      "updated_at": "2026-10-31T07:10:38.187473+00:00"
+    },
+    "doi:10.1016/b978-0-44-318754-4.00022-3": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Hardware security primitives",
+      "updated_at": "2026-10-31T07:10:38.187467+00:00"
+    },
     "doi:10.1016/j.biocon.2025.111270": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -103,6 +151,30 @@
       "status": "rejected",
       "title": "Feral goats shift keystone cacti communities in Caribbean Islands",
       "updated_at": "2026-10-30T20:14:00.333625+00:00"
+    },
+    "doi:10.1016/j.comnet.2026.112603": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Implicit end-point attestation for trusted channel establishment in the keystone TEE",
+      "updated_at": "2026-10-31T07:11:47.433215+00:00"
+    },
+    "doi:10.1016/j.resourpol.2026.106040": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Beyond enclave extraction: Gendering Women's entrepreneurship in Khyber Pakhtunkhwa's CPEC mineral economy and regional connectivity",
+      "updated_at": "2026-10-31T07:10:38.187558+00:00"
+    },
+    "doi:10.1016/j.sysarc.2026.104062": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "IPFS-SE: A multi-enclave runtime architecture for block-granular data-in-use protection in IPFS on RISC-V Keystone",
+      "updated_at": "2026-10-31T07:11:47.732879+00:00"
     },
     "doi:10.1038/s41467-024-55380-x": {
       "category": "secondaire",
@@ -552,6 +624,46 @@
       "title": "Escorting the Confidentiality and Integrity of UAVs: What Exactly Can Trusted Execution Environment Offer?",
       "updated_at": "2026-10-31T02:13:51.378513+00:00"
     },
+    "doi:10.1145/3839338.3857251": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Enclave-Anchored Hybrid Quantum-Safe Key Exchange for Untrusted Platforms",
+      "updated_at": "2026-10-31T07:10:38.187423+00:00"
+    },
+    "doi:10.1145/3847160.3848079": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Toward Trustworthy Simulation-Based Security Evaluation: A TPM-PUF Root of Trust for RISC-V in gem5",
+      "updated_at": "2026-10-31T07:11:48.071299+00:00"
+    },
+    "doi:10.1145/3849807": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Rigorous Evaluation of Microarchitectural Side-Channels with Statistical Model Checking",
+      "updated_at": "2026-10-31T07:10:38.187416+00:00"
+    },
+    "doi:10.1145/3857307.3857311": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "Unfenced: Atomic Guards Against Spectre: ISA-Level Lock-Free Mitigation for Multi-Core RISC-V Processors",
+      "updated_at": "2026-10-31T07:11:48.667694+00:00"
+    },
+    "doi:10.1158/1538-7755.disp26-c062": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Abstract C062: Enclave residence and social connectedness among Chinese immigrants in Philadelphia",
+      "updated_at": "2026-10-31T07:10:38.187571+00:00"
+    },
     "doi:10.11606/d.18.2025.tde-26032025-083917": {
       "category": "secondaire",
       "decision": "examiner",
@@ -567,6 +679,14 @@
       "status": "rejected",
       "title": "Construction of a Vero cell line expression human KREMEN1 for the development of CVA6 vaccines",
       "updated_at": "2026-10-30T09:49:23.293929+00:00"
+    },
+    "doi:10.13189/ms.2026.140504": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Enclave Domination Parameters of Mycielski Graphs",
+      "updated_at": "2026-10-31T07:10:38.187532+00:00"
     },
     "doi:10.14429/dsj.20751": {
       "category": "secondaire",
@@ -624,6 +744,14 @@
       "title": "A New Dynamic Cache Flushing (DCF) Algorithm to Prevent Cache Timing Attack",
       "updated_at": "2026-10-30T11:02:36.058403+00:00"
     },
+    "doi:10.18860/cauchy.v11i2.42778": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Hidden Spillovers of Human Development: Enclave Panel Threshold SAR Evidence from West Java",
+      "updated_at": "2026-10-31T07:10:38.187565+00:00"
+    },
     "doi:10.20944/preprints202506.1271.v1": {
       "category": "secondaire",
       "decision": "examiner",
@@ -631,6 +759,14 @@
       "status": "rejected",
       "title": "A TRNG Implemented Using a Soft-Data Based Sponge Function within a Unified Strong PUF Architecture",
       "updated_at": "2026-10-30T23:13:24.479830+00:00"
+    },
+    "doi:10.21553/rev-jec.455": {
+      "category": "transfert_explicite",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Lightweight Two-Stage Secure Boot with Automatic Rollback for STM32 IoT Devices",
+      "updated_at": "2026-10-31T07:11:49.391695+00:00"
     },
     "doi:10.2172/3018824": {
       "category": "hors_sujet",
@@ -728,6 +864,14 @@
       "title": "The Implementation of the Physical Unclonable Function in a Field-Programmable Gate Array for Enhancing Hardware Security",
       "updated_at": "2026-10-30T14:13:35.830005+00:00"
     },
+    "doi:10.3390/engproc2026163011": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Physical Unclonable Function Data Processing to Increase the Number of Challenge–Response Pairs in Wireless Sensor Network Applications",
+      "updated_at": "2026-10-31T07:10:38.187506+00:00"
+    },
     "doi:10.3390/fi17010032": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -752,6 +896,22 @@
       "title": "PMAKA-IoV: A Physical Unclonable Function (PUF)-Based Multi-Factor Authentication and Key Agreement Protocol for Internet of Vehicles",
       "updated_at": "2026-10-30T17:14:14.377143+00:00"
     },
+    "doi:10.3390/land15101871": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Beyond Boundaries: Identifying Spatial Scales of Enclave–Habitat Associations Under Alternative National Park Management Scenarios",
+      "updated_at": "2026-10-31T07:10:38.187539+00:00"
+    },
+    "doi:10.3390/land15101977": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Beyond the Historic Enclave: Configurational Analysis and Selective Metropolitan Reconnection of the Casbah of Algiers",
+      "updated_at": "2026-10-31T07:10:38.187545+00:00"
+    },
     "doi:10.3390/s25051629": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -767,6 +927,14 @@
       "status": "rejected",
       "title": "A High-Entropy True Random Number Generator with Keccak Conditioning for FPGA",
       "updated_at": "2026-10-30T11:01:27.174408+00:00"
+    },
+    "doi:10.3390/s26196247": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Investigating the Impact of Low-Rate Error-Correction Codes on Device-Cloning and Reverse-Engineering Attacks on Physical Unclonable Functions",
+      "updated_at": "2026-10-31T07:10:38.187486+00:00"
     },
     "doi:10.36227/techrxiv.174494750.06122641/v1": {
       "category": "coeur",
@@ -791,6 +959,14 @@
       "status": "rejected",
       "title": "SeFS: A Secure and Efficient File Sharing Framework based on the Trusted Execution Environment",
       "updated_at": "2026-10-30T23:13:43.499485+00:00"
+    },
+    "doi:10.4324/9781003647645-4": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "The Roles of Place and Place-Making in the Development of a Southeast Asian Enclave",
+      "updated_at": "2026-10-31T07:10:38.187552+00:00"
     },
     "doi:10.46586/tches.v2025.i3.238-261": {
       "category": "secondaire",
@@ -840,6 +1016,14 @@
       "title": "Efficient Control Flow Attestation by Speculating on Control Flow Path Representations",
       "updated_at": "2026-10-30T23:14:03.957977+00:00"
     },
+    "doi:10.48550/arxiv.2610.12695": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Enabling Extended SGX Enclaves inside Confidential Virtual Machines",
+      "updated_at": "2026-10-31T07:11:48.968687+00:00"
+    },
     "doi:10.5220/0013518800003979": {
       "category": "coeur",
       "decision": "conserver",
@@ -847,6 +1031,22 @@
       "status": "imported",
       "title": "Assessing Security RISC: Analyzing Flush+Fault Attack on RISC-V Using gem5 Simulator",
       "updated_at": "2026-10-30T09:43:13.621067+00:00"
+    },
+    "doi:10.5281/zenodo.23399404": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Q-SCA: Quantum Kernel-Based Power Side-Channel Analysis for Hardware Trojan Detection",
+      "updated_at": "2026-10-31T07:10:38.187480+00:00"
+    },
+    "doi:10.5281/zenodo.23446371": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Generative AI Copyright Governance and Physical-Layer Autonomous Defense Infrastructure — Mathematical Formalization of $10B-Scale TCO Optimization, Decoupled Cluster/Unlearning Data Shapley, CLAP Multi-Stem Audio Attribution, Sub-1.5-ms HITL0 CBF-QP Subsea Rerouting under UNCLOS, QPUF Silicon Root of Trust, and NIST FIPS 203 (ML-KEM-768) Edge TEE Provenance",
+      "updated_at": "2026-10-31T07:10:38.187513+00:00"
     },
     "doi:10.54097/kpme5h37": {
       "category": "secondaire",
@@ -896,6 +1096,14 @@
       "title": "Hardware Acceleration for Post-Quantum Cryptography in Resource Constrained Embedded Systems with RISC-V ISEs",
       "updated_at": "2026-10-31T02:13:21.703772+00:00"
     },
+    "doi:10.59256/ijsreat.20260605006": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Temple Enclave AI: Tenant-Encrypted, Mutually Private LM Engine",
+      "updated_at": "2026-10-31T07:10:38.187526+00:00"
+    },
     "doi:10.62110/sciencein.jist.2025.v13.1053": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -903,6 +1111,14 @@
       "status": "rejected",
       "title": "CPU scheduling algorithms performance analysis in the RISC-V xv6 operating system environment",
       "updated_at": "2026-10-30T09:42:41.546963+00:00"
+    },
+    "doi:10.64898/2026.10.20.26365982": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Design and Technical Evaluation of a Standards-Based System That Delivers Enclave-Derived Case-Finding Models to Patients and Clinicians",
+      "updated_at": "2026-10-31T07:10:38.187520+00:00"
     },
     "doi:10.69882/adba.cs.2025074": {
       "category": "secondaire",
@@ -992,6 +1208,14 @@
       "title": "Prototyping Custom Hardware Performance Counters in gem5 Simulator: A Framework for RISC-V Side-Channel Attack Assessment",
       "updated_at": "2026-10-30T20:15:22.976573+00:00"
     },
+    "title:ringtracemodelfreespatiotemporaldetectionandcoreattributionforcachesidechannels": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "RingTrace: Model-Free Spatio-Temporal Detection and Core Attribution for Cache Side-Channels",
+      "updated_at": "2026-10-31T07:11:48.363985+00:00"
+    },
     "title:secureandenergyefficientdsppreprocessingarchitecturesfortrustworthyriscvedgecommunicationsystems": {
       "category": "secondaire",
       "decision": "examiner",
@@ -1007,6 +1231,22 @@
       "status": "rejected",
       "title": "Secure Function-as-a-Service Platforms Using Trusted Execution Environments",
       "updated_at": "2026-10-30T20:15:00.866632+00:00"
+    },
+    "title:towardsquantumsensingforsidechannelanalysis": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Towards Quantum Sensing for Side-Channel Analysis",
+      "updated_at": "2026-10-31T07:10:38.187436+00:00"
+    },
+    "title:tractablenottruncatedcolorednoisetrngsecurityviafractionalbrownianmotion": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Tractable, Not Truncated: Colored-Noise TRNG Security via Fractional Brownian Motion",
+      "updated_at": "2026-10-31T07:10:38.187460+00:00"
     }
   },
   "version": 1
