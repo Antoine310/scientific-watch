@@ -89,6 +89,16 @@
     ],
     "title": "Enclave Application Cache for RISC-V Keystone"
   },
+  "doi:10.1109/iccad66269.2025.11241011": {
+    "publication_date": "2025-10-26",
+    "score": 85,
+    "source": "https://doi.org/10.1109/iccad66269.2025.11241011",
+    "summary": "CacheGuardian est une conception de cache de dernier niveau (LLC) matérielle résistante aux canaux cachés temporels. Elle combine un détecteur d'attaques comportemental générique et un mécanisme de contrôle d'accès au niveau des ensembles de caches ciblant uniquement les attaquants identifiés, afin de réduire les fuites de données tout en limitant les surcoûts de performance.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "CacheGuardian: A Timing Side-Channel Resilient LLC Design"
+  },
   "doi:10.1109/icet64964.2025.11103069": {
     "publication_date": "2025-05-17",
     "score": 85,
@@ -118,6 +128,16 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Side-Channel Attack Detection Using gem5 and Machine Learning: A Case Study on Fault-Based Attacks in RISC-V"
+  },
+  "doi:10.1109/prdc67299.2025.00020": {
+    "publication_date": "2025-11-03",
+    "score": 90,
+    "source": "https://doi.org/10.1109/prdc67299.2025.00020",
+    "summary": "Ce papier présente Keyspector, un système permettant l'exécution sécurisée de systèmes de détection d'intrusion (IDS) pour les objets connectés en utilisant l'environnement d'exécution de confiance (TEE) RISC-V Keystone. Keyspector isole l'IDS dans une enclave à faibles privilèges et met en place un partage mémoire efficace géré par le moniteur de sécurité pour surveiller directement le système cible avec un surcoût évalué à 10%.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Keyspector: Secure Monitoring of IoT Devices Using RISC-V Keystone"
   },
   "doi:10.1109/sp61157.2025.00220": {
     "publication_date": "2025-05-12",
@@ -178,6 +198,16 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "SpecASan: Mitigating Transient Execution Attacks Using Speculative Address Sanitization"
+  },
+  "doi:10.1145/3719027.3765061": {
+    "publication_date": "2025-11-19",
+    "score": 80,
+    "source": "https://doi.org/10.1145/3719027.3765061",
+    "summary": "ExfilState propose une approche automatisée pour découvrir des canaux auxiliaires de cache sans utiliser de compteurs de temps sur les processeurs ARM, contournant ainsi les restrictions d'accès aux minuteurs haute résolution.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "ExfilState: Automated Discovery of Timer-Free Cache Side Channels on ARM CPUs"
   },
   "doi:10.1145/3719276.3725176": {
     "publication_date": "2025-05-28",
@@ -258,6 +288,16 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "A Formal Approach to Multi-Layered Privileges for Enclaves"
+  },
+  "doi:10.20944/preprints202511.1351.v1": {
+    "publication_date": "2025-11-18",
+    "score": 85,
+    "source": "https://doi.org/10.20944/preprints202511.1351.v1",
+    "summary": "Cet article analyse l'utilisation des chargeurs de démarrage sécurisés (secure bootloaders) dans les systèmes embarqués pour garantir l'intégrité des appareils et prévenir les modifications non autorisées du micrologiciel grâce à des mécanismes de validation cryptographique.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Utilization of Secure Bootloaders in Embedded Systems for Ensuring Device Integrity and Preventing Firmware Tampering Through Cryptographic Validation Mechanisms"
   },
   "doi:10.26240/heal.ntua.28646": {
     "publication_date": "2025-01-24",
@@ -358,6 +398,16 @@
       "T04 — Runtime Attestation"
     ],
     "title": "Efficient Control Flow Attestation by Speculating on Control Flow Path Representations"
+  },
+  "doi:10.48550/arxiv.2511.04550": {
+    "publication_date": "2025-11-06",
+    "score": 80,
+    "source": "http://arxiv.org/abs/2511.04550",
+    "summary": "Cette publication explore l'informatique confidentielle pour la sécurité dans le cloud en utilisant des environnements d'exécution de confiance (TEEs) basés sur le matériel. L'étude analyse l'architecture, l'efficacité, les stratégies de déploiement et les limites des TEEs tels qu'Intel SGX et ARM TrustZone pour protéger les données en cours de traitement.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Confidential Computing for Cloud Security: Exploring Hardware based Encryption Using Trusted Execution Environments"
   },
   "doi:10.5220/0013518800003979": {
     "publication_date": "2025-01-01",

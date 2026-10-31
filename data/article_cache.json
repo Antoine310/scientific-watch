@@ -104,6 +104,14 @@
       "title": "Systematic Assessment of Cache Timing Vulnerabilities on RISC-V Processors",
       "updated_at": "2026-10-31T11:14:49.589909+00:00"
     },
+    "doi:10.1007/978-3-032-08124-7_9": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Simulation-Based Software Leakage Evaluation for the RISC-V Platform",
+      "updated_at": "2026-10-31T14:13:40.481116+00:00"
+    },
     "doi:10.1007/978-3-032-36885-0_21": {
       "category": "coeur",
       "decision": "conserver",
@@ -384,6 +392,14 @@
       "title": "AccessShadow: Leveraging Adversarial Samples to Counter Deep Learning-Assisted Cache Timing Attacks",
       "updated_at": "2026-10-30T17:13:53.535322+00:00"
     },
+    "doi:10.1109/iccad66269.2025.11241011": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "CacheGuardian: A Timing Side-Channel Resilient LLC Design",
+      "updated_at": "2026-10-31T14:13:32.220536+00:00"
+    },
     "doi:10.1109/iccr67387.2025.11291995": {
       "category": "secondaire",
       "decision": "examiner",
@@ -512,6 +528,14 @@
       "title": "FaultRISC-V: Detecting Fault Injection Vulnerabilities in RISC-V Assembly",
       "updated_at": "2026-10-30T23:13:33.139373+00:00"
     },
+    "doi:10.1109/prdc67299.2025.00020": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Keyspector: Secure Monitoring of IoT Devices Using RISC-V Keystone",
+      "updated_at": "2026-10-31T14:15:21.355743+00:00"
+    },
     "doi:10.1109/socc66126.2025.11235423": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -560,6 +584,14 @@
       "title": "LayerTEE: Decoupled Memory Protection for Scalable Multilayer Communication on RISC-V",
       "updated_at": "2026-10-30T20:13:51.793272+00:00"
     },
+    "doi:10.1109/tcsi.2025.3621604": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Entropy Improvement in Latch-Based True Random Number Generator Using Negative Bias Temperature Instability",
+      "updated_at": "2026-10-31T14:14:01.635380+00:00"
+    },
     "doi:10.1109/tifs.2025.3592573": {
       "category": "coeur",
       "decision": "conserver",
@@ -591,6 +623,14 @@
       "status": "rejected",
       "title": "NIST SP 800-90B Compliant Perpendicular Magnetic Tunnel Junction Based True Random Number Generator",
       "updated_at": "2026-10-31T02:13:41.842507+00:00"
+    },
+    "doi:10.1109/trustcom66490.2025.00350": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Towards Stateless Post-Quantum Remote Attestation for IoT Using TPM and DICE",
+      "updated_at": "2026-10-31T14:14:51.028061+00:00"
     },
     "doi:10.1109/vlsitsa64674.2025.11046852": {
       "category": "secondaire",
@@ -647,6 +687,14 @@
       "status": "imported",
       "title": "SpecASan: Mitigating Transient Execution Attacks Using Speculative Address Sanitization",
       "updated_at": "2026-10-30T20:15:23.600029+00:00"
+    },
+    "doi:10.1145/3719027.3765061": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "ExfilState: Automated Discovery of Timer-Free Cache Side Channels on ARM CPUs",
+      "updated_at": "2026-10-31T14:15:21.968278+00:00"
     },
     "doi:10.1145/3719276.3725176": {
       "category": "coeur",
@@ -727,6 +775,14 @@
       "status": "rejected",
       "title": "RISC-B: Hardware Blocks for the design of RISC-V-based SoCs",
       "updated_at": "2026-10-31T08:13:30.372966+00:00"
+    },
+    "doi:10.1145/3772277": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Deep Learning on RISC-V Platforms at the Edge: A Perspective on the Hardware and Software Support",
+      "updated_at": "2026-10-31T14:13:40.481134+00:00"
     },
     "doi:10.1145/3839338.3857251": {
       "category": "transfert_explicite",
@@ -872,6 +928,14 @@
       "title": "A TRNG Implemented Using a Soft-Data Based Sponge Function within a Unified Strong PUF Architecture",
       "updated_at": "2026-10-30T23:13:24.479830+00:00"
     },
+    "doi:10.20944/preprints202511.1351.v1": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Utilization of Secure Bootloaders in Embedded Systems for Ensuring Device Integrity and Preventing Firmware Tampering Through Cryptographic Validation Mechanisms",
+      "updated_at": "2026-10-31T14:14:32.028394+00:00"
+    },
     "doi:10.21553/rev-jec.455": {
       "category": "transfert_explicite",
       "decision": "conserver",
@@ -903,6 +967,14 @@
       "status": "rejected",
       "title": "A Synthesizable Thyristor-Like Leakage-Based True Random Number Generator",
       "updated_at": "2026-10-30T11:01:27.174403+00:00"
+    },
+    "doi:10.24425/ijet.2025.155477": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "The True Random Number Generator design using a high-noise oscillator",
+      "updated_at": "2026-10-31T14:14:01.635384+00:00"
     },
     "doi:10.26240/heal.ntua.28646": {
       "category": "coeur",
@@ -975,6 +1047,14 @@
       "status": "imported",
       "title": "A Survey of RISC-V Secure Enclaves and Trusted Execution Environments",
       "updated_at": "2026-10-31T11:14:11.902831+00:00"
+    },
+    "doi:10.3390/electronics14214228": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Simple True Random Number Generator Using Capacitive Oscillators for FPGA Implementation",
+      "updated_at": "2026-10-31T14:14:01.635375+00:00"
     },
     "doi:10.3390/engproc2025092023": {
       "category": "secondaire",
@@ -1072,6 +1152,14 @@
       "title": "An Interrupt Event Assisted Intelligent Detector of Spectre Attack Under Realistic Applications",
       "updated_at": "2026-10-30T11:02:27.933961+00:00"
     },
+    "doi:10.37394/232017.2025.16.17": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Implementation of a TRNG Architecture based on Different Entropy Sources",
+      "updated_at": "2026-10-31T14:14:01.635358+00:00"
+    },
     "doi:10.3929/ethz-c-000787734": {
       "category": "coeur",
       "decision": "conserver",
@@ -1160,6 +1248,14 @@
       "title": "Exact Bias of Linear TRNG Correctors -- Spectral Approach",
       "updated_at": "2026-10-31T11:13:40.427867+00:00"
     },
+    "doi:10.48550/arxiv.2511.04550": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "Confidential Computing for Cloud Security: Exploring Hardware based Encryption Using Trusted Execution Environments",
+      "updated_at": "2026-10-31T14:14:32.661252+00:00"
+    },
     "doi:10.48550/arxiv.2610.12695": {
       "category": "coeur",
       "decision": "conserver",
@@ -1175,6 +1271,14 @@
       "status": "imported",
       "title": "Assessing Security RISC: Analyzing Flush+Fault Attack on RISC-V Using gem5 Simulator",
       "updated_at": "2026-10-30T09:43:13.621067+00:00"
+    },
+    "doi:10.5281/zenodo.17552881": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "µTEE: Certification-ready RISC-V platform for secure IIoT lifecycle management",
+      "updated_at": "2026-10-31T14:14:41.156714+00:00"
     },
     "doi:10.5281/zenodo.23399404": {
       "category": "secondaire",
@@ -1256,6 +1360,14 @@
       "title": "Implementing new RISC-V Instructions with the LLVM Compiler Infrastructure",
       "updated_at": "2026-10-31T11:14:40.055909+00:00"
     },
+    "doi:10.5753/sscad.2025.16339": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Large-Scale RISC-V Processor Verification Using Automated Design Inspection and a Generic Simulation Method",
+      "updated_at": "2026-10-31T14:13:50.361904+00:00"
+    },
     "doi:10.59256/ijsreat.20260605006": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -1263,6 +1375,14 @@
       "status": "rejected",
       "title": "Temple Enclave AI: Tenant-Encrypted, Mutually Private LM Engine",
       "updated_at": "2026-10-31T07:10:38.187526+00:00"
+    },
+    "doi:10.59717/j.xinn-energy.2026.100126": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "RISC-V and openHarmnoy empower a \"Dual Security\" system of energy usage and privacy in future smart homes and smart cities",
+      "updated_at": "2026-10-31T14:14:41.156729+00:00"
     },
     "doi:10.62110/sciencein.jist.2025.v13.1053": {
       "category": "hors_sujet",
