@@ -59,6 +59,16 @@
     ],
     "title": "Data Oblivious CPU: Microarchitectural Side-channel Leakage-Resilient Processor"
   },
+  "doi:10.1109/dsd67783.2025.00045": {
+    "publication_date": "2025-09-10",
+    "score": 95,
+    "source": "https://doi.org/10.1109/dsd67783.2025.00045",
+    "summary": "Cette étude présente la première implémentation et évaluation de l'attaque par canal auxiliaire Evict+Spec+Time sur l'architecture RISC-V, utilisant le simulateur gem5. L'attaque combine l'éviction de lignes de cache via l'instruction cbo.flush (extension Zicbom), l'exploitation de l'exécution dans le désordre pour manipuler les ressources microarchitecturales, et des mesures temporelles pour récupérer des clés secrètes d'AES. L'analyse détaillée des comportements microarchitecturaux fournit des bases pour de futures contre-mesures.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Evict+Spec+Time on RISC-V: Gem5-Based Implementation and Microarchitectural Analysis"
+  },
   "doi:10.1109/eurosp63326.2025.00028": {
     "publication_date": "2025-06-30",
     "score": 75,
@@ -378,6 +388,16 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Integrating OpenTitan as a Security Controller for Cryptographic Tasks in RISC-V SoCs"
+  },
+  "title:leveraginggem5andmachinelearningforendtoenddetectionofcachebasedsidechannelattackpatterns": {
+    "publication_date": "2025-09-18",
+    "score": 85,
+    "source": "https://hal.science/hal-05372979",
+    "summary": "Ce papier présente un cadre de simulation basé sur gem5 et le machine learning non supervisé pour automatiser la détection de bouts en bout d'attaques par canal auxiliaire basées sur le cache, telles que Spectre, Prime+Probe et Flush+Reload. En extrayant des caractéristiques temporelles de traces d'exécution et en utilisant un ensemble de modèles (Isolation Forest, VAE, HDBSCAN), l'approche atteint une précision de 0.92 et un rappel de 0.88.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Leveraging gem5 and Machine Learning for End-to-End Detection of Cache-based Side-Channel Attack Patterns"
   },
   "title:optimizingtlscryptographicoperationsonriscvsocwithopentitanrot": {
     "publication_date": "2025-01-01",

@@ -168,6 +168,14 @@
       "title": "Beyond enclave extraction: Gendering Women's entrepreneurship in Khyber Pakhtunkhwa's CPEC mineral economy and regional connectivity",
       "updated_at": "2026-10-31T07:10:38.187558+00:00"
     },
+    "doi:10.1016/j.sysarc.2025.103568": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "SecScale : A Scalable and Secure Trusted Execution Environment for Servers",
+      "updated_at": "2026-10-31T08:13:30.372985+00:00"
+    },
     "doi:10.1016/j.sysarc.2026.104062": {
       "category": "coeur",
       "decision": "conserver",
@@ -303,6 +311,14 @@
       "status": "rejected",
       "title": "High-Entropy Metastable Jitter-Based True Random Number Generator (TRNG)",
       "updated_at": "2026-10-30T14:13:50.303549+00:00"
+    },
+    "doi:10.1109/dsd67783.2025.00045": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "Evict+Spec+Time on RISC-V: Gem5-Based Implementation and Microarchitectural Analysis",
+      "updated_at": "2026-10-31T08:13:51.223369+00:00"
     },
     "doi:10.1109/emcsipi52291.2025.11170246": {
       "category": "hors_sujet",
@@ -624,6 +640,22 @@
       "title": "Escorting the Confidentiality and Integrity of UAVs: What Exactly Can Trusted Execution Environment Offer?",
       "updated_at": "2026-10-31T02:13:51.378513+00:00"
     },
+    "doi:10.1145/3765906": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "SHIFT: Selective Hardware Information Flow Tracking Driven by Deterministic Constraints",
+      "updated_at": "2026-10-31T08:13:59.960425+00:00"
+    },
+    "doi:10.1145/3768617.3770727": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "RISC-B: Hardware Blocks for the design of RISC-V-based SoCs",
+      "updated_at": "2026-10-31T08:13:30.372966+00:00"
+    },
     "doi:10.1145/3839338.3857251": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -928,6 +960,14 @@
       "title": "A High-Entropy True Random Number Generator with Keccak Conditioning for FPGA",
       "updated_at": "2026-10-30T11:01:27.174408+00:00"
     },
+    "doi:10.3390/s25175514": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "EMBRAVE: EMBedded Remote Attestation and Verification framEwork",
+      "updated_at": "2026-10-31T08:13:20.084690+00:00"
+    },
     "doi:10.3390/s26196247": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -1064,6 +1104,14 @@
       "title": "Remote attestation in an isolated server setting through the usage of a tamper-resistant hardware token",
       "updated_at": "2026-10-30T09:43:06.595852+00:00"
     },
+    "doi:10.55056/ceur-ws.org/vol-4048/paper19.pdf": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "A lightweight Secure Boot Mechanism for Protecting the Firmware of IOT Devices",
+      "updated_at": "2026-10-31T08:13:20.084661+00:00"
+    },
     "doi:10.56553/popets-2025-0058": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -1191,6 +1239,14 @@
       "status": "imported",
       "title": "Integrating OpenTitan as a Security Controller for Cryptographic Tasks in RISC-V SoCs",
       "updated_at": "2026-10-30T09:42:42.256440+00:00"
+    },
+    "title:leveraginggem5andmachinelearningforendtoenddetectionofcachebasedsidechannelattackpatterns": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Leveraging gem5 and Machine Learning for End-to-End Detection of Cache-based Side-Channel Attack Patterns",
+      "updated_at": "2026-10-31T08:14:21.666947+00:00"
     },
     "title:optimizingtlscryptographicoperationsonriscvsocwithopentitanrot": {
       "category": "coeur",
