@@ -112,6 +112,14 @@
       "title": "Simulation-Based Software Leakage Evaluation for the RISC-V Platform",
       "updated_at": "2026-10-31T14:13:40.481116+00:00"
     },
+    "doi:10.1007/978-3-032-16165-9_27": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Streamlining Security Patches and Remote Attestations for the Internet of Things",
+      "updated_at": "2026-10-31T23:15:11.857820+00:00"
+    },
     "doi:10.1007/978-3-032-36885-0_21": {
       "category": "coeur",
       "decision": "conserver",
@@ -320,6 +328,30 @@
       "title": "A Robust and Portable All-Digital TRNG Circuit for Extending the Instruction Set Architecture of RISC-V Processors",
       "updated_at": "2026-10-30T09:52:45.186106+00:00"
     },
+    "doi:10.1109/access.2026.3655366": {
+      "category": "transfert_explicite",
+      "decision": "conserver",
+      "score": 65,
+      "status": "rejected",
+      "title": "SERA: Secure Micro XRCE-DDS Establishment With Remote Attestation for Micro-ROS",
+      "updated_at": "2026-10-31T23:15:11.857848+00:00"
+    },
+    "doi:10.1109/access.2026.3674839": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Hardware-Rooted Device Identity for IoT: Integrating Silicon PUFs and DICE in RISC-V Embedded Systems",
+      "updated_at": "2026-10-31T23:14:44.618581+00:00"
+    },
+    "doi:10.1109/access.2026.3685017": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "A Survey of Trust Chain in Secure Embedded Systems: From Secure Boot to TEE Applications",
+      "updated_at": "2026-10-31T23:14:43.916720+00:00"
+    },
     "doi:10.1109/acsac67867.2025.00049": {
       "category": "coeur",
       "decision": "conserver",
@@ -424,6 +456,14 @@
       "title": "Enclave Application Cache for RISC-V Keystone",
       "updated_at": "2026-10-30T20:13:52.390287+00:00"
     },
+    "doi:10.1109/globecom59602.2025.11432658": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "PU-QKD: Enhancing Authentication of Quantum Key Distribution via Physical Unclonable Function",
+      "updated_at": "2026-10-31T23:13:41.003756+00:00"
+    },
     "doi:10.1109/host64725.2025.11050041": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -471,6 +511,22 @@
       "status": "rejected",
       "title": "Implementation of A Hybrid TRNG-PRNG Architecture for Efficient Random Number Generator",
       "updated_at": "2026-10-31T11:13:40.427886+00:00"
+    },
+    "doi:10.1109/icsft66733.2026.11507038": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Secure Bootloader and Kernel Initialization in Embedded Systems Using Rust",
+      "updated_at": "2026-10-31T23:14:45.367164+00:00"
+    },
+    "doi:10.1109/iedm50572.2025.11353751": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A Monolithic Reconfigurable RRAM CIM Array Integrating PUF, TRNG, and a Lightweight Block Cipher for Secure Edge AI",
+      "updated_at": "2026-10-31T23:13:52.268230+00:00"
     },
     "doi:10.1109/ietacs68750.2025.11385713": {
       "category": "coeur",
@@ -647,6 +703,14 @@
       "status": "rejected",
       "title": "Entropy Improvement in Latch-Based True Random Number Generator Using Negative Bias Temperature Instability",
       "updated_at": "2026-10-31T14:14:01.635380+00:00"
+    },
+    "doi:10.1109/tcsi.2025.3636579": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "TeLo-ROPN TRNG: FPGA-Based True Random Number Generation Using Tent and Logistic Chaotic Maps With Ring Oscillator Array",
+      "updated_at": "2026-10-31T23:13:52.268208+00:00"
     },
     "doi:10.1109/tdsc.2025.3636884": {
       "category": "transfert_explicite",
@@ -960,6 +1024,14 @@
       "title": "SECURE BOOT AND FIRMWARE PROTECTION IN AUTOMOTIVE SEMICONDUCTORS: A REVIEW OF CURRENT APPROACHES",
       "updated_at": "2026-10-31T11:14:11.291447+00:00"
     },
+    "doi:10.13121/polito/porto/3006045": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "A Post-Quantum Secure RISC-V application core for IoT: from hardware design to applications",
+      "updated_at": "2026-10-31T23:13:21.058552+00:00"
+    },
     "doi:10.13189/ms.2026.140504": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -1016,6 +1088,30 @@
       "title": "A Formal Approach to Multi-Layered Privileges for Enclaves",
       "updated_at": "2026-10-30T09:42:57.592805+00:00"
     },
+    "doi:10.14722/ndss.2026.231455": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 50,
+      "status": "rejected",
+      "title": "DNN Latency Sequencing: Extracting DNN Architectures from Intel SGX Enclaves with Single-Stepping Attacks",
+      "updated_at": "2026-10-31T23:15:41.699359+00:00"
+    },
+    "doi:10.14722/ndss.2026.242421": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "EXIA: Trusted Transitions for Enclaves via External-Input Attestation",
+      "updated_at": "2026-10-31T23:15:43.289748+00:00"
+    },
+    "doi:10.15803/ijnc.16.2_118": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Proposal of an Identity Verification System Using Trusted Execution Environment in the Japan's Digital Authentication App",
+      "updated_at": "2026-10-31T23:15:52.001795+00:00"
+    },
     "doi:10.1587/transinf.2025edp7101": {
       "category": "coeur",
       "decision": "conserver",
@@ -1023,6 +1119,14 @@
       "status": "imported",
       "title": "Efficient Memory Protection Method for Large-Scale Host-Enclave Data Transfer on Keystone Enclave",
       "updated_at": "2026-10-31T20:13:43.059788+00:00"
+    },
+    "doi:10.17605/osf.io/84gns": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "YANN s: An Identity-Driven Cybersecurity Architecture Based on Hardware Root of Trust and Adaptive AI",
+      "updated_at": "2026-10-31T23:14:11.752438+00:00"
     },
     "doi:10.18260/1-2-1153-53757": {
       "category": "transfert_explicite",
@@ -1056,6 +1160,30 @@
       "title": "Utilization of Secure Bootloaders in Embedded Systems for Ensuring Device Integrity and Preventing Firmware Tampering Through Cryptographic Validation Mechanisms",
       "updated_at": "2026-10-31T14:14:32.028394+00:00"
     },
+    "doi:10.2139/ssrn.6556258": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "YANN s: A Secure Access Control System with Hardware Root of Trust, Biometric Authentication, and Adaptive Threat Response",
+      "updated_at": "2026-10-31T23:14:11.752464+00:00"
+    },
+    "doi:10.2139/ssrn.6558798": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "YANN s: A Multi-Layer Cybersecurity Architecture Based on Hardware Root of Trust, Biometric Authentication, and Adaptive Intelligence",
+      "updated_at": "2026-10-31T23:14:11.752459+00:00"
+    },
+    "doi:10.2139/ssrn.6580298": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "YANN s: A Next-Generation Identity-Driven Cybersecurity Architecture Integrating Hardware Root of Trust, Biometrics, and AI-Based Adaptive Threat Protection",
+      "updated_at": "2026-10-31T23:14:11.752468+00:00"
+    },
     "doi:10.21553/rev-jec.455": {
       "category": "transfert_explicite",
       "decision": "conserver",
@@ -1071,6 +1199,14 @@
       "status": "rejected",
       "title": "True Random Number Generator with Theory-Backed Entropy Rates for ASICs",
       "updated_at": "2026-10-30T11:01:27.174377+00:00"
+    },
+    "doi:10.2197/ipsjjip.34.514": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "GEnclave: User/Kernel-Level Enclave within Confidential VMs",
+      "updated_at": "2026-10-31T23:15:22.326092+00:00"
     },
     "doi:10.23919/date64628.2025.10992999": {
       "category": "hors_sujet",
@@ -1103,6 +1239,14 @@
       "status": "imported",
       "title": "Υλοποιήση και αξιολόγηση της επέκτασης SVNAPOT στην μικροαρχιτεκτονική CVA6",
       "updated_at": "2026-10-30T09:50:14.584375+00:00"
+    },
+    "doi:10.26240/heal.ntua.31597": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Implementation of a collective remote attestation framework for IoT devices",
+      "updated_at": "2026-10-31T23:14:50.978020+00:00"
     },
     "doi:10.31838/jcvs/07.02.08": {
       "category": "hors_sujet",
@@ -1159,6 +1303,14 @@
       "status": "imported",
       "title": "SAluMC: Thwarting Side-Channel Attacks via Random Number Injection in RISC-V",
       "updated_at": "2026-10-30T10:01:41.772988+00:00"
+    },
+    "doi:10.3390/e28010031": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Evaluation of TRNG Bit Distribution via Stable Entropy Source Synchronization on FPGA",
+      "updated_at": "2026-10-31T23:13:52.268234+00:00"
     },
     "doi:10.3390/electronics14132591": {
       "category": "secondaire",
@@ -1271,6 +1423,14 @@
       "status": "rejected",
       "title": "Investigating the Impact of Low-Rate Error-Correction Codes on Device-Cloning and Reverse-Engineering Attacks on Physical Unclonable Functions",
       "updated_at": "2026-10-31T07:10:38.187486+00:00"
+    },
+    "doi:10.34218/ijarm_17_01_005": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "SECURE ENCLAVE–DRIVEN AI INFRASTRUCTURE: PROTECTING SENSITIVE MODELS AND DATA IN DISTRIBUTED SYSTEMS",
+      "updated_at": "2026-10-31T23:15:52.001777+00:00"
     },
     "doi:10.36227/techrxiv.174494750.06122641/v1": {
       "category": "coeur",
@@ -1399,6 +1559,22 @@
       "status": "rejected",
       "title": "Automated Side-Channel Analysis of Cryptographic Protocol Implementations",
       "updated_at": "2026-10-31T17:13:42.785584+00:00"
+    },
+    "doi:10.48550/arxiv.2512.09862": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "True Random Number Generators on IQM Spark",
+      "updated_at": "2026-10-31T23:13:52.268238+00:00"
+    },
+    "doi:10.48550/arxiv.2512.21362": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Power Side-Channel Analysis of the CVA6 RISC-V Core at the RTL Level Using VeriSide",
+      "updated_at": "2026-10-31T23:13:31.065522+00:00"
     },
     "doi:10.48550/arxiv.2512.22090": {
       "category": "secondaire",
@@ -1560,6 +1736,14 @@
       "title": "CPU scheduling algorithms performance analysis in the RISC-V xv6 operating system environment",
       "updated_at": "2026-10-30T09:42:41.546963+00:00"
     },
+    "doi:10.62642/tec-978-65-83199-68-3": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "RISC-V: Viabilidade e adoção em hardware embarcado",
+      "updated_at": "2026-10-31T23:15:00.857143+00:00"
+    },
     "doi:10.64898/2026.10.20.26365982": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -1575,6 +1759,14 @@
       "status": "rejected",
       "title": "True Random Number Generator Design with A Fractional Order Sprott B Chaotic System",
       "updated_at": "2026-10-31T02:13:41.842525+00:00"
+    },
+    "doi:10.70675/5c959425z6fc9z4e8ezaea5zd980f0740a16": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Mitigating spectre vulnerabilites in modern out-of-order cores",
+      "updated_at": "2026-10-31T23:15:42.664080+00:00"
     },
     "doi:10.70675/f42c1e00z90b4z449bzb2d8zc21d43dc9a3f": {
       "category": "coeur",
@@ -1664,6 +1856,14 @@
       "title": "Hardening Trusted Execution Environments Against Microarchitectural Side-Channel Attacks: A Constructive Approach",
       "updated_at": "2026-10-30T17:13:45.362068+00:00"
     },
+    "title:hardwarerootoftrustensistemesriscvanalysisandevaluationofopensourceapproaches": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Hardware Root of Trust en Sistemes RISC-V : Analysis and Evaluation of Open Source Approaches",
+      "updated_at": "2026-10-31T23:14:43.126441+00:00"
+    },
     "title:integratingopentitanasasecuritycontrollerforcryptographictasksinriscvsocs": {
       "category": "coeur",
       "decision": "conserver",
@@ -1671,6 +1871,14 @@
       "status": "imported",
       "title": "Integrating OpenTitan as a Security Controller for Cryptographic Tasks in RISC-V SoCs",
       "updated_at": "2026-10-30T09:42:42.256440+00:00"
+    },
+    "title:integrationofpostquantumcryptographyinthekeylimeagentforquantumsaferemoteattestation": {
+      "category": "transfert_explicite",
+      "decision": "conserver",
+      "score": 65,
+      "status": "rejected",
+      "title": "Integration of Post-Quantum Cryptography in the Keylime Agent for Quantum-Safe Remote Attestation",
+      "updated_at": "2026-10-31T23:15:52.001819+00:00"
     },
     "title:leveraginggem5andmachinelearningforendtoenddetectionofcachebasedsidechannelattackpatterns": {
       "category": "coeur",

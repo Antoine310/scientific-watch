@@ -19,6 +19,26 @@
     ],
     "title": "Implementation of the TCG DICE Specification Into the Keystone TEE Framework"
   },
+  "doi:10.1109/access.2026.3674839": {
+    "publication_date": "2026-01-01",
+    "score": 85,
+    "source": "https://doi.org/10.1109/access.2026.3674839",
+    "summary": "Cette publication présente une architecture légère de Racine de Confiance Matérielle (HRoT) qui intègre des fonctions physiques infalsifiables (PUF) à base de silicium et le moteur DICE (Device Identifier Composition Engine) directement dans la ROM de démarrage de systèmes embarqués RISC-V. L'approche élimine le stockage persistant de clés, génère des identités à la demande, propose une attestation par couches et intègre des mécanismes de gestion du cycle de vie. L'évaluation sur la plateforme RISC-V SPIRS montre une forte résistance aux attaques, une conformité IEC 62443 SL2+ et un surcoût de performance négligeable de moins de 1 % du temps de démarrage.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Hardware-Rooted Device Identity for IoT: Integrating Silicon PUFs and DICE in RISC-V Embedded Systems"
+  },
+  "doi:10.1109/access.2026.3685017": {
+    "publication_date": "2026-01-01",
+    "score": 85,
+    "source": "https://doi.org/10.1109/access.2026.3685017",
+    "summary": "Cette étude propose une analyse approfondie des architectures de chaîne de confiance pour les systèmes embarqués sécurisés, synthétisant près de 100 publications de 2004 à 2025. Elle introduit une taxonomie hiérarchique en cinq dimensions : racine de confiance matérielle, démarrage sécurisé, environnements d'exécution de confiance (TEE), applications TEE et protocoles d'attestation à distance. L'évaluation comparative couvre plus de 45 implémentations et identifie des défis de sécurité récents ainsi que des pistes de recherche prioritaires.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "A Survey of Trust Chain in Secure Embedded Systems: From Secure Boot to TEE Applications"
+  },
   "doi:10.1109/acsac67867.2025.00049": {
     "publication_date": "2025-12-08",
     "score": 75,
@@ -128,6 +148,16 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Design and Implementation of a Secure Boot RISC-V Processor for IoT Devices"
+  },
+  "doi:10.1109/icsft66733.2026.11507038": {
+    "publication_date": "2026-01-01",
+    "score": 75,
+    "source": "https://doi.org/10.1109/icsft66733.2026.11507038",
+    "summary": "Ce travail propose un chargeur de démarrage (« bootloader ») et un cadre d'initialisation de noyau sécurisés écrits en Rust pour les systèmes embarqués, exploitant la sécurité mémoire à la compilation et la concurrence déterministe pour contrer les vulnérabilités classiques du C et C++. L'approche intègre une validation par signature cryptographique, une racine de confiance matérielle (RoT) et une initialisation contrôlée de la mémoire, tout en utilisant des interfaces FFI (Foreign Function Interface) limitées à des frontières vérifiables pour interagir avec le code C existant. Les analyses expérimentales montrent une bonne précision de vérification et de faibles surcoûts de performance.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Secure Bootloader and Kernel Initialization in Embedded Systems Using Rust"
   },
   "doi:10.1109/ietacs68750.2025.11385713": {
     "publication_date": "2025-11-06",
@@ -369,6 +399,16 @@
     ],
     "title": "A Formal Approach to Multi-Layered Privileges for Enclaves"
   },
+  "doi:10.14722/ndss.2026.242421": {
+    "publication_date": "2026-01-01",
+    "score": 80,
+    "source": "https://doi.org/10.14722/ndss.2026.242421",
+    "summary": "EXIA introduce le concept d'External-Input Attestation pour sécuriser les environnements d'exécution de confiance (TEE) contre les attaques de corruption mémoire en attestant toutes les écritures vers les applications enclavées. Validé sur AMD SEV-SNP et Penglai, l'approche montre des surcoûts de performance minimes pour diverses charges de travail.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "EXIA: Trusted Transitions for Enclaves via External-Input Attestation"
+  },
   "doi:10.1587/transinf.2025edp7101": {
     "publication_date": "2025-12-10",
     "score": 90,
@@ -519,6 +559,16 @@
     ],
     "title": "Detection of Meltdown and Spectre A paper Review"
   },
+  "doi:10.70675/5c959425z6fc9z4e8ezaea5zd980f0740a16": {
+    "publication_date": "2026-01-12",
+    "score": 85,
+    "source": "https://theses.fr/2026URENS003/document",
+    "summary": "Cette thèse propose de mitiger la vulnérabilité Spectre sur les processeurs RISC-V modernes en évaluant d'abord les protections existantes par spéculation sélective. Constatant que cette approche a un coût prohibitif en performances car la micro-architecture ne distingue pas les données secrètes des données publiques, les travaux introduisent une nouvelle solution fournissant davantage d'informations à la micro-architecture sur les données sensibles.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Mitigating spectre vulnerabilites in modern out-of-order cores"
+  },
   "doi:10.70675/f42c1e00z90b4z449bzb2d8zc21d43dc9a3f": {
     "publication_date": "2025-12-05",
     "score": 90,
@@ -568,6 +618,16 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Hardening Trusted Execution Environments Against Microarchitectural Side-Channel Attacks: A Constructive Approach"
+  },
+  "title:hardwarerootoftrustensistemesriscvanalysisandevaluationofopensourceapproaches": {
+    "publication_date": "2026-01-01",
+    "score": 90,
+    "source": "https://ddd.uab.cat/record/326568",
+    "summary": "Aquest treball avalua funcionalitats de seguretat de codi obert en sistemes basats en RISC-V mitjançant proves adversàries, centrant-se en mecanismes de protecció de memòria (PMP i ePMP) i el Secure Boot. Prenent com a cas d'estudi el SoC Earlgrey d'OpenTitan, s'analitza l'impacte d'afeblir o eliminar proteccions per quantificar la contribució de cada mecanisme al Hardware Root of Trust (HRoT).",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Hardware Root of Trust en Sistemes RISC-V : Analysis and Evaluation of Open Source Approaches"
   },
   "title:integratingopentitanasasecuritycontrollerforcryptographictasksinriscvsocs": {
     "publication_date": "2025-01-01",
