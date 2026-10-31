@@ -129,6 +129,16 @@
     ],
     "title": "Dep-TEE: Decoupled Memory Protection for Secure and Scalable Inter-enclave Communication on RISC-V"
   },
+  "doi:10.1145/3676642.3736125": {
+    "publication_date": "2025-08-06",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3676642.3736125",
+    "summary": "COGENT est une chaîne de compilation flexible basée sur LLVM pour l'architecture RISC-V, permettant de générer et d'encoder des tags et des métadonnées (1-32 bits) à différentes granularités (instruction, bloc de base, fonction) afin de faire respecter des politiques de sécurité et de test à l'exécution.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "COGENT: Adaptable Compiler Toolchain for Tagging RISC-V Binaries"
+  },
   "doi:10.1145/3695053.3731119": {
     "publication_date": "2025-06-20",
     "score": 80,
