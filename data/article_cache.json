@@ -320,6 +320,14 @@
       "title": "A Robust and Portable All-Digital TRNG Circuit for Extending the Instruction Set Architecture of RISC-V Processors",
       "updated_at": "2026-10-30T09:52:45.186106+00:00"
     },
+    "doi:10.1109/acsac67867.2025.00049": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Non-Bare-Metal User-Space Control-Flow Attestation",
+      "updated_at": "2026-10-31T20:14:22.769178+00:00"
+    },
     "doi:10.1109/ainit65432.2025.11035700": {
       "category": "coeur",
       "decision": "conserver",
@@ -512,6 +520,14 @@
       "title": "AuRA: Remote Attestation over EDHOC for Constrained Internet-of-Things Use Cases",
       "updated_at": "2026-10-30T23:14:12.932872+00:00"
     },
+    "doi:10.1109/ised67359.2025.11404976": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "SideSec: Detecting and Mitigating Microarchitectural Side-Channel Attacks in Cloud VMs via Entropy Monitoring and Dynamic VM Reallocation",
+      "updated_at": "2026-10-31T20:14:42.669606+00:00"
+    },
     "doi:10.1109/isqed65160.2025.11014412": {
       "category": "secondaire",
       "decision": "examiner",
@@ -632,6 +648,14 @@
       "title": "Entropy Improvement in Latch-Based True Random Number Generator Using Negative Bias Temperature Instability",
       "updated_at": "2026-10-31T14:14:01.635380+00:00"
     },
+    "doi:10.1109/tdsc.2025.3636884": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Teamwork Makes TEE Work: Open and Resilient Remote Attestation on Decentralized Trust",
+      "updated_at": "2026-10-31T20:13:42.290965+00:00"
+    },
     "doi:10.1109/techdefense67306.2025.11721030": {
       "category": "coeur",
       "decision": "conserver",
@@ -655,6 +679,14 @@
       "status": "imported",
       "title": "LiSB: Lightweight Secure Boot and Attestation Scheme for IoT and Edge Devices",
       "updated_at": "2026-10-30T09:42:49.242109+00:00"
+    },
+    "doi:10.1109/tifs.2025.3648190": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Coffer: An Efficient and Scalable TEE on RISC-V",
+      "updated_at": "2026-10-31T20:14:02.815158+00:00"
     },
     "doi:10.1109/tmag.2025.3544442": {
       "category": "secondaire",
@@ -983,6 +1015,14 @@
       "status": "imported",
       "title": "A Formal Approach to Multi-Layered Privileges for Enclaves",
       "updated_at": "2026-10-30T09:42:57.592805+00:00"
+    },
+    "doi:10.1587/transinf.2025edp7101": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Efficient Memory Protection Method for Large-Scale Host-Enclave Data Transfer on Keystone Enclave",
+      "updated_at": "2026-10-31T20:13:43.059788+00:00"
     },
     "doi:10.18260/1-2-1153-53757": {
       "category": "transfert_explicite",
@@ -1360,6 +1400,14 @@
       "title": "Automated Side-Channel Analysis of Cryptographic Protocol Implementations",
       "updated_at": "2026-10-31T17:13:42.785584+00:00"
     },
+    "doi:10.48550/arxiv.2512.22090": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Abstraction of Trusted Execution Environments as the Missing Layer for Broad Confidential Computing Adoption: A Systematization of Knowledge",
+      "updated_at": "2026-10-31T20:13:21.972158+00:00"
+    },
     "doi:10.48550/arxiv.2610.12695": {
       "category": "coeur",
       "decision": "conserver",
@@ -1480,6 +1528,14 @@
       "title": "Large-Scale RISC-V Processor Verification Using Automated Design Inspection and a Generic Simulation Method",
       "updated_at": "2026-10-31T14:13:50.361904+00:00"
     },
+    "doi:10.57841/casdc.0006531": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "一种基于国密算法的RISC-V 固件安全启动方法及装置",
+      "updated_at": "2026-10-31T20:13:32.173402+00:00"
+    },
     "doi:10.59256/ijsreat.20260605006": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -1520,6 +1576,14 @@
       "title": "True Random Number Generator Design with A Fractional Order Sprott B Chaotic System",
       "updated_at": "2026-10-31T02:13:41.842525+00:00"
     },
+    "doi:10.70675/f42c1e00z90b4z449bzb2d8zc21d43dc9a3f": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Protection microarchitecturale d’un coeur de processeur RISC-V",
+      "updated_at": "2026-10-31T20:15:02.898254+00:00"
+    },
     "doi:10.7302/25650": {
       "category": "coeur",
       "decision": "conserver",
@@ -1527,6 +1591,30 @@
       "status": "imported",
       "title": "Future-proofing Trusted Execution Environments Against the Emerging Threats of Speculative Execution",
       "updated_at": "2026-10-30T09:43:14.181816+00:00"
+    },
+    "title:acomprehensivesurveyonriscvfromrisc1torisc5generationsthroughmodernarchitectureisaextensionscustomizablecoredesignscomparativeanalysisandrealworldapplications": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "A Comprehensive Survey on RISC-V: From RISC-1 to RISC-5 Generations Through Modern Architecture, ISA Extensions, Customizable Core Designs, Comparative Analysis, and Real-World Applications",
+      "updated_at": "2026-10-31T20:14:02.127974+00:00"
+    },
+    "title:aiadaptivefaultpredictiononriscvedgeprocessorsusinglightweighthardwarecounters": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "AI-Adaptive Fault Prediction on RISC-V Edge Processors Using Lightweight Hardware Counters",
+      "updated_at": "2026-10-31T20:13:21.972134+00:00"
+    },
+    "title:anempiricalstudyofgpucachesidechannelleakageinlargelanguagemodelinference": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "An empirical study of GPU cache side-channel leakage in large language model inference",
+      "updated_at": "2026-10-31T20:14:32.089451+00:00"
     },
     "title:cva6mmulessvirtualizationfromhardwaretosoftwareandviceversa": {
       "category": "transfert_explicite",

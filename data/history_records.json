@@ -19,6 +19,16 @@
     ],
     "title": "Implementation of the TCG DICE Specification Into the Keystone TEE Framework"
   },
+  "doi:10.1109/acsac67867.2025.00049": {
+    "publication_date": "2025-12-08",
+    "score": 75,
+    "source": "https://doi.org/10.1109/acsac67867.2025.00049",
+    "summary": "Cet article présente Sulfur, un système permettant d'effectuer une attestation de flux de contrôle (CFA) pour des applications exécutées en espace utilisateur dans un environnement non bare-metal (au-dessus d'un système d'exploitation). Pour contrer les menaces liées à un attaquant au niveau du système d'exploitation, les auteurs développent conjointement un système d'exploitation appelé Sulfuros, qui exploite les extensions de sécurité matérielles AArch64 (privileged-access never et privileged-execute never).",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Non-Bare-Metal User-Space Control-Flow Attestation"
+  },
   "doi:10.1109/ainit65432.2025.11035700": {
     "publication_date": "2025-04-11",
     "score": 95,
@@ -139,6 +149,16 @@
     ],
     "title": "Side-Channel Attack Detection Using gem5 and Machine Learning: A Case Study on Fault-Based Attacks in RISC-V"
   },
+  "doi:10.1109/ised67359.2025.11404976": {
+    "publication_date": "2025-12-17",
+    "score": 75,
+    "source": "https://doi.org/10.1109/ised67359.2025.11404976",
+    "summary": "Ce papier présente SideSec, un framework en temps réel combinant la détection d'anomalies basée sur l'entropie et la réallocation dynamique de machines virtuelles (VM) pour détecter et atténuer les attaques par canal caché microarchitecturales dans le cloud multi-locataires.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SideSec: Detecting and Mitigating Microarchitectural Side-Channel Attacks in Cloud VMs via Entropy Monitoring and Dynamic VM Reallocation"
+  },
   "doi:10.1109/prdc67299.2025.00020": {
     "publication_date": "2025-11-03",
     "score": 90,
@@ -188,6 +208,16 @@
       "T02 — DICE & Hardware Identity"
     ],
     "title": "LiSB: Lightweight Secure Boot and Attestation Scheme for IoT and Edge Devices"
+  },
+  "doi:10.1109/tifs.2025.3648190": {
+    "publication_date": "2025-12-25",
+    "score": 90,
+    "source": "https://doi.org/10.1109/tifs.2025.3648190",
+    "summary": "Cet article présente Coffer, un TEE logiciel efficace et scalable pour l'architecture RISC-V standard. Il introduit deux techniques principales : LPMP (Logical PMP), un cadre de virtualisation pour la protection de la mémoire physique, et EModules, des bibliothèques légères assemblées dynamiquement pour fournir des fonctionnalités OS tout en réduisant la taille de la TCB. L'évaluation montre la prise en charge de plus de 2 000 enclaves simultanées avec un surcoût négligeable.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Coffer: An Efficient and Scalable TEE on RISC-V"
   },
   "doi:10.1145/3658617.3697763": {
     "publication_date": "2025-01-20",
@@ -339,6 +369,16 @@
     ],
     "title": "A Formal Approach to Multi-Layered Privileges for Enclaves"
   },
+  "doi:10.1587/transinf.2025edp7101": {
+    "publication_date": "2025-12-10",
+    "score": 90,
+    "source": "https://doi.org/10.1587/transinf.2025edp7101",
+    "summary": "Cet article propose une méthode de transfert de données sécurisée, efficace et évolutive entre un hôte et une enclave pour le TEE Keystone sur architecture RISC-V. En introduisant une région mémoire dédiée validée par un logiciel privilégié, la méthode contourne les surcoûts des appels de bord (edge calls) traditionnels et améliore les performances de transfert pour les grands volumes de données.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Efficient Memory Protection Method for Large-Scale Host-Enclave Data Transfer on Keystone Enclave"
+  },
   "doi:10.20944/preprints202511.1351.v1": {
     "publication_date": "2025-11-18",
     "score": 85,
@@ -478,6 +518,16 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Detection of Meltdown and Spectre A paper Review"
+  },
+  "doi:10.70675/f42c1e00z90b4z449bzb2d8zc21d43dc9a3f": {
+    "publication_date": "2025-12-05",
+    "score": 90,
+    "source": "https://doi.org/10.70675/f42c1e00z90b4z449bzb2d8zc21d43dc9a3f",
+    "summary": "Ce manuscrit présente une solution microarchitecturale sécurisée pour un cœur de processeur RISC-V afin de le protéger contre les attaques par canaux auxiliaires sur les mémoires cache (CSCA). L'approche combine la détection de contextes malveillants via un système d'observation matériel et le déploiement dynamique de contre-mesures grâce à une unité de transformation du code basée sur le micro-décodage.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Protection microarchitecturale d’un coeur de processeur RISC-V"
   },
   "doi:10.7302/25650": {
     "publication_date": "2025-01-01",
