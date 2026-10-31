@@ -119,6 +119,16 @@
     ],
     "title": "Design and Implementation of a Secure Boot RISC-V Processor for IoT Devices"
   },
+  "doi:10.1109/ietacs68750.2025.11385713": {
+    "publication_date": "2025-11-06",
+    "score": 90,
+    "source": "https://doi.org/10.1109/ietacs68750.2025.11385713",
+    "summary": "Cet article présente ANCHOR-RV, une architecture RISC-V sécurisée par conception intégrant des racines de confiance (RoT) matérielles intégrées pour les appareils intelligents de prochaine génération. Elle combine un moteur de confiance contextuel (CATE), un coffre d'identité basé sur une PUF non linéaire, une isolation DMA sécurisée (SDIB) et une chaîne de démarrage avec mutation (TAB-CM), le tout soutenu par une extension d'ISA (RV-TISA). L'évaluation sur FPGA démontre une amélioration de la flexibilité et de la résistance aux attaques avec une empreinte réduite.",
+    "themes": [
+      "T11 — PUF & TRNG"
+    ],
+    "title": "Development of Secure-by-Design RISC-V Architectures with Embedded Hardware Roots-of-Trust for Next-Generation Smart Devices"
+  },
   "doi:10.1109/iolts65288.2025.11117044": {
     "publication_date": "2025-07-07",
     "score": 85,
@@ -158,6 +168,16 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "LayerTEE: Decoupled Memory Protection for Scalable Multilayer Communication on RISC-V"
+  },
+  "doi:10.1109/techdefense67306.2025.11721030": {
+    "publication_date": "2025-11-01",
+    "score": 80,
+    "source": "https://doi.org/10.1109/techdefense67306.2025.11721030",
+    "summary": "Cette étude présente une méthodologie de détection des attaques par canaux cachés microarchitecturaux (MSCA), telles que Spectre, sur des architectures RISC-V à l'aide de la plateforme de simulation gem5. En exploitant le mode d'émulation système (SE) de gem5, 1436 caractéristiques sont extraites des compteurs de performance matérielle (HPC) à partir d'un jeu de données de 15 000 échantillons. Un classifieur Random Forest (RF) atteint un taux de détection de 100 % sans faux positifs ni faux négatifs.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Machine Learning-Based Detection of Microarchitectural Attacks on RISC-V via Gem5"
   },
   "doi:10.1109/tifs.2025.3592573": {
     "publication_date": "2025-01-01",
@@ -199,6 +219,26 @@
     ],
     "title": "SpecASan: Mitigating Transient Execution Attacks Using Speculative Address Sanitization"
   },
+  "doi:10.1145/3719027.3744833": {
+    "publication_date": "2025-11-19",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3719027.3744833",
+    "summary": "GhostCache est une attaque par canal auxiliaire microarchitectural sans compteur ni chronomètre, exploitant la faible cohérence du cache L1 sur des processeurs RISC-V et ARM, contournant ainsi les atténuations basées sur la restriction des accès aux horloges haute résolution.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "GhostCache: Timer- and Counter-Free Cache Attacks Exploiting Weak Coherence on RISC-V and ARM Chips"
+  },
+  "doi:10.1145/3719027.3744881": {
+    "publication_date": "2025-11-19",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3719027.3744881",
+    "summary": "Cette étude empirique analyse pour la première fois les correctifs de canaux auxiliaires microarchitecturaux dans des logiciels cryptographiques réels. Les auteurs introduisent le jeu de données SideBench (165 correctifs issus d'OpenSSL, WolfSSL et MbedTLS) et l'outil d'analyse automatisée SideEval, combinant analyse de taintr dynamique et exécution symbolique statique. L'évaluation montre que 25 correctifs sont non sécurisés, que certains correctifs créent de nouvelles fuites, que les surcoûts de performance varient de 10% à 170%, et que les outils de correction automatisés actuels (basés sur des règles ou des LLM) manquent de sécurité.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "An Empirical Study Measuring In-The-Wild Cryptographic Microarchitectural Side-Channel Patches"
+  },
   "doi:10.1145/3719027.3765061": {
     "publication_date": "2025-11-19",
     "score": 80,
@@ -208,6 +248,16 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "ExfilState: Automated Discovery of Timer-Free Cache Side Channels on ARM CPUs"
+  },
+  "doi:10.1145/3719027.3765148": {
+    "publication_date": "2025-11-19",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3719027.3765148",
+    "summary": "Cet article traite de la synthèse de contrats de fuite (leakage contracts) sains et précis pour les processeurs RISC-V open-source. Les contrats de fuite sont une abstraction de sécurité au niveau de l'ISA pour capturer les fuites par canaux cachés microarchitecturaux. Définir un tel contrat de manière saine et précise reste difficile, chronophage et source d'erreurs en raison de la complexité des optimisations microarchitecturales.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Synthesis of Sound and Precise Leakage Contracts for Open-Source RISC-V Processors"
   },
   "doi:10.1145/3719276.3725176": {
     "publication_date": "2025-05-28",
@@ -418,6 +468,16 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Assessing Security RISC: Analyzing Flush+Fault Attack on RISC-V Using gem5 Simulator"
+  },
+  "doi:10.5281/zenodo.17553874": {
+    "publication_date": "2025-11-07",
+    "score": 90,
+    "source": "https://doi.org/10.5281/zenodo.17553874",
+    "summary": "Ce travail présente une revue technique exhaustive des vulnérabilités Meltdown et Spectre, qui exploitent l'exécution spéculative et désordonnée pour fuiter des données sensibles. L'article analyse les mécanismes microarchitecturaux sous-jacents, compare les deux failles, évalue les stratégies d'atténuation (KPTI, Retpoline, SLH) et leurs compromis de performance, soulignant la nécessité d'une conception matérielle sécurisée.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Detection of Meltdown and Spectre A paper Review"
   },
   "doi:10.7302/25650": {
     "publication_date": "2025-01-01",

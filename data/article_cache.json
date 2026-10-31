@@ -224,6 +224,14 @@
       "title": "Chip-scale reconfigurable carbon nanotube physical unclonable functions",
       "updated_at": "2026-10-31T11:13:29.560126+00:00"
     },
+    "doi:10.1038/s41598-025-23840-z": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Optimal performance of simple low-cost optical physical unclonable functions resilient to machine learning attacks",
+      "updated_at": "2026-10-31T17:14:32.643675+00:00"
+    },
     "doi:10.1038/s41598-025-89769-5": {
       "category": "secondaire",
       "decision": "examiner",
@@ -263,6 +271,14 @@
       "status": "rejected",
       "title": "Efficient Design and Implementation of High-Speed TRNG Using Ring Oscillators",
       "updated_at": "2026-10-30T17:14:24.805354+00:00"
+    },
+    "doi:10.1101/gr.280558.125": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Secure phasing of private genomes in a trusted execution environment with TX-Phase",
+      "updated_at": "2026-10-31T17:14:02.804411+00:00"
     },
     "doi:10.1109/access.2025.3543000": {
       "category": "secondaire",
@@ -319,6 +335,22 @@
       "status": "rejected",
       "title": "Leveraging Trusted Execution Environments For Data Security in Healthcare Workflows",
       "updated_at": "2026-10-31T11:14:40.055936+00:00"
+    },
+    "doi:10.1109/ciees66347.2025.11300155": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "A Runtime Tunable Data Acquisition and Evaluation System for FPGA-based TRNGs",
+      "updated_at": "2026-10-31T17:15:11.713322+00:00"
+    },
+    "doi:10.1109/cins67018.2025.11412147": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Random Number Generators in Cryptography and Simulation: Comparative Analysis of TRNG and PRNG Designs",
+      "updated_at": "2026-10-31T17:15:11.713317+00:00"
     },
     "doi:10.1109/csr64739.2025.11130017": {
       "category": "coeur",
@@ -431,6 +463,14 @@
       "status": "rejected",
       "title": "Implementation of A Hybrid TRNG-PRNG Architecture for Efficient Random Number Generator",
       "updated_at": "2026-10-31T11:13:40.427886+00:00"
+    },
+    "doi:10.1109/ietacs68750.2025.11385713": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Development of Secure-by-Design RISC-V Architectures with Embedded Hardware Roots-of-Trust for Next-Generation Smart Devices",
+      "updated_at": "2026-10-31T17:14:43.796399+00:00"
     },
     "doi:10.1109/incsst64791.2025.11210272": {
       "category": "transfert_explicite",
@@ -592,6 +632,22 @@
       "title": "Entropy Improvement in Latch-Based True Random Number Generator Using Negative Bias Temperature Instability",
       "updated_at": "2026-10-31T14:14:01.635380+00:00"
     },
+    "doi:10.1109/techdefense67306.2025.11721030": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "Machine Learning-Based Detection of Microarchitectural Attacks on RISC-V via Gem5",
+      "updated_at": "2026-10-31T17:14:04.794128+00:00"
+    },
+    "doi:10.1109/ted.2025.3627172": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "In-Memory Unified TRNG and PUF Based on RRAM Random Switching Time",
+      "updated_at": "2026-10-31T17:15:11.713295+00:00"
+    },
     "doi:10.1109/tifs.2025.3592573": {
       "category": "coeur",
       "decision": "conserver",
@@ -688,6 +744,22 @@
       "title": "SpecASan: Mitigating Transient Execution Attacks Using Speculative Address Sanitization",
       "updated_at": "2026-10-30T20:15:23.600029+00:00"
     },
+    "doi:10.1145/3719027.3744833": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "GhostCache: Timer- and Counter-Free Cache Attacks Exploiting Weak Coherence on RISC-V and ARM Chips",
+      "updated_at": "2026-10-31T17:14:05.391684+00:00"
+    },
+    "doi:10.1145/3719027.3744881": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "An Empirical Study Measuring In-The-Wild Cryptographic Microarchitectural Side-Channel Patches",
+      "updated_at": "2026-10-31T17:14:03.633907+00:00"
+    },
     "doi:10.1145/3719027.3765061": {
       "category": "coeur",
       "decision": "conserver",
@@ -695,6 +767,14 @@
       "status": "imported",
       "title": "ExfilState: Automated Discovery of Timer-Free Cache Side Channels on ARM CPUs",
       "updated_at": "2026-10-31T14:15:21.968278+00:00"
+    },
+    "doi:10.1145/3719027.3765148": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Synthesis of Sound and Precise Leakage Contracts for Open-Source RISC-V Processors",
+      "updated_at": "2026-10-31T17:14:04.170579+00:00"
     },
     "doi:10.1145/3719276.3725176": {
       "category": "coeur",
@@ -1008,6 +1088,14 @@
       "title": "Trusted execution environments for quantum computers",
       "updated_at": "2026-10-30T23:13:24.479835+00:00"
     },
+    "doi:10.3390/chips4040048": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Exploring Accelerated Aging Stress for Physical Unclonable Function Self-Corruption",
+      "updated_at": "2026-10-31T17:15:11.713327+00:00"
+    },
     "doi:10.3390/cryptography9020034": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -1248,6 +1336,14 @@
       "title": "Exact Bias of Linear TRNG Correctors -- Spectral Approach",
       "updated_at": "2026-10-31T11:13:40.427867+00:00"
     },
+    "doi:10.48550/arxiv.2511.01514": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 25,
+      "status": "rejected",
+      "title": "Non-unitary Quantum Physical Unclonable Functions: Modelling, Simulation, and Evaluation under Open Quantum Dynamics",
+      "updated_at": "2026-10-31T17:14:42.913696+00:00"
+    },
     "doi:10.48550/arxiv.2511.04550": {
       "category": "coeur",
       "decision": "conserver",
@@ -1255,6 +1351,14 @@
       "status": "imported",
       "title": "Confidential Computing for Cloud Security: Exploring Hardware based Encryption Using Trusted Execution Environments",
       "updated_at": "2026-10-31T14:14:32.661252+00:00"
+    },
+    "doi:10.48550/arxiv.2511.11385": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 70,
+      "status": "rejected",
+      "title": "Automated Side-Channel Analysis of Cryptographic Protocol Implementations",
+      "updated_at": "2026-10-31T17:13:42.785584+00:00"
     },
     "doi:10.48550/arxiv.2610.12695": {
       "category": "coeur",
@@ -1279,6 +1383,14 @@
       "status": "rejected",
       "title": "µTEE: Certification-ready RISC-V platform for secure IIoT lifecycle management",
       "updated_at": "2026-10-31T14:14:41.156714+00:00"
+    },
+    "doi:10.5281/zenodo.17553874": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Detection of Meltdown and Spectre A paper Review",
+      "updated_at": "2026-10-31T17:14:23.443665+00:00"
     },
     "doi:10.5281/zenodo.23399404": {
       "category": "secondaire",
