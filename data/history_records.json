@@ -149,6 +149,16 @@
     ],
     "title": "Evict+Spec+Time on RISC-V: Gem5-Based Implementation and Microarchitectural Analysis"
   },
+  "doi:10.1109/ets69887.2026.11591831": {
+    "publication_date": "2026-05-25",
+    "score": 85,
+    "source": "https://doi.org/10.1109/ets69887.2026.11591831",
+    "summary": "Cet article présente une évaluation intégrée et ancrée dans le matériel de l'écosystème RISC-V actuel, analysant la maturité logicielle, les performances et la sécurité face aux attaques d'exécution transitoire sur trois cœurs open-source (BOOM, NOEL-V, CVA6).",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "A real opportunity or still a promise? The current status of the RISC-V ecosystem"
+  },
   "doi:10.1109/eurosp63326.2025.00028": {
     "publication_date": "2025-06-30",
     "score": 75,
@@ -328,6 +338,16 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Towards ML-KEM & ML-DSA on OpenTitan"
+  },
+  "doi:10.1109/sp63933.2026.00170": {
+    "publication_date": "2026-05-18",
+    "score": 85,
+    "source": "https://doi.org/10.1109/sp63933.2026.00170",
+    "summary": "TDXRay est un cadre de mesure côté hôte qui analyse la surface d'attaque par canal auxiliaire microarchitectural dans Intel TDX pour des charges de travail réelles, mettant en évidence la fuite d'informations sensibles (clés AES et inférences LLM) malgré l'isolation des TEE basés sur machine virtuelle.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "TDXRay: Microarchitectural Side-Channel Analysis of Intel TDX for Real-World Workloads"
   },
   "doi:10.1109/tc.2026.3690648": {
     "publication_date": "2026-05-04",
@@ -558,6 +578,16 @@
       "T04 — Runtime Attestation"
     ],
     "title": "LightFAt+: Lightweight Control-flow Attestation via Unsupervised Machine Learning"
+  },
+  "doi:10.1145/3830454.3832748": {
+    "publication_date": "2026-05-22",
+    "score": 75,
+    "source": "https://arxiv.org/abs/2608.06124",
+    "summary": "Cet article présente dfence, une nouvelle instruction CPU qui généralise le durcissement des charges spéculatives (SLH) pour atténuer à la fois les attaques Spectre-PHT et Spectre-STL avec un support matériel minimal. L'approche permet d'annoter les registres sensibles pour empêcher les fuites transitoires et s'accompagne d'un système de types pour une vérification statique.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "dfence: Fine-Grained Speculation Barriers for Efficient and Effective Hardware-Software Protection in the Spectre Era"
   },
   "doi:10.12732/ijam.v38i6s.1640": {
     "publication_date": "2025-10-15",
@@ -848,6 +878,16 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "KingsGuard: Enclave Data Protection Under Real-World TEE Vulnerabilities"
+  },
+  "doi:10.48550/arxiv.2605.10049": {
+    "publication_date": "2026-05-11",
+    "score": 75,
+    "source": "https://arxiv.org/abs/2605.10049",
+    "summary": "Janus est un framework de sécurité basé sur un compilateur qui atténue les attaques par exécution transitoire (comme Spectre) et le détournement de flux de contrôle sur les plateformes ARM64 en combinant des primitives matérielles (PA et BTI).",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Janus: Compiler-Based Defense Against Transient Execution Attacks Using ARM Hardware Primitives"
   },
   "doi:10.5220/0013518800003979": {
     "publication_date": "2025-01-01",

@@ -592,6 +592,14 @@
       "title": "Simulation and Analysis of Intentional EMI Attack Against Power Delivery Network of Ring Oscillator Based True Random Number Generator",
       "updated_at": "2026-10-31T05:13:52.208101+00:00"
     },
+    "doi:10.1109/ets69887.2026.11591831": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "A real opportunity or still a promise? The current status of the RISC-V ecosystem",
+      "updated_at": "2026-11-01T20:14:27.835800+00:00"
+    },
     "doi:10.1109/eurosp63326.2025.00028": {
       "category": "coeur",
       "decision": "conserver",
@@ -911,6 +919,14 @@
       "status": "imported",
       "title": "Towards ML-KEM & ML-DSA on OpenTitan",
       "updated_at": "2026-10-30T14:14:24.630718+00:00"
+    },
+    "doi:10.1109/sp63933.2026.00170": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "TDXRay: Microarchitectural Side-Channel Analysis of Intel TDX for Real-World Workloads",
+      "updated_at": "2026-11-01T20:13:52.972857+00:00"
     },
     "doi:10.1109/tc.2026.3690648": {
       "category": "coeur",
@@ -1304,6 +1320,14 @@
       "title": "LightFAt+: Lightweight Control-flow Attestation via Unsupervised Machine Learning",
       "updated_at": "2026-11-01T14:14:52.667188+00:00"
     },
+    "doi:10.1145/3830454.3832748": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "dfence: Fine-Grained Speculation Barriers for Efficient and Effective Hardware-Software Protection in the Spectre Era",
+      "updated_at": "2026-11-01T20:13:55.225436+00:00"
+    },
     "doi:10.1145/3839338.3857251": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -1591,6 +1615,14 @@
       "status": "rejected",
       "title": "Quantum-resilient optical links using micro-LEDs generated quantum random numbers and physical unclonable functions",
       "updated_at": "2026-11-01T11:14:20.900405+00:00"
+    },
+    "doi:10.21203/rs.3.rs-9353152/v1": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Listening to disorder: acoustic physical unclonable functions for audio-enabled secure authentication",
+      "updated_at": "2026-11-01T20:14:29.992271+00:00"
     },
     "doi:10.2139/ssrn.6556258": {
       "category": "secondaire",
@@ -2200,6 +2232,14 @@
       "title": "KingsGuard: Enclave Data Protection Under Real-World TEE Vulnerabilities",
       "updated_at": "2026-11-01T17:20:18.774359+00:00"
     },
+    "doi:10.48550/arxiv.2605.10049": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Janus: Compiler-Based Defense Against Transient Execution Attacks Using ARM Hardware Primitives",
+      "updated_at": "2026-11-01T20:13:53.912271+00:00"
+    },
     "doi:10.48550/arxiv.2605.13676": {
       "category": "coeur",
       "decision": "examiner",
@@ -2279,6 +2319,22 @@
       "status": "rejected",
       "title": "Helium: Quantifying Microarchitectural Side-Channel Leakage with Probabilistic Guarantees",
       "updated_at": "2026-11-01T14:15:12.278528+00:00"
+    },
+    "doi:10.5281/zenodo.19476313": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Artifact for \"TDXRay: Microarchitectural Side-Channel Analysis of Intel TDX for Real-World Workloads\"",
+      "updated_at": "2026-11-01T20:13:31.924993+00:00"
+    },
+    "doi:10.5281/zenodo.20353598": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Temporal Physical Unclonable Function (T-PUF): A Time-Irreversible Hardware Security Architecture Beyond Mathematical Hardness Assumptions",
+      "updated_at": "2026-11-01T20:14:29.992251+00:00"
     },
     "doi:10.5281/zenodo.22287556": {
       "category": "coeur",
