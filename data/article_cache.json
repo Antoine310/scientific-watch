@@ -256,6 +256,14 @@
       "title": "Modeling of physical unclonable functions (PUF): A systematic literature review",
       "updated_at": "2026-11-01T11:14:20.900387+00:00"
     },
+    "doi:10.1016/j.cose.2026.105005": {
+      "category": "transfert_explicite",
+      "decision": "conserver",
+      "score": 65,
+      "status": "rejected",
+      "title": "RunPBA — Runtime attestation for microcontrollers with PACBTI",
+      "updated_at": "2026-11-01T23:13:33.872370+00:00"
+    },
     "doi:10.1016/j.iot.2026.101885": {
       "category": "coeur",
       "decision": "conserver",
@@ -720,6 +728,14 @@
       "title": "Development of Secure-by-Design RISC-V Architectures with Embedded Hardware Roots-of-Trust for Next-Generation Smart Devices",
       "updated_at": "2026-10-31T17:14:43.796399+00:00"
     },
+    "doi:10.1109/ignite69592.2026.11706182": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "eSC-V: Hardware-Enforced CFI Protection for Machine-Mode RISC-V SoC",
+      "updated_at": "2026-11-01T23:13:24.515598+00:00"
+    },
     "doi:10.1109/incsst64791.2025.11210272": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -751,6 +767,14 @@
       "status": "rejected",
       "title": "Real-Time Fault Analysis in RISC-V Processors: A Case Study Using the Internal State Monitor",
       "updated_at": "2026-10-30T23:13:53.377336+00:00"
+    },
+    "doi:10.1109/isca66397.2026.00045": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Helium: Quantifying Microarchitectural Side-Channel Leakage with Probabilistic Guarantees",
+      "updated_at": "2026-11-01T23:14:33.536272+00:00"
     },
     "doi:10.1109/iscas56072.2025.11043564": {
       "category": "secondaire",
@@ -1248,6 +1272,14 @@
       "title": "Deep Learning on RISC-V Platforms at the Edge: A Perspective on the Hardware and Software Support",
       "updated_at": "2026-10-31T14:13:40.481134+00:00"
     },
+    "doi:10.1145/3779208.3807479": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "CAGE-V: Confidential Computing Architecture supporting Guest Enclaves for RISC-V",
+      "updated_at": "2026-11-01T23:14:14.640897+00:00"
+    },
     "doi:10.1145/3779212.3790144": {
       "category": "secondaire",
       "decision": "examiner",
@@ -1728,6 +1760,14 @@
       "title": "Implementation of a collective remote attestation framework for IoT devices",
       "updated_at": "2026-10-31T23:14:50.978020+00:00"
     },
+    "doi:10.26240/heal.ntua.32756": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Extending RISC-V Trusted Execution Environments to flexibly support multiple page sizes",
+      "updated_at": "2026-11-01T23:13:24.515624+00:00"
+    },
     "doi:10.31474/1996-1588-2026-2-43-252-263": {
       "category": "secondaire",
       "decision": "examiner",
@@ -1904,6 +1944,14 @@
       "title": "PMAKA-IoV: A Physical Unclonable Function (PUF)-Based Multi-Factor Authentication and Key Agreement Protocol for Internet of Vehicles",
       "updated_at": "2026-10-30T17:14:14.377143+00:00"
     },
+    "doi:10.3390/iot7020048": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "Run-Time Enclave Measurement in the Keystone Framework",
+      "updated_at": "2026-11-01T23:13:55.102177+00:00"
+    },
     "doi:10.3390/land15101871": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -1959,6 +2007,14 @@
       "status": "rejected",
       "title": "Investigating the Impact of Low-Rate Error-Correction Codes on Device-Cloning and Reverse-Engineering Attacks on Physical Unclonable Functions",
       "updated_at": "2026-10-31T07:10:38.187486+00:00"
+    },
+    "doi:10.3390/sym18071083": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Exploiting Structural Symmetry of SM4 for an Asymmetric Hardware Architecture: Design and Open-Source Verification on the RISC-V LicheePi 4A Platform",
+      "updated_at": "2026-11-01T23:14:13.688876+00:00"
     },
     "doi:10.34218/ijarm_17_01_005": {
       "category": "secondaire",
@@ -2256,6 +2312,30 @@
       "title": "\"You do understand that people don't trust technology?\": Explaining Trusted Execution Environments to Non-Experts",
       "updated_at": "2026-11-01T17:20:15.473752+00:00"
     },
+    "doi:10.48550/arxiv.2606.03323": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Implement Kubernetes Pod-Level Remote Attestation for Confidential Workloads on dstack",
+      "updated_at": "2026-11-01T23:14:23.612825+00:00"
+    },
+    "doi:10.48550/arxiv.2606.12259": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Partitioned Tags, Shared Data: Reconciling Strict Cache Isolation with Write-Shared Coherence",
+      "updated_at": "2026-11-01T23:15:05.457342+00:00"
+    },
+    "doi:10.48550/arxiv.2606.22063": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Guarded Equivalence Predicates for Scalable Formal Hardware Information-Flow Verification",
+      "updated_at": "2026-11-01T23:14:43.324349+00:00"
+    },
     "doi:10.48550/arxiv.2610.12695": {
       "category": "coeur",
       "decision": "conserver",
@@ -2359,6 +2439,14 @@
       "status": "rejected",
       "title": "Generative AI Copyright Governance and Physical-Layer Autonomous Defense Infrastructure — Mathematical Formalization of $10B-Scale TCO Optimization, Decoupled Cluster/Unlearning Data Shapley, CLAP Multi-Stem Audio Attribution, Sub-1.5-ms HITL0 CBF-QP Subsea Rerouting under UNCLOS, QPUF Silicon Root of Trust, and NIST FIPS 203 (ML-KEM-768) Edge TEE Provenance",
       "updated_at": "2026-10-31T07:10:38.187513+00:00"
+    },
+    "doi:10.53941/pc.2026.100006": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "RV-Sec5: Enhancing Pre-Silicon Security Evaluation of RISC-V Processors through Targeted ISA-Level Instrumentation in the gem5 Simulation Framework †",
+      "updated_at": "2026-11-01T23:13:34.867380+00:00"
     },
     "doi:10.54097/kpme5h37": {
       "category": "secondaire",
@@ -2743,6 +2831,14 @@
       "status": "rejected",
       "title": "Towards Quantum Sensing for Side-Channel Analysis",
       "updated_at": "2026-10-31T07:10:38.187436+00:00"
+    },
+    "title:towardsreliableandsecureriscvsystemssurveyoftestabilityandsecuritymechanisms": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Towards Reliable and Secure RISC-V Systems: Survey of Testability and Security Mechanisms",
+      "updated_at": "2026-11-01T23:15:24.981525+00:00"
     },
     "title:tractablenottruncatedcolorednoisetrngsecurityviafractionalbrownianmotion": {
       "category": "secondaire",

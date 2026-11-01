@@ -529,6 +529,16 @@
     ],
     "title": "Comprehensive Kernel Safety in the Spectre Era: Mitigations and Performance Evaluation"
   },
+  "doi:10.1145/3779208.3807479": {
+    "publication_date": "2026-06-01",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3779208.3807479",
+    "summary": "CAGE-V est une architecture de calcul confidentiel pour RISC-V conçue pour supporter des enclaves invitées (guest enclaves). Elle vise à offrir une isolation forte entre des locataires non de confiance et à protéger ces derniers contre un hyperviseur non de confiance, tout en soulignant que cette isolation lourde est souvent absente dans les applications sans serveur (serverless) qui co-localisent des milliers de travailleurs cloud dans un même processus pour optimiser les surcoûts FaaS.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "CAGE-V: Confidential Computing Architecture supporting Guest Enclaves for RISC-V"
+  },
   "doi:10.1145/3779212.3790242": {
     "publication_date": "2026-03-10",
     "score": 85,
@@ -719,6 +729,16 @@
     ],
     "title": "A Survey of RISC-V Secure Enclaves and Trusted Execution Environments"
   },
+  "doi:10.3390/iot7020048": {
+    "publication_date": "2026-06-12",
+    "score": 95,
+    "source": "https://doi.org/10.3390/iot7020048",
+    "summary": "Cet article aborde la sécurité des environnements d'exécution de confiance (TEE) dans le cadre de l'Internet des objets, en se focalisant sur le framework Keystone basé sur l'architecture RISC-V. Les auteurs constatent que la mesure binaire réalisée uniquement au chargement ne garantit pas l'intégrité à l'exécution. Ils proposent donc un nouveau mécanisme de vérification d'intégrité pour attester de l'état de la mémoire sensible tout au long de l'exécution, réduisant la surcharge de mesure de 57,5% par rapport aux techniques traditionnelles de chargement tout en minimisant l'extension de la base de confiance.",
+    "themes": [
+      "T02 — DICE & Hardware Identity"
+    ],
+    "title": "Run-Time Enclave Measurement in the Keystone Framework"
+  },
   "doi:10.34657/32529": {
     "publication_date": "2026-03-12",
     "score": 75,
@@ -889,6 +909,16 @@
     ],
     "title": "Janus: Compiler-Based Defense Against Transient Execution Attacks Using ARM Hardware Primitives"
   },
+  "doi:10.48550/arxiv.2606.12259": {
+    "publication_date": "2026-06-10",
+    "score": 90,
+    "source": "https://arxiv.org/abs/2606.12259",
+    "summary": "Cet article présente SCP (Secure and Coherent Partitioning), une architecture matérielle de cache qui concilie l'isolement strict par partitionnement et la cohérence des données partagées en écriture. En partitionnant uniquement les étiquettes (tags) tout en partageant une réserve de données dimensionnée pour empêcher les évictions inter-partitions, SCP protège contre les canaux cachés tout en maintenant des performances proches de DAWG avec un surcoût matériel modeste de 2,8 % de SRAM sur le LLC.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Partitioned Tags, Shared Data: Reconciling Strict Cache Isolation with Write-Shared Coherence"
+  },
   "doi:10.5220/0013518800003979": {
     "publication_date": "2025-01-01",
     "score": 80,
@@ -918,6 +948,16 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Hardware Root of Trust: Trusted Platform Module (TPM) Implementation and Verification"
+  },
+  "doi:10.53941/pc.2026.100006": {
+    "publication_date": "2026-06-29",
+    "score": 75,
+    "source": "https://doi.org/10.53941/pc.2026.100006",
+    "summary": "Cet article présente RV-Sec5, un cadre systématique et guidé par des politiques pour l'évaluation de la sécurité au niveau du jeu d'instructions (ISA) des processeurs RISC-V, intégré dans le simulateur cycle par cycle gem5. Le framework traduit des invariants de sécurité (isolation des privilèges, PMP, CSR) en points d'instrumentation pour corréler les événements ISA et le comportement microarchitectural.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "RV-Sec5: Enhancing Pre-Silicon Security Evaluation of RISC-V Processors through Targeted ISA-Level Instrumentation in the gem5 Simulation Framework †"
   },
   "doi:10.5463/thesis.1490": {
     "publication_date": "2026-02-27",
@@ -1038,5 +1078,15 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Prototyping Custom Hardware Performance Counters in gem5 Simulator: A Framework for RISC-V Side-Channel Attack Assessment"
+  },
+  "title:towardsreliableandsecureriscvsystemssurveyoftestabilityandsecuritymechanisms": {
+    "publication_date": "2026-06-24",
+    "score": 75,
+    "source": "https://hal.science/hal-05579640v1",
+    "summary": "Cette publication propose une étude exhaustive des mécanismes de testabilité, de sécurité et de sûreté pour l'architecture RISC-V. L'article analyse les approches de vérification, de protection matérielle et logicielle, ainsi que les technologies associées telles que les environnements d'exécution de confiance et les extensions cryptographiques, tout en identifiant les défis ouverts pour les systèmes critiques.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Towards Reliable and Secure RISC-V Systems: Survey of Testability and Security Mechanisms"
   }
 }
