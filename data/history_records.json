@@ -129,6 +129,16 @@
     ],
     "title": "Data Oblivious CPU: Microarchitectural Side-channel Leakage-Resilient Processor"
   },
+  "doi:10.1109/ddecs69233.2026.11521000": {
+    "publication_date": "2026-04-27",
+    "score": 90,
+    "source": "https://doi.org/10.1109/ddecs69233.2026.11521000",
+    "summary": "Cet article présente une analyse comparative de la vulnérabilité de trois cœurs RISC-V open-source (BOOM, NOEL-V et CVA6) face aux attaques par exécution transitoire (TEAs), incluant des variantes de Spectre, Meltdown, SCSB et Indirector. L'étude démontre que chaque processeur présente un profil de vulnérabilité distinct lié à sa microarchitecture et met en évidence un résultat marquant : les processeurs in-order sont également vulnérables.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "Assessing the Vulnerability of Open-Source RISC-V Processors to Transient Execution Attacks"
+  },
   "doi:10.1109/dsd67783.2025.00045": {
     "publication_date": "2025-09-10",
     "score": 95,
@@ -159,6 +169,16 @@
     ],
     "title": "Enclave Application Cache for RISC-V Keystone"
   },
+  "doi:10.1109/icc59461.2026.11587746": {
+    "publication_date": "2026-05-24",
+    "score": 75,
+    "source": "https://doi.org/10.1109/icc59461.2026.11587746",
+    "summary": "Cet article présente LiReS IDS, un système de détection d'intrusions (IDS) léger, en temps réel et sécurisé, spécifiquement conçu pour les appareils périphériques (edge devices) basés sur l'architecture RISC-V. La solution combine un élagage structuré guidé par algorithme génétique pour réduire les modèles CNN, et une architecture sécurisée par environnement d'exécution de confiance (TEE) utilisant les enclaves Keystone. L'évaluation est menée sur une carte SiFive HiFive Unmatched avec des jeux de données de référence.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "LiReS IDS: A Lightweight, Real-time, and Secure Intrusion Detection System for RISC-V Edge Devices"
+  },
   "doi:10.1109/iccad66269.2025.11241011": {
     "publication_date": "2025-10-26",
     "score": 85,
@@ -188,6 +208,16 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Research on Security Technologies for RISC-V SoC Based on Permission Management"
+  },
+  "doi:10.1109/ichora69329.2026.11537069": {
+    "publication_date": "2026-05-21",
+    "score": 90,
+    "source": "https://doi.org/10.1109/ichora69329.2026.11537069",
+    "summary": "Cet article propose une revue systématique du paysage des Environnements d'Exécution de Confiance (TEE) basés sur l'architecture RISC-V. Il analyse et compare différentes approches d'isolation, allant des enclaves de processus aux machines virtuelles confidentielles, ainsi que des mécanismes de sécurité étendus (protection DMA, intégrité du flux de contrôle, isolation système). L'analyse montre qu'aucun design ne domine sur tous les plans et que la sécurité requiert des mécanismes dépassant le simple cœur de processeur.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "The RISC-V TEE Landscape: A Survey of Isolation Architectures, Extended Security Mechanisms and Open Research Challenges"
   },
   "doi:10.1109/icicm66614.2025.11315911": {
     "publication_date": "2025-10-17",
@@ -298,6 +328,16 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Towards ML-KEM & ML-DSA on OpenTitan"
+  },
+  "doi:10.1109/tc.2026.3690648": {
+    "publication_date": "2026-05-04",
+    "score": 85,
+    "source": "https://doi.org/10.1109/tc.2026.3690648",
+    "summary": "non disponible dans les métadonnées",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Keystone-Vault: Hardware-Assisted Efficient Intra-Enclave Isolation for RISC-V TEEs"
   },
   "doi:10.1109/tcad.2025.3575014": {
     "publication_date": "2025-06-13",
@@ -799,6 +839,16 @@
     ],
     "title": "HPCCFA: Leveraging Hardware Performance Counters for Control Flow Attestation"
   },
+  "doi:10.48550/arxiv.2605.00613": {
+    "publication_date": "2026-05-01",
+    "score": 80,
+    "source": "https://arxiv.org/abs/2605.00613",
+    "summary": "KingsGuard est une nouvelle conception de TEE (Trusted Execution Environment) qui surveille et contrôle systématiquement la propagation des données sensibles au sein d'une enclave pour empêcher les fuites malgré des vulnérabilités matérielles ou logicielles. Implémentée sur un processeur RISC-V, la solution intègre un suivi précis des flux de données et une déclassification contrôlée, avec un surcoût de surface matérielle de 10,8% sur FPGA et un impact de performance de 5,69%.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "KingsGuard: Enclave Data Protection Under Real-World TEE Vulnerabilities"
+  },
   "doi:10.5220/0013518800003979": {
     "publication_date": "2025-01-01",
     "score": 80,
@@ -818,6 +868,16 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Detection of Meltdown and Spectre A paper Review"
+  },
+  "doi:10.5281/zenodo.22287556": {
+    "publication_date": "2026-05-25",
+    "score": 85,
+    "source": "https://doi.org/10.5281/zenodo.22287556",
+    "summary": "Cette publication traite de l'implémentation et de la vérification matérielle d'une racine de confiance (Hardware Root of Trust) via le Trusted Platform Module (TPM) 2.0. Elle se focalise sur les registres PCR (Platform Configuration Registers), conçus pour stocker des mesures d'intégrité de manière sécurisée en utilisant une opération cryptographique d'extension unidirectionnelle garantissant l'immutabilité et le cumul des états logiciels.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Hardware Root of Trust: Trusted Platform Module (TPM) Implementation and Verification"
   },
   "doi:10.5463/thesis.1490": {
     "publication_date": "2026-02-27",

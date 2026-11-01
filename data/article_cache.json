@@ -200,6 +200,14 @@
       "title": "Survey of Verification of RISC-V Processors",
       "updated_at": "2026-10-30T14:13:26.782730+00:00"
     },
+    "doi:10.1007/s11227-026-08463-z": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "RISC-V and machine learning: a survey",
+      "updated_at": "2026-11-01T17:16:58.341706+00:00"
+    },
     "doi:10.1007/s13389-025-00369-5": {
       "category": "coeur",
       "decision": "conserver",
@@ -312,6 +320,14 @@
       "title": "Chip-scale reconfigurable carbon nanotube physical unclonable functions",
       "updated_at": "2026-10-31T11:13:29.560126+00:00"
     },
+    "doi:10.1038/s41467-026-72557-8": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Optically reconfigurable physical unclonable functions based on 2D MoS2 ring-oscillator arrays for attack-resistant hardware authentication",
+      "updated_at": "2026-11-01T17:14:50.020319+00:00"
+    },
     "doi:10.1038/s41467-026-78973-0": {
       "category": "secondaire",
       "decision": "examiner",
@@ -375,6 +391,14 @@
       "status": "rejected",
       "title": "Efficient Design and Implementation of High-Speed TRNG Using Ring Oscillators",
       "updated_at": "2026-10-30T17:14:24.805354+00:00"
+    },
+    "doi:10.1088/1742-6596/3191/1/012030": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Chaos-Enhanced Dual-Source TRNG Architecture for FPGA-Based Hardware Security",
+      "updated_at": "2026-11-01T17:15:14.069904+00:00"
     },
     "doi:10.1101/gr.280558.125": {
       "category": "transfert_explicite",
@@ -544,6 +568,14 @@
       "title": "High-Entropy Metastable Jitter-Based True Random Number Generator (TRNG)",
       "updated_at": "2026-10-30T14:13:50.303549+00:00"
     },
+    "doi:10.1109/ddecs69233.2026.11521000": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Assessing the Vulnerability of Open-Source RISC-V Processors to Transient Execution Attacks",
+      "updated_at": "2026-11-01T17:14:17.358771+00:00"
+    },
     "doi:10.1109/dsd67783.2025.00045": {
       "category": "coeur",
       "decision": "conserver",
@@ -592,6 +624,14 @@
       "title": "AccessShadow: Leveraging Adversarial Samples to Counter Deep Learning-Assisted Cache Timing Attacks",
       "updated_at": "2026-10-30T17:13:53.535322+00:00"
     },
+    "doi:10.1109/icc59461.2026.11587746": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "LiReS IDS: A Lightweight, Real-time, and Secure Intrusion Detection System for RISC-V Edge Devices",
+      "updated_at": "2026-11-01T17:20:18.069974+00:00"
+    },
     "doi:10.1109/iccad66269.2025.11241011": {
       "category": "coeur",
       "decision": "conserver",
@@ -623,6 +663,14 @@
       "status": "imported",
       "title": "Research on Security Technologies for RISC-V SoC Based on Permission Management",
       "updated_at": "2026-10-30T14:14:50.616312+00:00"
+    },
+    "doi:10.1109/ichora69329.2026.11537069": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "The RISC-V TEE Landscape: A Survey of Isolation Architectures, Extended Security Mechanisms and Open Research Challenges",
+      "updated_at": "2026-11-01T17:20:16.635291+00:00"
     },
     "doi:10.1109/icicm66614.2025.11315911": {
       "category": "coeur",
@@ -671,6 +719,14 @@
       "status": "rejected",
       "title": "RISC-V Processor Design: RTL to GDSII Implementation Using EDA Tools",
       "updated_at": "2026-10-30T23:13:33.139356+00:00"
+    },
+    "doi:10.1109/intermagshortpapers68882.2026.11596253": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "A Spintronic True Random Number Generator Using Vortex Nano-Oscillators and Probabilistic SOT-MTJ Programming",
+      "updated_at": "2026-11-01T17:15:14.069927+00:00"
     },
     "doi:10.1109/iolts65288.2025.11117044": {
       "category": "coeur",
@@ -856,6 +912,14 @@
       "title": "Towards ML-KEM & ML-DSA on OpenTitan",
       "updated_at": "2026-10-30T14:14:24.630718+00:00"
     },
+    "doi:10.1109/tc.2026.3690648": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Keystone-Vault: Hardware-Assisted Efficient Intra-Enclave Isolation for RISC-V TEEs",
+      "updated_at": "2026-11-01T17:20:17.444178+00:00"
+    },
     "doi:10.1109/tcad.2025.3572838": {
       "category": "secondaire",
       "decision": "examiner",
@@ -871,6 +935,14 @@
       "status": "imported",
       "title": "LayerTEE: Decoupled Memory Protection for Scalable Multilayer Communication on RISC-V",
       "updated_at": "2026-10-30T20:13:51.793272+00:00"
+    },
+    "doi:10.1109/tcad.2026.3685521": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Lightweight Nested Entropy-Source TRNG Targeting Gb/s-Class Throughput",
+      "updated_at": "2026-11-01T17:15:14.069921+00:00"
     },
     "doi:10.1109/tcsi.2025.3621604": {
       "category": "secondaire",
@@ -1200,6 +1272,14 @@
       "title": "(Dis)Proving Spectre Security with Speculation-Passing Style",
       "updated_at": "2026-11-01T14:15:12.278552+00:00"
     },
+    "doi:10.1145/3803525.3804982": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 55,
+      "status": "rejected",
+      "title": "Formalizing the RISC-V Hypervisor Extension in Sail",
+      "updated_at": "2026-11-01T17:14:16.379077+00:00"
+    },
     "doi:10.1145/3803525.3804986": {
       "category": "coeur",
       "decision": "conserver",
@@ -1439,6 +1519,14 @@
       "status": "imported",
       "title": "Efficient Memory Protection Method for Large-Scale Host-Enclave Data Transfer on Keystone Enclave",
       "updated_at": "2026-10-31T20:13:43.059788+00:00"
+    },
+    "doi:10.17559/tv-20241010002048": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Implementation and Performance Analysis of a Multi-Stage BIOS Boot Process for D1-H RISC-V Systems",
+      "updated_at": "2026-11-01T17:16:58.341764+00:00"
     },
     "doi:10.17586/2220-8054-2025-16-6-785-790": {
       "category": "hors_sujet",
@@ -1736,6 +1824,14 @@
       "title": "Secure and Verifiable Edge-Federated Learning with Homomorphic Encryption and a Trusted Execution Environment for UAV Communication",
       "updated_at": "2026-11-01T05:15:24.293501+00:00"
     },
+    "doi:10.3390/electronics15091959": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "The Hardware Isolation Gap: A Systematic Survey of BitLocker Forensics in the TPM 2.0 Era",
+      "updated_at": "2026-11-01T17:16:24.094234+00:00"
+    },
     "doi:10.3390/engproc2025092023": {
       "category": "secondaire",
       "decision": "examiner",
@@ -1847,6 +1943,14 @@
       "status": "imported",
       "title": "SASVI: Sicherheit auf allen Systemen durch Vertrauensketten und Isolation; Teilvorhaben: Hardware-Sicherheitskomponenten für die RISC-V Architektur, um Sicherheit auf allen Systemschichten zu ermöglichen",
       "updated_at": "2026-11-01T08:15:14.897273+00:00"
+    },
+    "doi:10.34726/hss.2026.139988": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Limitations of Substituting TrustZone with pKVM: An Evaluation of pKVM as a Trusted Execution Environment",
+      "updated_at": "2026-11-01T17:16:58.341779+00:00"
     },
     "doi:10.36227/techrxiv.174494750.06122641/v1": {
       "category": "coeur",
@@ -2088,6 +2192,30 @@
       "title": "Branch Landing: Bloom Filter-Based Source Authorization for Forward-Edge CFI on RISC-V",
       "updated_at": "2026-11-01T14:15:12.278564+00:00"
     },
+    "doi:10.48550/arxiv.2605.00613": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "KingsGuard: Enclave Data Protection Under Real-World TEE Vulnerabilities",
+      "updated_at": "2026-11-01T17:20:18.774359+00:00"
+    },
+    "doi:10.48550/arxiv.2605.13676": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 70,
+      "status": "rejected",
+      "title": "EBCC: Enclave-Backed Confidential Containers via OCI-Compatible Runtime Integration",
+      "updated_at": "2026-11-01T17:20:15.473690+00:00"
+    },
+    "doi:10.48550/arxiv.2605.26196": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "\"You do understand that people don't trust technology?\": Explaining Trusted Execution Environments to Non-Experts",
+      "updated_at": "2026-11-01T17:20:15.473752+00:00"
+    },
     "doi:10.48550/arxiv.2610.12695": {
       "category": "coeur",
       "decision": "conserver",
@@ -2151,6 +2279,14 @@
       "status": "rejected",
       "title": "Helium: Quantifying Microarchitectural Side-Channel Leakage with Probabilistic Guarantees",
       "updated_at": "2026-11-01T14:15:12.278528+00:00"
+    },
+    "doi:10.5281/zenodo.22287556": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Hardware Root of Trust: Trusted Platform Module (TPM) Implementation and Verification",
+      "updated_at": "2026-11-01T17:16:24.940370+00:00"
     },
     "doi:10.5281/zenodo.23399404": {
       "category": "secondaire",
@@ -2263,6 +2399,14 @@
       "status": "rejected",
       "title": "一种基于国密算法的RISC-V 固件安全启动方法及装置",
       "updated_at": "2026-10-31T20:13:32.173402+00:00"
+    },
+    "doi:10.5815/ijem.2026.02.05": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A Novel Quantum-Based Authentication Method for IoT Devices using Quantum Physical Unclonable Functions",
+      "updated_at": "2026-11-01T17:14:50.020336+00:00"
     },
     "doi:10.59256/ijsreat.20260605006": {
       "category": "hors_sujet",
