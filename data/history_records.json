@@ -239,6 +239,16 @@
     ],
     "title": "SideSec: Detecting and Mitigating Microarchitectural Side-Channel Attacks in Cloud VMs via Entropy Monitoring and Dynamic VM Reallocation"
   },
+  "doi:10.1109/lats70329.2026.11480312": {
+    "publication_date": "2026-03-17",
+    "score": 90,
+    "source": "https://doi.org/10.1109/lats70329.2026.11480312",
+    "summary": "Cette étude de cas présente l'intégration et la validation du support des piles d'ombrage de l'extension RISC-V Zicfiss pour l'intégrité du flux de contrôle (CFI) sur le processeur open-source CVA6, permettant une protection des sauts arrière dans les systèmes avancés.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "Case Study: Integrating RISC-V Zicfiss Shadow Stack Support for Control-Flow Integrity on the CVA6 Processor"
+  },
   "doi:10.1109/lca.2026.3697544": {
     "publication_date": "2026-01-01",
     "score": 85,
@@ -708,6 +718,16 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Towards Remote Attestation of Microarchitectural Attacks: The Case of Rowhammer"
+  },
+  "doi:10.48550/arxiv.2603.29749": {
+    "publication_date": "2026-03-31",
+    "score": 95,
+    "source": "http://arxiv.org/abs/2603.29749",
+    "summary": "Cet article présente HPCCFA, un mécanisme permettant d'étendre les environnements d'exécution de confiance (TEEs) avec l'attestation de flux de contrôle (CFA) en exploitant les compteurs de performance matériels (HPCs) sur des processeurs standard. Les auteurs démontrent la faisabilité de cette approche via un prototype sur Keystone sous RISC-V, tout en mettant en évidence un compromis entre la fiabilité de détection et la surcharge de performance.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "HPCCFA: Leveraging Hardware Performance Counters for Control Flow Attestation"
   },
   "doi:10.5220/0013518800003979": {
     "publication_date": "2025-01-01",

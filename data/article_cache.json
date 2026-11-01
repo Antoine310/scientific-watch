@@ -240,6 +240,14 @@
       "title": "Implicit end-point attestation for trusted channel establishment in the keystone TEE",
       "updated_at": "2026-10-31T07:11:47.433215+00:00"
     },
+    "doi:10.1016/j.cose.2026.104885": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Modeling of physical unclonable functions (PUF): A systematic literature review",
+      "updated_at": "2026-11-01T11:14:20.900387+00:00"
+    },
     "doi:10.1016/j.iot.2026.101885": {
       "category": "coeur",
       "decision": "conserver",
@@ -247,6 +255,14 @@
       "status": "imported",
       "title": "μTEE: Certification-ready RISC-V platform for secure IIoT lifecycle management",
       "updated_at": "2026-11-01T05:14:24.538113+00:00"
+    },
+    "doi:10.1016/j.memori.2026.100138": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "True random number generators in modern cryptography: A review",
+      "updated_at": "2026-11-01T11:14:31.256851+00:00"
     },
     "doi:10.1016/j.resourpol.2026.106040": {
       "category": "hors_sujet",
@@ -728,6 +744,14 @@
       "title": "A Unified Approach to Strong PUF and TRNG Using Ring Generator for Cryptography",
       "updated_at": "2026-10-30T23:13:24.479813+00:00"
     },
+    "doi:10.1109/jiot.2026.3675734": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 20,
+      "status": "rejected",
+      "title": "HBQS: Lightweight Post-Quantum Secure Authentication for Satellite Networks Leveraging Hardware TRNG and PUFs",
+      "updated_at": "2026-11-01T11:14:20.900411+00:00"
+    },
     "doi:10.1109/jxcdc.2026.3671608": {
       "category": "secondaire",
       "decision": "examiner",
@@ -735,6 +759,14 @@
       "status": "rejected",
       "title": "Design and Analysis of a Three-Stream STT-MTJ TRNG With XOR and Majority Voter Logic as Postprocessing Architectures",
       "updated_at": "2026-11-01T05:13:25.995958+00:00"
+    },
+    "doi:10.1109/lats70329.2026.11480312": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Case Study: Integrating RISC-V Zicfiss Shadow Stack Support for Control-Flow Integrity on the CVA6 Processor",
+      "updated_at": "2026-11-01T11:14:11.187961+00:00"
     },
     "doi:10.1109/lca.2026.3697544": {
       "category": "coeur",
@@ -1112,6 +1144,14 @@
       "title": "Deep Learning on RISC-V Platforms at the Edge: A Perspective on the Hardware and Software Support",
       "updated_at": "2026-10-31T14:13:40.481134+00:00"
     },
+    "doi:10.1145/3779212.3790144": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Compass: Navigating the Design Space of Taint Schemes for RTL Security Verification",
+      "updated_at": "2026-11-01T11:13:40.041656+00:00"
+    },
     "doi:10.1145/3779212.3790242": {
       "category": "coeur",
       "decision": "conserver",
@@ -1399,6 +1439,14 @@
       "status": "imported",
       "title": "Utilization of Secure Bootloaders in Embedded Systems for Ensuring Device Integrity and Preventing Firmware Tampering Through Cryptographic Validation Mechanisms",
       "updated_at": "2026-10-31T14:14:32.028394+00:00"
+    },
+    "doi:10.21203/rs.3.rs-8729181/v1": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 25,
+      "status": "rejected",
+      "title": "Quantum-resilient optical links using micro-LEDs generated quantum random numbers and physical unclonable functions",
+      "updated_at": "2026-11-01T11:14:20.900405+00:00"
     },
     "doi:10.2139/ssrn.6556258": {
       "category": "secondaire",
@@ -1920,6 +1968,22 @@
       "title": "External entropy supply for IoT devices employing a RISC-V Trusted Execution Environment",
       "updated_at": "2026-11-01T08:14:35.554173+00:00"
     },
+    "doi:10.48550/arxiv.2603.10726": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "CacheSolidarity: Preventing Prefix Caching Side Channels in Multi-Tenant LLM Serving Systems",
+      "updated_at": "2026-11-01T11:13:50.067484+00:00"
+    },
+    "doi:10.48550/arxiv.2603.13525": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 25,
+      "status": "rejected",
+      "title": "Correlation Bounds and Markov Analysis for Ring-Oscillator TRNGs: A Joint Validation Framework",
+      "updated_at": "2026-11-01T11:14:31.256868+00:00"
+    },
     "doi:10.48550/arxiv.2603.17757": {
       "category": "coeur",
       "decision": "conserver",
@@ -1936,6 +2000,14 @@
       "title": "Towards Remote Attestation of Microarchitectural Attacks: The Case of Rowhammer",
       "updated_at": "2026-11-01T08:14:36.304573+00:00"
     },
+    "doi:10.48550/arxiv.2603.29749": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "HPCCFA: Leveraging Hardware Performance Counters for Control Flow Attestation",
+      "updated_at": "2026-11-01T11:13:31.741257+00:00"
+    },
     "doi:10.48550/arxiv.2610.12695": {
       "category": "coeur",
       "decision": "conserver",
@@ -1943,6 +2015,14 @@
       "status": "imported",
       "title": "Enabling Extended SGX Enclaves inside Confidential Virtual Machines",
       "updated_at": "2026-10-31T07:11:48.968687+00:00"
+    },
+    "doi:10.5120/ijca2026926629": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 25,
+      "status": "rejected",
+      "title": "A Unified NIST SP 800-90B Validation Framework for CMOS True Random Number Generators and Quantum Random Number Generators",
+      "updated_at": "2026-11-01T11:14:31.256875+00:00"
     },
     "doi:10.51584/ijrias.2026.11010095": {
       "category": "secondaire",
