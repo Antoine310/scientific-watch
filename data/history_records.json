@@ -159,6 +159,16 @@
     ],
     "title": "CacheGuardian: A Timing Side-Channel Resilient LLC Design"
   },
+  "doi:10.1109/icdcs68853.2026.11510880": {
+    "publication_date": "2026-03-27",
+    "score": 90,
+    "source": "https://doi.org/10.1109/icdcs68853.2026.11510880",
+    "summary": "Cet article présente PQBoot-C, un chargeur de démarrage sécurisé post-quantique basé sur des réseaux euclidiens (lattice-based) pour les processeurs RISC-V 64 bits. Il intègre la vérification de signature Dilithium2 (ML-DSA) standardisée par le NIST, un démarrage mesuré par SHA3-256 et une isolation matérielle par PMP. Évalué via QEMU, il démontre un coût d'exécution mesuré à 1,43 million de cycles d'horloge pour un encombrement inférieur à 100 ko.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Design and Implementation of a Lattice-Based Post-Quantum Secure Bootloader for RISC-V with QEMU-Based Validation"
+  },
   "doi:10.1109/icet64964.2025.11103069": {
     "publication_date": "2025-05-17",
     "score": 85,
@@ -208,6 +218,16 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Side-Channel Attack Detection Using gem5 and Machine Learning: A Case Study on Fault-Based Attacks in RISC-V"
+  },
+  "doi:10.1109/isdfs69419.2026.11459082": {
+    "publication_date": "2026-03-19",
+    "score": 90,
+    "source": "https://doi.org/10.1109/isdfs69419.2026.11459082",
+    "summary": "Ce papier présente un banc d'essai de sécurité basé sur FPGA pour analyser les vulnérabilités de canaux auxiliaires liés à la prédiction de branchement dans des processeurs RISC-V out-of-order open-source, en utilisant spécifiquement le cœur BOOM. L'étude évalue trois classes d'attaques temporelles et démontre la récupération parfaite de secrets sur des prédicteurs simplifiés à un niveau, tout en proposant un cadre open-source pour la recherche en sécurité microarchitecturale.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Microarchitectural Espionage: FPGA-Based Security Analysis of Branch Prediction in RISC-V Out-of-Order Cores"
   },
   "doi:10.1109/ised67359.2025.11404976": {
     "publication_date": "2025-12-17",
@@ -419,6 +439,16 @@
     ],
     "title": "Comprehensive Kernel Safety in the Spectre Era: Mitigations and Performance Evaluation"
   },
+  "doi:10.1145/3779212.3790242": {
+    "publication_date": "2026-03-10",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3779212.3790242",
+    "summary": "Cet article présente Trust-V, un mécanisme de stockage persistant sécurisé pour les environnements d'exécution de confiance (TEE) sur architecture RISC-V, garantissant l'intégrité des données scellées face à un système d'exploitation non de confiance, sans nécessiter de modifications matérielles.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Trust-V: Toward Secure and Reliable Storage for Trusted Execution Environments"
+  },
   "doi:10.1145/3793638.3793640": {
     "publication_date": "2026-02-11",
     "score": 75,
@@ -519,6 +549,16 @@
     ],
     "title": "Υλοποιήση και αξιολόγηση της επέκτασης SVNAPOT στην μικροαρχιτεκτονική CVA6"
   },
+  "doi:10.31838/esa/03.01.08": {
+    "publication_date": "2026-03-18",
+    "score": 90,
+    "source": "https://ecejournals.in/index.php/ESA/article/view/394",
+    "summary": "Cet article présente une nouvelle architecture de sécurité embarquée basée sur l'ISA open-source RISC-V pour les systèmes de contrôle industriel (ICS). Elle intègre une racine de confiance matérielle (RoT) légère, un chargeur de démarrage sécurisé, des unités de protection mémoire (MPU) et un environnement d'exécution de confiance (TEE) minimal. L'évaluation montre une amélioration de la sécurité de 92,4 % avec un surcoût d'exécution limité entre 3,9 % et 4,7 %.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "A RISC-V Based Embedded Security Architecture for Trusted Execution in Industrial Control Systems"
+  },
   "doi:10.3390/e27020202": {
     "publication_date": "2025-02-14",
     "score": 85,
@@ -538,6 +578,16 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "A Survey of RISC-V Secure Enclaves and Trusted Execution Environments"
+  },
+  "doi:10.34657/32529": {
+    "publication_date": "2026-03-12",
+    "score": 75,
+    "source": "https://oa.tib.eu/renate/handle/123456789/33461",
+    "summary": "Le projet SASVI (Sicherheit auf allen Systemen durch Vertrauensketten und Isolation) vise à développer des composants de sécurité matériels pour l'architecture RISC-V afin d'assurer la sécurité sur toutes les couches système.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "SASVI: Sicherheit auf allen Systemen durch Vertrauensketten und Isolation; Teilvorhaben: Hardware-Sicherheitskomponenten für die RISC-V Architektur, um Sicherheit auf allen Systemschichten zu ermöglichen"
   },
   "doi:10.36227/techrxiv.174494750.06122641/v1": {
     "publication_date": "2025-04-17",
@@ -628,6 +678,36 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Confidential Computing for Cloud Security: Exploring Hardware based Encryption Using Trusted Execution Environments"
+  },
+  "doi:10.48550/arxiv.2602.04991": {
+    "publication_date": "2026-02-04",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2602.04991",
+    "summary": "Ce travail présente la première conception, intégration et évaluation des extensions standard RISC-V pour l'intégrité du flux de contrôle (CFI), à savoir Zicfiss et Zicfilp. Les auteurs introduisent deux unités matérielles indépendantes et configurables pour la protection du flux de contrôle en avant et en arrière, intégrées dans le cœur open-source CVA6. L'évaluation montre un surcoût de surface de 1,0 % (technologie 22 nm FDX) et un surcoût de performance allant jusqu'à 15,6 % (benchmark MiBench).",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "CVA6-CFI: A First Glance at RISC-V Control-Flow Integrity Extensions"
+  },
+  "doi:10.48550/arxiv.2603.17757": {
+    "publication_date": "2026-03-18",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2603.17757",
+    "summary": "Cet article traite de la sécurisation du cycle de vie logiciel dans les environnements d'exécution de confiance (TEEs) basés sur RISC-V pour l'IoT et l'automobile. Les auteurs introduisent un ensemble d'outils (« toolkit ») s'intégrant au Security Monitor pour permettre la mise à jour sécurisée des enclaves, la migration sécurisée, la continuité d'état et le temps de confiance, avec une compatibilité démontrée sur des TEEs comme Keystone et CURE. L'évaluation montre un surcoût de performance négligeable (moins de 1,5% pour la continuité d'état et un temps d'indisponibilité de 0,8%).",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "On Securing the Software Development Lifecycle in IoT RISC-V Trusted Execution Environments"
+  },
+  "doi:10.48550/arxiv.2603.24172": {
+    "publication_date": "2026-03-25",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2603.24172",
+    "summary": "Cette publication propose de passer de la prévention à la détection des vulnérabilités microarchitecturales en introduisant une attestation à distance consciente du contexte matériel. Les auteurs présentent HammerWatch, un protocole d'attestation distant ciblant l'attaque Rowhammer. Il utilise les exceptions MCE (Machine-Check Exceptions) de la mémoire ECC et les compteurs d'activation PRAC (Per-Row Activation Counting) pour identifier les comportements de perturbation matérielle. L'intégrité des mesures est garantie face à un adversaire au niveau du noyau grâce à des chaînes de hachage ancrées dans un module TPM. L'évaluation sur 20000 motifs d'accès montre que le système distingue efficacement les comportements malveillants des opérations bénignes.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Towards Remote Attestation of Microarchitectural Attacks: The Case of Rowhammer"
   },
   "doi:10.5220/0013518800003979": {
     "publication_date": "2025-01-01",

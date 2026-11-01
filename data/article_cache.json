@@ -184,6 +184,14 @@
       "title": "Identifying Ransomware Functions Through Microarchitectural Side-Channel Analysis",
       "updated_at": "2026-10-30T09:43:09.304236+00:00"
     },
+    "doi:10.1007/s10207-026-01233-1": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Bridging remote attestation and secure software updates in embedded systems",
+      "updated_at": "2026-11-01T08:14:44.687608+00:00"
+    },
     "doi:10.1007/s10836-025-06169-3": {
       "category": "secondaire",
       "decision": "examiner",
@@ -576,6 +584,14 @@
       "title": "Towards Securing Smart Homes: A Practical SRAM PUF-Based Two-Factor Authentication Framework",
       "updated_at": "2026-10-31T02:13:31.872325+00:00"
     },
+    "doi:10.1109/icdcs68853.2026.11510880": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Design and Implementation of a Lattice-Based Post-Quantum Secure Bootloader for RISC-V with QEMU-Based Validation",
+      "updated_at": "2026-11-01T08:14:37.416656+00:00"
+    },
     "doi:10.1109/icet64964.2025.11103069": {
       "category": "coeur",
       "decision": "conserver",
@@ -663,6 +679,14 @@
       "status": "rejected",
       "title": "AuRA: Remote Attestation over EDHOC for Constrained Internet-of-Things Use Cases",
       "updated_at": "2026-10-30T23:14:12.932872+00:00"
+    },
+    "doi:10.1109/isdfs69419.2026.11459082": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Microarchitectural Espionage: FPGA-Based Security Analysis of Branch Prediction in RISC-V Out-of-Order Cores",
+      "updated_at": "2026-11-01T08:15:45.773606+00:00"
     },
     "doi:10.1109/ised67359.2025.11404976": {
       "category": "coeur",
@@ -1088,6 +1112,14 @@
       "title": "Deep Learning on RISC-V Platforms at the Edge: A Perspective on the Hardware and Software Support",
       "updated_at": "2026-10-31T14:13:40.481134+00:00"
     },
+    "doi:10.1145/3779212.3790242": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Trust-V: Toward Secure and Reliable Storage for Trusted Execution Environments",
+      "updated_at": "2026-11-01T08:15:46.308554+00:00"
+    },
     "doi:10.1145/3793638.3793640": {
       "category": "coeur",
       "decision": "conserver",
@@ -1095,6 +1127,14 @@
       "status": "imported",
       "title": "RV-Sec5: Enhancing RISC-V Security Evaluation via Targeted ISA-Level Instrumentation using gem5",
       "updated_at": "2026-11-01T05:14:25.629721+00:00"
+    },
+    "doi:10.1145/3798101": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Multi-channel TRNG based on Scalable Cascaded Full Feedback Ring Oscillator",
+      "updated_at": "2026-11-01T08:13:55.309123+00:00"
     },
     "doi:10.1145/3839338.3857251": {
       "category": "transfert_explicite",
@@ -1464,6 +1504,14 @@
       "title": "HARDWARE NODE IDENTIFICATION TOOLS IN DISTRIBUTED COMPUTER NETWORKS BASED ON PHYSICAL UNCLONABLE FUNCTIONS",
       "updated_at": "2026-11-01T02:15:02.252621+00:00"
     },
+    "doi:10.31838/esa/03.01.08": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "A RISC-V Based Embedded Security Architecture for Trusted Execution in Industrial Control Systems",
+      "updated_at": "2026-11-01T08:14:36.823418+00:00"
+    },
     "doi:10.31838/jcvs/07.02.08": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -1656,6 +1704,14 @@
       "title": "EMBRAVE: EMBedded Remote Attestation and Verification framEwork",
       "updated_at": "2026-10-31T08:13:20.084690+00:00"
     },
+    "doi:10.3390/s26041088": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Physical Unclonable Function Based Privacy-Preserving Authentication Scheme for Autonomous Vehicles Using Hardware Acceleration",
+      "updated_at": "2026-11-01T08:13:44.413541+00:00"
+    },
     "doi:10.3390/s26196247": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -1671,6 +1727,14 @@
       "status": "rejected",
       "title": "SECURE ENCLAVE–DRIVEN AI INFRASTRUCTURE: PROTECTING SENSITIVE MODELS AND DATA IN DISTRIBUTED SYSTEMS",
       "updated_at": "2026-10-31T23:15:52.001777+00:00"
+    },
+    "doi:10.34657/32529": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "SASVI: Sicherheit auf allen Systemen durch Vertrauensketten und Isolation; Teilvorhaben: Hardware-Sicherheitskomponenten für die RISC-V Architektur, um Sicherheit auf allen Systemschichten zu ermöglichen",
+      "updated_at": "2026-11-01T08:15:14.897273+00:00"
     },
     "doi:10.36227/techrxiv.174494750.06122641/v1": {
       "category": "coeur",
@@ -1832,6 +1896,14 @@
       "title": "Abstraction of Trusted Execution Environments as the Missing Layer for Broad Confidential Computing Adoption: A Systematization of Knowledge",
       "updated_at": "2026-10-31T20:13:21.972158+00:00"
     },
+    "doi:10.48550/arxiv.2602.04991": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "CVA6-CFI: A First Glance at RISC-V Control-Flow Integrity Extensions",
+      "updated_at": "2026-11-01T08:13:36.167911+00:00"
+    },
     "doi:10.48550/arxiv.2602.13148": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -1839,6 +1911,30 @@
       "status": "rejected",
       "title": "TrustMee: Self-Verifying Remote Attestation Evidence",
       "updated_at": "2026-11-01T05:14:43.300132+00:00"
+    },
+    "doi:10.48550/arxiv.2603.09311": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 70,
+      "status": "rejected",
+      "title": "External entropy supply for IoT devices employing a RISC-V Trusted Execution Environment",
+      "updated_at": "2026-11-01T08:14:35.554173+00:00"
+    },
+    "doi:10.48550/arxiv.2603.17757": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "On Securing the Software Development Lifecycle in IoT RISC-V Trusted Execution Environments",
+      "updated_at": "2026-11-01T08:14:55.935464+00:00"
+    },
+    "doi:10.48550/arxiv.2603.24172": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Towards Remote Attestation of Microarchitectural Attacks: The Case of Rowhammer",
+      "updated_at": "2026-11-01T08:14:36.304573+00:00"
     },
     "doi:10.48550/arxiv.2610.12695": {
       "category": "coeur",
@@ -1879,6 +1975,14 @@
       "status": "imported",
       "title": "Detection of Meltdown and Spectre A paper Review",
       "updated_at": "2026-10-31T17:14:23.443665+00:00"
+    },
+    "doi:10.5281/zenodo.19340476": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "YANN s: An Identity-Driven Cybersecurity Architecture Based on Hardware Root of Trust and Adaptive AI",
+      "updated_at": "2026-11-01T08:14:07.191246+00:00"
     },
     "doi:10.5281/zenodo.23399404": {
       "category": "secondaire",
@@ -2048,6 +2152,14 @@
       "title": "True Random Number Generator Design with A Fractional Order Sprott B Chaotic System",
       "updated_at": "2026-10-31T02:13:41.842525+00:00"
     },
+    "doi:10.70315/uloap.ulirs.2026.0301014": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 50,
+      "status": "rejected",
+      "title": "The Use of Hardware Security Mechanisms (Secure Enclave) for Secure Storage of Cryptographic Keys on Mobile Devices",
+      "updated_at": "2026-11-01T08:14:35.554158+00:00"
+    },
     "doi:10.70675/5c959425z6fc9z4e8ezaea5zd980f0740a16": {
       "category": "coeur",
       "decision": "conserver",
@@ -2167,6 +2279,14 @@
       "status": "imported",
       "title": "Hardware Root of Trust en Sistemes RISC-V : Analysis and Evaluation of Open Source Approaches",
       "updated_at": "2026-10-31T23:14:43.126441+00:00"
+    },
+    "title:heterogeneousriscvbasedsystemonchipsforembeddedcomputingplatforms": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Heterogeneous RISC-V based System-on-Chips for embedded computing platforms",
+      "updated_at": "2026-11-01T08:14:35.554131+00:00"
     },
     "title:integratingopentitanasasecuritycontrollerforcryptographictasksinriscvsocs": {
       "category": "coeur",
