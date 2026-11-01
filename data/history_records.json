@@ -19,6 +19,16 @@
     ],
     "title": "Extended version: enabling lattice-based post-quantum cryptography on the opentitan platform"
   },
+  "doi:10.1016/j.iot.2026.101885": {
+    "publication_date": "2026-02-03",
+    "score": 90,
+    "source": "https://doi.org/10.1016/j.iot.2026.101885",
+    "summary": "Cet article présente μTEE, un environnement d'exécution de confiance (TEE) léger et prêt pour la certification, conçu pour les plateformes RISC-V destinées à l'IoT industriel (IIoT). La solution combine isolation matérielle, racine de confiance (RoT) et modularité basée sur des enclaves, tout en intégrant une analyse de conformité à la norme IEC 62443 (Security Level 3) et une validation expérimentale sur FPGA.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "μTEE: Certification-ready RISC-V platform for secure IIoT lifecycle management"
+  },
   "doi:10.1109/access.2025.3596829": {
     "publication_date": "2025-01-01",
     "score": 95,
@@ -289,6 +299,16 @@
     ],
     "title": "Coffer: An Efficient and Scalable TEE on RISC-V"
   },
+  "doi:10.1109/vlsid68508.2026.00033": {
+    "publication_date": "2026-01-03",
+    "score": 85,
+    "source": "https://doi.org/10.1109/vlsid68508.2026.00033",
+    "summary": "Cet article présente la conception micro-architecturale d'un générateur de nombres aléatoires matériel (RNG) hautement performant, compatible AXI, intégré au sein d'un Trusted Platform Module (TPM) basé sur l'architecture ouverte RISC-V et nommé BHARAT-TPM. Validé selon la norme NIST SP800-90B et mis en œuvre en Verilog RTL sur FPGA Xilinx, le système atteint une fréquence de 370 MHz et prend en charge des largeurs de sortie de 128, 256 et 512 bits.",
+    "themes": [
+      "T11 — PUF & TRNG"
+    ],
+    "title": "BHARAT-TPM: Micro-Architecture Design of Scalable Hardware Random Number Generator for a RISC-V Trusted Platform Module"
+  },
   "doi:10.1145/3658617.3697763": {
     "publication_date": "2025-01-20",
     "score": 85,
@@ -399,6 +419,16 @@
     ],
     "title": "Comprehensive Kernel Safety in the Spectre Era: Mitigations and Performance Evaluation"
   },
+  "doi:10.1145/3793638.3793640": {
+    "publication_date": "2026-02-11",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3793638.3793640",
+    "summary": "Cet article présente RV-Sec5, un cadre systématique d'évaluation de la sécurité au niveau du jeu d'instructions (ISA) utilisant le simulateur gem5. L'approche relie les invariants de sécurité de haut niveau (isolement des privilèges, protection mémoire) à des points d'instrumentation automatisés et précis au niveau du cycle dans le décodeur ISA. L'efficacité du cadre est démontrée via un cas d'étude sur des modifications non autorisées de registres CSR, détectant les tentatives d'escalade de privilèges et surveillant les anomalies microarchitecturales telles que les purges de TLB et les changements d'état du cache.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "RV-Sec5: Enhancing RISC-V Security Evaluation via Targeted ISA-Level Instrumentation using gem5"
+  },
   "doi:10.12732/ijam.v38i6s.1640": {
     "publication_date": "2025-10-15",
     "score": 85,
@@ -469,6 +499,16 @@
     ],
     "title": "Utilization of Secure Bootloaders in Embedded Systems for Ensuring Device Integrity and Preventing Firmware Tampering Through Cryptographic Validation Mechanisms"
   },
+  "doi:10.26233/heallink.tuc.105404": {
+    "publication_date": "2026-02-27",
+    "score": 85,
+    "source": "https://doi.org/10.26233/heallink.tuc.105404",
+    "summary": "Cette recherche présente une architecture dynamiquement reconfigurable pour la mise en œuvre de primitives d'Environnement d'Exécution de Confiance (TEE) sur des plateformes SoC RISC-V, en utilisant la technologie FPGA. Le système intègre un moniteur d'intégrité basé sur un cœur cryptographique SHA256 et un contrôleur DMA pour vérifier le code des applications en calculant le hachage du segment .text.",
+    "themes": [
+      "T05 — Enclave Performance & Crypto"
+    ],
+    "title": "Dynamically reconfigurable TEE primitives in RISC-V SoC"
+  },
   "doi:10.26240/heal.ntua.28646": {
     "publication_date": "2025-01-24",
     "score": 90,
@@ -518,6 +558,16 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Dorami: Privilege Separating Security Monitor on RISC-V TEEs"
+  },
+  "doi:10.46586/uasc.2026.008": {
+    "publication_date": "2026-02-03",
+    "score": 95,
+    "source": "https://doi.org/10.46586/uasc.2026.008",
+    "summary": "Cet article étudie l'impact des attaques par alias mémoire sur l'écosystème RISC-V, en montrant qu'elles permettent de contourner l'isolation PMP (Physical Memory Protection), de compromettre le TEE Keystone (divulgation de mémoire d'enclave) et d'extraire la clé de mesure de la plateforme pour saper l'attestation à distance. Les auteurs proposent également une atténuation logicielle au démarrage.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Physical Memory Please: Practical Memory-Aliasing Attacks on RISC-V PMP"
   },
   "doi:10.48550/arxiv.2501.11207": {
     "publication_date": "2025-01-20",
@@ -598,6 +648,16 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Detection of Meltdown and Spectre A paper Review"
+  },
+  "doi:10.5463/thesis.1490": {
+    "publication_date": "2026-02-27",
+    "score": 90,
+    "source": "https://doi.org/10.5463/thesis.1490",
+    "summary": "Cette thèse explore les vulnérabilités d'exécution spéculative et transitoire sur les processeurs modernes. L'auteur analyse comment ces failles exploitent l'écart entre les garanties architecturales et la réalité microarchitecturale. Couvrant quatre axes de recherche (GhostRace, Rage Against the Machine Clear, CrossTalk, BugsBunny), le travail propose des méthodologies d'analyse et de détection allant du niveau logiciel jusqu'à la conception matérielle pré-silicium.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Uncovering Transient Execution Vulnerabilities: Catalysts For Exploitation On Modern Processors"
   },
   "doi:10.70675/5c959425z6fc9z4e8ezaea5zd980f0740a16": {
     "publication_date": "2026-01-12",

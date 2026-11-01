@@ -1,5 +1,13 @@
 {
   "articles": {
+    "doi:10.1002/adfm.202522597": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "True Random Number Generator for Robust Data Security via Intrinsic Stochasticity in a 2D hBN Threshold Switching Memristor",
+      "updated_at": "2026-11-01T05:13:25.995963+00:00"
+    },
     "doi:10.1002/adfm.79365": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -23,6 +31,14 @@
       "status": "rejected",
       "title": "Biosecurity Primitive: Polymerase X‐based Genetic Physical Unclonable Functions",
       "updated_at": "2026-10-30T20:15:50.777885+00:00"
+    },
+    "doi:10.1002/aelm.202500635": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "RRAM Variability Harvesting for CIM‐Integrated TRNG",
+      "updated_at": "2026-11-01T05:13:25.995919+00:00"
     },
     "doi:10.1002/aelm.70624": {
       "category": "secondaire",
@@ -216,6 +232,14 @@
       "title": "Implicit end-point attestation for trusted channel establishment in the keystone TEE",
       "updated_at": "2026-10-31T07:11:47.433215+00:00"
     },
+    "doi:10.1016/j.iot.2026.101885": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "μTEE: Certification-ready RISC-V platform for secure IIoT lifecycle management",
+      "updated_at": "2026-11-01T05:14:24.538113+00:00"
+    },
     "doi:10.1016/j.resourpol.2026.106040": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -239,6 +263,14 @@
       "status": "imported",
       "title": "IPFS-SE: A multi-enclave runtime architecture for block-granular data-in-use protection in IPFS on RISC-V Keystone",
       "updated_at": "2026-10-31T07:11:47.732879+00:00"
+    },
+    "doi:10.1016/j.vlsi.2025.102640": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "RO-like ring-based TRNG with adaptive mode switching for enhanced entropy Harvesting",
+      "updated_at": "2026-11-01T05:13:25.995952+00:00"
     },
     "doi:10.1038/s41467-024-55380-x": {
       "category": "secondaire",
@@ -391,6 +423,14 @@
       "status": "imported",
       "title": "An Overview of Critical Architectural and Systemic Considerations for Modern RISC-V Development: From Fundamentals to the Frontier",
       "updated_at": "2026-11-01T02:13:51.203994+00:00"
+    },
+    "doi:10.1109/access.2026.3708896": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "A Compact and High-Speed TRNG for FPGA Using Grouped Multi-Node Fast Carry Chains",
+      "updated_at": "2026-11-01T05:13:25.995967+00:00"
     },
     "doi:10.1109/acsac67867.2025.00049": {
       "category": "coeur",
@@ -656,6 +696,14 @@
       "title": "A Unified Approach to Strong PUF and TRNG Using Ring Generator for Cryptography",
       "updated_at": "2026-10-30T23:13:24.479813+00:00"
     },
+    "doi:10.1109/jxcdc.2026.3671608": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Design and Analysis of a Three-Stream STT-MTJ TRNG With XOR and Majority Voter Logic as Postprocessing Architectures",
+      "updated_at": "2026-11-01T05:13:25.995958+00:00"
+    },
     "doi:10.1109/lca.2026.3697544": {
       "category": "coeur",
       "decision": "conserver",
@@ -848,6 +896,14 @@
       "title": "Exploiting the Pico Cell as a PUF and TRNG Reconfigurable Entropy Source",
       "updated_at": "2026-11-01T02:15:02.252663+00:00"
     },
+    "doi:10.1109/vlsid68508.2026.00033": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "BHARAT-TPM: Micro-Architecture Design of Scalable Hardware Random Number Generator for a RISC-V Trusted Platform Module",
+      "updated_at": "2026-11-01T05:13:34.942663+00:00"
+    },
     "doi:10.1109/vlsitsa64674.2025.11046852": {
       "category": "secondaire",
       "decision": "examiner",
@@ -1024,6 +1080,14 @@
       "title": "Deep Learning on RISC-V Platforms at the Edge: A Perspective on the Hardware and Software Support",
       "updated_at": "2026-10-31T14:13:40.481134+00:00"
     },
+    "doi:10.1145/3793638.3793640": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "RV-Sec5: Enhancing RISC-V Security Evaluation via Targeted ISA-Level Instrumentation using gem5",
+      "updated_at": "2026-11-01T05:14:25.629721+00:00"
+    },
     "doi:10.1145/3839338.3857251": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -1064,6 +1128,14 @@
       "title": "Abstract C062: Enclave residence and social connectedness among Chinese immigrants in Philadelphia",
       "updated_at": "2026-10-31T07:10:38.187571+00:00"
     },
+    "doi:10.11591/ijeecs.v41.i2.pp720-730": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Enhancing industrial cybersecurity via IoT device-trusted remote attestation framework with zero trust architecture in brewery operations",
+      "updated_at": "2026-11-01T05:14:33.319499+00:00"
+    },
     "doi:10.11606/d.18.2025.tde-26032025-083917": {
       "category": "secondaire",
       "decision": "examiner",
@@ -1103,6 +1175,14 @@
       "status": "rejected",
       "title": "Enclave Domination Parameters of Mycielski Graphs",
       "updated_at": "2026-10-31T07:10:38.187532+00:00"
+    },
+    "doi:10.14209/sbrt.2026.1571299519": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Thermal Stress Effects on Physical Entropy in Quantum and True Random Number Generators",
+      "updated_at": "2026-11-01T05:13:25.995972+00:00"
     },
     "doi:10.14429/dsj.20751": {
       "category": "secondaire",
@@ -1199,6 +1279,14 @@
       "status": "rejected",
       "title": "Proposal of an Identity Verification System Using Trusted Execution Environment in the Japan's Digital Authentication App",
       "updated_at": "2026-10-31T23:15:52.001795+00:00"
+    },
+    "doi:10.1587/elex.23.20260202": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Low-resource TRNG with variable entropy sources based on TDC",
+      "updated_at": "2026-11-01T05:13:25.995976+00:00"
     },
     "doi:10.1587/transinf.2025edp7101": {
       "category": "coeur",
@@ -1336,6 +1424,14 @@
       "title": "The True Random Number Generator design using a high-noise oscillator",
       "updated_at": "2026-10-31T14:14:01.635384+00:00"
     },
+    "doi:10.26233/heallink.tuc.105404": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Dynamically reconfigurable TEE primitives in RISC-V SoC",
+      "updated_at": "2026-11-01T05:15:04.431462+00:00"
+    },
     "doi:10.26240/heal.ntua.28646": {
       "category": "coeur",
       "decision": "conserver",
@@ -1424,6 +1520,14 @@
       "title": "Evaluation of TRNG Bit Distribution via Stable Entropy Source Synchronization on FPGA",
       "updated_at": "2026-10-31T23:13:52.268234+00:00"
     },
+    "doi:10.3390/e28030254": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Spec-LAMP: Robust Spectre Attack Detection Under Web-Based LLM Workload via L1D Miss Pending Event",
+      "updated_at": "2026-11-01T05:15:24.293481+00:00"
+    },
     "doi:10.3390/electronics14132591": {
       "category": "secondaire",
       "decision": "examiner",
@@ -1447,6 +1551,14 @@
       "status": "rejected",
       "title": "Simple True Random Number Generator Using Capacitive Oscillators for FPGA Implementation",
       "updated_at": "2026-10-31T14:14:01.635375+00:00"
+    },
+    "doi:10.3390/electronics15051029": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 55,
+      "status": "rejected",
+      "title": "Secure and Verifiable Edge-Federated Learning with Homomorphic Encryption and a Trusted Execution Environment for UAV Communication",
+      "updated_at": "2026-11-01T05:15:24.293501+00:00"
     },
     "doi:10.3390/engproc2025092023": {
       "category": "secondaire",
@@ -1600,6 +1712,14 @@
       "title": "Entropy extractor based high-throughput post-processings for True Random Number Generators",
       "updated_at": "2026-10-31T11:13:40.427892+00:00"
     },
+    "doi:10.46586/uasc.2026.008": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "Physical Memory Please: Practical Memory-Aliasing Attacks on RISC-V PMP",
+      "updated_at": "2026-11-01T05:14:25.083971+00:00"
+    },
     "doi:10.48550/arxiv.2501.11207": {
       "category": "coeur",
       "decision": "conserver",
@@ -1696,6 +1816,14 @@
       "title": "Abstraction of Trusted Execution Environments as the Missing Layer for Broad Confidential Computing Adoption: A Systematization of Knowledge",
       "updated_at": "2026-10-31T20:13:21.972158+00:00"
     },
+    "doi:10.48550/arxiv.2602.13148": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "TrustMee: Self-Verifying Remote Attestation Evidence",
+      "updated_at": "2026-11-01T05:14:43.300132+00:00"
+    },
     "doi:10.48550/arxiv.2610.12695": {
       "category": "coeur",
       "decision": "conserver",
@@ -1703,6 +1831,14 @@
       "status": "imported",
       "title": "Enabling Extended SGX Enclaves inside Confidential Virtual Machines",
       "updated_at": "2026-10-31T07:11:48.968687+00:00"
+    },
+    "doi:10.51584/ijrias.2026.11010095": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Quantum TRNG for Secure Data Transmission",
+      "updated_at": "2026-11-01T05:13:34.309983+00:00"
     },
     "doi:10.5220/0013518800003979": {
       "category": "coeur",
@@ -1760,6 +1896,14 @@
       "title": "Remote attestation in an isolated server setting through the usage of a tamper-resistant hardware token",
       "updated_at": "2026-10-30T09:43:06.595852+00:00"
     },
+    "doi:10.5463/thesis.1490": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Uncovering Transient Execution Vulnerabilities: Catalysts For Exploitation On Modern Processors",
+      "updated_at": "2026-11-01T05:15:24.967191+00:00"
+    },
     "doi:10.55056/ceur-ws.org/vol-4048/paper19.pdf": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -1791,6 +1935,14 @@
       "status": "rejected",
       "title": "Novel Quantum Optical Physical Unclonable Function with AI-Driven Stabilization for FPGA-based Authentication Systems",
       "updated_at": "2026-10-30T09:50:44.218126+00:00"
+    },
+    "doi:10.56975/jetnr.v4i6.235042": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Design and Analysis of an ADPLL -Enhanced Multi-Ring Oscillator TRNG for High security AES Key Generation",
+      "updated_at": "2026-11-01T05:13:25.995944+00:00"
     },
     "doi:10.5753/ctd.2025.7408": {
       "category": "secondaire",
@@ -1855,6 +2007,14 @@
       "status": "rejected",
       "title": "RISC-V: Viabilidade e adoção em hardware embarcado",
       "updated_at": "2026-10-31T23:15:00.857143+00:00"
+    },
+    "doi:10.64799/rebicte.v12.2": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "SGX-Enabled Encrypted Storage for Secure Management of 5G Authentication Data in Trusted Execution Environments",
+      "updated_at": "2026-11-01T05:13:43.331909+00:00"
     },
     "doi:10.64898/2026.10.20.26365982": {
       "category": "hors_sujet",
@@ -2063,6 +2223,14 @@
       "status": "rejected",
       "title": "Secure Function-as-a-Service Platforms Using Trusted Execution Environments",
       "updated_at": "2026-10-30T20:15:00.866632+00:00"
+    },
+    "title:simulaciondelainstrucciondfenceparamitigaciondeataquesspectreenarquitecturasx86": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Simulación de la instrucción dfence para mitigación de ataques Spectre en arquitecturas x86",
+      "updated_at": "2026-11-01T05:15:33.198618+00:00"
     },
     "title:towardsquantumsensingforsidechannelanalysis": {
       "category": "transfert_explicite",
