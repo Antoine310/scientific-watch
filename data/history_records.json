@@ -1,4 +1,14 @@
 {
+  "doi:10.1007/978-3-032-25149-7_2": {
+    "publication_date": "2026-01-01",
+    "score": 80,
+    "source": "https://doi.org/10.1007/978-3-032-25149-7_2",
+    "summary": "non disponible dans les métadonnées",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Cross-Core Covert Channel for RISC-V: Implementation, Countermeasures and Cross-Platform Analysis"
+  },
   "doi:10.1007/s13389-025-00369-5": {
     "publication_date": "2025-04-28",
     "score": 90,
@@ -38,6 +48,16 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "A Survey of Trust Chain in Secure Embedded Systems: From Secure Boot to TEE Applications"
+  },
+  "doi:10.1109/access.2026.3704965": {
+    "publication_date": "2026-01-01",
+    "score": 75,
+    "source": "https://doi.org/10.1109/access.2026.3704965",
+    "summary": "Cet article présente une vue d'ensemble des considérations architecturales et systémiques pour le développement RISC-V moderne. Il examine l'évolution des microarchitectures, la taxonomie des accélérateurs spécialisés (DSA), les défis de sécurité liés à une ISA extensible (PMP, TEE et canaux cachés), l'écosystème logiciel et les directions de recherche futures.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "An Overview of Critical Architectural and Systemic Considerations for Modern RISC-V Development: From Fundamentals to the Frontier"
   },
   "doi:10.1109/acsac67867.2025.00049": {
     "publication_date": "2025-12-08",
@@ -189,6 +209,16 @@
     ],
     "title": "SideSec: Detecting and Mitigating Microarchitectural Side-Channel Attacks in Cloud VMs via Entropy Monitoring and Dynamic VM Reallocation"
   },
+  "doi:10.1109/lca.2026.3697544": {
+    "publication_date": "2026-01-01",
+    "score": 85,
+    "source": "https://doi.org/10.1109/lca.2026.3697544",
+    "summary": "Cet article étudie la sécurité du partitionnement dynamique du cache de dernier niveau (LLC) basé sur la confidentialité différentielle (notamment la technique SCALE). Les auteurs démontrent que malgré l'ajout de bruit, les allocations peuvent être débruitées à long terme pour construire un canal auxiliaire d'occupation du LLC, et proposent des corrections légères.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Differential Privacy for Secure Cache Partitioning: Promises, Limits, and Fixes"
+  },
   "doi:10.1109/prdc67299.2025.00020": {
     "publication_date": "2025-11-03",
     "score": 90,
@@ -218,6 +248,16 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "LayerTEE: Decoupled Memory Protection for Scalable Multilayer Communication on RISC-V"
+  },
+  "doi:10.1109/tcsii.2026.3735193": {
+    "publication_date": "2026-01-01",
+    "score": 75,
+    "source": "https://doi.org/10.1109/tcsii.2026.3735193",
+    "summary": "Cet article présente PolHEEPo, un SoC hétérogène RISC-V en technologie 65 nm de 6 mm2, conçu pour les dispositifs de périphérie (« edge ») alimentés par batterie. Il intègre un support pour l'inférence d'apprentissage automatique et la protection des charges utiles de télémétrie, combinant des accélérateurs pour le ML, le chiffrement authentifié, le hachage SHA-3 et une identité matérielle basée sur une PUF (PUFfo). Les mesures sur silicium montrent une réduction significative de l'énergie et de la latence pour des charges de travail industrielles et médicales.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "PolHEEPo: A 65 nm 6mm 2 RISC-V SoC Filling the Gap Between Cloud and Edge Computing"
   },
   "doi:10.1109/techdefense67306.2025.11721030": {
     "publication_date": "2025-11-01",

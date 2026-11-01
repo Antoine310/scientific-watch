@@ -32,6 +32,14 @@
       "title": "Physical Unclonable Functions From Microwave Metasurface Fingerprints",
       "updated_at": "2026-10-31T07:10:38.187499+00:00"
     },
+    "doi:10.1002/cpe.70534": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 55,
+      "status": "rejected",
+      "title": "PLRAC : A PUF Characteristic Based Lightweight Remote Attestation for Container",
+      "updated_at": "2026-11-01T02:15:02.252672+00:00"
+    },
     "doi:10.1002/cta.4571": {
       "category": "secondaire",
       "decision": "examiner",
@@ -39,6 +47,14 @@
       "status": "rejected",
       "title": "A Lightweight and High‐Throughput True Random Number Generator Based on Hybrid Entropy Source",
       "updated_at": "2026-10-30T14:13:50.303572+00:00"
+    },
+    "doi:10.1002/qute.202500648": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Secure Authentication via Quantum Physical Unclonable Functions: A Review",
+      "updated_at": "2026-11-01T02:15:02.252667+00:00"
     },
     "doi:10.1007/978-3-030-71522-9_300826": {
       "category": "hors_sujet",
@@ -119,6 +135,14 @@
       "status": "rejected",
       "title": "Streamlining Security Patches and Remote Attestations for the Internet of Things",
       "updated_at": "2026-10-31T23:15:11.857820+00:00"
+    },
+    "doi:10.1007/978-3-032-25149-7_2": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "Cross-Core Covert Channel for RISC-V: Implementation, Countermeasures and Cross-Platform Analysis",
+      "updated_at": "2026-11-01T02:13:51.934842+00:00"
     },
     "doi:10.1007/978-3-032-36885-0_21": {
       "category": "coeur",
@@ -344,6 +368,14 @@
       "title": "Hardware-Rooted Device Identity for IoT: Integrating Silicon PUFs and DICE in RISC-V Embedded Systems",
       "updated_at": "2026-10-31T23:14:44.618581+00:00"
     },
+    "doi:10.1109/access.2026.3684852": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "A Tightly-Coupled RISC-V ISA Extension to Speed-Up a Code-Based Post Quantum Digital Signature Scheme",
+      "updated_at": "2026-11-01T02:14:41.500927+00:00"
+    },
     "doi:10.1109/access.2026.3685017": {
       "category": "coeur",
       "decision": "conserver",
@@ -351,6 +383,14 @@
       "status": "imported",
       "title": "A Survey of Trust Chain in Secure Embedded Systems: From Secure Boot to TEE Applications",
       "updated_at": "2026-10-31T23:14:43.916720+00:00"
+    },
+    "doi:10.1109/access.2026.3704965": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "An Overview of Critical Architectural and Systemic Considerations for Modern RISC-V Development: From Fundamentals to the Frontier",
+      "updated_at": "2026-11-01T02:13:51.203994+00:00"
     },
     "doi:10.1109/acsac67867.2025.00049": {
       "category": "coeur",
@@ -616,6 +656,14 @@
       "title": "A Unified Approach to Strong PUF and TRNG Using Ring Generator for Cryptography",
       "updated_at": "2026-10-30T23:13:24.479813+00:00"
     },
+    "doi:10.1109/lca.2026.3697544": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Differential Privacy for Secure Cache Partitioning: Promises, Limits, and Fixes",
+      "updated_at": "2026-11-01T02:14:32.109194+00:00"
+    },
     "doi:10.1109/les.2025.3549110": {
       "category": "secondaire",
       "decision": "examiner",
@@ -712,6 +760,14 @@
       "title": "TeLo-ROPN TRNG: FPGA-Based True Random Number Generation Using Tent and Logistic Chaotic Maps With Ring Oscillator Array",
       "updated_at": "2026-10-31T23:13:52.268208+00:00"
     },
+    "doi:10.1109/tcsii.2026.3735193": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "PolHEEPo: A 65 nm 6mm 2 RISC-V SoC Filling the Gap Between Cloud and Edge Computing",
+      "updated_at": "2026-11-01T02:14:52.553075+00:00"
+    },
     "doi:10.1109/tdsc.2025.3636884": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -783,6 +839,14 @@
       "status": "rejected",
       "title": "Towards Stateless Post-Quantum Remote Attestation for IoT Using TPM and DICE",
       "updated_at": "2026-10-31T14:14:51.028061+00:00"
+    },
+    "doi:10.1109/tvlsi.2026.3722382": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 25,
+      "status": "rejected",
+      "title": "Exploiting the Pico Cell as a PUF and TRNG Reconfigurable Entropy Source",
+      "updated_at": "2026-11-01T02:15:02.252663+00:00"
     },
     "doi:10.1109/vlsitsa64674.2025.11046852": {
       "category": "secondaire",
@@ -1096,6 +1160,30 @@
       "title": "DNN Latency Sequencing: Extracting DNN Architectures from Intel SGX Enclaves with Single-Stepping Attacks",
       "updated_at": "2026-10-31T23:15:41.699359+00:00"
     },
+    "doi:10.14722/ndss.2026.231480": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Exploiting TLBs in Virtualized GPUs for Cross-VM Side-Channel Attacks",
+      "updated_at": "2026-11-01T02:14:31.196830+00:00"
+    },
+    "doi:10.14722/ndss.2026.240526": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "PIRANHAS: PrIvacy-Preserving Remote Attestation in Non-Hierarchical Asynchronous Swarms",
+      "updated_at": "2026-11-01T02:13:20.851641+00:00"
+    },
+    "doi:10.14722/ndss.2026.242287": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Continuous User Behavior Monitoring using DNS Cache Timing Attacks",
+      "updated_at": "2026-11-01T02:14:00.597730+00:00"
+    },
     "doi:10.14722/ndss.2026.242421": {
       "category": "coeur",
       "decision": "conserver",
@@ -1120,6 +1208,14 @@
       "title": "Efficient Memory Protection Method for Large-Scale Host-Enclave Data Transfer on Keystone Enclave",
       "updated_at": "2026-10-31T20:13:43.059788+00:00"
     },
+    "doi:10.17586/2220-8054-2025-16-6-785-790": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Multilevel physical unclonable function based on silver nanostructures randomly integrated into the crystalline silicon wafer",
+      "updated_at": "2026-11-01T02:15:02.252658+00:00"
+    },
     "doi:10.17605/osf.io/84gns": {
       "category": "secondaire",
       "decision": "examiner",
@@ -1135,6 +1231,14 @@
       "status": "rejected",
       "title": "A New Dynamic Cache Flushing (DCF) Algorithm to Prevent Cache Timing Attack",
       "updated_at": "2026-10-30T11:02:36.058403+00:00"
+    },
+    "doi:10.18452/37215": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Secure Authentication via Quantum Physical Unclonable Functions: A Review",
+      "updated_at": "2026-11-01T02:15:02.252676+00:00"
     },
     "doi:10.18860/cauchy.v11i2.42778": {
       "category": "hors_sujet",
@@ -1247,6 +1351,14 @@
       "status": "rejected",
       "title": "Implementation of a collective remote attestation framework for IoT devices",
       "updated_at": "2026-10-31T23:14:50.978020+00:00"
+    },
+    "doi:10.31474/1996-1588-2026-2-43-252-263": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "HARDWARE NODE IDENTIFICATION TOOLS IN DISTRIBUTED COMPUTER NETWORKS BASED ON PHYSICAL UNCLONABLE FUNCTIONS",
+      "updated_at": "2026-11-01T02:15:02.252621+00:00"
     },
     "doi:10.31838/jcvs/07.02.08": {
       "category": "hors_sujet",
@@ -1808,6 +1920,14 @@
       "title": "An empirical study of GPU cache side-channel leakage in large language model inference",
       "updated_at": "2026-10-31T20:14:32.089451+00:00"
     },
+    "title:crosspartyformalverificationforhardwaretrust": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Cross-party formal verification for hardware trust",
+      "updated_at": "2026-11-01T02:14:10.567597+00:00"
+    },
     "title:cva6mmulessvirtualizationfromhardwaretosoftwareandviceversa": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -1831,6 +1951,14 @@
       "status": "rejected",
       "title": "Design of a TRNG in 600-nm IGZO-TFT FlexlCs for secure IoT applications",
       "updated_at": "2026-10-30T09:52:45.186086+00:00"
+    },
+    "title:dynamiccachepartitioningbasedredundancytimeoptimizationforsmartsubstationinspection": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Dynamic Cache Partitioning-Based Redundancy Time Optimization for Smart Substation Inspection",
+      "updated_at": "2026-11-01T02:14:31.196811+00:00"
     },
     "title:enforcingriscvteesecurityagainstcachetimingattacks": {
       "category": "coeur",
@@ -1887,6 +2015,14 @@
       "status": "imported",
       "title": "Leveraging gem5 and Machine Learning for End-to-End Detection of Cache-based Side-Channel Attack Patterns",
       "updated_at": "2026-10-31T08:14:21.666947+00:00"
+    },
+    "title:openvgacontrollerfortheriscvwallycore": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Open VGA controller for the RISC-V Wally core",
+      "updated_at": "2026-11-01T02:14:51.657067+00:00"
     },
     "title:optimizingtlscryptographicoperationsonriscvsocwithopentitanrot": {
       "category": "coeur",
