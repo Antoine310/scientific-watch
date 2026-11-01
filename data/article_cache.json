@@ -352,6 +352,14 @@
       "title": "Hardware Trojans detection through automatic properties extraction and formal verification",
       "updated_at": "2026-10-31T05:13:42.204612+00:00"
     },
+    "doi:10.1051/jnwpu/20264420417": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Information-flow-analysis-based detection of spectre vulnerabilities in RISC-V processors",
+      "updated_at": "2026-11-01T14:14:33.778482+00:00"
+    },
     "doi:10.1063/5.0278250": {
       "category": "secondaire",
       "decision": "examiner",
@@ -719,6 +727,14 @@
       "status": "rejected",
       "title": "XORed Carry Chain Ring Oscillator Factored True Random Number Generator",
       "updated_at": "2026-10-30T14:13:50.303565+00:00"
+    },
+    "doi:10.1109/isqed69900.2026.11534756": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Fine-Grained Patching via Contention Balancer: A Practical Mitigation Strategy for Spectre Vulnerabilities Using SpecScope Contention Maps",
+      "updated_at": "2026-11-01T14:15:13.364769+00:00"
     },
     "doi:10.1109/isvlsi65124.2025.11130308": {
       "category": "secondaire",
@@ -1176,6 +1192,38 @@
       "title": "Multi-channel TRNG based on Scalable Cascaded Full Feedback Ring Oscillator",
       "updated_at": "2026-11-01T08:13:55.309123+00:00"
     },
+    "doi:10.1145/3798222": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 65,
+      "status": "rejected",
+      "title": "(Dis)Proving Spectre Security with Speculation-Passing Style",
+      "updated_at": "2026-11-01T14:15:12.278552+00:00"
+    },
+    "doi:10.1145/3803525.3804986": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "How Secure is a High-Performance RISC-V Core? A Spectre V1 Case Study on XiangShan Open-Source CPU",
+      "updated_at": "2026-11-01T14:15:33.645913+00:00"
+    },
+    "doi:10.1145/3805690.3805735": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Keystone with Linux PREEMPT_RT: Real-Time Enclaves on RISC-V?",
+      "updated_at": "2026-11-01T14:14:33.098890+00:00"
+    },
+    "doi:10.1145/3811913": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "LightFAt+: Lightweight Control-flow Attestation via Unsupervised Machine Learning",
+      "updated_at": "2026-11-01T14:14:52.667188+00:00"
+    },
     "doi:10.1145/3839338.3857251": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -1247,6 +1295,14 @@
       "status": "imported",
       "title": "SECURE BOOT AND FIRMWARE PROTECTION IN AUTOMOTIVE SEMICONDUCTORS: A REVIEW OF CURRENT APPROACHES",
       "updated_at": "2026-10-31T11:14:11.291447+00:00"
+    },
+    "doi:10.13016/m2h7pv-ovfs": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Byzantine-Resilient Runtime Attestation for Resource-Constrained ECUs",
+      "updated_at": "2026-11-01T14:13:21.562692+00:00"
     },
     "doi:10.13121/polito/porto/3006045": {
       "category": "secondaire",
@@ -1511,6 +1567,14 @@
       "status": "rejected",
       "title": "A Synthesizable Thyristor-Like Leakage-Based True Random Number Generator",
       "updated_at": "2026-10-30T11:01:27.174403+00:00"
+    },
+    "doi:10.23919/date69613.2026.11539674": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "An Efficient Secure Boot Mechanism Leveraging DICE as a Use Case",
+      "updated_at": "2026-11-01T14:14:03.113206+00:00"
     },
     "doi:10.24425/ijet.2025.155477": {
       "category": "secondaire",
@@ -1840,6 +1904,14 @@
       "title": "Entropy extractor based high-throughput post-processings for True Random Number Generators",
       "updated_at": "2026-10-31T11:13:40.427892+00:00"
     },
+    "doi:10.46586/tches.v2026.i2.495-519": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Improving ML-KEM and ML-DSA on OpenTitan",
+      "updated_at": "2026-11-01T14:13:43.350741+00:00"
+    },
     "doi:10.46586/uasc.2026.008": {
       "category": "coeur",
       "decision": "conserver",
@@ -2008,6 +2080,14 @@
       "title": "HPCCFA: Leveraging Hardware Performance Counters for Control Flow Attestation",
       "updated_at": "2026-11-01T11:13:31.741257+00:00"
     },
+    "doi:10.48550/arxiv.2604.23331": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Branch Landing: Bloom Filter-Based Source Authorization for Forward-Edge CFI on RISC-V",
+      "updated_at": "2026-11-01T14:15:12.278564+00:00"
+    },
     "doi:10.48550/arxiv.2610.12695": {
       "category": "coeur",
       "decision": "conserver",
@@ -2063,6 +2143,14 @@
       "status": "rejected",
       "title": "YANN s: An Identity-Driven Cybersecurity Architecture Based on Hardware Root of Trust and Adaptive AI",
       "updated_at": "2026-11-01T08:14:07.191246+00:00"
+    },
+    "doi:10.5281/zenodo.19443002": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 70,
+      "status": "rejected",
+      "title": "Helium: Quantifying Microarchitectural Side-Channel Leakage with Probabilistic Guarantees",
+      "updated_at": "2026-11-01T14:15:12.278528+00:00"
     },
     "doi:10.5281/zenodo.23399404": {
       "category": "secondaire",

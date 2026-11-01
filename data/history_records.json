@@ -29,6 +29,16 @@
     ],
     "title": "μTEE: Certification-ready RISC-V platform for secure IIoT lifecycle management"
   },
+  "doi:10.1051/jnwpu/20264420417": {
+    "publication_date": "2026-04-01",
+    "score": 85,
+    "source": "https://doi.org/10.1051/jnwpu/20264420417",
+    "summary": "Cet article présente un cadre de vérification de sécurité au niveau de la conception pour détecter les vulnérabilités Spectre dans les processeurs RISC-V. En combinant le suivi du flux d'informations au niveau des portes logiques (GLIFT) et la vérification formelle, l'approche dérive des modèles GLIFT à partir de netlists RTL synthétisées, formalise trois propriétés liées à Spectre, et utilise des assertions SystemVerilog vérifiées sur les processeurs SonicBOOM et Xuantie-910.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Information-flow-analysis-based detection of spectre vulnerabilities in RISC-V processors"
+  },
   "doi:10.1109/access.2025.3596829": {
     "publication_date": "2025-01-01",
     "score": 95,
@@ -238,6 +248,16 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "SideSec: Detecting and Mitigating Microarchitectural Side-Channel Attacks in Cloud VMs via Entropy Monitoring and Dynamic VM Reallocation"
+  },
+  "doi:10.1109/isqed69900.2026.11534756": {
+    "publication_date": "2026-04-08",
+    "score": 75,
+    "source": "https://doi.org/10.1109/isqed69900.2026.11534756",
+    "summary": "Cette publication présente Contention Balancer, une atténuation logicielle à grain fin contre les vulnérabilités Spectre. En utilisant les cartes de contention de SpecScope, cette approche injecte des instructions d'équilibrage dans les chemins spéculatifs pour masquer les canaux auxiliaires basés sur la contention, sans modifier le comportement du programme ni nécessiter de refonte matérielle.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Fine-Grained Patching via Contention Balancer: A Practical Mitigation Strategy for Spectre Vulnerabilities Using SpecScope Contention Maps"
   },
   "doi:10.1109/lats70329.2026.11480312": {
     "publication_date": "2026-03-17",
@@ -469,6 +489,36 @@
     ],
     "title": "RV-Sec5: Enhancing RISC-V Security Evaluation via Targeted ISA-Level Instrumentation using gem5"
   },
+  "doi:10.1145/3803525.3804986": {
+    "publication_date": "2026-04-16",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3803525.3804986",
+    "summary": "Cette étude analyse la sécurité du processeur RISC-V open-source haute performance XiangShan face aux attaques par exécution spéculative (Spectre V1). Les auteurs développent une PoC et une attaque temporelle par cache pour exfiltrer des données, démontrant la vulnérabilité des 2e et 3e générations de XiangShan à l'aide d'une simulation cycle-précis. Ils étudient également la désactivation de la prédiction de branches comme contre-mesure, entraînant un ralentissement d'environ 3x sur CoreMark.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "How Secure is a High-Performance RISC-V Core? A Spectre V1 Case Study on XiangShan Open-Source CPU"
+  },
+  "doi:10.1145/3805690.3805735": {
+    "publication_date": "2026-04-20",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3805690.3805735",
+    "summary": "Cet article évalue l'interaction entre les environnements d'exécution de confiance (TEEs) Keystone sur RISC-V et le noyau Linux patché PREEMPT_RT, en analysant l'impact sur la latence d'ordonnancement dans des contextes mixtes et d'enclaves temps réel sur une carte HiFive Unmatched.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Keystone with Linux PREEMPT_RT: Real-Time Enclaves on RISC-V?"
+  },
+  "doi:10.1145/3811913": {
+    "publication_date": "2026-04-25",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3811913",
+    "summary": "LightFAt+ est un schéma d'attestation de flux de contrôle léger qui utilise les lectures de l'unité de surveillance des performances (PMU) du processeur et l'apprentissage automatique non supervisé pour détecter les compromissions de flux de code sans recourir au calcul coûteux de hachages cryptographiques.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "LightFAt+: Lightweight Control-flow Attestation via Unsupervised Machine Learning"
+  },
   "doi:10.12732/ijam.v38i6s.1640": {
     "publication_date": "2025-10-15",
     "score": 85,
@@ -538,6 +588,16 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Utilization of Secure Bootloaders in Embedded Systems for Ensuring Device Integrity and Preventing Firmware Tampering Through Cryptographic Validation Mechanisms"
+  },
+  "doi:10.23919/date69613.2026.11539674": {
+    "publication_date": "2026-04-20",
+    "score": 75,
+    "source": "https://doi.org/10.23919/date69613.2026.11539674",
+    "summary": "Ce papier propose un mécanisme de démarrage sécurisé efficace (ESB) combinant cryptographie asymétrique et symétrique pour réduire le temps de démarrage des appareils critiques. Il s'appuie sur une architecture DICE étendue comme cas d'usage et démontre sur un microcontrôleur ARM une réduction du temps de démarrage pour les démarrages réguliers, moyennant un surcoût lors du premier démarrage.",
+    "themes": [
+      "T02 — DICE & Hardware Identity"
+    ],
+    "title": "An Efficient Secure Boot Mechanism Leveraging DICE as a Use Case"
   },
   "doi:10.26233/heallink.tuc.105404": {
     "publication_date": "2026-02-27",
@@ -618,6 +678,16 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Dorami: Privilege Separating Security Monitor on RISC-V TEEs"
+  },
+  "doi:10.46586/tches.v2026.i2.495-519": {
+    "publication_date": "2026-04-23",
+    "score": 75,
+    "source": "https://doi.org/10.46586/tches.v2026.i2.495-519",
+    "summary": "Ce travail améliore l'extension du jeu d'instructions proposée dans le papier OTBNTW pour le coprocessor OTBN d'OpenTitan, en ciblant les schémas cryptographiques post-quantiques ML-KEM et ML-DSA. L'approche déplace la multiplication modulaire du matériel vers le logiciel grâce à des instructions vectorielles de multiplication entière plus puissantes, permettant un gain de performance et une réduction de la surcharge globale.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Improving ML-KEM and ML-DSA on OpenTitan"
   },
   "doi:10.46586/uasc.2026.008": {
     "publication_date": "2026-02-03",
