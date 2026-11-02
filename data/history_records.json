@@ -389,6 +389,16 @@
     ],
     "title": "Keystone-Vault: Hardware-Assisted Efficient Intra-Enclave Isolation for RISC-V TEEs"
   },
+  "doi:10.1109/tc.2026.3724651": {
+    "publication_date": "2026-08-18",
+    "score": 85,
+    "source": "https://doi.org/10.1109/tc.2026.3724651",
+    "summary": "Cet article analyse et compare les primitives d'isolation matérielle au niveau système pour les SoC RISC-V hétérogènes à criticité mixte (IOPMP, World-based checker et SmMTT), en évaluant leurs compromis en matière de sécurité et de performances PPA.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "System-Level Isolation for Mixed-Criticality RISC-V SoCs: A “World” Reality Check"
+  },
   "doi:10.1109/tcad.2025.3575014": {
     "publication_date": "2025-06-13",
     "score": 90,
@@ -629,6 +639,16 @@
     ],
     "title": "dfence: Fine-Grained Speculation Barriers for Efficient and Effective Hardware-Software Protection in the Spectre Era"
   },
+  "doi:10.1145/3844614": {
+    "publication_date": "2026-09-03",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3844614",
+    "summary": "Cet article présente Lattice, un nouveau framework d'environnement d'exécution de confiance (TEE) pour l'architecture RISC-V. Il vise à permettre des enclaves scalables sur les plateformes commerciales tout en minimisant la base de calcul de confiance (TCB), en s'affranchissant des contraintes matérielles et des limites des registres PMP (Physical Memory Protection).",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Lattice: Enabling Scalable Enclaves for Commercial RISC-V Platforms"
+  },
   "doi:10.12732/ijam.v38i6s.1640": {
     "publication_date": "2025-10-15",
     "score": 85,
@@ -748,6 +768,16 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "A RISC-V Based Embedded Security Architecture for Trusted Execution in Industrial Control Systems"
+  },
+  "doi:10.3390/chips5030025": {
+    "publication_date": "2026-08-07",
+    "score": 90,
+    "source": "https://doi.org/10.3390/chips5030025",
+    "summary": "Cet article présente PACE, un moteur de chiffrement mémoire pour architecture RISC-V adapté aux pages, ancré dans le cache et offrant une résistance formellement vérifiée à l'analyse différentielle de puissance (DPA) d'ordre n. Il utilise un adaptateur TileLink entre le dernier niveau de cache et le port mémoire, appliquant quatre politiques configurables via les bits de table des pages. La sécurité repose sur un re-chiffrage frais de style ISAP et un masquage orienté domaine (DOM) pour le bloc de clé. L'évaluation est réalisée sur des SoC Rocket et BOOM via Chisel/Chipyard, des outils de vérification formelle (COCO, PROLEAD, SILVER) et sur silicium FPGA (Xilinx XC7Z020).",
+    "themes": [
+      "T11 — PUF & TRNG"
+    ],
+    "title": "PACE: A Page-Adaptive, Cache-Anchored Memory Encryption Engine for RISC-V with Formally Verified nth-Order DPA Resistance"
   },
   "doi:10.3390/computers15080479": {
     "publication_date": "2026-07-28",
@@ -1019,6 +1049,16 @@
     ],
     "title": "PRISM: Lightweight Enclave Isolation with Prismatic Capabilities"
   },
+  "doi:10.48550/arxiv.2609.10634": {
+    "publication_date": "2026-09-09",
+    "score": 95,
+    "source": "https://arxiv.org/abs/2609.10634",
+    "summary": "HermiCache est une politique de remplacement de cache consciente des enclaves pour les environnements d'exécution de confiance (TEEs), visant à atténuer les attaques par canal auxiliaire sur les ressources partagées. Conçu pour les processeurs RISC-V et implémenté sur le cœur OpenHWGroup CVA6 avec Keystone TEE, il offre des configurations fines et une protection déterministe avec un surcoût de surface de 6 %.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "HermiCache: Enclave-Aware Cache Replacement for Trusted Execution Environments"
+  },
   "doi:10.48676/unibo/amsdottorato/13054": {
     "publication_date": "2026-08-24",
     "score": 95,
@@ -1078,6 +1118,16 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Hardware Root of Trust: Trusted Platform Module (TPM) Implementation and Verification"
+  },
+  "doi:10.5281/zenodo.22313704": {
+    "publication_date": "2026-09-05",
+    "score": 85,
+    "source": "https://doi.org/10.5281/zenodo.22313704",
+    "summary": "Ce document présente le premier instantané archivé d'un portfolio de recherche en sécurité embarquée comprenant sept projets, notamment le durcissement de FreeRTOS-MPU sur ARM Cortex-M4, le démarrage sécurisé U-Boot, l'analyse de canaux cachés AES-128 et l'isolation de tâches par PMP sous RISC-V, ainsi qu'une étude comparative entre la MPU ARM et la PMP RISC-V.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Embedded Security & RISC-V Research"
   },
   "doi:10.53941/pc.2026.100006": {
     "publication_date": "2026-06-29",
