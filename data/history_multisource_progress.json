@@ -1,8 +1,8 @@
 {
   "accepted": 24,
   "completed": false,
-  "cursor": "MTc4OTc1OTU4OTAwMCwxMC4xMTA5JTJGaWNjdmJpYzcxMTk1LjIwMjYuMTE2ODkzNDY=",
-  "evaluated": 520,
+  "cursor": "*",
+  "evaluated": 533,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -29,91 +29,17 @@
     "monthly/2026-08/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-08/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2026-08/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-08/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-08/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-08/query-17 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-08/query-18 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-08/query-19 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-08",
   "needs_publish": false,
-  "offset": 440,
-  "pages_done": 382,
-  "pages_in_query": 11,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Amankumar Pandey"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Gaurav Saini"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Mahesh Uppala"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/icesc70182.2026.11687708",
-        "id": "https://doi.org/10.1109/icesc70182.2026.11687708",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/icesc70182.2026.11687708"
-        },
-        "publication_date": "2026-08-01",
-        "publication_date_note": "Date source Crossref : 2026-08 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2026-08",
-        "title": "Security IP for Pre-Boot CPU Initialization and Runtime Scenarios in Modern SoCs"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Shivarudraiah B"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Suryakanth B"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Laxmisagar H S"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/iccvbic71195.2026.11689346",
-        "id": "https://doi.org/10.1109/iccvbic71195.2026.11689346",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/iccvbic71195.2026.11689346"
-        },
-        "publication_date": "2026-08-01",
-        "publication_date_note": "Date source Crossref : 2026-08 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2026-08",
-        "title": "Hardware Implementation of a Secure Pipelined RISC-V Core with Boolean Masking and Efficient Arithmetic Units on FPGA"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    }
-  ],
+  "offset": 0,
+  "pages_done": 407,
+  "pages_in_query": 0,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -1301,8 +1227,8 @@
       "title": "Investigating Nintendo Family Computer Bugs: How Hardware-Level Perturbations Shape Software Behavior"
     }
   ],
-  "query_index": 17,
+  "query_index": 20,
   "secondary": 21,
-  "skipped": 400,
+  "skipped": 411,
   "version": 1
 }
