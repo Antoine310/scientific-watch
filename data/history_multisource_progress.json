@@ -1,8 +1,8 @@
 {
   "accepted": 11,
   "completed": false,
-  "cursor": "MTc5MTI4ODA3ODAwMCwxMC4xMDAyJTJGOTc4MTM5NDM0MDgyOC5jaDA0",
-  "evaluated": 332,
+  "cursor": "*",
+  "evaluated": 348,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -17,13 +17,16 @@
     "monthly/2026-09/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-09/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2026-09/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-09/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-09/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-09/query-17 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-09/query-18 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-09/query-19 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-09",
   "needs_publish": false,
-  "offset": 440,
-  "pages_done": 225,
-  "pages_in_query": 11,
+  "offset": 0,
+  "pages_done": 250,
+  "pages_in_query": 0,
   "pending": [],
   "phase": "monthly",
   "prefilter_review": [
@@ -722,10 +725,34 @@
       "publication_date": "2026-09-30",
       "source": "crossref",
       "title": "Hardware Acceleration of Stochastic Neural Networks Enabled by Bit‐Cell Level Co‐Design of Magnetic Tunnel Junctions"
+    },
+    {
+      "doi": "https://doi.org/10.57199/jgcr.2026.5.3.195",
+      "identity": "title:anempiricalstudyonestablishingperformancegradeevaluationindicatorsforarchitecturalhardwarefocusingonexpertperceptions",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-30",
+      "source": "crossref",
+      "title": "An Empirical Study on Establishing Performance Grade Evaluation Indicators for Architectural Hardware: Focusing on Expert Perceptions"
+    },
+    {
+      "doi": "https://doi.org/10.5753/sbseg_estendido.2026.27085",
+      "identity": "title:lowcostembeddedhardwareforrfjammingdetectioniniiotenvironments",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-01",
+      "source": "crossref",
+      "title": "Low-Cost Embedded Hardware for RF Jamming Detection in IIoT Environments"
+    },
+    {
+      "doi": "https://doi.org/10.1117/12.3103029",
+      "identity": "title:mosaicforeltnirchannelchallengesandperformance",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-25",
+      "source": "crossref",
+      "title": "MOSAIC for ELT: NIR channel challenges and performance"
     }
   ],
-  "query_index": 17,
-  "secondary": 15,
-  "skipped": 218,
+  "query_index": 20,
+  "secondary": 16,
+  "skipped": 224,
   "version": 1
 }
