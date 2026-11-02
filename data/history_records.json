@@ -430,6 +430,19 @@
     ],
     "title": "TDXRay: Microarchitectural Side-Channel Analysis of Intel TDX for Real-World Workloads"
   },
+  "doi:10.1109/tc.2024.3449105": {
+    "publication_date": "2026-08-13",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2608.13287v1",
+    "summary": "Ce papier présente ROLoad-PMP, une solution conjointe matériel-logiciel légère pour sécuriser les opérations sensibles des noyaux et des firmwares bare-metal contre le détournement par des entrées malveillantes. Elle s'appuie sur de nouvelles instructions et un durcissement à la compilation utilisant la mémoire en lecture seule.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "ROLoad-PMP: Securing Sensitive Operations for Kernels and Bare-Metal Firmware"
+  },
   "doi:10.1109/tc.2026.3690648": {
     "publication_date": "2026-05-04",
     "score": 85,
@@ -469,6 +482,19 @@
       "T10 — RISC-V SoC & FPGA"
     ],
     "title": "PolHEEPo: A 65 nm 6mm 2 RISC-V SoC Filling the Gap Between Cloud and Edge Computing"
+  },
+  "doi:10.1109/tdsc.2024.3445296": {
+    "publication_date": "2026-08-20",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "score": 80,
+    "source": "http://arxiv.org/abs/2608.20583v1",
+    "summary": "Cet article présente MATEE, un système conçu pour combler le fossé sémantique entre les mondes sécurisé et normal dans Arm TrustZone en utilisant l'authentification par pointeur d'Arm (Pointer Authentication). MATEE lie chaque requête à l'identité de l'application cliente pour empêcher les falsifications et protège les données sensibles des différentes applications clientes avec une surcharge d'exécution minime (2,19 %).",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "MATEE: Efficiently Bridging the Semantic Gap in TrustZone via Arm Pointer Authentication"
   },
   "doi:10.1109/techdefense67306.2025.11721030": {
     "publication_date": "2025-11-01",
@@ -1303,6 +1329,19 @@
     ],
     "title": "Future-proofing Trusted Execution Environments Against the Emerging Threats of Speculative Execution"
   },
+  "title:amdsevsnpaconfidentialcomputingprimer": {
+    "publication_date": "2026-08-03",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2608.04039v1",
+    "summary": "Ce document technique présente AMD SEV-SNP, une solution matérielle de computing confidentiel pour les machines virtuelles. L'hyperviseur est considéré comme potentiellement malveillant. La technologie chiffre la mémoire et l'état des registres des invités, détecte les altérations de mémoire, et permet une attestation distante. Les auteurs décrivent le modèle de menace, le processeur sécurisé AMD, le moteur de chiffrement, la table de transcodage inverse (Reverse Map Table), les niveaux de privilège, ainsi que le pipeline d'attestation basé sur une chaîne de certificats.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "AMD SEV-SNP: A Confidential Computing Primer"
+  },
   "title:antmananefficientandinterpretablertllevelruntimedetectionframeworkforstealthybranchpredictorattacksonboom": {
     "publication_date": "2026-08-10",
     "publication_date_note": "",
@@ -1315,6 +1354,19 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "ANTMAN: An Efficient and Interpretable RTL-Level Run-Time Detection Framework for Stealthy Branch Predictor Attacks on BOOM"
+  },
+  "title:characterizingthevarianceenvelopeamultidimensionalanalysisofspectretelemetryacrossarchitecturesandworkloads": {
+    "publication_date": "2026-08-14",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2608.13920v1",
+    "summary": "Cet article analyse la variabilité des empreintes des attaques Spectre via les compteurs de performance matérielle (HPC) sur différentes architectures (Intel, ARM, AMD) et charges de travail. Il démontre la fragilité des modèles de détection statiques face au bruit et propose une caractérisation de l'enveloppe de variance pour améliorer la détection.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Characterizing the Variance Envelope: A Multi-Dimensional Analysis of Spectre Telemetry Across Architectures and Workloads"
   },
   "title:chypothermiaclockfreezingforstaticsidechannelattacks": {
     "publication_date": "2026-09-10",
@@ -1475,6 +1527,19 @@
     ],
     "title": "Prototyping Custom Hardware Performance Counters in gem5 Simulator: A Framework for RISC-V Side-Channel Attack Assessment"
   },
+  "title:remotetimerasaserviceefficientmicroarchitecturalleakageinthecloudwithremotetimers": {
+    "publication_date": "2026-08-17",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2608.17043v1",
+    "summary": "Cet article étudie les fuites microarchitecturales dans le framework Cloudflare Workers qui supprime l'isolation par processus au profit d'une isolation au niveau du langage pour réduire la latence. Les auteurs démontrent que les contre-mesures existantes, telles que la restriction des mesures de temps et l'isolation dynamique des processus (DyPrIs), sont insuffisantes. En combinant des techniques d'amplification microarchitecturale et des minuteurs distants, ils réalisent une attaque Spectre à distance réussie en production, extrayant un jeton JWT d'un worker co-localisé avec un débit grandement amélioré (jusqu'à 12 bit/s à 99,16 % de précision). Suite à cette vulnérabilité, Cloudflare a mis en place de nouvelles mesures d'atténuation incluant le V8 Sandbox et l'isolation par MPK.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Remote-Timer-as-a-Service: Efficient Microarchitectural Leakage in the Cloud with Remote Timers"
+  },
   "title:riscguardriscvstaticanalysisframeworkfordetectingmicroarchitecturalvulnerabilities": {
     "publication_date": "2026-10-11",
     "score": 90,
@@ -1498,6 +1563,45 @@
     ],
     "title": "SCHERI: Provably Secure Speculation Under the Constant-Time Policy for CHERI (Extended Version)"
   },
+  "title:securingfilesystemsforconfidentialcomputing": {
+    "publication_date": "2026-08-20",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "score": 80,
+    "source": "http://arxiv.org/abs/2608.19924v1",
+    "summary": "Cet article présente ShieldFS, un système de fichiers compatible POSIX conçu pour le calcul confidentiel. Il garantit l'intégrité et la fraîcheur du stockage persistant face à un fournisseur cloud malveillant, sans nécessiter de modification des applications, grâce à des engagements cryptographiques maintenus dans des environnements d'exécution de confiance (TEE) et un registre de confiance léger.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Securing Filesystems for Confidential Computing"
+  },
+  "title:slacaccessdrivencputogpusidechannelattacksviasystemlevelcacheonapplesilicon": {
+    "publication_date": "2026-08-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2608.09075v2",
+    "summary": "Cette étude démontre de nouvelles attaques par canal auxiliaire CPU-sur-GPU basées sur les accès (style Prime+Probe) exploitant le cache de niveau système (SLC) partagé dans les SoC hétérogènes Apple Silicon. Les auteurs ont rétro-conçu l'indexation du SLC de l'Apple M1 et développé la technique CPrime+CProbe, ainsi qu'une variante accélérée GPrime+CProbe. Ils valident l'approche sur des attaques de confidentialité de bout en bout contre des réseaux de neurones sur graphes (GNN) et des modèles de langage (LLM).",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "SLAC: Access-Driven CPU-to-GPU Side-channel Attacks via System-Level Cache on Apple Silicon"
+  },
+  "title:teexteeawareaccelerationframeworkforlargevisionmodelsattheedge": {
+    "publication_date": "2026-08-24",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2608.22716v1",
+    "summary": "Cet article présente TEE-X, un cadre d'accélération tenant compte des environnements d'exécution sécurisés (TEE), conçu pour héberger et exécuter des modèles de vision par ordinateur de grande taille (tels que les Vision Transformers) sur des appareils en périphérie (edge). L'approche vise à surmonter les contraintes de mémoire et la latence de calcul tout en protégeant la confidentialité et l'intégrité des modèles.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "TEE-X: TEE-aware Acceleration Framework for Large Vision Models at the Edge"
+  },
   "title:towardsreliableandsecureriscvsystemssurveyoftestabilityandsecuritymechanisms": {
     "publication_date": "2026-06-24",
     "score": 75,
@@ -1507,5 +1611,18 @@
       "T08 — Cache & Temporal Isolation"
     ],
     "title": "Towards Reliable and Secure RISC-V Systems: Survey of Testability and Security Mechanisms"
+  },
+  "title:yavinaunifiedarchitectureforsecureedgeprocessinginmemory": {
+    "publication_date": "2026-08-13",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2608.13496v1",
+    "summary": "YAVIN est une architecture unifiée qui étend les environnements d'exécution sécurisés (TEE) au-delà du processeur pour inclure le traitement en mémoire (PIM) de manière sécurisée, tout en considérant le bus mémoire comme non sécurisé.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "YAVIN: A Unified Architecture for Secure Edge Processing in Memory"
   }
 }
