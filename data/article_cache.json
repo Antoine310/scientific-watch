@@ -160,6 +160,14 @@
       "title": "Reconfigurable Physical Unclonable Function‐Based Cryptographic Scheme Based on Memory‐Enabled GFET Modulators",
       "updated_at": "2026-11-02T05:15:13.286937+00:00"
     },
+    "doi:10.1002/spe.70098": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Security in the Fine‐Tuning Lifecycle of Large Language Models: Threats, Defenses, Evaluation, and Future Directions",
+      "updated_at": "2026-11-02T18:18:44.593301+00:00"
+    },
     "doi:10.1007/978-3-030-71522-9_300826": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -815,6 +823,14 @@
       "status": "rejected",
       "title": "Open-source RISC-V platforms for embedded medical grade EMG processing: Are we there yet?",
       "updated_at": "2026-11-02T14:36:02.786980+00:00"
+    },
+    "doi:10.1016/j.micpro.2026.105284": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Facilitating Sail compiler to generate cycle-accurate simulator for 5-stage pipelined RISC-V processor",
+      "updated_at": "2026-11-02T18:18:25.076293+00:00"
     },
     "doi:10.1016/j.micpro.2026.105297": {
       "category": "secondaire",
@@ -1928,6 +1944,14 @@
       "title": "A Unified Approach to Strong PUF and TRNG Using Ring Generator for Cryptography",
       "updated_at": "2026-10-30T23:13:24.479813+00:00"
     },
+    "doi:10.1109/jiot.2026.3669029": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Secure and Lightweight Mechanism for UAV–GCS and UAV–UAV Authentication Based on PUF",
+      "updated_at": "2026-11-02T18:16:50.464548+00:00"
+    },
     "doi:10.1109/jiot.2026.3675734": {
       "category": "secondaire",
       "decision": "examiner",
@@ -1935,6 +1959,30 @@
       "status": "rejected",
       "title": "HBQS: Lightweight Post-Quantum Secure Authentication for Satellite Networks Leveraging Hardware TRNG and PUFs",
       "updated_at": "2026-11-01T11:14:20.900411+00:00"
+    },
+    "doi:10.1109/jiot.2026.3697699": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Compact ASIC Design of a Secure Hexadecimal Digital Lock for Consumer Electronics",
+      "updated_at": "2026-11-02T18:17:07.675689+00:00"
+    },
+    "doi:10.1109/jiot.2026.3701432": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "An OpenSSL Engine for Secure and Transparent Offloading of Cryptographic Operations to OP-TEE in Embedded IoT Platforms",
+      "updated_at": "2026-11-02T18:17:17.553276+00:00"
+    },
+    "doi:10.1109/jiot.2026.3704430": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "A Stability-Aware Arbiter-Based Ring Oscillator PUF With Massive CRP Support for Secure IoT Applications",
+      "updated_at": "2026-11-02T18:17:28.109380+00:00"
     },
     "doi:10.1109/jiot.2026.3710495": {
       "category": "hors_sujet",
@@ -1959,6 +2007,22 @@
       "status": "rejected",
       "title": "Trustworthy Distributed Machine Learning in Cloud-Edge-IoT Systems: A Heterogeneity-Aware Survey of Security, Privacy, and Robustness",
       "updated_at": "2026-11-02T13:03:57.267094+00:00"
+    },
+    "doi:10.1109/jssc.2026.3663657": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A Physically Unclonable Function With Less Than 4.16E–7 BER Featuring Secure In-Cell HCI Burn-In and nMOS-Dominant PUF Data Generation",
+      "updated_at": "2026-11-02T18:16:50.476662+00:00"
+    },
+    "doi:10.1109/jssc.2026.3676416": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Cygnus: A Heterogeneous Octa-Core RISC-V Vector Processor for Digital Signal Processing Applications",
+      "updated_at": "2026-11-02T18:18:05.613490+00:00"
     },
     "doi:10.1109/jxcdc.2026.3671608": {
       "category": "secondaire",
@@ -1991,6 +2055,14 @@
       "status": "rejected",
       "title": "High-Speed True Random Number Generator With Multiple Entropy Sources: Ring Oscillator Jitter and Random Telegraph Noise",
       "updated_at": "2026-10-30T11:01:27.174396+00:00"
+    },
+    "doi:10.1109/les.2025.3634524": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A Flexible Dual-Mode and Efficient RISC-V Coprocessor for On-Node FFT Acceleration in Edge Sensing",
+      "updated_at": "2026-11-02T18:17:54.773179+00:00"
     },
     "doi:10.1109/les.2025.3644936": {
       "category": "hors_sujet",
@@ -2191,6 +2263,14 @@
       "status": "imported",
       "title": "Keystone-Vault: Hardware-Assisted Efficient Intra-Enclave Isolation for RISC-V TEEs",
       "updated_at": "2026-11-01T17:20:17.444178+00:00"
+    },
+    "doi:10.1109/tc.2026.3700461": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Design Space Exploration of RISC-V Vector Extension Targeting Embedded Processors",
+      "updated_at": "2026-11-02T18:18:25.088152+00:00"
     },
     "doi:10.1109/tc.2026.3701147": {
       "category": "secondaire",
@@ -2424,6 +2504,30 @@
       "title": "NIST SP 800-90B Compliant Perpendicular Magnetic Tunnel Junction Based True Random Number Generator",
       "updated_at": "2026-10-31T02:13:41.842507+00:00"
     },
+    "doi:10.1109/tns.2026.3655735": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Microbeam Testing of an ASIC Radiation-Hardened 32-bit RISC-V Microcontroller",
+      "updated_at": "2026-11-02T18:17:54.786452+00:00"
+    },
+    "doi:10.1109/tns.2026.3678753": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Self-Healing Architecture for RISC-V Soft Core Processor in SRAM-Based FPGAs Using Dynamic Partial Reconfiguration",
+      "updated_at": "2026-11-02T18:18:05.600094+00:00"
+    },
+    "doi:10.1109/tns.2026.3684010": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "RISC-V Proton Reliability Assessment Using Redundancy and Optimization Techniques on Bare Metal and Linux",
+      "updated_at": "2026-11-02T18:18:05.624544+00:00"
+    },
     "doi:10.1109/trustcom66490.2025.00350": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -2431,6 +2535,14 @@
       "status": "rejected",
       "title": "Towards Stateless Post-Quantum Remote Attestation for IoT Using TPM and DICE",
       "updated_at": "2026-10-31T14:14:51.028061+00:00"
+    },
+    "doi:10.1109/tvlsi.2026.3690450": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "FPUltra: An Area-Efficient Single-Precision Floating-Point Unit for Cost-Sensitive RISC-V Cores",
+      "updated_at": "2026-11-02T18:18:14.721115+00:00"
     },
     "doi:10.1109/tvlsi.2026.3690749": {
       "category": "secondaire",
@@ -2471,6 +2583,14 @@
       "status": "rejected",
       "title": "Exploiting the Pico Cell as a PUF and TRNG Reconfigurable Entropy Source",
       "updated_at": "2026-11-01T02:15:02.252663+00:00"
+    },
+    "doi:10.1109/tvt.2026.3674144": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "D2DAP: Provably Secure and Efficient Drone-to-Drone Authentication Protocol Using Threshold Cryptography and PUF",
+      "updated_at": "2026-11-02T18:16:50.490904+00:00"
     },
     "doi:10.1109/vlsi-soc70418.2026.11740562": {
       "category": "hors_sujet",
@@ -3392,6 +3512,14 @@
       "title": "Hardware Evaluation of a Lightweight Secure Communication Protocol for Constrained IoT Devices",
       "updated_at": "2026-11-02T14:00:07.661694+00:00"
     },
+    "doi:10.14719/pst.14116": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Foliar supplements improve physio-biochemical responses and root Brix in sugar beet under water deficit condition",
+      "updated_at": "2026-11-02T18:17:44.725767+00:00"
+    },
     "doi:10.14722/ndss.2025.230253": {
       "category": "coeur",
       "decision": "conserver",
@@ -3471,6 +3599,14 @@
       "status": "imported",
       "title": "EXIA: Trusted Transitions for Enclaves via External-Input Attestation",
       "updated_at": "2026-10-31T23:15:43.289748+00:00"
+    },
+    "doi:10.1515/9783112232613-011": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "17411 IoT and embedded device exploitation: Owning the fabric of the connected world",
+      "updated_at": "2026-11-02T18:18:54.734155+00:00"
     },
     "doi:10.15222/tkea2026.1.32": {
       "category": "secondaire",
@@ -3719,6 +3855,14 @@
       "status": "rejected",
       "title": "Eco-ITAD: On-Premise Automated Hardware Diagnostics and Scope 3 Carbon Accounting for Sustainable IT Asset Disposition",
       "updated_at": "2026-11-02T16:17:27.895195+00:00"
+    },
+    "doi:10.21203/rs.3.rs-10548507/v1": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "From Village Control to Corporate Enclave: Tourism Governance and Livelihood Resilience in Indonesia",
+      "updated_at": "2026-11-02T18:18:34.601285+00:00"
     },
     "doi:10.21203/rs.3.rs-10644580/v1": {
       "category": "hors_sujet",
@@ -4519,6 +4663,14 @@
       "status": "rejected",
       "title": "The Hardware Isolation Gap: A Systematic Survey of BitLocker Forensics in the TPM 2.0 Era",
       "updated_at": "2026-11-01T17:16:24.094234+00:00"
+    },
+    "doi:10.3390/electronics15153393": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Experimental Evaluation of Wildcard Subscription Impact on MQTT Broker Performance, Stability, and Security Under Authenticated High-Load IoT Conditions",
+      "updated_at": "2026-11-02T18:16:34.423424+00:00"
     },
     "doi:10.3390/electronics15163635": {
       "category": "coeur",

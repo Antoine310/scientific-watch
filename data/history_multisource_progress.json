@@ -1,8 +1,8 @@
 {
   "accepted": 24,
   "completed": false,
-  "cursor": "MTc4NTc2NTExMTAwMCwxMC4yODkyNCUyRjIyOTEtODYzOS0yNC0yMDI2LTIyNg==",
-  "evaluated": 451,
+  "cursor": "*",
+  "evaluated": 470,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -25,623 +25,17 @@
     "monthly/2026-09/query-21 : résultat tronqué au plafond 12 pages",
     "monthly/2026-09/query-22 : résultat tronqué au plafond 12 pages",
     "monthly/2026-09/query-23 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-09/query-24 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-09/query-24 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-08/query-13 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-08/query-14 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-08/query-15 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-08",
   "needs_publish": false,
-  "offset": 440,
-  "pages_done": 334,
-  "pages_in_query": 11,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {
-          "(#)": [
-            103
-          ],
-          "(+)": [
-            100
-          ],
-          "(IoT)": [
-            8
-          ],
-          "A": [
-            82
-          ],
-          "Although": [
-            22
-          ],
-          "CPU": [
-            116,
-            144
-          ],
-          "Existing": [
-            45
-          ],
-          "Internet": [
-            5
-          ],
-          "IoT": [
-            228
-          ],
-          "MQTT": [
-            0,
-            79,
-            213
-          ],
-          "Multi-level": [
-            153
-          ],
-          "Performance": [
-            110
-          ],
-          "TLS-based": [
-            86
-          ],
-          "The": [
-            127,
-            183
-          ],
-          "These": [
-            202
-          ],
-          "Things": [
-            7
-          ],
-          "This": [
-            65
-          ],
-          "a": [
-            58,
-            68,
-            209
-          ],
-          "access": [
-            90,
-            190
-          ],
-          "also": [
-            185
-          ],
-          "an": [
-            77
-          ],
-          "and": [
-            16,
-            34,
-            88,
-            101,
-            124,
-            143,
-            149,
-            162,
-            217,
-            219,
-            226
-          ],
-          "architecture": [
-            15
-          ],
-          "at": [
-            166
-          ],
-          "authenticated": [
-            37,
-            78
-          ],
-          "authentication": [
-            87
-          ],
-          "authorization": [
-            125,
-            197
-          ],
-          "because": [
-            10
-          ],
-          "been": [
-            42
-          ],
-          "behavior": [
-            75
-          ],
-          "broad": [
-            188
-          ],
-          "broker": [
-            31,
-            54,
-            122,
-            150,
-            164,
-            215
-          ],
-          "broker’s": [
-            179
-          ],
-          "capacity.": [
-            152
-          ],
-          "combined": [
-            63
-          ],
-          "compare": [
-            95
-          ],
-          "complexity": [
-            134,
-            207
-          ],
-          "comprehensively": [
-            43
-          ],
-          "compresses": [
-            177
-          ],
-          "conditions": [
-            39
-          ],
-          "configured.": [
-            201
-          ],
-          "consistently": [
-            156
-          ],
-          "control": [
-            91,
-            191
-          ],
-          "controlled": [
-            83
-          ],
-          "critical": [
-            210
-          ],
-          "degradation": [
-            161
-          ],
-          "delivery": [
-            119
-          ],
-          "demonstrate": [
-            130,
-            204
-          ],
-          "demonstrating": [
-            173
-          ],
-          "density": [
-            176
-          ],
-          "designing": [
-            224
-          ],
-          "determinant": [
-            211
-          ],
-          "devices.": [
-            21
-          ],
-          "effects.": [
-            64
-          ],
-          "efficient": [
-            17,
-            225
-          ],
-          "employing": [
-            85
-          ],
-          "end-to-end": [
-            114
-          ],
-          "environment.": [
-            81
-          ],
-          "evaluate": [
-            48
-          ],
-          "evaluated": [
-            112
-          ],
-          "evaluation": [
-            71
-          ],
-          "exact-topic": [
-            96,
-            171
-          ],
-          "exhibited": [
-            157
-          ],
-          "experimental": [
-            70,
-            128
-          ],
-          "experiments": [
-            184
-          ],
-          "exposure.": [
-            126
-          ],
-          "findings": [
-            203
-          ],
-          "for": [
-            19,
-            223
-          ],
-          "greatest": [
-            159
-          ],
-          "guidance": [
-            222
-          ],
-          "has": [
-            40
-          ],
-          "high-load": [
-            38
-          ],
-          "higher": [
-            141
-          ],
-          "impact": [
-            29
-          ],
-          "improperly": [
-            200
-          ],
-          "in": [
-            4,
-            76,
-            140
-          ],
-          "increase": [
-            193
-          ],
-          "increases": [
-            136
-          ],
-          "increasing": [
-            108,
-            132
-          ],
-          "independently,": [
-            56
-          ],
-          "infrastructures.": [
-            230
-          ],
-          "investigated.": [
-            44
-          ],
-          "is": [
-            1,
-            208
-          ],
-          "its": [
-            12
-          ],
-          "latency": [
-            142
-          ],
-          "latency,": [
-            115
-          ],
-          "leakage": [
-            198
-          ],
-          "leaving": [
-            57
-          ],
-          "levels": [
-            169
-          ],
-          "lightweight": [
-            13
-          ],
-          "limited": [
-            59
-          ],
-          "lower": [
-            167
-          ],
-          "management,": [
-            27
-          ],
-          "mechanisms,": [
-            52
-          ],
-          "messaging": [
-            229
-          ],
-          "multi-level": [
-            102
-          ],
-          "not": [
-            41
-          ],
-          "of": [
-            6,
-            11,
-            61,
-            72,
-            196,
-            212
-          ],
-          "on": [
-            30
-          ],
-          "operational": [
-            180
-          ],
-          "or": [
-            53
-          ],
-          "overhead,": [
-            138
-          ],
-          "paper": [
-            66
-          ],
-          "performance": [
-            160
-          ],
-          "performance,": [
-            32,
-            50
-          ],
-          "policies": [
-            192
-          ],
-          "practical": [
-            221
-          ],
-          "presents": [
-            67
-          ],
-          "progressively": [
-            107
-          ],
-          "provide": [
-            220
-          ],
-          "publish–subscribe": [
-            14
-          ],
-          "rate,": [
-            121
-          ],
-          "reached": [
-            163
-          ],
-          "reducing": [
-            147
-          ],
-          "region.": [
-            182
-          ],
-          "resource-constrained": [
-            20
-          ],
-          "resulting": [
-            139
-          ],
-          "results": [
-            129
-          ],
-          "risk": [
-            195
-          ],
-          "role-based": [
-            89
-          ],
-          "routing": [
-            49,
-            137
-          ],
-          "saturation": [
-            165
-          ],
-          "scalability": [
-            55
-          ],
-          "scalability,": [
-            214
-          ],
-          "secure": [
-            227
-          ],
-          "security": [
-            35,
-            51
-          ],
-          "security,": [
-            218
-          ],
-          "service": [
-            151
-          ],
-          "show": [
-            186
-          ],
-          "significantly": [
-            135
-          ],
-          "simplify": [
-            25
-          ],
-          "single-level": [
-            99
-          ],
-          "stability": [
-            181
-          ],
-          "stability,": [
-            33,
-            123,
-            216
-          ],
-          "studies": [
-            46
-          ],
-          "subscription": [
-            74
-          ],
-          "subscriptions": [
-            24,
-            97,
-            105,
-            155
-          ],
-          "subscriptions,": [
-            172
-          ],
-          "success": [
-            120
-          ],
-          "support": [
-            18
-          ],
-          "systematic": [
-            69
-          ],
-          "systems": [
-            9
-          ],
-          "testbed": [
-            84
-          ],
-          "than": [
-            170
-          ],
-          "that": [
-            131,
-            174,
-            187,
-            205
-          ],
-          "the": [
-            158,
-            178,
-            194
-          ],
-          "their": [
-            28,
-            62
-          ],
-          "throughput": [
-            148
-          ],
-          "throughput,": [
-            118
-          ],
-          "to": [
-            94
-          ],
-          "topic": [
-            26
-          ],
-          "typically": [
-            47
-          ],
-          "under": [
-            36,
-            106
-          ],
-          "understanding": [
-            60
-          ],
-          "used": [
-            3,
-            93
-          ],
-          "using": [
-            113
-          ],
-          "utilization": [
-            145
-          ],
-          "utilization,": [
-            117
-          ],
-          "v5": [
-            80
-          ],
-          "was": [
-            92,
-            111
-          ],
-          "when": [
-            199
-          ],
-          "while": [
-            146
-          ],
-          "widely": [
-            2
-          ],
-          "wildcard": [
-            23,
-            73,
-            104,
-            154,
-            175
-          ],
-          "wildcard-based": [
-            189
-          ],
-          "wildcard-subscription": [
-            133,
-            206
-          ],
-          "with": [
-            98
-          ],
-          "workload": [
-            168
-          ],
-          "workloads.": [
-            109
-          ]
-        },
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Nael M. Radwan"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Frederick T. Sheldon"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Terence Soule"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.3390/electronics15153393",
-        "id": "https://doi.org/10.3390/electronics15153393",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.3390/electronics15153393"
-        },
-        "publication_date": "2026-08-01",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2026-08-01",
-        "title": "Experimental Evaluation of Wildcard Subscription Impact on MQTT Broker Performance, Stability, and Security Under Authenticated High-Load IoT Conditions"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T01 — Root of Trust & Secure Boot"
-      ]
-    }
-  ],
+  "offset": 0,
+  "pages_done": 359,
+  "pages_in_query": 0,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -1523,10 +917,74 @@
       "publication_date": "2026-08-03",
       "source": "crossref",
       "title": "Fail-Slow Hardware Failure Bug Analysis and Detection for Cloud Systems"
+    },
+    {
+      "doi": "https://doi.org/10.62056/avl86cy6b",
+      "identity": "title:lowerboundsontheperformanceofhardwarecircuitscomputingthemobiustransform",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-08-03",
+      "source": "crossref",
+      "title": "Lower bounds on the performance of hardware circuits computing the Möbius transform"
+    },
+    {
+      "doi": "https://doi.org/10.1038/s41598-026-63454-7",
+      "identity": "title:secureandreliableswiptinactiverisaideddownlinknomawithhardwareimpairments",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-08-04",
+      "source": "crossref",
+      "title": "Secure and reliable SWIPT in active RIS-aided downlink NOMA with hardware impairments"
+    },
+    {
+      "doi": "https://doi.org/10.2196/85480",
+      "identity": "title:optimizingweblinksusedindigitalvaccinationinvitationstoraisetrustandbookingintention3onlinerandomizedcontrolledtrials",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-08-25",
+      "source": "crossref",
+      "title": "Optimizing Web Links Used in Digital Vaccination Invitations to Raise Trust and Booking Intention: 3 Online Randomized Controlled Trials"
+    },
+    {
+      "doi": "https://doi.org/10.18103/mra.2026.0476",
+      "identity": "title:frompredictiontotrustcontinuoushumanrealityverificationandruntimeadmissibilityasfoundationsofaigovernanceinhealthcare",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-08-31",
+      "source": "crossref",
+      "title": "From Prediction to Trust: Continuous Human Reality Verification and Runtime Admissibility as Foundations of AI Governance in Healthcare"
+    },
+    {
+      "doi": "https://doi.org/10.1145/3816253",
+      "identity": "title:aconfigurableriscvcoprocessorwithinstructioncontrolledstreambasedaccelerators",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-08-12",
+      "source": "crossref",
+      "title": "A Configurable RISC-V Co-Processor with Instruction-Controlled Stream-Based Accelerators"
+    },
+    {
+      "doi": "https://doi.org/10.1002/spy2.70242",
+      "identity": "title:dnabasedzeroknowledgecryptographyusingbiochemicallyencodedgraphisomorphism",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-08-04",
+      "source": "crossref",
+      "title": "DNA‐Based Zero‐Knowledge Cryptography Using Biochemically Encoded Graph Isomorphism"
+    },
+    {
+      "doi": "https://doi.org/10.3390/signals7040075",
+      "identity": "title:anopensourceevaluationframeworkforriscvcodesignbaseddecimalarithmetic",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-08-04",
+      "source": "crossref",
+      "title": "An Open-Source Evaluation Framework for RISC-V Co-Design-Based Decimal Arithmetic"
+    },
+    {
+      "doi": "https://doi.org/10.5194/isprs-archives-xlix-b4-2026-243-2026",
+      "identity": "title:researchonstrengthenthesupervisionandadministrationofgeographicinformationsecurityanddatagovernance",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-08-04",
+      "source": "crossref",
+      "title": "Research on Strengthen the Supervision and Administration of Geographic Information Security and Data Governance"
     }
   ],
-  "query_index": 13,
+  "query_index": 16,
   "secondary": 21,
-  "skipped": 360,
+  "skipped": 378,
   "version": 1
 }
