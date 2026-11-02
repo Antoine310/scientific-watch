@@ -1,20 +1,22 @@
 {
   "accepted": 6,
   "completed": false,
-  "cursor": "MTc3OTk1MjAwMjAwMCwxMC4xMDE2JTJGai5hc3QuMjAyNi4xMTI3MDU=",
-  "evaluated": 178,
+  "cursor": "MTc4MTA0ODIyODAwMCwxMC4xMDE2JTJGai5icmFpbnJlcy4yMDI2LjE1MDQyNw==",
+  "evaluated": 184,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-15 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-16 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-10/query-18 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-10/query-18 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-10/query-19 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-10/query-20 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-10",
   "needs_publish": false,
-  "offset": 120,
-  "pages_done": 87,
-  "pages_in_query": 3,
+  "offset": 160,
+  "pages_done": 112,
+  "pages_in_query": 4,
   "pending": [],
   "phase": "monthly",
   "prefilter_review": [
@@ -65,10 +67,26 @@
       "publication_date": "2026-10-26",
       "source": "crossref",
       "title": "The human side of international arbitration (part 1): automation bias in international arbitration"
+    },
+    {
+      "doi": "https://doi.org/10.1117/12.3113867",
+      "identity": "title:opticalchannelmonitordimensioningformultirailroadmanageofinformationapproach",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-09",
+      "source": "crossref",
+      "title": "Optical channel monitor dimensioning for multi-rail ROADM: an age of information approach"
+    },
+    {
+      "doi": "https://doi.org/10.1117/12.3113819",
+      "identity": "title:insitudistributedmonitoringofchemicallyinducedinternaldeformationincementitiousmaterialsduringsulfateattackusingembeddedfiberopticsensing",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-09",
+      "source": "crossref",
+      "title": "In situ distributed monitoring of chemically induced internal deformation in cementitious materials during sulfate attack using embedded fiber-optic sensing"
     }
   ],
-  "query_index": 19,
+  "query_index": 21,
   "secondary": 8,
-  "skipped": 53,
+  "skipped": 62,
   "version": 1
 }
