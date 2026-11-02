@@ -40,7 +40,12 @@ def _extract_new_titles(patch, path):
         match = re.match(r'^##\s+(?:\d+\.\s*)?(.+)$', line)
         if match:
             title = match.group(1).strip()
-            if title and not re.match(r'(?:Articles secondaires|Publications principales|Résumé|Table des matières)', title, re.I):
+            # Ignore les intitulés de sections (notamment Scholar avec emojis).
+            normalized = re.sub(r'[^a-z0-9 ]+', ' ', title.casefold())
+            normalized = re.sub(r'\s+', ' ', normalized).strip()
+            headings = ('articles secondaires', 'publications principales', 'resume',
+                        'table des matieres', 'dernieres publications', 'bibliographie historique')
+            if title and not any(heading in normalized for heading in headings):
                 titles.append(title)
             continue
         # Tableau des articles secondaires : | 65/100 | titre | lien |
@@ -89,15 +94,7 @@ def build_fragment(changes, articles):
         '## Accès rapide', '',
         '[Rapports hebdomadaires](reports/) · [Bibliographie historique](historical/) · '
         '[Conférences](conferences/README.md) · [Google Scholar](scholar/README.md)', '',
-        '## Dernières mises à jour', '',
-    ]
-    if changes:
-        lines += ['| Date | Rubrique | Fichier |', '| --- | --- | --- |']
-        for date, kind, path in changes:
-            lines.append(f'| {date} | {_escape(kind)} | [Consulter]({path}) |')
-    else:
-        lines.append('Aucune modification des rubriques détectée sur les sept derniers jours.')
-    lines += ['', '## Dernières publications ajoutées', '',
+        '## Dernières publications ajoutées', '',
               '> Dates d’ajout sur GitHub (et non dates de publication scientifique). '
               'Liste fondée sur les ajouts visibles dans les commits récents.', '']
     if articles:
