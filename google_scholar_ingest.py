@@ -224,9 +224,22 @@ def process(apply, candidates, states, review):
     records = load(PRIMARY_FILE, {})
     secondary = load(SECONDARY_FILE, {})
     scholar_records = load(SCHOLAR_FILE, {})
-    titles, dois = core.existing_items() if apply else (set(), set())
+    # Même en aperçu : interroger Notion en lecture seule pour identifier les articles
+    # déjà publiés par la veille quotidienne avant tout appel Gemini.
+    try:
+        titles, dois = core.existing_items()
+        print(f'Déduplication Notion : {len(titles)} titre(s) connu(s).')
+    except Exception as exc:
+        # En mode réel on préfère s'arrêter plutôt que de risquer des doublons.
+        raise RuntimeError('Impossible de vérifier les doublons Notion ; aucun article évalué : ' + str(exc)) from exc
     local_titles = {normalized(r.get('title')) for d in (records, secondary, scholar_records)
-                    for r in d.values()}
+                    for r in d.values() if isinstance(r, dict)}
+    # Le cache garde également le titre de publications déjà évaluées.
+    # La clé du cache repose parfois sur le DOI ou l'URL, différente du lien Scholar.
+    for row in cache.get('articles', {}).values():
+        if isinstance(row, dict) and row.get('title'):
+            local_titles.add(normalized(row['title']))
+    notion_titles = {normalized(t) for t in titles}
     processed = published = 0
     for item in candidates:
         key = item['key']
@@ -237,7 +250,9 @@ def process(apply, candidates, states, review):
         print(f"• {item['title'][:115]}")
         if (normalized(item['title']) in local_titles or cachelib.done(cache, paper)
                 or identity in records or identity in secondary
-                or identity in scholar_records or normalized(item['title']) in {normalized(t) for t in titles}):
+                or identity in scholar_records or normalized(item['title']) in notion_titles
+                or (doi_from_link(item['url']).lower() and
+                    doi_from_link(item['url']).lower() in {str(d).lower().removeprefix('https://doi.org/') for d in dois})):
             print('  → déjà connu')
             if apply:
                 states['items'][key] = 'already_known'
@@ -262,7 +277,7 @@ def process(apply, candidates, states, review):
                    str(decision.get('decision', '')).casefold() in ('conserver', 'consigner', 'examiner'))
         if primary:
             # Confirmation in Notion just before write. No invented publication date.
-            if normalized(item['title']) not in {normalized(t) for t in titles}:
+            if normalized(item['title']) not in notion_titles:
                 if not core.WRITE_NOTION:
                     raise RuntimeError('WRITE_NOTION doit être true en mode réel')
                 detail = core.analyze_detail(record)
@@ -273,6 +288,7 @@ def process(apply, candidates, states, review):
                     'summary': detail.get('resume_court', ''), 'group': 'primary',
                 }
                 titles.add(core.norm(item['title']))
+                notion_titles.add(normalized(item['title']))
                 local_titles.add(normalized(item['title']))
                 status = 'imported'
                 published += 1
