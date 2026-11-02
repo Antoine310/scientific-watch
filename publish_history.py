@@ -51,7 +51,8 @@ def build_month(year_month, rows, secondary_rows=None):
 
 def index_region(existing, months):
     begin, end = '<!-- SCIENTIFIC-WATCH-HISTORY:START -->', '<!-- SCIENTIFIC-WATCH-HISTORY:END -->'
-    lines = ['## Bibliographie historique (depuis janvier 2025)', '',
+    first_year = min((int(ym[:4]) for ym in months), default=2025)
+    lines = [f'## Bibliographie historique (depuis janvier {first_year})', '',
              'Ces archives sont enrichies progressivement. Le rattrapage OpenAlex n’est pas exhaustif.', '']
     for ym, count in sorted(months.items(), reverse=True):
         year, month = ym.split('-')
@@ -88,3 +89,5 @@ def publish(records, secondary_records=None):
     old, _ = gh.get_file('README.md')
     gh.put_file('README.md', index_region(old, {ym: len(grouped.get(ym, [])) for ym in set(grouped) | set(secondary_grouped)}),
                 'Mise à jour index historique')
+    import dashboard_readme
+    dashboard_readme.refresh(gh)
