@@ -1,8 +1,8 @@
 {
   "accepted": 6,
   "completed": false,
-  "cursor": "MTc4MTA0ODIyODAwMCwxMC4xMDE2JTJGai5icmFpbnJlcy4yMDI2LjE1MDQyNw==",
-  "evaluated": 184,
+  "cursor": "MTc5MjA1ODg1NzAwMCwxMC4xMjAxJTJGOTc4MTc3OTY0MTUzMy0xMQ==",
+  "evaluated": 190,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -10,13 +10,15 @@
     "monthly/2026-10/query-16 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-19 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-10/query-20 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-10/query-20 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-10/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-10/query-22 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-10",
   "needs_publish": false,
-  "offset": 160,
-  "pages_done": 112,
-  "pages_in_query": 4,
+  "offset": 200,
+  "pages_done": 137,
+  "pages_in_query": 5,
   "pending": [],
   "phase": "monthly",
   "prefilter_review": [
@@ -83,10 +85,186 @@
       "publication_date": "2026-10-09",
       "source": "crossref",
       "title": "In situ distributed monitoring of chemically induced internal deformation in cementitious materials during sulfate attack using embedded fiber-optic sensing"
+    },
+    {
+      "doi": "https://doi.org/10.26599/nr.2026.94908844",
+      "identity": "title:rapidlaserinducedambientsynthesisofhighlycrystallineagcu2onanowirenetworksforreconfigurablephotoelectrochemicallogicandhardwareencryptedcommunication",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-01",
+      "source": "crossref",
+      "title": "Rapid laser-induced ambient synthesis of highly crystalline Ag@Cu 2 O nanowire networks for reconfigurable photoelectrochemical logic and hardware-encrypted communication"
+    },
+    {
+      "doi": "https://doi.org/10.1142/s0218126626450052",
+      "identity": "title:retentionawareriscvisaextensionandmemorycontrolleronfpgaformlcnvm",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-10",
+      "source": "crossref",
+      "title": "Retention-Aware RISC-V ISA Extension and Memory Controller on FPGA for MLC NVM"
+    },
+    {
+      "doi": "https://doi.org/10.31399/asm.cp.istfa2026p0315",
+      "identity": "title:overcomingdatascarcityandconfidentialityinhardwareassuranceviasyntheticgeneration",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-04",
+      "source": "crossref",
+      "title": "Overcoming Data Scarcity and Confidentiality in Hardware Assurance via Synthetic Generation"
+    },
+    {
+      "doi": "https://doi.org/10.5121/ijci.2026.150501",
+      "identity": "title:asynthesisbasedmethodfordesignspaceexplorationinhighlevelsynthesisofriscvrv32immicroprocessors",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-25",
+      "source": "crossref",
+      "title": "A Synthesis-based Method for Design Space Exploration in High-Level Synthesis of RISC-V RV32IM Microprocessors"
+    },
+    {
+      "doi": "https://doi.org/10.11591/eei.v15i5.11999",
+      "identity": "title:droidranhardwarebehaviordatasetformultistageandroidransomwaredetection",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-01",
+      "source": "crossref",
+      "title": "DroidRan: hardware behavior dataset for multi-stage android ransomware detection"
+    },
+    {
+      "doi": "https://doi.org/10.46299/j.isjea.20260505.07",
+      "identity": "title:інтегрованаархітектураdigitaltwinтаhardwareintheloopдляпромисловихкіберфізичнихсистем",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-01",
+      "source": "crossref",
+      "title": "ІНТЕГРОВАНА АРХІТЕКТУРА DIGITAL TWIN ТА HARDWARE-IN-THE-LOOP ДЛЯ ПРОМИСЛОВИХ КІБЕРФІЗИЧНИХ СИСТЕМ"
+    },
+    {
+      "doi": "https://doi.org/10.3390/computers15100667",
+      "identity": "title:quinnquantizedinferenceanddataflowcharacterizationforneuralnetworksonriscvnearmemoryarchitectures",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-01",
+      "source": "crossref",
+      "title": "QUINN: Quantized Inference and Dataflow Characterization for Neural Networks on RISC-V Near-Memory Architectures"
+    },
+    {
+      "doi": "https://doi.org/10.1145/3849876",
+      "identity": "title:simtsimexploitinghardwareplatformparallelismforgpgpuinstructionsetsimulation",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-27",
+      "source": "crossref",
+      "title": "SIMTSim: Exploiting Hardware Platform Parallelism for GPGPU Instruction Set Simulation"
+    },
+    {
+      "doi": "https://doi.org/10.1145/3839517",
+      "identity": "title:zsafeprovingthesafetyofproprietaryhardwaredesignsinzeroknowledge",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-01",
+      "source": "crossref",
+      "title": "ZSafe: Proving the Safety of Proprietary Hardware Designs in Zero Knowledge"
+    },
+    {
+      "doi": "https://doi.org/10.1145/3832226",
+      "identity": "title:towardsunderstandingthebugsinverilatorahardwaredescriptionlanguagecompiler",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-01",
+      "source": "crossref",
+      "title": "Towards Understanding the Bugs in Verilator, a Hardware Description Language Compiler"
+    },
+    {
+      "doi": "https://doi.org/10.54536/ajaset.v10i3.8544",
+      "identity": "title:evaluatingtheimpactofcomputationalperceptionarchitecturesonautonomousvehiclesafetythroughhardwareintheloopanalysisofprocessinglatencyandstoppingdistance",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-03",
+      "source": "crossref",
+      "title": "Evaluating the Impact of Computational Perception Architectures on Autonomous Vehicle Safety Through Hardware in the Loop Analysis of Processing Latency andStopping Distance"
+    },
+    {
+      "doi": "https://doi.org/10.1145/3849815",
+      "identity": "title:thegpuresiliencelotteryunderstandingandtamingrealworldhardwareerrorsinheterogeneousaiinfrastructure",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-26",
+      "source": "crossref",
+      "title": "The GPU Resilience Lottery: Understanding and Taming Real-World Hardware Errors in Heterogeneous AI Infrastructure"
+    },
+    {
+      "doi": "https://doi.org/10.37394/23201.2026.25.32",
+      "identity": "title:hardwareawaremathematicalandnumericalevaluationoflifizhikevichanddigitalspikingneuronmodelsforlowcostneuromorphicimplementation",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-05",
+      "source": "crossref",
+      "title": "Hardware-Aware Mathematical and Numerical Evaluation of LIF, Izhikevich, and Digital Spiking Neuron Models for Low-Cost Neuromorphic Implementation"
+    },
+    {
+      "doi": "https://doi.org/10.64898/2026.10.03.26364667",
+      "identity": "title:extractionofclinicalinformationfromfaxedmedicalrecordsusingasmalllocallargelanguagemodelpipelineonconsumerhardware",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-05",
+      "source": "crossref",
+      "title": "Extraction of clinical information from faxed medical records using a small local large language model pipeline on consumer hardware"
+    },
+    {
+      "doi": "https://doi.org/10.1364/opticaopen.33977833",
+      "identity": "title:designandimplementationofacustomriscvinstructionforspadnoiserejection",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-07",
+      "source": "crossref",
+      "title": "Design and Implementation of a Custom RISC-V Instruction for SPAD Noise Rejection"
+    },
+    {
+      "doi": "https://doi.org/10.3390/s26196320",
+      "identity": "title:ascenariobasedhardwareintheloopplatformforrealtimeroadloademulationonproductionmicromobilitydrives",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-07",
+      "source": "crossref",
+      "title": "A Scenario-Based Hardware-in-the-Loop Platform for Real-Time Road-Load Emulation on Production Micromobility Drives"
+    },
+    {
+      "doi": "https://doi.org/10.32370/iaj.3472",
+      "identity": "title:riscvin2026areviewoftheopeninstructionsetecosystemanditsroleincomputerarchitectureeducation",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-08",
+      "source": "crossref",
+      "title": "RISC-V in 2026: A Review of the Open Instruction Set Ecosystem and Its Role in Computer Architecture Education"
+    },
+    {
+      "doi": "https://doi.org/10.1007/s42484-026-00459-5",
+      "identity": "title:physicsinspiredgenerativeaimodelsviarealhardwarebasednoisyquantumdiffusion",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-09",
+      "source": "crossref",
+      "title": "Physics-inspired Generative AI models via real hardware-based noisy quantum diffusion"
+    },
+    {
+      "doi": "https://doi.org/10.2478/jee-2026-0052",
+      "identity": "title:securegnsstelemetryonesp32usingkinematicvalidationadaptiveloggingandhardwareacceleratedaesencryption",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-01",
+      "source": "crossref",
+      "title": "Secure GNSS telemetry on ESP32 using kinematic validation, adaptive logging, and hardware-accelerated AES encryption"
+    },
+    {
+      "doi": "https://doi.org/10.1609/aies.v9i1.43137",
+      "identity": "title:hardwareisanaiethicsproblemexpertvisionsforasustainableandequitablesemiconductorindustry",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-11",
+      "source": "crossref",
+      "title": "Hardware Is an AI Ethics Problem: Expert Visions for a Sustainable and Equitable Semiconductor Industry"
+    },
+    {
+      "doi": "https://doi.org/10.1111/echo.70591",
+      "identity": "title:aclinicianledfeasibilitystudyforechocardiographicviewclassificationusingstandardworkstationhardwareandroutineclinicalarchives",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-11",
+      "source": "crossref",
+      "title": "A Clinician‐Led Feasibility Study for Echocardiographic View Classification Using Standard Workstation Hardware and Routine Clinical Archives"
+    },
+    {
+      "doi": "https://doi.org/10.21203/rs.3.rs-11082690/v1",
+      "identity": "title:portablesimdaccelerationofsparselinearalgebralibrariesonriscv",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-14",
+      "source": "crossref",
+      "title": "Portable SIMD Acceleration of Sparse Linear Algebra Libraries on RISC-V"
     }
   ],
-  "query_index": 21,
+  "query_index": 23,
   "secondary": 8,
-  "skipped": 62,
+  "skipped": 106,
   "version": 1
 }
