@@ -1,8 +1,8 @@
 {
   "accepted": 36,
   "completed": false,
-  "cursor": "MTc4MDY4ODMwMzAwMCwxMC4xMTA5JTJGdGVkLjIwMjYuMzY5NzcwOA==",
-  "evaluated": 736,
+  "cursor": "*",
+  "evaluated": 739,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -43,13 +43,16 @@
     "monthly/2026-07/query-15 : résultat tronqué au plafond 12 pages",
     "monthly/2026-07/query-16 : résultat tronqué au plafond 12 pages",
     "monthly/2026-07/query-17 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-07/query-18 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-07/query-18 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-07/query-19 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-07/query-20 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-07/query-21 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-07",
   "needs_publish": false,
-  "offset": 440,
-  "pages_done": 563,
-  "pages_in_query": 11,
+  "offset": 0,
+  "pages_done": 588,
+  "pages_in_query": 0,
   "pending": [],
   "phase": "monthly",
   "prefilter_review": [
@@ -1654,8 +1657,8 @@
       "title": "Building Stream-based Page Cache to Accelerate File Scanning on Fast Storage Devices"
     }
   ],
-  "query_index": 19,
+  "query_index": 22,
   "secondary": 28,
-  "skipped": 591,
+  "skipped": 604,
   "version": 1
 }
