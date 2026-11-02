@@ -160,6 +160,14 @@
       "title": "Cross-Core Covert Channel for RISC-V: Implementation, Countermeasures and Cross-Platform Analysis",
       "updated_at": "2026-11-01T02:13:51.934842+00:00"
     },
+    "doi:10.1007/978-3-032-32578-5_20": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "RESPEC-CFA: Representation-Aware Speculative Control Flow Attestation",
+      "updated_at": "2026-11-02T02:15:22.023622+00:00"
+    },
     "doi:10.1007/978-3-032-36885-0_21": {
       "category": "coeur",
       "decision": "conserver",
@@ -191,6 +199,14 @@
       "status": "rejected",
       "title": "Bridging remote attestation and secure software updates in embedded systems",
       "updated_at": "2026-11-01T08:14:44.687608+00:00"
+    },
+    "doi:10.1007/s10586-026-06361-w": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Securing data confidentiality for on-device inference using multi-enclave trusted execution environments",
+      "updated_at": "2026-11-02T02:14:42.719434+00:00"
     },
     "doi:10.1007/s10836-025-06169-3": {
       "category": "secondaire",
@@ -271,6 +287,14 @@
       "status": "imported",
       "title": "μTEE: Certification-ready RISC-V platform for secure IIoT lifecycle management",
       "updated_at": "2026-11-01T05:14:24.538113+00:00"
+    },
+    "doi:10.1016/j.iot.2026.102018": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Corrigendum to “μTEE: Certification-ready RISC-V platform for secure IIoT lifecycle management” [Internet of Things 36 (2026) 101885]",
+      "updated_at": "2026-11-02T02:14:22.822627+00:00"
     },
     "doi:10.1016/j.memori.2026.100138": {
       "category": "hors_sujet",
@@ -359,6 +383,14 @@
       "status": "rejected",
       "title": "Kernel-based response extraction approach for efficient configurable ring oscillator PUF",
       "updated_at": "2026-10-30T10:02:20.516876+00:00"
+    },
+    "doi:10.1038/s41598-026-56676-2": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "A lightweight hash-based quantum-resistant bidirectional authentication protocol for IoT devices integrating physical unclonable functions",
+      "updated_at": "2026-11-02T02:13:32.492060+00:00"
     },
     "doi:10.1038/s44335-025-00027-3": {
       "category": "secondaire",
@@ -1552,6 +1584,14 @@
       "title": "EXIA: Trusted Transitions for Enclaves via External-Input Attestation",
       "updated_at": "2026-10-31T23:15:43.289748+00:00"
     },
+    "doi:10.15222/tkea2026.1.32": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Hardware software true random number generator based on a semiconductor photodiode array and logical combinations of cellular automata",
+      "updated_at": "2026-11-02T02:13:43.310587+00:00"
+    },
     "doi:10.15803/ijnc.16.2_118": {
       "category": "secondaire",
       "decision": "examiner",
@@ -1575,6 +1615,14 @@
       "status": "imported",
       "title": "Efficient Memory Protection Method for Large-Scale Host-Enclave Data Transfer on Keystone Enclave",
       "updated_at": "2026-10-31T20:13:43.059788+00:00"
+    },
+    "doi:10.17487/rfc9999": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Remote ATtestation procedureS (RATS) Conceptual Message Wrapper (CMW)",
+      "updated_at": "2026-11-02T02:14:32.362930+00:00"
     },
     "doi:10.17559/tv-20241010002048": {
       "category": "secondaire",
@@ -1767,6 +1815,30 @@
       "status": "rejected",
       "title": "Extending RISC-V Trusted Execution Environments to flexibly support multiple page sizes",
       "updated_at": "2026-11-01T23:13:24.515624+00:00"
+    },
+    "doi:10.26240/heal.ntua.33017": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Διερεύνηση πιστοποίησης πολλαπλών διεργασιών σε RISC-V Edge συσκευές με χρήση μετα-κβαντικής κρυπτογραφίας",
+      "updated_at": "2026-11-02T02:14:12.573271+00:00"
+    },
+    "doi:10.26577/rcph972202612": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Characterizing Environmental Thermal Fluctuations for Use in True Random Number Generators",
+      "updated_at": "2026-11-02T02:13:43.310593+00:00"
+    },
+    "doi:10.29132/ijpas.1804208": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Design and analysis of an arduino-based low-cost true random number generator",
+      "updated_at": "2026-11-02T02:13:43.310590+00:00"
     },
     "doi:10.31474/1996-1588-2026-2-43-252-263": {
       "category": "secondaire",
@@ -2064,6 +2136,14 @@
       "title": "Dorami: Privilege Separating Security Monitor on RISC-V TEEs",
       "updated_at": "2026-10-30T09:42:58.671962+00:00"
     },
+    "doi:10.4018/979-8-3373-0990-3.ch006": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "PUFs and TRNGs for Hardware-Based Authentication and Security",
+      "updated_at": "2026-11-02T02:13:43.310568+00:00"
+    },
     "doi:10.4108/eetss.v9i1.2854": {
       "category": "secondaire",
       "decision": "examiner",
@@ -2111,6 +2191,14 @@
       "status": "imported",
       "title": "Physical Memory Please: Practical Memory-Aliasing Attacks on RISC-V PMP",
       "updated_at": "2026-11-01T05:14:25.083971+00:00"
+    },
+    "doi:10.47533/2026.1606-146x.2-12": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Analysis of the use of secure enclave and blockchain for securing electronic document management",
+      "updated_at": "2026-11-02T02:13:43.310596+00:00"
     },
     "doi:10.48550/arxiv.2501.11207": {
       "category": "coeur",
@@ -2320,6 +2408,14 @@
       "title": "Implement Kubernetes Pod-Level Remote Attestation for Confidential Workloads on dstack",
       "updated_at": "2026-11-01T23:14:23.612825+00:00"
     },
+    "doi:10.48550/arxiv.2606.12011": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "InjectV: Modeling Fault Injection Attacks in RISC-V Simulation Environment",
+      "updated_at": "2026-11-02T02:13:22.151660+00:00"
+    },
     "doi:10.48550/arxiv.2606.12259": {
       "category": "coeur",
       "decision": "conserver",
@@ -2335,6 +2431,38 @@
       "status": "rejected",
       "title": "Guarded Equivalence Predicates for Scalable Formal Hardware Information-Flow Verification",
       "updated_at": "2026-11-01T23:14:43.324349+00:00"
+    },
+    "doi:10.48550/arxiv.2606.26177": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "CVA6-RT: an Open-Source Time-Predictable RV64 Processor for Mixed-Criticality Systems",
+      "updated_at": "2026-11-02T02:14:03.567321+00:00"
+    },
+    "doi:10.48550/arxiv.2607.07625": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Embedded Blockchain Infrastructure Management (eBIM): A RISC-V-Empowered Hardware--Software Co-Design Framework Towards Trustworthy Blockchain",
+      "updated_at": "2026-11-02T02:14:12.573291+00:00"
+    },
+    "doi:10.48550/arxiv.2607.07926": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "KS-CFA: Control-Flow Attestation via Symbolic Replay Against Control-Flow Bending Attacks",
+      "updated_at": "2026-11-02T02:15:14.383501+00:00"
+    },
+    "doi:10.48550/arxiv.2607.23698": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "SMARM+: Analyzing and Enhancing Shuffled Measurements for Remote Attestation in Real-Time IoT Settings",
+      "updated_at": "2026-11-02T02:15:13.191680+00:00"
     },
     "doi:10.48550/arxiv.2610.12695": {
       "category": "coeur",
@@ -2415,6 +2543,22 @@
       "status": "rejected",
       "title": "Temporal Physical Unclonable Function (T-PUF): A Time-Irreversible Hardware Security Architecture Beyond Mathematical Hardness Assumptions",
       "updated_at": "2026-11-01T20:14:29.992251+00:00"
+    },
+    "doi:10.5281/zenodo.21216080": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Technology Mapping of ARM And RISC-V Embedded Architectures for Internet of Things Applications: A Systematic Literature Review",
+      "updated_at": "2026-11-02T02:14:22.822647+00:00"
+    },
+    "doi:10.5281/zenodo.21334865": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Confidential Computing and Trusted Execution Environments: A Survey of Technologies",
+      "updated_at": "2026-11-02T02:14:54.139842+00:00"
     },
     "doi:10.5281/zenodo.22287556": {
       "category": "coeur",
@@ -2551,6 +2695,14 @@
       "status": "rejected",
       "title": "A Novel Quantum-Based Authentication Method for IoT Devices using Quantum Physical Unclonable Functions",
       "updated_at": "2026-11-01T17:14:50.020336+00:00"
+    },
+    "doi:10.59256/ijsreat.20260604015": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "FPGA Realization and Performance Evaluation of a 64-Bit RISC-V Processor",
+      "updated_at": "2026-11-02T02:14:22.822643+00:00"
     },
     "doi:10.59256/ijsreat.20260605006": {
       "category": "hors_sujet",
@@ -2712,6 +2864,14 @@
       "title": "Enforcing RISC-V TEE Security Against Cache Timing Attacks",
       "updated_at": "2026-10-30T20:15:41.595928+00:00"
     },
+    "title:fpgabasedlightweighthybridphysicalunclonablefunctionforsecuredeviceauthenticationusingarbiterandringoscillatorarchitectures": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "FPGA-BASED LIGHTWEIGHT HYBRID PHYSICAL UNCLONABLE FUNCTION FOR SECURE DEVICE AUTHENTICATION USING ARBITER AND RING OSCILLATOR ARCHITECTURES",
+      "updated_at": "2026-11-02T02:13:32.492038+00:00"
+    },
     "title:fpgabasedprototypingandperformanceanalysisofalinuxcapableriscvsoc": {
       "category": "coeur",
       "decision": "conserver",
@@ -2847,6 +3007,14 @@
       "status": "rejected",
       "title": "Tractable, Not Truncated: Colored-Noise TRNG Security via Fractional Brownian Motion",
       "updated_at": "2026-10-31T07:10:38.187460+00:00"
+    },
+    "title:warpguardtowardscontrolflowattestationforheterogeneouscpugpuexecution": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "WarpGuard: Towards Control-Flow Attestation for Heterogeneous CPU-GPU Execution",
+      "updated_at": "2026-11-02T02:15:03.335968+00:00"
     }
   },
   "version": 1

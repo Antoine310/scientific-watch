@@ -919,6 +919,26 @@
     ],
     "title": "Partitioned Tags, Shared Data: Reconciling Strict Cache Isolation with Write-Shared Coherence"
   },
+  "doi:10.48550/arxiv.2606.26177": {
+    "publication_date": "2026-06-24",
+    "score": 75,
+    "source": "https://arxiv.org/abs/2606.26177",
+    "summary": "Ce travail présente CVA6-RT, une extension microarchitecturale temps réel du processeur CVA6 visant à borner la latence dans le pire des cas et à réduire la variabilité d'exécution des tâches pour les systèmes à criticité mixte.",
+    "themes": [
+      "T12 — Advanced Memory Architectures"
+    ],
+    "title": "CVA6-RT: an Open-Source Time-Predictable RV64 Processor for Mixed-Criticality Systems"
+  },
+  "doi:10.48550/arxiv.2607.07926": {
+    "publication_date": "2026-07-08",
+    "score": 95,
+    "source": "https://arxiv.org/abs/2607.07926",
+    "summary": "Cet article présente KS-CFA, un nouveau schéma d'attestation de flux de contrôle (CFA) conçu pour détecter les attaques par détournement de flux de contrôle (CFB) sans nécessiter de modifications matérielles de bas niveau ni l'énumération de vastes espaces de mesure. L'approche combine l'exécution symbolique et l'identification sélective de variables dépendantes du flux de contrôle et provenant d'entrées externes, mises en œuvre au sein d'un environnement d'exécution de confiance (TEE) sur RISC-V.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "KS-CFA: Control-Flow Attestation via Symbolic Replay Against Control-Flow Bending Attacks"
+  },
   "doi:10.5220/0013518800003979": {
     "publication_date": "2025-01-01",
     "score": 80,
@@ -938,6 +958,16 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Detection of Meltdown and Spectre A paper Review"
+  },
+  "doi:10.5281/zenodo.21334865": {
+    "publication_date": "2026-07-13",
+    "score": 85,
+    "source": "https://doi.org/10.5281/zenodo.21334865",
+    "summary": "Cet article de synthèse (survey) examine le paysage technologique, les motivations et le modèle de menace du Confidential Computing. Il étudie les environnements d'exécution de confiance (TEE) basés matériel, comparant les enclaves de processus et les machines virtuelles confidentielles (Intel SGX, TDX, AMD SEV, Arm TrustZone/CCA, RISC-V Keystone). Il aborde également l'attestation à distance, les racines de confiance matérielles (RoT), les cas d'usage, ainsi que l'analyse de sécurité incluant les attaques par canal auxiliaire et d'exécution transitoire.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Confidential Computing and Trusted Execution Environments: A Survey of Technologies"
   },
   "doi:10.5281/zenodo.22287556": {
     "publication_date": "2026-05-25",
