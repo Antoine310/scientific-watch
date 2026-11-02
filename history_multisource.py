@@ -1,4 +1,3 @@
-
 """Rattrapage bibliographique multibase (2026-10 -> 2016-01).
 
 Sources : arXiv et Crossref par mois ; DBLP (recherche globale) et IACR
@@ -205,28 +204,63 @@ def canonical_title(title):
     return cachelib.key({'title': title})
 
 
+# Préfiltre commun à arXiv, Crossref, DBLP et IACR ePrint.
+# Priorité au rappel (ne pas rater les bons papiers), sans confondre « social »
+# avec « SoC », « trust » humain avec RoT, ou « cache » logiciel avec cache CPU.
+# Les regex utilisent des frontières de mots : pas de sous-chaînes ambiguës.
+_STRONG_SIGNALS = [re.compile(pattern, re.I) for pattern in (
+    r"\b(?:hardware|silicon|device)\s+root\s+of\s+trust\b",
+    r"\broot\s+of\s+trust\b",
+    r"\b(?:secure|measured|trusted|verified)\s+boot\b",
+    r"\b(?:hardware|remote|runtime|run-time|continuous|control[- ]flow|execution)\s+attestation\b",
+    r"\b(?:trusted\s+execution(?:\s+environment)?|secure\s+enclave|security\s+monitor)\b",
+    r"\b(?:risc[- ]?v|opentitan|cva6|ariane\s+core|penglai|caliptra|dice\s+attestation)\b",
+    r"\b(?:keystone|sanctum|sanctorum|dorami)\b(?=.*\b(?:enclave|risc|processor|tee|security|hardware|isolat|architecture)\b)",
+    r"\b(?:microarchitectur\w*\s+(?:side[- ]channel|attack|leak|security|vulnerabilit)|processor\s+side[- ]channel)\b",
+    r"\b(?:cache\s+(?:side[- ]channel|timing|attack|isolation|partition|leak)|cpu\s+cache\s+attack)\b",
+    r"\b(?:prime\s*\+\s*probe|flush\s*\+\s*reload|spectre|meltdown|transient\s+execution)\b",
+    r"\b(?:memory\s+integrity|memory\s+encryption|hardware\s+isolation|secure\s+processor)\b",
+    r"\b(?:hardware|processor|microarchitectural)\s+security\b",
+    r"\bphysical\s+unclonable\s+function\b",
+    r"\b(?:hardware|cpu|processor|cache|microarchitectural|cryptographic)\s+side[- ]channel\b",
+    r"\b(?:fault\s+injection|voltage\s+glitching)\b(?=.*\b(?:risc|processor|chip|hardware|secure\s+boot|root\s+of\s+trust)\b)",
+)]
+
+_COMPUTING_HARDWARE = re.compile(
+    r"\b(?:hardware|processor\w*|cpu|gpu|microarchitectur\w*|firmware|"
+    r"(?:system[- ]on[- ](?:a[- ])?chip)|soc|chip\w*|silicon|rtl|fpga|asic|"
+    r"vlsi|microcontroller\w*|embedded|cache\w*|llc|tlb|"
+    r"computer\s+architecture|instruction\s+set|trusted\s+computing|"
+    r"memory\s+(?:subsystem|controller|protection|integrity|encryption)|"
+    r"secure\s+element|cryptographic\s+accelerator)\b", re.I)
+_SECURITY_TECH = re.compile(
+    r"\b(?:secur\w*|vulnerab\w*|attack\w*|side[- ]channel\w*|"
+    r"leak\w*|mitigat\w*|defen\w*|protect\w*|isolat\w*|"
+    r"attest\w*|confidential\w*|integrity|threat\w*|exploit\w*|"
+    r"privileg\w*|verif\w*|authenticat\w*|cryptograph\w*|"
+    r"fault[- ]inject\w*|trust(?:ed)?|tamper\w*)\b", re.I)
+
+
 def relevant(paper):
-    """Préfiltre permissif sur TITRE ET ABSTRACT, pas un classement final."""
-    t = core.norm(paper.get('title', ''))
-    a = core.norm(core.abstract(paper.get('abstract_inverted_index')))
-    both = t + ' ' + a
-    if len(t) < 7:
+    """Préfiltre permissif commun à toutes les sources (titre + résumé).
+
+    Ne décide PAS de la pertinence finale : Gemini reste le juge. Les signaux
+    génériques doivent être associés à du matériel informatique réel.
+    Un article sans résumé peut passer grâce à son titre technique.
+    """
+    title = core.norm(paper.get('title', ''))
+    abstract = core.norm(core.abstract(paper.get('abstract_inverted_index')))
+    if len(title) < 7:
         return False
-    direct = (
-        'root of trust', 'secure boot', 'measured boot', 'trusted boot',
-        'risc-v', 'riscv', 'opentitan', 'cva6', 'keystone', 'sanctum',
-        'hardware attestation', 'runtime attestation', 'control-flow attestation',
-        'trusted execution', 'enclave', 'security monitor',
-        'microarchitectur', 'side channel', 'side-channel', 'spectre', 'meltdown',
-        'prime+probe', 'flush+reload', 'cache timing', 'memory integrity',
-        'hardware security', 'processor security', 'hardware isolation',
-        'secure processor', 'physical unclonable function',
-    )
-    if any(term in both for term in direct):
+    text = title + ' ' + abstract
+    # Exclure le KV-cache logiciel de LLM (pas les attaques de cache CPU).
+    if (re.search(r'\b(?:kv[- ]cache|prefix[- ]cache)\b', text)
+            and re.search(r'\b(?:llm|large language model|transformer|inference)\b', text)
+            and not re.search(r'\b(?:cpu|processor|microarchitectur\w*|l1|l2|llc|risc[- ]?v|enclave|tee)\b|prime\s*\+\s*probe|flush\s*\+\s*reload', text)):
+        return False
+    if any(pattern.search(text) for pattern in _STRONG_SIGNALS):
         return True
-    # Association de concepts (avec abstracts) plutôt qu'un titre imposé.
-    return (any(x in both for x in ('hardware', 'processor', 'cpu', 'microarchitecture', 'firmware', 'soc'))
-            and any(x in both for x in ('security', 'attack', 'isolation', 'trust', 'attestation', 'leakage', 'side channel')))
+    return bool(_COMPUTING_HARDWARE.search(text) and _SECURITY_TECH.search(text))
 
 
 def arxiv_page(ym, query, offset):
@@ -540,7 +574,9 @@ def main():
             print('Aucun fichier modifié, aucun appel Gemini/Notion.')
             return
         candidates = [p for p in papers if p.get('publication_date') and relevant(p)]
-        print(f'APERÇU : {src} : {raw} résultats, {len(candidates)} candidats ayant une date précise et un signal technique.')
+        filtered = sum(bool(p.get('publication_date')) and not relevant(p) for p in papers)
+        print(f'APERÇU : {src} : {raw} résultats, {len(candidates)} candidats ayant une date précise et un signal technique, '
+              f'{filtered} écarté(s) par le préfiltre technique.')
         for p in candidates[:8]:
             print(' -', p['publication_date'], p['title'][:135])
         print('Aucun fichier modifié, aucun appel Gemini/Notion.')
@@ -596,25 +632,37 @@ def main():
         if src == 'arxiv':
             state.pop('arxiv_pause_until', None)
         pages += 1
+        # DBLP manque souvent d'abstract : filtrer d'abord au titre, puis
+        # enrichir uniquement les DOI des candidats (évite les appels Crossref inutiles).
+        dblp_prefiltered = 0
         if src == 'dblp':
-            papers = [enrich_dblp_date(p) for p in papers if p.get('title') and relevant(p)]
+            selected = [p for p in papers if p.get('title') and relevant(p)]
+            dblp_prefiltered = len(papers) - len(selected)
+            papers = [enrich_dblp_date(p) for p in selected]
         print(f'PAGE {pages}/{MAX_PAGES} : {task_description(state)} -> {raw_count} résultats')
+        filter_counts = {'sans_date': 0, 'hors_periode': 0, 'non_technique': dblp_prefiltered,
+                         'deja_connu': 0, 'doublon_page': 0}
         queued = []
         known_names, known_dois = known_papers(cache, titles, dois, records, secondary)
         in_page = set()
         for paper in papers:
             d = paper.get('publication_date', '')
             if not re.fullmatch(r'\d{4}-\d{2}-\d{2}', d or ''):
+                filter_counts['sans_date'] += 1
                 continue  # Année seule : ne pas fabriquer un mois/une date.
             if not '2016-01-01' <= d <= '2026-10-31':
+                filter_counts['hors_periode'] += 1
                 continue
             if not paper.get('title') or not relevant(paper):
+                filter_counts['non_technique'] += 1
                 continue
             if is_known(paper, cache, titles, dois, known_names, known_dois):
                 state['skipped'] += 1
+                filter_counts['deja_connu'] += 1
                 continue
             title_key = canonical_title(paper['title'])
             if title_key in in_page:
+                filter_counts['doublon_page'] += 1
                 continue
             in_page.add(title_key)
             theme = ((MONTHLY_TASKS[state['query_index']][1] if state['phase'] == 'monthly' else
@@ -626,7 +674,9 @@ def main():
         state['pending'] = queued
         finish_page(state, src, raw_count, finished, cursor)
         persist(state, cache, records, secondary)
-        print('  ->', len(queued), 'candidat(s) en file. Prochaine étape :', task_description(state))
+        print('  ->', len(queued), 'candidat(s) en file.',
+              'Filtre :', ', '.join(f'{label}={count}' for label, count in filter_counts.items()),
+              '| prochaine étape :', task_description(state))
         # Même si nous venons d'avancer le mois ou la source, les candidats sont
         # autoportants et peuvent être traités sans relire le thème précédent.
     if state['pending']:
