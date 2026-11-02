@@ -55,7 +55,7 @@ def _extract_new_titles(patch, path):
     return titles
 
 
-def get_activity(gh, *, days=7, max_commits=40, max_details=25):
+def get_activity(gh, *, days=7, max_commits=100, max_details=60):
     since = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat(timespec='seconds').replace('+00:00', 'Z')
     query = urllib.parse.urlencode({'since': since, 'per_page': max_commits})
     commits = gh.request_json(f'https://api.github.com/repos/{gh.REPO}/commits?{query}', headers=gh.github_headers())
@@ -86,7 +86,7 @@ def get_activity(gh, *, days=7, max_commits=40, max_details=25):
                     continue
                 articles.append((date, title, kind, path))
                 seen_articles.add(key)
-    return changes[:5], articles[:5]
+    return changes[:5], articles
 
 
 def build_fragment(changes, articles):
@@ -97,12 +97,21 @@ def build_fragment(changes, articles):
         '## Dernières publications ajoutées', '',
               '> Dates d’ajout sur GitHub (et non dates de publication scientifique). '
               'Liste fondée sur les ajouts visibles dans les commits récents.', '']
-    if articles:
-        lines += ['| Ajout | Publication | Source |', '| --- | --- | --- |']
-        for date, title, kind, path in articles:
-            lines.append(f'| {date} | [{_escape(title)}]({path}) | {_escape(kind)} |')
-    else:
-        lines.append('Aucun nouvel article identifiable dans les commits récents.')
+    recent = [a for a in articles if a[2] in ('Google Scholar', 'Rapport hebdomadaire')][:5]
+    historical = [a for a in articles if a[2] == 'Bibliographie historique'][:5]
+
+    def add_table(title, items):
+        lines.extend([f'### {title}', ''])
+        if not items:
+            lines.extend(['Aucune nouvelle publication identifiable cette semaine.', ''])
+            return
+        lines.extend(['| Ajout | Publication | Source |', '| --- | --- | --- |'])
+        for date, article_title, kind, path in items:
+            lines.append(f'| {date} | [{_escape(article_title)}]({path}) | {_escape(kind)} |')
+        lines.append('')
+
+    add_table('Google Scholar et veille scientifique', recent)
+    add_table('Bibliographie historique', historical)
     return '\n'.join(lines).rstrip() + '\n'
 
 
