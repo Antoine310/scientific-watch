@@ -1,8 +1,8 @@
 {
-  "accepted": 36,
+  "accepted": 38,
   "completed": false,
-  "cursor": "*",
-  "evaluated": 739,
+  "cursor": "MTc4NzI1MjcwMDAwMCwxMC4xMTA5JTJGY29tcHNhYzY5MDkxLjIwMjYuMDAwNTg=",
+  "evaluated": 764,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -46,14 +46,130 @@
     "monthly/2026-07/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2026-07/query-19 : résultat tronqué au plafond 12 pages",
     "monthly/2026-07/query-20 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-07/query-21 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-07/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-07/query-22 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-07",
   "needs_publish": false,
-  "offset": 0,
-  "pages_done": 588,
-  "pages_in_query": 0,
-  "pending": [],
+  "offset": 440,
+  "pages_done": 611,
+  "pages_in_query": 11,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "J Aishwarya"
+            }
+          },
+          {
+            "author": {
+              "display_name": "R Karan"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Prajwal Hanamantraya Barikai"
+            }
+          },
+          {
+            "author": {
+              "display_name": "G Harsha"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Aaryadesh"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/icdcece68961.2026.11645786",
+        "id": "https://doi.org/10.1109/icdcece68961.2026.11645786",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/icdcece68961.2026.11645786"
+        },
+        "publication_date": "2026-07-01",
+        "publication_date_note": "Date source Crossref : 2026-07 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2026-07",
+        "title": "VLSI Implementation of a Low-Power RISC-V Memory Management Accelerator for Sustainable Smart Systems"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Divyanshi Sharma"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sandeep Patel"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/itcindia70344.2026.11646502",
+        "id": "https://doi.org/10.1109/itcindia70344.2026.11646502",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/itcindia70344.2026.11646502"
+        },
+        "publication_date": "2026-07-01",
+        "publication_date_note": "Date source Crossref : 2026-07 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2026-07",
+        "title": "Assertion-Centric UVM Verification of a Fault-Injectable 32-Bit RISC-V ALU-IFU Subsystem"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Fujie Zhou"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Hui Li"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/compsac69091.2026.00058",
+        "id": "https://doi.org/10.1109/compsac69091.2026.00058",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/compsac69091.2026.00058"
+        },
+        "publication_date": "2026-07-01",
+        "publication_date_note": "Date source Crossref : 2026-07 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2026-07",
+        "title": "A Comprehensive Study of Build Failures in Real-World RISC-V Software Packages on Build Platforms"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -1655,10 +1771,18 @@
       "publication_date": "2026-07-25",
       "source": "crossref",
       "title": "Building Stream-based Page Cache to Accelerate File Scanning on Fast Storage Devices"
+    },
+    {
+      "doi": "https://doi.org/10.59256/ijsreat.20260604015",
+      "identity": "title:fpgarealizationandperformanceevaluationofa64bitriscvprocessor",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-07-27",
+      "source": "crossref",
+      "title": "FPGA Realization and Performance Evaluation of a 64-Bit RISC-V Processor"
     }
   ],
-  "query_index": 22,
+  "query_index": 23,
   "secondary": 28,
-  "skipped": 604,
+  "skipped": 715,
   "version": 1
 }

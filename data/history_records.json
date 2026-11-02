@@ -323,6 +323,19 @@
     ],
     "title": "DRsam: Detection of Fault-Based Microarchitectural Side-Channel Attacks in RISC-V Using Statistical Preprocessing and Association Rule Mining"
   },
+  "doi:10.1109/iolts69666.2026.11633845": {
+    "publication_date": "2026-07-01",
+    "publication_date_note": "Date source Crossref : 2026-07 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2026-07",
+    "score": 85,
+    "source": "https://doi.org/10.1109/iolts69666.2026.11633845",
+    "summary": "non disponible dans les métadonnées",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "Microarchitectural Analysis of Speculative Execution Patterns in RISC-V using Machine Learning and ISA-Level Masking Wrappers"
+  },
   "doi:10.1109/iolts69666.2026.11633860": {
     "publication_date": "2026-07-01",
     "score": 85,
@@ -1000,6 +1013,19 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Novel Microarchitectural Side-Channel Attacks on Open-Source RISC-V Cores"
+  },
+  "doi:10.3390/computers15070440": {
+    "publication_date": "2026-07-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-07-10",
+    "score": 85,
+    "source": "https://doi.org/10.3390/computers15070440",
+    "summary": "Cet article présente une revue de la portée (scoping review) de la sécurité liée à la gestion des exceptions dans l'architecture RISC-V. Il analyse comment les pièges (traps), les transitions de privilèges, les registres de contrôle et les routines de traitement peuvent devenir des surfaces d'attaque lorsque leur protection est insuffisante. L'étude organise la littérature autour d'un cycle de vie des exceptions en cinq étapes et cartographie les attaques et défenses documentées.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "From RISC to Risk: Exception Handling as a Gateway to Exploitation"
   },
   "doi:10.3390/computers15080479": {
     "publication_date": "2026-07-28",
