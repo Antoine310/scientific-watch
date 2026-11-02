@@ -1,8 +1,8 @@
 {
   "accepted": 11,
   "completed": false,
-  "cursor": "MTc4OTU5NjA3MzAwMCwxMC4yNDk2MyUyRmlqY2FpLjIwMjYlMkY3MDU=",
-  "evaluated": 307,
+  "cursor": "MTc5MTI4ODA3ODAwMCwxMC4xMDAyJTJGOTc4MTM5NDM0MDgyOC5jaDA0",
+  "evaluated": 332,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -21,544 +21,10 @@
   ],
   "month": "2026-09",
   "needs_publish": false,
-  "offset": 280,
-  "pages_done": 221,
-  "pages_in_query": 7,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {
-          "(CWE)": [
-            85
-          ],
-          "(LLMs)": [
-            3
-          ],
-          "(RTL)": [
-            75
-          ],
-          "76": [
-            80
-          ],
-          "924": [
-            68
-          ],
-          "C,": [
-            78
-          ],
-          "Common": [
-            82
-          ],
-          "Each": [
-            87
-          ],
-          "Enumeration": [
-            84
-          ],
-          "HardSecBench,": [
-            64
-          ],
-          "However,": [
-            24
-          ],
-          "In": [
-            59
-          ],
-          "LLM-assisted": [
-            161
-          ],
-          "LLM-generated": [
-            25
-          ],
-          "LLMs": [
-            126
-          ],
-          "Large": [
-            0
-          ],
-          "Level": [
-            74
-          ],
-          "Our": [
-            164
-          ],
-          "Register": [
-            72
-          ],
-          "These": [
-            148
-          ],
-          "This": [
-            42
-          ],
-          "To": [
-            100
-          ],
-          "Transfer": [
-            73
-          ],
-          "Verilog": [
-            71
-          ],
-          "We": [
-            123,
-            139
-          ],
-          "Weakness": [
-            83
-          ],
-          "a": [
-            50,
-            65,
-            90,
-            93,
-            106
-          ],
-          "actionable": [
-            155
-          ],
-          "advancements": [
-            159
-          ],
-          "after": [
-            40
-          ],
-          "also": [
-            140
-          ],
-          "and": [
-            9,
-            76,
-            97,
-            114,
-            127,
-            153,
-            166
-          ],
-          "appears": [
-            28
-          ],
-          "are": [
-            4,
-            168
-          ],
-          "artifact": [
-            102
-          ],
-          "assessing": [
-            53
-          ],
-          "at": [
-            170
-          ],
-          "automate": [
-            101
-          ],
-          "available": [
-            169
-          ],
-          "awareness": [
-            55
-          ],
-          "benchmark": [
-            51,
-            66
-          ],
-          "but": [
-            13
-          ],
-          "catastrophic": [
-            38
-          ],
-          "challenges": [
-            152
-          ],
-          "code": [
-            11,
-            26,
-            167
-          ],
-          "correctness": [
-            19
-          ],
-          "could": [
-            36
-          ],
-          "covering": [
-            79
-          ],
-          "critical": [
-            43
-          ],
-          "damages": [
-            39
-          ],
-          "data": [
-            165
-          ],
-          "decouples": [
-            110
-          ],
-          "deployment.": [
-            41
-          ],
-          "design": [
-            49
-          ],
-          "design.": [
-            163
-          ],
-          "diverse": [
-            125
-          ],
-          "embed": [
-            32
-          ],
-          "enabling": [
-            120
-          ],
-          "entries.": [
-            86
-          ],
-          "evaluate": [
-            17,
-            124
-          ],
-          "evaluation": [
-            116
-          ],
-          "evaluation.": [
-            122
-          ],
-          "evidence,": [
-            119
-          ],
-          "executable": [
-            98
-          ],
-          "execution": [
-            118
-          ],
-          "existing": [
-            14
-          ],
-          "find": [
-            128,
-            141
-          ],
-          "findings": [
-            149
-          ],
-          "firmware": [
-            10
-          ],
-          "firmware-level": [
-            77
-          ],
-          "flaws": [
-            34
-          ],
-          "for": [
-            7,
-            52,
-            157
-          ],
-          "from": [
-            112
-          ],
-          "functional": [
-            18,
-            133
-          ],
-          "functionally": [
-            29
-          ],
-          "future": [
-            158
-          ],
-          "gap": [
-            45
-          ],
-          "generation,": [
-            12
-          ],
-          "grounds": [
-            115
-          ],
-          "hardware": [
-            8,
-            162
-          ],
-          "hardware-relevant": [
-            81
-          ],
-          "highlight": [
-            150
-          ],
-          "https://github.com/chenqirui2002/HardSecBench.": [
-            171
-          ],
-          "implementation,": [
-            96
-          ],
-          "in": [
-            117,
-            160
-          ],
-          "includes": [
-            89
-          ],
-          "increasingly": [
-            5
-          ],
-          "induce": [
-            37
-          ],
-          "insights": [
-            156
-          ],
-          "introduce": [
-            63
-          ],
-          "language": [
-            1
-          ],
-          "largely": [
-            21
-          ],
-          "leaving": [
-            136
-          ],
-          "may": [
-            31
-          ],
-          "models": [
-            2
-          ],
-          "motivates": [
-            46
-          ],
-          "multi-agent": [
-            107
-          ],
-          "offer": [
-            154
-          ],
-          "often": [
-            131
-          ],
-          "overlooking": [
-            22
-          ],
-          "pipeline": [
-            108
-          ],
-          "pressing": [
-            151
-          ],
-          "primarily": [
-            16
-          ],
-          "prompting.": [
-            147
-          ],
-          "propose": [
-            105
-          ],
-          "realistic": [
-            57
-          ],
-          "reference": [
-            95
-          ],
-          "reliable": [
-            121
-          ],
-          "requirements": [
-            134
-          ],
-          "research": [
-            44
-          ],
-          "results": [
-            144
-          ],
-          "risks.": [
-            138
-          ],
-          "satisfy": [
-            132
-          ],
-          "secure": [
-            94
-          ],
-          "security": [
-            33,
-            54,
-            137,
-            143
-          ],
-          "security.": [
-            23
-          ],
-          "sound": [
-            30
-          ],
-          "spanning": [
-            70
-          ],
-          "specification,": [
-            92
-          ],
-          "specifications.": [
-            58
-          ],
-          "structured": [
-            91
-          ],
-          "studies": [
-            15
-          ],
-          "synthesis": [
-            111
-          ],
-          "synthesis,": [
-            103
-          ],
-          "task": [
-            88
-          ],
-          "tasks": [
-            69
-          ],
-          "tests.": [
-            99
-          ],
-          "that": [
-            27,
-            109,
-            129,
-            142
-          ],
-          "they": [
-            130
-          ],
-          "this": [
-            60
-          ],
-          "to": [
-            48
-          ],
-          "under": [
-            56
-          ],
-          "us": [
-            47
-          ],
-          "used": [
-            6
-          ],
-          "vary": [
-            145
-          ],
-          "verification": [
-            113
-          ],
-          "we": [
-            62,
-            104
-          ],
-          "which": [
-            35
-          ],
-          "while": [
-            20,
-            135
-          ],
-          "with": [
-            67,
-            146
-          ],
-          "work,": [
-            61
-          ]
-        },
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Qirui Chen"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jingxian Shuai"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Shuangwu Chen"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Shenghao Ye"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Zijian Wen"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Xufei Su"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jie Jin"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jiangming Li"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jun Chen"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Xiaobin Tan"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jian Yang"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.24963/ijcai.2026/57",
-        "id": "https://doi.org/10.24963/ijcai.2026/57",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.24963/ijcai.2026/57"
-        },
-        "publication_date": "2026-09-01",
-        "publication_date_note": "Date source Crossref : 2026-09 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2026-09",
-        "title": "HardSecBench: Benchmarking the Security Awareness of LLMs for Hardware Code Generation"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    }
-  ],
+  "offset": 440,
+  "pages_done": 225,
+  "pages_in_query": 11,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -1120,10 +586,146 @@
       "publication_date": "2026-09-16",
       "source": "crossref",
       "title": "Uncertainty-Aware Zero-Day Botnet Detection for IoT Networks with Real-World Edge Deployment on Resource-Constrained Hardware"
+    },
+    {
+      "doi": "https://doi.org/10.1097/ipc.0000000000001660",
+      "identity": "title:earlyversussalvagecombinationantistaphylococcaltherapyforstaphylococcusaureusbacteremia",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-16",
+      "source": "crossref",
+      "title": "Early Versus Salvage Combination Antistaphylococcal Therapy for Staphylococcus aureus Bacteremia"
+    },
+    {
+      "doi": "https://doi.org/10.24425/opelre.2026.6090",
+      "identity": "title:frominverseerrorfunctiontoresolutionenhancementhardwareefficientvirtualsubdivisioninsinglephotoncountingdetectors",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-17",
+      "source": "crossref",
+      "title": "From inverse error function to resolution enhancement: hardware-efficient virtual subdivision in single photon counting detectors"
+    },
+    {
+      "doi": "https://doi.org/10.1145/3847670",
+      "identity": "title:multiscaletemporalconvolutionwithattentionmechanismforhardwaretrojandetection",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-19",
+      "source": "crossref",
+      "title": "Multi-Scale Temporal Convolution with Attention Mechanism for Hardware Trojan Detection"
+    },
+    {
+      "doi": "https://doi.org/10.70577/cieninter.v4i3.133",
+      "identity": "title:disenodeunaarquitecturanubehibridadealtadisponibilidadparaelmonitoreosismicoregionalenellitoralecuatorianoanalisisderedyhardware",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-21",
+      "source": "crossref",
+      "title": "Diseño de una arquitectura nube-híbrida de alta disponibilidad para el monitoreo sísmico regional en el litoral ecuatoriano: análisis de red y hardware"
+    },
+    {
+      "doi": "https://doi.org/10.1007/s44443-026-01300-6",
+      "identity": "title:hardwareassistedzeroknowledgeauthenticationschemeforresourceconstrainediotterminalsusbkeyimplementationandevaluationbasedongsvole2dlc",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-22",
+      "source": "crossref",
+      "title": "Hardware-assisted zero-knowledge authentication scheme for resource-constrained IoT terminals: USBKEY implementation and evaluation based on GSVOLE-2DLC"
+    },
+    {
+      "doi": "https://doi.org/10.3390/s26196000",
+      "identity": "title:cloudedgecollaborativehardwaresensingwithdynamicreliabilityestimationandevidenceconstrainedlargelanguagemodelreasoning",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-22",
+      "source": "crossref",
+      "title": "Cloud–Edge Collaborative Hardware Sensing with Dynamic Reliability Estimation and Evidence-Constrained Large Language Model Reasoning"
+    },
+    {
+      "doi": "https://doi.org/10.15446/ing.investig.119497",
+      "identity": "title:asmimplementedinhardwaretoacceleratednaalignmenttoolsusingfpgasandhlstechnology",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-01",
+      "source": "crossref",
+      "title": "ASM implemented in hardware to accelerate DNA alignment tools using FPGAs and HLS technology"
+    },
+    {
+      "doi": "https://doi.org/10.31234/osf.io/d35fc_v1",
+      "identity": "title:chronometricnormalizationforbyoddigitalassessmentsseparatinghardwarelatencyfromcognitivefluency",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-23",
+      "source": "crossref",
+      "title": "Chronometric Normalization for BYOD Digital Assessments: Separating Hardware Latency from Cognitive Fluency"
+    },
+    {
+      "doi": "https://doi.org/10.29292/jics.v21i2.1178",
+      "identity": "title:physicaldesignofhardwareacceleratedpublishsubscribemiddlewareforembeddedsystems",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-15",
+      "source": "crossref",
+      "title": "Physical Design of Hardware-Accelerated Publish-Subscribe Middleware for Embedded Systems"
+    },
+    {
+      "doi": "https://doi.org/10.3390/electronics15194386",
+      "identity": "title:hardwareintegrityverificationthroughforensicreasoningusingmanufacturingimages",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-24",
+      "source": "crossref",
+      "title": "Hardware Integrity Verification Through Forensic Reasoning Using Manufacturing Images"
+    },
+    {
+      "doi": "https://doi.org/10.3390/technologies14100604",
+      "identity": "title:twostageversusonestagearchitecturesfordetectingsmalldistantgroundvehiclesonedgehardwareacontrolledmultiseedevaluationofaccuracyspeedandcorruptionrobustness",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-24",
+      "source": "crossref",
+      "title": "Two-Stage Versus One-Stage Architectures for Detecting Small, Distant Ground Vehicles on Edge Hardware: A Controlled Multi-Seed Evaluation of Accuracy, Speed, and Corruption Robustness"
+    },
+    {
+      "doi": "https://doi.org/10.1142/s0218127427500118",
+      "identity": "title:dynamicalanalysisandhardwareimplementationofanovelfractionalorderheterogeneoushopfieldneuralnetworkwithmemristivecoupling",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-24",
+      "source": "crossref",
+      "title": "Dynamical Analysis and Hardware Implementation of a Novel Fractional-Order Heterogeneous Hopfield Neural Network with Memristive Coupling"
+    },
+    {
+      "doi": "https://doi.org/10.3390/computers15100653",
+      "identity": "title:famiumgreenanautomatedhardwareintheloopframeworkforenergycharacterizationofvideostreamingdevices",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-25",
+      "source": "crossref",
+      "title": "FAMIUM Green: An Automated Hardware-in-the-Loop Framework for Energy Characterization of Video Streaming Devices"
+    },
+    {
+      "doi": "https://doi.org/10.26599/nr.2026.94909216",
+      "identity": "title:twodimensionaloptoelectronicneuromorphichardwareforvisualinsensorcomputingmechanismsintegrationandeventdrivenperception",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-24",
+      "source": "crossref",
+      "title": "Two-dimensional optoelectronic neuromorphic hardware for visual in-sensor computing: Mechanisms, integration, and event-driven perception"
+    },
+    {
+      "doi": "https://doi.org/10.3390/electronics15194481",
+      "identity": "title:anefficientbinaryfieldecchardwaredesignforansm2styledigitalsignatureflow",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-29",
+      "source": "crossref",
+      "title": "An Efficient Binary-Field ECC Hardware Design for an SM2-Style Digital Signature Flow"
+    },
+    {
+      "doi": "https://doi.org/10.65150/ep-gjetr/v2e9/2026-09",
+      "identity": "title:edgeoptimizedyoloarchitecturesforrealtimeautonomousvehicleperceptionahardwareawarecodesignframework",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-09",
+      "source": "crossref",
+      "title": "Edge-Optimized YOLO Architectures for Real-Time Autonomous Vehicle Perception: A Hardware-Aware Co-Design Framework"
+    },
+    {
+      "doi": "https://doi.org/10.1002/advs.78111",
+      "identity": "title:hardwareaccelerationofstochasticneuralnetworksenabledbybitcelllevelcodesignofmagnetictunneljunctions",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-30",
+      "source": "crossref",
+      "title": "Hardware Acceleration of Stochastic Neural Networks Enabled by Bit‐Cell Level Co‐Design of Magnetic Tunnel Junctions"
     }
   ],
   "query_index": 17,
   "secondary": 15,
-  "skipped": 216,
+  "skipped": 218,
   "version": 1
 }
