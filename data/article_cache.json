@@ -176,6 +176,14 @@
       "title": "Cross-Core Covert Channel for RISC-V: Implementation, Countermeasures and Cross-Platform Analysis",
       "updated_at": "2026-11-01T02:13:51.934842+00:00"
     },
+    "doi:10.1007/978-3-032-26919-5_29": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "A Comprehensive Review of Secure Boot Architectures in RISC-V and ARM Embedded Systems",
+      "updated_at": "2026-11-02T08:13:22.865401+00:00"
+    },
     "doi:10.1007/978-3-032-32578-5_20": {
       "category": "secondaire",
       "decision": "examiner",
@@ -736,6 +744,14 @@
       "title": "Towards Securing Smart Homes: A Practical SRAM PUF-Based Two-Factor Authentication Framework",
       "updated_at": "2026-10-31T02:13:31.872325+00:00"
     },
+    "doi:10.1109/iccubea69821.2026.11701843": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 55,
+      "status": "rejected",
+      "title": "Hardware Acceleration of CRYSTALS-Dilithium for Secure Booting on Shakti C-Class RISC-V Processor",
+      "updated_at": "2026-11-02T08:13:22.865425+00:00"
+    },
     "doi:10.1109/icdcs68853.2026.11510880": {
       "category": "coeur",
       "decision": "conserver",
@@ -991,6 +1007,14 @@
       "status": "rejected",
       "title": "From Colocation to Exfiltration: Practical Cache Side-Channel Attacks in the Modern Public Cloud",
       "updated_at": "2026-10-30T17:13:34.426937+00:00"
+    },
+    "doi:10.1109/mwscas67364.2026.11680855": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "2.5D Root of Trust: Securing the Chiplet Ecosystem",
+      "updated_at": "2026-11-02T08:13:33.560132+00:00"
     },
     "doi:10.1109/naecon65708.2025.11235410": {
       "category": "hors_sujet",
@@ -1776,6 +1800,14 @@
       "title": "Real-Time TRNG Health Monitoring with Higher-Order Proportion Testing and Rotating Pattern Detection at 500 MHz on FPGA",
       "updated_at": "2026-11-02T05:15:13.286929+00:00"
     },
+    "doi:10.21227/xxx6-v468": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "\"Microarchitectural Attack Detection Dataset (Spectre-v1, Spectre-v2, and Benign Workloads)\"",
+      "updated_at": "2026-11-02T08:14:43.776875+00:00"
+    },
     "doi:10.2139/ssrn.6556258": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -1911,6 +1943,14 @@
       "status": "rejected",
       "title": "Design and analysis of an arduino-based low-cost true random number generator",
       "updated_at": "2026-11-02T02:13:43.310590+00:00"
+    },
+    "doi:10.31224/7707": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Energy-Efficient & Privacy-Preserving Adaptive Post-Quantum Secure Boot for Low-Power RISC-V IoT: A Hardware-Agnostic Approach with Empirical Validation",
+      "updated_at": "2026-11-02T08:13:22.865436+00:00"
     },
     "doi:10.31474/1996-1588-2026-2-43-252-263": {
       "category": "secondaire",
@@ -2071,6 +2111,14 @@
       "status": "rejected",
       "title": "The Hardware Isolation Gap: A Systematic Survey of BitLocker Forensics in the TPM 2.0 Era",
       "updated_at": "2026-11-01T17:16:24.094234+00:00"
+    },
+    "doi:10.3390/electronics15163635": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "RAFALE: Runtime Attestation for Secure and Trustworthy Federated Learning on Edge Devices",
+      "updated_at": "2026-11-02T08:14:13.769134+00:00"
     },
     "doi:10.3390/engproc2025092023": {
       "category": "secondaire",
@@ -2584,6 +2632,38 @@
       "title": "SMARM+: Analyzing and Enhancing Shuffled Measurements for Remote Attestation in Real-Time IoT Settings",
       "updated_at": "2026-11-02T02:15:13.191680+00:00"
     },
+    "doi:10.48550/arxiv.2608.01938": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "D-MUTRA: DLT-based MUTual Remote Attestation for Multi-Agent Systems",
+      "updated_at": "2026-11-02T08:14:12.684946+00:00"
+    },
+    "doi:10.48550/arxiv.2608.09225": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 10,
+      "status": "rejected",
+      "title": "Governing the KV Cache: Preventing Timing Side-Channel Leakage in Multi-Tenant LLM Inference",
+      "updated_at": "2026-11-02T08:14:52.060004+00:00"
+    },
+    "doi:10.48550/arxiv.2608.20732": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 5,
+      "status": "rejected",
+      "title": "Uncovering and Understanding Hidden Dependencies in the LLM API Reseller Ecosystem via Prefix-Cache Side Channels",
+      "updated_at": "2026-11-02T08:14:52.059986+00:00"
+    },
+    "doi:10.48550/arxiv.2608.26367": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "PRISM: Lightweight Enclave Isolation with Prismatic Capabilities",
+      "updated_at": "2026-11-02T08:13:53.322035+00:00"
+    },
     "doi:10.48550/arxiv.2610.12695": {
       "category": "coeur",
       "decision": "conserver",
@@ -3095,6 +3175,14 @@
       "status": "imported",
       "title": "Leveraging gem5 and Machine Learning for End-to-End Detection of Cache-based Side-Channel Attack Patterns",
       "updated_at": "2026-10-31T08:14:21.666947+00:00"
+    },
+    "title:mstepasinglesteppingframeworkforsidechannelanalysisontrustzonem": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "M-Step: A Single-Stepping Framework for Side-Channel Analysis on TrustZone-M",
+      "updated_at": "2026-11-02T08:14:44.765253+00:00"
     },
     "title:openvgacontrollerfortheriscvwallycore": {
       "category": "hors_sujet",

@@ -339,6 +339,16 @@
     ],
     "title": "Differential Privacy for Secure Cache Partitioning: Promises, Limits, and Fixes"
   },
+  "doi:10.1109/mwscas67364.2026.11680855": {
+    "publication_date": "2026-08-01",
+    "score": 75,
+    "source": "https://doi.org/10.1109/mwscas67364.2026.11680855",
+    "summary": "Cette publication analyse les défis de sécurité des écosystèmes de chiplets 2.5D hétérogènes et multi-vendeurs intégrés via des interposeurs en silicium. L'article passe en revue les stratégies de défense contre les attaques d'interconnexion, les exploits de cohérence de cache et les canaux cachés microarchitecturaux, en proposant notamment un Root of Trust physique actif intégré dans l'interposeur.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "2.5D Root of Trust: Securing the Chiplet Ecosystem"
+  },
   "doi:10.1109/prdc67299.2025.00020": {
     "publication_date": "2025-11-03",
     "score": 90,
@@ -689,6 +699,16 @@
     ],
     "title": "Utilization of Secure Bootloaders in Embedded Systems for Ensuring Device Integrity and Preventing Firmware Tampering Through Cryptographic Validation Mechanisms"
   },
+  "doi:10.21227/xxx6-v468": {
+    "publication_date": "2026-08-09",
+    "score": 85,
+    "source": "https://doi.org/10.21227/xxx6-v468",
+    "summary": "Ce document présente un jeu de données de compteurs de performance matérielle (HPC) synchronisés et temporels, conçu pour la détection d'intrusions à base d'apprentissage automatique contre les vulnérabilités d'exécution spéculative (Spectre-v1 et Spectre-v2). Les mesures couvrent des charges de travail bénignes et malveillantes sur plusieurs architectures physiques (x86-64 et aarch64).",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "\"Microarchitectural Attack Detection Dataset (Spectre-v1, Spectre-v2, and Benign Workloads)\""
+  },
   "doi:10.23919/date69613.2026.11539674": {
     "publication_date": "2026-04-20",
     "score": 75,
@@ -758,6 +778,16 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "A Survey of RISC-V Secure Enclaves and Trusted Execution Environments"
+  },
+  "doi:10.3390/electronics15163635": {
+    "publication_date": "2026-08-15",
+    "score": 75,
+    "source": "https://doi.org/10.3390/electronics15163635",
+    "summary": "RAFALE est un système d'attestation à l'exécution conçu pour l'apprentissage fédéré (FL) sur des appareils en périphérie (edge devices). Il renforce l'intégrité en collectant des preuves d'exécution vérifiables pendant l'entraînement local (intégrité du flux de contrôle et compteurs de performance matérielle), qui sont ensuite traitées et signées via une application de confiance OP-TEE avant vérification par le serveur.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "RAFALE: Runtime Attestation for Secure and Trustworthy Federated Learning on Edge Devices"
   },
   "doi:10.3390/iot7020048": {
     "publication_date": "2026-06-12",
@@ -979,6 +1009,16 @@
     ],
     "title": "KS-CFA: Control-Flow Attestation via Symbolic Replay Against Control-Flow Bending Attacks"
   },
+  "doi:10.48550/arxiv.2608.26367": {
+    "publication_date": "2026-08-26",
+    "score": 85,
+    "source": "https://arxiv.org/abs/2608.26367",
+    "summary": "PRISM est une architecture d'environnement d'exécution de confiance (TEE) basée sur CHERI qui utilise des capacités prismatiques pour créer des enclaves en espace utilisateur. Elle résout les problèmes de révocation, de dépendance excessive au système d'exploitation hôte, de coût des transitions de domaine et d'absence d'attestation à distance, tout en maintenant un surcoût d'exécution modéré (<= 15%).",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "PRISM: Lightweight Enclave Isolation with Prismatic Capabilities"
+  },
   "doi:10.48676/unibo/amsdottorato/13054": {
     "publication_date": "2026-08-24",
     "score": 95,
@@ -1148,6 +1188,16 @@
       "T08 — Cache & Temporal Isolation"
     ],
     "title": "Leveraging gem5 and Machine Learning for End-to-End Detection of Cache-based Side-Channel Attack Patterns"
+  },
+  "title:mstepasinglesteppingframeworkforsidechannelanalysisontrustzonem": {
+    "publication_date": "2026-08-12",
+    "score": 80,
+    "source": "https://lirias.kuleuven.be/handle/20.500.12942/780353",
+    "summary": "Cet article présente M-Step, un framework d'attaque par pas à pas (single-stepping) open-source et extensible dédié à l'analyse par canaux cachés sur les environnements d'exécution de confiance (TEEs) TrustZone-M pour appareils IoT contraints. En exploitant le profilage des interruptions et les fuites liées à leur latence pour s'affranchir de l'absence de mémoire virtuelle sur Cortex-M, M-Step permet l'exécution instruction par instruction et démontre sa redoutable efficacité en extrayant des clés RSA complètes en une seule trace sur la bibliothèque Arm Mbed TLS.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "M-Step: A Single-Stepping Framework for Side-Channel Analysis on TrustZone-M"
   },
   "title:optimizingtlscryptographicoperationsonriscvsocwithopentitanrot": {
     "publication_date": "2025-01-01",
