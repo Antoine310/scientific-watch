@@ -1,8 +1,8 @@
 {
-  "accepted": 6,
+  "accepted": 9,
   "completed": false,
-  "cursor": "MTc5MjA1ODg1NzAwMCwxMC4xMjAxJTJGOTc4MTc3OTY0MTUzMy0xMQ==",
-  "evaluated": 190,
+  "cursor": "*",
+  "evaluated": 215,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -12,14 +12,1054 @@
     "monthly/2026-10/query-19 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-20 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-21 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-10/query-22 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-10/query-22 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-10/query-24 : résultat tronqué au plafond 12 pages"
   ],
-  "month": "2026-10",
+  "month": "2026-09",
   "needs_publish": false,
-  "offset": 200,
-  "pages_done": 137,
-  "pages_in_query": 5,
-  "pending": [],
+  "offset": 0,
+  "pages_done": 157,
+  "pages_in_query": 0,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "(NIST)": [
+            17
+          ],
+          "17.8x": [
+            160
+          ],
+          "22nm": [
+            141
+          ],
+          "58%": [
+            166
+          ],
+          "ASIC": [
+            97,
+            123,
+            149
+          ],
+          "Among": [
+            55
+          ],
+          "Compared": [
+            145
+          ],
+          "FD-SOI": [
+            142
+          ],
+          "FN-DSA": [
+            31
+          ],
+          "FN-DSA,": [
+            25
+          ],
+          "However,": [
+            70
+          ],
+          "Institute": [
+            12
+          ],
+          "ML-DSA": [
+            29
+          ],
+          "ML-DSA,": [
+            24
+          ],
+          "Mirath,": [
+            126
+          ],
+          "NIST": [
+            46
+          ],
+          "National": [
+            11
+          ],
+          "RISC-V-based": [
+            133
+          ],
+          "SLH-DSA": [
+            34,
+            148
+          ],
+          "SLH-DSA.": [
+            27,
+            54
+          ],
+          "Standards": [
+            14
+          ],
+          "TCitH-based": [
+            57,
+            128,
+            175
+          ],
+          "Technology": [
+            16
+          ],
+          "The": [
+            135
+          ],
+          "They": [
+            88
+          ],
+          "To": [
+            0,
+            39,
+            99
+          ],
+          "U.S.": [
+            10
+          ],
+          "While": [
+            28
+          ],
+          "a": [
+            105,
+            127,
+            132,
+            140
+          ],
+          "achieves": [
+            159
+          ],
+          "address": [
+            1,
+            100
+          ],
+          "against": [
+            43
+          ],
+          "agility": [
+            42
+          ],
+          "algorithmic": [
+            109
+          ],
+          "alternatives": [
+            52,
+            180
+          ],
+          "an": [
+            147,
+            182
+          ],
+          "and": [
+            15,
+            26,
+            30,
+            67,
+            75,
+            110
+          ],
+          "architecture": [
+            158
+          ],
+          "are": [
+            32,
+            59
+          ],
+          "area,": [
+            170
+          ],
+          "as": [
+            51,
+            177
+          ],
+          "assumptions.": [
+            38
+          ],
+          "best": [
+            117
+          ],
+          "by": [
+            6
+          ],
+          "candidates": [
+            50
+          ],
+          "cell": [
+            169
+          ],
+          "challenges": [
+            80
+          ],
+          "combining": [
+            108
+          ],
+          "compact": [
+            65
+          ],
+          "complexity": [
+            74
+          ],
+          "computational": [
+            73
+          ],
+          "computers,": [
+            8
+          ],
+          "context,": [
+            94
+          ],
+          "cross-layer": [
+            106
+          ],
+          "cryptographic": [
+            41
+          ],
+          "design": [
+            136
+          ],
+          "due": [
+            62
+          ],
+          "efficient": [
+            82,
+            178
+          ],
+          "embedded": [
+            86
+          ],
+          "evaluating": [
+            48
+          ],
+          "first": [
+            122
+          ],
+          "footprint": [
+            77
+          ],
+          "for": [
+            81
+          ],
+          "from": [
+            181
+          ],
+          "future": [
+            44
+          ],
+          "gap,": [
+            102
+          ],
+          "hardware": [
+            111
+          ],
+          "has": [
+            18
+          ],
+          "hash-based": [
+            37
+          ],
+          "high": [
+            72
+          ],
+          "implementation": [
+            124,
+            183
+          ],
+          "implementations": [
+            83
+          ],
+          "implementations.": [
+            98
+          ],
+          "implemented": [
+            138,
+            150
+          ],
+          "in": [
+            92,
+            96,
+            131,
+            139,
+            151
+          ],
+          "is": [
+            47,
+            137
+          ],
+          "keys": [
+            66
+          ],
+          "knowledge,": [
+            120
+          ],
+          "largely": [
+            90
+          ],
+          "latency": [
+            163
+          ],
+          "lattice-based,": [
+            33
+          ],
+          "layers": [
+            112
+          ],
+          "less": [
+            167
+          ],
+          "lower": [
+            161
+          ],
+          "memory": [
+            76
+          ],
+          "methodology": [
+            107
+          ],
+          "node,": [
+            155
+          ],
+          "node.": [
+            144
+          ],
+          "non-lattice": [
+            49,
+            179
+          ],
+          "of": [
+            13,
+            118,
+            125,
+            174
+          ],
+          "on": [
+            36,
+            84
+          ],
+          "our": [
+            119
+          ],
+          "particularly": [
+            60,
+            95
+          ],
+          "perspective.": [
+            184
+          ],
+          "platforms.": [
+            87
+          ],
+          "pose": [
+            78
+          ],
+          "posed": [
+            5
+          ],
+          "post-quantum": [
+            21
+          ],
+          "potential": [
+            173
+          ],
+          "present,": [
+            114
+          ],
+          "promising": [
+            61
+          ],
+          "proposed": [
+            157
+          ],
+          "quantum": [
+            7
+          ],
+          "relies": [
+            35
+          ],
+          "remain": [
+            89
+          ],
+          "requiring": [
+            165
+          ],
+          "resource-constrained": [
+            85
+          ],
+          "risks": [
+            4
+          ],
+          "same": [
+            153
+          ],
+          "scheme,": [
+            130
+          ],
+          "schemes": [
+            23,
+            58
+          ],
+          "security": [
+            3
+          ],
+          "showing": [
+            171
+          ],
+          "signature": [
+            22,
+            129
+          ],
+          "signatures": [
+            176
+          ],
+          "signatures.": [
+            69
+          ],
+          "significant": [
+            79
+          ],
+          "signing": [
+            162
+          ],
+          "small": [
+            68
+          ],
+          "standardized": [
+            19
+          ],
+          "support": [
+            40
+          ],
+          "system.": [
+            134
+          ],
+          "technology": [
+            143,
+            154
+          ],
+          "the": [
+            2,
+            9,
+            20,
+            116,
+            121,
+            152,
+            156,
+            172
+          ],
+          "their": [
+            64,
+            71
+          ],
+          "these,": [
+            56
+          ],
+          "this": [
+            93,
+            101
+          ],
+          "to": [
+            53,
+            63,
+            113,
+            115
+          ],
+          "total": [
+            168
+          ],
+          "unexplored": [
+            91
+          ],
+          "use": [
+            104
+          ],
+          "vulnerabilities,": [
+            45
+          ],
+          "we": [
+            103
+          ],
+          "while": [
+            164
+          ],
+          "with": [
+            146
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Hiandra Tomasi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Maximilian Schöffel"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Johannes Feldmann"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Norbert Wehn"
+            }
+          }
+        ],
+        "doi": "",
+        "id": "http://arxiv.org/abs/2609.35053v1",
+        "primary_location": {
+          "landing_page_url": "http://arxiv.org/abs/2609.35053v1"
+        },
+        "publication_date": "2026-09-28",
+        "title": "Efficient TCitH-Based Alternatives to SLH-DSA: Cross-Layer ASIC Design of Mirath"
+      },
+      "sources": [
+        "arXiv"
+      ],
+      "themes": [
+        "T03 — RISC-V TEE & Enclaves"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "\"push-button\"": [
+            32
+          ],
+          "(<300": [
+            91
+          ],
+          "(e.g.,": [
+            63
+          ],
+          "10K+": [
+            25
+          ],
+          "16": [
+            66
+          ],
+          "500+": [
+            40
+          ],
+          "Arm's": [
+            159
+          ],
+          "Armv8-A": [
+            110
+          ],
+          "C/C++": [
+            80
+          ],
+          "CHERI": [
+            11
+          ],
+          "CHERI-enabled": [
+            167
+          ],
+          "CHERI-extended": [
+            107
+          ],
+          "Case": [
+            122
+          ],
+          "Chromium,": [
+            49
+          ],
+          "Custom": [
+            70
+          ],
+          "Intel": [
+            68
+          ],
+          "JIT": [
+            100
+          ],
+          "JavaScript": [
+            86
+          ],
+          "MPK).": [
+            69
+          ],
+          "Morello": [
+            161
+          ],
+          "Of": [
+            76
+          ],
+          "RISC-V": [
+            112,
+            168
+          ],
+          "The": [
+            30
+          ],
+          "UNIX": [
+            21
+          ],
+          "V8": [
+            85
+          ],
+          "We": [
+            0,
+            102,
+            153
+          ],
+          "X730.": [
+            173
+          ],
+          "a": [
+            141
+          ],
+          "adaptation": [
+            90
+          ],
+          "along": [
+            34
+          ],
+          "an": [
+            2
+          ],
+          "and": [
+            99,
+            111,
+            119,
+            134
+          ],
+          "and,": [
+            162
+          ],
+          "application": [
+            169
+          ],
+          "applications": [
+            46
+          ],
+          "as": [
+            48,
+            136,
+            138
+          ],
+          "available": [
+            56
+          ],
+          "benefits": [
+            148
+          ],
+          "between": [
+            130
+          ],
+          "boundaries": [
+            37
+          ],
+          "built": [
+            9
+          ],
+          "by": [
+            60
+          ],
+          "can": [
+            72
+          ],
+          "changed": [
+            94
+          ],
+          "code": [
+            95
+          ],
+          "collection": [
+            98
+          ],
+          "commercial": [
+            166
+          ],
+          "compartment-aware": [
+            132
+          ],
+          "compartmentalization": [
+            8,
+            17,
+            33
+          ],
+          "compartments": [
+            26,
+            41
+          ],
+          "compartments,": [
+            131
+          ],
+          "compilation).": [
+            101
+          ],
+          "compiler": [
+            117
+          ],
+          "complex": [
+            142
+          ],
+          "concerning": [
+            96
+          ],
+          "concurrently": [
+            55
+          ],
+          "core---Codasip's": [
+            170
+          ],
+          "debugging": [
+            133
+          ],
+          "delegation": [
+            127
+          ],
+          "demonstrating": [
+            146
+          ],
+          "desktop": [
+            28
+          ],
+          "domains": [
+            58
+          ],
+          "dual-issue": [
+            172
+          ],
+          "efficient": [
+            3
+          ],
+          "enables": [
+            15
+          ],
+          "engine": [
+            87
+          ],
+          "entire": [
+            20
+          ],
+          "evaluate": [
+            154
+          ],
+          "exceeding": [
+            51
+          ],
+          "existing": [
+            35
+          ],
+          "extensibility": [
+            139
+          ],
+          "far": [
+            50
+          ],
+          "fine-grained": [
+            16
+          ],
+          "first": [
+            165
+          ],
+          "for": [
+            6,
+            44,
+            67,
+            106
+          ],
+          "further": [
+            73
+          ],
+          "garbage": [
+            97
+          ],
+          "hosts": [
+            39
+          ],
+          "illustrate": [
+            124
+          ],
+          "implement": [
+            103
+          ],
+          "in": [
+            115
+          ],
+          "in-order": [
+            171
+          ],
+          "in-process": [
+            7
+          ],
+          "including": [
+            158
+          ],
+          "language": [
+            144
+          ],
+          "large": [
+            45
+          ],
+          "libraries.": [
+            75
+          ],
+          "library": [
+            36
+          ],
+          "lines": [
+            92
+          ],
+          "linkage-based": [
+            4
+          ],
+          "managed": [
+            143
+          ],
+          "mechanisms": [
+            62
+          ],
+          "memory": [
+            12,
+            129
+          ],
+          "model": [
+            5,
+            105
+          ],
+          "model's": [
+            31
+          ],
+          "model.": [
+            152
+          ],
+          "multiple": [
+            156
+          ],
+          "notably,": [
+            163
+          ],
+          "number": [
+            53
+          ],
+          "of": [
+            18,
+            54,
+            79,
+            93,
+            109,
+            128,
+            149
+          ],
+          "on": [
+            10,
+            27
+          ],
+          "only": [
+            83
+          ],
+          "operating": [
+            120
+          ],
+          "other": [
+            61
+          ],
+          "our": [
+            150
+          ],
+          "per": [
+            42
+          ],
+          "policies": [
+            71
+          ],
+          "present": [
+            1
+          ],
+          "process": [
+            43
+          ],
+          "processors,": [
+            157
+          ],
+          "programs": [
+            81
+          ],
+          "protection": [
+            57
+          ],
+          "regularly": [
+            38
+          ],
+          "required": [
+            88
+          ],
+          "runtime,": [
+            145
+          ],
+          "safety,": [
+            13
+          ],
+          "scaling": [
+            23
+          ],
+          "single-address-space": [
+            151
+          ],
+          "smooth": [
+            126
+          ],
+          "source-level": [
+            89
+          ],
+          "studies": [
+            123
+          ],
+          "subdivide": [
+            74
+          ],
+          "such": [
+            47
+          ],
+          "superscalar": [
+            160
+          ],
+          "support": [
+            114
+          ],
+          "supported": [
+            59
+          ],
+          "system.": [
+            121
+          ],
+          "systems.": [
+            29
+          ],
+          "tested,": [
+            82
+          ],
+          "the": [
+            19,
+            52,
+            77,
+            84,
+            104,
+            116,
+            125,
+            147,
+            164
+          ],
+          "thousands": [
+            78
+          ],
+          "through": [
+            113
+          ],
+          "to": [
+            24,
+            65,
+            140
+          ],
+          "toolchain": [
+            118
+          ],
+          "up": [
+            64
+          ],
+          "user-space,": [
+            22
+          ],
+          "using": [
+            155
+          ],
+          "versions": [
+            108
+          ],
+          "visualization,": [
+            135
+          ],
+          "well": [
+            137
+          ],
+          "which": [
+            14
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Dapeng Gao"
+            }
+          },
+          {
+            "author": {
+              "display_name": "John Baldwin"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jessica Clarke"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Nicholas C. Connolly"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Brooks Davis"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Franz A. Fuchs"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Alfredo Mazzinghi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Daniel Moghimi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Peter Rugg"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Domagoj Stolfa"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Konrad Witaszczyk"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Simon W. Moore"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Robert N. M. Watson"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1145/3830454.3846528",
+        "id": "http://arxiv.org/abs/2609.36731v1",
+        "primary_location": {
+          "landing_page_url": "http://arxiv.org/abs/2609.36731v1"
+        },
+        "publication_date": "2026-09-29",
+        "title": "Efficient Linkage-Based Compartmentalization on CHERI"
+      },
+      "sources": [
+        "arXiv"
+      ],
+      "themes": [
+        "T03 — RISC-V TEE & Enclaves"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -261,10 +1301,130 @@
       "publication_date": "2026-10-14",
       "source": "crossref",
       "title": "Portable SIMD Acceleration of Sparse Linear Algebra Libraries on RISC-V"
+    },
+    {
+      "doi": "https://doi.org/10.24867/36be46djordjevic",
+      "identity": "title:анализаперформансиzephyrиfreertosоперативнихсистеманаriscvархитектурипроцесора",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-16",
+      "source": "crossref",
+      "title": "Анализа перформанси Zephyr и FreeRTOS оперативних система на RISC-V архитектури процесора"
+    },
+    {
+      "doi": "https://doi.org/10.3390/agriengineering8100446",
+      "identity": "title:agrisynergyahardwaresoftwarecodesignedhybridiotsystemforsensorinterfacestandardizationandllmdriveninteractivedecisionsupport",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-19",
+      "source": "crossref",
+      "title": "Agri-Synergy: A Hardware–Software Co-Designed Hybrid IoT System for Sensor Interface Standardization and LLM-Driven Interactive Decision Support"
+    },
+    {
+      "doi": "https://doi.org/10.30939/ijastech..2015760",
+      "identity": "title:scenarioselectionandprioritizationforadashardwareintheloopvalidationastructuredcriticalreview",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-21",
+      "source": "crossref",
+      "title": "Scenario Selection and Prioritization for ADAS Hardware-in-the-Loop Validation: A Structured Critical Review"
+    },
+    {
+      "doi": "https://doi.org/10.36073/1512-407x/2025/2026-2-29-39",
+      "identity": "title:comparativeanalysisanddevelopmentprospectsofmodernhardwaresoftwarecomplexesformagneticflawdetectionofsteelropes",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-15",
+      "source": "crossref",
+      "title": "Comparative analysis and development prospects of modern hardware-software complexes for magnetic flaw detection of steel ropes"
+    },
+    {
+      "doi": "https://doi.org/10.31224/8567",
+      "identity": "title:datapathwidthdesignspaceof32bitriscvprocessorsfor2dsemiconductorlogic",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-22",
+      "source": "crossref",
+      "title": "Datapath Width Design Space of 32-Bit RISC-V Processors for 2D Semiconductor Logic"
+    },
+    {
+      "doi": "https://doi.org/10.1002/advs.78366",
+      "identity": "title:quantizedanaloginferencehardwareenabledbymos2hf1xzrxo2fefetsynapses",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-22",
+      "source": "crossref",
+      "title": "Quantized Analog Inference Hardware Enabled by MoS 2– Hf 1‐x Zr x O 2 FeFET Synapses"
+    },
+    {
+      "doi": "https://doi.org/10.3390/electronics15214967",
+      "identity": "title:iobsoclinuxanopensourcelinuxcapableriscvsoctemplateforipcoredevelopment",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-27",
+      "source": "crossref",
+      "title": "IOb-SoC-Linux: An Open-Source, Linux-Capable RISC-V SoC Template for IP Core Development"
+    },
+    {
+      "doi": "https://doi.org/10.51891/rease.v12i10.31144",
+      "identity": "title:aprendizagembaseadaemprojetosnoensinodearquiteturadecomputadoresdesenvolvimentodeumprocessadorriscvemverilog",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-26",
+      "source": "crossref",
+      "title": "APRENDIZAGEM BASEADA EM PROJETOS NO ENSINO DE ARQUITETURA DE COMPUTADORES: DESENVOLVIMENTO DE UM PROCESSADOR RISC-V EM VERILOG"
+    },
+    {
+      "doi": "https://doi.org/10.56553/popets-2026-0143",
+      "identity": "title:zeroknowledgeproofsofgeneralizedregularexpressionmatchingforanonymizedemailverification",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-01",
+      "source": "crossref",
+      "title": "Zero-Knowledge Proofs of Generalized Regular Expression Matching for Anonymized Email Verification"
+    },
+    {
+      "doi": "https://doi.org/10.2514/1.t7411",
+      "identity": "title:designandverificationofcoolingsystemforhightemperatureruddershaft",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-01",
+      "source": "crossref",
+      "title": "Design and Verification of Cooling System for High-Temperature Rudder Shaft"
+    },
+    {
+      "doi": "https://doi.org/10.1093/9780197849644.003.0004",
+      "identity": "title:algorithmictruth",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-14",
+      "source": "crossref",
+      "title": "Algorithmic Truth"
+    },
+    {
+      "doi": "https://doi.org/10.1093/9780197849644.003.0007",
+      "identity": "title:agenticfactchecking",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-14",
+      "source": "crossref",
+      "title": "Agentic Fact-Checking"
+    },
+    {
+      "doi": "https://doi.org/10.1093/9780197849644.003.0008",
+      "identity": "title:epistemologiesofcode",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-14",
+      "source": "crossref",
+      "title": "Epistemologies of Code"
+    },
+    {
+      "doi": "https://doi.org/10.1093/9780197849644.003.0014",
+      "identity": "title:designqualitiestrustandacceptanceofalgorithmicverification",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-14",
+      "source": "crossref",
+      "title": "Design Qualities, Trust, and Acceptance of Algorithmic Verification"
+    },
+    {
+      "doi": "",
+      "identity": "title:redilgnnresynthesisdomainincrementallearningforcircuitgraphneuralnetworks",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-16",
+      "source": "arxiv",
+      "title": "ReDIL-GNN: Resynthesis Domain Incremental Learning for Circuit Graph Neural Networks"
     }
   ],
-  "query_index": 23,
-  "secondary": 8,
-  "skipped": 106,
+  "query_index": 4,
+  "secondary": 12,
+  "skipped": 170,
   "version": 1
 }

@@ -312,6 +312,14 @@
       "title": "A Hardware-Aware Multi-objective Design of 5-Bit S-Box Based on Piecewise and Coupled Chaotic Maps for Lightweight Cryptography",
       "updated_at": "2026-11-02T14:37:37.756110+00:00"
     },
+    "doi:10.1007/978-981-92-6831-3_3": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A RISC-V Software Implementation and Instruction Set Extension for PERK",
+      "updated_at": "2026-11-02T15:50:51.497883+00:00"
+    },
     "doi:10.1007/978-981-92-6840-5_5": {
       "category": "secondaire",
       "decision": "examiner",
@@ -1200,6 +1208,14 @@
       "title": "Design and Implementation of a Secure Boot RISC-V Processor for IoT Devices",
       "updated_at": "2026-10-31T11:14:31.620540+00:00"
     },
+    "doi:10.1109/icimia69818.2026.11745028": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Design and Implementation of a RISC-V Controlled TPU like Accelerator with DVFS for Energy-Efficient Edge-AI on FPGA",
+      "updated_at": "2026-11-02T15:51:22.171192+00:00"
+    },
     "doi:10.1109/icosec67334.2025.11459751": {
       "category": "secondaire",
       "decision": "examiner",
@@ -1463,6 +1479,22 @@
       "status": "rejected",
       "title": "BRILU: BRAM-Optimized LU Decomposition With RISC-V-Based Hardware Accelerator",
       "updated_at": "2026-11-02T14:38:08.819585+00:00"
+    },
+    "doi:10.1109/les.2026.3726529": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Target-Aware Machine Outlining for Embedded RISC-V",
+      "updated_at": "2026-11-02T15:50:51.516867+00:00"
+    },
+    "doi:10.1109/les.2026.3726781": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Distributed Reactive Processing Using a RISC-V Processor",
+      "updated_at": "2026-11-02T15:50:51.508831+00:00"
     },
     "doi:10.1109/mdat.2026.3706461": {
       "category": "hors_sujet",
@@ -1736,6 +1768,22 @@
       "title": "R5-Link: Enhancing RISC-V Multi-Core Efficiency with Hardware Message Passing Channels in a 2D Mesh Network",
       "updated_at": "2026-11-02T15:15:30.028639+00:00"
     },
+    "doi:10.1109/vlsi-soc70418.2026.11740565": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A Silicon-Validated High-Frequency RISC-V SoC for Extreme-Temperature Applications",
+      "updated_at": "2026-11-02T15:51:22.186764+00:00"
+    },
+    "doi:10.1109/vlsi-soc70418.2026.11740596": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Counterfactual Exploit Validation on CHERI-enabled RISC-V Using Virtual Prototypes",
+      "updated_at": "2026-11-02T15:51:22.179073+00:00"
+    },
     "doi:10.1109/vlsi-soc70418.2026.11740612": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -1743,6 +1791,14 @@
       "status": "rejected",
       "title": "NURSE: Syndrome-Guided Runtime Correction of Pipeline Interconnect Faults in RISC-V Processors",
       "updated_at": "2026-11-02T15:15:30.002647+00:00"
+    },
+    "doi:10.1109/vlsi-soc70418.2026.11740613": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "RISCar: RISC-V in a Simulated Car for DNN Training and Deployment in AD Systems",
+      "updated_at": "2026-11-02T15:51:22.162028+00:00"
     },
     "doi:10.1109/vlsi-soc70418.2026.11740615": {
       "category": "hors_sujet",
@@ -2376,6 +2432,14 @@
       "title": "Data security and privacy in cloud computing-based internet of things environments: current gaps and emerging solutions",
       "updated_at": "2026-11-02T13:48:02.108712+00:00"
     },
+    "doi:10.1201/9781042040476-25": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "An Open-Source ASIC Design: A Low-Power RISC-V Core Case Study with SKY130PDK",
+      "updated_at": "2026-11-02T15:51:01.522297+00:00"
+    },
     "doi:10.12732/ijam.v38i6s.1640": {
       "category": "coeur",
       "decision": "conserver",
@@ -2415,6 +2479,14 @@
       "status": "rejected",
       "title": "Enclave Domination Parameters of Mycielski Graphs",
       "updated_at": "2026-10-31T07:10:38.187532+00:00"
+    },
+    "doi:10.1364/josaa.610735": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Individualized prediction intervals for IOL power calculation: variance propagation, Monte Carlo verification, and clinical validation",
+      "updated_at": "2026-11-02T15:51:47.067485+00:00"
     },
     "doi:10.14209/sbrt.2026.1571299519": {
       "category": "secondaire",
@@ -4536,6 +4608,22 @@
       "title": "Uncovering Transient Execution Vulnerabilities: Catalysts For Exploitation On Modern Processors",
       "updated_at": "2026-11-01T05:15:24.967191+00:00"
     },
+    "doi:10.54691/x9v0yt65": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Application Status and Standard Requirements of RISC-V Chips in the Automotive Field",
+      "updated_at": "2026-11-02T15:51:22.151379+00:00"
+    },
+    "doi:10.55041/ijsrem67997": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Verilog Based Testing and Implementation of RISC V Processor",
+      "updated_at": "2026-11-02T15:51:01.542771+00:00"
+    },
     "doi:10.55041/ijsrem68047": {
       "category": "secondaire",
       "decision": "examiner",
@@ -4575,6 +4663,14 @@
       "status": "rejected",
       "title": "Test Automation in Wireless Hardware Engineering: A Comprehensive Review of Scripting Frameworks and Instrument Control Strategies",
       "updated_at": "2026-11-02T13:59:16.382183+00:00"
+    },
+    "doi:10.56532/mjsat.v6is2.821": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Design and FPGA Implementation of a 32-Bit Single-Cycle RISC-V Processor",
+      "updated_at": "2026-11-02T15:51:01.550577+00:00"
     },
     "doi:10.56553/popets-2025-0058": {
       "category": "hors_sujet",
@@ -4656,6 +4752,14 @@
       "title": "A Novel Quantum-Based Authentication Method for IoT Devices using Quantum Physical Unclonable Functions",
       "updated_at": "2026-11-01T17:14:50.020336+00:00"
     },
+    "doi:10.58532/nbennurv1b3450s4c3": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "DESIGN AND FPGA IMPLEMENTATION OF A 32-BIT RISC-V PROCESSOR WITH A CUSTOM MATRIX MULTIPLY-ACCUMULATE ISA EXTENSION",
+      "updated_at": "2026-11-02T15:51:01.533968+00:00"
+    },
     "doi:10.59256/ijsreat.20260604015": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4704,6 +4808,14 @@
       "title": "Cinco de MAYO: Accelerating Post-Quantum Multivariate Quadratic Signatures with RISC-V",
       "updated_at": "2026-11-02T14:13:23.074158+00:00"
     },
+    "doi:10.62056/aempxruc2": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Root-Cause Analysis of ISA-Level Power Side-Channel Leaks in RISC-V Cryptographic Implementations",
+      "updated_at": "2026-11-02T15:51:11.217071+00:00"
+    },
     "doi:10.62110/sciencein.jist.2025.v13.1053": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4735,6 +4847,14 @@
       "status": "rejected",
       "title": "Lise Vogel’s Life and Work: An Interview with Kirstin Munro, editor of Vogel’s The Contested Domain",
       "updated_at": "2026-11-02T15:28:15.105414+00:00"
+    },
+    "doi:10.64771/ijesat.2026.v26.i10.4004": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Design And Implementation Of A RISC-V ML-KEM768 And AES-128 Cryptographic Accelerator",
+      "updated_at": "2026-11-02T15:51:11.227531+00:00"
     },
     "doi:10.64771/ijesat.2026.v26.i7.3692": {
       "category": "secondaire",
@@ -4928,6 +5048,14 @@
       "title": "A Secure dToF LiDAR SoC with Dual-Domain Fingerprinting and Event-Driven AFE Circuit Achieving Sensor-Level Attack Resilience",
       "updated_at": "2026-11-02T12:56:15.039152+00:00"
     },
+    "title:assessingruntimeelectromagneticdetectionofcpuhardwaretrojanstargetingkernelmemory": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Assessing Runtime Electromagnetic Detection of CPU Hardware Trojans Targeting Kernel Memory",
+      "updated_at": "2026-11-02T15:52:53.082481+00:00"
+    },
     "title:atlasamultiagentframeworkforliftingbinarytocanonicalcompilerir": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4943,6 +5071,22 @@
       "status": "rejected",
       "title": "Attestable Audit: Property-Based Attestation for Proprietary Workloads without Artifact Disclosure",
       "updated_at": "2026-11-02T13:03:57.203548+00:00"
+    },
+    "title:autotransaiassistedautomatictranslationofsecurityassertionsforriscvprocessors": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "AutoTrans: AI-Assisted Automatic Translation of Security Assertions for RISC-V Processors",
+      "updated_at": "2026-11-02T15:51:58.066365+00:00"
+    },
+    "title:beyondthetrustboundaryacriticalreassessmentofthefido2threatmodel": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Beyond the Trust Boundary: A Critical Reassessment of the FIDO2 Threat Model",
+      "updated_at": "2026-11-02T15:52:07.363784+00:00"
     },
     "title:bishieldteeontheinsecurityofunilateralweightobfuscationinondeviceteeshieldedllmpartition": {
       "category": "secondaire",
@@ -4975,6 +5119,14 @@
       "status": "rejected",
       "title": "Can SOLARBURST go silicon? A systematic analysis on software supply chain attacks for VLSI design flows",
       "updated_at": "2026-11-02T12:56:38.301261+00:00"
+    },
+    "title:chypothermiaclockfreezingforstaticsidechannelattacks": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Chypothermia: Clock Freezing for Static Side-channel Attacks",
+      "updated_at": "2026-11-02T15:52:18.938512+00:00"
     },
     "title:communicationobliviouspermutationandsorting": {
       "category": "secondaire",
@@ -5056,6 +5208,14 @@
       "title": "Execution-Time Validation of Context-Carrying Action Intents in Industrial Cyber-Physical Systems",
       "updated_at": "2026-11-02T13:03:36.683030+00:00"
     },
+    "title:exploitingsoftwarelevelabstractionstosupportpracticalhardwaretrojanattacks": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Exploiting Software-level Abstractions To Support Practical Hardware Trojan Attacks",
+      "updated_at": "2026-11-02T15:52:53.072266+00:00"
+    },
     "title:extendinglayeredattestationintoarmapplicationruntimes": {
       "category": "coeur",
       "decision": "conserver",
@@ -5120,6 +5280,14 @@
       "title": "Hardware Root of Trust en Sistemes RISC-V : Analysis and Evaluation of Open Source Approaches",
       "updated_at": "2026-10-31T23:14:43.126441+00:00"
     },
+    "title:hardwaretrojanthreatstomultichipletphotonicneuralnetworkaccelerators": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware Trojan Threats to Multi-Chiplet Photonic Neural Network Accelerators",
+      "updated_at": "2026-11-02T15:51:58.055772+00:00"
+    },
     "title:heterogeneousriscvbasedsystemonchipsforembeddedcomputingplatforms": {
       "category": "secondaire",
       "decision": "examiner",
@@ -5175,6 +5343,14 @@
       "status": "imported",
       "title": "M-Step: A Single-Stepping Framework for Side-Channel Analysis on TrustZone-M",
       "updated_at": "2026-11-02T08:14:44.765253+00:00"
+    },
+    "title:nacrerethinkingconfidentialcontainersthroughnativearchitecturalsupport": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "NACRE: Rethinking Confidential Containers through Native Architectural Support",
+      "updated_at": "2026-11-02T15:52:42.937344+00:00"
     },
     "title:openvgacontrollerfortheriscvwallycore": {
       "category": "hors_sujet",
@@ -5264,6 +5440,14 @@
       "title": "RV2GC: Reconstructing the Garbling Boundary in a RISC-V Garbled Processor",
       "updated_at": "2026-11-02T13:03:36.695633+00:00"
     },
+    "title:salsacodesignofadiabaticlogicbasedsensingandbalancedbitcellsforsecureandenergyefficientmram": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "S-ALSA: Co-Design of Adiabatic Logic-based Sensing and Balanced Bit-Cells for Secure and Energy-Efficient MRAM",
+      "updated_at": "2026-11-02T15:51:58.083108+00:00"
+    },
     "title:secdmpprovablysecuredatamemorydependentprefetchingextendedversion": {
       "category": "secondaire",
       "decision": "examiner",
@@ -5312,6 +5496,14 @@
       "title": "StegoMemory: Agentic Memory Acts as Covert Steganographic Channel",
       "updated_at": "2026-11-02T13:37:31.655399+00:00"
     },
+    "title:teeanchorcrossteeorganizationalendorsementformitigatingteephysicalattacks": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "TEE Anchor: Cross-TEE Organizational Endorsement for Mitigating TEE Physical Attacks",
+      "updated_at": "2026-11-02T15:52:18.947888+00:00"
+    },
     "title:towardsquantumsensingforsidechannelanalysis": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -5343,6 +5535,14 @@
       "status": "rejected",
       "title": "TranScope: What the Software Hides About LLM Training Data, the Hardware Reveals at Scale, and Accelerators Magnify",
       "updated_at": "2026-11-02T13:04:59.321806+00:00"
+    },
+    "title:trustbutvalidatetheinstrumentauditingaigeneratedrtlverificationplansonauthoredsecurityregressionproxies": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Trust, but Validate the Instrument: Auditing AI-Generated RTL Verification Plans on Authored Security-Regression Proxies",
+      "updated_at": "2026-11-02T15:51:58.074982+00:00"
     },
     "title:warpguardtowardscontrolflowattestationforheterogeneouscpugpuexecution": {
       "category": "transfert_explicite",

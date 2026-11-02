@@ -1240,6 +1240,19 @@
     ],
     "title": "Future-proofing Trusted Execution Environments Against the Emerging Threats of Speculative Execution"
   },
+  "title:chypothermiaclockfreezingforstaticsidechannelattacks": {
+    "publication_date": "2026-09-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2609.11442v1",
+    "summary": "Chypothermia est une attaque par canal auxiliaire statique exploitant le gel d'horloge par le froid. En exposant une puce à des températures cryogéniques, l'attaque désactive les capteurs d'horloge, de tension et les circuits de génération sans détruire les données secrètes. Combinée à une autre technique (Chypnosis), elle contourne les capteurs thermiques et empêche l'effacement des données sensibles (zeroization), notamment sur le composant OpenTitan. Une contre-mesure par capteur auto-chauffant est également proposée.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Chypothermia: Clock Freezing for Static Side-channel Attacks"
+  },
   "title:enforcingriscvteesecurityagainstcachetimingattacks": {
     "publication_date": "2025-06-15",
     "score": 90,
@@ -1249,6 +1262,19 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Enforcing RISC-V TEE Security Against Cache Timing Attacks"
+  },
+  "title:exploitingsoftwarelevelabstractionstosupportpracticalhardwaretrojanattacks": {
+    "publication_date": "2026-09-19",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2609.23173v1",
+    "summary": "Cet article présente SURF, une nouvelle classe de chevaux de Troie matériels (HT) ciblant les processeurs de terminaux (mobiles, ordinateurs portables) qui peuvent être activés sans nécessiter l'exécution de code arbitraire au niveau machine. En exploitant des opérations en langage de haut niveau mappées sur des effets secondaires microarchitecturaux, les auteurs démontrent une activation via des moteurs d'exécution de code non fiables, illustrée par une attaque au sein d'un processeur RISC-V et du moteur JavaScript V8.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Exploiting Software-level Abstractions To Support Practical Hardware Trojan Attacks"
   },
   "title:extendinglayeredattestationintoarmapplicationruntimes": {
     "publication_date": "2026-10-13",
@@ -1329,6 +1355,19 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "M-Step: A Single-Stepping Framework for Side-Channel Analysis on TrustZone-M"
+  },
+  "title:nacrerethinkingconfidentialcontainersthroughnativearchitecturalsupport": {
+    "publication_date": "2026-09-03",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "score": 95,
+    "source": "http://arxiv.org/abs/2609.03849v1",
+    "summary": "Cet article présente NACRE, une co-conception matériel-logiciel sur architecture RISC-V dédiée aux conteneurs confidentiels natifs. L'objectif est de faire d'un groupe dynamique de processus Linux gérés par l'hôte l'unité de protection architecturale, en séparant l'autorité de l'hôte sur la gestion des ressources et son accès aux états protégés. Le système utilise des identités de conteneurs reconnues matériellement, un agent S-mode isolé et un moniteur M-mode, tout en maintenant les performances proches de celles de runc.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "NACRE: Rethinking Confidential Containers through Native Architectural Support"
   },
   "title:optimizingtlscryptographicoperationsonriscvsocwithopentitanrot": {
     "publication_date": "2025-01-01",
