@@ -1,8 +1,8 @@
 {
   "accepted": 11,
   "completed": false,
-  "cursor": "MTc2MTI0MjQ3OTAwMCwxMC4xMTA5JTJGbWNvbXN0ZC4yMDI1LjM2MTk4NDA=",
-  "evaluated": 353,
+  "cursor": "MTc5MjAwNDc5NjAwMCwxMC4xMTA5JTJGZmRsNzE1NzIuMjAyNi4xMTcyNTMxMA==",
+  "evaluated": 376,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -22,14 +22,92 @@
     "monthly/2026-09/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2026-09/query-19 : résultat tronqué au plafond 12 pages",
     "monthly/2026-09/query-20 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-09/query-21 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-09/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-09/query-22 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-09",
   "needs_publish": false,
-  "offset": 40,
-  "pages_done": 275,
-  "pages_in_query": 1,
-  "pending": [],
+  "offset": 440,
+  "pages_done": 297,
+  "pages_in_query": 11,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Eslam Hussein"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Bernd Waschneck"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Christian Mayr"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.23919/dsdcps00089.2026.00021",
+        "id": "https://doi.org/10.23919/dsdcps00089.2026.00021",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.23919/dsdcps00089.2026.00021"
+        },
+        "publication_date": "2026-09-01",
+        "publication_date_note": "Date source Crossref : 2026-09 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2026-09",
+        "title": "Analytical-vs-Realized Gaps in RISC-V Custom Instruction Flows"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Sallar Ahmadi-Pour"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Luca Müller"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Rolf Drechsler"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/fdl71572.2026.11725310",
+        "id": "https://doi.org/10.1109/fdl71572.2026.11725310",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/fdl71572.2026.11725310"
+        },
+        "publication_date": "2026-09-01",
+        "publication_date_note": "Date source Crossref : 2026-09 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2026-09",
+        "title": "Exploring the Parameter Space for Constrained Random Verification of RISC-V CPUs"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -751,10 +829,82 @@
       "publication_date": "2026-09-25",
       "source": "crossref",
       "title": "MOSAIC for ELT: NIR channel challenges and performance"
+    },
+    {
+      "doi": "https://doi.org/10.22184/1992-4178.2026.260.7.52.56",
+      "identity": "title:микроконтроллернабазеriscvдляприменениявустроиствахбесперебоиногопитания",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-09",
+      "source": "crossref",
+      "title": "МИКРОКОНТРОЛЛЕР НА БАЗЕ RISC-V ДЛЯ ПРИМЕНЕНИЯ В УСТРОЙСТВАХ БЕСПЕРЕБОЙНОГО ПИТАНИЯ"
+    },
+    {
+      "doi": "https://doi.org/10.22184/1992-4178.2026.260.7.58.60",
+      "identity": "title:двухъядерныи64разрядныиприкладноипроцессорсизолированнымвспомогательным32разряднымядромнабазеriscv",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-09",
+      "source": "crossref",
+      "title": "ДВУХЪЯДЕРНЫЙ 64 РАЗРЯДНЫЙ ПРИКЛАДНОЙ ПРОЦЕССОР С ИЗОЛИРОВАННЫМ ВСПОМОГАТЕЛЬНЫМ 32 РАЗРЯДНЫМ ЯДРОМ НА БАЗЕ RISC-V"
+    },
+    {
+      "doi": "https://doi.org/10.20944/preprints202609.1470.v1",
+      "identity": "title:frompreservedmicroarchitecturalstatetorecoveryawareschedulinginriscvsystems",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-17",
+      "source": "crossref",
+      "title": "From Preserved Microarchitectural State to Recovery-Aware Scheduling in RISC-V Systems"
+    },
+    {
+      "doi": "https://doi.org/10.29292/jics.v21i2.1177",
+      "identity": "title:implementationandevaluationoftwo32pointbutterflyfftacceleratorsinariscvcore",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-16",
+      "source": "crossref",
+      "title": "Implementation and Evaluation of two 32-Point Butterfly FFT Accelerators in a RISC-V Core"
+    },
+    {
+      "doi": "https://doi.org/10.29292/jics.v21i2.1179",
+      "identity": "title:analysisofriscvassemblylanguageteachingusinganinteractivewebsimulator",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-02",
+      "source": "crossref",
+      "title": "Analysis of RISC-V Assembly Language Teaching Using an Interactive Web Simulator"
+    },
+    {
+      "doi": "https://doi.org/10.29292/jics.v21i2.1183",
+      "identity": "title:comparativeanalysisofriscvandarminaiapplications",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-16",
+      "source": "crossref",
+      "title": "Comparative Analysis of RISC-V and ARM in AI Applications"
+    },
+    {
+      "doi": "https://doi.org/10.29292/jics.v21i2.1205",
+      "identity": "title:exploringpowerperformancetradeoffsinsoftcoreriscvwithcnnacceleratorsfordigitalagricultureandsmartfarming",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-02",
+      "source": "crossref",
+      "title": "Exploring Power-Performance Trade-offs in Softcore RISC-V with CNN Accelerators for Digital Agriculture and Smart Farming"
+    },
+    {
+      "doi": "https://doi.org/10.31224/8328",
+      "identity": "title:tinyvedasriscvinfrastructureforaiacceleratordesign",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-26",
+      "source": "crossref",
+      "title": "Tiny-Vedas: RISC-V Infrastructure for AI Accelerator Design"
+    },
+    {
+      "doi": "https://doi.org/10.54254/2755-2721/2026.ch37413",
+      "identity": "title:embeddedmicroprocessortechnologybasedontheriscvinstructionsetarchitecture",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-29",
+      "source": "crossref",
+      "title": "Embedded Microprocessor Technology Based on the RISC-V Instruction Set Architecture"
     }
   ],
-  "query_index": 22,
+  "query_index": 23,
   "secondary": 16,
-  "skipped": 232,
+  "skipped": 329,
   "version": 1
 }
