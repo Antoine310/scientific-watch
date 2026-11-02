@@ -5,7 +5,7 @@ Sources : arXiv et Crossref par mois ; DBLP (recherche globale) et IACR
 
 ATTENTION : les limites d'API et les requêtes thématiques empêchent de promettre
 une exhaustivité. Les requêtes et leur ordre sont stables pour le curseur.
-Aucun PDF téléchargé, aucun jour de publication inventé.
+Aucun PDF téléchargé. Les dates de classement approximatives sont tracées.
 """
 import calendar
 import json
@@ -24,12 +24,13 @@ import cache_v16 as cachelib
 import collect as core
 import publish_history
 
-STATE_PATH = pathlib.Path('data/history_multisource_progress.json')
+STATE_PATH = pathlib.Path(os.environ.get('MULTI_STATE_PATH', 'data/history_multisource_progress.json'))
 RECORDS_PATH = pathlib.Path('data/history_records.json')
 SECONDARY_PATH = pathlib.Path('data/history_secondary_records.json')
 
-START_MONTH = '2026-10'  # Commencer par compléter les mois déjà explorés par OpenAlex.
-END_MONTH = '2016-01'
+START_MONTH = os.environ.get('MULTI_START_MONTH', '2026-10')  # Début du balayage rétrograde.
+END_MONTH = os.environ.get('MULTI_END_MONTH', '2016-01')
+SOURCE_MODE = os.environ.get('MULTI_SOURCE_MODE', 'all')
 PAGE_SIZE = 40
 MAX_PAGES = max(1, min(40, int(os.environ.get('MULTI_MAX_PAGES', '8'))))
 MAX_AI = max(1, min(50, int(os.environ.get('MULTI_MAX_AI', '8'))))
@@ -82,6 +83,10 @@ DBLP_QUERIES = [
 ]
 MONTHLY_TASKS = [('arxiv', theme, query) for theme, query in ARXIV_QUERIES] + [
     ('crossref', theme, query) for theme, query in CROSSREF_QUERIES]
+if SOURCE_MODE == 'crossref_only':
+    MONTHLY_TASKS = [('crossref', theme, query) for theme, query in CROSSREF_QUERIES]
+elif SOURCE_MODE != 'all':
+    raise RuntimeError('MULTI_SOURCE_MODE inconnu : ' + SOURCE_MODE)
 
 ARXIV_NS = {'a': 'http://www.w3.org/2005/Atom',
             'x': 'http://arxiv.org/schemas/atom',
@@ -298,26 +303,83 @@ def arxiv_page(ym, query, offset):
     return papers, raw_count, finished, ''
 
 
-def precise_date(item):
-    """Ne jamais transformer '2025' ou '2025-01' en '2025-01-01'."""
-    for field in ('published', 'published-online', 'published-print', 'issued'):
+def _date_parts(item):
+    """Lister les dates Crossref sans inventer de précision bibliographique."""
+    result = []
+    for field in ('published', 'published-online', 'published-print', 'issued', 'posted'):
         raw = (item.get(field) or {}).get('date-parts') or []
-        if raw and len(raw[0]) >= 3:
-            try:
-                result = date(*map(int, raw[0][:3])).isoformat()
-            except (TypeError, ValueError):
+        if not raw or not isinstance(raw[0], list):
+            continue
+        parts = raw[0]
+        try:
+            if not parts:
                 continue
-            return result
-    return ''
+            year = int(parts[0])
+            if not 1900 <= year <= 2100:
+                continue
+            if len(parts) >= 3:
+                day = date(year, int(parts[1]), int(parts[2])).isoformat()
+                result.append((3, day, field))
+            elif len(parts) == 2:
+                month = int(parts[1])
+                if 1 <= month <= 12:
+                    result.append((2, f'{year:04d}-{month:02d}', field))
+            else:
+                result.append((1, str(year), field))
+        except (ValueError, TypeError, OverflowError):
+            continue
+    return result
 
 
-def crossref_convert(item):
+def crossref_date_info(item, query_month):
+    """Date de classement et précision réelle, sans prétendre connaître le jour.
+
+    - jour connu : conserver la date réelle ;
+    - mois connu : utiliser le 1er UNIQUEMENT pour l'indexation, sans
+      prétendre qu'il s'agit du jour de publication ;
+    - année seule : mois de recherche si la même année, sinon janvier
+      conventionnel de l'année bibliographique ;
+    - aucune date : mois de recherche comme placement provisoire.
+
+    Le champ publication_date reste au format YYYY-MM-DD pour les anciens
+    composants Notion/GitHub, mais date_precision et publication_date_note
+    évitent de confondre valeur technique et métadonnée source.
+    """
+    variants = _date_parts(item)
+    # Privilégier une date cohérente avec le mois réellement demandé à Crossref.
+    matching_month = [v for v in variants if v[1][:7] == query_month]
+    if matching_month:
+        chosen = max(matching_month, key=lambda v: v[0])
+    else:
+        matching_year = [v for v in variants if v[1][:4] == query_month[:4]]
+        chosen = max(matching_year, key=lambda v: v[0]) if matching_year else (max(variants, key=lambda v: v[0]) if variants else None)
+    if chosen:
+        precision, value, field = chosen
+        if precision == 3:
+            return value, 'day', value, ''
+        if precision == 2:
+            return value + '-01', 'month', value, f'Date source Crossref : {value} (jour inconnu ; 01 utilisé pour classer).'
+        classified_month = query_month if value == query_month[:4] else value + '-01'
+        return classified_month + '-01', 'year', value, (f'Date source Crossref : {value} seulement ; '
+            f'classement indicatif en {classified_month}.')
+    return query_month + '-01', 'index_month', '', (
+        f'Date bibliographique absente des métadonnées Crossref ; classement provisoire '
+        f'dans le mois interrogé {query_month}.')
+
+
+def precise_date(item):
+    """Retourner uniquement une date véritablement connue au jour près."""
+    return next((v[1] for v in _date_parts(item) if v[0] == 3), '')
+
+
+def crossref_convert(item, ym):
     title = core.plain_text((item.get('title') or [''])[0])
     doi = core.normalized_doi(item.get('DOI', ''))
-    published = precise_date(item)
+    published, precision, source_date, note = crossref_date_info(item, ym)
     return {'title': title, 'doi': 'https://doi.org/' + doi if doi else '',
             'id': item.get('URL') or ('https://doi.org/' + doi if doi else title),
-            'publication_date': published,
+            'publication_date': published, 'publication_date_precision': precision,
+            'publication_date_source': source_date, 'publication_date_note': note,
             'abstract_inverted_index': core.indexed_abstract(core.plain_text(item.get('abstract', ''))),
             'authorships': [{'author': {'display_name': (x.get('given', '') + ' ' + x.get('family', '')).strip()}}
                             for x in (item.get('author') or [])],
@@ -329,10 +391,10 @@ def crossref_page(ym, query, cursor):
     params = urllib.parse.urlencode({'query.bibliographic': query,
                                      'filter': f'from-pub-date:{start},until-pub-date:{end}',
                                      'rows': PAGE_SIZE, 'cursor': cursor,
-                                     'select': 'DOI,title,abstract,published,published-online,published-print,issued,author,URL,type'})
+                                     'select': 'DOI,title,abstract,published,published-online,published-print,issued,posted,author,URL,type'})
     message = request('https://api.crossref.org/works?' + params, 'crossref').get('message', {})
     items = message.get('items') or []
-    papers = [crossref_convert(x) for x in items if x.get('title')]
+    papers = [crossref_convert(x, ym) for x in items if x.get('title')]
     # Crossref peut retourner next-cursor même après le dernier lot.
     next_cursor = message.get('next-cursor', '')
     finished = len(items) < PAGE_SIZE or not next_cursor or next_cursor == cursor
@@ -361,7 +423,11 @@ def dblp_page(query, offset):
             authors = [authors]
         doi = core.normalized_doi(info.get('doi', ''))
         papers.append({'title': title, 'doi': 'https://doi.org/' + doi if doi else '',
-                       'id': info.get('url') or title, 'publication_date': '',
+                       'id': info.get('url') or title,
+                       'publication_date': f'{int(year):04d}-01-01',
+                       'publication_date_precision': 'year',
+                       'publication_date_source': year,
+                       'publication_date_note': f'DBLP donne seulement l’année {year} ; janvier est un mois de classement conventionnel.',
                        'abstract_inverted_index': {},
                        'authorships': [{'author': {'display_name': a.get('text', '') if isinstance(a, dict) else str(a)}} for a in authors],
                        'primary_location': {'landing_page_url': info.get('ee') or info.get('url') or ''}})
@@ -375,10 +441,14 @@ def enrich_dblp_date(paper):
     try:
         url = 'https://api.crossref.org/works/' + urllib.parse.quote(doi, safe='/')
         item = request(url, 'crossref').get('message', {})
-        day = precise_date(item)
-        if day and '2016-01-01' <= day <= '2026-10-31':
-            paper['publication_date'] = day
-            if not core.abstract(paper.get('abstract_inverted_index')) and item.get('abstract'):
+        enriched, precision, source_date, note = crossref_date_info(item, paper['publication_date'][:7])
+        if precision in {'day', 'month'} and '2016-01-01' <= enriched <= '2026-10-31':
+            paper['publication_date'] = enriched
+            paper['publication_date_precision'] = precision
+            paper['publication_date_source'] = source_date
+            paper['publication_date_note'] = note
+        if item.get('abstract'):
+            if not core.abstract(paper.get('abstract_inverted_index')):
                 paper['abstract_inverted_index'] = core.indexed_abstract(core.plain_text(item['abstract']))
     except RuntimeError as exc:
         print('DBLP date : résolution DOI temporairement impossible :', str(exc)[:120])
@@ -409,11 +479,39 @@ def iacr_page(cursor):
         names = texts('creator')
         titles = texts('title')
         desc = texts('description')
-        dates = [d[:10] for d in texts('date') if re.fullmatch(r'\d{4}-\d{2}-\d{2}(?:T.*)?', d)]
-        date_str = next((d for d in dates if '2016-01-01' <= d <= '2026-10-31'), '')
+        # Les dates Dublin Core peuvent avoir seulement l'année ou le mois.
+        parsed_dates = []
+        for original in texts('date'):
+            m = re.match(r'^(\d{4})(?:-(\d{2})(?:-(\d{2}))?)?(?:T.*)?$', original)
+            if not m:
+                continue
+            year, month, day = m.groups()
+            try:
+                if day:
+                    value = date(int(year), int(month), int(day)).isoformat()
+                    precision = 'day'
+                elif month:
+                    value = date(int(year), int(month), 1).isoformat()
+                    precision = 'month'
+                else:
+                    value = date(int(year), 1, 1).isoformat()
+                    precision = 'year'
+            except (ValueError, TypeError):
+                continue
+            if '2016-01-01' <= value <= '2026-10-31':
+                parsed_dates.append(({'day': 3, 'month': 2, 'year': 1}[precision], value, precision, original))
+        selected_date = max(parsed_dates, default=None)
+        date_str = selected_date[1] if selected_date else ''
+        precision = selected_date[2] if selected_date else ''
+        source_date = selected_date[3] if selected_date else ''
         urls = texts('identifier')
         refid = header.findtext('o:identifier', default='', namespaces=OAI_NS)
         match = re.search(r'(\d{4}/\d+)', refid)
+        if not date_str and match and '2016' <= match.group(1)[:4] <= '2026':
+            year = match.group(1)[:4]
+            date_str, precision, source_date = year + '-01-01', 'year', year
+        note = ('' if precision == 'day' else
+                f"IACR : date source {source_date or 'absente'} ; classement bibliographique indicatif.")
         url = next((u for u in urls if re.match(r'https?://', u) and not u.endswith('.pdf')),
                    'https://eprint.iacr.org/' + match.group(1) if match else '')
         doi = next((u for u in urls if 'doi.org/' in u), '')
@@ -421,6 +519,8 @@ def iacr_page(cursor):
             continue
         papers.append({'title': titles[0], 'doi': doi,
                        'publication_date': date_str, 'id': url,
+                       'publication_date_precision': precision,
+                       'publication_date_source': source_date, 'publication_date_note': note,
                        'abstract_inverted_index': core.indexed_abstract(desc[0] if desc else ''),
                        'authorships': [{'author': {'display_name': a}} for a in names],
                        'primary_location': {'landing_page_url': url}})
@@ -515,6 +615,9 @@ def process_one(rec, assessment, state, cache, records, secondary, titles, dois)
                 score >= (core.MIN_SCORE_CORE if cat == 'coeur' else core.MIN_SCORE_TRANSFER))
     if accepted:
         detail = core.analyze_detail(rec)
+        if paper.get('publication_date_note'):
+            detail['limites'] = (str(detail.get('limites') or '') + '\n' +
+                                 paper['publication_date_note']).strip()
         schema = core.api(f'https://api.notion.com/v1/data_sources/{core.SOURCE_ID}').get('properties', {})
         # En cas de reprise après un import Notion avant sauvegarde, ne pas réimporter.
         latest_titles, latest_dois = core.existing_items()
@@ -528,7 +631,10 @@ def process_one(rec, assessment, state, cache, records, secondary, titles, dois)
         if identity:
             records[identity] = {'title': paper['title'], 'summary': detail.get('resume_court', ''),
                                  'score': score, 'themes': rec['themes'],
-                                 'source': url, 'publication_date': paper['publication_date']}
+                                 'source': url, 'publication_date': paper['publication_date'],
+                                 'publication_date_precision': paper.get('publication_date_precision', 'day'),
+                                 'publication_date_source': paper.get('publication_date_source', ''),
+                                 'publication_date_note': paper.get('publication_date_note', '')}
             secondary.pop(identity, None)
         cachelib.set_status(cache, paper, assessment, 'imported')
         state['accepted'] += 1
@@ -537,7 +643,10 @@ def process_one(rec, assessment, state, cache, records, secondary, titles, dois)
     else:
         if 60 <= score <= 74 and cat in {'coeur', 'transfert_explicite'} and identity:
             secondary[identity] = {'title': paper['title'], 'score': score, 'source': url,
-                                   'publication_date': paper['publication_date']}
+                                   'publication_date': paper['publication_date'],
+                                   'publication_date_precision': paper.get('publication_date_precision', 'day'),
+                                   'publication_date_source': paper.get('publication_date_source', ''),
+                                   'publication_date_note': paper.get('publication_date_note', '')}
             state['secondary'] += 1
             state['needs_publish'] = True
             print(f'SECONDAIRE ({score}/100) :', paper['title'][:110])
@@ -575,8 +684,9 @@ def main():
             return
         candidates = [p for p in papers if p.get('publication_date') and relevant(p)]
         filtered = sum(bool(p.get('publication_date')) and not relevant(p) for p in papers)
-        print(f'APERÇU : {src} : {raw} résultats, {len(candidates)} candidats ayant une date précise et un signal technique, '
-              f'{filtered} écarté(s) par le préfiltre technique.')
+        approximate = sum(p.get('publication_date_precision', 'day') != 'day' for p in candidates)
+        print(f'APERÇU : {src} : {raw} résultats, {len(candidates)} candidats avec date de classement et signal technique '
+              f'(dont {approximate} à date indicative), {filtered} écarté(s) par le préfiltre technique.')
         for p in candidates[:8]:
             print(' -', p['publication_date'], p['title'][:135])
         print('Aucun fichier modifié, aucun appel Gemini/Notion.')
@@ -641,7 +751,7 @@ def main():
             papers = [enrich_dblp_date(p) for p in selected]
         print(f'PAGE {pages}/{MAX_PAGES} : {task_description(state)} -> {raw_count} résultats')
         filter_counts = {'sans_date': 0, 'hors_periode': 0, 'non_technique': dblp_prefiltered,
-                         'deja_connu': 0, 'doublon_page': 0}
+                         'deja_connu': 0, 'doublon_page': 0, 'date_indicative': 0}
         queued = []
         known_names, known_dois = known_papers(cache, titles, dois, records, secondary)
         in_page = set()
@@ -656,6 +766,8 @@ def main():
             if not paper.get('title') or not relevant(paper):
                 filter_counts['non_technique'] += 1
                 continue
+            if paper.get('publication_date_precision', 'day') != 'day':
+                filter_counts['date_indicative'] += 1
             if is_known(paper, cache, titles, dois, known_names, known_dois):
                 state['skipped'] += 1
                 filter_counts['deja_connu'] += 1
