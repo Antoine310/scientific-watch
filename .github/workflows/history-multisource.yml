@@ -50,7 +50,20 @@ jobs:
         run: python3 -m py_compile history_multisource.py collect.py cache_v16.py publish_history.py publish_weekly.py
 
       - name: Rattrapage historique arXiv Crossref DBLP IACR
-        run: python3 history_multisource.py
+        shell: bash
+        run: |
+          # -o pipefail : si Python échoue, la tâche échoue malgré tee.
+          set -o pipefail
+          mkdir -p run-logs
+          python3 -u history_multisource.py 2>&1 | tee "run-logs/multisource-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}.log"
+
+      - name: Archiver le log du lancement (même en cas d'erreur)
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: logs-multisource-${{ github.run_id }}-${{ github.run_attempt }}
+          path: run-logs/*.log
+          if-no-files-found: warn
 
       - name: Conserver les données même en cas d'échec
         if: ${{ always() && inputs.apply }}
