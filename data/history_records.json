@@ -1259,6 +1259,16 @@
     ],
     "title": "FPGA-Based Prototyping and Performance Analysis of a Linux-Capable RISC-V SoC"
   },
+  "title:freesbeeaconstanttimecompilationpipeline": {
+    "publication_date": "2026-10-14",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2610.20171v1",
+    "summary": "Cet article présente FreeSBee, une chaîne de compilation complète conçue pour renforcer les codes contre les canaux auxiliaires temporels sur les appareils IoT. Le processus combine une analyse de taint pour identifier les zones sensibles et des transformations automatiques de flux de contrôle au sein du compilateur. L'évaluation est réalisée sur un cœur RISC-V à l'aide d'analyses temporelles statiques et statistiques, suggérant une protection efficace contre les attaques temporelles malgré l'absence d'un temps d'exécution strictement constant au niveau du cycle.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "FreeSBee: A Constant-Time Compilation Pipeline"
+  },
   "title:hardeningtrustedexecutionenvironmentsagainstmicroarchitecturalsidechannelattacksaconstructiveapproach": {
     "publication_date": "2025-05-01",
     "score": 90,
@@ -1318,6 +1328,16 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Optimizing TLS Cryptographic Operations on RISC-V SoC with OpenTitan RoT"
+  },
+  "title:page404breakinggpuisolationthroughhardwareassistedpagemigration": {
+    "publication_date": "2026-10-14",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2610.20962v3",
+    "summary": "Cette publication étudie la sécurité de l'architecture hétérogène de la superuce d'NVIDIA Grace Hopper (GH200), en se focalisant sur le mécanisme de migration de pages assisté par matériel et géré par des compteurs d'accès. Les auteurs identifient deux vulnérabilités par canaux cachés et latéraux exploitables à travers les partitions MIG (Multi-Instance GPU), remettant en cause l'isolation matérielle entre locataires.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "PAGE404: Breaking GPU Isolation Through Hardware-assisted Page Migration"
   },
   "title:prototypingcustomhardwareperformancecountersingem5simulatoraframeworkforriscvsidechannelattackassessment": {
     "publication_date": "2025-06-30",
