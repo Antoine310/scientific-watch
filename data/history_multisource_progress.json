@@ -1,8 +1,8 @@
 {
   "accepted": 24,
   "completed": false,
-  "cursor": "*",
-  "evaluated": 533,
+  "cursor": "MTc2NTI3NzM1MjAwMCwxMC4xMDg4JTJGMTY3NC0xMDU2JTJGYWUyOWZm",
+  "evaluated": 537,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -32,13 +32,15 @@
     "monthly/2026-08/query-16 : résultat tronqué au plafond 12 pages",
     "monthly/2026-08/query-17 : résultat tronqué au plafond 12 pages",
     "monthly/2026-08/query-18 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-08/query-19 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-08/query-19 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-08/query-20 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-08/query-21 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-08",
   "needs_publish": false,
-  "offset": 0,
-  "pages_done": 407,
-  "pages_in_query": 0,
+  "offset": 40,
+  "pages_done": 432,
+  "pages_in_query": 1,
   "pending": [],
   "phase": "monthly",
   "prefilter_review": [
@@ -1225,10 +1227,18 @@
       "publication_date": "2026-08-17",
       "source": "crossref",
       "title": "Investigating Nintendo Family Computer Bugs: How Hardware-Level Perturbations Shape Software Behavior"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1674-1056/ae15f8",
+      "identity": "title:medicalimagewatermarkingencryptionalgorithmbasedonspiraltransformandshiftregisters",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-08-01",
+      "source": "crossref",
+      "title": "Medical image watermarking encryption algorithm based on spiral transform and shift registers"
     }
   ],
-  "query_index": 20,
+  "query_index": 22,
   "secondary": 21,
-  "skipped": 411,
+  "skipped": 429,
   "version": 1
 }
