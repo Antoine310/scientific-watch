@@ -1,8 +1,8 @@
 {
-  "accepted": 21,
+  "accepted": 24,
   "completed": false,
-  "cursor": "*",
-  "evaluated": 426,
+  "cursor": "MTc4NTc2NTExMTAwMCwxMC4yODkyNCUyRjIyOTEtODYzOS0yNC0yMDI2LTIyNg==",
+  "evaluated": 451,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -29,389 +29,616 @@
   ],
   "month": "2026-08",
   "needs_publish": false,
-  "offset": 0,
-  "pages_done": 319,
-  "pages_in_query": 0,
+  "offset": 440,
+  "pages_done": 334,
+  "pages_in_query": 11,
   "pending": [
     {
       "paper": {
         "abstract_inverted_index": {
-          "(ISA),": [
-            20
-          ],
-          "(RTL).": [
-            25
-          ],
-          "AI-assisted": [
-            99
-          ],
-          "Architecture": [
-            19
-          ],
-          "Building": [
-            86
-          ],
-          "Instruction": [
-            17
-          ],
-          "Level": [
-            24
-          ],
-          "Our": [
-            26
-          ],
-          "Register-Transfer": [
-            23
-          ],
-          "Set": [
-            18
-          ],
-          "This": [
-            0
-          ],
-          "Together,": [
-            118
-          ],
-          "We": [
-            46,
-            58
-          ],
-          "a": [
-            3
-          ],
-          "abstraction": [
-            15,
-            56
-          ],
-          "achieved": [
-            44
-          ],
-          "across": [
-            12,
-            55
-          ],
-          "aim": [
-            120
-          ],
-          "analysis": [
-            5
-          ],
-          "analysis.": [
-            117
-          ],
-          "and": [
-            22,
-            43,
-            50,
-            75,
-            83,
-            108,
-            110,
-            116,
-            125
-          ],
-          "applied": [
-            11
-          ],
-          "as": [
-            70
-          ],
-          "automation": [
-            112
-          ],
-          "benchmarks,": [
-            109
-          ],
-          "challenges,": [
-            48
-          ],
-          "channels,": [
-            82
-          ],
-          "comprehensive": [
-            4,
-            126
-          ],
-          "contemporary": [
-            7
-          ],
-          "coverage.": [
-            45
-          ],
-          "cross-layer": [
-            84
-          ],
-          "current": [
-            65
-          ],
-          "design": [
-            51
-          ],
-          "directions,": [
-            94
-          ],
-          "efficient,": [
-            123
-          ],
-          "evaluation": [
-            106
-          ],
-          "examines": [
-            28
-          ],
-          "exploration": [
-            115
-          ],
-          "expressive": [
-            80
-          ],
-          "factors": [
-            30
-          ],
-          "feedback": [
-            37,
-            81
-          ],
-          "find": [
-            47
-          ],
-          "for": [
-            113
-          ],
-          "frameworks,": [
-            98
-          ],
-          "further": [
-            59
-          ],
-          "future": [
-            92
-          ],
-          "fuzzing": [
-            9,
-            67,
-            97
-          ],
-          "generation,": [
-            73,
-            101
-          ],
-          "goals,": [
-            49
-          ],
-          "golden": [
-            77
-          ],
-          "guided": [
-            114
-          ],
-          "hardware": [
-            8,
-            66,
-            127
-          ],
-          "human-in-the-loop": [
-            111
-          ],
-          "hybrid": [
-            96
-          ],
-          "identify": [
-            60
-          ],
-          "in": [
-            64
-          ],
-          "including": [
-            31,
-            95
-          ],
-          "input": [
-            32,
-            72
-          ],
-          "insights,": [
-            89
-          ],
-          "integration.": [
-            85
-          ],
-          "intelligent": [
-            71
-          ],
-          "key": [
-            29
-          ],
-          "layers.": [
-            57
-          ],
-          "layers:": [
-            16
-          ],
-          "major": [
-            14
-          ],
-          "mechanisms,": [
-            38
-          ],
-          "metrics": [
-            107
-          ],
-          "microarchitecture,": [
-            21
-          ],
-          "models,": [
-            42,
-            79,
-            104
-          ],
-          "mutation": [
-            35
-          ],
-          "needs": [
-            63
-          ],
-          "of": [
-            6
-          ],
-          "on": [
-            87
-          ],
-          "outline": [
-            91
-          ],
-          "platforms,": [
-            40
-          ],
-          "practices,": [
-            68
-          ],
-          "presents": [
-            2
-          ],
-          "quality,": [
-            34
-          ],
-          "reference": [
-            41,
-            78,
+          "(#)": [
             103
           ],
-          "reliable": [
-            74
-          ],
-          "reliable,": [
-            124
-          ],
-          "research": [
-            93
-          ],
-          "scalable": [
-            76,
-            102
-          ],
-          "several": [
-            61
-          ],
-          "significantly": [
-            54
-          ],
-          "solutions.": [
-            129
-          ],
-          "standardized": [
-            105
-          ],
-          "stimulus": [
-            33
-          ],
-          "strategies,": [
-            36
-          ],
-          "study": [
-            27
-          ],
-          "such": [
-            69
-          ],
-          "target": [
-            39
-          ],
-          "techniques": [
-            10
-          ],
-          "test": [
+          "(+)": [
             100
           ],
-          "these": [
-            88
+          "(IoT)": [
+            8
           ],
-          "they": [
+          "A": [
+            82
+          ],
+          "Although": [
+            22
+          ],
+          "CPU": [
+            116,
+            144
+          ],
+          "Existing": [
+            45
+          ],
+          "Internet": [
+            5
+          ],
+          "IoT": [
+            228
+          ],
+          "MQTT": [
+            0,
+            79,
+            213
+          ],
+          "Multi-level": [
+            153
+          ],
+          "Performance": [
+            110
+          ],
+          "TLS-based": [
+            86
+          ],
+          "The": [
+            127,
+            183
+          ],
+          "These": [
+            202
+          ],
+          "Things": [
+            7
+          ],
+          "This": [
+            65
+          ],
+          "a": [
+            58,
+            68,
+            209
+          ],
+          "access": [
+            90,
+            190
+          ],
+          "also": [
+            185
+          ],
+          "an": [
+            77
+          ],
+          "and": [
+            16,
+            34,
+            88,
+            101,
+            124,
+            143,
+            149,
+            162,
+            217,
+            219,
+            226
+          ],
+          "architecture": [
+            15
+          ],
+          "at": [
+            166
+          ],
+          "authenticated": [
+            37,
+            78
+          ],
+          "authentication": [
+            87
+          ],
+          "authorization": [
+            125,
+            197
+          ],
+          "because": [
+            10
+          ],
+          "been": [
+            42
+          ],
+          "behavior": [
+            75
+          ],
+          "broad": [
+            188
+          ],
+          "broker": [
+            31,
+            54,
+            122,
+            150,
+            164,
+            215
+          ],
+          "broker’s": [
+            179
+          ],
+          "capacity.": [
+            152
+          ],
+          "combined": [
+            63
+          ],
+          "compare": [
+            95
+          ],
+          "complexity": [
+            134,
+            207
+          ],
+          "comprehensively": [
+            43
+          ],
+          "compresses": [
+            177
+          ],
+          "conditions": [
+            39
+          ],
+          "configured.": [
+            201
+          ],
+          "consistently": [
+            156
+          ],
+          "control": [
+            91,
+            191
+          ],
+          "controlled": [
+            83
+          ],
+          "critical": [
+            210
+          ],
+          "degradation": [
+            161
+          ],
+          "delivery": [
             119
           ],
-          "three": [
-            13
+          "demonstrate": [
+            130,
+            204
           ],
-          "to": [
-            121
+          "demonstrating": [
+            173
           ],
-          "trade-offs": [
-            52
+          "density": [
+            176
           ],
-          "unlock": [
-            122
+          "designing": [
+            224
           ],
-          "unmet": [
-            62
+          "determinant": [
+            211
           ],
-          "vary": [
-            53
+          "devices.": [
+            21
           ],
-          "verification": [
+          "effects.": [
+            64
+          ],
+          "efficient": [
+            17,
+            225
+          ],
+          "employing": [
+            85
+          ],
+          "end-to-end": [
+            114
+          ],
+          "environment.": [
+            81
+          ],
+          "evaluate": [
+            48
+          ],
+          "evaluated": [
+            112
+          ],
+          "evaluation": [
+            71
+          ],
+          "exact-topic": [
+            96,
+            171
+          ],
+          "exhibited": [
+            157
+          ],
+          "experimental": [
+            70,
             128
           ],
-          "we": [
-            90
+          "experiments": [
+            184
           ],
-          "work": [
-            1
+          "exposure.": [
+            126
+          ],
+          "findings": [
+            203
+          ],
+          "for": [
+            19,
+            223
+          ],
+          "greatest": [
+            159
+          ],
+          "guidance": [
+            222
+          ],
+          "has": [
+            40
+          ],
+          "high-load": [
+            38
+          ],
+          "higher": [
+            141
+          ],
+          "impact": [
+            29
+          ],
+          "improperly": [
+            200
+          ],
+          "in": [
+            4,
+            76,
+            140
+          ],
+          "increase": [
+            193
+          ],
+          "increases": [
+            136
+          ],
+          "increasing": [
+            108,
+            132
+          ],
+          "independently,": [
+            56
+          ],
+          "infrastructures.": [
+            230
+          ],
+          "investigated.": [
+            44
+          ],
+          "is": [
+            1,
+            208
+          ],
+          "its": [
+            12
+          ],
+          "latency": [
+            142
+          ],
+          "latency,": [
+            115
+          ],
+          "leakage": [
+            198
+          ],
+          "leaving": [
+            57
+          ],
+          "levels": [
+            169
+          ],
+          "lightweight": [
+            13
+          ],
+          "limited": [
+            59
+          ],
+          "lower": [
+            167
+          ],
+          "management,": [
+            27
+          ],
+          "mechanisms,": [
+            52
+          ],
+          "messaging": [
+            229
+          ],
+          "multi-level": [
+            102
+          ],
+          "not": [
+            41
+          ],
+          "of": [
+            6,
+            11,
+            61,
+            72,
+            196,
+            212
+          ],
+          "on": [
+            30
+          ],
+          "operational": [
+            180
+          ],
+          "or": [
+            53
+          ],
+          "overhead,": [
+            138
+          ],
+          "paper": [
+            66
+          ],
+          "performance": [
+            160
+          ],
+          "performance,": [
+            32,
+            50
+          ],
+          "policies": [
+            192
+          ],
+          "practical": [
+            221
+          ],
+          "presents": [
+            67
+          ],
+          "progressively": [
+            107
+          ],
+          "provide": [
+            220
+          ],
+          "publish–subscribe": [
+            14
+          ],
+          "rate,": [
+            121
+          ],
+          "reached": [
+            163
+          ],
+          "reducing": [
+            147
+          ],
+          "region.": [
+            182
+          ],
+          "resource-constrained": [
+            20
+          ],
+          "resulting": [
+            139
+          ],
+          "results": [
+            129
+          ],
+          "risk": [
+            195
+          ],
+          "role-based": [
+            89
+          ],
+          "routing": [
+            49,
+            137
+          ],
+          "saturation": [
+            165
+          ],
+          "scalability": [
+            55
+          ],
+          "scalability,": [
+            214
+          ],
+          "secure": [
+            227
+          ],
+          "security": [
+            35,
+            51
+          ],
+          "security,": [
+            218
+          ],
+          "service": [
+            151
+          ],
+          "show": [
+            186
+          ],
+          "significantly": [
+            135
+          ],
+          "simplify": [
+            25
+          ],
+          "single-level": [
+            99
+          ],
+          "stability": [
+            181
+          ],
+          "stability,": [
+            33,
+            123,
+            216
+          ],
+          "studies": [
+            46
+          ],
+          "subscription": [
+            74
+          ],
+          "subscriptions": [
+            24,
+            97,
+            105,
+            155
+          ],
+          "subscriptions,": [
+            172
+          ],
+          "success": [
+            120
+          ],
+          "support": [
+            18
+          ],
+          "systematic": [
+            69
+          ],
+          "systems": [
+            9
+          ],
+          "testbed": [
+            84
+          ],
+          "than": [
+            170
+          ],
+          "that": [
+            131,
+            174,
+            187,
+            205
+          ],
+          "the": [
+            158,
+            178,
+            194
+          ],
+          "their": [
+            28,
+            62
+          ],
+          "throughput": [
+            148
+          ],
+          "throughput,": [
+            118
+          ],
+          "to": [
+            94
+          ],
+          "topic": [
+            26
+          ],
+          "typically": [
+            47
+          ],
+          "under": [
+            36,
+            106
+          ],
+          "understanding": [
+            60
+          ],
+          "used": [
+            3,
+            93
+          ],
+          "using": [
+            113
+          ],
+          "utilization": [
+            145
+          ],
+          "utilization,": [
+            117
+          ],
+          "v5": [
+            80
+          ],
+          "was": [
+            92,
+            111
+          ],
+          "when": [
+            199
+          ],
+          "while": [
+            146
+          ],
+          "widely": [
+            2
+          ],
+          "wildcard": [
+            23,
+            73,
+            104,
+            154,
+            175
+          ],
+          "wildcard-based": [
+            189
+          ],
+          "wildcard-subscription": [
+            133,
+            206
+          ],
+          "with": [
+            98
+          ],
+          "workload": [
+            168
+          ],
+          "workloads.": [
+            109
           ]
         },
         "authorships": [
           {
             "author": {
-              "display_name": "Alenkruth Krishnan Murali"
+              "display_name": "Nael M. Radwan"
             }
           },
           {
             "author": {
-              "display_name": "Raghul Saravanan"
+              "display_name": "Frederick T. Sheldon"
             }
           },
           {
             "author": {
-              "display_name": "Sai Manoj P D"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ashish Venkat"
+              "display_name": "Terence Soule"
             }
           }
         ],
-        "doi": "",
-        "id": "http://arxiv.org/abs/2608.23933v1",
+        "doi": "https://doi.org/10.3390/electronics15153393",
+        "id": "https://doi.org/10.3390/electronics15153393",
         "primary_location": {
-          "landing_page_url": "http://arxiv.org/abs/2608.23933v1"
+          "landing_page_url": "https://doi.org/10.3390/electronics15153393"
         },
-        "publication_date": "2026-08-25",
-        "title": "SoK: ARCUS: On the Efficiency and Efficacy of Hardware Fuzzing"
+        "publication_date": "2026-08-01",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2026-08-01",
+        "title": "Experimental Evaluation of Wildcard Subscription Impact on MQTT Broker Performance, Stability, and Security Under Authenticated High-Load IoT Conditions"
       },
       "sources": [
-        "arXiv"
+        "Crossref"
       ],
       "themes": [
-        "T07 — Hardware Security Verification"
+        "T01 — Root of Trust & Secure Boot"
       ]
     }
   ],
@@ -1248,10 +1475,58 @@
       "publication_date": "2026-09-03",
       "source": "crossref",
       "title": "Caracterização Estática de Oportunidades de Aproximação em Instruções RISC-V"
+    },
+    {
+      "doi": "",
+      "identity": "title:designandempiricalevaluationofanetworkcentriconpremisesarchitectureforearthobservationdataaccess",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-08-20",
+      "source": "arxiv",
+      "title": "Design and Empirical Evaluation of a Network-Centric, On-Premises Architecture for Earth Observation Data Access"
+    },
+    {
+      "doi": "",
+      "identity": "title:asafetydrivenarchitecturalframeworkforfailoperationaldroneswarmsincriticalmissions",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-08-21",
+      "source": "arxiv",
+      "title": "A Safety-Driven Architectural Framework for Fail-Operational Drone Swarms in Critical Missions"
+    },
+    {
+      "doi": "https://doi.org/10.1142/s0218126626450015",
+      "identity": "title:deeplearningbasedhardwaretrojandetectionviadualpathcnnandmarkovtransitionfieldrepresentations",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-08-24",
+      "source": "crossref",
+      "title": "Deep Learning-Based Hardware Trojan Detection via Dual-Path CNN and Markov Transition Field Representations"
+    },
+    {
+      "doi": "https://doi.org/10.1103/sdxb-v39h",
+      "identity": "title:analyticalblueprintfor99999fidelityxgatesonpresentsuperconductinghardwareunderstrongdriving",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-08-27",
+      "source": "crossref",
+      "title": "Analytical Blueprint for 99.999% Fidelity X-Gates on Present Superconducting Hardware Under Strong Driving"
+    },
+    {
+      "doi": "https://doi.org/10.29121/digisecforensics.v3.i2.2026.113",
+      "identity": "title:integratedaigovernanceforsustainabledevelopmentatriadicframeworkrlgenaicybersecuritywithdigitalforensicsandlegislativealignmentforemergingeconomies",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-08-01",
+      "source": "crossref",
+      "title": "INTEGRATED AI GOVERNANCE FOR SUSTAINABLE DEVELOPMENT: A TRIADIC FRAMEWORK (RL-GENAI-CYBERSECURITY) WITH DIGITAL FORENSICS AND LEGISLATIVE ALIGNMENT FOR EMERGING ECONOMIES"
+    },
+    {
+      "doi": "https://doi.org/10.1145/3838187",
+      "identity": "title:failslowhardwarefailurebuganalysisanddetectionforcloudsystems",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-08-03",
+      "source": "crossref",
+      "title": "Fail-Slow Hardware Failure Bug Analysis and Detection for Cloud Systems"
     }
   ],
-  "query_index": 9,
+  "query_index": 13,
   "secondary": 21,
-  "skipped": 356,
+  "skipped": 360,
   "version": 1
 }

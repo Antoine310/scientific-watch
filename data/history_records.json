@@ -686,6 +686,19 @@
     ],
     "title": "RV-Sec5: Enhancing RISC-V Security Evaluation via Targeted ISA-Level Instrumentation using gem5"
   },
+  "doi:10.1145/3802921": {
+    "publication_date": "2026-08-27",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-08-27",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3802921",
+    "summary": "Cet article présente Bespoke Process (bes-proc), une abstraction du système d'exploitation et des extensions matérielles permettant aux applications de sélectionner précisément leur ensemble de fonctionnalités matérielles via un masque de processeur, éliminant ainsi le fardeau des fonctionnalités non désirées et améliorant les performances.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Making Hardware Features Bespoke: Operating System Support for Bes-Mode Processes"
+  },
   "doi:10.1145/3803525.3804986": {
     "publication_date": "2026-04-16",
     "score": 90,
@@ -705,6 +718,30 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Keystone with Linux PREEMPT_RT: Real-Time Enclaves on RISC-V?"
+  },
+  "doi:10.1145/3811543": {
+    "publication_date": "2026-08-29",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-08-29",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3811543",
+    "summary": "RAVEN est une plateforme de simulation virtuelle basée sur gem5 conçue pour évaluer la sécurité microarchitecturale des processeurs RISC-V. Elle permet de modéliser les caches, d'intégrer des compteurs de performance matériels et d'analyser les canaux auxiliaires temporels, tout en combinant l'émulation d'attaques et une détection par apprentissage automatique.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot",
+      "T02 — DICE & Hardware Identity",
+      "T03 — RISC-V TEE & Enclaves",
+      "T04 — Runtime Attestation",
+      "T05 — Enclave Performance & Crypto",
+      "T06 — Microarchitectural Side Channels",
+      "T07 — Hardware Security Verification",
+      "T08 — Cache & Temporal Isolation",
+      "T09 — Secure Memory",
+      "T10 — RISC-V SoC & FPGA",
+      "T11 — PUF & TRNG",
+      "T12 — Advanced Memory Architectures"
+    ],
+    "title": "RAVEN: A Virtual Platform for RISC-V Microarchitectural Security"
   },
   "doi:10.1145/3811913": {
     "publication_date": "2026-04-25",
@@ -1526,6 +1563,19 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Prototyping Custom Hardware Performance Counters in gem5 Simulator: A Framework for RISC-V Side-Channel Attack Assessment"
+  },
+  "title:realmeyevirtualmachineintrospectionforarmccarealmvms": {
+    "publication_date": "2026-08-13",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2608.12822v1",
+    "summary": "RealmEye est le premier système d'introspection de machine virtuelle (VMI) conçu pour les machines virtuelles confidentielles Arm CCA (Realm VMs). Il place la logique d'introspection directement dans le Realm Management Monitor (RMM à R-EL2) pour assurer une séparation matérielle stricte, sans nécessiter d'agent dans la VM. Il permet de lire la mémoire et les registres, de suspendre la VM pour des captures cohérentes et de piéger les accès aux pages, les résultats étant transmis via un canal attesté matériellement.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "RealmEye: Virtual Machine Introspection for Arm CCA Realm VMs"
   },
   "title:remotetimerasaserviceefficientmicroarchitecturalleakageinthecloudwithremotetimers": {
     "publication_date": "2026-08-17",
