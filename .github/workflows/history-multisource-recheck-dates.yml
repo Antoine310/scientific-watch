@@ -1,0 +1,66 @@
+name: Scientific Watch - Revoir dates Crossref
+
+on:
+  workflow_dispatch:
+    inputs:
+      month:
+        description: 'Mois Crossref deja parcouru (AAAA-MM), par exemple 2026-10'
+        type: string
+        default: '2026-10'
+        required: true
+      apply:
+        description: 'false = apercu ; true = evaluation et publication'
+        type: boolean
+        default: false
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scientific-watch-shared-state
+  cancel-in-progress: false
+
+jobs:
+  recheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    env:
+      NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+      NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+      NOTION_DATA_SOURCE_ID: ${{ secrets.NOTION_DATA_SOURCE_ID }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.5-flash-lite' }}
+      PUBLIC_REPO_TOKEN: ${{ secrets.PUBLIC_REPO_TOKEN }}
+      PUBLIC_REPO: Antoine310/scientific-watch-v2
+      PUBLIC_DRY_RUN: 'false'
+      MULTI_APPLY: ${{ inputs.apply }}
+      WRITE_NOTION: ${{ inputs.apply }}
+      MULTI_MAX_PAGES: '15'
+      MULTI_MAX_AI: '25'
+      MULTI_MAX_QUERY_PAGES: '12'
+      MIN_SCORE_CORE: '75'
+      MIN_SCORE_TRANSFER: '70'
+      RECHECK_MONTH: ${{ inputs.month }}
+    steps:
+      - name: Récupérer les scripts
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Vérifier les scripts Python
+        run: python3 -m py_compile history_multisource.py history_multisource_recheck_dates.py collect.py cache_v16.py publish_history.py publish_weekly.py
+
+      - name: Réexaminer les pages Crossref du mois
+        run: python3 history_multisource_recheck_dates.py
+
+      - name: Conserver le cache et la progression même après erreur
+        if: ${{ always() && inputs.apply }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f data/article_cache.json data/history_records.json data/history_secondary_records.json "data/history_multisource_recheck_${RECHECK_MONTH}.json" 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Historique Crossref : rattrapage dates ${RECHECK_MONTH}"
+            git push
+          fi
