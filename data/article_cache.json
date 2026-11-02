@@ -136,6 +136,14 @@
       "title": "PLRAC : A PUF Characteristic Based Lightweight Remote Attestation for Container",
       "updated_at": "2026-11-01T02:15:02.252672+00:00"
     },
+    "doi:10.1002/cpe.70891": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "CHRONOS: A Hardware‐Assisted Phase‐Decoupled Framework for Secure Federated Learning in IoT",
+      "updated_at": "2026-11-02T20:51:23.050810+00:00"
+    },
     "doi:10.1002/cta.4571": {
       "category": "secondaire",
       "decision": "examiner",
@@ -344,6 +352,14 @@
       "title": "Secure Hardware-Assisted AI for Real-Time Financial Transaction Risk Scoring",
       "updated_at": "2026-11-02T16:51:09.787565+00:00"
     },
+    "doi:10.1007/978-3-032-32578-5_12": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 25,
+      "status": "rejected",
+      "title": "High-throughput Side-Channel-Protected Stream Cipher Hardware for 6G Systems",
+      "updated_at": "2026-11-02T20:51:11.843677+00:00"
+    },
     "doi:10.1007/978-3-032-32578-5_20": {
       "category": "secondaire",
       "decision": "examiner",
@@ -512,6 +528,14 @@
       "title": "Reverse Engineering and Systematic Evaluation of Prefetcher-Based Security Vulnerabilities in Commercial RISC-V Processors",
       "updated_at": "2026-11-02T09:08:53.633435+00:00"
     },
+    "doi:10.1007/978-981-92-3423-3_29": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "SecSGX: Fine-Grained Monitoring for Runtime Integrity Verification in SGX",
+      "updated_at": "2026-11-02T20:51:01.466592+00:00"
+    },
     "doi:10.1007/978-981-92-4805-6_21": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -648,6 +672,14 @@
       "title": "A Review of Compiler Optimization Techniques and Comparative Analysis for RISC-V Software Development",
       "updated_at": "2026-11-02T17:36:18.586978+00:00"
     },
+    "doi:10.1007/s10791-026-10370-z": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Mixed reality systems for space exploration integrating telemetry data, artificial intelligence, three dimensional modeling, and hardware interfaces",
+      "updated_at": "2026-11-02T20:50:52.076079+00:00"
+    },
     "doi:10.1007/s10791-026-10502-5": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -775,6 +807,14 @@
       "status": "rejected",
       "title": "Software-Based Techniques as Alternatives to Hardware Filters for Overvoltage Mitigation in Inverter Systems with SiC Modules",
       "updated_at": "2026-11-02T18:35:36.985256+00:00"
+    },
+    "doi:10.1007/s44291-026-00253-4": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Comparative energy awareness and performance analysis of ARM and RISC-V SHA-256 hardware acceleration on the RP2350",
+      "updated_at": "2026-11-02T20:51:23.031620+00:00"
     },
     "doi:10.1007/s44443-026-01247-8": {
       "category": "secondaire",
@@ -1464,6 +1504,14 @@
       "title": "A lightweight hash-based quantum-resistant bidirectional authentication protocol for IoT devices integrating physical unclonable functions",
       "updated_at": "2026-11-02T02:13:32.492060+00:00"
     },
+    "doi:10.1038/s41598-026-60759-5": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "RISC-V-based YOLOv3-tiny acceleration with runtime-reconfigurable systolic arrays and custom instructions",
+      "updated_at": "2026-11-02T20:51:11.793651+00:00"
+    },
     "doi:10.1038/s41598-026-61746-6": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -1471,6 +1519,22 @@
       "status": "rejected",
       "title": "Optimization and hardware evaluation of a modified reconfigurable ring oscillator PUF",
       "updated_at": "2026-11-02T05:15:13.286933+00:00"
+    },
+    "doi:10.1038/s41598-026-62226-7": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Smart hardware-integrated deep learning framework for real-time pothole detection in vehicles",
+      "updated_at": "2026-11-02T20:51:01.482437+00:00"
+    },
+    "doi:10.1038/s41598-026-63223-6": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "An efficient serialized hardware implementation of the ASCON algorithm",
+      "updated_at": "2026-11-02T20:51:11.859295+00:00"
     },
     "doi:10.1038/s41598-026-66018-x": {
       "category": "hors_sujet",
@@ -2127,6 +2191,14 @@
       "status": "rejected",
       "title": "FLAI Protocol: Decentralized Federated Learning with On-Chain Rewards and sPEG-Based Contribution Scoring",
       "updated_at": "2026-11-02T13:03:57.222062+00:00"
+    },
+    "doi:10.1109/iccmc69250.2026.11624696": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Leak-Free Machine Learning for Hardware Trojan Detection at RTL",
+      "updated_at": "2026-11-02T20:51:23.177925+00:00"
     },
     "doi:10.1109/iccpct70290.2026.11654754": {
       "category": "hors_sujet",
@@ -3584,6 +3656,14 @@
       "title": "A Clinician‐Led Feasibility Study for Echocardiographic View Classification Using Standard Workstation Hardware and Routine Clinical Archives",
       "updated_at": "2026-11-02T14:37:37.717201+00:00"
     },
+    "doi:10.1111/exsy.70385": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "A Review on Large‐Scale Hardware and Software Platforms for Neuromorphic Computing",
+      "updated_at": "2026-11-02T20:51:30.315869+00:00"
+    },
     "doi:10.1111/famp.70203": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4536,6 +4616,14 @@
       "title": "Security assessment of photonic integrated circuit-based physically unclonable functions",
       "updated_at": "2026-11-02T20:11:06.122102+00:00"
     },
+    "doi:10.1371/journal.pone.0354145": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Constant-time hardware implementation of Modular Inversion with Kaliski’s Algorithm for ECC",
+      "updated_at": "2026-11-02T20:51:23.099748+00:00"
+    },
     "doi:10.1371/journal.pone.0355179": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -4936,6 +5024,14 @@
       "title": "Admissibility Before Optimisation in Quantum Control: An Evidence-Governed Framework for Prospective Hardware Validation",
       "updated_at": "2026-11-02T15:15:29.985489+00:00"
     },
+    "doi:10.21203/rs.3.rs-10247338/v1": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "Retrofit or Redesign? Hardware-Validated Constant-Time Defense and Cost Analysis for the M-Step Side-Channel on TrustZone-M",
+      "updated_at": "2026-11-02T20:50:52.059631+00:00"
+    },
     "doi:10.21203/rs.3.rs-10301685/v1": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4959,6 +5055,22 @@
       "status": "rejected",
       "title": "A Hardware-Efficient Android Malware Detection Framework for Resource-Constrained Devices",
       "updated_at": "2026-11-02T18:35:29.252370+00:00"
+    },
+    "doi:10.21203/rs.3.rs-10450224/v1": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "TPM-Free Post-Quantum Attestation for Legacy Industrial Control Devices Using Commodity-Hardware Trusted Execution",
+      "updated_at": "2026-11-02T20:51:23.115294+00:00"
+    },
+    "doi:10.21203/rs.3.rs-10500424/v1": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Eco-ITAD: A Real-Time Automated Hardware Diagnostics and Scope 3 ESG Compliance Framework for Sustainable E-Waste Management",
+      "updated_at": "2026-11-02T20:51:23.067797+00:00"
     },
     "doi:10.21203/rs.3.rs-10500424/v2": {
       "category": "hors_sujet",
@@ -5152,6 +5264,14 @@
       "title": "True Random Number Generator with Theory-Backed Entropy Rates for ASICs",
       "updated_at": "2026-10-30T11:01:27.174377+00:00"
     },
+    "doi:10.2172/3393684": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Towards a Verifiable Domain-Specific Language for Hardware-Accelerated Stencils",
+      "updated_at": "2026-11-02T20:51:23.192350+00:00"
+    },
     "doi:10.2174/0122103279362797250915200403": {
       "category": "secondaire",
       "decision": "examiner",
@@ -5327,6 +5447,14 @@
       "status": "rejected",
       "title": "The True Random Number Generator design using a high-noise oscillator",
       "updated_at": "2026-10-31T14:14:01.635384+00:00"
+    },
+    "doi:10.24425/ijet.2026.1733": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Analysis of Coprocessor-based Acceleration for Hardware-based Semaphore Concurrency Control",
+      "updated_at": "2026-11-02T20:51:40.500127+00:00"
     },
     "doi:10.2478/jee-2026-0049": {
       "category": "hors_sujet",
@@ -5912,6 +6040,30 @@
       "title": "Chisel-Based Hardware Trojan Design: A Comparative Case Study with AES-T100",
       "updated_at": "2026-11-02T20:34:34.713346+00:00"
     },
+    "doi:10.3390/electronics15143179": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Runtime-Controlled Evaluation of Speculative Decoding Methods",
+      "updated_at": "2026-11-02T20:51:01.496717+00:00"
+    },
+    "doi:10.3390/electronics15153263": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hardware Accountability for Energy-Efficient Stream-Oriented Data-Plane Processing in 5G/6G Edge Telecommunication Nodes",
+      "updated_at": "2026-11-02T20:51:11.873868+00:00"
+    },
+    "doi:10.3390/electronics15153325": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Software-Defined Runtime Reconfiguration of Cryptographic Service Chains for IIoT Edge Nodes",
+      "updated_at": "2026-11-02T20:51:23.084043+00:00"
+    },
     "doi:10.3390/electronics15153393": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -6047,6 +6199,14 @@
       "status": "rejected",
       "title": "Two-Stage Stochastic Frequency-Security-Constrained Unit Commitment for Thermal-Storage Joint Frequency Regulation Under High Renewables Using Analytical Criterion and Linear Surrogates",
       "updated_at": "2026-11-02T20:11:11.303115+00:00"
+    },
+    "doi:10.3390/en19153459": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "A PSO-BPNN-Based PI Parameter Tuning Strategy for the Inner Current Loop of a Vienna Rectifier with FPGA-Based Hardware-in-the-Loop Verification",
+      "updated_at": "2026-11-02T20:51:11.828482+00:00"
     },
     "doi:10.3390/en19184440": {
       "category": "hors_sujet",
@@ -6544,6 +6704,14 @@
       "title": "Secure and Privacy-Aware Data Architecture Design for Security Operations Centers",
       "updated_at": "2026-11-02T20:11:19.630964+00:00"
     },
+    "doi:10.4018/979-8-3373-9983-6.ch004": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Systematic Review on Machine Learning Applications in Hardware Security for Vehicles",
+      "updated_at": "2026-11-02T20:51:23.162717+00:00"
+    },
     "doi:10.4018/ijiit.423593": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -6648,6 +6816,14 @@
       "title": "Hotspot-induced Malicious in-System Aging on FPGAs",
       "updated_at": "2026-11-02T20:35:13.653956+00:00"
     },
+    "doi:10.46586/tches.v2026.i3.1310-1336": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Formal Verification, Integration and Physical Evaluation of Prime-Field Masking on Silicon",
+      "updated_at": "2026-11-02T20:50:44.401058+00:00"
+    },
     "doi:10.46586/tches.v2026.i3.171-197": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -6687,6 +6863,14 @@
       "status": "rejected",
       "title": "SoK: Long Paper: A Review of IC Logical Reverse Engineering Techniques",
       "updated_at": "2026-11-02T20:34:47.588887+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.402-425": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "DSPFA: Generalized Persistent Fault Analysis based on Distributional Similarity",
+      "updated_at": "2026-11-02T20:50:44.418762+00:00"
     },
     "doi:10.46586/tches.v2026.i3.426-464": {
       "category": "secondaire",
@@ -8184,6 +8368,14 @@
       "title": "Awareness Alone is not Enough – KSL Kupferschiefer Lausitz Caught Between the Need for Raw Material Security and Reality: “Mining with ESG” within the European Raw Materials Framework",
       "updated_at": "2026-11-02T13:48:02.100755+00:00"
     },
+    "doi:10.67335/3070-6238.1018": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Clinical Review of Bio-Logistical Steering in Aging Hybrid Hardware: Micro-Vectorized Mitochondrial Architecture for Mucosal Restoration and Multi-Modular Decongestion",
+      "updated_at": "2026-11-02T20:51:23.139436+00:00"
+    },
     "doi:10.67440/ahj.vi.2882": {
       "category": "secondaire",
       "decision": "examiner",
@@ -8207,6 +8399,14 @@
       "status": "rejected",
       "title": "True Random Number Generator Design with A Fractional Order Sprott B Chaotic System",
       "updated_at": "2026-10-31T02:13:41.842525+00:00"
+    },
+    "doi:10.70267/cai.26v3n3.239245": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "FPGA-Based Bilinear Interpolation Image Scaler with Q8 Fixed-Point Arithmetic and Hardware-Software Co-Verification",
+      "updated_at": "2026-11-02T20:51:11.812345+00:00"
     },
     "doi:10.70315/uloap.ulirs.2026.0301014": {
       "category": "transfert_explicite",

@@ -20,6 +20,19 @@
     ],
     "title": "Hardware Lazy PAT: Making Memory Encryption with Integrity Verification Unobtrusive"
   },
+  "doi:10.1007/978-981-92-3423-3_29": {
+    "publication_date": "2026-07-19",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-07-19",
+    "score": 75,
+    "source": "https://doi.org/10.1007/978-981-92-3423-3_29",
+    "summary": "SecSGX: Fine-Grained Monitoring for Runtime Integrity Verification in SGX",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "SecSGX: Fine-Grained Monitoring for Runtime Integrity Verification in SGX"
+  },
   "doi:10.1007/978-981-95-8617-2_4": {
     "publication_date": "2026-10-14",
     "score": 75,
@@ -891,6 +904,19 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Utilization of Secure Bootloaders in Embedded Systems for Ensuring Device Integrity and Preventing Firmware Tampering Through Cryptographic Validation Mechanisms"
+  },
+  "doi:10.21203/rs.3.rs-10247338/v1": {
+    "publication_date": "2026-07-17",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-07-17",
+    "score": 80,
+    "source": "https://doi.org/10.21203/rs.3.rs-10247338/v1",
+    "summary": "Cette étude analyse le compromis entre le correctif (retrofit) de routines cryptographiques et leur reconception complète (redesign) pour assurer un temps constant face au canal auxiliaire M-Step (CVE-2025-54764) sur des processeurs ARM Cortex-M33 équipés de TrustZone-M.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Retrofit or Redesign? Hardware-Validated Constant-Time Defense and Cost Analysis for the M-Step Side-Channel on TrustZone-M"
   },
   "doi:10.21227/xxx6-v468": {
     "publication_date": "2026-08-09",
