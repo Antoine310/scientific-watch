@@ -930,6 +930,19 @@
     ],
     "title": "Improving ML-KEM and ML-DSA on OpenTitan"
   },
+  "doi:10.46586/tches.v2026.i4.36-61": {
+    "publication_date": "2026-09-11",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-09-11",
+    "score": 75,
+    "source": "https://doi.org/10.46586/tches.v2026.i4.36-61",
+    "summary": "Cet article analyse la sécurité des contre-mesures aux attaques temporelles sur les réseaux sur puce (NoC) à l'aide d'un nouveau cadre d'évaluation basé sur le simulateur gem5 et l'analyse TVLA. Il démontre la vulnérabilité de la plupart des solutions existantes et propose une nouvelle contre-mesure légère nommée Turtle Walk, utilisant les compteurs de performance matériels (HPCs) et le contrôle de flux pour empêcher les attaques multi-PE avec un faible surcoût.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Turtle Walk: Stopping Timing Attack on NoC"
+  },
   "doi:10.46586/uasc.2026.008": {
     "publication_date": "2026-02-03",
     "score": 95,

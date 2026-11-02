@@ -3344,6 +3344,14 @@
       "title": "Secure GNSS telemetry on ESP32 using kinematic validation, adaptive logging, and hardware-accelerated AES encryption",
       "updated_at": "2026-11-02T14:00:07.670619+00:00"
     },
+    "doi:10.24963/ijcai.2026/444": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Large Lemma Miners: Can LLMs Do Induction Proofs for Hardware?",
+      "updated_at": "2026-11-02T16:35:08.857334+00:00"
+    },
     "doi:10.26233/heallink.tuc.105404": {
       "category": "coeur",
       "decision": "conserver",
@@ -3768,6 +3776,14 @@
       "title": "HRCred: Revocation-Consistent Hardware-Rooted Credentials for Cross-Domain Industrial Cyber–Physical Systems",
       "updated_at": "2026-11-02T16:17:40.219191+00:00"
     },
+    "doi:10.3390/electronics15184193": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "FPGA Implementation and Hardware-in-the-Loop Validation of Model Predictive Control for a Defibrillator Flyback Converter",
+      "updated_at": "2026-11-02T16:34:40.067234+00:00"
+    },
     "doi:10.3390/electronics15194490": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -3839,6 +3855,14 @@
       "status": "rejected",
       "title": "PMAKA-IoV: A Physical Unclonable Function (PUF)-Based Multi-Factor Authentication and Key Agreement Protocol for Internet of Vehicles",
       "updated_at": "2026-10-30T17:14:14.377143+00:00"
+    },
+    "doi:10.3390/info17090902": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 50,
+      "status": "rejected",
+      "title": "White-Box Tweakable Block Cipher and Hardware-Binding Scheme Under Tweak-Unique Mode",
+      "updated_at": "2026-11-02T16:34:40.076004+00:00"
     },
     "doi:10.3390/info17101004": {
       "category": "secondaire",
@@ -3935,6 +3959,14 @@
       "status": "rejected",
       "title": "Runtime Firmware Update for 32-Bit Microcontrollers with Instruction Cache Under Concurrent Task Execution",
       "updated_at": "2026-11-02T16:17:57.901207+00:00"
+    },
+    "doi:10.3390/s26185840": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "AI-Enabled Hardware-in-the-Loop Validation for Automotive Cybersecurity: A Review of Cyber Threats, Testbeds, and Intelligent Detection",
+      "updated_at": "2026-11-02T16:34:40.059099+00:00"
     },
     "doi:10.3390/s26196247": {
       "category": "secondaire",
@@ -4231,6 +4263,174 @@
       "status": "imported",
       "title": "Improving ML-KEM and ML-DSA on OpenTitan",
       "updated_at": "2026-11-01T14:13:43.350741+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.116-155": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "SoK: From Silicon to Netlist and Beyond",
+      "updated_at": "2026-11-02T16:34:49.153348+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.237-264": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Breaking the Area Limit of Composable Gadgets",
+      "updated_at": "2026-11-02T16:34:49.160298+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.293-315": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Low-Stack HAETAE for Memory-Constrained Microcontrollers",
+      "updated_at": "2026-11-02T16:34:49.166994+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.36-61": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Turtle Walk: Stopping Timing Attack on NoC",
+      "updated_at": "2026-11-02T16:34:49.137501+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.369-396": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Efficient and Compact High-order Masking Raccoon on Memory Constrained Devices",
+      "updated_at": "2026-11-02T16:35:00.206211+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.423-446": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 25,
+      "status": "rejected",
+      "title": "Coupling Leakage in Theory and Practice",
+      "updated_at": "2026-11-02T16:35:00.218785+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.447-470": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Pipelining FALCON’s Gaussian sampler",
+      "updated_at": "2026-11-02T16:35:00.229914+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.471-495": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "SQISign on ARM",
+      "updated_at": "2026-11-02T16:35:00.240724+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.496-521": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "High-Throughput GPU Design and Implementation of MAYO with Matrix Computation Reordering",
+      "updated_at": "2026-11-02T16:35:00.260816+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.522-548": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 25,
+      "status": "rejected",
+      "title": "Low-Latency Low-Randomness First-Order OPINI Gadgets and Their Formal Verification",
+      "updated_at": "2026-11-02T16:35:00.250677+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.549-574": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Slicing Bits and Cutting Costs in CDT Sampling",
+      "updated_at": "2026-11-02T16:35:00.270434+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.62-115": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "RainHash2.0: Hardware- and Arithmetization-friendly Hash Function",
+      "updated_at": "2026-11-02T16:34:49.145975+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.656-678": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "The σ0 Side Channel: Single-Trace State Recovery from NIST SP 800-90A Hash-DRBG",
+      "updated_at": "2026-11-02T16:35:00.280081+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.679-704": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hybrid Parallel SHA-3 and its Applications to Fiat-Shamir with Aborts Signatures",
+      "updated_at": "2026-11-02T16:35:00.289059+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.759-785": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "How Strong is the FO-Calypse, Really? Instantiating Plaintext-Checking Oracles against Masked Software Implementations of ML-KEM",
+      "updated_at": "2026-11-02T16:35:00.297517+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.815-837": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Faulting an 8 nm FinFET technology SoC using Photon Emission Microscopy-assisted LFI",
+      "updated_at": "2026-11-02T16:35:08.805892+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.838-862": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Key-Recovery Side-Channel Attack on the Berlekamp-Massey Decoding Algorithm in the Classic McEliece KEM",
+      "updated_at": "2026-11-02T16:35:08.815444+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.863-889": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "GlitchSnipe: Toward Localized Voltage Fault Attacks",
+      "updated_at": "2026-11-02T16:35:08.823643+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.917-944": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "The SMAesH dataset",
+      "updated_at": "2026-11-02T16:35:08.833823+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.945-969": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "SHARMONY",
+      "updated_at": "2026-11-02T16:35:08.841541+00:00"
+    },
+    "doi:10.46586/tches.v2026.i4.970-997": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "A Unified RISC-V Vector Framework for Large-Scale NTT in FHE and ZKP",
+      "updated_at": "2026-11-02T16:35:08.850323+00:00"
     },
     "doi:10.46586/uasc.2026.008": {
       "category": "coeur",
