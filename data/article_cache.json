@@ -120,6 +120,14 @@
       "title": "Physical Unclonable Functions From Microwave Metasurface Fingerprints",
       "updated_at": "2026-10-31T07:10:38.187499+00:00"
     },
+    "doi:10.1002/aisy.202400648": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Bias‐Independent True Random Number Generator Circuit using Memristor Noise Signals as Entropy Source",
+      "updated_at": "2026-11-02T20:13:42.229540+00:00"
+    },
     "doi:10.1002/cpe.70534": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -1352,6 +1360,14 @@
       "title": "Linking traditional and scientific knowledge to assess cultural keystone species in the Yangtze River Delta",
       "updated_at": "2026-11-02T08:32:08.012591+00:00"
     },
+    "doi:10.1038/s41467-024-54492-8": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Artificial fingerprints engraved through block-copolymers as nanoscale physical unclonable functions for authentication and identification",
+      "updated_at": "2026-11-02T20:13:25.679300+00:00"
+    },
     "doi:10.1038/s41467-024-55380-x": {
       "category": "secondaire",
       "decision": "examiner",
@@ -1608,6 +1624,14 @@
       "title": "Autferroics-Based True Random Number Generators with Enhanced Performance",
       "updated_at": "2026-11-02T08:30:49.058755+00:00"
     },
+    "doi:10.1103/physrevresearch.6.043306": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Existential unforgeability in quantum authentication from quantum physical unclonable functions based on random von Neumann measurement",
+      "updated_at": "2026-11-02T20:13:25.679326+00:00"
+    },
     "doi:10.1108/ijse-09-2025-0921": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -1784,6 +1808,14 @@
       "title": "A Near-Cache RISC-V Coprocessor for Efficient Posit Dot-Product Acceleration",
       "updated_at": "2026-11-02T17:38:18.309988+00:00"
     },
+    "doi:10.1109/ats64447.2024.10915242": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 25,
+      "status": "rejected",
+      "title": "MTCX: Ultra-high Throughput TRNG Based on Mesh topology of Coupled-XOR",
+      "updated_at": "2026-11-02T20:13:42.229534+00:00"
+    },
     "doi:10.1109/bhi67747.2025.11269531": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -1807,6 +1839,14 @@
       "status": "rejected",
       "title": "A Runtime Tunable Data Acquisition and Evaluation System for FPGA-based TRNGs",
       "updated_at": "2026-10-31T17:15:11.713322+00:00"
+    },
+    "doi:10.1109/cins63881.2024.10864441": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Hybrid Deep Learning Model for Multiple Cache Side Channel Attacks Detection: A Comparative Analysis",
+      "updated_at": "2026-11-02T20:13:55.488899+00:00"
     },
     "doi:10.1109/cins67018.2025.11412147": {
       "category": "hors_sujet",
@@ -2375,6 +2415,14 @@
       "status": "imported",
       "title": "SideSec: Detecting and Mitigating Microarchitectural Side-Channel Attacks in Cloud VMs via Entropy Monitoring and Dynamic VM Reallocation",
       "updated_at": "2026-10-31T20:14:42.669606+00:00"
+    },
+    "doi:10.1109/ises63344.2024.00046": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "A Hardware-Software Co-Design Approach to Implement PUFs and TRNGs on FPGAs",
+      "updated_at": "2026-11-02T20:13:42.229516+00:00"
     },
     "doi:10.1109/isqed65160.2025.11014412": {
       "category": "secondaire",
@@ -6575,6 +6623,30 @@
       "status": "rejected",
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
+    },
+    "doi:10.48550/arxiv.2411.01340": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "RA-WEBs: Remote Attestation for WEB services",
+      "updated_at": "2026-11-02T20:14:04.886398+00:00"
+    },
+    "doi:10.48550/arxiv.2411.10855": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "On the Verification of Control Flow Attestation Evidence",
+      "updated_at": "2026-11-02T20:14:30.477084+00:00"
+    },
+    "doi:10.48550/arxiv.2411.14025": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "RISecure-PUF: Multipurpose PUF-Driven Security Extensions with Lookaside Buffer in RISC-V",
+      "updated_at": "2026-11-02T20:13:44.682431+00:00"
     },
     "doi:10.48550/arxiv.2412.08769": {
       "category": "coeur",

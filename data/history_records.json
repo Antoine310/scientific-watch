@@ -1085,6 +1085,16 @@
     ],
     "title": "Physical Memory Please: Practical Memory-Aliasing Attacks on RISC-V PMP"
   },
+  "doi:10.48550/arxiv.2411.10855": {
+    "publication_date": "2024-11-16",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2411.10855",
+    "summary": "Cet article étudie la vérification des preuves d'attestation du flux de contrôle (CFA) du point de vue du vérificateur distant. Alors que les travaux précédents se concentraient sur la racine de confiance (RoT) de l'appareil prouveur, les auteurs examinent la capacité du vérificateur à analyser efficacement les preuves reçues pour détecter et remédier aux vulnérabilités, et proposent SABRE, un moteur d'analyse de sécurité et de réparation binaire.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "On the Verification of Control Flow Attestation Evidence"
+  },
   "doi:10.48550/arxiv.2412.08769": {
     "publication_date": "2024-12-11",
     "score": 75,
