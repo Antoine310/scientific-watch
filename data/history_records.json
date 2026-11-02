@@ -393,6 +393,19 @@
     ],
     "title": "PerSpectron: Detecting Invariant Footprints of Microarchitectural Attacks with Perceptron"
   },
+  "doi:10.1109/msec.2026.3698657": {
+    "publication_date": "2026-07-01",
+    "publication_date_note": "Date source Crossref : 2026-07 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2026-07",
+    "score": 85,
+    "source": "https://doi.org/10.1109/msec.2026.3698657",
+    "summary": "Non disponible dans les métadonnées.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Hardware-Based Confidential Computing: Security Objectives and Mechanisms"
+  },
   "doi:10.1109/mwscas67364.2026.11680855": {
     "publication_date": "2026-08-01",
     "score": 75,
@@ -1061,6 +1074,19 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Improving ML-KEM and ML-DSA on OpenTitan"
+  },
+  "doi:10.46586/tches.v2026.i3.830-855": {
+    "publication_date": "2026-07-17",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-07-17",
+    "score": 90,
+    "source": "https://doi.org/10.46586/tches.v2026.i3.830-855",
+    "summary": "SPLASH est un framework matériel adaptatif et reconfigurable conçu pour atténuer les vulnérabilités d'exécution spéculative dans les processeurs modernes. Il introduit le suivi du flux d'informations spéculatives (SIFT) et une table spéculative reconfigurable permettant des ajustements dynamiques des politiques de sécurité après fabrication sans refonte matérielle. Évalué sur les processeurs BOOM (small et medium), SPLASH atténue toutes les attaques par exécution spéculative avec une surcharge de calcul minimale de 0,05 % et 1,23 % respectivement.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "SPLASH: SPeculative Leakage-Adaptive Secure Hardware"
   },
   "doi:10.46586/tches.v2026.i4.36-61": {
     "publication_date": "2026-09-11",

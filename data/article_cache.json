@@ -2800,6 +2800,14 @@
       "title": "From Colocation to Exfiltration: Practical Cache Side-Channel Attacks in the Modern Public Cloud",
       "updated_at": "2026-10-30T17:13:34.426937+00:00"
     },
+    "doi:10.1109/msec.2026.3698657": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Hardware-Based Confidential Computing: Security Objectives and Mechanisms",
+      "updated_at": "2026-11-02T20:34:34.697118+00:00"
+    },
     "doi:10.1109/mwscas67364.2026.11680660": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4552,6 +4560,14 @@
       "title": "The Moderating Effect of Investor Trust on the Relationship between Disclosure of Environmental, Social, and Governance Practices and Sustainable Investment",
       "updated_at": "2026-11-02T13:42:12.445696+00:00"
     },
+    "doi:10.14293/pr2199.004115.v1": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Implementing Variational Quantum Algorithms to Compute Floquet Quasienergy Bands on Near-Term Hardware",
+      "updated_at": "2026-11-02T20:34:34.732506+00:00"
+    },
     "doi:10.14357/20790279260304": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -5880,6 +5896,22 @@
       "title": "The Hardware Isolation Gap: A Systematic Survey of BitLocker Forensics in the TPM 2.0 Era",
       "updated_at": "2026-11-01T17:16:24.094234+00:00"
     },
+    "doi:10.3390/electronics15143093": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware-Validated HLS Engines and Design-Time HBM Partitioning for AI Inference on AMD Alveo V80",
+      "updated_at": "2026-11-02T20:34:27.165380+00:00"
+    },
+    "doi:10.3390/electronics15143140": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Chisel-Based Hardware Trojan Design: A Comparative Case Study with AES-T100",
+      "updated_at": "2026-11-02T20:34:34.713346+00:00"
+    },
     "doi:10.3390/electronics15153393": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -6583,6 +6615,166 @@
       "status": "imported",
       "title": "Improving ML-KEM and ML-DSA on OpenTitan",
       "updated_at": "2026-11-01T14:13:43.350741+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.1177-1204": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 55,
+      "status": "rejected",
+      "title": "CoMEMS: Coping with Micro-Architectural Effects on Masked Software",
+      "updated_at": "2026-11-02T20:35:06.127329+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.1205-1227": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 50,
+      "status": "rejected",
+      "title": "Soft Analytical Side-Channel Attacks on SHA-2 and HMAC",
+      "updated_at": "2026-11-02T20:35:06.152786+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.1228-1255": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "PHOENIX: Crypto-Agile Hardware Sharing for ML-KEM and HQC",
+      "updated_at": "2026-11-02T20:35:06.167875+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.1256-1283": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hotspot-induced Malicious in-System Aging on FPGAs",
+      "updated_at": "2026-11-02T20:35:13.653956+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.171-197": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A High-Performance and Reconfigurable Hardware Architecture for FrodoKEM",
+      "updated_at": "2026-11-02T20:34:47.521187+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.24-70": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Better Usability: Leakage-Resistant AEADs from Single-length key Blockciphers",
+      "updated_at": "2026-11-02T20:34:34.746898+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.279-305": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Breaking the Myth of MPCitH Inefficiency: Optimizing MQOM for Embedded Platforms",
+      "updated_at": "2026-11-02T20:34:47.542769+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.306-333": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Verified non-recursive calculation of Beneš networks applied to Classic McEliece",
+      "updated_at": "2026-11-02T20:34:47.567602+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.342-376": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "SoK: Long Paper: A Review of IC Logical Reverse Engineering Techniques",
+      "updated_at": "2026-11-02T20:34:47.588887+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.426-464": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "LFSRs and Boolean Masking: An In-depth Security Analysis",
+      "updated_at": "2026-11-02T20:34:47.609375+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.592-615": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Leakback CRC: Optical Plaintext Recovery of Encrypted Bitstreams on AMD 7-Series FPGAs",
+      "updated_at": "2026-11-02T20:34:47.629735+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.646-678": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "A Divide-and-Conquer Strategy for Hard-Label Extraction of Deep Neural Networks via Side-Channel Attacks",
+      "updated_at": "2026-11-02T20:34:47.649548+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.679-718": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Compressed Key Exchange Protocol from Orientations of Large Discriminant Using AVX-512",
+      "updated_at": "2026-11-02T20:34:47.669530+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.719-743": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "HawkPU: An Efficient and Low-Latency Hardware Architecture for HAWK Signature Generation and Verification",
+      "updated_at": "2026-11-02T20:34:47.697162+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.769-804": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "MAGNET: MAsked Gaussian Now Efficient and Table-less",
+      "updated_at": "2026-11-02T20:34:47.714934+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.830-855": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "SPLASH: SPeculative Leakage-Adaptive Secure Hardware",
+      "updated_at": "2026-11-02T20:35:06.048974+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.881-907": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Accelerating FrodoKEM in Hardware",
+      "updated_at": "2026-11-02T20:35:06.068776+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.933-957": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "GPU-Accelerated DPF-Based Private Information Retrieval for Large-Scale Database",
+      "updated_at": "2026-11-02T20:35:06.085070+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.98-121": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "High-Performance FPGA Accelerator for the Post-quantum Signature Scheme CROSS",
+      "updated_at": "2026-11-02T20:34:34.761680+00:00"
+    },
+    "doi:10.46586/tches.v2026.i3.982-1006": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "MPSpeed: Implementing and Optimizing MPC-in-the-Head Digital Signatures in Hardware",
+      "updated_at": "2026-11-02T20:35:06.101069+00:00"
     },
     "doi:10.46586/tches.v2026.i4.116-155": {
       "category": "secondaire",
@@ -7351,6 +7543,14 @@
       "status": "rejected",
       "title": "Accelerating \\(x^n\\) Computation Using a Hardware-Integrated custom POW Instruction in 64-bit RISC-V Systems for Applied Mathematical Workloads",
       "updated_at": "2026-11-02T17:03:27.177810+00:00"
+    },
+    "doi:10.52783/jisem.v11i3s.15147": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "An Explainable AI-Driven Framework for Functional Verification and Hardware Trojan Detection in Next-Generation System-on-Chip Architectures",
+      "updated_at": "2026-11-02T20:34:27.181231+00:00"
     },
     "doi:10.5281/zenodo.17552881": {
       "category": "secondaire",
