@@ -47,8 +47,27 @@ def set_status(cache, paper, assessment, status):
 
 
 def done(cache, paper):
+    """Déduplication inter-sources : DOI si connu, sinon titre canonique.
+
+    Une publication évaluée par Scholar (sans DOI) sera reconnue plus tard
+    lorsque OpenAlex/Crossref lui associera un DOI. Pas de correspondance floue :
+    mieux vaut une réévaluation rare qu'une fusion de deux travaux différents.
+    """
     identity = key(paper)
-    return bool(identity and cache['articles'].get(identity, {}).get('status') in {'rejected', 'imported'})
+    articles = cache.get('articles', {})
+    terminal = {'rejected', 'imported'}
+    if identity and articles.get(identity, {}).get('status') in terminal:
+        return True
+    title_key = key({'title': paper.get('title')})
+    if not title_key or title_key == '':
+        return False
+    if articles.get(title_key, {}).get('status') in terminal:
+        return True
+    return any(
+        isinstance(row, dict) and row.get('status') in terminal
+        and key({'title': row.get('title')}) == title_key
+        for row in articles.values()
+    )
 
 
 def write(cache):
