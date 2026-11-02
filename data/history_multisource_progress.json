@@ -1,8 +1,8 @@
 {
   "accepted": 11,
   "completed": false,
-  "cursor": "*",
-  "evaluated": 348,
+  "cursor": "MTc2MTI0MjQ3OTAwMCwxMC4xMTA5JTJGbWNvbXN0ZC4yMDI1LjM2MTk4NDA=",
+  "evaluated": 353,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -20,13 +20,15 @@
     "monthly/2026-09/query-16 : résultat tronqué au plafond 12 pages",
     "monthly/2026-09/query-17 : résultat tronqué au plafond 12 pages",
     "monthly/2026-09/query-18 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-09/query-19 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-09/query-19 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-09/query-20 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-09/query-21 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-09",
   "needs_publish": false,
-  "offset": 0,
-  "pages_done": 250,
-  "pages_in_query": 0,
+  "offset": 40,
+  "pages_done": 275,
+  "pages_in_query": 1,
   "pending": [],
   "phase": "monthly",
   "prefilter_review": [
@@ -751,8 +753,8 @@
       "title": "MOSAIC for ELT: NIR channel challenges and performance"
     }
   ],
-  "query_index": 20,
+  "query_index": 22,
   "secondary": 16,
-  "skipped": 224,
+  "skipped": 232,
   "version": 1
 }
