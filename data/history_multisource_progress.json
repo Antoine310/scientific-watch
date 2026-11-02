@@ -1,8 +1,8 @@
 {
   "accepted": 31,
   "completed": false,
-  "cursor": "MTc3NzQ5MjIxNDAwMCwxMC4xMTA5JTJGamx0LjIwMjYuMzY4ODczMQ==",
-  "evaluated": 612,
+  "cursor": "MTc3Njk2MzI4NzAwMCwxMC4xMDE2JTJGai5qaXNhLjIwMjYuMTA0NDkw",
+  "evaluated": 637,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -37,13 +37,15 @@
     "monthly/2026-08/query-21 : résultat tronqué au plafond 12 pages",
     "monthly/2026-08/query-22 : résultat tronqué au plafond 12 pages",
     "monthly/2026-08/query-23 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-08/query-24 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-08/query-24 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-07/query-13 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-07/query-14 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-07",
   "needs_publish": false,
-  "offset": 240,
-  "pages_done": 486,
-  "pages_in_query": 6,
+  "offset": 200,
+  "pages_done": 509,
+  "pages_in_query": 5,
   "pending": [],
   "phase": "monthly",
   "prefilter_review": [
@@ -1286,10 +1288,74 @@
       "publication_date": "2026-07-01",
       "source": "crossref",
       "title": "On the Radiometric Calibration of Optical Hardware-in-the-Loop Stimulators"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1361-6668/ae7839",
+      "identity": "title:asuperconductingunaryarithmeticlogicunitwithultralowhardwarecost",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-07-01",
+      "source": "crossref",
+      "title": "A superconducting unary arithmetic logic unit with ultra-low hardware cost"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1361-6382/ae7adb",
+      "identity": "title:monitoringofcontinuouswavehardwareinjectionsinligointerferometersduringtheo4observingrun",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-07-07",
+      "source": "crossref",
+      "title": "Monitoring of continuous-wave hardware injections in LIGO interferometers during the O4 observing run"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1367-2630/ae8053",
+      "identity": "title:nisqinpracticenavigatingnoisescaleandhardwareconstraintsofneartermdevicesinquantummachinelearningworkflows",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-07-31",
+      "source": "crossref",
+      "title": "NISQ in practice: navigating noise, scale, and hardware constraints of near-term devices in quantum machine learning workflows"
+    },
+    {
+      "doi": "https://doi.org/10.4271/2026-01-0783",
+      "identity": "title:agraphclassificationapproachtosecurecompatibilityofsoftwareandhardwareconfigurationsindistributedautomotivesystems",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-07-01",
+      "source": "crossref",
+      "title": "A Graph Classification Approach to Secure Compatibility of Software and Hardware Configurations in Distributed Automotive Systems"
+    },
+    {
+      "doi": "https://doi.org/10.55981/j.mev.2026.1357",
+      "identity": "title:designandimplementationofhardwareintheloopsimulationforhapticfeedbackcontrolsystemvalidationinsteerbywire",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-07-31",
+      "source": "crossref",
+      "title": "Design and implementation of hardware-in-the-loop simulation for haptic feedback control system validation in steer-by-wire"
+    },
+    {
+      "doi": "https://doi.org/10.46810/tdfd.1883893",
+      "identity": "title:comparativeperformanceanalysisofclassicalandpostquantumcryptographyfips203204onarmv8iotdevicesacrossnistsecuritylevels",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-07-01",
+      "source": "crossref",
+      "title": "Comparative Performance Analysis of Classical and Post-Quantum Cryptography (FIPS 203/204) on ARMv8 IoT Devices Across NIST Security Levels"
+    },
+    {
+      "doi": "https://doi.org/10.1063/5.0316654",
+      "identity": "title:anovelhybridchaoticmapbasedimageencryptionschemewithentropydrivensecurityanalysis",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-07-01",
+      "source": "crossref",
+      "title": "A novel hybrid chaotic map-based image encryption scheme with entropy-driven security analysis"
+    },
+    {
+      "doi": "https://doi.org/10.1145/3774889",
+      "identity": "title:falsepositivebugreportsindeeplearningcompilersstagesrootcausesandmitigation",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-07-17",
+      "source": "crossref",
+      "title": "False-Positive Bug Reports in Deep Learning Compilers: Stages, Root Causes, and Mitigation"
     }
   ],
-  "query_index": 13,
+  "query_index": 15,
   "secondary": 24,
-  "skipped": 545,
+  "skipped": 554,
   "version": 1
 }
