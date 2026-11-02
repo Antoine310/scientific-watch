@@ -408,6 +408,14 @@
       "title": "Identifying Ransomware Functions Through Microarchitectural Side-Channel Analysis",
       "updated_at": "2026-10-30T09:43:09.304236+00:00"
     },
+    "doi:10.1007/978-981-97-9314-3_42": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Information Flow Verification",
+      "updated_at": "2026-11-02T17:14:42.072624+00:00"
+    },
     "doi:10.1007/s00521-026-12467-4": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -1240,6 +1248,14 @@
       "title": "A Compact and High-Speed TRNG for FPGA Using Grouped Multi-Node Fast Carry Chains",
       "updated_at": "2026-11-01T05:13:25.995967+00:00"
     },
+    "doi:10.1109/acsac63791.2024.00055": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "SpecCFA: Enhancing Control Flow Attestation/Auditing via Application-Aware Sub-Path Speculation",
+      "updated_at": "2026-11-02T17:14:23.799608+00:00"
+    },
     "doi:10.1109/acsac67867.2025.00049": {
       "category": "coeur",
       "decision": "conserver",
@@ -1391,6 +1407,22 @@
       "status": "rejected",
       "title": "FormalHandshake — Open Source Design and Verification Flow for Complex Hardware Circuits: Tool Paper",
       "updated_at": "2026-11-02T17:03:27.262182+00:00"
+    },
+    "doi:10.1109/fit63703.2024.10838422": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Design and Development of RISC-V Based Virtual Cluster using QEMU Simulator",
+      "updated_at": "2026-11-02T17:13:42.198493+00:00"
+    },
+    "doi:10.1109/globecom52923.2024.10901102": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "LUT Level Information Flow Tracking for FPGA Design Security Verification",
+      "updated_at": "2026-11-02T17:14:33.820988+00:00"
     },
     "doi:10.1109/globecom59602.2025.11432658": {
       "category": "secondaire",
@@ -1831,6 +1863,14 @@
       "status": "imported",
       "title": "Keyspector: Secure Monitoring of IoT Devices Using RISC-V Keystone",
       "updated_at": "2026-10-31T14:15:21.355743+00:00"
+    },
+    "doi:10.1109/rivf64335.2024.11009032": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Implementing a Secure Boot System on a 32-Bit RISC-V CPU on FPGA",
+      "updated_at": "2026-11-02T17:13:43.534754+00:00"
     },
     "doi:10.1109/rusautocon69876.2026.11707506": {
       "category": "hors_sujet",
@@ -2287,6 +2327,14 @@
       "status": "imported",
       "title": "Dep-TEE: Decoupled Memory Protection for Secure and Scalable Inter-enclave Communication on RISC-V",
       "updated_at": "2026-10-30T09:42:58.124319+00:00"
+    },
+    "doi:10.1145/3658644.3690203": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Specification and Verification of Strong Timing Isolation of Hardware Enclaves",
+      "updated_at": "2026-11-02T17:14:02.909178+00:00"
     },
     "doi:10.1145/3669940.3707243": {
       "category": "transfert_explicite",
@@ -4376,6 +4424,14 @@
       "title": "HARDWARE AND SOFTWARE IMPLEMENTATION OF IMAGE SECURITY ALGORITHMS WITH AI–ML INTEGRATION : A COMPREHENSIVE SURVEY",
       "updated_at": "2026-11-02T15:19:55.918237+00:00"
     },
+    "doi:10.36227/techrxiv.173397952.21406854/v1": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "RISC-V SoC Design for IoT: A Survey of Open-Source Cores and Applications",
+      "updated_at": "2026-11-02T17:13:21.376329+00:00"
+    },
     "doi:10.36227/techrxiv.174494750.06122641/v1": {
       "category": "coeur",
       "decision": "conserver",
@@ -4719,6 +4775,14 @@
       "status": "rejected",
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
+    },
+    "doi:10.48550/arxiv.2412.08769": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Security Properties for Open-Source Hardware Designs",
+      "updated_at": "2026-11-02T17:14:43.228101+00:00"
     },
     "doi:10.48550/arxiv.2501.11207": {
       "category": "coeur",
@@ -5856,6 +5920,14 @@
       "title": "The Use of Hardware Security Mechanisms (Secure Enclave) for Secure Storage of Cryptographic Keys on Mobile Devices",
       "updated_at": "2026-11-01T08:14:35.554158+00:00"
     },
+    "doi:10.70675/1ddfda96z472cz489fza91bzc65b16f73d88": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Partitionnement dynamique à grain fin contre des attaques par canaux auxiliaires en cache",
+      "updated_at": "2026-11-02T17:15:03.189519+00:00"
+    },
     "doi:10.70675/5c959425z6fc9z4e8ezaea5zd980f0740a16": {
       "category": "coeur",
       "decision": "conserver",
@@ -6495,6 +6567,14 @@
       "status": "rejected",
       "title": "SparLeak: Privacy Leakage from Sparse Attention in LLM Inference on Shared GPUs",
       "updated_at": "2026-11-02T15:57:01.947716+00:00"
+    },
+    "title:specificationetverificationformelledemecanismesdesecuritepourprocesseursriscvversionnonfinale": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Spécification et vérification formelle de mécanismes de sécurité pour processeurs RISC-V: Version non-finale",
+      "updated_at": "2026-11-02T17:13:51.746154+00:00"
     },
     "title:specreadabenchmarkformeasuringwhetherlanguagemodelsunderstandhardwarespecifications": {
       "category": "secondaire",

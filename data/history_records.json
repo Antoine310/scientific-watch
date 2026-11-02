@@ -100,6 +100,16 @@
     ],
     "title": "An Overview of Critical Architectural and Systemic Considerations for Modern RISC-V Development: From Fundamentals to the Frontier"
   },
+  "doi:10.1109/acsac63791.2024.00055": {
+    "publication_date": "2024-12-09",
+    "score": 85,
+    "source": "https://doi.org/10.1109/acsac63791.2024.00055",
+    "summary": "SpecCFA est une approche d'optimisation dynamique pour l'attestation et l'audit de flux de contrôle (CFA) sur microcontrôleurs (MCUs). En exploitant la prédictibilité des sous-chemins de contrôle spécifiques aux programmes, SpecCFA permet au vérificateur de spéculer sur ces chemins pour compresser les traces d'exécution (CFLog) en symboles réservés, réduisant ainsi les coûts de stockage et de transmission sans compromettre la sécurité.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "SpecCFA: Enhancing Control Flow Attestation/Auditing via Application-Aware Sub-Path Speculation"
+  },
   "doi:10.1109/acsac67867.2025.00049": {
     "publication_date": "2025-12-08",
     "score": 75,
@@ -390,6 +400,16 @@
     ],
     "title": "Keyspector: Secure Monitoring of IoT Devices Using RISC-V Keystone"
   },
+  "doi:10.1109/rivf64335.2024.11009032": {
+    "publication_date": "2024-12-21",
+    "score": 85,
+    "source": "https://doi.org/10.1109/rivf64335.2024.11009032",
+    "summary": "Ce travail présente l'implémentation d'un système sur puce (SoC) intégrant une procédure de démarrage sécurisé sur une architecture CPU RISC-V 32 bits et des cœurs cryptographiques accélérés par matériel sur un FPGA. Le système utilise le processeur VexRiscv et les cœurs cryptographiques Poly1305, ChaCha et SHA3-512, déployés sur une carte Arty A7-100T.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Implementing a Secure Boot System on a 32-Bit RISC-V CPU on FPGA"
+  },
   "doi:10.1109/sp61157.2025.00220": {
     "publication_date": "2025-05-12",
     "score": 85,
@@ -499,6 +519,16 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Dep-TEE: Decoupled Memory Protection for Secure and Scalable Inter-enclave Communication on RISC-V"
+  },
+  "doi:10.1145/3658644.3690203": {
+    "publication_date": "2024-12-02",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3658644.3690203",
+    "summary": "Cet article traite de la sécurisation des processus informatiques via la construction d'enclaves matérielles. L'isolation logicielle et matérielle traditionnelle est jugée insuffisante face aux attaques par canaux cachés temporels exploitant la contention sur les ressources microarchitecturales partagées. Les auteurs proposent d'utiliser un support matériel adapté pour garantir l'isolation temporelle et protéger la confidentialité et l'intégrité des données.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Specification and Verification of Strong Timing Isolation of Hardware Enclaves"
   },
   "doi:10.1145/3676642.3736125": {
     "publication_date": "2025-08-06",
@@ -953,6 +983,16 @@
     ],
     "title": "Physical Memory Please: Practical Memory-Aliasing Attacks on RISC-V PMP"
   },
+  "doi:10.48550/arxiv.2412.08769": {
+    "publication_date": "2024-12-11",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2412.08769",
+    "summary": "Cet article aborde le manque de propriétés de sécurité open-source pour les conceptions matérielles, ce qui freine la recherche et la reproductibilité en vérification formelle. Les auteurs fournissent des assertions SystemVerilog pour quatre conceptions courantes (OR1200, PULPissimo SoC, CVA6 et OpenPiton SoCs), étiquetées avec les failles de sécurité et les CWE impliquées, ainsi qu'une description de leur méthodologie.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Security Properties for Open-Source Hardware Designs"
+  },
   "doi:10.48550/arxiv.2501.11207": {
     "publication_date": "2025-01-20",
     "score": 85,
@@ -1222,6 +1262,16 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Uncovering Transient Execution Vulnerabilities: Catalysts For Exploitation On Modern Processors"
+  },
+  "doi:10.70675/1ddfda96z472cz489fza91bzc65b16f73d88": {
+    "publication_date": "2024-12-18",
+    "score": 85,
+    "source": "https://doi.org/10.70675/1ddfda96z472cz489fza91bzc65b16f73d88",
+    "summary": "Ces travaux abordent la problématique des attaques par canaux auxiliaires exploitant les mémoires caches dans les systèmes embarqués, où le partage des ressources matérielles entre applications permet à une application malveillante d'inférer les données secrètes d'autres programmes, notamment cryptographiques. Pour y remédier sans encourir les surcoûts prohibitifs des contre-mesures existantes, les auteurs proposent une solution hybride matérielle et logicielle de partitionnement dynamique à grain fin. Cette approche permet de verrouiller dynamiquement des données critiques en cache afin qu'aucune autre application ne puisse observer les accès correspondants, garantissant ainsi la sécurité des sections critiques avec un surcoût temporel inférieur à 4 %.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Partitionnement dynamique à grain fin contre des attaques par canaux auxiliaires en cache"
   },
   "doi:10.70675/5c959425z6fc9z4e8ezaea5zd980f0740a16": {
     "publication_date": "2026-01-12",
