@@ -22,14 +22,28 @@ def escape(value):
     return str(value or '').replace('\\', '\\\\').replace('[', '\\[').replace(']', '\\]').replace('<', '&lt;').replace('>', '&gt;')
 
 
+
+def date_label(row):
+    """Présenter la précision réelle plutôt que le jour technique de classement."""
+    stored = str(row.get('publication_date') or '')
+    precision = row.get('publication_date_precision', 'day')
+    original = str(row.get('publication_date_source') or '')
+    if precision == 'month':
+        return (original or stored[:7]) + ' (jour non renseigné)'
+    if precision == 'year':
+        return (original or stored[:4]) + f' (mois de classement indicatif : {stored[:7]})'
+    if precision == 'index_month':
+        return f'{stored[:7]} (mois de recherche, date non vérifiée)'
+    return stored
+
 def build_month(year_month, rows, secondary_rows=None):
     lines = [f'# Bibliographie historique — {year_month}', '',
-             '> Sélection progressive : uniquement les travaux détectés par le rattrapage historique OpenAlex.',
+             '> Sélection progressive : OpenAlex et sources complémentaires (arXiv, Crossref, DBLP, IACR).',
              '> Les scores expriment la pertinence pour la thèse, pas une évaluation de qualité absolue.',
              '', f'**{len(rows)} publication(s)**', '']
     for row in sorted(rows, key=lambda x: (-int(x.get('score') or 0), x.get('title', ''))):
         lines.extend([f"## {escape(row['title'])}", '',
-                      f"- **Date de publication :** {escape(row.get('publication_date'))}",
+                      f"- **Date de publication :** {escape(date_label(row))}",
                       f"- **Pertinence :** {row.get('score', '?')}/100", '',
                       escape(row.get('summary') or 'Résumé indisponible.'), ''])
         link = safe_url(row.get('source'))
@@ -43,6 +57,8 @@ def build_month(year_month, rows, secondary_rows=None):
         for row in sorted(secondary_rows, key=lambda x: (-int(x.get('score') or 0), x.get('title', ''))):
             link = safe_url(row.get('source'))
             title = escape(row.get('title', 'Sans titre')).replace('|', '&#124;').replace('\n', ' ')
+            if row.get('publication_date_precision') in {'month', 'year', 'index_month'}:
+                title += ' *(date indicative)*'
             linked = f'[Lire]({link})' if link else '—'
             lines.append(f"| {int(row.get('score') or 0)}/100 | {title} | {linked} |")
         lines.append('')
