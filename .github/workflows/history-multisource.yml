@@ -33,7 +33,7 @@ jobs:
       PUBLIC_DRY_RUN: 'false'
       MULTI_APPLY: ${{ inputs.apply }}
       WRITE_NOTION: ${{ inputs.apply }}
-      MULTI_MAX_PAGES: '15'
+      MULTI_MAX_PAGES: '25'
       MULTI_MAX_AI: '25'
       MULTI_MAX_QUERY_PAGES: '12'
       MULTI_DBLP_ENABLED: 'true'
