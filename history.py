@@ -61,7 +61,7 @@ def historical_relevant(theme, paper):
     title = core.norm(paper.get('title', ''))
     abstract = core.norm(core.abstract(paper.get('abstract_inverted_index')))
 
-    if core.relevant(theme[:3], title, abstract):
+    if core.relevant(theme[:3], title, abstract) or core.coverage_relevant(title, abstract):
         return True
 
     signals = (
@@ -72,6 +72,7 @@ def historical_relevant(theme, paper):
         'microarchitectural side channel', 'microarchitectural side-channel',
         'cache side channel', 'cache side-channel', 'cache timing',
         'spectre', 'secure enclave', 'memory integrity', 'hardware isolation',
+        'hardware security', 'processor security',
     )
     return any(signal in title for signal in signals)
 
