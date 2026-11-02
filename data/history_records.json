@@ -269,6 +269,26 @@
     ],
     "title": "Side-Channel Attack Detection Using gem5 and Machine Learning: A Case Study on Fault-Based Attacks in RISC-V"
   },
+  "doi:10.1109/iolts69666.2026.11633823": {
+    "publication_date": "2026-07-01",
+    "score": 85,
+    "source": "https://doi.org/10.1109/iolts69666.2026.11633823",
+    "summary": "Cet article présente DRsam, une nouvelle méthode de détection des attaques par canal auxiliaire microarchitectural basées sur les fautes (flush+fault) dans les processeurs RISC-V. En combinant un prétraitement statistique et l'exploration de règles d'association, l'approche offre des capacités de reconfiguration pour généraliser la détection. Évaluée via le simulateur gem5 sur diverses charges de travail, la méthode surpasse l'état de l'art avec des gains de 5,15 % en précision, 7 % en précision pure et 3,91 % en rappel, tout en offrant une interprétabilité humaine pour analyser les comportements d'attaque.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "DRsam: Detection of Fault-Based Microarchitectural Side-Channel Attacks in RISC-V Using Statistical Preprocessing and Association Rule Mining"
+  },
+  "doi:10.1109/iolts69666.2026.11633860": {
+    "publication_date": "2026-07-01",
+    "score": 85,
+    "source": "https://doi.org/10.1109/iolts69666.2026.11633860",
+    "summary": "Cet article évalue la maturité logicielle, les performances et la sécurité de six cœurs RISC-V représentatifs (trois ASICs commerciaux et trois soft-cores FPGA) sur du matériel réel.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "Reality Check for RISC-V: Assessing Software Maturity, Performance and Security"
+  },
   "doi:10.1109/isdfs69419.2026.11459082": {
     "publication_date": "2026-03-19",
     "score": 90,
@@ -709,6 +729,16 @@
     ],
     "title": "A RISC-V Based Embedded Security Architecture for Trusted Execution in Industrial Control Systems"
   },
+  "doi:10.3390/computers15080479": {
+    "publication_date": "2026-07-28",
+    "score": 95,
+    "source": "https://doi.org/10.3390/computers15080479",
+    "summary": "ARCHER est un émulateur RISC-V RV64IMAFDC précis au cycle près, conçu pour la recherche en canaux auxiliaires microarchitecturaux et en chiffrement mémoire. Il intègre une exécution out-of-order superscalaire, des caches cohérents, du SMT et diverses politiques de spéculation et contre-mesures. Associé au module AMES pour le chiffrement mémoire et le durcissement contre l'analyse de puissance (DPA), il permet d'évaluer les défenses en quelques minutes avec un Linux complet.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "ARCHER: A Cycle-Accurate RISC-V Emulator for Microarchitectural Side-Channel and Memory Encryption Research"
+  },
   "doi:10.3390/e27020202": {
     "publication_date": "2025-02-14",
     "score": 85,
@@ -748,6 +778,16 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "SASVI: Sicherheit auf allen Systemen durch Vertrauensketten und Isolation; Teilvorhaben: Hardware-Sicherheitskomponenten für die RISC-V Architektur, um Sicherheit auf allen Systemschichten zu ermöglichen"
+  },
+  "doi:10.34810/data3542": {
+    "publication_date": "2026-07-13",
+    "score": 90,
+    "source": "https://doi.org/10.34810/data3542",
+    "summary": "Ce travail présente un jeu de données (HARPY-V-GEM5-100c) collectant des traces de compteurs de performance matérielle (HPCs) et d'instructions exécutées sur une architecture RISC-V émulée via gem5 O3 CPU. Il couvre 24 attaques par canal auxiliaire et spéculatives (dont Spectre, Meltdown, Rowhammer) ainsi que 23 programmes bénins, en simulant différentes configurations de cache et largeurs de pipeline.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "RISC-V hardware attack traces on gem5 O3 CPU performance and instruction counters (HARPY-V-GEM5-100c)"
   },
   "doi:10.36227/techrxiv.174494750.06122641/v1": {
     "publication_date": "2025-04-17",
@@ -939,6 +979,16 @@
     ],
     "title": "KS-CFA: Control-Flow Attestation via Symbolic Replay Against Control-Flow Bending Attacks"
   },
+  "doi:10.48676/unibo/amsdottorato/13054": {
+    "publication_date": "2026-08-24",
+    "score": 95,
+    "source": "https://amsdottorato.unibo.it/view/dottorati/DOT539/>,",
+    "summary": "Cette thèse présente TitanSSL, un cadre de co-conception matériel-logiciel pour architectures RISC-V intégrant la racine de confiance matérielle (RoT) OpenTitan. L'approche combine un moteur OpenSSL personnalisé, un micrologiciel optimisé et un pilote de noyau Linux pour accélérer les opérations cryptographiques et étendre la sécurité des systèmes embarqués face aux menaces classiques et quantiques.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Hardware-software co-design methods to unleash open hardware cybersecurity and trust in RISC-V architectures"
+  },
   "doi:10.5220/0013518800003979": {
     "publication_date": "2025-01-01",
     "score": 80,
@@ -968,6 +1018,16 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Confidential Computing and Trusted Execution Environments: A Survey of Technologies"
+  },
+  "doi:10.5281/zenodo.22006232": {
+    "publication_date": "2026-08-19",
+    "score": 85,
+    "source": "https://doi.org/10.5281/zenodo.22006232",
+    "summary": "Cet article analyse l'implémentation d'une racine de confiance matérielle (HRoT) au sein des System-on-Chip (SoC), en examinant son architecture, sa modélisation des menaces et ses coûts d'intégration en termes de surface, de puissance et de latence.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Hardware Root of Trust Implementation in System-on-Chip Design: Architecture and Threat Modelling"
   },
   "doi:10.5281/zenodo.22287556": {
     "publication_date": "2026-05-25",

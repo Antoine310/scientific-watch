@@ -8,6 +8,14 @@
       "title": "True Random Number Generator for Robust Data Security via Intrinsic Stochasticity in a 2D hBN Threshold Switching Memristor",
       "updated_at": "2026-11-01T05:13:25.995963+00:00"
     },
+    "doi:10.1002/adfm.77093": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "High‐Throughput True Random Number Generator Enabled by NbO x Memristor With Dual‐Clock‐Edge Sampling for Dual‐Image Encryption",
+      "updated_at": "2026-11-02T05:15:13.286918+00:00"
+    },
     "doi:10.1002/adfm.79365": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -71,6 +79,14 @@
       "status": "rejected",
       "title": "Secure Authentication via Quantum Physical Unclonable Functions: A Review",
       "updated_at": "2026-11-01T02:15:02.252667+00:00"
+    },
+    "doi:10.1002/smtd.70889": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Reconfigurable Physical Unclonable Function‐Based Cryptographic Scheme Based on Memory‐Enabled GFET Modulators",
+      "updated_at": "2026-11-02T05:15:13.286937+00:00"
     },
     "doi:10.1007/978-3-030-71522-9_300826": {
       "category": "hors_sujet",
@@ -320,6 +336,14 @@
       "title": "SecScale : A Scalable and Secure Trusted Execution Environment for Servers",
       "updated_at": "2026-10-31T08:13:30.372985+00:00"
     },
+    "doi:10.1016/j.sysarc.2026.103908": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "RVM-LBC: Acceleration of NTT for efficient LBC with custom RISC-V vector–matrix processor",
+      "updated_at": "2026-11-02T05:14:51.375915+00:00"
+    },
     "doi:10.1016/j.sysarc.2026.104062": {
       "category": "coeur",
       "decision": "conserver",
@@ -360,6 +384,14 @@
       "title": "Optically reconfigurable physical unclonable functions based on 2D MoS2 ring-oscillator arrays for attack-resistant hardware authentication",
       "updated_at": "2026-11-01T17:14:50.020319+00:00"
     },
+    "doi:10.1038/s41467-026-75781-4": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Dual-space visible light authentication toward high security physical unclonable function",
+      "updated_at": "2026-11-02T05:15:01.206150+00:00"
+    },
     "doi:10.1038/s41467-026-78973-0": {
       "category": "secondaire",
       "decision": "examiner",
@@ -391,6 +423,14 @@
       "status": "rejected",
       "title": "A lightweight hash-based quantum-resistant bidirectional authentication protocol for IoT devices integrating physical unclonable functions",
       "updated_at": "2026-11-02T02:13:32.492060+00:00"
+    },
+    "doi:10.1038/s41598-026-61746-6": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Optimization and hardware evaluation of a modified reconfigurable ring oscillator PUF",
+      "updated_at": "2026-11-02T05:15:13.286933+00:00"
     },
     "doi:10.1038/s44335-025-00027-3": {
       "category": "secondaire",
@@ -799,6 +839,30 @@
       "status": "rejected",
       "title": "Real-Time Fault Analysis in RISC-V Processors: A Case Study Using the Internal State Monitor",
       "updated_at": "2026-10-30T23:13:53.377336+00:00"
+    },
+    "doi:10.1109/iolts69666.2026.11633823": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "DRsam: Detection of Fault-Based Microarchitectural Side-Channel Attacks in RISC-V Using Statistical Preprocessing and Association Rule Mining",
+      "updated_at": "2026-11-02T05:13:43.751974+00:00"
+    },
+    "doi:10.1109/iolts69666.2026.11633860": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Reality Check for RISC-V: Assessing Software Maturity, Performance and Security",
+      "updated_at": "2026-11-02T05:14:52.499475+00:00"
+    },
+    "doi:10.1109/iolts69666.2026.11633869": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "InjectV: Modeling Fault Injection Attacks in RISC-V Simulation Environment",
+      "updated_at": "2026-11-02T05:14:51.375929+00:00"
     },
     "doi:10.1109/isca66397.2026.00045": {
       "category": "coeur",
@@ -1704,6 +1768,14 @@
       "title": "Listening to disorder: acoustic physical unclonable functions for audio-enabled secure authentication",
       "updated_at": "2026-11-01T20:14:29.992271+00:00"
     },
+    "doi:10.21203/rs.3.rs-9589919/v1": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Real-Time TRNG Health Monitoring with Higher-Order Proportion Testing and Rotating Pattern Detection at 500 MHz on FPGA",
+      "updated_at": "2026-11-02T05:15:13.286929+00:00"
+    },
     "doi:10.2139/ssrn.6556258": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -1872,6 +1944,14 @@
       "title": "E-AAPIV: Merkle Tree-Based Real-Time Android Manifest Integrity Verification for Mobile Payment Security",
       "updated_at": "2026-10-30T09:49:17.513077+00:00"
     },
+    "doi:10.33545/27075923.2026.v7.i3a.156": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Performance and energy characterisation of RISC-V soft-core processors on FPGA under varying pipeline depth and cache configurations",
+      "updated_at": "2026-11-02T05:14:51.375936+00:00"
+    },
     "doi:10.3389/fcomp.2025.1521059": {
       "category": "secondaire",
       "decision": "examiner",
@@ -1895,6 +1975,22 @@
       "status": "rejected",
       "title": "Exploring Accelerated Aging Stress for Physical Unclonable Function Self-Corruption",
       "updated_at": "2026-10-31T17:15:11.713327+00:00"
+    },
+    "doi:10.3390/computers15070447": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "nSim-RV: A Reproducible RISC-V Framework for Scheduler-Aware Timing Scalability Under Increasing Task Concurrency",
+      "updated_at": "2026-11-02T05:14:21.132225+00:00"
+    },
+    "doi:10.3390/computers15080479": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "ARCHER: A Cycle-Accurate RISC-V Emulator for Microarchitectural Side-Channel and Memory Encryption Research",
+      "updated_at": "2026-11-02T05:13:42.754991+00:00"
     },
     "doi:10.3390/cryptography9020034": {
       "category": "secondaire",
@@ -2111,6 +2207,14 @@
       "status": "rejected",
       "title": "Limitations of Substituting TrustZone with pKVM: An Evaluation of pKVM as a Trusted Execution Environment",
       "updated_at": "2026-11-01T17:16:58.341779+00:00"
+    },
+    "doi:10.34810/data3542": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "RISC-V hardware attack traces on gem5 O3 CPU performance and instruction counters (HARPY-V-GEM5-100c)",
+      "updated_at": "2026-11-02T05:14:03.078269+00:00"
     },
     "doi:10.36227/techrxiv.174494750.06122641/v1": {
       "category": "coeur",
@@ -2456,6 +2560,22 @@
       "title": "KS-CFA: Control-Flow Attestation via Symbolic Replay Against Control-Flow Bending Attacks",
       "updated_at": "2026-11-02T02:15:14.383501+00:00"
     },
+    "doi:10.48550/arxiv.2607.10340": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "When Fuzzing Meets Understanding: LLM-Driven Semantic Test Generation for RTL Verification",
+      "updated_at": "2026-11-02T05:14:10.883288+00:00"
+    },
+    "doi:10.48550/arxiv.2607.13939": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "HORCRUX: A Complete PQC RISC-V eXtension Architecture",
+      "updated_at": "2026-11-02T05:14:31.369164+00:00"
+    },
     "doi:10.48550/arxiv.2607.23698": {
       "category": "secondaire",
       "decision": "examiner",
@@ -2471,6 +2591,14 @@
       "status": "imported",
       "title": "Enabling Extended SGX Enclaves inside Confidential Virtual Machines",
       "updated_at": "2026-10-31T07:11:48.968687+00:00"
+    },
+    "doi:10.48676/unibo/amsdottorato/13054": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "Hardware-software co-design methods to unleash open hardware cybersecurity and trust in RISC-V architectures",
+      "updated_at": "2026-11-02T05:15:53.222162+00:00"
     },
     "doi:10.5120/ijca2026926629": {
       "category": "secondaire",
@@ -2560,6 +2688,22 @@
       "title": "Confidential Computing and Trusted Execution Environments: A Survey of Technologies",
       "updated_at": "2026-11-02T02:14:54.139842+00:00"
     },
+    "doi:10.5281/zenodo.21683129": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "RADIOACTIVE DECAY-BASED TRUE RANDOM NUMBER GENERATION (TRNG): A REVIEW OF ITS APPLICABILITY IN HIGHSECURITY SATELLITE SYSTEMS, ENCRYPTED COMMUNICATION DEVICES, COLD CRYPTO WALLETS, DATA CENTERS, AND STAND-OFF JAMMER (SOJ) TECHNOLOGIES",
+      "updated_at": "2026-11-02T05:15:13.286900+00:00"
+    },
+    "doi:10.5281/zenodo.22006232": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Hardware Root of Trust Implementation in System-on-Chip Design: Architecture and Threat Modelling",
+      "updated_at": "2026-11-02T05:15:32.731377+00:00"
+    },
     "doi:10.5281/zenodo.22287556": {
       "category": "coeur",
       "decision": "conserver",
@@ -2599,6 +2743,14 @@
       "status": "rejected",
       "title": "Analysis and Research on the Application of Lightweight Physical Unclonable Function (PUF) Authentication Protocol for IoT Terminals",
       "updated_at": "2026-10-31T02:13:31.872305+00:00"
+    },
+    "doi:10.54254/2755-2721/2026.35586": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 55,
+      "status": "rejected",
+      "title": "RISC-V-Based Hardware-Software Co-Designed Full-Stack Acceleration Algorithm for SM4",
+      "updated_at": "2026-11-02T05:14:02.021974+00:00"
     },
     "doi:10.5445/ir/1000190847": {
       "category": "transfert_explicite",
@@ -2736,6 +2888,14 @@
       "title": "RISC-V: Viabilidade e adoção em hardware embarcado",
       "updated_at": "2026-10-31T23:15:00.857143+00:00"
     },
+    "doi:10.64771/ijesat.2026.v26.i7.3692": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "AN ENHANCED DCM-BASED TUNABLE TRUE RANDOM NUMBER GENERATOR FOR XILINX FPGA",
+      "updated_at": "2026-11-02T05:15:13.286924+00:00"
+    },
     "doi:10.64799/rebicte.v12.2": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -2783,6 +2943,14 @@
       "status": "imported",
       "title": "Protection microarchitecturale d’un coeur de processeur RISC-V",
       "updated_at": "2026-10-31T20:15:02.898254+00:00"
+    },
+    "doi:10.70917/ijcisim-2026-4051": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "An Extensive Analysis of RISC-V Floating-Point Units: Architectures, Difficulties, and Prospects",
+      "updated_at": "2026-11-02T05:13:41.740269+00:00"
     },
     "doi:10.7302/25650": {
       "category": "coeur",
