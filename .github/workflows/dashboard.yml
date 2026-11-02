@@ -1,0 +1,18 @@
+name: Tableau de bord public
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: scientific-watch-shared-state
+  cancel-in-progress: false
+jobs:
+  dashboard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rafraîchir le README public
+        env:
+          PUBLIC_REPO_TOKEN: ${{ secrets.PUBLIC_REPO_TOKEN }}
+          PUBLIC_REPO: Antoine310/scientific-watch-v2
+        run: python3 dashboard_readme.py
