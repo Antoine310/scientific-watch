@@ -1,59 +1,21 @@
 {
   "accepted": 6,
   "completed": false,
-  "cursor": "*",
-  "evaluated": 175,
+  "cursor": "MTc3OTk1MjAwMjAwMCwxMC4xMDE2JTJGai5hc3QuMjAyNi4xMTI3MDU=",
+  "evaluated": 178,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-10/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-10/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-10/query-18 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-10",
   "needs_publish": false,
-  "offset": 0,
-  "pages_done": 72,
-  "pages_in_query": 0,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "POULOMI GHOSH"
-            }
-          },
-          {
-            "author": {
-              "display_name": "SUDIP GHOSH"
-            }
-          },
-          {
-            "author": {
-              "display_name": "HAFIZUR RAHAMAN"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.36094/sc.v92.2026.hardware_and_software_implementation_of_image.ghosh.715",
-        "id": "https://doi.org/10.36094/sc.v92.2026.hardware_and_software_implementation_of_image.ghosh.715",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.36094/sc.v92.2026.hardware_and_software_implementation_of_image.ghosh.715"
-        },
-        "publication_date": "2026-10-14",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2026-10-14",
-        "title": "HARDWARE AND SOFTWARE IMPLEMENTATION OF IMAGE SECURITY ALGORITHMS WITH AI–ML INTEGRATION : A COMPREHENSIVE SURVEY"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    }
-  ],
+  "offset": 120,
+  "pages_done": 87,
+  "pages_in_query": 3,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -95,10 +57,18 @@
       "publication_date": "2026-10-30",
       "source": "crossref",
       "title": "Safety-constrained and runtime-assured LLM multi-agent decision making for intelligent vehicle systems"
+    },
+    {
+      "doi": "https://doi.org/10.1093/arbint/aiag020",
+      "identity": "title:thehumansideofinternationalarbitrationpart1automationbiasininternationalarbitration",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-10-26",
+      "source": "crossref",
+      "title": "The human side of international arbitration (part 1): automation bias in international arbitration"
     }
   ],
-  "query_index": 18,
-  "secondary": 7,
-  "skipped": 47,
+  "query_index": 19,
+  "secondary": 8,
+  "skipped": 53,
   "version": 1
 }
