@@ -23,6 +23,7 @@ from email.utils import parsedate_to_datetime
 import cache_v16 as cachelib
 import collect as core
 import publish_history
+import prefilter_v1674
 
 STATE_PATH = pathlib.Path(os.environ.get('MULTI_STATE_PATH', 'data/history_multisource_progress.json'))
 RECORDS_PATH = pathlib.Path('data/history_records.json')
@@ -36,6 +37,11 @@ MAX_PAGES = max(1, min(40, int(os.environ.get('MULTI_MAX_PAGES', '8'))))
 MAX_AI = max(1, min(50, int(os.environ.get('MULTI_MAX_AI', '8'))))
 MAX_QUERY_PAGES = max(1, min(100, int(os.environ.get('MULTI_MAX_QUERY_PAGES', '12'))))
 APPLY = os.environ.get('MULTI_APPLY', 'false').lower() == 'true'
+# balanced (par défaut) : nouveau filtre, garde-fou pour articles sans abstract.
+# observe : ancien filtre utilisé, divergences affichées. legacy : retour immédiat.
+PREFILTER_MODE = os.environ.get('MULTI_PREFILTER_MODE', 'balanced').strip().lower()
+if PREFILTER_MODE not in {'balanced', 'observe', 'legacy'}:
+    raise RuntimeError('MULTI_PREFILTER_MODE doit etre balanced, observe ou legacy.')
 USE_DBLP = os.environ.get('MULTI_DBLP_ENABLED', 'true').lower() == 'true'
 USE_IACR = os.environ.get('MULTI_IACR_ENABLED', 'true').lower() == 'true'
 
@@ -246,7 +252,7 @@ _SECURITY_TECH = re.compile(
     r"fault[- ]inject\w*|trust(?:ed)?|tamper\w*)\b", re.I)
 
 
-def relevant(paper):
+def relevant_legacy(paper):
     """Préfiltre permissif commun à toutes les sources (titre + résumé).
 
     Ne décide PAS de la pertinence finale : Gemini reste le juge. Les signaux
@@ -266,6 +272,51 @@ def relevant(paper):
     if any(pattern.search(text) for pattern in _STRONG_SIGNALS):
         return True
     return bool(_COMPUTING_HARDWARE.search(text) and _SECURITY_TECH.search(text))
+
+
+def prefilter_comparison(paper):
+    """Retourne (autorise, ancien, nouveau, raison) sans appel API.
+
+    Un titre avec abstract absent reste admissible si l'ancien filtre le
+    retenait : les métadonnées DBLP sont souvent insuffisantes pour trancher.
+    """
+    title = paper.get('title', '')
+    abstract_text = core.abstract(paper.get('abstract_inverted_index'))
+    old_ok = relevant_legacy(paper)
+    new_ok, reason = prefilter_v1674.proposed(title, abstract_text)
+    if PREFILTER_MODE in {'legacy', 'observe'}:
+        allowed = old_ok
+    else:
+        allowed = new_ok or (not abstract_text.strip() and old_ok)
+        if allowed and not new_ok:
+            reason = 'securite : sans abstract, retenu par ancien filtre'
+    return allowed, old_ok, new_ok, reason
+
+
+def relevant(paper):
+    return prefilter_comparison(paper)[0]
+
+
+def record_prefilter_review(state, paper, src, reason):
+    """Conserver un échantillon des exclusions litigieuses dans la progression.
+
+    Seuls les articles que l'ancien filtre ACCEPTAIT mais pas le nouveau
+    sont conservés, pour inspecter une éventuelle régression sans re-Gemini.
+    Ne modifie ni le cache, ni les publications Notion, ni l'ordre du curseur.
+    """
+    review = state.setdefault('prefilter_review', [])
+    if len(review) >= 300:
+        state['prefilter_review_overflow'] = state.get('prefilter_review_overflow', 0) + 1
+        return
+    title = (paper.get('title') or '').strip()
+    if not title:
+        return
+    identity = cachelib.key({'title': title}) or title.casefold()
+    if any(row.get('identity') == identity for row in review):
+        return
+    review.append({'identity': identity, 'title': title,
+                   'source': src, 'publication_date': paper.get('publication_date', ''),
+                   'doi': paper.get('doi') or '', 'motif': reason})
 
 
 def arxiv_page(ym, query, offset):
@@ -671,6 +722,7 @@ def task_description(state):
 def main():
     state = state_read()
     print('MULTISOURCE |', task_description(state), '| pages cumulées :', state['pages_done'])
+    print('PREFILTRE :', PREFILTER_MODE, '(V16.7.4, comparaison avec ancien filtre)')
     if state['completed'] and not state['pending'] and not state['needs_publish']:
         print('Rattrapage multibase terminé. Requêtes plafonnées :', len(state['incomplete_queries']))
         return
@@ -687,6 +739,11 @@ def main():
         approximate = sum(p.get('publication_date_precision', 'day') != 'day' for p in candidates)
         print(f'APERÇU : {src} : {raw} résultats, {len(candidates)} candidats avec date de classement et signal technique '
               f'(dont {approximate} à date indicative), {filtered} écarté(s) par le préfiltre technique.')
+        diffs = [(p.get('title', ''), old, new) for p in papers
+                 for _, old, new, _ in [prefilter_comparison(p)] if old != new]
+        print('Comparaison sur cette page :', len(diffs), 'désaccord(s) ancien/nouveau.')
+        for title, old, new in diffs[:8]:
+            print(' - ancien=', old, '| nouveau=', new, '|', title[:110])
         for p in candidates[:8]:
             print(' -', p['publication_date'], p['title'][:135])
         print('Aucun fichier modifié, aucun appel Gemini/Notion.')
@@ -751,6 +808,7 @@ def main():
             papers = [enrich_dblp_date(p) for p in selected]
         print(f'PAGE {pages}/{MAX_PAGES} : {task_description(state)} -> {raw_count} résultats')
         filter_counts = {'sans_date': 0, 'hors_periode': 0, 'non_technique': dblp_prefiltered,
+                         'ancien_seul': 0, 'nouveau_seul': 0,
                          'deja_connu': 0, 'doublon_page': 0, 'date_indicative': 0}
         queued = []
         known_names, known_dois = known_papers(cache, titles, dois, records, secondary)
@@ -763,7 +821,14 @@ def main():
             if not '2016-01-01' <= d <= '2026-10-31':
                 filter_counts['hors_periode'] += 1
                 continue
-            if not paper.get('title') or not relevant(paper):
+            allowed, old_ok, new_ok, reason = prefilter_comparison(paper)
+            if old_ok and not new_ok:
+                filter_counts['ancien_seul'] += 1
+                if not allowed and APPLY:
+                    record_prefilter_review(state, paper, src, reason)
+            if new_ok and not old_ok:
+                filter_counts['nouveau_seul'] += 1
+            if not paper.get('title') or not allowed:
                 filter_counts['non_technique'] += 1
                 continue
             if paper.get('publication_date_precision', 'day') != 'day':
