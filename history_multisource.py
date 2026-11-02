@@ -1,3 +1,4 @@
+
 """Rattrapage bibliographique multibase (2026-10 -> 2016-01).
 
 Sources : arXiv et Crossref par mois ; DBLP (recherche globale) et IACR
@@ -17,7 +18,8 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import date
+from datetime import date, datetime, timezone
+from email.utils import parsedate_to_datetime
 
 import cache_v16 as cachelib
 import collect as core
@@ -88,6 +90,36 @@ ARXIV_NS = {'a': 'http://www.w3.org/2005/Atom',
 OAI_NS = {'o': 'http://www.openarchives.org/OAI/2.0/',
           'dc': 'http://purl.org/dc/elements/1.1/'}
 LAST_REQUEST = {}
+# Les HTTP 429 d'arXiv peuvent être liés à la charge du serveur, même en
+# respectant les 3 secondes recommandées. La pause est persistée entre jobs.
+ARXIV_MIN_INTERVAL = max(3.1, float(os.environ.get('MULTI_ARXIV_INTERVAL_SECONDS', '10')))
+ARXIV_COOLDOWN = max(1800, int(os.environ.get('MULTI_ARXIV_COOLDOWN_SECONDS', '10800')))
+
+
+class SourceRateLimited(RuntimeError):
+    """Réessayer dans un prochain lancement, sans avancer le curseur."""
+
+    def __init__(self, source, retry_seconds):
+        self.source = source
+        self.retry_seconds = max(60, int(retry_seconds))
+        super().__init__(f'{source} HTTP 429 : reprise possible dans {self.retry_seconds} s')
+
+
+def retry_after_seconds(error):
+    """Interprète Retry-After (secondes ou date HTTP), sans raccourcir l'attente."""
+    value = error.headers.get('Retry-After') if error.headers else None
+    if not value:
+        return 0
+    try:
+        return max(0, int(float(value)))
+    except (ValueError, TypeError):
+        try:
+            target = parsedate_to_datetime(value)
+            if target.tzinfo is None:
+                target = target.replace(tzinfo=timezone.utc)
+            return max(0, int((target - datetime.now(timezone.utc)).total_seconds()) + 1)
+        except (TypeError, ValueError, OverflowError):
+            return 0
 
 
 def load_json(path, default):
@@ -127,26 +159,44 @@ def month_bounds(ym):
 
 
 def request(url, source, *, xml=False):
-    # Selon les recommandations arXiv, espacements >= 3 s entre deux requêtes.
-    delay = {'arxiv': 3.1, 'dblp': 2.6, 'crossref': 1.0, 'iacr': 2.0}.get(source, 1.0)
-    elapsed = time.monotonic() - LAST_REQUEST.get(source, 0)
-    if elapsed < delay:
-        time.sleep(delay - elapsed)
+    # arXiv recommande >= 3 s entre appels. 10 s ici par prudence.
+    delay = {'arxiv': ARXIV_MIN_INTERVAL, 'dblp': 2.6,
+             'crossref': 1.0, 'iacr': 2.0}.get(source, 1.0)
     headers = {'User-Agent': 'scientific-watch/1.7 (academic literature; metadata only)',
                'Accept': 'application/xml' if xml else 'application/json'}
     last_exc = None
-    for attempt in range(3):
+    # Sur arXiv, 2 tentatives maximum : éviter de surcharger davantage le serveur.
+    max_attempts = 2 if source == 'arxiv' else 3
+    for attempt in range(max_attempts):
+        elapsed = time.monotonic() - LAST_REQUEST.get(source, 0)
+        if elapsed < delay:
+            time.sleep(delay - elapsed)
         LAST_REQUEST[source] = time.monotonic()
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=55) as response:
+            with urllib.request.urlopen(
+                urllib.request.Request(url, headers=headers), timeout=55
+            ) as response:
                 raw = response.read()
             return ET.fromstring(raw) if xml else json.loads(raw)
         except (urllib.error.URLError, TimeoutError, ValueError, ET.ParseError) as exc:
             last_exc = exc
-            # Une erreur d'API ne doit PAS faire avancer le curseur.
-            if isinstance(exc, urllib.error.HTTPError) and exc.code not in (429, 500, 502, 503, 504):
-                break
-            if attempt < 2:
+            if isinstance(exc, urllib.error.HTTPError):
+                if source == 'arxiv' and exc.code == 429:
+                    header_wait = retry_after_seconds(exc)
+                    if header_wait > 300:
+                        # Ne pas bloquer le job entier pour un long Retry-After.
+                        raise SourceRateLimited('arxiv', max(ARXIV_COOLDOWN, header_wait)) from exc
+                    if attempt + 1 < max_attempts:
+                        pause = max(60, header_wait)
+                        print(f'arXiv HTTP 429 : nouvelle tentative dans {pause} s.', flush=True)
+                        time.sleep(pause)
+                        continue
+                    # Le serveur peut limiter durablement les requêtes, parfois
+                    # sans Retry-After : on conserve l'état et on reviendra plus tard.
+                    raise SourceRateLimited('arxiv', max(ARXIV_COOLDOWN, header_wait)) from exc
+                if exc.code not in (429, 500, 502, 503, 504):
+                    break
+            if attempt + 1 < max_attempts:
                 time.sleep((attempt + 1) * 12)
     raise RuntimeError(f'{source} inaccessible : {type(last_exc).__name__} — {str(last_exc)[:180]}') from last_exc
 
@@ -349,6 +399,9 @@ def fetch(state):
     if phase == 'monthly':
         source, _, query = MONTHLY_TASKS[state['query_index']]
         if source == 'arxiv':
+            remaining = int(state.get('arxiv_pause_until', 0) - time.time())
+            if remaining > 0:
+                raise SourceRateLimited('arxiv', remaining)
             return source, *arxiv_page(state['month'], query, state['offset'])
         return source, *crossref_page(state['month'], query, state['cursor'])
     if phase == 'dblp':
@@ -480,7 +533,12 @@ def main():
         return
     if not APPLY:
         # Un aperçu ne modifie aucun fichier et ne consulte pas Gemini/Notion.
-        src, papers, raw, done, _ = fetch(state)
+        try:
+            src, papers, raw, done, _ = fetch(state)
+        except SourceRateLimited as exc:
+            print(f'APERÇU : arXiv temporairement limité (HTTP 429). Réessayer dans {exc.retry_seconds} s.')
+            print('Aucun fichier modifié, aucun appel Gemini/Notion.')
+            return
         candidates = [p for p in papers if p.get('publication_date') and relevant(p)]
         print(f'APERÇU : {src} : {raw} résultats, {len(candidates)} candidats ayant une date précise et un signal technique.')
         for p in candidates[:8]:
@@ -523,7 +581,20 @@ def main():
                 process_one(rec, assessments[i], state, cache, records, secondary, titles, dois)
                 evaluated += 1
             continue
-        src, papers, raw_count, finished, cursor = fetch(state)
+        try:
+            src, papers, raw_count, finished, cursor = fetch(state)
+        except SourceRateLimited as exc:
+            state['arxiv_pause_until'] = max(
+                state.get('arxiv_pause_until', 0), time.time() + exc.retry_seconds)
+            persist(state, cache, records, secondary)
+            until = datetime.fromtimestamp(state['arxiv_pause_until'], timezone.utc)
+            print('PAUSE arXiv (HTTP 429) : la position actuelle est conservée.', flush=True)
+            print('Reprise au plus tôt :', until.isoformat(timespec='minutes'),
+                  '| position :', task_description(state), flush=True)
+            print('Les autres sources seront traitées après la reprise d’arXiv.', flush=True)
+            break
+        if src == 'arxiv':
+            state.pop('arxiv_pause_until', None)
         pages += 1
         if src == 'dblp':
             papers = [enrich_dblp_date(p) for p in papers if p.get('title') and relevant(p)]
