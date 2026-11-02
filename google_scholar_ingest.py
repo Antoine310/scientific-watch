@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Scientific Watch V16.4 — Import prudent des alertes Google Scholar depuis Gmail.
 
-Aperçu par défaut. Seuls les travaux confirmés dans OpenAlex sont soumis à
-l'évaluation Gemini, puis aux sorties habituelles. Ne modifie jamais Gmail.
+Aperçu par défaut. Aucun appel OpenAlex : Gemini évalue le titre repéré
+dans les alertes Scholar. Les dates manquantes ne sont pas inventées. Ne modifie pas Gmail.
 """
 import email
 import hashlib
@@ -26,6 +26,7 @@ STATE_FILE = pathlib.Path('data/scholar_mail_state.json')
 REVIEW_FILE = pathlib.Path('data/scholar_review.json')
 PRIMARY_FILE = pathlib.Path('data/history_records.json')
 SECONDARY_FILE = pathlib.Path('data/history_secondary_records.json')
+SCHOLAR_FILE = pathlib.Path('data/scholar_records.json')
 APPLY = os.getenv('SCHOLAR_APPLY', 'false').lower() == 'true'
 MAIL_LIMIT = max(1, min(100, int(os.getenv('SCHOLAR_MAIL_LIMIT', '20'))))
 ARTICLE_LIMIT = max(1, min(25, int(os.getenv('SCHOLAR_ARTICLE_LIMIT', '10'))))
@@ -138,12 +139,6 @@ def extract_candidates(message):
     return found
 
 
-def fetch_json(url):
-    req = urllib.request.Request(url, headers={'User-Agent': 'scientific-watch-scholar/16.4 (bibliographic verification)', 'Accept': 'application/json'})
-    with urllib.request.urlopen(req, timeout=25) as response:
-        return json.load(response)
-
-
 def doi_from_link(link):
     parsed = urllib.parse.urlparse(link)
     if (parsed.hostname or '').lower() in ('doi.org', 'dx.doi.org'):
@@ -152,26 +147,35 @@ def doi_from_link(link):
     return match.group(0).rstrip('.,;') if match else ''
 
 
-def match_work(candidate):
-    """Require exact DOI or strong normalized title match (>= .92)."""
-    title = candidate['title']
-    doi = doi_from_link(candidate['url'])
-    try:
-        if doi:
-            query = 'https://api.openalex.org/works/https://doi.org/' + urllib.parse.quote(doi, safe='/')
-            paper = fetch_json(query)
-            if SequenceMatcher(None, normalized(title), normalized(paper.get('title'))).ratio() >= .74:
-                return paper
-        params = urllib.parse.urlencode({'search': title, 'per_page': 5})
-        data = fetch_json('https://api.openalex.org/works?' + params)
-        papers = data.get('results', [])
-        ranked = sorted(((SequenceMatcher(None, normalized(title), normalized(p.get('title'))).ratio(), p)
-                        for p in papers), key=lambda pair: pair[0], reverse=True)
-        if ranked and ranked[0][0] >= .92 and (len(ranked) == 1 or ranked[0][0] - ranked[1][0] >= .04):
-            return ranked[0][1]
-    except Exception as exc:
-        print('  Vérification OpenAlex indisponible :', str(exc)[:170])
-    return None
+def scholar_paper(item):
+    """OpenAlex-compatible minimal data, with NO fabricated date or abstract."""
+    doi = doi_from_link(item['url'])
+    return {
+        'id': item['url'], 'title': item['title'],
+        'doi': 'https://doi.org/' + doi if doi else None,
+        'publication_date': None,
+        'authorships': [], 'abstract_inverted_index': None,
+        'primary_location': {'landing_page_url': item['url']},
+    }
+
+
+def scholar_markdown(entries):
+    """For undated work, an honest separate public page avoids wrong month placement."""
+    lines = ['# Publications découvertes via Google Scholar', '',
+             '> Pertinence évaluée par Gemini sur le titre disponible dans l’alerte.',
+             '> Sans résumé de l’article, cette évaluation a une confiance limitée.',
+             '> Date de publication inconnue : aucune date n’est déduite de l’e-mail.', '']
+    for group, label in (('primary', '⭐ Publications principales'), ('secondary', '📖 Articles secondaires (60–74/100)')):
+        rows = [r for r in entries.values() if r.get('group') == group]
+        lines.extend(['## '+label, '', '| Score | Publication | Lien |', '| ---: | --- | --- |'])
+        for row in sorted(rows, key=lambda x: (-int(x['score']), x['title'])):
+            title = row['title'].replace('|','\\|').replace('\n',' ').replace('<','&lt;')
+            url = row['source'].replace(')', '%29')
+            lines.append(f"| {row['score']}/100 | {title} | [Lire]({url}) |")
+        if not rows:
+            lines.append('| — | Aucun article pour le moment | — |')
+        lines.append('')
+    return '\n'.join(lines)
 
 
 def get_messages():
@@ -215,78 +219,85 @@ def get_messages():
 def process(apply, candidates, states, review):
     import cache_v16 as cachelib
     import collect as core
-    import publish_history
+    import publish_weekly as gh
     cache = cachelib.read()
     records = load(PRIMARY_FILE, {})
     secondary = load(SECONDARY_FILE, {})
+    scholar_records = load(SCHOLAR_FILE, {})
     titles, dois = core.existing_items() if apply else (set(), set())
-    processed = 0
-    published = 0
+    local_titles = {normalized(r.get('title')) for d in (records, secondary, scholar_records)
+                    for r in d.values()}
+    processed = published = 0
     for item in candidates:
         key = item['key']
         if key in states['items']:
             continue
+        paper = scholar_paper(item)
+        identity = cachelib.key(paper)
         print(f"• {item['title'][:115]}")
-        paper = match_work(item)
-        if not paper or not paper.get('title') or not re.fullmatch(r'\d{4}-\d{2}-\d{2}', str(paper.get('publication_date', ''))):
-            review[key] = {**item, 'reason': 'Référence OpenAlex non confirmée / date manquante'}
-            print('  → à vérifier (pas de publication)')
-            continue
-        if cachelib.done(cache, paper) or cachelib.key(paper) in records or cachelib.key(paper) in secondary:
-            states['items'][key] = 'already_known'
+        if (normalized(item['title']) in local_titles or cachelib.done(cache, paper)
+                or identity in records or identity in secondary
+                or identity in scholar_records or normalized(item['title']) in {normalized(t) for t in titles}):
             print('  → déjà connu')
+            if apply:
+                states['items'][key] = 'already_known'
             continue
         if not apply:
-            print('  → aperçu : trouvé dans OpenAlex', paper.get('publication_date'))
+            print('  → aperçu : candidat à évaluer directement par Gemini (titre seul)')
             continue
         if processed >= ARTICLE_LIMIT:
             print('  → reporté : limite de nouveaux articles atteinte')
             continue
-        record = {'paper': paper, 'themes': ['Google Scholar'], 'sources': {'Google Scholar', 'OpenAlex'}}
-        decision_list = core.ai_assess([record])
-        if len(decision_list) != 1:
+        record = {'paper': paper, 'themes': ['T03 — Google Scholar'], 'sources': {'Google Scholar'}}
+        decisions = core.ai_assess([record])
+        if not isinstance(decisions, dict) or 0 not in decisions:
             raise RuntimeError('Gemini a renvoyé un résultat incomplet ; état non marqué.')
-        decision = decision_list[0]
+        decision = decisions[0]
         score = int(decision.get('score', 0))
         category = str(decision.get('categorie', '')).casefold().strip()
         status = 'rejected'
-        identity = cachelib.key(paper)
-        source = paper.get('doi') or (paper.get('primary_location') or {}).get('landing_page_url') or item['url']
-        if (category in ('coeur', 'transfert_explicite') and
-                score >= (core.MIN_SCORE_CORE if category == 'coeur' else core.MIN_SCORE_TRANSFER) and
-                str(decision.get('decision', '')).casefold() in ('conserver', 'consigner', 'examiner')):
-            # Recheck Notion immediately before write.
-            if normalized(paper['title']) not in titles and not (paper.get('doi') and core.normalized_doi(paper['doi']) in dois):
-                detail = core.analyze_detail(record)
+        source = item['url']
+        primary = (category in ('coeur', 'transfert_explicite') and
+                   score >= (core.MIN_SCORE_CORE if category == 'coeur' else core.MIN_SCORE_TRANSFER) and
+                   str(decision.get('decision', '')).casefold() in ('conserver', 'consigner', 'examiner'))
+        if primary:
+            # Confirmation in Notion just before write. No invented publication date.
+            if normalized(item['title']) not in {normalized(t) for t in titles}:
                 if not core.WRITE_NOTION:
                     raise RuntimeError('WRITE_NOTION doit être true en mode réel')
+                detail = core.analyze_detail(record)
                 schema = core.api('https://api.notion.com/v1/data_sources/' + core.SOURCE_ID).get('properties', {})
                 core.notion_add(record, decision, detail, schema)
-                records[identity] = {'title': paper['title'], 'summary': detail.get('resume_court', ''),
-                                     'score': score, 'themes': ['Google Scholar'], 'source': source,
-                                     'publication_date': paper['publication_date']}
-                titles.add(normalized(paper['title']))
-                if paper.get('doi'):
-                    dois.add(core.normalized_doi(paper['doi']))
+                scholar_records[identity] = {
+                    'title': item['title'], 'score': score, 'source': source,
+                    'summary': detail.get('resume_court', ''), 'group': 'primary',
+                }
+                titles.add(core.norm(item['title']))
+                local_titles.add(normalized(item['title']))
                 status = 'imported'
                 published += 1
         elif 60 <= score <= 74 and category in ('coeur', 'transfert_explicite'):
-            secondary[identity] = {'title': paper['title'], 'score': score, 'source': source,
-                                   'publication_date': paper['publication_date']}
+            scholar_records[identity] = {
+                'title': item['title'], 'score': score, 'source': source,
+                'group': 'secondary',
+            }
+            local_titles.add(normalized(item['title']))
             published += 1
         cachelib.set_status(cache, paper, decision, status)
         states['items'][key] = status
         review.pop(key, None)
         processed += 1
-        # Persist before attempting publication; retry by next run if publish fails.
+        # Persist after each item to avoid re-evaluation on partial errors.
         cachelib.write(cache)
-        save(PRIMARY_FILE, records)
-        save(SECONDARY_FILE, secondary)
+        save(SCHOLAR_FILE, scholar_records)
         save(STATE_FILE, states)
         save(REVIEW_FILE, review)
         print(f'  → {status} ({score}/100)')
     if published:
-        publish_history.publish(records, secondary)
+        if not gh.GH_TOKEN:
+            raise RuntimeError('PUBLIC_REPO_TOKEN manquant')
+        gh.put_file('scholar/README.md', scholar_markdown(scholar_records),
+                    'Google Scholar : publications retenues')
     return processed, published
 
 
