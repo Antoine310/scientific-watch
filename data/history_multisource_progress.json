@@ -1,8 +1,8 @@
 {
-  "accepted": 25,
+  "accepted": 31,
   "completed": false,
-  "cursor": "*",
-  "evaluated": 587,
+  "cursor": "MTc3NzQ5MjIxNDAwMCwxMC4xMTA5JTJGamx0LjIwMjYuMzY4ODczMQ==",
+  "evaluated": 612,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -41,9 +41,9 @@
   ],
   "month": "2026-07",
   "needs_publish": false,
-  "offset": 0,
-  "pages_done": 468,
-  "pages_in_query": 0,
+  "offset": 240,
+  "pages_done": 486,
+  "pages_in_query": 6,
   "pending": [],
   "phase": "monthly",
   "prefilter_review": [
@@ -1278,10 +1278,18 @@
       "publication_date": "2026-08-01",
       "source": "crossref",
       "title": "The verification, validation, and uncertainty quantification framework of the EAST tokamak diagnostic system"
+    },
+    {
+      "doi": "https://doi.org/10.2514/1.a36543",
+      "identity": "title:ontheradiometriccalibrationofopticalhardwareintheloopstimulators",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-07-01",
+      "source": "crossref",
+      "title": "On the Radiometric Calibration of Optical Hardware-in-the-Loop Stimulators"
     }
   ],
-  "query_index": 1,
-  "secondary": 23,
-  "skipped": 537,
+  "query_index": 13,
+  "secondary": 24,
+  "skipped": 545,
   "version": 1
 }

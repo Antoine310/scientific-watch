@@ -350,6 +350,19 @@
     ],
     "title": "Fine-Grained Patching via Contention Balancer: A Practical Mitigation Strategy for Spectre Vulnerabilities Using SpecScope Contention Maps"
   },
+  "doi:10.1109/jiot.2026.3685841": {
+    "publication_date": "2026-07-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-07-01",
+    "score": 85,
+    "source": "https://doi.org/10.1109/jiot.2026.3685841",
+    "summary": "Ce travail concerne la préservation transparente de l'intégrité du flux de contrôle à l'exécution grâce à la confidentialité et l'intégrité de la pile basées sur le matériel sur des dispositifs IoT RISC-V.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Preserving Runtime Control-Flow Integrity Transparently Through Hardware-Based Stack Confidentiality and Integrity on RISC-V IoT Devices"
+  },
   "doi:10.1109/lats70329.2026.11480312": {
     "publication_date": "2026-03-17",
     "score": 90,
@@ -762,6 +775,19 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "dfence: Fine-Grained Speculation Barriers for Efficient and Effective Hardware-Software Protection in the Spectre Era"
+  },
+  "doi:10.1145/3831252.3834007": {
+    "publication_date": "2026-07-25",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "score": 80,
+    "source": "http://arxiv.org/abs/2607.23218v1",
+    "summary": "SPARC est un cadre automatisé d'évaluation des fuites par canal caché de puissance (PSCL) et d'analyse des causes profondes en phase pré-silicium, combinant le suivi du flux d'information (IFT) au niveau macro-cellulaire et une logique d'ombre (shadow logic) améliorée pour relier les signaux matériels aux instructions logicielles.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "SPARC: Automated Root-Cause Analysis of Pre-Silicon Power Side-Channel Leakage in the Processor Design Flow"
   },
   "doi:10.1145/3844614": {
     "publication_date": "2026-09-03",
@@ -1405,6 +1431,19 @@
     ],
     "title": "ANTMAN: An Efficient and Interpretable RTL-Level Run-Time Detection Framework for Stealthy Branch Predictor Attacks on BOOM"
   },
+  "title:automatedtemplatefreesynthesisofinstructioncentricleakagecontractsforblackboxcpus": {
+    "publication_date": "2026-07-16",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2607.15118v1",
+    "summary": "Cet article présente une méthodologie et un outil automatisé nommé malcos pour synthétiser des contrats de fuite orientés instruction (instruction-centric leakage contracts) pour des processeurs boîtes noires, sans nécessiter de modèle préétabli (template-free). L'évaluation est menée sur des architectures x86 et ARM.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Automated Template-free Synthesis of Instruction-Centric Leakage Contracts for Black-Box CPUs"
+  },
   "title:characterizingthevarianceenvelopeamultidimensionalanalysisofspectretelemetryacrossarchitecturesandworkloads": {
     "publication_date": "2026-08-14",
     "publication_date_note": "",
@@ -1484,6 +1523,19 @@
     ],
     "title": "FreeSBee: A Constant-Time Compilation Pipeline"
   },
+  "title:graniteamodularmethodologyforfoundationalverificationofhardwaresoftwareleakagecontracts": {
+    "publication_date": "2026-07-29",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2607.27480v1",
+    "summary": "Granite est une méthodologie modulaire pour la vérification de la correction fonctionnelle et de l'absence de fuite des processeurs RTL par rapport à des contrats ISA. Elle démontre que le timing cycle par cycle d'un design RISC pipeliné est déterminé uniquement par les observables spécifiés, éliminant ainsi les canaux cachés temporels pour les programmes respectant la discipline du temps constant cryptographique.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Granite: A Modular Methodology for Foundational Verification of Hardware-Software Leakage Contracts"
+  },
   "title:hardeningtrustedexecutionenvironmentsagainstmicroarchitecturalsidechannelattacksaconstructiveapproach": {
     "publication_date": "2025-05-01",
     "score": 90,
@@ -1513,6 +1565,19 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Integrating OpenTitan as a Security Controller for Cryptographic Tasks in RISC-V SoCs"
+  },
+  "title:isolationfailurefromsharedstoragecharacterizingandexploitingpagecachescaleakageacrosscontainersandvms": {
+    "publication_date": "2026-07-20",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2607.17518v2",
+    "summary": "Cette publication étudie les fuites par canal auxiliaire de type cache de pages (page-cache SCA) à travers différentes frontières d'isolation dans le cloud, notamment les conteneurs, les environnements sandboxed et les machines virtuelles. Les auteurs démontrent que le partage du cache de pages de l'hôte persiste à travers de nombreux mécanismes d'isolation et d'I/O (Docker, gVisor, Kata Containers, QEMU/KVM), permettant de révéler la résidence dans le cache via des mesures temporelles non privilégiées.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Isolation Failure From Shared Storage: Characterizing and Exploiting Page-Cache SCA Leakage Across Containers and VMs"
   },
   "title:leveraginggem5andmachinelearningforendtoenddetectionofcachebasedsidechannelattackpatterns": {
     "publication_date": "2025-09-18",
@@ -1612,6 +1677,19 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "RISCGuard: RISC-V Static Analysis Framework for Detecting Microarchitectural Vulnerabilities"
+  },
+  "title:sableminimalistinstructionlevelauthenticatedencryptionforconstrainedconfidentialcomputing": {
+    "publication_date": "2026-07-18",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2607.16771v1",
+    "summary": "Cette publication présente SABLE, une architecture de processeur RISC-V conçue pour un chiffrement authentifié au niveau des instructions (ILE) minimaliste et adapté au confidential computing contraint. SABLE intègre un mécanisme de déchiffrement et de vérification basé sur ASCON-128a, compatible avec la chaîne d'outils RISC-V standard via un post-traitement des binaires ELF. L'évaluation sur FPGA Xilinx Artix-7 avec le SoC NEORV32 analyse sept variantes micro-architecturales.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "SABLE: Minimalist Instruction-Level Authenticated Encryption for Constrained Confidential Computing"
   },
   "title:scheriprovablysecurespeculationundertheconstanttimepolicyforcheriextendedversion": {
     "publication_date": "2026-09-15",

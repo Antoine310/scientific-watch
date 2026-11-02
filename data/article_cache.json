@@ -944,6 +944,14 @@
       "title": "Corrigendum to “μTEE: Certification-ready RISC-V platform for secure IIoT lifecycle management” [Internet of Things 36 (2026) 101885]",
       "updated_at": "2026-11-02T02:14:22.822627+00:00"
     },
+    "doi:10.1016/j.jisa.2026.104461": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "A hash-based signature scheme with layer-specific configuration for secure boot in IoT devices",
+      "updated_at": "2026-11-02T20:00:41.895853+00:00"
+    },
     "doi:10.1016/j.jisa.2026.104514": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -983,6 +991,14 @@
       "status": "rejected",
       "title": "Enhancing thermal attack resilience in Multi-Processor System-on-Chip through synthetic data generation using LLMs",
       "updated_at": "2026-11-02T18:57:29.473525+00:00"
+    },
+    "doi:10.1016/j.matt.2026.102774": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Hierarchical amyloid-DNA complex encoding multi-scale embedded information security",
+      "updated_at": "2026-11-02T20:00:41.908899+00:00"
     },
     "doi:10.1016/j.matt.2026.103040": {
       "category": "hors_sujet",
@@ -1215,6 +1231,14 @@
       "status": "rejected",
       "title": "RO-like ring-based TRNG with adaptive mode switching for enhanced entropy Harvesting",
       "updated_at": "2026-11-01T05:13:25.995952+00:00"
+    },
+    "doi:10.1016/j.vlsi.2026.102715": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "ExpanderGraph-128: A novel graph-theoretic block cipher with formal security analysis and hardware implementation",
+      "updated_at": "2026-11-02T20:00:10.272796+00:00"
     },
     "doi:10.1016/j.vlsi.2026.102747": {
       "category": "hors_sujet",
@@ -2384,6 +2408,14 @@
       "title": "HBQS: Lightweight Post-Quantum Secure Authentication for Satellite Networks Leveraging Hardware TRNG and PUFs",
       "updated_at": "2026-11-01T11:14:20.900411+00:00"
     },
+    "doi:10.1109/jiot.2026.3685841": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Preserving Runtime Control-Flow Integrity Transparently Through Hardware-Based Stack Confidentiality and Integrity on RISC-V IoT Devices",
+      "updated_at": "2026-11-02T20:01:22.417942+00:00"
+    },
     "doi:10.1109/jiot.2026.3697699": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -2800,6 +2832,14 @@
       "title": "LayerTEE: Decoupled Memory Protection for Scalable Multilayer Communication on RISC-V",
       "updated_at": "2026-10-30T20:13:51.793272+00:00"
     },
+    "doi:10.1109/tcad.2025.3631595": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Security, Stability, and Overhead: Configuration Design Study and Experimental Validation of XOR-ed Physical Unclonable Functions",
+      "updated_at": "2026-11-02T19:59:29.006550+00:00"
+    },
     "doi:10.1109/tcad.2025.3639390": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -2871,6 +2911,14 @@
       "status": "rejected",
       "title": "TeLo-ROPN TRNG: FPGA-Based True Random Number Generation Using Tent and Logistic Chaotic Maps With Ring Oscillator Array",
       "updated_at": "2026-10-31T23:13:52.268208+00:00"
+    },
+    "doi:10.1109/tcsi.2026.3662486": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Preserving the Confidentiality of Clinical Images Through a Chaotic Low-Power Hardware Platform and DNA Coding-Based Encryption",
+      "updated_at": "2026-11-02T19:59:41.334352+00:00"
     },
     "doi:10.1109/tcsi.2026.3692104": {
       "category": "hors_sujet",
@@ -3047,6 +3095,14 @@
       "status": "rejected",
       "title": "Towards Stateless Post-Quantum Remote Attestation for IoT Using TPM and DICE",
       "updated_at": "2026-10-31T14:14:51.028061+00:00"
+    },
+    "doi:10.1109/tvlsi.2025.3556241": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Implementing Homomorphic Encryption-Based Logic Locking in System-on-Chip Designs",
+      "updated_at": "2026-11-02T19:54:14.751521+00:00"
     },
     "doi:10.1109/tvlsi.2026.3690450": {
       "category": "hors_sujet",
@@ -3759,6 +3815,14 @@
       "status": "rejected",
       "title": "Understanding the Security Boundary of Obfuscation-based On-Device LLM Protection",
       "updated_at": "2026-11-02T15:56:39.874026+00:00"
+    },
+    "doi:10.1145/3831252.3834007": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "SPARC: Automated Root-Cause Analysis of Pre-Silicon Power Side-Channel Leakage in the Processor Design Flow",
+      "updated_at": "2026-11-02T19:54:14.734904+00:00"
     },
     "doi:10.1145/3831700": {
       "category": "hors_sujet",
@@ -7032,6 +7096,14 @@
       "title": "RV-Sec5: Enhancing Pre-Silicon Security Evaluation of RISC-V Processors through Targeted ISA-Level Instrumentation in the gem5 Simulation Framework †",
       "updated_at": "2026-11-01T23:13:34.867380+00:00"
     },
+    "doi:10.53989/jcp.v5i1.25.112": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "A Real time Drone Detection System for Airspace Security in India using YOLOv8 and Deep Learning",
+      "updated_at": "2026-11-02T20:00:59.165687+00:00"
+    },
     "doi:10.54097/kpme5h37": {
       "category": "secondaire",
       "decision": "examiner",
@@ -7704,6 +7776,14 @@
       "title": "Attestable Audit: Property-Based Attestation for Proprietary Workloads without Artifact Disclosure",
       "updated_at": "2026-11-02T13:03:57.203548+00:00"
     },
+    "title:automatedtemplatefreesynthesisofinstructioncentricleakagecontractsforblackboxcpus": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Automated Template-free Synthesis of Instruction-Centric Leakage Contracts for Black-Box CPUs",
+      "updated_at": "2026-11-02T19:57:21.666007+00:00"
+    },
     "title:automotivehsmsarchitecturalchallengesandsecurityimplications": {
       "category": "secondaire",
       "decision": "examiner",
@@ -7872,6 +7952,14 @@
       "title": "CWEEP: A Lexical Static Analysis Framework for CWE Early Prevention",
       "updated_at": "2026-11-02T19:35:23.951770+00:00"
     },
+    "title:datastructuresforprivatetokentransfersinteebasednetworks": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Data Structures for Private Token Transfers in TEE-Based Networks",
+      "updated_at": "2026-11-02T19:54:40.712963+00:00"
+    },
     "title:desarrollodefirmwareenarquitecturariscvsobreraspberrypipicow2": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -7952,6 +8040,14 @@
       "title": "Extending Layered Attestation into ARM Application Run-Times",
       "updated_at": "2026-11-02T12:56:55.301839+00:00"
     },
+    "title:federatedtrustforembodiedrobotcapabilitymarketplaces": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Federated Trust for Embodied Robot Capability Marketplaces",
+      "updated_at": "2026-11-02T19:52:30.018610+00:00"
+    },
     "title:finegrainedcomputationoffloadforofftheshelfserversintensoflines": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -8008,6 +8104,14 @@
       "title": "From Hypervisor to Container: Cloud Security Vulnerabilities, Defense Mechanisms, and Open Challenges",
       "updated_at": "2026-11-02T15:57:01.934257+00:00"
     },
+    "title:frompbstoepbsthemicrostructureofblockbuilding": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "From PBS to ePBS: the Microstructure of Block Building",
+      "updated_at": "2026-11-02T19:54:40.725860+00:00"
+    },
     "title:ghostaccessattackingthegpuonthemultitenantcloudviacpullcunderunifiedmemory": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -8015,6 +8119,14 @@
       "status": "rejected",
       "title": "GhostAccess: Attacking the GPU on the Multi-tenant Cloud via CPU LLC under Unified Memory",
       "updated_at": "2026-11-02T09:08:44.664356+00:00"
+    },
+    "title:graniteamodularmethodologyforfoundationalverificationofhardwaresoftwareleakagecontracts": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Granite: A Modular Methodology for Foundational Verification of Hardware-Software Leakage Contracts",
+      "updated_at": "2026-11-02T19:58:25.989826+00:00"
     },
     "title:hardeningtrustedexecutionenvironmentsagainstmicroarchitecturalsidechannelattacksaconstructiveapproach": {
       "category": "coeur",
@@ -8080,6 +8192,14 @@
       "title": "Hiding Directions, Leaking Structure: Breaking ArrowCloak through Low-Rank Structure",
       "updated_at": "2026-11-02T17:57:37.264794+00:00"
     },
+    "title:highperformancenttacceleratorsforpqcleveragingunifiedredundantarithmeticandfinetunedmicroarchitecture": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "High-Performance NTT Accelerators for PQC leveraging Unified Redundant Arithmetic and Fine-Tuned Microarchitecture",
+      "updated_at": "2026-11-02T19:56:52.607991+00:00"
+    },
     "title:hipaacompliantaideploymentpatternsinclinicalsettingsprivacypreservingtechniquesandgovernancecontrols": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -8135,6 +8255,22 @@
       "status": "rejected",
       "title": "Integration of Post-Quantum Cryptography in the Keylime Agent for Quantum-Safe Remote Attestation",
       "updated_at": "2026-10-31T23:15:52.001819+00:00"
+    },
+    "title:isolationfailurefromsharedstoragecharacterizingandexploitingpagecachescaleakageacrosscontainersandvms": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Isolation Failure From Shared Storage: Characterizing and Exploiting Page-Cache SCA Leakage Across Containers and VMs",
+      "updated_at": "2026-11-02T19:56:30.267849+00:00"
+    },
+    "title:knowthyneighborcrossteemutualattestation": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Know Thy Neighbor: Cross-TEE Mutual Attestation",
+      "updated_at": "2026-11-02T19:54:40.697300+00:00"
     },
     "title:kordbreakingthekeygenerationbottleneckindealerlessfssviaprotocolhardwarecodesign": {
       "category": "transfert_explicite",
@@ -8208,6 +8344,22 @@
       "title": "NACRE: Rethinking Confidential Containers through Native Architectural Support",
       "updated_at": "2026-11-02T15:52:42.937344+00:00"
     },
+    "title:naradnoncolludingaggregatorobliviousrecordanddecrypt": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 25,
+      "status": "rejected",
+      "title": "NARAD: Non-colluding Aggregator-oblivious Record-And-Decrypt",
+      "updated_at": "2026-11-02T19:55:12.258707+00:00"
+    },
+    "title:observerquotientsecuritycomposableleakageboundsforhiddenstatecontinuations": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Observer-Quotient Security: Composable Leakage Bounds for Hidden State Continuations",
+      "updated_at": "2026-11-02T19:56:02.811187+00:00"
+    },
     "title:ontheperformanceofmalwaredetectionclassifiersusinghardwareperformancecounters": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -8280,6 +8432,14 @@
       "title": "Prototyping Custom Hardware Performance Counters in gem5 Simulator: A Framework for RISC-V Side-Channel Attack Assessment",
       "updated_at": "2026-10-30T20:15:22.976573+00:00"
     },
+    "title:qubesossecurityinthepublicrecord": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Qubes OS Security in the Public Record",
+      "updated_at": "2026-11-02T19:56:52.622978+00:00"
+    },
     "title:rappxappattestationanewsecurityusecasefororan": {
       "category": "secondaire",
       "decision": "examiner",
@@ -8336,6 +8496,14 @@
       "title": "RV2GC: Reconstructing the Garbling Boundary in a RISC-V Garbled Processor",
       "updated_at": "2026-11-02T13:03:36.695633+00:00"
     },
+    "title:sableminimalistinstructionlevelauthenticatedencryptionforconstrainedconfidentialcomputing": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "SABLE: Minimalist Instruction-Level Authenticated Encryption for Constrained Confidential Computing",
+      "updated_at": "2026-11-02T19:53:40.097572+00:00"
+    },
     "title:sadrasoundcapabilitybasedaccesscontrolsystemforresourcedisaggregatedarchitectures": {
       "category": "secondaire",
       "decision": "examiner",
@@ -8391,6 +8559,22 @@
       "status": "imported",
       "title": "Securing Filesystems for Confidential Computing",
       "updated_at": "2026-11-02T17:57:34.145843+00:00"
+    },
+    "title:selfgcselfgoverningcontextforlonghorizonllmagents": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Self-GC: Self-Governing Context for Long-Horizon LLM Agents",
+      "updated_at": "2026-11-02T19:56:02.797216+00:00"
+    },
+    "title:sellingthestocknotthecreamthesovietemigrecareerpremiumofthe1990s": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Selling the Stock, Not the Cream: The Soviet Émigré Career Premium of the 1990s",
+      "updated_at": "2026-11-02T19:55:12.245702+00:00"
     },
     "title:sessionattestationforunmodifiedtlsservicesinconfidentialvirtualmachines": {
       "category": "secondaire",
@@ -8504,6 +8688,14 @@
       "title": "TEE-X: TEE-aware Acceleration Framework for Large Vision Models at the Edge",
       "updated_at": "2026-11-02T17:57:47.170531+00:00"
     },
+    "title:thechronosvulnerabilityataxonomyoftemporalpersistenceandmemorybaseddeceptioninagenticai": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "The Chronos Vulnerability: A Taxonomy of Temporal Persistence and Memory-Based Deception in Agentic AI",
+      "updated_at": "2026-11-02T19:54:40.750681+00:00"
+    },
     "title:theydontcareaboutthisasystematicstudyofteebuildreproducibilityinthewild": {
       "category": "secondaire",
       "decision": "examiner",
@@ -8591,6 +8783,14 @@
       "status": "rejected",
       "title": "WarpGuard: Towards Control-Flow Attestation for Heterogeneous CPU-GPU Execution",
       "updated_at": "2026-11-02T02:15:03.335968+00:00"
+    },
+    "title:wavecommitmentsprivateandverifiablespeechagentmarketplaces": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "WaveCommitments: Private and Verifiable Speech-Agent Marketplaces",
+      "updated_at": "2026-11-02T19:54:40.738433+00:00"
     },
     "title:whenrotationboundsnothingstreamingimageclassifierstofieldnodesunderphysicalcapture": {
       "category": "hors_sujet",
