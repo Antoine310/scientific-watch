@@ -608,6 +608,14 @@
       "title": "Feral goats shift keystone cacti communities in Caribbean Islands",
       "updated_at": "2026-10-30T20:14:00.333625+00:00"
     },
+    "doi:10.1016/j.cej.2026.177841": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Centrifugation-free sequential-flow microfluidic chip with a passive valve for nucleic acid extraction and photonic PCR verification",
+      "updated_at": "2026-11-02T17:52:09.335109+00:00"
+    },
     "doi:10.1016/j.comnet.2026.112603": {
       "category": "coeur",
       "decision": "conserver",
@@ -743,6 +751,14 @@
       "status": "rejected",
       "title": "Mechanoluminescent physical unclonable functions with crosstalk-free dynamic and static security identities",
       "updated_at": "2026-11-02T08:38:41.123534+00:00"
+    },
+    "doi:10.1016/j.mechrescom.2026.104766": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Verification of monocrystalline silicon anisotropic kinematic hardening constitutive model based on local optimizing fitting",
+      "updated_at": "2026-11-02T17:52:19.212860+00:00"
     },
     "doi:10.1016/j.mejo.2026.107275": {
       "category": "secondaire",
@@ -1400,6 +1416,14 @@
       "title": "Random Number Generators in Cryptography and Simulation: Comparative Analysis of TRNG and PRNG Designs",
       "updated_at": "2026-10-31T17:15:11.713317+00:00"
     },
+    "doi:10.1109/cluster68337.2026.00033": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Isolating Hardware Resources for Collective Communication with Triggered Operations",
+      "updated_at": "2026-11-02T17:51:43.338985+00:00"
+    },
     "doi:10.1109/coins69995.2026.11715649": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -1496,6 +1520,14 @@
       "title": "Enclave Application Cache for RISC-V Keystone",
       "updated_at": "2026-10-30T20:13:52.390287+00:00"
     },
+    "doi:10.1109/fdl71572.2026.11724689": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "FP-RVVTS: Sail-Guided Verification of RISC-V Floating-Point Implementations",
+      "updated_at": "2026-11-02T17:51:43.305290+00:00"
+    },
     "doi:10.1109/fdl71572.2026.11724700": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -1503,6 +1535,14 @@
       "status": "rejected",
       "title": "FormalHandshake — Open Source Design and Verification Flow for Complex Hardware Circuits: Tool Paper",
       "updated_at": "2026-11-02T17:03:27.262182+00:00"
+    },
+    "doi:10.1109/fdl71572.2026.11725310": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Exploring the Parameter Space for Constrained Random Verification of RISC-V CPUs",
+      "updated_at": "2026-11-02T17:51:34.311859+00:00"
     },
     "doi:10.1109/fit63703.2024.10838422": {
       "category": "hors_sujet",
@@ -1535,6 +1575,14 @@
       "status": "rejected",
       "title": "AccessShadow: Leveraging Adversarial Samples to Counter Deep Learning-Assisted Cache Timing Attacks",
       "updated_at": "2026-10-30T17:13:53.535322+00:00"
+    },
+    "doi:10.1109/ic-sit69723.2026.11735992": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "VMAC: A High-Throughput Vector MAC Extension for Accelerating Edge AI on the Ibex RISC-V Core",
+      "updated_at": "2026-11-02T17:51:43.373797+00:00"
     },
     "doi:10.1109/icc59461.2026.11587746": {
       "category": "coeur",
@@ -1616,6 +1664,14 @@
       "title": "Design and Implementation of a RISC-V Controlled TPU like Accelerator with DVFS for Energy-Efficient Edge-AI on FPGA",
       "updated_at": "2026-11-02T15:51:22.171192+00:00"
     },
+    "doi:10.1109/icoici69824.2026.11723474": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Design and Simulation of a Five Stage Pipelined RISC-V Processor using Vivado",
+      "updated_at": "2026-11-02T17:51:43.396297+00:00"
+    },
     "doi:10.1109/icosec67334.2025.11459751": {
       "category": "secondaire",
       "decision": "examiner",
@@ -1624,6 +1680,14 @@
       "title": "Implementation of A Hybrid TRNG-PRNG Architecture for Efficient Random Number Generator",
       "updated_at": "2026-10-31T11:13:40.427886+00:00"
     },
+    "doi:10.1109/icosec70158.2026.11735889": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Power-Efficient 32-Bit Risc-V Processor with Optimized Pipeline Architecture",
+      "updated_at": "2026-11-02T17:51:43.383667+00:00"
+    },
     "doi:10.1109/icsft66733.2026.11507038": {
       "category": "coeur",
       "decision": "conserver",
@@ -1631,6 +1695,14 @@
       "status": "imported",
       "title": "Secure Bootloader and Kernel Initialization in Embedded Systems Using Rust",
       "updated_at": "2026-10-31T23:14:45.367164+00:00"
+    },
+    "doi:10.1109/ieacon68870.2026.11734376": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Statistical and Hardware Validation of Arbiter PUF for Secure and Energy Efficient IoT Devices",
+      "updated_at": "2026-11-02T17:51:43.349010+00:00"
     },
     "doi:10.1109/iedm50572.2025.11353751": {
       "category": "secondaire",
@@ -1952,6 +2024,14 @@
       "title": "FaultRISC-V: Detecting Fault Injection Vulnerabilities in RISC-V Assembly",
       "updated_at": "2026-10-30T23:13:33.139373+00:00"
     },
+    "doi:10.1109/pkia71423.2026.11732322": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "PKI-Anchored Self-Sovereign Identity for Certificate Issuance and Verification Using Digital Signature Certificate (DSC) Hardware Wallets on Polygon Blockchain",
+      "updated_at": "2026-11-02T17:51:43.317651+00:00"
+    },
     "doi:10.1109/prdc67299.2025.00020": {
       "category": "coeur",
       "decision": "conserver",
@@ -2183,6 +2263,14 @@
       "status": "rejected",
       "title": "In-Memory Unified TRNG and PUF Based on RRAM Random Switching Time",
       "updated_at": "2026-10-31T17:15:11.713295+00:00"
+    },
+    "doi:10.1109/tia.2026.3675095": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Loss Optimization and Experimental Verification of MW-Level Medium-Frequency Transformer Using Grain-Oriented Silicon Steel",
+      "updated_at": "2026-11-02T17:51:59.393771+00:00"
     },
     "doi:10.1109/tie.2026.3675190": {
       "category": "hors_sujet",
@@ -3376,6 +3464,14 @@
       "title": "CRISIS COMMUNICATION IN PUBLIC SECURITY INSTITUTIONS: A THEORETICAL EVALUATION",
       "updated_at": "2026-11-02T13:48:02.116237+00:00"
     },
+    "doi:10.1922/comdem.v3i1s.18593": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 25,
+      "status": "rejected",
+      "title": "FPGA Implementation and Comparative Hardware Analysis of FPLP Trivium and Prince",
+      "updated_at": "2026-11-02T17:51:43.359606+00:00"
+    },
     "doi:10.20944/preprints202506.1271.v1": {
       "category": "secondaire",
       "decision": "examiner",
@@ -3631,6 +3727,14 @@
       "status": "imported",
       "title": "An Efficient Secure Boot Mechanism Leveraging DICE as a Use Case",
       "updated_at": "2026-11-01T14:14:03.113206+00:00"
+    },
+    "doi:10.23919/dsdcps00089.2026.00021": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Analytical-vs-Realized Gaps in RISC-V Custom Instruction Flows",
+      "updated_at": "2026-11-02T17:51:34.295177+00:00"
     },
     "doi:10.23919/dsdcps00089.2026.00022": {
       "category": "secondaire",
@@ -4703,6 +4807,14 @@
       "status": "rejected",
       "title": "A Fully Combinational Hardware Accelerator for BWT-FM Index DNA Sequence Alignment",
       "updated_at": "2026-11-02T14:38:08.834313+00:00"
+    },
+    "doi:10.37943/zhxt2203": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Hardware-Bound Split-Key Framework for Software Protection Against Reverse Engineering",
+      "updated_at": "2026-11-02T17:51:43.328421+00:00"
     },
     "doi:10.3929/ethz-c-000787734": {
       "category": "coeur",
@@ -6272,6 +6384,14 @@
       "title": "An empirical study of GPU cache side-channel leakage in large language model inference",
       "updated_at": "2026-10-31T20:14:32.089451+00:00"
     },
+    "title:antmananefficientandinterpretablertllevelruntimedetectionframeworkforstealthybranchpredictorattacksonboom": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "ANTMAN: An Efficient and Interpretable RTL-Level Run-Time Detection Framework for Stealthy Branch Predictor Attacks on BOOM",
+      "updated_at": "2026-11-02T17:53:04.893065+00:00"
+    },
     "title:asecuredtoflidarsocwithdualdomainfingerprintingandeventdrivenafecircuitachievingsensorlevelattackresilience": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -6304,6 +6424,14 @@
       "title": "Attestable Audit: Property-Based Attestation for Proprietary Workloads without Artifact Disclosure",
       "updated_at": "2026-11-02T13:03:57.203548+00:00"
     },
+    "title:automotivehsmsarchitecturalchallengesandsecurityimplications": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Automotive HSMs - Architectural Challenges and Security Implications",
+      "updated_at": "2026-11-02T17:52:31.014368+00:00"
+    },
     "title:autotransaiassistedautomatictranslationofsecurityassertionsforriscvprocessors": {
       "category": "secondaire",
       "decision": "examiner",
@@ -6319,6 +6447,14 @@
       "status": "rejected",
       "title": "Beyond the Trust Boundary: A Critical Reassessment of the FIDO2 Threat Model",
       "updated_at": "2026-11-02T15:52:07.363784+00:00"
+    },
+    "title:bgpayanincentivecompatiblemechanismforbgphijackfiltering": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "BGPay: An Incentive-Compatible Mechanism for BGP Hijack Filtering",
+      "updated_at": "2026-11-02T17:52:40.939948+00:00"
     },
     "title:bishieldteeontheinsecurityofunilateralweightobfuscationinondeviceteeshieldedllmpartition": {
       "category": "secondaire",
@@ -6367,6 +6503,14 @@
       "status": "rejected",
       "title": "Communication-Oblivious Permutation and Sorting",
       "updated_at": "2026-11-02T13:03:57.273621+00:00"
+    },
+    "title:crosslayerrootsoftrustintegratingbiometricspufsandhardwareobfuscation": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Cross-Layer Roots of Trust: Integrating Biometrics, PUFs, and Hardware Obfuscation",
+      "updated_at": "2026-11-02T17:52:40.929204+00:00"
     },
     "title:crosspartyformalverificationforhardwaretrust": {
       "category": "secondaire",
@@ -6520,6 +6664,22 @@
       "title": "Hardening Trusted Execution Environments Against Microarchitectural Side-Channel Attacks: A Constructive Approach",
       "updated_at": "2026-10-30T17:13:45.362068+00:00"
     },
+    "title:hardwaredesignandsecurityintheeraofchipletsandllms": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Hardware Design and Security in the Era of Chiplets and LLMs",
+      "updated_at": "2026-11-02T17:52:30.993428+00:00"
+    },
+    "title:hardwarerootedattestationforaiagentevidencecomposingietfratswithactionevidencepackages": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Hardware-rooted attestation for AI-agent evidence: composing IETF RATS with action evidence packages",
+      "updated_at": "2026-11-02T17:52:40.917045+00:00"
+    },
     "title:hardwarerootoftrustensistemesriscvanalysisandevaluationofopensourceapproaches": {
       "category": "coeur",
       "decision": "conserver",
@@ -6552,6 +6712,14 @@
       "title": "HOMARD: Hammering Off-chip Memory via Aggregate power Rail Disclosure",
       "updated_at": "2026-11-02T13:04:38.160375+00:00"
     },
+    "title:hsmlogsmalllanguagemodelassistedhardwaresecuritymoduleloganomalydetectionwithbehavioralanalysis": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "HSMLog: Small Language Model-Assisted Hardware Security Module Log Anomaly Detection with Behavioral Analysis",
+      "updated_at": "2026-11-02T17:52:31.024258+00:00"
+    },
     "title:intccaframeworkforinteractiveconfidentialcomputing": {
       "category": "secondaire",
       "decision": "examiner",
@@ -6576,6 +6744,22 @@
       "title": "Integration of Post-Quantum Cryptography in the Keylime Agent for Quantum-Safe Remote Attestation",
       "updated_at": "2026-10-31T23:15:52.001819+00:00"
     },
+    "title:kordbreakingthekeygenerationbottleneckindealerlessfssviaprotocolhardwarecodesign": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "KORD: Breaking the Key-Generation Bottleneck in Dealerless FSS via Protocol--Hardware Co-Design",
+      "updated_at": "2026-11-02T17:52:40.960094+00:00"
+    },
+    "title:lessonsfromthehardwarehackingcompetitionsverificationtechniquesfindingsandinsights": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Lessons from the Hardware Hacking Competitions: Verification Techniques, Findings, and Insights",
+      "updated_at": "2026-11-02T17:52:31.004261+00:00"
+    },
     "title:leveraginggem5andmachinelearningforendtoenddetectionofcachebasedsidechannelattackpatterns": {
       "category": "coeur",
       "decision": "conserver",
@@ -6583,6 +6767,14 @@
       "status": "imported",
       "title": "Leveraging gem5 and Machine Learning for End-to-End Detection of Cache-based Side-Channel Attack Patterns",
       "updated_at": "2026-10-31T08:14:21.666947+00:00"
+    },
+    "title:llmassisteddetectionandrepairofhardwaresecurityvulnerabilitiesinverilogdesigns": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "LLM-Assisted Detection and Repair of Hardware Security Vulnerabilities in Verilog Designs",
+      "updated_at": "2026-11-02T17:52:30.981541+00:00"
     },
     "title:llmsincloudadiscussiononarchitectureorchestrationandinference": {
       "category": "hors_sujet",
@@ -6767,6 +6959,14 @@
       "status": "rejected",
       "title": "Session Attestation for Unmodified TLS Services in Confidential Virtual Machines",
       "updated_at": "2026-11-02T15:56:39.862551+00:00"
+    },
+    "title:silkclosingthetimeofchecktotimeofusegapinrotprotectedaisystems": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "SILK: Closing the Time-of-Check-to-Time-of-Use Gap in RoT-Protected AI Systems",
+      "updated_at": "2026-11-02T17:52:40.950169+00:00"
     },
     "title:simulaciondelainstrucciondfenceparamitigaciondeataquesspectreenarquitecturasx86": {
       "category": "transfert_explicite",
