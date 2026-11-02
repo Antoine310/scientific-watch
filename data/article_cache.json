@@ -232,6 +232,14 @@
       "title": "Reverse Engineering and Systematic Evaluation of Prefetcher-Based Security Vulnerabilities in Commercial RISC-V Processors",
       "updated_at": "2026-11-02T09:08:53.633435+00:00"
     },
+    "doi:10.1007/978-981-95-8617-2_4": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Foundations of Hardware-Software Leakage Contracts",
+      "updated_at": "2026-11-02T12:56:38.294340+00:00"
+    },
     "doi:10.1007/978-981-96-2417-1_2": {
       "category": "secondaire",
       "decision": "examiner",
@@ -1095,6 +1103,14 @@
       "status": "rejected",
       "title": "High-Speed True Random Number Generator With Multiple Entropy Sources: Ring Oscillator Jitter and Random Telegraph Noise",
       "updated_at": "2026-10-30T11:01:27.174396+00:00"
+    },
+    "doi:10.1109/micro50266.2020.00093": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "PerSpectron: Detecting Invariant Footprints of Microarchitectural Attacks with Perceptron",
+      "updated_at": "2026-11-02T12:56:29.019210+00:00"
     },
     "doi:10.1109/mm.2025.3574715": {
       "category": "transfert_explicite",
@@ -3400,6 +3416,14 @@
       "title": "A Comprehensive Survey on RISC-V: From RISC-1 to RISC-5 Generations Through Modern Architecture, ISA Extensions, Customizable Core Designs, Comparative Analysis, and Real-World Applications",
       "updated_at": "2026-10-31T20:14:02.127974+00:00"
     },
+    "title:adeterministicsecurityruntimeforllmagentsonmpiandbatchscheduledhpcsystemsconsensusgovernedhardwarerootedsupervisionofeveryrank": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "A Deterministic Security Runtime for LLM Agents on MPI and Batch-Scheduled HPC Systems: Consensus-Governed, Hardware-Rooted Supervision of Every Rank",
+      "updated_at": "2026-11-02T12:56:55.308580+00:00"
+    },
     "title:aiadaptivefaultpredictiononriscvedgeprocessorsusinglightweighthardwarecounters": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -3415,6 +3439,30 @@
       "status": "rejected",
       "title": "An empirical study of GPU cache side-channel leakage in large language model inference",
       "updated_at": "2026-10-31T20:14:32.089451+00:00"
+    },
+    "title:asecuredtoflidarsocwithdualdomainfingerprintingandeventdrivenafecircuitachievingsensorlevelattackresilience": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "A Secure dToF LiDAR SoC with Dual-Domain Fingerprinting and Event-Driven AFE Circuit Achieving Sensor-Level Attack Resilience",
+      "updated_at": "2026-11-02T12:56:15.039152+00:00"
+    },
+    "title:bringinghardwaresecurityeducationtoallaseamlesscurriculumintegrationapproach": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Bringing Hardware Security Education to All: A Seamless Curriculum Integration Approach",
+      "updated_at": "2026-11-02T12:56:38.307484+00:00"
+    },
+    "title:cansolarburstgosiliconasystematicanalysisonsoftwaresupplychainattacksforvlsidesignflows": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Can SOLARBURST go silicon? A systematic analysis on software supply chain attacks for VLSI design flows",
+      "updated_at": "2026-11-02T12:56:38.301261+00:00"
     },
     "title:crosspartyformalverificationforhardwaretrust": {
       "category": "secondaire",
@@ -3463,6 +3511,14 @@
       "status": "imported",
       "title": "Enforcing RISC-V TEE Security Against Cache Timing Attacks",
       "updated_at": "2026-10-30T20:15:41.595928+00:00"
+    },
+    "title:extendinglayeredattestationintoarmapplicationruntimes": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Extending Layered Attestation into ARM Application Run-Times",
+      "updated_at": "2026-11-02T12:56:55.301839+00:00"
     },
     "title:fpgabasedlightweighthybridphysicalunclonablefunctionforsecuredeviceauthenticationusingarbiterandringoscillatorarchitectures": {
       "category": "secondaire",
@@ -3559,6 +3615,14 @@
       "status": "imported",
       "title": "Optimizing TLS Cryptographic Operations on RISC-V SoC with OpenTitan RoT",
       "updated_at": "2026-10-29T09:20:39.358530+00:00"
+    },
+    "title:protectingcpuaionedgeteeswebassemblyspromiseandpracticalchallenges": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Protecting CPU AI On Edge TEEs: WebAssembly's Promise and Practical Challenges",
+      "updated_at": "2026-11-02T12:56:47.550915+00:00"
     },
     "title:prototypingcustomhardwareperformancecountersingem5simulatoraframeworkforriscvsidechannelattackassessment": {
       "category": "coeur",

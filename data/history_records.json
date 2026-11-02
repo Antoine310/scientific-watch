@@ -9,6 +9,16 @@
     ],
     "title": "Cross-Core Covert Channel for RISC-V: Implementation, Countermeasures and Cross-Platform Analysis"
   },
+  "doi:10.1007/978-981-95-8617-2_4": {
+    "publication_date": "2026-10-14",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2610.20754v1",
+    "summary": "Cet article présente les fondements des contrats de fuite matériel-logiciel, une nouvelle abstraction de sécurité émergeant pour pallier l'inadéquation des jeux d'instructions (ISA) face aux attaques microarchitecturales comme Spectre et Meltdown. Ces contrats caractérisent les fuites par canaux auxiliaires au niveau ISA, permettant de générer du code résistant sans raisonner sur la microarchitecture et offrant une spécification pour les concepteurs de matériel.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Foundations of Hardware-Software Leakage Contracts"
+  },
   "doi:10.1007/s13389-025-00369-5": {
     "publication_date": "2025-04-28",
     "score": 90,
@@ -338,6 +348,16 @@
       "T08 — Cache & Temporal Isolation"
     ],
     "title": "Differential Privacy for Secure Cache Partitioning: Promises, Limits, and Fixes"
+  },
+  "doi:10.1109/micro50266.2020.00093": {
+    "publication_date": "2026-10-06",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2610.07691v1",
+    "summary": "PerSpectron est un détecteur matériel basé sur un perceptron pour identifier et classifier les attaques microarchitecturales avant toute fuite de données, en exploitant des statistiques microarchitecturales corrélées avec un coût minimal en performances.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "PerSpectron: Detecting Invariant Footprints of Microarchitectural Attacks with Perceptron"
   },
   "doi:10.1109/mwscas67364.2026.11680855": {
     "publication_date": "2026-08-01",
@@ -1218,6 +1238,16 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Enforcing RISC-V TEE Security Against Cache Timing Attacks"
+  },
+  "title:extendinglayeredattestationintoarmapplicationruntimes": {
+    "publication_date": "2026-10-13",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2610.17614v2",
+    "summary": "Cet article présente ARA (Application-Runtime Anchor), un mécanisme pour étendre la chaîne de confiance au-delà du chargement initial sur les architectures ARM. En s'appuyant sur les extensions POE (Permission Overlay Extensions), ARA établit un domaine d'exécution protégé au sein même de l'espace d'adressage de l'application, permettant d'héberger des racines de confiance programmables pour l'attestation et la gestion de secrets à faible coût.",
+    "themes": [
+      "T02 — DICE & Hardware Identity"
+    ],
+    "title": "Extending Layered Attestation into ARM Application Run-Times"
   },
   "title:fpgabasedprototypingandperformanceanalysisofalinuxcapableriscvsoc": {
     "publication_date": "2025-01-01",
