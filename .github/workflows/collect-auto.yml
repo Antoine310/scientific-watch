@@ -30,7 +30,7 @@ jobs:
           persist-credentials: true
 
       - name: Python — contrôle des fichiers
-        run: python3 -m py_compile collect.py cache_v16.py history.py publish_history.py publish_weekly.py notify.py
+        run: python3 -m py_compile collect.py cache_v16.py history.py history_backward.py history_router.py publish_history.py publish_weekly.py notify.py
 
       - name: Sélectionner le mode
         id: mode
@@ -90,7 +90,7 @@ jobs:
           PUBLIC_REPO_TOKEN: ${{ secrets.PUBLIC_REPO_TOKEN }}
           PUBLIC_REPO: Antoine310/scientific-watch-v2
           PUBLIC_DRY_RUN: 'false'
-        run: python3 history.py
+        run: python3 history_router.py
 
       - name: Enregistrer le cache et la progression dans le dépôt privé
         if: ${{ always() && (steps.mode.outputs.mode == 'daily' || steps.mode.outputs.mode == 'historical') }}
@@ -99,6 +99,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -f data/article_cache.json 2>/dev/null || true
           git add -f data/history_progress.json data/history_records.json data/history_secondary_records.json 2>/dev/null || true
+          git add -f data/history_backward_progress.json 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m 'Veille V16 : cache et progression de recherche'
             git push
