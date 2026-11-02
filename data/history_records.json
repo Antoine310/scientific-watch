@@ -649,6 +649,16 @@
     ],
     "title": "Lattice: Enabling Scalable Enclaves for Commercial RISC-V Platforms"
   },
+  "doi:10.1186/s42400-026-00662-8": {
+    "publication_date": "2026-09-24",
+    "score": 75,
+    "source": "https://doi.org/10.1186/s42400-026-00662-8",
+    "summary": "Cette étude analyse des attaques matérielles exploitant des vulnérabilités microarchitecturales sur le processeur RISC-V XuanTie C910 et propose une méthodologie de détection automatisée combinant les compteurs de performance matériels (HPC) et le machine learning.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "RISC-V hardware attack detection using on-chip hardware performance counters"
+  },
   "doi:10.12732/ijam.v38i6s.1640": {
     "publication_date": "2025-10-15",
     "score": 85,
@@ -778,6 +788,16 @@
       "T11 — PUF & TRNG"
     ],
     "title": "PACE: A Page-Adaptive, Cache-Anchored Memory Encryption Engine for RISC-V with Formally Verified nth-Order DPA Resistance"
+  },
+  "doi:10.3390/chips5030029": {
+    "publication_date": "2026-09-17",
+    "score": 95,
+    "source": "https://doi.org/10.3390/chips5030029",
+    "summary": "Cette étude présente une caractérisation de sécurité par simulation et sur silicium de canaux auxiliaires microarchitecturaux sur des processeurs RISC-V open-source. Vingt-trois classes d'attaques sont mesurées sur un corpus de six cœurs et deux SoC, incluant six nouvelles primitives liées aux spécificités RISC-V telles que la PMP et les instructions LR/SC. L'évaluation combine des tests TVLA, des preuves de concept sur FPGA Zynq, ainsi que l'implémentation et l'évaluation de huit contre-mesures au niveau RTL et microprogramme.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Novel Microarchitectural Side-Channel Attacks on Open-Source RISC-V Cores"
   },
   "doi:10.3390/computers15080479": {
     "publication_date": "2026-07-28",
@@ -1068,6 +1088,16 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Hardware-software co-design methods to unleash open hardware cybersecurity and trust in RISC-V architectures"
+  },
+  "doi:10.48676/unibo/amsdottorato/13093": {
+    "publication_date": "2026-09-14",
+    "score": 90,
+    "source": "https://amsdottorato.unibo.it/view/dottorati/DOT539/>,",
+    "summary": "Cette thèse propose un modèle architectural hétérogène basé sur RISC-V intégrant un processeur hôte, un accélérateur programmable et une Racine de Confiance (RoT). Elle étudie deux approches matérielles pour l'intégrité du flux de contrôle (CFI) : CVA6-CFI (implémentant les extensions Zicfiss et Zicfilp) et l'utilisation de l'OpenTitan RoT comme co-processeur CFI. Elle présente également SpikeStream, un cadre d'accélération neuromorphique pour réseaux de neurones à impulsions (SNN), et intègre un sous-système mémoire LPDDR4.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "Secure RISC-V architectures for brain-inspired computing"
   },
   "doi:10.5220/0013518800003979": {
     "publication_date": "2025-01-01",

@@ -40,6 +40,14 @@
       "title": "Biosecurity Primitive: Polymerase X‐based Genetic Physical Unclonable Functions",
       "updated_at": "2026-10-30T20:15:50.777885+00:00"
     },
+    "doi:10.1002/advs.78054": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Dual Randomness From Spatial and Temporal Variations in Stochastic Zinc Gallate Nanoclusters for PUF and TRNG Co‐Driven Image Generation",
+      "updated_at": "2026-11-02T08:38:50.437492+00:00"
+    },
     "doi:10.1002/aelm.202500635": {
       "category": "secondaire",
       "decision": "examiner",
@@ -312,6 +320,14 @@
       "title": "RunPBA — Runtime attestation for microcontrollers with PACBTI",
       "updated_at": "2026-11-01T23:13:33.872370+00:00"
     },
+    "doi:10.1016/j.eswa.2026.134350": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Trash to treasure: a security authentication system for internet of vehicles using PUF unreliable response to implement TRNG functionality",
+      "updated_at": "2026-11-02T08:38:41.123558+00:00"
+    },
     "doi:10.1016/j.iot.2026.101885": {
       "category": "coeur",
       "decision": "conserver",
@@ -327,6 +343,14 @@
       "status": "rejected",
       "title": "Corrigendum to “μTEE: Certification-ready RISC-V platform for secure IIoT lifecycle management” [Internet of Things 36 (2026) 101885]",
       "updated_at": "2026-11-02T02:14:22.822627+00:00"
+    },
+    "doi:10.1016/j.matt.2026.103040": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Mechanoluminescent physical unclonable functions with crosstalk-free dynamic and static security identities",
+      "updated_at": "2026-11-02T08:38:41.123534+00:00"
     },
     "doi:10.1016/j.memori.2026.100138": {
       "category": "hors_sujet",
@@ -360,6 +384,14 @@
       "title": "RVM-LBC: Acceleration of NTT for efficient LBC with custom RISC-V vector–matrix processor",
       "updated_at": "2026-11-02T05:14:51.375915+00:00"
     },
+    "doi:10.1016/j.sysarc.2026.104004": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "CacheGhost: A fileless cache timing attack model using adaptive eviction patterns for browser activity fingerprinting",
+      "updated_at": "2026-11-02T08:37:31.463410+00:00"
+    },
     "doi:10.1016/j.sysarc.2026.104062": {
       "category": "coeur",
       "decision": "conserver",
@@ -383,6 +415,14 @@
       "status": "rejected",
       "title": "A resource-efficient FPGA-based TRNG architecture with hybrid entropy fusion and 2D-MCS chaotic coupling",
       "updated_at": "2026-11-02T08:30:49.058746+00:00"
+    },
+    "doi:10.1021/acsnano.6c14382": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 25,
+      "status": "rejected",
+      "title": "Fingerprint-Expanding Gaussian Transistors for Compact Physical Unclonable Functions",
+      "updated_at": "2026-11-02T08:38:41.123552+00:00"
     },
     "doi:10.1038/s40494-026-03020-6": {
       "category": "hors_sujet",
@@ -1592,6 +1632,14 @@
       "title": "Construction of a Vero cell line expression human KREMEN1 for the development of CVA6 vaccines",
       "updated_at": "2026-10-30T09:49:23.293929+00:00"
     },
+    "doi:10.1186/s42400-026-00662-8": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "RISC-V hardware attack detection using on-chip hardware performance counters",
+      "updated_at": "2026-11-02T08:37:42.156306+00:00"
+    },
     "doi:10.12732/ijam.v38i6s.1640": {
       "category": "coeur",
       "decision": "conserver",
@@ -1992,6 +2040,22 @@
       "title": "Design and analysis of an arduino-based low-cost true random number generator",
       "updated_at": "2026-11-02T02:13:43.310590+00:00"
     },
+    "doi:10.29292/jics.v21i2.1196": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "RS5V-SoC: Architecture and ASIC Design of a Vector-Enabled RISC-V SoC",
+      "updated_at": "2026-11-02T08:38:21.152260+00:00"
+    },
+    "doi:10.29292/jics.v21i2.1204": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "Design and Physical Implementation of a Configurable Low-Power RISC-V System-on-Chip for Edge Computing in TSMC 65nm CMOS",
+      "updated_at": "2026-11-02T08:38:21.152279+00:00"
+    },
     "doi:10.31224/7707": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -2071,6 +2135,14 @@
       "status": "imported",
       "title": "PACE: A Page-Adaptive, Cache-Anchored Memory Encryption Engine for RISC-V with Formally Verified nth-Order DPA Resistance",
       "updated_at": "2026-11-02T08:31:01.112508+00:00"
+    },
+    "doi:10.3390/chips5030029": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "Novel Microarchitectural Side-Channel Attacks on Open-Source RISC-V Cores",
+      "updated_at": "2026-11-02T08:37:41.457099+00:00"
     },
     "doi:10.3390/computers15070447": {
       "category": "secondaire",
@@ -2375,6 +2447,14 @@
       "status": "rejected",
       "title": "SeFS: A Secure and Efficient File Sharing Framework based on the Trusted Execution Environment",
       "updated_at": "2026-10-30T23:13:43.499485+00:00"
+    },
+    "doi:10.4313/jeem.2026.39.5.1": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Recent Advances in True Random Number Generators Based on Emerging Material-Based Semiconductor Devices: Toward Wearable and Flexible Electronics",
+      "updated_at": "2026-11-02T08:38:50.437473+00:00"
     },
     "doi:10.4324/9781003647645-4": {
       "category": "hors_sujet",
@@ -2776,6 +2856,22 @@
       "title": "Practical Zero-Trust for Mission-Critical Robotic Fleets via Hardware Attestation and Packet Timing Watermarking",
       "updated_at": "2026-11-02T08:31:08.010329+00:00"
     },
+    "doi:10.48550/arxiv.2609.06791": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Efficient Hardware Information-Flow Tracking for Pre-Silicon Security Testing",
+      "updated_at": "2026-11-02T08:38:00.788551+00:00"
+    },
+    "doi:10.48550/arxiv.2609.06853": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 10,
+      "status": "rejected",
+      "title": "Characterizing Contention-Induced Reliability Collapse in KV-Cache Timing Side Channels for Multi-Tenant LLM Serving",
+      "updated_at": "2026-11-02T08:37:50.153788+00:00"
+    },
     "doi:10.48550/arxiv.2609.09833": {
       "category": "secondaire",
       "decision": "examiner",
@@ -2792,6 +2888,38 @@
       "title": "HermiCache: Enclave-Aware Cache Replacement for Trusted Execution Environments",
       "updated_at": "2026-11-02T08:32:00.743677+00:00"
     },
+    "doi:10.48550/arxiv.2609.13311": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "SIMT-Aware Lockstep Verification and Functional-Coverage Closure Methodology for an Open-Source RISC-V GPGPU: A UVM 1.2 Environment",
+      "updated_at": "2026-11-02T08:38:21.152286+00:00"
+    },
+    "doi:10.48550/arxiv.2609.21728": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Verifiable Computation with Trusted Execution Environments and On-Chain Digital Rights Tokens",
+      "updated_at": "2026-11-02T08:37:40.618334+00:00"
+    },
+    "doi:10.48550/arxiv.2609.23517": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "VSpector: Specification-Driven Bug Detection for RISC-V CPUs",
+      "updated_at": "2026-11-02T08:38:29.995118+00:00"
+    },
+    "doi:10.48550/arxiv.2609.25637": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "SLED-IFV: Solver-Validated LLM-Guided Decomposition for Scalable Hardware Information-Flow Verification",
+      "updated_at": "2026-11-02T08:38:00.788567+00:00"
+    },
     "doi:10.48550/arxiv.2610.12695": {
       "category": "coeur",
       "decision": "conserver",
@@ -2807,6 +2935,14 @@
       "status": "imported",
       "title": "Hardware-software co-design methods to unleash open hardware cybersecurity and trust in RISC-V architectures",
       "updated_at": "2026-11-02T05:15:53.222162+00:00"
+    },
+    "doi:10.48676/unibo/amsdottorato/13093": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Secure RISC-V architectures for brain-inspired computing",
+      "updated_at": "2026-11-02T08:38:21.972909+00:00"
     },
     "doi:10.5120/ijca2026926629": {
       "category": "secondaire",
