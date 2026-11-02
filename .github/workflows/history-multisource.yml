@@ -1,0 +1,64 @@
+name: Scientific Watch - Historique multibase 2016-2026
+
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: 'Traiter les articles et publier (false = aperçu sans écriture)'
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  contents: write
+
+# Même groupe que la veille, Scholar et l'historique OpenAlex.
+# Important : vérifier que les autres workflows utilisent bien ce groupe.
+concurrency:
+  group: scientific-watch-shared-state
+  cancel-in-progress: false
+
+jobs:
+  multisource:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    env:
+      NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+      NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+      NOTION_DATA_SOURCE_ID: ${{ secrets.NOTION_DATA_SOURCE_ID }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.5-flash-lite' }}
+      PUBLIC_REPO_TOKEN: ${{ secrets.PUBLIC_REPO_TOKEN }}
+      PUBLIC_REPO: Antoine310/scientific-watch-v2
+      PUBLIC_DRY_RUN: 'false'
+      MULTI_APPLY: ${{ inputs.apply }}
+      WRITE_NOTION: ${{ inputs.apply }}
+      MULTI_MAX_PAGES: '8'
+      MULTI_MAX_AI: '8'
+      MULTI_MAX_QUERY_PAGES: '12'
+      MULTI_DBLP_ENABLED: 'true'
+      MULTI_IACR_ENABLED: 'true'
+      MIN_SCORE_CORE: '75'
+      MIN_SCORE_TRANSFER: '70'
+    steps:
+      - name: Checkout du dépôt privé
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Vérifier les scripts
+        run: python3 -m py_compile history_multisource.py collect.py cache_v16.py publish_history.py publish_weekly.py
+
+      - name: Rattrapage historique arXiv Crossref DBLP IACR
+        run: python3 history_multisource.py
+
+      - name: Conserver les données même en cas d'échec
+        if: ${{ always() && inputs.apply }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f data/article_cache.json data/history_records.json data/history_secondary_records.json data/history_multisource_progress.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'Historique multibase : cache et progression'
+            git push
+          fi
