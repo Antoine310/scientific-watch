@@ -271,6 +271,7 @@ def process(apply, candidates, states, review):
         score = int(decision.get('score', 0))
         category = str(decision.get('categorie', '')).casefold().strip()
         status = 'rejected'
+        display_status = 'rejected'
         source = item['url']
         primary = (category in ('coeur', 'transfert_explicite') and
                    score >= (core.MIN_SCORE_CORE if category == 'coeur' else core.MIN_SCORE_TRANSFER) and
@@ -291,6 +292,7 @@ def process(apply, candidates, states, review):
                 notion_titles.add(normalized(item['title']))
                 local_titles.add(normalized(item['title']))
                 status = 'imported'
+                display_status = 'principal publié'
                 published += 1
         elif 60 <= score <= 74 and category in ('coeur', 'transfert_explicite'):
             scholar_records[identity] = {
@@ -298,6 +300,7 @@ def process(apply, candidates, states, review):
                 'group': 'secondary',
             }
             local_titles.add(normalized(item['title']))
+            display_status = 'secondaire publié'
             published += 1
         cachelib.set_status(cache, paper, decision, status)
         states['items'][key] = status
@@ -308,7 +311,7 @@ def process(apply, candidates, states, review):
         save(SCHOLAR_FILE, scholar_records)
         save(STATE_FILE, states)
         save(REVIEW_FILE, review)
-        print(f'  → {status} ({score}/100)')
+        print(f'  → {display_status} ({score}/100 ; catégorie : {category})')
     if published:
         if not gh.GH_TOKEN:
             raise RuntimeError('PUBLIC_REPO_TOKEN manquant')
