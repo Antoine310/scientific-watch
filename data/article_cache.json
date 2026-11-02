@@ -200,6 +200,14 @@
       "title": "RESPEC-CFA: Representation-Aware Speculative Control Flow Attestation",
       "updated_at": "2026-11-02T02:15:22.023622+00:00"
     },
+    "doi:10.1007/978-3-032-36885-0_15": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "WasmStone: Enabling Transparent Execution of Standalone WebAssembly Applications in Keystone",
+      "updated_at": "2026-11-02T11:13:21.226295+00:00"
+    },
     "doi:10.1007/978-3-032-36885-0_21": {
       "category": "coeur",
       "decision": "conserver",
@@ -231,6 +239,14 @@
       "status": "rejected",
       "title": "Identifying Ransomware Functions Through Microarchitectural Side-Channel Analysis",
       "updated_at": "2026-10-30T09:43:09.304236+00:00"
+    },
+    "doi:10.1007/s00521-026-12467-4": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Lightweight detection and classification of RISC-V hardware exploits using machine learning techniques",
+      "updated_at": "2026-11-02T11:13:21.226322+00:00"
     },
     "doi:10.1007/s10207-026-01233-1": {
       "category": "transfert_explicite",
@@ -2080,6 +2096,14 @@
       "title": "HARDWARE NODE IDENTIFICATION TOOLS IN DISTRIBUTED COMPUTER NETWORKS BASED ON PHYSICAL UNCLONABLE FUNCTIONS",
       "updated_at": "2026-11-01T02:15:02.252621+00:00"
     },
+    "doi:10.31838/ece/03.02.01": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Secure Boot and Firmware Update Framework for ARM Cortex-M Embedded IoT Devices",
+      "updated_at": "2026-11-02T11:13:41.657893+00:00"
+    },
     "doi:10.31838/esa/03.01.08": {
       "category": "coeur",
       "decision": "conserver",
@@ -2936,6 +2960,30 @@
       "title": "Enabling Extended SGX Enclaves inside Confidential Virtual Machines",
       "updated_at": "2026-10-31T07:11:48.968687+00:00"
     },
+    "doi:10.48550/arxiv.2610.16373": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Resource-constrained Remote Attestation of Smart Meters Using Merkle Trees in a Trusted Execution Environment",
+      "updated_at": "2026-11-02T11:14:20.948203+00:00"
+    },
+    "doi:10.48550/arxiv.2610.20047": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "ESAU: Expeditious Swarm Remote Attestation for Pub-Sub IoT Networks with Untrusted Cloud-based Proxy Verifier",
+      "updated_at": "2026-11-02T11:13:31.046053+00:00"
+    },
+    "doi:10.48550/arxiv.2610.32597": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Automated Multi-Line Bug Repair Using Model Checker Aided LLMs: A Case Study on RISC-V Processors",
+      "updated_at": "2026-11-02T11:14:11.008464+00:00"
+    },
     "doi:10.48676/unibo/amsdottorato/13054": {
       "category": "coeur",
       "decision": "conserver",
@@ -3079,6 +3127,14 @@
       "status": "rejected",
       "title": "TRACE: Trust, Runtime Attestation, and Compliance Evidence (A Portable Attestation Format for AI Agent Runtime Governance)",
       "updated_at": "2026-11-02T08:32:17.785656+00:00"
+    },
+    "doi:10.5281/zenodo.23172524": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Technological Sovereignty and Hardware Security for Mission-Critical Applications: An Audit-Verified Open RISC-V SoC Architecture on FPGA with In-Memory Accelerators and Monetization Framework",
+      "updated_at": "2026-11-02T11:13:41.657872+00:00"
     },
     "doi:10.5281/zenodo.23399404": {
       "category": "secondaire",
@@ -3519,6 +3575,14 @@
       "status": "imported",
       "title": "RingTrace: Model-Free Spatio-Temporal Detection and Core Attribution for Cache Side-Channels",
       "updated_at": "2026-10-31T07:11:48.363985+00:00"
+    },
+    "title:riscguardriscvstaticanalysisframeworkfordetectingmicroarchitecturalvulnerabilities": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "RISCGuard: RISC-V Static Analysis Framework for Detecting Microarchitectural Vulnerabilities",
+      "updated_at": "2026-11-02T11:14:02.657252+00:00"
     },
     "title:secdmpprovablysecuredatamemorydependentprefetchingextendedversion": {
       "category": "secondaire",

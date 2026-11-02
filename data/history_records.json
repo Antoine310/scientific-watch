@@ -1299,6 +1299,16 @@
     ],
     "title": "Prototyping Custom Hardware Performance Counters in gem5 Simulator: A Framework for RISC-V Side-Channel Attack Assessment"
   },
+  "title:riscguardriscvstaticanalysisframeworkfordetectingmicroarchitecturalvulnerabilities": {
+    "publication_date": "2026-10-11",
+    "score": 90,
+    "source": "https://hal.science/hal-05686010v1",
+    "summary": "Cet article présente RISCGuard, un cadre d'analyse statique pour détecter les vulnérabilités microarchitecturales et les canaux auxiliaires dans le code assembleur RISC-V. Utilisant l'analyse de flux de données et le suivi de taint, l'outil identifie dix classes de vulnérabilités, incluant des variantes de Spectre et des attaques temporelles, avec une précision globale de 99,6 % sur un jeu de données de test étendu.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "RISCGuard: RISC-V Static Analysis Framework for Detecting Microarchitectural Vulnerabilities"
+  },
   "title:towardsreliableandsecureriscvsystemssurveyoftestabilityandsecuritymechanisms": {
     "publication_date": "2026-06-24",
     "score": 75,
