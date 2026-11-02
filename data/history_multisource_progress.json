@@ -1,8 +1,8 @@
 {
   "accepted": 10,
   "completed": false,
-  "cursor": "MTc4MTAzNDcwNTAwMCwxMC4xMTA5JTJGdGMuMjAyNi4zNzAxNzAz",
-  "evaluated": 240,
+  "cursor": "MTc4MjE1MzA0MTAwMCwxMC4xMDkzJTJGOTc4MDE5NzgyMzk2NS4wMDMuMDAyNw==",
+  "evaluated": 257,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -13,13 +13,15 @@
     "monthly/2026-10/query-20 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-21 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-22 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-10/query-24 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-10/query-24 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-09/query-13 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-09/query-14 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-09",
   "needs_publish": false,
-  "offset": 200,
-  "pages_done": 171,
-  "pages_in_query": 5,
+  "offset": 240,
+  "pages_done": 196,
+  "pages_in_query": 6,
   "pending": [],
   "phase": "monthly",
   "prefilter_review": [
@@ -390,10 +392,26 @@
       "publication_date": "2026-09-20",
       "source": "crossref",
       "title": "Ultraviolet–visible bipolar photodetector for hardware–software collaborative encrypted information transmission"
+    },
+    {
+      "doi": "https://doi.org/10.1145/3830402",
+      "identity": "title:drawnapartadeviceidentificationandspoofingdetectiontechniquebasedonremotegpufingerprinting",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-07",
+      "source": "crossref",
+      "title": "DRAWNAPART: A Device Identification and Spoofing Detection Technique Based on Remote GPU Fingerprinting"
+    },
+    {
+      "doi": "https://doi.org/10.1142/s0219877026500239",
+      "identity": "title:theevolutionofdigitalconsumertrustformationastudyacrossbricsnations",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-09-30",
+      "source": "crossref",
+      "title": "The Evolution of Digital Consumer Trust Formation: A Study Across BRICS+Nations"
     }
   ],
-  "query_index": 13,
+  "query_index": 15,
   "secondary": 14,
-  "skipped": 185,
+  "skipped": 194,
   "version": 1
 }
