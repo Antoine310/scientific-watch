@@ -178,6 +178,8 @@ def main():
     put_file(path, report, f'Veille scientifique : rapport semaine {week:02d}/{year}')
     put_file('README.md', update_index(old_readme, year, week, len(rows)),
              f'Actualiser index rapports semaine {week:02d}/{year}')
+    import dashboard_readme
+    dashboard_readme.refresh(__import__(__name__))
 
 
 if __name__ == '__main__':
