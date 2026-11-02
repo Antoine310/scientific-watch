@@ -87,6 +87,9 @@ def relevant(theme_id, title, abstract_text):
     """
     t, a = norm(title), norm(abstract_text)
     both = t + ' ' + a
+    # Les surveys mixtes RoT/TEE/cache ne sont pas écartés pour mention de fault injection.
+    if coverage_relevant(title, abstract_text):
+        return True
     # Only fault-injection articles are not a target; a mixed study of leakage is eligible.
     if contains(both, 'fault injection', 'voltage glitch', 'clock glitch', 'laser fault') and not contains(both, 'side channel', 'side-channel', 'timing leak', 'cache leak'):
         return False
@@ -121,6 +124,30 @@ def relevant(theme_id, title, abstract_text):
     if theme_id == 'T12':
         return contains(t, 'cache restor', 'cache warm-up', 'cache partition', 'cache reconfigur', 'hybrid cache', 'scratchpad', 'working set prediction', 'context-aware prefetch') and contains(t, 'cache', 'memory', 'scratchpad', 'prefetch', 'context', 'working set')
     return False
+
+
+# Rattrapage de couverture : articles de synthèse en sécurité matérielle.
+# Une présence thématique dans le résumé est nécessaire, pas seulement « security ».
+SURVEY_MARKERS = ('survey', 'review', 'systematic review', 'state of the art',
+                  'comprehensive analysis', 'overview', 'taxonomy')
+STRONG_TECH_SIGNALS = ('root of trust', 'secure boot', 'trusted boot', 'measured boot',
+    'risc-v', 'riscv', 'trusted execution', 'enclave', 'cache side-channel',
+    'cache side channel', 'spectre', 'meltdown', 'microarchitectur',
+    'hardware attestation', 'memory encryption', 'hardware isolation',
+    'security monitor', 'fault injection', 'physical unclonable')
+
+def coverage_relevant(title, abstract_text):
+    """Admet les synthèses réellement multi-thématiques au classement Gemini."""
+    t, a = norm(title), norm(abstract_text)
+    if not a:
+        return False
+    title_anchor = ('hardware security' in t or 'processor security' in t
+                    or 'microarchitectural security' in t)
+    survey = any(word in t for word in SURVEY_MARKERS)
+    if not title_anchor and not (survey and contains(t, 'security', 'hardware', 'processor', 'risc-v')):
+        return False
+    signals = sum(1 for s in STRONG_TECH_SIGNALS if s in a)
+    return signals >= 3 and (survey or title_anchor)
 
 # 3. ÉVALUATION IA : demande une catégorie (cœur, transfert, secondaire, rejet),
 # une justification et une note. La note est indicative, non objective.
@@ -356,6 +383,7 @@ ARXIV_QUERIES = [
     ('T03', 'all:"RISC-V" AND (all:enclave OR all:Keystone)'),
     ('T06', 'all:"side channel" AND (all:cache OR all:microarchitecture)'),
     ('T10', 'all:OpenTitan OR all:CVA6'),
+    ('T01', 'all:"hardware security" AND (all:survey OR all:review)'),
 ]
 
 
@@ -421,6 +449,7 @@ EXTRA_QUERIES = [
     ('T06', 'microarchitectural cache side channel'),
     ('T08', 'cache partitioning enclave security'),
     ('T10', 'OpenTitan CVA6 RISC-V'),
+    ('T01', 'hardware security survey review root of trust'),
 ]
 
 
