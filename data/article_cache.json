@@ -512,6 +512,14 @@
       "title": "Modeling of physical unclonable functions (PUF): A systematic literature review",
       "updated_at": "2026-11-01T11:14:20.900387+00:00"
     },
+    "doi:10.1016/j.cose.2026.104958": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "PUF optimization for IoT device authentication",
+      "updated_at": "2026-11-02T15:58:26.645391+00:00"
+    },
     "doi:10.1016/j.cose.2026.104971": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -560,6 +568,14 @@
       "title": "Corrigendum to “μTEE: Certification-ready RISC-V platform for secure IIoT lifecycle management” [Internet of Things 36 (2026) 101885]",
       "updated_at": "2026-11-02T02:14:22.822627+00:00"
     },
+    "doi:10.1016/j.jisa.2026.104514": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "AuthM: A FIDO2/WebAuthn extension for hardware-free web authentication",
+      "updated_at": "2026-11-02T15:58:35.435108+00:00"
+    },
     "doi:10.1016/j.jnca.2026.104546": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -575,6 +591,14 @@
       "status": "rejected",
       "title": "Mechanoluminescent physical unclonable functions with crosstalk-free dynamic and static security identities",
       "updated_at": "2026-11-02T08:38:41.123534+00:00"
+    },
+    "doi:10.1016/j.mejo.2026.107275": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 30,
+      "status": "rejected",
+      "title": "A dual-mode MRAM-TCAM with intrinsic PUF for energy efficiency and data security",
+      "updated_at": "2026-11-02T15:58:26.663872+00:00"
     },
     "doi:10.1016/j.memori.2026.100138": {
       "category": "hors_sujet",
@@ -679,6 +703,14 @@
       "status": "rejected",
       "title": "RO-like ring-based TRNG with adaptive mode switching for enhanced entropy Harvesting",
       "updated_at": "2026-11-01T05:13:25.995952+00:00"
+    },
+    "doi:10.1016/j.vlsi.2026.102747": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Accelerating hardware formal verification via AutoML-driven SMT runtime prediction and solver selection",
+      "updated_at": "2026-11-02T15:58:26.654881+00:00"
     },
     "doi:10.1016/j.vlsi.2026.102842": {
       "category": "secondaire",
@@ -1616,6 +1648,14 @@
       "title": "LayerTEE: Decoupled Memory Protection for Scalable Multilayer Communication on RISC-V",
       "updated_at": "2026-10-30T20:13:51.793272+00:00"
     },
+    "doi:10.1109/tcad.2025.3649448": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "An Arbitrary Register Grouping Scheme for RISC-V Vector Extension: Compilation Support and Hardware Implementation",
+      "updated_at": "2026-11-02T15:58:05.714848+00:00"
+    },
     "doi:10.1109/tcad.2026.3685521": {
       "category": "secondaire",
       "decision": "examiner",
@@ -1695,6 +1735,14 @@
       "status": "rejected",
       "title": "In-Memory Unified TRNG and PUF Based on RRAM Random Switching Time",
       "updated_at": "2026-10-31T17:15:11.713295+00:00"
+    },
+    "doi:10.1109/tie.2026.3675190": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Distributed $K$-Winners-Take-All With Privacy Protection: Method and Hardware Experiments",
+      "updated_at": "2026-11-02T15:58:15.423908+00:00"
     },
     "doi:10.1109/tifs.2025.3592573": {
       "category": "coeur",
@@ -2184,6 +2232,22 @@
       "title": "dfence: Fine-Grained Speculation Barriers for Efficient and Effective Hardware-Software Protection in the Spectre Era",
       "updated_at": "2026-11-01T20:13:55.225436+00:00"
     },
+    "doi:10.1145/3830454.3846528": {
+      "category": "transfert_explicite",
+      "decision": "conserver",
+      "score": 65,
+      "status": "rejected",
+      "title": "Efficient Linkage-Based Compartmentalization on CHERI",
+      "updated_at": "2026-11-02T15:56:28.154859+00:00"
+    },
+    "doi:10.1145/3830454.3846712": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Understanding the Security Boundary of Obfuscation-based On-Device LLM Protection",
+      "updated_at": "2026-11-02T15:56:39.874026+00:00"
+    },
     "doi:10.1145/3832226": {
       "category": "secondaire",
       "decision": "examiner",
@@ -2631,6 +2695,14 @@
       "status": "imported",
       "title": "Efficient Memory Protection Method for Large-Scale Host-Enclave Data Transfer on Keystone Enclave",
       "updated_at": "2026-10-31T20:13:43.059788+00:00"
+    },
+    "doi:10.1587/transinf.2025edp7198": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Bias-Cancelling Four-Row Arbiter PUF for Improved Reliability and Security in Authentication",
+      "updated_at": "2026-11-02T15:58:05.724625+00:00"
     },
     "doi:10.1609/aies.v9i1.43137": {
       "category": "hors_sujet",
@@ -5184,6 +5256,14 @@
       "title": "Efficient HQC Implementations on RISC-V: A Cross-Layer Design Space Exploration",
       "updated_at": "2026-11-02T13:03:18.661477+00:00"
     },
+    "title:efficienttcithbasedalternativestoslhdsacrosslayerasicdesignofmirath": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Efficient TCitH-Based Alternatives to SLH-DSA: Cross-Layer ASIC Design of Mirath",
+      "updated_at": "2026-11-02T15:56:28.145601+00:00"
+    },
     "title:empiricalanalysisofteeenabledrollupdesigns": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -5256,6 +5336,14 @@
       "title": "FreeSBee: A Constant-Time Compilation Pipeline",
       "updated_at": "2026-11-02T13:03:36.674185+00:00"
     },
+    "title:fromhypervisortocontainercloudsecurityvulnerabilitiesdefensemechanismsandopenchallenges": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "From Hypervisor to Container: Cloud Security Vulnerabilities, Defense Mechanisms, and Open Challenges",
+      "updated_at": "2026-11-02T15:57:01.934257+00:00"
+    },
     "title:ghostaccessattackingthegpuonthemultitenantcloudviacpullcunderunifiedmemory": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -5303,6 +5391,14 @@
       "status": "rejected",
       "title": "HOMARD: Hammering Off-chip Memory via Aggregate power Rail Disclosure",
       "updated_at": "2026-11-02T13:04:38.160375+00:00"
+    },
+    "title:intccaframeworkforinteractiveconfidentialcomputing": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "INTCC: A Framework for Interactive Confidential Computing",
+      "updated_at": "2026-11-02T15:56:39.938090+00:00"
     },
     "title:integratingopentitanasasecuritycontrollerforcryptographictasksinriscvsocs": {
       "category": "coeur",
@@ -5392,6 +5488,14 @@
       "title": "PRA-TLS: Attestation of a Client Application for TEE",
       "updated_at": "2026-11-02T13:03:57.213320+00:00"
     },
+    "title:privatecomputationspaceexperiencewithtrustedmulticlusterfederatedlearningforagriculture": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Private Computation Space: Experience with Trusted Multi-Cluster Federated Learning for Agriculture",
+      "updated_at": "2026-11-02T15:56:39.849360+00:00"
+    },
     "title:protectingcpuaionedgeteeswebassemblyspromiseandpracticalchallenges": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -5407,6 +5511,14 @@
       "status": "imported",
       "title": "Prototyping Custom Hardware Performance Counters in gem5 Simulator: A Framework for RISC-V Side-Channel Attack Assessment",
       "updated_at": "2026-10-30T20:15:22.976573+00:00"
+    },
+    "title:rappxappattestationanewsecurityusecasefororan": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "rApp/xApp Attestation: A New Security Use Case for O-RAN",
+      "updated_at": "2026-11-02T15:56:51.404625+00:00"
     },
     "title:reptcrepresentationawareoptimizationforefficienttrafficclassificationonedgeiotdevices": {
       "category": "hors_sujet",
@@ -5440,6 +5552,14 @@
       "title": "RV2GC: Reconstructing the Garbling Boundary in a RISC-V Garbled Processor",
       "updated_at": "2026-11-02T13:03:36.695633+00:00"
     },
+    "title:sadrasoundcapabilitybasedaccesscontrolsystemforresourcedisaggregatedarchitectures": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 25,
+      "status": "rejected",
+      "title": "SADRA: Sound Capability-based Access Control System for Resource-Disaggregated Architectures",
+      "updated_at": "2026-11-02T15:57:36.247223+00:00"
+    },
     "title:salsacodesignofadiabaticlogicbasedsensingandbalancedbitcellsforsecureandenergyefficientmram": {
       "category": "secondaire",
       "decision": "examiner",
@@ -5447,6 +5567,14 @@
       "status": "rejected",
       "title": "S-ALSA: Co-Design of Adiabatic Logic-based Sensing and Balanced Bit-Cells for Secure and Energy-Efficient MRAM",
       "updated_at": "2026-11-02T15:51:58.083108+00:00"
+    },
+    "title:scheriprovablysecurespeculationundertheconstanttimepolicyforcheriextendedversion": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "SCHERI: Provably Secure Speculation Under the Constant-Time Policy for CHERI (Extended Version)",
+      "updated_at": "2026-11-02T15:57:24.077420+00:00"
     },
     "title:secdmpprovablysecuredatamemorydependentprefetchingextendedversion": {
       "category": "secondaire",
@@ -5472,6 +5600,14 @@
       "title": "Secure Function-as-a-Service Platforms Using Trusted Execution Environments",
       "updated_at": "2026-10-30T20:15:00.866632+00:00"
     },
+    "title:sessionattestationforunmodifiedtlsservicesinconfidentialvirtualmachines": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Session Attestation for Unmodified TLS Services in Confidential Virtual Machines",
+      "updated_at": "2026-11-02T15:56:39.862551+00:00"
+    },
     "title:simulaciondelainstrucciondfenceparamitigaciondeataquesspectreenarquitecturasx86": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -5479,6 +5615,38 @@
       "status": "rejected",
       "title": "Simulación de la instrucción dfence para mitigación de ataques Spectre en arquitecturas x86",
       "updated_at": "2026-11-01T05:15:33.198618+00:00"
+    },
+    "title:soksecuresoftwarebasedmultidomaindatasegregation": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "SoK: Secure Software-Based Multi-Domain Data Segregation",
+      "updated_at": "2026-11-02T15:57:36.237231+00:00"
+    },
+    "title:sparleakprivacyleakagefromsparseattentioninllminferenceonsharedgpus": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "SparLeak: Privacy Leakage from Sparse Attention in LLM Inference on Shared GPUs",
+      "updated_at": "2026-11-02T15:57:01.947716+00:00"
+    },
+    "title:specreadabenchmarkformeasuringwhetherlanguagemodelsunderstandhardwarespecifications": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "SpecRead: A Benchmark for Measuring Whether Language Models Understand Hardware Specifications",
+      "updated_at": "2026-11-02T15:57:55.879966+00:00"
+    },
+    "title:spliteefastandprivatellminferencebycouplinggpuassistedtrustedexecutionenvironmentswithdifferentialprivacy": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "SpliTEE: Fast and Private LLM Inference by Coupling GPU-Assisted Trusted Execution Environments with Differential Privacy",
+      "updated_at": "2026-11-02T15:56:39.896721+00:00"
     },
     "title:starscalableteebasedanonymousratelimiter": {
       "category": "secondaire",
@@ -5504,6 +5672,22 @@
       "title": "TEE Anchor: Cross-TEE Organizational Endorsement for Mitigating TEE Physical Attacks",
       "updated_at": "2026-11-02T15:52:18.947888+00:00"
     },
+    "title:theydontcareaboutthisasystematicstudyofteebuildreproducibilityinthewild": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "\"They don't care about this\": A Systematic Study of TEE Build Reproducibility in the Wild",
+      "updated_at": "2026-11-02T15:56:39.885063+00:00"
+    },
+    "title:towardprovablyprivatelearningfromfederateddata": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Toward provably private learning from federated data",
+      "updated_at": "2026-11-02T15:56:39.928332+00:00"
+    },
     "title:towardsquantumsensingforsidechannelanalysis": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -5519,6 +5703,14 @@
       "status": "imported",
       "title": "Towards Reliable and Secure RISC-V Systems: Survey of Testability and Security Mechanisms",
       "updated_at": "2026-11-01T23:15:24.981525+00:00"
+    },
+    "title:towardsteecertifieddpverifiabledifferentiallyprivatetrainingonlegacygpus": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Towards TEE-Certified DP: Verifiable Differentially Private Training on Legacy GPUs",
+      "updated_at": "2026-11-02T15:56:39.906998+00:00"
     },
     "title:tractablenottruncatedcolorednoisetrngsecurityviafractionalbrownianmotion": {
       "category": "secondaire",
@@ -5543,6 +5735,14 @@
       "status": "rejected",
       "title": "Trust, but Validate the Instrument: Auditing AI-Generated RTL Verification Plans on Authored Security-Regression Proxies",
       "updated_at": "2026-11-02T15:51:58.074982+00:00"
+    },
+    "title:trustedmodelenvironmentforprivatesemanticcomputations": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Trusted Model Environment for Private Semantic Computations",
+      "updated_at": "2026-11-02T15:56:39.918464+00:00"
     },
     "title:warpguardtowardscontrolflowattestationforheterogeneouscpugpuexecution": {
       "category": "transfert_explicite",

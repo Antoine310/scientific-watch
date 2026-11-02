@@ -1409,6 +1409,19 @@
     ],
     "title": "RISCGuard: RISC-V Static Analysis Framework for Detecting Microarchitectural Vulnerabilities"
   },
+  "title:scheriprovablysecurespeculationundertheconstanttimepolicyforcheriextendedversion": {
+    "publication_date": "2026-09-15",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2609.17399v1",
+    "summary": "Cet article étudie la sécurité de l'exécution spéculative sous la politique du temps constant pour les architectures basées sur les capacités (CHERI). Les auteurs démontrent que les propositions existantes échouent à préserver la confidentialité et présentent SCHERI, un nouveau design de processeur prouvé formellement sécurisé contre les attaques par canal auxiliaire microarchitectural.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SCHERI: Provably Secure Speculation Under the Constant-Time Policy for CHERI (Extended Version)"
+  },
   "title:towardsreliableandsecureriscvsystemssurveyoftestabilityandsecuritymechanisms": {
     "publication_date": "2026-06-24",
     "score": 75,
