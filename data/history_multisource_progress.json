@@ -1,8 +1,8 @@
 {
-  "accepted": 24,
+  "accepted": 25,
   "completed": false,
-  "cursor": "MTc2NTI3NzM1MjAwMCwxMC4xMDg4JTJGMTY3NC0xMDU2JTJGYWUyOWZm",
-  "evaluated": 537,
+  "cursor": "MTc5MDg4MTcwMzAwMCwxMC4xMTA5JTJGaWNjdmRtNzE4MTIuMjAyNi4xMTcwOTExMw==",
+  "evaluated": 562,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -34,14 +34,170 @@
     "monthly/2026-08/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2026-08/query-19 : résultat tronqué au plafond 12 pages",
     "monthly/2026-08/query-20 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-08/query-21 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-08/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-08/query-22 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-08",
   "needs_publish": false,
-  "offset": 40,
-  "pages_done": 432,
-  "pages_in_query": 1,
-  "pending": [],
+  "offset": 440,
+  "pages_done": 454,
+  "pages_in_query": 11,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Daniel Purificação"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Leonardo S. Yojo"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Luis S. Bravo"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Vitor Teruya"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Olga Balachova"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Serguei Balachov"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Saulo Finco"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Bruno Sanches"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/inscit72361.2026.11707183",
+        "id": "https://doi.org/10.1109/inscit72361.2026.11707183",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/inscit72361.2026.11707183"
+        },
+        "publication_date": "2026-08-01",
+        "publication_date_note": "Date source Crossref : 2026-08 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2026-08",
+        "title": "Development of a RISC V enabled system for SAW sensor readout"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Sujal Yatin Vaidya"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Thithikshaa S"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sowmyashree Mukunda"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Kavya Alaparthi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Rajeshwari B"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/iccubea69821.2026.11702131",
+        "id": "https://doi.org/10.1109/iccubea69821.2026.11702131",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/iccubea69821.2026.11702131"
+        },
+        "publication_date": "2026-08-01",
+        "publication_date_note": "Date source Crossref : 2026-08 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2026-08",
+        "title": "An Area-Efficient 8-Stage Out-Of-Order Risc-V Core with Integrated Floating Point for Embedded FPGA Platforms"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Ashwin Rao R"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sampath Kumar"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Rahul Ratnakumar"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Omkar Shirasgaonkar"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/ciscon71603.2026.11709130",
+        "id": "https://doi.org/10.1109/ciscon71603.2026.11709130",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/ciscon71603.2026.11709130"
+        },
+        "publication_date": "2026-08-01",
+        "publication_date_note": "Date source Crossref : 2026-08 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2026-08",
+        "title": "Congestion-Aware Physical Synthesis and RTL-to-GDSII Implementation of a 90nm RISC-V Execute Pipeline Stage using Cadence Genus and Innovus"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -1235,10 +1391,42 @@
       "publication_date": "2026-08-01",
       "source": "crossref",
       "title": "Medical image watermarking encryption algorithm based on spiral transform and shift registers"
+    },
+    {
+      "doi": "https://doi.org/10.5815/ijcnis.2026.04.07",
+      "identity": "title:neuromorphicriscvsystemsforbioinspiredcomputingapplications",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-08-08",
+      "source": "crossref",
+      "title": "Neuromorphic RISC-V Systems for Bio-inspiredComputing Applications"
+    },
+    {
+      "doi": "https://doi.org/10.1007/s44163-026-02003-7",
+      "identity": "title:fpgavalidatedriscvsystemonchipwithacustomsystolicarrayacceleratorforedgeaiinference",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-08-24",
+      "source": "crossref",
+      "title": "FPGA validated RISC V system on chip with a custom systolic array accelerator for edge AI inference"
+    },
+    {
+      "doi": "https://doi.org/10.64552/wipiec.v12i2.150",
+      "identity": "title:designandimplementationofthreestageriscvmicroprocessorforeducation",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-08-25",
+      "source": "crossref",
+      "title": "Design and Implementation of Three-stage RISC-V Microprocessor for Education"
+    },
+    {
+      "doi": "https://doi.org/10.64552/wipiec.v12i2.137",
+      "identity": "title:dolunayarchitecturalsupportforindependentthreadschedulinginariscvsimtaccelerator",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-08-25",
+      "source": "crossref",
+      "title": "Dolunay: Architectural Support for Independent Thread Scheduling in a RISC-V SIMT Accelerator"
     }
   ],
-  "query_index": 22,
+  "query_index": 23,
   "secondary": 21,
-  "skipped": 429,
+  "skipped": 514,
   "version": 1
 }
