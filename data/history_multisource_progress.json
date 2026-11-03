@@ -1,8 +1,8 @@
 {
   "accepted": 44,
   "completed": false,
-  "cursor": "*",
-  "evaluated": 961,
+  "cursor": "MTc2NDU3NzA3MTAwMCwxMC4xMDE2JTJGai5pbmZmdXMuMjAyNS4xMDQwMTg=",
+  "evaluated": 986,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -61,13 +61,14 @@
     "monthly/2026-06/query-21 : résultat tronqué au plafond 12 pages",
     "monthly/2026-06/query-22 : résultat tronqué au plafond 12 pages",
     "monthly/2026-06/query-23 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-06/query-24 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-06/query-24 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-05/query-13 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-05",
   "needs_publish": false,
-  "offset": 0,
-  "pages_done": 794,
-  "pages_in_query": 0,
+  "offset": 40,
+  "pages_done": 807,
+  "pages_in_query": 1,
   "pending": [],
   "phase": "monthly",
   "prefilter_review": [
@@ -2014,10 +2015,74 @@
       "publication_date": "2026-06-30",
       "source": "crossref",
       "title": "A Comparative Review of Performance and Energy Efficiency in ARM and RISC-V SoCs"
+    },
+    {
+      "doi": "https://doi.org/10.2174/0118722121380355250804113808",
+      "identity": "title:hardwareintheloopvalidationofreducedorderobservercontrollerformaximumpowerextractioninawindturbine",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-05-20",
+      "source": "crossref",
+      "title": "Hardware-in-the-Loop Validation of Reduced- Order Observer-Controller for Maximum Power Extraction in a Wind Turbine"
+    },
+    {
+      "doi": "https://doi.org/10.58489/2836-5933/015",
+      "identity": "title:maritimesecurityinthewesternindianoceanregionalgovernanceissuesandinternationalcooperationaroundmadagascarseez",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-05-02",
+      "source": "crossref",
+      "title": "Maritime Security in the Western Indian Ocean: Regional Governance Issues and International Cooperation around Madagascar's EEZ"
+    },
+    {
+      "doi": "https://doi.org/10.55317/9781784136796",
+      "identity": "title:makingwateruseinglobaltrademoresustainablethechallengetoimprovesupplychainresilienceandwatersecurityinthecontextofgeopoliticalchange",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-05-14",
+      "source": "crossref",
+      "title": "Making water use in global trade more sustainable: The challenge to improve supply-chain resilience and water security in the context of geopolitical change"
+    },
+    {
+      "doi": "https://doi.org/10.1364/opticaq.587329",
+      "identity": "title:securityefficiencyoptimizationinmultithresholdintensitymodulateddiscretevariablesecretkeydistribution",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-05-13",
+      "source": "crossref",
+      "title": "Security–efficiency optimization in multi-threshold intensity-modulated discrete-variable secret-key distribution"
+    },
+    {
+      "doi": "https://doi.org/10.1364/prj.584853",
+      "identity": "title:hybridopticaldigitalpolymorphiccomputingviavolumetricscatteringcomplexityforhardwaredefinedcontextswitching",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-05-29",
+      "source": "crossref",
+      "title": "Hybrid optical-digital polymorphic computing via volumetric scattering complexity for hardware-defined context switching"
+    },
+    {
+      "doi": "https://doi.org/10.31127/tuje.1828170",
+      "identity": "title:acomparativesimulationhardwarecovalidationframeworkforsepicandfullbridgedcdcconvertersinelectricvehiclebatterychargingviadspaceds1104",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-05-01",
+      "source": "crossref",
+      "title": "A Comparative Simulation–Hardware Co-Validation Framework for SEPIC and Full-Bridge DC–DC Converters in Electric Vehicle Battery Charging via dSPACE DS1104"
+    },
+    {
+      "doi": "https://doi.org/10.3390/electronics15091924",
+      "identity": "title:stormhardwareawaretinytransformercodesignforlowpowerinertialhumanactivityrecognition",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-05-01",
+      "source": "crossref",
+      "title": "STORM: Hardware-Aware Tiny Transformer Co-Design for Low-Power Inertial Human Activity Recognition"
+    },
+    {
+      "doi": "https://doi.org/10.3390/digital6020035",
+      "identity": "title:stabilityawaresecurityperformancetradeoffanalysisinresourceconstrainediotsystemsatimeseriesandbootstrapbasedevaluationoftlsandhybrideccaesmechanisms",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-05-02",
+      "source": "crossref",
+      "title": "Stability-Aware Security–Performance Trade-Off Analysis in Resource-Constrained IoT Systems: A Time-Series and Bootstrap-Based Evaluation of TLS and Hybrid ECC–AES Mechanisms"
     }
   ],
-  "query_index": 13,
-  "secondary": 44,
+  "query_index": 14,
+  "secondary": 45,
   "skipped": 943,
   "version": 1
 }
