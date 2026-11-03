@@ -3496,6 +3496,14 @@
       "title": "Securing On-device Transformer with Hardware Binding and Reversible Obfuscation",
       "updated_at": "2026-11-03T21:07:19.431318+00:00"
     },
+    "doi:10.1109/acsacw69556.2025.00062": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "NOPoutNG: Improving the Effectiveness of Hardware-assisted Control-flow Integrity via Dynamic Landing Pad Elision",
+      "updated_at": "2026-11-03T21:27:51.672367+00:00"
+    },
     "doi:10.1109/aetcse69203.2026.11503945": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4224,6 +4232,22 @@
       "title": "LUT Level Information Flow Tracking for FPGA Design Security Verification",
       "updated_at": "2026-11-02T17:14:33.820988+00:00"
     },
+    "doi:10.1109/globecom59602.2025.11432218": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Feature Extraction of UAV and Bird via ISAC Base Station: From Algorithm to Hardware Verification",
+      "updated_at": "2026-11-03T21:27:51.699989+00:00"
+    },
+    "doi:10.1109/globecom59602.2025.11432486": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "RIS-Assisted Secure Cell-Free Massive MIMO Under Imperfect Hardware and EMI",
+      "updated_at": "2026-11-03T21:27:51.726073+00:00"
+    },
     "doi:10.1109/globecom59602.2025.11432658": {
       "category": "secondaire",
       "decision": "examiner",
@@ -4672,6 +4696,30 @@
       "title": "RISC-V Processor Enhanced with a Dynamic Micro-Decoder Unit",
       "updated_at": "2026-11-02T23:13:33.932659+00:00"
     },
+    "doi:10.1109/icedge67252.2025.11412907": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Quantum Roots of Trust: Hardware Anchors for Post-Quantum Security",
+      "updated_at": "2026-11-03T21:27:51.618747+00:00"
+    },
+    "doi:10.1109/icedge67252.2025.11412927": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "The Fact of the MATTER: Efficient Hardware Accelerators for Wide-Block Memory Encryption",
+      "updated_at": "2026-11-03T21:27:51.645438+00:00"
+    },
+    "doi:10.1109/icee67165.2025.11409816": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Design and Implementation of Reconfigurable PUF for Hardware Security",
+      "updated_at": "2026-11-03T21:27:37.648003+00:00"
+    },
     "doi:10.1109/icesc70182.2026.11686966": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4823,6 +4871,14 @@
       "status": "rejected",
       "title": "Design and Simulation of a Five Stage Pipelined RISC-V Processor using Vivado",
       "updated_at": "2026-11-02T17:51:43.396297+00:00"
+    },
+    "doi:10.1109/iconscept66142.2025.11437070": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "A Hardware-Realistic Quantum Web Protocol with Blockchain-Mediated Trust and Verifiable Security Metrics",
+      "updated_at": "2026-11-03T21:27:51.752317+00:00"
     },
     "doi:10.1109/icosec67334.2025.11459751": {
       "category": "secondaire",
@@ -5367,6 +5423,14 @@
       "status": "imported",
       "title": "SideSec: Detecting and Mitigating Microarchitectural Side-Channel Attacks in Cloud VMs via Entropy Monitoring and Dynamic VM Reallocation",
       "updated_at": "2026-10-31T20:14:42.669606+00:00"
+    },
+    "doi:10.1109/ised67359.2025.11405039": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Hardware-Enabled Root of Trust for Enhanced Security in Embedded Systems",
+      "updated_at": "2026-11-03T21:27:37.619678+00:00"
     },
     "doi:10.1109/ises63344.2024.00046": {
       "category": "secondaire",
@@ -6743,6 +6807,14 @@
       "status": "imported",
       "title": "ROLoad-PMP: Securing Sensitive Operations for Kernels and Bare-Metal Firmware",
       "updated_at": "2026-11-02T17:56:36.634871+00:00"
+    },
+    "doi:10.1109/tc.2025.3603729": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "DIVIDE: Efficient RowHammer Defense via In-DRAM Cache-Based Hot Data Isolation",
+      "updated_at": "2026-11-03T21:28:44.386309+00:00"
     },
     "doi:10.1109/tc.2025.3626150": {
       "category": "secondaire",
@@ -11575,6 +11647,14 @@
       "status": "rejected",
       "title": "Hardware-Constrained Feature-Slicing Ensemble for Explainable DDoS Detection in Software-Defined Networks",
       "updated_at": "2026-11-03T11:06:38.934994+00:00"
+    },
+    "doi:10.24003/emitter.v13i2.819": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Design of Optimized Hardware Architecture for Discrete Cosine Transform using Loeffler’s Algorithm",
+      "updated_at": "2026-11-03T21:27:51.591262+00:00"
     },
     "doi:10.24425/ijet.2025.155477": {
       "category": "secondaire",
