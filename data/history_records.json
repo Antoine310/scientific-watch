@@ -67,6 +67,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex (titre exact)"
   },
+  "doi:10.1007/s13389-024-00362-4": {
+    "doi": "https://doi.org/10.1007/s13389-024-00362-4",
+    "publication_date": "2024-08-13",
+    "publication_type": "revue",
+    "publication_venue": "Journal of Cryptographic Engineering",
+    "score": 75,
+    "source": "https://doi.org/10.1007/s13389-024-00362-4",
+    "summary": "Cet article présente une co-conception matérielle/logicielle flexible pour des schémas de signature basés sur le hachage (HBS), permettant de réaliser un démarrage sécurisé (secure boot) post-quantique pour les appareils embarqués. Les auteurs exploitent les similarités de performance entre les schémas étatiques LMS et XMSS et le schéma sans état SPHINCS+ afin de proposer une solution adaptée aux contraintes applicatives. Ils comparent leurs résultats avec des implémentations matérielles d'algorithmes classiques et analysent l'impact des choix de paramètres et de l'accélération matérielle.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Extended version—to be, or not to be stateful: post-quantum secure boot using hash-based signatures",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1007/s13389-025-00369-5": {
     "publication_date": "2025-04-28",
     "publication_type": "revue",
@@ -1840,6 +1857,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2408.16220": {
+    "doi": "https://doi.org/10.48550/arxiv.2408.16220",
+    "publication_date": "2024-08-29",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2408.16220",
+    "summary": "Cet article propose LightSLH, un cadre d'analyse basé sur un algorithme de point fixe pour détecter les vulnérabilités Spectre v1 et appliquer un durcissement ciblé sur le code cryptographique, réduisant ainsi les surcoûts par rapport aux protections aveugles.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Place Protections at the Right Place: Targeted Hardening for Cryptographic Code against Spectre v1",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2411.10855": {
     "publication_date": "2024-11-16",
