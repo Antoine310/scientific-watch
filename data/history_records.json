@@ -1962,6 +1962,26 @@
     ],
     "title": "Dorami: Privilege Separating Security Monitor on RISC-V TEEs"
   },
+  "doi:10.46586/tches.v2026.i2.28-50": {
+    "doi": "https://doi.org/10.46586/tches.v2026.i2.28-50",
+    "publication_date": "2026-04-23",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-04-23",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 88,
+    "source": "https://doi.org/10.46586/tches.v2026.i2.28-50",
+    "summary": "Cette publication explore un canal auxiliaire original où la consommation d'énergie se manifeste à travers des variations de nombre de cycles lors de traversées de domaines d'horloge asynchrones, exploitables par logiciel avec un simple compteur de cycles.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Racing against the clock: side-channel leakage from crossing asynchronous clock domains",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.46586/tches.v2026.i2.495-519": {
     "publication_date": "2026-04-23",
     "publication_type": "revue",
@@ -1973,6 +1993,26 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Improving ML-KEM and ML-DSA on OpenTitan",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/tches.v2026.i2.73-105": {
+    "doi": "https://doi.org/10.46586/tches.v2026.i2.73-105",
+    "publication_date": "2026-04-23",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-04-23",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 75,
+    "source": "https://doi.org/10.46586/tches.v2026.i2.73-105",
+    "summary": "Loricae présente un modèle d'enclave matérielle « filmy » pour combiner le calcul multipartite (MPC) et les environnements d'exécution de confiance (TEE), améliorant la sécurité des protocoles MPC semi-honnêtes contre des attaquants malveillants tout en optimisant la communication et les performances par rapport aux protocoles actifs existants.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Loricae: Upgrading and Optimizing Multi-Party Computation Protocols with Filmy Hardware Enclaves",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
