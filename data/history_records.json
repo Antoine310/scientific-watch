@@ -1207,6 +1207,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex (titre exact)"
   },
+  "doi:10.1145/3774906.3802751": {
+    "doi": "https://doi.org/10.1145/3774906.3802751",
+    "publication_date": "2026-05-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-05-10",
+    "publication_type": "conference",
+    "publication_venue": "SenSys '26: ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3774906.3802751",
+    "summary": "TIRA propose une approche de télé-attestation (remote attestation) adaptée aux plateformes informatiques intermittentes alimentées par récupération d'énergie, qui utilisent une exécution basée sur les tâches tolérante aux pannes sans nécessiter de points de sauvegarde (checkpointing) coûteux.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "TIRA: Task-Based Intermittent Remote Attestation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3779208.3807479": {
     "publication_date": "2026-06-01",
     "publication_type": "conference",
@@ -1656,6 +1676,26 @@
     ],
     "title": "Υλοποιήση και αξιολόγηση της επέκτασης SVNAPOT στην μικροαρχιτεκτονική CVA6"
   },
+  "doi:10.26599/tst.2025.9010052": {
+    "doi": "https://doi.org/10.26599/tst.2025.9010052",
+    "publication_date": "2026-05-27",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-05-27",
+    "publication_type": "revue",
+    "publication_venue": "Tsinghua Science and Technology",
+    "score": 75,
+    "source": "https://doi.org/10.26599/tst.2025.9010052",
+    "summary": "Cet article présente SeCA, un cadre d'attestation collective efficace basé sur un environnement d'exécution de confiance (TEE) pour sécuriser les réseaux d'objets connectés dynamiques. Il vise à contrer les attaques physiques et les compromissions logicielles au niveau de l'exécution, notamment le détournement de flux de contrôle, tout en réduisant les surcharges de calcul, de stockage et de communication.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "SeCA: Software Behavior-Enforced Collective Attestation for Highly Dynamic Device Networks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.31838/esa/03.01.08": {
     "publication_date": "2026-03-18",
     "publication_type": "revue",
@@ -1785,6 +1825,26 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "A Survey of RISC-V Secure Enclaves and Trusted Execution Environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.3390/electronics15102154": {
+    "doi": "https://doi.org/10.3390/electronics15102154",
+    "publication_date": "2026-05-17",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-05-17",
+    "publication_type": "revue",
+    "publication_venue": "Electronics",
+    "score": 75,
+    "source": "https://doi.org/10.3390/electronics15102154",
+    "summary": "QUASAR propose une co-conception matériel-logiciel pour accélérer la cryptographie post-quantique (PQC) standardisée par le NIST (ML-KEM, ML-DSA, SLH-DSA) sur le processeur RISC-V CV32E40P. En ajoutant deux moteurs (LUNA pour NTT et SPOKE pour Keccak) représentant une surcharge de 886 LUTs (+19%), l'architecture atteint des accélérations de 2,36 à 3,18 fois selon les algorithmes avec un produit aire-temps optimisé.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "QUASAR: Achieving Quantum Readiness for Post-Quantum Cryptography on RISC-V at Minimum Hardware Cost",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
