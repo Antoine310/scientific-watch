@@ -1,8 +1,8 @@
 {
   "accepted": 85,
   "completed": false,
-  "cursor": "MTc2ODE4NzAxMDAwMCwxMC4zODE2MSUyRjE5OTYtMzQ0MC0yMDI1LTQtMzUtNDQ=",
-  "evaluated": 1790,
+  "cursor": "MTc3MjY1NzIyNzAwMCwxMC4xMTA5JTJGZXRmZzYxOTk5LjIwMjUuMTE0MDEyMTY=",
+  "evaluated": 1815,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -125,9 +125,9 @@
   ],
   "month": "2025-12",
   "needs_publish": false,
-  "offset": 280,
-  "pages_done": 1628,
-  "pages_in_query": 7,
+  "offset": 440,
+  "pages_done": 1632,
+  "pages_in_query": 11,
   "pending": [
     {
       "paper": {
@@ -135,47 +135,27 @@
         "authorships": [
           {
             "author": {
-              "display_name": "Edivaldo Pastori Valentini"
+              "display_name": "Siddharth Patel"
             }
           },
           {
             "author": {
-              "display_name": "Thiago Araujo Franco"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Euclydes Nasorri Gottsfritz"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Julio Cezar Estrella"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Lourenço A. Pereira Júnior"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Rodolfo Ipolito Meneguette"
+              "display_name": "Rohit Singh"
             }
           }
         ],
-        "doi": "https://doi.org/10.1145/3773274.3774930",
-        "id": "https://doi.org/10.1145/3773274.3774930",
+        "doi": "https://doi.org/10.1109/ised67359.2025.11405039",
+        "id": "https://doi.org/10.1109/ised67359.2025.11405039",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1145/3773274.3774930"
+          "landing_page_url": "https://doi.org/10.1109/ised67359.2025.11405039"
         },
-        "publication_date": "2025-12-31",
+        "publication_date": "2025-12-17",
         "publication_date_note": "",
         "publication_date_precision": "day",
-        "publication_date_source": "2025-12-31",
+        "publication_date_source": "2025-12-17",
         "publication_type": "conference",
-        "publication_venue": "UCC '25: 2025 IEEE/ACM 18th International Conference on Utility and Cloud Computing",
-        "title": "Honeypot Embedded in Low-Cost IoT Hardware for Collecting and Analyzing Real-World Cyber Threats",
+        "publication_venue": "2025 13th International Conference on Intelligent Systems and Embedded Design (ISED)",
+        "title": "Hardware-Enabled Root of Trust for Enhanced Security in Embedded Systems",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -185,7 +165,8 @@
         "Crossref"
       ],
       "themes": [
-        "T04 — Runtime Attestation"
+        "T01 — Root of Trust & Secure Boot",
+        "T07 — Hardware Security Verification"
       ]
     },
     {
@@ -194,52 +175,37 @@
         "authorships": [
           {
             "author": {
-              "display_name": "Sebastian Haas"
+              "display_name": "Thakar Rudra Nilesh"
             }
           },
           {
             "author": {
-              "display_name": "Mattis Hasler"
+              "display_name": "Madhuram Mishra"
             }
           },
           {
             "author": {
-              "display_name": "Friedrich Pauls"
+              "display_name": "Devendra Singh Negi"
             }
           },
           {
             "author": {
-              "display_name": "Christopher Dunkel"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Yogesh Verma"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Nilanjana Das"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Michael Raitza"
+              "display_name": "Harshit Agarwal"
             }
           }
         ],
-        "doi": "https://doi.org/10.1109/mcsoc67473.2025.00033",
-        "id": "https://doi.org/10.1109/mcsoc67473.2025.00033",
+        "doi": "https://doi.org/10.1109/icee67165.2025.11409816",
+        "id": "https://doi.org/10.1109/icee67165.2025.11409816",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/mcsoc67473.2025.00033"
+          "landing_page_url": "https://doi.org/10.1109/icee67165.2025.11409816"
         },
-        "publication_date": "2025-12-15",
+        "publication_date": "2025-12-13",
         "publication_date_note": "",
         "publication_date_precision": "day",
-        "publication_date_source": "2025-12-15",
+        "publication_date_source": "2025-12-13",
         "publication_type": "conference",
-        "publication_venue": "2025 IEEE 18th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)",
-        "title": "An Architectural Approach for the Secure Integration of Hardware Accelerators into a Trustworthy MPSoC Platform",
+        "publication_venue": "2025 IEEE 7th International Conference on Emerging Electronics (ICEE)",
+        "title": "Design and Implementation of Reconfigurable PUF for Hardware Security",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -249,85 +215,7 @@
         "Crossref"
       ],
       "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Aoba Fujino"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Kenji Kise"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/mcsoc67473.2025.00040",
-        "id": "https://doi.org/10.1109/mcsoc67473.2025.00040",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/mcsoc67473.2025.00040"
-        },
-        "publication_date": "2025-12-15",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-12-15",
-        "publication_type": "conference",
-        "publication_venue": "2025 IEEE 18th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)",
-        "title": "CFU Proving Ground: a Hardware/Software Co-Design Framework for Leveraging a Custom Function Unit and RISC-V Custom Instructions",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Maitri Iyer"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jai Gopal Pandey"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/mcsoc67473.2025.00127",
-        "id": "https://doi.org/10.1109/mcsoc67473.2025.00127",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/mcsoc67473.2025.00127"
-        },
-        "publication_date": "2025-12-15",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-12-15",
-        "publication_type": "conference",
-        "publication_venue": "2025 IEEE 18th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)",
-        "title": "Bridging Cryptographic Robustness and Hardware Efficiency: A Comprehensive Analysis of S-Box Design Methodologies for SoC Integration",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
+        "T07 — Hardware Security Verification"
       ]
     }
   ],
@@ -2734,9 +2622,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 391,
+  "prefilter_review_overflow": 396,
   "query_index": 17,
-  "secondary": 98,
-  "skipped": 1813,
+  "secondary": 101,
+  "skipped": 1814,
   "version": 1
 }
