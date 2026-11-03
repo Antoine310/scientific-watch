@@ -1184,6 +1184,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3649329.3658492": {
+    "doi": "https://doi.org/10.1145/3649329.3658492",
+    "publication_date": "2024-06-23",
+    "publication_type": "conference",
+    "publication_venue": "ACM/IEEE Design Automation Conference (DAC)",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3649329.3658492",
+    "summary": "Cet article présente EnTurbo, une nouvelle conception d'initialisation d'enclave parallélisée visant à accélérer le démarrage des environnements serverless confidentiels basés sur les TEE. En supprimant la dépendance d'intégrité de la procédure de démarrage et en parallélisant la mesure avec des garanties de sécurité prouvables, EnTurbo permet d'accélérer les charges de travail serverless sous SGX de 1,42x à 6,48x pour SGXv1 et de 1,33x à 3,76x pour SGXv2.",
+    "themes": [
+      "T05 — Enclave Performance & Crypto"
+    ],
+    "title": "EnTurbo: Accelerate Confidential Serverless Computing via Parallelizing Enclave Startup Procedure",
+    "venue_landmark": "DAC",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3658617.3697763": {
     "publication_date": "2025-01-20",
     "publication_type": "conference",
