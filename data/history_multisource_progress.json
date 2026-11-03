@@ -1,8 +1,8 @@
 {
   "accepted": 48,
   "completed": false,
-  "cursor": "MTc2MTg0NzI5MjAwMCwxMC4xMTA5JTJGdHZ0LjIwMjUuMzYyNjczMg==",
-  "evaluated": 1078,
+  "cursor": "MTc4Mjc2MTkwMDAwMCwxMC4xMTA5JTJGYWllZWU3MTExMy4yMDI2LjExNTc3MDI4",
+  "evaluated": 1103,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -69,14 +69,340 @@
     "monthly/2026-05/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2026-05/query-19 : résultat tronqué au plafond 12 pages",
     "monthly/2026-05/query-20 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-05/query-21 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-05/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-05/query-22 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-05",
   "needs_publish": false,
-  "offset": 40,
-  "pages_done": 903,
-  "pages_in_query": 1,
-  "pending": [],
+  "offset": 400,
+  "pages_done": 924,
+  "pages_in_query": 10,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Giorgio Cora"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Arash Amini Bardpareh"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Gonzalo Miguel Joaquin Fernandez Lobo"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Corrado De Sio"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sarah Azimi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Andrea Stanco"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Luca Sterpone"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1145/3801487.3801825",
+        "id": "https://doi.org/10.1145/3801487.3801825",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1145/3801487.3801825"
+        },
+        "publication_date": "2026-05-19",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2026-05-19",
+        "publication_type": "conference",
+        "publication_venue": "CF '26: Proceedings of the 23rd ACM International Conference on Computing Frontiers",
+        "title": "Robust Quantum Communication for Space Systems Through an Heterogeneous RISC-V based FPGA/SoC Platform",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Amirhossein Kiamarzi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Samuele Colmi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Yvan Tortorella"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Angelo Garofalo"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Davide Rossi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Giuseppe Tagliavini"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1145/3801487.3801835",
+        "id": "https://doi.org/10.1145/3801487.3801835",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1145/3801487.3801835"
+        },
+        "publication_date": "2026-05-19",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2026-05-19",
+        "publication_type": "conference",
+        "publication_venue": "CF '26: Proceedings of the 23rd ACM International Conference on Computing Frontiers",
+        "title": "Threads or Vectors? Evaluating SPMD and Vector Accelerators for Resource Constrained RISC-V Architectures",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Luca Donato"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Tommaso Spagnolo"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Cristina Silvano"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1145/3801487.3801836",
+        "id": "https://doi.org/10.1145/3801487.3801836",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1145/3801487.3801836"
+        },
+        "publication_date": "2026-05-19",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2026-05-19",
+        "publication_type": "conference",
+        "publication_venue": "CF '26: Proceedings of the 23rd ACM International Conference on Computing Frontiers",
+        "title": "SMX: A RISC-V ISA Extension for Scale-Adaptive Quantized Softmax",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Giorgio Cora"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Morgana Duni"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Corrado De Sio"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sarah Azimi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Luca Sterpone"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1145/3801487.3805604",
+        "id": "https://doi.org/10.1145/3801487.3805604",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1145/3801487.3805604"
+        },
+        "publication_date": "2026-05-19",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2026-05-19",
+        "publication_type": "conference",
+        "publication_venue": "CF '26: Proceedings of the 23rd ACM International Conference on Computing Frontiers",
+        "title": "POSTER: A Reliable Multi-FPGA RISC-V Based Cluster for Space AI Inference",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Abolfazl Sajadi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Nusa Zidaric"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Todor Stefanov"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Nele Mentens"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1145/3801487.3805609",
+        "id": "https://doi.org/10.1145/3801487.3805609",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1145/3801487.3805609"
+        },
+        "publication_date": "2026-05-19",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2026-05-19",
+        "publication_type": "conference",
+        "publication_venue": "CF '26: Proceedings of the 23rd ACM International Conference on Computing Frontiers",
+        "title": "POSTER: Security and Cost Trade-offs of Side-Channel Countermeasures for AES Software on RISC-V SoCs",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Kun Qin"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Aswathy N. Sankaranarayanan"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Taiki Okano"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Martin Schulz"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Carsten Trinitis"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1145/3801487.3805615",
+        "id": "https://doi.org/10.1145/3801487.3805615",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1145/3801487.3805615"
+        },
+        "publication_date": "2026-05-19",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2026-05-19",
+        "publication_type": "conference",
+        "publication_venue": "CF '26: Proceedings of the 23rd ACM International Conference on Computing Frontiers",
+        "title": "POSTER: Towards a RISC-V-based SmartNIC Architecture on FPGA",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2302,10 +2628,26 @@
       "publication_date": "2026-05-27",
       "source": "crossref",
       "title": "Hardware and software system for recording biopreparation production process parameters"
+    },
+    {
+      "doi": "https://doi.org/10.1088/2634-4386/ae688e",
+      "identity": "title:fenndmaariscvsystemonchipforspikingneuralnetworkacceleration",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-05-15",
+      "source": "crossref",
+      "title": "FeNN-DMA: A RISC-V system-on-chip for spiking neural network acceleration"
+    },
+    {
+      "doi": "https://doi.org/10.55041/isjem07732",
+      "identity": "title:singlecycleriscvprocessorusingverilog",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-05-31",
+      "source": "crossref",
+      "title": "Single Cycle Risc-V Processor Using Verilog"
     }
   ],
-  "query_index": 22,
+  "query_index": 23,
   "secondary": 49,
-  "skipped": 1007,
+  "skipped": 1087,
   "version": 1
 }
