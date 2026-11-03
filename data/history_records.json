@@ -915,6 +915,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex (titre exact)"
   },
+  "doi:10.1109/tdsc.2025.3646640": {
+    "doi": "https://doi.org/10.1109/tdsc.2025.3646640",
+    "publication_date": "2026-05-01",
+    "publication_date_note": "Date source Crossref : 2026-05 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2026-05",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Dependable and Secure Computing",
+    "score": 82,
+    "source": "https://doi.org/10.1109/tdsc.2025.3646640",
+    "summary": "Cet article présente Hypnos, une attaque par canal auxiliaire logiciel exploitant les états d'inactivité (C-states) des processeurs x86 via l'interface CPUIDLE, accessible sans privilèges, pour surveiller le temps d'inactivité du processeur corrélé aux activités de calcul et compromettre la sécurité.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Hypnos: A Practical Power Side-Channel Attack via CPU Idle Time",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/techdefense67306.2025.11721030": {
     "publication_date": "2025-11-01",
     "publication_type": "conference",

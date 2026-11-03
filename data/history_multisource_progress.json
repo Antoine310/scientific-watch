@@ -1,8 +1,8 @@
 {
-  "accepted": 44,
+  "accepted": 45,
   "completed": false,
-  "cursor": "MTc2NDU3NzA3MTAwMCwxMC4xMDE2JTJGai5pbmZmdXMuMjAyNS4xMDQwMTg=",
-  "evaluated": 986,
+  "cursor": "MTc2MzAyOTYyODAwMCwxMC4xMDE2JTJGai5hcGNhdGIuMjAyNS4xMjYxODk=",
+  "evaluated": 1005,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -62,13 +62,15 @@
     "monthly/2026-06/query-22 : résultat tronqué au plafond 12 pages",
     "monthly/2026-06/query-23 : résultat tronqué au plafond 12 pages",
     "monthly/2026-06/query-24 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-05/query-13 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-05/query-13 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-05/query-14 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-05/query-15 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-05",
   "needs_publish": false,
-  "offset": 40,
-  "pages_done": 807,
-  "pages_in_query": 1,
+  "offset": 80,
+  "pages_done": 832,
+  "pages_in_query": 2,
   "pending": [],
   "phase": "monthly",
   "prefilter_review": [
@@ -2079,10 +2081,26 @@
       "publication_date": "2026-05-02",
       "source": "crossref",
       "title": "Stability-Aware Security–Performance Trade-Off Analysis in Resource-Constrained IoT Systems: A Time-Series and Bootstrap-Based Evaluation of TLS and Hybrid ECC–AES Mechanisms"
+    },
+    {
+      "doi": "https://doi.org/10.1142/s0217732326500823",
+      "identity": "title:symmetricquantumsecuredirectcommunicationprotocolsimmunetocollectivenoises",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-05-14",
+      "source": "crossref",
+      "title": "Symmetric quantum secure direct communication protocols immune to collective noises"
+    },
+    {
+      "doi": "https://doi.org/10.1142/s0218126626501756",
+      "identity": "title:blockchainenabledsecureandoptimizedhealthcaredataprotectionusingfuzzyembeddedrecurrentneuralnetworkandellipticgaloiscryptographywithproofofmonitoringincloudenvironments",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-05-23",
+      "source": "crossref",
+      "title": "Blockchain-Enabled Secure and Optimized Healthcare Data Protection Using Fuzzy Embedded Recurrent Neural Network and Elliptic Galois Cryptography with Proof of Monitoring in Cloud Environments"
     }
   ],
-  "query_index": 14,
-  "secondary": 45,
-  "skipped": 943,
+  "query_index": 16,
+  "secondary": 47,
+  "skipped": 961,
   "version": 1
 }
