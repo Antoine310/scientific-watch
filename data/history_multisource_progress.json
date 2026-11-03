@@ -1,8 +1,8 @@
 {
-  "accepted": 54,
+  "accepted": 56,
   "completed": false,
-  "cursor": "MTc4MDQzMDYxNDAwMCwxMC4xMTA5JTJGaWNhaXNldDY2NDM5LjIwMjYuMTE1NDE0OTg=",
-  "evaluated": 1237,
+  "cursor": "*",
+  "evaluated": 1262,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -76,692 +76,42 @@
     "monthly/2026-04/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-04/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2026-04/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-04/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-04/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-04/query-17 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-04",
   "needs_publish": false,
-  "offset": 400,
-  "pages_done": 1009,
-  "pages_in_query": 10,
+  "offset": 0,
+  "pages_done": 1011,
+  "pages_in_query": 0,
   "pending": [
     {
       "paper": {
-        "abstract_inverted_index": {
-          "130-day": [
-            215
-          ],
-          "17.5%": [
-            238
-          ],
-          "3": [
-            77
-          ],
-          "3,": [
-            281
-          ],
-          "6.44%": [
-            255
-          ],
-          "8.95%": [
-            231
-          ],
-          "Battery": [
-            83
-          ],
-          "DSL,": [
-            117
-          ],
-          "DSL.": [
-            283
-          ],
-          "Economic": [
-            247
-          ],
-          "Effectiveness": [
-            210
-          ],
-          "Keywords:": [
-            266
-          ],
-          "Kotlin": [
-            116,
-            282
-          ],
-          "LiFePO4": [
-            37
-          ],
-          "Management": [
-            84
-          ],
-          "Orange": [
-            74,
-            278
-          ],
-          "Pi": [
-            75,
-            279
-          ],
-          "Results": [
-            222
-          ],
-          "SoC": [
-            195
-          ],
-          "System": [
-            85
-          ],
-          "The": [
-            0,
-            27,
-            47,
-            64,
-            108,
-            142
-          ],
-          "This": [
-            87
-          ],
-          "Ukrainian": [
-            219
-          ],
-          "Unlike": [
-            181
-          ],
-          "Zero": [
-            76,
-            280
-          ],
-          "a": [
-            55,
-            60,
-            82,
-            114,
-            214,
-            237,
-            250,
-            254
-          ],
-          "adaptive": [
-            155,
-            226,
-            268
-          ],
-          "addresses": [
-            2
-          ],
-          "adjusts": [
-            159
-          ],
-          "aging": [
-            242
-          ],
-          "aging,": [
-            277
-          ],
-          "algorithm": [
-            156,
-            189
-          ],
-          "algorithms": [
-            97
-          ],
-          "allows": [
-            119
-          ],
-          "an": [
-            50,
-            154,
-            191,
-            230
-          ],
-          "analysis": [
-            248
-          ],
-          "and": [
-            6,
-            12,
-            52,
-            174,
-            236
-          ],
-          "approach": [
-            88,
-            228
-          ],
-          "approach,": [
-            271
-          ],
-          "architecture": [
-            51
-          ],
-          "article": [
-            1
-          ],
-          "authors": [
-            48
-          ],
-          "autonomy": [
-            11
-          ],
-          "average": [
-            194
-          ],
-          "based": [
-            58,
-            71,
-            165
-          ],
-          "baseline": [
-            245
-          ],
-          "batteries": [
-            38
-          ],
-          "battery": [
-            18,
-            207,
-            274
-          ],
-          "battery.": [
-            180
-          ],
-          "calendar": [
-            241,
-            276
-          ],
-          "changes": [
-            122
-          ],
-          "charge": [
-            33,
-            164
-          ],
-          "compared": [
-            243
-          ],
-          "complexes.": [
-            46
-          ],
-          "component": [
-            110
-          ],
-          "components,": [
-            134
-          ],
-          "computer": [
-            79
-          ],
-          "computing": [
-            45,
-            92
-          ],
-          "conditions": [
-            21
-          ],
-          "conditions.": [
-            141
-          ],
-          "confirmed": [
-            253
-          ],
-          "consumption": [
-            102
-          ],
-          "control": [
-            34,
-            105
-          ],
-          "control,": [
-            269
-          ],
-          "cost": [
-            256
-          ],
-          "critical": [
-            23,
-            203
-          ],
-          "current": [
-            176
-          ],
-          "data.": [
-            221
-          ],
-          "decision-making": [
-            62
-          ],
-          "degradation": [
-            208,
-            235
-          ],
-          "degradation,": [
-            275
-          ],
-          "development": [
-            152
-          ],
-          "down": [
-            206
-          ],
-          "during": [
-            196
-          ],
-          "dynamic": [
-            121
-          ],
-          "dynamically": [
-            158
-          ],
-          "embedded": [
-            272
-          ],
-          "energy": [
-            24,
-            101
-          ],
-          "enhancing": [
-            10
-          ],
-          "ensures": [
-            229
-          ],
-          "ensuring": [
-            135,
-            262
-          ],
-          "estimated": [
-            168
-          ],
-          "execute": [
-            95
-          ],
-          "extending": [
-            13
-          ],
-          "external": [
-            171
-          ],
-          "flexibility": [
-            137
-          ],
-          "for": [
-            44,
-            103,
-            120,
-            138,
-            204
-          ],
-          "forecasting": [
-            96
-          ],
-          "grid": [
-            199
-          ],
-          "hardware": [
-            65
-          ],
-          "hardware-software": [
-            56
-          ],
-          "high": [
-            136,
-            263
-          ],
-          "implementation": [
-            53,
-            66
-          ],
-          "implemented": [
-            112
-          ],
-          "in": [
-            123,
-            150,
-            233,
-            240
-          ],
-          "infrastructure": [
-            25
-          ],
-          "instability.": [
-            26
-          ],
-          "integrated": [
-            80
-          ],
-          "is": [
-            31,
-            70,
-            111,
-            202
-          ],
-          "itself.": [
-            107
-          ],
-          "lies": [
-            149
-          ],
-          "life": [
-            16
-          ],
-          "limits,": [
-            186
-          ],
-          "load,": [
-            261
-          ],
-          "logic": [
-            127
-          ],
-          "low": [
-            193
-          ],
-          "low-level": [
-            133
-          ],
-          "maintaining": [
-            99
-          ],
-          "maintains": [
-            190
-          ],
-          "minimal": [
-            100
-          ],
-          "model.": [
-            63
-          ],
-          "module.": [
-            86
-          ],
-          "necessary": [
-            91
-          ],
-          "need": [
-            130
-          ],
-          "novelty": [
-            145
-          ],
-          "object": [
-            28
-          ],
-          "of": [
-            9,
-            17,
-            22,
-            29,
-            36,
-            54,
-            67,
-            146,
-            153,
-            163,
-            170,
-            178,
-            198
-          ],
-          "on": [
-            59,
-            72,
-            166
-          ],
-          "operating": [
-            140
-          ],
-          "operational": [
-            15,
-            126
-          ],
-          "optimally": [
-            192
-          ],
-          "optimization,": [
-            267
-          ],
-          "outage": [
-            220
-          ],
-          "outages": [
-            173
-          ],
-          "periods": [
-            197
-          ],
-          "power": [
-            41,
-            93,
-            172
-          ],
-          "practical": [
-            7
-          ],
-          "primary": [
-            143
-          ],
-          "probability": [
-            169
-          ],
-          "problem": [
-            8
-          ],
-          "processes": [
-            35
-          ],
-          "processes.": [
-            209
-          ],
-          "propose": [
-            49
-          ],
-          "proposed": [
-            188
-          ],
-          "proved": [
-            223
-          ],
-          "provides": [
-            89
-          ],
-          "real": [
-            218
-          ],
-          "reduction": [
-            232,
-            239,
-            257
-          ],
-          "reflash": [
-            132
-          ],
-          "relevant": [
-            4
-          ],
-          "reliability.": [
-            265
-          ],
-          "rigid": [
-            185
-          ],
-          "risk-oriented": [
-            61,
-            227,
-            270
-          ],
-          "scientific": [
-            5,
-            144
-          ],
-          "simulation": [
-            216
-          ],
-          "single-board": [
-            78
-          ],
-          "slowing": [
-            205
-          ],
-          "software": [
-            109
-          ],
-          "specialized": [
-            115
-          ],
-          "specific": [
-            139
-          ],
-          "stability,": [
-            200
-          ],
-          "state": [
-            162,
-            177
-          ],
-          "strategies": [
-            183
-          ],
-          "strategies.": [
-            246
-          ],
-          "study": [
-            30
-          ],
-          "supply": [
-            42
-          ],
-          "system": [
-            57,
-            69,
-            106,
-            264
-          ],
-          "system's": [
-            125
-          ],
-          "systems": [
-            19
-          ],
-          "systems,": [
-            273
-          ],
-          "target": [
-            161
-          ],
-          "tariff": [
-            252
-          ],
-          "that": [
-            157,
-            224
-          ],
-          "the": [
-            3,
-            14,
-            32,
-            68,
-            73,
-            90,
-            104,
-            124,
-            129,
-            147,
-            151,
-            160,
-            167,
-            175,
-            179,
-            187,
-            225
-          ],
-          "three-zone": [
-            251
-          ],
-          "through": [
-            213
-          ],
-          "to": [
-            94,
-            131,
-            244
-          ],
-          "total": [
-            234
-          ],
-          "traditional": [
-            182
-          ],
-          "under": [
-            20
-          ],
-          "uninterruptible": [
-            40
-          ],
-          "units": [
-            43
-          ],
-          "unmet": [
-            260
-          ],
-          "using": [
-            113,
-            217
-          ],
-          "verified": [
-            212
-          ],
-          "was": [
-            211
-          ],
-          "which": [
-            118,
-            201
-          ],
-          "while": [
-            98
-          ],
-          "with": [
-            81,
-            184,
-            258
-          ],
-          "within": [
-            39,
-            249
-          ],
-          "without": [
-            128
-          ],
-          "work": [
-            148
-          ],
-          "zero": [
-            259
-          ]
-        },
+        "abstract_inverted_index": {},
         "authorships": [
           {
             "author": {
-              "display_name": "Tetiana Diachuk"
+              "display_name": "Mahsa Tahghigh"
             }
           },
           {
             "author": {
-              "display_name": "Volodymyr Shkriabets"
+              "display_name": "Hassan Salmani"
             }
           }
         ],
-        "doi": "https://doi.org/10.31474/2074-7888-2026-2-24-42-50",
-        "id": "https://doi.org/10.31474/2074-7888-2026-2-24-42-50",
+        "doi": "https://doi.org/10.1109/dcas69364.2026.11544771",
+        "id": "https://doi.org/10.1109/dcas69364.2026.11544771",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.31474/2074-7888-2026-2-24-42-50"
+          "landing_page_url": "https://doi.org/10.1109/dcas69364.2026.11544771"
         },
-        "publication_date": "2026-04-16",
+        "publication_date": "2026-04-10",
         "publication_date_note": "",
         "publication_date_precision": "day",
-        "publication_date_source": "2026-04-16",
-        "publication_type": "revue",
-        "publication_venue": "Problems of Modeling and Design Automatization",
-        "title": "HARDWARE-SOFTWARE RISK-ORIENTED SYSTEM FOR BATTERY CHARGING OPTIMIZATION UNDER UNSTABLE POWER SUPPLY CONDITIONS BASED ON KOTLIN DSL",
+        "publication_date_source": "2026-04-10",
+        "publication_type": "conference",
+        "publication_venue": "2026 IEEE 19th Dallas Circuits and Systems Conference (DCAS)",
+        "title": "Cross-Scale Persistence Analysis of EM Side-Channels for Reference-Free Detection of Always-On Hardware Trojans",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -780,135 +130,32 @@
         "authorships": [
           {
             "author": {
-              "display_name": "Habibur Rahaman"
+              "display_name": "Muhammad Furqan"
             }
           },
           {
             "author": {
-              "display_name": "Sudipta Paria"
+              "display_name": "Karsen Price"
             }
           },
           {
             "author": {
-              "display_name": "Atri Chatterjee"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Swarup Bhunia"
+              "display_name": "Muhammad Awais Bin Altaf"
             }
           }
         ],
-        "doi": "https://doi.org/10.1109/isqed69900.2026.11534688",
-        "id": "https://doi.org/10.1109/isqed69900.2026.11534688",
+        "doi": "https://doi.org/10.1109/dcas69364.2026.11544821",
+        "id": "https://doi.org/10.1109/dcas69364.2026.11544821",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/isqed69900.2026.11534688"
+          "landing_page_url": "https://doi.org/10.1109/dcas69364.2026.11544821"
         },
-        "publication_date": "2026-04-08",
+        "publication_date": "2026-04-10",
         "publication_date_note": "",
         "publication_date_precision": "day",
-        "publication_date_source": "2026-04-08",
+        "publication_date_source": "2026-04-10",
         "publication_type": "conference",
-        "publication_venue": "2026 27th International Symposium on Quality Electronic Design (ISQED)",
-        "title": "Evolving Landscape of Attacks on AI Hardware and Robust Defenses",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Gijung Lee"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Wavid Bowman"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Olivia P. Dizon-Paradis"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Reiner N. Dizon-Paradis"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ronald Wilson"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Damon L. Woodard"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Domenic Forte"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/isqed69900.2026.11534734",
-        "id": "https://doi.org/10.1109/isqed69900.2026.11534734",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/isqed69900.2026.11534734"
-        },
-        "publication_date": "2026-04-08",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2026-04-08",
-        "publication_type": "conference",
-        "publication_venue": "2026 27th International Symposium on Quality Electronic Design (ISQED)",
-        "title": "A Data-Free Membership Inference Attack on Federated Learning in Hardware Assurance",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Hyunmin Kim"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/isqed69900.2026.11534738",
-        "id": "https://doi.org/10.1109/isqed69900.2026.11534738",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/isqed69900.2026.11534738"
-        },
-        "publication_date": "2026-04-08",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2026-04-08",
-        "publication_type": "conference",
-        "publication_venue": "2026 27th International Symposium on Quality Electronic Design (ISQED)",
-        "title": "Security-Quality Scorecard: A Comprehensive Framework for Quantitative Evaluation of Hardware-Enforced Boot Chain Security",
+        "publication_venue": "2026 IEEE 19th Dallas Circuits and Systems Conference (DCAS)",
+        "title": "Hardware Implementation and Verification of Early Image Signal Processing Stages Using OpenISP",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -927,400 +174,27 @@
         "authorships": [
           {
             "author": {
-              "display_name": "Miran Tobar"
+              "display_name": "Hambardzum Minasyan"
             }
           },
           {
             "author": {
-              "display_name": "Hassan Nassar"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jörg Henkel"
+              "display_name": "Mari Yengoyan"
             }
           }
         ],
-        "doi": "https://doi.org/10.1109/isqed69900.2026.11534744",
-        "id": "https://doi.org/10.1109/isqed69900.2026.11534744",
+        "doi": "https://doi.org/10.1134/s036176882670012x",
+        "id": "https://doi.org/10.1134/s036176882670012x",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/isqed69900.2026.11534744"
-        },
-        "publication_date": "2026-04-08",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2026-04-08",
-        "publication_type": "conference",
-        "publication_venue": "2026 27th International Symposium on Quality Electronic Design (ISQED)",
-        "title": "Cross-Layer Security Through Multi-Level Cell Memories from Hardware Obfuscation to AI Model Protection",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Yuchao Liao"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Tosiron Adegbija"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Roman Lysecky"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/isqed69900.2026.11534751",
-        "id": "https://doi.org/10.1109/isqed69900.2026.11534751",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/isqed69900.2026.11534751"
-        },
-        "publication_date": "2026-04-08",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2026-04-08",
-        "publication_type": "conference",
-        "publication_venue": "2026 27th International Symposium on Quality Electronic Design (ISQED)",
-        "title": "Accelerating Post-Quantum Cryptography via LLM-Driven Hardware-Software Co-Design",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Atri Chatterjee"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Sudipta Paria"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Aritra Dasgupta"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Habibur Rahaman"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Baibhab Chatterjee"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Swarup Bhunia"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/isqed69900.2026.11534752",
-        "id": "https://doi.org/10.1109/isqed69900.2026.11534752",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/isqed69900.2026.11534752"
-        },
-        "publication_date": "2026-04-08",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2026-04-08",
-        "publication_type": "conference",
-        "publication_venue": "2026 27th International Symposium on Quality Electronic Design (ISQED)",
-        "title": "CRISP: Platform-Agnostic Unified Reconfigurable Hardware Security Primitive",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Czea Sie Chuah"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Christian Appold"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Tim Leinmueller"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/isqed69900.2026.11534763",
-        "id": "https://doi.org/10.1109/isqed69900.2026.11534763",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/isqed69900.2026.11534763"
-        },
-        "publication_date": "2026-04-08",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2026-04-08",
-        "publication_type": "conference",
-        "publication_venue": "2026 27th International Symposium on Quality Electronic Design (ISQED)",
-        "title": "Reliable Hardware Trojan Detection for RISC-V Processors using Formal Verification and Automation",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Priyanka Agarwal"
-            }
-          },
-          {
-            "author": {
-              "display_name": "M Arun"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Kumar N S Chandan"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Shrinidhi S Rao"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Madhav Rao"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/isqed69900.2026.11534768",
-        "id": "https://doi.org/10.1109/isqed69900.2026.11534768",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/isqed69900.2026.11534768"
-        },
-        "publication_date": "2026-04-08",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2026-04-08",
-        "publication_type": "conference",
-        "publication_venue": "2026 27th International Symposium on Quality Electronic Design (ISQED)",
-        "title": "Hardware Software Co-Optimization for RISC-V Based High-Performance Hyperdimensional Computing Architectures",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Suchir Gupta"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Amit Sharma"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Suneetha Suryadevara"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Vishnuvardhan Reddy"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/isqed69900.2026.11534781",
-        "id": "https://doi.org/10.1109/isqed69900.2026.11534781",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/isqed69900.2026.11534781"
-        },
-        "publication_date": "2026-04-08",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2026-04-08",
-        "publication_type": "conference",
-        "publication_venue": "2026 27th International Symposium on Quality Electronic Design (ISQED)",
-        "title": "Scalable Hardware–Software Co-Verification through Linux Driver Reuse: Methodology Validated on USB4 and xHCI Host Controllers.",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Christopher Nokes"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Kostas Amberiadis"
-            }
-          },
-          {
-            "author": {
-              "display_name": "D. Richard Kuhn"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Edwards E. Reed"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Michael Zuzak"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/isqed69900.2026.11534784",
-        "id": "https://doi.org/10.1109/isqed69900.2026.11534784",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/isqed69900.2026.11534784"
-        },
-        "publication_date": "2026-04-08",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2026-04-08",
-        "publication_type": "conference",
-        "publication_venue": "2026 27th International Symposium on Quality Electronic Design (ISQED)",
-        "title": "Verifying Hardware Resource Isolation Using Mandatory Access Control",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Tengfei Yuan"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Pengjun Wang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Yuejun Zhang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ziyu Zhou"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Mingze Ren"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Shuang Hu"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Shutong Zhang"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/tetc.2026.3696121",
-        "id": "https://doi.org/10.1109/tetc.2026.3696121",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/tetc.2026.3696121"
+          "landing_page_url": "https://doi.org/10.1134/s036176882670012x"
         },
         "publication_date": "2026-04-01",
         "publication_date_note": "Date source Crossref : 2026-04 (jour inconnu ; 01 utilisé pour classer).",
         "publication_date_precision": "month",
         "publication_date_source": "2026-04",
         "publication_type": "revue",
-        "publication_venue": "IEEE Transactions on Emerging Topics in Computing",
-        "title": "A Low Power Consumption Software PUF Based on Video Coding Hardware for Image Frame Encryption",
+        "publication_venue": "Programming and Computer Software",
+        "title": "Hardware-Accelerated 0-RTT TLS 1.3 for Resource-Constrained IoT Devices: Implementation and Security Analysis",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -1330,7 +204,51 @@
         "Crossref"
       ],
       "themes": [
-        "T04 — Runtime Attestation"
+        "T07 — Hardware Security Verification"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Sowrabh Banik"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Malay Chakraborty"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ekant Sharma"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/wcnc65185.2026.11555069",
+        "id": "https://doi.org/10.1109/wcnc65185.2026.11555069",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/wcnc65185.2026.11555069"
+        },
+        "publication_date": "2026-04-13",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2026-04-13",
+        "publication_type": "conference",
+        "publication_venue": "2026 IEEE Wireless Communications and Networking Conference (WCNC)",
+        "title": "Physical Layer Security for RIS-Aided Hardware-Impaired Cell-Free Massive MIMO",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
       ]
     }
   ],
@@ -3738,8 +2656,8 @@
     }
   ],
   "prefilter_review_overflow": 30,
-  "query_index": 17,
-  "secondary": 62,
+  "query_index": 18,
+  "secondary": 63,
   "skipped": 1158,
   "version": 1
 }

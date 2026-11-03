@@ -632,6 +632,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/isqed69900.2026.11534738": {
+    "doi": "https://doi.org/10.1109/isqed69900.2026.11534738",
+    "publication_date": "2026-04-08",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-04-08",
+    "publication_type": "conference",
+    "publication_venue": "2026 27th International Symposium on Quality Electronic Design (ISQED)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/isqed69900.2026.11534738",
+    "summary": "Cet article présente le Security-Quality Scorecard (SQS), un cadre d'évaluation quantitative de la sécurité de la chaîne de démarrage des systèmes embarqués. Il combine six métriques issues de STRIDE, une vérification formelle par le solveur Z3 SMT, une co-conception matériel/logiciel pour une collecte en temps réel via des modules RTL personnalisés, et des tests probabilistes. Les résultats sur FPGA Zynq-7000 montrent un score de couverture formelle de 96 % et un Boot Integrity Score de 42,66 %.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Security-Quality Scorecard: A Comprehensive Framework for Quantitative Evaluation of Hardware-Enforced Boot Chain Security",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/isqed69900.2026.11534756": {
     "publication_date": "2026-04-08",
     "publication_type": "conference",
@@ -643,6 +663,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Fine-Grained Patching via Contention Balancer: A Practical Mitigation Strategy for Spectre Vulnerabilities Using SpecScope Contention Maps",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/isqed69900.2026.11534763": {
+    "doi": "https://doi.org/10.1109/isqed69900.2026.11534763",
+    "publication_date": "2026-04-08",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-04-08",
+    "publication_type": "conference",
+    "publication_venue": "2026 27th International Symposium on Quality Electronic Design (ISQED)",
+    "score": 80,
+    "source": "https://doi.org/10.1109/isqed69900.2026.11534763",
+    "summary": "Ce travail présente une approche par vérification formelle basée sur le model checking pour détecter de manière fiable des chevaux de Troie matériels (HT) dans les processeurs RISC-V. En combinant des propriétés de fonctionnalité de conception et des propriétés de connexion de signaux via un outil d'automatisation, les auteurs atteignent une couverture complète de détection des HT modifiant le compteur ordinal (Program Counter) en moins de 24 heures.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Reliable Hardware Trojan Detection for RISC-V Processors using Formal Verification and Automation",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
