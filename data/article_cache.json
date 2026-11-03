@@ -2064,6 +2064,14 @@
       "title": "Predicting quantum teleportation fidelity on noisy hardware with multi-channel noise modeling and experimental validation",
       "updated_at": "2026-11-03T11:06:27.837614+00:00"
     },
+    "doi:10.1080/0144929x.2024.2374889": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Building trust in remote attestation through transparency – a qualitative user study on observable attestation",
+      "updated_at": "2026-11-03T11:14:34.594981+00:00"
+    },
     "doi:10.1080/03772063.2025.2501178": {
       "category": "secondaire",
       "decision": "examiner",
@@ -2760,6 +2768,14 @@
       "title": "Latte: Layered Attestation for Portable Enclaved Applications",
       "updated_at": "2026-10-30T20:13:52.916218+00:00"
     },
+    "doi:10.1109/eurospw61312.2024.00026": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "SNPGuard: Remote Attestation of SEV-SNP VMs Using Open Source Tools",
+      "updated_at": "2026-11-03T11:14:34.594963+00:00"
+    },
     "doi:10.1109/eurospw67616.2025.00055": {
       "category": "coeur",
       "decision": "conserver",
@@ -2895,6 +2911,14 @@
       "status": "rejected",
       "title": "Design and Verification of Three-Plane Component-Based SDR Architecture for Heterogeneous RF Hardware",
       "updated_at": "2026-11-02T18:51:13.402464+00:00"
+    },
+    "doi:10.1109/icccn61486.2024.10637594": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Towards Protecting On-Device Machine Learning with RISC-V based Multi-Enclave TEE",
+      "updated_at": "2026-11-03T11:14:25.309522+00:00"
     },
     "doi:10.1109/icce-taiwan71481.2026.11652466": {
       "category": "hors_sujet",
@@ -4112,6 +4136,14 @@
       "title": "Hardware-Based Confidential Computing: Security Objectives and Mechanisms",
       "updated_at": "2026-11-02T20:34:34.697118+00:00"
     },
+    "doi:10.1109/mwscas60917.2024.10658823": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Jitter-Based True Random Number Generator with Dynamic Selection Bit Reconfiguration",
+      "updated_at": "2026-11-03T11:13:34.703079+00:00"
+    },
     "doi:10.1109/mwscas67364.2026.11680660": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4271,6 +4303,14 @@
       "status": "rejected",
       "title": "Design and Implementation of an Optimized RISC-V Core for SPHINCS+ Post-Quantum Cryptographic Algorithm",
       "updated_at": "2026-11-02T21:18:53.421284+00:00"
+    },
+    "doi:10.1109/smacd61181.2024.10745397": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "End-to-end Integration of OpenTitan Security Features in a Pure RISC-V SoC",
+      "updated_at": "2026-11-03T11:13:55.980762+00:00"
     },
     "doi:10.1109/smartnets69662.2026.11604860": {
       "category": "hors_sujet",
@@ -8728,6 +8768,22 @@
       "title": "Research on Memristors in Hardware Security",
       "updated_at": "2026-11-02T18:51:02.893910+00:00"
     },
+    "doi:10.3390/s24155001": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Memristive True Random Number Generator for Security Applications",
+      "updated_at": "2026-11-03T11:13:34.703016+00:00"
+    },
+    "doi:10.3390/s24175674": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Hardware-Efficient Configurable Ring-Oscillator-Based Physical Unclonable Function/True Random Number Generator Module for Secure Key Management",
+      "updated_at": "2026-11-03T11:13:34.703040+00:00"
+    },
     "doi:10.3390/s25051629": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -8999,6 +9055,14 @@
       "status": "rejected",
       "title": "HARDWARE AND SOFTWARE IMPLEMENTATION OF IMAGE SECURITY ALGORITHMS WITH AI–ML INTEGRATION : A COMPREHENSIVE SURVEY",
       "updated_at": "2026-11-02T15:19:55.918237+00:00"
+    },
+    "doi:10.36227/techrxiv.172349086.64377246/v1": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Exploiting read noise of filamentary VCM ReRAM for efficient TRNG",
+      "updated_at": "2026-11-03T11:13:34.703035+00:00"
     },
     "doi:10.36227/techrxiv.173397952.21406854/v1": {
       "category": "secondaire",
@@ -9639,6 +9703,22 @@
       "status": "rejected",
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
+    },
+    "doi:10.48550/arxiv.2407.03745": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "SRAS: Self-governed Remote Attestation Scheme for Multi-party Collaboration",
+      "updated_at": "2026-11-03T11:14:34.919112+00:00"
+    },
+    "doi:10.48550/arxiv.2407.09203": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "On the Design and Security of Collective Remote Attestation Protocols",
+      "updated_at": "2026-11-03T11:14:04.614388+00:00"
     },
     "doi:10.48550/arxiv.2408.08795": {
       "category": "transfert_explicite",
@@ -10984,6 +11064,14 @@
       "title": "Hardware Implementation of Fault Analysis in Transmission Line, Transformer Protection, Overload Sharing in Power Stations Using PLC",
       "updated_at": "2026-11-02T20:18:07.523984+00:00"
     },
+    "doi:10.64552/wipiec.v10i2.60": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "COSOI: True Random Number Generator Based on Coherent Sampling using the FD-SOI technology",
+      "updated_at": "2026-11-03T11:13:34.703085+00:00"
+    },
     "doi:10.64771/ijesat.2026.v26.i10.4004": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -12031,6 +12119,14 @@
       "status": "imported",
       "title": "Isolation Failure From Shared Storage: Characterizing and Exploiting Page-Cache SCA Leakage Across Containers and VMs",
       "updated_at": "2026-11-02T19:56:30.267849+00:00"
+    },
+    "title:jammingresilientcommunicationforindustrialiotsystemsusingchaoticoscillatorsandphysicalunclonablefunctions": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Jamming-Resilient Communication for Industrial IoT Systems using Chaotic Oscillators and Physical Unclonable Functions",
+      "updated_at": "2026-11-03T11:13:23.740217+00:00"
     },
     "title:kettleattestedbuildsforverifiablesoftwareprovenance": {
       "category": "secondaire",

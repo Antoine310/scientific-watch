@@ -420,6 +420,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/icccn61486.2024.10637594": {
+    "doi": "https://doi.org/10.1109/icccn61486.2024.10637594",
+    "publication_date": "2024-07-29",
+    "publication_type": "conference",
+    "publication_venue": "International Conference on Computer Communications and Networks (ICCCN)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/icccn61486.2024.10637594",
+    "summary": "Ce papier explore l'utilisation d'environnements d'exécution de confiance (TEE) multi-enclaves basés sur l'architecture RISC-V pour protéger l'apprentissage automatique embarqué (on-device machine learning). Les auteurs identifient les menaces spécifiques à ce paradigme, présentent des résultats expérimentaux démontrant un avantage de performance prometteur, et discutent des directions techniques pour les menaces non résolues par les TEE.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Towards Protecting On-Device Machine Learning with RISC-V based Multi-Enclave TEE",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/icdcs68853.2026.11510880": {
     "publication_date": "2026-03-27",
     "publication_type": "conference",
@@ -780,6 +797,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/smacd61181.2024.10745397": {
+    "doi": "https://doi.org/10.1109/smacd61181.2024.10745397",
+    "publication_date": "2024-07-02",
+    "publication_type": "conference",
+    "publication_venue": "International Conference on Synthesis, Modeling, Analysis and Simulation Methods and Applications to Circuit Design",
+    "score": 95,
+    "source": "http://dx.doi.org/10.1109/smacd61181.2024.10745397",
+    "summary": "Cette étude présente l'intégration de bout en bout d'OpenTitan, une racine de confiance (RoT) silicium open-source, dans un SoC entièrement basé sur l'architecture RISC-V. OpenTitan y agit comme un co-processeur sécurisé pour accélérer la cryptographie tout en maintenant une forte isolation entre le domaine Hôte (processeur CVA6 sous Linux) et le domaine Sûr (OpenTitan). L'évaluation sur FPGA démontre que les performances des opérations cryptographiques compensent la surcharge de communication entre les domaines.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "End-to-end Integration of OpenTitan Security Features in a Pure RISC-V SoC",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/sp61157.2025.00220": {
     "publication_date": "2025-05-12",
