@@ -1,8 +1,8 @@
 {
-  "accepted": 51,
+  "accepted": 52,
   "completed": false,
-  "cursor": "*",
-  "evaluated": 1153,
+  "cursor": "MTc2OTE2ODg0OTAwMCwxMC4xMDE2JTJGai5pamhtLjIwMjYuMTA0NTgx",
+  "evaluated": 1178,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -72,13 +72,14 @@
     "monthly/2026-05/query-21 : résultat tronqué au plafond 12 pages",
     "monthly/2026-05/query-22 : résultat tronqué au plafond 12 pages",
     "monthly/2026-05/query-23 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-05/query-24 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-05/query-24 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-04/query-13 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-04",
   "needs_publish": false,
-  "offset": 0,
-  "pages_done": 944,
-  "pages_in_query": 0,
+  "offset": 160,
+  "pages_done": 967,
+  "pages_in_query": 4,
   "pending": [],
   "phase": "monthly",
   "prefilter_review": [
@@ -2345,10 +2346,82 @@
       "publication_date": "2026-04-18",
       "source": "arxiv",
       "title": "enclawed: A Configurable, Sector-Neutral Hardening Framework for Single-User AI Assistant Gateways"
+    },
+    {
+      "doi": "https://doi.org/10.1145/3796531",
+      "identity": "title:llmiareaninputawareresilienceestimationmethodologyforllmsunderhardwaretransientfaults",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-04-13",
+      "source": "crossref",
+      "title": "LLM-IARE: An Input-Aware Resilience Estimation Methodology for LLMs under Hardware Transient Faults"
+    },
+    {
+      "doi": "https://doi.org/10.1115/1.4071107",
+      "identity": "title:designreuseviaautomatedrequirementsdrivenretrievalaframeworkforelectronichardware",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-04-29",
+      "source": "crossref",
+      "title": "Design Reuse Via Automated Requirements-Driven Retrieval: A Framework for Electronic Hardware"
+    },
+    {
+      "doi": "https://doi.org/10.1145/3797968",
+      "identity": "title:benchmarkingfaulttolerantquantumcomputinghardwareviaqlops",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-04-20",
+      "source": "crossref",
+      "title": "Benchmarking fault-tolerant quantum computing hardware via QLOPS"
+    },
+    {
+      "doi": "https://doi.org/10.1108/978-1-83549-198-020261001",
+      "identity": "title:theinternetofthingsinthedefenceindustrychallengesandsolutionsformilitarysecurity",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-04-22",
+      "source": "crossref",
+      "title": "The Internet of Things in the Defence Industry: Challenges and Solutions for Military Security"
+    },
+    {
+      "doi": "https://doi.org/10.1007/s41635-026-00177-1",
+      "identity": "title:trollocsecurityclosureagainsthardwaretrojansbylogiclockingandlayouthardening",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-04-01",
+      "source": "crossref",
+      "title": "TroLLoc: Security Closure against Hardware Trojans by Logic Locking and Layout Hardening"
+    },
+    {
+      "doi": "https://doi.org/10.1108/ics-01-2026-0045",
+      "identity": "title:everydaytrackingandextraordinaryharmitemfindermisuseindigitalcoercivecontrol",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-04-02",
+      "source": "crossref",
+      "title": "Everyday tracking and extraordinary harm: item finder misuse in digital coercive control"
+    },
+    {
+      "doi": "https://doi.org/10.3390/buildings16071412",
+      "identity": "title:fromhousingsecuritytohousingqualitythecommonimplicationsofjapansurrentalhousingexperienceforchinasaffordablehousingandsouthkoreaspublichousing",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-04-02",
+      "source": "crossref",
+      "title": "From “Housing Security” to “Housing Quality”: The Common Implications of Japan’s UR Rental Housing Experience for China’s Affordable Housing and South Korea’s Public Housing"
+    },
+    {
+      "doi": "https://doi.org/10.4018/979-8-3373-8745-1.ch008",
+      "identity": "title:artificialintelligenceinagricultureandfoodsecurity",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-04-02",
+      "source": "crossref",
+      "title": "Artificial Intelligence in Agriculture and Food Security"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1402-4896/ae5ae3",
+      "identity": "title:designandhardwareimplementationofextrememultistablechaoticsystems",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-04-14",
+      "source": "crossref",
+      "title": "Design and hardware implementation of extreme multistable chaotic systems"
     }
   ],
-  "query_index": 6,
-  "secondary": 53,
+  "query_index": 14,
+  "secondary": 54,
   "skipped": 1125,
   "version": 1
 }
