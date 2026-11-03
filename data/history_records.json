@@ -2241,6 +2241,106 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.46586/uasc.2026.002": {
+    "doi": "https://doi.org/10.46586/uasc.2026.002",
+    "publication_date": "2026-02-03",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-02-03",
+    "publication_type": "revue",
+    "publication_venue": "Proceedings of the Microarchitecture Security Conference",
+    "score": 85,
+    "source": "https://doi.org/10.46586/uasc.2026.002",
+    "summary": "Cet article étudie l'exploitation de l'exécution spéculative via les opérations de stockage (stores) et de purge (flush) sur les processeurs Intel et AMD, mettant en évidence de nouvelles traces microarchitecturales liées aux tables de pages et aux TLB.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "General Store: Speculative Address Translation in x86 Processors",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/uasc.2026.003": {
+    "doi": "https://doi.org/10.46586/uasc.2026.003",
+    "publication_date": "2026-02-03",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-02-03",
+    "publication_type": "revue",
+    "publication_venue": "Proceedings of the Microarchitecture Security Conference",
+    "score": 85,
+    "source": "https://doi.org/10.46586/uasc.2026.003",
+    "summary": "Cette publication étudie l'optimisation matérielle de l'élimination des écritures de zéros (zero-store elimination) dans les processeurs modernes Intel, ses implications en matière de sécurité, et démontre une attaque par canal auxiliaire basée sur cette fonctionnalité contre le cryptosystème SIKE.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Zero-Store Elimination and its Implications on the SIKE Cryptosystem",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/uasc.2026.004": {
+    "doi": "https://doi.org/10.46586/uasc.2026.004",
+    "publication_date": "2026-02-03",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-02-03",
+    "publication_type": "revue",
+    "publication_venue": "Proceedings of the Microarchitecture Security Conference",
+    "score": 75,
+    "source": "https://doi.org/10.46586/uasc.2026.004",
+    "summary": "Cet article présente BROL, une technique de protection logicielle contre la rétro-ingénierie et le piratage. Elle lie le logiciel à une machine spécifique et cache son code dans le cache d'instructions du processeur en utilisant le déchiffrement avec une clé spécifique à la machine, l'aliasing de mémoire physique et l'éviction ciblée du cache.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "BROL: Cache-Only Execution for Software Protection",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/uasc.2026.005": {
+    "doi": "https://doi.org/10.46586/uasc.2026.005",
+    "publication_date": "2026-02-03",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-02-03",
+    "publication_type": "revue",
+    "publication_venue": "Proceedings of the Microarchitecture Security Conference",
+    "score": 85,
+    "source": "https://doi.org/10.46586/uasc.2026.005",
+    "summary": "Cet article présente SplittingSecrets, un outil basé sur un compilateur pour contrer les canaux auxiliaires exploitant les pré-chercheurs dépendants de la mémoire de données (DMP). Les auteurs montrent que le code à temps constant est insuffisant face aux DMP, car ceux-ci peuvent fuiter des données au repos n'étant jamais utilisées de manière non sécurisée. L'outil transforme les opérations mémoire pour empêcher que les secrets ne ressemblent à des adresses, évitant ainsi l'activation des DMP sans les désactiver totalement. Une implémentation LLVM pour AArch64 et des tests sur libsodium (Apple M-series) sont menés.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "SplittingSecrets: A Compiler-Based Defense for Preventing Data Memory-Dependent Prefetcher Side-Channels",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/uasc.2026.006": {
+    "doi": "https://doi.org/10.46586/uasc.2026.006",
+    "publication_date": "2026-02-03",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-02-03",
+    "publication_type": "revue",
+    "publication_venue": "Proceedings of the Microarchitecture Security Conference",
+    "score": 85,
+    "source": "https://doi.org/10.46586/uasc.2026.006",
+    "summary": "Cet article présente WeMu, un premier cadre d'émulation conçu pour analyser et rétro-ingénierer les machines bizarres microarchitecturales (\u0010WMs), permettant d'observer des calculs cachés tout en surmontant les limites de la simulation microarchitecturale complète.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "WeMu: Effective and Scalable Emulation of Microarchitectural Weird Machines",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.46586/uasc.2026.008": {
     "publication_date": "2026-02-03",
     "publication_type": "revue",
