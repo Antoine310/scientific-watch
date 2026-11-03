@@ -31,7 +31,7 @@ jobs:
       OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
       VENUE_BACKFILL_APPLY: ${{ inputs.apply }}
       VENUE_BACKFILL_FORCE: ${{ inputs.force }}
-      VENUE_BACKFILL_LIMIT: '20'
+      VENUE_BACKFILL_LIMIT: '100'
       VENUE_BACKFILL_TITLE_SEARCH: 'true'
     steps:
       - name: Checkout du depot prive
