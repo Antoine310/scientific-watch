@@ -1023,6 +1023,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex (titre exact)"
   },
+  "doi:10.1109/tdsc.2025.3617019": {
+    "doi": "https://doi.org/10.1109/tdsc.2025.3617019",
+    "publication_date": "2026-01-01",
+    "publication_date_note": "Date source Crossref : 2026-01 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2026-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Dependable and Secure Computing",
+    "score": 78,
+    "source": "https://doi.org/10.1109/tdsc.2025.3617019",
+    "summary": "Cette étude analyse les causes profondes des attaques par empreinte de site web microarchitecturales (website-fingerprinting) basées sur le temps. Les auteurs développent un cadre pour identifier et mesurer la contribution de différentes sources de fuite (contention de cœur, interruptions, mise à l'échelle de la fréquence, et éviction de cache) et démontrent qu'isoler ou contrôler ces sources permet de comprendre, d'atténuer ou de perpétrer ces attaques.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Fish and Chips: On the Root Causes of Co-Located Website-Fingerprinting Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tdsc.2025.3646640": {
     "doi": "https://doi.org/10.1109/tdsc.2025.3646640",
     "publication_date": "2026-05-01",
