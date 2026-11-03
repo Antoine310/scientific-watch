@@ -1,8 +1,8 @@
 {
-  "accepted": 38,
+  "accepted": 39,
   "completed": false,
-  "cursor": "MTc3ODc1MzQ0MjAwMCwxMC4xMDE2JTJGai5yZXRyZWMuMjAyNi4xMDE3ODU=",
-  "evaluated": 833,
+  "cursor": "MTc4MTE5MDY1MzAwMCwxMC4yMTcyJTJGMzM2NzYzMg==",
+  "evaluated": 858,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -51,14 +51,875 @@
     "monthly/2026-07/query-23 : résultat tronqué au plafond 12 pages",
     "monthly/2026-07/query-24 : résultat tronqué au plafond 12 pages",
     "monthly/2026-06/query-13 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-06/query-14 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-06/query-14 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-06/query-15 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-06/query-16 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-06",
   "needs_publish": false,
-  "offset": 320,
-  "pages_done": 669,
-  "pages_in_query": 8,
-  "pending": [],
+  "offset": 200,
+  "pages_done": 690,
+  "pages_in_query": 5,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "(PUF)": [
+            145
+          ],
+          "(SNDP),": [
+            98
+          ],
+          "(STDP),": [
+            94
+          ],
+          "(hole‐rich": [
+            120
+          ],
+          "0.92.": [
+            159
+          ],
+          "1": [
+            181
+          ],
+          "512": [
+            176
+          ],
+          "95%.": [
+            195
+          ],
+          "A": [
+            105
+          ],
+          "ABSTRACT": [
+            0
+          ],
+          "By": [
+            126
+          ],
+          "Finally,": [
+            160
+          ],
+          "LTP": [
+            109
+          ],
+          "MNIST": [
+            189
+          ],
+          "Optoelectronic": [
+            1,
+            27
+          ],
+          "PPC": [
+            124
+          ],
+          "PPC.": [
+            78
+          ],
+          "STP": [
+            107
+          ],
+          "These": [
+            79
+          ],
+          "This": [
+            52
+          ],
+          "V,": [
+            182
+          ],
+          "a": [
+            84,
+            138,
+            153,
+            161
+          ],
+          "accuracy": [
+            193
+          ],
+          "altering": [
+            56
+          ],
+          "amorphous": [
+            33,
+            66
+          ],
+          "an": [
+            192
+          ],
+          "analysis": [
+            86
+          ],
+          "and": [
+            22,
+            60,
+            95,
+            131,
+            183
+          ],
+          "are": [
+            81
+          ],
+          "artificial": [
+            163
+          ],
+          "as": [
+            4
+          ],
+          "at": [
+            180
+          ],
+          "authentication": [
+            149
+          ],
+          "based": [
+            31,
+            71
+          ],
+          "been": [
+            112,
+            167
+          ],
+          "behaviors,": [
+            90
+          ],
+          "brain's": [
+            14
+          ],
+          "brain,": [
+            43
+          ],
+          "by": [
+            18,
+            83
+          ],
+          "compact": [
+            25
+          ],
+          "composition": [
+            59
+          ],
+          "compositions.": [
+            104
+          ],
+          "computing": [
+            23
+          ],
+          "concept": [
+            141
+          ],
+          "conductance": [
+            178
+          ],
+          "control": [
+            76
+          ],
+          "datasets": [
+            190
+          ],
+          "demonstrated": [
+            151
+          ],
+          "demonstrated,": [
+            113
+          ],
+          "demonstrates": [
+            54
+          ],
+          "detection,": [
+            20
+          ],
+          "developed": [
+            168
+          ],
+          "devices": [
+            101
+          ],
+          "different": [
+            88
+          ],
+          "digits": [
+            186
+          ],
+          "discrete": [
+            177
+          ],
+          "distinct": [
+            129
+          ],
+          "dynamics": [
+            133
+          ],
+          "dynamics.": [
+            125
+          ],
+          "effects": [
+            116
+          ],
+          "efficient": [
+            15
+          ],
+          "element": [
+            7
+          ],
+          "elemental": [
+            58
+          ],
+          "enable": [
+            75
+          ],
+          "exhibit": [
+            36
+          ],
+          "fast": [
+            130
+          ],
+          "findings": [
+            80
+          ],
+          "for": [
+            146
+          ],
+          "function": [
+            144
+          ],
+          "gallium": [
+            68
+          ],
+          "handwritten": [
+            185
+          ],
+          "hardware": [
+            148
+          ],
+          "hardware.": [
+            26
+          ],
+          "has": [
+            111,
+            166
+          ],
+          "high": [
+            154
+          ],
+          "hole‐deficient)": [
+            122
+          ],
+          "in": [
+            99,
+            187
+          ],
+          "including": [
+            91
+          ],
+          "indium": [
+            67
+          ],
+          "inkjet‐printed": [
+            170
+          ],
+          "integrating": [
+            19
+          ],
+          "interface": [
+            118
+          ],
+          "interfaces": [
+            63
+          ],
+          "into": [
+            24
+          ],
+          "is": [
+            150
+          ],
+          "key": [
+            6
+          ],
+          "low‐cost": [
+            147
+          ],
+          "memory,": [
+            21
+          ],
+          "metal": [
+            34
+          ],
+          "network": [
+            165
+          ],
+          "neural": [
+            164
+          ],
+          "neuromorphic": [
+            9
+          ],
+          "of": [
+            8,
+            41,
+            64,
+            77,
+            87,
+            117,
+            134,
+            140,
+            158,
+            194
+          ],
+          "on": [
+            32,
+            123
+          ],
+          "optical": [
+            45
+          ],
+          "optoelectronic": [
+            73,
+            171
+          ],
+          "or": [
+            121
+          ],
+          "owing": [
+            47
+          ],
+          "oxide(a‐IGZO)": [
+            70
+          ],
+          "oxides,": [
+            35
+          ],
+          "particularly": [
+            29
+          ],
+          "pattern": [
+            155
+          ],
+          "persistent": [
+            50
+          ],
+          "photoconductivity.": [
+            51
+          ],
+          "physically": [
+            142
+          ],
+          "plasticity": [
+            93,
+            97
+          ],
+          "plasticity,": [
+            38
+          ],
+          "printed": [
+            100,
+            136
+          ],
+          "processing": [
+            17
+          ],
+          "proof": [
+            139
+          ],
+          "recognizing": [
+            184
+          ],
+          "replicate": [
+            13
+          ],
+          "resembling": [
+            39
+          ],
+          "robust": [
+            106
+          ],
+          "score": [
+            157
+          ],
+          "serve": [
+            3
+          ],
+          "showing": [
+            173
+          ],
+          "similarity": [
+            156
+          ],
+          "slow‐decay": [
+            132
+          ],
+          "software‐based": [
+            162
+          ],
+          "solution‐processed": [
+            65
+          ],
+          "spike‐number‐dependent": [
+            96
+          ],
+          "spike‐timing‐dependent": [
+            92
+          ],
+          "states": [
+            179
+          ],
+          "stimulation,": [
+            46
+          ],
+          "supported": [
+            82
+          ],
+          "synapses": [
+            2,
+            74
+          ],
+          "synapses,": [
+            28,
+            137,
+            172
+          ],
+          "synaptic": [
+            37,
+            89
+          ],
+          "systematic": [
+            85
+          ],
+          "systems,": [
+            11
+          ],
+          "that": [
+            40,
+            55
+          ],
+          "the": [
+            5,
+            42,
+            57,
+            62,
+            115,
+            128,
+            135,
+            188
+          ],
+          "their": [
+            49
+          ],
+          "those": [
+            30
+          ],
+          "to": [
+            48,
+            108,
+            175
+          ],
+          "transformation": [
+            110
+          ],
+          "two‐terminal": [
+            72
+          ],
+          "type": [
+            119
+          ],
+          "unclonable": [
+            143
+          ],
+          "underscoring": [
+            114
+          ],
+          "up": [
+            174
+          ],
+          "upon": [
+            44
+          ],
+          "using": [
+            169
+          ],
+          "utilizing": [
+            127
+          ],
+          "varying": [
+            61,
+            103
+          ],
+          "vision": [
+            10
+          ],
+          "visual": [
+            16
+          ],
+          "which": [
+            12
+          ],
+          "with": [
+            102,
+            152,
+            191
+          ],
+          "work": [
+            53
+          ],
+          "zinc": [
+            69
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Manvendra Singh"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mohammed Hadhi Pazhaya Puthanveettil"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Subho Dasgupta"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1002/admt.71089",
+        "id": "https://doi.org/10.1002/admt.71089",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1002/admt.71089"
+        },
+        "publication_date": "2026-06-10",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2026-06-10",
+        "publication_type": "revue",
+        "publication_venue": "Advanced Materials Technologies",
+        "title": "Tunable Synaptic Plasticity in Inkjet‐Printed Oxide‐Based Heterojunctions for Hardware Authentication and Brain‐Inspired Optoelectronics",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "(PUFs),": [
+            64
+          ],
+          "2016": [
+            88
+          ],
+          "Hardware": [
+            0
+          ],
+          "IC": [
+            22,
+            46,
+            101
+          ],
+          "IoT": [
+            28
+          ],
+          "Modern": [
+            30
+          ],
+          "Researchers": [
+            52
+          ],
+          "This": [
+            75
+          ],
+          "Trojans,": [
+            40
+          ],
+          "a": [
+            5
+          ],
+          "analyzes": [
+            83
+          ],
+          "and": [
+            24,
+            48,
+            70,
+            94
+          ],
+          "architectures,": [
+            67
+          ],
+          "are": [
+            33
+          ],
+          "as": [
+            4,
+            38
+          ],
+          "attacks": [
+            36
+          ],
+          "attacks,": [
+            42
+          ],
+          "boot": [
+            66
+          ],
+          "challenges": [
+            97
+          ],
+          "circuits": [
+            12
+          ],
+          "compares": [
+            90
+          ],
+          "complexity": [
+            20
+          ],
+          "concern": [
+            7
+          ],
+          "counterfeit": [
+            45
+          ],
+          "defense": [
+            56
+          ],
+          "deployment": [
+            26
+          ],
+          "design": [
+            73
+          ],
+          "design,": [
+            23
+          ],
+          "design.": [
+            102
+          ],
+          "developments": [
+            86
+          ],
+          "devices.": [
+            29
+          ],
+          "digital": [
+            10,
+            100
+          ],
+          "discusses": [
+            78
+          ],
+          "due": [
+            13
+          ],
+          "emerged": [
+            3
+          ],
+          "engineering,": [
+            44
+          ],
+          "existing": [
+            91
+          ],
+          "from": [
+            87
+          ],
+          "functions": [
+            63
+          ],
+          "future": [
+            96
+          ],
+          "globalization": [
+            15
+          ],
+          "hardware": [
+            31,
+            39,
+            68,
+            80
+          ],
+          "has": [
+            2
+          ],
+          "have": [
+            53
+          ],
+          "highlights": [
+            95
+          ],
+          "in": [
+            8,
+            98
+          ],
+          "including": [
+            58
+          ],
+          "increasing": [
+            19
+          ],
+          "insertion,": [
+            47
+          ],
+          "integrated": [
+            11
+          ],
+          "intellectual": [
+            49
+          ],
+          "locking,": [
+            60
+          ],
+          "logic": [
+            59
+          ],
+          "major": [
+            6,
+            79
+          ],
+          "manufacturing,": [
+            18
+          ],
+          "mechanisms": [
+            57
+          ],
+          "methods,": [
+            93
+          ],
+          "modern": [
+            9
+          ],
+          "obfuscation,": [
+            69
+          ],
+          "of": [
+            16,
+            21,
+            27
+          ],
+          "onward,": [
+            89
+          ],
+          "paper": [
+            77
+          ],
+          "physically": [
+            61
+          ],
+          "piracy.": [
+            51
+          ],
+          "property": [
+            50
+          ],
+          "proposed": [
+            54
+          ],
+          "protection": [
+            92
+          ],
+          "recent": [
+            84
+          ],
+          "research": [
+            85
+          ],
+          "resistant": [
+            72
+          ],
+          "reverse": [
+            43
+          ],
+          "review": [
+            76
+          ],
+          "secure": [
+            65,
+            99
+          ],
+          "security": [
+            1,
+            81
+          ],
+          "semiconductor": [
+            17
+          ],
+          "several": [
+            55
+          ],
+          "side-channel": [
+            41,
+            71
+          ],
+          "such": [
+            37
+          ],
+          "systems": [
+            32
+          ],
+          "techniques.": [
+            74
+          ],
+          "threats,": [
+            82
+          ],
+          "to": [
+            14,
+            35
+          ],
+          "unclonable": [
+            62
+          ],
+          "vulnerable": [
+            34
+          ],
+          "widespread": [
+            25
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Ashish Kumar"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Rita Devi"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.25258/ijddt.16.53s.30",
+        "id": "https://doi.org/10.25258/ijddt.16.53s.30",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.25258/ijddt.16.53s.30"
+        },
+        "publication_date": "2026-06-10",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2026-06-10",
+        "publication_type": "revue",
+        "publication_venue": "International Journal of Drug Delivery Technology",
+        "title": "Hardware Security in Digital Integrated Circuits A Review of Threats, Attacks, and Defense Mechanisms",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -1724,10 +2585,122 @@
       "publication_date": "2026-06-08",
       "source": "crossref",
       "title": "Feasibility of multi-gigahertz satellite-to-ground secure quantum communication"
+    },
+    {
+      "doi": "https://doi.org/10.51870/grrp7450",
+      "identity": "title:thepoliticsofwatersecurityinthenilebasinfromhydrohegemonytocommunityofhydrosecurity",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-06-01",
+      "source": "crossref",
+      "title": "The Politics of Water Security in the Nile Basin: From Hydrohegemony to Community of Hydrosecurity?"
+    },
+    {
+      "doi": "https://doi.org/10.3390/electronics15112399",
+      "identity": "title:alightweightconvolutionawareriscvsoftprocessorforintelligentwearablesystems",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-06-01",
+      "source": "crossref",
+      "title": "A Lightweight Convolution-Aware RISC-V Soft Processor for Intelligent Wearable Systems"
+    },
+    {
+      "doi": "https://doi.org/10.3389/fenrg.2026.1741427",
+      "identity": "title:dayaheadoptimalschedulingofactivedistributionnetworksconsideringsecurityconstraintsviatransmissiondistributioncoordination",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-06-02",
+      "source": "crossref",
+      "title": "Day-ahead optimal scheduling of active distribution networks considering security constraints via transmission-distribution coordination"
+    },
+    {
+      "doi": "https://doi.org/10.55041/ijcope.v2i5.885",
+      "identity": "title:iotdrivennamebasedpatientmonitoringsystemwithfederatedlearningaipowereddiseasepredictionandsecurity",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-06-02",
+      "source": "crossref",
+      "title": "IoT-Driven Name-Based Patient Monitoring System with Federated Learning, AI-Powered Disease Prediction, and Security"
+    },
+    {
+      "doi": "https://doi.org/10.1145/3749848",
+      "identity": "title:efficientruntimeverificationofrealtimesystemsunderparametriccommunicationdelays",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-06-03",
+      "source": "crossref",
+      "title": "Efficient Runtime Verification of Real-Time Systems under Parametric Communication Delays"
+    },
+    {
+      "doi": "https://doi.org/10.1364/ol.600453",
+      "identity": "title:hardwareefficientphotonicneuralnetworkprocessorbymodedivisionmultiplexing",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-06-23",
+      "source": "crossref",
+      "title": "Hardware-efficient photonic neural network processor by mode-division multiplexing"
+    },
+    {
+      "doi": "https://doi.org/10.3390/telecom7030070",
+      "identity": "title:hardwareimpairmentawarecnnbasedhybridprecodingforcellfreemassivemimosystemsunderimperfectcsiinterahertzenabled6gnetworks",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-06-03",
+      "source": "crossref",
+      "title": "Hardware-Impairment-Aware CNN-Based Hybrid Precoding for Cell-Free Massive MIMO Systems Under Imperfect CSI in Terahertz-Enabled 6G Networks"
+    },
+    {
+      "doi": "https://doi.org/10.1007/s41635-026-00181-5",
+      "identity": "title:particulatecompositesaidedcounterfeitelectronicassemblydetectionusinggenerativenetworkmodels",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-06-04",
+      "source": "crossref",
+      "title": "Particulate Composites Aided Counterfeit Electronic Assembly Detection Using Generative Network Models"
+    },
+    {
+      "doi": "https://doi.org/10.48084/etasr.18638",
+      "identity": "title:enhancedchannelestimationinrisaidedofdmsystemsusingdftbasedpilotoptimizationunderpracticalhardwareconstraints",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-06-06",
+      "source": "crossref",
+      "title": "Enhanced Channel Estimation in RIS-Aided OFDM Systems Using DFT-Based Pilot Optimization under Practical Hardware Constraints"
+    },
+    {
+      "doi": "https://doi.org/10.20944/preprints202606.0498.v1",
+      "identity": "title:robuststealthyhighimpactmalicioushardwareattacksondeepneuralnetworks",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-06-05",
+      "source": "crossref",
+      "title": "Robust Stealthy High-Impact Malicious Hardware Attacks on Deep Neural Networks"
+    },
+    {
+      "doi": "https://doi.org/10.1364/ao.595667",
+      "identity": "title:designandhardwareimplementationofarobustdeepvisionbasedfsopatsystem",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-06-22",
+      "source": "crossref",
+      "title": "Design and hardware implementation of a robust deep vision-based FSO-PAT system"
+    },
+    {
+      "doi": "https://doi.org/10.1002/atn2.70138",
+      "identity": "title:simplifyingiliotibialbandlateralextraarticulartenodesisfixationduringanteriorcruciateligamentreconstructionahardwaresparingapproach",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-06-08",
+      "source": "crossref",
+      "title": "Simplifying Iliotibial Band Lateral Extra‐articular Tenodesis Fixation During Anterior Cruciate Ligament Reconstruction: A Hardware‐Sparing Approach"
+    },
+    {
+      "doi": "https://doi.org/10.47392/irjaeh.2026.0537",
+      "identity": "title:ahardwaresecuredwearabledevicefordirecthydrationandvitalmonitoringusingmultimodalsensorfusion",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-06-10",
+      "source": "crossref",
+      "title": "A Hardware-Secured Wearable Device for Direct Hydration and Vital Monitoring Using Multimodal Sensor Fusion"
+    },
+    {
+      "doi": "https://doi.org/10.3390/hardware4020012",
+      "identity": "title:lowcostopensourceelectricneedleincineratorforbiomedicalwastemanagement",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-06-11",
+      "source": "crossref",
+      "title": "Low-Cost Open-Source Electric Needle Incinerator for Biomedical Waste Management"
     }
   ],
-  "query_index": 15,
-  "secondary": 31,
-  "skipped": 762,
+  "query_index": 17,
+  "secondary": 35,
+  "skipped": 785,
   "version": 1
 }

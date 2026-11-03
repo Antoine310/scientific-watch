@@ -216,6 +216,14 @@
       "title": "Secure Authentication via Quantum Physical Unclonable Functions: A Review",
       "updated_at": "2026-11-01T02:15:02.252667+00:00"
     },
+    "doi:10.1002/qute.70328": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Noise as a Resource: Experimental Demonstration of Environment‐Assisted Quantum Transport on Quantum Hardware",
+      "updated_at": "2026-11-03T08:56:44.907116+00:00"
+    },
     "doi:10.1002/sd.71686": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -696,6 +704,14 @@
       "title": "An Ensemble-based unsupervised learning technique for identifying hardware trojan to enhance security and reliability",
       "updated_at": "2026-11-02T18:35:29.261973+00:00"
     },
+    "doi:10.1007/s10586-026-06082-0": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Design & development of data level security for digital health systems on FPGA",
+      "updated_at": "2026-11-03T08:55:18.008230+00:00"
+    },
     "doi:10.1007/s10586-026-06361-w": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -751,6 +767,14 @@
       "status": "rejected",
       "title": "Survey of Verification of RISC-V Processors",
       "updated_at": "2026-10-30T14:13:26.782730+00:00"
+    },
+    "doi:10.1007/s10836-026-06238-1": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "GHOST: Graph-based Hardware Ownership Security through Traceability",
+      "updated_at": "2026-11-03T08:56:34.548065+00:00"
     },
     "doi:10.1007/s10836-026-06245-2": {
       "category": "hors_sujet",
@@ -871,6 +895,14 @@
       "status": "rejected",
       "title": "Comparative energy awareness and performance analysis of ARM and RISC-V SHA-256 hardware acceleration on the RP2350",
       "updated_at": "2026-11-02T20:51:23.031620+00:00"
+    },
+    "doi:10.1007/s44443-026-00900-6": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Energy efficiency of AI hardware: a systematic review of GPU, TPU, and NPU architectures in the LLM era",
+      "updated_at": "2026-11-03T08:56:55.003863+00:00"
     },
     "doi:10.1007/s44443-026-01247-8": {
       "category": "secondaire",
@@ -1799,6 +1831,14 @@
       "status": "rejected",
       "title": "Fast and robust speckle pattern authentication by scale invariant feature transform algorithm in physical unclonable functions",
       "updated_at": "2026-10-31T02:13:31.872322+00:00"
+    },
+    "doi:10.1063/5.0322308": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Cross-platform hardware benchmark of style-based quantum GANs for data augmentation on superconducting and trapped-ion processors",
+      "updated_at": "2026-11-03T08:56:44.957483+00:00"
     },
     "doi:10.1080/03772063.2025.2501178": {
       "category": "secondaire",
@@ -4776,6 +4816,22 @@
       "title": "Enhancing Large Language Models for Hardware Verification: A Novel SystemVerilog Assertion Dataset",
       "updated_at": "2026-11-03T07:48:55.032688+00:00"
     },
+    "doi:10.1145/3765613.3811688": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Timestamps Unchained: Toward Secure Distance-Bounding on Commodity Wi-Fi Hardware",
+      "updated_at": "2026-11-03T08:56:23.692862+00:00"
+    },
+    "doi:10.1145/3765613.3811689": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "TinyContainer: Container Runtime Middleware Enabling Multi-tenant Microcontrollers with Built-in Security",
+      "updated_at": "2026-11-03T08:56:23.709284+00:00"
+    },
     "doi:10.1145/3765906": {
       "category": "secondaire",
       "decision": "examiner",
@@ -4823,6 +4879,14 @@
       "status": "rejected",
       "title": "An Energy Characterization Study of ML operators in XNNPACK on RISC-V Vector Hardware",
       "updated_at": "2026-11-02T20:11:06.135326+00:00"
+    },
+    "doi:10.1145/3779208.3806078": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "FUZZItizer: Hardware Sanitizer-Assisted Fuzzing for Automated SoC Vulnerability Detection",
+      "updated_at": "2026-11-03T08:56:34.529070+00:00"
     },
     "doi:10.1145/3779208.3807479": {
       "category": "coeur",
@@ -4952,6 +5016,14 @@
       "title": "ANCHOR: A Vision for Secure Persistent Key-Value Stores in Disaggregated Data Centers",
       "updated_at": "2026-11-02T17:58:15.270146+00:00"
     },
+    "doi:10.1145/3808287": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Cerisier: A Program Logic for Attestation in a Capability Machine",
+      "updated_at": "2026-11-03T08:56:54.983819+00:00"
+    },
     "doi:10.1145/3811540": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -5023,6 +5095,14 @@
       "status": "rejected",
       "title": "Design Tradeoffs in Backend Organization in Out-Of-Order RISC-V Processors.",
       "updated_at": "2026-11-02T21:17:11.405854+00:00"
+    },
+    "doi:10.1145/3817117": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "TzPy: Python Runtime for Edge Code Deployment on TrustZone",
+      "updated_at": "2026-11-03T08:56:23.614720+00:00"
     },
     "doi:10.1145/3820494": {
       "category": "hors_sujet",
@@ -5712,6 +5792,22 @@
       "title": "Proposal of an Identity Verification System Using Trusted Execution Environment in the Japan's Digital Authentication App",
       "updated_at": "2026-10-31T23:15:52.001795+00:00"
     },
+    "doi:10.1587/elex.23.20260174": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Design and evaluation of a stateless RISC-V platform for intermittently powered optical energy-harvesting IoT systems",
+      "updated_at": "2026-11-03T08:54:58.751811+00:00"
+    },
+    "doi:10.1587/elex.23.20260182": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "FWHT-RVV: A RISC-V vector processor with FWHT instruction extension for edge LLM inference",
+      "updated_at": "2026-11-03T08:54:58.771799+00:00"
+    },
     "doi:10.1587/elex.23.20260202": {
       "category": "secondaire",
       "decision": "examiner",
@@ -6112,6 +6208,22 @@
       "title": "Real-Time TRNG Health Monitoring with Higher-Order Proportion Testing and Rotating Pattern Detection at 500 MHz on FPGA",
       "updated_at": "2026-11-02T05:15:13.286929+00:00"
     },
+    "doi:10.21203/rs.3.rs-9697036/v1": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 72,
+      "status": "rejected",
+      "title": "Architecture Design and Implementation of a Custom Protocol-Based JTAG Debugging Protection System for Enhanced Hardware Security",
+      "updated_at": "2026-11-03T08:56:34.819607+00:00"
+    },
+    "doi:10.21203/rs.3.rs-9849559/v1": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "AI-based hardware trojan generation and detection in post-quantum cryptography",
+      "updated_at": "2026-11-03T08:56:23.676029+00:00"
+    },
     "doi:10.21203/rs.3.rs-9912035/v1": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -6424,6 +6536,14 @@
       "title": "True Random Number Generator Implemented in ReRAM Crossbar Based on Static Stochasticity of ReRAMs",
       "updated_at": "2026-11-02T23:13:53.632648+00:00"
     },
+    "doi:10.25258/ijddt.16.50s.52": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Federated and Privacy-Preserving Edge-TinyML Framework for Secure Cardiac Drug Response Monitoring Using Embedded Hardware– Software Co-Design",
+      "updated_at": "2026-11-03T08:56:44.929459+00:00"
+    },
     "doi:10.26233/heallink.tuc.105404": {
       "category": "coeur",
       "decision": "conserver",
@@ -6703,6 +6823,14 @@
       "status": "rejected",
       "title": "Trusted execution environments for quantum computers",
       "updated_at": "2026-10-30T23:13:24.479835+00:00"
+    },
+    "doi:10.3389/fcomp.2026.1753080": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Hardware- and software-based fingerprint liveness detection schemes—A literature review",
+      "updated_at": "2026-11-03T08:56:23.637236+00:00"
     },
     "doi:10.3389/fcomp.2026.1869476": {
       "category": "secondaire",
@@ -7000,6 +7128,22 @@
       "title": "The Hardware Isolation Gap: A Systematic Survey of BitLocker Forensics in the TPM 2.0 Era",
       "updated_at": "2026-11-01T17:16:24.094234+00:00"
     },
+    "doi:10.3390/electronics15122511": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "An Open Hardware ML-KEM Polynomial Ring Accelerator on Chipyard RISC-V SoC: System-Level Integration and Evaluation",
+      "updated_at": "2026-11-03T08:56:34.623347+00:00"
+    },
+    "doi:10.3390/electronics15122534": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Hardware-Aware Parallel Emulation of BB84-like Circuit Primitives on NISQ Processors: Device Reliability and QBER-Based Disturbance Evaluation",
+      "updated_at": "2026-11-03T08:56:44.978033+00:00"
+    },
     "doi:10.3390/electronics15143093": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -7224,6 +7368,14 @@
       "title": "Integrating Physical Unclonable Functions with Machine Learning for the Authentication of Edge Devices in IoT Networks",
       "updated_at": "2026-10-30T20:15:50.777901+00:00"
     },
+    "doi:10.3390/fi18060306": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Secure Federated Intrusion Detection for Resource-Constrained IoT Devices Using Lightweight Cryptography: A Hardware-Validated Study",
+      "updated_at": "2026-11-03T08:56:34.586640+00:00"
+    },
     "doi:10.3390/info15080470": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -7375,6 +7527,14 @@
       "status": "rejected",
       "title": "Physical Unclonable Function Based Privacy-Preserving Authentication Scheme for Autonomous Vehicles Using Hardware Acceleration",
       "updated_at": "2026-11-01T08:13:44.413541+00:00"
+    },
+    "doi:10.3390/s26113503": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware-Efficient Real-Valued Neural Predistorter for Multimode Power Amplifiers",
+      "updated_at": "2026-11-03T08:56:23.659336+00:00"
     },
     "doi:10.3390/s26134212": {
       "category": "hors_sujet",
@@ -7655,6 +7815,14 @@
       "status": "rejected",
       "title": "Hardware-Bound Split-Key Framework for Software Protection Against Reverse Engineering",
       "updated_at": "2026-11-02T17:51:43.328421+00:00"
+    },
+    "doi:10.38124/ijisrt/26may1577": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "PhiNex: An ARM-FPGA Hybrid Security Gateway for Real-Time Phishing Detection Using PYNQ-Z2",
+      "updated_at": "2026-11-03T08:55:08.011766+00:00"
     },
     "doi:10.38124/ijisrt/26may1651": {
       "category": "hors_sujet",
@@ -8167,6 +8335,14 @@
       "status": "rejected",
       "title": "Analysis of the use of secure enclave and blockchain for securing electronic document management",
       "updated_at": "2026-11-02T02:13:43.310596+00:00"
+    },
+    "doi:10.48084/etasr.18359": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "A Hardware Platform for Smart Video Monitoring Based on ESP32-CAM and Mojo FPGA (Spartan-6) with Event Activation Triggered by a PIR Sensor",
+      "updated_at": "2026-11-03T08:56:34.604849+00:00"
     },
     "doi:10.48175/ijarsct-38938": {
       "category": "hors_sujet",
@@ -8992,6 +9168,14 @@
       "title": "The Impact of Human Resource Management on Achieving Organizational Excellence: A Field Study at the Social Security Fund, Ajdabiya Branch",
       "updated_at": "2026-11-02T13:41:11.866958+00:00"
     },
+    "doi:10.53894/ijirss.v9i6.11718": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware-in-the-loop-based SVPWM control of a PMSG-based wind energy conversion system",
+      "updated_at": "2026-11-03T08:56:34.567432+00:00"
+    },
     "doi:10.53941/pc.2026.100006": {
       "category": "coeur",
       "decision": "conserver",
@@ -9264,6 +9448,14 @@
       "title": "DESIGN AND FPGA IMPLEMENTATION OF A 32-BIT RISC-V PROCESSOR WITH A CUSTOM MATRIX MULTIPLY-ACCUMULATE ISA EXTENSION",
       "updated_at": "2026-11-02T15:51:01.533968+00:00"
     },
+    "doi:10.59188/eduvest.v6i6.52958": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Development of a Responsive Airbag Hardware Mechanism for Fall Mitigation and Injury Reduction in the Elderly",
+      "updated_at": "2026-11-03T08:56:34.509627+00:00"
+    },
     "doi:10.59256/ijsreat.20260604015": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -9431,6 +9623,14 @@
       "status": "rejected",
       "title": "Hardware-in-the-Loop (HIL) Simulation of an Automated Control System for the Energy Storage System as Part of an Autonomous Hybrid Power Plant",
       "updated_at": "2026-11-02T18:50:52.786862+00:00"
+    },
+    "doi:10.65770/tzmx1214": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "CubeSat Communication Signal Recovery System on Xilinx Zynq-7000 SoC Using Hardware-Software Co-Design",
+      "updated_at": "2026-11-03T08:56:34.837460+00:00"
     },
     "doi:10.66050/md3gq293": {
       "category": "hors_sujet",

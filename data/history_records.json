@@ -1286,6 +1286,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex (titre exact)"
   },
+  "doi:10.1145/3808287": {
+    "doi": "https://doi.org/10.1145/3808287",
+    "publication_date": "2026-06-08",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-06-08",
+    "publication_type": "revue",
+    "publication_venue": "Proceedings of the ACM on Programming Languages",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3808287",
+    "summary": "Cerisier est la première logique de programme pour le raisonnement modulaire sur l'attestation des enclaves et de leurs clients dans une machine à capacités (extendant CHERI-TrEE). Elle est mécanisée dans la logique de séparation Iris et le prouveur Rocq, permettant de prouver des propriétés de bout en bout pour des applications de calcul sécurisé externalisé, d'attestation mutuelle et de capteurs de confiance.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Cerisier: A Program Logic for Attestation in a Capability Machine",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3811543": {
     "publication_date": "2026-08-29",
     "publication_date_note": "",
