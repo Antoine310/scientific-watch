@@ -2257,6 +2257,86 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.46586/uasc.2026.101": {
+    "doi": "https://doi.org/10.46586/uasc.2026.101",
+    "publication_date": "2026-02-03",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-02-03",
+    "publication_type": "revue",
+    "publication_venue": "Proceedings of the Microarchitecture Security Conference",
+    "score": 75,
+    "source": "https://doi.org/10.46586/uasc.2026.101",
+    "summary": "Cet article présente malcos, une méthodologie et un outil permettant d'automatiser la synthèse de contrats de fuite axés sur les instructions pour les architectures de processeurs (notamment x86 et ARM), réduisant ainsi l'effort manuel requis pour modéliser les canaux auxiliaires microarchitecturaux.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Talk: Automated Synthesis of Instruction-Centric Leakage Contracts",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/uasc.2026.301": {
+    "doi": "https://doi.org/10.46586/uasc.2026.301",
+    "publication_date": "2026-02-03",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-02-03",
+    "publication_type": "revue",
+    "publication_venue": "Proceedings of the Microarchitecture Security Conference",
+    "score": 75,
+    "source": "https://doi.org/10.46586/uasc.2026.301",
+    "summary": "Ce papier présente DROW, une nouvelle classe d'attaques par exécution spéculative sans phase d'entraînement (training-free) ciblant les processeurs Apple Silicon. En exploitant une fonctionnalité matérielle de contournement aveugle (blind bypassing) liée à la spéculation sur les flux de données, les auteurs démontrent qu'il est possible de violer les vérifications de dépendance mémoire sans manipulation d'état architectural. L'évaluation montre une bande passante d'attaque élevée et quatre exploits pratiques, incluant des fuites de données inter-pages, le contournement d'ASLR/KASLR et de l'authentification de pointeurs ARM.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "WiP: DROW: Training-Free Load Speculative Execution Attacks on Apple Silicon",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/uasc.2026.302": {
+    "doi": "https://doi.org/10.46586/uasc.2026.302",
+    "publication_date": "2026-02-03",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-02-03",
+    "publication_type": "revue",
+    "publication_venue": "Proceedings of the Microarchitecture Security Conference",
+    "score": 75,
+    "source": "https://doi.org/10.46586/uasc.2026.302",
+    "summary": "Cette étude analyse l'impact de la complexité des systemes x86 modernes et multi-sockets (topologie, caches, noeuds NUMA) sur l'efficacité des attaques par cache basées sur les operations de purge (flush-based), telles que Flush+Reload et Flush+Flush.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "WiP: Flush-based Cache Attacks on Modern / Multi-Socket x86 systems",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/uasc.2026.303": {
+    "doi": "https://doi.org/10.46586/uasc.2026.303",
+    "publication_date": "2026-02-03",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-02-03",
+    "publication_type": "revue",
+    "publication_venue": "Proceedings of the Microarchitecture Security Conference",
+    "score": 75,
+    "source": "https://doi.org/10.46586/uasc.2026.303",
+    "summary": "Cet article étudie l'attribution des ports d'exécution dans les processeurs Intel Core. Les auteurs démontrent que les politiques d'assignation des micro-opérations sont beaucoup plus complexes que ne le suggéraient les modèles précédents, intégrant des heuristiques dynamiques dépendant de l'instruction, de la génération micro-architecturale et, de manière surprenante, des données traitées. Ces mécanismes sont exploités pour mettre en place des canaux cachés (covert channels) intra-cœur et inter-cœurs.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "WiP: μ-ops, I Did it Again: A Second Look at Port Assignment on Intel CPUs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.48550/arxiv.2408.16220": {
     "doi": "https://doi.org/10.48550/arxiv.2408.16220",
     "publication_date": "2024-08-29",
