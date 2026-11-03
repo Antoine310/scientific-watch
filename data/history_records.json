@@ -3402,6 +3402,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:onabnormalexecutiontimingofconditionaljumpinstructions": {
+    "doi": "",
+    "publication_date": "2026-01-16",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2601.11696v1",
+    "summary": "Cet article analyse et mesure systématiquement les variabilités de temps d'exécution des instructions de saut conditionnel pouvant être macro-fusionnées, en lien avec leur placement dans le cache micro-op et le cache d'instructions L1 sur diverses microarchitectures Intel.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "On Abnormal Execution Timing of Conditional Jump Instructions",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:optimizingtlscryptographicoperationsonriscvsocwithopentitanrot": {
     "publication_date": "2025-01-01",
     "score": 90,
@@ -3582,6 +3602,46 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:spoilerguardgatinglatencyeffectsofmemoryaccessesthroughrandomizeddependencyprediction": {
+    "doi": "",
+    "publication_date": "2026-01-29",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2601.21211v1",
+    "summary": "SPOILER-GUARD est une défense matérielle conçue pour atténuer les effets de latence des accès mémoire et empêcher l'attaque SPOILER. En randomisant dynamiquement la résolution des dépendances spéculatives et en étiquetant les entrées de stockage, la solution réduit les échecs de spéculation tout en améliorant les performances et en maintenant de faibles surcoûts matériels.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SPOILER-GUARD: Gating Latency Effects of Memory Accesses through Randomized Dependency Prediction",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:supportingsecuredintegrationofmicroarchitecturaldefenses": {
+    "doi": "",
+    "publication_date": "2026-01-08",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2601.05057v1",
+    "summary": "Cet article aborde le problème de l'intégration naïve de contre-mesures microarchitecturales qui peut engendrer des vulnérabilités par violation des hypothèses de défense (MDAV). Les auteurs proposent une méthodologie en deux étapes combinant un modèle de vérification formelle (Maestro) et une évaluation sur simulateur (GEM5).",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Supporting Secured Integration of Microarchitectural Defenses",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:teexteeawareaccelerationframeworkforlargevisionmodelsattheedge": {
     "publication_date": "2026-08-24",
     "publication_date_note": "",
@@ -3616,6 +3676,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Tessera: Secure, Near-Line-Rate Weight Streaming for UMA Edge Accelerators",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:therealmenaceofcloningattacksonsgxapplications": {
+    "doi": "",
+    "publication_date": "2026-01-14",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2601.09273v1",
+    "summary": "Cette étude analyse la vulnérabilité de 72 propositions basées sur Intel SGX face aux attaques de clonage (forking attacks), souvent négligées par rapport aux attaques de retour en arrière (rollback). Les résultats démontrent qu'environ 20 % des applications analysées sont vulnérables, y compris certaines utilisant des compteurs monotones.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "The Real Menace of Cloning Attacks on SGX Applications",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
