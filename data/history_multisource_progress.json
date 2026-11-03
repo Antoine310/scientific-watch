@@ -1,8 +1,8 @@
 {
-  "accepted": 81,
+  "accepted": 82,
   "completed": false,
-  "cursor": "MTc0OTUyMzU0NTAwMCwxMC4xMDE2JTJGai5mdXR1cmUuMjAyNS4xMDc5Mzk=",
-  "evaluated": 1694,
+  "cursor": "*",
+  "evaluated": 1719,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -114,14 +114,233 @@
     "monthly/2026-01/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2026-01/query-19 : résultat tronqué au plafond 12 pages",
     "monthly/2026-01/query-20 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-01/query-21 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-01/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-01/query-22 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-01/query-23 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-01",
   "needs_publish": false,
-  "offset": 80,
-  "pages_done": 1526,
-  "pages_in_query": 2,
-  "pending": [],
+  "offset": 0,
+  "pages_done": 1548,
+  "pages_in_query": 0,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Sergey A. Kornev"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Vladimir V. Andreev"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Alexander A. Stolyarov"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1007/978-3-032-05754-9_6",
+        "id": "https://doi.org/10.1007/978-3-032-05754-9_6",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1007/978-3-032-05754-9_6"
+        },
+        "publication_date": "2026-02-20",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2026-02-20",
+        "publication_type": "inconnu",
+        "publication_venue": "Lecture Notes in Networks and Systems",
+        "title": "Designing a Configurable 32-Bit Microprocessor Based on RISC-V Architecture for Specialized Applications",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Sahana B"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Manju Devi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Neha S"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Soubhagya M"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/iitcee67948.2026.11394422",
+        "id": "https://doi.org/10.1109/iitcee67948.2026.11394422",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/iitcee67948.2026.11394422"
+        },
+        "publication_date": "2026-01-22",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2026-01-22",
+        "publication_type": "conference",
+        "publication_venue": "2026 International Conference on Intelligent and Innovative Technologies in Computing, Electrical and Electronics (IITCEE)",
+        "title": "Design and Implementation of a Multi-Parameter Health Monitoring SoC using RISC-V and TinyML for Real-Time Edge-Based Diagnostics",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Nancy Gupta"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Gopal Raut"
+            }
+          },
+          {
+            "author": {
+              "display_name": "David Selvakumar"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Pranose J Edavoor"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Prasoon"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Nissy Niharika"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/iitcee67948.2026.11394668",
+        "id": "https://doi.org/10.1109/iitcee67948.2026.11394668",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/iitcee67948.2026.11394668"
+        },
+        "publication_date": "2026-01-22",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2026-01-22",
+        "publication_type": "conference",
+        "publication_venue": "2026 International Conference on Intelligent and Innovative Technologies in Computing, Electrical and Electronics (IITCEE)",
+        "title": "Design and Analysis of SIMD Functional Units for RISC-V P-Extension Instructions",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Kirrat Shaikh"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Hameeza Ahmed"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Muhammad Fahim Ul Haque"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Paulo Cesar Santos"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Hashim Raza Khan"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Kamran Arshad"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Khaled Assaleh"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/access.2026.3668840",
+        "id": "https://doi.org/10.1109/access.2026.3668840",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/access.2026.3668840"
+        },
+        "publication_date": "2026-01-01",
+        "publication_date_note": "Date source Crossref : 2026 seulement ; classement indicatif en 2026-01.",
+        "publication_date_precision": "year",
+        "publication_date_source": "2026",
+        "publication_type": "revue",
+        "publication_venue": "IEEE Access",
+        "title": "Analyzing RISC-V Compiler Toolchain by Adopting Topic Modeling",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2525,9 +2744,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 324,
-  "query_index": 22,
-  "secondary": 91,
-  "skipped": 1690,
+  "prefilter_review_overflow": 367,
+  "query_index": 24,
+  "secondary": 92,
+  "skipped": 1772,
   "version": 1
 }
