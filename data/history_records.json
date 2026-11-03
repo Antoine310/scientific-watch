@@ -2807,6 +2807,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:ateebasedarchitectureforconfidentialanddependableprocessattestationinauthorshipverification": {
+    "doi": "",
+    "publication_date": "2026-02-26",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2603.00178v3",
+    "summary": "Cet article présente la première architecture pour la collecte de preuves d'attestation de processus continus au sein d'environnements d'exécution de confiance (TEE), visant à vérifier qu'un processus physique tel que l'écriture humaine s'est réellement produit. L'approche combine une résistance aux falsifications matérielles, un modèle de Markov pour quantifier la dépendabilité (disponibilité, temps entre pannes, récupération) et un protocole résilient maintenant l'intégrité face aux pannes et migrations, avec une évaluation sur Intel SGX.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "A TEE-Based Architecture for Confidential and Dependable Process Attestation in Authorship Verification",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:automatedtemplatefreesynthesisofinstructioncentricleakagecontractsforblackboxcpus": {
     "publication_date": "2026-07-16",
     "publication_date_note": "",
@@ -2879,6 +2899,26 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Chypothermia: Clock Freezing for Static Side-channel Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:cryptriscasecureriscvprocessorforhighperformancecryptographywithpowersidechannelprotection": {
+    "doi": "",
+    "publication_date": "2026-02-23",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2602.20285v1",
+    "summary": "CryptRISC est un processeur basé sur RISC-V qui intègre des extensions cryptographiques et une protection matérielle contre les attaques par canal caché par consommation (power side-channel) via un masquage d'opérande piloté par le jeu d'instructions (ISA). L'architecture étend le cœur CVA6 et introduit une couche de détection de champ ainsi qu'une unité de contrôle de masquage pour appliquer dynamiquement des schémas de masquage adaptés à divers algorithmes cryptographiques.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "CryptRISC: A Secure RISC-V Processor for High-Performance Cryptography with Power Side-Channel Protection",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
