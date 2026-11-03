@@ -1,8 +1,8 @@
 {
   "accepted": 48,
   "completed": false,
-  "cursor": "*",
-  "evaluated": 1069,
+  "cursor": "MTc2MTg0NzI5MjAwMCwxMC4xMTA5JTJGdHZ0LjIwMjUuMzYyNjczMg==",
+  "evaluated": 1078,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -67,13 +67,15 @@
     "monthly/2026-05/query-15 : résultat tronqué au plafond 12 pages",
     "monthly/2026-05/query-17 : résultat tronqué au plafond 12 pages",
     "monthly/2026-05/query-18 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-05/query-19 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-05/query-19 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-05/query-20 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-05/query-21 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-05",
   "needs_publish": false,
-  "offset": 0,
-  "pages_done": 878,
-  "pages_in_query": 0,
+  "offset": 40,
+  "pages_done": 903,
+  "pages_in_query": 1,
   "pending": [],
   "phase": "monthly",
   "prefilter_review": [
@@ -2302,8 +2304,8 @@
       "title": "Hardware and software system for recording biopreparation production process parameters"
     }
   ],
-  "query_index": 20,
+  "query_index": 22,
   "secondary": 49,
-  "skipped": 993,
+  "skipped": 1007,
   "version": 1
 }
