@@ -2,8 +2,937 @@
   "completed": false,
   "cursor": "*",
   "last_page": true,
-  "month": "2024-06",
-  "pages_done": 180,
-  "pending": [],
-  "query_index": 22
+  "month": "2024-05",
+  "pages_done": 184,
+  "pending": [
+    {
+      "abstract_inverted_index": {
+        "(OTBN)": [
+          108
+        ],
+        "(SoC).": [
+          185
+        ],
+        "---": [
+          100,
+          109
+        ],
+        "12.5x.": [
+          201
+        ],
+        "16%": [
+          224
+        ],
+        "4.3x": [
+          199
+        ],
+        "61%,": [
+          226
+        ],
+        "AES,": [
+          102
+        ],
+        "Asymmetric": [
+          125
+        ],
+        "Authentication": [
+          120
+        ],
+        "Big": [
+          105
+        ],
+        "Codes,": [
+          121
+        ],
+        "Cyber-Physical": [
+          158
+        ],
+        "Despite": [
+          37
+        ],
+        "Finally,": [
+          161
+        ],
+        "For": [
+          127
+        ],
+        "Functions,": [
+          118
+        ],
+        "HMAC,": [
+          101
+        ],
+        "Hash": [
+          117
+        ],
+        "However,": [
+          202
+        ],
+        "IPs": [
+          99
+        ],
+        "Message": [
+          119
+        ],
+        "Number": [
+          106
+        ],
+        "OpenTitan": [
+          14,
+          47,
+          71,
+          104,
+          137,
+          190,
+          213
+        ],
+        "OpenTitan-based": [
+          246
+        ],
+        "OpenTitan.": [
+          92
+        ],
+        "Our": [
+          186,
+          237
+        ],
+        "RISC-V": [
+          0,
+          149
+        ],
+        "RTL": [
+          180
+        ],
+        "Secure": [
+          116
+        ],
+        "Symmetric": [
+          122
+        ],
+        "System-on-Chip": [
+          154,
+          184
+        ],
+        "Systems": [
+          159
+        ],
+        "The": [
+          93,
+          173
+        ],
+        "This": [
+          76
+        ],
+        "a": [
+          25,
+          73,
+          132,
+          148,
+          153,
+          166,
+          178,
+          215
+        ],
+        "accelerate": [
+          112
+        ],
+        "accelerator": [
+          107,
+          138,
+          219,
+          235
+        ],
+        "accelerator.": [
+          75
+        ],
+        "accelerators": [
+          44,
+          259
+        ],
+        "accessed": [
+          232
+        ],
+        "accurate": [
+          61
+        ],
+        "addresses": [
+          78
+        ],
+        "against": [
+          165
+        ],
+        "an": [
+          16
+        ],
+        "analysing": [
+          83
+        ],
+        "analyze": [
+          140
+        ],
+        "and": [
+          10,
+          62,
+          85,
+          103,
+          124,
+          139,
+          233
+        ],
+        "application": [
+          150,
+          171
+        ],
+        "applications.": [
+          160,
+          262
+        ],
+        "are": [
+          3,
+          12
+        ],
+        "as": [
+          72,
+          210
+        ],
+        "assess": [
+          163
+        ],
+        "availability": [
+          39
+        ],
+        "bandwidths,": [
+          220
+        ],
+        "bare-metal": [
+          133
+        ],
+        "be": [
+          22
+        ],
+        "been": [
+          59
+        ],
+        "being": [
+          231
+        ],
+        "benefits": [
+          67
+        ],
+        "by": [
+          81
+        ],
+        "can": [
+          111
+        ],
+        "characterization": [
+          174
+        ],
+        "computation": [
+          144
+        ],
+        "conducted": [
+          176
+        ],
+        "core": [
+          151
+        ],
+        "core.": [
+          172
+        ],
+        "critical.": [
+          13
+        ],
+        "cryptographic": [
+          42,
+          51,
+          89
+        ],
+        "cryptography,": [
+          123
+        ],
+        "cryptography.": [
+          126
+        ],
+        "current": [
+          212
+        ],
+        "cycle-accurate": [
+          179
+        ],
+        "deeply": [
+          33
+        ],
+        "demonstrates": [
+          188
+        ],
+        "depending": [
+          227
+        ],
+        "deployed": [
+          23
+        ],
+        "deployment": [
+          6
+        ],
+        "derived": [
+          68
+        ],
+        "design": [
+          250
+        ],
+        "designed": [
+          20,
+          155
+        ],
+        "develop": [
+          131
+        ],
+        "driver": [
+          134
+        ],
+        "efficiency": [
+          142
+        ],
+        "embedded": [
+          34
+        ],
+        "emerging": [
+          4
+        ],
+        "environments.": [
+          36
+        ],
+        "establishment": [
+          64
+        ],
+        "even": [
+          207
+        ],
+        "every": [
+          128
+        ],
+        "focus": [
+          94
+        ],
+        "for": [
+          49,
+          135,
+          156,
+          206
+        ],
+        "four": [
+          113
+        ],
+        "fraction": [
+          216
+        ],
+        "from": [
+          30,
+          53,
+          69,
+          147,
+          198,
+          223
+        ],
+        "full": [
+          255
+        ],
+        "gains": [
+          209
+        ],
+        "gap": [
+          80
+        ],
+        "greater": [
+          208
+        ],
+        "guidelines": [
+          251
+        ],
+        "hardware": [
+          43
+        ],
+        "has": [
+          58
+        ],
+        "high-end": [
+          31
+        ],
+        "implementation": [
+          168
+        ],
+        "implementations,": [
+          194
+        ],
+        "in": [
+          5,
+          24,
+          260
+        ],
+        "inefficiencies": [
+          86
+        ],
+        "is": [
+          15,
+          95,
+          145,
+          204
+        ],
+        "it": [
+          164
+        ],
+        "its": [
+          141,
+          258
+        ],
+        "key": [
+          98
+        ],
+        "main": [
+          55
+        ],
+        "make": [
+          46
+        ],
+        "memory": [
+          230
+        ],
+        "no": [
+          60
+        ],
+        "of": [
+          28,
+          40,
+          65,
+          182,
+          217,
+          245,
+          257
+        ],
+        "offloaded": [
+          146
+        ],
+        "offloading": [
+          50,
+          88
+        ],
+        "on": [
+          96,
+          169,
+          177,
+          228
+        ],
+        "open": [
+          239
+        ],
+        "open-source": [
+          1,
+          17
+        ],
+        "optimization": [
+          244
+        ],
+        "outperforms": [
+          192
+        ],
+        "paper": [
+          77
+        ],
+        "platforms,": [
+          248
+        ],
+        "potential": [
+          205,
+          256
+        ],
+        "processor,": [
+          56
+        ],
+        "providing": [
+          249
+        ],
+        "quantitative": [
+          63
+        ],
+        "range": [
+          27
+        ],
+        "ranges": [
+          222
+        ],
+        "ranging": [
+          197
+        ],
+        "results": [
+          238
+        ],
+        "root-of-trust": [
+          19
+        ],
+        "safety": [
+          9
+        ],
+        "scenarios": [
+          7
+        ],
+        "secure": [
+          35,
+          74,
+          157,
+          247,
+          261
+        ],
+        "security": [
+          11,
+          114
+        ],
+        "significantly": [
+          191
+        ],
+        "silicon": [
+          18
+        ],
+        "simulator": [
+          181
+        ],
+        "software": [
+          167,
+          193
+        ],
+        "speedups": [
+          196
+        ],
+        "strengths": [
+          84
+        ],
+        "study": [
+          187
+        ],
+        "suitable": [
+          48
+        ],
+        "systems": [
+          2
+        ],
+        "systems,": [
+          29
+        ],
+        "that": [
+          45,
+          189
+        ],
+        "the": [
+          38,
+          54,
+          66,
+          136,
+          170,
+          183,
+          211,
+          218,
+          229,
+          234,
+          240,
+          243,
+          254
+        ],
+        "there": [
+          57,
+          203
+        ],
+        "this": [
+          79
+        ],
+        "thoroughly": [
+          82
+        ],
+        "three": [
+          97
+        ],
+        "to": [
+          21,
+          32,
+          91,
+          200,
+          225,
+          242,
+          252
+        ],
+        "unlock": [
+          253
+        ],
+        "used.": [
+          236
+        ],
+        "using": [
+          70
+        ],
+        "utilizes": [
+          214
+        ],
+        "various": [
+          41
+        ],
+        "was": [
+          175
+        ],
+        "way": [
+          241
+        ],
+        "we": [
+          130,
+          162
+        ],
+        "when": [
+          87,
+          143
+        ],
+        "where": [
+          8
+        ],
+        "which": [
+          110,
+          221
+        ],
+        "wide": [
+          26
+        ],
+        "with": [
+          195
+        ],
+        "within": [
+          152
+        ],
+        "workload,": [
+          129
+        ],
+        "workloads": [
+          52,
+          90
+        ],
+        "workloads:": [
+          115
+        ]
+      },
+      "authorships": [
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I9360294"
+              ],
+              "raw_affiliation_string": "University of Bologna, Bologna, Italy"
+            }
+          ],
+          "author": {
+            "display_name": "Emanuele Parisi",
+            "id": "https://openalex.org/A5015497724",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-6607-7367"
+            ],
+            "orcid": "https://orcid.org/0000-0001-6607-7367"
+          },
+          "author_position": "first",
+          "countries": [
+            "IT"
+          ],
+          "institutions": [
+            {
+              "country_code": "IT",
+              "display_name": "University of Bologna",
+              "id": "https://openalex.org/I9360294",
+              "lineage": [
+                "https://openalex.org/I9360294"
+              ],
+              "ror": "https://ror.org/01111rn36",
+              "type": "education"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "University of Bologna, Bologna, Italy"
+          ],
+          "raw_author_name": "Emanuele Parisi",
+          "raw_orcid": "https://orcid.org/0000-0001-6607-7367"
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I9360294"
+              ],
+              "raw_affiliation_string": "University of Bologna, Bologna, Italy"
+            }
+          ],
+          "author": {
+            "display_name": "Alberto Musa",
+            "id": "https://openalex.org/A5024336537",
+            "observed_orcids": [
+              "https://orcid.org/0009-0003-1912-3801"
+            ],
+            "orcid": "https://orcid.org/0009-0003-1912-3801"
+          },
+          "author_position": "middle",
+          "countries": [
+            "IT"
+          ],
+          "institutions": [
+            {
+              "country_code": "IT",
+              "display_name": "University of Bologna",
+              "id": "https://openalex.org/I9360294",
+              "lineage": [
+                "https://openalex.org/I9360294"
+              ],
+              "ror": "https://ror.org/01111rn36",
+              "type": "education"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "University of Bologna, Bologna, Italy"
+          ],
+          "raw_author_name": "Alberto Musa",
+          "raw_orcid": "https://orcid.org/0009-0003-1912-3801"
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I9360294"
+              ],
+              "raw_affiliation_string": "University of Bologna, Bologna, Italy"
+            }
+          ],
+          "author": {
+            "display_name": "Maicol Ciani",
+            "id": "https://openalex.org/A5048259757",
+            "observed_orcids": [
+              "https://orcid.org/0009-0003-7861-9129"
+            ],
+            "orcid": "https://orcid.org/0009-0003-7861-9129"
+          },
+          "author_position": "middle",
+          "countries": [
+            "IT"
+          ],
+          "institutions": [
+            {
+              "country_code": "IT",
+              "display_name": "University of Bologna",
+              "id": "https://openalex.org/I9360294",
+              "lineage": [
+                "https://openalex.org/I9360294"
+              ],
+              "ror": "https://ror.org/01111rn36",
+              "type": "education"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "University of Bologna, Bologna, Italy"
+          ],
+          "raw_author_name": "Maicol Ciani",
+          "raw_orcid": "https://orcid.org/0009-0003-7861-9129"
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I9360294"
+              ],
+              "raw_affiliation_string": "University of Bologna, Bologna, Italy"
+            }
+          ],
+          "author": {
+            "display_name": "Francesco Barchi",
+            "id": "https://openalex.org/A5022195134",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-5155-6883"
+            ],
+            "orcid": "https://orcid.org/0000-0001-5155-6883"
+          },
+          "author_position": "middle",
+          "countries": [
+            "IT"
+          ],
+          "institutions": [
+            {
+              "country_code": "IT",
+              "display_name": "University of Bologna",
+              "id": "https://openalex.org/I9360294",
+              "lineage": [
+                "https://openalex.org/I9360294"
+              ],
+              "ror": "https://ror.org/01111rn36",
+              "type": "education"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "University of Bologna, Bologna, Italy"
+          ],
+          "raw_author_name": "Francesco Barchi",
+          "raw_orcid": "https://orcid.org/0000-0001-5155-6883"
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I9360294"
+              ],
+              "raw_affiliation_string": "University of Bologna, Bologna, Italy"
+            }
+          ],
+          "author": {
+            "display_name": "Davide Rossi",
+            "id": "https://openalex.org/A5023905268",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0651-5393",
+              "https://orcid.org/0000-0002-9221-4633"
+            ],
+            "orcid": "https://orcid.org/0000-0002-0651-5393"
+          },
+          "author_position": "middle",
+          "countries": [
+            "IT"
+          ],
+          "institutions": [
+            {
+              "country_code": "IT",
+              "display_name": "University of Bologna",
+              "id": "https://openalex.org/I9360294",
+              "lineage": [
+                "https://openalex.org/I9360294"
+              ],
+              "ror": "https://ror.org/01111rn36",
+              "type": "education"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "University of Bologna, Bologna, Italy"
+          ],
+          "raw_author_name": "Davide Rossi",
+          "raw_orcid": "https://orcid.org/0000-0002-0651-5393"
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I9360294"
+              ],
+              "raw_affiliation_string": "University of Bologna, Bologna, Italy"
+            }
+          ],
+          "author": {
+            "display_name": "Andrea Bartolini",
+            "id": "https://openalex.org/A5047906923",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-1148-2450"
+            ],
+            "orcid": "https://orcid.org/0000-0002-1148-2450"
+          },
+          "author_position": "middle",
+          "countries": [
+            "IT"
+          ],
+          "institutions": [
+            {
+              "country_code": "IT",
+              "display_name": "University of Bologna",
+              "id": "https://openalex.org/I9360294",
+              "lineage": [
+                "https://openalex.org/I9360294"
+              ],
+              "ror": "https://ror.org/01111rn36",
+              "type": "education"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "University of Bologna, Bologna, Italy"
+          ],
+          "raw_author_name": "Andrea Bartolini",
+          "raw_orcid": "https://orcid.org/0000-0002-1148-2450"
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I9360294"
+              ],
+              "raw_affiliation_string": "University of Bologna, Bologna, Italy"
+            }
+          ],
+          "author": {
+            "display_name": "Andrea Acquaviva",
+            "id": "https://openalex.org/A5031653904",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-7323-759X",
+              "https://orcid.org/0009-0000-7763-2557"
+            ],
+            "orcid": "https://orcid.org/0000-0002-7323-759X"
+          },
+          "author_position": "last",
+          "countries": [
+            "IT"
+          ],
+          "institutions": [
+            {
+              "country_code": "IT",
+              "display_name": "University of Bologna",
+              "id": "https://openalex.org/I9360294",
+              "lineage": [
+                "https://openalex.org/I9360294"
+              ],
+              "ror": "https://ror.org/01111rn36",
+              "type": "education"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "University of Bologna, Bologna, Italy"
+          ],
+          "raw_author_name": "Andrea Acquaviva",
+          "raw_orcid": "https://orcid.org/0000-0002-7323-759X"
+        }
+      ],
+      "doi": "https://doi.org/10.1145/3649153.3649213",
+      "id": "https://openalex.org/W4400224457",
+      "primary_location": {
+        "doi": "https://doi.org/10.1145/3649153.3649213",
+        "id": "doi:10.1145/3649153.3649213",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1145/3649153.3649213",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": null,
+        "raw_source_name": "Proceedings of the 21st ACM International Conference on Computing Frontiers",
+        "raw_type": "proceedings-article",
+        "source": {
+          "display_name": "ACM International Conference on Computing Frontiers (CF)",
+          "host_organization": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "host_organization_name": null,
+          "id": "https://openalex.org/S7407085882",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": null,
+          "issn_l": null,
+          "listed_in": [],
+          "type": "conference"
+        },
+        "version": "publishedVersion"
+      },
+      "publication_date": "2024-05-07",
+      "title": "Assessing the Performance of OpenTitan as Cryptographic Accelerator in Secure Open-Hardware System-on-Chips"
+    }
+  ],
+  "query_index": 0
 }
