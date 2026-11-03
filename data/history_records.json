@@ -1,16 +1,24 @@
 {
   "doi:10.1007/978-3-032-25149-7_2": {
     "publication_date": "2026-01-01",
+    "publication_type": "inconnu",
+    "publication_venue": "Lecture Notes in Computer Science",
     "score": 80,
     "source": "https://doi.org/10.1007/978-3-032-25149-7_2",
     "summary": "non disponible dans les métadonnées",
     "themes": [
       "T06 — Microarchitectural Side Channels"
     ],
-    "title": "Cross-Core Covert Channel for RISC-V: Implementation, Countermeasures and Cross-Platform Analysis"
+    "title": "Cross-Core Covert Channel for RISC-V: Implementation, Countermeasures and Cross-Platform Analysis",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1007/978-3-032-38692-2_9": {
     "publication_date": "2026-10-08",
+    "publication_type": "inconnu",
+    "publication_venue": "Lecture Notes in Computer Science",
     "score": 75,
     "source": "https://doi.org/10.1007/978-3-032-38692-2_9",
     "summary": "non disponible dans les métadonnées",
@@ -18,190 +26,302 @@
       "T07 — Hardware Security Verification",
       "T09 — Secure Memory"
     ],
-    "title": "Hardware Lazy PAT: Making Memory Encryption with Integrity Verification Unobtrusive"
+    "title": "Hardware Lazy PAT: Making Memory Encryption with Integrity Verification Unobtrusive",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1007/978-981-92-3423-3_29": {
     "publication_date": "2026-07-19",
     "publication_date_note": "",
     "publication_date_precision": "day",
     "publication_date_source": "2026-07-19",
+    "publication_type": "inconnu",
+    "publication_venue": "Lecture Notes in Computer Science",
     "score": 75,
     "source": "https://doi.org/10.1007/978-981-92-3423-3_29",
     "summary": "SecSGX: Fine-Grained Monitoring for Runtime Integrity Verification in SGX",
     "themes": [
       "T04 — Runtime Attestation"
     ],
-    "title": "SecSGX: Fine-Grained Monitoring for Runtime Integrity Verification in SGX"
+    "title": "SecSGX: Fine-Grained Monitoring for Runtime Integrity Verification in SGX",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1007/978-981-95-8617-2_4": {
     "publication_date": "2026-10-14",
+    "publication_type": "inconnu",
+    "publication_venue": "Lecture notes in computer science",
     "score": 75,
     "source": "http://arxiv.org/abs/2610.20754v1",
     "summary": "Cet article présente les fondements des contrats de fuite matériel-logiciel, une nouvelle abstraction de sécurité émergeant pour pallier l'inadéquation des jeux d'instructions (ISA) face aux attaques microarchitecturales comme Spectre et Meltdown. Ces contrats caractérisent les fuites par canaux auxiliaires au niveau ISA, permettant de générer du code résistant sans raisonner sur la microarchitecture et offrant une spécification pour les concepteurs de matériel.",
     "themes": [
       "T07 — Hardware Security Verification"
     ],
-    "title": "Foundations of Hardware-Software Leakage Contracts"
+    "title": "Foundations of Hardware-Software Leakage Contracts",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex (titre exact)"
   },
   "doi:10.1007/s13389-025-00369-5": {
     "publication_date": "2025-04-28",
+    "publication_type": "revue",
+    "publication_venue": "Journal of Cryptographic Engineering",
     "score": 90,
     "source": "https://doi.org/10.1007/s13389-025-00369-5",
     "summary": "Cette publication étudie l'intégration de la cryptographie post-quantique à base de réseaux euclidiens (lattice-based PQC) au sein d'une racine de confiance matérielle (RoT) open-source, OpenTitan. Les auteurs proposent des extensions du jeu d'instructions de l'accélérateur OpenTitan Big Number (OTBN) pour optimiser l'arithmétique des polynômes et l'échantillonnage, et évaluent les performances sur la vérification des signatures Dilithium-II et Falcon-512.",
     "themes": [
       "T01 — Root of Trust & Secure Boot"
     ],
-    "title": "Extended version: enabling lattice-based post-quantum cryptography on the opentitan platform"
+    "title": "Extended version: enabling lattice-based post-quantum cryptography on the opentitan platform",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1016/j.iot.2026.101885": {
     "publication_date": "2026-02-03",
+    "publication_type": "revue",
+    "publication_venue": "Internet of Things",
     "score": 90,
     "source": "https://doi.org/10.1016/j.iot.2026.101885",
     "summary": "Cet article présente μTEE, un environnement d'exécution de confiance (TEE) léger et prêt pour la certification, conçu pour les plateformes RISC-V destinées à l'IoT industriel (IIoT). La solution combine isolation matérielle, racine de confiance (RoT) et modularité basée sur des enclaves, tout en intégrant une analyse de conformité à la norme IEC 62443 (Security Level 3) et une validation expérimentale sur FPGA.",
     "themes": [
       "T01 — Root of Trust & Secure Boot"
     ],
-    "title": "μTEE: Certification-ready RISC-V platform for secure IIoT lifecycle management"
+    "title": "μTEE: Certification-ready RISC-V platform for secure IIoT lifecycle management",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1051/jnwpu/20264420417": {
     "publication_date": "2026-04-01",
+    "publication_type": "revue",
+    "publication_venue": "Xibei Gongye Daxue Xuebao/Journal of Northwestern Polytechnical University",
     "score": 85,
     "source": "https://doi.org/10.1051/jnwpu/20264420417",
     "summary": "Cet article présente un cadre de vérification de sécurité au niveau de la conception pour détecter les vulnérabilités Spectre dans les processeurs RISC-V. En combinant le suivi du flux d'informations au niveau des portes logiques (GLIFT) et la vérification formelle, l'approche dérive des modèles GLIFT à partir de netlists RTL synthétisées, formalise trois propriétés liées à Spectre, et utilise des assertions SystemVerilog vérifiées sur les processeurs SonicBOOM et Xuantie-910.",
     "themes": [
       "T03 — RISC-V TEE & Enclaves"
     ],
-    "title": "Information-flow-analysis-based detection of spectre vulnerabilities in RISC-V processors"
+    "title": "Information-flow-analysis-based detection of spectre vulnerabilities in RISC-V processors",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/access.2025.3596829": {
     "publication_date": "2025-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Access",
     "score": 95,
     "source": "https://doi.org/10.1109/access.2025.3596829",
     "summary": "Cet article présente l'intégration de la spécification TCG DICE (Device Identifier Composition Engine) dans le framework TEE open-source Keystone, qui cible les appareils RISC-V. Les auteurs détaillent la conception, l'implémentation et l'évaluation de cette solution pour renforcer le démarrage sécurisé et l'attestation, démontrant son efficacité en matière de sécurité et de performances.",
     "themes": [
       "T01 — Root of Trust & Secure Boot"
     ],
-    "title": "Implementation of the TCG DICE Specification Into the Keystone TEE Framework"
+    "title": "Implementation of the TCG DICE Specification Into the Keystone TEE Framework",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/access.2026.3674839": {
     "publication_date": "2026-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Access",
     "score": 85,
     "source": "https://doi.org/10.1109/access.2026.3674839",
     "summary": "Cette publication présente une architecture légère de Racine de Confiance Matérielle (HRoT) qui intègre des fonctions physiques infalsifiables (PUF) à base de silicium et le moteur DICE (Device Identifier Composition Engine) directement dans la ROM de démarrage de systèmes embarqués RISC-V. L'approche élimine le stockage persistant de clés, génère des identités à la demande, propose une attestation par couches et intègre des mécanismes de gestion du cycle de vie. L'évaluation sur la plateforme RISC-V SPIRS montre une forte résistance aux attaques, une conformité IEC 62443 SL2+ et un surcoût de performance négligeable de moins de 1 % du temps de démarrage.",
     "themes": [
       "T01 — Root of Trust & Secure Boot"
     ],
-    "title": "Hardware-Rooted Device Identity for IoT: Integrating Silicon PUFs and DICE in RISC-V Embedded Systems"
+    "title": "Hardware-Rooted Device Identity for IoT: Integrating Silicon PUFs and DICE in RISC-V Embedded Systems",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/access.2026.3685017": {
     "publication_date": "2026-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Access",
     "score": 85,
     "source": "https://doi.org/10.1109/access.2026.3685017",
     "summary": "Cette étude propose une analyse approfondie des architectures de chaîne de confiance pour les systèmes embarqués sécurisés, synthétisant près de 100 publications de 2004 à 2025. Elle introduit une taxonomie hiérarchique en cinq dimensions : racine de confiance matérielle, démarrage sécurisé, environnements d'exécution de confiance (TEE), applications TEE et protocoles d'attestation à distance. L'évaluation comparative couvre plus de 45 implémentations et identifie des défis de sécurité récents ainsi que des pistes de recherche prioritaires.",
     "themes": [
       "T01 — Root of Trust & Secure Boot"
     ],
-    "title": "A Survey of Trust Chain in Secure Embedded Systems: From Secure Boot to TEE Applications"
+    "title": "A Survey of Trust Chain in Secure Embedded Systems: From Secure Boot to TEE Applications",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/access.2026.3704965": {
     "publication_date": "2026-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Access",
     "score": 75,
     "source": "https://doi.org/10.1109/access.2026.3704965",
     "summary": "Cet article présente une vue d'ensemble des considérations architecturales et systémiques pour le développement RISC-V moderne. Il examine l'évolution des microarchitectures, la taxonomie des accélérateurs spécialisés (DSA), les défis de sécurité liés à une ISA extensible (PMP, TEE et canaux cachés), l'écosystème logiciel et les directions de recherche futures.",
     "themes": [
       "T06 — Microarchitectural Side Channels"
     ],
-    "title": "An Overview of Critical Architectural and Systemic Considerations for Modern RISC-V Development: From Fundamentals to the Frontier"
+    "title": "An Overview of Critical Architectural and Systemic Considerations for Modern RISC-V Development: From Fundamentals to the Frontier",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/acsac63791.2024.00055": {
     "publication_date": "2024-12-09",
+    "publication_type": "conference",
+    "publication_venue": "2024 Annual Computer Security Applications Conference (ACSAC)",
     "score": 85,
     "source": "https://doi.org/10.1109/acsac63791.2024.00055",
     "summary": "SpecCFA est une approche d'optimisation dynamique pour l'attestation et l'audit de flux de contrôle (CFA) sur microcontrôleurs (MCUs). En exploitant la prédictibilité des sous-chemins de contrôle spécifiques aux programmes, SpecCFA permet au vérificateur de spéculer sur ces chemins pour compresser les traces d'exécution (CFLog) en symboles réservés, réduisant ainsi les coûts de stockage et de transmission sans compromettre la sécurité.",
     "themes": [
       "T04 — Runtime Attestation"
     ],
-    "title": "SpecCFA: Enhancing Control Flow Attestation/Auditing via Application-Aware Sub-Path Speculation"
+    "title": "SpecCFA: Enhancing Control Flow Attestation/Auditing via Application-Aware Sub-Path Speculation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/acsac67867.2025.00049": {
     "publication_date": "2025-12-08",
+    "publication_type": "conference",
+    "publication_venue": "2025 IEEE Annual Computer Security Applications Conference (ACSAC)",
     "score": 75,
     "source": "https://doi.org/10.1109/acsac67867.2025.00049",
     "summary": "Cet article présente Sulfur, un système permettant d'effectuer une attestation de flux de contrôle (CFA) pour des applications exécutées en espace utilisateur dans un environnement non bare-metal (au-dessus d'un système d'exploitation). Pour contrer les menaces liées à un attaquant au niveau du système d'exploitation, les auteurs développent conjointement un système d'exploitation appelé Sulfuros, qui exploite les extensions de sécurité matérielles AArch64 (privileged-access never et privileged-execute never).",
     "themes": [
       "T04 — Runtime Attestation"
     ],
-    "title": "Non-Bare-Metal User-Space Control-Flow Attestation"
+    "title": "Non-Bare-Metal User-Space Control-Flow Attestation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/ainit65432.2025.11035700": {
     "publication_date": "2025-04-11",
+    "publication_type": "conference",
+    "publication_venue": "2025 IEEE 6th International Seminar on Artificial Intelligence, Networking and Information Technology (AINIT)",
     "score": 95,
     "source": "https://doi.org/10.1109/ainit65432.2025.11035700",
     "summary": "Ce papier présente IBEShare, un framework de communication sécurisé et scalable pour les enclaves RISC-V Keystone. Il associe chiffrement basé sur l'identité (IBE) et mémoire partagée renforcée par le matériel pour réduire les surcoûts liés aux méthodes traditionnelles de copie et de chiffrement répété.",
     "themes": [
       "T03 — RISC-V TEE & Enclaves"
     ],
-    "title": "A Scalable Identity-Based Encryption Approach for Secure Shared Memory Communication in Keystone"
+    "title": "A Scalable Identity-Based Encryption Approach for Secure Shared Memory Communication in Keystone",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/csr64739.2025.11130017": {
     "publication_date": "2025-08-04",
+    "publication_type": "conference",
+    "publication_venue": "2025 IEEE International Conference on Cyber Security and Resilience (CSR)",
     "score": 90,
     "source": "https://doi.org/10.1109/csr64739.2025.11130017",
     "summary": "Cet article présente une évaluation complète des contre-mesures contre Spectre-v1 sur l'architecture RISC-V en utilisant le simulateur gem5. Les auteurs évaluent quatre atténuations et analysent leurs compromis entre sécurité et performance, ainsi que leur impact microarchitectural.",
     "themes": [
       "T06 — Microarchitectural Side Channels"
     ],
-    "title": "SpectreShield: Design and Analysis of Spectre Countermeasures on RISC-V Using gem5"
+    "title": "SpectreShield: Design and Analysis of Spectre Countermeasures on RISC-V Using gem5",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/dac63849.2025.11132094": {
     "publication_date": "2025-06-22",
+    "publication_type": "conference",
+    "publication_venue": "2025 62nd ACM/IEEE Design Automation Conference (DAC)",
     "score": 85,
     "source": "https://doi.org/10.1109/dac63849.2025.11132094",
     "summary": "Cet article présente RAP-Track, une technique d'attestation du flux de contrôle (CFA) pour les microcontrôleurs grand public. En exploitant des extensions matérielles existantes comme le Micro Trace Buffer (MTB) et le Data Watchpoint and Trace Unit (DWT), RAP-Track permet de suivre les chemins d'exécution en parallèle du programme sans les surcoûts liés à l'instrumentation de code ou aux changements de contexte fréquents.",
     "themes": [
       "T04 — Runtime Attestation"
     ],
-    "title": "RAP-Track: Efficient Control Flow Attestation via Parallel Tracking in Commodity MCUs"
+    "title": "RAP-Track: Efficient Control Flow Attestation via Parallel Tracking in Commodity MCUs",
+    "venue_landmark": "DAC",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/dac63849.2025.11133149": {
     "publication_date": "2025-06-22",
+    "publication_type": "conference",
+    "publication_venue": "2025 62nd ACM/IEEE Design Automation Conference (DAC)",
     "score": 90,
     "source": "https://doi.org/10.1109/dac63849.2025.11133149",
     "summary": "Cet article propose une approche générique et dynamique pour atténuer les canaux auxiliaires microarchitecturaux avec des modifications architecturales minimales. La stratégie modifie dynamiquement le décodage des instructions en versions sécurisées ou performantes selon la sensibilité des données traitées. Implémenté sur un processeur RISC-V BOOM, le mécanisme n'augmente l'utilisation des ressources FPGA que de 2 %, tout en maintenant un surcoût de performance nul pour les applications non protégées et allant jusqu'à 25 % pour les charges critiques.",
     "themes": [
       "T06 — Microarchitectural Side Channels"
     ],
-    "title": "Data Oblivious CPU: Microarchitectural Side-channel Leakage-Resilient Processor"
+    "title": "Data Oblivious CPU: Microarchitectural Side-channel Leakage-Resilient Processor",
+    "venue_landmark": "DAC",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/ddecs69233.2026.11521000": {
     "publication_date": "2026-04-27",
+    "publication_type": "conference",
+    "publication_venue": "2026 IEEE 29th International Symposium on Design and Diagnostics of Electronic Circuits and Systems (DDECS)",
     "score": 90,
     "source": "https://doi.org/10.1109/ddecs69233.2026.11521000",
     "summary": "Cet article présente une analyse comparative de la vulnérabilité de trois cœurs RISC-V open-source (BOOM, NOEL-V et CVA6) face aux attaques par exécution transitoire (TEAs), incluant des variantes de Spectre, Meltdown, SCSB et Indirector. L'étude démontre que chaque processeur présente un profil de vulnérabilité distinct lié à sa microarchitecture et met en évidence un résultat marquant : les processeurs in-order sont également vulnérables.",
     "themes": [
       "T10 — RISC-V SoC & FPGA"
     ],
-    "title": "Assessing the Vulnerability of Open-Source RISC-V Processors to Transient Execution Attacks"
+    "title": "Assessing the Vulnerability of Open-Source RISC-V Processors to Transient Execution Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/dft63277.2024.10753540": {
     "publication_date": "2024-10-08",
+    "publication_type": "conference",
+    "publication_venue": "2024 IEEE International Symposium on Defect and Fault Tolerance in VLSI and Nanotechnology Systems (DFT)",
     "score": 75,
     "source": "http://dx.doi.org/10.1109/dft63277.2024.10753540",
     "summary": "Cet article présente une évaluation expérimentale comparative de trois processeurs RISC-V haute performance (BOOM, NOEL-V et CVA6) implémentés sur une plateforme FPGA Xilinx Kintex-7. L'étude analyse les métriques de performance, la consommation d'énergie, l'empreinte de surface et la posture de sécurité face aux attaques par exécution transitoire. Une comparaison avec des processeurs ARM conventionnels est également menée.",
     "themes": [
       "T10 — RISC-V SoC & FPGA"
     ],
-    "title": "An Experimental Comparison of RISC-V Processors: Performance, Power, Area and Security - Special Session Paper-"
+    "title": "An Experimental Comparison of RISC-V Processors: Performance, Power, Area and Security - Special Session Paper-",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/dsd67783.2025.00045": {
     "publication_date": "2025-09-10",
+    "publication_type": "conference",
+    "publication_venue": "2025 28th Euromicro Conference on Digital System Design (DSD)",
     "score": 95,
     "source": "https://doi.org/10.1109/dsd67783.2025.00045",
     "summary": "Cette étude présente la première implémentation et évaluation de l'attaque par canal auxiliaire Evict+Spec+Time sur l'architecture RISC-V, utilisant le simulateur gem5. L'attaque combine l'éviction de lignes de cache via l'instruction cbo.flush (extension Zicbom), l'exploitation de l'exécution dans le désordre pour manipuler les ressources microarchitecturales, et des mesures temporelles pour récupérer des clés secrètes d'AES. L'analyse détaillée des comportements microarchitecturaux fournit des bases pour de futures contre-mesures.",
     "themes": [
       "T06 — Microarchitectural Side Channels"
     ],
-    "title": "Evict+Spec+Time on RISC-V: Gem5-Based Implementation and Microarchitectural Analysis"
+    "title": "Evict+Spec+Time on RISC-V: Gem5-Based Implementation and Microarchitectural Analysis",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/ets69887.2026.11591831": {
     "publication_date": "2026-05-25",
