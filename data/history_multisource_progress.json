@@ -1,8 +1,8 @@
 {
   "accepted": 38,
   "completed": false,
-  "cursor": "MTc3NTc2NDA3OTAwMCwxMC4xMTA5JTJGamlvdC4yMDI2LjM2ODI1Nzg=",
-  "evaluated": 814,
+  "cursor": "MTc3ODc1MzQ0MjAwMCwxMC4xMDE2JTJGai5yZXRyZWMuMjAyNi4xMDE3ODU=",
+  "evaluated": 833,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -49,13 +49,15 @@
     "monthly/2026-07/query-21 : résultat tronqué au plafond 12 pages",
     "monthly/2026-07/query-22 : résultat tronqué au plafond 12 pages",
     "monthly/2026-07/query-23 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-07/query-24 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-07/query-24 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-06/query-13 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-06/query-14 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-06",
   "needs_publish": false,
-  "offset": 280,
-  "pages_done": 644,
-  "pages_in_query": 7,
+  "offset": 320,
+  "pages_done": 669,
+  "pages_in_query": 8,
   "pending": [],
   "phase": "monthly",
   "prefilter_review": [
@@ -1690,10 +1692,42 @@
       "publication_date": "2026-06-01",
       "source": "crossref",
       "title": "Beam Focusing for Cell Free MIMO in the Presence of Hardware Distortion and Rainfall Attenuation with Adaptive Power Control"
+    },
+    {
+      "doi": "https://doi.org/10.1364/ol.603101",
+      "identity": "title:towardintegratedsecurityandmonitoringperceptionembeddedmodulationfordcis",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-06-02",
+      "source": "crossref",
+      "title": "Toward integrated security and monitoring: perception-embedded modulation for DCIs"
+    },
+    {
+      "doi": "https://doi.org/10.4271/2026-26-0717",
+      "identity": "title:automatingdo178cverificationandsecuritycomplianceindevsecopscicdpipelinesforsafetycriticalavionicssoftware",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-06-01",
+      "source": "crossref",
+      "title": "Automating DO-178C Verification and Security Compliance in DevSecOps CI/CD Pipelines for Safety Critical Avionics Software"
+    },
+    {
+      "doi": "https://doi.org/10.1142/s0218126626501781",
+      "identity": "title:optimalkeygenerationandsecureauthenticationschemefordatasharingandaccesscontrolinblockchaincloudsystems",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-06-30",
+      "source": "crossref",
+      "title": "Optimal Key Generation and Secure Authentication Scheme for Data Sharing and Access Control in Blockchain Cloud Systems"
+    },
+    {
+      "doi": "https://doi.org/10.1103/y12y-yk88",
+      "identity": "title:feasibilityofmultigigahertzsatellitetogroundsecurequantumcommunication",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-06-08",
+      "source": "crossref",
+      "title": "Feasibility of multi-gigahertz satellite-to-ground secure quantum communication"
     }
   ],
-  "query_index": 13,
+  "query_index": 15,
   "secondary": 31,
-  "skipped": 748,
+  "skipped": 762,
   "version": 1
 }
