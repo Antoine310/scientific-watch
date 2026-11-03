@@ -1,8 +1,8 @@
 {
-  "accepted": 86,
+  "accepted": 87,
   "completed": false,
-  "cursor": "MTc2ODM0NDM2NjAwMCwxMC4yNTc5MiUyRmhuLjIwMjUuMTMuNC42My03MQ==",
-  "evaluated": 1832,
+  "cursor": "MTc3MDE1MTk5NDAwMCwxMC4xMTA5JTJGaWNwczY3Mjc2LjIwMjUuMTEzNjQ5MzE=",
+  "evaluated": 1840,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -130,647 +130,520 @@
     "monthly/2025-12/query-22 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2025-12",
-  "needs_publish": false,
-  "offset": 280,
-  "pages_done": 1700,
-  "pages_in_query": 7,
+  "needs_publish": true,
+  "offset": 360,
+  "pages_done": 1702,
+  "pages_in_query": 9,
   "pending": [
     {
       "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Yuki Yagi"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Kenji Kise"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/mcsoc67473.2025.00038",
-        "id": "https://doi.org/10.1109/mcsoc67473.2025.00038",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/mcsoc67473.2025.00038"
-        },
-        "publication_date": "2025-12-15",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-12-15",
-        "publication_type": "conference",
-        "publication_venue": "2025 IEEE 18th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)",
-        "title": "Design and Implementation of a High-Performance RISC-V SoC for FPGAs with Linux Support",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T10 — RISC-V SoC & FPGA"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Daichi Higashi"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Hitoshi Oi"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/mcsoc67473.2025.00082",
-        "id": "https://doi.org/10.1109/mcsoc67473.2025.00082",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/mcsoc67473.2025.00082"
-        },
-        "publication_date": "2025-12-15",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-12-15",
-        "publication_type": "conference",
-        "publication_venue": "2025 IEEE 18th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)",
-        "title": "Performance Optimization of Machine Inference Applications on Edge Devices with a RISC-V Custom Instruction",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T10 — RISC-V SoC & FPGA"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Zongcheng Yue"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Dongwei Yan"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Sean Longyu Ma"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Chiu-Wing Sham"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/mcsoc67473.2025.00122",
-        "id": "https://doi.org/10.1109/mcsoc67473.2025.00122",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/mcsoc67473.2025.00122"
-        },
-        "publication_date": "2025-12-15",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-12-15",
-        "publication_type": "conference",
-        "publication_venue": "2025 IEEE 18th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)",
-        "title": "Adaptive Gradual Quantization with a Custom RISC-V SIMD Accelerator",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T10 — RISC-V SoC & FPGA"
-      ]
-    },
-    {
-      "paper": {
         "abstract_inverted_index": {
-          "(EX),": [
-            70
+          "(such": [
+            8
           ],
-          "(ID),": [
-            68
-          ],
-          "(IF),": [
-            65
-          ],
-          "(MEM),": [
-            72
-          ],
-          "(RISC)": [
-            19
-          ],
-          "(WB)—is": [
-            75
-          ],
-          "2023.1": [
-            82
-          ],
-          "32bit": [
-            13
-          ],
-          "45": [
-            93
-          ],
-          "5-": [
-            58
-          ],
-          "Abstract": [
-            0
-          ],
-          "Cadence": [
-            92
-          ],
-          "Computer": [
-            18
-          ],
-          "Decode": [
-            67
-          ],
-          "Execute": [
-            69
-          ],
-          "Experimental": [
-            121
-          ],
-          "FPGA": [
-            22,
-            89
-          ],
-          "Fetch": [
-            64
-          ],
-          "HDL.": [
-            79
-          ],
-          "I-type,": [
-            46
-          ],
-          "In-": [
-            62
-          ],
-          "Instruction": [
-            16,
-            66
-          ],
-          "J-": [
-            48
-          ],
-          "MIPS-based": [
-            14
-          ],
-          "Memory": [
-            71
-          ],
-          "R-type,": [
-            45
-          ],
-          "Reduced": [
-            15
-          ],
-          "Set": [
-            17
-          ],
-          "The": [
-            24,
-            105,
-            139
-          ],
-          "This": [
-            1
-          ],
-          "To": [
-            52
-          ],
-          "Verilog": [
-            78
-          ],
-          "Vivado": [
-            81
-          ],
-          "Write-Back": [
-            74
-          ],
-          "Xilinx": [
-            80
-          ],
-          "a": [
-            12,
-            31,
-            55,
-            143
-          ],
-          "academic-to-industry": [
-            145
-          ],
-          "accurate": [
-            124
-          ],
-          "all": [
-            128
-          ],
-          "analysis": [
-            10
-          ],
-          "analysis.": [
-            104
-          ],
-          "and": [
-            8,
-            47,
-            73,
-            88,
-            102,
-            110,
-            118,
-            135,
-            155
-          ],
-          "architecture,": [
-            152
-          ],
-          "architecture—comprising": [
-            61
-          ],
-          "area,": [
-            101
-          ],
-          "begins": [
-            26
-          ],
-          "by": [
-            41
-          ],
-          "classes,": [
-            131
-          ],
-          "complete": [
-            5,
-            144
-          ],
-          "confirm": [
-            123
-          ],
-          "correctness": [
-            117
-          ],
-          "cution": [
-            126
-          ],
-          "cycle": [
-            33
-          ],
-          "datapath": [
-            38
-          ],
-          "delay,": [
-            134
-          ],
-          "demonstrates": [
-            142
-          ],
-          "design": [
-            106,
-            146,
-            159
-          ],
-          "design,": [
-            6,
-            86
-          ],
-          "detailed": [
-            99
-          ],
-          "detection": [
-            109
-          ],
-          "development": [
-            29
-          ],
-          "digital": [
-            158
-          ],
-          "efficiency,": [
-            154
-          ],
-          "efficient": [
-            136
-          ],
-          "enhance": [
-            53
-          ],
-          "ensure": [
-            115
-          ],
-          "establish": [
-            36
-          ],
-          "exe-": [
-            125
-          ],
-          "flow,": [
-            147
-          ],
-          "followed": [
-            40
-          ],
-          "for": [
-            85,
-            98
-          ],
-          "for-": [
-            111
-          ],
-          "formats.": [
-            51
-          ],
-          "fully": [
-            56
-          ],
-          "functional": [
-            57
-          ],
-          "functionality,": [
-            39
-          ],
-          "fundamental": [
-            37
-          ],
-          "hardware": [
-            137
-          ],
-          "hazard": [
-            108
-          ],
-          "imple-": [
-            140
-          ],
-          "implementation,": [
-            7
-          ],
-          "implemented": [
-            76
-          ],
-          "incorporates": [
-            107
-          ],
-          "insights": [
-            149
-          ],
-          "instruction": [
-            50,
-            130
-          ],
-          "integration": [
-            43
-          ],
-          "into": [
-            150
-          ],
-          "is": [
-            83,
-            96
-          ],
-          "low-": [
-            156
-          ],
-          "mechanisms": [
-            113
-          ],
-          "mentation": [
-            141
-          ],
-          "minimize": [
-            119
-          ],
-          "nm": [
-            94
-          ],
-          "of": [
-            11,
-            30,
-            44,
-            127
-          ],
-          "paper": [
-            2
-          ],
-          "performance": [
-            9
-          ],
-          "pipeline": [
-            116
-          ],
-          "pipelined": [
-            60
-          ],
-          "pipelining": [
-            153
-          ],
-          "power": [
-            103,
-            157
-          ],
-          "presents": [
-            3
-          ],
-          "processor": [
-            20,
-            34,
-            151
-          ],
-          "propagation": [
-            133
-          ],
-          "providing": [
-            148
-          ],
-          "reduced": [
-            132
-          ],
-          "results": [
-            122
-          ],
-          "simulation,": [
-            87
-          ],
-          "single-": [
-            32
-          ],
-          "stage": [
-            59
-          ],
-          "stalls.": [
-            120
-          ],
-          "strategies.": [
-            160
-          ],
-          "struction": [
-            63
-          ],
-          "supported": [
-            129
-          ],
-          "synthesis,": [
-            90
-          ],
-          "technology": [
-            95
-          ],
-          "the": [
-            4,
-            28,
-            42
-          ],
-          "throughput,": [
-            54
-          ],
-          "timing,": [
-            100
-          ],
-          "to": [
-            35,
-            114
-          ],
-          "toolchains.": [
-            23
-          ],
-          "type": [
-            49
-          ],
-          "used": [
-            84,
-            97
-          ],
-          "using": [
-            21,
-            77
-          ],
-          "utilization.": [
-            138
-          ],
-          "warding": [
+          "BeagleV-Fire": [
             112
           ],
-          "while": [
+          "GhostRace": [
+            45,
+            75,
+            106,
+            156
+          ],
+          "However,": [
+            42
+          ],
+          "In": [
+            0,
+            101
+          ],
+          "RISC-V": [
+            84,
+            87,
+            108,
+            113
+          ],
+          "RISC-V,": [
+            158
+          ],
+          "They": [
+            23
+          ],
+          "This": [
+            64,
+            148
+          ],
+          "We": [
+            120,
+            132
+          ],
+          "While": [
+            74
+          ],
+          "access": [
+            19
+          ],
+          "across": [
+            31,
+            62
+          ],
+          "adopted": [
+            90
+          ],
+          "also": [
+            133
+          ],
+          "analysis": [
+            99
+          ],
+          "analyze": [
+            134
+          ],
+          "and": [
+            2,
+            12,
+            27,
+            39,
+            93,
+            115,
+            126,
+            140
+          ],
+          "architecture,": [
+            80
+          ],
+          "are": [
+            14
+          ],
+          "as": [
+            9
+          ],
+          "behavior,": [
+            136
+          ],
+          "board": [
+            114
+          ],
+          "both": [
+            110
+          ],
+          "branch": [
+            141
+          ],
+          "bypass": [
+            52
+          ],
+          "bypasses": [
+            125
+          ],
+          "cache": [
+            138
+          ],
+          "characterization": [
+            154
+          ],
+          "co-design.": [
+            165
+          ],
+          "communication": [
+            1,
+            37,
+            72,
+            94
+          ],
+          "comprehensive": [
+            153
+          ],
+          "conditions": [
+            58
+          ],
+          "consistency": [
+            30
+          ],
+          "creating": [
+            55
+          ],
+          "critical": [
+            35,
+            71
+          ],
+          "cryptographic": [
+            40
+          ],
+          "data": [
+            25,
+            61
+          ],
+          "data.": [
+            22
+          ],
+          "demonstrate": [
+            121
+          ],
+          "enforce": [
+            28
+          ],
+          "ensuring": [
+            17
+          ],
+          "essential": [
+            15
+          ],
+          "essential.": [
+            100
+          ],
+          "evaluate": [
+            105
+          ],
+          "execution": [
+            49
+          ],
+          "exploits": [
+            47
+          ],
+          "first": [
+            152
+          ],
+          "for": [
+            16,
+            36,
+            83,
+            162
+          ],
+          "full": [
+            145
+          ],
+          "full-system": [
+            118
+          ],
+          "fundamentally": [
+            65
+          ],
+          "gem5": [
+            117,
+            144
+          ],
+          "guarantees": [
+            69
+          ],
+          "hardware,": [
+            95
+          ],
+          "hardware-software": [
+            164
+          ],
+          "highlighting": [
+            159
+          ],
+          "implications": [
+            82
+          ],
+          "in": [
             91
           ],
-          "with": [
-            27
+          "including": [
+            137
           ],
-          "work": [
-            25
+          "increasingly": [
+            89
+          ],
+          "infrastructure.": [
+            73
+          ],
+          "instruction": [
+            129
+          ],
+          "is": [
+            34,
+            76,
+            88
+          ],
+          "its": [
+            81,
+            97
+          ],
+          "leak": [
+            60
+          ],
+          "libraries.": [
+            41
+          ],
+          "making": [
+            96
+          ],
+          "memory": [
+            29
+          ],
+          "microarchitectural": [
+            135
+          ],
+          "microarchitecturally": [
+            51
+          ],
+          "mispredictions,": [
+            142
+          ],
+          "misses": [
+            139
+          ],
+          "mitigation.": [
+            131
+          ],
+          "mutexes,": [
+            10
+          ],
+          "need": [
+            161
+          ],
+          "network": [
+            3
+          ],
+          "networking": [
+            92
+          ],
+          "of": [
+            70,
+            155
+          ],
+          "on": [
+            78,
+            107,
+            157
+          ],
+          "paper": [
+            149
+          ],
+          "paper,": [
+            103
+          ],
+          "prevent": [
+            24
+          ],
+          "primitives": [
+            7
+          ],
+          "primitives,": [
+            54
+          ],
+          "provides": [
+            150
+          ],
+          "race": [
+            57
+          ],
+          "races": [
+            26
+          ],
+          "recent": [
+            44
+          ],
+          "remain": [
+            85
+          ],
+          "safe": [
+            18
+          ],
+          "secure": [
+            163
+          ],
+          "security": [
+            4,
+            68,
+            98
+          ],
+          "semaphores,": [
+            11
+          ],
+          "serialization": [
+            130
+          ],
+          "shared": [
+            21
+          ],
+          "simulations.": [
+            147
+          ],
+          "simulator.": [
+            119
+          ],
+          "speculative": [
+            48,
+            56,
+            123
+          ],
+          "spinlocks)": [
+            13
+          ],
+          "stacks": [
+            38
+          ],
+          "successful": [
+            122
+          ],
+          "synchronization": [
+            6,
+            53,
+            124
+          ],
+          "system": [
+            146
+          ],
+          "systems,": [
+            5
+          ],
+          "tested": [
+            77
+          ],
+          "that": [
+            59
+          ],
+          "the": [
+            43,
+            67,
+            111,
+            116,
+            128,
+            151,
+            160
+          ],
+          "this": [
+            102
+          ],
+          "threads,": [
+            32
+          ],
+          "threads.": [
+            63
+          ],
+          "to": [
+            20,
+            50
+          ],
+          "undermines": [
+            66
+          ],
+          "unexplored.": [
+            86
+          ],
+          "using": [
+            109,
+            143
+          ],
+          "validate": [
+            127
+          ],
+          "vulnerability": [
+            46
+          ],
+          "we": [
+            104
+          ],
+          "which": [
+            33
+          ],
+          "x86": [
+            79
           ]
         },
+        "abstract_provenance": "OpenAlex DOI",
         "authorships": [
           {
             "author": {
-              "display_name": ""
+              "display_name": "Mahreen Khan"
             }
           },
           {
             "author": {
-              "display_name": "Vaishnavi G H"
+              "display_name": "Maria Priscilla Lima Medeiros"
             }
           },
           {
             "author": {
-              "display_name": "Shivani N Shetty"
+              "display_name": "Matheus Victor de Freitas Rodrigues"
             }
           },
           {
             "author": {
-              "display_name": "Soundarya R M"
+              "display_name": "Maria Mushtaq"
             }
           },
           {
             "author": {
-              "display_name": "Srushti G M"
+              "display_name": "Renaud Pacalet"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ludovic Apvrille"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Lirida Naviner"
             }
           }
         ],
-        "doi": "https://doi.org/10.55041/ijsrem55694",
-        "id": "https://doi.org/10.55041/ijsrem55694",
+        "doi": "https://doi.org/10.1109/comcomap68359.2025.11353166",
+        "id": "https://doi.org/10.1109/comcomap68359.2025.11353166",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.55041/ijsrem55694"
-        },
-        "publication_date": "2025-12-31",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-12-31",
-        "publication_type": "revue",
-        "publication_venue": "International Journal of Scientific Research in Engineering and Management",
-        "title": "Design and Implementation of a MIPS-Based RISC Processor on FPGA",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T10 — RISC-V SoC & FPGA"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Marawan T. Abdelhady"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Mohamed A. Ahmed"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Mahmoud M. Mansi"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Mohamed A. Abd El Ghany"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/icm66518.2025.11321324",
-        "id": "https://doi.org/10.1109/icm66518.2025.11321324",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/icm66518.2025.11321324"
+          "landing_page_url": "https://doi.org/10.1109/comcomap68359.2025.11353166"
         },
         "publication_date": "2025-12-14",
         "publication_date_note": "",
         "publication_date_precision": "day",
         "publication_date_source": "2025-12-14",
         "publication_type": "conference",
-        "publication_venue": "2025 International Conference on Microelectronics (ICM)",
-        "title": "Open-Source Hyperdimensional RISC-V Vector Processor with Radix-8 CORDIC-Based Nonlinear Encoding for Memory-Efficient Edge-AI",
+        "publication_venue": "2025 Computing, Communications and IoT Applications (ComComAp)",
+        "title": "Bypass Synchronization Primitives: GhostRace Attack and Mitigation on RISC-V",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Le-Thanh-Nhon Nguyen"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Khai-Minh Ma"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Tran-Bao-Thuong Cao"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Duc-Hung Le"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/rivf68649.2025.11365156",
+        "id": "https://doi.org/10.1109/rivf68649.2025.11365156",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/rivf68649.2025.11365156"
+        },
+        "publication_date": "2025-12-18",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-12-18",
+        "publication_type": "conference",
+        "publication_venue": "2025 RIVF International Conference on Computing and Communication Technologies (RIVF)",
+        "title": "A Quad-core 32-bit RISC-V CPU Implementation with Design Verification on 130 nm CMOS Process",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -3187,9 +3060,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 417,
+  "prefilter_review_overflow": 422,
   "query_index": 23,
   "secondary": 101,
-  "skipped": 1864,
+  "skipped": 1869,
   "version": 1
 }
