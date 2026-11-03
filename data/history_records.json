@@ -1724,6 +1724,26 @@
     "venue_priority": 2,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1587/transfun.2025cip0027": {
+    "doi": "https://doi.org/10.1587/transfun.2025cip0027",
+    "publication_date": "2026-03-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-03-01",
+    "publication_type": "revue",
+    "publication_venue": "IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences",
+    "score": 75,
+    "source": "https://doi.org/10.1587/transfun.2025cip0027",
+    "summary": "Cette publication analyse les responsabilités respectives du fabricant de processeur et des tiers dans le cadre de l'attestation à distance avec Intel SGX, en particulier suite au passage de l'attestation EPID à l'attestation ECDSA qui offre plus de liberté mais floute les limites des rôles.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Clarifying CPU Vendor’s Responsibilities for Remote Attestation with Intel SGX",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1587/transinf.2025edp7101": {
     "publication_date": "2025-12-10",
     "publication_type": "revue",
@@ -2004,6 +2024,26 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "A Survey of RISC-V Secure Enclaves and Trusted Execution Environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.3390/electronics15051135": {
+    "doi": "https://doi.org/10.3390/electronics15051135",
+    "publication_date": "2026-03-09",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-03-09",
+    "publication_type": "revue",
+    "publication_venue": "Electronics",
+    "score": 85,
+    "source": "https://doi.org/10.3390/electronics15051135",
+    "summary": "Cette revue systématique analyse les avancées en matière de sécurité matérielle sur les microcontrôleurs et processeurs embarqués entre 2020 et 2026. L'étude passe en revue la cryptographie post-quantique (PQC), les PUF, les racines de confiance (RoT), les contre-mesures contre les attaques par canal auxiliaire et les environnements d'exécution de confiance (TEE) pour les appareils contraints, en évaluant leurs contraintes de déploiement et leur maturité commerciale.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Advanced Hardware Security on Embedded Processors: A 2026 Systematic Review",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
