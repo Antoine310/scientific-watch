@@ -11,6 +11,7 @@ Dépendances : bibliothèque standard Python uniquement.
 import html
 import cache_v16
 import venue_v168 as venue
+import abstract_enrichment_v1681 as abstract_enrichment
 import pathlib
 import json
 import os
@@ -127,6 +128,9 @@ def relevant(theme_id, title, abstract_text):
 # une justification et une note. La note est indicative, non objective.
 def ai_assess(records):
     """Single structured Gemini request; fail closed on API/format errors."""
+    # Recherche académique préalable, bornée et sans Gemini Search grounding.
+    # Partagée par quotidien, historique OpenAlex et multibase.
+    abstract_enrichment.enrich(records, indexed_abstract, abstract)
     input_papers = []
     for i, rec in enumerate(records):
         paper = rec['paper']
@@ -134,6 +138,8 @@ def ai_assess(records):
             'id': i,
             'titre': paper.get('title', ''),
             'resume': abstract(paper.get('abstract_inverted_index'))[:3000],
+            'resume_provenance': paper.get('abstract_provenance', 'métadonnées de la source'),
+            'niveau_preuve': ('résumé disponible' if abstract(paper.get('abstract_inverted_index')) else 'titre seul'),
             'themes_recherche': [x[:3] for x in rec['themes']],
         })
     instructions = """Tu évalues des ARTICLES SCIENTIFIQUES pour une thèse précise :
@@ -188,6 +194,43 @@ C. SECONDAIRE SAUF APPLICATION DIRECTE DÉMONTRÉE À A OU B : méthodes
 D. TRÈS PÉRIPHÉRIQUE : cache KV des LLM, API cloud, agents IA, cache logiciel
    de préfixes. Ces sujets ne constituent PAS des attaques de cache CPU.
 
+DISTINGUE IMPÉRATIVEMENT LES CONTRIBUTIONS DES SIMPLES USAGES :
+- Un TEE utilisé pour accélérer un modèle IA, protéger un service cloud ou
+  exécuter une application n'est PAS automatiquement une contribution TEE :
+  sauf nouvelle isolation, attestation, RoT, chaîne de confiance ou défense
+  évaluée, classe au plus « secondaire ».
+- RISC-V dans le titre ne suffit pas : il faut un mécanisme de sécurité
+  étudié. Une étude des performances, de la maturité logicielle ou un
+  accélérateur cryptographique générique n'est pas automatiquement « coeur ».
+- Le PAGE CACHE logiciel et le cache KV des LLM ne sont PAS des caches CPU
+  microarchitecturaux. Pas de « coeur » par analogie de vocabulaire.
+- Pour « transfert_explicite », cite le mécanisme concret et la manière
+  dont on pourrait le transposer ; si le lien est seulement plausible
+  ou marketing, préfère « secondaire ».
+- Un survey de référence sur RoT/TEE/attestation/cache CPU peut être très
+  utile à l'état de l'art même sans contribution expérimentale originale ;
+  explique en quoi il structure réellement la thèse.
+
+BARÈME PLUS DISCRIMINANT :
+95-100 : contribution exceptionnelle ET directement exploitable au centre
+         RoT / Keystone / DICE / CVA6 / attestation TEE / attaques cache CPU.
+85-94  : méthode, architecture, attaque ou survey de référence directement
+         utile, dont l'intérêt spécifique est identifiable dans le résumé.
+75-84  : thème directement lié, contribution utile mais moins centrale,
+         ou méthode prometteuse à étudier davantage.
+60-74  : proximité technique démontrable à approfondir, sans priorité forte.
+0-59   : intérêt surtout contextuel, périphérique ou absent.
+Un article « coeur » peut rester à 70-74 ; n'augmente PAS sa note pour faire
+passer le seuil de publication. Une conférence prestigieuse n'ajoute aucun
+point de pertinence. N'attribue PAS systématiquement 85 aux articles RISC-V.
+
+INCERTITUDE : la provenance et le niveau de preuve sont fournis séparément.
+Si « niveau_preuve » = « titre seul », la confiance DOIT être « faible ».
+Ne suppose JAMAIS que tu connais l'abstract ou le PDF par préentraînement.
+Ne déduis PAS un protocole, une évaluation FPGA ou un chiffre depuis un titre.
+Une publication sur titre seul reste un candidat à vérifier, non une preuve.
+Ne confonds pas publication de conférence, revue, dataset, thèse et preprint.
+
 Dans « lien_concret », identifie la plateforme/mécanisme exact et explique
 comment il affecte la RoT, le TEE ou le cache CPU ; sinon écris « Aucun lien
 technique direct démontré ». Évite d'inventer une application à Keystone/CVA6.
@@ -198,8 +241,9 @@ Priorise le lien démontré, PAS la sophistication ou la nouveauté d'un article
 Scores indicatifs d'intérêt POUR LA THÈSE : coeur 70-100 ; transfert_explicite
 50-79 ; secondaire 0-49 ; hors_sujet 0-20. Les scores ne sont pas une qualité
 scientifique intrinsèque. N'invente PAS un transfert absent du titre/résumé.
-Pour les articles SANS ABSTRACT : baisse la CONFIANCE et décris ce qui manque,
-mais ne conclus pas automatiquement à une pertinence faible.
+Pour les articles SANS ABSTRACT : la confiance doit être faible ;
+ne prétends pas vérifier une contribution absente du titre. Préserve les
+signaux techniques très centraux, mais ne les traite pas comme une validation.
 Les études consacrées exclusivement à la fault injection sont hors périmètre,
 sauf si elles contiennent aussi une analyse de canal auxiliaire pertinente.
 Pour chaque article retourne : id, score, decision (conserver/examiner/rejeter),
@@ -266,6 +310,15 @@ les titres et abstracts. N'affirme jamais avoir lu le PDF.
             row['score'] = min(row['score'], 49)
             row['decision'] = 'examiner'
             row['lien_concret'] = 'Cache KV logiciel de LLM, pas de mécanisme de cache CPU démontré.'
+        # Le titre seul ne suffit pas pour valider une priorité de lecture.
+        # Conserver les candidats coeur/transfert en bibliographie secondaire
+        # (60-74), afin d'éviter les faux positifs à 85-95 sans les oublier.
+        if not abstract(records[idx]['paper'].get('abstract_inverted_index')).strip():
+            row['confiance'] = 'faible (titre seul)'
+            cap = 74 if row.get('categorie') == 'coeur' else 69
+            row['score'] = min(row['score'], cap)
+            row['justification'] = (str(row.get('justification') or '') +
+                                    ' [Vérification requise : résumé indisponible.]')[:1300]
         assessments[idx] = row
     return assessments
 
