@@ -13,6 +13,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
+import venue_v168 as venue
 
 NOTION_TOKEN = os.environ.get('NOTION_TOKEN', '')
 SOURCE_ID = os.environ.get('NOTION_DATA_SOURCE_ID', '')
@@ -76,7 +77,12 @@ def get_articles():
                          'score': p.get('Pertinence', {}).get('number'),
                          'source': source_link(p),
                          'themes': [x.get('name','') for x in p.get('Thèmes', {}).get('multi_select', [])],
-                         'date': (p.get('Date de détection', {}).get('date') or {}).get('start', '')})
+                         'date': (p.get('Date de détection', {}).get('date') or {}).get('start', ''),
+                          'doi': notion_text(p, 'DOI'),
+                          'publication_venue': next((notion_text(p, field)
+                              for field in ('Lieu de publication', 'Conférence / Revue', 'Publication')
+                              if notion_text(p, field)), ''),
+                          'publication_type': ''})
         cursor = result.get('next_cursor')
         if not cursor:
             break
@@ -104,8 +110,16 @@ def build_report(rows, since):
              f'**{len(rows)} publication(s)** retenue(s) par la veille.', '',
              '> Les scores indiquent la pertinence estimée pour une thèse sur les RoT, TEE RISC-V et canaux auxiliaires, et non la qualité scientifique absolue.', '']
     for idx, row in enumerate(rows, 1):
+        # Métadonnées par DOI, jamais une décision Gemini ni un score modifié.
+        if not row.get('publication_venue'):
+            doi = venue.doi_from_record(row)
+            inferred = venue.crossref_lookup(doi, timeout=8) if doi else venue.identify_preprint_url(row.get('source', ''))
+            if inferred:
+                row.update(inferred)
+        place = venue.display(row)
         lines += [f"## {idx}. {md_escape(row['title'])}", '',
                   f"**Pertinence indicative :** {row['score']}/100" if row['score'] is not None else '**Pertinence :** non renseignée',
+                  *([f'**Conférence / Revue :** {md_escape(place)}'] if place else []),
                   f"**Thèmes :** {', '.join(md_escape(x) for x in row['themes'])}" if row['themes'] else '**Thèmes :** non renseignés', '',
                   md_escape(row['summary']) or '*Résumé non disponible dans les métadonnées.*', '']
         if row['source']:
