@@ -1,8 +1,8 @@
 {
-  "accepted": 41,
+  "accepted": 44,
   "completed": false,
   "cursor": "*",
-  "evaluated": 937,
+  "evaluated": 961,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -60,113 +60,15 @@
     "monthly/2026-06/query-20 : résultat tronqué au plafond 12 pages",
     "monthly/2026-06/query-21 : résultat tronqué au plafond 12 pages",
     "monthly/2026-06/query-22 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-06/query-23 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-06/query-23 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-06/query-24 : résultat tronqué au plafond 12 pages"
   ],
-  "month": "2026-06",
+  "month": "2026-05",
   "needs_publish": false,
   "offset": 0,
-  "pages_done": 769,
+  "pages_done": 794,
   "pages_in_query": 0,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Kishore Kumar Venkatesan"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Snehal Naganath Shinde"
-            }
-          },
-          {
-            "author": {
-              "display_name": "S. Sree Priya"
-            }
-          },
-          {
-            "author": {
-              "display_name": "M. Kalpana"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Vishwandham Mandala"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Aldrin Xavier. A"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/otcon69332.2026.11629940",
-        "id": "https://doi.org/10.1109/otcon69332.2026.11629940",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/otcon69332.2026.11629940"
-        },
-        "publication_date": "2026-06-01",
-        "publication_date_note": "Date source Crossref : 2026-06 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2026-06",
-        "publication_type": "conference",
-        "publication_venue": "2026 5th OPJU International Technology Conference (OTCON) on Smart Computing for Innovation and Advancement in Industry 5.0",
-        "title": "Energy-Efficient RISC-V Microarchitecture Design Optimized for Next-Generation IoT Devices",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T10 — RISC-V SoC & FPGA"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Li Yi"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jian Yang"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/eei70303.2026.11640533",
-        "id": "https://doi.org/10.1109/eei70303.2026.11640533",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/eei70303.2026.11640533"
-        },
-        "publication_date": "2026-06-01",
-        "publication_date_note": "Date source Crossref : 2026-06 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2026-06",
-        "publication_type": "conference",
-        "publication_venue": "2026 8th International Conference on Electronic Engineering and Informatics (EEI)",
-        "title": "A Variable-Delay Radix-4 Booth Multiplier for RISC-V Processors via LLM-Assisted RTL Design",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T10 — RISC-V SoC & FPGA"
-      ]
-    }
-  ],
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2114,8 +2016,8 @@
       "title": "A Comparative Review of Performance and Energy Efficiency in ARM and RISC-V SoCs"
     }
   ],
-  "query_index": 24,
-  "secondary": 40,
-  "skipped": 907,
+  "query_index": 13,
+  "secondary": 44,
+  "skipped": 943,
   "version": 1
 }

@@ -2512,6 +2512,14 @@
       "title": "OpenTRNG: an open-source initiative for ring-oscillator based TRNGs",
       "updated_at": "2026-11-03T02:14:35.288805+00:00"
     },
+    "doi:10.1109/eei70303.2026.11640533": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A Variable-Delay Radix-4 Booth Multiplier for RISC-V Processors via LLM-Assisted RTL Design",
+      "updated_at": "2026-11-03T10:08:12.359953+00:00"
+    },
     "doi:10.1109/eicars71536.2026.11694487": {
       "category": "secondaire",
       "decision": "examiner",
@@ -3879,6 +3887,14 @@
       "status": "rejected",
       "title": "RISC-V Triplet: Tapeouts for Security Applications",
       "updated_at": "2026-11-03T02:13:53.773267+00:00"
+    },
+    "doi:10.1109/otcon69332.2026.11629940": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Energy-Efficient RISC-V Microarchitecture Design Optimized for Next-Generation IoT Devices",
+      "updated_at": "2026-11-03T10:08:12.340040+00:00"
     },
     "doi:10.1109/pkia71423.2026.11732322": {
       "category": "hors_sujet",
@@ -5328,6 +5344,14 @@
       "title": "RV-Sec5: Enhancing RISC-V Security Evaluation via Targeted ISA-Level Instrumentation using gem5",
       "updated_at": "2026-11-01T05:14:25.629721+00:00"
     },
+    "doi:10.1145/3793655.3793740": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Finding Missing Input Validation in TEEs via LLM-Assisted Symbolic Execution",
+      "updated_at": "2026-11-03T10:13:38.607361+00:00"
+    },
     "doi:10.1145/3795509": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -5455,6 +5479,14 @@
       "status": "imported",
       "title": "Reducing the TCB of SGX-Oriented LibOSes at Runtime",
       "updated_at": "2026-11-03T09:07:00.526745+00:00"
+    },
+    "doi:10.1145/3808207": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Automated Repair of TEE Partitioning Issues via DSL-Guided and LLM-Assisted Patching",
+      "updated_at": "2026-11-03T10:13:38.625663+00:00"
     },
     "doi:10.1145/3808287": {
       "category": "coeur",
@@ -5599,6 +5631,14 @@
       "status": "rejected",
       "title": "Understanding the Security Boundary of Obfuscation-based On-Device LLM Protection",
       "updated_at": "2026-11-02T15:56:39.874026+00:00"
+    },
+    "doi:10.1145/3830454.3846750": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "TENNOR: Trustworthy Execution for Neural Networks through Obliviousness and Retrievals",
+      "updated_at": "2026-11-03T10:13:28.507469+00:00"
     },
     "doi:10.1145/3830908": {
       "category": "secondaire",
@@ -6799,6 +6839,14 @@
       "status": "rejected",
       "title": "Design and Hardware Implementation of Audio Filtering",
       "updated_at": "2026-11-02T20:56:36.581343+00:00"
+    },
+    "doi:10.2355/tetsutohagane.tetsu-2025-106": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Chemical Verification of a Spectrophotometric Method for Determination of Silicon in Steel Samples",
+      "updated_at": "2026-11-03T10:09:54.718215+00:00"
     },
     "doi:10.23919/date64628.2025.10992999": {
       "category": "hors_sujet",
@@ -10536,6 +10584,14 @@
       "title": "AMD SEV-SNP: A Confidential Computing Primer",
       "updated_at": "2026-11-02T17:56:56.865263+00:00"
     },
+    "title:amultiinterfacefirmwareacquisitionandvalidationmethodologyforlowcostconsumerdronesacasestudyonthreeholystoneplatforms": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A Multi-Interface Firmware Acquisition and Validation Methodology for Low-Cost Consumer Drones: A Case Study on Three Holy Stone Platforms",
+      "updated_at": "2026-11-03T10:12:41.909606+00:00"
+    },
     "title:anempiricalstudyofgpucachesidechannelleakageinlargelanguagemodelinference": {
       "category": "secondaire",
       "decision": "examiner",
@@ -10543,6 +10599,14 @@
       "status": "rejected",
       "title": "An empirical study of GPU cache side-channel leakage in large language model inference",
       "updated_at": "2026-10-31T20:14:32.089451+00:00"
+    },
+    "title:anevidencedrivenprotocolfortrustworthycipipelines": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 70,
+      "status": "rejected",
+      "title": "An Evidence-driven Protocol for Trustworthy CI Pipelines",
+      "updated_at": "2026-11-03T10:13:38.569096+00:00"
     },
     "title:antmananefficientandinterpretablertllevelruntimedetectionframeworkforstealthybranchpredictorattacksonboom": {
       "category": "coeur",
@@ -10712,6 +10776,14 @@
       "title": "Can SOLARBURST go silicon? A systematic analysis on software supply chain attacks for VLSI design flows",
       "updated_at": "2026-11-02T12:56:38.301261+00:00"
     },
+    "title:ccxenablingunmodifiedintelsgxapplicationsonarmcca": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 72,
+      "status": "rejected",
+      "title": "CCX: Enabling Unmodified Intel SGX Applications on Arm CCA",
+      "updated_at": "2026-11-03T10:13:51.683873+00:00"
+    },
     "title:characterizingthevarianceenvelopeamultidimensionalanalysisofspectretelemetryacrossarchitecturesandworkloads": {
       "category": "coeur",
       "decision": "conserver",
@@ -10872,6 +10944,14 @@
       "title": "EnclaveX: End-to-End Confidential AI with CPU/GPU TEEs",
       "updated_at": "2026-11-03T07:47:41.104725+00:00"
     },
+    "title:enforcingattestableworkflowsacrossuntrustednetworks": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Enforcing Attestable Workflows across Untrusted Networks",
+      "updated_at": "2026-11-03T10:13:38.549103+00:00"
+    },
     "title:enforcingriscvteesecurityagainstcachetimingattacks": {
       "category": "coeur",
       "decision": "conserver",
@@ -10879,6 +10959,14 @@
       "status": "imported",
       "title": "Enforcing RISC-V TEE Security Against Cache Timing Attacks",
       "updated_at": "2026-10-30T20:15:41.595928+00:00"
+    },
+    "title:ethicalhypervelocityehvahardwarerootedzerotrustruntimeenforcementarchitectureforagenticaisystems": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Ethical Hyper-Velocity (EHV): A Hardware-Rooted Zero-Trust Runtime Enforcement Architecture for Agentic AI Systems",
+      "updated_at": "2026-11-03T10:11:48.542878+00:00"
     },
     "title:evidenceboundgatewaypathprovenanceforthirdpartyllminference": {
       "category": "secondaire",
@@ -10912,6 +11000,14 @@
       "title": "Extending Layered Attestation into ARM Application Run-Times",
       "updated_at": "2026-11-02T12:56:55.301839+00:00"
     },
+    "title:fededauthfederatedembeddingdistributionauthenticationforcounterfeiticdetection": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "FedEDAuth -- Federated Embedding Distribution Authentication for Counterfeit IC Detection",
+      "updated_at": "2026-11-03T10:11:10.423832+00:00"
+    },
     "title:federatedtrustforembodiedrobotcapabilitymarketplaces": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -10935,6 +11031,14 @@
       "status": "rejected",
       "title": "Formal-Verification-Guided Bayesian Optimization for Non-Intrusive Last-Mile Coverage Closure",
       "updated_at": "2026-11-02T13:37:41.794093+00:00"
+    },
+    "title:formalverificationofsecureencryptedvirtualization": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "Formal Verification of Secure Encrypted Virtualization",
+      "updated_at": "2026-11-03T10:13:45.988272+00:00"
     },
     "title:fpgabasedlightweighthybridphysicalunclonablefunctionforsecuredeviceauthenticationusingarbiterandringoscillatorarchitectures": {
       "category": "secondaire",
@@ -11064,6 +11168,14 @@
       "title": "HarnessOpt-Bench: Evaluating LLMs at Harness Optimization",
       "updated_at": "2026-11-02T17:56:56.880723+00:00"
     },
+    "title:heartbeatboundhierarchicalcredentialscryptographicrevocationforaiagentswarms": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Heartbeat-Bound Hierarchical Credentials: Cryptographic Revocation for AI Agent Swarms",
+      "updated_at": "2026-11-03T10:13:51.701770+00:00"
+    },
     "title:helpbenchassessingtheabilityofllmstoprovideprivacysafetyandsecurityadvice": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -11168,6 +11280,14 @@
       "title": "Isolation Failure From Shared Storage: Characterizing and Exploiting Page-Cache SCA Leakage Across Containers and VMs",
       "updated_at": "2026-11-02T19:56:30.267849+00:00"
     },
+    "title:kettleattestedbuildsforverifiablesoftwareprovenance": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Kettle: Attested builds for verifiable software provenance",
+      "updated_at": "2026-11-03T10:11:48.525567+00:00"
+    },
     "title:knowthyneighborcrossteemutualattestation": {
       "category": "coeur",
       "decision": "examiner",
@@ -11208,6 +11328,14 @@
       "title": "LIB-TRAP: Standard Cell Library Hardware Trojan Risk Assessment and Prevention",
       "updated_at": "2026-11-02T19:35:23.901809+00:00"
     },
+    "title:lippenalightweightinplacepointerencryptionarchitectureforpointerintegrity": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "LIPPEN: A Lightweight In-Place Pointer Encryption Architecture for Pointer Integrity",
+      "updated_at": "2026-11-03T10:13:19.264046+00:00"
+    },
     "title:llmassisteddetectionandrepairofhardwaresecurityvulnerabilitiesinverilogdesigns": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -11215,6 +11343,14 @@
       "status": "rejected",
       "title": "LLM-Assisted Detection and Repair of Hardware Security Vulnerabilities in Verilog Designs",
       "updated_at": "2026-11-02T17:52:30.981541+00:00"
+    },
+    "title:llmsforsecurehardwaredesignandrelatedproblemsopportunitiesandchallenges": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "LLMs for Secure Hardware Design and Related Problems: Opportunities and Challenges",
+      "updated_at": "2026-11-03T10:11:10.389475+00:00"
     },
     "title:llmsincloudadiscussiononarchitectureorchestrationandinference": {
       "category": "hors_sujet",
@@ -11328,6 +11464,22 @@
       "title": "Pangolin: Efficient DAG-based BFT State-Machine Replication with TEE-Accelerated Commitment",
       "updated_at": "2026-11-02T13:03:57.246530+00:00"
     },
+    "title:poisoncapefficienthierarchicaltemporalsafetyforcheri": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "PoisonCap: Efficient Hierarchical Temporal Safety for CHERI",
+      "updated_at": "2026-11-03T10:14:18.249882+00:00"
+    },
+    "title:polarsinsideintelsgx2enclavesanempiricalstudyofconfidentialanalyticalqueryprocessing": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Polars inside Intel SGX2 Enclaves: An Empirical Study of Confidential Analytical Query Processing",
+      "updated_at": "2026-11-03T10:13:38.588248+00:00"
+    },
     "title:pratlsattestationofaclientapplicationfortee": {
       "category": "secondaire",
       "decision": "examiner",
@@ -11352,6 +11504,14 @@
       "title": "Protecting CPU AI On Edge TEEs: WebAssembly's Promise and Practical Challenges",
       "updated_at": "2026-11-02T12:56:47.550915+00:00"
     },
+    "title:protectingondeviceaiinferenceasystematicreviewofattacksanddefencemechanisms": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Protecting On-Device AI Inference: A Systematic Review of Attacks and Defence Mechanisms",
+      "updated_at": "2026-11-03T10:13:38.642524+00:00"
+    },
     "title:prototypingcustomhardwareperformancecountersingem5simulatoraframeworkforriscvsidechannelattackassessment": {
       "category": "coeur",
       "decision": "conserver",
@@ -11359,6 +11519,14 @@
       "status": "imported",
       "title": "Prototyping Custom Hardware Performance Counters in gem5 Simulator: A Framework for RISC-V Side-Channel Attack Assessment",
       "updated_at": "2026-10-30T20:15:22.976573+00:00"
+    },
+    "title:quantumsecurephysicalunclonablefunctionenabledbysiliconphotonicsintegratedcircuits": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Quantum-Secure Physical Unclonable Function enabled by Silicon Photonics Integrated Circuits",
+      "updated_at": "2026-11-03T10:11:10.406972+00:00"
     },
     "title:qubesossecurityinthepublicrecord": {
       "category": "secondaire",
@@ -11776,6 +11944,14 @@
       "title": "Two-Way Confidential VMs (2cVM): Collaborative Confidential Computing for Mutually Distrustful Parties",
       "updated_at": "2026-11-02T21:35:59.711691+00:00"
     },
+    "title:ugenanagenticframeworkforgeneratingmicroarchitecturalattackpocs": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 49,
+      "status": "rejected",
+      "title": "uGen: An Agentic Framework for Generating Microarchitectural Attack PoCs",
+      "updated_at": "2026-11-03T10:14:18.270762+00:00"
+    },
     "title:verifiableandconfidentialdnninferenceonlowendedgedevices": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -11792,6 +11968,14 @@
       "title": "WarpGuard: Towards Control-Flow Attestation for Heterogeneous CPU-GPU Execution",
       "updated_at": "2026-11-02T02:15:03.335968+00:00"
     },
+    "title:watsonleveragingdatawatchpointsforshadowstackprotectiononembeddedsystems": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "WATSON: Leveraging Data Watchpoints for Shadow Stack Protection on Embedded Systems",
+      "updated_at": "2026-11-03T10:13:28.527208+00:00"
+    },
     "title:wavecommitmentsprivateandverifiablespeechagentmarketplaces": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -11799,6 +11983,14 @@
       "status": "rejected",
       "title": "WaveCommitments: Private and Verifiable Speech-Agent Marketplaces",
       "updated_at": "2026-11-02T19:54:40.738433+00:00"
+    },
+    "title:whenagentshandlesecretsasurveyofconfidentialcomputingforagenticai": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "When Agents Handle Secrets: A Survey of Confidential Computing for Agentic AI",
+      "updated_at": "2026-11-03T10:11:48.507311+00:00"
     },
     "title:whenrotationboundsnothingstreamingimageclassifierstofieldnodesunderphysicalcapture": {
       "category": "hors_sujet",

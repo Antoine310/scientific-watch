@@ -2505,6 +2505,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:enforcingattestableworkflowsacrossuntrustednetworks": {
+    "doi": "",
+    "publication_date": "2026-05-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2605.09297v1",
+    "summary": "Cet article propose une architecture nommees codename pour federer des environnements d'execution de confiance (TEE) grace a une conception de base de confiance (TCB) divisee. Elle associe un plan de controle isole materiellement et un plan de donnees eBPF mesure. Le systeme obtient un routage chiffre a vitesse native avec une faible latence et un surcout d'execution minime sur les pipelines distribues.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Enforcing Attestable Workflows across Untrusted Networks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:enforcingriscvteesecurityagainstcachetimingattacks": {
     "publication_date": "2025-06-15",
     "score": 90,
@@ -2545,6 +2565,26 @@
       "T02 — DICE & Hardware Identity"
     ],
     "title": "Extending Layered Attestation into ARM Application Run-Times",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:formalverificationofsecureencryptedvirtualization": {
+    "doi": "",
+    "publication_date": "2026-05-31",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 80,
+    "source": "http://arxiv.org/abs/2606.01381v1",
+    "summary": "Cette publication présente un cadre formel pour représenter et vérifier les machines virtuelles confidentielles sous AMD SEV (Secure Encrypted Virtualization). Les auteurs réalisent des abstractions au niveau de la conception et des propriétés de la spécification AMD SEV afin d'effectuer de la vérification de propriétés pour garantir la confidentialité, l'intégrité et la disponibilité.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Formal Verification of Secure Encrypted Virtualization",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -2653,6 +2693,26 @@
       "T08 — Cache & Temporal Isolation"
     ],
     "title": "Leveraging gem5 and Machine Learning for End-to-End Detection of Cache-based Side-Channel Attack Patterns"
+  },
+  "title:lippenalightweightinplacepointerencryptionarchitectureforpointerintegrity": {
+    "doi": "",
+    "publication_date": "2026-05-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 88,
+    "source": "http://arxiv.org/abs/2605.03974v1",
+    "summary": "Ce papier présente LIPPEN, une architecture matérielle-logicielle de chiffrement complet des pointeurs pour l'intégrité mémoire. Contrairement aux approches basées sur des métadonnées externes ou des codes d'authentification tronqués (comme ARM PAC), LIPPEN chiffre l'intégralité du pointeur sur 64 bits en le liant cryptographiquement à son contexte d'exécution. L'évaluation sur FPGA (cœurs RISC-V Rocket et BOOM) montre une forte protection avec un surcoût d'exécution comparable à PAC et un impact matériel minime.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "LIPPEN: A Lightweight In-Place Pointer Encryption Architecture for Pointer Integrity",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:mstepasinglesteppingframeworkforsidechannelanalysisontrustzonem": {
     "publication_date": "2026-08-12",
