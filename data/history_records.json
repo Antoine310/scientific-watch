@@ -183,6 +183,16 @@
     ],
     "title": "Assessing the Vulnerability of Open-Source RISC-V Processors to Transient Execution Attacks"
   },
+  "doi:10.1109/dft63277.2024.10753540": {
+    "publication_date": "2024-10-08",
+    "score": 75,
+    "source": "http://dx.doi.org/10.1109/dft63277.2024.10753540",
+    "summary": "Cet article présente une évaluation expérimentale comparative de trois processeurs RISC-V haute performance (BOOM, NOEL-V et CVA6) implémentés sur une plateforme FPGA Xilinx Kintex-7. L'étude analyse les métriques de performance, la consommation d'énergie, l'empreinte de surface et la posture de sécurité face aux attaques par exécution transitoire. Une comparaison avec des processeurs ARM conventionnels est également menée.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "An Experimental Comparison of RISC-V Processors: Performance, Power, Area and Security - Special Session Paper-"
+  },
   "doi:10.1109/dsd67783.2025.00045": {
     "publication_date": "2025-09-10",
     "score": 95,
@@ -419,6 +429,16 @@
     ],
     "title": "PerSpectron: Detecting Invariant Footprints of Microarchitectural Attacks with Perceptron"
   },
+  "doi:10.1109/milcom61039.2024.10773698": {
+    "publication_date": "2024-10-28",
+    "score": 85,
+    "source": "https://doi.org/10.1109/milcom61039.2024.10773698",
+    "summary": "Cet article propose un modèle en trois étapes pour analyser les vulnérabilités de type canal auxiliaire basées sur le temps d'accès au cache, en se basant sur la composition des lignes de cache (bits de validité, bits de modification et bits de contrôle de remplacement). L'étude dérive un total de 336 vulnérabilités exploitables, dont 248 sont nouvelles.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Analyzing Cache Timing-based Side Channel Vulnerability through Cache Line Composition"
+  },
   "doi:10.1109/msec.2026.3698657": {
     "publication_date": "2026-07-01",
     "publication_date_note": "Date source Crossref : 2026-07 (jour inconnu ; 01 utilisé pour classer).",
@@ -617,6 +637,16 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "COGENT: Adaptable Compiler Toolchain for Tagging RISC-V Binaries"
+  },
+  "doi:10.1145/3690823": {
+    "publication_date": "2024-09-05",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3690823",
+    "summary": "Cet article explore le potentiel d'OpenTitan, une conception RISC-V open-source pour la sécurité, en se concentrant sur son implémentation Earl Grey. Les auteurs proposent une méthodologie pour intégrer des extensions personnalisées et des IP afin d'optimiser le transfert de données entre la mémoire et les accélérateurs cryptographiques. L'architecture améliorée a été intégrée dans une technologie 22-nm FDX, démontrant des accélérations significatives pour SHA-256/HMAC et AES par rapport à la version de base.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Unleashing OpenTitan’s Potential: a Silicon-Ready Embedded Secure Element for Root of Trust and Cryptographic Offloading"
   },
   "doi:10.1145/3695053.3731119": {
     "publication_date": "2025-06-20",
