@@ -10,6 +10,7 @@ Dépendances : bibliothèque standard Python uniquement.
 """
 import html
 import cache_v16
+import venue_v168 as venue
 import pathlib
 import json
 import os
@@ -87,9 +88,6 @@ def relevant(theme_id, title, abstract_text):
     """
     t, a = norm(title), norm(abstract_text)
     both = t + ' ' + a
-    # Les surveys mixtes RoT/TEE/cache ne sont pas écartés pour mention de fault injection.
-    if coverage_relevant(title, abstract_text):
-        return True
     # Only fault-injection articles are not a target; a mixed study of leakage is eligible.
     if contains(both, 'fault injection', 'voltage glitch', 'clock glitch', 'laser fault') and not contains(both, 'side channel', 'side-channel', 'timing leak', 'cache leak'):
         return False
@@ -124,30 +122,6 @@ def relevant(theme_id, title, abstract_text):
     if theme_id == 'T12':
         return contains(t, 'cache restor', 'cache warm-up', 'cache partition', 'cache reconfigur', 'hybrid cache', 'scratchpad', 'working set prediction', 'context-aware prefetch') and contains(t, 'cache', 'memory', 'scratchpad', 'prefetch', 'context', 'working set')
     return False
-
-
-# Rattrapage de couverture : articles de synthèse en sécurité matérielle.
-# Une présence thématique dans le résumé est nécessaire, pas seulement « security ».
-SURVEY_MARKERS = ('survey', 'review', 'systematic review', 'state of the art',
-                  'comprehensive analysis', 'overview', 'taxonomy')
-STRONG_TECH_SIGNALS = ('root of trust', 'secure boot', 'trusted boot', 'measured boot',
-    'risc-v', 'riscv', 'trusted execution', 'enclave', 'cache side-channel',
-    'cache side channel', 'spectre', 'meltdown', 'microarchitectur',
-    'hardware attestation', 'memory encryption', 'hardware isolation',
-    'security monitor', 'fault injection', 'physical unclonable')
-
-def coverage_relevant(title, abstract_text):
-    """Admet les synthèses réellement multi-thématiques au classement Gemini."""
-    t, a = norm(title), norm(abstract_text)
-    if not a:
-        return False
-    title_anchor = ('hardware security' in t or 'processor security' in t
-                    or 'microarchitectural security' in t)
-    survey = any(word in t for word in SURVEY_MARKERS)
-    if not title_anchor and not (survey and contains(t, 'security', 'hardware', 'processor', 'risc-v')):
-        return False
-    signals = sum(1 for s in STRONG_TECH_SIGNALS if s in a)
-    return signals >= 3 and (survey or title_anchor)
 
 # 3. ÉVALUATION IA : demande une catégorie (cœur, transfert, secondaire, rejet),
 # une justification et une note. La note est indicative, non objective.
@@ -383,7 +357,6 @@ ARXIV_QUERIES = [
     ('T03', 'all:"RISC-V" AND (all:enclave OR all:Keystone)'),
     ('T06', 'all:"side channel" AND (all:cache OR all:microarchitecture)'),
     ('T10', 'all:OpenTitan OR all:CVA6'),
-    ('T01', 'all:"hardware security" AND (all:survey OR all:review)'),
 ]
 
 
@@ -422,6 +395,7 @@ def arxiv_search(query):
             inv.setdefault(word, []).append(index)
         works.append({
             'id': link, 'title': title, 'doi': doi,
+            **venue.from_arxiv(entry.findtext('arxiv:journal_ref', default='', namespaces=ns)),
             'publication_date': published, 'abstract_inverted_index': inv,
             'authorships': [{'author': {'display_name': x.findtext('a:name', default='', namespaces=ns)}}
                             for x in entry.findall('a:author', ns)],
@@ -449,7 +423,6 @@ EXTRA_QUERIES = [
     ('T06', 'microarchitectural cache side channel'),
     ('T08', 'cache partitioning enclave security'),
     ('T10', 'OpenTitan CVA6 RISC-V'),
-    ('T01', 'hardware security survey review root of trust'),
 ]
 
 
@@ -540,6 +513,7 @@ def dblp_search(query):
         authors = [x.get('text', '') if isinstance(x, dict) else str(x) for x in authors]
         papers.append({
             'title': title, 'doi': 'https://doi.org/' + doi if doi else '',
+            **venue.from_dblp(info),
             'id': info.get('url') or entry.get('@id') or title,
             # Pas de date de publication fine inventée.
             'publication_date': '',
@@ -561,7 +535,7 @@ def crossref_search(query):
         'query.bibliographic': query,
         'filter': 'from-pub-date:' + (date.today() - timedelta(days=LOOKBACK_DAYS)).isoformat(),
         'rows': 20,
-        'select': 'DOI,title,abstract,published,author,URL,type',
+        'select': 'DOI,title,abstract,published,author,URL,type,container-title,event',
     }
     url = 'https://api.crossref.org/works?' + urllib.parse.urlencode(params)
     items = safe_get_json(url, 'Crossref').get('message', {}).get('items', [])
@@ -585,6 +559,7 @@ def crossref_search(query):
         authors = [(x.get('given', '') + ' ' + x.get('family', '')).strip() for x in item.get('author', [])]
         papers.append({
             'title': title, 'doi': 'https://doi.org/' + doi if doi else '',
+            **venue.from_crossref(item),
             'id': item.get('URL') or title,
             'publication_date': precise_date,
             'abstract_inverted_index': indexed_abstract(plain_text(item.get('abstract', ''))),
@@ -621,6 +596,7 @@ def iacr_recent():
             continue
         papers.append({
             'title': title, 'doi': '', 'id': link or title,
+            **venue.from_iacr(),
             'publication_date': pub, 'abstract_inverted_index': indexed_abstract(summary),
             'authorships': [],
             'primary_location': {'landing_page_url': link},
@@ -650,9 +626,12 @@ def add_candidate(candidates, themes, paper, existing_titles, existing_dois):
             if normalized_doi(rec['paper'].get('doi')) == doi_key:
                 key = existing_key
                 break
+    if not paper.get('publication_type'):
+        venue.annotate(paper, venue.from_paper(paper))
     if key not in candidates:
         candidates[key] = {'paper': paper, 'themes': [], 'sources': set()}
     record = candidates[key]
+    best_venue = venue.merge_prefer_informative(record['paper'], paper)
     for theme in themes:
         if theme not in record['themes']:
             record['themes'].append(theme)
@@ -661,6 +640,7 @@ def add_candidate(candidates, themes, paper, existing_titles, existing_dois):
     if (len(abstract(paper.get('abstract_inverted_index'))) >
             len(abstract(record['paper'].get('abstract_inverted_index')))):
         record['paper'] = paper
+    venue.annotate(record['paper'], best_venue)
     return True
 
 
@@ -808,6 +788,13 @@ def notion_add(record, assessment, detail, schema):
         properties['Lien article'] = {'url': link}
     if paper.get('publication_date') and 'Date de publication' in schema:
         properties['Date de publication'] = {'date': {'start': paper['publication_date']}}
+    venue.enrich_confirmed(paper)
+    place = venue.display(paper)
+    if place:
+        for field in ('Lieu de publication', 'Conférence / Revue', 'Publication'):
+            if field in schema and schema[field].get('type') == 'rich_text':
+                properties[field] = {'rich_text': rt(place)}
+                break
     if 'Date de détection' in schema:
         properties['Date de détection'] = {'date': {'start': date.today().isoformat()}}
     if 'Source' in schema:
@@ -926,7 +913,10 @@ def main():
     # Ignorer aussi les rejets déjà évalués (pas seulement les pages Notion).
     remaining = [rec for rec in candidates.values() if not cache_v16.done(cache, rec['paper'])]
     print(f'Cache Gemini : {len(candidates) - len(remaining)} candidat(s) déjà traités.')
+    remaining = venue.prioritize(remaining, MAX_AI)
     records = remaining[:MAX_AI]
+    print('Priorité conférence :', sum(venue.priority(r['paper']) > 0 for r in records),
+          'article(s) repère(s) dans la sélection ; score Gemini inchangé.')
     unevaluated = max(0, len(remaining) - len(records))
     print(f'Articles à évaluer : {len(records)} / {len(remaining)} candidats non mis en cache.')
     if unevaluated:

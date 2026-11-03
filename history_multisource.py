@@ -24,6 +24,7 @@ import cache_v16 as cachelib
 import collect as core
 import publish_history
 import prefilter_v1674
+import venue_v168 as venue
 
 STATE_PATH = pathlib.Path(os.environ.get('MULTI_STATE_PATH', 'data/history_multisource_progress.json'))
 RECORDS_PATH = pathlib.Path('data/history_records.json')
@@ -341,11 +342,13 @@ def arxiv_page(ym, query, offset):
         if not when.startswith(ym):
             continue
         doi = entry.findtext('x:doi', default='', namespaces=ARXIV_NS).strip()
-        papers.append({'title': title, 'id': url, 'doi': 'https://doi.org/' + doi if doi else '',
+        paper = {'title': title, 'id': url, 'doi': 'https://doi.org/' + doi if doi else '',
                        'publication_date': when, 'abstract_inverted_index': core.indexed_abstract(summary),
                        'primary_location': {'landing_page_url': url},
                        'authorships': [{'author': {'display_name': x.findtext('a:name', default='', namespaces=ARXIV_NS)}}
-                                       for x in entry.findall('a:author', ARXIV_NS)]})
+                                       for x in entry.findall('a:author', ARXIV_NS)]}
+        journal_ref = entry.findtext('x:journal_ref', default='', namespaces=ARXIV_NS)
+        papers.append(venue.annotate(paper, venue.from_arxiv(journal_ref)))
     # Le dernier lot peut avoir des entrées hors mois / mal formées : se fonder sur
     # le nombre brut d'entrées pour avancer la pagination, pas sur len(papers).
     raw_count = len(root.findall('a:entry', ARXIV_NS))
@@ -427,7 +430,7 @@ def crossref_convert(item, ym):
     title = core.plain_text((item.get('title') or [''])[0])
     doi = core.normalized_doi(item.get('DOI', ''))
     published, precision, source_date, note = crossref_date_info(item, ym)
-    return {'title': title, 'doi': 'https://doi.org/' + doi if doi else '',
+    paper = {'title': title, 'doi': 'https://doi.org/' + doi if doi else '',
             'id': item.get('URL') or ('https://doi.org/' + doi if doi else title),
             'publication_date': published, 'publication_date_precision': precision,
             'publication_date_source': source_date, 'publication_date_note': note,
@@ -435,6 +438,7 @@ def crossref_convert(item, ym):
             'authorships': [{'author': {'display_name': (x.get('given', '') + ' ' + x.get('family', '')).strip()}}
                             for x in (item.get('author') or [])],
             'primary_location': {'landing_page_url': item.get('URL') or ''}}
+    return venue.annotate(paper, venue.from_crossref(item))
 
 
 def crossref_page(ym, query, cursor):
@@ -442,7 +446,7 @@ def crossref_page(ym, query, cursor):
     params = urllib.parse.urlencode({'query.bibliographic': query,
                                      'filter': f'from-pub-date:{start},until-pub-date:{end}',
                                      'rows': PAGE_SIZE, 'cursor': cursor,
-                                     'select': 'DOI,title,abstract,published,published-online,published-print,issued,posted,author,URL,type'})
+                                     'select': 'DOI,title,abstract,published,published-online,published-print,issued,posted,author,URL,type,container-title,event'})
     message = request('https://api.crossref.org/works?' + params, 'crossref').get('message', {})
     items = message.get('items') or []
     papers = [crossref_convert(x, ym) for x in items if x.get('title')]
@@ -473,7 +477,7 @@ def dblp_page(query, offset):
         if isinstance(authors, dict):
             authors = [authors]
         doi = core.normalized_doi(info.get('doi', ''))
-        papers.append({'title': title, 'doi': 'https://doi.org/' + doi if doi else '',
+        paper = {'title': title, 'doi': 'https://doi.org/' + doi if doi else '',
                        'id': info.get('url') or title,
                        'publication_date': f'{int(year):04d}-01-01',
                        'publication_date_precision': 'year',
@@ -481,7 +485,8 @@ def dblp_page(query, offset):
                        'publication_date_note': f'DBLP donne seulement l’année {year} ; janvier est un mois de classement conventionnel.',
                        'abstract_inverted_index': {},
                        'authorships': [{'author': {'display_name': a.get('text', '') if isinstance(a, dict) else str(a)}} for a in authors],
-                       'primary_location': {'landing_page_url': info.get('ee') or info.get('url') or ''}})
+                       'primary_location': {'landing_page_url': info.get('ee') or info.get('url') or ''}}
+        papers.append(venue.annotate(paper, venue.from_dblp(info)))
     return papers, len(hits), offset + len(hits) >= total or len(hits) < PAGE_SIZE, ''
 
 
@@ -498,6 +503,11 @@ def enrich_dblp_date(paper):
             paper['publication_date_precision'] = precision
             paper['publication_date_source'] = source_date
             paper['publication_date_note'] = note
+        crossref_venue = venue.from_crossref(item)
+        previous = venue.metadata(paper)
+        if (crossref_venue.get('publication_venue') and
+                not previous.get('publication_venue')):
+            venue.annotate(paper, crossref_venue)
         if item.get('abstract'):
             if not core.abstract(paper.get('abstract_inverted_index')):
                 paper['abstract_inverted_index'] = core.indexed_abstract(core.plain_text(item['abstract']))
@@ -568,13 +578,14 @@ def iacr_page(cursor):
         doi = next((u for u in urls if 'doi.org/' in u), '')
         if not titles or not date_str or not url:
             continue
-        papers.append({'title': titles[0], 'doi': doi,
+        paper = {'title': titles[0], 'doi': doi,
                        'publication_date': date_str, 'id': url,
                        'publication_date_precision': precision,
                        'publication_date_source': source_date, 'publication_date_note': note,
                        'abstract_inverted_index': core.indexed_abstract(desc[0] if desc else ''),
                        'authorships': [{'author': {'display_name': a}} for a in names],
-                       'primary_location': {'landing_page_url': url}})
+                       'primary_location': {'landing_page_url': url}}
+        papers.append(venue.annotate(paper, venue.from_iacr()))
     token = root.findtext('.//o:ListRecords/o:resumptionToken', default='', namespaces=OAI_NS).strip()
     return papers, len(records), not bool(token), token
 
@@ -664,6 +675,10 @@ def process_one(rec, assessment, state, cache, records, secondary, titles, dois)
     accepted = (cat in {'coeur', 'transfert_explicite'} and
                 assessment.get('decision', '').casefold() in {'conserver', 'consigner', 'examiner'} and
                 score >= (core.MIN_SCORE_CORE if cat == 'coeur' else core.MIN_SCORE_TRANSFER))
+    # Résoudre le lieu exact par DOI uniquement pour les références retenues
+    # (principales ou secondaires), sans nouvel appel Gemini.
+    if accepted or (60 <= score <= 74 and cat in {'coeur', 'transfert_explicite'}):
+        venue.enrich_confirmed(paper)
     if accepted:
         detail = core.analyze_detail(rec)
         if paper.get('publication_date_note'):
@@ -682,10 +697,11 @@ def process_one(rec, assessment, state, cache, records, secondary, titles, dois)
         if identity:
             records[identity] = {'title': paper['title'], 'summary': detail.get('resume_court', ''),
                                  'score': score, 'themes': rec['themes'],
-                                 'source': url, 'publication_date': paper['publication_date'],
+                                 'source': url, 'doi': paper.get('doi', ''), 'publication_date': paper['publication_date'],
                                  'publication_date_precision': paper.get('publication_date_precision', 'day'),
                                  'publication_date_source': paper.get('publication_date_source', ''),
-                                 'publication_date_note': paper.get('publication_date_note', '')}
+                                 'publication_date_note': paper.get('publication_date_note', ''),
+                                 **venue.metadata(paper)}
             secondary.pop(identity, None)
         cachelib.set_status(cache, paper, assessment, 'imported')
         state['accepted'] += 1
@@ -697,7 +713,8 @@ def process_one(rec, assessment, state, cache, records, secondary, titles, dois)
                                    'publication_date': paper['publication_date'],
                                    'publication_date_precision': paper.get('publication_date_precision', 'day'),
                                    'publication_date_source': paper.get('publication_date_source', ''),
-                                   'publication_date_note': paper.get('publication_date_note', '')}
+                                   'publication_date_note': paper.get('publication_date_note', ''),
+                                 **venue.metadata(paper)}
             state['secondary'] += 1
             state['needs_publish'] = True
             print(f'SECONDAIRE ({score}/100) :', paper['title'][:110])
@@ -846,6 +863,12 @@ def main():
                       DBLP_QUERIES[state['query_index']][0] if state['phase'] == 'dblp' else 'T06'))
             themes = core.matching_themes(paper) or [next((n for n, _ in core.THEMES if n.startswith(theme)), core.THEMES[0][0])]
             queued.append({'paper': paper, 'themes': themes, 'sources': [{'arxiv': 'arXiv', 'crossref': 'Crossref', 'dblp': 'DBLP', 'iacr': 'IACR ePrint'}[src]]})
+        # Évaluer d'abord les conférences repères DANS cette page seulement ;
+        # aucun candidat n'est supprimé et le curseur des requêtes ne change pas.
+        queued = venue.prioritize(queued, MAX_AI)
+        if any(venue.priority(rec['paper']) for rec in queued):
+            print('Priorité conférence :', sum(bool(venue.priority(rec['paper'])) for rec in queued),
+                  'candidat(s) repère(s) dans cette page (score Gemini inchangé).')
         # On sauvegarde la page et son cursor AVANT Gemini pour ne jamais perdre
         # des candidats à cause d'une panne API / limite de quota.
         state['pending'] = queued

@@ -15,6 +15,7 @@ from datetime import date, timedelta
 import cache_v16 as cachelib
 import collect as core
 import publish_history
+import venue_v168 as venue
 
 STATE_PATH = pathlib.Path('data/history_progress.json')
 RECORDS_PATH = pathlib.Path('data/history_records.json')
@@ -61,7 +62,7 @@ def historical_relevant(theme, paper):
     title = core.norm(paper.get('title', ''))
     abstract = core.norm(core.abstract(paper.get('abstract_inverted_index')))
 
-    if core.relevant(theme[:3], title, abstract) or core.coverage_relevant(title, abstract):
+    if core.relevant(theme[:3], title, abstract):
         return True
 
     signals = (
@@ -72,7 +73,6 @@ def historical_relevant(theme, paper):
         'microarchitectural side channel', 'microarchitectural side-channel',
         'cache side channel', 'cache side-channel', 'cache timing',
         'spectre', 'secure enclave', 'memory integrity', 'hardware isolation',
-        'hardware security', 'processor security',
     )
     return any(signal in title for signal in signals)
 
@@ -130,6 +130,7 @@ def accepted(assessment):
 
 
 def to_record(paper, theme):
+    venue.annotate(paper, venue.from_openalex(paper))
     return {'paper': paper, 'themes': [theme], 'sources': {'OpenAlex'}}
 
 
@@ -169,6 +170,7 @@ def process_pending(state, cache, records, secondary_records, titles, dois, budg
         if identity:
             seen_in_page.add(identity)
 
+    candidates = venue.prioritize(candidates, budget)
     reviewed = []
     for offset in range(0, len(candidates), core.AI_BATCH_SIZE):
         batch = candidates[offset:offset + core.AI_BATCH_SIZE]
@@ -197,11 +199,14 @@ def process_pending(state, cache, records, secondary_records, titles, dois, budg
                 location = paper.get('primary_location') or {}
                 link = paper.get('doi') or location.get('landing_page_url') or paper.get('id') or ''
                 if identity and identity not in secondary_records and len(date_str) == 10:
+                    venue.enrich_confirmed(paper)
                     secondary_records[identity] = {
                         'title': paper.get('title', ''),
                         'score': score,
                         'source': link,
                         'publication_date': date_str,
+                        'doi': paper.get('doi', ''),
+                        **venue.metadata(paper),
                     }
             cachelib.set_status(cache, paper, decision, 'rejected')
 
@@ -209,6 +214,7 @@ def process_pending(state, cache, records, secondary_records, titles, dois, budg
               .get('properties', {})) if accepted_entries else {}
     for rec, decision, detail in accepted_entries:
         paper = rec['paper']
+        venue.enrich_confirmed(paper)
         title = core.norm(paper.get('title'))
         doi = core.normalized_doi(paper.get('doi'))
         # Revérifier Notion : protège d'un arrêt après import mais avant commit.
@@ -228,7 +234,8 @@ def process_pending(state, cache, records, secondary_records, titles, dois, budg
             records[identity] = {
                 'title': paper['title'], 'summary': detail.get('resume_court', ''),
                 'score': int(decision['score']), 'themes': [theme],
-                'source': link, 'publication_date': paper.get('publication_date', ''),
+                'source': link, 'doi': paper.get('doi', ''), 'publication_date': paper.get('publication_date', ''),
+                **venue.metadata(paper),
             }
 
     # On supprime les candidats uniquement APRÈS traitement complet du lot.
