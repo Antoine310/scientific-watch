@@ -1176,6 +1176,14 @@
       "title": "Centrifugation-free sequential-flow microfluidic chip with a passive valve for nucleic acid extraction and photonic PCR verification",
       "updated_at": "2026-11-02T17:52:09.335109+00:00"
     },
+    "doi:10.1016/j.cellsig.2025.112343": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Hsp70/CHIP E3 ligase complex triggers K149-linked ubiquitination and degradation of BEST1 mutants p.P233L and p.P346H, impairing chloride channel function and retinal integrity",
+      "updated_at": "2026-11-03T15:42:48.419564+00:00"
+    },
     "doi:10.1016/j.cellsig.2026.112370": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -1800,6 +1808,14 @@
       "title": "FPGA-based optimization of communication encoding and verification of eliminating modulation phase for phasemeter in space gravitational wave detection",
       "updated_at": "2026-11-03T12:07:29.175026+00:00"
     },
+    "doi:10.1016/j.parco.2025.103169": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Cache partitioning for sparse matrix–vector multiplication on the A64FX",
+      "updated_at": "2026-11-03T15:43:55.776419+00:00"
+    },
     "doi:10.1016/j.resinv.2026.101406": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -2400,6 +2416,14 @@
       "title": "Lightweight Cryptography for Medical Image privacy on Resource constraint hardware",
       "updated_at": "2026-11-03T13:07:03.292448+00:00"
     },
+    "doi:10.1088/1742-6596/3201/1/012020": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Real-Time Hardware Realization of SC-FDMA/OFDMA MIMO Systems Using Higher-Order QAM on SoC",
+      "updated_at": "2026-11-03T15:40:47.988201+00:00"
+    },
     "doi:10.1088/1748-0221/21/06/p06035": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -2864,6 +2888,14 @@
       "title": "Aggregation Scheduling for Lightweight RISC-V Blockchain Gateways in Industrial IoT",
       "updated_at": "2026-11-02T19:34:37.256143+00:00"
     },
+    "doi:10.1109/cfpr68913.2026.11511476": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "From Analog CT, PT to Digital Process Bus - Hardware-in-the-Loop Protection Studies for Inverter-Dominated Transmission Systems",
+      "updated_at": "2026-11-03T15:41:16.463579+00:00"
+    },
     "doi:10.1109/cicc65509.2026.11509568": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -3008,6 +3040,14 @@
       "title": "SpectreShield: Design and Analysis of Spectre Countermeasures on RISC-V Using gem5",
       "updated_at": "2026-10-31T05:13:33.581058+00:00"
     },
+    "doi:10.1109/cstic68613.2026.11537720": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "A Instruction-Level Dual-core Lockstep RISC-V Processor with Hardware Latent Error Containment",
+      "updated_at": "2026-11-03T15:41:16.504239+00:00"
+    },
     "doi:10.1109/dac63849.2025.11132094": {
       "category": "coeur",
       "decision": "conserver",
@@ -3120,6 +3160,22 @@
       "title": "OpenTRNG: an open-source initiative for ring-oscillator based TRNGs",
       "updated_at": "2026-11-03T02:14:35.288805+00:00"
     },
+    "doi:10.1109/edtm65772.2026.11496717": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "2D-ISFET pH sensor enabled Hardware Security of 2D-material based ICs",
+      "updated_at": "2026-11-03T15:40:48.093043+00:00"
+    },
+    "doi:10.1109/edtm65772.2026.11497551": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Advance Packaging Test Hardware Development Technical Challenges and Mitigation",
+      "updated_at": "2026-11-03T15:40:48.111294+00:00"
+    },
     "doi:10.1109/eei70303.2026.11640533": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -3167,6 +3223,22 @@
       "status": "rejected",
       "title": "Time-Aware Modeling of RRAM Persistence in Closed-Loop RISC-V Intermittent Systems",
       "updated_at": "2026-11-03T11:51:41.516977+00:00"
+    },
+    "doi:10.1109/epdmc67535.2026.11496381": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Chiplet-Based Hardware Security and IC Traceability: A Review of PUFs, Die Identifiers, and Secure Packaging Techniques",
+      "updated_at": "2026-11-03T15:40:48.031384+00:00"
+    },
+    "doi:10.1109/epdmc67535.2026.11496418": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Hardware Security Modules in the Modern Era: Design, Scalability, and Integration with Emerging Technologies",
+      "updated_at": "2026-11-03T15:40:48.052652+00:00"
     },
     "doi:10.1109/ets69887.2026.11591529": {
       "category": "hors_sujet",
@@ -3272,6 +3344,14 @@
       "title": "Design and Development of RISC-V Based Virtual Cluster using QEMU Simulator",
       "updated_at": "2026-11-02T17:13:42.198493+00:00"
     },
+    "doi:10.1109/gaiis69281.2026.11519250": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Secure Embedded Hardware Architecture for Embodied Generative Intelligence in Robotic Perception–Action Systems",
+      "updated_at": "2026-11-03T15:41:16.484689+00:00"
+    },
     "doi:10.1109/globecom52923.2024.10901102": {
       "category": "secondaire",
       "decision": "examiner",
@@ -3295,6 +3375,22 @@
       "status": "rejected",
       "title": "AccessShadow: Leveraging Adversarial Samples to Counter Deep Learning-Assisted Cache Timing Attacks",
       "updated_at": "2026-10-30T17:13:53.535322+00:00"
+    },
+    "doi:10.1109/i3ctcon68242.2026.11508107": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Adaptive Hardware-Aware Quantum Error Mitigation Policy Selection Framework on Edge Devices",
+      "updated_at": "2026-11-03T15:41:16.382830+00:00"
+    },
+    "doi:10.1109/ic-icns68863.2026.11537709": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Hardware IP Protection Using Selective Constant Obfuscation: An 8-Bit Adder Study",
+      "updated_at": "2026-11-03T15:41:16.525421+00:00"
     },
     "doi:10.1109/ic-sit69723.2026.11735992": {
       "category": "secondaire",
@@ -3552,6 +3648,14 @@
       "title": "VLSI Implementation of a Low-Power RISC-V Memory Management Accelerator for Sustainable Smart Systems",
       "updated_at": "2026-11-02T21:34:32.681825+00:00"
     },
+    "doi:10.1109/icdcs68853.2026.11510781": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "FPGA-Based Hardware Accelerator for Number Theoretic Transform in Post Quantum Cryptography using Nexys-A7",
+      "updated_at": "2026-11-03T15:41:16.406813+00:00"
+    },
     "doi:10.1109/icdcs68853.2026.11510880": {
       "category": "coeur",
       "decision": "conserver",
@@ -3559,6 +3663,14 @@
       "status": "imported",
       "title": "Design and Implementation of a Lattice-Based Post-Quantum Secure Bootloader for RISC-V with QEMU-Based Validation",
       "updated_at": "2026-11-01T08:14:37.416656+00:00"
+    },
+    "doi:10.1109/icdcs68853.2026.11511017": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "RTL to GDSII Implementation of Lightweight IOT Authentication Hardware using Multifunction Residue-Based Cryptographic Architectures",
+      "updated_at": "2026-11-03T15:41:16.426824+00:00"
     },
     "doi:10.1109/iceccc70334.2026.11633034": {
       "category": "hors_sujet",
@@ -3695,6 +3807,14 @@
       "status": "rejected",
       "title": "Design and Implementation of Power-Efficient RISC-V Processor",
       "updated_at": "2026-11-02T19:18:14.996047+00:00"
+    },
+    "doi:10.1109/icoeca68095.2026.11485168": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Design and Implementation of an IoT Enabled Hardware Interloaded Industrial Machine Protection",
+      "updated_at": "2026-11-03T15:40:48.010055+00:00"
     },
     "doi:10.1109/icoei68323.2026.11541675": {
       "category": "secondaire",
@@ -4648,6 +4768,14 @@
       "title": "Design and Analysis of a Three-Stream STT-MTJ TRNG With XOR and Majority Voter Logic as Postprocessing Architectures",
       "updated_at": "2026-11-01T05:13:25.995958+00:00"
     },
+    "doi:10.1109/lats70329.2026.11480304": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Evaluating an Analog Test Pattern Generation Tool by Means of Hardware-Emulated Fault Injection",
+      "updated_at": "2026-11-03T15:40:47.942600+00:00"
+    },
     "doi:10.1109/lats70329.2026.11480312": {
       "category": "coeur",
       "decision": "conserver",
@@ -4655,6 +4783,14 @@
       "status": "imported",
       "title": "Case Study: Integrating RISC-V Zicfiss Shadow Stack Support for Control-Flow Integrity on the CVA6 Processor",
       "updated_at": "2026-11-01T11:14:11.187961+00:00"
+    },
+    "doi:10.1109/lats70329.2026.11480358": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Soft Error Mitigation in a Real-Time Control System Through Hardware Protection on an SRAM-Based FPGA",
+      "updated_at": "2026-11-03T15:40:47.966873+00:00"
     },
     "doi:10.1109/lca.2026.3697544": {
       "category": "coeur",
@@ -5032,6 +5168,14 @@
       "title": "RISC-V Triplet: Tapeouts for Security Applications",
       "updated_at": "2026-11-03T02:13:53.773267+00:00"
     },
+    "doi:10.1109/nqcomp68334.2026.11497709": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "A Cross-Layer Survey on Lattice-Based Post-Quantum Cryptography: Side-Channel Security, Hardware Design, and Secure IoT Protocol Integration",
+      "updated_at": "2026-11-03T15:40:48.073109+00:00"
+    },
     "doi:10.1109/otcon69332.2026.11629940": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -5039,6 +5183,14 @@
       "status": "rejected",
       "title": "Energy-Efficient RISC-V Microarchitecture Design Optimized for Next-Generation IoT Devices",
       "updated_at": "2026-11-03T10:08:12.340040+00:00"
+    },
+    "doi:10.1109/percomworkshops68308.2026.11585432": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware-Assisted Detection of DoS Attacks in log 2 N Fabrics for Pervasive IoT Networks",
+      "updated_at": "2026-11-03T15:41:39.499276+00:00"
     },
     "doi:10.1109/pkia71423.2026.11732322": {
       "category": "hors_sujet",
@@ -6696,6 +6848,14 @@
       "title": "Evaluation of Microcontroller-Based SRAM PUF and the Authentication Scheme",
       "updated_at": "2026-11-02T23:13:44.368525+00:00"
     },
+    "doi:10.1145/3708988": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Mixed-Level Modeling and Evaluation of a Cache-less Grid of Processing Cells",
+      "updated_at": "2026-11-03T15:43:12.798264+00:00"
+    },
     "doi:10.1145/3716176": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -6951,6 +7111,22 @@
       "status": "imported",
       "title": "Trust-V: Toward Secure and Reliable Storage for Trusted Execution Environments",
       "updated_at": "2026-11-01T08:15:46.308554+00:00"
+    },
+    "doi:10.1145/3779443": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "MCT-TRNG: Multi-Channel Tetrahedral TRNG via Metastability-Enhanced Entropy with 2.2 Gbps Throughput",
+      "updated_at": "2026-11-03T15:42:14.266020+00:00"
+    },
+    "doi:10.1145/3786324": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Mitigating False Positives in Filters: To Adapt or to Cache?",
+      "updated_at": "2026-11-03T15:44:26.748601+00:00"
     },
     "doi:10.1145/3787103": {
       "category": "hors_sujet",
@@ -12767,6 +12943,14 @@
       "status": "rejected",
       "title": "Analysis and Research on the Application of Lightweight Physical Unclonable Function (PUF) Authentication Protocol for IoT Terminals",
       "updated_at": "2026-10-31T02:13:31.872305+00:00"
+    },
+    "doi:10.54097/yxz93945": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Evaluation of FPGA Based Speech Recognition Hardware for Edge Devices",
+      "updated_at": "2026-11-03T15:39:41.148706+00:00"
     },
     "doi:10.54254/2755-2721/2026.33870": {
       "category": "hors_sujet",
