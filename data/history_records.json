@@ -2959,6 +2959,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.71465/fapm711": {
+    "doi": "https://doi.org/10.71465/fapm711",
+    "publication_date": "2026-02-25",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-02-25",
+    "publication_type": "revue",
+    "publication_venue": "Frontiers in Applied Physics and Mathematics",
+    "score": 72,
+    "source": "https://doi.org/10.71465/fapm711",
+    "summary": "Cet article présente un cadre d'isolation de la mémoire du noyau à grain fin combinant des clés de protection matérielle (PKU/PKS) et un système de cartographie par capacités. Testé sur Linux 6.1, le système applique des limites mémoire par fonction avec une surcharge de performance inférieure à 3,5% tout en bloquant 94% des attaques en écriture invalide simulées et en atténuant 18 des 22 exploits CVE historiques testés.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Fine-Grained Kernel Memory Isolation Using Hardware Protection Keys and Capability Mapping",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.7302/25650": {
     "publication_date": "2025-01-01",
     "score": 85,
