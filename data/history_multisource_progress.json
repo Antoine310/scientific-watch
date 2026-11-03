@@ -1,8 +1,8 @@
 {
   "accepted": 52,
   "completed": false,
-  "cursor": "MTc2OTE2ODg0OTAwMCwxMC4xMDE2JTJGai5pamhtLjIwMjYuMTA0NTgx",
-  "evaluated": 1178,
+  "cursor": "MTc2Mzc1MDU0NTAwMCwxMC4xMTA5JTJGdHBzLjIwMjUuMzYyOTU3Mg==",
+  "evaluated": 1187,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -73,13 +73,15 @@
     "monthly/2026-05/query-22 : résultat tronqué au plafond 12 pages",
     "monthly/2026-05/query-23 : résultat tronqué au plafond 12 pages",
     "monthly/2026-05/query-24 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-04/query-13 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-04/query-13 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-04/query-14 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-04/query-15 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-04",
-  "needs_publish": false,
-  "offset": 160,
-  "pages_done": 967,
-  "pages_in_query": 4,
+  "needs_publish": true,
+  "offset": 200,
+  "pages_done": 992,
+  "pages_in_query": 5,
   "pending": [],
   "phase": "monthly",
   "prefilter_review": [
@@ -2418,10 +2420,50 @@
       "publication_date": "2026-04-14",
       "source": "crossref",
       "title": "Design and hardware implementation of extreme multistable chaotic systems"
+    },
+    {
+      "doi": "https://doi.org/10.2196/88932",
+      "identity": "title:psychotherapiststrustdistrustandgenerativeaipracticesinpsychotherapyqualitativestudy",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-04-02",
+      "source": "crossref",
+      "title": "Psychotherapists’ Trust, Distrust, and Generative AI Practices in Psychotherapy: Qualitative Study"
+    },
+    {
+      "doi": "https://doi.org/10.1145/3799712",
+      "identity": "title:lightweightandhighthroughputsecureloggingforinternetofthingsandcoldcloudcontinuum",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-04-23",
+      "source": "crossref",
+      "title": "Lightweight and High-Throughput Secure Logging for Internet of Things and Cold Cloud Continuum"
+    },
+    {
+      "doi": "https://doi.org/10.24425/bpasts.2026.158308",
+      "identity": "title:performanceanalysisofriscvbasedcoresinadualcoreprogrammablelogiccontroller",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-04-28",
+      "source": "crossref",
+      "title": "Performance analysis of RISC-V based cores in a dual-core programmable logic controller"
+    },
+    {
+      "doi": "https://doi.org/10.3390/computers15040219",
+      "identity": "title:energyefficientdualcoreriscvarchitectureforedgeaiaccelerationwithdynamicmacunitreuse",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-04-01",
+      "source": "crossref",
+      "title": "Energy-Efficient Dual-Core RISC-V Architecture for Edge AI Acceleration with Dynamic MAC Unit Reuse"
+    },
+    {
+      "doi": "https://doi.org/10.1002/eng2.70738",
+      "identity": "title:enhancingoffshorewindutilizationbyembeddingneuralsurrogatesoftotaltransfercapabilityinsecurityconstraineddispatch",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-04-03",
+      "source": "crossref",
+      "title": "Enhancing Offshore Wind Utilization by Embedding Neural Surrogates of Total Transfer Capability in Security‐Constrained Dispatch"
     }
   ],
-  "query_index": 14,
-  "secondary": 54,
-  "skipped": 1125,
+  "query_index": 16,
+  "secondary": 55,
+  "skipped": 1140,
   "version": 1
 }
