@@ -408,6 +408,14 @@
       "title": "Constructive Approaches for Security Analysis and Design of Embedded Systems",
       "updated_at": "2026-11-03T18:28:28.474196+00:00"
     },
+    "doi:10.1007/978-3-032-05754-9_6": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Designing a Configurable 32-Bit Microprocessor Based on RISC-V Architecture for Specialized Applications",
+      "updated_at": "2026-11-03T20:06:46.493231+00:00"
+    },
     "doi:10.1007/978-3-032-05877-5_29": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -3336,6 +3344,14 @@
       "title": "The RISC-V FPGA (RVfpga) Teaching Package",
       "updated_at": "2026-11-03T19:52:35.839568+00:00"
     },
+    "doi:10.1109/access.2026.3668840": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Analyzing RISC-V Compiler Toolchain by Adopting Topic Modeling",
+      "updated_at": "2026-11-03T20:06:46.563326+00:00"
+    },
     "doi:10.1109/access.2026.3674839": {
       "category": "coeur",
       "decision": "conserver",
@@ -4736,6 +4752,22 @@
       "title": "Shor’s Algorithm on NISQ Quantum Hardware: Experimental 4–12-Bit Factorizations and Post-Quantum Cryptography Implications",
       "updated_at": "2026-11-03T11:07:20.015551+00:00"
     },
+    "doi:10.1109/iitcee67948.2026.11394422": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Design and Implementation of a Multi-Parameter Health Monitoring SoC using RISC-V and TinyML for Real-Time Edge-Based Diagnostics",
+      "updated_at": "2026-11-03T20:06:46.518061+00:00"
+    },
+    "doi:10.1109/iitcee67948.2026.11394668": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Design and Analysis of SIMD Functional Units for RISC-V P-Extension Instructions",
+      "updated_at": "2026-11-03T20:06:46.541066+00:00"
+    },
     "doi:10.1109/imns67862.2026.11655285": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4751,6 +4783,14 @@
       "status": "rejected",
       "title": "RISC-V Processor Design: RTL to GDSII Implementation Using EDA Tools",
       "updated_at": "2026-10-30T23:13:33.139356+00:00"
+    },
+    "doi:10.1109/infocom59046.2026.11571700": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 50,
+      "status": "rejected",
+      "title": "TriHaRd: Higher Resilience for TEE Trusted Time",
+      "updated_at": "2026-11-03T20:08:33.880266+00:00"
     },
     "doi:10.1109/infoteh68759.2026.11477758": {
       "category": "secondaire",
@@ -5351,6 +5391,14 @@
       "status": "rejected",
       "title": "A Secure Multiradio Resource Scheme Using Cooperative DRL Agents for Heterogeneous Inter-RAN Slicing Under Hardware Impairments",
       "updated_at": "2026-11-03T14:54:50.466078+00:00"
+    },
+    "doi:10.1109/jiot.2025.3627770": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Efficient Post-Quantum Blockchain Transaction via Edge PUF-Enabled Persistent Verification in IoT",
+      "updated_at": "2026-11-03T20:07:20.776766+00:00"
     },
     "doi:10.1109/jiot.2025.3627789": {
       "category": "hors_sujet",
@@ -16088,6 +16136,14 @@
       "title": "AMD SEV-SNP: A Confidential Computing Primer",
       "updated_at": "2026-11-02T17:56:56.865263+00:00"
     },
+    "title:amuletfastteeshieldedinferenceforondevicemodelprotection": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Amulet: Fast TEE-Shielded Inference for On-Device Model Protection",
+      "updated_at": "2026-11-03T20:08:33.829340+00:00"
+    },
     "title:amultiinterfacefirmwareacquisitionandvalidationmethodologyforlowcostconsumerdronesacasestudyonthreeholystoneplatforms": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -16175,6 +16231,14 @@
       "status": "rejected",
       "title": "Assessing Runtime Electromagnetic Detection of CPU Hardware Trojans Targeting Kernel Memory",
       "updated_at": "2026-11-02T15:52:53.082481+00:00"
+    },
+    "title:astatisticalsidechannelriskmodelfortimingvariabilityinlatticebasedpostquantumcryptography": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "A Statistical Side-Channel Risk Model for Timing Variability in Lattice-Based Post-Quantum Cryptography",
+      "updated_at": "2026-11-03T20:08:55.467774+00:00"
     },
     "title:ateebasedarchitectureforconfidentialanddependableprocessattestationinauthorshipverification": {
       "category": "coeur",
@@ -16351,6 +16415,14 @@
       "status": "rejected",
       "title": "Can SOLARBURST go silicon? A systematic analysis on software supply chain attacks for VLSI design flows",
       "updated_at": "2026-11-02T12:56:38.301261+00:00"
+    },
+    "title:capsulefsamulticredentialdatacapsulefilesystem": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "CapsuleFS A Multi-credential DataCapsule Filesystem",
+      "updated_at": "2026-11-03T20:08:33.855005+00:00"
     },
     "title:ccxenablingunmodifiedintelsgxapplicationsonarmcca": {
       "category": "secondaire_technique",
@@ -16824,6 +16896,14 @@
       "title": "Fully Oblivious Differential Privacy for Frequency Estimation in the Augmented Shuffle Model with Trusted Processors",
       "updated_at": "2026-11-02T21:35:59.696716+00:00"
     },
+    "title:fuzziliconapostsiliconmicrocodeguidedx86cpufuzzer": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Fuzzilicon: A Post-Silicon Microcode-Guided x86 CPU Fuzzer",
+      "updated_at": "2026-11-03T20:09:18.389011+00:00"
+    },
     "title:gasliteaaoptimizingerc4337forefficientandsecuregassponsorship": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -16839,6 +16919,14 @@
       "status": "rejected",
       "title": "GhostAccess: Attacking the GPU on the Multi-tenant Cloud via CPU LLC under Unified Memory",
       "updated_at": "2026-11-02T09:08:44.664356+00:00"
+    },
+    "title:goldenfuzzgenerativegoldenreferencehardwarefuzzing": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "GoldenFuzz: Generative Golden Reference Hardware Fuzzing",
+      "updated_at": "2026-11-03T20:08:23.093340+00:00"
     },
     "title:graftgraphlettriggeredbackdoorattackongnnbasedhardwaresecuritysystems": {
       "category": "hors_sujet",
@@ -16983,6 +17071,14 @@
       "status": "rejected",
       "title": "HOMARD: Hammering Off-chip Memory via Aggregate power Rail Disclosure",
       "updated_at": "2026-11-02T13:04:38.160375+00:00"
+    },
+    "title:hotprotocol": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "HOT Protocol",
+      "updated_at": "2026-11-03T20:08:33.802208+00:00"
     },
     "title:hsmlogsmalllanguagemodelassistedhardwaresecuritymoduleloganomalydetectionwithbehavioralanalysis": {
       "category": "hors_sujet",
@@ -17176,6 +17272,14 @@
       "title": "Logit-Boundary Geometric Belief Interfaces and Sparse Sheaf-Enclave Protocols: A Self-Contained Substrate for Secure Network Electronic Health Record (EHR) Interoperability",
       "updated_at": "2026-11-02T17:58:15.235960+00:00"
     },
+    "title:lostinthepageswebassemblycoderecoverythroughsevsnpsexposedaddressspace": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 70,
+      "status": "rejected",
+      "title": "Lost in the Pages: WebAssembly Code Recovery through SEV-SNP's Exposed Address Space",
+      "updated_at": "2026-11-03T20:08:33.929806+00:00"
+    },
     "title:mediaintegrityandauthenticationstatusdirectionsandfutures": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -17304,6 +17408,14 @@
       "title": "OptiLeak: Efficient Prompt Reconstruction via Reinforcement Learning in Multi-tenant LLM Services",
       "updated_at": "2026-11-03T16:31:48.120470+00:00"
     },
+    "title:optimisticteerollupsahybridarchitectureforscalableandverifiablegenerativeaiinferenceonblockchain": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Optimistic TEE-Rollups: A Hybrid Architecture for Scalable and Verifiable Generative AI Inference on Blockchain",
+      "updated_at": "2026-11-03T20:08:34.000825+00:00"
+    },
     "title:optimizingtlscryptographicoperationsonriscvsocwithopentitanrot": {
       "category": "coeur",
       "decision": "conserver",
@@ -17360,6 +17472,14 @@
       "title": "PDF: PUF-based DNN Fingerprinting for Knowledge Distillation Traceability",
       "updated_at": "2026-11-03T16:31:31.424660+00:00"
     },
+    "title:pdrimaapolicydrivenruntimeintegritymeasurementandattestationapproachforarmtrustzonebasedtee": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "PDRIMA: A Policy-Driven Runtime Integrity Measurement and Attestation Approach for ARM TrustZone-based TEE",
+      "updated_at": "2026-11-03T20:08:06.046974+00:00"
+    },
     "title:peacockuefifirmwareruntimeobservabilitylayerfordetectionandresponse": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -17367,6 +17487,14 @@
       "status": "rejected",
       "title": "Peacock: UEFI Firmware Runtime Observability Layer for Detection and Response",
       "updated_at": "2026-11-03T18:09:54.280007+00:00"
+    },
+    "title:permutevaperformantsidechannelresistantriscvcoresecuringedgeaiinference": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "PermuteV: A Performant Side-channel-Resistant RISC-V Core Securing Edge AI Inference",
+      "updated_at": "2026-11-03T20:08:12.374803+00:00"
     },
     "title:physicallyunclonablefunctionsforsecureiotauthenticationandhardwareanchoredaimodelintegrity": {
       "category": "secondaire_technique",
@@ -17448,6 +17576,14 @@
       "title": "Proof-of-Guardrail in AI Agents and What (Not) to Trust from It",
       "updated_at": "2026-11-03T14:44:35.603695+00:00"
     },
+    "title:proofoftrustedexecutionaconsensusparadigmfordeterministicblockchainfinality": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Proof of Trusted Execution: A Consensus Paradigm for Deterministic Blockchain Finality",
+      "updated_at": "2026-11-03T20:08:40.948347+00:00"
+    },
     "title:protectingcpuaionedgeteeswebassemblyspromiseandpracticalchallenges": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -17471,6 +17607,14 @@
       "status": "imported",
       "title": "Prototyping Custom Hardware Performance Counters in gem5 Simulator: A Framework for RISC-V Side-Channel Attack Assessment",
       "updated_at": "2026-10-30T20:15:22.976573+00:00"
+    },
+    "title:qlinkquantumsafebridgearchitectureforblockchaininteroperability": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "QLink: Quantum-Safe Bridge Architecture for Blockchain Interoperability",
+      "updated_at": "2026-11-03T20:07:31.011679+00:00"
     },
     "title:quantumsecurephysicalunclonablefunctionenabledbysiliconphotonicsintegratedcircuits": {
       "category": "secondaire",
@@ -17663,6 +17807,14 @@
       "status": "rejected",
       "title": "SecureRAG-RTL: A Retrieval-Augmented, Multi-Agent, Zero-Shot LLM-Driven Framework for Hardware Vulnerability Detection",
       "updated_at": "2026-11-03T14:41:44.459232+00:00"
+    },
+    "title:securingcrossdomaininternetofdronesanrffpufalliedauthenticatedkeyexchangeprotocolwithovertheairenrollment": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Securing Cross-Domain Internet of Drones: An RFF-PUF Allied Authenticated Key Exchange Protocol With Over-the-Air Enrollment",
+      "updated_at": "2026-11-03T20:07:40.707501+00:00"
     },
     "title:securingfilesystemsforconfidentialcomputing": {
       "category": "coeur",
@@ -17976,6 +18128,14 @@
       "title": "The Nexus of Quantum Technology, Intellectual Property, and National Security: An LSI Test for Securing the Quantum Industrial Commons",
       "updated_at": "2026-11-03T16:31:31.380338+00:00"
     },
+    "title:theodosianadeepdiveintomemoryhierarchycentricfheacceleration": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Theodosian: A Deep Dive into Memory-Hierarchy-Centric FHE Acceleration",
+      "updated_at": "2026-11-03T20:09:06.392955+00:00"
+    },
     "title:theopenweightparadoxwhyrestrictingaccesstoaimodelsmayunderminethesafetyitseekstoprotect": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -18136,6 +18296,14 @@
       "title": "Trusted Model Environment for Private Semantic Computations",
       "updated_at": "2026-11-02T15:56:39.918464+00:00"
     },
+    "title:trustworthyandcontrollableprofessionalknowledgeutilizationinlargelanguagemodelswithteegpuexecution": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Trustworthy and Controllable Professional Knowledge Utilization in Large Language Models with TEE-GPU Execution",
+      "updated_at": "2026-11-03T20:08:33.953189+00:00"
+    },
     "title:trustworthysmartfabsviaprofessionalproxiesscalingsafeandsustainablebydesignssbdthroughindustrialdataspaces": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -18175,6 +18343,14 @@
       "status": "rejected",
       "title": "Verifiable and Confidential DNN Inference on Low-End Edge Devices",
       "updated_at": "2026-11-02T21:35:59.647864+00:00"
+    },
+    "title:verificationoflightningnetworkchannelbalanceswithtrustedexecutionenvironmentstee": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 55,
+      "status": "rejected",
+      "title": "Verification of Lightning Network Channel Balances with Trusted Execution Environments (TEE)",
+      "updated_at": "2026-11-03T20:08:33.905446+00:00"
     },
     "title:vulnerabilitiesinpartialteeshieldedllminferencewithprecomputednoise": {
       "category": "secondaire",
@@ -18216,6 +18392,14 @@
       "title": "WaveCommitments: Private and Verifiable Speech-Agent Marketplaces",
       "updated_at": "2026-11-02T19:54:40.738433+00:00"
     },
+    "title:whatyoutrustisinsecuredemystifyinghowdevelopersmisusetrustedexecutionenvironmentsinpractice": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "What You Trust Is Insecure: Demystifying How Developers (Mis)Use Trusted Execution Environments in Practice",
+      "updated_at": "2026-11-03T20:08:33.976889+00:00"
+    },
     "title:whenagentshandlesecretsasurveyofconfidentialcomputingforagenticai": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -18247,6 +18431,14 @@
       "status": "rejected",
       "title": "Zero-Knowledge Predicate Proofs Between AI Agents: A Measured, Cross-Protocol Gateway and the Source-Integrity Gap",
       "updated_at": "2026-11-02T17:58:15.281783+00:00"
+    },
+    "title:zkflhealthblockchainenabledzeroknowledgefederatedlearningformedicalaiprivacy": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "zkFL-Health: Blockchain-Enabled Zero-Knowledge Federated Learning for Medical AI Privacy",
+      "updated_at": "2026-11-03T20:08:34.024874+00:00"
     },
     "title:zkx509privacypreservingonchainidentityfromlegacypkiviazeroknowledgeproofs": {
       "category": "secondaire",

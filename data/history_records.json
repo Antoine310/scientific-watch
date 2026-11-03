@@ -3355,6 +3355,46 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:fuzziliconapostsiliconmicrocodeguidedx86cpufuzzer": {
+    "doi": "",
+    "publication_date": "2025-12-29",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2512.23438v1",
+    "summary": "Cet article présente Fuzzilicon, le premier framework de fuzzing post-silicium pour processeurs x86 réels, intégrant une introspection au niveau du microcode et de la microarchitecture. En exploitant l'interface de mise à jour du microcode d'Intel et un harnais de fuzzing basé sur un hyperviseur, Fuzzilicon automatise la détection de vulnérabilités complexes sans accès au code RTL. Appliqué à l'architecture Intel Goldmont, il a permis de découvrir 5 résultats significatifs, dont deux vulnérabilités d'exécution spéculative au niveau du microcode.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Fuzzilicon: A Post-Silicon Microcode-Guided x86 CPU Fuzzer",
+    "venue_landmark": "",
+    "venue_note": "Référence déclarée sur arXiv (non vérifiée) : Network and Distributed System Security (NDSS) Symposium 2026, 23 - 27 February 2026 , San Diego, CA, USA ISBN 979-8-9919276-8-0",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:goldenfuzzgenerativegoldenreferencehardwarefuzzing": {
+    "doi": "",
+    "publication_date": "2025-12-25",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2512.21524v1",
+    "summary": "Cet article présente GoldenFuzz, un nouveau framework de fuzzing matériel en deux étapes conçu pour améliorer la découverte de bugs et de vulnérabilités. En utilisant un modèle de référence en or (GRM) compatible ISA comme jumeau numérique, le système découple partiellement le raffinage des cas de test de l'exploration de la couverture. Évalué sur des processeurs RISC-V (RocketChip, BOOM, CVA6) et un cœur commercial (BA51-H), GoldenFuzz surpasse les fuzzers existants en maximisant la couverture tout en réduisant le surcoût de calcul, et met en évidence de nouvelles vulnérabilités sévères.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "GoldenFuzz: Generative Golden Reference Hardware Fuzzing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:graniteamodularmethodologyforfoundationalverificationofhardwaresoftwareleakagecontracts": {
     "publication_date": "2026-07-29",
     "publication_date_note": "",
@@ -3543,6 +3583,26 @@
       "T07 — Hardware Security Verification"
     ],
     "title": "Partial Number Theoretic Transform Masking in Post-Quantum Cryptography (PQC) Hardware: A Security Margin Analysis",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:pdrimaapolicydrivenruntimeintegritymeasurementandattestationapproachforarmtrustzonebasedtee": {
+    "doi": "",
+    "publication_date": "2025-12-06",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2512.06500v1",
+    "summary": "Cet article présente PDRIMA, une approche de mesure et d'attestation de l'intégrité à l'exécution pilotée par des politiques pour les environnements d'exécution de confiance (TEE) basés sur ARM TrustZone. L'approche introduit deux sous-systèmes dans le TEE : un agent de surveillance sécurisé (SMA) pour la mesure et l'évaluation, et un agent d'attestation à distance (RAA). Un prototype a été implémenté sur OP-TEE pour Raspberry Pi 3B+ afin d'évaluer ses performances.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "PDRIMA: A Policy-Driven Runtime Integrity Measurement and Attestation Approach for ARM TrustZone-based TEE",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
