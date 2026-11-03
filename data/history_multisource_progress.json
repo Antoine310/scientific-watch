@@ -1,8 +1,8 @@
 {
   "accepted": 41,
   "completed": false,
-  "cursor": "*",
-  "evaluated": 908,
+  "cursor": "MTc2NjY3ODMwMDAwMCwxMC4xMDE2JTJGai5mdXR1cmUuMjAyNS4xMDgzNDE=",
+  "evaluated": 910,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -54,13 +54,15 @@
     "monthly/2026-06/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2026-06/query-15 : résultat tronqué au plafond 12 pages",
     "monthly/2026-06/query-16 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-06/query-17 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-06/query-17 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-06/query-18 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-06/query-19 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2026-06",
   "needs_publish": false,
-  "offset": 0,
-  "pages_done": 697,
-  "pages_in_query": 0,
+  "offset": 40,
+  "pages_done": 722,
+  "pages_in_query": 1,
   "pending": [],
   "phase": "monthly",
   "prefilter_review": [
@@ -1993,8 +1995,8 @@
       "title": "Hardware-Optimized Explainable Machine Learning for Fair Predictive Decision Making in Business Applications"
     }
   ],
-  "query_index": 18,
-  "secondary": 38,
-  "skipped": 787,
+  "query_index": 20,
+  "secondary": 39,
+  "skipped": 795,
   "version": 1
 }
