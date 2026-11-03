@@ -6,6 +6,7 @@ from datetime import date
 from urllib.parse import urlparse
 
 import publish_weekly as gh
+import venue_v168 as venue
 
 
 def safe_url(link):
@@ -44,23 +45,31 @@ def build_month(year_month, rows, secondary_rows=None):
     for row in sorted(rows, key=lambda x: (-int(x.get('score') or 0), x.get('title', ''))):
         lines.extend([f"## {escape(row['title'])}", '',
                       f"- **Date de publication :** {escape(date_label(row))}",
-                      f"- **Pertinence :** {row.get('score', '?')}/100", '',
-                      escape(row.get('summary') or 'Résumé indisponible.'), ''])
+                      f"- **Pertinence :** {row.get('score', '?')}/100"])
+        place = venue.display(row)
+        if place:
+            provenance = escape(row.get('venue_provenance', ''))
+            lines.append(f'- **Conférence / Revue :** {escape(place)}'
+                         + (f' *(source : {provenance})*' if provenance else ''))
+        if row.get('venue_priority'):
+            lines.append('- **Repère de veille :** conférence prioritaire pour la lecture (liste interne, pas un classement ICORE)')
+        lines += ['', escape(row.get('summary') or 'Résumé indisponible.'), '']
         link = safe_url(row.get('source'))
         if link:
             lines.extend([f'[Lire la publication]({link})', ''])
     secondary_rows = secondary_rows or []
     if secondary_rows:
-        lines.extend(['---', '', '## 📖 Articles secondaires (60–74/100)', '',
+        lines.extend(['---', '', '## Articles secondaires (60–74/100)', '',
                       'Références techniques complémentaires non retenues dans la sélection principale.', '',
-                      '| Score | Publication | Lien |', '| ---: | --- | --- |'])
+                      '| Score | Article | Conférence / Revue | Lien |', '| ---: | --- | --- | --- |'])
         for row in sorted(secondary_rows, key=lambda x: (-int(x.get('score') or 0), x.get('title', ''))):
             link = safe_url(row.get('source'))
             title = escape(row.get('title', 'Sans titre')).replace('|', '&#124;').replace('\n', ' ')
             if row.get('publication_date_precision') in {'month', 'year', 'index_month'}:
                 title += ' *(date indicative)*'
             linked = f'[Lire]({link})' if link else '—'
-            lines.append(f"| {int(row.get('score') or 0)}/100 | {title} | {linked} |")
+            place = escape(venue.display(row) or '—').replace('|', '&#124;')
+            lines.append(f"| {int(row.get('score') or 0)}/100 | {title} | {place} | {linked} |")
         lines.append('')
     return '\n'.join(lines).rstrip() + '\n'
 
