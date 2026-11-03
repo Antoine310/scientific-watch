@@ -198,7 +198,7 @@ def process_pending(state, cache, records, secondary_records, titles, dois, budg
             score = int(decision.get('score', 0))
             # Les 60–74 non importés restent visibles, sans analyse détaillée.
             # Les catégories périphériques / hors sujet ne sont jamais publiées.
-            if 60 <= score <= 74 and category in {'coeur', 'transfert_explicite'}:
+            if core.eligible_secondary(decision):
                 identity = cachelib.key(paper)
                 date_str = str(paper.get('publication_date') or '')
                 location = paper.get('primary_location') or {}

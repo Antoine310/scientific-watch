@@ -171,9 +171,16 @@ Classe chaque article dans UNE catégorie :
   Un papier MIPS, x86 ou ARM peut être coeur s'il étudie une fuite CPU transférable.
 - transfert_explicite : méthode hors RoT/TEE mais avec un mécanisme technique
   CONCRET et explicable, réutilisable pour l'architecture ou les attaques CPU.
-- secondaire : proximité thématique générale sans application technique démontrée
+- secondaire_technique : travail COMPLEMENTAIRE présentant un mécanisme
+  de sécurité concret, étayé par le résumé, utile à la chaîne de confiance,
+  au firmware/secure boot, à l'attestation ou à l'isolation des CPU/TEE,
+  sans être une contribution directement centrale ou un transfert explicite.
+  Exemples : mise à jour de firmware signée et vérifiée, étude technique
+  des dépendances de confiance, outil de mesure utile à l'état de l'art.
+  NE PAS utiliser cette catégorie pour une simple proximité de vocabulaire.
+- secondaire : proximité thématique SANS mécanisme concret démontré
   (PUF générique, vérification RTL générique, SoC sans sécurité directe,
-  cache KV LLM, architecture mémoire générale). À garder pour exploration.
+  cache KV LLM, architecture mémoire générale). Hors bibliographie publique.
 - hors_sujet : pas de lien scientifique suffisant avec la thèse.
 
 PRIORITÉS EXACTES DE CETTE THÈSE (PAR ORDRE) :
@@ -210,6 +217,16 @@ DISTINGUE IMPÉRATIVEMENT LES CONTRIBUTIONS DES SIMPLES USAGES :
 - Un survey de référence sur RoT/TEE/attestation/cache CPU peut être très
   utile à l'état de l'art même sans contribution expérimentale originale ;
   explique en quoi il structure réellement la thèse.
+- Un tutoriel sur le déploiement, la signature et la vérification du firmware
+  peut relever de « secondaire_technique » si son résumé décrit des mécanismes
+  concrets utiles au secure boot / à la chaîne de confiance ; ne le rejette
+  pas automatiquement faute de nommer Keystone ou OpenTitan.
+- Pour « secondaire_technique », renseigne « lien_concret » avec le mécanisme
+  précis et son utilité pour la thèse. Si le lien est seulement plausible,
+  lexical ou spéculatif, choisis « secondaire » et un score < 60.
+- Un TEE utilisé comme simple conteneur d'une application IA, cloud ou
+  blockchain n'est pas « secondaire_technique » sans contribution démontrée
+  à la sécurité ou à l'attestation de la plateforme.
 
 BARÈME PLUS DISCRIMINANT :
 95-100 : contribution exceptionnelle ET directement exploitable au centre
@@ -218,8 +235,9 @@ BARÈME PLUS DISCRIMINANT :
          utile, dont l'intérêt spécifique est identifiable dans le résumé.
 75-84  : thème directement lié, contribution utile mais moins centrale,
          ou méthode prometteuse à étudier davantage.
-60-74  : proximité technique démontrable à approfondir, sans priorité forte.
-0-59   : intérêt surtout contextuel, périphérique ou absent.
+60-74  : mécanisme ou référence COMPLEMENTAIRE techniquement utile,
+         décrit explicitement dans le résumé ; publication secondaire.
+0-59   : proximité lexicale, contexte général, périphérique ou hors sujet.
 Un article « coeur » peut rester à 70-74 ; n'augmente PAS sa note pour faire
 passer le seuil de publication. Une conférence prestigieuse n'ajoute aucun
 point de pertinence. N'attribue PAS systématiquement 85 aux articles RISC-V.
@@ -239,8 +257,12 @@ une étude de sécurité matérielle générique, à qualité d'indices comparab
 
 Priorise le lien démontré, PAS la sophistication ou la nouveauté d'un article.
 Scores indicatifs d'intérêt POUR LA THÈSE : coeur 70-100 ; transfert_explicite
-50-79 ; secondaire 0-49 ; hors_sujet 0-20. Les scores ne sont pas une qualité
-scientifique intrinsèque. N'invente PAS un transfert absent du titre/résumé.
+50-79 ; secondaire_technique 60-74 ; secondaire 0-49 ; hors_sujet 0-20.
+« secondaire_technique » exige un RESUME contenant une contribution concrète,
+une justification vérifiable et un « lien_concret » spécifique.
+Si seul le titre est connu, cette catégorie ne peut pas être validée.
+Une conférence réputée n'ajoute aucun point. Les scores ne mesurent pas la
+qualité scientifique. N'invente PAS de transfert absent des métadonnées.
 Pour les articles SANS ABSTRACT : la confiance doit être faible ;
 ne prétends pas vérifier une contribution absente du titre. Préserve les
 signaux techniques très centraux, mais ne les traite pas comme une validation.
@@ -291,7 +313,8 @@ les titres et abstracts. N'affirme jamais avoir lu le PDF.
             continue
         categorie = row.get('categorie', '').strip().casefold()
         maxima = {'coeur': 100, 'transfert_explicite': 79,
-                  'secondaire': 49, 'hors_sujet': 20}
+                  'secondaire_technique': 74, 'secondaire': 49,
+                  'hors_sujet': 20}
         if categorie not in maxima:
             raise RuntimeError('Catégorie IA non reconnue : aucun import.')
         # Garde-fou : un sujet périphérique ne peut pas recevoir une priorité coeur.
@@ -310,17 +333,50 @@ les titres et abstracts. N'affirme jamais avoir lu le PDF.
             row['score'] = min(row['score'], 49)
             row['decision'] = 'examiner'
             row['lien_concret'] = 'Cache KV logiciel de LLM, pas de mécanisme de cache CPU démontré.'
+        # Une catégorie secondaire_technique ne se justifie que par
+        # un mécanisme explicite, non par la proximité lexicale. On évite
+        # les mentions vagues/absentes d'un lien concret.
+        if row['categorie'] == 'secondaire_technique' or categorie == 'secondaire_technique':
+            lien = norm(str(row.get('lien_concret') or ''))
+            contenu_vague = (not lien or len(lien) < 12 or any(x in lien for x in (
+                'aucun lien', 'pas de lien', 'sans lien', 'lien indirect non demontre',
+                'aucune application', 'transfert non demontre',
+                'aucun mecanisme', 'aucun mécanisme')))
+            if contenu_vague:
+                row['categorie'] = 'secondaire'
+                row['score'] = min(row['score'], 49)
+                row['justification'] = (str(row.get('justification') or '') +
+                    ' [Lien technique complémentaire non démontré.]')[:1300]
         # Le titre seul ne suffit pas pour valider une priorité de lecture.
-        # Conserver les candidats coeur/transfert en bibliographie secondaire
-        # (60-74), afin d'éviter les faux positifs à 85-95 sans les oublier.
+        # Un coeur non confirmé peut rester en bibliographie secondaire.
         if not abstract(records[idx]['paper'].get('abstract_inverted_index')).strip():
             row['confiance'] = 'faible (titre seul)'
-            cap = 74 if row.get('categorie') == 'coeur' else 69
+            # Sans résumé, impossible d'établir la valeur d'un complément.
+            cap = (74 if row.get('categorie') == 'coeur' else
+                   59 if row.get('categorie') == 'secondaire_technique' else 69)
             row['score'] = min(row['score'], cap)
             row['justification'] = (str(row.get('justification') or '') +
                                     ' [Vérification requise : résumé indisponible.]')[:1300]
         assessments[idx] = row
     return assessments
+
+
+def eligible_secondary(assessment):
+    """Références complémentaires 60-74, jamais publiées comme principales.
+
+    - coeur/transfert : anciennes règles de rattrapage inchangées ;
+    - secondaire_technique : mécanisme documenté, score plafonné à 74 ;
+    - secondaire générique/hors sujet : jamais publiés.
+    """
+    category = str(assessment.get('categorie') or '').casefold().strip()
+    decision = str(assessment.get('decision') or '').casefold().strip()
+    try:
+        score = int(assessment['score'])
+    except (ValueError, KeyError, TypeError):
+        return False
+    return (60 <= score <= 74
+            and category in {'coeur', 'transfert_explicite', 'secondaire_technique'}
+            and decision in {'conserver', 'consigner', 'examiner'})
 
 
 def api(url, payload=None):

@@ -677,7 +677,7 @@ def process_one(rec, assessment, state, cache, records, secondary, titles, dois)
                 score >= (core.MIN_SCORE_CORE if cat == 'coeur' else core.MIN_SCORE_TRANSFER))
     # Résoudre le lieu exact par DOI uniquement pour les références retenues
     # (principales ou secondaires), sans nouvel appel Gemini.
-    if accepted or (60 <= score <= 74 and cat in {'coeur', 'transfert_explicite'}):
+    if accepted or core.eligible_secondary(assessment):
         venue.enrich_confirmed(paper)
     if accepted:
         detail = core.analyze_detail(rec)
@@ -708,7 +708,7 @@ def process_one(rec, assessment, state, cache, records, secondary, titles, dois)
         state['needs_publish'] = True
         print(f'PRINCIPAL ({score}/100) :', paper['title'][:110])
     else:
-        if 60 <= score <= 74 and cat in {'coeur', 'transfert_explicite'} and identity:
+        if core.eligible_secondary(assessment) and identity:
             secondary[identity] = {'title': paper['title'], 'score': score, 'source': url,
                                    'publication_date': paper['publication_date'],
                                    'publication_date_precision': paper.get('publication_date_precision', 'day'),
