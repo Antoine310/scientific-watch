@@ -1,8 +1,8 @@
 {
   "accepted": 85,
   "completed": false,
-  "cursor": "MTc2NDU3ODAwNDAwMCwxMC4yMTIwMyUyRnJzLjMucnMtNzA3NDU4NCUyRnYx",
-  "evaluated": 1765,
+  "cursor": "MTc2ODE4NzAxMDAwMCwxMC4zODE2MSUyRjE5OTYtMzQ0MC0yMDI1LTQtMzUtNDQ=",
+  "evaluated": 1790,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -125,10 +125,212 @@
   ],
   "month": "2025-12",
   "needs_publish": false,
-  "offset": 80,
-  "pages_done": 1623,
-  "pages_in_query": 2,
-  "pending": [],
+  "offset": 280,
+  "pages_done": 1628,
+  "pages_in_query": 7,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Edivaldo Pastori Valentini"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Thiago Araujo Franco"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Euclydes Nasorri Gottsfritz"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Julio Cezar Estrella"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Lourenço A. Pereira Júnior"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Rodolfo Ipolito Meneguette"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1145/3773274.3774930",
+        "id": "https://doi.org/10.1145/3773274.3774930",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1145/3773274.3774930"
+        },
+        "publication_date": "2025-12-31",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-12-31",
+        "publication_type": "conference",
+        "publication_venue": "UCC '25: 2025 IEEE/ACM 18th International Conference on Utility and Cloud Computing",
+        "title": "Honeypot Embedded in Low-Cost IoT Hardware for Collecting and Analyzing Real-World Cyber Threats",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Sebastian Haas"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mattis Hasler"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Friedrich Pauls"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Christopher Dunkel"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Yogesh Verma"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Nilanjana Das"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Michael Raitza"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/mcsoc67473.2025.00033",
+        "id": "https://doi.org/10.1109/mcsoc67473.2025.00033",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/mcsoc67473.2025.00033"
+        },
+        "publication_date": "2025-12-15",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-12-15",
+        "publication_type": "conference",
+        "publication_venue": "2025 IEEE 18th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)",
+        "title": "An Architectural Approach for the Secure Integration of Hardware Accelerators into a Trustworthy MPSoC Platform",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Aoba Fujino"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Kenji Kise"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/mcsoc67473.2025.00040",
+        "id": "https://doi.org/10.1109/mcsoc67473.2025.00040",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/mcsoc67473.2025.00040"
+        },
+        "publication_date": "2025-12-15",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-12-15",
+        "publication_type": "conference",
+        "publication_venue": "2025 IEEE 18th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)",
+        "title": "CFU Proving Ground: a Hardware/Software Co-Design Framework for Leveraging a Custom Function Unit and RISC-V Custom Instructions",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Maitri Iyer"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jai Gopal Pandey"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/mcsoc67473.2025.00127",
+        "id": "https://doi.org/10.1109/mcsoc67473.2025.00127",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/mcsoc67473.2025.00127"
+        },
+        "publication_date": "2025-12-15",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-12-15",
+        "publication_type": "conference",
+        "publication_venue": "2025 IEEE 18th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)",
+        "title": "Bridging Cryptographic Robustness and Hardware Efficiency: A Comprehensive Analysis of S-Box Design Methodologies for SoC Integration",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2532,9 +2734,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 377,
+  "prefilter_review_overflow": 391,
   "query_index": 17,
-  "secondary": 95,
+  "secondary": 98,
   "skipped": 1813,
   "version": 1
 }
