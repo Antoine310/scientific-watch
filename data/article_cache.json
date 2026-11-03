@@ -2072,6 +2072,14 @@
       "title": "A dual-mode MRAM-TCAM with intrinsic PUF for energy efficiency and data security",
       "updated_at": "2026-11-02T15:58:26.663872+00:00"
     },
+    "doi:10.1016/j.memori.2025.100135": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Physical Unclonable Function (PUF) device based on single stage voltage amplifiers for secure signature generation in the Internet of Things",
+      "updated_at": "2026-11-03T20:28:59.750977+00:00"
+    },
     "doi:10.1016/j.memori.2026.100138": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -2279,6 +2287,14 @@
       "status": "rejected",
       "title": "Safety and security priorities of smart embedded devices in a technology enterprise",
       "updated_at": "2026-11-02T18:05:14.050874+00:00"
+    },
+    "doi:10.1016/j.sbsr.2025.100876": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Mitigating melanin-induced bias in pulse oximetry: Optical, algorithmic, engineering, hardware and modeling tools",
+      "updated_at": "2026-11-03T20:28:06.613084+00:00"
     },
     "doi:10.1016/j.scico.2025.103351": {
       "category": "hors_sujet",
@@ -5400,6 +5416,14 @@
       "title": "A Secure Multiradio Resource Scheme Using Cooperative DRL Agents for Heterogeneous Inter-RAN Slicing Under Hardware Impairments",
       "updated_at": "2026-11-03T14:54:50.466078+00:00"
     },
+    "doi:10.1109/jiot.2025.3615297": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "BSP-IoD: A Secure Drone-Enabled Authentication Protocol Using Barrel-Shifter PUF",
+      "updated_at": "2026-11-03T20:28:50.295501+00:00"
+    },
     "doi:10.1109/jiot.2025.3627770": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -5951,6 +5975,14 @@
       "status": "rejected",
       "title": "Robust Secure Design and Analysis of Active RIS Assisted Communication With Hardware Impairments",
       "updated_at": "2026-11-03T19:07:22.715786+00:00"
+    },
+    "doi:10.1109/mdat.2025.3594634": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "LATTE: Library Attack for Evaluating Hardware IP Protections Against Reverse Engineering",
+      "updated_at": "2026-11-03T20:27:56.620130+00:00"
     },
     "doi:10.1109/mdat.2025.3602736": {
       "category": "hors_sujet",
@@ -7176,6 +7208,14 @@
       "title": "Coffer: An Efficient and Scalable TEE on RISC-V",
       "updated_at": "2026-10-31T20:14:02.815158+00:00"
     },
+    "doi:10.1109/tits.2025.3605407": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "BPSAC: A Blockchain and PUF-Enabled Security Architecture With C-IDS for Maritime Intelligent Transportation Systems",
+      "updated_at": "2026-11-03T20:28:16.650871+00:00"
+    },
     "doi:10.1109/tkde.2026.3658859": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -7344,6 +7384,14 @@
       "title": "Embedded Attack Detection and Compensation in Distributed Secondary Control for Enhancing AC Microgrid Resilience",
       "updated_at": "2026-11-03T11:28:14.003952+00:00"
     },
+    "doi:10.1109/tr.2024.3371589": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "It's Getting Hot in Here: Hardware Security Implications of Thermal Crosstalk on ReRAMs",
+      "updated_at": "2026-11-03T20:27:34.520289+00:00"
+    },
     "doi:10.1109/trustcom66490.2025.00350": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -7375,6 +7423,14 @@
       "status": "rejected",
       "title": "Implementing Homomorphic Encryption-Based Logic Locking in System-on-Chip Designs",
       "updated_at": "2026-11-02T19:54:14.751521+00:00"
+    },
+    "doi:10.1109/tvlsi.2025.3603150": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "POCA: First Power-on Chip Authentication and Key Exchange for Secure Provisioning in System-on-Chip",
+      "updated_at": "2026-11-03T20:28:39.711011+00:00"
     },
     "doi:10.1109/tvlsi.2025.3604745": {
       "category": "hors_sujet",
@@ -15127,6 +15183,22 @@
       "status": "rejected",
       "title": "Application Status and Standard Requirements of RISC-V Chips in the Automotive Field",
       "updated_at": "2026-11-02T15:51:22.151379+00:00"
+    },
+    "doi:10.54692/lgurjcsit.2023.0702459": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Cloud Computing Services and Security Challenges: A Review",
+      "updated_at": "2026-11-03T20:27:34.491630+00:00"
+    },
+    "doi:10.54692/lgurjcsit.2024.081484": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Guardians of the iot realm: a comparative analysis of cryptographic security solutions for bolstering IoT device networks",
+      "updated_at": "2026-11-03T20:27:34.547161+00:00"
     },
     "doi:10.55041/ijsmt.v2i3.302": {
       "category": "secondaire",
