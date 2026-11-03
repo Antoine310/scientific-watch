@@ -1,0 +1,55 @@
+name: Scientific Watch - Completer les conferences (V16.8)
+
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: 'Publier les enrichissements (false = aperçu)'
+        type: boolean
+        required: true
+        default: false
+      force:
+        description: 'Revérifier les références déjà examinées (facultatif)'
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scientific-watch-shared-state
+  cancel-in-progress: false
+
+jobs:
+  venues:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    env:
+      PUBLIC_REPO_TOKEN: ${{ secrets.PUBLIC_REPO_TOKEN }}
+      PUBLIC_REPO: Antoine310/scientific-watch-v2
+      OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+      VENUE_BACKFILL_APPLY: ${{ inputs.apply }}
+      VENUE_BACKFILL_FORCE: ${{ inputs.force }}
+      VENUE_BACKFILL_LIMIT: '20'
+      VENUE_BACKFILL_TITLE_SEARCH: 'true'
+    steps:
+      - name: Checkout du depot prive
+        uses: actions/checkout@v4
+
+      - name: Verifier la syntaxe
+        run: python3 -m py_compile venue_backfill.py venue_v168.py publish_history.py publish_weekly.py
+
+      - name: Completer les metadonnees sans Gemini
+        run: python3 -u venue_backfill.py
+
+      - name: Conserver les fiches et la progression apres execution
+        if: ${{ always() && inputs.apply }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f data/history_records.json data/history_secondary_records.json data/venue_backfill_progress.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'V16.8 : lieux de publication et progression'
+            git push
+          fi
