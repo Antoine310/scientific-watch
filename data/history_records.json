@@ -2187,6 +2187,26 @@
     ],
     "title": "Dorami: Privilege Separating Security Monitor on RISC-V TEEs"
   },
+  "doi:10.46586/tches.v2026.i1.135-160": {
+    "doi": "https://doi.org/10.46586/tches.v2026.i1.135-160",
+    "publication_date": "2026-01-16",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-01-16",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 85,
+    "source": "https://doi.org/10.46586/tches.v2026.i1.135-160",
+    "summary": "Cet article présente TEEtime, un système permettant d'offrir un accès direct et sécurisé aux périphériques pour des applications exécutées dans des environnements d'exécution isolés du monde normal (domaines) sur architecture Arm, en s'appuyant sur TrustZone et le moniteur sécurisé. L'article introduit l'isolation des interruptions comme primitive clé et démontre son prototype sur simulateur FVP et sur le smartphone Purism Librem 5 avec une application Signal.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "It’s TEEtime: Secure Interrupt Isolation for Normal-world Enclaves on Arm",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.46586/tches.v2026.i2.28-50": {
     "doi": "https://doi.org/10.46586/tches.v2026.i2.28-50",
     "publication_date": "2026-04-23",
