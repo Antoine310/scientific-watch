@@ -1939,133 +1939,211 @@
   },
   "doi:10.48550/arxiv.2507.12345": {
     "publication_date": "2025-07-16",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 75,
     "source": "http://arxiv.org/abs/2507.12345",
     "summary": "Cet article présente RESPEC-CFA, une extension architecturale pour l'attestation de flux de contrôle (CFA) dans les systèmes embarqués. En spéculant sur la localité des flux de contrôle et leur encodage de Huffman, l'approche réduit significativement la taille des journaux de flux de contrôle (CFlog), diminuant les coûts de stockage et de transmission jusqu'à 90,1 % seule, et jusqu'à 99,7 % lorsqu'elle est combinée avec des méthodes antérieures.",
     "themes": [
       "T04 — Runtime Attestation"
     ],
-    "title": "Efficient Control Flow Attestation by Speculating on Control Flow Path Representations"
+    "title": "Efficient Control Flow Attestation by Speculating on Control Flow Path Representations",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "doi:10.48550/arxiv.2511.04550": {
     "publication_date": "2025-11-06",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 80,
     "source": "http://arxiv.org/abs/2511.04550",
     "summary": "Cette publication explore l'informatique confidentielle pour la sécurité dans le cloud en utilisant des environnements d'exécution de confiance (TEEs) basés sur le matériel. L'étude analyse l'architecture, l'efficacité, les stratégies de déploiement et les limites des TEEs tels qu'Intel SGX et ARM TrustZone pour protéger les données en cours de traitement.",
     "themes": [
       "T01 — Root of Trust & Secure Boot"
     ],
-    "title": "Confidential Computing for Cloud Security: Exploring Hardware based Encryption Using Trusted Execution Environments"
+    "title": "Confidential Computing for Cloud Security: Exploring Hardware based Encryption Using Trusted Execution Environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "doi:10.48550/arxiv.2602.04991": {
     "publication_date": "2026-02-04",
+    "publication_type": "conference",
+    "publication_venue": "IEEE International Symposium on Circuits and Systems proceedings",
     "score": 85,
     "source": "http://arxiv.org/abs/2602.04991",
     "summary": "Ce travail présente la première conception, intégration et évaluation des extensions standard RISC-V pour l'intégrité du flux de contrôle (CFI), à savoir Zicfiss et Zicfilp. Les auteurs introduisent deux unités matérielles indépendantes et configurables pour la protection du flux de contrôle en avant et en arrière, intégrées dans le cœur open-source CVA6. L'évaluation montre un surcoût de surface de 1,0 % (technologie 22 nm FDX) et un surcoût de performance allant jusqu'à 15,6 % (benchmark MiBench).",
     "themes": [
       "T10 — RISC-V SoC & FPGA"
     ],
-    "title": "CVA6-CFI: A First Glance at RISC-V Control-Flow Integrity Extensions"
+    "title": "CVA6-CFI: A First Glance at RISC-V Control-Flow Integrity Extensions",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex (titre exact)"
   },
   "doi:10.48550/arxiv.2603.17757": {
     "publication_date": "2026-03-18",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 90,
     "source": "http://arxiv.org/abs/2603.17757",
     "summary": "Cet article traite de la sécurisation du cycle de vie logiciel dans les environnements d'exécution de confiance (TEEs) basés sur RISC-V pour l'IoT et l'automobile. Les auteurs introduisent un ensemble d'outils (« toolkit ») s'intégrant au Security Monitor pour permettre la mise à jour sécurisée des enclaves, la migration sécurisée, la continuité d'état et le temps de confiance, avec une compatibilité démontrée sur des TEEs comme Keystone et CURE. L'évaluation montre un surcoût de performance négligeable (moins de 1,5% pour la continuité d'état et un temps d'indisponibilité de 0,8%).",
     "themes": [
       "T01 — Root of Trust & Secure Boot"
     ],
-    "title": "On Securing the Software Development Lifecycle in IoT RISC-V Trusted Execution Environments"
+    "title": "On Securing the Software Development Lifecycle in IoT RISC-V Trusted Execution Environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "doi:10.48550/arxiv.2603.24172": {
     "publication_date": "2026-03-25",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 85,
     "source": "http://arxiv.org/abs/2603.24172",
     "summary": "Cette publication propose de passer de la prévention à la détection des vulnérabilités microarchitecturales en introduisant une attestation à distance consciente du contexte matériel. Les auteurs présentent HammerWatch, un protocole d'attestation distant ciblant l'attaque Rowhammer. Il utilise les exceptions MCE (Machine-Check Exceptions) de la mémoire ECC et les compteurs d'activation PRAC (Per-Row Activation Counting) pour identifier les comportements de perturbation matérielle. L'intégrité des mesures est garantie face à un adversaire au niveau du noyau grâce à des chaînes de hachage ancrées dans un module TPM. L'évaluation sur 20000 motifs d'accès montre que le système distingue efficacement les comportements malveillants des opérations bénignes.",
     "themes": [
       "T01 — Root of Trust & Secure Boot"
     ],
-    "title": "Towards Remote Attestation of Microarchitectural Attacks: The Case of Rowhammer"
+    "title": "Towards Remote Attestation of Microarchitectural Attacks: The Case of Rowhammer",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "doi:10.48550/arxiv.2603.29749": {
     "publication_date": "2026-03-31",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 95,
     "source": "http://arxiv.org/abs/2603.29749",
     "summary": "Cet article présente HPCCFA, un mécanisme permettant d'étendre les environnements d'exécution de confiance (TEEs) avec l'attestation de flux de contrôle (CFA) en exploitant les compteurs de performance matériels (HPCs) sur des processeurs standard. Les auteurs démontrent la faisabilité de cette approche via un prototype sur Keystone sous RISC-V, tout en mettant en évidence un compromis entre la fiabilité de détection et la surcharge de performance.",
     "themes": [
       "T04 — Runtime Attestation"
     ],
-    "title": "HPCCFA: Leveraging Hardware Performance Counters for Control Flow Attestation"
+    "title": "HPCCFA: Leveraging Hardware Performance Counters for Control Flow Attestation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "doi:10.48550/arxiv.2605.00613": {
     "publication_date": "2026-05-01",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 80,
     "source": "https://arxiv.org/abs/2605.00613",
     "summary": "KingsGuard est une nouvelle conception de TEE (Trusted Execution Environment) qui surveille et contrôle systématiquement la propagation des données sensibles au sein d'une enclave pour empêcher les fuites malgré des vulnérabilités matérielles ou logicielles. Implémentée sur un processeur RISC-V, la solution intègre un suivi précis des flux de données et une déclassification contrôlée, avec un surcoût de surface matérielle de 10,8% sur FPGA et un impact de performance de 5,69%.",
     "themes": [
       "T03 — RISC-V TEE & Enclaves"
     ],
-    "title": "KingsGuard: Enclave Data Protection Under Real-World TEE Vulnerabilities"
+    "title": "KingsGuard: Enclave Data Protection Under Real-World TEE Vulnerabilities",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "doi:10.48550/arxiv.2605.10049": {
     "publication_date": "2026-05-11",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 75,
     "source": "https://arxiv.org/abs/2605.10049",
     "summary": "Janus est un framework de sécurité basé sur un compilateur qui atténue les attaques par exécution transitoire (comme Spectre) et le détournement de flux de contrôle sur les plateformes ARM64 en combinant des primitives matérielles (PA et BTI).",
     "themes": [
       "T06 — Microarchitectural Side Channels"
     ],
-    "title": "Janus: Compiler-Based Defense Against Transient Execution Attacks Using ARM Hardware Primitives"
+    "title": "Janus: Compiler-Based Defense Against Transient Execution Attacks Using ARM Hardware Primitives",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "doi:10.48550/arxiv.2606.12259": {
     "publication_date": "2026-06-10",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 90,
     "source": "https://arxiv.org/abs/2606.12259",
     "summary": "Cet article présente SCP (Secure and Coherent Partitioning), une architecture matérielle de cache qui concilie l'isolement strict par partitionnement et la cohérence des données partagées en écriture. En partitionnant uniquement les étiquettes (tags) tout en partageant une réserve de données dimensionnée pour empêcher les évictions inter-partitions, SCP protège contre les canaux cachés tout en maintenant des performances proches de DAWG avec un surcoût matériel modeste de 2,8 % de SRAM sur le LLC.",
     "themes": [
       "T08 — Cache & Temporal Isolation"
     ],
-    "title": "Partitioned Tags, Shared Data: Reconciling Strict Cache Isolation with Write-Shared Coherence"
+    "title": "Partitioned Tags, Shared Data: Reconciling Strict Cache Isolation with Write-Shared Coherence",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "doi:10.48550/arxiv.2606.26177": {
     "publication_date": "2026-06-24",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 75,
     "source": "https://arxiv.org/abs/2606.26177",
     "summary": "Ce travail présente CVA6-RT, une extension microarchitecturale temps réel du processeur CVA6 visant à borner la latence dans le pire des cas et à réduire la variabilité d'exécution des tâches pour les systèmes à criticité mixte.",
     "themes": [
       "T12 — Advanced Memory Architectures"
     ],
-    "title": "CVA6-RT: an Open-Source Time-Predictable RV64 Processor for Mixed-Criticality Systems"
+    "title": "CVA6-RT: an Open-Source Time-Predictable RV64 Processor for Mixed-Criticality Systems",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "doi:10.48550/arxiv.2607.07926": {
     "publication_date": "2026-07-08",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 95,
     "source": "https://arxiv.org/abs/2607.07926",
     "summary": "Cet article présente KS-CFA, un nouveau schéma d'attestation de flux de contrôle (CFA) conçu pour détecter les attaques par détournement de flux de contrôle (CFB) sans nécessiter de modifications matérielles de bas niveau ni l'énumération de vastes espaces de mesure. L'approche combine l'exécution symbolique et l'identification sélective de variables dépendantes du flux de contrôle et provenant d'entrées externes, mises en œuvre au sein d'un environnement d'exécution de confiance (TEE) sur RISC-V.",
     "themes": [
       "T04 — Runtime Attestation"
     ],
-    "title": "KS-CFA: Control-Flow Attestation via Symbolic Replay Against Control-Flow Bending Attacks"
+    "title": "KS-CFA: Control-Flow Attestation via Symbolic Replay Against Control-Flow Bending Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "doi:10.48550/arxiv.2608.26367": {
     "publication_date": "2026-08-26",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 85,
     "source": "https://arxiv.org/abs/2608.26367",
     "summary": "PRISM est une architecture d'environnement d'exécution de confiance (TEE) basée sur CHERI qui utilise des capacités prismatiques pour créer des enclaves en espace utilisateur. Elle résout les problèmes de révocation, de dépendance excessive au système d'exploitation hôte, de coût des transitions de domaine et d'absence d'attestation à distance, tout en maintenant un surcoût d'exécution modéré (<= 15%).",
     "themes": [
       "T03 — RISC-V TEE & Enclaves"
     ],
-    "title": "PRISM: Lightweight Enclave Isolation with Prismatic Capabilities"
+    "title": "PRISM: Lightweight Enclave Isolation with Prismatic Capabilities",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "doi:10.48550/arxiv.2609.10634": {
     "publication_date": "2026-09-09",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 95,
     "source": "https://arxiv.org/abs/2609.10634",
     "summary": "HermiCache est une politique de remplacement de cache consciente des enclaves pour les environnements d'exécution de confiance (TEEs), visant à atténuer les attaques par canal auxiliaire sur les ressources partagées. Conçu pour les processeurs RISC-V et implémenté sur le cœur OpenHWGroup CVA6 avec Keystone TEE, il offre des configurations fines et une protection déterministe avec un surcoût de surface de 6 %.",
     "themes": [
       "T03 — RISC-V TEE & Enclaves"
     ],
-    "title": "HermiCache: Enclave-Aware Cache Replacement for Trusted Execution Environments"
+    "title": "HermiCache: Enclave-Aware Cache Replacement for Trusted Execution Environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "doi:10.48676/unibo/amsdottorato/13054": {
     "publication_date": "2026-08-24",
@@ -2089,13 +2167,19 @@
   },
   "doi:10.5220/0013518800003979": {
     "publication_date": "2025-01-01",
+    "publication_type": "conference",
+    "publication_venue": "22nd International Conference on Security and Cryptography",
     "score": 80,
     "source": "https://doi.org/10.5220/0013518800003979",
     "summary": "Cet article étudie l'attaque par canal auxiliaire Flush+Fault sur l'architecture RISC-V en utilisant le simulateur gem5. Bien que ces attaques aient été démontrées sur du matériel réel par de précédents travaux, l'utilisation de gem5 permet d'obtenir un contrôle fin et des analyses détaillées des comportements temporels et des motifs de cache, ouvrant la voie à la conception de contre-mesures.",
     "themes": [
       "T06 — Microarchitectural Side Channels"
     ],
-    "title": "Assessing Security RISC: Analyzing Flush+Fault Attack on RISC-V Using gem5 Simulator"
+    "title": "Assessing Security RISC: Analyzing Flush+Fault Attack on RISC-V Using gem5 Simulator",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.5281/zenodo.17553874": {
     "publication_date": "2025-11-07",
@@ -2149,13 +2233,19 @@
   },
   "doi:10.53941/pc.2026.100006": {
     "publication_date": "2026-06-29",
+    "publication_type": "revue",
+    "publication_venue": "Pragmatic Cybersecurity",
     "score": 75,
     "source": "https://doi.org/10.53941/pc.2026.100006",
     "summary": "Cet article présente RV-Sec5, un cadre systématique et guidé par des politiques pour l'évaluation de la sécurité au niveau du jeu d'instructions (ISA) des processeurs RISC-V, intégré dans le simulateur cycle par cycle gem5. Le framework traduit des invariants de sécurité (isolation des privilèges, PMP, CSR) en points d'instrumentation pour corréler les événements ISA et le comportement microarchitectural.",
     "themes": [
       "T01 — Root of Trust & Secure Boot"
     ],
-    "title": "RV-Sec5: Enhancing Pre-Silicon Security Evaluation of RISC-V Processors through Targeted ISA-Level Instrumentation in the gem5 Simulation Framework †"
+    "title": "RV-Sec5: Enhancing Pre-Silicon Security Evaluation of RISC-V Processors through Targeted ISA-Level Instrumentation in the gem5 Simulation Framework †",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.5463/thesis.1490": {
     "publication_date": "2026-02-27",
@@ -2202,13 +2292,19 @@
     "publication_date_note": "",
     "publication_date_precision": "day",
     "publication_date_source": "2026-07-29",
+    "publication_type": "revue",
+    "publication_venue": "International Journal of Computer Information Systems and Industrial Management Applications",
     "score": 85,
     "source": "https://doi.org/10.70917/ijcisim-2026-3887",
     "summary": "Cet article développe sept principes de conception compositionnelle pour la sécurité des plateformes matérielles. Il s'adresse aux architectes et ingénieurs d'intégration pour unifier les racines de confiance matérielles (HRoT), les TEE, les TPM et les processeurs de sécurité intégrés.",
     "themes": [
       "T07 — Hardware Security Verification"
     ],
-    "title": "Compositional Design Principles for Hardware-Backed Platform Security"
+    "title": "Compositional Design Principles for Hardware-Backed Platform Security",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.7302/25650": {
     "publication_date": "2025-01-01",
@@ -2225,65 +2321,95 @@
     "publication_date_note": "",
     "publication_date_precision": "day",
     "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 85,
     "source": "http://arxiv.org/abs/2608.04039v1",
     "summary": "Ce document technique présente AMD SEV-SNP, une solution matérielle de computing confidentiel pour les machines virtuelles. L'hyperviseur est considéré comme potentiellement malveillant. La technologie chiffre la mémoire et l'état des registres des invités, détecte les altérations de mémoire, et permet une attestation distante. Les auteurs décrivent le modèle de menace, le processeur sécurisé AMD, le moteur de chiffrement, la table de transcodage inverse (Reverse Map Table), les niveaux de privilège, ainsi que le pipeline d'attestation basé sur une chaîne de certificats.",
     "themes": [
       "T03 — RISC-V TEE & Enclaves"
     ],
-    "title": "AMD SEV-SNP: A Confidential Computing Primer"
+    "title": "AMD SEV-SNP: A Confidential Computing Primer",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:antmananefficientandinterpretablertllevelruntimedetectionframeworkforstealthybranchpredictorattacksonboom": {
     "publication_date": "2026-08-10",
     "publication_date_note": "",
     "publication_date_precision": "day",
     "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 90,
     "source": "http://arxiv.org/abs/2608.09498v2",
     "summary": "ANTMAN est un framework de détection en temps réel, efficace et interprétable au niveau RTL, conçu pour contrer les attaques furtives par prédicteur de branchement sur le processeur RISC-V BOOM. Contrairement aux approches basées sur les compteurs de performance matériels (HPCs), ANTMAN utilise des règles d'association extraites hors ligne et intégrées dans un moniteur matériel non intrusif.",
     "themes": [
       "T03 — RISC-V TEE & Enclaves"
     ],
-    "title": "ANTMAN: An Efficient and Interpretable RTL-Level Run-Time Detection Framework for Stealthy Branch Predictor Attacks on BOOM"
+    "title": "ANTMAN: An Efficient and Interpretable RTL-Level Run-Time Detection Framework for Stealthy Branch Predictor Attacks on BOOM",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:automatedtemplatefreesynthesisofinstructioncentricleakagecontractsforblackboxcpus": {
     "publication_date": "2026-07-16",
     "publication_date_note": "",
     "publication_date_precision": "day",
     "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 85,
     "source": "http://arxiv.org/abs/2607.15118v1",
     "summary": "Cet article présente une méthodologie et un outil automatisé nommé malcos pour synthétiser des contrats de fuite orientés instruction (instruction-centric leakage contracts) pour des processeurs boîtes noires, sans nécessiter de modèle préétabli (template-free). L'évaluation est menée sur des architectures x86 et ARM.",
     "themes": [
       "T06 — Microarchitectural Side Channels"
     ],
-    "title": "Automated Template-free Synthesis of Instruction-Centric Leakage Contracts for Black-Box CPUs"
+    "title": "Automated Template-free Synthesis of Instruction-Centric Leakage Contracts for Black-Box CPUs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:characterizingthevarianceenvelopeamultidimensionalanalysisofspectretelemetryacrossarchitecturesandworkloads": {
     "publication_date": "2026-08-14",
     "publication_date_note": "",
     "publication_date_precision": "day",
     "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 85,
     "source": "http://arxiv.org/abs/2608.13920v1",
     "summary": "Cet article analyse la variabilité des empreintes des attaques Spectre via les compteurs de performance matérielle (HPC) sur différentes architectures (Intel, ARM, AMD) et charges de travail. Il démontre la fragilité des modèles de détection statiques face au bruit et propose une caractérisation de l'enveloppe de variance pour améliorer la détection.",
     "themes": [
       "T06 — Microarchitectural Side Channels"
     ],
-    "title": "Characterizing the Variance Envelope: A Multi-Dimensional Analysis of Spectre Telemetry Across Architectures and Workloads"
+    "title": "Characterizing the Variance Envelope: A Multi-Dimensional Analysis of Spectre Telemetry Across Architectures and Workloads",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:chypothermiaclockfreezingforstaticsidechannelattacks": {
     "publication_date": "2026-09-10",
     "publication_date_note": "",
     "publication_date_precision": "day",
     "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 85,
     "source": "http://arxiv.org/abs/2609.11442v1",
     "summary": "Chypothermia est une attaque par canal auxiliaire statique exploitant le gel d'horloge par le froid. En exposant une puce à des températures cryogéniques, l'attaque désactive les capteurs d'horloge, de tension et les circuits de génération sans détruire les données secrètes. Combinée à une autre technique (Chypnosis), elle contourne les capteurs thermiques et empêche l'effacement des données sensibles (zeroization), notamment sur le composant OpenTitan. Une contre-mesure par capteur auto-chauffant est également proposée.",
     "themes": [
       "T01 — Root of Trust & Secure Boot"
     ],
-    "title": "Chypothermia: Clock Freezing for Static Side-channel Attacks"
+    "title": "Chypothermia: Clock Freezing for Static Side-channel Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:enforcingriscvteesecurityagainstcachetimingattacks": {
     "publication_date": "2025-06-15",
@@ -2300,23 +2426,35 @@
     "publication_date_note": "",
     "publication_date_precision": "day",
     "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 85,
     "source": "http://arxiv.org/abs/2609.23173v1",
     "summary": "Cet article présente SURF, une nouvelle classe de chevaux de Troie matériels (HT) ciblant les processeurs de terminaux (mobiles, ordinateurs portables) qui peuvent être activés sans nécessiter l'exécution de code arbitraire au niveau machine. En exploitant des opérations en langage de haut niveau mappées sur des effets secondaires microarchitecturaux, les auteurs démontrent une activation via des moteurs d'exécution de code non fiables, illustrée par une attaque au sein d'un processeur RISC-V et du moteur JavaScript V8.",
     "themes": [
       "T03 — RISC-V TEE & Enclaves"
     ],
-    "title": "Exploiting Software-level Abstractions To Support Practical Hardware Trojan Attacks"
+    "title": "Exploiting Software-level Abstractions To Support Practical Hardware Trojan Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:extendinglayeredattestationintoarmapplicationruntimes": {
     "publication_date": "2026-10-13",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 85,
     "source": "http://arxiv.org/abs/2610.17614v2",
     "summary": "Cet article présente ARA (Application-Runtime Anchor), un mécanisme pour étendre la chaîne de confiance au-delà du chargement initial sur les architectures ARM. En s'appuyant sur les extensions POE (Permission Overlay Extensions), ARA établit un domaine d'exécution protégé au sein même de l'espace d'adressage de l'application, permettant d'héberger des racines de confiance programmables pour l'attestation et la gestion de secrets à faible coût.",
     "themes": [
       "T02 — DICE & Hardware Identity"
     ],
-    "title": "Extending Layered Attestation into ARM Application Run-Times"
+    "title": "Extending Layered Attestation into ARM Application Run-Times",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:fpgabasedprototypingandperformanceanalysisofalinuxcapableriscvsoc": {
     "publication_date": "2025-01-01",
@@ -2330,26 +2468,38 @@
   },
   "title:freesbeeaconstanttimecompilationpipeline": {
     "publication_date": "2026-10-14",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 75,
     "source": "http://arxiv.org/abs/2610.20171v1",
     "summary": "Cet article présente FreeSBee, une chaîne de compilation complète conçue pour renforcer les codes contre les canaux auxiliaires temporels sur les appareils IoT. Le processus combine une analyse de taint pour identifier les zones sensibles et des transformations automatiques de flux de contrôle au sein du compilateur. L'évaluation est réalisée sur un cœur RISC-V à l'aide d'analyses temporelles statiques et statistiques, suggérant une protection efficace contre les attaques temporelles malgré l'absence d'un temps d'exécution strictement constant au niveau du cycle.",
     "themes": [
       "T03 — RISC-V TEE & Enclaves"
     ],
-    "title": "FreeSBee: A Constant-Time Compilation Pipeline"
+    "title": "FreeSBee: A Constant-Time Compilation Pipeline",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:graniteamodularmethodologyforfoundationalverificationofhardwaresoftwareleakagecontracts": {
     "publication_date": "2026-07-29",
     "publication_date_note": "",
     "publication_date_precision": "day",
     "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 90,
     "source": "http://arxiv.org/abs/2607.27480v1",
     "summary": "Granite est une méthodologie modulaire pour la vérification de la correction fonctionnelle et de l'absence de fuite des processeurs RTL par rapport à des contrats ISA. Elle démontre que le timing cycle par cycle d'un design RISC pipeliné est déterminé uniquement par les observables spécifiés, éliminant ainsi les canaux cachés temporels pour les programmes respectant la discipline du temps constant cryptographique.",
     "themes": [
       "T07 — Hardware Security Verification"
     ],
-    "title": "Granite: A Modular Methodology for Foundational Verification of Hardware-Software Leakage Contracts"
+    "title": "Granite: A Modular Methodology for Foundational Verification of Hardware-Software Leakage Contracts",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:hardeningtrustedexecutionenvironmentsagainstmicroarchitecturalsidechannelattacksaconstructiveapproach": {
     "publication_date": "2025-05-01",
@@ -2386,13 +2536,19 @@
     "publication_date_note": "",
     "publication_date_precision": "day",
     "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 75,
     "source": "http://arxiv.org/abs/2607.17518v2",
     "summary": "Cette publication étudie les fuites par canal auxiliaire de type cache de pages (page-cache SCA) à travers différentes frontières d'isolation dans le cloud, notamment les conteneurs, les environnements sandboxed et les machines virtuelles. Les auteurs démontrent que le partage du cache de pages de l'hôte persiste à travers de nombreux mécanismes d'isolation et d'I/O (Docker, gVisor, Kata Containers, QEMU/KVM), permettant de révéler la résidence dans le cache via des mesures temporelles non privilégiées.",
     "themes": [
       "T08 — Cache & Temporal Isolation"
     ],
-    "title": "Isolation Failure From Shared Storage: Characterizing and Exploiting Page-Cache SCA Leakage Across Containers and VMs"
+    "title": "Isolation Failure From Shared Storage: Characterizing and Exploiting Page-Cache SCA Leakage Across Containers and VMs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:leveraginggem5andmachinelearningforendtoenddetectionofcachebasedsidechannelattackpatterns": {
     "publication_date": "2025-09-18",
@@ -2419,13 +2575,19 @@
     "publication_date_note": "",
     "publication_date_precision": "day",
     "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 95,
     "source": "http://arxiv.org/abs/2609.03849v1",
     "summary": "Cet article présente NACRE, une co-conception matériel-logiciel sur architecture RISC-V dédiée aux conteneurs confidentiels natifs. L'objectif est de faire d'un groupe dynamique de processus Linux gérés par l'hôte l'unité de protection architecturale, en séparant l'autorité de l'hôte sur la gestion des ressources et son accès aux états protégés. Le système utilise des identités de conteneurs reconnues matériellement, un agent S-mode isolé et un moniteur M-mode, tout en maintenant les performances proches de celles de runc.",
     "themes": [
       "T03 — RISC-V TEE & Enclaves"
     ],
-    "title": "NACRE: Rethinking Confidential Containers through Native Architectural Support"
+    "title": "NACRE: Rethinking Confidential Containers through Native Architectural Support",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:optimizingtlscryptographicoperationsonriscvsocwithopentitanrot": {
     "publication_date": "2025-01-01",
@@ -2439,13 +2601,19 @@
   },
   "title:page404breakinggpuisolationthroughhardwareassistedpagemigration": {
     "publication_date": "2026-10-14",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 75,
     "source": "http://arxiv.org/abs/2610.20962v3",
     "summary": "Cette publication étudie la sécurité de l'architecture hétérogène de la superuce d'NVIDIA Grace Hopper (GH200), en se focalisant sur le mécanisme de migration de pages assisté par matériel et géré par des compteurs d'accès. Les auteurs identifient deux vulnérabilités par canaux cachés et latéraux exploitables à travers les partitions MIG (Multi-Instance GPU), remettant en cause l'isolation matérielle entre locataires.",
     "themes": [
       "T06 — Microarchitectural Side Channels"
     ],
-    "title": "PAGE404: Breaking GPU Isolation Through Hardware-assisted Page Migration"
+    "title": "PAGE404: Breaking GPU Isolation Through Hardware-assisted Page Migration",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:prototypingcustomhardwareperformancecountersingem5simulatoraframeworkforriscvsidechannelattackassessment": {
     "publication_date": "2025-06-30",
@@ -2462,26 +2630,38 @@
     "publication_date_note": "",
     "publication_date_precision": "day",
     "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 85,
     "source": "http://arxiv.org/abs/2608.12822v1",
     "summary": "RealmEye est le premier système d'introspection de machine virtuelle (VMI) conçu pour les machines virtuelles confidentielles Arm CCA (Realm VMs). Il place la logique d'introspection directement dans le Realm Management Monitor (RMM à R-EL2) pour assurer une séparation matérielle stricte, sans nécessiter d'agent dans la VM. Il permet de lire la mémoire et les registres, de suspendre la VM pour des captures cohérentes et de piéger les accès aux pages, les résultats étant transmis via un canal attesté matériellement.",
     "themes": [
       "T08 — Cache & Temporal Isolation"
     ],
-    "title": "RealmEye: Virtual Machine Introspection for Arm CCA Realm VMs"
+    "title": "RealmEye: Virtual Machine Introspection for Arm CCA Realm VMs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:remotetimerasaserviceefficientmicroarchitecturalleakageinthecloudwithremotetimers": {
     "publication_date": "2026-08-17",
     "publication_date_note": "",
     "publication_date_precision": "day",
     "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 75,
     "source": "http://arxiv.org/abs/2608.17043v1",
     "summary": "Cet article étudie les fuites microarchitecturales dans le framework Cloudflare Workers qui supprime l'isolation par processus au profit d'une isolation au niveau du langage pour réduire la latence. Les auteurs démontrent que les contre-mesures existantes, telles que la restriction des mesures de temps et l'isolation dynamique des processus (DyPrIs), sont insuffisantes. En combinant des techniques d'amplification microarchitecturale et des minuteurs distants, ils réalisent une attaque Spectre à distance réussie en production, extrayant un jeton JWT d'un worker co-localisé avec un débit grandement amélioré (jusqu'à 12 bit/s à 99,16 % de précision). Suite à cette vulnérabilité, Cloudflare a mis en place de nouvelles mesures d'atténuation incluant le V8 Sandbox et l'isolation par MPK.",
     "themes": [
       "T07 — Hardware Security Verification"
     ],
-    "title": "Remote-Timer-as-a-Service: Efficient Microarchitectural Leakage in the Cloud with Remote Timers"
+    "title": "Remote-Timer-as-a-Service: Efficient Microarchitectural Leakage in the Cloud with Remote Timers",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:riscguardriscvstaticanalysisframeworkfordetectingmicroarchitecturalvulnerabilities": {
     "publication_date": "2026-10-11",
@@ -2498,65 +2678,95 @@
     "publication_date_note": "",
     "publication_date_precision": "day",
     "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 85,
     "source": "http://arxiv.org/abs/2607.16771v1",
     "summary": "Cette publication présente SABLE, une architecture de processeur RISC-V conçue pour un chiffrement authentifié au niveau des instructions (ILE) minimaliste et adapté au confidential computing contraint. SABLE intègre un mécanisme de déchiffrement et de vérification basé sur ASCON-128a, compatible avec la chaîne d'outils RISC-V standard via un post-traitement des binaires ELF. L'évaluation sur FPGA Xilinx Artix-7 avec le SoC NEORV32 analyse sept variantes micro-architecturales.",
     "themes": [
       "T03 — RISC-V TEE & Enclaves"
     ],
-    "title": "SABLE: Minimalist Instruction-Level Authenticated Encryption for Constrained Confidential Computing"
+    "title": "SABLE: Minimalist Instruction-Level Authenticated Encryption for Constrained Confidential Computing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:scheriprovablysecurespeculationundertheconstanttimepolicyforcheriextendedversion": {
     "publication_date": "2026-09-15",
     "publication_date_note": "",
     "publication_date_precision": "day",
     "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 85,
     "source": "http://arxiv.org/abs/2609.17399v1",
     "summary": "Cet article étudie la sécurité de l'exécution spéculative sous la politique du temps constant pour les architectures basées sur les capacités (CHERI). Les auteurs démontrent que les propositions existantes échouent à préserver la confidentialité et présentent SCHERI, un nouveau design de processeur prouvé formellement sécurisé contre les attaques par canal auxiliaire microarchitectural.",
     "themes": [
       "T06 — Microarchitectural Side Channels"
     ],
-    "title": "SCHERI: Provably Secure Speculation Under the Constant-Time Policy for CHERI (Extended Version)"
+    "title": "SCHERI: Provably Secure Speculation Under the Constant-Time Policy for CHERI (Extended Version)",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:securingfilesystemsforconfidentialcomputing": {
     "publication_date": "2026-08-20",
     "publication_date_note": "",
     "publication_date_precision": "day",
     "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 80,
     "source": "http://arxiv.org/abs/2608.19924v1",
     "summary": "Cet article présente ShieldFS, un système de fichiers compatible POSIX conçu pour le calcul confidentiel. Il garantit l'intégrité et la fraîcheur du stockage persistant face à un fournisseur cloud malveillant, sans nécessiter de modification des applications, grâce à des engagements cryptographiques maintenus dans des environnements d'exécution de confiance (TEE) et un registre de confiance léger.",
     "themes": [
       "T03 — RISC-V TEE & Enclaves"
     ],
-    "title": "Securing Filesystems for Confidential Computing"
+    "title": "Securing Filesystems for Confidential Computing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:slacaccessdrivencputogpusidechannelattacksviasystemlevelcacheonapplesilicon": {
     "publication_date": "2026-08-10",
     "publication_date_note": "",
     "publication_date_precision": "day",
     "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 85,
     "source": "http://arxiv.org/abs/2608.09075v2",
     "summary": "Cette étude démontre de nouvelles attaques par canal auxiliaire CPU-sur-GPU basées sur les accès (style Prime+Probe) exploitant le cache de niveau système (SLC) partagé dans les SoC hétérogènes Apple Silicon. Les auteurs ont rétro-conçu l'indexation du SLC de l'Apple M1 et développé la technique CPrime+CProbe, ainsi qu'une variante accélérée GPrime+CProbe. Ils valident l'approche sur des attaques de confidentialité de bout en bout contre des réseaux de neurones sur graphes (GNN) et des modèles de langage (LLM).",
     "themes": [
       "T08 — Cache & Temporal Isolation"
     ],
-    "title": "SLAC: Access-Driven CPU-to-GPU Side-channel Attacks via System-Level Cache on Apple Silicon"
+    "title": "SLAC: Access-Driven CPU-to-GPU Side-channel Attacks via System-Level Cache on Apple Silicon",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:teexteeawareaccelerationframeworkforlargevisionmodelsattheedge": {
     "publication_date": "2026-08-24",
     "publication_date_note": "",
     "publication_date_precision": "day",
     "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 75,
     "source": "http://arxiv.org/abs/2608.22716v1",
     "summary": "Cet article présente TEE-X, un cadre d'accélération tenant compte des environnements d'exécution sécurisés (TEE), conçu pour héberger et exécuter des modèles de vision par ordinateur de grande taille (tels que les Vision Transformers) sur des appareils en périphérie (edge). L'approche vise à surmonter les contraintes de mémoire et la latence de calcul tout en protégeant la confidentialité et l'intégrité des modèles.",
     "themes": [
       "T03 — RISC-V TEE & Enclaves"
     ],
-    "title": "TEE-X: TEE-aware Acceleration Framework for Large Vision Models at the Edge"
+    "title": "TEE-X: TEE-aware Acceleration Framework for Large Vision Models at the Edge",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:towardsreliableandsecureriscvsystemssurveyoftestabilityandsecuritymechanisms": {
     "publication_date": "2026-06-24",
@@ -2573,12 +2783,18 @@
     "publication_date_note": "",
     "publication_date_precision": "day",
     "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
     "score": 75,
     "source": "http://arxiv.org/abs/2608.13496v1",
     "summary": "YAVIN est une architecture unifiée qui étend les environnements d'exécution sécurisés (TEE) au-delà du processeur pour inclure le traitement en mémoire (PIM) de manière sécurisée, tout en considérant le bus mémoire comme non sécurisé.",
     "themes": [
       "T03 — RISC-V TEE & Enclaves"
     ],
-    "title": "YAVIN: A Unified Architecture for Secure Edge Processing in Memory"
+    "title": "YAVIN: A Unified Architecture for Secure Edge Processing in Memory",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   }
 }
