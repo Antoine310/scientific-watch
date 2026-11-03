@@ -888,6 +888,14 @@
       "title": "A Secure RISC-V Processor Architecture with Pipeline AES Randomization and Speculation Attack Mitigation",
       "updated_at": "2026-11-02T19:17:36.281520+00:00"
     },
+    "doi:10.1007/s41635-026-00185-1": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "The Future of Zero-Trust Secured Hardware: An Assessment of SoC and NoC Security, Compliance with Zero-Trust Tenets, and Emerging Challenges",
+      "updated_at": "2026-11-03T09:06:39.579384+00:00"
+    },
     "doi:10.1007/s41635-026-00194-0": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -2280,6 +2288,14 @@
       "title": "Aggregation Scheduling for Lightweight RISC-V Blockchain Gateways in Industrial IoT",
       "updated_at": "2026-11-02T19:34:37.256143+00:00"
     },
+    "doi:10.1109/cicn70047.2026.11594326": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware-Efficient Architecture for Secure Underwater Image Transmission Using CNN-Based AES and DNN Encoders",
+      "updated_at": "2026-11-03T09:07:11.811943+00:00"
+    },
     "doi:10.1109/ciees66347.2025.11300155": {
       "category": "secondaire",
       "decision": "examiner",
@@ -2424,6 +2440,22 @@
       "title": "Evict+Spec+Time on RISC-V: Gem5-Based Implementation and Microarchitectural Analysis",
       "updated_at": "2026-10-31T08:13:51.223369+00:00"
     },
+    "doi:10.1109/dsn-w70714.2026.00050": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Binding Application-Layer Provenance to CPU-rooted Attestation in Confidential VMs via a Kernel-resident Pseudo-CA",
+      "updated_at": "2026-11-03T09:07:11.794665+00:00"
+    },
+    "doi:10.1109/dsn69566.2026.00033": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Exploring Side-Channel Protections in Hardware Implementations of PQC ML-KEM Verification",
+      "updated_at": "2026-11-03T09:07:11.778121+00:00"
+    },
     "doi:10.1109/dttis62212.2024.10780212": {
       "category": "secondaire",
       "decision": "examiner",
@@ -2552,6 +2584,22 @@
       "title": "VMAC: A High-Throughput Vector MAC Extension for Accelerating Edge AI on the Ibex RISC-V Core",
       "updated_at": "2026-11-02T17:51:43.373797+00:00"
     },
+    "doi:10.1109/icarai70085.2026.11635211": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "GDPR-Compliant Pseudonymization Architecture for Multi-Source Healthcare Data: A Hardware-Secured Approach for Disease Registry Construction",
+      "updated_at": "2026-11-03T09:07:33.785383+00:00"
+    },
+    "doi:10.1109/icbase70763.2026.11619494": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "A Hardware Trojan Detection Method for Post-Quantum Cryptography Based on Graph Convolutional Feature Fusion",
+      "updated_at": "2026-11-03T09:07:23.703044+00:00"
+    },
     "doi:10.1109/icc59461.2026.11587746": {
       "category": "coeur",
       "decision": "conserver",
@@ -2679,6 +2727,14 @@
       "status": "rejected",
       "title": "Hardware Implementation of a Secure Pipelined RISC-V Core with Boolean Masking and Efficient Arithmetic Units on FPGA",
       "updated_at": "2026-11-02T18:56:24.090110+00:00"
+    },
+    "doi:10.1109/icdca69396.2026.11620369": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Low-Latency AES Hardware Accelerator with Precomputed Key Expansion Using RISC-V Instructions",
+      "updated_at": "2026-11-03T09:07:33.754214+00:00"
     },
     "doi:10.1109/icdcece68961.2026.11645725": {
       "category": "hors_sujet",
@@ -3072,6 +3128,14 @@
       "title": "InjectV: Modeling Fault Injection Attacks in RISC-V Simulation Environment",
       "updated_at": "2026-11-02T05:14:51.375929+00:00"
     },
+    "doi:10.1109/isaeece70502.2026.11635516": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Hardware Impairment Enabled Resource Allocation for Secure NOMA-ISAC Networks",
+      "updated_at": "2026-11-03T09:07:33.769652+00:00"
+    },
     "doi:10.1109/isca66397.2026.00045": {
       "category": "coeur",
       "decision": "examiner",
@@ -3079,6 +3143,22 @@
       "status": "rejected",
       "title": "Helium: Quantifying Microarchitectural Side-Channel Leakage with Probabilistic Guarantees",
       "updated_at": "2026-11-01T23:14:33.536272+00:00"
+    },
+    "doi:10.1109/isca66397.2026.00154": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Democratizing and Accelerating Hardware Verification with Software-Native Optimization",
+      "updated_at": "2026-11-03T09:07:33.674159+00:00"
+    },
+    "doi:10.1109/isca66397.2026.00156": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "QED: Scalable Consistency Verification of Memory Instruction Reordering in Hardware",
+      "updated_at": "2026-11-03T09:07:33.657588+00:00"
     },
     "doi:10.1109/iscas56072.2025.11043564": {
       "category": "secondaire",
@@ -3544,6 +3624,14 @@
       "title": "Analog Hardware Trojans: An Overlooked Threat",
       "updated_at": "2026-11-02T14:31:22.773529+00:00"
     },
+    "doi:10.1109/mdm71479.2026.00095": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "MEDIATE: Multi-Faceted Implementation of a Mixed Software/Hardware-Based Zero Trust Framework for the Computing Continuum",
+      "updated_at": "2026-11-03T09:07:33.705951+00:00"
+    },
     "doi:10.1109/metms70800.2026.11706215": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -3599,6 +3687,14 @@
       "status": "rejected",
       "title": "Cuzco: A High-Performance RISC-V RVA23-Compatible CPU IP",
       "updated_at": "2026-11-02T21:17:11.396554+00:00"
+    },
+    "doi:10.1109/mocast70204.2026.11626466": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Characterizing Side-Channel Leakage in Pipelined and Parallelized AES Hardware Implementations",
+      "updated_at": "2026-11-03T09:07:33.721759+00:00"
     },
     "doi:10.1109/msec.2026.3698657": {
       "category": "coeur",
@@ -3711,6 +3807,14 @@
       "status": "rejected",
       "title": "DeTRAP: RISC-V Return Address Protection With Debug Triggers",
       "updated_at": "2026-11-02T23:14:03.187155+00:00"
+    },
+    "doi:10.1109/sgsma65955.2026.11618764": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Compromising Synchrophasor Data by Attacking Time Synchronization: A Hardware-Lab Study",
+      "updated_at": "2026-11-03T09:07:33.690032+00:00"
     },
     "doi:10.1109/siu71813.2026.11636375": {
       "category": "hors_sujet",
@@ -4496,6 +4600,30 @@
       "title": "BHARAT-TPM: Micro-Architecture Design of Scalable Hardware Random Number Generator for a RISC-V Trusted Platform Module",
       "updated_at": "2026-11-01T05:13:34.942663+00:00"
     },
+    "doi:10.1109/vlsisata69163.2026.11610186": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Hardware Accelerated Lightweight Rolling Hash Architecture for Secure Data Integrity in RISC-V Systems",
+      "updated_at": "2026-11-03T09:07:23.670785+00:00"
+    },
+    "doi:10.1109/vlsisata69163.2026.11610302": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 59,
+      "status": "rejected",
+      "title": "BHARAT-TPM: Micro-Architecture Design of AXI Enabled AES Hardware Accelerator for RISC-V Trusted Platform Module",
+      "updated_at": "2026-11-03T09:07:23.686915+00:00"
+    },
+    "doi:10.1109/vlsisata69163.2026.11610523": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A Low-Power CNTFET Based Reconfigurable PUF Architecture for Hardware Security Applications",
+      "updated_at": "2026-11-03T09:07:23.654888+00:00"
+    },
     "doi:10.1109/vlsitsa64674.2025.11046852": {
       "category": "secondaire",
       "decision": "examiner",
@@ -5119,6 +5247,22 @@
       "status": "rejected",
       "title": "ANCHOR: A Vision for Secure Persistent Key-Value Stores in Disaggregated Data Centers",
       "updated_at": "2026-11-02T17:58:15.270146+00:00"
+    },
+    "doi:10.1145/3808107": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Exorcist: Enabling Atomic-Level Runtime Detection of Spectre Attacks using Precise Event Based Sampling",
+      "updated_at": "2026-11-03T09:06:50.901945+00:00"
+    },
+    "doi:10.1145/3808122": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Reducing the TCB of SGX-Oriented LibOSes at Runtime",
+      "updated_at": "2026-11-03T09:07:00.526745+00:00"
     },
     "doi:10.1145/3808287": {
       "category": "coeur",
@@ -6600,6 +6744,14 @@
       "title": "Secure transmission in satellite-assisted multiple relay networks under multiple eavesdroppers with hardware impairments",
       "updated_at": "2026-11-03T08:40:22.528857+00:00"
     },
+    "doi:10.23919/mixdes69535.2026.11617244": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "ML-Based Error Mitigation Approach for Overcoming NISQ Hardware Constraints in Fermionic Nanoelectronic Simulations",
+      "updated_at": "2026-11-03T09:07:33.737852+00:00"
+    },
     "doi:10.24425/ijet.2025.155477": {
       "category": "secondaire",
       "decision": "examiner",
@@ -6951,6 +7103,14 @@
       "status": "rejected",
       "title": "Performance and energy characterisation of RISC-V soft-core processors on FPGA under varying pipeline depth and cache configurations",
       "updated_at": "2026-11-02T05:14:51.375936+00:00"
+    },
+    "doi:10.33778/kcsa.2026.26.3.131": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "A Study on Enhancing Policy Enforcement Points (PEP) in Zero Trust Architecture Using Hardware based Cross Domain Solutions (CDS)",
+      "updated_at": "2026-11-03T09:07:23.639283+00:00"
     },
     "doi:10.3389/fcomp.2025.1521059": {
       "category": "secondaire",
@@ -9152,6 +9312,22 @@
       "title": "Assessing Security RISC: Analyzing Flush+Fault Attack on RISC-V Using gem5 Simulator",
       "updated_at": "2026-10-30T09:43:13.621067+00:00"
     },
+    "doi:10.52436/1.jutif.2026.7.3.5541": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Systematic Review of TinyML at the Edge: Optimization, Applications, and Hardware Ecosystem",
+      "updated_at": "2026-11-03T09:07:23.735578+00:00"
+    },
+    "doi:10.52682/jkidt.2026.8.2.014": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Anti-tamper Technology for Weapon Systems Hardware - Focusing on PCB -",
+      "updated_at": "2026-11-03T09:07:23.719706+00:00"
+    },
     "doi:10.5269/bspm.84972": {
       "category": "secondaire",
       "decision": "examiner",
@@ -9432,6 +9608,14 @@
       "title": "Uncovering Transient Execution Vulnerabilities: Catalysts For Exploitation On Modern Processors",
       "updated_at": "2026-11-01T05:15:24.967191+00:00"
     },
+    "doi:10.54654/isj.v1i27.1160": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "DVA-IR: Runtime Integrity Attestation for Secure VNF Operation in NFV",
+      "updated_at": "2026-11-03T09:07:23.621975+00:00"
+    },
     "doi:10.54691/x9v0yt65": {
       "category": "secondaire",
       "decision": "examiner",
@@ -9560,6 +9744,14 @@
       "title": "Design and Analysis of an ADPLL -Enhanced Multi-Ring Oscillator TRNG for High security AES Key Generation",
       "updated_at": "2026-11-01T05:13:25.995944+00:00"
     },
+    "doi:10.57199/jgcr.2026.5.2.191": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "A Comparative Study on International Certification Systems for the Introduction of Performance Grading in Domestic Architectural Hardware : Focusing on Door Opening and Closing Devices",
+      "updated_at": "2026-11-03T09:07:11.758260+00:00"
+    },
     "doi:10.5753/ctd.2025.7408": {
       "category": "secondaire",
       "decision": "examiner",
@@ -9631,6 +9823,14 @@
       "status": "rejected",
       "title": "Sketic-FPGA: A Complete Machine Learning- Based Platform for Hand-Drawn Circuit Recognition and Hardware Implementation",
       "updated_at": "2026-11-03T09:02:01.077390+00:00"
+    },
+    "doi:10.58168/mist2026_1283-1293": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "METHODS FOR FORMING ENERGY-EFFICIENT FEATURE DESCRIPTIONS OF ACOUSTIC-VIBRATION SIGNALS BASED ON HARDWARE PREPROCESSING IN TINY MACHINE LEARNING SYSTEMS",
+      "updated_at": "2026-11-03T09:07:00.543793+00:00"
     },
     "doi:10.58532/nbennurv1b3450s4c3": {
       "category": "hors_sujet",

@@ -1286,6 +1286,46 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex (titre exact)"
   },
+  "doi:10.1145/3808107": {
+    "doi": "https://doi.org/10.1145/3808107",
+    "publication_date": "2026-06-30",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-06-30",
+    "publication_type": "revue",
+    "publication_venue": "Proceedings of the ACM on Software Engineering",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3808107",
+    "summary": "Cet article présente Exorcist, un framework d'exécution pour la détection en temps réel des attaques Spectre-PHT au niveau atomique. En s'appuyant sur la technologie PEBS (Precise Event Based Sampling) d'Intel et sur une analyse de taintons collaborative entre le noyau et l'espace utilisateur, Exorcist capture les événements matériels pour identifier précisément les gadgets Spectre exploités avec une faible baisse de performance et un taux de faux positifs négligeable.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Exorcist: Enabling Atomic-Level Runtime Detection of Spectre Attacks using Precise Event Based Sampling",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3808122": {
+    "doi": "https://doi.org/10.1145/3808122",
+    "publication_date": "2026-06-30",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2026-06-30",
+    "publication_type": "revue",
+    "publication_venue": "Proceedings of the ACM on Software Engineering",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3808122",
+    "summary": "Cet article présente DynaTCB, un framework d'exécution conçu pour réduire dynamiquement la base de confiance (TCB) des systèmes d'exploitation de bibliothèque (LibOS) orientés Intel SGX en fonction du comportement du programme à l'exécution, tout en préservant la fonctionnalité et en évitant les surcoûts liés aux interactions non fiables.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Reducing the TCB of SGX-Oriented LibOSes at Runtime",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3808287": {
     "doi": "https://doi.org/10.1145/3808287",
     "publication_date": "2026-06-08",
