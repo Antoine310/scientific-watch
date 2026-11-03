@@ -1091,6 +1091,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/tvlsi.2026.3656539": {
+    "doi": "https://doi.org/10.1109/tvlsi.2026.3656539",
+    "publication_date": "2026-04-01",
+    "publication_date_note": "Date source Crossref : 2026-04 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2026-04",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "score": 75,
+    "source": "https://doi.org/10.1109/tvlsi.2026.3656539",
+    "summary": "Cet article présente RAEnc, un cadre de compression de métadonnées sans interruption (stall-less) pour garantir l'intégrité des adresses de retour (RAI) sur les processeurs embarqués haute performance. Il utilise une co-conception matériel-logiciel et une primitive cryptographique (MCRAE) avec des instructions RISC-V personnalisées pour éliminer la surface d'attaque mémoire, ainsi qu'une unité de chiffrement/déchiffrement (EDU) optimisée.",
+    "themes": [
+      "T09 — Secure Memory"
+    ],
+    "title": "RAEnc: A Stall-Less Metadata Compression Framework for Return Address Integrity on High-Performance Embedded Processors",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/vlsid68508.2026.00033": {
     "publication_date": "2026-01-03",
     "publication_type": "conference",
