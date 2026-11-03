@@ -80,6 +80,14 @@
       "title": "Fluctuation‐Enhanced True Random Number Generators and Physical Unclonable Functions in a Synaptic Hybrid Ferro‐Ionic Tunnel Diode",
       "updated_at": "2026-10-31T07:10:38.187493+00:00"
     },
+    "doi:10.1002/adma.202406850": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Ferroelectric Stochasticity in 2D CuInP 2 S 6 and Its Application for True Random Number Generator",
+      "updated_at": "2026-11-03T14:14:18.852543+00:00"
+    },
     "doi:10.1002/adma.202419579": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -3336,6 +3344,14 @@
       "title": "RISC-V Based Processor Design for Edge AI Devices",
       "updated_at": "2026-11-03T11:52:01.025829+00:00"
     },
+    "doi:10.1109/iccsc62074.2024.10616834": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "A Hardware Implementation of DICE on a RISC-V Processor",
+      "updated_at": "2026-11-03T14:16:40.880002+00:00"
+    },
     "doi:10.1109/iccsc71566.2026.11650548": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4151,6 +4167,14 @@
       "status": "rejected",
       "title": "Verifying Hardware Resource Isolation Using Mandatory Access Control",
       "updated_at": "2026-11-03T13:40:07.610174+00:00"
+    },
+    "doi:10.1109/isvlsi61997.2024.00041": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "A Fine-Grained Dynamic Partitioning Against Cache-Based Timing Attacks via Cache Locking",
+      "updated_at": "2026-11-03T14:13:57.649403+00:00"
     },
     "doi:10.1109/isvlsi65124.2025.11130308": {
       "category": "secondaire",
@@ -4976,6 +5000,14 @@
       "title": "End-to-end Integration of OpenTitan Security Features in a Pure RISC-V SoC",
       "updated_at": "2026-11-03T11:13:55.980762+00:00"
     },
+    "doi:10.1109/smacd61181.2024.10745416": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Harvesting RTN for True Random Number Generators and Physical Unclonable Functions",
+      "updated_at": "2026-11-03T14:14:18.852572+00:00"
+    },
     "doi:10.1109/smartnets69662.2026.11604860": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -5295,6 +5327,14 @@
       "status": "rejected",
       "title": "Design and Signal Integrity Analysis of Meander Coupled Microstrip Lines With an Embedded Interdigital Structure for FEXT Suppression",
       "updated_at": "2026-11-02T19:17:04.916740+00:00"
+    },
+    "doi:10.1109/tcsi.2024.3421663": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "De-Correlation and De-Bias Post-Processing Circuits for True Random Number Generator",
+      "updated_at": "2026-11-03T14:14:18.852565+00:00"
     },
     "doi:10.1109/tcsi.2025.3621604": {
       "category": "secondaire",
@@ -6096,6 +6136,14 @@
       "title": "Experimental Investigation of In-Plane Thermal Isolation Strategies for 2.5D Silicon-Based Integration Systems",
       "updated_at": "2026-11-03T14:09:08.336550+00:00"
     },
+    "doi:10.1117/12.3032012": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "A keystone extension to defend against cache timing attacks",
+      "updated_at": "2026-11-03T14:16:03.528430+00:00"
+    },
     "doi:10.1117/12.3105529": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -6279,6 +6327,14 @@
       "status": "rejected",
       "title": "The Pomarinho enclave swarm: structural and petrological evidence of repeated quenching, splitting and magmatic erosion at the sidewalls of conduits (Iberian Variscan belt)",
       "updated_at": "2026-11-02T20:16:46.220256+00:00"
+    },
+    "doi:10.1145/3634737.3637644": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 74,
+      "status": "rejected",
+      "title": "Building Your Own Trusted Execution Environments Using FPGA",
+      "updated_at": "2026-11-03T14:16:00.980511+00:00"
     },
     "doi:10.1145/3658617.3697763": {
       "category": "coeur",
@@ -8752,6 +8808,14 @@
       "title": "Data-Driven Energy Modeling of RISC-V Architectures Using Deep Learning",
       "updated_at": "2026-11-02T17:42:12.159991+00:00"
     },
+    "doi:10.23919/ifipnetworking62109.2024.10619852": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Securing 5G: Trusted Execution Environments for Centrally Controlled IPsec Integrity",
+      "updated_at": "2026-11-03T14:15:06.565088+00:00"
+    },
     "doi:10.23919/indiacom70271.2026.11525552": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -9575,6 +9639,14 @@
       "status": "rejected",
       "title": "Spec-LAMP: Robust Spectre Attack Detection Under Web-Based LLM Workload via L1D Miss Pending Event",
       "updated_at": "2026-11-01T05:15:24.293481+00:00"
+    },
+    "doi:10.3390/electronics13132508": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "A Trusted Execution Environment RISC-V System-on-Chip Compatible with Transport Layer Security 1.3",
+      "updated_at": "2026-11-03T14:16:02.211098+00:00"
     },
     "doi:10.3390/electronics13173548": {
       "category": "secondaire",
@@ -12071,6 +12143,14 @@
       "status": "rejected",
       "title": "The Impact of Human Resource Management on Achieving Organizational Excellence: A Field Study at the Social Security Fund, Ajdabiya Branch",
       "updated_at": "2026-11-02T13:41:11.866958+00:00"
+    },
+    "doi:10.53829/ntr202406gls": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Recent Trends in GlobalPlatform: Digital Trust – Evaluation & Certification, Trusted Execution Environment, and Digital Identity –",
+      "updated_at": "2026-11-03T14:16:00.980533+00:00"
     },
     "doi:10.53894/ijirss.v9i6.11718": {
       "category": "hors_sujet",

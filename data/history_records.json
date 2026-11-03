@@ -437,6 +437,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/iccsc62074.2024.10616834": {
+    "doi": "https://doi.org/10.1109/iccsc62074.2024.10616834",
+    "publication_date": "2024-06-28",
+    "publication_type": "conference",
+    "publication_venue": "International Conference on Circuit, Systems and Communication (ICCSC)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/iccsc62074.2024.10616834",
+    "summary": "Cet article propose une implémentation matérielle dédiée du Device Identifier Composition Engine (DICE) sur un processeur RISC-V, intégrant de nouvelles fonctionnalités de sécurité pour répondre aux besoins des appareils IoT contraints en ressources qui ne peuvent pas utiliser de modules TPM complexes.",
+    "themes": [
+      "T02 — DICE & Hardware Identity"
+    ],
+    "title": "A Hardware Implementation of DICE on a RISC-V Processor",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/icdcs68853.2026.11510880": {
     "publication_date": "2026-03-27",
     "publication_type": "conference",
@@ -687,6 +704,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/isvlsi61997.2024.00041": {
+    "doi": "https://doi.org/10.1109/isvlsi61997.2024.00041",
+    "publication_date": "2024-07-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Computer Society Annual Symposium on VLSI",
+    "score": 90,
+    "source": "https://doi.org/10.1109/isvlsi61997.2024.00041",
+    "summary": "Cet article propose une contre-mesure matérielle et logicielle contre les attaques par canal temporel basées sur le cache, utilisant un partitionnement dynamique à grain fin via le verrouillage de cache. En étendant le jeu d'instructions (ISA) RISC-V avec des instructions de verrouillage et de déverrouillage, la solution garantit des accès à temps constant pour contrecarrer des attaques telles que Prime+Probe, tout en maintenant de faibles surcoûts en surface (<3%), en taille de code binaire (<0.3 %) et en taux de défauts de cache (<2%).",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "A Fine-Grained Dynamic Partitioning Against Cache-Based Timing Attacks via Cache Locking",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/jiot.2026.3685841": {
     "publication_date": "2026-07-01",
@@ -1072,6 +1106,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1117/12.3032012": {
+    "doi": "https://doi.org/10.1117/12.3032012",
+    "publication_date": "2024-06-06",
+    "publication_type": "conference",
+    "publication_venue": "International Conference on Computer Network Security and Software Engineering (CNSSE)",
+    "score": 95,
+    "source": "https://doi.org/10.1117/12.3032012",
+    "summary": "Cet article présente une extension pour l'environnement Keystone (TEE RISC-V) appelée Keyson-LLCI, conçue pour contrer les attaques temporelles sur le cache. En isolant les enclaves et les systèmes d'exploitation sur des chemins de cache distincts au niveau du LLC (Last Level Cache), cette solution élimine les canaux cachés. Implémentée sur FPGA, elle démontre une défense efficace avec une perte de performance d'environ 14 %.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "A keystone extension to defend against cache timing attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1145/3658617.3697763": {
     "publication_date": "2025-01-20",
@@ -1730,6 +1781,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.23919/ifipnetworking62109.2024.10619852": {
+    "doi": "https://doi.org/10.23919/ifipnetworking62109.2024.10619852",
+    "publication_date": "2024-06-03",
+    "publication_type": "conference",
+    "publication_venue": "IFIP Networking Conference (IFIP Networking)",
+    "score": 75,
+    "source": "http://dx.doi.org/10.23919/ifipnetworking62109.2024.10619852",
+    "summary": "Cette démonstration présente une méthode novatrice pour sécuriser la communication IoT en utilisant un environnement d'exécution de confiance (TEE) afin d'établir des canaux IPsec sécurisés entre des plateformes x86 et RISC-V, s'appuyant sur une racine de confiance matérielle dédiée.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Securing 5G: Trusted Execution Environments for Centrally Controlled IPsec Integrity",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.26233/heallink.tuc.105404": {
     "publication_date": "2026-02-27",
     "score": 85,
@@ -1887,6 +1955,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.3390/electronics13132508": {
+    "doi": "https://doi.org/10.3390/electronics13132508",
+    "publication_date": "2024-06-26",
+    "publication_type": "revue",
+    "publication_venue": "Electronics",
+    "score": 90,
+    "source": "https://doi.org/10.3390/electronics13132508",
+    "summary": "Cette publication présente une architecture de System-on-Chip (SoC) basée sur RISC-V et compatible TLS 1.3, intégrant un environnement d'exécution de confiance (TEE) et une solution matérielle pour la racine de confiance (Root-of-Trust ou RoT) afin d'assurer un démarrage sécurisé totalement isolé des processeurs TEE.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "A Trusted Execution Environment RISC-V System-on-Chip Compatible with Transport Layer Security 1.3",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.3390/electronics14214171": {
     "publication_date": "2025-10-25",
