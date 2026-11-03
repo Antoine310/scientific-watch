@@ -1,8 +1,8 @@
 {
-  "accepted": 48,
+  "accepted": 51,
   "completed": false,
-  "cursor": "MTc2OTEyNzYzNTAwMCwxMC4xMDE2JTJGai5jb3NlLjIwMjYuMTA0ODM0",
-  "evaluated": 1128,
+  "cursor": "*",
+  "evaluated": 1153,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -71,13 +71,14 @@
     "monthly/2026-05/query-20 : résultat tronqué au plafond 12 pages",
     "monthly/2026-05/query-21 : résultat tronqué au plafond 12 pages",
     "monthly/2026-05/query-22 : résultat tronqué au plafond 12 pages",
-    "monthly/2026-05/query-23 : résultat tronqué au plafond 12 pages"
+    "monthly/2026-05/query-23 : résultat tronqué au plafond 12 pages",
+    "monthly/2026-05/query-24 : résultat tronqué au plafond 12 pages"
   ],
-  "month": "2026-05",
+  "month": "2026-04",
   "needs_publish": false,
-  "offset": 80,
-  "pages_done": 928,
-  "pages_in_query": 2,
+  "offset": 0,
+  "pages_done": 944,
+  "pages_in_query": 0,
   "pending": [],
   "phase": "monthly",
   "prefilter_review": [
@@ -2328,10 +2329,26 @@
       "publication_date": "2026-05-22",
       "source": "crossref",
       "title": "Design And Implementation of a Compact 32-Bit RISC V Core Using Hybrid Adders"
+    },
+    {
+      "doi": "https://doi.org/10.1088/2053-1591/ae615f",
+      "identity": "title:inverseoptimizationmethodandexperimentalverificationofparametersofhightemperatureconstitutivemodelforsa765griialloysteel",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-05-15",
+      "source": "crossref",
+      "title": "Inverse optimization method and experimental verification of parameters of high-temperature constitutive model for SA765-Gr.II alloy steel"
+    },
+    {
+      "doi": "",
+      "identity": "title:enclawedaconfigurablesectorneutralhardeningframeworkforsingleuseraiassistantgateways",
+      "motif": "pas de lien technique suffisant",
+      "publication_date": "2026-04-18",
+      "source": "arxiv",
+      "title": "enclawed: A Configurable, Sector-Neutral Hardening Framework for Single-User AI Assistant Gateways"
     }
   ],
-  "query_index": 24,
-  "secondary": 51,
-  "skipped": 1105,
+  "query_index": 6,
+  "secondary": 53,
+  "skipped": 1125,
   "version": 1
 }

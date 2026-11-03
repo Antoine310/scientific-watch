@@ -2883,6 +2883,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:partialnumbertheoretictransformmaskinginpostquantumcryptographypqchardwareasecuritymarginanalysis": {
+    "doi": "",
+    "publication_date": "2026-04-04",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2604.03813v3",
+    "summary": "Cette étude analyse la sécurité d'un accélérateur matériel pour les schémas post-quantiques ML-DSA et ML-KEM conçu pour la racine de confiance Caliptra. L'accélérateur utilise un masquage partiel d'une couche INTT combiné à du brassage (shuffling). Les auteurs évaluent les revendications de sécurité par analyse RTL, tests TVLA, et attaques par propagation de croyance (BP), révélant des failles dans les marges de sécurité annoncées et quantifiant l'impact du masquage partiel.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Partial Number Theoretic Transform Masking in Post-Quantum Cryptography (PQC) Hardware: A Security Margin Analysis",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:prototypingcustomhardwareperformancecountersingem5simulatoraframeworkforriscvsidechannelattackassessment": {
     "publication_date": "2025-06-30",
     "score": 85,
@@ -3036,6 +3056,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:tesserasecurenearlinerateweightstreamingforumaedgeaccelerators": {
+    "doi": "",
+    "publication_date": "2026-04-25",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2604.23205v1",
+    "summary": "Tessera est une architecture de référence pour le déchiffrement en ligne et à la granularité d'une ligne de cache des poids de réseaux de neurones, conçue pour les accélérateurs de périphériques (edge) à architecture de mémoire unifiée (UMA). Elle intercepte les requêtes AXI pour calculer des flux AES-256-CTR en parallèle des accès DRAM, permettant de diffuser les poids en clair directement dans la SRAM isolée de l'NPU avec un impact minime sur la bande passante.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Tessera: Secure, Near-Line-Rate Weight Streaming for UMA Edge Accelerators",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:towardsreliableandsecureriscvsystemssurveyoftestabilityandsecuritymechanisms": {
     "publication_date": "2026-06-24",
     "score": 75,
@@ -3045,6 +3085,26 @@
       "T08 — Cache & Temporal Isolation"
     ],
     "title": "Towards Reliable and Secure RISC-V Systems: Survey of Testability and Security Mechanisms"
+  },
+  "title:treestealerstealingdecisiontreesviaenclavesidechannels": {
+    "doi": "",
+    "publication_date": "2026-04-20",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 88,
+    "source": "http://arxiv.org/abs/2604.18716v1",
+    "summary": "Cet article présente TrEEStealer, une attaque par canal auxiliaire visant à extraire des arbres de décision (DT) protégés par des environnements d'exécution de confiance (TEE). En combinant des informations de flux de contrôle (CFI) et un suivi passif, l'attaque surpasse les méthodes par boîte noire existantes en termes d'efficacité et de fidélité, tout en contournant les protections matérielles des TEE (comme AMD SEV et Intel SGX).",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "TrEEStealer: Stealing Decision Trees via Enclave Side Channels",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:yavinaunifiedarchitectureforsecureedgeprocessinginmemory": {
     "publication_date": "2026-08-13",
