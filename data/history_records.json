@@ -528,6 +528,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/iccd65941.2025.00052": {
+    "doi": "https://doi.org/10.1109/iccd65941.2025.00052",
+    "publication_date": "2025-11-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-11-10",
+    "publication_type": "conference",
+    "publication_venue": "2025 IEEE 43rd International Conference on Computer Design (ICCD)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/iccd65941.2025.00052",
+    "summary": "Cet article présente DASICS, un système léger et efficace de compartimentation en cours de processus assisté par matériel, conçu pour réduire la surface d'attaque à faible coût. L'approche partitionne le code en compartiments de confiance et non de confiance, utilise des registres de délimitation pour le contrôle d'accès dynamique et intègre une protection des métadonnées, des contrôles de flux et un filtrage des appels système. Un prototype matériel a été implémenté sur un processeur RISC-V XiangShan et validé sur FPGA avec un surcoût modéré.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "DASICS: Efficient In-Process Protection with Hardware-Assisted Dynamic Compartmentalization",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/iccsc62074.2024.10616834": {
     "doi": "https://doi.org/10.1109/iccsc62074.2024.10616834",
     "publication_date": "2024-06-28",
