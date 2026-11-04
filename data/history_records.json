@@ -1388,6 +1388,46 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/tvlsi.2025.3579484": {
+    "doi": "https://doi.org/10.1109/tvlsi.2025.3579484",
+    "publication_date": "2025-10-01",
+    "publication_date_note": "Date source Crossref : 2025-10 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2025-10",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "score": 75,
+    "source": "https://doi.org/10.1109/tvlsi.2025.3579484",
+    "summary": "Cet article présente une co-conception matériel/système d'exploitation sécurisée par défaut visant à fournir un substrat pour l'informatique de confiance dans les appareils numériques. L'approche utilise une architecture en tuiles intégrant des unités de communication de confiance (TCU) dédiées pour l'isolation, minimisant la surface d'attaque. L'implémentation sur une puce de recherche en silicium appelée Masur23 démontre la faisabilité et des surcoûts minimes en latence, surface et consommation.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "A Secure-by-Design Hardware/Operating System as a Substrate for Trustworthy Computing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/tvlsi.2025.3586902": {
+    "doi": "https://doi.org/10.1109/tvlsi.2025.3586902",
+    "publication_date": "2025-10-01",
+    "publication_date_note": "Date source Crossref : 2025-10 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2025-10",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "score": 75,
+    "source": "https://doi.org/10.1109/tvlsi.2025.3586902",
+    "summary": "Cet article présente un ensemble d'outils de co-conception matériel/logiciel (HW/SW) pour RISC-V, permettant de générer automatiquement à partir d'une description unique de nouvelles instructions personnalisées à la fois le matériel (coprocesseurs interfacés via CV-X-IF et RoCC) et le compilateur cible. L'approche est évaluée sur les cœurs CVA6 et Rocket, démontrant des réductions de temps d'exécution et des surcoûts de surface.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Automatically Retargeting Hardware and Code Generation for RISC-V Custom Instructions",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tvlsi.2026.3656539": {
     "doi": "https://doi.org/10.1109/tvlsi.2026.3656539",
     "publication_date": "2026-04-01",
@@ -3410,6 +3450,46 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Future-proofing Trusted Execution Environments Against the Emerging Threats of Speculative Execution"
+  },
+  "title:addendumsystematicevaluationofrandomizedcachedesignsagainstcacheoccupancy": {
+    "doi": "",
+    "publication_date": "2025-10-19",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2510.16871v1",
+    "summary": "Cet addendum discute d'une évaluation systématique des conceptions de caches aléatoires face à l'occupation des caches, en complément d'un article principal publié à USENIX Security 2025. Il aborde notamment le rôle de la taille du cache L1d et une version corrigée de MIRAGE empêchant la fuite de clés AES.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Addendum: Systematic Evaluation of Randomized Cache Designs against Cache Occupancy",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:aexnstepprobabilisticinterruptcountingattacksonintelsgx": {
+    "doi": "",
+    "publication_date": "2025-10-16",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 88,
+    "source": "http://arxiv.org/abs/2510.14675v1",
+    "summary": "Cette publication analyse les limitations de la contre-mesure AEX-Notify introduite par Intel sur SGX pour contrer les attaques par interruption. Les auteurs démontrent que le pas-à-pas déterministe n'est pas nécessaire pour mener des attaques par comptage d'interruptions et présentent l'attaque AEX-NStep, contournant les garanties de sécurité d'AEX-Notify.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "AEX-NStep: Probabilistic Interrupt Counting Attacks on Intel SGX",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:amdsevsnpaconfidentialcomputingprimer": {
     "publication_date": "2026-08-03",
