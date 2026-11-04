@@ -1,8 +1,8 @@
 {
   "accepted": 103,
   "completed": false,
-  "cursor": "MTc0ODM3NjI2MjAwMCwxMC4xMDE2JTJGai5uYW50b2QuMjAyNS4xMDI4MTc=",
-  "evaluated": 2141,
+  "cursor": "MTc2MDU5OTc3ODAwMCwxMC4zMzkwJTJGY2hpcHM0MDQwMDQz",
+  "evaluated": 2148,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -147,74 +147,16 @@
     "monthly/2025-10/query-17 : résultat tronqué au plafond 12 pages",
     "monthly/2025-10/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2025-10/query-19 : résultat tronqué au plafond 12 pages",
-    "monthly/2025-10/query-20 : résultat tronqué au plafond 12 pages"
+    "monthly/2025-10/query-20 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-10/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-10/query-22 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2025-10",
   "needs_publish": false,
-  "offset": 120,
-  "pages_done": 1985,
-  "pages_in_query": 3,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Scott M. Smith"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Abha Kumari"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Joseph P. Marvar"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Nna-Emeka Onukwugha"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Yoon-Tae Kang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Sunitha Nagrath"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1016/j.bios.2025.117560",
-        "id": "https://doi.org/10.1016/j.bios.2025.117560",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1016/j.bios.2025.117560"
-        },
-        "publication_date": "2025-10-01",
-        "publication_date_note": "Date source Crossref : 2025-10 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2025-10",
-        "publication_type": "revue",
-        "publication_venue": "Biosensors and Bioelectronics",
-        "title": "Stellate silicon microneedles for rapid point-of-care melanoma exosome isolation and detection via a lateral flow assay",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T08 — Cache & Temporal Isolation"
-      ]
-    }
-  ],
+  "offset": 160,
+  "pages_done": 2010,
+  "pages_in_query": 4,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2618,9 +2560,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 532,
-  "query_index": 21,
+  "prefilter_review_overflow": 545,
+  "query_index": 23,
   "secondary": 113,
-  "skipped": 2102,
+  "skipped": 2145,
   "version": 1
 }
