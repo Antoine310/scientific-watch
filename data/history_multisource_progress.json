@@ -1,8 +1,8 @@
 {
-  "accepted": 105,
+  "accepted": 107,
   "completed": false,
-  "cursor": "*",
-  "evaluated": 2173,
+  "cursor": "MTc1NDkwNTQzMDAwMCwxMC4xMDE2JTJGai5pamh5ZGVuZS4yMDI1LjE1MDgzNw==",
+  "evaluated": 2198,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -155,525 +155,57 @@
   ],
   "month": "2025-09",
   "needs_publish": false,
-  "offset": 0,
-  "pages_done": 2034,
-  "pages_in_query": 0,
+  "offset": 440,
+  "pages_done": 2054,
+  "pages_in_query": 11,
   "pending": [
     {
       "paper": {
-        "abstract_inverted_index": {
-          "(MCU)": [
-            129
-          ],
-          "(PLCs),": [
-            163
-          ],
-          "(RTOS).": [
-            152
-          ],
-          "102": [
-            144
-          ],
-          "260": [
-            177
-          ],
-          "ARM,": [
-            131
-          ],
-          "Existing": [
-            0
-          ],
-          "In": [
-            135
-          ],
-          "MCU": [
-            178
-          ],
-          "RISC-V,": [
-            132
-          ],
-          "StackPatch": [
-            75,
-            85,
-            121,
-            140,
-            168
-          ],
-          "StackPatch's": [
-            109
-          ],
-          "Those": [
-            30
-          ],
-          "To": [
-            64
-          ],
-          "We": [
-            97,
-            119,
-            153
-          ],
-          "Xtensa.": [
-            134
-          ],
-          "a": [
-            70
-          ],
-          "across": [
-            57,
-            111
-          ],
-          "adaptability": [
-            110
-          ],
-          "address": [
-            65
-          ],
-          "and": [
-            24,
-            40,
-            61,
-            133,
-            164
-          ],
-          "applied": [
-            154
-          ],
-          "architectures": [
-            43,
-            114
-          ],
-          "architectures:": [
-            130
-          ],
-          "are": [
-            5,
-            55
-          ],
-          "as": [
-            15,
-            18
-          ],
-          "available": [
-            103
-          ],
-          "based": [
-            80
-          ],
-          "but": [
-            26
-          ],
-          "called": [
-            74
-          ],
-          "challenges,": [
-            67
-          ],
-          "clock": [
-            179
-          ],
-          "commonly": [
-            102
-          ],
-          "compatible": [
-            56
-          ],
-          "completing": [
-            170
-          ],
-          "complicate": [
-            48
-          ],
-          "computational": [
-            22
-          ],
-          "consistently": [
-            169
-          ],
-          "control": [
-            116
-          ],
-          "controllers": [
-            162
-          ],
-          "creation": [
-            50
-          ],
-          "cycles.": [
-            180
-          ],
-          "development": [
-            79
-          ],
-          "devices": [
-            31,
-            124
-          ],
-          "devices,": [
-            10,
-            158
-          ],
-          "different": [
-            87,
-            112
-          ],
-          "disclosed": [
-            146
-          ],
-          "diverse": [
-            42
-          ],
-          "dynamic": [
-            1,
-            38
-          ],
-          "each": [
-            171
-          ],
-          "embedded": [
-            9,
-            45,
-            105,
-            123
-          ],
-          "enhance": [
-            108
-          ],
-          "equipment,": [
-            17
-          ],
-          "especially": [
-            11
-          ],
-          "evaluated": [
-            120
-          ],
-          "exception-handling": [
-            100
-          ],
-          "experiments,": [
-            137
-          ],
-          "facilitates": [
-            77
-          ],
-          "featuring": [
-            125
-          ],
-          "fix": [
-            143
-          ],
-          "flow": [
-            117
-          ],
-          "for": [
-            8,
-            37,
-            115
-          ],
-          "frame": [
-            83
-          ],
-          "framework": [
-            73
-          ],
-          "further": [
-            47
-          ],
-          "hardware": [
-            62
-          ],
-          "have": [
-            20
-          ],
-          "hot": [
-            71
-          ],
-          "idle": [
-            35
-          ],
-          "in": [
-            94,
-            104,
-            148,
-            174
-          ],
-          "introduces": [
-            86
-          ],
-          "kernels": [
-            60
-          ],
-          "lack": [
-            33
-          ],
-          "less": [
-            175
-          ],
-          "leverage": [
-            98
-          ],
-          "limited": [
-            21
-          ],
-          "logic": [
-            161
-          ],
-          "major": [
-            127
-          ],
-          "mechanisms": [
-            101
-          ],
-          "medical": [
-            16,
-            157
-          ],
-          "memory": [
-            25,
-            36,
-            95
-          ],
-          "microcontroller": [
-            128
-          ],
-          "mission-critical": [
-            12
-          ],
-          "network": [
-            165
-          ],
-          "not": [
-            6
-          ],
-          "of": [
-            44,
-            51
-          ],
-          "often": [
-            32
-          ],
-          "on": [
-            81,
-            122
-          ],
-          "ones": [
-            13
-          ],
-          "operating": [
-            150
-          ],
-          "patch": [
-            52,
-            78
-          ],
-          "patching": [
-            3,
-            72,
-            155
-          ],
-          "patching,": [
-            39
-          ],
-          "platforms.": [
-            63
-          ],
-          "power": [
-            23
-          ],
-          "processor": [
-            113
-          ],
-          "processors": [
-            106
-          ],
-          "programmable": [
-            160
-          ],
-          "programs": [
-            92
-          ],
-          "propose": [
-            69
-          ],
-          "publicly": [
-            145
-          ],
-          "real-time": [
-            149
-          ],
-          "reconstruction.": [
-            84
-          ],
-          "redirection.": [
-            118
-          ],
-          "remediation": [
-            173
-          ],
-          "requirements.": [
-            29
-          ],
-          "service": [
-            28
-          ],
-          "services,": [
-            166
-          ],
-          "soft": [
-            159
-          ],
-          "stack": [
-            82
-          ],
-          "stored": [
-            93
-          ],
-          "strategies": [
-            89
-          ],
-          "successfully": [
-            142
-          ],
-          "such": [
-            14
-          ],
-          "sufficient": [
-            34
-          ],
-          "system": [
-            59
-          ],
-          "systems": [
-            46,
-            151
-          ],
-          "techniques": [
-            4
-          ],
-          "than": [
-            176
-          ],
-          "that": [
-            54,
-            76
-          ],
-          "the": [
-            41,
-            49,
-            99,
-            136
-          ],
-          "these": [
-            66
-          ],
-          "they": [
-            19
-          ],
-          "three": [
-            126
-          ],
-          "to": [
-            90,
-            107,
-            141,
-            156
-          ],
-          "triggering": [
-            88
-          ],
-          "triggers": [
-            53
-          ],
-          "uninterrupted": [
-            27
-          ],
-          "units.": [
-            96
-          ],
-          "update": [
-            91
-          ],
-          "used": [
-            139
-          ],
-          "various": [
-            58
-          ],
-          "vulnerabilities": [
-            147
-          ],
-          "vulnerability": [
-            2,
-            172
-          ],
-          "we": [
-            68,
-            138
-          ],
-          "well-suited": [
-            7
-          ],
-          "with": [
-            167
-          ]
-        },
+        "abstract_inverted_index": {},
         "authorships": [
           {
             "author": {
-              "display_name": "Ming Zhou"
+              "display_name": "Quentin Jayet"
             }
           },
           {
             "author": {
-              "display_name": "Xupu Hu"
+              "display_name": "Christine Hennebert"
             }
           },
           {
             "author": {
-              "display_name": "Zhihao Wang"
+              "display_name": "Yann Kieffer"
             }
           },
           {
             "author": {
-              "display_name": "Haining Wang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Hui Wen"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Limin Sun"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Peng Zhang"
+              "display_name": "Vincent Beroulle"
             }
           }
         ],
-        "doi": "https://doi.org/10.1145/3719027.3765200",
-        "id": "http://arxiv.org/abs/2509.10213v1",
+        "doi": "https://doi.org/10.1016/j.micpro.2025.105185",
+        "id": "https://doi.org/10.1016/j.micpro.2025.105185",
         "primary_location": {
-          "landing_page_url": "http://arxiv.org/abs/2509.10213v1"
+          "landing_page_url": "https://doi.org/10.1016/j.micpro.2025.105185"
         },
-        "publication_date": "2025-09-12",
-        "publication_type": "prepublication",
-        "publication_venue": "",
-        "title": "Dynamic Vulnerability Patching for Heterogeneous Embedded Systems Using Stack Frame Reconstruction",
+        "publication_date": "2025-09-01",
+        "publication_date_note": "Date source Crossref : 2025-09 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2025-09",
+        "publication_type": "revue",
+        "publication_venue": "Microprocessors and Microsystems",
+        "title": "Detecting time drifts for securing Proof of Hardware Time in blockchain",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
-        "venue_provenance": "arXiv"
+        "venue_provenance": "Crossref"
       },
       "sources": [
-        "arXiv"
+        "Crossref"
       ],
       "themes": [
-        "T03 — RISC-V TEE & Enclaves"
+        "T01 — Root of Trust & Secure Boot"
       ]
     }
   ],
@@ -3080,9 +2612,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 570,
-  "query_index": 4,
-  "secondary": 113,
-  "skipped": 2208,
+  "prefilter_review_overflow": 575,
+  "query_index": 13,
+  "secondary": 116,
+  "skipped": 2211,
   "version": 1
 }

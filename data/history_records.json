@@ -1166,6 +1166,26 @@
     "venue_priority": 2,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/sp54263.2024.00261": {
+    "doi": "https://doi.org/10.1109/SP54263.2024.00261",
+    "publication_date": "2025-09-23",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "2024 IEEE Symposium on Security and Privacy (SP)",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2509.18909v1",
+    "summary": "Cet article présente Obelix, un outil logiciel d'obfuscation dynamique conçu pour protéger les environnements d'exécution de confiance (TEEs) contre un large spectre d'attaques par canaux auxiliaires, incluant les attaques cache, le pas-à-pas (single-stepping) et les canaux auxiliaires sur les chiffrés. L'outil divise les programmes en blocs de code uniformes et utilise de la mémoire oblivieuse (ORAM) pour masquer les accès aux données et l'exécution, offrant ainsi des garanties de sécurité fortes au détriment des performances.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Obelix: Mitigating Side-Channels Through Dynamic Obfuscation",
+    "venue_landmark": "IEEE S&P",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/sp61157.2025.00220": {
     "publication_date": "2025-05-12",
     "publication_type": "conference",
@@ -4366,6 +4386,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "SCHERI: Provably Secure Speculation Under the Constant-Time Policy for CHERI (Extended Version)",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:securingcryptographicsoftwareviatypedassemblylanguageextendedversion": {
+    "doi": "",
+    "publication_date": "2025-09-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2509.08727v1",
+    "summary": "Cet article présente SecSep, un cadre de transformation de code assembleur pour sécuriser les logiciels cryptographiques contre les attaques par exécution spéculative (type Spectre). En s'appuyant sur un langage d'assemblage typé novateur nommé Octal, l'approche partitionne les données secrètes et publiques sur la pile (stack) grâce à une inférence à la compilation, atteignant un surcoût moyen de performance de seulement 1,2 %.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Securing Cryptographic Software via Typed Assembly Language (Extended Version)",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
