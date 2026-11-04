@@ -4827,5 +4827,25 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "arXiv"
+  },
+  "title:yetanothermirageofbreakingmiragedebunkingoccupancybasedsidechannelattacksonfullyassociativerandomizedcaches": {
+    "doi": "",
+    "publication_date": "2025-08-14",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2508.10431v3",
+    "summary": "Cette publication analyse et réfute une attaque par canal auxiliaire basée sur l'occupation prétendument réalisée contre le cache randomisé MIRAGE. Les auteurs démontrent que la vulnérabilité signalée précédemment provient d'une erreur de modélisation, spécifiquement l'utilisation d'une graine constante pour le générateur de nombres aléatoires, ce qui rendait les séquences d'éviction déterministes. En randomisant correctement la graine, l'attaque échoue, prouvant que MIRAGE reste sécurisé.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Yet Another Mirage of Breaking MIRAGE: Debunking Occupancy-based Side-Channel Attacks on Fully Associative Randomized Caches",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   }
 }
