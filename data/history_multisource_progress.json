@@ -1,8 +1,8 @@
 {
   "accepted": 101,
   "completed": false,
-  "cursor": "MTc2MDcyMTU5NjAwMCwxMC4xMTQ1JTJGMzcyNTg0My4zNzU2MTA4",
-  "evaluated": 2097,
+  "cursor": "MTc2MzY2Mzk3NDAwMCwxMC4xMTA5JTJGaWNjYWQ2NjI2OS4yMDI1LjExMjQxMDA5",
+  "evaluated": 2122,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -147,9 +147,9 @@
   ],
   "month": "2025-10",
   "needs_publish": false,
-  "offset": 200,
-  "pages_done": 1939,
-  "pages_in_query": 5,
+  "offset": 400,
+  "pages_done": 1944,
+  "pages_in_query": 10,
   "pending": [
     {
       "paper": {
@@ -157,57 +157,42 @@
         "authorships": [
           {
             "author": {
-              "display_name": "Clemens Fritzsch"
+              "display_name": "Yunxiang Zhang"
             }
           },
           {
             "author": {
-              "display_name": "Wakiya Schulz"
+              "display_name": "Sabbir Ahmed"
             }
           },
           {
             "author": {
-              "display_name": "Tobias Rosenkranz"
+              "display_name": "Abeer Matar A Almalky"
             }
           },
           {
             "author": {
-              "display_name": "Pascal Ahr"
+              "display_name": "Adnan Siraj Rakin"
             }
           },
           {
             "author": {
-              "display_name": "Antonio Saavedra"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Lars Renkes"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Christoph Lipps"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Joern Hoffmann"
+              "display_name": "Wenfeng Zhao"
             }
           }
         ],
-        "doi": "https://doi.org/10.1145/3768725.3768731",
-        "id": "https://doi.org/10.1145/3768725.3768731",
+        "doi": "https://doi.org/10.1109/iccad66269.2025.11240849",
+        "id": "https://doi.org/10.1109/iccad66269.2025.11240849",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1145/3768725.3768731"
+          "landing_page_url": "https://doi.org/10.1109/iccad66269.2025.11240849"
         },
-        "publication_date": "2025-10-18",
+        "publication_date": "2025-10-26",
         "publication_date_note": "",
         "publication_date_precision": "day",
-        "publication_date_source": "2025-10-18",
+        "publication_date_source": "2025-10-26",
         "publication_type": "conference",
-        "publication_venue": "HASP '25: Hardware and Architectural Support for Security and Privacy 2025",
-        "title": "SRAM-based PUF Implementation and Bias Patterns on AMD Xilinx UltraScale+ FPGAs",
+        "publication_venue": "2025 IEEE/ACM International Conference On Computer Aided Design (ICCAD)",
+        "title": "Non-Negative AdderNet: Algorithm-Hardware Co-design for Lightweight Defense of Adversarial Bit-Flip Attacks",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -2624,9 +2609,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 520,
+  "prefilter_review_overflow": 531,
   "query_index": 17,
-  "secondary": 111,
+  "secondary": 112,
   "skipped": 2090,
   "version": 1
 }
