@@ -100,6 +100,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1007/s13389-025-00381-9": {
+    "doi": "https://doi.org/10.1007/s13389-025-00381-9",
+    "publication_date": "2025-09-22",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-09-22",
+    "publication_type": "revue",
+    "publication_venue": "Journal of Cryptographic Engineering",
+    "score": 90,
+    "source": "https://doi.org/10.1007/s13389-025-00381-9",
+    "summary": "Cet article présente une architecture à moteur unique pour une racine de confiance matérielle (Hardware Root of Trust ou RoT) adaptée aux microcontrôleurs aux ressources limitées. En utilisant un algorithme basé sur la fonction éponge (Ascon) couplé à une fonction physiquement unclonable (PUF) pour l'aléa, la solution fournit des services de sécurité complets (chiffrement authentifié, hachage, signatures, MAC). Intégrée dans un SoC RISC-V et implémentée sur FPGA et ASIC (SkyWater 130nm), elle démontre un surcoût surfacique très faible et des gains de ressources significatifs par rapport à l'état de l'art.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Single engine architecture for hardware root of trust",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1016/j.iot.2026.101885": {
     "publication_date": "2026-02-03",
     "publication_type": "revue",
@@ -3616,6 +3636,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Uncovering Transient Execution Vulnerabilities: Catalysts For Exploitation On Modern Processors"
+  },
+  "doi:10.5753/sbseg_estendido.2025.11653": {
+    "doi": "https://doi.org/10.5753/sbseg_estendido.2025.11653",
+    "publication_date": "2025-09-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-09-01",
+    "publication_type": "conference",
+    "publication_venue": "Anais Estendidos do Simpósio Brasileiro de Cibersegurança",
+    "score": 85,
+    "source": "https://doi.org/10.5753/sbseg_estendido.2025.11653",
+    "summary": "Ce travail présente la conception, l'implémentation et l'exécution du standard Security Protocol and Data Model (SPDM) sur un FPGA. L'objectif est de contrer les attaques de type manipulation de firmware et accès non autorisé au niveau du barramento en utilisant une approche matérielle pour l'atestation mútua de composants et l'établissement de canaux sécurisés.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Proteção em hardware com Security Protocol and Data Model",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.60096/fundacionavanza/16072026": {
     "doi": "https://doi.org/10.60096/fundacionavanza/16072026",
