@@ -1368,6 +1368,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/trustcom66490.2025.00382": {
+    "doi": "https://doi.org/10.1109/trustcom66490.2025.00382",
+    "publication_date": "2025-11-14",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-11-14",
+    "publication_type": "conference",
+    "publication_venue": "2025 IEEE 24th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/trustcom66490.2025.00382",
+    "summary": "Cet article présente NanoSafe, une architecture de processeur RISC-V RV64IMAZicsr_Zifencei légère et conçue en interne, visant à renforcer la sécurité des données au niveau matériel dans les systèmes embarqués à ressources contraintes. En intégrant un sous-ensemble d'interruptions et d'exceptions, un processus de gestion dédié et un schéma de priorité personnalisé, l'architecture réalise des mécanismes de sécurité essentiels bloquant les accès mémoire hors limites, l'exécution d'instructions illégales et l'élévation de privilèges.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "Enhancing Data Security in RISC-V Embedded Systems: A Lightweight Architecture",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tvlsi.2026.3656539": {
     "doi": "https://doi.org/10.1109/tvlsi.2026.3656539",
     "publication_date": "2026-04-01",
@@ -3970,6 +3990,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:proofofclouddatacenterexecutionassuranceforconfidentialvms": {
+    "doi": "",
+    "publication_date": "2025-10-14",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 82,
+    "source": "http://arxiv.org/abs/2510.12469v2",
+    "summary": "Cet article présente Data Center Execution Assurance (DCEA), une conception générant une preuve cryptographique de l'infrastructure cloud (\"Proof of Cloud\") en liant l'attestation de machines virtuelles confidentielles (CVM) à des preuves matérielles TPM au niveau de la plateforme. L'objectif est de garantir que l'exécution a lieu sur un matériel situé dans un centre de données de confiance, prévenant ainsi les attaques par proxy et les attaques par relais avancées.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Proof of Cloud: Data Center Execution Assurance for Confidential VMs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:prototypingcustomhardwareperformancecountersingem5simulatoraframeworkforriscvsidechannelattackassessment": {
     "publication_date": "2025-06-30",
     "score": 85,
@@ -4080,6 +4120,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Securing Filesystems for Confidential Computing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:shufflevamicroarchitecturaldefensestrategyagainstelectromagneticsidechannelattacksinmicroprocessors": {
+    "doi": "",
+    "publication_date": "2025-10-15",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2510.13111v1",
+    "summary": "Cet article présente ShuffleV, une stratégie de défense microarchitecturale contre les attaques par canal auxiliaire électromagnétique (EM SCA) dans les microprocesseurs. Basée sur le concept de défense à cible mobile (MTD), elle réordonne aléatoirement l'exécution des instructions et insère optionnellement des instructions factices pour perturber l'observation statistique. Les auteurs l'implémentent sur un cœur RISC-V open-source et sur FPGA Xilinx PYNQ-Z2.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "ShuffleV: A Microarchitectural Defense Strategy against Electromagnetic Side-Channel Attacks in Microprocessors",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
