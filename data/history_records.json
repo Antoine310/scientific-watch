@@ -4284,6 +4284,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:reinforcingsecurelivemigrationthroughverifiablestatemanagement": {
+    "doi": "",
+    "publication_date": "2025-09-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2509.05150v1",
+    "summary": "Cet article présente TALOS, un framework léger conçu pour la gestion vérifiable des états et la migration sécurisée d'applications de confiance (Trusted Applications, TA) entre environnements d'exécution de confiance (TEEs). L'approche vise à garantir la préservation de l'état, l'intégrité, la prévention des attaques de rejeu et de retour en arrière, ainsi que l'interdiction du clonage non autorisé, sans s'appuyer sur un tiers de confiance.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Reinforcing Secure Live Migration through Verifiable State Management",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:remotetimerasaserviceefficientmicroarchitecturalleakageinthecloudwithremotetimers": {
     "publication_date": "2026-08-17",
     "publication_date_note": "",
@@ -4533,6 +4553,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "TrEEStealer: Stealing Decision Trees via Enclave Side Channels",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:trustcheckpointstimebetraysmalwareforunconditionalsoftwarerootoftrust": {
+    "doi": "",
+    "publication_date": "2025-09-26",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2509.22762v1",
+    "summary": "TRUSTCHECKPOINTS est un système établissant une racine de confiance logicielle inconditionnelle (software Root of Trust) sans nécessiter de matériel sécurisé ni de clés secrètes. Le mécanisme repose sur des points de contrôle système complets, des retours en arrière (rollbacks) et des défis temporels basés sur des polynômes k-indépendants randomisés évaluant la mémoire SRAM rapide. Toute persistance de code malveillant force des transferts vers une mémoire externe plus lente, générant un délai mesurable par un vérificateur externe.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "TRUSTCHECKPOINTS: Time Betrays Malware for Unconditional Software Root of Trust",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
