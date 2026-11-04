@@ -1348,6 +1348,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/tps-isa67132.2025.00028": {
+    "doi": "https://doi.org/10.1109/tps-isa67132.2025.00028",
+    "publication_date": "2025-11-12",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-11-12",
+    "publication_type": "conference",
+    "publication_venue": "2025 IEEE 7th International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications (TPS-ISA)",
+    "score": 88,
+    "source": "https://doi.org/10.1109/tps-isa67132.2025.00028",
+    "summary": "Cet article présente CoDICE, un cadre d'attestation complet qui intègre le format CoRIM (Concise Reference Integrity Manifest) du Trusted Computing Group avec l'architecture DICE (Device Identifier Composition Engine) stratifiée. Il vise à sécuriser le manifeste du micrologiciel, un fichier critique pour les mises à jour et l'attestation, souvent vulnérable et non standardisé. CoDICE transforme les manifests spécifiques aux fournisseurs en structures validées en CDDL pour assurer intégrité, sécurité à l'exécution, confidentialité et interopérabilité, notamment dans les environnements contraints.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "CoDICE: Roll the DICE for Firmware Attestation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tvlsi.2026.3656539": {
     "doi": "https://doi.org/10.1109/tvlsi.2026.3656539",
     "publication_date": "2026-04-01",
