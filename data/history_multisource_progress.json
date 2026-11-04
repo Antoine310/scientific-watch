@@ -1,8 +1,8 @@
 {
   "accepted": 118,
   "completed": false,
-  "cursor": "MTc2MDExNzcwNTAwMCwxMC4xMTA5JTJGbm1pdGNvbjY1ODI0LjIwMjUuMTExODgzNTY=",
-  "evaluated": 2411,
+  "cursor": "MTc1MDkxNDA3MTAwMCwxMC4xMTYxJTJGY2lyY3Jlc2FoYS4xMjUuMzI2NjMx",
+  "evaluated": 2434,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -167,98 +167,15 @@
     "monthly/2025-08/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2025-08/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2025-08/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2025-08/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2025-08/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-08/query-18 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2025-08",
   "needs_publish": false,
-  "offset": 240,
-  "pages_done": 2254,
-  "pages_in_query": 6,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Calvin Deutschbein"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jimmy Ostler"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Hriday Raj"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/acdsa65407.2025.11165916",
-        "id": "https://doi.org/10.1109/acdsa65407.2025.11165916",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/acdsa65407.2025.11165916"
-        },
-        "publication_date": "2025-08-07",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-08-07",
-        "publication_type": "conference",
-        "publication_venue": "2025 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA)",
-        "title": "\"vcd2df\" - Leveraging Data Science Insights for Hardware Security Research",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Lokesh B S"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Narasimha Kaulgud"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/nmitcon65824.2025.11188356",
-        "id": "https://doi.org/10.1109/nmitcon65824.2025.11188356",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/nmitcon65824.2025.11188356"
-        },
-        "publication_date": "2025-08-01",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-08-01",
-        "publication_type": "conference",
-        "publication_venue": "2025 Third International Conference on Networks, Multimedia and Information Technology (NMITCON)",
-        "title": "Integrating Post-Quantum Cryptography in Transport Layer Security 1.3 for Iot: a Performance Analysis on Resource-Constrained Hardware",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    }
-  ],
+  "offset": 400,
+  "pages_done": 2279,
+  "pages_in_query": 10,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2663,8 +2580,8 @@
     }
   ],
   "prefilter_review_overflow": 690,
-  "query_index": 17,
-  "secondary": 131,
-  "skipped": 2379,
+  "query_index": 19,
+  "secondary": 133,
+  "skipped": 2381,
   "version": 1
 }
