@@ -1,8 +1,8 @@
 {
   "accepted": 114,
   "completed": false,
-  "cursor": "MTc1Mjc5MzcyNDAwMCwxMC4xMDE2JTJGai50cmFucG9sLjIwMjUuMDcuMDE3",
-  "evaluated": 2295,
+  "cursor": "MTc2NTI5ODAyNzAwMCwxMC4xMTQ1JTJGMzc0Mjg3Mi4zNzU3MDcz",
+  "evaluated": 2320,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -159,14 +159,236 @@
     "monthly/2025-09/query-17 : résultat tronqué au plafond 12 pages",
     "monthly/2025-09/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2025-09/query-19 : résultat tronqué au plafond 12 pages",
-    "monthly/2025-09/query-20 : résultat tronqué au plafond 12 pages"
+    "monthly/2025-09/query-20 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-09/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-09/query-22 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2025-09",
   "needs_publish": false,
-  "offset": 440,
-  "pages_done": 2150,
-  "pages_in_query": 11,
-  "pending": [],
+  "offset": 400,
+  "pages_done": 2173,
+  "pages_in_query": 10,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Sandeep Dhariwal"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Rajesh S"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Greeshya B B"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Abhishek Mallappa Palled"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/ccpis65231.2025.11234209",
+        "id": "https://doi.org/10.1109/ccpis65231.2025.11234209",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/ccpis65231.2025.11234209"
+        },
+        "publication_date": "2025-09-05",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-09-05",
+        "publication_type": "conference",
+        "publication_venue": "2025 2nd International Conference on Circuits, Power and Intelligent Systems (CCPIS)",
+        "title": "FPGA-Driven Power Analysis Detecting Trojan Threat in RISC-V Processor",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [],
+        "doi": "https://doi.org/10.21956/openreseurope.21575.r59769",
+        "id": "https://doi.org/10.21956/openreseurope.21575.r59769",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.21956/openreseurope.21575.r59769"
+        },
+        "publication_date": "2025-09-23",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-09-23",
+        "publication_type": "inconnu",
+        "publication_venue": "",
+        "title": "Review: Co-designing ab initio electronic structure methods on a RISC-V vector architecture (Round4/Review1)",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Edurne Primicia"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Alejandro Arteaga"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sara Alonso"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Leire Muguira"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Armando Astarloa"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/ieacon64690.2025.11253153",
+        "id": "https://doi.org/10.1109/ieacon64690.2025.11253153",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/ieacon64690.2025.11253153"
+        },
+        "publication_date": "2025-09-08",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-09-08",
+        "publication_type": "conference",
+        "publication_venue": "2025 IEEE Industrial Electronics and Applications Conference (IEACon)",
+        "title": "Applying the NIST Statistical Test Suite to a TRNG of an Open-Source RISC-V Sub-System for PQC-Aware Industrial SoCs",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Mustafa Ensar Iskin"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Berna Ors Yalcin"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ayse Yılmazer"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/iceee67194.2025.11261941",
+        "id": "https://doi.org/10.1109/iceee67194.2025.11261941",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/iceee67194.2025.11261941"
+        },
+        "publication_date": "2025-09-24",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-09-24",
+        "publication_type": "conference",
+        "publication_venue": "2025 12th International Conference on Electrical and Electronics Engineering (ICEEE)",
+        "title": "Exploring Fault-Tolerance in RISC-V Architectures",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Atakan Beyen"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sezer Memiş"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ramazan Yeniçeri"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/iceee67194.2025.11262005",
+        "id": "https://doi.org/10.1109/iceee67194.2025.11262005",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/iceee67194.2025.11262005"
+        },
+        "publication_date": "2025-09-24",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-09-24",
+        "publication_type": "conference",
+        "publication_venue": "2025 12th International Conference on Electrical and Electronics Engineering (ICEEE)",
+        "title": "Design and Verification of A Single-Cycle RISC-V Core Using MATLAB Simulink",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2570,9 +2792,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 621,
-  "query_index": 21,
-  "secondary": 125,
-  "skipped": 2246,
+  "prefilter_review_overflow": 651,
+  "query_index": 23,
+  "secondary": 126,
+  "skipped": 2331,
   "version": 1
 }
