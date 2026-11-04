@@ -176,6 +176,14 @@
       "title": "Quantized Analog Inference Hardware Enabled by MoS 2– Hf 1‐x Zr x O 2 FeFET Synapses",
       "updated_at": "2026-11-02T15:14:58.928574+00:00"
     },
+    "doi:10.1002/aelm.202400072": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Controllable Electrical Properties of ZrO2/BiFeO3 Bilayer Memristor from Synaptic Mimic to TRNG Circuit Application by Modulating Compliance Currents",
+      "updated_at": "2026-11-04T08:16:22.248562+00:00"
+    },
     "doi:10.1002/aelm.202500635": {
       "category": "secondaire",
       "decision": "examiner",
@@ -1503,6 +1511,14 @@
       "status": "rejected",
       "title": "Physical design of a 32-bit RISC-V based microprocessor: A proof of concept for chaotic systems implementation",
       "updated_at": "2026-11-03T08:42:34.461346+00:00"
+    },
+    "doi:10.1016/j.cose.2024.103905": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "MAG-PUFs: Authenticating IoT devices via electromagnetic physical unclonable functions and deep learning",
+      "updated_at": "2026-11-04T08:16:11.795248+00:00"
     },
     "doi:10.1016/j.cose.2024.104072": {
       "category": "secondaire",
@@ -3856,6 +3872,14 @@
       "title": "Design and Implementation of a 32-bit RISC-V Processor with Sparse MAC, Accumulator, and Activation Support for AI Acceleration",
       "updated_at": "2026-11-03T09:52:16.551597+00:00"
     },
+    "doi:10.1109/crystalfreeiot62484.2024.00009": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Single-Chip Motes and SRAM PUF: Feasibility Study",
+      "updated_at": "2026-11-04T08:16:22.248568+00:00"
+    },
     "doi:10.1109/cscwd68734.2026.11582105": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4271,6 +4295,30 @@
       "status": "rejected",
       "title": "PU-QKD: Enhancing Authentication of Quantum Key Distribution via Physical Unclonable Function",
       "updated_at": "2026-10-31T23:13:41.003756+00:00"
+    },
+    "doi:10.1109/host55342.2024.10545348": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 82,
+      "status": "imported",
+      "title": "LightFAt: Mitigating Control-Flow Explosion via Lightweight PMU-Based Control-Flow Attestation",
+      "updated_at": "2026-11-04T08:13:52.969473+00:00"
+    },
+    "doi:10.1109/host55342.2024.10545376": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "TrustZoneTunnel: A Cross-World Pattern History Table-Based Microarchitectural Side-Channel Attack",
+      "updated_at": "2026-11-04T08:14:34.962020+00:00"
+    },
+    "doi:10.1109/host55342.2024.10545398": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Data-Oblivious ML Accelerators Using Hardware Security Extensions",
+      "updated_at": "2026-11-04T08:15:33.601308+00:00"
     },
     "doi:10.1109/host64725.2025.11050041": {
       "category": "transfert_explicite",
@@ -6728,6 +6776,14 @@
       "title": "DeTRAP: RISC-V Return Address Protection With Debug Triggers",
       "updated_at": "2026-11-02T23:14:03.187155+00:00"
     },
+    "doi:10.1109/seed61283.2024.00015": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "INTERFACE: An Indirect, Partitioned, Random, Fully-Associative Cache to Avoid Shared Last-Level Cache Attacks",
+      "updated_at": "2026-11-04T08:15:53.561885+00:00"
+    },
     "doi:10.1109/sgsma65955.2026.11618764": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -6847,6 +6903,30 @@
       "status": "rejected",
       "title": "Hybrid RISC-V Coprocessor Architecture for Convolutional Neural-Network Inferencing",
       "updated_at": "2026-11-03T17:53:51.164174+00:00"
+    },
+    "doi:10.1109/sp54263.2024.00048": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Serberus: Protecting Cryptographic Code from Spectres at Compile-Time",
+      "updated_at": "2026-11-04T08:15:15.557287+00:00"
+    },
+    "doi:10.1109/sp54263.2024.00062": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "BUSted!!! Microarchitectural Side-Channel Attacks on the MCU Bus Interconnect",
+      "updated_at": "2026-11-04T08:14:33.644826+00:00"
+    },
+    "doi:10.1109/sp54263.2024.00251": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "One for All and All for One: GNN-based Control-Flow Attestation for Embedded Devices",
+      "updated_at": "2026-11-04T08:13:33.749192+00:00"
     },
     "doi:10.1109/sp61157.2025.00104": {
       "category": "transfert_explicite",
@@ -7216,6 +7296,14 @@
       "title": "Design and Signal Integrity Analysis of Meander Coupled Microstrip Lines With an Embedded Interdigital Structure for FEXT Suppression",
       "updated_at": "2026-11-02T19:17:04.916740+00:00"
     },
+    "doi:10.1109/tcsi.2024.3396916": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Exploiting Body-Driven Feedbacks in Physical Unclonable Functions for Ultra Low Voltage, Ultra Low Power Applications: A 0.3 V Weak-PUF",
+      "updated_at": "2026-11-04T08:16:22.248573+00:00"
+    },
     "doi:10.1109/tcsi.2024.3421663": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -7543,6 +7631,14 @@
       "status": "imported",
       "title": "Machine Learning-Based Detection of Microarchitectural Attacks on RISC-V via Gem5",
       "updated_at": "2026-10-31T17:14:04.794128+00:00"
+    },
+    "doi:10.1109/ted.2024.3399170": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Novel Postprocessing and Sampling Point Optimization Techniques for Enhancing Quality of Randomness in MTJ-Based TRNGs",
+      "updated_at": "2026-11-04T08:16:22.248543+00:00"
     },
     "doi:10.1109/ted.2024.3454588": {
       "category": "secondaire",
@@ -8240,6 +8336,14 @@
       "title": "A Low-Power CNTFET Based Reconfigurable PUF Architecture for Hardware Security Applications",
       "updated_at": "2026-11-03T09:07:23.654888+00:00"
     },
+    "doi:10.1109/vlsitsa60681.2024.10546432": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "U-MRAM PUF: A Novel Unipolar-MRAM for Power and Area Efficient Hardware Root of Trust",
+      "updated_at": "2026-11-04T08:16:31.733068+00:00"
+    },
     "doi:10.1109/vlsitsa64674.2025.11046852": {
       "category": "secondaire",
       "decision": "examiner",
@@ -8568,6 +8672,14 @@
       "title": "Building Your Own Trusted Execution Environments Using FPGA",
       "updated_at": "2026-11-03T14:16:00.980511+00:00"
     },
+    "doi:10.1145/3637543.3652872": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Implementation and integration of NTT/INTT accelerator on RISC-V for CRYSTALS-Kyber",
+      "updated_at": "2026-11-04T08:16:02.715145+00:00"
+    },
     "doi:10.1145/3649153.3649213": {
       "category": "coeur",
       "decision": "conserver",
@@ -8607,6 +8719,14 @@
       "status": "imported",
       "title": "Specification and Verification of Strong Timing Isolation of Hardware Enclaves",
       "updated_at": "2026-11-02T17:14:02.909178+00:00"
+    },
+    "doi:10.1145/3663673": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "Lightweight Hardware-Based Cache Side-Channel Attack Detection for Edge Devices (Edge-CaSCADe)",
+      "updated_at": "2026-11-04T08:15:17.349394+00:00"
     },
     "doi:10.1145/3669940.3707243": {
       "category": "transfert_explicite",
@@ -10248,6 +10368,14 @@
       "title": "SECURE BOOT AND FIRMWARE PROTECTION IN AUTOMOTIVE SEMICONDUCTORS: A REVIEW OF CURRENT APPROACHES",
       "updated_at": "2026-10-31T11:14:11.291447+00:00"
     },
+    "doi:10.12794/metadc2332527": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "A Study of Mitigation Methods for Speculative Cache Side Channel Attacks",
+      "updated_at": "2026-11-04T08:15:18.961747+00:00"
+    },
     "doi:10.1287/isre.2024.1471": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -10383,6 +10511,14 @@
       "status": "rejected",
       "title": "Partitioned Cache Aware Dynamic Scheduling for Real-Time Applications on Multicore Processors",
       "updated_at": "2026-10-30T10:41:41.670988+00:00"
+    },
+    "doi:10.14445/22315381/ijett-v72i5p102": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Blockchain-Enabled Key Generation Using Physical Unclonable Function for IoT Security",
+      "updated_at": "2026-11-04T08:16:11.795227+00:00"
     },
     "doi:10.14445/23488549/ijece-v13i9p101": {
       "category": "secondaire",
@@ -14855,6 +14991,14 @@
       "status": "rejected",
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
+    },
+    "doi:10.48550/arxiv.2405.03217": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "PCG: Mitigating Conflict-based Cache Side-channel Attacks with Prefetching",
+      "updated_at": "2026-11-04T08:14:36.307663+00:00"
     },
     "doi:10.48550/arxiv.2407.03745": {
       "category": "secondaire_technique",

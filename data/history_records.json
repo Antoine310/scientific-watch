@@ -408,6 +408,57 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/host55342.2024.10545348": {
+    "doi": "https://doi.org/10.1109/host55342.2024.10545348",
+    "publication_date": "2024-05-06",
+    "publication_type": "conference",
+    "publication_venue": "IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+    "score": 82,
+    "source": "https://doi.org/10.1109/host55342.2024.10545348",
+    "summary": "Cet article présente LightFAt, un schéma d'attestation de flux de contrôle léger qui utilise les lectures de l'unité de surveillance des performances (PMU) du processeur et un classifieur d'apprentissage automatique non supervisé pour détecter les compromissions, évitant ainsi les calculs de hachage cryptographique lourds.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "LightFAt: Mitigating Control-Flow Explosion via Lightweight PMU-Based Control-Flow Attestation",
+    "venue_landmark": "IEEE HOST",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/host55342.2024.10545376": {
+    "doi": "https://doi.org/10.1109/host55342.2024.10545376",
+    "publication_date": "2024-05-06",
+    "publication_type": "conference",
+    "publication_venue": "IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/host55342.2024.10545376",
+    "summary": "Cet article présente TrustZoneTunnel, une attaque par canal auxiliaire microarchitectural basée sur la table d'historique des motifs (PHT) ciblant ARM TrustZone. L'attaque permet de révéler le flux de contrôle complet d'une application de confiance dans le monde sécurisé et introduit une attaque par extraction de modèle contre un réseau de neurones profond sans nécessiter les sorties ou logits du modèle.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "TrustZoneTunnel: A Cross-World Pattern History Table-Based Microarchitectural Side-Channel Attack",
+    "venue_landmark": "IEEE HOST",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/host55342.2024.10545398": {
+    "doi": "https://doi.org/10.1109/host55342.2024.10545398",
+    "publication_date": "2024-05-06",
+    "publication_type": "conference",
+    "publication_venue": "IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+    "score": 75,
+    "source": "http://dx.doi.org/10.1109/host55342.2024.10545398",
+    "summary": "Cet article présente Dolma, une solution appliquant le suivi dynamique du flux d'information (DIFT) à l'accélérateur de multiplication matricielle Gemmini. Combiné avec les extensions CPU BliMe, le système garantit efficacement la confidentialité des données client, y compris face à des logiciels malveillants ou vulnérables et à des attaques par canal auxiliaire sur les serveurs.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Data-Oblivious ML Accelerators Using Hardware Security Extensions",
+    "venue_landmark": "IEEE HOST",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/icc59461.2026.11587746": {
     "publication_date": "2026-05-24",
     "publication_type": "conference",
@@ -933,6 +984,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/seed61283.2024.00015": {
+    "doi": "https://doi.org/10.1109/seed61283.2024.00015",
+    "publication_date": "2024-05-16",
+    "publication_type": "conference",
+    "publication_venue": "International Symposium on Secure and Private Execution Environment Design (SEED)",
+    "score": 88,
+    "source": "https://doi.org/10.1109/seed61283.2024.00015",
+    "summary": "Cet article présente INTERFACE, une conception de cache de dernier niveau (LLC) indirect, partitionné, aléatoire et entièrement associatif, visant à éliminer les attaques par canal auxiliaire et par occupation sur le cache partagé, tout en réduisant les surcoûts par rapport aux travaux antérieurs.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "INTERFACE: An Indirect, Partitioned, Random, Fully-Associative Cache to Avoid Shared Last-Level Cache Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/siu61531.2024.10600837": {
     "doi": "https://doi.org/10.1109/siu61531.2024.10600837",
     "publication_date": "2024-05-15",
@@ -965,6 +1033,57 @@
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/sp54263.2024.00048": {
+    "doi": "https://doi.org/10.1109/sp54263.2024.00048",
+    "publication_date": "2024-05-19",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Symposium on Security and Privacy (S&P)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/sp54263.2024.00048",
+    "summary": "Serberus est une méthode de compilation conçue pour protéger le code cryptographique à temps constant (CT) contre les attaques Spectre (utilisant les primitives PHT, BTB, RSB, STL ou PSF) sur le matériel existant. Elle s'appuie sur l'exploitation des protections CFI matérielles, la correction de motifs de code non sécurisés dans le paradigme CT, et l'identification de quatre classes de primitives de taintrage. Évaluée sur OpenSSL, Libsodium et Hacl*, elle génère un surcoût d'exécution moyen de 21,3 %.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Serberus: Protecting Cryptographic Code from Spectres at Compile-Time",
+    "venue_landmark": "IEEE S&P",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/sp54263.2024.00062": {
+    "doi": "https://doi.org/10.1109/sp54263.2024.00062",
+    "publication_date": "2024-05-19",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Symposium on Security and Privacy (S&P)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/sp54263.2024.00062",
+    "summary": "Cet article présente BUSted, une attaque par canal auxiliaire inédite exploitant la logique d'arbitrage de l'interconnexion de bus des microcontrôleurs (MCU) pour contourner les protections mémoire, testée sur des architectures Armv8-M avec TrustZone-M.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "BUSted!!! Microarchitectural Side-Channel Attacks on the MCU Bus Interconnect",
+    "venue_landmark": "IEEE S&P",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/sp54263.2024.00251": {
+    "doi": "https://doi.org/10.1109/sp54263.2024.00251",
+    "publication_date": "2024-05-19",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Symposium on Security and Privacy (S&P)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/sp54263.2024.00251",
+    "summary": "Cet article présente RAGE, une approche légère d'attestation de flux de contrôle (CFA) basée sur des réseaux de neurones sur graphes (GNN) non supervisés pour les systèmes embarqués. RAGE extrait des caractéristiques d'une trace d'exécution et exploite la correspondance entre trace, graphe et plongements pour identifier les attaques par réutilisation de code (CRA), telles que ROP et DOP, sans nécessiter de graphe de flux de contrôle complet (CFG) ni de matériel sur mesure.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "One for All and All for One: GNN-based Control-Flow Attestation for Embedded Devices",
+    "venue_landmark": "IEEE S&P",
+    "venue_note": "",
+    "venue_priority": 2,
     "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/sp61157.2025.00220": {
@@ -1307,6 +1426,23 @@
     "venue_note": "",
     "venue_priority": 2,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3663673": {
+    "doi": "https://doi.org/10.1145/3663673",
+    "publication_date": "2024-05-11",
+    "publication_type": "revue",
+    "publication_venue": "ACM Transactions on Embedded Computing Systems",
+    "score": 95,
+    "source": "https://doi.org/10.1145/3663673",
+    "summary": "Cet article présente Edge-CaSCADe, un module matériel léger et paramétrable de détection fine des attaques par canal auxiliaire sur le cache (CSCA) destiné aux appareils en périphérie (edge devices). L'approche repose sur une stratégie de type « atténuation uniquement en cas de détection » pour minimiser la surcharge de performance et les faux positifs. Évalué sur un processeur RISC-V avec des chiffrements (RSA, AES, ECC) et des benchmarks, le module atteint plus de 98% de précision de détection au début des attaques, avec des surcharges de surface et de puissance minimes (inférieures à 2.1%) et aucun impact sur la fréquence maximale.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Lightweight Hardware-Based Cache Side-Channel Attack Detection for Edge Devices (Edge-CaSCADe)",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1145/3676642.3736125": {
     "publication_date": "2025-08-06",
@@ -1791,6 +1927,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.12794/metadc2332527": {
+    "doi": "https://doi.org/10.12794/metadc2332527",
+    "publication_date": "2024-05-01",
+    "publication_type": "inconnu",
+    "publication_venue": "",
+    "score": 88,
+    "source": "https://doi.org/10.12794/metadc2332527",
+    "summary": "Cette étude analyse des méthodes d'atténuation contre les attaques par canal auxiliaire sur le cache, notamment Spectre. Elle présente de nouvelles approches comme CHASM, GuardCache et SecurityCloak pour réduire les fuites d'informations tout en préservant les performances, en combinant obfuscation et activation ciblée lors de l'exécution de sections critiques.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "A Study of Mitigation Methods for Speculative Cache Side Channel Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.14722/ndss.2025.230253": {
     "publication_date": "2025-01-01",
@@ -2628,6 +2781,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2405.03217": {
+    "doi": "https://doi.org/10.48550/arxiv.2405.03217",
+    "publication_date": "2024-05-06",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 88,
+    "source": "http://arxiv.org/abs/2405.03217",
+    "summary": "Cet article présente PCG, une nouvelle technique basée sur le préchargement (prefetching) pour atténuer les attaques par canal auxiliaire sur le cache basées sur les conflits. PCG combine l'ajout de modifications d'occupation du cache non pertinentes pour la victime et la réduction des modifications pertinentes afin de perturber les attaquants. L'évaluation sur gem5 et le cœur RISC-V BOOMv3 montre une sécurité robuste, une amélioration moyenne des performances de 1,64 % et un surcoût matériel de 1,26 %.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "PCG: Mitigating Conflict-based Cache Side-channel Attacks with Prefetching",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2408.16220": {
     "doi": "https://doi.org/10.48550/arxiv.2408.16220",
