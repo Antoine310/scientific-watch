@@ -1,8 +1,8 @@
 {
   "accepted": 107,
   "completed": false,
-  "cursor": "MTc1NDkwNTQzMDAwMCwxMC4xMDE2JTJGai5pamh5ZGVuZS4yMDI1LjE1MDgzNw==",
-  "evaluated": 2198,
+  "cursor": "*",
+  "evaluated": 2217,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -151,64 +151,17 @@
     "monthly/2025-10/query-21 : résultat tronqué au plafond 12 pages",
     "monthly/2025-10/query-22 : résultat tronqué au plafond 12 pages",
     "monthly/2025-10/query-23 : résultat tronqué au plafond 12 pages",
-    "monthly/2025-10/query-24 : résultat tronqué au plafond 12 pages"
+    "monthly/2025-10/query-24 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-09/query-13 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-09/query-14 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-09/query-15 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2025-09",
   "needs_publish": false,
-  "offset": 440,
-  "pages_done": 2054,
-  "pages_in_query": 11,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Quentin Jayet"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Christine Hennebert"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Yann Kieffer"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Vincent Beroulle"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1016/j.micpro.2025.105185",
-        "id": "https://doi.org/10.1016/j.micpro.2025.105185",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1016/j.micpro.2025.105185"
-        },
-        "publication_date": "2025-09-01",
-        "publication_date_note": "Date source Crossref : 2025-09 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2025-09",
-        "publication_type": "revue",
-        "publication_venue": "Microprocessors and Microsystems",
-        "title": "Detecting time drifts for securing Proof of Hardware Time in blockchain",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T01 — Root of Trust & Secure Boot"
-      ]
-    }
-  ],
+  "offset": 0,
+  "pages_done": 2079,
+  "pages_in_query": 0,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2612,9 +2565,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 575,
-  "query_index": 13,
-  "secondary": 116,
-  "skipped": 2211,
+  "prefilter_review_overflow": 580,
+  "query_index": 16,
+  "secondary": 118,
+  "skipped": 2223,
   "version": 1
 }
