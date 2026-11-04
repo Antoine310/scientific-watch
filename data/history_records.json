@@ -2478,6 +2478,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.3390/electronics14203973": {
+    "doi": "https://doi.org/10.3390/electronics14203973",
+    "publication_date": "2025-10-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-10-10",
+    "publication_type": "revue",
+    "publication_venue": "Electronics",
+    "score": 90,
+    "source": "https://doi.org/10.3390/electronics14203973",
+    "summary": "TrackRISC est un cadre proposant un modèle de flux d'attaque implicite affiné et une microarchitecture de mitigation (TrackRISC-Defense) pour contrer les canaux cachés basés sur le cache et l'exécution spéculative. Évalué sur un cœur RISC-V supersacalaire (SonicBOOM) sur FPGA VCU118, il atténue les canaux explicites et implicites avec un surcoût de performance de 19,4% et un surcoût en registres matériels de 0,4%.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "TrackRISC: An Implicit Attack Flow Model and Hardware Microarchitectural Mitigation for Speculative Cache-Based Covert Channels",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.3390/electronics14214171": {
     "publication_date": "2025-10-25",
     "publication_type": "revue",
