@@ -1965,6 +1965,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3748258": {
+    "doi": "https://doi.org/10.1145/3748258",
+    "publication_date": "2025-08-12",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-08-12",
+    "publication_type": "revue",
+    "publication_venue": "ACM Transactions on Design Automation of Electronic Systems",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3748258",
+    "summary": "Cette publication présente Resister, une architecture d'interposeur résilient conçue pour atténuer les attaques par canal auxiliaire temporel (TSA) basées sur la contention du réseau dans les systèmes à puces multiples (chiplets) hétérogènes. En intégrant un défenseur matériel dans chaque routeur pour détecter les schémas malveillants à l'exécution et détourner les paquets de manière adaptative, l'architecture protège le système tout en maintenant les performances.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Resister: A Resilient Interposer Architecture for Chiplet to Mitigate Timing Side-Channel Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3757347.3759137": {
     "doi": "https://doi.org/10.1145/3757347.3759137",
     "publication_date": "2025-09-08",
