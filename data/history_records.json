@@ -1780,6 +1780,26 @@
     "venue_priority": 2,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3708821.3733887": {
+    "doi": "https://doi.org/10.1145/3708821.3733887",
+    "publication_date": "2025-08-24",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-08-24",
+    "publication_type": "conference",
+    "publication_venue": "ASIA CCS '25: 20th ACM Asia Conference on Computer and Communications Security",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3708821.3733887",
+    "summary": "Cet article présente Monocle, une approche fondamentale de génération de code à l'exécution qui atténue les attaques par exécution spéculative in-process en se basant sur l'isolation logicielle des fautes (SFI) validée au niveau du code machine pour couvrir tous les gadgets Spectre connus, avec une surcharge moyenne de 20%.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Monocle: Transient Execution Proof Memory Views for Runtime Compiled Code",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3719027.3744833": {
     "publication_date": "2025-11-19",
     "publication_type": "conference",
@@ -2255,6 +2275,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "RISC-V hardware attack detection using on-chip hardware performance counters",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1201/9781003510949-11": {
+    "doi": "https://doi.org/10.1201/9781003510949-11",
+    "publication_date": "2025-08-19",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-08-19",
+    "publication_type": "inconnu",
+    "publication_venue": "Advances in Hardware Design for Security and Trust",
+    "score": 90,
+    "source": "https://doi.org/10.1201/9781003510949-11",
+    "summary": "Ce chapitre examine la sécurité de l'environnement d'exécution de confiance (TEE) TrustZone d'ARM face à la confidentialité, démontrant sa vulnérabilité aux attaques par canal auxiliaire microarchitecturales exploitant des ressources partagées telles que les caches et les unités de prédiction de branches (BPU). Il introduit TrustZoneTunnel, une attaque ciblant la table d'historique des motifs (PHT) pour fuiter le flux de contrôle d'applications sécurisées.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Is ARM's TrustZone Trustable for Confidentiality Protection?",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
