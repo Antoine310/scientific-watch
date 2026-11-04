@@ -264,6 +264,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/comcomap68359.2025.11353166": {
+    "doi": "https://doi.org/10.1109/comcomap68359.2025.11353166",
+    "publication_date": "2025-12-14",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-12-14",
+    "publication_type": "conference",
+    "publication_venue": "2025 Computing, Communications and IoT Applications (ComComAp)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/comcomap68359.2025.11353166",
+    "summary": "Cette étude évalue l'attaque GhostRace sur l'architecture RISC-V. GhostRace exploite l'exécution spéculative pour contourner les primitives de synchronisation et créer des conditions de course spéculatives divulguant des données. Les auteurs démontrent des contournements réussis sur une carte BeagleV-Fire et le simulateur gem5, valident une atténuation par sérialisation d'instructions et analysent le comportement microarchitectural.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "Bypass Synchronization Primitives: GhostRace Attack and Mitigation on RISC-V",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/csr64739.2025.11130017": {
     "publication_date": "2025-08-04",
     "publication_type": "conference",
@@ -3466,6 +3486,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:coverageguidedpresiliconfuzzingofopensourceprocessorsbasedonleakagecontracts": {
+    "doi": "",
+    "publication_date": "2025-11-11",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2511.08443v2",
+    "summary": "Cet article présente une approche innovante de fuzzing guidé par la couverture et basé sur des contrats de fuite matériel-logiciel pour vérifier la sécurité contre les canaux auxiliaires (type Spectre) dans les processeurs modernes. L'approche utilise l'auto-composition pour rendre les fuites observables sous forme de divergence d'état microarchitectural, guidée par une métrique de couverture spécifique nommée Self-Composition Deviation (SCD). L'évaluation a été menée sur deux cœurs RISC-V open-source (Rocket Core et BOOM).",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Coverage-Guided Pre-Silicon Fuzzing of Open-Source Processors based on Leakage Contracts",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:cryptriscasecureriscvprocessorforhighperformancecryptographywithpowersidechannelprotection": {
     "doi": "",
     "publication_date": "2026-02-23",
@@ -3865,6 +3905,26 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "PDRIMA: A Policy-Driven Runtime Integrity Measurement and Attestation Approach for ARM TrustZone-based TEE",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:precacheamicroarchitecturalsolutiontopreventmeltdownandspectre": {
+    "doi": "",
+    "publication_date": "2025-11-21",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2511.17726v1",
+    "summary": "Cet article présente une solution microarchitecturale nommée Pre-cache pour contrer les attaques Meltdown et Spectre. En empêchant les instructions invalidées d'exposer des données dans le cache et en s'étendant à d'autres structures mémoire, cette approche restaure une exécution spéculative et hors-désordre sécurisée avec un faible impact sur les performances, tout en identifiant deux nouveaux variants d'attaques.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Pre-cache: A Microarchitectural Solution to prevent Meltdown and Spectre",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
