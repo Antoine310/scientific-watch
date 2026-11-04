@@ -48,6 +48,14 @@
       "title": "All‐Solid‐State Electrolyte‐Gated Synaptic Transistor Array for Deep Learning Hardware Accelerators",
       "updated_at": "2026-11-04T15:26:28.238133+00:00"
     },
+    "doi:10.1002/adfm.202516930": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Low‐Power Optoelectronic Hybrid Perovskite‐Based Memristor for Ternary Hardware Security Monitoring",
+      "updated_at": "2026-11-04T18:50:11.078216+00:00"
+    },
     "doi:10.1002/adfm.202522597": {
       "category": "secondaire",
       "decision": "examiner",
@@ -279,6 +287,14 @@
       "status": "rejected",
       "title": "A Lightweight and High‐Throughput True Random Number Generator Based on Hybrid Entropy Source",
       "updated_at": "2026-10-30T14:13:50.303572+00:00"
+    },
+    "doi:10.1002/cta.70114": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "An Optimized Hardware Implementation of ASCON With Power Analysis Attack Resistance",
+      "updated_at": "2026-11-04T18:50:21.432019+00:00"
     },
     "doi:10.1002/cta.70556": {
       "category": "hors_sujet",
@@ -2871,6 +2887,14 @@
       "status": "rejected",
       "title": "Safety and security priorities of smart embedded devices in a technology enterprise",
       "updated_at": "2026-11-02T18:05:14.050874+00:00"
+    },
+    "doi:10.1016/j.rineng.2025.106962": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "NC-ROLL-FIA: Negative capacitance FET based designs for robust logic locking against fault injection attacks enabling trustworthy hardware for edge AI devices",
+      "updated_at": "2026-11-04T18:49:34.840833+00:00"
     },
     "doi:10.1016/j.sbsr.2025.100876": {
       "category": "hors_sujet",
@@ -7096,6 +7120,14 @@
       "title": "A Unified Approach to Strong PUF and TRNG Using Ring Generator for Cryptography",
       "updated_at": "2026-10-30T23:13:24.479813+00:00"
     },
+    "doi:10.1109/jiot.2025.3583269": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 62,
+      "status": "rejected",
+      "title": "PISA: PUF-Based IoT Swarm Attestation Protocol",
+      "updated_at": "2026-11-04T18:49:22.205756+00:00"
+    },
     "doi:10.1109/jiot.2025.3585643": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -11288,6 +11320,14 @@
       "title": "Firmware Secure Updates Meet Formal Verification",
       "updated_at": "2026-11-03T18:29:28.510729+00:00"
     },
+    "doi:10.1145/3757347.3759137": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Adaptive and Efficient Dynamic Memory Management for Hardware Enclaves",
+      "updated_at": "2026-11-04T18:50:11.049812+00:00"
+    },
     "doi:10.1145/3758100": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -11327,6 +11367,22 @@
       "status": "rejected",
       "title": "SecuPilot: A Security Coprocessor-Integrated Platform for Autonomous UAV Security",
       "updated_at": "2026-11-04T18:28:21.961535+00:00"
+    },
+    "doi:10.1145/3762646": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 92,
+      "status": "imported",
+      "title": "DynHaMo: Dynamic Hardware-Based Monitoring Dedicated to Attacks Detection",
+      "updated_at": "2026-11-04T18:50:00.888598+00:00"
+    },
+    "doi:10.1145/3762654": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "MERE: Hardware-Software Co-Design for Masking Cache Miss Latency in Embedded Processors",
+      "updated_at": "2026-11-04T18:49:34.867832+00:00"
     },
     "doi:10.1145/3763788": {
       "category": "secondaire",
@@ -15952,6 +16008,14 @@
       "title": "Secure Federated Intrusion Detection for Resource-Constrained IoT Devices Using Lightweight Cryptography: A Hardware-Validated Study",
       "updated_at": "2026-11-03T08:56:34.586640+00:00"
     },
+    "doi:10.3390/hardware3030010": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Design and Modeling of a Scaled Drone Prototype for Validation of Reusable Rocket Control Strategies",
+      "updated_at": "2026-11-04T18:50:11.105225+00:00"
+    },
     "doi:10.3390/info15080470": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -15967,6 +16031,14 @@
       "status": "rejected",
       "title": "PMAKA-IoV: A Physical Unclonable Function (PUF)-Based Multi-Factor Authentication and Key Agreement Protocol for Internet of Vehicles",
       "updated_at": "2026-10-30T17:14:14.377143+00:00"
+    },
+    "doi:10.3390/info16090773": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hardware Validation for Semi-Coherent Transmission Security",
+      "updated_at": "2026-11-04T18:52:12.067096+00:00"
     },
     "doi:10.3390/info17060584": {
       "category": "secondaire_technique",
@@ -16928,6 +17000,30 @@
       "title": "On the Characterization of Phase Noise for the Robust and Resilient PLL-TRNG Design",
       "updated_at": "2026-10-30T23:13:24.479820+00:00"
     },
+    "doi:10.46586/tches.v2025.i4.1-45": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "HADES: Automated Hardware Design Exploration for Cryptographic Primitives",
+      "updated_at": "2026-11-04T18:51:54.670901+00:00"
+    },
+    "doi:10.46586/tches.v2025.i4.1010-1052": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 72,
+      "status": "rejected",
+      "title": "Fault Attacks on ECC Signature Verification",
+      "updated_at": "2026-11-04T18:50:21.485644+00:00"
+    },
+    "doi:10.46586/tches.v2025.i4.1077-1101": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "FusionMSM: A Collision-Free and Arithmetic-Optimized FPGA-based Accelerator for Multi-Scalar Multiplication",
+      "updated_at": "2026-11-04T18:50:21.458783+00:00"
+    },
     "doi:10.46586/tches.v2025.i4.145-171": {
       "category": "secondaire",
       "decision": "examiner",
@@ -16935,6 +17031,102 @@
       "status": "rejected",
       "title": "Entropy extractor based high-throughput post-processings for True Random Number Generators",
       "updated_at": "2026-10-31T11:13:40.427892+00:00"
+    },
+    "doi:10.46586/tches.v2025.i4.254-289": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Multi-Value Plaintext-Checking and Full-Decryption Oracle-Based Attacks on HQC from Offline Templates",
+      "updated_at": "2026-11-04T18:52:12.039073+00:00"
+    },
+    "doi:10.46586/tches.v2025.i4.317-340": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "BASTION: A Framework for Secure Third-Party IP Integration in NoC-based SoC Platforms",
+      "updated_at": "2026-11-04T18:52:09.621795+00:00"
+    },
+    "doi:10.46586/tches.v2025.i4.341-385": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Accelerating Hash-Based Polynomial Commitment Schemes with Linear Prover Time",
+      "updated_at": "2026-11-04T18:52:12.010632+00:00"
+    },
+    "doi:10.46586/tches.v2025.i4.486-519": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "mid-pSquare: Leveraging the Strong Side-Channel Security of Prime-Field Masking in Software",
+      "updated_at": "2026-11-04T18:51:54.728142+00:00"
+    },
+    "doi:10.46586/tches.v2025.i4.588-620": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Generation of Fast Finite Field Arithmetic forCortex-M4 with ECDH and SQIsign Applications",
+      "updated_at": "2026-11-04T18:51:54.641043+00:00"
+    },
+    "doi:10.46586/tches.v2025.i4.667-710": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Masking-Friendly Post-Quantum Signatures in the Threshold-Computation-in-the-Head Framework",
+      "updated_at": "2026-11-04T18:51:54.610781+00:00"
+    },
+    "doi:10.46586/tches.v2025.i4.737-762": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Efficient and Compact Full-Domain Functional Bootstrapping via Subring Folding",
+      "updated_at": "2026-11-04T18:51:54.578500+00:00"
+    },
+    "doi:10.46586/tches.v2025.i4.795-816": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A New Trick for Polynomial Multiplication",
+      "updated_at": "2026-11-04T18:51:54.544767+00:00"
+    },
+    "doi:10.46586/tches.v2025.i4.817-847": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Rejected Signatures’ Challenges Pose New Challenges: Key Recovery of CRYSTALS-Dilithium via Side-Channel Attacks",
+      "updated_at": "2026-11-04T18:51:54.512582+00:00"
+    },
+    "doi:10.46586/tches.v2025.i4.848-872": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Fast AVX-512 Implementation of the Optimal Ate Pairing on BLS12-381",
+      "updated_at": "2026-11-04T18:51:54.480369+00:00"
+    },
+    "doi:10.46586/tches.v2025.i4.899-924": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "TESLA: Trusted Execution Support for Legacy Embedded Applications",
+      "updated_at": "2026-11-04T18:51:03.480983+00:00"
+    },
+    "doi:10.46586/tches.v2025.i4.92-117": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Pushing The Area Limit of Composable Gadgets",
+      "updated_at": "2026-11-04T18:51:54.699221+00:00"
     },
     "doi:10.46586/tches.v2026.i1.135-160": {
       "category": "coeur",
@@ -19423,6 +19615,14 @@
       "status": "rejected",
       "title": "COSOI: True Random Number Generator Based on Coherent Sampling using the FD-SOI technology",
       "updated_at": "2026-11-03T11:13:34.703085+00:00"
+    },
+    "doi:10.64552/wipiec.v11i1.94": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "Multi Hardware-Attack Dataset and ML-based Detection Using Processor Stress Patterns on x86",
+      "updated_at": "2026-11-04T18:50:21.404461+00:00"
     },
     "doi:10.64726/rjvw9y57": {
       "category": "hors_sujet",

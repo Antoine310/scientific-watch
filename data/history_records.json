@@ -1837,6 +1837,46 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex (titre exact)"
   },
+  "doi:10.1145/3757347.3759137": {
+    "doi": "https://doi.org/10.1145/3757347.3759137",
+    "publication_date": "2025-09-08",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-09-08",
+    "publication_type": "conference",
+    "publication_venue": "SYSTOR '25: The 18th ACM International Systems and Storage Conference",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3757347.3759137",
+    "summary": "Cette publication analyse la gestion dynamique de la mémoire pour les enclaves matérielles, en se concentrant sur les fonctionnalités EDMM introduites dans la version 2 d'Intel SGX. L'étude montre que si l'EDMM réduit significativement le temps de chargement des enclaves, une adoption naïve de cette technologie peut ralentir considérablement le temps d'exécution global.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Adaptive and Efficient Dynamic Memory Management for Hardware Enclaves",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3762646": {
+    "doi": "https://doi.org/10.1145/3762646",
+    "publication_date": "2025-09-26",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-09-26",
+    "publication_type": "revue",
+    "publication_venue": "ACM Transactions on Embedded Computing Systems",
+    "score": 92,
+    "source": "https://doi.org/10.1145/3762646",
+    "summary": "DynHaMo est une unité matérielle légère de micro-décodage intégrée dans un cœur RISC-V et implémentée sur FPGA, conçue pour détecter en temps réel et au niveau matériel des attaques microarchitecturales telles que les attaques par canal auxiliaire basées sur le cache et le ROP, sans supposer un système d'exploitation de confiance.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "DynHaMo: Dynamic Hardware-Based Monitoring Dedicated to Attacks Detection",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3774906.3802751": {
     "doi": "https://doi.org/10.1145/3774906.3802751",
     "publication_date": "2026-05-10",
@@ -2777,6 +2817,46 @@
     ],
     "title": "Dorami: Privilege Separating Security Monitor on RISC-V TEEs"
   },
+  "doi:10.46586/tches.v2025.i4.317-340": {
+    "doi": "https://doi.org/10.46586/tches.v2025.i4.317-340",
+    "publication_date": "2025-09-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-09-05",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 85,
+    "source": "https://doi.org/10.46586/tches.v2025.i4.317-340",
+    "summary": "Cet article présente BASTION, un cadre open-source conçu pour sécuriser l'intégration de blocs IP tiers dans les architectures de systèmes sur puce (SoC) interconnectés par un réseau sur puce (NoC). L'approche repose sur trois piliers : un connecteur de sécurité haute performance, une configuration sécurisée via une racine de confiance matérielle (Hardware Root of Trust), et un cadre de vérification de propriétés ad-hoc pour garantir le bon fonctionnement du système.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "BASTION: A Framework for Secure Third-Party IP Integration in NoC-based SoC Platforms",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/tches.v2025.i4.899-924": {
+    "doi": "https://doi.org/10.46586/tches.v2025.i4.899-924",
+    "publication_date": "2025-09-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-09-05",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 90,
+    "source": "https://doi.org/10.46586/tches.v2025.i4.899-924",
+    "summary": "Cet article présente TESLA, une nouvelle architecture d'environnement d'exécution de confiance (TEE) conçue pour prendre en charge nativement des applications embarquées existantes et non modifiées. TESLA introduit des enclaves fluides à taille dynamique, des fenêtres d'enclave pour réduire les surcoûts d'appels système, et sécurise les opérations d'E/S. Un prototype a été implémenté sur un processeur RISC-V avec le noyau Linux et synthétisé sur FPGA pour évaluer sa faisabilité et ses performances.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "TESLA: Trusted Execution Support for Legacy Embedded Applications",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.46586/tches.v2026.i1.135-160": {
     "doi": "https://doi.org/10.46586/tches.v2026.i1.135-160",
     "publication_date": "2026-01-16",
@@ -3552,6 +3632,26 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "CVA6S+: MÁS MADERA PARA EL HARDWARE OPEN-SOURCE",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.64552/wipiec.v11i1.94": {
+    "doi": "https://doi.org/10.64552/wipiec.v11i1.94",
+    "publication_date": "2025-09-02",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-09-02",
+    "publication_type": "revue",
+    "publication_venue": "WiPiEC Journal - Works in Progress in Embedded Computing Journal",
+    "score": 88,
+    "source": "https://doi.org/10.64552/wipiec.v11i1.94",
+    "summary": "Cet article propose une approche de détection d'attaques matérielles (de type Meltdown et Spectre) basée sur l'apprentissage automatique et l'analyse des motifs de stress du processeur, particulièrement au niveau de la prédiction de branchement et des caches. L'étude évalue trois scénarios d'entraînement pour un taux de détection supérieur à 99 %.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Multi Hardware-Attack Dataset and ML-based Detection Using Processor Stress Patterns on x86",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
