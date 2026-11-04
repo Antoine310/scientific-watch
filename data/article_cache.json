@@ -2768,6 +2768,14 @@
       "title": "A comprehensive review on hardware implementations of lattice-based cryptographic schemes",
       "updated_at": "2026-11-04T13:51:31.190676+00:00"
     },
+    "doi:10.1016/j.sysarc.2025.103500": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Exploiting intra-chip locality for multi-chip GPUs via two-level shared L1 cache",
+      "updated_at": "2026-11-04T15:53:59.120321+00:00"
+    },
     "doi:10.1016/j.sysarc.2025.103518": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4120,6 +4128,14 @@
       "title": "EM-VISION: Evaluating Security Features in Commercial RISC-V Against Electromagnetic Side-Channel",
       "updated_at": "2026-11-03T12:07:01.230630+00:00"
     },
+    "doi:10.1109/apsipaasc65261.2025.11249204": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Joint Design of Low Sidelobe Radar Waveform and Filter with Hardware Platform Verification",
+      "updated_at": "2026-11-04T15:51:48.176275+00:00"
+    },
     "doi:10.1109/asap71856.2026.00016": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4664,6 +4680,22 @@
       "title": "An Experimental Comparison of RISC-V Processors: Performance, Power, Area and Security - Special Session Paper-",
       "updated_at": "2026-11-03T02:14:15.754772+00:00"
     },
+    "doi:10.1109/dft66274.2025.11257462": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Special Session Paper: Application of Functional Verification Techniques in Hardware Trust",
+      "updated_at": "2026-11-04T15:51:48.116220+00:00"
+    },
+    "doi:10.1109/dft66274.2025.11257504": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 70,
+      "status": "rejected",
+      "title": "Using RISC-V Extensions to Support Software-Implemented Hardware Fault Tolerance",
+      "updated_at": "2026-11-04T15:51:48.145117+00:00"
+    },
     "doi:10.1109/dsd64264.2024.00015": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4727,6 +4759,22 @@
       "status": "rejected",
       "title": "OpenTRNG: an open-source initiative for ring-oscillator based TRNGs",
       "updated_at": "2026-11-03T02:14:35.288805+00:00"
+    },
+    "doi:10.1109/ecce58356.2025.11260120": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware-Integrated Cyber-Physical DC Multi-Microgrids Framework for Resilient Operation Under Load Stress and Cyber Threats",
+      "updated_at": "2026-11-04T15:51:48.207617+00:00"
+    },
+    "doi:10.1109/ecce58356.2025.11260152": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "A Robust Communication-Free Protection Scheme for Islanded Microgrids with Relay Logic and Hardware-in-the-Loop Validation",
+      "updated_at": "2026-11-04T15:51:48.237714+00:00"
     },
     "doi:10.1109/edtm65772.2026.11496717": {
       "category": "hors_sujet",
@@ -5223,6 +5271,14 @@
       "status": "rejected",
       "title": "Defense in the Reverse Fragment: RL-Based Partial Netlist Hardware Trojan Detection",
       "updated_at": "2026-11-04T15:27:57.084886+00:00"
+    },
+    "doi:10.1109/iccad66269.2025.11240849": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Non-Negative AdderNet: Algorithm-Hardware Co-design for Lightweight Defense of Adversarial Bit-Flip Attacks",
+      "updated_at": "2026-11-04T15:49:54.945316+00:00"
     },
     "doi:10.1109/iccad66269.2025.11241011": {
       "category": "coeur",
@@ -6015,6 +6071,14 @@
       "status": "rejected",
       "title": "Shor’s Algorithm on NISQ Quantum Hardware: Experimental 4–12-Bit Factorizations and Post-Quantum Cryptography Implications",
       "updated_at": "2026-11-03T11:07:20.015551+00:00"
+    },
+    "doi:10.1109/iiswc66894.2025.00045": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Icicle: Open-Source Hardware Support for Top-Down Microarchitectural Analysis on RISC-V",
+      "updated_at": "2026-11-04T15:51:22.866010+00:00"
     },
     "doi:10.1109/iitcee67948.2026.11394422": {
       "category": "hors_sujet",
@@ -7112,6 +7176,14 @@
       "title": "Design and Analysis of a Three-Stream STT-MTJ TRNG With XOR and Majority Voter Logic as Postprocessing Architectures",
       "updated_at": "2026-11-01T05:13:25.995958+00:00"
     },
+    "doi:10.1109/khpiweek61436.2025.11288578": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hardware Security Evaluation of IoT Microcontrollers: Threats and Countermeasures",
+      "updated_at": "2026-11-04T15:52:18.558570+00:00"
+    },
     "doi:10.1109/lascas67804.2026.11457081": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -7696,6 +7768,14 @@
       "title": "FaultRISC-V: Detecting Fault Injection Vulnerabilities in RISC-V Assembly",
       "updated_at": "2026-10-30T23:13:33.139373+00:00"
     },
+    "doi:10.1109/naps66256.2025.11272364": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Real-Time Hardware-in-the-Loop Testing Using Low-Level Interface of a Protection Relay",
+      "updated_at": "2026-11-04T15:52:18.531254+00:00"
+    },
     "doi:10.1109/nelex69209.2026.11590040": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -7791,6 +7871,14 @@
       "status": "rejected",
       "title": "Hardware-Assisted Detection of DoS Attacks in log 2 N Fabrics for Pervasive IoT Networks",
       "updated_at": "2026-11-03T15:41:39.499276+00:00"
+    },
+    "doi:10.1109/picc67314.2025.11291194": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A Tunable GHz-Range Memristive Chaotic Oscillator for Hardware Security Primitive",
+      "updated_at": "2026-11-04T15:52:18.585290+00:00"
     },
     "doi:10.1109/pkia71423.2026.11732322": {
       "category": "hors_sujet",
@@ -8255,6 +8343,14 @@
       "status": "imported",
       "title": "System-Level Isolation for Mixed-Criticality RISC-V SoCs: A “World” Reality Check",
       "updated_at": "2026-11-02T08:30:29.730765+00:00"
+    },
+    "doi:10.1109/tcad.2025.3553778": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Improving I/O Performance and Fairness in NVMe SSDs With Pooling Portions of Cache Partitions",
+      "updated_at": "2026-11-04T15:53:02.262664+00:00"
     },
     "doi:10.1109/tcad.2025.3556958": {
       "category": "secondaire",
@@ -9152,6 +9248,14 @@
       "title": "Physical Layer Security of Jammer-Assisted Cooperative NOMA Network With Hardware Impairments and Non-Colluding /Colluding Eavesdroppers: Performance Analysis and Optimization",
       "updated_at": "2026-11-03T18:51:28.174812+00:00"
     },
+    "doi:10.1109/ton.2025.3566903": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Your Botnet Is His Botnet? A Deep Dive Into the Supply Chain Attack Against Cyber-Arm Industry",
+      "updated_at": "2026-11-04T15:53:35.463209+00:00"
+    },
     "doi:10.1109/ton.2025.3625430": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -9591,6 +9695,14 @@
       "status": "rejected",
       "title": "PLC Modem With Hardware Implementation of Data Verification",
       "updated_at": "2026-11-03T11:07:20.050210+00:00"
+    },
+    "doi:10.1109/vcris68011.2025.11250546": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Reliability and Security Analysis of Power Beacon Based Half-Duplex Relaying System With Hardware Impairments",
+      "updated_at": "2026-11-04T15:51:22.895990+00:00"
     },
     "doi:10.1109/vdat72243.2026.11704548": {
       "category": "secondaire",
@@ -10551,6 +10663,14 @@
       "status": "rejected",
       "title": "A Remote Attestation Protocol Oriented to the SuperPOD Structure",
       "updated_at": "2026-10-30T10:01:20.146415+00:00"
+    },
+    "doi:10.1145/3733801.3764196": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Enabling Confidential I/O on RISC-V Without Hardware Modifications",
+      "updated_at": "2026-11-04T15:52:18.503074+00:00"
     },
     "doi:10.1145/3733815.3764043": {
       "category": "secondaire",
@@ -16911,6 +17031,14 @@
       "status": "imported",
       "title": "WiP: μ-ops, I Did it Again: A Second Look at Port Assignment on Intel CPUs",
       "updated_at": "2026-11-03T16:41:00.612259+00:00"
+    },
+    "doi:10.46604/peti.2025.15243": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hardware Implementation of Chaotic Image Encryption on FPGA",
+      "updated_at": "2026-11-04T15:51:22.925389+00:00"
     },
     "doi:10.46647/ijetms.2026.v10i02.046": {
       "category": "secondaire",

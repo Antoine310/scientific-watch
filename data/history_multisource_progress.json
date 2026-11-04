@@ -1,8 +1,8 @@
 {
-  "accepted": 101,
+  "accepted": 103,
   "completed": false,
-  "cursor": "MTc2MzY2Mzk3NDAwMCwxMC4xMTA5JTJGaWNjYWQ2NjI2OS4yMDI1LjExMjQxMDA5",
-  "evaluated": 2122,
+  "cursor": "MTc1NDkxNDYzNzAwMCwxMC4xMDE2JTJGai5lc3QuMjAyNS4xMTgwNTI=",
+  "evaluated": 2138,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -143,69 +143,16 @@
     "monthly/2025-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2025-10/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2025-10/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2025-10/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2025-10/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-10/query-17 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-10/query-18 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2025-10",
   "needs_publish": false,
-  "offset": 400,
-  "pages_done": 1944,
-  "pages_in_query": 10,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Yunxiang Zhang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Sabbir Ahmed"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Abeer Matar A Almalky"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Adnan Siraj Rakin"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Wenfeng Zhao"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/iccad66269.2025.11240849",
-        "id": "https://doi.org/10.1109/iccad66269.2025.11240849",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/iccad66269.2025.11240849"
-        },
-        "publication_date": "2025-10-26",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-10-26",
-        "publication_type": "conference",
-        "publication_venue": "2025 IEEE/ACM International Conference On Computer Aided Design (ICCAD)",
-        "title": "Non-Negative AdderNet: Algorithm-Hardware Co-design for Lightweight Defense of Adversarial Bit-Flip Attacks",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    }
-  ],
+  "offset": 440,
+  "pages_done": 1969,
+  "pages_in_query": 11,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2610,8 +2557,8 @@
     }
   ],
   "prefilter_review_overflow": 531,
-  "query_index": 17,
-  "secondary": 112,
-  "skipped": 2090,
+  "query_index": 19,
+  "secondary": 113,
+  "skipped": 2094,
   "version": 1
 }

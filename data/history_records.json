@@ -364,6 +364,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/dft66274.2025.11257462": {
+    "doi": "https://doi.org/10.1109/dft66274.2025.11257462",
+    "publication_date": "2025-10-21",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-10-21",
+    "publication_type": "conference",
+    "publication_venue": "2025 IEEE International Symposium on Defect and Fault Tolerance in VLSI and Nanotechnology Systems (DFT)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/dft66274.2025.11257462",
+    "summary": "Cette publication explore l'application des techniques de vérification fonctionnelle, en particulier la vérification basée sur des assertions et les méthodes formelles (SAT, BDD), pour garantir la correction et la sécurité des conceptions matérielles. Les auteurs proposent un spectre de méthodes formelles et dirigées par des assertions pour détecter les chevaux de Troie matériels (HT), les attaques cybernétiques et les attaques par canal auxiliaire dans les caches (CSCA), notamment sur des processeurs RISC-V.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Special Session Paper: Application of Functional Verification Techniques in Hardware Trust",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/dsd67783.2025.00045": {
     "publication_date": "2025-09-10",
     "publication_type": "conference",
@@ -676,6 +696,26 @@
       "T11 — PUF & TRNG"
     ],
     "title": "Development of Secure-by-Design RISC-V Architectures with Embedded Hardware Roots-of-Trust for Next-Generation Smart Devices",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/iiswc66894.2025.00045": {
+    "doi": "https://doi.org/10.1109/iiswc66894.2025.00045",
+    "publication_date": "2025-10-12",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-10-12",
+    "publication_type": "conference",
+    "publication_venue": "2025 IEEE International Symposium on Workload Characterization (IISWC)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/iiswc66894.2025.00045",
+    "summary": "Cet article présente Icicle, la première implémentation complète de la méthodologie d'analyse microarchitecturale Top-Down (TMA) pour les processeurs open-source RISC-V (Rocket et BOOM). Icicle ajoute de nouveaux événements de performance et révise l'architecture des compteurs physiques pour permettre la surveillance d'événements concurrents. L'évaluation comprend des études de cas, une analyse d'exactitude et des mesures de surcharge (puissance et timing après synthèse).",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Icicle: Open-Source Hardware Support for Top-Down Microarchitectural Analysis on RISC-V",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
