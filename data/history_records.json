@@ -1198,6 +1198,23 @@
     "venue_priority": 2,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/tc.2024.3377891": {
+    "doi": "https://doi.org/10.1109/tc.2024.3377891",
+    "publication_date": "2024-03-18",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computers",
+    "score": 80,
+    "source": "https://doi.org/10.1109/tc.2024.3377891",
+    "summary": "Cet article présente Prefender, un pré-chercheur sécurisé conçu pour contrer les attaques par canal auxiliaire sur le cache en anticipant et pré-cherchant les lignes de cache liées aux attaques, améliorant ainsi simultanément la sécurité et la performance des processeurs.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Prefender: A Prefetching Defender Against Cache Side Channel Attacks as a Pretender",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/tc.2024.3449105": {
     "publication_date": "2026-08-13",
     "publication_date_note": "",
@@ -2270,6 +2287,57 @@
     ],
     "title": "\"Microarchitectural Attack Detection Dataset (Spectre-v1, Spectre-v2, and Benign Workloads)\""
   },
+  "doi:10.23919/date58400.2024.10546539": {
+    "doi": "https://doi.org/10.23919/date58400.2024.10546539",
+    "publication_date": "2024-03-25",
+    "publication_type": "conference",
+    "publication_venue": "Design, Automation, and Test in Europe",
+    "score": 85,
+    "source": "https://doi.org/10.23919/date58400.2024.10546539",
+    "summary": "Cette publication propose une évaluation systématique de la détection des attaques Spectre par apprentissage automatique (ML) en analysant des traces micro-architecturales issues de compteurs de performance matérielle (HPCs). Les auteurs évaluent différentes combinaisons de caractéristiques et d'algorithmes de ML à travers divers scénarios, utilisent des méthodes statistiques pour classer les HPCs afin de déterminer le nombre minimal de caractéristiques nécessaires avec une haute précision et un faible surcoût, et identifient les meilleurs classifieurs tout en détaillant la collecte de données.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Statistical Profiling of Micro-Architectural Traces and Machine Learning for Spectre Detection: A Systematic Evaluation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.23919/date58400.2024.10546681": {
+    "doi": "https://doi.org/10.23919/date58400.2024.10546681",
+    "publication_date": "2024-03-25",
+    "publication_type": "conference",
+    "publication_venue": "Design, Automation, and Test in Europe",
+    "score": 92,
+    "source": "https://doi.org/10.23919/date58400.2024.10546681",
+    "summary": "Cet article propose une méthodologie semi-automatique pour synthétiser des contrats de fuite matériel-logiciel pour les microarchitectures open-source, en combinant des templates fournis par des experts humains et des stratégies de génération de cas de test. L'approche a été instanciée pour le jeu d'instructions RISC-V et évaluée sur les processeurs Ibex et CVA6, démontrant sa capacité à découvrir des fuites subtiles et inattendues.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Synthesizing Hardware-Software Leakage Contracts for RISC-V Open-Source Processors",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.23919/date58400.2024.10546809": {
+    "doi": "https://doi.org/10.23919/date58400.2024.10546809",
+    "publication_date": "2024-03-25",
+    "publication_type": "conference",
+    "publication_venue": "Design, Automation, and Test in Europe",
+    "score": 90,
+    "source": "http://dx.doi.org/10.23919/date58400.2024.10546809",
+    "summary": "Cet article étudie la fuite d'informations par canal auxiliaire liée aux changements de contexte dans les enclaves de sécurité. Les auteurs proposent un cadre d'évaluation statistique pour analyser ces fuites lors de la phase de conception pré-silicium et valident leur approche sur plusieurs enclaves de sécurité RISC-V, montrant que les changements de contexte génèrent des signatures de puissance exploitables pour inférer des séquences d'exécution et des valeurs de registres.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "EvilCS: An Evaluation of Information Leakage through Context Switching on Security Enclaves",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.23919/date69613.2026.11539674": {
     "publication_date": "2026-04-20",
     "publication_type": "conference",
@@ -2625,6 +2693,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex (titre exact)"
+  },
+  "doi:10.3390/sym16030310": {
+    "doi": "https://doi.org/10.3390/sym16030310",
+    "publication_date": "2024-03-06",
+    "publication_type": "revue",
+    "publication_venue": "Symmetry",
+    "score": 82,
+    "source": "https://doi.org/10.3390/sym16030310",
+    "summary": "Cet article présente SDATA, un schéma d'attestation à distance collective et symétrique compatible avec les appareils respectant le cadre DICE (Device Identifier Composition Engine). Il vise à sécuriser les appareils interconnectés contraints en ressources en réduisant la base de calcul de confiance (TCB), le volume de communication et la taille des rapports d'attestation, tout en permettant l'identification des appareils compromis.",
+    "themes": [
+      "T02 — DICE & Hardware Identity"
+    ],
+    "title": "SDATA: Symmetrical Device Identifier Composition Engine Complied Aggregate Trust Attestation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.34657/32529": {
     "publication_date": "2026-03-12",

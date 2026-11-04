@@ -136,6 +136,14 @@
       "title": "Tunable Synaptic Plasticity in Inkjet‐Printed Oxide‐Based Heterojunctions for Hardware Authentication and Brain‐Inspired Optoelectronics",
       "updated_at": "2026-11-03T09:01:48.332590+00:00"
     },
+    "doi:10.1002/advs.202402182": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Probability‐Distribution‐Configurable True Random Number Generators Based on Spin‐Orbit Torque Magnetic Tunnel Junctions",
+      "updated_at": "2026-11-04T17:13:58.779578+00:00"
+    },
     "doi:10.1002/advs.202411449": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -2800,6 +2808,14 @@
       "title": "CREATOR: An integrated development environment for programming assembly in RISC-V architectures",
       "updated_at": "2026-11-02T16:05:28.891758+00:00"
     },
+    "doi:10.1016/j.sysarc.2024.103107": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "SecurityCloak: Protection against cache timing and speculative memory access attacks",
+      "updated_at": "2026-11-04T17:16:34.887445+00:00"
+    },
     "doi:10.1016/j.sysarc.2025.103486": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -3159,6 +3175,14 @@
       "status": "rejected",
       "title": "A resource-efficient FPGA-based TRNG architecture with hybrid entropy fusion and 2D-MCS chaotic coupling",
       "updated_at": "2026-11-02T08:30:49.058746+00:00"
+    },
+    "doi:10.1016/j.xcrp.2024.101924": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "A 5D, dynamic, spin physical unclonable function device",
+      "updated_at": "2026-11-04T17:13:58.779591+00:00"
     },
     "doi:10.1016/j.yofte.2025.104312": {
       "category": "hors_sujet",
@@ -4367,6 +4391,14 @@
       "status": "rejected",
       "title": "From Analog CT, PT to Digital Process Bus - Hardware-in-the-Loop Protection Studies for Inverter-Dominated Transmission Systems",
       "updated_at": "2026-11-03T15:41:16.463579+00:00"
+    },
+    "doi:10.1109/cicc60959.2024.10528979": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A 98fJ/Bit Current-Starved-Ring-Oscillator-Based TRNG with High PVT Tolerance and Resilience to Frequency Injection Attack Up to 1V",
+      "updated_at": "2026-11-04T17:13:58.779554+00:00"
     },
     "doi:10.1109/cicc65509.2026.11509568": {
       "category": "secondaire",
@@ -8248,6 +8280,14 @@
       "title": "K-/Ka-Band Dual-CP Planar Shared-Aperture Wide-Angle Scanning Array Antenna With Embedded Diplexer and Cancellation Network for >45-dB Tx–Rx Isolation",
       "updated_at": "2026-11-03T17:43:03.311666+00:00"
     },
+    "doi:10.1109/tc.2024.3377891": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "Prefender: A Prefetching Defender Against Cache Side Channel Attacks as a Pretender",
+      "updated_at": "2026-11-04T17:16:18.238203+00:00"
+    },
     "doi:10.1109/tc.2024.3449105": {
       "category": "coeur",
       "decision": "conserver",
@@ -8831,6 +8871,14 @@
       "status": "rejected",
       "title": "Hyper-Parallel Superscalar Asynchronous RISC-V Processor Based on Event-Driven Logic",
       "updated_at": "2026-11-03T12:51:28.250099+00:00"
+    },
+    "doi:10.1109/tdmr.2024.3394576": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Guidelines for the Design of Random Telegraph Noise-Based True Random Number Generators",
+      "updated_at": "2026-11-04T17:13:58.779526+00:00"
     },
     "doi:10.1109/tdsc.2024.3445296": {
       "category": "coeur",
@@ -13568,6 +13616,30 @@
       "title": "Wenquxing 22: A Highly Efficient Neuromorphic Accelerator by RISC-V Customized Instruction Extension for Spiking Neural Network (RV-SNN 1.0), Streamlined LIF Model and Binary Stochastic STDP",
       "updated_at": "2026-11-03T16:10:31.100894+00:00"
     },
+    "doi:10.23919/date58400.2024.10546539": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Statistical Profiling of Micro-Architectural Traces and Machine Learning for Spectre Detection: A Systematic Evaluation",
+      "updated_at": "2026-11-04T17:16:16.935941+00:00"
+    },
+    "doi:10.23919/date58400.2024.10546681": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 92,
+      "status": "imported",
+      "title": "Synthesizing Hardware-Software Leakage Contracts for RISC-V Open-Source Processors",
+      "updated_at": "2026-11-04T17:16:15.764643+00:00"
+    },
+    "doi:10.23919/date58400.2024.10546809": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "EvilCS: An Evaluation of Information Leakage through Context Switching on Security Enclaves",
+      "updated_at": "2026-11-04T17:15:00.285676+00:00"
+    },
     "doi:10.23919/date64628.2025.10992999": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -15760,6 +15832,14 @@
       "title": "A Scenario-Based Hardware-in-the-Loop Platform for Real-Time Road-Load Emulation on Production Micromobility Drives",
       "updated_at": "2026-11-02T13:59:47.326462+00:00"
     },
+    "doi:10.3390/sym16030310": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 82,
+      "status": "imported",
+      "title": "SDATA: Symmetrical Device Identifier Composition Engine Complied Aggregate Trust Attestation",
+      "updated_at": "2026-11-04T17:14:36.133279+00:00"
+    },
     "doi:10.3390/sym18060897": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -15975,6 +16055,14 @@
       "status": "rejected",
       "title": "HARDWARE AND SOFTWARE IMPLEMENTATION OF IMAGE SECURITY ALGORITHMS WITH AI–ML INTEGRATION : A COMPREHENSIVE SURVEY",
       "updated_at": "2026-11-02T15:19:55.918237+00:00"
+    },
+    "doi:10.36227/techrxiv.171207533.30573247/v1": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Area and Power Efficient Implementation of Configurable Ring Oscillator PUF",
+      "updated_at": "2026-11-04T17:13:58.779584+00:00"
     },
     "doi:10.36227/techrxiv.172349086.64377246/v1": {
       "category": "secondaire",
@@ -21127,6 +21215,14 @@
       "status": "rejected",
       "title": "Ringmaster: How to juggle high-throughput host OS system calls from TrustZone TEEs",
       "updated_at": "2026-11-03T18:11:38.905249+00:00"
+    },
+    "title:ringoscillatorbasedhighspeedtruerandomnumbergeneratorwithaminimalfootprint": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Ring Oscillator-Based High-Speed True Random Number Generator with a Minimal Footprint",
+      "updated_at": "2026-11-04T17:13:58.779571+00:00"
     },
     "title:ringtracemodelfreespatiotemporaldetectionandcoreattributionforcachesidechannels": {
       "category": "coeur",
