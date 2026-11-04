@@ -1,8 +1,8 @@
 {
   "accepted": 92,
   "completed": false,
-  "cursor": "MTc2NDExNTIyNjAwMCwxMC40MjcxJTJGMTItMDktMDItMDAxNQ==",
-  "evaluated": 1980,
+  "cursor": "MTc2ODMyMTE0MDAwMCwxMC4xMTQ1JTJGMzc3MjA1Mi4zNzcyMjI1",
+  "evaluated": 2005,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -142,9 +142,9 @@
   ],
   "month": "2025-11",
   "needs_publish": false,
-  "offset": 200,
-  "pages_done": 1854,
-  "pages_in_query": 5,
+  "offset": 320,
+  "pages_done": 1857,
+  "pages_in_query": 8,
   "pending": [
     {
       "paper": {
@@ -152,179 +152,91 @@
         "authorships": [
           {
             "author": {
-              "display_name": "Aniket P. Garade"
+              "display_name": "Ivan Čejić"
             }
           },
           {
             "author": {
-              "display_name": "Ashish Bisht"
+              "display_name": "Andrija Nešković"
             }
           },
           {
             "author": {
-              "display_name": "H. V. Deepika"
+              "display_name": "Mladen Berekovic"
             }
           },
           {
             "author": {
-              "display_name": "P. Haribabu"
+              "display_name": "Saleh Mulhem"
             }
           },
           {
             "author": {
-              "display_name": "S. A. Kumar"
-            }
-          },
-          {
-            "author": {
-              "display_name": "S. D. Sudarsan"
+              "display_name": "Vuk Vranjković"
             }
           }
         ],
-        "doi": "https://doi.org/10.1007/978-3-032-07612-0_40",
-        "id": "https://doi.org/10.1007/978-3-032-07612-0_40",
+        "doi": "https://doi.org/10.1109/telfor67910.2025.11314483",
+        "id": "https://doi.org/10.1109/telfor67910.2025.11314483",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1007/978-3-032-07612-0_40"
-        },
-        "publication_date": "2025-11-24",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-11-24",
-        "publication_type": "inconnu",
-        "publication_venue": "Lecture Notes in Computer Science",
-        "title": "Evaluating RISC-V Processor as an Alternative for High Performance Computing",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T10 — RISC-V SoC & FPGA"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Alexander Strack"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Christopher Taylor"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Dirk Pflüger"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1007/978-3-032-07612-0_45",
-        "id": "https://doi.org/10.1007/978-3-032-07612-0_45",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1007/978-3-032-07612-0_45"
-        },
-        "publication_date": "2025-11-24",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-11-24",
-        "publication_type": "inconnu",
-        "publication_venue": "Lecture Notes in Computer Science",
-        "title": "Parallel FFTW on RISC-V: A Comparative Study Including OpenMP, MPI, and HPX",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T10 — RISC-V SoC & FPGA"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Seungsik Moon"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Hyeongtaek Lee"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.7840/kics.2025.50.11.1780",
-        "id": "https://doi.org/10.7840/kics.2025.50.11.1780",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.7840/kics.2025.50.11.1780"
-        },
-        "publication_date": "2025-11-30",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-11-30",
-        "publication_type": "revue",
-        "publication_venue": "The Journal of Korean Institute of Communications and Information Sciences",
-        "title": "On the Analysis of Software-Defined Radio with RISC-V Vector Architecture",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T10 — RISC-V SoC & FPGA"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Tuo Chen"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Reoma Matsuo"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ryota Shioya"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Kuniyasu Suzaki"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1007/978-981-95-4674-9_22",
-        "id": "https://doi.org/10.1007/978-981-95-4674-9_22",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1007/978-981-95-4674-9_22"
+          "landing_page_url": "https://doi.org/10.1109/telfor67910.2025.11314483"
         },
         "publication_date": "2025-11-25",
         "publication_date_note": "",
         "publication_date_precision": "day",
         "publication_date_source": "2025-11-25",
-        "publication_type": "inconnu",
-        "publication_venue": "Lecture Notes in Computer Science",
-        "title": "Analyzing and Mitigating the SSB Vulnerability in an MDP-Equipped RISC-V Processor",
+        "publication_type": "conference",
+        "publication_venue": "2025 33rd Telecommunications Forum (TELFOR)",
+        "title": "Area-Optimized RISC-V Matrix Extension Implementation for Edge Devices",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Manato Okawara"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Kanemitsu Ootsu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Takuma Kitamoto"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Takashi Yokota"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/candarw68385.2025.00065",
+        "id": "https://doi.org/10.1109/candarw68385.2025.00065",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/candarw68385.2025.00065"
+        },
+        "publication_date": "2025-11-25",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-11-25",
+        "publication_type": "conference",
+        "publication_venue": "2025 Thirteenth International Symposium on Computing and Networking Workshops (CANDARW)",
+        "title": "Performance Evaluation of CNN using RISC-V Vector Extension for Embedded System",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -2741,9 +2653,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 486,
+  "prefilter_review_overflow": 489,
   "query_index": 23,
-  "secondary": 106,
-  "skipped": 2000,
+  "secondary": 107,
+  "skipped": 2012,
   "version": 1
 }
