@@ -832,6 +832,14 @@
       "title": "Research and Practice on the Allocation Scheme of Hardware V&V Integrity Levels for Nuclear Instrumentation and Control System",
       "updated_at": "2026-11-03T18:51:44.583096+00:00"
     },
+    "doi:10.1007/978-981-95-4434-9_5": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Comparing Gaston with Ascon-p: Side-Channel Analysis and Hardware Evaluation",
+      "updated_at": "2026-11-04T10:25:12.581984+00:00"
+    },
     "doi:10.1007/978-981-95-8617-2_4": {
       "category": "coeur",
       "decision": "conserver",
@@ -2999,6 +3007,14 @@
       "status": "rejected",
       "title": "A photonic crystal sensing array based on a tandem CRISPR/Cas13a system for ultra-sensitive and high-throughput detection of the CVA6 virus",
       "updated_at": "2026-11-03T19:51:54.616695+00:00"
+    },
+    "doi:10.1049/icp.2025.3565": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Enhancing Dilithium with CBDC-PUF: a post-quantum secure signature scheme resilient to hardware attacks",
+      "updated_at": "2026-11-04T10:24:52.169748+00:00"
     },
     "doi:10.1049/icp.2026.2713": {
       "category": "hors_sujet",
@@ -5944,6 +5960,14 @@
       "title": "A Secure Multiradio Resource Scheme Using Cooperative DRL Agents for Heterogeneous Inter-RAN Slicing Under Hardware Impairments",
       "updated_at": "2026-11-03T14:54:50.466078+00:00"
     },
+    "doi:10.1109/jiot.2025.3602576": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 62,
+      "status": "rejected",
+      "title": "REMAP: A Fine-Grained Runtime Memory Protection System for RTOS",
+      "updated_at": "2026-11-04T10:24:41.285717+00:00"
+    },
     "doi:10.1109/jiot.2025.3612005": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -8248,6 +8272,14 @@
       "title": "Implementing Homomorphic Encryption-Based Logic Locking in System-on-Chip Designs",
       "updated_at": "2026-11-02T19:54:14.751521+00:00"
     },
+    "doi:10.1109/tvlsi.2025.3592906": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "An Efficient Wide-Voltage Processor With PVTA Tolerance, Voltage Droop Mitigation, and Runtime Ultrafine-Grained Frequency Adaptation",
+      "updated_at": "2026-11-04T10:24:41.258713+00:00"
+    },
     "doi:10.1109/tvlsi.2025.3596452": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -9144,6 +9176,14 @@
       "title": "GhostCache: Timer- and Counter-Free Cache Attacks Exploiting Weak Coherence on RISC-V and ARM Chips",
       "updated_at": "2026-10-31T17:14:05.391684+00:00"
     },
+    "doi:10.1145/3719027.3744861": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Securing Mixed Rust with Hardware Capabilities",
+      "updated_at": "2026-11-04T10:25:20.630318+00:00"
+    },
     "doi:10.1145/3719027.3744881": {
       "category": "coeur",
       "decision": "conserver",
@@ -9160,6 +9200,14 @@
       "title": "ExfilState: Automated Discovery of Timer-Free Cache Side Channels on ARM CPUs",
       "updated_at": "2026-10-31T14:15:21.968278+00:00"
     },
+    "doi:10.1145/3719027.3765066": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 74,
+      "status": "rejected",
+      "title": "MileSan: Detecting Exploitable Microarchitectural Leakage via Differential Hardware-Software Taint Tracking",
+      "updated_at": "2026-11-04T10:25:20.688095+00:00"
+    },
     "doi:10.1145/3719027.3765148": {
       "category": "coeur",
       "decision": "conserver",
@@ -9167,6 +9215,14 @@
       "status": "imported",
       "title": "Synthesis of Sound and Precise Leakage Contracts for Open-Source RISC-V Processors",
       "updated_at": "2026-10-31T17:14:04.170579+00:00"
+    },
+    "doi:10.1145/3719027.3765566": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Hardware-assisted Memory Isolation",
+      "updated_at": "2026-11-04T10:25:20.659868+00:00"
     },
     "doi:10.1145/3719276.3725176": {
       "category": "coeur",
@@ -9208,6 +9264,14 @@
       "title": "Spectre : Automated Aliasing Specification Generation for Library APIs with Fuzzing",
       "updated_at": "2026-11-03T15:51:09.418602+00:00"
     },
+    "doi:10.1145/3731217.3731233": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware Enforcers for Mitigating Cyber-Physical Attacks",
+      "updated_at": "2026-11-04T10:25:12.759231+00:00"
+    },
     "doi:10.1145/3731569.3764828": {
       "category": "secondaire_technique",
       "decision": "conserver",
@@ -9215,6 +9279,22 @@
       "status": "rejected",
       "title": "Tock: From Research to Securing 10 Million Computers",
       "updated_at": "2026-11-03T14:41:44.697445+00:00"
+    },
+    "doi:10.1145/3731599.3767383": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Microcredentials for Open Hardware and HPC Workforce Development: The Openchip Approach with RISC-V Ecosystem",
+      "updated_at": "2026-11-04T10:25:02.031280+00:00"
+    },
+    "doi:10.1145/3731599.3767534": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Bridging Simulation and Silicon: A Study of RISC-V Hardware and FireSim Simulation",
+      "updated_at": "2026-11-04T10:25:02.056211+00:00"
     },
     "doi:10.1145/3732365.3732400": {
       "category": "hors_sujet",
@@ -9399,6 +9479,14 @@
       "status": "rejected",
       "title": "Deep Learning on RISC-V Platforms at the Edge: A Perspective on the Hardware and Software Support",
       "updated_at": "2026-10-31T14:13:40.481134+00:00"
+    },
+    "doi:10.1145/3772356.3772392": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Towards Verifiable Network Telemetry without Special Purpose Hardware",
+      "updated_at": "2026-11-04T10:25:12.684258+00:00"
     },
     "doi:10.1145/3773274.3774264": {
       "category": "secondaire_technique",
@@ -10528,6 +10616,14 @@
       "title": "FPGA-based hardware-defined phase generation for capacitor-less permanent split capacitor motor operation",
       "updated_at": "2026-11-02T16:17:40.287344+00:00"
     },
+    "doi:10.11591/ijres.v14.i3.pp705-716": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Implementation of hardware security module using elliptic curve cryptography for cyber-physical system",
+      "updated_at": "2026-11-04T10:24:52.088603+00:00"
+    },
     "doi:10.11606/d.18.2025.tde-26032025-083917": {
       "category": "secondaire",
       "decision": "examiner",
@@ -10568,6 +10664,14 @@
       "title": "Construction of a Vero cell line expression human KREMEN1 for the development of CVA6 vaccines",
       "updated_at": "2026-10-30T09:49:23.293929+00:00"
     },
+    "doi:10.1186/s42400-025-00385-2": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A compact hardware STBCS design by using stochastic computation",
+      "updated_at": "2026-11-04T10:24:52.115736+00:00"
+    },
     "doi:10.1186/s42400-025-00498-8": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -10607,6 +10711,14 @@
       "status": "rejected",
       "title": "Hardware-Assisted Verification and Software Development",
       "updated_at": "2026-11-03T10:51:59.151449+00:00"
+    },
+    "doi:10.1201/9781003637851-23": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Security Techniques and Hardware",
+      "updated_at": "2026-11-04T10:25:12.608780+00:00"
     },
     "doi:10.1201/9781003640790-5": {
       "category": "secondaire",
@@ -10679,6 +10791,14 @@
       "status": "rejected",
       "title": "Hardware-Based Security Protection Technology Based on PPC460",
       "updated_at": "2026-11-03T19:07:51.433546+00:00"
+    },
+    "doi:10.12732/ijam.v38i10s.1044": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A RECONFIGURABLE HARDWARE ARCHITECTURE OF AHB PROTOCOL USING MACHINE LEARNING TECHNIQUE IN ASIC AND FPGA",
+      "updated_at": "2026-11-04T10:25:12.783422+00:00"
     },
     "doi:10.12732/ijam.v38i6s.1640": {
       "category": "coeur",
@@ -11520,6 +11640,14 @@
       "title": "Stateful Runtime Adaptation under Workload and Thermal Change: An Audited Evaluation on a Heterogeneous SoC",
       "updated_at": "2026-11-02T15:15:10.742019+00:00"
     },
+    "doi:10.21203/rs.3.rs-8047216/v1": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 55,
+      "status": "rejected",
+      "title": "Hardware Software Codesigned Accelerator for CRYSTALS-Kyber Using a RISC-V Vector Processor",
+      "updated_at": "2026-11-04T10:25:12.735453+00:00"
+    },
     "doi:10.21203/rs.3.rs-8344989/v1": {
       "category": "secondaire_technique",
       "decision": "conserver",
@@ -11783,6 +11911,14 @@
       "status": "rejected",
       "title": "Hardware Implementation Analysis of Ascon: A Structured Review",
       "updated_at": "2026-11-03T18:27:45.586046+00:00"
+    },
+    "doi:10.2174/9798898810870125010007": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Hardware Security Enhancement with Generative Artificial Intelligence",
+      "updated_at": "2026-11-04T10:24:52.144559+00:00"
     },
     "doi:10.2196/75662": {
       "category": "hors_sujet",
@@ -12688,6 +12824,22 @@
       "title": "Energy-Efficient & Privacy-Preserving Adaptive Post-Quantum Secure Boot for Low-Power RISC-V IoT: A Hardware-Agnostic Approach with Empirical Validation",
       "updated_at": "2026-11-02T08:13:22.865436+00:00"
     },
+    "doi:10.31399/asm.cp.istfa2025p0292": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hardware Security Evaluation of Advanced Packaging",
+      "updated_at": "2026-11-04T10:25:01.958016+00:00"
+    },
+    "doi:10.31399/asm.cp.istfa2025p0314": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 74,
+      "status": "rejected",
+      "title": "RunSiP: Property-Based Runtime Security Monitoring in Heterogeneous System-in-Package",
+      "updated_at": "2026-11-04T10:25:01.985617+00:00"
+    },
     "doi:10.31399/asm.cp.istfa2026p0315": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -13023,6 +13175,14 @@
       "status": "rejected",
       "title": "ChipGuard-AI: A Hardware-Assisted Unified Framework for Adversarial and Side-Channel Resilience in Consumer Electronics",
       "updated_at": "2026-11-02T13:59:38.338949+00:00"
+    },
+    "doi:10.3390/chips4040047": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Triggered Hardware Trojan Detection in IP Cores for Ensuring Safety in Cyber Physical Systems",
+      "updated_at": "2026-11-04T10:25:02.109400+00:00"
     },
     "doi:10.3390/chips4040048": {
       "category": "secondaire",
@@ -14344,6 +14504,14 @@
       "title": "A Fully Combinational Hardware Accelerator for BWT-FM Index DNA Sequence Alignment",
       "updated_at": "2026-11-02T14:38:08.834313+00:00"
     },
+    "doi:10.37547/tajet/volume07issue11-06": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Titanic Escape Room: Under the Hood — A Maker’s Story About Architecture, Firmware, And Invisible Hardware",
+      "updated_at": "2026-11-04T10:25:02.085600+00:00"
+    },
     "doi:10.3758/s13428-026-03096-9": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -14383,6 +14551,14 @@
       "status": "imported",
       "title": "Dorami: Privilege Separating Security Monitor on RISC-V TEEs",
       "updated_at": "2026-10-30T09:42:58.671962+00:00"
+    },
+    "doi:10.3991/ijoe.v21i13.57783": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Design and Educational Application of a Dual-MCU-Based Hardware Kit for IoT Security Practice",
+      "updated_at": "2026-11-04T10:25:12.634618+00:00"
     },
     "doi:10.4000/rfst.634": {
       "category": "hors_sujet",
@@ -14487,6 +14663,14 @@
       "status": "rejected",
       "title": "Design of Cluster Supply Chain Network Security Monitoring System Based on System Dynamics Simulation",
       "updated_at": "2026-11-02T13:48:02.123701+00:00"
+    },
+    "doi:10.4071/001c.147091": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Enhancing Co-packaging Optics Enabled Silicon Photonics Security Assurance Hardware Fingerprinting",
+      "updated_at": "2026-11-04T10:25:12.709300+00:00"
     },
     "doi:10.4071/001c.147187": {
       "category": "secondaire",
@@ -16256,6 +16440,14 @@
       "title": "Transcultural Things and the Spectre of Orientalism in Early Modern Poland-Lithuania",
       "updated_at": "2026-11-03T15:52:03.413070+00:00"
     },
+    "doi:10.54097/d4bj7117": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Research On Hardware Design of In-Wheel Motor Drive Controller for New Energy Vehicles Based on STM32 Microcontroller",
+      "updated_at": "2026-11-04T10:25:12.659324+00:00"
+    },
     "doi:10.54097/kpme5h37": {
       "category": "secondaire",
       "decision": "examiner",
@@ -17351,6 +17543,14 @@
       "status": "rejected",
       "title": "Two birds, one mask: side-channel-resistant unified hardware for ML-DSA and ML-KEM",
       "updated_at": "2026-11-02T20:18:07.482529+00:00"
+    },
+    "doi:10.7759/cureus.96264": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "The Hidden Threat: Maxillary Hardware-Associated Actinomycosis in Diabetes",
+      "updated_at": "2026-11-04T10:24:52.193964+00:00"
     },
     "doi:10.9728/dcs.2026.27.9.2633": {
       "category": "secondaire",
