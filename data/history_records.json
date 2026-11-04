@@ -67,6 +67,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex (titre exact)"
   },
+  "doi:10.1007/s10617-024-09283-1": {
+    "doi": "https://doi.org/10.1007/s10617-024-09283-1",
+    "publication_date": "2024-02-16",
+    "publication_type": "revue",
+    "publication_venue": "Design Automation for Embedded Systems",
+    "score": 75,
+    "source": "https://doi.org/10.1007/s10617-024-09283-1",
+    "summary": "Cette publication étudie l'utilisation des environnements d'exécution de confiance (TEEs) pour le suivi système et introduit le Trusted Monitor (TM), un système de détection d'anomalies s'exécutant dans un TEE. Le TM profile continuellement le système à l'aide de compteurs de performance matériels et de modèles d'apprentissage automatique spécifiques aux applications pour détecter les compromissions, tout en étant majoritairement implémenté en Rust.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Profiling with trust: system monitoring from trusted execution environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1007/s13389-024-00362-4": {
     "doi": "https://doi.org/10.1007/s13389-024-00362-4",
     "publication_date": "2024-08-13",
@@ -1306,6 +1323,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/tcad.2024.3374249": {
+    "doi": "https://doi.org/10.1109/tcad.2024.3374249",
+    "publication_date": "2024-03-07",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "score": 90,
+    "source": "https://doi.org/10.1109/tcad.2024.3374249",
+    "summary": "Cet article propose une nouvelle méthodologie de vérification formelle pour garantir un comportement data-oblivious au niveau matériel, afin de prévenir les canaux auxiliaires temporels microarchitecturaux. Basée sur une propriété inductive, elle permet une scalabilité vers des processeurs complexes, comme l'atteste son application réussie sur divers cœurs open-source, y compris des accélérateurs, le cœur RISC-V in-order IBEX (où une violation a été découverte) et le processeur out-of-order RISC-V BOOM.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "A Scalable Formal Verification Methodology for Data-Oblivious Hardware",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/tcad.2025.3575014": {
     "publication_date": "2025-06-13",
     "publication_type": "revue",
@@ -1321,6 +1355,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/tcsi.2024.3359044": {
+    "doi": "https://doi.org/10.1109/tcsi.2024.3359044",
+    "publication_date": "2024-02-07",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Circuits and Systems I Regular Papers",
+    "score": 75,
+    "source": "https://doi.org/10.1109/tcsi.2024.3359044",
+    "summary": "Cet article présente Shaheen, un SoC hétérogène de 9mm² et 200mW en technologie 22nm FDX destiné à la navigation de nano-drones. Il associe un cœur RV64 capable de faire tourner Linux avec des extensions de virtualisation et des protections contre les canaux cachés, et un cluster multi-cœur RV32 optimisé pour le traitement de signal (DSP) et le Machine Learning.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "A Heterogeneous RISC-V Based SoC for Secure Nano-UAV Navigation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/tcsii.2026.3735193": {
     "publication_date": "2026-01-01",
