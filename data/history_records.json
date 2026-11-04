@@ -1225,6 +1225,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3649153.3649213": {
+    "doi": "https://doi.org/10.1145/3649153.3649213",
+    "publication_date": "2024-05-07",
+    "publication_type": "conference",
+    "publication_venue": "ACM International Conference on Computing Frontiers (CF)",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3649153.3649213",
+    "summary": "Cet article évalue les performances d'OpenTitan, une racine de confiance en silicium open-source, lorsqu'il est utilisé comme accélérateur cryptographique dans un System-on-Chip (SoC) basé sur RISC-V. En développant des pilotes bare-metal pour les blocs HMAC, AES et OTBN, les auteurs analysent l'efficacité du déchargement de charges de travail de sécurité par rapport à une implémentation logicielle sur le cœur d'application, révélant des accélérations de 4,3x à 12,5x malgré une sous-utilisation de la bande passante.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Assessing the Performance of OpenTitan as Cryptographic Accelerator in Secure Open-Hardware System-on-Chips",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3649329.3658492": {
     "doi": "https://doi.org/10.1145/3649329.3658492",
     "publication_date": "2024-06-23",

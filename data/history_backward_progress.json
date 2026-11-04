@@ -3,8 +3,413 @@
   "cursor": "*",
   "last_page": true,
   "month": "2024-05",
-  "pages_done": 184,
+  "pages_done": 185,
   "pending": [
+    {
+      "abstract_inverted_index": {
+        "(Field": [
+          19
+        ],
+        "(System": [
+          101
+        ],
+        "(operating": [
+          88
+        ],
+        "2.0": [
+          78,
+          107
+        ],
+        "Arrays).": [
+          22
+        ],
+        "Chip)": [
+          103
+        ],
+        "FPGA": [
+          18,
+          120
+        ],
+        "FPGA-based": [
+          1,
+          82
+        ],
+        "Gate": [
+          21
+        ],
+        "Programmable": [
+          20
+        ],
+        "RISC-V": [
+          2,
+          11,
+          83,
+          99
+        ],
+        "Securing": [
+          38
+        ],
+        "SoC": [
+          100
+        ],
+        "TPM": [
+          77,
+          106
+        ],
+        "The": [
+          0,
+          94
+        ],
+        "This": [
+          23,
+          64
+        ],
+        "a": [
+          5,
+          53,
+          67,
+          75
+        ],
+        "allowing": [
+          30
+        ],
+        "and": [
+          14,
+          27,
+          49,
+          60,
+          91,
+          104,
+          123
+        ],
+        "application": [
+          36
+        ],
+        "architecture": [
+          13
+        ],
+        "be": [
+          110
+        ],
+        "been": [
+          116
+        ],
+        "board": [
+          122
+        ],
+        "boot": [
+          40,
+          72,
+          114
+        ],
+        "both": [
+          86
+        ],
+        "components": [
+          95
+        ],
+        "components)": [
+          90
+        ],
+        "components.": [
+          93
+        ],
+        "composed": [
+          44
+        ],
+        "critical": [
+          54
+        ],
+        "customizable": [
+          50
+        ],
+        "customization": [
+          28
+        ],
+        "data": [
+          58
+        ],
+        "development": [
+          121
+        ],
+        "different": [
+          35
+        ],
+        "domains.": [
+          37
+        ],
+        "encompassing": [
+          85
+        ],
+        "ensure": [
+          61
+        ],
+        "flexibility": [
+          26
+        ],
+        "for": [
+          31,
+          34,
+          69,
+          97
+        ],
+        "functionally": [
+          124
+        ],
+        "hardware": [
+          92
+        ],
+        "hardware-based": [
+          76
+        ],
+        "have": [
+          115
+        ],
+        "implemented": [
+          16,
+          117
+        ],
+        "implementing": [
+          70
+        ],
+        "in": [
+          112
+        ],
+        "integrity": [
+          59
+        ],
+        "is": [
+          4,
+          15,
+          52
+        ],
+        "maintain": [
+          57
+        ],
+        "model": [
+          68
+        ],
+        "module": [
+          79,
+          108
+        ],
+        "of": [
+          42,
+          45
+        ],
+        "on": [
+          17,
+          80,
+          102,
+          118
+        ],
+        "open-source": [
+          10,
+          48
+        ],
+        "options,": [
+          29
+        ],
+        "presents": [
+          66
+        ],
+        "process": [
+          41
+        ],
+        "processes": [
+          73
+        ],
+        "processor": [
+          12
+        ],
+        "provides": [
+          25
+        ],
+        "required": [
+          96
+        ],
+        "requirement": [
+          55
+        ],
+        "secure": [
+          71,
+          113
+        ],
+        "security.": [
+          63
+        ],
+        "software": [
+          87
+        ],
+        "solutions": [
+          33
+        ],
+        "structures": [
+          51
+        ],
+        "study": [
+          65
+        ],
+        "system": [
+          3,
+          6,
+          24,
+          62,
+          89
+        ],
+        "system,": [
+          84
+        ],
+        "systems": [
+          43
+        ],
+        "tailored": [
+          32
+        ],
+        "that": [
+          7
+        ],
+        "the": [
+          9,
+          39,
+          81,
+          98,
+          105,
+          119
+        ],
+        "to": [
+          56,
+          109
+        ],
+        "used": [
+          47,
+          111
+        ],
+        "using": [
+          74
+        ],
+        "utilizes": [
+          8
+        ],
+        "verified.": [
+          125
+        ],
+        "widely": [
+          46
+        ]
+      },
+      "authorships": [
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I56303344"
+              ],
+              "raw_affiliation_string": "Aselsan,T&#x00FC;rkiye"
+            }
+          ],
+          "author": {
+            "display_name": "Yasin Adıgüzel",
+            "id": "https://openalex.org/A5104987187",
+            "observed_orcids": [],
+            "orcid": null
+          },
+          "author_position": "first",
+          "countries": [
+            "TR"
+          ],
+          "institutions": [
+            {
+              "country_code": "TR",
+              "display_name": "Aselsan (Turkey)",
+              "id": "https://openalex.org/I56303344",
+              "lineage": [
+                "https://openalex.org/I56303344"
+              ],
+              "ror": "https://ror.org/04knh8e66",
+              "type": "company"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "Aselsan,T&#x00FC;rkiye"
+          ],
+          "raw_author_name": "Yasin Adıgüzel",
+          "raw_orcid": null
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I48912391"
+              ],
+              "raw_affiliation_string": "&#x0130;stanbul Teknik &#x00DC;niversitesi,T&#x00FC;rkiye"
+            }
+          ],
+          "author": {
+            "display_name": "Sıddıka Berna Örs Yalçın",
+            "id": null,
+            "observed_orcids": [],
+            "orcid": null
+          },
+          "author_position": "last",
+          "countries": [
+            "TR"
+          ],
+          "institutions": [
+            {
+              "country_code": "TR",
+              "display_name": "Istanbul Technical University",
+              "id": "https://openalex.org/I48912391",
+              "lineage": [
+                "https://openalex.org/I48912391"
+              ],
+              "ror": "https://ror.org/059636586",
+              "type": "education"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "&#x0130;stanbul Teknik &#x00DC;niversitesi,T&#x00FC;rkiye"
+          ],
+          "raw_author_name": "Sıddıka Berna Örs Yalçın",
+          "raw_orcid": null
+        }
+      ],
+      "doi": "https://doi.org/10.1109/siu61531.2024.10600837",
+      "id": "https://openalex.org/W4400908598",
+      "primary_location": {
+        "doi": "https://doi.org/10.1109/siu61531.2024.10600837",
+        "id": "doi:10.1109/siu61531.2024.10600837",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "http://dx.doi.org/10.1109/siu61531.2024.10600837",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "2024 32nd Signal Processing and Communications Applications Conference (SIU)",
+        "raw_type": "proceedings-article",
+        "source": {
+          "display_name": "Signal Processing and Communications Applications Conference (SIU)",
+          "host_organization": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "host_organization_name": null,
+          "id": "https://openalex.org/S4363607818",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": null,
+          "issn_l": null,
+          "listed_in": [],
+          "type": "conference"
+        },
+        "version": "publishedVersion"
+      },
+      "publication_date": "2024-05-15",
+      "title": "Secure Boot Design for a RISC-V Based SoC and Implementation on an FPGA"
+    },
     {
       "abstract_inverted_index": {
         "(OTBN)": [
@@ -932,7 +1337,715 @@
       },
       "publication_date": "2024-05-07",
       "title": "Assessing the Performance of OpenTitan as Cryptographic Accelerator in Secure Open-Hardware System-on-Chips"
+    },
+    {
+      "abstract_inverted_index": {
+        "(TEEs),": [
+          17
+        ],
+        "2015,": [
+          31
+        ],
+        "ARM": [
+          87
+        ],
+        "Environments": [
+          16
+        ],
+        "Execution": [
+          15
+        ],
+        "However,": [
+          97
+        ],
+        "Intel": [
+          90
+        ],
+        "Over": [
+          0
+        ],
+        "Popular": [
+          82
+        ],
+        "SGX,": [
+          91
+        ],
+        "Since": [
+          30
+        ],
+        "TEE": [
+          61,
+          83
+        ],
+        "Their": [
+          56
+        ],
+        "These": [
+          45
+        ],
+        "They": [
+          72
+        ],
+        "This": [
+          118
+        ],
+        "TrustZone": [
+          88
+        ],
+        "Trusted": [
+          14
+        ],
+        "We": [
+          136
+        ],
+        "a": [
+          32
+        ],
+        "against": [
+          22,
+          94
+        ],
+        "aim": [
+          57
+        ],
+        "aiming": [
+          18
+        ],
+        "along": [
+          129
+        ],
+        "an": [
+          131
+        ],
+        "and": [
+          52,
+          64,
+          89
+        ],
+        "applications": [
+          21
+        ],
+        "article": [
+          119
+        ],
+        "as": [
+          69,
+          86
+        ],
+        "attacks": [
+          38,
+          48
+        ],
+        "attacks,": [
+          128
+        ],
+        "attacks.": [
+          55,
+          96,
+          152
+        ],
+        "been": [
+          111
+        ],
+        "believe": [
+          137
+        ],
+        "bypass": [
+          60
+        ],
+        "capabilities": [
+          103
+        ],
+        "channel": [
+          54
+        ],
+        "class": [
+          34
+        ],
+        "community": [
+          144
+        ],
+        "comprehensive": [
+          123
+        ],
+        "comprise": [
+          49
+        ],
+        "compromised": [
+          24
+        ],
+        "countermeasures": [
+          93,
+          99
+        ],
+        "countermeasures.": [
+          135
+        ],
+        "covert": [
+          53
+        ],
+        "cryptographic": [
+          70
+        ],
+        "designs": [
+          12
+        ],
+        "efforts": [
+          145
+        ],
+        "either": [
+          100
+        ],
+        "emerged.": [
+          44
+        ],
+        "energy": [
+          40
+        ],
+        "energy-based": [
+          47
+        ],
+        "evaluation": [
+          132
+        ],
+        "expose": [
+          65
+        ],
+        "fault,": [
+          50
+        ],
+        "few": [
+          3,
+          80
+        ],
+        "first": [
+          122
+        ],
+        "for": [
+          13
+        ],
+        "further": [
+          143
+        ],
+        "groups": [
+          7
+        ],
+        "guarantees": [
+          63
+        ],
+        "hardware": [
+          11,
+          37
+        ],
+        "has": [
+          43
+        ],
+        "have": [
+          8,
+          73,
+          110
+        ],
+        "hinder": [
+          101
+        ],
+        "implementations,": [
+          84
+        ],
+        "important": [
+          149
+        ],
+        "in": [
+          75,
+          77
+        ],
+        "including": [
+          27
+        ],
+        "incorporate": [
+          92
+        ],
+        "increased": [
+          74
+        ],
+        "increasingly": [
+          148
+        ],
+        "information": [
+          67
+        ],
+        "innovative": [
+          10
+        ],
+        "insufficient": [
+          115
+        ],
+        "internal": [
+          46
+        ],
+        "introduced": [
+          9
+        ],
+        "is": [
+          58
+        ],
+        "kernel.": [
+          29
+        ],
+        "keys.": [
+          71
+        ],
+        "knowledge": [
+          124
+        ],
+        "leveraging": [
+          39
+        ],
+        "literature": [
+          134
+        ],
+        "management": [
+          41,
+          107
+        ],
+        "mechanisms": [
+          42,
+          108
+        ],
+        "new": [
+          33
+        ],
+        "of": [
+          35,
+          104,
+          126,
+          133,
+          151
+        ],
+        "or": [
+          109
+        ],
+        "past": [
+          2,
+          79
+        ],
+        "potentially": [
+          23
+        ],
+        "power": [
+          106
+        ],
+        "presents": [
+          120
+        ],
+        "prevalence": [
+          76
+        ],
+        "privileged": [
+          25
+        ],
+        "protection.": [
+          117
+        ],
+        "provide": [
+          114
+        ],
+        "research": [
+          6
+        ],
+        "secure": [
+          20
+        ],
+        "security": [
+          62
+        ],
+        "sensitive": [
+          66
+        ],
+        "several": [
+          5
+        ],
+        "shown": [
+          112
+        ],
+        "side-channel": [
+          51
+        ],
+        "software,": [
+          26
+        ],
+        "software-enabled": [
+          36
+        ],
+        "spur": [
+          142
+        ],
+        "study": [
+          140
+        ],
+        "such": [
+          68,
+          85
+        ],
+        "survey": [
+          125
+        ],
+        "system": [
+          116
+        ],
+        "that": [
+          138
+        ],
+        "the": [
+          1,
+          28,
+          78,
+          102,
+          105,
+          121
+        ],
+        "these": [
+          95,
+          98,
+          127
+        ],
+        "this": [
+          139,
+          147
+        ],
+        "to": [
+          19,
+          59,
+          113
+        ],
+        "towards": [
+          146
+        ],
+        "type": [
+          150
+        ],
+        "will": [
+          141
+        ],
+        "with": [
+          130
+        ],
+        "years,": [
+          4
+        ],
+        "years.": [
+          81
+        ]
+      },
+      "authorships": [
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I4210100151"
+              ],
+              "raw_affiliation_string": "IETR - Institut d'Électronique et des Technologies du numéRique (Campus de Beaulieu Bâtiment 11D 263 Av.Général Leclerc-CS 74205 35042 Rennes Cedex - France)"
+            },
+            {
+              "institution_ids": [
+                "https://openalex.org/I28221208"
+              ],
+              "raw_affiliation_string": "INSA Rennes - Institut National des Sciences Appliquées - Rennes (20, avenue des Buttes de Coësmes - CS 70839 - 35708 Rennes cedex 7 - France)"
+            },
+            {
+              "institution_ids": [
+                "https://openalex.org/I56067802"
+              ],
+              "raw_affiliation_string": "UR - Université de Rennes (Campus de Beaulieu, 263 avenue Général Leclerc, CS 74205, 35042 RENNES CEDEX - France)"
+            }
+          ],
+          "author": {
+            "display_name": "Gwenn Le Gonidec",
+            "id": "https://openalex.org/A5129270509",
+            "observed_orcids": [
+              "https://orcid.org/0009-0004-4774-6886"
+            ],
+            "orcid": "https://orcid.org/0009-0004-4774-6886"
+          },
+          "author_position": "first",
+          "countries": [
+            "FR"
+          ],
+          "institutions": [
+            {
+              "country_code": "FR",
+              "display_name": "Institut National des Sciences Appliquées de Rennes",
+              "id": "https://openalex.org/I28221208",
+              "lineage": [
+                "https://openalex.org/I28221208",
+                "https://openalex.org/I56067802"
+              ],
+              "ror": "https://ror.org/04xaa4j22",
+              "type": "education"
+            },
+            {
+              "country_code": "FR",
+              "display_name": "Institut d'Électronique et des Technologies du numéRique",
+              "id": "https://openalex.org/I4210100151",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I28221208",
+                "https://openalex.org/I4210095849",
+                "https://openalex.org/I4210100151",
+                "https://openalex.org/I56067802",
+                "https://openalex.org/I97188460"
+              ],
+              "ror": "https://ror.org/013q33h79",
+              "type": "facility"
+            },
+            {
+              "country_code": "FR",
+              "display_name": "Université de Rennes",
+              "id": "https://openalex.org/I56067802",
+              "lineage": [
+                "https://openalex.org/I56067802"
+              ],
+              "ror": "https://ror.org/015m7wh34",
+              "type": "education"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "IETR - Institut d'Électronique et des Technologies du numéRique (Campus de Beaulieu Bâtiment 11D 263 Av.Général Leclerc-CS 74205 35042 Rennes Cedex - France)",
+            "INSA Rennes - Institut National des Sciences Appliquées - Rennes (20, avenue des Buttes de Coësmes - CS 70839 - 35708 Rennes cedex 7 - France)",
+            "UR - Université de Rennes (Campus de Beaulieu, 263 avenue Général Leclerc, CS 74205, 35042 RENNES CEDEX - France)"
+          ],
+          "raw_author_name": "Gonidec, Gwenn Le",
+          "raw_orcid": null
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I28221208",
+                "https://openalex.org/I4210100151"
+              ],
+              "raw_affiliation_string": "UnivRennes , INSA Rennes , CNRS , IETR-UMR 6164 , France"
+            },
+            {
+              "institution_ids": [
+                "https://openalex.org/I4210097536"
+              ],
+              "raw_affiliation_string": "LabSTIC - Laboratoire des Sciences et des Technologies de l'Information et de la Communication (university 08 mai 1945, Guelma - Algeria)"
+            }
+          ],
+          "author": {
+            "display_name": "Maria Méndez Real",
+            "id": "https://openalex.org/A5063239633",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-9336-9936",
+              "https://orcid.org/0000-0002-7071-7192"
+            ],
+            "orcid": "https://orcid.org/0000-0002-9336-9936"
+          },
+          "author_position": "middle",
+          "countries": [
+            "DZ",
+            "FR"
+          ],
+          "institutions": [
+            {
+              "country_code": "FR",
+              "display_name": "Centre National de la Recherche Scientifique",
+              "id": "https://openalex.org/I1294671590",
+              "lineage": [
+                "https://openalex.org/I1294671590"
+              ],
+              "ror": "https://ror.org/02feahw73",
+              "type": "government"
+            },
+            {
+              "country_code": "FR",
+              "display_name": "Institut National des Sciences Appliquées de Rennes",
+              "id": "https://openalex.org/I28221208",
+              "lineage": [
+                "https://openalex.org/I28221208",
+                "https://openalex.org/I56067802"
+              ],
+              "ror": "https://ror.org/04xaa4j22",
+              "type": "education"
+            },
+            {
+              "country_code": "DZ",
+              "display_name": "University of Guelma",
+              "id": "https://openalex.org/I4210097536",
+              "lineage": [
+                "https://openalex.org/I4210097536"
+              ],
+              "ror": "https://ror.org/00xe6p546",
+              "type": "education"
+            },
+            {
+              "country_code": "FR",
+              "display_name": "Institut d'Électronique et des Technologies du numéRique",
+              "id": "https://openalex.org/I4210100151",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I28221208",
+                "https://openalex.org/I4210095849",
+                "https://openalex.org/I4210100151",
+                "https://openalex.org/I56067802",
+                "https://openalex.org/I97188460"
+              ],
+              "ror": "https://ror.org/013q33h79",
+              "type": "facility"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "UnivRennes , INSA Rennes , CNRS , IETR-UMR 6164 , France",
+            "LabSTIC - Laboratoire des Sciences et des Technologies de l'Information et de la Communication (university 08 mai 1945, Guelma - Algeria)"
+          ],
+          "raw_author_name": "Real, Maria Méndez",
+          "raw_orcid": null
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [],
+              "raw_affiliation_string": "ANSSI - Agence nationale de la sécurité des systèmes d'information (France)"
+            }
+          ],
+          "author": {
+            "display_name": "Guillaume Bouffard",
+            "id": "https://openalex.org/A5036714028",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-2046-369X"
+            ],
+            "orcid": "https://orcid.org/0000-0002-2046-369X"
+          },
+          "author_position": "middle",
+          "countries": [],
+          "institutions": [],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "ANSSI - Agence nationale de la sécurité des systèmes d'information (France)"
+          ],
+          "raw_author_name": "Bouffard, Guillaume",
+          "raw_orcid": null
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I4210100151"
+              ],
+              "raw_affiliation_string": "IETR - Institut d'Électronique et des Technologies du numéRique (Campus de Beaulieu Bâtiment 11D 263 Av.Général Leclerc-CS 74205 35042 Rennes Cedex - France)"
+            },
+            {
+              "institution_ids": [
+                "https://openalex.org/I28221208"
+              ],
+              "raw_affiliation_string": "INSA Rennes - Institut National des Sciences Appliquées - Rennes (20, avenue des Buttes de Coësmes - CS 70839 - 35708 Rennes cedex 7 - France)"
+            },
+            {
+              "institution_ids": [
+                "https://openalex.org/I56067802"
+              ],
+              "raw_affiliation_string": "UR - Université de Rennes (Campus de Beaulieu, 263 avenue Général Leclerc, CS 74205, 35042 RENNES CEDEX - France)"
+            }
+          ],
+          "author": {
+            "display_name": "Jean-Christophe Prévotet",
+            "id": "https://openalex.org/A5016592881",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-6951-4702"
+            ],
+            "orcid": "https://orcid.org/0000-0001-6951-4702"
+          },
+          "author_position": "last",
+          "countries": [
+            "FR"
+          ],
+          "institutions": [
+            {
+              "country_code": "FR",
+              "display_name": "Institut National des Sciences Appliquées de Rennes",
+              "id": "https://openalex.org/I28221208",
+              "lineage": [
+                "https://openalex.org/I28221208",
+                "https://openalex.org/I56067802"
+              ],
+              "ror": "https://ror.org/04xaa4j22",
+              "type": "education"
+            },
+            {
+              "country_code": "FR",
+              "display_name": "Institut d'Électronique et des Technologies du numéRique",
+              "id": "https://openalex.org/I4210100151",
+              "lineage": [
+                "https://openalex.org/I1294671590",
+                "https://openalex.org/I28221208",
+                "https://openalex.org/I4210095849",
+                "https://openalex.org/I4210100151",
+                "https://openalex.org/I56067802",
+                "https://openalex.org/I97188460"
+              ],
+              "ror": "https://ror.org/013q33h79",
+              "type": "facility"
+            },
+            {
+              "country_code": "FR",
+              "display_name": "Université de Rennes",
+              "id": "https://openalex.org/I56067802",
+              "lineage": [
+                "https://openalex.org/I56067802"
+              ],
+              "ror": "https://ror.org/015m7wh34",
+              "type": "education"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "IETR - Institut d'Électronique et des Technologies du numéRique (Campus de Beaulieu Bâtiment 11D 263 Av.Général Leclerc-CS 74205 35042 Rennes Cedex - France)",
+            "INSA Rennes - Institut National des Sciences Appliquées - Rennes (20, avenue des Buttes de Coësmes - CS 70839 - 35708 Rennes cedex 7 - France)",
+            "UR - Université de Rennes (Campus de Beaulieu, 263 avenue Général Leclerc, CS 74205, 35042 RENNES CEDEX - France)"
+          ],
+          "raw_author_name": "Prévotet, Jean-Christophe",
+          "raw_orcid": null
+        }
+      ],
+      "doi": "https://doi.org/10.48550/arxiv.2405.15537",
+      "id": "https://openalex.org/W4399062478",
+      "primary_location": {
+        "doi": null,
+        "id": "pmh:oai:HAL:hal-04818136v1",
+        "is_accepted": false,
+        "is_oa": true,
+        "is_published": false,
+        "landing_page_url": "https://hal.science/hal-04818136",
+        "license": null,
+        "license_id": null,
+        "pdf_url": "http://arxiv.org/pdf/2405.15537",
+        "raw_source_name": "2024",
+        "raw_type": "info:eu-repo/semantics/preprint",
+        "source": {
+          "display_name": "HAL",
+          "host_organization": "https://openalex.org/I4405252976",
+          "host_organization_lineage": [
+            "https://openalex.org/I4405252976"
+          ],
+          "host_organization_lineage_names": [],
+          "host_organization_name": "Centre pour la Communication Scientifique Directe",
+          "id": "https://openalex.org/S4306402512",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": null,
+          "issn_l": null,
+          "listed_in": [],
+          "type": "repository"
+        },
+        "version": "submittedVersion"
+      },
+      "publication_date": "2024-05-24",
+      "title": "Do Not Trust Power Management: A Survey on Internal Energy-based Attacks Circumventing Trusted Execution Environments Security Properties"
     }
   ],
-  "query_index": 0
+  "query_index": 1
 }
