@@ -3,299 +3,610 @@
   "cursor": "*",
   "last_page": true,
   "month": "2024-05",
-  "pages_done": 185,
+  "pages_done": 190,
   "pending": [
     {
       "abstract_inverted_index": {
-        "(Field": [
-          19
+        "(CFA)": [
+          2
         ],
-        "(System": [
-          101
+        "(CFG)": [
+          49
         ],
-        "(operating": [
-          88
-        ],
-        "2.0": [
-          78,
-          107
-        ],
-        "Arrays).": [
-          22
-        ],
-        "Chip)": [
-          103
-        ],
-        "FPGA": [
-          18,
-          120
-        ],
-        "FPGA-based": [
-          1,
-          82
-        ],
-        "Gate": [
-          21
-        ],
-        "Programmable": [
-          20
-        ],
-        "RISC-V": [
-          2,
-          11,
-          83,
-          99
-        ],
-        "Securing": [
-          38
-        ],
-        "SoC": [
-          100
-        ],
-        "TPM": [
-          77,
-          106
-        ],
-        "The": [
-          0,
-          94
-        ],
-        "This": [
-          23,
-          64
-        ],
-        "a": [
-          5,
-          53,
-          67,
-          75
-        ],
-        "allowing": [
-          30
-        ],
-        "and": [
-          14,
-          27,
-          49,
-          60,
-          91,
-          104,
-          123
-        ],
-        "application": [
-          36
-        ],
-        "architecture": [
-          13
-        ],
-        "be": [
+        "(CRA),": [
           110
         ],
-        "been": [
-          116
+        "(DOP)": [
+          197,
+          211
         ],
-        "board": [
-          122
+        "(GNNs)": [
+          129
         ],
-        "boot": [
-          40,
-          72,
-          114
+        "(ROP)": [
+          193,
+          208
         ],
-        "both": [
-          86
-        ],
-        "components": [
-          95
-        ],
-        "components)": [
-          90
-        ],
-        "components.": [
-          93
-        ],
-        "composed": [
-          44
-        ],
-        "critical": [
-          54
-        ],
-        "customizable": [
-          50
-        ],
-        "customization": [
-          28
-        ],
-        "data": [
-          58
-        ],
-        "development": [
-          121
-        ],
-        "different": [
-          35
-        ],
-        "domains.": [
-          37
-        ],
-        "encompassing": [
-          85
-        ],
-        "ensure": [
-          61
-        ],
-        "flexibility": [
-          26
-        ],
-        "for": [
-          31,
-          34,
-          69,
-          97
-        ],
-        "functionally": [
-          124
-        ],
-        "hardware": [
-          92
-        ],
-        "hardware-based": [
-          76
-        ],
-        "have": [
-          115
-        ],
-        "implemented": [
-          16,
-          117
-        ],
-        "implementing": [
-          70
-        ],
-        "in": [
-          112
-        ],
-        "integrity": [
-          59
-        ],
-        "is": [
-          4,
-          15,
-          52
-        ],
-        "maintain": [
-          57
-        ],
-        "model": [
-          68
-        ],
-        "module": [
-          79,
-          108
-        ],
-        "of": [
-          42,
-          45
-        ],
-        "on": [
-          17,
-          80,
-          102,
-          118
-        ],
-        "open-source": [
-          10,
-          48
-        ],
-        "options,": [
-          29
-        ],
-        "presents": [
-          66
-        ],
-        "process": [
+        "(e.g.,": [
           41
         ],
-        "processes": [
-          73
+        "(i)": [
+          174
         ],
-        "processor": [
-          12
+        "(ii)": [
+          183
         ],
-        "provides": [
-          25
+        "(iii)": [
+          222
         ],
-        "required": [
-          96
+        "(prover).": [
+          24
         ],
-        "requirement": [
-          55
+        "(verifier)": [
+          11
         ],
-        "secure": [
-          71,
-          113
+        "3.19%;": [
+          221
         ],
-        "security.": [
-          63
+        "40": [
+          177
         ],
-        "software": [
-          87
+        "5.47%.": [
+          250
         ],
-        "solutions": [
-          33
+        "84.42%": [
+          238
         ],
-        "structures": [
-          51
+        "91.01%": [
+          210
         ],
-        "study": [
-          65
+        "97.49%": [
+          236
         ],
-        "system": [
-          3,
-          6,
-          24,
-          62,
-          89
+        "98.03%": [
+          207
         ],
-        "system,": [
-          84
+        "Additionally,": [
+          223
         ],
-        "systems": [
-          43
-        ],
-        "tailored": [
-          32
-        ],
-        "that": [
-          7
-        ],
-        "the": [
-          9,
-          39,
-          81,
-          98,
-          105,
-          119
-        ],
-        "to": [
-          56,
+        "Attacks": [
           109
         ],
-        "used": [
-          47,
-          111
+        "Attestation": [
+          1
         ],
-        "using": [
-          74
+        "CFA": [
+          26,
+          63,
+          88,
+          99
         ],
-        "utilizes": [
-          8
+        "CFG.We": [
+          165
         ],
-        "verified.": [
+        "Code": [
+          107
+        ],
+        "Control-Flow": [
+          0
+        ],
+        "Control-flow": [
+          47
+        ],
+        "DOP": [
+          243
+        ],
+        "Embench,": [
+          205
+        ],
+        "Existing": [
+          25
+        ],
+        "F1-Score": [
+          212,
+          239
+        ],
+        "FPR": [
+          248
+        ],
+        "False": [
+          217
+        ],
+        "Further,": [
+          184
+        ],
+        "Graph": [
+          126
+        ],
+        "It": [
+          115
+        ],
+        "Moreover,": [
+          61
+        ],
+        "Networks": [
+          128
+        ],
+        "Neural": [
+          127
+        ],
+        "OpenSSL,": [
+          228
+        ],
+        "Positive": [
+          218
+        ],
+        "RAGE": [
+          104,
+          140,
+          167,
+          226
+        ],
+        "RAGE,": [
+          95
+        ],
+        "ROP": [
+          241
+        ],
+        "Rate": [
+          219
+        ],
+        "Reuse": [
+          108
+        ],
+        "The": [
+          136
+        ],
+        "Unsupervised": [
           125
         ],
-        "widely": [
-          46
+        "a": [
+          4,
+          20,
+          96,
+          163,
+          215
+        ],
+        "access": [
+          35,
+          161
+        ],
+        "achieve": [
+          235
+        ],
+        "achieving": [
+          206
+        ],
+        "allows": [
+          8
+        ],
+        "an": [
+          9,
+          247
+        ],
+        "and": [
+          77,
+          123,
+          151,
+          171,
+          194,
+          209,
+          234,
+          237,
+          242
+        ],
+        "approach": [
+          100
+        ],
+        "are": [
+          65
+        ],
+        "as": [
+          33
+        ],
+        "assumptions,": [
+          31
+        ],
+        "attack": [
+          244
+        ],
+        "attacks": [
+          179,
+          198
+        ],
+        "attacks.": [
+          114
+        ],
+        "attesting": [
+          68
+        ],
+        "behind": [
+          139
+        ],
+        "benchmark": [
+          204
+        ],
+        "benchmarks": [
+          170
+        ],
+        "benign": [
+          134
+        ],
+        "between": [
+          146
+        ],
+        "by": [
+          93,
+          230
+        ],
+        "can": [
+          105
+        ],
+        "code": [
+          17
+        ],
+        "code),": [
+          44
+        ],
+        "complete": [
+          46,
+          164
+        ],
+        "computational": [
+          75
+        ],
+        "computer": [
+          22
+        ],
+        "control-and": [
+          112
+        ],
+        "core": [
+          137
+        ],
+        "correspondence": [
+          145
+        ],
+        "current": [
+          62
+        ],
+        "data-oriented": [
+          195
+        ],
+        "demonstrate": [
+          172
+        ],
+        "detect": [
+          106
+        ],
+        "detection,": [
+          245
+        ],
+        "detects": [
+          176
+        ],
+        "deviations": [
+          132
+        ],
+        "devices": [
+          92,
+          233
+        ],
+        "due": [
+          71
+        ],
+        "efficiently": [
+          116
+        ],
+        "eliminate": [
+          155
+        ],
+        "embedded": [
+          69,
+          91,
+          169,
+          181,
+          202
+        ],
+        "embeddings": [
+          153
+        ],
+        "entity": [
+          10
+        ],
+        "evaluate": [
+          166,
+          225
+        ],
+        "execution": [
+          18,
+          121,
+          147,
+          149,
+          152
+        ],
+        "executions.": [
+          135
+        ],
+        "existing": [
+          87
+        ],
+        "exploit": [
+          143
+        ],
+        "extracts": [
+          117
+        ],
+        "features": [
+          118
+        ],
+        "for": [
+          67,
+          90,
+          240
+        ],
+        "from": [
+          29,
+          119,
+          133
+        ],
+        "graph": [
+          48
+        ],
+        "graph,": [
+          150
+        ],
+        "hardware.": [
+          60
+        ],
+        "having": [
+          160
+        ],
+        "high": [
+          74
+        ],
+        "identify": [
+          131
+        ],
+        "impractical": [
+          30
+        ],
+        "inadequate": [
+          66
+        ],
+        "including": [
+          111
+        ],
+        "integrity": [
+          15
+        ],
+        "internal": [
+          39
+        ],
+        "introducing": [
+          94
+        ],
+        "intuition": [
+          138
+        ],
+        "is": [
+          3,
+          141
+        ],
+        "it": [
+          175
+        ],
+        "large": [
+          54
+        ],
+        "leverages": [
+          124
+        ],
+        "lightweight": [
+          98
+        ],
+        "limitations": [
+          85
+        ],
+        "low": [
+          216
+        ],
+        "maintaining": [
+          214
+        ],
+        "measurements,": [
+          57
+        ],
+        "memory": [
+          42
+        ],
+        "millions": [
+          231
+        ],
+        "minimal": [
+          102
+        ],
+        "non-control-data": [
+          113
+        ],
+        "novel,": [
+          97
+        ],
+        "of": [
+          16,
+          50,
+          56,
+          86,
+          159,
+          220,
+          232,
+          249
+        ],
+        "on": [
+          19,
+          168,
+          180,
+          199,
+          227
+        ],
+        "one": [
+          120
+        ],
+        "or": [
+          43,
+          58
+        ],
+        "our": [
+          187
+        ],
+        "overcome": [
+          83
+        ],
+        "overhead": [
+          76
+        ],
+        "paper,": [
+          81
+        ],
+        "programming": [
+          192,
+          196
+        ],
+        "prover’s": [
+          38,
+          52
+        ],
+        "real-world": [
+          178,
+          201
+        ],
+        "remote": [
+          21
+        ],
+        "requirement": [
+          158
+        ],
+        "requirements.": [
+          103
+        ],
+        "requiring": [
+          34
+        ],
+        "resource": [
+          78
+        ],
+        "returnoriented": [
+          191
+        ],
+        "scheme": [
+          188
+        ],
+        "schemes": [
+          27,
+          64,
+          89
+        ],
+        "security": [
+          5
+        ],
+        "service": [
+          6
+        ],
+        "sets": [
+          55
+        ],
+        "software": [
+          203
+        ],
+        "software,": [
+          53
+        ],
+        "software;": [
+          182
+        ],
+        "state": [
+          40
+        ],
+        "stress": [
+          186
+        ],
+        "such": [
+          32
+        ],
+        "suffer": [
+          28
+        ],
+        "synthetic": [
+          190
+        ],
+        "system": [
+          23
+        ],
+        "systems": [
+          70
+        ],
+        "tailor-made": [
+          59
+        ],
+        "that": [
+          7,
+          173
+        ],
+        "the": [
+          14,
+          37,
+          45,
+          51,
+          84,
+          144,
+          156,
+          200
+        ],
+        "their": [
+          73
+        ],
+        "this": [
+          80
+        ],
+        "to": [
+          12,
+          36,
+          72,
+          130,
+          142,
+          154,
+          162
+        ],
+        "trace": [
+          122
+        ],
+        "trace,": [
+          148
+        ],
+        "unrealistic": [
+          157
+        ],
+        "usage.In": [
+          79
+        ],
+        "used": [
+          229
+        ],
+        "verify": [
+          13
+        ],
+        "we": [
+          82,
+          185,
+          224
+        ],
+        "while": [
+          213
+        ],
+        "with": [
+          101,
+          189,
+          246
         ]
       },
       "authorships": [
@@ -303,1749 +614,315 @@
           "affiliations": [
             {
               "institution_ids": [
-                "https://openalex.org/I56303344"
+                "https://openalex.org/I31512782"
               ],
-              "raw_affiliation_string": "Aselsan,T&#x00FC;rkiye"
+              "raw_affiliation_string": "Technical University of Darmstadt"
             }
           ],
           "author": {
-            "display_name": "Yasin Adıgüzel",
-            "id": "https://openalex.org/A5104987187",
-            "observed_orcids": [],
-            "orcid": null
+            "display_name": "Marco Chilese",
+            "id": "https://openalex.org/A5008794566",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2647-6149"
+            ],
+            "orcid": "https://orcid.org/0000-0003-2647-6149"
           },
           "author_position": "first",
           "countries": [
-            "TR"
+            "DE"
           ],
           "institutions": [
             {
-              "country_code": "TR",
-              "display_name": "Aselsan (Turkey)",
-              "id": "https://openalex.org/I56303344",
+              "country_code": "DE",
+              "display_name": "Technische Universität Darmstadt",
+              "id": "https://openalex.org/I31512782",
               "lineage": [
-                "https://openalex.org/I56303344"
+                "https://openalex.org/I31512782"
               ],
-              "ror": "https://ror.org/04knh8e66",
+              "ror": "https://ror.org/05n911h24",
+              "type": "education"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "Technical University of Darmstadt"
+          ],
+          "raw_author_name": "Marco Chilese",
+          "raw_orcid": null
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I31512782"
+              ],
+              "raw_affiliation_string": "Technical University of Darmstadt"
+            }
+          ],
+          "author": {
+            "display_name": "Richard Mitev",
+            "id": "https://openalex.org/A5037579663",
+            "observed_orcids": [
+              "https://orcid.org/0009-0004-7741-3679"
+            ],
+            "orcid": "https://orcid.org/0009-0004-7741-3679"
+          },
+          "author_position": "middle",
+          "countries": [
+            "DE"
+          ],
+          "institutions": [
+            {
+              "country_code": "DE",
+              "display_name": "Technische Universität Darmstadt",
+              "id": "https://openalex.org/I31512782",
+              "lineage": [
+                "https://openalex.org/I31512782"
+              ],
+              "ror": "https://ror.org/05n911h24",
+              "type": "education"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "Technical University of Darmstadt"
+          ],
+          "raw_author_name": "Richard Mitev",
+          "raw_orcid": null
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I1304085615",
+                "https://openalex.org/I4210127875"
+              ],
+              "raw_affiliation_string": "NVIDIA"
+            }
+          ],
+          "author": {
+            "display_name": "Meni Orenbach",
+            "id": "https://openalex.org/A5074210071",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-8180-3598"
+            ],
+            "orcid": "https://orcid.org/0000-0002-8180-3598"
+          },
+          "author_position": "middle",
+          "countries": [
+            "GB",
+            "US"
+          ],
+          "institutions": [
+            {
+              "country_code": "GB",
+              "display_name": "Nvidia (United Kingdom)",
+              "id": "https://openalex.org/I1304085615",
+              "lineage": [
+                "https://openalex.org/I1304085615",
+                "https://openalex.org/I4210127875"
+              ],
+              "ror": "https://ror.org/02kr42612",
+              "type": "company"
+            },
+            {
+              "country_code": "US",
+              "display_name": "Nvidia (United States)",
+              "id": "https://openalex.org/I4210127875",
+              "lineage": [
+                "https://openalex.org/I4210127875"
+              ],
+              "ror": "https://ror.org/03jdj4y14",
               "type": "company"
             }
           ],
           "is_corresponding": false,
           "raw_affiliation_strings": [
-            "Aselsan,T&#x00FC;rkiye"
+            "NVIDIA"
           ],
-          "raw_author_name": "Yasin Adıgüzel",
+          "raw_author_name": "Meni Orenbach",
           "raw_orcid": null
         },
         {
           "affiliations": [
             {
               "institution_ids": [
-                "https://openalex.org/I48912391"
+                "https://openalex.org/I43439940"
               ],
-              "raw_affiliation_string": "&#x0130;stanbul Teknik &#x00DC;niversitesi,T&#x00FC;rkiye"
+              "raw_affiliation_string": "University of Southampton"
             }
           ],
           "author": {
-            "display_name": "Sıddıka Berna Örs Yalçın",
-            "id": null,
-            "observed_orcids": [],
-            "orcid": null
+            "display_name": "Robert Thorburn",
+            "id": "https://openalex.org/A5070586418",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-5888-7036"
+            ],
+            "orcid": "https://orcid.org/0000-0001-5888-7036"
           },
-          "author_position": "last",
+          "author_position": "middle",
           "countries": [
-            "TR"
+            "GB"
           ],
           "institutions": [
             {
-              "country_code": "TR",
-              "display_name": "Istanbul Technical University",
-              "id": "https://openalex.org/I48912391",
+              "country_code": "GB",
+              "display_name": "University of Southampton",
+              "id": "https://openalex.org/I43439940",
               "lineage": [
-                "https://openalex.org/I48912391"
+                "https://openalex.org/I43439940"
               ],
-              "ror": "https://ror.org/059636586",
+              "ror": "https://ror.org/01ryk1543",
               "type": "education"
             }
           ],
           "is_corresponding": false,
           "raw_affiliation_strings": [
-            "&#x0130;stanbul Teknik &#x00DC;niversitesi,T&#x00FC;rkiye"
+            "University of Southampton"
           ],
-          "raw_author_name": "Sıddıka Berna Örs Yalçın",
+          "raw_author_name": "Robert Thorburn",
+          "raw_orcid": null
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I1304085615",
+                "https://openalex.org/I4210127875"
+              ],
+              "raw_affiliation_string": "NVIDIA"
+            }
+          ],
+          "author": {
+            "display_name": "Ahmad Atamli",
+            "id": "https://openalex.org/A5049234679",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-9271-8794"
+            ],
+            "orcid": "https://orcid.org/0000-0002-9271-8794"
+          },
+          "author_position": "middle",
+          "countries": [
+            "GB",
+            "US"
+          ],
+          "institutions": [
+            {
+              "country_code": "GB",
+              "display_name": "Nvidia (United Kingdom)",
+              "id": "https://openalex.org/I1304085615",
+              "lineage": [
+                "https://openalex.org/I1304085615",
+                "https://openalex.org/I4210127875"
+              ],
+              "ror": "https://ror.org/02kr42612",
+              "type": "company"
+            },
+            {
+              "country_code": "US",
+              "display_name": "Nvidia (United States)",
+              "id": "https://openalex.org/I4210127875",
+              "lineage": [
+                "https://openalex.org/I4210127875"
+              ],
+              "ror": "https://ror.org/03jdj4y14",
+              "type": "company"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "NVIDIA"
+          ],
+          "raw_author_name": "Ahmad Atamli",
+          "raw_orcid": null
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I31512782"
+              ],
+              "raw_affiliation_string": "Technical University of Darmstadt"
+            }
+          ],
+          "author": {
+            "display_name": "Ahmad‐Reza Sadeghi",
+            "id": "https://openalex.org/A5079497016",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-6833-3598"
+            ],
+            "orcid": "https://orcid.org/0000-0001-6833-3598"
+          },
+          "author_position": "last",
+          "countries": [
+            "DE"
+          ],
+          "institutions": [
+            {
+              "country_code": "DE",
+              "display_name": "Technische Universität Darmstadt",
+              "id": "https://openalex.org/I31512782",
+              "lineage": [
+                "https://openalex.org/I31512782"
+              ],
+              "ror": "https://ror.org/05n911h24",
+              "type": "education"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "Technical University of Darmstadt"
+          ],
+          "raw_author_name": "Ahmad-Reza Sadeghi",
           "raw_orcid": null
         }
       ],
-      "doi": "https://doi.org/10.1109/siu61531.2024.10600837",
-      "id": "https://openalex.org/W4400908598",
+      "doi": "https://doi.org/10.1109/sp54263.2024.00251",
+      "id": "https://openalex.org/W4402263550",
       "primary_location": {
-        "doi": "https://doi.org/10.1109/siu61531.2024.10600837",
-        "id": "doi:10.1109/siu61531.2024.10600837",
+        "doi": "https://doi.org/10.1109/sp54263.2024.00251",
+        "id": "doi:10.1109/sp54263.2024.00251",
         "is_accepted": true,
         "is_oa": false,
         "is_published": true,
-        "landing_page_url": "http://dx.doi.org/10.1109/siu61531.2024.10600837",
+        "landing_page_url": "https://doi.org/10.1109/sp54263.2024.00251",
         "license": null,
         "license_id": null,
         "pdf_url": null,
-        "raw_source_name": "2024 32nd Signal Processing and Communications Applications Conference (SIU)",
+        "raw_source_name": "2024 IEEE Symposium on Security and Privacy (SP)",
         "raw_type": "proceedings-article",
         "source": {
-          "display_name": "Signal Processing and Communications Applications Conference (SIU)",
-          "host_organization": null,
-          "host_organization_lineage": [],
-          "host_organization_lineage_names": [],
-          "host_organization_name": null,
-          "id": "https://openalex.org/S4363607818",
-          "is_core": false,
-          "is_in_doaj": false,
-          "is_oa": false,
-          "issn": null,
-          "issn_l": null,
-          "listed_in": [],
-          "type": "conference"
-        },
-        "version": "publishedVersion"
-      },
-      "publication_date": "2024-05-15",
-      "title": "Secure Boot Design for a RISC-V Based SoC and Implementation on an FPGA"
-    },
-    {
-      "abstract_inverted_index": {
-        "(OTBN)": [
-          108
-        ],
-        "(SoC).": [
-          185
-        ],
-        "---": [
-          100,
-          109
-        ],
-        "12.5x.": [
-          201
-        ],
-        "16%": [
-          224
-        ],
-        "4.3x": [
-          199
-        ],
-        "61%,": [
-          226
-        ],
-        "AES,": [
-          102
-        ],
-        "Asymmetric": [
-          125
-        ],
-        "Authentication": [
-          120
-        ],
-        "Big": [
-          105
-        ],
-        "Codes,": [
-          121
-        ],
-        "Cyber-Physical": [
-          158
-        ],
-        "Despite": [
-          37
-        ],
-        "Finally,": [
-          161
-        ],
-        "For": [
-          127
-        ],
-        "Functions,": [
-          118
-        ],
-        "HMAC,": [
-          101
-        ],
-        "Hash": [
-          117
-        ],
-        "However,": [
-          202
-        ],
-        "IPs": [
-          99
-        ],
-        "Message": [
-          119
-        ],
-        "Number": [
-          106
-        ],
-        "OpenTitan": [
-          14,
-          47,
-          71,
-          104,
-          137,
-          190,
-          213
-        ],
-        "OpenTitan-based": [
-          246
-        ],
-        "OpenTitan.": [
-          92
-        ],
-        "Our": [
-          186,
-          237
-        ],
-        "RISC-V": [
-          0,
-          149
-        ],
-        "RTL": [
-          180
-        ],
-        "Secure": [
-          116
-        ],
-        "Symmetric": [
-          122
-        ],
-        "System-on-Chip": [
-          154,
-          184
-        ],
-        "Systems": [
-          159
-        ],
-        "The": [
-          93,
-          173
-        ],
-        "This": [
-          76
-        ],
-        "a": [
-          25,
-          73,
-          132,
-          148,
-          153,
-          166,
-          178,
-          215
-        ],
-        "accelerate": [
-          112
-        ],
-        "accelerator": [
-          107,
-          138,
-          219,
-          235
-        ],
-        "accelerator.": [
-          75
-        ],
-        "accelerators": [
-          44,
-          259
-        ],
-        "accessed": [
-          232
-        ],
-        "accurate": [
-          61
-        ],
-        "addresses": [
-          78
-        ],
-        "against": [
-          165
-        ],
-        "an": [
-          16
-        ],
-        "analysing": [
-          83
-        ],
-        "analyze": [
-          140
-        ],
-        "and": [
-          10,
-          62,
-          85,
-          103,
-          124,
-          139,
-          233
-        ],
-        "application": [
-          150,
-          171
-        ],
-        "applications.": [
-          160,
-          262
-        ],
-        "are": [
-          3,
-          12
-        ],
-        "as": [
-          72,
-          210
-        ],
-        "assess": [
-          163
-        ],
-        "availability": [
-          39
-        ],
-        "bandwidths,": [
-          220
-        ],
-        "bare-metal": [
-          133
-        ],
-        "be": [
-          22
-        ],
-        "been": [
-          59
-        ],
-        "being": [
-          231
-        ],
-        "benefits": [
-          67
-        ],
-        "by": [
-          81
-        ],
-        "can": [
-          111
-        ],
-        "characterization": [
-          174
-        ],
-        "computation": [
-          144
-        ],
-        "conducted": [
-          176
-        ],
-        "core": [
-          151
-        ],
-        "core.": [
-          172
-        ],
-        "critical.": [
-          13
-        ],
-        "cryptographic": [
-          42,
-          51,
-          89
-        ],
-        "cryptography,": [
-          123
-        ],
-        "cryptography.": [
-          126
-        ],
-        "current": [
-          212
-        ],
-        "cycle-accurate": [
-          179
-        ],
-        "deeply": [
-          33
-        ],
-        "demonstrates": [
-          188
-        ],
-        "depending": [
-          227
-        ],
-        "deployed": [
-          23
-        ],
-        "deployment": [
-          6
-        ],
-        "derived": [
-          68
-        ],
-        "design": [
-          250
-        ],
-        "designed": [
-          20,
-          155
-        ],
-        "develop": [
-          131
-        ],
-        "driver": [
-          134
-        ],
-        "efficiency": [
-          142
-        ],
-        "embedded": [
-          34
-        ],
-        "emerging": [
-          4
-        ],
-        "environments.": [
-          36
-        ],
-        "establishment": [
-          64
-        ],
-        "even": [
-          207
-        ],
-        "every": [
-          128
-        ],
-        "focus": [
-          94
-        ],
-        "for": [
-          49,
-          135,
-          156,
-          206
-        ],
-        "four": [
-          113
-        ],
-        "fraction": [
-          216
-        ],
-        "from": [
-          30,
-          53,
-          69,
-          147,
-          198,
-          223
-        ],
-        "full": [
-          255
-        ],
-        "gains": [
-          209
-        ],
-        "gap": [
-          80
-        ],
-        "greater": [
-          208
-        ],
-        "guidelines": [
-          251
-        ],
-        "hardware": [
-          43
-        ],
-        "has": [
-          58
-        ],
-        "high-end": [
-          31
-        ],
-        "implementation": [
-          168
-        ],
-        "implementations,": [
-          194
-        ],
-        "in": [
-          5,
-          24,
-          260
-        ],
-        "inefficiencies": [
-          86
-        ],
-        "is": [
-          15,
-          95,
-          145,
-          204
-        ],
-        "it": [
-          164
-        ],
-        "its": [
-          141,
-          258
-        ],
-        "key": [
-          98
-        ],
-        "main": [
-          55
-        ],
-        "make": [
-          46
-        ],
-        "memory": [
-          230
-        ],
-        "no": [
-          60
-        ],
-        "of": [
-          28,
-          40,
-          65,
-          182,
-          217,
-          245,
-          257
-        ],
-        "offloaded": [
-          146
-        ],
-        "offloading": [
-          50,
-          88
-        ],
-        "on": [
-          96,
-          169,
-          177,
-          228
-        ],
-        "open": [
-          239
-        ],
-        "open-source": [
-          1,
-          17
-        ],
-        "optimization": [
-          244
-        ],
-        "outperforms": [
-          192
-        ],
-        "paper": [
-          77
-        ],
-        "platforms,": [
-          248
-        ],
-        "potential": [
-          205,
-          256
-        ],
-        "processor,": [
-          56
-        ],
-        "providing": [
-          249
-        ],
-        "quantitative": [
-          63
-        ],
-        "range": [
-          27
-        ],
-        "ranges": [
-          222
-        ],
-        "ranging": [
-          197
-        ],
-        "results": [
-          238
-        ],
-        "root-of-trust": [
-          19
-        ],
-        "safety": [
-          9
-        ],
-        "scenarios": [
-          7
-        ],
-        "secure": [
-          35,
-          74,
-          157,
-          247,
-          261
-        ],
-        "security": [
-          11,
-          114
-        ],
-        "significantly": [
-          191
-        ],
-        "silicon": [
-          18
-        ],
-        "simulator": [
-          181
-        ],
-        "software": [
-          167,
-          193
-        ],
-        "speedups": [
-          196
-        ],
-        "strengths": [
-          84
-        ],
-        "study": [
-          187
-        ],
-        "suitable": [
-          48
-        ],
-        "systems": [
-          2
-        ],
-        "systems,": [
-          29
-        ],
-        "that": [
-          45,
-          189
-        ],
-        "the": [
-          38,
-          54,
-          66,
-          136,
-          170,
-          183,
-          211,
-          218,
-          229,
-          234,
-          240,
-          243,
-          254
-        ],
-        "there": [
-          57,
-          203
-        ],
-        "this": [
-          79
-        ],
-        "thoroughly": [
-          82
-        ],
-        "three": [
-          97
-        ],
-        "to": [
-          21,
-          32,
-          91,
-          200,
-          225,
-          242,
-          252
-        ],
-        "unlock": [
-          253
-        ],
-        "used.": [
-          236
-        ],
-        "using": [
-          70
-        ],
-        "utilizes": [
-          214
-        ],
-        "various": [
-          41
-        ],
-        "was": [
-          175
-        ],
-        "way": [
-          241
-        ],
-        "we": [
-          130,
-          162
-        ],
-        "when": [
-          87,
-          143
-        ],
-        "where": [
-          8
-        ],
-        "which": [
-          110,
-          221
-        ],
-        "wide": [
-          26
-        ],
-        "with": [
-          195
-        ],
-        "within": [
-          152
-        ],
-        "workload,": [
-          129
-        ],
-        "workloads": [
-          52,
-          90
-        ],
-        "workloads:": [
-          115
-        ]
-      },
-      "authorships": [
-        {
-          "affiliations": [
-            {
-              "institution_ids": [
-                "https://openalex.org/I9360294"
-              ],
-              "raw_affiliation_string": "University of Bologna, Bologna, Italy"
-            }
-          ],
-          "author": {
-            "display_name": "Emanuele Parisi",
-            "id": "https://openalex.org/A5015497724",
-            "observed_orcids": [
-              "https://orcid.org/0000-0001-6607-7367"
-            ],
-            "orcid": "https://orcid.org/0000-0001-6607-7367"
-          },
-          "author_position": "first",
-          "countries": [
-            "IT"
-          ],
-          "institutions": [
-            {
-              "country_code": "IT",
-              "display_name": "University of Bologna",
-              "id": "https://openalex.org/I9360294",
-              "lineage": [
-                "https://openalex.org/I9360294"
-              ],
-              "ror": "https://ror.org/01111rn36",
-              "type": "education"
-            }
-          ],
-          "is_corresponding": false,
-          "raw_affiliation_strings": [
-            "University of Bologna, Bologna, Italy"
-          ],
-          "raw_author_name": "Emanuele Parisi",
-          "raw_orcid": "https://orcid.org/0000-0001-6607-7367"
-        },
-        {
-          "affiliations": [
-            {
-              "institution_ids": [
-                "https://openalex.org/I9360294"
-              ],
-              "raw_affiliation_string": "University of Bologna, Bologna, Italy"
-            }
-          ],
-          "author": {
-            "display_name": "Alberto Musa",
-            "id": "https://openalex.org/A5024336537",
-            "observed_orcids": [
-              "https://orcid.org/0009-0003-1912-3801"
-            ],
-            "orcid": "https://orcid.org/0009-0003-1912-3801"
-          },
-          "author_position": "middle",
-          "countries": [
-            "IT"
-          ],
-          "institutions": [
-            {
-              "country_code": "IT",
-              "display_name": "University of Bologna",
-              "id": "https://openalex.org/I9360294",
-              "lineage": [
-                "https://openalex.org/I9360294"
-              ],
-              "ror": "https://ror.org/01111rn36",
-              "type": "education"
-            }
-          ],
-          "is_corresponding": false,
-          "raw_affiliation_strings": [
-            "University of Bologna, Bologna, Italy"
-          ],
-          "raw_author_name": "Alberto Musa",
-          "raw_orcid": "https://orcid.org/0009-0003-1912-3801"
-        },
-        {
-          "affiliations": [
-            {
-              "institution_ids": [
-                "https://openalex.org/I9360294"
-              ],
-              "raw_affiliation_string": "University of Bologna, Bologna, Italy"
-            }
-          ],
-          "author": {
-            "display_name": "Maicol Ciani",
-            "id": "https://openalex.org/A5048259757",
-            "observed_orcids": [
-              "https://orcid.org/0009-0003-7861-9129"
-            ],
-            "orcid": "https://orcid.org/0009-0003-7861-9129"
-          },
-          "author_position": "middle",
-          "countries": [
-            "IT"
-          ],
-          "institutions": [
-            {
-              "country_code": "IT",
-              "display_name": "University of Bologna",
-              "id": "https://openalex.org/I9360294",
-              "lineage": [
-                "https://openalex.org/I9360294"
-              ],
-              "ror": "https://ror.org/01111rn36",
-              "type": "education"
-            }
-          ],
-          "is_corresponding": false,
-          "raw_affiliation_strings": [
-            "University of Bologna, Bologna, Italy"
-          ],
-          "raw_author_name": "Maicol Ciani",
-          "raw_orcid": "https://orcid.org/0009-0003-7861-9129"
-        },
-        {
-          "affiliations": [
-            {
-              "institution_ids": [
-                "https://openalex.org/I9360294"
-              ],
-              "raw_affiliation_string": "University of Bologna, Bologna, Italy"
-            }
-          ],
-          "author": {
-            "display_name": "Francesco Barchi",
-            "id": "https://openalex.org/A5022195134",
-            "observed_orcids": [
-              "https://orcid.org/0000-0001-5155-6883"
-            ],
-            "orcid": "https://orcid.org/0000-0001-5155-6883"
-          },
-          "author_position": "middle",
-          "countries": [
-            "IT"
-          ],
-          "institutions": [
-            {
-              "country_code": "IT",
-              "display_name": "University of Bologna",
-              "id": "https://openalex.org/I9360294",
-              "lineage": [
-                "https://openalex.org/I9360294"
-              ],
-              "ror": "https://ror.org/01111rn36",
-              "type": "education"
-            }
-          ],
-          "is_corresponding": false,
-          "raw_affiliation_strings": [
-            "University of Bologna, Bologna, Italy"
-          ],
-          "raw_author_name": "Francesco Barchi",
-          "raw_orcid": "https://orcid.org/0000-0001-5155-6883"
-        },
-        {
-          "affiliations": [
-            {
-              "institution_ids": [
-                "https://openalex.org/I9360294"
-              ],
-              "raw_affiliation_string": "University of Bologna, Bologna, Italy"
-            }
-          ],
-          "author": {
-            "display_name": "Davide Rossi",
-            "id": "https://openalex.org/A5023905268",
-            "observed_orcids": [
-              "https://orcid.org/0000-0002-0651-5393",
-              "https://orcid.org/0000-0002-9221-4633"
-            ],
-            "orcid": "https://orcid.org/0000-0002-0651-5393"
-          },
-          "author_position": "middle",
-          "countries": [
-            "IT"
-          ],
-          "institutions": [
-            {
-              "country_code": "IT",
-              "display_name": "University of Bologna",
-              "id": "https://openalex.org/I9360294",
-              "lineage": [
-                "https://openalex.org/I9360294"
-              ],
-              "ror": "https://ror.org/01111rn36",
-              "type": "education"
-            }
-          ],
-          "is_corresponding": false,
-          "raw_affiliation_strings": [
-            "University of Bologna, Bologna, Italy"
-          ],
-          "raw_author_name": "Davide Rossi",
-          "raw_orcid": "https://orcid.org/0000-0002-0651-5393"
-        },
-        {
-          "affiliations": [
-            {
-              "institution_ids": [
-                "https://openalex.org/I9360294"
-              ],
-              "raw_affiliation_string": "University of Bologna, Bologna, Italy"
-            }
-          ],
-          "author": {
-            "display_name": "Andrea Bartolini",
-            "id": "https://openalex.org/A5047906923",
-            "observed_orcids": [
-              "https://orcid.org/0000-0002-1148-2450"
-            ],
-            "orcid": "https://orcid.org/0000-0002-1148-2450"
-          },
-          "author_position": "middle",
-          "countries": [
-            "IT"
-          ],
-          "institutions": [
-            {
-              "country_code": "IT",
-              "display_name": "University of Bologna",
-              "id": "https://openalex.org/I9360294",
-              "lineage": [
-                "https://openalex.org/I9360294"
-              ],
-              "ror": "https://ror.org/01111rn36",
-              "type": "education"
-            }
-          ],
-          "is_corresponding": false,
-          "raw_affiliation_strings": [
-            "University of Bologna, Bologna, Italy"
-          ],
-          "raw_author_name": "Andrea Bartolini",
-          "raw_orcid": "https://orcid.org/0000-0002-1148-2450"
-        },
-        {
-          "affiliations": [
-            {
-              "institution_ids": [
-                "https://openalex.org/I9360294"
-              ],
-              "raw_affiliation_string": "University of Bologna, Bologna, Italy"
-            }
-          ],
-          "author": {
-            "display_name": "Andrea Acquaviva",
-            "id": "https://openalex.org/A5031653904",
-            "observed_orcids": [
-              "https://orcid.org/0000-0002-7323-759X",
-              "https://orcid.org/0009-0000-7763-2557"
-            ],
-            "orcid": "https://orcid.org/0000-0002-7323-759X"
-          },
-          "author_position": "last",
-          "countries": [
-            "IT"
-          ],
-          "institutions": [
-            {
-              "country_code": "IT",
-              "display_name": "University of Bologna",
-              "id": "https://openalex.org/I9360294",
-              "lineage": [
-                "https://openalex.org/I9360294"
-              ],
-              "ror": "https://ror.org/01111rn36",
-              "type": "education"
-            }
-          ],
-          "is_corresponding": false,
-          "raw_affiliation_strings": [
-            "University of Bologna, Bologna, Italy"
-          ],
-          "raw_author_name": "Andrea Acquaviva",
-          "raw_orcid": "https://orcid.org/0000-0002-7323-759X"
-        }
-      ],
-      "doi": "https://doi.org/10.1145/3649153.3649213",
-      "id": "https://openalex.org/W4400224457",
-      "primary_location": {
-        "doi": "https://doi.org/10.1145/3649153.3649213",
-        "id": "doi:10.1145/3649153.3649213",
-        "is_accepted": true,
-        "is_oa": true,
-        "is_published": true,
-        "landing_page_url": "https://doi.org/10.1145/3649153.3649213",
-        "license": "cc-by",
-        "license_id": "https://openalex.org/licenses/cc-by",
-        "pdf_url": null,
-        "raw_source_name": "Proceedings of the 21st ACM International Conference on Computing Frontiers",
-        "raw_type": "proceedings-article",
-        "source": {
-          "display_name": "ACM International Conference on Computing Frontiers (CF)",
-          "host_organization": null,
-          "host_organization_lineage": [],
-          "host_organization_lineage_names": [],
-          "host_organization_name": null,
-          "id": "https://openalex.org/S7407085882",
-          "is_core": false,
-          "is_in_doaj": false,
-          "is_oa": false,
-          "issn": null,
-          "issn_l": null,
-          "listed_in": [],
-          "type": "conference"
-        },
-        "version": "publishedVersion"
-      },
-      "publication_date": "2024-05-07",
-      "title": "Assessing the Performance of OpenTitan as Cryptographic Accelerator in Secure Open-Hardware System-on-Chips"
-    },
-    {
-      "abstract_inverted_index": {
-        "(TEEs),": [
-          17
-        ],
-        "2015,": [
-          31
-        ],
-        "ARM": [
-          87
-        ],
-        "Environments": [
-          16
-        ],
-        "Execution": [
-          15
-        ],
-        "However,": [
-          97
-        ],
-        "Intel": [
-          90
-        ],
-        "Over": [
-          0
-        ],
-        "Popular": [
-          82
-        ],
-        "SGX,": [
-          91
-        ],
-        "Since": [
-          30
-        ],
-        "TEE": [
-          61,
-          83
-        ],
-        "Their": [
-          56
-        ],
-        "These": [
-          45
-        ],
-        "They": [
-          72
-        ],
-        "This": [
-          118
-        ],
-        "TrustZone": [
-          88
-        ],
-        "Trusted": [
-          14
-        ],
-        "We": [
-          136
-        ],
-        "a": [
-          32
-        ],
-        "against": [
-          22,
-          94
-        ],
-        "aim": [
-          57
-        ],
-        "aiming": [
-          18
-        ],
-        "along": [
-          129
-        ],
-        "an": [
-          131
-        ],
-        "and": [
-          52,
-          64,
-          89
-        ],
-        "applications": [
-          21
-        ],
-        "article": [
-          119
-        ],
-        "as": [
-          69,
-          86
-        ],
-        "attacks": [
-          38,
-          48
-        ],
-        "attacks,": [
-          128
-        ],
-        "attacks.": [
-          55,
-          96,
-          152
-        ],
-        "been": [
-          111
-        ],
-        "believe": [
-          137
-        ],
-        "bypass": [
-          60
-        ],
-        "capabilities": [
-          103
-        ],
-        "channel": [
-          54
-        ],
-        "class": [
-          34
-        ],
-        "community": [
-          144
-        ],
-        "comprehensive": [
-          123
-        ],
-        "comprise": [
-          49
-        ],
-        "compromised": [
-          24
-        ],
-        "countermeasures": [
-          93,
-          99
-        ],
-        "countermeasures.": [
-          135
-        ],
-        "covert": [
-          53
-        ],
-        "cryptographic": [
-          70
-        ],
-        "designs": [
-          12
-        ],
-        "efforts": [
-          145
-        ],
-        "either": [
-          100
-        ],
-        "emerged.": [
-          44
-        ],
-        "energy": [
-          40
-        ],
-        "energy-based": [
-          47
-        ],
-        "evaluation": [
-          132
-        ],
-        "expose": [
-          65
-        ],
-        "fault,": [
-          50
-        ],
-        "few": [
-          3,
-          80
-        ],
-        "first": [
-          122
-        ],
-        "for": [
-          13
-        ],
-        "further": [
-          143
-        ],
-        "groups": [
-          7
-        ],
-        "guarantees": [
-          63
-        ],
-        "hardware": [
-          11,
-          37
-        ],
-        "has": [
-          43
-        ],
-        "have": [
-          8,
-          73,
-          110
-        ],
-        "hinder": [
-          101
-        ],
-        "implementations,": [
-          84
-        ],
-        "important": [
-          149
-        ],
-        "in": [
-          75,
-          77
-        ],
-        "including": [
-          27
-        ],
-        "incorporate": [
-          92
-        ],
-        "increased": [
-          74
-        ],
-        "increasingly": [
-          148
-        ],
-        "information": [
-          67
-        ],
-        "innovative": [
-          10
-        ],
-        "insufficient": [
-          115
-        ],
-        "internal": [
-          46
-        ],
-        "introduced": [
-          9
-        ],
-        "is": [
-          58
-        ],
-        "kernel.": [
-          29
-        ],
-        "keys.": [
-          71
-        ],
-        "knowledge": [
-          124
-        ],
-        "leveraging": [
-          39
-        ],
-        "literature": [
-          134
-        ],
-        "management": [
-          41,
-          107
-        ],
-        "mechanisms": [
-          42,
-          108
-        ],
-        "new": [
-          33
-        ],
-        "of": [
-          35,
-          104,
-          126,
-          133,
-          151
-        ],
-        "or": [
-          109
-        ],
-        "past": [
-          2,
-          79
-        ],
-        "potentially": [
-          23
-        ],
-        "power": [
-          106
-        ],
-        "presents": [
-          120
-        ],
-        "prevalence": [
-          76
-        ],
-        "privileged": [
-          25
-        ],
-        "protection.": [
-          117
-        ],
-        "provide": [
-          114
-        ],
-        "research": [
-          6
-        ],
-        "secure": [
-          20
-        ],
-        "security": [
-          62
-        ],
-        "sensitive": [
-          66
-        ],
-        "several": [
-          5
-        ],
-        "shown": [
-          112
-        ],
-        "side-channel": [
-          51
-        ],
-        "software,": [
-          26
-        ],
-        "software-enabled": [
-          36
-        ],
-        "spur": [
-          142
-        ],
-        "study": [
-          140
-        ],
-        "such": [
-          68,
-          85
-        ],
-        "survey": [
-          125
-        ],
-        "system": [
-          116
-        ],
-        "that": [
-          138
-        ],
-        "the": [
-          1,
-          28,
-          78,
-          102,
-          105,
-          121
-        ],
-        "these": [
-          95,
-          98,
-          127
-        ],
-        "this": [
-          139,
-          147
-        ],
-        "to": [
-          19,
-          59,
-          113
-        ],
-        "towards": [
-          146
-        ],
-        "type": [
-          150
-        ],
-        "will": [
-          141
-        ],
-        "with": [
-          130
-        ],
-        "years,": [
-          4
-        ],
-        "years.": [
-          81
-        ]
-      },
-      "authorships": [
-        {
-          "affiliations": [
-            {
-              "institution_ids": [
-                "https://openalex.org/I4210100151"
-              ],
-              "raw_affiliation_string": "IETR - Institut d'Électronique et des Technologies du numéRique (Campus de Beaulieu Bâtiment 11D 263 Av.Général Leclerc-CS 74205 35042 Rennes Cedex - France)"
-            },
-            {
-              "institution_ids": [
-                "https://openalex.org/I28221208"
-              ],
-              "raw_affiliation_string": "INSA Rennes - Institut National des Sciences Appliquées - Rennes (20, avenue des Buttes de Coësmes - CS 70839 - 35708 Rennes cedex 7 - France)"
-            },
-            {
-              "institution_ids": [
-                "https://openalex.org/I56067802"
-              ],
-              "raw_affiliation_string": "UR - Université de Rennes (Campus de Beaulieu, 263 avenue Général Leclerc, CS 74205, 35042 RENNES CEDEX - France)"
-            }
-          ],
-          "author": {
-            "display_name": "Gwenn Le Gonidec",
-            "id": "https://openalex.org/A5129270509",
-            "observed_orcids": [
-              "https://orcid.org/0009-0004-4774-6886"
-            ],
-            "orcid": "https://orcid.org/0009-0004-4774-6886"
-          },
-          "author_position": "first",
-          "countries": [
-            "FR"
-          ],
-          "institutions": [
-            {
-              "country_code": "FR",
-              "display_name": "Institut National des Sciences Appliquées de Rennes",
-              "id": "https://openalex.org/I28221208",
-              "lineage": [
-                "https://openalex.org/I28221208",
-                "https://openalex.org/I56067802"
-              ],
-              "ror": "https://ror.org/04xaa4j22",
-              "type": "education"
-            },
-            {
-              "country_code": "FR",
-              "display_name": "Institut d'Électronique et des Technologies du numéRique",
-              "id": "https://openalex.org/I4210100151",
-              "lineage": [
-                "https://openalex.org/I1294671590",
-                "https://openalex.org/I28221208",
-                "https://openalex.org/I4210095849",
-                "https://openalex.org/I4210100151",
-                "https://openalex.org/I56067802",
-                "https://openalex.org/I97188460"
-              ],
-              "ror": "https://ror.org/013q33h79",
-              "type": "facility"
-            },
-            {
-              "country_code": "FR",
-              "display_name": "Université de Rennes",
-              "id": "https://openalex.org/I56067802",
-              "lineage": [
-                "https://openalex.org/I56067802"
-              ],
-              "ror": "https://ror.org/015m7wh34",
-              "type": "education"
-            }
-          ],
-          "is_corresponding": false,
-          "raw_affiliation_strings": [
-            "IETR - Institut d'Électronique et des Technologies du numéRique (Campus de Beaulieu Bâtiment 11D 263 Av.Général Leclerc-CS 74205 35042 Rennes Cedex - France)",
-            "INSA Rennes - Institut National des Sciences Appliquées - Rennes (20, avenue des Buttes de Coësmes - CS 70839 - 35708 Rennes cedex 7 - France)",
-            "UR - Université de Rennes (Campus de Beaulieu, 263 avenue Général Leclerc, CS 74205, 35042 RENNES CEDEX - France)"
-          ],
-          "raw_author_name": "Gonidec, Gwenn Le",
-          "raw_orcid": null
-        },
-        {
-          "affiliations": [
-            {
-              "institution_ids": [
-                "https://openalex.org/I1294671590",
-                "https://openalex.org/I28221208",
-                "https://openalex.org/I4210100151"
-              ],
-              "raw_affiliation_string": "UnivRennes , INSA Rennes , CNRS , IETR-UMR 6164 , France"
-            },
-            {
-              "institution_ids": [
-                "https://openalex.org/I4210097536"
-              ],
-              "raw_affiliation_string": "LabSTIC - Laboratoire des Sciences et des Technologies de l'Information et de la Communication (university 08 mai 1945, Guelma - Algeria)"
-            }
-          ],
-          "author": {
-            "display_name": "Maria Méndez Real",
-            "id": "https://openalex.org/A5063239633",
-            "observed_orcids": [
-              "https://orcid.org/0000-0002-9336-9936",
-              "https://orcid.org/0000-0002-7071-7192"
-            ],
-            "orcid": "https://orcid.org/0000-0002-9336-9936"
-          },
-          "author_position": "middle",
-          "countries": [
-            "DZ",
-            "FR"
-          ],
-          "institutions": [
-            {
-              "country_code": "FR",
-              "display_name": "Centre National de la Recherche Scientifique",
-              "id": "https://openalex.org/I1294671590",
-              "lineage": [
-                "https://openalex.org/I1294671590"
-              ],
-              "ror": "https://ror.org/02feahw73",
-              "type": "government"
-            },
-            {
-              "country_code": "FR",
-              "display_name": "Institut National des Sciences Appliquées de Rennes",
-              "id": "https://openalex.org/I28221208",
-              "lineage": [
-                "https://openalex.org/I28221208",
-                "https://openalex.org/I56067802"
-              ],
-              "ror": "https://ror.org/04xaa4j22",
-              "type": "education"
-            },
-            {
-              "country_code": "DZ",
-              "display_name": "University of Guelma",
-              "id": "https://openalex.org/I4210097536",
-              "lineage": [
-                "https://openalex.org/I4210097536"
-              ],
-              "ror": "https://ror.org/00xe6p546",
-              "type": "education"
-            },
-            {
-              "country_code": "FR",
-              "display_name": "Institut d'Électronique et des Technologies du numéRique",
-              "id": "https://openalex.org/I4210100151",
-              "lineage": [
-                "https://openalex.org/I1294671590",
-                "https://openalex.org/I28221208",
-                "https://openalex.org/I4210095849",
-                "https://openalex.org/I4210100151",
-                "https://openalex.org/I56067802",
-                "https://openalex.org/I97188460"
-              ],
-              "ror": "https://ror.org/013q33h79",
-              "type": "facility"
-            }
-          ],
-          "is_corresponding": false,
-          "raw_affiliation_strings": [
-            "UnivRennes , INSA Rennes , CNRS , IETR-UMR 6164 , France",
-            "LabSTIC - Laboratoire des Sciences et des Technologies de l'Information et de la Communication (university 08 mai 1945, Guelma - Algeria)"
-          ],
-          "raw_author_name": "Real, Maria Méndez",
-          "raw_orcid": null
-        },
-        {
-          "affiliations": [
-            {
-              "institution_ids": [],
-              "raw_affiliation_string": "ANSSI - Agence nationale de la sécurité des systèmes d'information (France)"
-            }
-          ],
-          "author": {
-            "display_name": "Guillaume Bouffard",
-            "id": "https://openalex.org/A5036714028",
-            "observed_orcids": [
-              "https://orcid.org/0000-0002-2046-369X"
-            ],
-            "orcid": "https://orcid.org/0000-0002-2046-369X"
-          },
-          "author_position": "middle",
-          "countries": [],
-          "institutions": [],
-          "is_corresponding": false,
-          "raw_affiliation_strings": [
-            "ANSSI - Agence nationale de la sécurité des systèmes d'information (France)"
-          ],
-          "raw_author_name": "Bouffard, Guillaume",
-          "raw_orcid": null
-        },
-        {
-          "affiliations": [
-            {
-              "institution_ids": [
-                "https://openalex.org/I4210100151"
-              ],
-              "raw_affiliation_string": "IETR - Institut d'Électronique et des Technologies du numéRique (Campus de Beaulieu Bâtiment 11D 263 Av.Général Leclerc-CS 74205 35042 Rennes Cedex - France)"
-            },
-            {
-              "institution_ids": [
-                "https://openalex.org/I28221208"
-              ],
-              "raw_affiliation_string": "INSA Rennes - Institut National des Sciences Appliquées - Rennes (20, avenue des Buttes de Coësmes - CS 70839 - 35708 Rennes cedex 7 - France)"
-            },
-            {
-              "institution_ids": [
-                "https://openalex.org/I56067802"
-              ],
-              "raw_affiliation_string": "UR - Université de Rennes (Campus de Beaulieu, 263 avenue Général Leclerc, CS 74205, 35042 RENNES CEDEX - France)"
-            }
-          ],
-          "author": {
-            "display_name": "Jean-Christophe Prévotet",
-            "id": "https://openalex.org/A5016592881",
-            "observed_orcids": [
-              "https://orcid.org/0000-0001-6951-4702"
-            ],
-            "orcid": "https://orcid.org/0000-0001-6951-4702"
-          },
-          "author_position": "last",
-          "countries": [
-            "FR"
-          ],
-          "institutions": [
-            {
-              "country_code": "FR",
-              "display_name": "Institut National des Sciences Appliquées de Rennes",
-              "id": "https://openalex.org/I28221208",
-              "lineage": [
-                "https://openalex.org/I28221208",
-                "https://openalex.org/I56067802"
-              ],
-              "ror": "https://ror.org/04xaa4j22",
-              "type": "education"
-            },
-            {
-              "country_code": "FR",
-              "display_name": "Institut d'Électronique et des Technologies du numéRique",
-              "id": "https://openalex.org/I4210100151",
-              "lineage": [
-                "https://openalex.org/I1294671590",
-                "https://openalex.org/I28221208",
-                "https://openalex.org/I4210095849",
-                "https://openalex.org/I4210100151",
-                "https://openalex.org/I56067802",
-                "https://openalex.org/I97188460"
-              ],
-              "ror": "https://ror.org/013q33h79",
-              "type": "facility"
-            },
-            {
-              "country_code": "FR",
-              "display_name": "Université de Rennes",
-              "id": "https://openalex.org/I56067802",
-              "lineage": [
-                "https://openalex.org/I56067802"
-              ],
-              "ror": "https://ror.org/015m7wh34",
-              "type": "education"
-            }
-          ],
-          "is_corresponding": false,
-          "raw_affiliation_strings": [
-            "IETR - Institut d'Électronique et des Technologies du numéRique (Campus de Beaulieu Bâtiment 11D 263 Av.Général Leclerc-CS 74205 35042 Rennes Cedex - France)",
-            "INSA Rennes - Institut National des Sciences Appliquées - Rennes (20, avenue des Buttes de Coësmes - CS 70839 - 35708 Rennes cedex 7 - France)",
-            "UR - Université de Rennes (Campus de Beaulieu, 263 avenue Général Leclerc, CS 74205, 35042 RENNES CEDEX - France)"
-          ],
-          "raw_author_name": "Prévotet, Jean-Christophe",
-          "raw_orcid": null
-        }
-      ],
-      "doi": "https://doi.org/10.48550/arxiv.2405.15537",
-      "id": "https://openalex.org/W4399062478",
-      "primary_location": {
-        "doi": null,
-        "id": "pmh:oai:HAL:hal-04818136v1",
-        "is_accepted": false,
-        "is_oa": true,
-        "is_published": false,
-        "landing_page_url": "https://hal.science/hal-04818136",
-        "license": null,
-        "license_id": null,
-        "pdf_url": "http://arxiv.org/pdf/2405.15537",
-        "raw_source_name": "2024",
-        "raw_type": "info:eu-repo/semantics/preprint",
-        "source": {
-          "display_name": "HAL",
-          "host_organization": "https://openalex.org/I4405252976",
+          "display_name": "IEEE Symposium on Security and Privacy (S&P)",
+          "host_organization": "https://openalex.org/P4310320439",
           "host_organization_lineage": [
-            "https://openalex.org/I4405252976"
+            "https://openalex.org/P4310320439",
+            "https://openalex.org/P4310319808"
           ],
-          "host_organization_lineage_names": [],
-          "host_organization_name": "Centre pour la Communication Scientifique Directe",
-          "id": "https://openalex.org/S4306402512",
-          "is_core": false,
+          "host_organization_lineage_names": [
+            "IEEE Computer Society",
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "host_organization_name": "IEEE Computer Society",
+          "id": "https://openalex.org/S4210233669",
+          "is_core": true,
           "is_in_doaj": false,
           "is_oa": false,
-          "issn": null,
-          "issn_l": null,
-          "listed_in": [],
-          "type": "repository"
+          "issn": [
+            "1081-6011",
+            "2375-1207"
+          ],
+          "issn_l": "1081-6011",
+          "listed_in": [
+            "cwts-core",
+            "norway-2"
+          ],
+          "type": "conference"
         },
-        "version": "submittedVersion"
+        "version": "publishedVersion"
       },
-      "publication_date": "2024-05-24",
-      "title": "Do Not Trust Power Management: A Survey on Internal Energy-based Attacks Circumventing Trusted Execution Environments Security Properties"
+      "publication_date": "2024-05-19",
+      "title": "One for All and All for One: GNN-based Control-Flow Attestation for Embedded Devices"
     }
   ],
-  "query_index": 1
+  "query_index": 6
 }
