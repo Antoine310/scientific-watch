@@ -1255,6 +1255,23 @@
     "venue_priority": 2,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/tc.2024.3355772": {
+    "doi": "https://doi.org/10.1109/tc.2024.3355772",
+    "publication_date": "2024-01-22",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computers",
+    "score": 88,
+    "source": "https://doi.org/10.1109/tc.2024.3355772",
+    "summary": "Cet article propose SrcTEE (Secure Runtime Customizable Trusted Execution Environment), un environnement d'exécution de confiance personnalisable et sécurisé à l'exécution sur FPGA-SoC. Il intègre un schéma de démarrage sécurisé avec une clé racine actualisable et trois composants clés : CrloadIP pour le contrôle d'accès aux applications TEE et IP dynamiques, CexecIP pour l'exécution d'IP sans modifier l'OS du TEE tout en prévenant les attaques internes, et CremoAT pour l'attestation à distance et l'établissement d'une communication sécurisée. Une évaluation de sécurité et de performance a été réalisée sur Xilinx Zynq UltraScale+ MPSoC.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Towards Secure Runtime Customizable Trusted Execution Environment on FPGA-SoC",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/tc.2024.3377891": {
     "doi": "https://doi.org/10.1109/tc.2024.3377891",
     "publication_date": "2024-03-18",
@@ -3297,6 +3314,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2402.15824": {
+    "doi": "https://doi.org/10.48550/arxiv.2402.15824",
+    "publication_date": "2024-02-24",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2402.15824",
+    "summary": "Cet article présente Secure Scattered Memory (SSM), un nouveau système de mémoire sécurisée pour le cloud qui remplace le chiffrement basé sur des compteurs par un partage de secret polynomial. Chaque bloc de données est encodé en plusieurs parts indépendantes distribuées en mémoire, garantissant la confidentialité, l'intégrité et la fraîcheur. Implémenté en technologie 28 nm, SSM démontre des performances supérieures à plusieurs schémas récents de l'état de l'art.",
+    "themes": [
+      "T09 — Secure Memory"
+    ],
+    "title": "Secure Scattered Memory: Rethinking Secure Enclave Memory with Secret Sharing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2405.03217": {
     "doi": "https://doi.org/10.48550/arxiv.2405.03217",

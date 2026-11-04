@@ -440,6 +440,14 @@
       "title": "RTL Security Verification",
       "updated_at": "2026-10-30T09:43:21.897916+00:00"
     },
+    "doi:10.1007/978-3-031-55673-9_8": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Cryptographic Security Through a Hardware Root of Trust",
+      "updated_at": "2026-11-04T23:14:08.296839+00:00"
+    },
     "doi:10.1007/978-3-031-74498-3_21": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -2671,6 +2679,14 @@
       "status": "rejected",
       "title": "Feasibility of Physical Unclonable Functions from Pre-stressed Organic Thin Film Transistors for Secure Microelectronics",
       "updated_at": "2026-11-03T18:39:45.214499+00:00"
+    },
+    "doi:10.1016/j.mejo.2024.106113": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "High throughput dynamic dual entropy source true random number generator based on FPGA",
+      "updated_at": "2026-11-04T23:13:57.383774+00:00"
     },
     "doi:10.1016/j.mejo.2025.106951": {
       "category": "secondaire",
@@ -9232,6 +9248,14 @@
       "title": "K-/Ka-Band Dual-CP Planar Shared-Aperture Wide-Angle Scanning Array Antenna With Embedded Diplexer and Cancellation Network for >45-dB Tx–Rx Isolation",
       "updated_at": "2026-11-03T17:43:03.311666+00:00"
     },
+    "doi:10.1109/tc.2024.3355772": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "Towards Secure Runtime Customizable Trusted Execution Environment on FPGA-SoC",
+      "updated_at": "2026-11-04T23:14:19.983373+00:00"
+    },
     "doi:10.1109/tc.2024.3377891": {
       "category": "coeur",
       "decision": "conserver",
@@ -11327,6 +11351,14 @@
       "status": "rejected",
       "title": "A survey of lightweight small object detection for UAV edge deployment: information preservation, selective computation, and hardware co-design",
       "updated_at": "2026-11-02T15:15:18.386246+00:00"
+    },
+    "doi:10.1126/sciadv.adk6042": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Cryptographic transistor for true random number generator with low power consumption",
+      "updated_at": "2026-11-04T23:13:57.383781+00:00"
     },
     "doi:10.1126/sciadv.adr0112": {
       "category": "secondaire",
@@ -15072,6 +15104,14 @@
       "title": "GEnclave: User/Kernel-Level Enclave within Confidential VMs",
       "updated_at": "2026-10-31T23:15:22.326092+00:00"
     },
+    "doi:10.22214/ijraset.2024.58320": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Ring Oscillator Based True Random Number Generator",
+      "updated_at": "2026-11-04T23:13:57.383753+00:00"
+    },
     "doi:10.22214/ijraset.2025.73521": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -16351,6 +16391,14 @@
       "status": "rejected",
       "title": "Agri-Synergy: A Hardware–Software Co-Designed Hybrid IoT System for Sensor Interface Standardization and LLM-Driven Interactive Decision Support",
       "updated_at": "2026-11-02T14:38:08.812210+00:00"
+    },
+    "doi:10.3390/app14051700": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Strengthening Internet of Things Security: Surveying Physical Unclonable Functions for Authentication, Communication Protocols, Challenges, and Applications",
+      "updated_at": "2026-11-04T23:13:47.793008+00:00"
     },
     "doi:10.3390/app14135642": {
       "category": "secondaire",
@@ -19103,6 +19151,14 @@
       "status": "rejected",
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
+    },
+    "doi:10.48550/arxiv.2402.15824": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Secure Scattered Memory: Rethinking Secure Enclave Memory with Secret Sharing",
+      "updated_at": "2026-11-04T23:13:42.071096+00:00"
     },
     "doi:10.48550/arxiv.2405.03217": {
       "category": "coeur",
@@ -23711,6 +23767,14 @@
       "status": "imported",
       "title": "SPOILER-GUARD: Gating Latency Effects of Memory Accesses through Randomized Dependency Prediction",
       "updated_at": "2026-11-03T18:14:50.658850+00:00"
+    },
+    "title:standardbasedremoteattestationtheveraisonproject": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Standard-Based Remote Attestation: The Veraison Project",
+      "updated_at": "2026-11-04T23:14:18.046674+00:00"
     },
     "title:starscalableteebasedanonymousratelimiter": {
       "category": "secondaire",
