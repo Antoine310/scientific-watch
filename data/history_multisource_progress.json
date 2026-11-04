@@ -1,8 +1,8 @@
 {
   "accepted": 114,
   "completed": false,
-  "cursor": "MTc2MTkzMDU1MDAwMCwxMC4xMTA5JTJGZXQ2NjgwNi4yMDI1LjExMjA0MTQ3",
-  "evaluated": 2267,
+  "cursor": "MTc1MTU2NDc3MDAwMCwxMC4xMDE2JTJGai5yaW5lbmcuMjAyNS4xMDYwOTQ=",
+  "evaluated": 2290,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -155,59 +155,16 @@
     "monthly/2025-09/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2025-09/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2025-09/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2025-09/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2025-09/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-09/query-17 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-09/query-18 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2025-09",
   "needs_publish": false,
-  "offset": 360,
-  "pages_done": 2100,
-  "pages_in_query": 9,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "A. S. Mushenko"
-            }
-          },
-          {
-            "author": {
-              "display_name": "A. S. Kuzubova"
-            }
-          },
-          {
-            "author": {
-              "display_name": "A. D. Zolkin"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/cts67336.2025.11196490",
-        "id": "https://doi.org/10.1109/cts67336.2025.11196490",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/cts67336.2025.11196490"
-        },
-        "publication_date": "2025-09-17",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-09-17",
-        "publication_type": "conference",
-        "publication_venue": "2025 VI International Conference on Control in Technical Systems (CTS)",
-        "title": "Hardware and Software Implementation of a Secure Data Communication System with a Chaotic Carrier",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    }
-  ],
+  "offset": 400,
+  "pages_done": 2125,
+  "pages_in_query": 10,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2611,9 +2568,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 607,
-  "query_index": 17,
-  "secondary": 124,
-  "skipped": 2236,
+  "prefilter_review_overflow": 617,
+  "query_index": 19,
+  "secondary": 125,
+  "skipped": 2241,
   "version": 1
 }
