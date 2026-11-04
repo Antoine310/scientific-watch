@@ -1388,6 +1388,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/tvlsi.2025.3569219": {
+    "doi": "https://doi.org/10.1109/tvlsi.2025.3569219",
+    "publication_date": "2025-10-01",
+    "publication_date_note": "Date source Crossref : 2025-10 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2025-10",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "score": 90,
+    "source": "https://doi.org/10.1109/tvlsi.2025.3569219",
+    "summary": "Cet article propose un prédicteur de branchement sécurisé et à faible coût pour atténuer les attaques spéculatives en perturbant leur phase d'entraînement. La méthode évalue le niveau de risque des branches et utilise un générateur de nombres aléatoires pour inverser de manière probabiliste les prédictions. Implémenté sur le cœur RISC-V XuanTie-C910, le système démontre une faible surcharge matérielle et de performance tout en atténuant efficacement les attaques de type Spectre et Meltdown.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "A Low-Cost Secure Branch Predictor to Mitigate the Speculative Attacks by Disrupting Setup Phase",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tvlsi.2025.3579484": {
     "doi": "https://doi.org/10.1109/tvlsi.2025.3579484",
     "publication_date": "2025-10-01",

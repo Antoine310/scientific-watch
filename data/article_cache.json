@@ -464,6 +464,14 @@
       "title": "Incorporating Cryptoprocessor on RISC-V Architecture",
       "updated_at": "2026-11-04T12:25:16.797944+00:00"
     },
+    "doi:10.1007/978-3-032-06751-7_11": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Dissecting RISC-V Performance: Practical PMU Profiling and Hardware-Agnostic Roofline Analysis on Emerging Platforms",
+      "updated_at": "2026-11-04T14:25:12.852925+00:00"
+    },
     "doi:10.1007/978-3-032-07612-0_10": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -2072,6 +2080,14 @@
       "title": "A RISC-V based image acquisition system using CIS for industrial print quality inspection",
       "updated_at": "2026-11-03T15:08:42.279553+00:00"
     },
+    "doi:10.1016/j.jestch.2025.102139": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Implementation of FPGA based 32-bit RISC-V processor",
+      "updated_at": "2026-11-04T14:27:59.970094+00:00"
+    },
     "doi:10.1016/j.jfranklin.2026.108663": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -3424,6 +3440,14 @@
       "title": "Review of vulnerabilities in quantum hardware",
       "updated_at": "2026-11-04T08:49:57.530736+00:00"
     },
+    "doi:10.1088/2515-7647/ae0b18": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Array of vector vortex beam for audio security",
+      "updated_at": "2026-11-04T14:25:12.824510+00:00"
+    },
     "doi:10.1088/2631-7990/ae8c89": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -3543,6 +3567,14 @@
       "status": "rejected",
       "title": "The spectre of history",
       "updated_at": "2026-11-03T11:39:37.020579+00:00"
+    },
+    "doi:10.1093/comjnl/bxaf121": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Secure spatial skyline queries on encrypted data",
+      "updated_at": "2026-11-04T14:27:04.873745+00:00"
     },
     "doi:10.1093/jscr/rjag376": {
       "category": "hors_sujet",
@@ -7184,6 +7216,22 @@
       "title": "Bridging Cryptographic Robustness and Hardware Efficiency: A Comprehensive Analysis of S-Box Design Methodologies for SoC Integration",
       "updated_at": "2026-11-03T21:06:39.433992+00:00"
     },
+    "doi:10.1109/mdat.2025.3563410": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 50,
+      "status": "rejected",
+      "title": "Rethinking SoC Verification for Secure Cross-Layer Interactions",
+      "updated_at": "2026-11-04T14:25:27.343512+00:00"
+    },
+    "doi:10.1109/mdat.2025.3573686": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Leveraging RISC-V for HW/SW Codesign of Flexible and Efficient TinyML SoCs",
+      "updated_at": "2026-11-04T14:27:34.138955+00:00"
+    },
     "doi:10.1109/mdat.2025.3594634": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -7856,6 +7904,14 @@
       "title": "ROLoad-PMP: Securing Sensitive Operations for Kernels and Bare-Metal Firmware",
       "updated_at": "2026-11-02T17:56:36.634871+00:00"
     },
+    "doi:10.1109/tc.2025.3586029": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "RV-CURE: A RISC-V Capability Architecture for Full Memory Safety",
+      "updated_at": "2026-11-04T14:27:47.580418+00:00"
+    },
     "doi:10.1109/tc.2025.3603692": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -8255,6 +8311,30 @@
       "status": "rejected",
       "title": "De-Correlation and De-Bias Post-Processing Circuits for True Random Number Generator",
       "updated_at": "2026-11-03T14:14:18.852565+00:00"
+    },
+    "doi:10.1109/tcsi.2025.3536284": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Non-Linear Cyclic Variable Clock Feistel Bridge-Inspired Countermeasure for Securing RISC-V Crypto-Core Against Power Attacks",
+      "updated_at": "2026-11-04T14:27:21.363845+00:00"
+    },
+    "doi:10.1109/tcsi.2025.3547039": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Domain-Specific Hyperdimensional RISC-V Processor for Edge-AI Training",
+      "updated_at": "2026-11-04T14:27:34.110645+00:00"
+    },
+    "doi:10.1109/tcsi.2025.3552902": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A Lightweight PUF-Based Weights Obfuscation Technique for Secure In-Memory AI Inference",
+      "updated_at": "2026-11-04T14:25:27.308308+00:00"
     },
     "doi:10.1109/tcsi.2025.3568116": {
       "category": "secondaire",
@@ -9008,6 +9088,22 @@
       "title": "A 4.447 mW at 100 MHz and 49.62% Uniqueness XNOR–XOR RO PUF ASIC Using 180-nm CMOS Process for IoT Security Applications",
       "updated_at": "2026-11-04T13:51:04.803003+00:00"
     },
+    "doi:10.1109/tvlsi.2025.3569219": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "A Low-Cost Secure Branch Predictor to Mitigate the Speculative Attacks by Disrupting Setup Phase",
+      "updated_at": "2026-11-04T14:26:26.631245+00:00"
+    },
+    "doi:10.1109/tvlsi.2025.3575056": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A Response-Nonlinearized DEMUX-TDC PUF for Resistance Against Modeling Attacks and Secure Authentication Protocols",
+      "updated_at": "2026-11-04T14:26:26.659530+00:00"
+    },
     "doi:10.1109/tvlsi.2025.3579484": {
       "category": "coeur",
       "decision": "conserver",
@@ -9015,6 +9111,14 @@
       "status": "imported",
       "title": "A Secure-by-Design Hardware/Operating System as a Substrate for Trustworthy Computing",
       "updated_at": "2026-11-04T13:52:12.444625+00:00"
+    },
+    "doi:10.1109/tvlsi.2025.3586585": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Design of a CNN Accelerator for Multitask EEG Signal Classification Based on RISC-V",
+      "updated_at": "2026-11-04T14:27:47.549283+00:00"
     },
     "doi:10.1109/tvlsi.2025.3586902": {
       "category": "coeur",
@@ -10343,6 +10447,14 @@
       "status": "rejected",
       "title": "RISC-B: Hardware Blocks for the design of RISC-V-based SoCs",
       "updated_at": "2026-10-31T08:13:30.372966+00:00"
+    },
+    "doi:10.1145/3769081": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Graph Neural Networks for Integrated Circuit Design, Reliability, and Security: Survey and Tool",
+      "updated_at": "2026-11-04T14:24:57.830625+00:00"
     },
     "doi:10.1145/3770858": {
       "category": "secondaire",
@@ -12175,6 +12287,22 @@
       "status": "rejected",
       "title": "Implementation and Performance Analysis of a Multi-Stage BIOS Boot Process for D1-H RISC-V Systems",
       "updated_at": "2026-11-01T17:16:58.341764+00:00"
+    },
+    "doi:10.17559/tv-20241210002187": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Enhancing UAV Security through Comprehensive Vulnerability Analysis and an ARM PSA-Based Architecture",
+      "updated_at": "2026-11-04T14:24:45.443670+00:00"
+    },
+    "doi:10.17559/tv-20241227002215": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hybrid Logic Locking Using Horned Lizard Optimization and Q-Learning for Secure Hardware Design",
+      "updated_at": "2026-11-04T14:24:45.472727+00:00"
     },
     "doi:10.17559/tv-20251020003078": {
       "category": "hors_sujet",
@@ -15215,6 +15343,14 @@
       "status": "rejected",
       "title": "Hardware Implementation of a Two-Layer Neural Network Based on FPGA: Analysis of the Efficiency of Using ReLU and LeakyReLU Activation Functions",
       "updated_at": "2026-11-03T10:52:19.839698+00:00"
+    },
+    "doi:10.35848/1347-4065/ae01ad": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Dynamically varying resistances of silicon dioxide nanofilms and their potential for chaos-based secure communication",
+      "updated_at": "2026-11-04T14:26:48.919580+00:00"
     },
     "doi:10.35848/1347-4065/ae3770": {
       "category": "hors_sujet",
