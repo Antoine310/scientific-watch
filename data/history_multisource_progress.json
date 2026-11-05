@@ -1,8 +1,8 @@
 {
   "accepted": 129,
   "completed": false,
-  "cursor": "MTczNzY1ODA2NzAwMCwxMC4xMTA5JTJGamlvdC4yMDI1LjM1MzMwODc=",
-  "evaluated": 2661,
+  "cursor": "MTczNTc4NjY2NDAwMCwxMC4xMDE2JTJGai5hcGNhdGIuMjAyNS4xMjUwMTg=",
+  "evaluated": 2669,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -184,69 +184,16 @@
     "monthly/2025-07/query-21 : résultat tronqué au plafond 12 pages",
     "monthly/2025-07/query-22 : résultat tronqué au plafond 12 pages",
     "monthly/2025-07/query-24 : résultat tronqué au plafond 12 pages",
-    "monthly/2025-06/query-13 : résultat tronqué au plafond 12 pages"
+    "monthly/2025-06/query-13 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-06/query-14 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-06/query-15 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2025-06",
-  "needs_publish": true,
-  "offset": 80,
-  "pages_done": 2522,
-  "pages_in_query": 2,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Mohamed El-Hadedy"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Andrea Abelian"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Kenny Lee"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Benny N. Cheng"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Wen-Mei Hwu"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/les.2024.3510365",
-        "id": "https://doi.org/10.1109/les.2024.3510365",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/les.2024.3510365"
-        },
-        "publication_date": "2025-06-01",
-        "publication_date_note": "Date source Crossref : 2025-06 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2025-06",
-        "publication_type": "revue",
-        "publication_venue": "IEEE Embedded Systems Letters",
-        "title": "ANUBIS: Hybrid FPAA-FPGA Architecture for Entropy-Based True Random Number Generation in Secure UAV Communication",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T01 — Root of Trust & Secure Boot"
-      ]
-    }
-  ],
+  "needs_publish": false,
+  "offset": 120,
+  "pages_done": 2547,
+  "pages_in_query": 3,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2650,9 +2597,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 778,
-  "query_index": 14,
+  "prefilter_review_overflow": 781,
+  "query_index": 16,
   "secondary": 147,
-  "skipped": 2638,
+  "skipped": 2651,
   "version": 1
 }
