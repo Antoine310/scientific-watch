@@ -1,8 +1,8 @@
 {
   "accepted": 122,
   "completed": false,
-  "cursor": "MTc0NzE2MzAyMDAwMCwxMC4xMDE2JTJGai5pc2F0cmEuMjAyNS4wNC4wMzI=",
-  "evaluated": 2536,
+  "cursor": "MTc1NDM2NzM4NjAwMCwxMC4zMTAwNCUyRnJpZ2dzLnY0aTIuMTMzNg==",
+  "evaluated": 2561,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -175,14 +175,994 @@
     "monthly/2025-08/query-22 : résultat tronqué au plafond 12 pages",
     "monthly/2025-08/query-24 : résultat tronqué au plafond 12 pages",
     "monthly/2025-07/query-13 : résultat tronqué au plafond 12 pages",
-    "monthly/2025-07/query-14 : résultat tronqué au plafond 12 pages"
+    "monthly/2025-07/query-14 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-07/query-15 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-07/query-16 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2025-07",
   "needs_publish": false,
   "offset": 200,
-  "pages_done": 2381,
+  "pages_done": 2405,
   "pages_in_query": 5,
-  "pending": [],
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "(CPU)": [
+            8
+          ],
+          "(Internet": [
+            186
+          ],
+          "Additionally,": [
+            135
+          ],
+          "CPU": [
+            39
+          ],
+          "IoT": [
+            185
+          ],
+          "The": [
+            75,
+            94,
+            116,
+            144
+          ],
+          "This": [
+            0,
+            26
+          ],
+          "To": [
+            49
+          ],
+          "a": [
+            3,
+            23,
+            60,
+            98,
+            109
+          ],
+          "adaptability": [
+            139
+          ],
+          "additional": [
+            161
+          ],
+          "advanced": [
+            166
+          ],
+          "advancements,": [
+            153
+          ],
+          "algorithm": [
+            10,
+            72,
+            114,
+            157
+          ],
+          "algorithms": [
+            31,
+            85,
+            125
+          ],
+          "algorithms,": [
+            103
+          ],
+          "and": [
+            47,
+            66,
+            89,
+            107,
+            132,
+            170,
+            184
+          ],
+          "applications": [
+            177
+          ],
+          "applying": [
+            101
+          ],
+          "approach": [
+            122
+          ],
+          "approaches,": [
+            55
+          ],
+          "appropriate": [
+            71
+          ],
+          "as": [
+            38,
+            179
+          ],
+          "at": [
+            73
+          ],
+          "based": [
+            32
+          ],
+          "by": [
+            147
+          ],
+          "central": [
+            5
+          ],
+          "characteristics,": [
+            163
+          ],
+          "choose": [
+            68
+          ],
+          "cloud": [
+            180
+          ],
+          "computer": [
+            24
+          ],
+          "computing,": [
+            181,
+            183
+          ],
+          "concludes": [
+            146
+          ],
+          "conventional": [
+            92
+          ],
+          "database,": [
+            100
+          ],
+          "developing": [
+            97
+          ],
+          "diverse": [
+            141
+          ],
+          "dynamic": [
+            4,
+            113
+          ],
+          "dynamically": [
+            67
+          ],
+          "edge": [
+            182
+          ],
+          "efficiency.": [
+            134
+          ],
+          "efforts": [
+            81
+          ],
+          "enhance": [
+            83
+          ],
+          "environments.": [
+            189
+          ],
+          "evaluated": [
+            28
+          ],
+          "execution": [
+            21,
+            133
+          ],
+          "existing": [
+            124
+          ],
+          "exploration": [
+            164
+          ],
+          "for": [
+            112,
+            151,
+            175
+          ],
+          "future": [
+            152
+          ],
+          "highlighting": [
+            80
+          ],
+          "identify": [
+            64
+          ],
+          "improvements": [
+            90,
+            155
+          ],
+          "in": [
+            156
+          ],
+          "includes": [
+            96
+          ],
+          "including": [
+            154
+          ],
+          "incorporation": [
+            159
+          ],
+          "indicate": [
+            118
+          ],
+          "indicators": [
+            36
+          ],
+          "integrates": [
+            59
+          ],
+          "integration": [
+            171
+          ],
+          "key": [
+            34
+          ],
+          "learning": [
+            16,
+            88
+          ],
+          "limitations": [
+            52
+          ],
+          "literature,": [
+            79
+          ],
+          "machine": [
+            15,
+            87
+          ],
+          "measures": [
+            174
+          ],
+          "methodology": [
+            58,
+            95,
+            137
+          ],
+          "methods.": [
+            93
+          ],
+          "most": [
+            70
+          ],
+          "network": [
+            62,
+            111
+          ],
+          "neural": [
+            61,
+            110
+          ],
+          "of": [
+            53,
+            160,
+            165,
+            172,
+            187
+          ],
+          "offers": [
+            138
+          ],
+          "on": [
+            33
+          ],
+          "optimize": [
+            18
+          ],
+          "optimizing": [
+            104
+          ],
+          "outcomes,": [
+            106
+          ],
+          "outperforms": [
+            123
+          ],
+          "overcome": [
+            50
+          ],
+          "paper": [
+            1,
+            76
+          ],
+          "parameters.": [
+            143
+          ],
+          "pattern": [
+            167
+          ],
+          "patterns": [
+            65
+          ],
+          "performance": [
+            35
+          ],
+          "potential": [
+            150
+          ],
+          "precision,": [
+            158
+          ],
+          "presents": [
+            2
+          ],
+          "process": [
+            20,
+            99,
+            142,
+            162
+          ],
+          "processing": [
+            6
+          ],
+          "proposed": [
+            57,
+            121
+          ],
+          "real-world": [
+            176
+          ],
+          "recognition": [
+            168
+          ],
+          "regarding": [
+            126
+          ],
+          "related": [
+            78
+          ],
+          "response": [
+            45
+          ],
+          "results": [
+            117
+          ],
+          "reviews": [
+            77
+          ],
+          "runtime.": [
+            74
+          ],
+          "scheduling": [
+            9,
+            30,
+            84,
+            102
+          ],
+          "security": [
+            173
+          ],
+          "selection": [
+            11
+          ],
+          "selection.": [
+            115
+          ],
+          "six": [
+            29
+          ],
+          "study": [
+            27,
+            145
+          ],
+          "such": [
+            37,
+            178
+          ],
+          "system": [
+            12
+          ],
+          "system.": [
+            25
+          ],
+          "techniques,": [
+            169
+          ],
+          "that": [
+            13,
+            119
+          ],
+          "the": [
+            19,
+            51,
+            56,
+            69,
+            105,
+            120,
+            136,
+            149
+          ],
+          "things)": [
+            188
+          ],
+          "through": [
+            86
+          ],
+          "throughput,": [
+            131
+          ],
+          "throughput.": [
+            48
+          ],
+          "time,": [
+            42,
+            44,
+            46,
+            128,
+            130
+          ],
+          "to": [
+            17,
+            63,
+            82,
+            91,
+            140
+          ],
+          "traditional": [
+            54
+          ],
+          "training": [
+            108
+          ],
+          "turnaround": [
+            41,
+            129
+          ],
+          "underscoring": [
+            148
+          ],
+          "unit": [
+            7
+          ],
+          "utilization,": [
+            40
+          ],
+          "utilizes": [
+            14
+          ],
+          "waiting": [
+            43,
+            127
+          ],
+          "within": [
+            22
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Salman Khan"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Hasnat Raza"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mansoor Alam"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.54692/lgurjcsit.2025.91668",
+        "id": "https://doi.org/10.54692/lgurjcsit.2025.91668",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.54692/lgurjcsit.2025.91668"
+        },
+        "publication_date": "2025-07-30",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-07-30",
+        "publication_type": "revue",
+        "publication_venue": "Lahore Garrison University Research Journal of Computer Science and Information Technology",
+        "title": "An Intelligent Algorithm for Automatic Runtime Selection of Scheduling Algorithm using Pattern Recognition Techniques",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "(DSE).": [
+            50
+          ],
+          "(FPGAs)": [
+            22
+          ],
+          "(NSCD)": [
+            73
+          ],
+          "15–22%": [
+            146
+          ],
+          "18%": [
+            150
+          ],
+          "70%": [
+            143
+          ],
+          "Arrays": [
+            21
+          ],
+          "Co-Design": [
+            72
+          ],
+          "DSE": [
+            78,
+            139
+          ],
+          "Experiments": [
+            123
+          ],
+          "FPGA": [
+            108,
+            134
+          ],
+          "Field": [
+            18
+          ],
+          "Gate": [
+            20
+          ],
+          "It": [
+            110
+          ],
+          "NSCD": [
+            137
+          ],
+          "Neural": [
+            70
+          ],
+          "Programmable": [
+            19
+          ],
+          "Surrogate-Assisted": [
+            71
+          ],
+          "The": [
+            88
+          ],
+          "This": [
+            51,
+            66
+          ],
+          "Traditional": [
+            35
+          ],
+          "Wearable": [
+            0
+          ],
+          "Xilinx": [
+            132
+          ],
+          "Zynq-7000": [
+            133
+          ],
+          "a": [
+            24,
+            53,
+            69,
+            125
+          ],
+          "accelerates": [
+            76
+          ],
+          "achieving": [
+            145
+          ],
+          "across": [
+            107
+          ],
+          "and": [
+            15,
+            29,
+            46,
+            61,
+            97,
+            105,
+            120,
+            149,
+            158
+          ],
+          "applications": [
+            8,
+            58
+          ],
+          "approaches.": [
+            161
+          ],
+          "are": [
+            39,
+            64
+          ],
+          "as": [
+            10
+          ],
+          "augmented": [
+            16
+          ],
+          "becomes": [
+            52
+          ],
+          "bottleneck": [
+            54
+          ],
+          "by": [
+            80,
+            141
+          ],
+          "classification": [
+            128
+          ],
+          "co-design": [
+            37,
+            116,
+            160
+          ],
+          "compared": [
+            153
+          ],
+          "complex": [
+            43
+          ],
+          "computation": [
+            4
+          ],
+          "computing": [
+            31
+          ],
+          "configurations.": [
+            109
+          ],
+          "constraints": [
+            63
+          ],
+          "constraints.": [
+            122
+          ],
+          "convergence": [
+            113
+          ],
+          "critical.": [
+            65
+          ],
+          "data": [
+            100
+          ],
+          "demand": [
+            2
+          ],
+          "demonstrate": [
+            135
+          ],
+          "design": [
+            47
+          ],
+          "devices": [
+            1
+          ],
+          "due": [
+            41
+          ],
+          "embedded": [
+            57
+          ],
+          "enables": [
+            111
+          ],
+          "energy": [
+            121,
+            151
+          ],
+          "energy-efficient": [
+            28
+          ],
+          "environments.": [
+            34
+          ],
+          "exhaustive": [
+            156
+          ],
+          "expensive": [
+            82
+          ],
+          "exploration": [
+            49
+          ],
+          "for": [
+            27,
+            55
+          ],
+          "framework": [
+            74,
+            89
+          ],
+          "hardware": [
+            96
+          ],
+          "hardware-software": [
+            36
+          ],
+          "health": [
+            11
+          ],
+          "heuristic-based": [
+            159
+          ],
+          "high-performance": [
+            30
+          ],
+          "in": [
+            32
+          ],
+          "integrates": [
+            90
+          ],
+          "latency": [
+            60,
+            148
+          ],
+          "latency,": [
+            103
+          ],
+          "lightweight": [
+            91
+          ],
+          "loops": [
+            45
+          ],
+          "lower": [
+            147
+          ],
+          "methods": [
+            38
+          ],
+          "models": [
+            93
+          ],
+          "models.": [
+            87
+          ],
+          "monitoring,": [
+            12
+          ],
+          "motion": [
+            13,
+            127
+          ],
+          "neural": [
+            86
+          ],
+          "offer": [
+            23
+          ],
+          "on": [
+            95,
+            124
+          ],
+          "optimal": [
+            115
+          ],
+          "over": [
+            142
+          ],
+          "platform": [
+            26
+          ],
+          "power": [
+            62
+          ],
+          "power,": [
+            104
+          ],
+          "predict": [
+            102
+          ],
+          "predictive": [
+            85
+          ],
+          "process": [
+            79
+          ],
+          "profiling": [
+            99
+          ],
+          "proposes": [
+            68
+          ],
+          "rapid": [
+            112
+          ],
+          "real-time": [
+            7,
+            56
+          ],
+          "reality.": [
+            17
+          ],
+          "reconfigurable": [
+            25
+          ],
+          "reduces": [
+            138
+          ],
+          "replacing": [
+            81
+          ],
+          "research": [
+            67
+          ],
+          "savings": [
+            152
+          ],
+          "search": [
+            157
+          ],
+          "simulation": [
+            44
+          ],
+          "simulations": [
+            83
+          ],
+          "software": [
+            98
+          ],
+          "solutions": [
+            117
+          ],
+          "space": [
+            48
+          ],
+          "such": [
+            9,
+            33
+          ],
+          "support": [
+            6
+          ],
+          "surrogate": [
+            92
+          ],
+          "task": [
+            129
+          ],
+          "that": [
+            75,
+            136
+          ],
+          "the": [
+            77,
+            131
+          ],
+          "throughput": [
+            106
+          ],
+          "time": [
+            140
+          ],
+          "time-intensive": [
+            40
+          ],
+          "timing": [
+            119
+          ],
+          "to": [
+            5,
+            42,
+            101,
+            114,
+            154
+          ],
+          "tracking,": [
+            14
+          ],
+          "traditional": [
+            155
+          ],
+          "trained": [
+            94
+          ],
+          "ultra-low-latency": [
+            3
+          ],
+          "under": [
+            118
+          ],
+          "using": [
+            130
+          ],
+          "wearable": [
+            126
+          ],
+          "where": [
+            59
+          ],
+          "while": [
+            144
+          ],
+          "with": [
+            84
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": ""
+            }
+          },
+          {
+            "author": {
+              "display_name": "Parameswari M"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jeya Malar R"
+            }
+          },
+          {
+            "author": {
+              "display_name": ""
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jullie Josephine D.C."
+            }
+          },
+          {
+            "author": {
+              "display_name": ""
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ramya Devi S"
+            }
+          },
+          {
+            "author": {
+              "display_name": ""
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.21917/ijme.2025.0357",
+        "id": "https://doi.org/10.21917/ijme.2025.0357",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.21917/ijme.2025.0357"
+        },
+        "publication_date": "2025-07-01",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-07-01",
+        "publication_type": "revue",
+        "publication_venue": "ICTACT Journal on Microelectronics",
+        "title": "NEURAL-SURROGATE-ASSISTED HARDWARE-SOFTWARE CO-DESIGN FOR REAL-TIME RECONFIGURABLE FPGA SYSTEMS IN WEARABLE DEVICES",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2586,9 +3566,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 723,
-  "query_index": 15,
-  "secondary": 138,
-  "skipped": 2493,
+  "prefilter_review_overflow": 743,
+  "query_index": 17,
+  "secondary": 140,
+  "skipped": 2512,
   "version": 1
 }
