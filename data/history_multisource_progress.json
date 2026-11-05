@@ -1,8 +1,8 @@
 {
   "accepted": 123,
   "completed": false,
-  "cursor": "MTc2NzAzMzQyMDAwMCwxMC4xMTA5JTJGY29uZWNjdDY1ODYxLjIwMjUuMTEzMDY0MDg=",
-  "evaluated": 2586,
+  "cursor": "*",
+  "evaluated": 2596,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -177,192 +177,16 @@
     "monthly/2025-07/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2025-07/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2025-07/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2025-07/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2025-07/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-07/query-18 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-07/query-19 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2025-07",
   "needs_publish": false,
-  "offset": 400,
-  "pages_done": 2410,
-  "pages_in_query": 10,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Swaroop Ghosh"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Suryansh Upadhyay"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Abdullah Ash Saki"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/jproc.2025.3630989",
-        "id": "https://doi.org/10.1109/jproc.2025.3630989",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/jproc.2025.3630989"
-        },
-        "publication_date": "2025-07-01",
-        "publication_date_note": "Date source Crossref : 2025-07 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2025-07",
-        "publication_type": "revue",
-        "publication_venue": "Proceedings of the IEEE",
-        "title": "A Primer on Security of Quantum Computing Hardware",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Seoyoon Jang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Hyemin S. Lee"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Rashmi S. Agrawal"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Saurav Maji"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Adam Gierlach"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ceara A. Byrne"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ben Flaumenhaft"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Kailyn Schmidt"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jason Li"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Giovanni Traverso"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Anantha P. Chandrakasan"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/embc58623.2025.11254204",
-        "id": "https://doi.org/10.1109/embc58623.2025.11254204",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/embc58623.2025.11254204"
-        },
-        "publication_date": "2025-07-14",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-07-14",
-        "publication_type": "conference",
-        "publication_venue": "2025 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
-        "title": "Post Quantum Secure Communication Protocol with Ultra Low-Power Hardware Solution for Ingestible Medical Device",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Duc Anh Pham"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Nga Vu"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Zhixian Zhou"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Pai-Yen Chen"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/ap-s/cnc-usnc-ursi55537.2025.11266787",
-        "id": "https://doi.org/10.1109/ap-s/cnc-usnc-ursi55537.2025.11266787",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/ap-s/cnc-usnc-ursi55537.2025.11266787"
-        },
-        "publication_date": "2025-07-13",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-07-13",
-        "publication_type": "conference",
-        "publication_venue": "2025 IEEE International Symposium on Antennas and Propagation and North American Radio Science Meeting (AP-S/CNC-USNC-URSI)",
-        "title": "RF-Fingerprinted Reconfigurable-Intelligent-Surface for Countering Hardware Spoofing Attacks",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    }
-  ],
+  "offset": 0,
+  "pages_done": 2435,
+  "pages_in_query": 0,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2766,9 +2590,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 743,
-  "query_index": 17,
+  "prefilter_review_overflow": 747,
+  "query_index": 20,
   "secondary": 142,
-  "skipped": 2514,
+  "skipped": 2526,
   "version": 1
 }
