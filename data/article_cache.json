@@ -6088,6 +6088,14 @@
       "title": "Secure Embedded Hardware Architecture for Embodied Generative Intelligence in Robotic Perception–Action Systems",
       "updated_at": "2026-11-03T15:41:16.484689+00:00"
     },
+    "doi:10.1109/gcitc60406.2023.10426606": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Efficient Cache Timing Attack on the Present Algorithm for Master Key Recovery",
+      "updated_at": "2026-11-05T20:19:06.214927+00:00"
+    },
     "doi:10.1109/gcwcn66157.2025.11448546": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -7007,6 +7015,14 @@
       "status": "imported",
       "title": "Research on Security Technologies for RISC-V SoC Based on Permission Management",
       "updated_at": "2026-10-30T14:14:50.616312+00:00"
+    },
+    "doi:10.1109/icfpt59805.2023.00056": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "OpenTitan based Multi-Level Security in FPGA System-on-Chips",
+      "updated_at": "2026-11-05T20:21:59.362250+00:00"
     },
     "doi:10.1109/icftic68075.2025.11324933": {
       "category": "secondaire",
@@ -9343,6 +9359,14 @@
       "status": "rejected",
       "title": "Specification and Formal Verification of Hardware–Software Contracts for High-Assurance Computer Architectures",
       "updated_at": "2026-11-04T21:50:39.777491+00:00"
+    },
+    "doi:10.1109/mcsoc60832.2023.00089": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 72,
+      "status": "rejected",
+      "title": "Parallel Verification in RISC-V Secure Boot",
+      "updated_at": "2026-11-05T20:14:56.363634+00:00"
     },
     "doi:10.1109/mcsoc67473.2025.00033": {
       "category": "secondaire_technique",
@@ -12928,6 +12952,14 @@
       "title": "The Pomarinho enclave swarm: structural and petrological evidence of repeated quenching, splitting and magmatic erosion at the sidewalls of conduits (Iberian Variscan belt)",
       "updated_at": "2026-11-02T20:16:46.220256+00:00"
     },
+    "doi:10.1145/3583740.3628441": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Blockchain-based Runtime Attestation against Physical Fault Injection Attacks on Edge Devices",
+      "updated_at": "2026-11-05T20:15:16.072970+00:00"
+    },
     "doi:10.1145/3605098.3635994": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -12951,6 +12983,22 @@
       "status": "imported",
       "title": "Remote attestation of confidential VMs using ephemeral vTPMs",
       "updated_at": "2026-11-05T11:17:00.752285+00:00"
+    },
+    "doi:10.1145/3627106.3627145": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Secure MLaaS with Temper: Trusted and Efficient Model Partitioning and Enclave Reuse",
+      "updated_at": "2026-11-05T20:15:06.243041+00:00"
+    },
+    "doi:10.1145/3627106.3627199": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "Attack of the Knights:Non Uniform Cache Side Channel Attack",
+      "updated_at": "2026-11-05T20:19:09.946686+00:00"
     },
     "doi:10.1145/3634737.3637644": {
       "category": "secondaire_technique",
@@ -20976,6 +21024,22 @@
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
     },
+    "doi:10.48550/arxiv.2312.11094": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "A Survey of Side-Channel Attacks in Context of Cache -- Taxonomies, Analysis and Mitigation",
+      "updated_at": "2026-11-05T20:21:41.993160+00:00"
+    },
+    "doi:10.48550/arxiv.2312.11796": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "QuanShield: Protecting against Side-Channels Attacks using Self-Destructing Enclaves",
+      "updated_at": "2026-11-05T20:21:39.923524+00:00"
+    },
     "doi:10.48550/arxiv.2402.15824": {
       "category": "coeur",
       "decision": "examiner",
@@ -22575,6 +22639,14 @@
       "status": "rejected",
       "title": "Large-Scale RISC-V Processor Verification Using Automated Design Inspection and a Generic Simulation Method",
       "updated_at": "2026-10-31T14:13:50.361904+00:00"
+    },
+    "doi:10.5755/j02.eie.34650": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Deep Learning Method for Power Side-Channel Analysis on Chip Leakages",
+      "updated_at": "2026-11-05T20:18:54.085196+00:00"
     },
     "doi:10.5762/kais.2025.26.9.316": {
       "category": "hors_sujet",
@@ -25567,6 +25639,14 @@
       "status": "rejected",
       "title": "RISC-V Functional Safety for Autonomous Automotive Systems: An Analytical Framework and Research Roadmap for ML-Assisted Certification",
       "updated_at": "2026-11-03T12:28:09.994320+00:00"
+    },
+    "title:riscvprocessorperformanceanalysisofsecuredesignprinciples": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "RISC-V PROCESSOR PERFORMANCE ANALYSIS OF SECURE DESIGN PRINCIPLES",
+      "updated_at": "2026-11-05T20:19:07.999778+00:00"
     },
     "title:riscvsocにおけるsecureboot高速化及ひkeystoneenclaveにおける大規模テータ授受手法の改善": {
       "category": "secondaire",

@@ -522,6 +522,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/gcitc60406.2023.10426606": {
+    "doi": "https://doi.org/10.1109/gcitc60406.2023.10426606",
+    "publication_date": "2023-12-01",
+    "publication_type": "conference",
+    "publication_venue": "Global Conference on Information Technologies and Communications (GCITC)",
+    "score": 75,
+    "source": "http://dx.doi.org/10.1109/gcitc60406.2023.10426606",
+    "summary": "Cet article présente une attaque par canal auxiliaire basée sur le temps de cache et un cheval de Troie, combinée à un algorithme de recouvrement de clé, appliquée au chiffrement léger Present afin de récupérer la clé maître.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Efficient Cache Timing Attack on the Present Algorithm for Master Key Recovery",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/host55342.2024.10545348": {
     "doi": "https://doi.org/10.1109/host55342.2024.10545348",
     "publication_date": "2024-05-06",
@@ -710,6 +727,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/icfpt59805.2023.00056": {
+    "doi": "https://doi.org/10.1109/icfpt59805.2023.00056",
+    "publication_date": "2023-12-12",
+    "publication_type": "conference",
+    "publication_venue": "International Conference on Field-Programmable Technology (FPT)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/icfpt59805.2023.00056",
+    "summary": "Cet article propose une méthodologie de conception pour intégrer un sous-système de sécurité basé sur OpenTitan afin de permettre une sécurité multi-niveau dans les SoC FPGA. Il étend les capacités d'OpenTitan pour héberger des politiques de contrôle d'accès obligatoire (MAC) et les faire respecter dans les IP matérielles du SoC.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "OpenTitan based Multi-Level Security in FPGA System-on-Chips",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/ichora69329.2026.11537069": {
     "publication_date": "2026-05-21",
@@ -1715,6 +1749,23 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Remote attestation of confidential VMs using ephemeral vTPMs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3627106.3627199": {
+    "doi": "https://doi.org/10.1145/3627106.3627199",
+    "publication_date": "2023-12-02",
+    "publication_type": "conference",
+    "publication_venue": "Annual Computer Security Applications Conference",
+    "score": 80,
+    "source": "https://doi.org/10.1145/3627106.3627199",
+    "summary": "Cet article présente une nouvelle attaque par canal auxiliaire basée sur la distance (« distance-based side-channel attack ») exploitant le cache de dernier niveau (LLC) distribué d'un processeur multicœur. En mesurant les temps d'accès aux différents bancs du cache, les auteurs réussissent à extraire une partie d'une clé secrète AES sur un processeur Intel Knights Landing.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Attack of the Knights:Non Uniform Cache Side Channel Attack",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -3426,6 +3477,40 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.48550/arxiv.2312.11094": {
+    "doi": "https://doi.org/10.48550/arxiv.2312.11094",
+    "publication_date": "2023-12-18",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2312.11094",
+    "summary": "Cet article présente une étude approfondie des attaques par canaux auxiliaires ciblant la mémoire cache, en particulier le cache de dernier niveau (LLC). Il propose une taxonomie des attaques, analyse différentes microarchitectures, examine les techniques d'exploitation et évalue les stratégies de mitigation matérielles et logicielles avec leurs compromis.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "A Survey of Side-Channel Attacks in Context of Cache -- Taxonomies, Analysis and Mitigation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.48550/arxiv.2312.11796": {
+    "doi": "https://doi.org/10.48550/arxiv.2312.11796",
+    "publication_date": "2023-12-19",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2312.11796",
+    "summary": "QuanShield est un système conçu pour protéger les enclaves des Environnements d'Exécution de Confiance (TEEs) contre les attaques par canal auxiliaire basées sur les interruptions. En s'appuyant sur un mode d'ordonnancement sans tic (tickless) et sur la zone de sauvegarde (Save Area) du matériel réutilisée comme seconde pile, QuanShield exécute les enclaves sur un cœur CPU dédié de manière ininterrompue. Si une interruption survient, les données sensibles sont écrasées, provoquant l'échec de l'enclave et empêchant l'exploitation.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "QuanShield: Protecting against Side-Channels Attacks using Self-Destructing Enclaves",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.48550/arxiv.2402.15824": {
     "doi": "https://doi.org/10.48550/arxiv.2402.15824",
     "publication_date": "2024-02-24",
@@ -4885,6 +4970,23 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "RISCGuard: RISC-V Static Analysis Framework for Detecting Microarchitectural Vulnerabilities"
+  },
+  "title:riscvprocessorperformanceanalysisofsecuredesignprinciples": {
+    "doi": null,
+    "publication_date": "2023-12-01",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "https://hdl.handle.net/10945/72604",
+    "summary": "Ce projet explore les caractéristiques de microarchitecture des processeurs impactant la sécurité et les performances en concevant un processeur RISC-V sécurisé en priorité. Les auteurs ont implémenté des portions du design en SystemVerilog, démontrant la fonctionnalité et les performances via simulation, en mettant l'accent sur l'isolation mémoire et l'atténuation des attaques par canal auxiliaire.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "RISC-V PROCESSOR PERFORMANCE ANALYSIS OF SECURE DESIGN PRINCIPLES",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "title:sableminimalistinstructionlevelauthenticatedencryptionforconstrainedconfidentialcomputing": {
     "publication_date": "2026-07-18",
