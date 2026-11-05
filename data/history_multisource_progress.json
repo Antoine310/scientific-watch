@@ -1,8 +1,8 @@
 {
   "accepted": 119,
   "completed": false,
-  "cursor": "MTc1MTg5NjE2NTAwMCwxMC4xMTA5JTJGdG5zLjIwMjUuMzU4NTg1OQ==",
-  "evaluated": 2439,
+  "cursor": "MTc2Mjg4NTYwMjAwMCwxMC4xMTA5JTJGbWlwcjY3NTYwLjIwMjUuMDAwNjA=",
+  "evaluated": 2464,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -170,14 +170,105 @@
     "monthly/2025-08/query-16 : résultat tronqué au plafond 12 pages",
     "monthly/2025-08/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2025-08/query-19 : résultat tronqué au plafond 12 pages",
-    "monthly/2025-08/query-20 : résultat tronqué au plafond 12 pages"
+    "monthly/2025-08/query-20 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-08/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-08/query-22 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2025-08",
   "needs_publish": false,
-  "offset": 440,
-  "pages_done": 2304,
-  "pages_in_query": 11,
-  "pending": [],
+  "offset": 280,
+  "pages_done": 2324,
+  "pages_in_query": 7,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Marina Longo Dias"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Paulo F. Butzen"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ricardo Reis"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Cristina Meinhardt"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/sbcci66862.2025.11218667",
+        "id": "https://doi.org/10.1109/sbcci66862.2025.11218667",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/sbcci66862.2025.11218667"
+        },
+        "publication_date": "2025-08-25",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-08-25",
+        "publication_type": "conference",
+        "publication_venue": "2025 38th SBC/SBMicro/IEEE Symposium on Integrated Circuits and Systems Design (SBCCI)",
+        "title": "Impact of Circuit-Level Radiation-Hardening Techniques in Adders on a RISC-V Design",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Jiawei Ma"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Xueyong Liu"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/mcte67374.2025.11213778",
+        "id": "https://doi.org/10.1109/mcte67374.2025.11213778",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/mcte67374.2025.11213778"
+        },
+        "publication_date": "2025-08-29",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-08-29",
+        "publication_type": "conference",
+        "publication_venue": "2025 IEEE 8th International Conference on Mechatronics and Computer Technology Engineering (MCTE)",
+        "title": "Python-Based Lightweight and Extensible RISC-V Simulator: Design and Implementation",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2581,9 +2672,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 693,
-  "query_index": 21,
+  "prefilter_review_overflow": 710,
+  "query_index": 23,
   "secondary": 133,
-  "skipped": 2387,
+  "skipped": 2454,
   "version": 1
 }
