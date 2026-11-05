@@ -1,8 +1,8 @@
 {
   "accepted": 122,
   "completed": false,
-  "cursor": "MTc0NDkzMzgwMTAwMCwxMC4xMDE2JTJGai5jbHNyLjIwMjUuMTA2MTM5",
-  "evaluated": 2514,
+  "cursor": "MTc0NzE2MzAyMDAwMCwxMC4xMDE2JTJGai5pc2F0cmEuMjAyNS4wNC4wMzI=",
+  "evaluated": 2536,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -173,118 +173,16 @@
     "monthly/2025-08/query-20 : résultat tronqué au plafond 12 pages",
     "monthly/2025-08/query-21 : résultat tronqué au plafond 12 pages",
     "monthly/2025-08/query-22 : résultat tronqué au plafond 12 pages",
-    "monthly/2025-08/query-24 : résultat tronqué au plafond 12 pages"
+    "monthly/2025-08/query-24 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-07/query-13 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-07/query-14 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2025-07",
   "needs_publish": false,
-  "offset": 160,
-  "pages_done": 2356,
-  "pages_in_query": 4,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Quanli Deng"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Chunhua Wang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Gang Yang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Dingwei Luo"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/jiot.2025.3558963",
-        "id": "https://doi.org/10.1109/jiot.2025.3558963",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/jiot.2025.3558963"
-        },
-        "publication_date": "2025-07-01",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-07-01",
-        "publication_type": "revue",
-        "publication_venue": "IEEE Internet of Things Journal",
-        "title": "Discrete Memristive Delay Feedback Rulkov Neuron Model: Chaotic Dynamics, Hardware Implementation, and Application in Secure Communication",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T01 — Root of Trust & Secure Boot"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Jiahang Xu"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Chenyu Wu"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Shuai Han"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Chenguang He"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Yuanwei Liu"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/jiot.2025.3560827",
-        "id": "https://doi.org/10.1109/jiot.2025.3560827",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/jiot.2025.3560827"
-        },
-        "publication_date": "2025-07-01",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-07-01",
-        "publication_type": "revue",
-        "publication_venue": "IEEE Internet of Things Journal",
-        "title": "Robust Transmission Design for IRS-Assisted Secure Wireless-Powered Communication Network With Hardware Impairments",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T01 — Root of Trust & Secure Boot"
-      ]
-    }
-  ],
+  "offset": 200,
+  "pages_done": 2381,
+  "pages_in_query": 5,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2688,9 +2586,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 715,
-  "query_index": 13,
-  "secondary": 137,
-  "skipped": 2481,
+  "prefilter_review_overflow": 723,
+  "query_index": 15,
+  "secondary": 138,
+  "skipped": 2493,
   "version": 1
 }
