@@ -390,6 +390,46 @@
     "venue_priority": 1,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/dac63849.2025.11132602": {
+    "doi": "https://doi.org/10.1109/dac63849.2025.11132602",
+    "publication_date": "2025-06-22",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-06-22",
+    "publication_type": "conference",
+    "publication_venue": "2025 62nd ACM/IEEE Design Automation Conference (DAC)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/dac63849.2025.11132602",
+    "summary": "LightRIM est une méthode légère de mesure de l'intégrité du noyau Linux à l'exécution, conçue pour les applications embarquées aux ressources limitées. Elle utilise un processus de hachage en deux étapes, un algorithme de mesure déclenché par des événements et un algorithme heuristique pour atténuer les attaques TOCTOU tout en minimisant la surcharge CPU.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "LightRIM: Light Runtime Integrity Measurement for Linux Kernels in Embedded Applications",
+    "venue_landmark": "DAC",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/dac63849.2025.11132905": {
+    "doi": "https://doi.org/10.1109/dac63849.2025.11132905",
+    "publication_date": "2025-06-22",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-06-22",
+    "publication_type": "conference",
+    "publication_venue": "2025 62nd ACM/IEEE Design Automation Conference (DAC)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/dac63849.2025.11132905",
+    "summary": "FastPath est une méthodologie de vérification hybride combinant l'efficacité de la simulation et le caractère exhaustif de la vérification formelle pour détecter les fuites d'informations microarchitecturales dans les conceptions matérielles. Elle utilise un cadre d'analyse structurelle pour automatiser le processus, réduit l'effort manuel tout en maintenant une confiance exhaustive, et a permis de découvrir une vulnérabilité dans le processeur RISC-V cv32e40s.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "FastPath: A Hybrid Approach for Efficient Hardware Security Verification",
+    "venue_landmark": "DAC",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/dac63849.2025.11133149": {
     "publication_date": "2025-06-22",
     "publication_type": "conference",

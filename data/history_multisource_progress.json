@@ -1,8 +1,8 @@
 {
-  "accepted": 133,
+  "accepted": 135,
   "completed": false,
-  "cursor": "MTc1NTE5NjQ1OTAwMCwxMC4xMTA5JTJGbmV3Y2FzNjQ2NDguMjAyNS4xMTEwNzAyOQ==",
-  "evaluated": 2708,
+  "cursor": "MTc0NDgwNjk1MjAwMCwxMC4xMDE2JTJGai5iaW9zeXN0ZW1zZW5nLjIwMjUuMTA0MTU1",
+  "evaluated": 2728,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -187,128 +187,16 @@
     "monthly/2025-06/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2025-06/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2025-06/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2025-06/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2025-06/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-06/query-17 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-06/query-18 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2025-06",
   "needs_publish": false,
-  "offset": 360,
-  "pages_done": 2565,
-  "pages_in_query": 9,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Tianyi Wang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Zichen Wang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Cong Wang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Yuanchao Shu"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ruilong Deng"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Peng Cheng"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jiming Chen"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/cvpr52734.2025.01791",
-        "id": "https://doi.org/10.1109/cvpr52734.2025.01791",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/cvpr52734.2025.01791"
-        },
-        "publication_date": "2025-06-10",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-06-10",
-        "publication_type": "conference",
-        "publication_venue": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-        "title": "Can’t Slow Me Down: Learning Robust and Hardware-Adaptive Object Detectors against Latency Attacks for Edge Devices",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Pierre Filiol"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Théotime Bollengier"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Luc Jaulin"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jean-Christophe Le Lann"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/newcas64648.2025.11107029",
-        "id": "https://doi.org/10.1109/newcas64648.2025.11107029",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/newcas64648.2025.11107029"
-        },
-        "publication_date": "2025-06-22",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-06-22",
-        "publication_type": "conference",
-        "publication_venue": "2025 23rd IEEE Interregional NEWCAS Conference (NEWCAS)",
-        "title": "Efficient Hardware Primitives for Interval Contractors in Robotics and Integration to a Custom RISC-V ISA Extension",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    }
-  ],
+  "offset": 400,
+  "pages_done": 2590,
+  "pages_in_query": 10,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2712,9 +2600,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 802,
-  "query_index": 17,
-  "secondary": 152,
-  "skipped": 2665,
+  "prefilter_review_overflow": 805,
+  "query_index": 19,
+  "secondary": 153,
+  "skipped": 2676,
   "version": 1
 }

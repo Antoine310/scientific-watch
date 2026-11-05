@@ -3096,6 +3096,14 @@
       "title": "Cache partitioning for sparse matrix–vector multiplication on the A64FX",
       "updated_at": "2026-11-03T15:43:55.776419+00:00"
     },
+    "doi:10.1016/j.peva.2025.102479": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Optimizing parallel I/O performance in NVMe SSDs by Dynamic cache partitioning",
+      "updated_at": "2026-11-05T23:40:07.849669+00:00"
+    },
     "doi:10.1016/j.phycom.2025.102629": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -5488,6 +5496,14 @@
       "title": "Hardware Description Language Enabling Secure and Low-Power Surveillance Systems for Smart Cities",
       "updated_at": "2026-11-04T11:24:52.399715+00:00"
     },
+    "doi:10.1109/cvpr52734.2025.01791": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Can’t Slow Me Down: Learning Robust and Hardware-Adaptive Object Detectors against Latency Attacks for Edge Devices",
+      "updated_at": "2026-11-05T23:36:27.735334+00:00"
+    },
     "doi:10.1109/cyber-rci68134.2025.11385265": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -5504,6 +5520,38 @@
       "title": "RAP-Track: Efficient Control Flow Attestation via Parallel Tracking in Commodity MCUs",
       "updated_at": "2026-10-30T20:14:31.535567+00:00"
     },
+    "doi:10.1109/dac63849.2025.11132602": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "LightRIM: Light Runtime Integrity Measurement for Linux Kernels in Embedded Applications",
+      "updated_at": "2026-11-05T23:39:03.955619+00:00"
+    },
+    "doi:10.1109/dac63849.2025.11132623": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "SCONE: A Logic Locking Technique Utilizing SMT Solver and Circuit Encoding Scheme for Efficient Hardware IP Protection",
+      "updated_at": "2026-11-05T23:39:03.985726+00:00"
+    },
+    "doi:10.1109/dac63849.2025.11132905": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "FastPath: A Hybrid Approach for Efficient Hardware Security Verification",
+      "updated_at": "2026-11-05T23:39:12.763937+00:00"
+    },
+    "doi:10.1109/dac63849.2025.11133057": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "GLiTCH: GLiTCH induced Transitions for Secure Crypto-Hardware",
+      "updated_at": "2026-11-05T23:39:12.792269+00:00"
+    },
     "doi:10.1109/dac63849.2025.11133149": {
       "category": "coeur",
       "decision": "conserver",
@@ -5511,6 +5559,14 @@
       "status": "imported",
       "title": "Data Oblivious CPU: Microarchitectural Side-channel Leakage-Resilient Processor",
       "updated_at": "2026-10-30T20:15:22.143802+00:00"
+    },
+    "doi:10.1109/dac63849.2025.11133180": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "SeDA: Secure and Efficient DNN Accelerators with Hardware/Software Synergy",
+      "updated_at": "2026-11-05T23:39:12.819111+00:00"
     },
     "doi:10.1109/das69882.2026.11553351": {
       "category": "hors_sujet",
@@ -5799,6 +5855,14 @@
       "status": "rejected",
       "title": "One Method of Power Converter Hardware Protection Against RF TEMPEST Attacks",
       "updated_at": "2026-11-04T19:48:36.804351+00:00"
+    },
+    "doi:10.1109/edssc64492.2025.11183335": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "A Hybrid Clause Deletion Framework for Enhanced SMT Solving in Hardware Formal Verification",
+      "updated_at": "2026-11-05T23:39:21.081898+00:00"
     },
     "doi:10.1109/edtm58488.2024.10511353": {
       "category": "secondaire",
@@ -6368,6 +6432,14 @@
       "title": "Energy-Autonomous Neuromorphic Seizure Detection: Implementing Dynamic Hyperdimensional Computing (DynHD) on RISC-V BL616 Microcontrollers",
       "updated_at": "2026-11-03T14:30:18.194077+00:00"
     },
+    "doi:10.1109/icaita67588.2025.11137873": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Q-Learning-Based Obfuscation Finite State Machine for Hardware IP Protection",
+      "updated_at": "2026-11-05T23:39:12.871258+00:00"
+    },
     "doi:10.1109/icamida64673.2025.11209590": {
       "category": "secondaire",
       "decision": "examiner",
@@ -6407,6 +6479,14 @@
       "status": "rejected",
       "title": "A Hardware Trojan Detection Method for Post-Quantum Cryptography Based on Graph Convolutional Feature Fusion",
       "updated_at": "2026-11-03T09:07:23.703044+00:00"
+    },
+    "doi:10.1109/icc52391.2025.11161539": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "PAMA: PUF-based Aggregated Multi-hop Attestation Protocol for IoT",
+      "updated_at": "2026-11-05T23:39:21.024162+00:00"
     },
     "doi:10.1109/icc59461.2026.11587521": {
       "category": "hors_sujet",
@@ -6896,6 +6976,14 @@
       "title": "LLM-HyPZ: Hardware Vulnerability Discovery Using an LLM-Assisted Hybrid Platform for Zero-Shot Knowledge Extraction and Refinement",
       "updated_at": "2026-11-04T11:24:44.776103+00:00"
     },
+    "doi:10.1109/icdv66179.2025.11135049": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "A Solution for Built-in On-Chip Hardware Integrity Protection Adopting Resource-Optimized RO-PUF",
+      "updated_at": "2026-11-05T23:36:38.396543+00:00"
+    },
     "doi:10.1109/iceca66444.2025.11383520": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -7063,6 +7151,14 @@
       "status": "imported",
       "title": "Research on Security Technologies for RISC-V SoC Based on Permission Management",
       "updated_at": "2026-10-30T14:14:50.616312+00:00"
+    },
+    "doi:10.1109/icetis66286.2025.11144019": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "STAP Acceleration Method Based on Explainable Network Design and Hardware Deployment Verification",
+      "updated_at": "2026-11-05T23:36:38.423478+00:00"
     },
     "doi:10.1109/icfpt59805.2023.00056": {
       "category": "coeur",
@@ -8560,6 +8656,14 @@
       "title": "Secure Collaborative Computation Offloading and Resource Allocation in Cache-Assisted Ultradense IoT Networks With Multislope Channels",
       "updated_at": "2026-11-05T19:37:09.471120+00:00"
     },
+    "doi:10.1109/jiot.2025.3538984": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Reputation Evaluation Scheme Based on PUF and Blockchain With Channel Congestion Mitigation in the Internet of Vehicles",
+      "updated_at": "2026-11-05T23:39:37.831851+00:00"
+    },
     "doi:10.1109/jiot.2025.3541256": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -8575,6 +8679,14 @@
       "status": "rejected",
       "title": "Improving the Stability of APUF to 100% Without Extra Hardware Overhead for Enhancing the Performance of Security Authentication Protocols",
       "updated_at": "2026-11-05T12:37:03.568926+00:00"
+    },
+    "doi:10.1109/jiot.2025.3544443": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A Machine Learning Attack-Resistant PUF-Based Robust and Efficient Mutual Authentication Scheme in Fog-Enabled IoT Environments",
+      "updated_at": "2026-11-05T23:39:58.207060+00:00"
     },
     "doi:10.1109/jiot.2025.3544555": {
       "category": "secondaire",
@@ -9256,6 +9368,14 @@
       "title": "Investigation of Security Vulnerabilities in NVM-Based Persistent TinyML Hardware",
       "updated_at": "2026-11-05T10:38:00.751292+00:00"
     },
+    "doi:10.1109/les.2024.3502297": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "TENDRA: Targeted Endurance Attack on STT-RAM LLC",
+      "updated_at": "2026-11-05T23:39:47.889045+00:00"
+    },
     "doi:10.1109/les.2024.3510365": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -9863,6 +9983,14 @@
       "status": "rejected",
       "title": "Electromagnetic Side-Channel Emission Analysis from Hardware Trojan for the Advanced Encryption Standard Circuits",
       "updated_at": "2026-11-02T20:56:25.983683+00:00"
+    },
+    "doi:10.1109/newcas64648.2025.11107029": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Efficient Hardware Primitives for Interval Contractors in Robotics and Integration to a Custom RISC-V ISA Extension",
+      "updated_at": "2026-11-05T23:36:27.764193+00:00"
     },
     "doi:10.1109/nmitcon65824.2025.11188356": {
       "category": "secondaire",
@@ -10503,6 +10631,14 @@
       "status": "rejected",
       "title": "RISE: RISC-V Intermittent System Extensions for Batteryless IoT Devices",
       "updated_at": "2026-11-03T14:30:45.921444+00:00"
+    },
+    "doi:10.1109/svcc65277.2025.11133644": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Poster: RTOS Security Risks in Telecommunications Hardware",
+      "updated_at": "2026-11-05T23:36:38.370161+00:00"
     },
     "doi:10.1109/synchroinfo65403.2025.11079320": {
       "category": "hors_sujet",
@@ -12736,6 +12872,14 @@
       "title": "A Hardware Accelerated Euler Lagrange Algorithm for Simulating Acoustic Cavitation of Microbubbles",
       "updated_at": "2026-11-05T03:26:15.322676+00:00"
     },
+    "doi:10.1115/msec2025-155848": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A Digital Twin Framework for Computer Hardware Design and Assembly: A Risk-Prioritized Approach",
+      "updated_at": "2026-11-05T23:39:21.053657+00:00"
+    },
     "doi:10.1117/12.3032012": {
       "category": "coeur",
       "decision": "conserver",
@@ -13575,6 +13719,14 @@
       "status": "rejected",
       "title": "Morello-Cerise: A Proof of Strong Encapsulation for the Arm Morello Capability Hardware Architecture",
       "updated_at": "2026-11-05T22:37:11.262152+00:00"
+    },
+    "doi:10.1145/3729331": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Making Concurrent Hardware Verification Sequential",
+      "updated_at": "2026-11-05T23:36:38.340266+00:00"
     },
     "doi:10.1145/3731217.3731233": {
       "category": "hors_sujet",
@@ -23607,6 +23759,14 @@
       "status": "imported",
       "title": "Protection microarchitecturale d’un coeur de processeur RISC-V",
       "updated_at": "2026-10-31T20:15:02.898254+00:00"
+    },
+    "doi:10.70764/gdpu-bit.2025.1(1)-01": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Quantum-Ai Integration: A Systematic Review of Algorithms, Hardware Efficiency and Secure Applications",
+      "updated_at": "2026-11-05T23:39:12.845795+00:00"
     },
     "doi:10.70917/fce-2025-004": {
       "category": "hors_sujet",
