@@ -1,8 +1,8 @@
 {
   "accepted": 133,
   "completed": false,
-  "cursor": "MTc0OTU2MzgzNDAwMCwxMC4xMTQ4JTJGcmFkaW9sLjI0MTkwNA==",
-  "evaluated": 2683,
+  "cursor": "MTc1NTE5NjQ1OTAwMCwxMC4xMTA5JTJGbmV3Y2FzNjQ2NDguMjAyNS4xMTEwNzAyOQ==",
+  "evaluated": 2708,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -190,565 +190,63 @@
     "monthly/2025-06/query-16 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2025-06",
-  "needs_publish": true,
-  "offset": 120,
-  "pages_done": 2559,
-  "pages_in_query": 3,
+  "needs_publish": false,
+  "offset": 360,
+  "pages_done": 2565,
+  "pages_in_query": 9,
   "pending": [
     {
       "paper": {
-        "abstract_inverted_index": {
-          "A": [
-            115
-          ],
-          "Available": [
-            30
-          ],
-          "By": [
-            203
-          ],
-          "Chameleon": [
-            61,
-            94,
-            119,
-            182,
-            212
-          ],
-          "Hiding": [
-            14
-          ],
-          "It": [
-            135
-          ],
-          "RISC-V-based": [
-            75
-          ],
-          "Side-channel": [
-            0
-          ],
-          "System-on-Chip.": [
-            76
-          ],
-          "The": [
-            77,
-            165
-          ],
-          "a": [
-            17,
-            42,
-            51,
-            74,
-            106,
-            174,
-            205
-          ],
-          "actual": [
-            101
-          ],
-          "advancing": [
-            218
-          ],
-          "an": [
-            184,
-            214
-          ],
-          "analysis": [
-            133
-          ],
-          "and": [
-            26,
-            92,
-            108,
-            127,
-            160,
-            191
-          ],
-          "and,": [
-            48
-          ],
-          "are": [
-            16,
-            79
-          ],
-          "artificial": [
-            35
-          ],
-          "assessment": [
-            44,
-            208
-          ],
-          "attack": [
-            128
-          ],
-          "attacks": [
-            1
-          ],
-          "attacks,": [
-            195
-          ],
-          "attacks.": [
-            29
-          ],
-          "by": [
-            7,
-            100
-          ],
-          "captures": [
-            95
-          ],
-          "chaffing.": [
-            93
-          ],
-          "challenging": [
-            144
-          ],
-          "collected": [
-            72
-          ],
-          "comprehensive": [
-            65
-          ],
-          "cost-effective": [
-            18
-          ],
-          "countermeasure": [
-            19,
-            210
-          ],
-          "countermeasures": [
-            47
-          ],
-          "countermeasures.": [
-            114
-          ],
-          "critical": [
-            175
-          ],
-          "cryptographic": [
-            8,
-            148
-          ],
-          "current": [
-            200
-          ],
-          "data.": [
-            13
-          ],
-          "dataset": [
-            66,
-            139
-          ],
-          "datasets": [
-            32,
-            55
-          ],
-          "datasets.": [
-            181
-          ],
-          "deformations": [
-            98
-          ],
-          "delay,": [
-            90
-          ],
-          "designed": [
-            20,
-            140
-          ],
-          "develop": [
-            190
-          ],
-          "devices": [
-            9
-          ],
-          "dual": [
-            122
-          ],
-          "dynamic": [
-            86
-          ],
-          "each": [
-            163
-          ],
-          "effectiveness,": [
-            211
-          ],
-          "effects,": [
-            40
-          ],
-          "emitted": [
-            6
-          ],
-          "enables": [
-            168
-          ],
-          "end": [
-            161
-          ],
-          "essential": [
-            185
-          ],
-          "evaluating": [
-            112
-          ],
-          "evaluation.": [
-            224
-          ],
-          "exploit": [
-            2
-          ],
-          "extract": [
-            11
-          ],
-          "facilitate": [
-            142
-          ],
-          "feature": [
-            117
-          ],
-          "first": [
-            64,
-            138
-          ],
-          "focus": [
-            123
-          ],
-          "for": [
-            54,
-            111,
-            187,
-            217
-          ],
-          "four": [
-            82
-          ],
-          "frequency": [
-            87
-          ],
-          "from": [
-            73,
-            150
-          ],
-          "hardware": [
-            102
-          ],
-          "hiding": [
-            39,
-            84,
-            201
-          ],
-          "high-quality": [
-            166
-          ],
-          "highlighting": [
-            196
-          ],
-          "hinder": [
-            27
-          ],
-          "implementations,": [
-            103
-          ],
-          "in": [
-            179,
-            221
-          ],
-          "information": [
-            4
-          ],
-          "into": [
-            171
-          ],
-          "introduced": [
-            99
-          ],
-          "introduces": [
-            62
-          ],
-          "invaluable": [
-            215
-          ],
-          "is": [
-            120,
-            136,
-            213
-          ],
-          "it": [
-            105
-          ],
-          "its": [
-            121
-          ],
-          "key": [
-            116
-          ],
-          "leakage": [
-            5,
-            25,
-            97
-          ],
-          "leaving": [
-            50
-          ],
-          "making": [
-            104
-          ],
-          "measurements.": [
-            60
-          ],
-          "metadata": [
-            155,
-            167
-          ],
-          "models": [
-            36
-          ],
-          "more": [
-            206
-          ],
-          "morphing,": [
-            91
-          ],
-          "need": [
-            53
-          ],
-          "new": [
-            193
-          ],
-          "obfuscate": [
-            22
-          ],
-          "obfuscated": [
-            58,
-            69,
-            80,
-            151
-          ],
-          "of": [
-            45,
-            67,
-            118,
-            130,
-            146,
-            162,
-            199,
-            209
-          ],
-          "offering": [
-            56,
-            153,
-            204
-          ],
-          "often": [
-            177
-          ],
-          "on": [
-            34,
-            124
-          ],
-          "open": [
-            31
-          ],
-          "operation.": [
-            164
-          ],
-          "operations": [
-            149
-          ],
-          "overlooked": [
-            178
-          ],
-          "pinpoints": [
-            157
-          ],
-          "platform": [
-            186
-          ],
-          "power": [
-            70
-          ],
-          "precise": [
-            154
-          ],
-          "pressing": [
-            52
-          ],
-          "preventing": [
-            41
-          ],
-          "previous": [
-            180
-          ],
-          "process.": [
-            134
-          ],
-          "provides": [
-            183
-          ],
-          "random": [
-            89
-          ],
-          "real": [
-            96
-          ],
-          "real-world,": [
-            57,
-            68
-          ],
-          "realistic": [
-            43,
-            107,
-            207
-          ],
-          "rely": [
-            33
-          ],
-          "research": [
-            170
-          ],
-          "researchers": [
-            188
-          ],
-          "scaling,": [
-            88
-          ],
-          "segmentation": [
-            126,
-            172
-          ],
-          "segmenting": [
-            147
-          ],
-          "sensitive": [
-            12
-          ],
-          "side-channel": [
-            24,
-            59,
-            113,
-            132,
-            194,
-            223
-          ],
-          "simulate": [
-            38
-          ],
-          "stages": [
-            129
-          ],
-          "start": [
-            159
-          ],
-          "state-of-the-art": [
-            83,
-            220
-          ],
-          "step": [
-            176
-          ],
-          "systematic": [
-            169
-          ],
-          "task": [
-            145
-          ],
-          "techniques": [
-            15
-          ],
-          "techniques,": [
-            173
-          ],
-          "techniques.": [
-            202
-          ],
-          "techniques:": [
-            85
-          ],
-          "test": [
-            192
-          ],
-          "that": [
-            156
-          ],
-          "the": [
-            23,
-            63,
-            125,
-            131,
-            137,
-            143,
-            158,
-            197,
-            219,
-            222
-          ],
-          "these": [
-            28,
-            46
-          ],
-          "thus,": [
-            49
-          ],
-          "to": [
-            10,
-            21,
-            37,
-            141,
-            189
-          ],
-          "tool": [
-            110,
-            216
-          ],
-          "traces": [
-            71,
-            78
-          ],
-          "traces,": [
-            152
-          ],
-          "unintended": [
-            3
-          ],
-          "using": [
-            81
-          ],
-          "valuable": [
-            109
-          ],
-          "vulnerabilities": [
-            198
-          ]
-        },
+        "abstract_inverted_index": {},
         "authorships": [
           {
             "author": {
-              "display_name": "Davide Galli"
+              "display_name": "Tianyi Wang"
             }
           },
           {
             "author": {
-              "display_name": "Giuseppe Chiari"
+              "display_name": "Zichen Wang"
             }
           },
           {
             "author": {
-              "display_name": "Davide Zoni"
+              "display_name": "Cong Wang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Yuanchao Shu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ruilong Deng"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Peng Cheng"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jiming Chen"
             }
           }
         ],
-        "doi": "https://doi.org/10.46586/tches.v2025.i3.389-412",
-        "id": "https://doi.org/10.46586/tches.v2025.i3.389-412",
+        "doi": "https://doi.org/10.1109/cvpr52734.2025.01791",
+        "id": "https://doi.org/10.1109/cvpr52734.2025.01791",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.46586/tches.v2025.i3.389-412"
+          "landing_page_url": "https://doi.org/10.1109/cvpr52734.2025.01791"
         },
-        "publication_date": "2025-06-05",
+        "publication_date": "2025-06-10",
         "publication_date_note": "",
         "publication_date_precision": "day",
-        "publication_date_source": "2025-06-05",
-        "publication_type": "revue",
-        "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
-        "title": "Chameleon: A Dataset for Segmenting and Attacking Obfuscated Power Traces in Side-Channel Analysis",
+        "publication_date_source": "2025-06-10",
+        "publication_type": "conference",
+        "publication_venue": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "title": "Can’t Slow Me Down: Learning Robust and Hardware-Adaptive Object Detectors against Latency Attacks for Edge Devices",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -758,7 +256,56 @@
         "Crossref"
       ],
       "themes": [
-        "T06 — Microarchitectural Side Channels"
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Pierre Filiol"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Théotime Bollengier"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Luc Jaulin"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jean-Christophe Le Lann"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/newcas64648.2025.11107029",
+        "id": "https://doi.org/10.1109/newcas64648.2025.11107029",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/newcas64648.2025.11107029"
+        },
+        "publication_date": "2025-06-22",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-06-22",
+        "publication_type": "conference",
+        "publication_venue": "2025 23rd IEEE Interregional NEWCAS Conference (NEWCAS)",
+        "title": "Efficient Hardware Primitives for Interval Contractors in Robotics and Integration to a Custom RISC-V ISA Extension",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
       ]
     }
   ],
@@ -3165,9 +2712,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 789,
+  "prefilter_review_overflow": 802,
   "query_index": 17,
-  "secondary": 149,
-  "skipped": 2663,
+  "secondary": 152,
+  "skipped": 2665,
   "version": 1
 }
