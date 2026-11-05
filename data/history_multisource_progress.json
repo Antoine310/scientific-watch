@@ -1,8 +1,8 @@
 {
-  "accepted": 129,
+  "accepted": 130,
   "completed": false,
-  "cursor": "MTczNTc4NjY2NDAwMCwxMC4xMDE2JTJGai5hcGNhdGIuMjAyNS4xMjUwMTg=",
-  "evaluated": 2669,
+  "cursor": "MTc0OTQ0NzQ1ODAwMCwxMC40NjU4NiUyRnRjaGVzLnYyMDI1LmkzLjM2MS0zODg=",
+  "evaluated": 2673,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -186,14 +186,1976 @@
     "monthly/2025-07/query-24 : résultat tronqué au plafond 12 pages",
     "monthly/2025-06/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2025-06/query-14 : résultat tronqué au plafond 12 pages",
-    "monthly/2025-06/query-15 : résultat tronqué au plafond 12 pages"
+    "monthly/2025-06/query-15 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-06/query-16 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2025-06",
-  "needs_publish": false,
-  "offset": 120,
-  "pages_done": 2547,
-  "pages_in_query": 3,
-  "pending": [],
+  "needs_publish": true,
+  "offset": 80,
+  "pages_done": 2558,
+  "pages_in_query": 2,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "(TAs),": [
+            169
+          ],
+          "(TEEs)": [
+            3
+          ],
+          "(TREE),": [
+            122
+          ],
+          "(i.e.,": [
+            63,
+            95
+          ],
+          "Additionally,": [
+            227
+          ],
+          "BYOTee)": [
+            98
+          ],
+          "Bitcoin": [
+            320
+          ],
+          "Despite": [
+            48
+          ],
+          "Environments": [
+            2,
+            121
+          ],
+          "Execution": [
+            1,
+            120
+          ],
+          "FPGA": [
+            41,
+            223,
+            235
+          ],
+          "FPGA,": [
+            263
+          ],
+          "FPGA-based": [
+            54,
+            133
+          ],
+          "FPGAs": [
+            147
+          ],
+          "FPGAs.": [
+            112
+          ],
+          "FPGA’s": [
+            184
+          ],
+          "For": [
+            303
+          ],
+          "In": [
+            113
+          ],
+          "MeetGo": [
+            64
+          ],
+          "OP-TEE.": [
+            281
+          ],
+          "On": [
+            84
+          ],
+          "One": [
+            33
+          ],
+          "Our": [
+            155,
+            258
+          ],
+          "Reconfigurable": [
+            119
+          ],
+          "ShEF)": [
+            66
+          ],
+          "SoC-FPGA": [
+            196
+          ],
+          "Some": [
+            61
+          ],
+          "TA": [
+            310
+          ],
+          "TAs": [
+            171,
+            244
+          ],
+          "TAs.": [
+            302
+          ],
+          "TEE": [
+            26,
+            46,
+            80,
+            134,
+            153,
+            231
+          ],
+          "TEEOD": [
+            96
+          ],
+          "TEEs": [
+            55
+          ],
+          "TREE": [
+            136,
+            157,
+            228,
+            266
+          ],
+          "TREE:": [
+            313
+          ],
+          "TREE’s": [
+            189,
+            286
+          ],
+          "The": [
+            282
+          ],
+          "Trusted": [
+            0,
+            118
+          ],
+          "With": [
+            17
+          ],
+          "a": [
+            6,
+            11,
+            57,
+            123,
+            319
+          ],
+          "access": [
+            218,
+            315
+          ],
+          "achieves": [
+            293
+          ],
+          "after": [
+            213,
+            225
+          ],
+          "against": [
+            280
+          ],
+          "aim": [
+            90
+          ],
+          "an": [
+            255,
+            261,
+            314
+          ],
+          "and": [
+            65,
+            82,
+            97,
+            106,
+            170,
+            177,
+            202,
+            215,
+            240,
+            250,
+            269,
+            277,
+            318
+          ],
+          "applications": [
+            168,
+            271
+          ],
+          "applications.": [
+            16
+          ],
+          "approaches.": [
+            135
+          ],
+          "architectures,": [
+            24
+          ],
+          "are": [
+            289
+          ],
+          "assess": [
+            307
+          ],
+          "assessing": [
+            265
+          ],
+          "authenticator": [
+            317
+          ],
+          "become": [
+            5
+          ],
+          "bitstream": [
+            209
+          ],
+          "boot.": [
+            226
+          ],
+          "both": [
+            174
+          ],
+          "but": [
+            74
+          ],
+          "by": [
+            180
+          ],
+          "capabilities": [
+            109,
+            145
+          ],
+          "capabilities.": [
+            188
+          ],
+          "combine": [
+            173
+          ],
+          "compare": [
+            273
+          ],
+          "compared": [
+            299
+          ],
+          "compatibility": [
+            76,
+            94,
+            150
+          ],
+          "components,": [
+            179
+          ],
+          "compromising": [
+            149
+          ],
+          "computing": [
+            19
+          ],
+          "context,": [
+            115
+          ],
+          "control": [
+            316
+          ],
+          "conventional": [
+            195
+          ],
+          "costs": [
+            276,
+            288
+          ],
+          "critical": [
+            252
+          ],
+          "cryptographic": [
+            241
+          ],
+          "current": [
+            51,
+            132
+          ],
+          "custom": [
+            175
+          ],
+          "data": [
+            249
+          ],
+          "demonstrations,": [
+            305
+          ],
+          "designers": [
+            139
+          ],
+          "drawbacks.": [
+            60
+          ],
+          "dynamic": [
+            104,
+            185
+          ],
+          "empirical": [
+            304
+          ],
+          "enables": [
+            137
+          ],
+          "enabling": [
+            243
+          ],
+          "ensure": [
+            206
+          ],
+          "ensures": [
+            159
+          ],
+          "entry-level": [
+            262
+          ],
+          "environment.": [
+            257
+          ],
+          "especially": [
+            297
+          ],
+          "essential": [
+            230
+          ],
+          "establish": [
+            92
+          ],
+          "established": [
+            78
+          ],
+          "evaluation": [
+            259
+          ],
+          "examples": [
+            311
+          ],
+          "execution": [
+            161
+          ],
+          "existing": [
+            130,
+            152
+          ],
+          "exploiting": [
+            182
+          ],
+          "fabric": [
+            224
+          ],
+          "fabric,": [
+            236
+          ],
+          "fail": [
+            99
+          ],
+          "for": [
+            9
+          ],
+          "framework": [
+            125
+          ],
+          "fulfills": [
+            127
+          ],
+          "fully": [
+            101,
+            141,
+            181
+          ],
+          "functions,": [
+            242
+          ],
+          "gaps": [
+            129
+          ],
+          "hand,": [
+            87
+          ],
+          "hardware": [
+            176,
+            275,
+            287,
+            301
+          ],
+          "hardware,": [
+            164
+          ],
+          "has": [
+            38
+          ],
+          "have": [
+            4,
+            56
+          ],
+          "heterogeneous": [
+            23
+          ],
+          "implementation": [
+            158
+          ],
+          "implementations": [
+            52
+          ],
+          "in": [
+            111,
+            131,
+            254
+          ],
+          "including": [
+            198,
+            237
+          ],
+          "inherent": [
+            110
+          ],
+          "initial": [
+            200,
+            208
+          ],
+          "integrating": [
+            25
+          ],
+          "integrity": [
+            210
+          ],
+          "into": [
+            28
+          ],
+          "introduce": [
+            117
+          ],
+          "involved": [
+            264
+          ],
+          "is": [
+            31,
+            211,
+            219
+          ],
+          "isolated": [
+            256
+          ],
+          "it": [
+            292
+          ],
+          "its": [
+            274
+          ],
+          "kept": [
+            212
+          ],
+          "lack": [
+            75
+          ],
+          "legacy": [
+            79,
+            93,
+            165
+          ],
+          "leverage": [
+            142
+          ],
+          "leveraging": [
+            40
+          ],
+          "line": [
+            35
+          ],
+          "loaded": [
+            214
+          ],
+          "loading": [
+            70
+          ],
+          "mechanisms": [
+            197
+          ],
+          "memory": [
+            203
+          ],
+          "microbenchmarks": [
+            268
+          ],
+          "minimal,": [
+            290
+          ],
+          "modern": [
+            18
+          ],
+          "modules": [
+            73
+          ],
+          "novel": [
+            124
+          ],
+          "of": [
+            14,
+            36,
+            53,
+            59,
+            71,
+            146,
+            162,
+            191
+          ],
+          "on": [
+            194,
+            260,
+            312
+          ],
+          "operations": [
+            253
+          ],
+          "other": [
+            86
+          ],
+          "parallel": [
+            107
+          ],
+          "paramount.": [
+            32
+          ],
+          "partial": [
+            186
+          ],
+          "perform": [
+            251
+          ],
+          "performance": [
+            278,
+            295
+          ],
+          "pivotal": [
+            7
+          ],
+          "potential,": [
+            50
+          ],
+          "prioritize": [
+            67
+          ],
+          "processing": [
+            108
+          ],
+          "promising": [
+            34,
+            45
+          ],
+          "proposed": [
+            39
+          ],
+          "protection,": [
+            204
+          ],
+          "provide": [
+            44
+          ],
+          "provides": [
+            229
+          ],
+          "real-world": [
+            270,
+            309
+          ],
+          "reconfigurability": [
+            105,
+            144
+          ],
+          "reconfigurable": [
+            72
+          ],
+          "reconfiguration": [
+            187,
+            201,
+            217
+          ],
+          "reference": [
+            156
+          ],
+          "relies": [
+            193
+          ],
+          "research": [
+            37
+          ],
+          "restricted": [
+            220
+          ],
+          "results": [
+            283
+          ],
+          "root": [
+            190
+          ],
+          "secure": [
+            69,
+            160,
+            199,
+            238
+          ],
+          "securely": [
+            246
+          ],
+          "securing": [
+            10
+          ],
+          "security-sensitive": [
+            15
+          ],
+          "sensitive": [
+            248
+          ],
+          "services": [
+            232
+          ],
+          "services.": [
+            83
+          ],
+          "set": [
+            58
+          ],
+          "shifting": [
+            21
+          ],
+          "showed": [
+            284
+          ],
+          "significant": [
+            294
+          ],
+          "software": [
+            166,
+            178
+          ],
+          "solutions": [
+            62
+          ],
+          "solutions.": [
+            47
+          ],
+          "specifications": [
+            81
+          ],
+          "specifications.": [
+            154
+          ],
+          "spectrum": [
+            13
+          ],
+          "speedups": [
+            279
+          ],
+          "speedups,": [
+            296
+          ],
+          "storage": [
+            239
+          ],
+          "store": [
+            247
+          ],
+          "support": [
+            27
+          ],
+          "system": [
+            138
+          ],
+          "systems": [
+            20,
+            30
+          ],
+          "technology": [
+            8,
+            42
+          ],
+          "that": [
+            89,
+            126,
+            172,
+            216,
+            285
+          ],
+          "the": [
+            68,
+            85,
+            103,
+            128,
+            143,
+            183,
+            207,
+            222,
+            234
+          ],
+          "their": [
+            49
+          ],
+          "these": [
+            29
+          ],
+          "this": [
+            114
+          ],
+          "those": [
+            88
+          ],
+          "to": [
+            22,
+            43,
+            91,
+            100,
+            140,
+            205,
+            221,
+            245,
+            272,
+            300
+          ],
+          "trust": [
+            192
+          ],
+          "trusted": [
+            167
+          ],
+          "two": [
+            308
+          ],
+          "user-customized": [
+            163
+          ],
+          "using": [
+            267
+          ],
+          "utilize": [
+            102
+          ],
+          "wallet.": [
+            321
+          ],
+          "we": [
+            116,
+            306
+          ],
+          "when": [
+            298
+          ],
+          "while": [
+            291
+          ],
+          "wide": [
+            12
+          ],
+          "with": [
+            77,
+            151
+          ],
+          "within": [
+            233
+          ],
+          "without": [
+            148
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Sérgio Pereira"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Tiago Gomes"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jorge Cabral"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sandro Pinto"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.46586/tches.v2025.i3.115-138",
+        "id": "https://doi.org/10.46586/tches.v2025.i3.115-138",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.46586/tches.v2025.i3.115-138"
+        },
+        "publication_date": "2025-06-05",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-06-05",
+        "publication_type": "revue",
+        "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+        "title": "TREE: Bridging the gap between reconfigurable computing and secure execution",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "(NTT)": [
+            74
+          ],
+          "11,378": [
+            250
+          ],
+          "128-bit": [
+            241
+          ],
+          "2.24x,": [
+            268
+          ],
+          "2.33x": [
+            270
+          ],
+          "2.56x,": [
+            267
+          ],
+          "35%": [
+            205
+          ],
+          "371.86x": [
+            221
+          ],
+          "390.44x": [
+            223
+          ],
+          "4090": [
+            215
+          ],
+          "48-thread": [
+            237
+          ],
+          "7,007": [
+            248
+          ],
+          "Additionally,": [
+            170
+          ],
+          "Bit-wise": [
+            0
+          ],
+          "By": [
+            80
+          ],
+          "CPU": [
+            238
+          ],
+          "CPU,": [
+            163
+          ],
+          "CUDA-accelerated": [
+            52
+          ],
+          "Encryption": [
+            3
+          ],
+          "FHEW": [
+            6,
+            59,
+            225
+          ],
+          "For": [
+            108,
+            149
+          ],
+          "Fully": [
+            1
+          ],
+          "Furthermore,": [
+            254
+          ],
+          "GPU": [
+            210,
+            259
+          ],
+          "GPU,": [
+            216
+          ],
+          "GPUs.": [
+            64
+          ],
+          "Homomorphic": [
+            2
+          ],
+          "NTT": [
+            201
+          ],
+          "NTTs": [
+            83
+          ],
+          "Number": [
+            71
+          ],
+          "On": [
+            212
+          ],
+          "OpenFHE": [
+            233
+          ],
+          "Our": [
+            285
+          ],
+          "RTX": [
+            214
+          ],
+          "TFHE": [
+            8,
+            61,
+            227,
+            272
+          ],
+          "The": [
+            199,
+            244
+          ],
+          "Theoretic": [
+            72
+          ],
+          "To": [
+            44
+          ],
+          "Transform": [
+            73
+          ],
+          "VeloFHE": [
+            286
+          ],
+          "VeloFHE,": [
+            50
+          ],
+          "We": [
+            65,
+            132
+          ],
+          "While": [
+            20
+          ],
+          "[XLK+25],": [
+            261
+          ],
+          "a": [
+            51,
+            67,
+            119,
+            178,
+            236,
+            240
+          ],
+          "accommodates": [
+            182
+          ],
+          "accumulator": [
+            147
+          ],
+          "achieve": [
+            218
+          ],
+          "address": [
+            45,
+            153
+          ],
+          "advantageous": [
+            21
+          ],
+          "alleviate": [
+            129
+          ],
+          "also": [
+            117
+          ],
+          "an": [
+            213,
+            293
+          ],
+          "and": [
+            7,
+            17,
+            60,
+            90,
+            93,
+            105,
+            145,
+            157,
+            222,
+            226,
+            249,
+            269,
+            280,
+            299
+          ],
+          "ap-": [
+            38
+          ],
+          "apply": [
+            118
+          ],
+          "approach": [
+            75,
+            263
+          ],
+          "approach,": [
+            115
+          ],
+          "arbitrary": [
+            278
+          ],
+          "are": [
+            247
+          ],
+          "asynchronous": [
+            168
+          ],
+          "at": [
+            239
+          ],
+          "batching": [
+            173
+          ],
+          "besides": [
+            111
+          ],
+          "blind": [
+            109
+          ],
+          "bootstrapping,": [
+            12,
+            175,
+            229,
+            274
+          ],
+          "both": [
+            101,
+            126,
+            183
+          ],
+          "by": [
+            136
+          ],
+          "challenges": [
+            35
+          ],
+          "ciphertexts.": [
+            43
+          ],
+          "compared": [
+            207,
+            231
+          ],
+          "compatibility.": [
+            148
+          ],
+          "complexity": [
+            104
+          ],
+          "computational": [
+            103,
+            138
+          ],
+          "computations": [
+            160
+          ],
+          "computations,": [
+            24
+          ],
+          "computations.": [
+            302
+          ],
+          "concurrent": [
+            14
+          ],
+          "convolutions,": [
+            92
+          ],
+          "corresponding": [
+            245
+          ],
+          "current": [
+            289
+          ],
+          "cyclic": [
+            89
+          ],
+          "data": [
+            30
+          ],
+          "de-": [
+            176
+          ],
+          "decomposing": [
+            81
+          ],
+          "decomposition": [
+            114,
+            188
+          ],
+          "demonstrate": [
+            195
+          ],
+          "design": [
+            53
+          ],
+          "designs,": [
+            291
+          ],
+          "develop": [
+            66
+          ],
+          "due": [
+            40
+          ],
+          "effective": [
+            294
+          ],
+          "effectively": [
+            164
+          ],
+          "efficiency": [
+            57
+          ],
+          "efficient": [
+            10,
+            300
+          ],
+          "either": [
+            186
+          ],
+          "enabling": [
+            13
+          ],
+          "enhance": [
+            55
+          ],
+          "evaluation": [
+            16,
+            276
+          ],
+          "execution.": [
+            169
+          ],
+          "expansion,": [
+            31
+          ],
+          "experimental": [
+            193
+          ],
+          "explore": [
+            172
+          ],
+          "fast": [
+            77
+          ],
+          "flooring": [
+            282
+          ],
+          "flow": [
+            139
+          ],
+          "for": [
+            22,
+            76,
+            224,
+            271,
+            296
+          ],
+          "four-step": [
+            70
+          ],
+          "framework": [
+            180
+          ],
+          "from": [
+            28,
+            143
+          ],
+          "function": [
+            15
+          ],
+          "functional": [
+            11
+          ],
+          "functions,": [
+            279
+          ],
+          "further": [
+            133
+          ],
+          "gadget": [
+            113,
+            187
+          ],
+          "gate": [
+            228,
+            273
+          ],
+          "general": [
+            179
+          ],
+          "hardware": [
+            290
+          ],
+          "hiding": [
+            165
+          ],
+          "high": [
+            29
+          ],
+          "highly": [
+            85
+          ],
+          "homomorphic": [
+            275,
+            281
+          ],
+          "hybrid": [
+            69
+          ],
+          "implementation": [
+            202,
+            260
+          ],
+          "implementations.": [
+            211
+          ],
+          "improvement": [
+            206
+          ],
+          "improvements.": [
+            198
+          ],
+          "in": [
+            36,
+            174
+          ],
+          "incorporating": [
+            88
+          ],
+          "input-output": [
+            154
+          ],
+          "into": [
+            84
+          ],
+          "introducing": [
+            94
+          ],
+          "issues,": [
+            47
+          ],
+          "it": [
+            135
+          ],
+          "key": [
+            150
+          ],
+          "large-scale": [
+            82
+          ],
+          "latency": [
+            166
+          ],
+          "level.": [
+            243
+          ],
+          "like": [
+            5
+          ],
+          "maintain": [
+            146
+          ],
+          "massive": [
+            42
+          ],
+          "memory": [
+            106,
+            130
+          ],
+          "memory-oriented": [
+            96
+          ],
+          "method.Our": [
+            192
+          ],
+          "mismatches,": [
+            156
+          ],
+          "modulus": [
+            122,
+            190
+          ],
+          "more": [
+            297
+          ],
+          "multiplication.": [
+            79
+          ],
+          "negacyclic": [
+            91
+          ],
+          "noise": [
+            18,
+            142
+          ],
+          "novel": [
+            68
+          ],
+          "of": [
+            58,
+            220,
+            266,
+            277
+          ],
+          "offer": [
+            9
+          ],
+          "offering": [
+            292
+          ],
+          "offloading": [
+            158
+          ],
+          "on": [
+            63,
+            235
+          ],
+          "operation,": [
+            283
+          ],
+          "operations": [
+            251
+          ],
+          "optimizations,": [
+            97
+          ],
+          "optimize": [
+            134
+          ],
+          "or": [
+            189
+          ],
+          "our": [
+            262
+          ],
+          "over": [
+            204
+          ],
+          "parallelism": [
+            155
+          ],
+          "parallelizable": [
+            86
+          ],
+          "per": [
+            252
+          ],
+          "performance": [
+            34,
+            197
+          ],
+          "plications": [
+            39
+          ],
+          "polynomial": [
+            78
+          ],
+          "posing": [
+            32
+          ],
+          "practical": [
+            37,
+            298
+          ],
+          "pressure.": [
+            131
+          ],
+          "privacy-preserving": [
+            301
+          ],
+          "propose": [
+            49
+          ],
+          "proposed": [
+            121,
+            200
+          ],
+          "provides": [
+            264
+          ],
+          "raising": [
+            123,
+            191
+          ],
+          "recent": [
+            120,
+            209
+          ],
+          "reduce": [
+            100,
+            141
+          ],
+          "reduction.": [
+            19
+          ],
+          "refining": [
+            137
+          ],
+          "relative": [
+            255
+          ],
+          "requirements.": [
+            107
+          ],
+          "respectively,": [
+            230
+          ],
+          "respectively.": [
+            284
+          ],
+          "results": [
+            194
+          ],
+          "rotation,": [
+            110
+          ],
+          "running": [
+            234
+          ],
+          "scaling": [
+            144
+          ],
+          "schemes": [
+            4,
+            26,
+            62,
+            127,
+            184
+          ],
+          "second.": [
+            253
+          ],
+          "secure": [
+            23
+          ],
+          "security": [
+            242
+          ],
+          "several": [
+            95
+          ],
+          "shows": [
+            203
+          ],
+          "significant": [
+            33,
+            196
+          ],
+          "significantly": [
+            99
+          ],
+          "solution": [
+            295
+          ],
+          "some": [
+            288
+          ],
+          "speedups": [
+            219,
+            265
+          ],
+          "state-of-the-art": [
+            258
+          ],
+          "submodules,": [
+            87
+          ],
+          "suffer": [
+            27
+          ],
+          "suitable": [
+            159
+          ],
+          "surpasses": [
+            287
+          ],
+          "switching,": [
+            151
+          ],
+          "technique": [
+            124
+          ],
+          "that": [
+            181
+          ],
+          "the": [
+            56,
+            102,
+            112,
+            162,
+            257
+          ],
+          "these": [
+            25,
+            46
+          ],
+          "through": [
+            167
+          ],
+          "throughputs": [
+            246
+          ],
+          "to": [
+            41,
+            54,
+            125,
+            128,
+            140,
+            161,
+            208,
+            232,
+            256
+          ],
+          "veloping": [
+            177
+          ],
+          "we": [
+            48,
+            98,
+            116,
+            152,
+            171,
+            217
+          ],
+          "with": [
+            185
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Shiyu Shen"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Hao Yang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Zhe Liu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ying Liu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Xianhui Lu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Wangchen Dai"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Lu Zhou"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Yunlei Zhao"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ray C. C. Cheung"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.46586/tches.v2025.i3.81-114",
+        "id": "https://doi.org/10.46586/tches.v2025.i3.81-114",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.46586/tches.v2025.i3.81-114"
+        },
+        "publication_date": "2025-06-05",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-06-05",
+        "publication_type": "revue",
+        "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+        "title": "VeloFHE: GPU Acceleration for FHEW and TFHE Bootstrapping",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "$1": [
+            97
+          ],
+          "(2G)": [
+            41
+          ],
+          "(4G,": [
+            53
+          ],
+          "104": [
+            80
+          ],
+          "128": [
+            104
+          ],
+          "16": [
+            111
+          ],
+          "235.59": [
+            90
+          ],
+          "2G": [
+            55
+          ],
+          "496.7": [
+            84
+          ],
+          "5G),": [
+            54
+          ],
+          "64": [
+            33
+          ],
+          "A5/3": [
+            19,
+            22
+          ],
+          "AMD-Xilinx": [
+            69
+          ],
+          "Alveo": [
+            70,
+            105
+          ],
+          "Despite": [
+            45
+          ],
+          "FPGA": [
+            11,
+            75
+          ],
+          "GSM": [
+            40
+          ],
+          "Hz,": [
+            86
+          ],
+          "In": [
+            0,
+            61
+          ],
+          "KASUMI,": [
+            26
+          ],
+          "M": [
+            85
+          ],
+          "Our": [
+            92
+          ],
+          "U250": [
+            71,
+            106
+          ],
+          "a": [
+            8
+          ],
+          "achieved": [
+            102
+          ],
+          "adoption": [
+            48
+          ],
+          "advanced": [
+            51
+          ],
+          "algorithm.": [
+            21
+          ],
+          "an": [
+            29,
+            68
+          ],
+          "and": [
+            6,
+            35
+          ],
+          "architecture": [
+            12
+          ],
+          "architecture,": [
+            65
+          ],
+          "as": [
+            58
+          ],
+          "at": [
+            83
+          ],
+          "attack": [
+            99
+          ],
+          "average,": [
+            109
+          ],
+          "based": [
+            24
+          ],
+          "be": [
+            101
+          ],
+          "bits,": [
+            34
+          ],
+          "can": [
+            88,
+            100
+          ],
+          "card,": [
+            72
+          ],
+          "cards,": [
+            107
+          ],
+          "clocked": [
+            82
+          ],
+          "configured": [
+            76
+          ],
+          "cores": [
+            81
+          ],
+          "days.": [
+            112
+          ],
+          "designed": [
+            5
+          ],
+          "effective": [
+            30
+          ],
+          "encryption": [
+            20
+          ],
+          "evaluate": [
+            89
+          ],
+          "exhaustive": [
+            14
+          ],
+          "fallback": [
+            59
+          ],
+          "for": [
+            13
+          ],
+          "hardware": [
+            64
+          ],
+          "has": [
+            28
+          ],
+          "have": [
+            4
+          ],
+          "implemented": [
+            7
+          ],
+          "in": [
+            39,
+            110
+          ],
+          "is": [
+            23,
+            37
+          ],
+          "it": [
+            27,
+            36
+          ],
+          "its": [
+            74
+          ],
+          "key": [
+            15,
+            31
+          ],
+          "keys/sec.": [
+            91
+          ],
+          "massively": [
+            9
+          ],
+          "million": [
+            98
+          ],
+          "mobile": [
+            42
+          ],
+          "more": [
+            50
+          ],
+          "networks": [
+            56
+          ],
+          "novel": [
+            63
+          ],
+          "of": [
+            32,
+            49
+          ],
+          "on": [
+            17,
+            25,
+            108
+          ],
+          "operate": [
+            78
+          ],
+          "options.": [
+            60
+          ],
+          "our": [
+            62
+          ],
+          "paper,": [
+            2
+          ],
+          "parallel": [
+            10
+          ],
+          "remain": [
+            57
+          ],
+          "results": [
+            93
+          ],
+          "search": [
+            16
+          ],
+          "show": [
+            94
+          ],
+          "systems.": [
+            44
+          ],
+          "technologies": [
+            52
+          ],
+          "telephony": [
+            43
+          ],
+          "that": [
+            87,
+            95
+          ],
+          "the": [
+            18,
+            46,
+            96
+          ],
+          "this": [
+            1
+          ],
+          "to": [
+            77
+          ],
+          "use": [
+            67
+          ],
+          "used": [
+            38
+          ],
+          "we": [
+            3,
+            66
+          ],
+          "widespread": [
+            47
+          ],
+          "with": [
+            73,
+            79,
+            103
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Konstantina Miteloudi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Lejla Batina"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Nele Mentens"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.46586/tches.v2025.i3.361-388",
+        "id": "https://doi.org/10.46586/tches.v2025.i3.361-388",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.46586/tches.v2025.i3.361-388"
+        },
+        "publication_date": "2025-06-05",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-06-05",
+        "publication_type": "revue",
+        "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+        "title": "A5/3 make or break: A massively parallel FPGA architecture for exhaustive key search",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2597,9 +4559,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 781,
-  "query_index": 16,
-  "secondary": 147,
-  "skipped": 2651,
+  "prefilter_review_overflow": 786,
+  "query_index": 17,
+  "secondary": 148,
+  "skipped": 2662,
   "version": 1
 }
