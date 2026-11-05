@@ -3147,6 +3147,66 @@
     ],
     "title": "Dorami: Privilege Separating Security Monitor on RISC-V TEEs"
   },
+  "doi:10.46586/tches.v2025.i3.1-31": {
+    "doi": "https://doi.org/10.46586/tches.v2025.i3.1-31",
+    "publication_date": "2025-06-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-06-05",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 90,
+    "source": "https://doi.org/10.46586/tches.v2025.i3.1-31",
+    "summary": "Cet article présente KeyVisor, une extension d'architecture de jeu d'instructions (ISA) légère pour les processeurs, conçue pour protéger les clés cryptographiques symétriques. En s'intégrant directement au CPU, KeyVisor permet de manipuler des poignées de clés protégées et d'effectuer des opérations de chiffrement authentifié (AEAD) sans que les clés brutes ne fuient jamais en mémoire. L'implémentation est réalisée sur une architecture RISC-V via RocketChip.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "KeyVisor – A Lightweight ISA Extension for Protected Key Handles with CPU-enforced Usage Policies",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/tches.v2025.i3.542-582": {
+    "doi": "https://doi.org/10.46586/tches.v2025.i3.542-582",
+    "publication_date": "2025-06-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-06-05",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 75,
+    "source": "https://doi.org/10.46586/tches.v2025.i3.542-582",
+    "summary": "Cet article présente une méthodologie de conception pour un tissu reconfigurable open-source et sa chaîne d'outils associée, spécifiquement adaptée à la sécurité matérielle. L'approche offre une résistance aux attaques physiques malveillantes telles que l'analyse par canaux cachés (SCA) et l'injection de fautes (FI). Le tissu intègre un masquage booléen du premier ordre et des contre-mesures de dissimulation, nécessitant 85% de surface en moins par rapport aux FPGA conventionnels tout ne montrant aucune fuite SCA sur 100 millions de traces lors d'une évaluation TVLA.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Design and Implementation of a Physically Secure Open-Source FPGA and Toolchain",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/tches.v2025.i3.644-667": {
+    "doi": "https://doi.org/10.46586/tches.v2025.i3.644-667",
+    "publication_date": "2025-06-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-06-05",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 88,
+    "source": "https://doi.org/10.46586/tches.v2025.i3.644-667",
+    "summary": "Cet article présente une solution de compilation sécurisée exploitant le mode DOIT (data-operand-independent-timing) d'Intel et les systèmes de types de sécurité du framework Jasmin. L'objectif est de garantir un code cryptographique à temps constant pérenne, insensible aux variations d'exécution (y compris spéculative), et d'évaluer la sécurité et l'impact sur les performances du code existant.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Let’s DOIT: Using Intel’s Extended HW/SW Contract for Secure Compilation of Crypto Code",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.46586/tches.v2025.i4.317-340": {
     "doi": "https://doi.org/10.46586/tches.v2025.i4.317-340",
     "publication_date": "2025-09-05",
