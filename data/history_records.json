@@ -1757,6 +1757,40 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3605769.3623993": {
+    "doi": "https://doi.org/10.1145/3605769.3623993",
+    "publication_date": "2023-11-23",
+    "publication_type": "conference",
+    "publication_venue": "Workshop on Attacks and Solutions in Hardware Security (ASHES)",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3605769.3623993",
+    "summary": "Cet article étudie l'intégration de la cryptographie post-quantique (PQC) basée sur les réseaux (lattice-based) dans OpenTitan, une racine de confiance (RoT) matérielle open-source. Les auteurs proposent des extensions du jeu d'instructions pour l'accélérateur de grands nombres d'OpenTitan (OTBN) afin d'améliorer l'efficacité de l'arithmétique polynomiale et de l'échantillonnage, en prenant comme cas d'étude la vérification de signature du schéma Dilithium.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Enabling Lattice-Based Post-Quantum Cryptography on the OpenTitan Platform",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3605769.3623994": {
+    "doi": "https://doi.org/10.1145/3605769.3623994",
+    "publication_date": "2023-11-23",
+    "publication_type": "conference",
+    "publication_venue": "Workshop on Attacks and Solutions in Hardware Security (ASHES)",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3605769.3623994",
+    "summary": "Cet article étudie la sécurité d'implémentation de l'authentification biométrique par empreinte digitale sur les appareils mobiles et ordinateurs, en démontrant que des attaques par canal auxiliaire sur le cache (Flush+Reload) permettent de récupérer les coordonnées des minuties d'une empreinte à l'aide d'une seule trace, en analysant la bibliothèque MindTCT de NIST utilisée par Linux fprintd.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "BioLeak: Exploiting Cache Timing to Recover Fingerprint Minutiae Coordinates",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3627106.3627112": {
     "doi": "https://doi.org/10.1145/3627106.3627112",
     "publication_date": "2023-12-02",
@@ -2942,6 +2976,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.3390/cryptography7040058": {
+    "doi": "https://doi.org/10.3390/cryptography7040058",
+    "publication_date": "2023-11-16",
+    "publication_type": "revue",
+    "publication_venue": "Cryptography",
+    "score": 75,
+    "source": "https://doi.org/10.3390/cryptography7040058",
+    "summary": "Cet article propose un modèle de suivi de flux d'informations (IFT) à granularité multiple pour l'architecture RISC-V, combinant un IFT matériel et un IFT au niveau des portes logiques (GLIFT). L'approche vise à protéger l'intégrité du système contre les accès non autorisés et l'injection de fautes en traçant les flux de données provenant de canaux non fiables, tout en minimisant la surcharge de surface grâce à un mécanisme de balises optimisé (tags de 1 bit) appliqué uniquement aux modules critiques.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Secure Instruction and Data-Level Information Flow Tracking Model for RISC-V",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.3390/e27020202": {
     "publication_date": "2025-02-14",

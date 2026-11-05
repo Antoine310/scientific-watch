@@ -1600,6 +1600,14 @@
       "title": "HARLD: A RISC-V Based Tightly Coupled Heterogeneous Computing Architecture for Low-Density Parity Check Decoding",
       "updated_at": "2026-11-03T19:52:25.733930+00:00"
     },
+    "doi:10.1007/s11467-023-1331-1": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A high-speed true random number generator based on Ag/SiNx/n-Si memristor",
+      "updated_at": "2026-11-05T23:14:04.612264+00:00"
+    },
     "doi:10.1007/s12046-026-03326-y": {
       "category": "secondaire",
       "decision": "examiner",
@@ -13056,6 +13064,30 @@
       "title": "Fortress: Securing IoT Peripherals with Trusted Execution Environments",
       "updated_at": "2026-11-04T14:13:30.691216+00:00"
     },
+    "doi:10.1145/3605758.3623502": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Remote Attestation of IoT Devices using Physically Unclonable Functions: Recent Advancements and Open Research Challenges",
+      "updated_at": "2026-11-05T23:16:07.285342+00:00"
+    },
+    "doi:10.1145/3605769.3623993": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Enabling Lattice-Based Post-Quantum Cryptography on the OpenTitan Platform",
+      "updated_at": "2026-11-05T23:16:10.676754+00:00"
+    },
+    "doi:10.1145/3605769.3623994": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "BioLeak: Exploiting Cache Timing to Recover Fingerprint Minutiae Coordinates",
+      "updated_at": "2026-11-05T23:18:53.934001+00:00"
+    },
     "doi:10.1145/3620665.3640424": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -13087,6 +13119,14 @@
       "status": "imported",
       "title": "Attack of the Knights:Non Uniform Cache Side Channel Attack",
       "updated_at": "2026-11-05T20:19:09.946686+00:00"
+    },
+    "doi:10.1145/3632954": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Hardware-hardened Sandbox Enclaves for Trusted Serverless Computing",
+      "updated_at": "2026-11-05T23:16:16.885235+00:00"
     },
     "doi:10.1145/3634737.3637644": {
       "category": "secondaire_technique",
@@ -15351,6 +15391,14 @@
       "status": "rejected",
       "title": "Integrating societal concern into an EU regulatory proposal for new genomic techniques in food crops using association rules",
       "updated_at": "2026-11-04T21:50:59.216919+00:00"
+    },
+    "doi:10.1186/s40537-023-00865-7": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "A service-categorized security scheme with physical unclonable functions for internet of vehicles",
+      "updated_at": "2026-11-05T23:13:23.638360+00:00"
     },
     "doi:10.1186/s42400-025-00385-2": {
       "category": "secondaire",
@@ -18592,6 +18640,14 @@
       "title": "A Brief Survey on Hardware Implementation of Fully Homomorphic Encryption",
       "updated_at": "2026-11-02T20:18:20.245377+00:00"
     },
+    "doi:10.3390/cryptography7040058": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Secure Instruction and Data-Level Information Flow Tracking Model for RISC-V",
+      "updated_at": "2026-11-05T23:16:09.192823+00:00"
+    },
     "doi:10.3390/cryptography8040046": {
       "category": "secondaire",
       "decision": "examiner",
@@ -19359,6 +19415,14 @@
       "status": "rejected",
       "title": "Learning to Route On-Chip: A Survey of Machine Learning-Based Routing in Networks-on-Chip and Its Hardware Overheads",
       "updated_at": "2026-11-02T16:51:20.709326+00:00"
+    },
+    "doi:10.3390/math12010077": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Advances in Physical Unclonable Functions Based on New Technologies: A Comprehensive Review",
+      "updated_at": "2026-11-05T23:13:23.638334+00:00"
     },
     "doi:10.3390/mi17050597": {
       "category": "secondaire",
@@ -20271,6 +20335,14 @@
       "status": "rejected",
       "title": "EMPRESA DEL ESTADO: UN ENCLAVE ESTATAL EN TERRITORIO PRIVADO",
       "updated_at": "2026-11-05T02:24:53.938160+00:00"
+    },
+    "doi:10.46586/tches.v2024.i1.207-228": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Low Cost and Precise Jitter Measurement Method for TRNG Entropy Assessment",
+      "updated_at": "2026-11-05T23:14:04.612283+00:00"
     },
     "doi:10.46586/tches.v2024.i2.870-889": {
       "category": "secondaire",
@@ -24311,6 +24383,14 @@
       "status": "rejected",
       "title": "Communication-Oblivious Permutation and Sorting",
       "updated_at": "2026-11-02T13:03:57.273621+00:00"
+    },
+    "title:companionassistedsoftwarebasedremoteattestationinscadanetworks": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Companion Assisted Software Based Remote Attestation in SCADA Networks",
+      "updated_at": "2026-11-05T23:16:26.844062+00:00"
     },
     "title:compositionlawofconjugateobservablesinrandompermutationsortingsystems": {
       "category": "secondaire",
