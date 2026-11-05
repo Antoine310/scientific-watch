@@ -5176,6 +5176,22 @@
       "title": "Bypass Synchronization Primitives: GhostRace Attack and Mitigation on RISC-V",
       "updated_at": "2026-11-04T08:26:10.605089+00:00"
     },
+    "doi:10.1109/compsac65507.2025.00141": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 70,
+      "status": "rejected",
+      "title": "Hardware Authenticator Binding: A Secure Alternative to Passkeys",
+      "updated_at": "2026-11-05T03:25:09.395774+00:00"
+    },
+    "doi:10.1109/compsac65507.2025.00324": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "A Data-Driven Approach Using Hardware Performance Counters to Detect Micro-Architectural Attacks",
+      "updated_at": "2026-11-05T03:25:18.672948+00:00"
+    },
     "doi:10.1109/compsac69091.2026.00058": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -6584,6 +6600,14 @@
       "title": "VLSI Implementation of a Low-Power RISC-V Memory Management Accelerator for Sustainable Smart Systems",
       "updated_at": "2026-11-02T21:34:32.681825+00:00"
     },
+    "doi:10.1109/icdcs63083.2025.00052": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "HarDTAPE: Hardware Dedicated Trusted transAction Pre-Executor",
+      "updated_at": "2026-11-05T03:26:15.389765+00:00"
+    },
     "doi:10.1109/icdcs68853.2026.11510781": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -6639,6 +6663,14 @@
       "status": "rejected",
       "title": "Design and Integration of Low Power Memory Subsytems in RISC-V cores",
       "updated_at": "2026-11-03T16:10:13.870687+00:00"
+    },
+    "doi:10.1109/icdici66477.2025.11135219": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Enhancing Hardware Security: A Cost-Effective ACO-Based Approach for Hardware Trojan Detection",
+      "updated_at": "2026-11-05T03:26:00.096441+00:00"
     },
     "doi:10.1109/icdmw69685.2025.00150": {
       "category": "secondaire",
@@ -7056,6 +7088,14 @@
       "title": "Towards Secure and Efficient Blockchain-Enabled IoT: A Hardware-Centric Perspective Using RISC-V Co-Design",
       "updated_at": "2026-11-04T19:48:49.485542+00:00"
     },
+    "doi:10.1109/icscc66177.2025.11233437": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Stealthy Virtual Channel Blocking: A Hardware Trojan Attack on NoC in Tiled Chip Multicore Processors",
+      "updated_at": "2026-11-05T03:26:55.843353+00:00"
+    },
     "doi:10.1109/icscds65426.2025.11167391": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -7135,6 +7175,14 @@
       "status": "rejected",
       "title": "Low Power, High Efficiency RISC-V Processor with Enhanced ALU Pipeline Optimization",
       "updated_at": "2026-11-03T14:30:18.169126+00:00"
+    },
+    "doi:10.1109/icufn65838.2025.11170091": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "An Area-Efficient ChaCha20 Hardware Accelerator Design for Secure and Real-Time Communication in CAVs",
+      "updated_at": "2026-11-05T03:26:15.359379+00:00"
     },
     "doi:10.1109/ieacon64690.2025.11253153": {
       "category": "secondaire",
@@ -7280,6 +7328,22 @@
       "title": "RISC-V Processor Design: RTL to GDSII Implementation Using EDA Tools",
       "updated_at": "2026-10-30T23:13:33.139356+00:00"
     },
+    "doi:10.1109/incsst64791.2025.11210293": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Microarchitecture Design and Verification of Hardware Accelerator for CNN",
+      "updated_at": "2026-11-05T03:26:55.779781+00:00"
+    },
+    "doi:10.1109/incsst64791.2025.11210423": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Schematic and Functional Verification for Secure Hardware Design",
+      "updated_at": "2026-11-05T03:26:55.812211+00:00"
+    },
     "doi:10.1109/indicon68490.2025.11392913": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -7368,6 +7432,14 @@
       "title": "A Spintronic True Random Number Generator Using Vortex Nano-Oscillators and Probabilistic SOT-MTJ Programming",
       "updated_at": "2026-11-01T17:15:14.069927+00:00"
     },
+    "doi:10.1109/iolts65288.2025.11116879": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "SHIELD: PSO-Based Hardware Trojan Detection for Efficient and Low-Cost Defense",
+      "updated_at": "2026-11-05T03:25:09.230187+00:00"
+    },
     "doi:10.1109/iolts65288.2025.11116886": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -7375,6 +7447,22 @@
       "status": "rejected",
       "title": "CANDoSA: A Hardware Performance Counter-Based Intrusion Detection System for DoS Attacks on Automotive CAN bus",
       "updated_at": "2026-11-05T01:24:58.731585+00:00"
+    },
+    "doi:10.1109/iolts65288.2025.11116959": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "AI-Based Classification of Adversarial Attacks vs. Hardware Fault Corruptions in the Split Computing Context",
+      "updated_at": "2026-11-05T03:25:09.264811+00:00"
+    },
+    "doi:10.1109/iolts65288.2025.11117043": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Side-Channel Extraction of Dataflow AI Accelerator Hardware Parameters",
+      "updated_at": "2026-11-05T03:25:09.298521+00:00"
     },
     "doi:10.1109/iolts65288.2025.11117044": {
       "category": "coeur",
@@ -7936,6 +8024,46 @@
       "title": "A Fine-Grained Dynamic Partitioning Against Cache-Based Timing Attacks via Cache Locking",
       "updated_at": "2026-11-03T14:13:57.649403+00:00"
     },
+    "doi:10.1109/isvlsi65124.2025.11130211": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Design and Hardware Implementation of a PRNG-CS for Embedded Security Applications",
+      "updated_at": "2026-11-05T03:25:18.719932+00:00"
+    },
+    "doi:10.1109/isvlsi65124.2025.11130230": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "HardObfSec: Measuring Hardware Obfuscation Security at RTL",
+      "updated_at": "2026-11-05T03:25:59.900071+00:00"
+    },
+    "doi:10.1109/isvlsi65124.2025.11130245": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Assessing Gaston: Side-channel Security and Hardware Cost Comparison with Ascon-p",
+      "updated_at": "2026-11-05T03:25:59.932329+00:00"
+    },
+    "doi:10.1109/isvlsi65124.2025.11130261": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Dynamic Mitigation of Hardware Trojan Induced Black Hole Router Attack in Network-on-Chip",
+      "updated_at": "2026-11-05T03:25:59.964098+00:00"
+    },
+    "doi:10.1109/isvlsi65124.2025.11130264": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "CHIMERA: Cryptographic Hardware for Integrated Multipurpose Engine on RISC-V with ASCON",
+      "updated_at": "2026-11-05T03:26:00.000213+00:00"
+    },
     "doi:10.1109/isvlsi65124.2025.11130308": {
       "category": "secondaire",
       "decision": "examiner",
@@ -7943,6 +8071,22 @@
       "status": "rejected",
       "title": "Microarchitecture Design and Benchmarking of Custom SHA-3 Instruction for RISC-V",
       "updated_at": "2026-10-31T02:13:21.703795+00:00"
+    },
+    "doi:10.1109/isvlsi65124.2025.11130337": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "HW/SW Formal Co-Verification of Rust-based Designs Using Hardware Abstraction Model",
+      "updated_at": "2026-11-05T03:26:00.032308+00:00"
+    },
+    "doi:10.1109/isvlsi65124.2025.11130355": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Universal Topological Arrays: An Efficient Solution for Provably Secure Hardware",
+      "updated_at": "2026-11-05T03:26:00.064005+00:00"
     },
     "doi:10.1109/itc-asia71864.2026.11710823": {
       "category": "secondaire",
@@ -9647,6 +9791,14 @@
       "status": "rejected",
       "title": "Harvesting RTN for True Random Number Generators and Physical Unclonable Functions",
       "updated_at": "2026-11-03T14:14:18.852572+00:00"
+    },
+    "doi:10.1109/smartnets65254.2025.11106800": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Evaluating Hardware Security Modules: Key Factors for Choosing the Best Option for Organizational Security Requirements",
+      "updated_at": "2026-11-05T03:25:09.194096+00:00"
     },
     "doi:10.1109/smartnets69662.2026.11604860": {
       "category": "hors_sujet",
@@ -11984,6 +12136,14 @@
       "title": "Experimental Investigation of In-Plane Thermal Isolation Strategies for 2.5D Silicon-Based Integration Systems",
       "updated_at": "2026-11-03T14:09:08.336550+00:00"
     },
+    "doi:10.1115/fedsm2025-157813": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "A Hardware Accelerated Euler Lagrange Algorithm for Simulating Acoustic Cavitation of Microbubbles",
+      "updated_at": "2026-11-05T03:26:15.322676+00:00"
+    },
     "doi:10.1117/12.3032012": {
       "category": "coeur",
       "decision": "conserver",
@@ -12847,6 +13007,14 @@
       "status": "rejected",
       "title": "Disaggregated Memory for File-backed Pages",
       "updated_at": "2026-11-04T12:24:28.253646+00:00"
+    },
+    "doi:10.1145/3736731.3746155": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware Cost Evaluation in Systems Security",
+      "updated_at": "2026-11-05T03:26:15.420166+00:00"
     },
     "doi:10.1145/3737876": {
       "category": "secondaire",
@@ -15872,6 +16040,14 @@
       "title": "Lightweight Two-Stage Secure Boot with Automatic Rollback for STM32 IoT Devices",
       "updated_at": "2026-10-31T07:11:49.391695+00:00"
     },
+    "doi:10.2172/2575473": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Enabling Secure and Resilient XFC: A Software/Hardware-Security Co-Design Approach",
+      "updated_at": "2026-11-05T03:25:09.331126+00:00"
+    },
     "doi:10.2172/3018824": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -15919,6 +16095,14 @@
       "status": "rejected",
       "title": "Hardware Security Enhancement with Generative Artificial Intelligence",
       "updated_at": "2026-11-04T10:24:52.144559+00:00"
+    },
+    "doi:10.21917/ijme.2025.0357": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "NEURAL-SURROGATE-ASSISTED HARDWARE-SOFTWARE CO-DESIGN FOR REAL-TIME RECONFIGURABLE FPGA SYSTEMS IN WEARABLE DEVICES",
+      "updated_at": "2026-11-05T03:24:57.593400+00:00"
     },
     "doi:10.21956/openreseurope.21575.r59769": {
       "category": "hors_sujet",
@@ -16703,6 +16887,14 @@
       "status": "rejected",
       "title": "Characterizing Environmental Thermal Fluctuations for Use in True Random Number Generators",
       "updated_at": "2026-11-02T02:13:43.310593+00:00"
+    },
+    "doi:10.26583/bit.2025.3.05": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "IMPORT SUBSTITUTION OF GEODETIC HARDWARE AND SOFTWARE COMPLEXES AS A GUARANTEE OF SECURITY, RELIABILITY AND AVAILABILITY OF SPATIAL DATA",
+      "updated_at": "2026-11-05T03:25:09.363483+00:00"
     },
     "doi:10.26583/bit.2026.1.02": {
       "category": "transfert_explicite",
@@ -21319,6 +21511,14 @@
       "status": "rejected",
       "title": "Intelligent Algorithm for Automatic Runtime Selection of scheduling algorithm using pattern recognition techniques",
       "updated_at": "2026-11-03T21:07:19.356341+00:00"
+    },
+    "doi:10.54692/lgurjcsit.2025.91668": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "An Intelligent Algorithm for Automatic Runtime Selection of Scheduling Algorithm using Pattern Recognition Techniques",
+      "updated_at": "2026-11-05T03:24:57.559783+00:00"
     },
     "doi:10.55041/ijsmt.v2i3.302": {
       "category": "secondaire",
