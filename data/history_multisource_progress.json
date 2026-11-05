@@ -1,8 +1,8 @@
 {
   "accepted": 128,
   "completed": false,
-  "cursor": "MTczNDM3NzEwNzAwMCwxMC4xMTA5JTJGdGNhZC4yMDI0LjM1MTkwNTU=",
-  "evaluated": 2649,
+  "cursor": "MTczOTQ3MTg0MzAwMCwxMC4xMTA5JTJGdHZ0LjIwMjUuMzU0MTY4Mg==",
+  "evaluated": 2651,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -187,376 +187,47 @@
   ],
   "month": "2025-06",
   "needs_publish": true,
-  "offset": 40,
-  "pages_done": 2509,
-  "pages_in_query": 1,
+  "offset": 80,
+  "pages_done": 2510,
+  "pages_in_query": 2,
   "pending": [
     {
       "paper": {
-        "abstract_inverted_index": {
-          "(CSP)": [
-            48
-          ],
-          "CSP": [
-            51,
-            81,
-            92
-          ],
-          "In": [
-            90
-          ],
-          "Our": [
-            69
-          ],
-          "Over": [
-            116
-          ],
-          "This": [
-            0
-          ],
-          "Users": [
-            29
-          ],
-          "a": [
-            10,
-            43,
-            60,
-            75,
-            135
-          ],
-          "addition,": [
-            91
-          ],
-          "aiming": [
-            106
-          ],
-          "algorithm": [
-            78
-          ],
-          "an": [
-            66
-          ],
-          "and": [
-            22,
-            27,
-            87,
-            103,
-            111
-          ],
-          "architecture": [
-            110
-          ],
-          "arm’s": [
-            67
-          ],
-          "as": [
-            128
-          ],
-          "assets": [
-            127
-          ],
-          "associated": [
-            104
-          ],
-          "aware": [
-            96
-          ],
-          "balance": [
-            31
-          ],
-          "be": [
-            95
-          ],
-          "becoming": [
-            40
-          ],
-          "between": [
-            24
-          ],
-          "bottom": [
-            64
-          ],
-          "cloud": [
-            8,
-            20,
-            45,
-            120,
-            126,
-            133
-          ],
-          "competition": [
-            57
-          ],
-          "composition.": [
-            139
-          ],
-          "consider": [
-            123
-          ],
-          "costs,": [
-            105
-          ],
-          "designing": [
-            74
-          ],
-          "dynamic": [
-            136
-          ],
-          "dynamics": [
-            18
-          ],
-          "economics": [
-            21
-          ],
-          "emphasizes": [
-            80
-          ],
-          "endogeneity": [
-            23
-          ],
-          "expenses.": [
-            115
-          ],
-          "fallacy": [
-            137
-          ],
-          "for": [
-            34,
-            73
-          ],
-          "future": [
-            113
-          ],
-          "goods": [
-            13
-          ],
-          "guidelines": [
-            72
-          ],
-          "in": [
-            6,
-            131
-          ],
-          "into": [
-            42
-          ],
-          "is": [
-            58
-          ],
-          "judiciously": [
-            124
-          ],
-          "locked": [
-            41
-          ],
-          "long": [
-            118
-          ],
-          "managers": [
-            52,
-            93
-          ],
-          "managers’": [
-            82
-          ],
-          "manifests": [
-            9
-          ],
-          "must": [
-            30,
-            53
-          ],
-          "nature": [
-            99
-          ],
-          "need": [
-            33
-          ],
-          "neither": [
-            59
-          ],
-          "new": [
-            11
-          ],
-          "nor": [
-            65
-          ],
-          "of": [
-            19,
-            39,
-            84,
-            97,
-            100,
-            138
-          ],
-          "orchestration": [
-            114
-          ],
-          "over": [
-            49
-          ],
-          "owing": [
-            15
-          ],
-          "paper": [
-            1
-          ],
-          "paradigm": [
-            14
-          ],
-          "particular": [
-            44
-          ],
-          "prediction": [
-            77
-          ],
-          "preferences.": [
-            89
-          ],
-          "presents": [
-            134
-          ],
-          "provide": [
-            71
-          ],
-          "provider": [
-            47
-          ],
-          "public": [
-            12
-          ],
-          "race": [
-            61
-          ],
-          "race.": [
-            68
-          ],
-          "recognize": [
-            54
-          ],
-          "reduce": [
-            112
-          ],
-          "refuge": [
-            130
-          ],
-          "repatriating": [
-            125
-          ],
-          "results": [
-            70
-          ],
-          "risk": [
-            38,
-            86
-          ],
-          "security": [
-            5,
-            35,
-            56,
-            101,
-            109
-          ],
-          "security.": [
-            28
-          ],
-          "services": [
-            46
-          ],
-          "shared": [
-            4
-          ],
-          "should": [
-            94,
-            122
-          ],
-          "shows": [
-            2
-          ],
-          "simplify": [
-            108
-          ],
-          "taking": [
-            129
-          ],
-          "technologies": [
-            102
-          ],
-          "term,": [
-            119
-          ],
-          "that": [
-            3,
-            55,
-            79
-          ],
-          "the": [
-            7,
-            17,
-            32,
-            37,
-            63,
-            98,
-            117,
-            132
-          ],
-          "time": [
-            88
-          ],
-          "time.": [
-            50
-          ],
-          "to": [
-            16,
-            62,
-            107
-          ],
-          "understanding": [
-            83
-          ],
-          "usage,": [
-            25
-          ],
-          "users": [
-            121
-          ],
-          "users’": [
-            85
-          ],
-          "vulnerability": [
-            76
-          ],
-          "vulnerability,": [
-            26
-          ],
-          "with": [
-            36
-          ]
-        },
+        "abstract_inverted_index": {},
         "authorships": [
           {
             "author": {
-              "display_name": "Nan Clement"
+              "display_name": "Mirza Athar Baig"
             }
           },
           {
             "author": {
-              "display_name": "Daniel Arce"
+              "display_name": "Asif Iqbal"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Muhammad Naveed Aman"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Biplab Sikdar"
             }
           }
         ],
-        "doi": "https://doi.org/10.1287/isre.2023.0256",
-        "id": "https://doi.org/10.1287/isre.2023.0256",
+        "doi": "https://doi.org/10.1109/tai.2025.3526139",
+        "id": "https://doi.org/10.1109/tai.2025.3526139",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1287/isre.2023.0256"
+          "landing_page_url": "https://doi.org/10.1109/tai.2025.3526139"
         },
         "publication_date": "2025-06-01",
         "publication_date_note": "Date source Crossref : 2025-06 (jour inconnu ; 01 utilisé pour classer).",
         "publication_date_precision": "month",
         "publication_date_source": "2025-06",
         "publication_type": "revue",
-        "publication_venue": "Information Systems Research",
-        "title": "Dynamics of Shared Security in the Cloud",
+        "publication_venue": "IEEE Transactions on Artificial Intelligence",
+        "title": "Leveraging AI to Compromise IoT Device Privacy by Exploiting Hardware Imperfections",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -575,42 +246,155 @@
         "authorships": [
           {
             "author": {
-              "display_name": "Bhanprakash Goswami"
+              "display_name": "Vangelis Malamas"
             }
           },
           {
             "author": {
-              "display_name": "Chithambara J. Moorthii"
+              "display_name": "Panayiotis Kotzanikolaou"
             }
           },
           {
             "author": {
-              "display_name": "Harshit Bansal"
+              "display_name": "Kostas Nomikos"
             }
           },
           {
             "author": {
-              "display_name": "Ayan Sajwan"
+              "display_name": "Christos Zonios"
             }
           },
           {
             "author": {
-              "display_name": "Manan Suri"
+              "display_name": "Vasileios Tenentes"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mihalis Psarakis"
             }
           }
         ],
-        "doi": "https://doi.org/10.1109/les.2024.3496508",
-        "id": "https://doi.org/10.1109/les.2024.3496508",
+        "doi": "https://doi.org/10.1109/jiot.2025.3530775",
+        "id": "https://doi.org/10.1109/jiot.2025.3530775",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/les.2024.3496508"
+          "landing_page_url": "https://doi.org/10.1109/jiot.2025.3530775"
         },
         "publication_date": "2025-06-01",
-        "publication_date_note": "Date source Crossref : 2025-06 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2025-06",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-06-01",
         "publication_type": "revue",
-        "publication_venue": "IEEE Embedded Systems Letters",
-        "title": "Investigation of Security Vulnerabilities in NVM-Based Persistent TinyML Hardware",
+        "publication_venue": "IEEE Internet of Things Journal",
+        "title": "HA-CAAP: Hardware-Assisted Continuous Authentication and Attestation Protocol for IoT Based on Blockchain",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T01 — Root of Trust & Secure Boot"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Linchao Zhang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Lei Hang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Keke Zu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Yi Wang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Kun Yang"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/jiot.2025.3541256",
+        "id": "https://doi.org/10.1109/jiot.2025.3541256",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/jiot.2025.3541256"
+        },
+        "publication_date": "2025-06-15",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-06-15",
+        "publication_type": "revue",
+        "publication_venue": "IEEE Internet of Things Journal",
+        "title": "Constructing Next-Generation IoT Security: Embedded Smart Contracts and Multilayer Security Protection",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T01 — Root of Trust & Secure Boot"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Ziyu Zhou"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Pengjun Wang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Gang Li"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Shuang Hu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Yuejun Zhang"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/jiot.2025.3541434",
+        "id": "https://doi.org/10.1109/jiot.2025.3541434",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/jiot.2025.3541434"
+        },
+        "publication_date": "2025-06-15",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-06-15",
+        "publication_type": "revue",
+        "publication_venue": "IEEE Internet of Things Journal",
+        "title": "Improving the Stability of APUF to 100% Without Extra Hardware Overhead for Enhancing the Performance of Security Authentication Protocols",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
