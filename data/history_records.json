@@ -4206,6 +4206,26 @@
     ],
     "title": "Enforcing RISC-V TEE Security Against Cache Timing Attacks"
   },
+  "title:enterexitpagefaultleaktestingisolationboundariesformicroarchitecturalleaks": {
+    "doi": "",
+    "publication_date": "2025-07-08",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2507.06039v1",
+    "summary": "Cet article étudie les limites de l'isolation microarchitecturale dans les processeurs modernes. Les auteurs développent un outil basé sur les tests relationnels modélisés (MRT) pour détecter les fuites d'informations entre domaines de sécurité (machines virtuelles, noyau, processus). Une campagne de test sur six processeurs x86-64 a permis de découvrir quatre nouvelles fuites et de valider des vulnérabilités connues, démontrant la nécessité d'une validation proactive de la sécurité matérielle.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Enter, Exit, Page Fault, Leak: Testing Isolation Boundaries for Microarchitectural Leaks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:exploitingsoftwarelevelabstractionstosupportpracticalhardwaretrojanattacks": {
     "publication_date": "2026-09-19",
     "publication_date_note": "",
@@ -4304,6 +4324,26 @@
     "title": "Fuzzilicon: A Post-Silicon Microcode-Guided x86 CPU Fuzzer",
     "venue_landmark": "",
     "venue_note": "Référence déclarée sur arXiv (non vérifiée) : Network and Distributed System Security (NDSS) Symposium 2026, 23 - 27 February 2026 , San Diego, CA, USA ISBN 979-8-9919276-8-0",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:gatebleedexploitingoncoreacceleratorpowergatingforhighperformancestealthyattacksonai": {
+    "doi": "",
+    "publication_date": "2025-07-22",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2507.17033v3",
+    "summary": "Cette publication présente GATEBLEED, un canal auxiliaire et caché basé sur le chronométrage, qui exploite la gestion agressive de l'alimentation (power gating) des accélérateurs d'IA intégrés au processeur (spécifiquement Intel AMX). Les auteurs démontrent que les délais de commutation des composants matériels fuites des informations sensibles lors d'exécutions de modèles d'apprentissage automatique.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "GATEBLEED: Exploiting On-Core Accelerator Power Gating for High Performance & Stealthy Attacks on AI",
+    "venue_landmark": "",
+    "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
@@ -4918,6 +4958,26 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "TRUSTCHECKPOINTS: Time Betrays Malware for Unconditional Software Root of Trust",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:tychecomposableisolationasafoundationtomanagetrustinthecloud": {
+    "doi": "",
+    "publication_date": "2025-07-16",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2507.12364v2",
+    "summary": "Ce papier présente Tyche, un moniteur de sécurité qui introduit l'isolation composable et attestable comme abstraction système de premier ordre pour le cloud. Il permet de gérer des charges de travail combinant des composants logiciels de différentes parties ayant des modèles de confiance divergents. Tyche utilise des domaines de sécurité (SD) dont l'accès aux ressources est contrôlé par des capacités explicites et imbriquables récursivement. Le système fonctionne sur x86-64 sans extensions de sécurité et possède un prototype RISC-V, avec un surcoût de seulement 2% dans un scénario d'inférence LLM confidentielle.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Tyche: Composable Isolation as a Foundation to Manage Trust in the Cloud",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,

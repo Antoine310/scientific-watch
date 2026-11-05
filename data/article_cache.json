@@ -360,6 +360,14 @@
       "title": "Photonic Hardware and Network Architectures for the Quantum Internet: From Entanglement Generation to Global Connectivity",
       "updated_at": "2026-11-02T16:17:40.263896+00:00"
     },
+    "doi:10.1002/mrm.70235": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Electromagnetic Noise Characterization and Suppression in Low-Field MRI Systems",
+      "updated_at": "2026-11-05T01:26:15.358041+00:00"
+    },
     "doi:10.1002/qute.202500648": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -1984,6 +1992,14 @@
       "title": "Corrigendum to “Hsp70/CHIP E3 ligase complex triggers K149-linked ubiquitination and degradation of BEST1 mutants p.P233L and p.P346H, impairing chloride channel function and retinal integrity” [Cellular Signalling 139 (2026) 112343]",
       "updated_at": "2026-11-03T11:27:51.404065+00:00"
     },
+    "doi:10.1016/j.chaos.2025.116379": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware implementation and information security application of a novel chaotic system with a cubic memristor and complex parameters",
+      "updated_at": "2026-11-05T01:26:58.967633+00:00"
+    },
     "doi:10.1016/j.chip.2025.100153": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -2071,6 +2087,14 @@
       "status": "rejected",
       "title": "Hardware information flow tracking based on lightweight path awareness",
       "updated_at": "2026-11-03T08:14:41.780030+00:00"
+    },
+    "doi:10.1016/j.cose.2025.104457": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "An experimental evaluation of TEE technology: Benchmarking transparent approaches based on SGX, SEV, and TDX",
+      "updated_at": "2026-11-05T01:26:58.903911+00:00"
     },
     "doi:10.1016/j.cose.2025.104567": {
       "category": "secondaire",
@@ -3287,6 +3311,14 @@
       "status": "rejected",
       "title": "EAGLE: A provably and verifiably secure blockchain-enabled dual-mode authentication scheme using reconfigurable PUFs for V2I communication",
       "updated_at": "2026-11-03T08:41:13.427572+00:00"
+    },
+    "doi:10.1016/j.vlsi.2025.102414": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A novel low-hardware-cost scan chain architecture resilient to scanSAT attack",
+      "updated_at": "2026-11-05T01:26:58.937052+00:00"
     },
     "doi:10.1016/j.vlsi.2025.102460": {
       "category": "hors_sujet",
@@ -5384,6 +5416,14 @@
       "title": "Vivado FPGA Timing Constraints Method for Hardware Security",
       "updated_at": "2026-11-04T11:24:34.218130+00:00"
     },
+    "doi:10.1109/dsn-s65789.2025.00053": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "An Open-source Implementation and Security Analysis of Triad's TEE Trusted Time Protocol",
+      "updated_at": "2026-11-05T01:25:09.448430+00:00"
+    },
     "doi:10.1109/dsn-w70714.2026.00049": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -7215,6 +7255,14 @@
       "status": "rejected",
       "title": "A Spintronic True Random Number Generator Using Vortex Nano-Oscillators and Probabilistic SOT-MTJ Programming",
       "updated_at": "2026-11-01T17:15:14.069927+00:00"
+    },
+    "doi:10.1109/iolts65288.2025.11116886": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "CANDoSA: A Hardware Performance Counter-Based Intrusion Detection System for DoS Attacks on Automotive CAN bus",
+      "updated_at": "2026-11-05T01:24:58.731585+00:00"
     },
     "doi:10.1109/iolts65288.2025.11117044": {
       "category": "coeur",
@@ -10344,6 +10392,14 @@
       "title": "MATEE: Efficiently Bridging the Semantic Gap in TrustZone via Arm Pointer Authentication",
       "updated_at": "2026-11-02T17:57:37.240595+00:00"
     },
+    "doi:10.1109/tdsc.2025.3540958": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "HeX: Encrypted Rich Queries With Forward and Backward Privacy Using Trusted Hardware",
+      "updated_at": "2026-11-05T01:26:38.710992+00:00"
+    },
     "doi:10.1109/tdsc.2025.3550568": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -10656,6 +10712,14 @@
       "title": "Area-Optimized RISC-V Matrix Extension Implementation for Edge Devices",
       "updated_at": "2026-11-04T13:24:27.843660+00:00"
     },
+    "doi:10.1109/tetc.2024.3482324": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Area-Time Efficient Hardware Implementation for Binary Ring-LWE Based Post-Quantum Cryptography",
+      "updated_at": "2026-11-05T01:26:38.647992+00:00"
+    },
     "doi:10.1109/tetc.2025.3528336": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -10807,6 +10871,14 @@
       "status": "rejected",
       "title": "NIST SP 800-90B Compliant Perpendicular Magnetic Tunnel Junction Based True Random Number Generator",
       "updated_at": "2026-10-31T02:13:41.842507+00:00"
+    },
+    "doi:10.1109/tnnls.2024.3482364": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "DSE-Based Hardware Trojan Attack for Neural Network Accelerators on FPGAs",
+      "updated_at": "2026-11-05T01:26:38.679584+00:00"
     },
     "doi:10.1109/tns.2025.3564739": {
       "category": "hors_sujet",
@@ -15536,6 +15608,14 @@
       "title": "A Review of Security Algorithms Based on Quantum Dot Cellular Automata for RISC-V SoCs",
       "updated_at": "2026-11-02T18:04:07.443003+00:00"
     },
+    "doi:10.2174/0123520965288815240424054237": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Enhancing Blockchain Security and Efficiency through FPGA-based Consensus Mechanisms and Post-quantum Cryptography",
+      "updated_at": "2026-11-05T01:26:38.615981+00:00"
+    },
     "doi:10.2174/0123520965367619250331144036": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -16559,6 +16639,14 @@
       "status": "rejected",
       "title": "Scenario Selection and Prioritization for ADAS Hardware-in-the-Loop Validation: A Structured Critical Review",
       "updated_at": "2026-11-02T14:38:08.841222+00:00"
+    },
+    "doi:10.31127/tuje.1624366": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A novel hyperparameter tuning method for enhanced intrusion detection in network security",
+      "updated_at": "2026-11-05T01:26:47.930274+00:00"
     },
     "doi:10.31224/7266": {
       "category": "secondaire_technique",
@@ -22160,6 +22248,14 @@
       "title": "A Secure dToF LiDAR SoC with Dual-Domain Fingerprinting and Event-Driven AFE Circuit Achieving Sensor-Level Attack Resilience",
       "updated_at": "2026-11-02T12:56:15.039152+00:00"
     },
+    "title:asegmentedrobotgraspingperceptionneuralnetworkforedgeai": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A Segmented Robot Grasping Perception Neural Network for Edge AI",
+      "updated_at": "2026-11-05T01:24:58.699599+00:00"
+    },
     "title:assertainautomatedsecurityassertiongenerationusinglargelanguagemodels": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -22407,6 +22503,14 @@
       "status": "rejected",
       "title": "CapsuleFS A Multi-credential DataCapsule Filesystem",
       "updated_at": "2026-11-03T20:08:33.855005+00:00"
+    },
+    "title:carefulwhisperattestationforpeertopeerconfidentialcomputingnetworks": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Careful Whisper: Attestation for peer-to-peer Confidential Computing networks",
+      "updated_at": "2026-11-05T01:25:09.114599+00:00"
     },
     "title:ccxenablingunmodifiedintelsgxapplicationsonarmcca": {
       "category": "secondaire_technique",
@@ -22680,6 +22784,14 @@
       "title": "DIST-FL: Enhancing Security for TEE-based Aggregation in Federated Learning",
       "updated_at": "2026-11-02T21:35:59.595722+00:00"
     },
+    "title:distilledlargelanguagemodelinconfidentialcomputingenvironmentforsystemonchipdesign": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Distilled Large Language Model in Confidential Computing Environment for System-on-Chip Design",
+      "updated_at": "2026-11-05T01:25:09.147650+00:00"
+    },
     "title:distillocksafeguardingllmsfromunauthorizedknowledgedistillationontheedge": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -22815,6 +22927,14 @@
       "status": "imported",
       "title": "Enforcing RISC-V TEE Security Against Cache Timing Attacks",
       "updated_at": "2026-10-30T20:15:41.595928+00:00"
+    },
+    "title:enterexitpagefaultleaktestingisolationboundariesformicroarchitecturalleaks": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Enter, Exit, Page Fault, Leak: Testing Isolation Boundaries for Microarchitectural Leaks",
+      "updated_at": "2026-11-05T01:26:03.196439+00:00"
     },
     "title:environmentalratemanipulationattacksonpowergridsecurity": {
       "category": "hors_sujet",
@@ -23055,6 +23175,14 @@
       "status": "rejected",
       "title": "GasLiteAA: Optimizing ERC-4337 for Efficient and Secure Gas Sponsorship",
       "updated_at": "2026-11-03T12:28:22.295971+00:00"
+    },
+    "title:gatebleedexploitingoncoreacceleratorpowergatingforhighperformancestealthyattacksonai": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "GATEBLEED: Exploiting On-Core Accelerator Power Gating for High Performance & Stealthy Attacks on AI",
+      "updated_at": "2026-11-05T01:25:42.873947+00:00"
     },
     "title:ghostaccessattackingthegpuonthemultitenantcloudviacpullcunderunifiedmemory": {
       "category": "transfert_explicite",
@@ -23576,6 +23704,14 @@
       "title": "On Abnormal Execution Timing of Conditional Jump Instructions",
       "updated_at": "2026-11-03T18:14:06.631212+00:00"
     },
+    "title:ontheinferenceinsecurityofverticalfederatedlearningefficientauditingagainstinferencetamperingattack": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "On the Inference (In-)Security of Vertical Federated Learning: Efficient Auditing against Inference Tampering Attack",
+      "updated_at": "2026-11-05T01:25:08.980811+00:00"
+    },
     "title:ontheperformanceofmalwaredetectionclassifiersusinghardwareperformancecounters": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -23768,6 +23904,14 @@
       "title": "Polars inside Intel SGX2 Enclaves: An Empirical Study of Confidential Analytical Query Processing",
       "updated_at": "2026-11-03T10:13:38.588248+00:00"
     },
+    "title:policydrivenaiindataspacestaxonomyexplainabilityandpathwaysforcompliantinnovation": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Policy-Driven AI in Dataspaces: Taxonomy, Explainability, and Pathways for Compliant Innovation",
+      "updated_at": "2026-11-05T01:25:09.179570+00:00"
+    },
     "title:pratlsattestationofaclientapplicationfortee": {
       "category": "secondaire",
       "decision": "examiner",
@@ -23871,6 +24015,22 @@
       "status": "rejected",
       "title": "QLink: Quantum-Safe Bridge Architecture for Blockchain Interoperability",
       "updated_at": "2026-11-03T20:07:31.011679+00:00"
+    },
+    "title:qsafanovelmitigationframeworkforcognitivedegradationinagenticai": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "QSAF: A Novel Mitigation Framework for Cognitive Degradation in Agentic AI",
+      "updated_at": "2026-11-05T01:26:24.972770+00:00"
+    },
+    "title:qualcommtrustedapplicationemulationforfuzzingtesting": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Qualcomm Trusted Application Emulation for Fuzzing Testing",
+      "updated_at": "2026-11-05T01:25:09.082322+00:00"
     },
     "title:quantumsecurephysicalunclonablefunctionenabledbysiliconphotonicsintegratedcircuits": {
       "category": "secondaire",
@@ -24016,6 +24176,14 @@
       "title": "RV2GC: Reconstructing the Garbling Boundary in a RISC-V Garbled Processor",
       "updated_at": "2026-11-02T13:03:36.695633+00:00"
     },
+    "title:rvismithfuzzingcompilersforrvvintrinsics": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "RVISmith: Fuzzing Compilers for RVV Intrinsics",
+      "updated_at": "2026-11-05T01:24:47.511076+00:00"
+    },
     "title:sableminimalistinstructionlevelauthenticatedencryptionforconstrainedconfidentialcomputing": {
       "category": "coeur",
       "decision": "conserver",
@@ -24151,6 +24319,14 @@
       "status": "rejected",
       "title": "Securing Private Federated Learning in a Malicious Setting: A Scalable TEE-Based Approach with Client Auditing",
       "updated_at": "2026-11-04T17:48:55.172823+00:00"
+    },
+    "title:securingtransformerbasedaiexecutionviaunifiedteesandcryptoprotectedaccelerators": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Securing Transformer-based AI Execution via Unified TEEs and Crypto-protected Accelerators",
+      "updated_at": "2026-11-05T01:25:09.014559+00:00"
     },
     "title:securityawarenessinllmagentsthendaizonecase": {
       "category": "secondaire",
@@ -24407,6 +24583,14 @@
       "status": "rejected",
       "title": "Styx: Collaborative and Private Data Processing With TEE-Enforced Sticky Policy",
       "updated_at": "2026-11-03T12:28:22.276961+00:00"
+    },
+    "title:supportingintelrsgxonmultipackageplatforms": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Supporting Intel(r) SGX on Multi-Package Platforms",
+      "updated_at": "2026-11-05T01:25:09.048684+00:00"
     },
     "title:supportingsecuredintegrationofmicroarchitecturaldefenses": {
       "category": "coeur",
@@ -24776,6 +24960,14 @@
       "title": "Two-Way Confidential VMs (2cVM): Collaborative Confidential Computing for Mutually Distrustful Parties",
       "updated_at": "2026-11-02T21:35:59.711691+00:00"
     },
+    "title:tychecomposableisolationasafoundationtomanagetrustinthecloud": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Tyche: Composable Isolation as a Foundation to Manage Trust in the Cloud",
+      "updated_at": "2026-11-05T01:24:58.665857+00:00"
+    },
     "title:tzllmprotectingondevicelargelanguagemodelswitharmtrustzone": {
       "category": "secondaire",
       "decision": "examiner",
@@ -24895,6 +25087,14 @@
       "status": "imported",
       "title": "Yet Another Mirage of Breaking MIRAGE: Debunking Occupancy-based Side-Channel Attacks on Fully Associative Randomized Caches",
       "updated_at": "2026-11-04T21:49:02.312608+00:00"
+    },
+    "title:yourmailboxisminepromptinjectionattacksagainstrealworldllmemailagents": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Your Mailbox Is Mine: Prompt Injection Attacks Against Real-World LLM Email Agents",
+      "updated_at": "2026-11-05T01:24:26.648304+00:00"
     },
     "title:zeroknowledgepredicateproofsbetweenaiagentsameasuredcrossprotocolgatewayandthesourceintegritygap": {
       "category": "transfert_explicite",
