@@ -1,8 +1,8 @@
 {
   "accepted": 128,
   "completed": false,
-  "cursor": "MTczOTQ3MTg0MzAwMCwxMC4xMTA5JTJGdHZ0LjIwMjUuMzU0MTY4Mg==",
-  "evaluated": 2651,
+  "cursor": "MTc0MjI0MzEyOTAwMCwxMC4xMDE2JTJGai5lc3dhLjIwMjUuMTI3MTY4",
+  "evaluated": 2656,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -187,214 +187,771 @@
   ],
   "month": "2025-06",
   "needs_publish": true,
-  "offset": 80,
-  "pages_done": 2510,
-  "pages_in_query": 2,
+  "offset": 160,
+  "pages_done": 2512,
+  "pages_in_query": 4,
   "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "(e.g.,": [
+            24
+          ],
+          "39.8%,": [
+            296
+          ],
+          "40.0%": [
+            306
+          ],
+          "44.9%,": [
+            301
+          ],
+          "As": [
+            90
+          ],
+          "Existing": [
+            34
+          ],
+          "Experimental": [
+            286
+          ],
+          "For": [
+            226
+          ],
+          "High-latency": [
+            68
+          ],
+          "However,": [
+            56
+          ],
+          "In": [
+            114
+          ],
+          "SEED": [
+            119,
+            144,
+            290
+          ],
+          "Securing": [
+            0
+          ],
+          "The": [
+            195,
+            256
+          ],
+          "To": [
+            11,
+            140,
+            167,
+            268
+          ],
+          "We": [
+            158,
+            238
+          ],
+          "a": [
+            91,
+            176,
+            193,
+            231,
+            275
+          ],
+          "about": [
+            38
+          ],
+          "accurate": [
+            172
+          ],
+          "all": [
+            50
+          ],
+          "an": [
+            279
+          ],
+          "analyze": [
+            239
+          ],
+          "and": [
+            16,
+            27,
+            110,
+            278,
+            302
+          ],
+          "are": [
+            36
+          ],
+          "arrive.": [
+            139
+          ],
+          "article,": [
+            116
+          ],
+          "as": [
+            53
+          ],
+          "average": [
+            308
+          ],
+          "back": [
+            259
+          ],
+          "background": [
+            54,
+            135
+          ],
+          "based": [
+            181
+          ],
+          "batching": [
+            277
+          ],
+          "be": [
+            151,
+            215,
+            244
+          ],
+          "before": [
+            136
+          ],
+          "buffers": [
+            75
+          ],
+          "building": [
+            7
+          ],
+          "by": [
+            128,
+            217,
+            246,
+            295,
+            300,
+            305
+          ],
+          "cache": [
+            148,
+            161,
+            200,
+            204,
+            212
+          ],
+          "centers.": [
+            10
+          ],
+          "changes": [
+            191
+          ],
+          "compared": [
+            309
+          ],
+          "correctness": [
+            252
+          ],
+          "counters": [
+            26
+          ],
+          "critical": [
+            88
+          ],
+          "data": [
+            9,
+            32,
+            42,
+            51,
+            65,
+            69,
+            94,
+            107,
+            137,
+            292,
+            297
+          ],
+          "decouple": [
+            168
+          ],
+          "degrades": [
+            111
+          ],
+          "depend": [
+            163
+          ],
+          "dependencies": [
+            170
+          ],
+          "design.": [
+            315
+          ],
+          "develop": [
+            230
+          ],
+          "devise": [
+            175,
+            274
+          ],
+          "dirty": [
+            147
+          ],
+          "during": [
+            30
+          ],
+          "effect": [
+            40
+          ],
+          "enable": [
+            141
+          ],
+          "encryption": [
+            15,
+            25
+          ],
+          "ensure": [
+            12,
+            250
+          ],
+          "evict": [
+            203
+          ],
+          "evicted": [
+            216
+          ],
+          "eviction": [
+            178,
+            188,
+            221
+          ],
+          "evictions": [
+            162
+          ],
+          "evictions,": [
+            228
+          ],
+          "evictions.": [
+            157
+          ],
+          "execution": [
+            101
+          ],
+          "factors.": [
+            166
+          ],
+          "fill": [
+            72
+          ],
+          "find": [
+            159
+          ],
+          "finding": [
+            218
+          ],
+          "first": [
+            196
+          ],
+          "followed": [
+            245
+          ],
+          "for": [
+            6,
+            99,
+            171,
+            283
+          ],
+          "forcing": [
+            79
+          ],
+          "frequently": [
+            71
+          ],
+          "important": [
+            5
+          ],
+          "improves": [
+            121,
+            303
+          ],
+          "in": [
+            76,
+            86,
+            133,
+            192,
+            223
+          ],
+          "inaccurate": [
+            266
+          ],
+          "increase": [
+            64
+          ],
+          "increases": [
+            106
+          ],
+          "integrity": [
+            17,
+            28
+          ],
+          "invariants": [
+            241
+          ],
+          "is": [
+            4
+          ],
+          "latency": [
+            109,
+            294,
+            299
+          ],
+          "latency.": [
+            67
+          ],
+          "lines": [
+            149,
+            213
+          ],
+          "lines,": [
+            205
+          ],
+          "main": [
+            2
+          ],
+          "memory": [
+            3,
+            13,
+            31,
+            126,
+            154,
+            314
+          ],
+          "metadata": [
+            23,
+            61,
+            132,
+            264
+          ],
+          "method": [
+            180
+          ],
+          "multiple": [
+            165
+          ],
+          "must": [
+            243
+          ],
+          "natural": [
+            156
+          ],
+          "need": [
+            96
+          ],
+          "next": [
+            187,
+            220
+          ],
+          "observation": [
+            184
+          ],
+          "of": [
+            41,
+            102,
+            124,
+            253,
+            265
+          ],
+          "on": [
+            44,
+            164,
+            182,
+            307
+          ],
+          "operations.": [
+            55
+          ],
+          "optimistic": [
+            37
+          ],
+          "optimization": [
+            282
+          ],
+          "our": [
+            183
+          ],
+          "overhead,": [
+            272
+          ],
+          "path.": [
+            89
+          ],
+          "pausing": [
+            281
+          ],
+          "perform": [
+            83,
+            235
+          ],
+          "performance": [
+            46,
+            123,
+            304
+          ],
+          "performance-critical": [
+            93
+          ],
+          "performance.": [
+            113
+          ],
+          "predicted": [
+            227
+          ],
+          "prediction": [
+            179
+          ],
+          "predictions,": [
+            173
+          ],
+          "predictions.": [
+            267
+          ],
+          "predicts": [
+            145,
+            198,
+            210
+          ],
+          "propose": [
+            118
+          ],
+          "rarely": [
+            190
+          ],
+          "read": [
+            108,
+            298
+          ],
+          "reads": [
+            95
+          ],
+          "reduce": [
+            269
+          ],
+          "reduces": [
+            291
+          ],
+          "regard": [
+            49
+          ],
+          "result,": [
+            92
+          ],
+          "results": [
+            287
+          ],
+          "rollback": [
+            271,
+            276
+          ],
+          "rolls": [
+            258
+          ],
+          "second": [
+            208
+          ],
+          "secure": [
+            125,
+            313
+          ],
+          "security": [
+            22,
+            60,
+            131,
+            263
+          ],
+          "security,": [
+            14
+          ],
+          "set.": [
+            194
+          ],
+          "sets": [
+            201
+          ],
+          "sets.": [
+            225
+          ],
+          "show": [
+            58,
+            288
+          ],
+          "significantly": [
+            63
+          ],
+          "since": [
+            47
+          ],
+          "speculative": [
+            142,
+            232,
+            236,
+            254
+          ],
+          "speculatively": [
+            129,
+            261
+          ],
+          "state-of-the-art": [
+            312
+          ],
+          "step": [
+            197,
+            209
+          ],
+          "studies": [
+            35
+          ],
+          "system": [
+            45,
+            81,
+            112
+          ],
+          "system,": [
+            78
+          ],
+          "systems": [
+            127
+          ],
+          "systems’": [
+            1
+          ],
+          "techniques": [
+            19
+          ],
+          "that": [
+            59,
+            120,
+            160,
+            185,
+            242,
+            289
+          ],
+          "the": [
+            21,
+            39,
+            77,
+            80,
+            84,
+            87,
+            100,
+            122,
+            134,
+            169,
+            186,
+            207,
+            219,
+            224,
+            240,
+            247,
+            251,
+            260,
+            270,
+            284,
+            311
+          ],
+          "these": [
+            103
+          ],
+          "they": [
+            48
+          ],
+          "this": [
+            115
+          ],
+          "through": [
+            155
+          ],
+          "to": [
+            82,
+            97,
+            153,
+            234,
+            249
+          ],
+          "trees)": [
+            29
+          ],
+          "trusted": [
+            8
+          ],
+          "two-step": [
+            177
+          ],
+          "up": [
+            73
+          ],
+          "update": [
+            20,
+            280
+          ],
+          "updated": [
+            262
+          ],
+          "updater": [
+            233,
+            248,
+            257
+          ],
+          "updater.": [
+            285
+          ],
+          "updates": [
+            62
+          ],
+          "updates,": [
+            143
+          ],
+          "updates.": [
+            237,
+            255
+          ],
+          "updating": [
+            130
+          ],
+          "verification": [
+            18
+          ],
+          "victim": [
+            189
+          ],
+          "victims": [
+            222
+          ],
+          "wait": [
+            98
+          ],
+          "we": [
+            57,
+            117,
+            174,
+            229,
+            273
+          ],
+          "whereas": [
+            206
+          ],
+          "which": [
+            105,
+            146,
+            199,
+            211
+          ],
+          "will": [
+            150,
+            202,
+            214
+          ],
+          "with": [
+            310
+          ],
+          "write": [
+            66,
+            74,
+            293
+          ],
+          "writes": [
+            43,
+            52,
+            70,
+            85,
+            138
+          ],
+          "writes,": [
+            104
+          ],
+          "writes.": [
+            33
+          ],
+          "written": [
+            152
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Xueliang Wei"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Dan Feng"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Wei Tong"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Bing Wu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Xu Jiang"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1145/3722111",
+        "id": "https://doi.org/10.1145/3722111",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1145/3722111"
+        },
+        "publication_date": "2025-06-30",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-06-30",
+        "publication_type": "revue",
+        "publication_venue": "ACM Transactions on Architecture and Code Optimization",
+        "title": "SEED: Speculative Security Metadata Updates for Low-Latency Secure Memory",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T09 — Secure Memory"
+      ]
+    },
     {
       "paper": {
         "abstract_inverted_index": {},
         "authorships": [
           {
             "author": {
-              "display_name": "Mirza Athar Baig"
+              "display_name": "Davide Zoni"
             }
           },
           {
             "author": {
-              "display_name": "Asif Iqbal"
+              "display_name": "Andrea Galimberti"
             }
           },
           {
             "author": {
-              "display_name": "Muhammad Naveed Aman"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Biplab Sikdar"
+              "display_name": "Davide Galli"
             }
           }
         ],
-        "doi": "https://doi.org/10.1109/tai.2025.3526139",
-        "id": "https://doi.org/10.1109/tai.2025.3526139",
+        "doi": "https://doi.org/10.1109/tc.2025.3551936",
+        "id": "https://doi.org/10.1109/tc.2025.3551936",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/tai.2025.3526139"
+          "landing_page_url": "https://doi.org/10.1109/tc.2025.3551936"
         },
         "publication_date": "2025-06-01",
         "publication_date_note": "Date source Crossref : 2025-06 (jour inconnu ; 01 utilisé pour classer).",
         "publication_date_precision": "month",
         "publication_date_source": "2025-06",
         "publication_type": "revue",
-        "publication_venue": "IEEE Transactions on Artificial Intelligence",
-        "title": "Leveraging AI to Compromise IoT Device Privacy by Exploiting Hardware Imperfections",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T01 — Root of Trust & Secure Boot"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Vangelis Malamas"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Panayiotis Kotzanikolaou"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Kostas Nomikos"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Christos Zonios"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Vasileios Tenentes"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Mihalis Psarakis"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/jiot.2025.3530775",
-        "id": "https://doi.org/10.1109/jiot.2025.3530775",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/jiot.2025.3530775"
-        },
-        "publication_date": "2025-06-01",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-06-01",
-        "publication_type": "revue",
-        "publication_venue": "IEEE Internet of Things Journal",
-        "title": "HA-CAAP: Hardware-Assisted Continuous Authentication and Attestation Protocol for IoT Based on Blockchain",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T01 — Root of Trust & Secure Boot"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Linchao Zhang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Lei Hang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Keke Zu"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Yi Wang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Kun Yang"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/jiot.2025.3541256",
-        "id": "https://doi.org/10.1109/jiot.2025.3541256",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/jiot.2025.3541256"
-        },
-        "publication_date": "2025-06-15",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-06-15",
-        "publication_type": "revue",
-        "publication_venue": "IEEE Internet of Things Journal",
-        "title": "Constructing Next-Generation IoT Security: Embedded Smart Contracts and Multilayer Security Protection",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T01 — Root of Trust & Secure Boot"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Ziyu Zhou"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Pengjun Wang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Gang Li"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Shuang Hu"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Yuejun Zhang"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/jiot.2025.3541434",
-        "id": "https://doi.org/10.1109/jiot.2025.3541434",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/jiot.2025.3541434"
-        },
-        "publication_date": "2025-06-15",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-06-15",
-        "publication_type": "revue",
-        "publication_venue": "IEEE Internet of Things Journal",
-        "title": "Improving the Stability of APUF to 100% Without Extra Hardware Overhead for Enhancing the Performance of Security Authentication Protocols",
+        "publication_venue": "IEEE Transactions on Computers",
+        "title": "An FPGA-Based Open-Source Hardware-Software Framework for Side-Channel Security Research",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -2811,7 +3368,7 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 773,
+  "prefilter_review_overflow": 774,
   "query_index": 13,
   "secondary": 146,
   "skipped": 2638,
