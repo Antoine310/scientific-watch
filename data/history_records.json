@@ -1703,6 +1703,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3627106.3627112": {
+    "doi": "https://doi.org/10.1145/3627106.3627112",
+    "publication_date": "2023-12-02",
+    "publication_type": "conference",
+    "publication_venue": "Annual Computer Security Applications Conference",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3627106.3627112",
+    "summary": "Cet article aborde les défis de sécurité du cloud computing confidentiel en soulignant que les mécanismes matériels actuels (comme Intel SGX, AMD SEV, Intel TDX) protègent la mémoire des applications contre le fournisseur de cloud mais ne garantissent pas l'intégrité de la configuration et du démarrage sans une racine de confiance matérielle et une attestation à distance.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Remote attestation of confidential VMs using ephemeral vTPMs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3649153.3649213": {
     "doi": "https://doi.org/10.1145/3649153.3649213",
     "publication_date": "2024-05-07",
