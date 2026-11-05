@@ -1736,6 +1736,14 @@
       "title": "Correction to: TroLLoc: Security Closure against Hardware Trojans by Logic Locking and Layout Hardening",
       "updated_at": "2026-11-02T15:15:10.694075+00:00"
     },
+    "doi:10.1007/s41635-026-00195-z": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "The Limits of Cloud Noise: Information-Theoretic Bounds on Cross-VM Cache Side Channels",
+      "updated_at": "2026-11-05T07:10:18.537968+00:00"
+    },
     "doi:10.1007/s41870-025-02784-7": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -14736,6 +14744,14 @@
       "title": "SIMA: Scalable Scratchpad-Based Index-Matching Hardware Accelerator for Sparse Linear Algebra",
       "updated_at": "2026-11-02T13:39:00.810384+00:00"
     },
+    "doi:10.1145/3845814.3850073": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "Flashpoint: Privileged-Software Isolation on RISC-V for Dynamic Root of Trust",
+      "updated_at": "2026-11-05T07:10:30.442244+00:00"
+    },
     "doi:10.1145/3846185": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -25055,6 +25071,14 @@
       "status": "rejected",
       "title": "PermuteV: A Performant Side-channel-Resistant RISC-V Core Securing Edge AI Inference",
       "updated_at": "2026-11-03T20:08:12.374803+00:00"
+    },
+    "title:phantomtimingleaksoncortexm4apreregisteredevaluationofmlkemdecapsulation": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Phantom Timing Leaks on Cortex-M4: A Pre-registered Evaluation of ML-KEM Decapsulation",
+      "updated_at": "2026-11-05T07:10:18.537941+00:00"
     },
     "title:physicallyunclonablefunctionsforsecureiotauthenticationandhardwareanchoredaimodelintegrity": {
       "category": "secondaire_technique",
