@@ -456,6 +456,14 @@
       "title": "A PUF-Based Secure Boot for RISC-V Architectures",
       "updated_at": "2026-11-05T02:13:33.382196+00:00"
     },
+    "doi:10.1007/978-3-031-54409-5_10": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "PQ.V.ALU.E: Post-quantum RISC-V Custom ALU Extensions on Dilithium and Kyber",
+      "updated_at": "2026-11-05T05:14:01.834968+00:00"
+    },
     "doi:10.1007/978-3-031-55561-9": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4032,6 +4040,14 @@
       "title": "Caught in the middle: immigrant entrepreneurship and the costs of diversifying beyond the enclave market",
       "updated_at": "2026-11-02T20:17:41.437650+00:00"
     },
+    "doi:10.1080/09540091.2024.2306965": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Bypassing software-based remote attestation using debug registers",
+      "updated_at": "2026-11-05T05:15:18.876753+00:00"
+    },
     "doi:10.1080/23335777.2025.2584291": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -4504,6 +4520,14 @@
       "title": "BIONIC: A 64-Core SNN/RISC-V Reconfigurable Processor with Hybrid On-Chip Learning Achieving 0.62 pJ/SOP and >99% Core Utilization",
       "updated_at": "2026-11-04T13:24:37.769357+00:00"
     },
+    "doi:10.1109/access.2024.3352114": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "“Interrupting” the Status Quo: A First Glance at the RISC-V Advanced Interrupt Architecture (AIA)",
+      "updated_at": "2026-11-05T05:14:01.834930+00:00"
+    },
     "doi:10.1109/access.2024.3380478": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -4519,6 +4543,14 @@
       "status": "imported",
       "title": "HSP-V: Hypervisor-Less Static Partitioning for RISC-V COTS Platforms",
       "updated_at": "2026-11-05T02:14:03.678462+00:00"
+    },
+    "doi:10.1109/access.2024.3512419": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A True Random Number Generator Based on Race Hazard and Jitter of Braided and Cross-Coupled Logic Gates Using FPGA",
+      "updated_at": "2026-11-05T05:16:00.877573+00:00"
     },
     "doi:10.1109/access.2025.3543000": {
       "category": "secondaire",
@@ -15104,6 +15136,14 @@
       "title": "SECURE BOOT AND FIRMWARE PROTECTION IN AUTOMOTIVE SEMICONDUCTORS: A REVIEW OF CURRENT APPROACHES",
       "updated_at": "2026-10-31T11:14:11.291447+00:00"
     },
+    "doi:10.12785/ijcds/150122": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Enhanced Approach To Generate One Time Password (OTP) Using Quantum True Random Number Generator (QTRNG)",
+      "updated_at": "2026-11-05T05:16:00.877594+00:00"
+    },
     "doi:10.12794/metadc2332527": {
       "category": "coeur",
       "decision": "conserver",
@@ -17799,6 +17839,14 @@
       "status": "rejected",
       "title": "Firmware Attestation in IoT Swarms Using Relational Graph Neural Networks and Static Random Access Memory",
       "updated_at": "2026-11-05T02:26:17.971825+00:00"
+    },
+    "doi:10.3390/app14010464": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Quantum Key Distribution with Post-Processing Driven by Physical Unclonable Functions",
+      "updated_at": "2026-11-05T05:14:37.534798+00:00"
     },
     "doi:10.3390/app14051700": {
       "category": "secondaire",
@@ -23648,6 +23696,14 @@
       "title": "CVA6 MMU-less virtualization - From hardware to software and vice versa",
       "updated_at": "2026-10-30T11:01:06.268017+00:00"
     },
+    "title:cvxifbasedriscvacceleratorgeneration": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "CV-X-IF Based RISC-V Accelerator Generation",
+      "updated_at": "2026-11-05T05:14:01.834960+00:00"
+    },
     "title:cweepalexicalstaticanalysisframeworkforcweearlyprevention": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -23823,6 +23879,14 @@
       "status": "rejected",
       "title": "EIM-TRNG: Obfuscating Deep Neural Network Weights with Encoding-in-Memory True Random Number Generator via RowHammer",
       "updated_at": "2026-11-05T00:50:07.588199+00:00"
+    },
+    "title:embeddedevaluationofthestatisticalparametersofthethermalnoiseforonlinetestoftrng": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Embedded evaluation of the statistical parameters of the thermal noise for online test of TRNG",
+      "updated_at": "2026-11-05T05:16:00.877554+00:00"
     },
     "title:emergingparadigmsforsecuringfederatedlearningsystems": {
       "category": "secondaire",
@@ -25047,6 +25111,14 @@
       "status": "imported",
       "title": "RealmEye: Virtual Machine Introspection for Arm CCA Realm VMs",
       "updated_at": "2026-11-02T18:03:45.415026+00:00"
+    },
+    "title:recommendationsfordesignandvalidationofaphysicaltruerandomnumbergeneratorintegratedinanelectronicdevice": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Recommendations for Design and Validation of a Physical True Random Number Generator Integrated in an Electronic Device",
+      "updated_at": "2026-11-05T05:16:00.877588+00:00"
     },
     "title:redteamingclaudeopusandchatgptbasedsecurityadvisorsfortrustedexecutionenvironments": {
       "category": "secondaire",

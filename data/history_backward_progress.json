@@ -2,8 +2,1497 @@
   "completed": false,
   "cursor": "*",
   "last_page": true,
-  "month": "2024-01",
-  "pages_done": 310,
-  "pending": [],
-  "query_index": 19
+  "month": "2023-12",
+  "pages_done": 320,
+  "pending": [
+    {
+      "abstract_inverted_index": {
+        "(SEV),": [
+          53
+        ],
+        "(SGX),": [
+          48
+        ],
+        "(TDX),": [
+          58
+        ],
+        "(remote": [
+          147
+        ],
+        "AMD": [
+          49
+        ],
+        "CPU": [
+          90
+        ],
+        "CPU,": [
+          83
+        ],
+        "Extensions": [
+          47
+        ],
+        "Guard": [
+          46
+        ],
+        "Intel": [
+          44,
+          54
+        ],
+        "Software": [
+          45
+        ],
+        "Such": [
+          115
+        ],
+        "Today,": [
+          43
+        ],
+        "Trying": [
+          0
+        ],
+        "Unfortunately,": [
+          92
+        ],
+        "a": [
+          7,
+          61,
+          103,
+          116,
+          120,
+          134
+        ],
+        "address": [
+          2
+        ],
+        "aimed": [
+          24
+        ],
+        "an": [
+          21,
+          126
+        ],
+        "and": [
+          13,
+          28,
+          39,
+          112,
+          139
+        ],
+        "applications": [
+          66
+        ],
+        "application’s": [
+          75
+        ],
+        "are": [
+          16
+        ],
+        "at": [
+          25
+        ],
+        "attestation).": [
+          148
+        ],
+        "authenticate": [
+          140
+        ],
+        "automatically": [
+          98
+        ],
+        "below": [
+          77
+        ],
+        "boot": [
+          113
+        ],
+        "boundary": [
+          80
+        ],
+        "can": [
+          130
+        ],
+        "challenges": [
+          5
+        ],
+        "cloud": [
+          14,
+          33,
+          37,
+          65,
+          69
+        ],
+        "cloud-centric": [
+          8
+        ],
+        "computing": [
+          19
+        ],
+        "confidential": [
+          18
+        ],
+        "configuration": [
+          111
+        ],
+        "deployment": [
+          10
+        ],
+        "do": [
+          96
+        ],
+        "domain": [
+          56
+        ],
+        "during": [
+          110
+        ],
+        "enable": [
+          99
+        ],
+        "encrypted": [
+          51
+        ],
+        "encryption": [
+          72
+        ],
+        "etc.,": [
+          59
+        ],
+        "existing": [
+          93
+        ],
+        "extend": [
+          137
+        ],
+        "extensions": [
+          57
+        ],
+        "for": [
+          31
+        ],
+        "from": [
+          35,
+          67
+        ],
+        "guarantee": [
+          101,
+          117
+        ],
+        "hardware": [
+          27,
+          79,
+          94,
+          121
+        ],
+        "hence": [
+          84
+        ],
+        "i.e.,": [
+          125
+        ],
+        "in": [
+          88,
+          133
+        ],
+        "integrity-protected": [
+          127
+        ],
+        "introducing": [
+          17
+        ],
+        "its": [
+          40
+        ],
+        "location": [
+          128
+        ],
+        "logs": [
+          143
+        ],
+        "manner,": [
+          136
+        ],
+        "measurement": [
+          142
+        ],
+        "measurements": [
+          132
+        ],
+        "mechanisms": [
+          30,
+          95
+        ],
+        "memory": [
+          76
+        ],
+        "not": [
+          97,
+          107
+        ],
+        "of": [
+          6,
+          73,
+          81,
+          123
+        ],
+        "on": [
+          119
+        ],
+        "only": [
+          87
+        ],
+        "paradigm,": [
+          11
+        ],
+        "protected": [
+          104
+        ],
+        "protecting": [
+          32
+        ],
+        "provide": [
+          60
+        ],
+        "provider": [
+          38,
+          70
+        ],
+        "providing": [
+          26
+        ],
+        "relies": [
+          118
+        ],
+        "requiring": [
+          85
+        ],
+        "root": [
+          122
+        ],
+        "secure": [
+          50
+        ],
+        "security": [
+          4
+        ],
+        "shield": [
+          64
+        ],
+        "silicon": [
+          12
+        ],
+        "software": [
+          9,
+          29,
+          41
+        ],
+        "stack.": [
+          42
+        ],
+        "store": [
+          131
+        ],
+        "system": [
+          105
+        ],
+        "tampered": [
+          108
+        ],
+        "term": [
+          23
+        ],
+        "that": [
+          102,
+          129
+        ],
+        "the": [
+          3,
+          36,
+          68,
+          74,
+          78,
+          82,
+          89,
+          100,
+          141,
+          145
+        ],
+        "them,": [
+          138
+        ],
+        "through": [
+          71
+        ],
+        "time.": [
+          114
+        ],
+        "to": [
+          1,
+          63,
+          144
+        ],
+        "trust": [
+          55,
+          86
+        ],
+        "trust,": [
+          124
+        ],
+        "trustworthy": [
+          135
+        ],
+        "umbrella": [
+          22
+        ],
+        "user": [
+          146
+        ],
+        "vendor.": [
+          91
+        ],
+        "vendors": [
+          15
+        ],
+        "virtualization": [
+          52
+        ],
+        "was": [
+          106
+        ],
+        "way": [
+          62
+        ],
+        "with": [
+          109
+        ],
+        "workloads": [
+          34
+        ],
+        "–": [
+          20
+        ]
+      },
+      "authorships": [
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I223532165"
+              ],
+              "raw_affiliation_string": "University of Utah, USA"
+            }
+          ],
+          "author": {
+            "display_name": "Vikram Narayanan",
+            "id": "https://openalex.org/A5027415482",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-6274-9242"
+            ],
+            "orcid": "https://orcid.org/0000-0001-6274-9242"
+          },
+          "author_position": "first",
+          "countries": [
+            "US"
+          ],
+          "institutions": [
+            {
+              "country_code": "US",
+              "display_name": "University of Utah",
+              "id": "https://openalex.org/I223532165",
+              "lineage": [
+                "https://openalex.org/I223532165"
+              ],
+              "ror": "https://ror.org/03r0ha626",
+              "type": "education"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "University of Utah, USA"
+          ],
+          "raw_author_name": "Vikram Narayanan",
+          "raw_orcid": "https://orcid.org/0000-0001-6274-9242"
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I1341412227"
+              ],
+              "raw_affiliation_string": "IBM Research, USA"
+            }
+          ],
+          "author": {
+            "display_name": "Claudio Carvalho",
+            "id": "https://openalex.org/A5101648534",
+            "observed_orcids": [
+              "https://orcid.org/0009-0004-6504-022X"
+            ],
+            "orcid": "https://orcid.org/0009-0004-6504-022X"
+          },
+          "author_position": "middle",
+          "countries": [
+            "US"
+          ],
+          "institutions": [
+            {
+              "country_code": "US",
+              "display_name": "IBM (United States)",
+              "id": "https://openalex.org/I1341412227",
+              "lineage": [
+                "https://openalex.org/I1341412227"
+              ],
+              "ror": "https://ror.org/05hh8d621",
+              "type": "company"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "IBM Research, USA"
+          ],
+          "raw_author_name": "Claudio Carvalho",
+          "raw_orcid": "https://orcid.org/0009-0004-6504-022X"
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I4210126328"
+              ],
+              "raw_affiliation_string": "IBM Research, Switzerland"
+            }
+          ],
+          "author": {
+            "display_name": "Angelo Ruocco",
+            "id": "https://openalex.org/A5005626450",
+            "observed_orcids": [
+              "https://orcid.org/0009-0006-0886-8893"
+            ],
+            "orcid": "https://orcid.org/0009-0006-0886-8893"
+          },
+          "author_position": "middle",
+          "countries": [
+            "CH"
+          ],
+          "institutions": [
+            {
+              "country_code": "CH",
+              "display_name": "IBM Research - Zurich",
+              "id": "https://openalex.org/I4210126328",
+              "lineage": [
+                "https://openalex.org/I1341412227",
+                "https://openalex.org/I4210114115",
+                "https://openalex.org/I4210126328"
+              ],
+              "ror": "https://ror.org/02js37d36",
+              "type": "facility"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "IBM Research, Switzerland"
+          ],
+          "raw_author_name": "Angelo Ruocco",
+          "raw_orcid": "https://orcid.org/0009-0006-0886-8893"
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I1341412227"
+              ],
+              "raw_affiliation_string": "IBM Research, USA"
+            }
+          ],
+          "author": {
+            "display_name": "Gheorghe Almási",
+            "id": "https://openalex.org/A5019698198",
+            "observed_orcids": [
+              "https://orcid.org/0009-0005-3879-6870"
+            ],
+            "orcid": "https://orcid.org/0009-0005-3879-6870"
+          },
+          "author_position": "middle",
+          "countries": [
+            "US"
+          ],
+          "institutions": [
+            {
+              "country_code": "US",
+              "display_name": "IBM (United States)",
+              "id": "https://openalex.org/I1341412227",
+              "lineage": [
+                "https://openalex.org/I1341412227"
+              ],
+              "ror": "https://ror.org/05hh8d621",
+              "type": "company"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "IBM Research, USA"
+          ],
+          "raw_author_name": "Gheorghe Almasi",
+          "raw_orcid": "https://orcid.org/0009-0005-3879-6870"
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I1341412227"
+              ],
+              "raw_affiliation_string": "IBM Research, USA"
+            }
+          ],
+          "author": {
+            "display_name": "James Bottomley",
+            "id": "https://openalex.org/A5103149366",
+            "observed_orcids": [
+              "https://orcid.org/0009-0008-6822-1607"
+            ],
+            "orcid": "https://orcid.org/0009-0008-6822-1607"
+          },
+          "author_position": "middle",
+          "countries": [
+            "US"
+          ],
+          "institutions": [
+            {
+              "country_code": "US",
+              "display_name": "IBM (United States)",
+              "id": "https://openalex.org/I1341412227",
+              "lineage": [
+                "https://openalex.org/I1341412227"
+              ],
+              "ror": "https://ror.org/05hh8d621",
+              "type": "company"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "IBM Research, USA"
+          ],
+          "raw_author_name": "James Bottomley",
+          "raw_orcid": "https://orcid.org/0009-0008-6822-1607"
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I1341412227"
+              ],
+              "raw_affiliation_string": "IBM Research, USA"
+            }
+          ],
+          "author": {
+            "display_name": "Mengmei Ye",
+            "id": "https://openalex.org/A5065008304",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3434-1968"
+            ],
+            "orcid": "https://orcid.org/0000-0002-3434-1968"
+          },
+          "author_position": "middle",
+          "countries": [
+            "US"
+          ],
+          "institutions": [
+            {
+              "country_code": "US",
+              "display_name": "IBM (United States)",
+              "id": "https://openalex.org/I1341412227",
+              "lineage": [
+                "https://openalex.org/I1341412227"
+              ],
+              "ror": "https://ror.org/05hh8d621",
+              "type": "company"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "IBM Research, USA"
+          ],
+          "raw_author_name": "Mengmei Ye",
+          "raw_orcid": "https://orcid.org/0000-0002-3434-1968"
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I1341412227"
+              ],
+              "raw_affiliation_string": "IBM Research, USA"
+            }
+          ],
+          "author": {
+            "display_name": "Tobin Feldman-Fitzthum",
+            "id": "https://openalex.org/A5036638534",
+            "observed_orcids": [
+              "https://orcid.org/0009-0006-3655-2378"
+            ],
+            "orcid": "https://orcid.org/0009-0006-3655-2378"
+          },
+          "author_position": "middle",
+          "countries": [
+            "US"
+          ],
+          "institutions": [
+            {
+              "country_code": "US",
+              "display_name": "IBM (United States)",
+              "id": "https://openalex.org/I1341412227",
+              "lineage": [
+                "https://openalex.org/I1341412227"
+              ],
+              "ror": "https://ror.org/05hh8d621",
+              "type": "company"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "IBM Research, USA"
+          ],
+          "raw_author_name": "Tobin Feldman-Fitzthum",
+          "raw_orcid": "https://orcid.org/0009-0006-3655-2378"
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I1341412227"
+              ],
+              "raw_affiliation_string": "IBM Research, USA"
+            }
+          ],
+          "author": {
+            "display_name": "Daniele Buono",
+            "id": "https://openalex.org/A5019212161",
+            "observed_orcids": [
+              "https://orcid.org/0009-0002-1433-9104"
+            ],
+            "orcid": "https://orcid.org/0009-0002-1433-9104"
+          },
+          "author_position": "middle",
+          "countries": [
+            "US"
+          ],
+          "institutions": [
+            {
+              "country_code": "US",
+              "display_name": "IBM (United States)",
+              "id": "https://openalex.org/I1341412227",
+              "lineage": [
+                "https://openalex.org/I1341412227"
+              ],
+              "ror": "https://ror.org/05hh8d621",
+              "type": "company"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "IBM Research, USA"
+          ],
+          "raw_author_name": "Daniele Buono",
+          "raw_orcid": "https://orcid.org/0009-0002-1433-9104"
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I1341412227"
+              ],
+              "raw_affiliation_string": "IBM Research, USA"
+            }
+          ],
+          "author": {
+            "display_name": "Hubertus Franke",
+            "id": "https://openalex.org/A5038903691",
+            "observed_orcids": [
+              "https://orcid.org/0009-0005-0150-1055"
+            ],
+            "orcid": "https://orcid.org/0009-0005-0150-1055"
+          },
+          "author_position": "middle",
+          "countries": [
+            "US"
+          ],
+          "institutions": [
+            {
+              "country_code": "US",
+              "display_name": "IBM (United States)",
+              "id": "https://openalex.org/I1341412227",
+              "lineage": [
+                "https://openalex.org/I1341412227"
+              ],
+              "ror": "https://ror.org/05hh8d621",
+              "type": "company"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "IBM Research, USA"
+          ],
+          "raw_author_name": "Hubertus Franke",
+          "raw_orcid": "https://orcid.org/0009-0005-0150-1055"
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I223532165"
+              ],
+              "raw_affiliation_string": "University of Utah, USA"
+            }
+          ],
+          "author": {
+            "display_name": "Anton Burtsev",
+            "id": "https://openalex.org/A5081890197",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-8769-8373"
+            ],
+            "orcid": "https://orcid.org/0000-0001-8769-8373"
+          },
+          "author_position": "last",
+          "countries": [
+            "US"
+          ],
+          "institutions": [
+            {
+              "country_code": "US",
+              "display_name": "University of Utah",
+              "id": "https://openalex.org/I223532165",
+              "lineage": [
+                "https://openalex.org/I223532165"
+              ],
+              "ror": "https://ror.org/03r0ha626",
+              "type": "education"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "University of Utah, USA"
+          ],
+          "raw_author_name": "Anton Burtsev",
+          "raw_orcid": "https://orcid.org/0000-0001-8769-8373"
+        }
+      ],
+      "doi": "https://doi.org/10.1145/3627106.3627112",
+      "id": "https://openalex.org/W4389279126",
+      "primary_location": {
+        "doi": "https://doi.org/10.1145/3627106.3627112",
+        "id": "doi:10.1145/3627106.3627112",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1145/3627106.3627112",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3627106.3627112",
+        "raw_source_name": "Annual Computer Security Applications Conference",
+        "raw_type": "proceedings-article",
+        "source": {
+          "display_name": "Annual Computer Security Applications Conference",
+          "host_organization": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "host_organization_name": null,
+          "id": "https://openalex.org/S4306417673",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "1063-9527",
+            "2576-9103"
+          ],
+          "issn_l": "1063-9527",
+          "listed_in": [],
+          "type": "conference"
+        },
+        "version": "publishedVersion"
+      },
+      "publication_date": "2023-12-02",
+      "title": "Remote attestation of confidential VMs using ephemeral vTPMs"
+    },
+    {
+      "abstract_inverted_index": {
+        "(Attester).": [
+          81
+        ],
+        "(NFV),": [
+          15
+        ],
+        "(RA)": [
+          60
+        ],
+        "(TM)": [
+          123
+        ],
+        "(Verifier)": [
+          70
+        ],
+        "(hardware-based,": [
+          91
+        ],
+        "Attestation": [
+          59
+        ],
+        "Computing": [
+          56
+        ],
+        "ETSI": [
+          132
+        ],
+        "Function": [
+          13
+        ],
+        "In": [
+          82,
+          145
+        ],
+        "Manager": [
+          129
+        ],
+        "Monitor": [
+          122
+        ],
+        "More": [
+          163
+        ],
+        "NFV": [
+          134
+        ],
+        "Network": [
+          12
+        ],
+        "Nowadays,": [
+          0
+        ],
+        "RA": [
+          89,
+          154,
+          161,
+          170
+        ],
+        "Remote": [
+          58
+        ],
+        "TM": [
+          167
+        ],
+        "These": [
+          25
+        ],
+        "Through": [
+          187
+        ],
+        "To": [
+          51,
+          108
+        ],
+        "Trust": [
+          121,
+          128
+        ],
+        "Trusted": [
+          55
+        ],
+        "Virtualization": [
+          14
+        ],
+        "a": [
+          67,
+          79,
+          114,
+          149
+        ],
+        "addition,": [
+          146
+        ],
+        "advantages": [
+          17,
+          29
+        ],
+        "allow": [
+          66
+        ],
+        "allows": [
+          168
+        ],
+        "an": [
+          191
+        ],
+        "and": [
+          11,
+          21,
+          57,
+          75,
+          117,
+          140,
+          185,
+          202
+        ],
+        "architecture,": [
+          124
+        ],
+        "are": [
+          3
+        ],
+        "as": [
+          8,
+          18,
+          47
+        ],
+        "attacks.": [
+          50
+        ],
+        "attested": [
+          106
+        ],
+        "availability,": [
+          20
+        ],
+        "be": [
+          63,
+          98
+        ],
+        "but": [
+          30
+        ],
+        "by": [
+          131,
+          158
+        ],
+        "can": [
+          62
+        ],
+        "capabilities": [
+          103
+        ],
+        "cloud/fog/edge": [
+          9
+        ],
+        "composed": [
+          84,
+          174
+        ],
+        "computing": [
+          10
+        ],
+        "configuration": [
+          76
+        ],
+        "containers,": [
+          183
+        ],
+        "contexts.": [
+          144,
+          206
+        ],
+        "costs.": [
+          24
+        ],
+        "counter": [
+          52
+        ],
+        "critical": [
+          1
+        ],
+        "define": [
+          148
+        ],
+        "depending": [
+          100
+        ],
+        "deployed,": [
+          99
+        ],
+        "design": [
+          116
+        ],
+        "different": [
+          86,
+          143,
+          176
+        ],
+        "distributed": [
+          37
+        ],
+        "ease": [
+          109
+        ],
+        "elements.": [
+          107
+        ],
+        "employing": [
+          159
+        ],
+        "enclaves.": [
+          186
+        ],
+        "environments": [
+          83,
+          157
+        ],
+        "environments,": [
+          135
+        ],
+        "experimental": [
+          192
+        ],
+        "extended": [
+          166
+        ],
+        "flexibility,": [
+          19
+        ],
+        "flexible": [
+          139,
+          169
+        ],
+        "for": [
+          42,
+          133,
+          152
+        ],
+        "frameworks": [
+          90
+        ],
+        "generic": [
+          150
+        ],
+        "given": [
+          32
+        ],
+        "heterogeneous": [
+          156,
+          205
+        ],
+        "hybrid": [
+          172
+        ],
+        "hybrid)": [
+          94
+        ],
+        "i.e.,": [
+          178
+        ],
+        "implementation": [
+          118,
+          199
+        ],
+        "implements": [
+          126
+        ],
+        "in": [
+          142,
+          155,
+          171,
+          190,
+          204
+        ],
+        "infrastructures": [
+          2,
+          173
+        ],
+        "integrity": [
+          49,
+          77
+        ],
+        "introduce": [
+          27
+        ],
+        "is": [
+          200
+        ],
+        "it": [
+          137
+        ],
+        "leave": [
+          40
+        ],
+        "machines,": [
+          182
+        ],
+        "making": [
+          136
+        ],
+        "managed": [
+          4
+        ],
+        "management": [
+          23
+        ],
+        "might": [
+          95
+        ],
+        "model": [
+          151
+        ],
+        "more": [
+          138
+        ],
+        "nature": [
+          34
+        ],
+        "need": [
+          96
+        ],
+        "new": [
+          115
+        ],
+        "nodes,": [
+          180
+        ],
+        "objects,": [
+          87,
+          177
+        ],
+        "of": [
+          35,
+          78,
+          85,
+          104,
+          119,
+          175
+        ],
+        "on": [
+          101
+        ],
+        "or": [
+          93
+        ],
+        "our": [
+          120
+        ],
+        "paradigms": [
+          6,
+          26
+        ],
+        "party": [
+          69
+        ],
+        "performed": [
+          189
+        ],
+        "performing": [
+          153
+        ],
+        "physical": [
+          179
+        ],
+        "physically": [
+          36
+        ],
+        "platform": [
+          80
+        ],
+        "pods,": [
+          184
+        ],
+        "process,": [
+          111
+        ],
+        "propose": [
+          113
+        ],
+        "proposed": [
+          198
+        ],
+        "providing": [
+          16
+        ],
+        "reduced": [
+          22
+        ],
+        "room": [
+          41
+        ],
+        "scalable": [
+          201
+        ],
+        "security": [
+          44
+        ],
+        "several": [
+          28,
+          88
+        ],
+        "show": [
+          195
+        ],
+        "software": [
+          48,
+          74
+        ],
+        "software-based,": [
+          92
+        ],
+        "specifically,": [
+          164
+        ],
+        "specified": [
+          130
+        ],
+        "such": [
+          7,
+          46
+        ],
+        "systems": [
+          38
+        ],
+        "techniques": [
+          61
+        ],
+        "technologies.": [
+          162
+        ],
+        "testbed,": [
+          193
+        ],
+        "tests": [
+          188
+        ],
+        "that": [
+          196
+        ],
+        "the": [
+          73,
+          102,
+          105,
+          127,
+          165,
+          197
+        ],
+        "their": [
+          33
+        ],
+        "these": [
+          53
+        ],
+        "third": [
+          68
+        ],
+        "this": [
+          110
+        ],
+        "threats,": [
+          45,
+          54
+        ],
+        "through": [
+          5
+        ],
+        "to": [
+          65,
+          71,
+          97
+        ],
+        "usable": [
+          141,
+          203
+        ],
+        "used,": [
+          64
+        ],
+        "various": [
+          43,
+          160
+        ],
+        "verify": [
+          72
+        ],
+        "virtual": [
+          181
+        ],
+        "we": [
+          112,
+          147,
+          194
+        ],
+        "which": [
+          125
+        ],
+        "–": [
+          31,
+          39
+        ]
+      },
+      "authorships": [
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I177477856"
+              ],
+              "raw_affiliation_string": "Politecnico di Torino,Dip. Automatica e Informatica,Torino,Italy"
+            },
+            {
+              "institution_ids": [
+                "https://openalex.org/I177477856"
+              ],
+              "raw_affiliation_string": "Dip. Automatica e Informatica, Politecnico di Torino, Torino, Italy"
+            }
+          ],
+          "author": {
+            "display_name": "Enrico Bravi",
+            "id": "https://openalex.org/A5092784969",
+            "observed_orcids": [
+              "https://orcid.org/0009-0006-1832-0274"
+            ],
+            "orcid": "https://orcid.org/0009-0006-1832-0274"
+          },
+          "author_position": "first",
+          "countries": [
+            "IT"
+          ],
+          "institutions": [
+            {
+              "country_code": "IT",
+              "display_name": "Politecnico di Torino",
+              "id": "https://openalex.org/I177477856",
+              "lineage": [
+                "https://openalex.org/I177477856"
+              ],
+              "ror": "https://ror.org/00bgk9508",
+              "type": "education"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "Politecnico di Torino,Dip. Automatica e Informatica,Torino,Italy",
+            "Dip. Automatica e Informatica, Politecnico di Torino, Torino, Italy"
+          ],
+          "raw_author_name": "Enrico Bravi",
+          "raw_orcid": null
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I177477856"
+              ],
+              "raw_affiliation_string": "Politecnico di Torino,Dip. Automatica e Informatica,Torino,Italy"
+            },
+            {
+              "institution_ids": [
+                "https://openalex.org/I177477856"
+              ],
+              "raw_affiliation_string": "Dip. Automatica e Informatica, Politecnico di Torino, Torino, Italy"
+            }
+          ],
+          "author": {
+            "display_name": "Diana Berbecaru",
+            "id": "https://openalex.org/A5015963162",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-1930-9473"
+            ],
+            "orcid": "https://orcid.org/0000-0003-1930-9473"
+          },
+          "author_position": "middle",
+          "countries": [
+            "IT"
+          ],
+          "institutions": [
+            {
+              "country_code": "IT",
+              "display_name": "Politecnico di Torino",
+              "id": "https://openalex.org/I177477856",
+              "lineage": [
+                "https://openalex.org/I177477856"
+              ],
+              "ror": "https://ror.org/00bgk9508",
+              "type": "education"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "Politecnico di Torino,Dip. Automatica e Informatica,Torino,Italy",
+            "Dip. Automatica e Informatica, Politecnico di Torino, Torino, Italy"
+          ],
+          "raw_author_name": "Diana Gratiela Berbecaru",
+          "raw_orcid": null
+        },
+        {
+          "affiliations": [
+            {
+              "institution_ids": [
+                "https://openalex.org/I177477856"
+              ],
+              "raw_affiliation_string": "Politecnico di Torino,Dip. Automatica e Informatica,Torino,Italy"
+            },
+            {
+              "institution_ids": [
+                "https://openalex.org/I177477856"
+              ],
+              "raw_affiliation_string": "Dip. Automatica e Informatica, Politecnico di Torino, Torino, Italy"
+            }
+          ],
+          "author": {
+            "display_name": "Antonio Lioy",
+            "id": "https://openalex.org/A5071208401",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5669-9338"
+            ],
+            "orcid": "https://orcid.org/0000-0002-5669-9338"
+          },
+          "author_position": "last",
+          "countries": [
+            "IT"
+          ],
+          "institutions": [
+            {
+              "country_code": "IT",
+              "display_name": "Politecnico di Torino",
+              "id": "https://openalex.org/I177477856",
+              "lineage": [
+                "https://openalex.org/I177477856"
+              ],
+              "ror": "https://ror.org/00bgk9508",
+              "type": "education"
+            }
+          ],
+          "is_corresponding": false,
+          "raw_affiliation_strings": [
+            "Politecnico di Torino,Dip. Automatica e Informatica,Torino,Italy",
+            "Dip. Automatica e Informatica, Politecnico di Torino, Torino, Italy"
+          ],
+          "raw_author_name": "Antonio Lioy",
+          "raw_orcid": null
+        }
+      ],
+      "doi": "https://doi.org/10.1109/cloudcom59040.2023.00027",
+      "id": "https://openalex.org/W4393140931",
+      "primary_location": {
+        "doi": "https://doi.org/10.1109/cloudcom59040.2023.00027",
+        "id": "doi:10.1109/cloudcom59040.2023.00027",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1109/cloudcom59040.2023.00027",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "2023 IEEE International Conference on Cloud Computing Technology and Science (CloudCom)",
+        "raw_type": "proceedings-article",
+        "source": {
+          "display_name": "IEEE International Conference on Cloud Computing Technology and Science",
+          "host_organization": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "host_organization_name": null,
+          "id": "https://openalex.org/S4306418654",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": null,
+          "issn_l": null,
+          "listed_in": [],
+          "type": "conference"
+        },
+        "version": "publishedVersion"
+      },
+      "publication_date": "2023-12-04",
+      "title": "A Flexible Trust Manager for Remote Attestation in Heterogeneous Critical Infrastructures"
+    }
+  ],
+  "query_index": 0
 }
