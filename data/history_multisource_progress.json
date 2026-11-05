@@ -1,7 +1,7 @@
 {
   "accepted": 123,
   "completed": false,
-  "cursor": "MTc2NDcwMTEwMDAwMCwxMC4xMTA5JTJGc2VmZXQ2NTE1NS4yMDI1LjExMjU1MTQx",
+  "cursor": "MTc3MjU2Mzk3MjAwMCwxMC4yMTcyJTJGMjU4MzQ5NQ==",
   "evaluated": 2624,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
@@ -186,10 +186,201 @@
   ],
   "month": "2025-07",
   "needs_publish": false,
-  "offset": 400,
-  "pages_done": 2481,
-  "pages_in_query": 10,
-  "pending": [],
+  "offset": 440,
+  "pages_done": 2482,
+  "pages_in_query": 11,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Abdulrahman Cheikh Souk"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Lee Lini"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/mecon67253.2025.11276951",
+        "id": "https://doi.org/10.1109/mecon67253.2025.11276951",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/mecon67253.2025.11276951"
+        },
+        "publication_date": "2025-07-21",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-07-21",
+        "publication_type": "conference",
+        "publication_venue": "2025 Multimedia University Engineering Conference (MECON)",
+        "title": "Challenges in FPGA-Based AI Accelerator with RISC-V Integration",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Kalisetty Sreeja"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Saidaiah Bandi"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.33545/2707661x.2025.v6.i2c.162",
+        "id": "https://doi.org/10.33545/2707661x.2025.v6.i2c.162",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.33545/2707661x.2025.v6.i2c.162"
+        },
+        "publication_date": "2025-07-01",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-07-01",
+        "publication_type": "revue",
+        "publication_venue": "International Journal of Communication and Information Technology",
+        "title": "Design of an area efficient RISC-V SoC for En/Decryption acceleration for Homomorphic Encryption",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "K. Kannaiah"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Srinivasulu Jogi"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/conecct65861.2025.11306804",
+        "id": "https://doi.org/10.1109/conecct65861.2025.11306804",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/conecct65861.2025.11306804"
+        },
+        "publication_date": "2025-07-10",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-07-10",
+        "publication_type": "conference",
+        "publication_venue": "2025 IEEE International Conference on Electronics, Computing and Communication Technologies (CONECCT)",
+        "title": "SecRISC-DFI: Secure RISC-V Architecture with Data-Flow Integrity Enforcement",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Pablo Vizcaino"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1145/3789242.3789246",
+        "id": "https://doi.org/10.1145/3789242.3789246",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1145/3789242.3789246"
+        },
+        "publication_date": "2025-07-21",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-07-21",
+        "publication_type": "conference",
+        "publication_venue": "SummerSchool '25: Conference on ACM Europe Summer School on HPC Computer Architectures for AI and Dedicated Applications",
+        "title": "RISC-V prototypes for HPC: Maturity and Methods",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Ivan Vargas"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Carlos Rojas Morales"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1145/3789242.3789247",
+        "id": "https://doi.org/10.1145/3789242.3789247",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1145/3789242.3789247"
+        },
+        "publication_date": "2025-07-21",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-07-21",
+        "publication_type": "conference",
+        "publication_venue": "SummerSchool '25: Conference on ACM Europe Summer School on HPC Computer Architectures for AI and Dedicated Applications",
+        "title": "Expedited development of novel RISC-V instructions through an emulation-simulation framework",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2593,9 +2784,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 767,
+  "prefilter_review_overflow": 768,
   "query_index": 23,
   "secondary": 142,
-  "skipped": 2614,
+  "skipped": 2619,
   "version": 1
 }
