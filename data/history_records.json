@@ -4247,6 +4247,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:efficientrlbasedcachevulnerabilityexplorationbypenalizinguselessagentactions": {
+    "doi": "",
+    "publication_date": "2025-06-08",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2506.07200v1",
+    "summary": "Cet article propose une méthode basée sur l'apprentissage par renforcement (RL) pour explorer efficacement les vulnérabilités des caches face aux attaques temporelles. En pénalisant les actions inutiles de l'agent pendant l'entraînement, l'approche réduit le temps d'exploration et améliore l'efficacité sur diverses structures de cache.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Efficient RL-based Cache Vulnerability Exploration by Penalizing Useless Agent Actions",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:enforcingattestableworkflowsacrossuntrustednetworks": {
     "doi": "",
     "publication_date": "2026-05-10",
@@ -4292,6 +4312,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Enter, Exit, Page Fault, Leak: Testing Isolation Boundaries for Microarchitectural Leaks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:exploitinginaccuratebranchhistoryinsidechannelattacks": {
+    "doi": "",
+    "publication_date": "2025-06-08",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2506.07263v1",
+    "summary": "Cet article analyse les composants des unités de prédiction de branches (BPU) dans les processeurs modernes hors ordre, en se concentrant sur les fonctionnalités de prédiction sans biais et de spéculation de l'historique des branches. L'étude démontre que ces mécanismes de partage de ressources créent des vulnérabilités de sécurité permettant de modifier le tampon d'historique des branches et de déclencher des attaques par canal auxiliaire et des attaques de type Spectre, incluant la fuite de mémoire du noyau via un démonstrateur eBPF.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Exploiting Inaccurate Branch History in Side-Channel Attacks",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -4413,6 +4453,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "GATEBLEED: Exploiting On-Core Accelerator Power Gating for High Performance & Stealthy Attacks on AI",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:globalmicroprocessorcorrectnessinthepresenceoftransientexecution": {
+    "doi": "",
+    "publication_date": "2025-06-20",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 80,
+    "source": "http://arxiv.org/abs/2506.17154v1",
+    "summary": "Cet article plaide pour l'utilisation de spécifications formelles basées sur la théorie du raffinement afin de définir la correction des microprocesseurs en présence d'attaques par exécution spéculative et transitoire, telles que Meltdown et Spectre. Les auteurs introduisent le raffinement par saut d'action (action skipping refinement) et des cartes de raffinement de compromis sur les ressources partagées pour permettre une vérification automatisée, validée par des modèles exécutables et des méthodes formelles légères.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Global Microprocessor Correctness in the Presence of Transient Execution",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
