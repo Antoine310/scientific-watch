@@ -1,8 +1,8 @@
 {
-  "accepted": 123,
+  "accepted": 125,
   "completed": false,
-  "cursor": "MTc3MjU2Mzk3MjAwMCwxMC4yMTcyJTJGMjU4MzQ5NQ==",
-  "evaluated": 2624,
+  "cursor": "*",
+  "evaluated": 2644,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -182,202 +182,964 @@
     "monthly/2025-07/query-19 : résultat tronqué au plafond 12 pages",
     "monthly/2025-07/query-20 : résultat tronqué au plafond 12 pages",
     "monthly/2025-07/query-21 : résultat tronqué au plafond 12 pages",
-    "monthly/2025-07/query-22 : résultat tronqué au plafond 12 pages"
+    "monthly/2025-07/query-22 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-07/query-24 : résultat tronqué au plafond 12 pages"
   ],
-  "month": "2025-07",
-  "needs_publish": false,
-  "offset": 440,
-  "pages_done": 2482,
-  "pages_in_query": 11,
+  "month": "2025-06",
+  "needs_publish": true,
+  "offset": 0,
+  "pages_done": 2504,
+  "pages_in_query": 0,
   "pending": [
     {
       "paper": {
-        "abstract_inverted_index": {},
+        "abstract_inverted_index": {
+          "(RL)": [
+            41
+          ],
+          "17": [
+            106
+          ],
+          "28\\%": [
+            133
+          ],
+          "4.84\\%": [
+            139
+          ],
+          "43.08%.": [
+            123
+          ],
+          "Cache-timing": [
+            0
+          ],
+          "Despite": [
+            16
+          ],
+          "Experiments": [
+            104
+          ],
+          "However,": [
+            54
+          ],
+          "In": [
+            75
+          ],
+          "Learning": [
+            40
+          ],
+          "RL-based": [
+            57,
+            147
+          ],
+          "Reinforcement": [
+            39
+          ],
+          "This": [
+            124
+          ],
+          "To": [
+            32
+          ],
+          "a": [
+            10,
+            23,
+            35,
+            50,
+            55,
+            80,
+            145
+          ],
+          "actions": [
+            67,
+            86,
+            119
+          ],
+          "against": [
+            27
+          ],
+          "agent": [
+            65,
+            95
+          ],
+          "analyzing": [
+            19
+          ],
+          "and": [
+            89,
+            98,
+            138
+          ],
+          "approach": [
+            58
+          ],
+          "approach.": [
+            148
+          ],
+          "attacks": [
+            1,
+            29
+          ],
+          "automatically": [
+            46
+          ],
+          "avoids": [
+            96
+          ],
+          "base": [
+            136
+          ],
+          "based": [
+            37
+          ],
+          "been": [
+            43
+          ],
+          "by": [
+            120,
+            132
+          ],
+          "cache": [
+            25,
+            52,
+            107
+          ],
+          "cache-timing": [
+            28
+          ],
+          "case": [
+            137
+          ],
+          "challenging.": [
+            31
+          ],
+          "characteristics": [
+            4
+          ],
+          "compared": [
+            143
+          ],
+          "contribute": [
+            71
+          ],
+          "data,": [
+            8
+          ],
+          "do": [
+            69
+          ],
+          "due": [
+            62
+          ],
+          "during": [
+            87
+          ],
+          "efficiency": [
+            101
+          ],
+          "end,": [
+            34
+          ],
+          "exploit": [
+            2
+          ],
+          "exploration": [
+            100
+          ],
+          "exploration.": [
+            74
+          ],
+          "explore": [
+            47
+          ],
+          "for": [
+            49
+          ],
+          "from": [
+            60
+          ],
+          "geomean": [
+            142
+          ],
+          "given": [
+            24,
+            51
+          ],
+          "has": [
+            42
+          ],
+          "identify": [
+            83
+          ],
+          "improved.": [
+            103
+          ],
+          "in": [
+            126,
+            134,
+            140
+          ],
+          "inefficiencies": [
+            61
+          ],
+          "is": [
+            30,
+            102
+          ],
+          "its": [
+            17
+          ],
+          "leak": [
+            6
+          ],
+          "mechanism": [
+            113
+          ],
+          "method": [
+            36,
+            81
+          ],
+          "microarchitectural": [
+            3
+          ],
+          "modern": [
+            14
+          ],
+          "naive": [
+            56,
+            146
+          ],
+          "not": [
+            70
+          ],
+          "number": [
+            116
+          ],
+          "of": [
+            22,
+            117,
+            129
+          ],
+          "on": [
+            38,
+            105
+          ],
+          "our": [
+            111
+          ],
+          "paper,": [
+            77
+          ],
+          "penalize": [
+            90
+          ],
+          "performing": [
+            66
+          ],
+          "posing": [
+            9
+          ],
+          "propose": [
+            79
+          ],
+          "proposed": [
+            44
+          ],
+          "reduces": [
+            114
+          ],
+          "reduction": [
+            128
+          ],
+          "resulted": [
+            125
+          ],
+          "sensitive": [
+            7
+          ],
+          "severe": [
+            11
+          ],
+          "severity,": [
+            18
+          ],
+          "show": [
+            109
+          ],
+          "so": [
+            92
+          ],
+          "structure": [
+            26
+          ],
+          "structure.": [
+            53
+          ],
+          "structures": [
+            108
+          ],
+          "suffers": [
+            59
+          ],
+          "systems.": [
+            15
+          ],
+          "that": [
+            68,
+            93,
+            110
+          ],
+          "the": [
+            20,
+            64,
+            73,
+            94,
+            99,
+            115,
+            127,
+            135,
+            141
+          ],
+          "them": [
+            91,
+            97
+          ],
+          "these": [
+            84
+          ],
+          "this": [
+            33,
+            76
+          ],
+          "threat": [
+            12
+          ],
+          "time": [
+            131
+          ],
+          "to": [
+            5,
+            13,
+            45,
+            63,
+            72,
+            82,
+            122,
+            144
+          ],
+          "training": [
+            88,
+            112,
+            130
+          ],
+          "up": [
+            121
+          ],
+          "useless": [
+            85,
+            118
+          ],
+          "vulnerabilities": [
+            48
+          ],
+          "vulnerability": [
+            21
+          ],
+          "we": [
+            78
+          ]
+        },
         "authorships": [
           {
             "author": {
-              "display_name": "Abdulrahman Cheikh Souk"
+              "display_name": "Kanato Nakanishi"
             }
           },
           {
             "author": {
-              "display_name": "Lee Lini"
+              "display_name": "Soramichi Akiyama"
             }
           }
         ],
-        "doi": "https://doi.org/10.1109/mecon67253.2025.11276951",
-        "id": "https://doi.org/10.1109/mecon67253.2025.11276951",
+        "doi": "",
+        "id": "http://arxiv.org/abs/2506.07200v1",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/mecon67253.2025.11276951"
+          "landing_page_url": "http://arxiv.org/abs/2506.07200v1"
         },
-        "publication_date": "2025-07-21",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-07-21",
-        "publication_type": "conference",
-        "publication_venue": "2025 Multimedia University Engineering Conference (MECON)",
-        "title": "Challenges in FPGA-Based AI Accelerator with RISC-V Integration",
+        "publication_date": "2025-06-08",
+        "publication_type": "prepublication",
+        "publication_venue": "",
+        "title": "Efficient RL-based Cache Vulnerability Exploration by Penalizing Useless Agent Actions",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
-        "venue_provenance": "Crossref"
+        "venue_provenance": "arXiv"
       },
       "sources": [
-        "Crossref"
+        "arXiv"
       ],
       "themes": [
-        "T10 — RISC-V SoC & FPGA"
+        "T06 — Microarchitectural Side Channels"
       ]
     },
     {
       "paper": {
-        "abstract_inverted_index": {},
+        "abstract_inverted_index": {
+          "\"equivalent\"": [
+            40
+          ],
+          "(ISA).": [
+            15
+          ],
+          "Correctness": [
+            0
+          ],
+          "Finally,": [
+            206
+          ],
+          "ISA": [
+            202
+          ],
+          "In": [
+            65
+          ],
+          "Meltdown": [
+            97
+          ],
+          "Spectre.": [
+            99
+          ],
+          "Such": [
+            100
+          ],
+          "This": [
+            16,
+            49
+          ],
+          "Unlike": [
+            117
+          ],
+          "We": [
+            81,
+            147,
+            186
+          ],
+          "a": [
+            152,
+            204
+          ],
+          "abstractions": [
+            26
+          ],
+          "action": [
+            149
+          ],
+          "advocate": [
+            69
+          ],
+          "allowing": [
+            30
+          ],
+          "almost": [
+            52
+          ],
+          "alternative": [
+            118
+          ],
+          "always": [
+            53
+          ],
+          "amenable": [
+            173
+          ],
+          "an": [
+            42,
+            145,
+            201
+          ],
+          "and": [
+            98,
+            141,
+            157,
+            197,
+            203
+          ],
+          "appearing": [
+            108
+          ],
+          "approaches": [
+            119
+          ],
+          "architecture": [
+            14
+          ],
+          "are": [
+            38,
+            114,
+            171
+          ],
+          "associated": [
+            11
+          ],
+          "atomically.": [
+            48
+          ],
+          "attacks": [
+            101
+          ],
+          "attacks,": [
+            95
+          ],
+          "automated": [
+            175
+          ],
+          "based": [
+            213
+          ],
+          "basis": [
+            19
+          ],
+          "be": [
+            7,
+            88,
+            166,
+            218
+          ],
+          "bit-": [
+            196
+          ],
+          "buggy.": [
+            116
+          ],
+          "bugs.": [
+            224
+          ],
+          "by": [
+            144
+          ],
+          "can": [
+            87,
+            165,
+            217
+          ],
+          "come": [
+            61
+          ],
+          "commercial": [
+            56
+          ],
+          "commitment": [
+            183
+          ],
+          "computer": [
+            28
+          ],
+          "concept": [
+            180
+          ],
+          "conformance": [
+            8,
+            63
+          ],
+          "conformance,": [
+            137
+          ],
+          "context": [
+            191
+          ],
+          "correctness": [
+            85,
+            127,
+            140
+          ],
+          "cycle-accurate": [
+            198
+          ],
+          "deal": [
+            91
+          ],
+          "decades,": [
+            113
+          ],
+          "decomposed": [
+            167
+          ],
+          "describe": [
+            159
+          ],
+          "designers": [
+            32
+          ],
+          "develop": [
+            34
+          ],
+          "do": [
+            59,
+            187
+          ],
+          "e.g.,": [
+            55
+          ],
+          "executable": [
+            195
+          ],
+          "executes": [
+            46
+          ],
+          "execution": [
+            94,
+            223
+          ],
+          "for": [
+            1,
+            20,
+            70,
+            112
+          ],
+          "formal": [
+            74,
+            211
+          ],
+          "formal,": [
+            193
+          ],
+          "formalizes": [
+            136
+          ],
+          "fully": [
+            194
+          ],
+          "functional": [
+            139
+          ],
+          "functionally": [
+            39
+          ],
+          "generally": [
+            4,
+            58
+          ],
+          "global,": [
+            129
+          ],
+          "hardware": [
+            31
+          ],
+          "have": [
+            102
+          ],
+          "highly-optimized": [
+            35
+          ],
+          "how": [
+            160,
+            209
+          ],
+          "ideal": [
+            43
+          ],
+          "identify": [
+            221
+          ],
+          "important": [
+            25
+          ],
+          "in": [
+            27,
+            109,
+            189
+          ],
+          "includes": [
+            138
+          ],
+          "including": [
+            96
+          ],
+          "informal,": [
+            54
+          ],
+          "inherently": [
+            115
+          ],
+          "instruction": [
+            12
+          ],
+          "instructions": [
+            47
+          ],
+          "into": [
+            168
+          ],
+          "introduce": [
+            82,
+            148
+          ],
+          "is": [
+            3,
+            17,
+            51,
+            128,
+            132,
+            142
+          ],
+          "it": [
+            131
+          ],
+          "light-weight": [
+            210
+          ],
+          "maps.": [
+            185
+          ],
+          "meaning": [
+            130
+          ],
+          "methods": [
+            212
+          ],
+          "microarchitecture.": [
+            146
+          ],
+          "microprocessor": [
+            106
+          ],
+          "microprocessor.": [
+            205
+          ],
+          "microprocessors": [
+            2,
+            57
+          ],
+          "models": [
+            199
+          ],
+          "more": [
+            172
+          ],
+          "most": [
+            24
+          ],
+          "new": [
+            153
+          ],
+          "non-interference": [
+            122
+          ],
+          "not": [
+            60
+          ],
+          "notion": [
+            125
+          ],
+          "notions": [
+            83,
+            162
+          ],
+          "numerous": [
+            110
+          ],
+          "of": [
+            22,
+            73,
+            79,
+            84,
+            126,
+            155,
+            163,
+            181,
+            192,
+            200
+          ],
+          "on": [
+            214
+          ],
+          "one": [
+            21
+          ],
+          "optimizations,": [
+            107
+          ],
+          "our": [
+            124,
+            161
+          ],
+          "paper,": [
+            67
+          ],
+          "parameterized": [
+            143
+          ],
+          "processor": [
+            44
+          ],
+          "processors": [
+            36,
+            111
+          ],
+          "properties": [
+            169
+          ],
+          "properties,": [
+            123
+          ],
+          "property-based": [
+            215
+          ],
+          "refinement": [
+            156,
+            164,
+            184
+          ],
+          "refinement,": [
+            151
+          ],
+          "refinement.": [
+            80
+          ],
+          "science,": [
+            29
+          ],
+          "set": [
+            13
+          ],
+          "shared-resource": [
+            182
+          ],
+          "show": [
+            208
+          ],
+          "shown": [
+            103
+          ],
+          "single": [
+            133
+          ],
+          "skipping": [
+            150
+          ],
+          "specification": [
+            50,
+            134
+          ],
+          "specifications,": [
+            75
+          ],
+          "specifications.": [
+            64
+          ],
+          "testing": [
+            216
+          ],
+          "that": [
+            37,
+            45,
+            86,
+            104,
+            120,
+            170
+          ],
+          "that:": [
+            135
+          ],
+          "the": [
+            10,
+            18,
+            23,
+            71,
+            77,
+            178,
+            179,
+            190
+          ],
+          "theory": [
+            78
+          ],
+          "this": [
+            66,
+            188
+          ],
+          "to": [
+            6,
+            33,
+            41,
+            90,
+            174,
+            220
+          ],
+          "transient": [
+            93,
+            222
+          ],
+          "type": [
+            154
+          ],
+          "ubiquitous": [
+            105
+          ],
+          "understood": [
+            5
+          ],
+          "use": [
+            72,
+            121
+          ],
+          "used": [
+            89,
+            219
+          ],
+          "using": [
+            76,
+            177
+          ],
+          "verification": [
+            176
+          ],
+          "we": [
+            68,
+            158,
+            207
+          ],
+          "with": [
+            9,
+            62,
+            92
+          ]
+        },
         "authorships": [
           {
             "author": {
-              "display_name": "Kalisetty Sreeja"
+              "display_name": "Andrew T. Walter"
             }
           },
           {
             "author": {
-              "display_name": "Saidaiah Bandi"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.33545/2707661x.2025.v6.i2c.162",
-        "id": "https://doi.org/10.33545/2707661x.2025.v6.i2c.162",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.33545/2707661x.2025.v6.i2c.162"
-        },
-        "publication_date": "2025-07-01",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-07-01",
-        "publication_type": "revue",
-        "publication_venue": "International Journal of Communication and Information Technology",
-        "title": "Design of an area efficient RISC-V SoC for En/Decryption acceleration for Homomorphic Encryption",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T10 — RISC-V SoC & FPGA"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "K. Kannaiah"
+              "display_name": "Konstantinos Athanasiou"
             }
           },
           {
             "author": {
-              "display_name": "Srinivasulu Jogi"
+              "display_name": "Panagiotis Manolios"
             }
           }
         ],
-        "doi": "https://doi.org/10.1109/conecct65861.2025.11306804",
-        "id": "https://doi.org/10.1109/conecct65861.2025.11306804",
+        "doi": "",
+        "id": "http://arxiv.org/abs/2506.17154v1",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/conecct65861.2025.11306804"
+          "landing_page_url": "http://arxiv.org/abs/2506.17154v1"
         },
-        "publication_date": "2025-07-10",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-07-10",
-        "publication_type": "conference",
-        "publication_venue": "2025 IEEE International Conference on Electronics, Computing and Communication Technologies (CONECCT)",
-        "title": "SecRISC-DFI: Secure RISC-V Architecture with Data-Flow Integrity Enforcement",
+        "publication_date": "2025-06-20",
+        "publication_type": "prepublication",
+        "publication_venue": "",
+        "title": "Global Microprocessor Correctness in the Presence of Transient Execution",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
-        "venue_provenance": "Crossref"
+        "venue_provenance": "arXiv"
       },
       "sources": [
-        "Crossref"
+        "arXiv"
       ],
       "themes": [
-        "T10 — RISC-V SoC & FPGA"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Pablo Vizcaino"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1145/3789242.3789246",
-        "id": "https://doi.org/10.1145/3789242.3789246",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1145/3789242.3789246"
-        },
-        "publication_date": "2025-07-21",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-07-21",
-        "publication_type": "conference",
-        "publication_venue": "SummerSchool '25: Conference on ACM Europe Summer School on HPC Computer Architectures for AI and Dedicated Applications",
-        "title": "RISC-V prototypes for HPC: Maturity and Methods",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T10 — RISC-V SoC & FPGA"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Ivan Vargas"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Carlos Rojas Morales"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1145/3789242.3789247",
-        "id": "https://doi.org/10.1145/3789242.3789247",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1145/3789242.3789247"
-        },
-        "publication_date": "2025-07-21",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-07-21",
-        "publication_type": "conference",
-        "publication_venue": "SummerSchool '25: Conference on ACM Europe Summer School on HPC Computer Architectures for AI and Dedicated Applications",
-        "title": "Expedited development of novel RISC-V instructions through an emulation-simulation framework",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T10 — RISC-V SoC & FPGA"
+        "T06 — Microarchitectural Side Channels"
       ]
     }
   ],
@@ -2784,9 +3546,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 768,
-  "query_index": 23,
-  "secondary": 142,
-  "skipped": 2619,
+  "prefilter_review_overflow": 773,
+  "query_index": 9,
+  "secondary": 146,
+  "skipped": 2638,
   "version": 1
 }
