@@ -169,6 +169,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/access.2024.3399601": {
+    "doi": "https://doi.org/10.1109/access.2024.3399601",
+    "publication_date": "2024-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Access",
+    "score": 82,
+    "source": "https://doi.org/10.1109/access.2024.3399601",
+    "summary": "Ce papier présente HSP-V, une pile logicielle bas niveau sans hyperviseur permettant un partitionnement statique sur des plateformes COTS RISC-V dépourvues d'extension de virtualisation. HSP-V s'appuie sur la fonctionnalité Domain de l'OpenSBI et sur l'unité PMP pour établir des partitions, tout en assurant l'isolement des interruptions, des caches et des périphériques DMA.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "HSP-V: Hypervisor-Less Static Partitioning for RISC-V COTS Platforms",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/access.2025.3596829": {
     "publication_date": "2025-01-01",
     "publication_type": "revue",
@@ -2370,6 +2387,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.14711/thesis-991013340458703412": {
+    "doi": "https://doi.org/10.14711/thesis-991013340458703412",
+    "publication_date": "2024-01-01",
+    "publication_type": "inconnu",
+    "publication_venue": "",
+    "score": 75,
+    "source": "https://doi.org/10.14711/thesis-991013340458703412",
+    "summary": "Cette thèse de 2024 de Zili Kou, intitulée Cache side-channel attacks and defenses in constrained environments, explore les attaques par canal caché sur les caches ainsi que les contre-mesures associées dans des environnements contraints.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Cache side-channel attacks and defenses in constrained environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.14722/ndss.2025.230253": {
     "publication_date": "2025-01-01",
     "publication_type": "conference",
@@ -3710,6 +3744,23 @@
     ],
     "title": "Secure RISC-V architectures for brain-inspired computing"
   },
+  "doi:10.5220/0012813200003767": {
+    "doi": "https://doi.org/10.5220/0012813200003767",
+    "publication_date": "2024-01-01",
+    "publication_type": "conference",
+    "publication_venue": "International Conference on Security and Cryptography",
+    "score": 75,
+    "source": "http://dx.doi.org/10.5220/0012813200003767",
+    "summary": "Cet article étudie les attaques par canal auxiliaire exploitant les fuites micro-architecturales via les émanations électromagnétiques (EM) des accès à la mémoire DRAM. Les auteurs démontrent que l'observation physique par sonde EM constitue une alternative fiable aux mesures temporelles. Ils introduisent trois attaques : EVICT+EM pour récupérer une clé AES complète sans mémoire partagée, PRIME+EM pour rétroconcevoir l'utilisation du cache, et COLLISION+EM, une attaque par collision sur SoC sans exécution de code malveillant ciblant ARM TrustZone.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Cache Side-Channel Attacks Through Electromagnetic Emanations of DRAM Accesses",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.5220/0013518800003979": {
     "publication_date": "2025-01-01",
     "publication_type": "conference",
@@ -4982,6 +5033,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "arXiv"
+  },
+  "title:umaunidadedegestaodememoriadeentradasaidariscvdecodigoaberto": {
+    "doi": null,
+    "publication_date": "2024-01-01",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "https://hdl.handle.net/1822/99350",
+    "summary": "Cette dissertation de mestrado présente l'implémentation du premier IP de gestionnaire de mémoire d'E/S (IOMMU) open-source compatible avec la spécification RISC-V IOMMU v1.0. Intégré dans un SoC basé sur le processeur CVA6 avec support de la virtualisation, le travail évalue les coûts de hardware et les latences de traduction selon diverses configurations microarchitecturales, tout en fournissant des artefacts entièrement open-source.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Uma unidade de gestão de memória de entrada/saída RISC-V de código aberto",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "title:yavinaunifiedarchitectureforsecureedgeprocessinginmemory": {
     "publication_date": "2026-08-13",

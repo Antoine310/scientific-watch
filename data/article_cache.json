@@ -448,6 +448,30 @@
       "title": "RTL Security Verification",
       "updated_at": "2026-10-30T09:43:21.897916+00:00"
     },
+    "doi:10.1007/978-3-031-48121-5_13": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "A PUF-Based Secure Boot for RISC-V Architectures",
+      "updated_at": "2026-11-05T02:13:33.382196+00:00"
+    },
+    "doi:10.1007/978-3-031-55561-9": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Trusted Execution Environments",
+      "updated_at": "2026-11-05T02:13:33.382267+00:00"
+    },
+    "doi:10.1007/978-3-031-55561-9_7": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Enclave Computing",
+      "updated_at": "2026-11-05T02:14:11.652297+00:00"
+    },
     "doi:10.1007/978-3-031-55673-9_8": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -455,6 +479,22 @@
       "status": "rejected",
       "title": "Cryptographic Security Through a Hardware Root of Trust",
       "updated_at": "2026-11-04T23:14:08.296839+00:00"
+    },
+    "doi:10.1007/978-3-031-68606-1_11": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 59,
+      "status": "rejected",
+      "title": "TitanSSL: Towards Accelerating OpenSSL in a Full RISC-V Architecture Using OpenTitan Root-of-Trust",
+      "updated_at": "2026-11-05T02:13:33.382222+00:00"
+    },
+    "doi:10.1007/978-3-031-70896-1_8": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Formal Hardware/Software Models for Cache Locking Enabling Fast and Secure Code",
+      "updated_at": "2026-11-05T02:14:42.385368+00:00"
     },
     "doi:10.1007/978-3-031-74498-3_21": {
       "category": "secondaire",
@@ -4423,6 +4463,22 @@
       "status": "rejected",
       "title": "BIONIC: A 64-Core SNN/RISC-V Reconfigurable Processor with Hybrid On-Chip Learning Achieving 0.62 pJ/SOP and >99% Core Utilization",
       "updated_at": "2026-11-04T13:24:37.769357+00:00"
+    },
+    "doi:10.1109/access.2024.3380478": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Memory Integrity Techniques for Memory-Unsafe Languages: A Survey",
+      "updated_at": "2026-11-05T02:14:42.385392+00:00"
+    },
+    "doi:10.1109/access.2024.3399601": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 82,
+      "status": "imported",
+      "title": "HSP-V: Hypervisor-Less Static Partitioning for RISC-V COTS Platforms",
+      "updated_at": "2026-11-05T02:14:03.678462+00:00"
     },
     "doi:10.1109/access.2025.3543000": {
       "category": "secondaire",
@@ -14744,6 +14800,14 @@
       "title": "Hardware Evaluation of a Lightweight Secure Communication Protocol for Constrained IoT Devices",
       "updated_at": "2026-11-02T14:00:07.661694+00:00"
     },
+    "doi:10.14711/thesis-991013340458703412": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Cache side-channel attacks and defenses in constrained environments",
+      "updated_at": "2026-11-05T02:14:06.433726+00:00"
+    },
     "doi:10.14719/pst.14116": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -16752,6 +16816,14 @@
       "title": "Conceptual foundations of public management of state energy security through the prism of energy efficiency and renewable energy development",
       "updated_at": "2026-11-02T13:38:02.299169+00:00"
     },
+    "doi:10.2991/978-94-6463-540-9_58": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Enhancing IoT Security Through Trusted Execution Environments",
+      "updated_at": "2026-11-05T02:13:33.382262+00:00"
+    },
     "doi:10.30574/wjarr.2026.29.1.0026": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -18447,6 +18519,14 @@
       "status": "rejected",
       "title": "Hardware Implementation of a Two-Layer Neural Network Based on FPGA: Analysis of the Efficiency of Using ReLU and LeakyReLU Activation Functions",
       "updated_at": "2026-11-03T10:52:19.839698+00:00"
+    },
+    "doi:10.35662/unine-thesis-3199": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Webassembly as an abstraction for secure and efficient computing in trusted execution environments",
+      "updated_at": "2026-11-05T02:13:33.382272+00:00"
     },
     "doi:10.35848/1347-4065/ae01ad": {
       "category": "hors_sujet",
@@ -20599,6 +20679,14 @@
       "status": "rejected",
       "title": "9 Repairing the safety net? Social security under Labour",
       "updated_at": "2026-11-02T13:38:32.076263+00:00"
+    },
+    "doi:10.5220/0012813200003767": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Cache Side-Channel Attacks Through Electromagnetic Emanations of DRAM Accesses",
+      "updated_at": "2026-11-05T02:14:34.874110+00:00"
     },
     "doi:10.5220/0013518800003979": {
       "category": "coeur",
@@ -23152,6 +23240,14 @@
       "title": "Exploiting Software-level Abstractions To Support Practical Hardware Trojan Attacks",
       "updated_at": "2026-11-02T15:52:53.072266+00:00"
     },
+    "title:exploringimplementationofrustbasedsecureoperatingsystemsonriscvmpsoc": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Exploring implementation of Rust-based secure operating systems on RISC-V MP SoC",
+      "updated_at": "2026-11-05T02:13:33.382256+00:00"
+    },
     "title:extendedabstractsynthesizablelowoverheadcircuitlevelcountermeasuresandproactivedetectiontechniquesforpowerandemsca": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -24328,6 +24424,14 @@
       "title": "RISC-V Functional Safety for Autonomous Automotive Systems: An Analytical Framework and Research Roadmap for ML-Assisted Certification",
       "updated_at": "2026-11-03T12:28:09.994320+00:00"
     },
+    "title:riscvsocにおけるsecureboot高速化及ひkeystoneenclaveにおける大規模テータ授受手法の改善": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "RISC-V SoCにおけるSecure Boot高速化及びKeystone Enclaveにおける大規模データ授受手法の改善",
+      "updated_at": "2026-11-05T02:13:33.382244+00:00"
+    },
     "title:rtlarrowhardwaretocloudbridge": {
       "category": "secondaire",
       "decision": "examiner",
@@ -25159,6 +25263,14 @@
       "status": "rejected",
       "title": "uGen: An Agentic Framework for Generating Microarchitectural Attack PoCs",
       "updated_at": "2026-11-03T10:14:18.270762+00:00"
+    },
+    "title:umaunidadedegestaodememoriadeentradasaidariscvdecodigoaberto": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Uma unidade de gestão de memória de entrada/saída RISC-V de código aberto",
+      "updated_at": "2026-11-05T02:15:06.596955+00:00"
     },
     "title:vcauseefficientandverifiablecausalityanalysisforcloudbasedendpointauditing": {
       "category": "hors_sujet",
