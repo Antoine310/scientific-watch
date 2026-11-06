@@ -3480,6 +3480,14 @@
       "title": "SecurityCloak: Protection against cache timing and speculative memory access attacks",
       "updated_at": "2026-11-04T17:16:34.887445+00:00"
     },
+    "doi:10.1016/j.sysarc.2025.103372": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A cache-aware DAG scheduling method on multicores: Exploiting node affinity and deferred executions",
+      "updated_at": "2026-11-06T15:38:02.400042+00:00"
+    },
     "doi:10.1016/j.sysarc.2025.103422": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -5888,6 +5896,14 @@
       "title": "Low Power Implementation of RISC V Processor with Fine Grained Clock Gating/Power Gating",
       "updated_at": "2026-11-04T12:49:07.477454+00:00"
     },
+    "doi:10.1109/csp66295.2025.00024": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Evaluating Boundary Restriction Methods Against Hardware Transient Faults on Website Fingerprinting Attacks",
+      "updated_at": "2026-11-06T15:36:58.503314+00:00"
+    },
     "doi:10.1109/csr64739.2025.11130017": {
       "category": "coeur",
       "decision": "conserver",
@@ -6055,6 +6071,14 @@
       "status": "rejected",
       "title": "High-Entropy Metastable Jitter-Based True Random Number Generator (TRNG)",
       "updated_at": "2026-10-30T14:13:50.303549+00:00"
+    },
+    "doi:10.1109/dcas65331.2025.11045493": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "FPGA-Based Hardware Redaction Bitstream Fuzzing Attack",
+      "updated_at": "2026-11-06T15:36:40.085829+00:00"
     },
     "doi:10.1109/dcas69364.2026.11544771": {
       "category": "hors_sujet",
@@ -6384,6 +6408,14 @@
       "title": "Enhancing Runtime Security in Heterogeneous System-in-Package Through a Chiplet-Based Root-of-Trust",
       "updated_at": "2026-11-06T06:36:41.531645+00:00"
     },
+    "doi:10.1109/edcc66201.2025.00023": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Leveraging Remote Attestation APIs for Secure Image Sharing in Messaging Apps",
+      "updated_at": "2026-11-06T15:36:49.972826+00:00"
+    },
     "doi:10.1109/edpe66853.2025.11224077": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -6447,6 +6479,14 @@
       "status": "rejected",
       "title": "A Variable-Delay Radix-4 Booth Multiplier for RISC-V Processors via LLM-Assisted RTL Design",
       "updated_at": "2026-11-03T10:08:12.359953+00:00"
+    },
+    "doi:10.1109/eeice65049.2025.11033912": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "From Theory to Practice: Hardware Verification of Beamforming for 16-channel Phased Array Systems",
+      "updated_at": "2026-11-06T15:36:28.593053+00:00"
     },
     "doi:10.1109/eicars71536.2026.11694487": {
       "category": "secondaire",
@@ -7488,6 +7528,14 @@
       "title": "When Bigger Isn’t Stronger: Reassessing Security in Hardware Obfuscation",
       "updated_at": "2026-11-03T17:29:39.869778+00:00"
     },
+    "doi:10.1109/iccies63851.2025.11032419": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A Side-Channel based Hardware Trojan Detection using Power Traces and Anomaly Detection Technique",
+      "updated_at": "2026-11-06T15:36:28.561345+00:00"
+    },
     "doi:10.1109/iccmc69250.2026.11624696": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -7551,6 +7599,14 @@
       "status": "rejected",
       "title": "RISC-V Based Processor Design for Edge AI Devices",
       "updated_at": "2026-11-03T11:52:01.025829+00:00"
+    },
+    "doi:10.1109/iccsai64074.2025.11063904": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 50,
+      "status": "rejected",
+      "title": "HBSP: A Lightweight Framework for Transparent Software Protection Using Hardware Virtualization",
+      "updated_at": "2026-11-06T15:36:49.910976+00:00"
     },
     "doi:10.1109/iccsc62074.2024.10616834": {
       "category": "coeur",
@@ -10320,6 +10376,14 @@
       "title": "Hardware Security Evaluation of IoT Microcontrollers: Threats and Countermeasures",
       "updated_at": "2026-11-04T15:52:18.558570+00:00"
     },
+    "doi:10.1109/kpec65465.2025.11045035": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware Implementation and Validation of a Protection Scheme Based on Local Measurements for Self-Healing Microgrids",
+      "updated_at": "2026-11-06T15:36:40.118993+00:00"
+    },
     "doi:10.1109/la-cci58595.2023.10409488": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -11352,6 +11416,14 @@
       "title": "Scalable Quantum Device Authentication Using Hardware-Efficient Quantum Physical Unclonable Functions",
       "updated_at": "2026-11-03T13:27:55.013524+00:00"
     },
+    "doi:10.1109/raeeucci63961.2025.11048258": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hardware Accelerated Deep Learning for Real-Time Handwritten Signature Verification",
+      "updated_at": "2026-11-06T15:36:40.151042+00:00"
+    },
     "doi:10.1109/raeeucci67649.2026.11504938": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -11991,6 +12063,14 @@
       "status": "imported",
       "title": "ROLoad-PMP: Securing Sensitive Operations for Kernels and Bare-Metal Firmware",
       "updated_at": "2026-11-02T17:56:36.634871+00:00"
+    },
+    "doi:10.1109/tc.2024.3521225": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Microarchitectural Attacks and Mitigations on Retire Resources in Modern Processors",
+      "updated_at": "2026-11-06T15:37:08.009317+00:00"
     },
     "doi:10.1109/tc.2025.3533083": {
       "category": "secondaire",
@@ -14600,6 +14680,14 @@
       "title": "Advanced Logic Locking Hardware Security Using Quantum Dot Cellular Automata-Based Enhanced Majority Voter in Quantum Technology",
       "updated_at": "2026-11-03T09:02:21.867655+00:00"
     },
+    "doi:10.1134/s1064226925700299": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Software and Hardware Complex for Secure Data Transmission Using Quantum Key Distribution Technologies",
+      "updated_at": "2026-11-06T15:36:58.537844+00:00"
+    },
     "doi:10.1136/bmjopen-2025-110563": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -15551,6 +15639,14 @@
       "status": "rejected",
       "title": "DCMA: Accelerating Parallel DMA Transfers with a Multi-Port Direct Cached Memory Access in a Massive-Parallel Vector Processor",
       "updated_at": "2026-11-06T00:37:23.716820+00:00"
+    },
+    "doi:10.1145/3731125.3731136": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "SYCLARA: An Open Hardware--Software Platform for Evaluating SYCL Applications on RISC-V Vector Accelerators",
+      "updated_at": "2026-11-06T15:36:49.874404+00:00"
     },
     "doi:10.1145/3731217.3731233": {
       "category": "hors_sujet",
@@ -18104,6 +18200,14 @@
       "title": "Proposal of an Identity Verification System Using Trusted Execution Environment in the Japan's Digital Authentication App",
       "updated_at": "2026-10-31T23:15:52.001795+00:00"
     },
+    "doi:10.15866/irecap.v15i2.26211": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Optimized Multi-Response Enhanced CRO PUFs: Addressing Process Variation for Robust Hardware Security",
+      "updated_at": "2026-11-06T15:36:49.942595+00:00"
+    },
     "doi:10.1587/elex.21.20240259": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -19911,6 +20015,14 @@
       "status": "rejected",
       "title": "Metasurface information processor based on 4D bionic hardware and software for ultralow energy consumption computing",
       "updated_at": "2026-11-02T14:37:37.748765+00:00"
+    },
+    "doi:10.26438/ijcse/v13i4.9298": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Securing Hardware with AI Intrusion Detection, Threat Mitigation, and Trust Assurance",
+      "updated_at": "2026-11-06T15:36:58.579350+00:00"
     },
     "doi:10.26483/ijarcs.v16i6.7386": {
       "category": "secondaire",

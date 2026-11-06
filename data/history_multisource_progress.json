@@ -1,8 +1,8 @@
 {
-  "accepted": 152,
+  "accepted": 153,
   "completed": false,
-  "cursor": "MTc1MDQ0MDMzNDAwMCwxMC4xMTA5JTJGaWNjY2JkYTY0ODk4LjIwMjUuMTEwMzA0Mzg=",
-  "evaluated": 3008,
+  "cursor": "MTc0MTY5NDQ4MDAwMCwxMC4xMzY0JTJGb2UuNTU0MzM0",
+  "evaluated": 3022,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -208,98 +208,15 @@
     "monthly/2025-04/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2025-04/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2025-04/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2025-04/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2025-04/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-04/query-18 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2025-04",
   "needs_publish": false,
-  "offset": 280,
-  "pages_done": 2876,
-  "pages_in_query": 7,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Priyadharshini M"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Saravanan P"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/iccies63851.2025.11032419",
-        "id": "https://doi.org/10.1109/iccies63851.2025.11032419",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/iccies63851.2025.11032419"
-        },
-        "publication_date": "2025-04-24",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-04-24",
-        "publication_type": "conference",
-        "publication_venue": "2025 International Conference on Computational Innovations and Engineering Sustainability (ICCIES)",
-        "title": "A Side-Channel based Hardware Trojan Detection using Power Traces and Anomaly Detection Technique",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Xu Guo"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Guangfei Qi"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Wei Huang"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/eeice65049.2025.11033912",
-        "id": "https://doi.org/10.1109/eeice65049.2025.11033912",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/eeice65049.2025.11033912"
-        },
-        "publication_date": "2025-04-18",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-04-18",
-        "publication_type": "conference",
-        "publication_venue": "2025 6th International Conference on Electrical, Electronic Information and Communication Engineering (EEICE)",
-        "title": "From Theory to Practice: Hardware Verification of Beamforming for 16-channel Phased Array Systems",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    }
-  ],
+  "offset": 440,
+  "pages_done": 2901,
+  "pages_in_query": 11,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2703,9 +2620,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 946,
-  "query_index": 17,
+  "prefilter_review_overflow": 948,
+  "query_index": 19,
   "secondary": 171,
-  "skipped": 2940,
+  "skipped": 2944,
   "version": 1
 }
