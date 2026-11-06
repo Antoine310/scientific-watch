@@ -2608,6 +2608,14 @@
       "title": "Hardware-enhanced data security for Internet of Things",
       "updated_at": "2026-11-03T14:55:13.895743+00:00"
     },
+    "doi:10.1016/j.future.2023.06.008": {
+      "category": "secondaire_technique",
+      "decision": "conserver",
+      "score": 74,
+      "status": "rejected",
+      "title": "A lightweight remote attestation using PUFs and hash-based signatures for low-end IoT devices",
+      "updated_at": "2026-11-06T17:14:56.817066+00:00"
+    },
     "doi:10.1016/j.future.2025.107930": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -3135,6 +3143,14 @@
       "status": "rejected",
       "title": "True random number generators in modern cryptography: A review",
       "updated_at": "2026-11-01T11:14:31.256851+00:00"
+    },
+    "doi:10.1016/j.micpro.2023.104889": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Design and implementation of secure boot architecture on RISC-V using FPGA",
+      "updated_at": "2026-11-06T17:14:46.768400+00:00"
     },
     "doi:10.1016/j.micpro.2023.104968": {
       "category": "hors_sujet",
@@ -5967,6 +5983,14 @@
       "status": "rejected",
       "title": "Evaluating Boundary Restriction Methods Against Hardware Transient Faults on Website Fingerprinting Attacks",
       "updated_at": "2026-11-06T15:36:58.503314+00:00"
+    },
+    "doi:10.1109/csr57506.2023.10224914": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Counteracting Modeling Attacks Using Hardware-Based Dynamic Physical Unclonable Function",
+      "updated_at": "2026-11-06T17:13:57.041338+00:00"
     },
     "doi:10.1109/csr64739.2025.11130017": {
       "category": "coeur",
@@ -9840,6 +9864,14 @@
       "title": "Enhancing DFT Security in Chiplet-Based Systems With Encryption and Integrity Checking",
       "updated_at": "2026-11-04T17:53:03.964173+00:00"
     },
+    "doi:10.1109/jiot.2023.3296135": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "REALISE-IoT: RISC-V-Based Efficient and Lightweight Public-Key System for IoT Applications",
+      "updated_at": "2026-11-06T17:14:07.821730+00:00"
+    },
     "doi:10.1109/jiot.2024.3501854": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -12112,6 +12144,14 @@
       "title": "A Multi-Stage FPGA-Based Instrumentation Platform for Characterization and Signal Integrity Testing of Superconducting Interconnects at Cryogenic Temperatures",
       "updated_at": "2026-11-05T00:24:35.632449+00:00"
     },
+    "doi:10.1109/tc.2023.3290870": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "Secure Remote Attestation With Strong Key Insulation Guarantees",
+      "updated_at": "2026-11-06T17:14:40.564244+00:00"
+    },
     "doi:10.1109/tc.2024.3355772": {
       "category": "coeur",
       "decision": "conserver",
@@ -13784,6 +13824,14 @@
       "title": "Resource-Efficient and Resilient SOC/SOH Co-Monitoring of EV Batteries With Attack Detection",
       "updated_at": "2026-11-06T07:38:25.850023+00:00"
     },
+    "doi:10.1109/tvlsi.2023.3288754": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "RISE: RISC-V SoC for En/Decryption Acceleration on the Edge for Homomorphic Encryption",
+      "updated_at": "2026-11-06T17:14:07.821739+00:00"
+    },
     "doi:10.1109/tvlsi.2023.3298327": {
       "category": "secondaire",
       "decision": "examiner",
@@ -14488,6 +14536,14 @@
       "title": "Open-Source Emulation-based AI Framework for Performance Verification in RISC-V SoCs",
       "updated_at": "2026-11-04T13:25:07.573865+00:00"
     },
+    "doi:10.1109/yef-ece58420.2023.10209297": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "True Random Number Generator Prototype Implemented in an FPGA",
+      "updated_at": "2026-11-06T17:14:07.821722+00:00"
+    },
     "doi:10.1109/yef-ece66503.2025.11117526": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -14936,6 +14992,14 @@
       "title": "The Pomarinho enclave swarm: structural and petrological evidence of repeated quenching, splitting and magmatic erosion at the sidewalls of conduits (Iberian Variscan belt)",
       "updated_at": "2026-11-02T20:16:46.220256+00:00"
     },
+    "doi:10.1145/3579371.3589070": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "TEESec: Pre-Silicon Vulnerability Discovery for Trusted Execution Environments",
+      "updated_at": "2026-11-06T17:15:18.431660+00:00"
+    },
     "doi:10.1145/3579856.3582812": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -14952,6 +15016,14 @@
       "title": "SPEAR-V: Secure and Practical Enclave Architecture for RISC-V",
       "updated_at": "2026-11-06T14:15:09.601710+00:00"
     },
+    "doi:10.1145/3579856.3595794": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "CacheFX: A Framework for Evaluating Cache Security",
+      "updated_at": "2026-11-06T17:13:38.737675+00:00"
+    },
     "doi:10.1145/3583740.3628441": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -14967,6 +15039,14 @@
       "status": "imported",
       "title": "Universal Remote Attestation for Cloud and Edge Platforms",
       "updated_at": "2026-11-06T11:13:50.149005+00:00"
+    },
+    "doi:10.1145/3604906": {
+      "category": "secondaire_technique",
+      "decision": "conserver",
+      "score": 74,
+      "status": "rejected",
+      "title": "A Survey on Thwarting Memory Corruption in RISC-V",
+      "updated_at": "2026-11-06T17:15:16.478242+00:00"
     },
     "doi:10.1145/3605098.3635994": {
       "category": "secondaire_technique",
@@ -15000,6 +15080,14 @@
       "title": "BioLeak: Exploiting Cache Timing to Recover Fingerprint Minutiae Coordinates",
       "updated_at": "2026-11-05T23:18:53.934001+00:00"
     },
+    "doi:10.1145/3606305.3606312": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Secure Heterogeneous Architecture based on RISC-V and root-of-trust",
+      "updated_at": "2026-11-06T17:14:38.934102+00:00"
+    },
     "doi:10.1145/3607199.3607246": {
       "category": "coeur",
       "decision": "examiner",
@@ -15023,6 +15111,14 @@
       "status": "rejected",
       "title": "HasTEE: Programming Trusted Execution Environments with Haskell",
       "updated_at": "2026-11-06T11:13:57.331858+00:00"
+    },
+    "doi:10.1145/3610295": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A Compact TRNG Design for FPGA Based on the Metastability of RO-driven Shift Registers",
+      "updated_at": "2026-11-06T17:14:07.821704+00:00"
     },
     "doi:10.1145/3611674": {
       "category": "secondaire_technique",
@@ -18376,6 +18472,14 @@
       "title": "Low-resource TRNG with variable entropy sources based on TDC",
       "updated_at": "2026-11-01T05:13:25.995976+00:00"
     },
+    "doi:10.1587/transfun.2023kep0011": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A Single-Inverter-Based True Random Number Generator with On-Chip Clock-Tuning-Based Entropy Calibration Circuit",
+      "updated_at": "2026-11-06T17:14:07.821726+00:00"
+    },
     "doi:10.1587/transfun.2025cip0027": {
       "category": "coeur",
       "decision": "conserver",
@@ -21176,6 +21280,14 @@
       "title": "Spec-LAMP: Robust Spectre Attack Detection Under Web-Based LLM Workload via L1D Miss Pending Event",
       "updated_at": "2026-11-01T05:15:24.293481+00:00"
     },
+    "doi:10.3390/electronics12132987": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Secure Sensor Prototype Using Hardware Security Modules and Trusted Execution Environments in a Blockchain Application: Wine Logistic Use Case",
+      "updated_at": "2026-11-06T17:13:57.041360+00:00"
+    },
     "doi:10.3390/electronics12183938": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -21951,6 +22063,14 @@
       "status": "rejected",
       "title": "Adversarial Attack Resilient ML-Assisted Golden Free Approach for Hardware Trojan Detection",
       "updated_at": "2026-11-03T19:07:11.929089+00:00"
+    },
+    "doi:10.3390/s23146307": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hash and Physical Unclonable Function (PUF)-Based Mutual Authentication Mechanism",
+      "updated_at": "2026-11-06T17:13:57.041355+00:00"
     },
     "doi:10.3390/s24155001": {
       "category": "secondaire",
@@ -24007,6 +24127,30 @@
       "status": "rejected",
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
+    },
+    "doi:10.48550/arxiv.2306.14882": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Citadel: Simple Spectre-Safe Isolation For Real-World Programs That Share Memory",
+      "updated_at": "2026-11-06T17:14:58.917014+00:00"
+    },
+    "doi:10.48550/arxiv.2307.01041": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Practical Non-Invasive Probing Attacks Against Novel Carbon-Nanotube-Based Physical Unclonable Functions",
+      "updated_at": "2026-11-06T17:14:07.821734+00:00"
+    },
+    "doi:10.48550/arxiv.2307.12648": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Execution at RISC: Stealth JOP Attacks on RISC-V Applications",
+      "updated_at": "2026-11-06T17:13:47.094510+00:00"
     },
     "doi:10.48550/arxiv.2308.03897": {
       "category": "hors_sujet",
@@ -28759,6 +28903,14 @@
       "status": "rejected",
       "title": "Private, Verifiable, and Auditable AI Systems",
       "updated_at": "2026-11-04T21:27:11.945673+00:00"
+    },
+    "title:processeurriscvenrichiavecuneunitedemicrodecodagedynamique": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Processeur RISC-V enrichi avec une unité de microdécodage dynamique",
+      "updated_at": "2026-11-06T17:13:47.094550+00:00"
     },
     "title:proofofclouddatacenterexecutionassuranceforconfidentialvms": {
       "category": "coeur",

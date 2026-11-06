@@ -1606,6 +1606,23 @@
     "venue_priority": 2,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/tc.2023.3290870": {
+    "doi": "https://doi.org/10.1109/tc.2023.3290870",
+    "publication_date": "2023-06-29",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computers",
+    "score": 88,
+    "source": "https://doi.org/10.1109/tc.2023.3290870",
+    "summary": "Cet article propose une nouvelle primitive cryptographique, OTS-SKE (One-Time Signature with Secret Key Exposure), pour renforcer l'attestation à distance face aux attaques par canal auxiliaire. L'approche permet de signer des rapports d'attestation de manière sécurisée même si toutes les clés de session secrètes sont compromises, tout en minimisant la base de calcul de confiance (TCB) grâce à un coprocesseur sécurisé dédié à la génération de clés. Les auteurs démontrent expérimentalement que la signature OTS-SKE est plus rapide que les schémas KIS et l'algorithme ECDSA utilisé dans Intel SGX.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Secure Remote Attestation With Strong Key Insulation Guarantees",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/tc.2024.3355772": {
     "doi": "https://doi.org/10.1109/tc.2024.3355772",
     "publication_date": "2024-01-22",
@@ -2051,6 +2068,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3579371.3589070": {
+    "doi": "https://doi.org/10.1145/3579371.3589070",
+    "publication_date": "2023-06-16",
+    "publication_type": "conference",
+    "publication_venue": "Proceedings - International Symposium on Computer Architecture/Proceedings",
+    "score": 95,
+    "source": "https://doi.org/10.1145/3579371.3589070",
+    "summary": "Cet article présente TEESec, un premier framework pré-silicium conçu pour découvrir des vulnérabilités microarchitecturales dans les environnements d'exécution de confiance (TEE). Testé sur deux processeurs RISC-V avec le TEE Keystone, l'outil a permis de découvrir 10 vulnérabilités distinctes de fuite de données et de métadonnées.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "TEESec: Pre-Silicon Vulnerability Discovery for Trusted Execution Environments",
+    "venue_landmark": "ISCA",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3579856.3595784": {
     "doi": "https://doi.org/10.1145/3579856.3595784",
     "publication_date": "2023-07-05",
@@ -2063,6 +2097,23 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "SPEAR-V: Secure and Practical Enclave Architecture for RISC-V",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3579856.3595794": {
+    "doi": "https://doi.org/10.1145/3579856.3595794",
+    "publication_date": "2023-07-05",
+    "publication_type": "conference",
+    "publication_venue": "ACM Asia Conference on Computer and Communications Security (ASIA CCS)",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3579856.3595794",
+    "summary": "CacheFX est un cadre d'évaluation de la sécurité des caches, proposé pour analyser les risques liés au partage de ressources et aux attaques par canaux auxiliaires ciblant les composants de cache partagés.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "CacheFX: A Framework for Evaluating Cache Security",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -2114,6 +2165,23 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "BioLeak: Exploiting Cache Timing to Recover Fingerprint Minutiae Coordinates",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3606305.3606312": {
+    "doi": "https://doi.org/10.1145/3606305.3606312",
+    "publication_date": "2023-06-16",
+    "publication_type": "conference",
+    "publication_venue": "International Conference on Computer Systems and Technologies (CompSysTech)",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3606305.3606312",
+    "summary": "Cet article decrit l'architecture et le developpement d'un systeme heterogene securise base sur RISC-V. Il integre un coeur de protection dedie fournissant des mecanismes materiels pour etablir une racine de confiance (Root-of-Trust) et pour surveiller et controler l'execution des autres coeurs du systeme, le coeur de securite servant d'unite de controle.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Secure Heterogeneous Architecture based on RISC-V and root-of-trust",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -4066,6 +4134,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2306.14882": {
+    "doi": "https://doi.org/10.48550/arxiv.2306.14882",
+    "publication_date": "2023-06-26",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2306.14882",
+    "summary": "Citadel est une approche de sécurité matérielle et logicielle pour l'isolation des programmes partageant de la mémoire, visant à contrer les attaques par canal auxiliaire d'exécution spéculative (type Spectre). Elle introduit la propriété de relaxed microarchitectural isolation (RMI), permettant de limiter la fuite d'informations au niveau de l'exécution non spéculative tout en autorisant le partage de mémoire. L'évaluation sur un prototype FPGA exécutant Linux montre une surcharge de performance inférieure à 5 %.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Citadel: Simple Spectre-Safe Isolation For Real-World Programs That Share Memory",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2309.03376": {
     "doi": "https://doi.org/10.48550/arxiv.2309.03376",
