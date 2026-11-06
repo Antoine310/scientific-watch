@@ -11192,6 +11192,14 @@
       "title": "NIST 800-22 Statistical Validation of SRAM-based PUFs for Hardware Security",
       "updated_at": "2026-11-06T07:37:51.926295+00:00"
     },
+    "doi:10.1109/meco58584.2023.10154913": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Towards a RISC-V Open Platform for Next-generation Automotive ECUs",
+      "updated_at": "2026-11-06T20:14:07.148176+00:00"
+    },
     "doi:10.1109/meco66322.2025.11049168": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -15384,6 +15392,14 @@
       "title": "Secure Heterogeneous Architecture based on RISC-V and root-of-trust",
       "updated_at": "2026-11-06T17:14:38.934102+00:00"
     },
+    "doi:10.1145/3606373": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A High Throughput STR-based TRNG by Jitter Precise Quantization Superposing",
+      "updated_at": "2026-11-06T20:14:27.813121+00:00"
+    },
     "doi:10.1145/3607199.3607246": {
       "category": "coeur",
       "decision": "examiner",
@@ -18375,6 +18391,14 @@
       "status": "rejected",
       "title": "Design and investigation of a polarization convertor loaded MIMO graphene–silicon DRA in the THz domain with enhanced isolation",
       "updated_at": "2026-11-05T00:24:25.377102+00:00"
+    },
+    "doi:10.1364/jocn.489889": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Optical identification using physical unclonable functions",
+      "updated_at": "2026-11-06T20:14:17.259903+00:00"
     },
     "doi:10.1364/jocn.580878": {
       "category": "hors_sujet",
@@ -22368,6 +22392,14 @@
       "title": "Advances in Physical Unclonable Functions Based on New Technologies: A Comprehensive Review",
       "updated_at": "2026-11-05T23:13:23.638334+00:00"
     },
+    "doi:10.3390/mi14061213": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A RRAM-Based True Random Number Generator with 2T1R Architecture for Hardware Security Applications",
+      "updated_at": "2026-11-06T20:14:27.813140+00:00"
+    },
     "doi:10.3390/mi17050597": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -24471,6 +24503,14 @@
       "status": "rejected",
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
+    },
+    "doi:10.48550/arxiv.2306.01996": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "BandwidthBreach: Unleashing Covert and Side Channels through Cache Bandwidth Exploitation",
+      "updated_at": "2026-11-06T20:14:02.229259+00:00"
     },
     "doi:10.48550/arxiv.2306.14882": {
       "category": "coeur",
@@ -27143,6 +27183,14 @@
       "status": "imported",
       "title": "AEX-NStep: Probabilistic Interrupt Counting Attacks on Intel SGX",
       "updated_at": "2026-11-04T13:49:21.974394+00:00"
+    },
+    "title:ageneticalgorithmforaspectreattackagnostictobranchpredictors": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "A Genetic Algorithm for a Spectre Attack Agnostic to Branch Predictors",
+      "updated_at": "2026-11-06T20:13:39.262021+00:00"
     },
     "title:agentdvclosedloopagenticaiforhardwaredesignverification": {
       "category": "secondaire",

@@ -4155,6 +4155,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.48550/arxiv.2306.01996": {
+    "doi": "https://doi.org/10.48550/arxiv.2306.01996",
+    "publication_date": "2023-06-03",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2306.01996",
+    "summary": "BandwidthBreach explore l'exploitation de la bande passante des caches et des structures internes comme le Line Fill Buffer (LFB) et le Super Queue (SQ) pour concevoir des canaux cachés et des canaux auxiliaires performants. Les auteurs créent des congestions intentionnelles sur les chemins entre niveaux de cache (L2 vers L1d, L3 vers L2, L2 vers L1i) afin de mettre en place trois canaux cachés (L2CC, L3CC, LiCC) aux capacités élevées, tout en facilitant l'extraction de clés cryptographiques (RSA, EdDSA) et le contournement de certaines défenses contre Spectre.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "BandwidthBreach: Unleashing Covert and Side Channels through Cache Bandwidth Exploitation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.48550/arxiv.2306.14882": {
     "doi": "https://doi.org/10.48550/arxiv.2306.14882",
     "publication_date": "2023-06-26",
@@ -4939,6 +4956,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "arXiv"
+  },
+  "title:ageneticalgorithmforaspectreattackagnostictobranchpredictors": {
+    "doi": null,
+    "publication_date": "2023-06-17",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "https://telecom-paris.hal.science/hal-04210397",
+    "summary": "Cet article étudie l'utilisation d'un algorithme génétique pour lancer une attaque Spectre agnostique aux prédicteurs de branches, en se concentrant sur les architectures RISC-V et plus particulièrement Sonic-BOOM.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "A Genetic Algorithm for a Spectre Attack Agnostic to Branch Predictors",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "title:amdsevsnpaconfidentialcomputingprimer": {
     "publication_date": "2026-08-03",
