@@ -1,8 +1,8 @@
 {
   "accepted": 135,
   "completed": false,
-  "cursor": "MTc0NTU1NDg5OTAwMCwxMC4xMDE2JTJGai5jb21wYmlvbWVkLjIwMjUuMTEwMjIz",
-  "evaluated": 2731,
+  "cursor": "MTc1Nzk1Nzc0MTAwMCwxMC4xMTA5JTJGZGFjNjM4NDkuMjAyNS4xMTEzMzE3MQ==",
+  "evaluated": 2756,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -191,14 +191,134 @@
     "monthly/2025-06/query-17 : résultat tronqué au plafond 12 pages",
     "monthly/2025-06/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2025-06/query-19 : résultat tronqué au plafond 12 pages",
-    "monthly/2025-06/query-20 : résultat tronqué au plafond 12 pages"
+    "monthly/2025-06/query-20 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-06/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-06/query-22 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2025-06",
   "needs_publish": false,
-  "offset": 440,
-  "pages_done": 2615,
-  "pages_in_query": 11,
-  "pending": [],
+  "offset": 400,
+  "pages_done": 2638,
+  "pages_in_query": 10,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Jurica Kundrata"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Adrijan Baric"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/mipro65660.2025.11132003",
+        "id": "https://doi.org/10.1109/mipro65660.2025.11132003",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/mipro65660.2025.11132003"
+        },
+        "publication_date": "2025-06-02",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-06-02",
+        "publication_type": "conference",
+        "publication_venue": "2025 MIPRO 48th ICT and Electronics Convention",
+        "title": "Architectural and Post-Silicon Evaluation of RISC-V vs. Cortex-M0+ SoCs",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Cong-Kha Pham"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/icdv66179.2025.11134861",
+        "id": "https://doi.org/10.1109/icdv66179.2025.11134861",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/icdv66179.2025.11134861"
+        },
+        "publication_date": "2025-06-16",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-06-16",
+        "publication_type": "conference",
+        "publication_venue": "2025 10th IEEE International Conference on Integrated Circuits, Design, and Verification (ICDV)",
+        "title": "Multi-core Multi-thread RISC-V-based System-on-Chip",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Yexin Zhang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Zhenling Su"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Lin Meng"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/rcar65431.2025.11139603",
+        "id": "https://doi.org/10.1109/rcar65431.2025.11139603",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/rcar65431.2025.11139603"
+        },
+        "publication_date": "2025-06-01",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-06-01",
+        "publication_type": "conference",
+        "publication_venue": "2025 IEEE International Conference on Real-time Computing and Robotics (RCAR)",
+        "title": "Hand Gesture Recognition for Real-Time Nano Drone Control on RISC-V",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2602,9 +2722,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 805,
-  "query_index": 21,
-  "secondary": 153,
-  "skipped": 2685,
+  "prefilter_review_overflow": 829,
+  "query_index": 23,
+  "secondary": 155,
+  "skipped": 2750,
   "version": 1
 }
