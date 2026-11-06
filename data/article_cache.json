@@ -2920,6 +2920,14 @@
       "title": "True random number generators in modern cryptography: A review",
       "updated_at": "2026-11-01T11:14:31.256851+00:00"
     },
+    "doi:10.1016/j.micpro.2023.104968": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Experimental EMFI detection on a RISC-V core using the Trace Verifier solution",
+      "updated_at": "2026-11-06T02:14:55.720118+00:00"
+    },
     "doi:10.1016/j.micpro.2025.105185": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -3223,6 +3231,14 @@
       "status": "rejected",
       "title": "A Haskell-embedded DSL for secure information-flow",
       "updated_at": "2026-11-03T18:29:17.630120+00:00"
+    },
+    "doi:10.1016/j.segan.2023.101228": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "An efficient authentication protocol for smart grid communication based on on-chip-error-correcting physical unclonable function",
+      "updated_at": "2026-11-06T02:13:38.582651+00:00"
     },
     "doi:10.1016/j.sna.2025.117213": {
       "category": "hors_sujet",
@@ -3959,6 +3975,14 @@
       "status": "rejected",
       "title": "A photonic crystal sensing array based on a tandem CRISPR/Cas13a system for ultra-sensitive and high-throughput detection of the CVA6 virus",
       "updated_at": "2026-11-03T19:51:54.616695+00:00"
+    },
+    "doi:10.1049/ell2.13018": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A lightweight true random number generator based on multi‐stage sampling the current starve based ring oscillator",
+      "updated_at": "2026-11-06T02:13:48.367929+00:00"
     },
     "doi:10.1049/icp.2025.1168": {
       "category": "hors_sujet",
@@ -5048,6 +5072,14 @@
       "title": "Design of a Novel TRNG Based on MSFRO and STR Entropy Source",
       "updated_at": "2026-11-02T23:13:53.632630+00:00"
     },
+    "doi:10.1109/atc58710.2023.10318908": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Novel PUF-Based Authentication Protocol for IoT Devices with Secure Boot and Fuzzy Matching",
+      "updated_at": "2026-11-06T02:14:35.759508+00:00"
+    },
     "doi:10.1109/atigb70203.2026.11628255": {
       "category": "secondaire",
       "decision": "examiner",
@@ -5655,6 +5687,14 @@
       "status": "rejected",
       "title": "Hardware Implementation and Verification of Early Image Signal Processing Stages Using OpenISP",
       "updated_at": "2026-11-03T13:50:44.284967+00:00"
+    },
+    "doi:10.1109/dcis58620.2023.10335994": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Ethernet Emulation over PCIe for RISC-V Software Development Vehicles",
+      "updated_at": "2026-11-06T02:13:27.895852+00:00"
     },
     "doi:10.1109/dcis67520.2025.11281901": {
       "category": "secondaire",
@@ -6583,6 +6623,14 @@
       "status": "rejected",
       "title": "RISC-V Unified: A Cross-Platform Generation Framework from Architecture to Implementation",
       "updated_at": "2026-11-04T08:28:28.438976+00:00"
+    },
+    "doi:10.1109/iccad57390.2023.10323688": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "CRYSTALS-Dilithium on RISC-V Processor: Lightweight Secure Boot Using Post-Quantum Digital Signature",
+      "updated_at": "2026-11-06T02:14:39.079847+00:00"
     },
     "doi:10.1109/iccad66269.2025.11240638": {
       "category": "coeur",
@@ -11168,6 +11216,14 @@
       "title": "BnnRV: Hardware and Software Optimizations for Weight Sampling in Bayesian Neural Networks on Edge RISC-V Cores",
       "updated_at": "2026-11-03T12:40:33.967065+00:00"
     },
+    "doi:10.1109/tcc.2023.3327290": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Hardware-Assisted Static and Runtime Attestation for Cloud Deployments",
+      "updated_at": "2026-11-06T02:14:57.316840+00:00"
+    },
     "doi:10.1109/tcc.2026.3698470": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -13368,6 +13424,14 @@
       "title": "BioLeak: Exploiting Cache Timing to Recover Fingerprint Minutiae Coordinates",
       "updated_at": "2026-11-05T23:18:53.934001+00:00"
     },
+    "doi:10.1145/3607199.3607246": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Raft: Hardware-assisted Dynamic Information Flow Tracking for Runtime Protection on RISC-V",
+      "updated_at": "2026-11-06T02:15:18.134797+00:00"
+    },
     "doi:10.1145/3620665.3640424": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -13375,6 +13439,14 @@
       "status": "rejected",
       "title": "SEVeriFast: Minimizing the root of trust for fast startup of SEV microVMs",
       "updated_at": "2026-11-04T14:13:30.691177+00:00"
+    },
+    "doi:10.1145/3623652.3623668": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Towards a Formally Verified Security Monitor for VM-based Confidential Computing",
+      "updated_at": "2026-11-06T02:14:09.826715+00:00"
     },
     "doi:10.1145/3627106.3627112": {
       "category": "coeur",
@@ -18760,6 +18832,14 @@
       "title": "Firmware Attestation in IoT Swarms Using Relational Graph Neural Networks and Static Random Access Memory",
       "updated_at": "2026-11-05T02:26:17.971825+00:00"
     },
+    "doi:10.3390/app132212376": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Fine-Auth: A Fine-Grained User Authentication and Key Agreement Protocol Based on Physical Unclonable Functions for Wireless Body Area Networks",
+      "updated_at": "2026-11-06T02:13:38.582675+00:00"
+    },
     "doi:10.3390/app14010464": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -21768,6 +21848,14 @@
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
     },
+    "doi:10.48550/arxiv.2311.07094": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Building Trust in the Quantum Cloud with Physical Unclonable Functions",
+      "updated_at": "2026-11-06T02:13:38.582684+00:00"
+    },
     "doi:10.48550/arxiv.2312.11094": {
       "category": "coeur",
       "decision": "conserver",
@@ -24055,6 +24143,14 @@
       "status": "rejected",
       "title": "A Performance-Security Balanced Framework for Lightweight Cryptography Incorporating Hardware Acceleration and Adaptive Key Exchange in IoT Environments",
       "updated_at": "2026-11-02T16:17:48.190891+00:00"
+    },
+    "doi:10.71097/ijaidr.v14.i2.1467": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Designing Neural-Network Accelerators Using RISC-V Architectures",
+      "updated_at": "2026-11-06T02:14:35.759528+00:00"
     },
     "doi:10.71443/9789349552302-08": {
       "category": "secondaire",

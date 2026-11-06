@@ -646,6 +646,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/iccad57390.2023.10323688": {
+    "doi": "https://doi.org/10.1109/iccad57390.2023.10323688",
+    "publication_date": "2023-10-28",
+    "publication_type": "conference",
+    "publication_venue": "2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/iccad57390.2023.10323688",
+    "summary": "Ce travail présente une architecture de démarrage sécurisé (secure boot) matérielle et accélérée basée sur l'algorithme de signature numérique post-quantique CRYSTALS-Dilithium, mise en œuvre sur un cœur RISC-V open-source (Ariane). L'approche utilise un moteur de vérification compact, atteignant un surcoût d'exécution de 3,48 ms sur FPGA et des performances optimisées en ASIC (125 kGE, 6,3 mW à 100 MHz), tout en intégrant des contre-mesures matérielles contre les fautes pour empêcher le contournement du démarrage sécurisé.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "CRYSTALS-Dilithium on RISC-V Processor: Lightweight Secure Boot Using Post-Quantum Digital Signature",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/iccad66269.2025.11241011": {
     "publication_date": "2025-10-26",
     "publication_type": "conference",
@@ -1504,6 +1521,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/tcc.2023.3327290": {
+    "doi": "https://doi.org/10.1109/tcc.2023.3327290",
+    "publication_date": "2023-10-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Cloud Computing",
+    "score": 85,
+    "source": "https://doi.org/10.1109/tcc.2023.3327290",
+    "summary": "Cet article traite de l'intégrité statique et dynamique pour les déploiements cloud. Les solutions existantes évaluent soit la partie statique, soit la partie dynamique séparément. Les auteurs proposent un processus d'attestation d'exécution basé sur la technologie matérielle CET, en complément de l'attestation statique permise par SGX, afin de protéger contre les attaques par flux de contrôle avec un impact minimal sur les performances.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Hardware-Assisted Static and Runtime Attestation for Cloud Deployments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/tcsi.2024.3359044": {
     "doi": "https://doi.org/10.1109/tcsi.2024.3359044",
     "publication_date": "2024-02-07",
@@ -1826,6 +1860,40 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "BioLeak: Exploiting Cache Timing to Recover Fingerprint Minutiae Coordinates",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3607199.3607246": {
+    "doi": "https://doi.org/10.1145/3607199.3607246",
+    "publication_date": "2023-10-03",
+    "publication_type": "conference",
+    "publication_venue": "International Symposium on Research in Attacks, Intrusions and Defenses (RAID)",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3607199.3607246",
+    "summary": "Cet article présente Raft, un mécanisme d'assistance matérielle pour le suivi dynamique des flux d'information (DIFT) sur RISC-V, visant à assurer une protection à l'exécution en surmontant les surcoûts des solutions logicielles et des cadres matériels existants.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Raft: Hardware-assisted Dynamic Information Flow Tracking for Runtime Protection on RISC-V",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3623652.3623668": {
+    "doi": "https://doi.org/10.1145/3623652.3623668",
+    "publication_date": "2023-10-27",
+    "publication_type": "conference",
+    "publication_venue": "Hardware and Architectural Support for Security and Privacy",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3623652.3623668",
+    "summary": "Cet article aborde le besoin de vérification formelle pour les moniteurs de sécurité dans le cadre de l'informatique confidentielle basée sur les machines virtuelles, soulignant que les systèmes actuels manquent de cette certification pour être utilisés dans des applications critiques.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Towards a Formally Verified Security Monitor for VM-based Confidential Computing",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
