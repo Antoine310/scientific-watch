@@ -3745,6 +3745,26 @@
     ],
     "title": "Dorami: Privilege Separating Security Monitor on RISC-V TEEs"
   },
+  "doi:10.46586/tches.v2025.i2.268-292": {
+    "doi": "https://doi.org/10.46586/tches.v2025.i2.268-292",
+    "publication_date": "2025-03-04",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-03-04",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 90,
+    "source": "https://doi.org/10.46586/tches.v2025.i2.268-292",
+    "summary": "Cet article présente CHERI-Crypt, une extension de moteur de chiffrement pour un processeur CHERI-RISC-V 32 bits, visant à assurer le chiffrement transparent de la mémoire pour les capacités CHERI scellées afin de protéger les données sensibles contre les attaques matérielles physiques.",
+    "themes": [
+      "T09 — Secure Memory"
+    ],
+    "title": "CHERI-Crypt: Transparent Memory Encryption on Capability Architectures",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.46586/tches.v2025.i3.1-31": {
     "doi": "https://doi.org/10.46586/tches.v2025.i3.1-31",
     "publication_date": "2025-06-05",
@@ -3954,6 +3974,26 @@
       "T04 — Runtime Attestation"
     ],
     "title": "Turtle Walk: Stopping Timing Attack on NoC",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/uasc.2025.203": {
+    "doi": "https://doi.org/10.46586/uasc.2025.203",
+    "publication_date": "2025-03-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-03-01",
+    "publication_type": "revue",
+    "publication_venue": "Proceedings of the Microarchitecture Security Conference",
+    "score": 85,
+    "source": "https://doi.org/10.46586/uasc.2025.203",
+    "summary": "Ce poster propose une plateforme d'analyse des signaux microarchitecturaux pour concevoir des compteurs de sécurité matériels (Hardware Security Counters). L'objectif est d'améliorer la détection des comportements malveillants logiciels ou matériels (y compris les chevaux de Troie matériels) en étudiant la corrélation entre les signaux microarchitecturaux et diverses classes d'attaques.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Poster: A microarchitectural signals analysis platform to craft Hardware Security Counters",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
