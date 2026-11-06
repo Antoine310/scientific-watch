@@ -1243,6 +1243,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/msec.2023.3299349": {
+    "doi": "https://doi.org/10.1109/msec.2023.3299349",
+    "publication_date": "2023-09-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Security & Privacy",
+    "score": 80,
+    "source": "https://doi.org/10.1109/msec.2023.3299349",
+    "summary": "Cette publication étudie les attaques par exécution transitoire en utilisant des modèles de processeurs relativement simples mais capables de modéliser adéquatement le comportement pertinent. Elle propose une explication accessible de l'essence de cette classe d'attaques.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Transient Execution Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/msec.2026.3698657": {
     "publication_date": "2026-07-01",
     "publication_date_note": "Date source Crossref : 2026-07 (jour inconnu ; 01 utilisé pour classer).",
@@ -1356,6 +1373,23 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "End-to-end Integration of OpenTitan Security Features in a Pure RISC-V SoC",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/socc58585.2023.10256845": {
+    "doi": "https://doi.org/10.1109/socc58585.2023.10256845",
+    "publication_date": "2023-09-05",
+    "publication_type": "conference",
+    "publication_venue": "IEEE International System-on-Chip Conference (SOCC)",
+    "score": 85,
+    "source": "http://dx.doi.org/10.1109/socc58585.2023.10256845",
+    "summary": "Cet article présente M-Party, une technique de partitionnement dynamique et sécurisé du cache de dernier niveau (LLC) dans les systèmes multicœurs. L'approche utilise une application factice (Dummy) pour obscurcir les schémas d'allocation du cache et ainsi atténuer les attaques par canal auxiliaire. Les auteurs rapportent des améliorations de performance par rapport au partitionnement statique et à l'état de l'art (SecDCP).",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "M-Party: A Secure Dynamic Cache Partitioning by More Than Two Parties",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -3813,6 +3847,57 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2309.03376": {
+    "doi": "https://doi.org/10.48550/arxiv.2309.03376",
+    "publication_date": "2023-09-06",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2309.03376",
+    "summary": "Cet article analyse l'évolution des vulnérabilités d'exécution transitoire liées à l'exécution spéculative et hors d'ordre, aux fautes par injection et aux canaux auxiliaires microarchitecturaux depuis 2018. Il souligne que les contre-mesures actuellement les plus populaires offrent des bénéfices de sécurité limités tout en pénalisant fortement les performances, et que leur cumul ne résout pas globalement le problème.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "This is How You Lose the Transient Execution War",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.48550/arxiv.2309.04119": {
+    "doi": "https://doi.org/10.48550/arxiv.2309.04119",
+    "publication_date": "2023-09-08",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 88,
+    "source": "http://arxiv.org/abs/2309.04119",
+    "summary": "Ce papier propose une analyse systématique des menaces combinant vulnérabilités de corruption mémoire et attaques par canaux cachés microarchitecturaux. Les auteurs introduisent une taxonomie des protections matérielles-logicielles, identifient des schémas vulnérables, développent un modèle fondé sur les graphes pour évaluer ces défenses et présentent des attaques de preuve de concept.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Penetrating Shields: A Systematic Analysis of Memory Corruption Mitigations in the Spectre Era",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.48550/arxiv.2309.16172": {
+    "doi": "https://doi.org/10.48550/arxiv.2309.16172",
+    "publication_date": "2023-09-28",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2309.16172",
+    "summary": "Cet article présente les architectures de cache Random and Safe (RaS) visant à contrer l'ensemble des attaques temporelles par cache, incluant les canaux cachés, les attaques non spéculatives et les attaques par exécution spéculative. Le principe repose sur la décorrélation des changements d'état du cache et des requêtes mémoire en remplissant le cache avec des lignes de cache sûres plutôt qu'avec des lignes sensibles demandées. L'overhead de performance moyen est de 3.8% pour la version RaS-Spec et varie entre 7.9% et 45.2% pour les variantes RaS+.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Random and Safe Cache Architecture to Defeat Cache Timing Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2312.11094": {
     "doi": "https://doi.org/10.48550/arxiv.2312.11094",

@@ -10416,6 +10416,14 @@
       "title": "Predicting the Temporal Variability of Error Rates in Superconducting Quantum Processors: Mitigating Error Accuracy Loss in Queue-Based Quantum Computing Platforms [Focus: Quantum Software and its Engineering]",
       "updated_at": "2026-11-04T20:25:10.372716+00:00"
     },
+    "doi:10.1109/msec.2023.3299349": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "Transient Execution Attacks",
+      "updated_at": "2026-11-06T08:14:01.385481+00:00"
+    },
     "doi:10.1109/msec.2026.3698657": {
       "category": "coeur",
       "decision": "conserver",
@@ -11079,6 +11087,14 @@
       "status": "rejected",
       "title": "A Runtime Security Monitoring Architecture for Embedded Hypervisors",
       "updated_at": "2026-11-06T05:14:15.181801+00:00"
+    },
+    "doi:10.1109/socc58585.2023.10256845": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "M-Party: A Secure Dynamic Cache Partitioning by More Than Two Parties",
+      "updated_at": "2026-11-06T08:14:37.667136+00:00"
     },
     "doi:10.1109/socc66126.2025.11235344": {
       "category": "secondaire",
@@ -11839,6 +11855,14 @@
       "status": "rejected",
       "title": "Design and Signal Integrity Analysis of Meander Coupled Microstrip Lines With an Embedded Interdigital Structure for FEXT Suppression",
       "updated_at": "2026-11-02T19:17:04.916740+00:00"
+    },
+    "doi:10.1109/tcsi.2023.3316890": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A New Reconfigurable True Random Number Generator and Physical Unclonable Function Unified Chip With On-Chip Auto-Calibration",
+      "updated_at": "2026-11-06T08:14:55.487426+00:00"
     },
     "doi:10.1109/tcsi.2024.3359044": {
       "category": "coeur",
@@ -17720,6 +17744,14 @@
       "title": "Stateful Runtime Adaptation under Workload and Thermal Change: An Audited Evaluation on a Heterogeneous SoC",
       "updated_at": "2026-11-02T15:15:10.742019+00:00"
     },
+    "doi:10.21203/rs.3.rs-3290189/v1": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Accelerated Aging Effects on SRAM PUF reliability at various Temperature and Voltage conditions",
+      "updated_at": "2026-11-06T08:14:55.487446+00:00"
+    },
     "doi:10.21203/rs.3.rs-4023282/v1": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -21288,6 +21320,22 @@
       "title": "V-PUF: An Ephemeral-Key Decentralized Architecture for Verifiable Hardware Authentication",
       "updated_at": "2026-11-03T17:29:09.288227+00:00"
     },
+    "doi:10.36227/techrxiv.24179745": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "HW-SW Interface Design and Implementation for Error Logging and Reporting for RAS in RISC-V Architectures",
+      "updated_at": "2026-11-06T08:14:45.631991+00:00"
+    },
+    "doi:10.36227/techrxiv.24179745.v1": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "HW-SW Interface Design and Implementation for Error Logging and Reporting for RAS in RISC-V Architectures",
+      "updated_at": "2026-11-06T08:14:45.632016+00:00"
+    },
     "doi:10.36622/1729-6501.2026.22.1.016": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -22679,6 +22727,30 @@
       "status": "rejected",
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
+    },
+    "doi:10.48550/arxiv.2309.03376": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "This is How You Lose the Transient Execution War",
+      "updated_at": "2026-11-06T08:13:57.922559+00:00"
+    },
+    "doi:10.48550/arxiv.2309.04119": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "Penetrating Shields: A Systematic Analysis of Memory Corruption Mitigations in the Spectre Era",
+      "updated_at": "2026-11-06T08:13:59.850681+00:00"
+    },
+    "doi:10.48550/arxiv.2309.16172": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Random and Safe Cache Architecture to Defeat Cache Timing Attacks",
+      "updated_at": "2026-11-06T08:14:18.592435+00:00"
     },
     "doi:10.48550/arxiv.2311.07094": {
       "category": "secondaire",
