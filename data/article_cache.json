@@ -1352,6 +1352,14 @@
       "title": "Implementation of a RISC-V Processor",
       "updated_at": "2026-11-03T19:51:42.902012+00:00"
     },
+    "doi:10.1007/s00145-023-09475-1": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A Theoretical Framework for the Analysis of Physical Unclonable Function Interfaces and Its Relation to the Random Oracle Model",
+      "updated_at": "2026-11-06T14:13:46.730013+00:00"
+    },
     "doi:10.1007/s00521-026-12467-4": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -3920,6 +3928,14 @@
       "title": "Stochasticity-by-Design in Memristive Materials for Probabilistic Computing and Hardware Security: Entropy Sources, Control Knobs, and Benchmarks",
       "updated_at": "2026-11-03T16:52:04.757275+00:00"
     },
+    "doi:10.1021/acsnano.3c03581": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "A Peripheral-Free True Random Number Generator Based on Integrated Circuits Enabled by Atomically Thin Two-Dimensional Materials",
+      "updated_at": "2026-11-06T14:13:57.265955+00:00"
+    },
     "doi:10.1021/acsnano.5c01917": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -5600,6 +5616,14 @@
       "title": "Congestion-Aware Physical Synthesis and RTL-to-GDSII Implementation of a 90nm RISC-V Execute Pipeline Stage using Cadence Genus and Innovus",
       "updated_at": "2026-11-02T19:34:25.184371+00:00"
     },
+    "doi:10.1109/cloud60044.2023.00073": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "GuaranTEE: Introducing Control-Flow Attestation for Trusted Execution Environments",
+      "updated_at": "2026-11-06T14:15:13.265051+00:00"
+    },
     "doi:10.1109/cloudcom59040.2023.00027": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -5775,6 +5799,14 @@
       "status": "rejected",
       "title": "A Human-Machine Collaborative Code Translator from ARM NEON to RISC-V Vector",
       "updated_at": "2026-11-03T12:06:41.740100+00:00"
+    },
+    "doi:10.1109/csf57540.2023.00019": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "$\\pi_{\\mathbf{RA}}$: A $\\pi\\text{-calculus}$ for Verifying Protocols that Use Remote Attestation",
+      "updated_at": "2026-11-06T14:15:28.816239+00:00"
     },
     "doi:10.1109/csitss67709.2025.11294147": {
       "category": "hors_sujet",
@@ -6551,6 +6583,22 @@
       "status": "rejected",
       "title": "Fault Model-Driven Formal Verification of Cryptographic Hardware Against Fault Attacks",
       "updated_at": "2026-11-03T11:27:42.703645+00:00"
+    },
+    "doi:10.1109/eurosp57164.2023.00029": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "MISO: Legacy-compatible Privacy-preserving Single Sign-on using Trusted Execution Environments",
+      "updated_at": "2026-11-06T14:15:06.328466+00:00"
+    },
+    "doi:10.1109/eurosp57164.2023.00070": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "CHERI-TrEE: Flexible enclaves on capability machines",
+      "updated_at": "2026-11-06T14:15:11.375351+00:00"
     },
     "doi:10.1109/eurosp63326.2025.00028": {
       "category": "coeur",
@@ -8479,6 +8527,14 @@
       "status": "rejected",
       "title": "A Spintronic True Random Number Generator Using Vortex Nano-Oscillators and Probabilistic SOT-MTJ Programming",
       "updated_at": "2026-11-01T17:15:14.069927+00:00"
+    },
+    "doi:10.1109/iolts59296.2023.10224862": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Towards Dependable RISC-V Cores for Edge Computing Devices",
+      "updated_at": "2026-11-06T14:14:28.870528+00:00"
     },
     "doi:10.1109/iolts65288.2025.11116879": {
       "category": "secondaire",
@@ -10928,6 +10984,22 @@
       "title": "Variable Record Table: A Unified Hardware-Assisted Framework for Runtime Security",
       "updated_at": "2026-11-04T23:25:21.421785+00:00"
     },
+    "doi:10.1109/mwscas57524.2023.10405991": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "A RISC-V Instruction Set Extension for Flexible Hardware/Software Protection of Cryptosystems Masked at High Orders",
+      "updated_at": "2026-11-06T14:13:57.265991+00:00"
+    },
+    "doi:10.1109/mwscas57524.2023.10406056": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Practical Markov Chain and Von Neumann based Post-processing Circuits for True Random Number Generators",
+      "updated_at": "2026-11-06T14:13:57.265967+00:00"
+    },
     "doi:10.1109/mwscas60917.2024.10658823": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -11967,6 +12039,14 @@
       "status": "imported",
       "title": "System-Level Isolation for Mixed-Criticality RISC-V SoCs: A “World” Reality Check",
       "updated_at": "2026-11-02T08:30:29.730765+00:00"
+    },
+    "doi:10.1109/tcad.2023.3301386": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Design Guidelines and Feedback Structure of Ring Oscillator PUF for Performance Improvement",
+      "updated_at": "2026-11-06T14:13:46.730020+00:00"
     },
     "doi:10.1109/tcad.2024.3374249": {
       "category": "coeur",
@@ -13440,6 +13520,22 @@
       "title": "Resource-Efficient and Resilient SOC/SOH Co-Monitoring of EV Batteries With Attack Detection",
       "updated_at": "2026-11-06T07:38:25.850023+00:00"
     },
+    "doi:10.1109/tvlsi.2023.3298327": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "RHS-TRNG: A Resilient High-Speed True Random Number Generator Based on STT-MTJ Device",
+      "updated_at": "2026-11-06T14:13:57.265962+00:00"
+    },
+    "doi:10.1109/tvlsi.2023.3302837": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "CVA6 RISC-V Virtualization: Architecture, Microarchitecture, and Design Space Exploration",
+      "updated_at": "2026-11-06T14:13:38.538745+00:00"
+    },
     "doi:10.1109/tvlsi.2024.3486368": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -14528,6 +14624,22 @@
       "title": "The Pomarinho enclave swarm: structural and petrological evidence of repeated quenching, splitting and magmatic erosion at the sidewalls of conduits (Iberian Variscan belt)",
       "updated_at": "2026-11-02T20:16:46.220256+00:00"
     },
+    "doi:10.1145/3579856.3582812": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "Symbolic modelling of remote attestation protocols for device and app integrity on Android",
+      "updated_at": "2026-11-06T14:14:06.659233+00:00"
+    },
+    "doi:10.1145/3579856.3595784": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "SPEAR-V: Secure and Practical Enclave Architecture for RISC-V",
+      "updated_at": "2026-11-06T14:15:09.601710+00:00"
+    },
     "doi:10.1145/3583740.3628441": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -14599,6 +14711,14 @@
       "status": "rejected",
       "title": "HasTEE: Programming Trusted Execution Environments with Haskell",
       "updated_at": "2026-11-06T11:13:57.331858+00:00"
+    },
+    "doi:10.1145/3611674": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 62,
+      "status": "rejected",
+      "title": "Interruptible Remote Attestation of Low-end IoT Microcontrollers via Performance Counters",
+      "updated_at": "2026-11-06T14:15:36.113464+00:00"
     },
     "doi:10.1145/3620665.3640424": {
       "category": "secondaire_technique",
@@ -20648,6 +20768,14 @@
       "title": "Enhancing Security for Resource-Constrained Smart Cities IoT Applications: Optimizing Cryptographic Techniques with Effective Field Multipliers",
       "updated_at": "2026-11-05T19:39:21.714144+00:00"
     },
+    "doi:10.3390/e25081243": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Quality of Security Guarantees for and with Physical Unclonable Functions and Biometric Secrecy Systems",
+      "updated_at": "2026-11-06T14:13:46.729990+00:00"
+    },
     "doi:10.3390/e27020202": {
       "category": "coeur",
       "decision": "conserver",
@@ -22392,6 +22520,14 @@
       "title": "EMPRESA DEL ESTADO: UN ENCLAVE ESTATAL EN TERRITORIO PRIVADO",
       "updated_at": "2026-11-05T02:24:53.938160+00:00"
     },
+    "doi:10.46586/tches.v2023.i4.211-237": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Enhancing Quality and Security of the PLL-TRNG",
+      "updated_at": "2026-11-06T14:13:57.265934+00:00"
+    },
     "doi:10.46586/tches.v2024.i1.207-228": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -23376,6 +23512,14 @@
       "title": "When Does Mixing Models Pay? Open Fusion, a Bounded Mixture-of-Agents Runtime, and Registered Evidence from Local Coding Benchmarks",
       "updated_at": "2026-11-02T15:14:58.950301+00:00"
     },
+    "doi:10.47363/jeast/2023(5)e165": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 62,
+      "status": "rejected",
+      "title": "Secure Boot and Firmware Authentication Mechanisms in Embedded Devices",
+      "updated_at": "2026-11-06T14:14:06.659257+00:00"
+    },
     "doi:10.47391/jpma.33277": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -23471,6 +23615,14 @@
       "status": "rejected",
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
+    },
+    "doi:10.48550/arxiv.2308.03897": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Hardware Architecture for a Quantum Computer Trusted Execution Environment",
+      "updated_at": "2026-11-06T14:13:57.265972+00:00"
     },
     "doi:10.48550/arxiv.2309.03376": {
       "category": "coeur",

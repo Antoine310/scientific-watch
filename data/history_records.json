@@ -339,6 +339,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/cloud60044.2023.00073": {
+    "doi": "https://doi.org/10.1109/cloud60044.2023.00073",
+    "publication_date": "2023-07-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE ... International Conference on Cloud Computing",
+    "score": 90,
+    "source": "https://doi.org/10.1109/cloud60044.2023.00073",
+    "summary": "GuaranTEE est une solution d'attestation de flux de contrôle conçue pour les environnements d'exécution de confiance (TEE) en nuage, permettant de garantir l'intégrité des services pendant leur exécution à l'aide de deux TEE distincts et d'une exécution en parallèle.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "GuaranTEE: Introducing Control-Flow Attestation for Trusted Execution Environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/comcomap68359.2025.11353166": {
     "doi": "https://doi.org/10.1109/comcomap68359.2025.11353166",
     "publication_date": "2025-12-14",
@@ -378,6 +395,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/csf57540.2023.00019": {
+    "doi": "https://doi.org/10.1109/csf57540.2023.00019",
+    "publication_date": "2023-07-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Computer Security Foundations Workshop (CSFW)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/csf57540.2023.00019",
+    "summary": "Cet article propose un nouveau modèle formel de type pi-calcul (pi_RA) pour analyser les protocoles utilisant l'attestation à distance, en l'traitant comme une primitive cryptographique abstraite indépendante des détails matériels bas niveau. Les auteurs l'appliquent pour formaliser et analyser le protocole MAGE, révélant une faille non mentionnée dans l'article d'origine.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "$\\pi_{\\mathbf{RA}}$: A $\\pi\\text{-calculus}$ for Verifying Protocols that Use Remote Attestation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/csr64739.2025.11130017": {
     "publication_date": "2025-08-04",
@@ -590,6 +624,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/eurosp57164.2023.00070": {
+    "doi": "https://doi.org/10.1109/eurosp57164.2023.00070",
+    "publication_date": "2023-07-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE European Symposium on Security and Privacy",
+    "score": 80,
+    "source": "https://doi.org/10.1109/eurosp57164.2023.00070",
+    "summary": "Cet article étudie l'intégration de deux mécanismes de sécurité matériels : les capacités (comme CHERI) et l'exécution en enclaves (Trusted Execution Environments). Les auteurs proposent CHERI-TrEE, un design pour processeur ciblant les systèmes embarqués bas de gamme sans mémoire virtuelle, qui unifie ces approches et permet des fonctionnalités avancées comme des enclaves dynamiques, imbriquées ou non contiguës. L'évaluation est réalisée sur un processeur RISC-V et via un hyperviseur sur ARM Morello.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "CHERI-TrEE: Flexible enclaves on capability machines",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/eurosp63326.2025.00028": {
     "publication_date": "2025-06-30",
@@ -946,6 +997,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/iolts59296.2023.10224862": {
+    "doi": "https://doi.org/10.1109/iolts59296.2023.10224862",
+    "publication_date": "2023-07-03",
+    "publication_type": "conference",
+    "publication_venue": "IEEE International On-Line Testing Symposium (IOLTS)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/iolts59296.2023.10224862",
+    "summary": "Cet article traite de la migration du calcul vers les dispositifs en périphérie (IoT) en utilisant l'architecture RISC-V. Les auteurs proposent trois mécanismes pour assurer une exécution fiable et sécurisée tout en respectant les contraintes de surface, d'énergie et de temps de calcul : un module de Racine de Confiance (RoT) pour le démarrage sécurisé post-quantique, des vérificateurs matériels contre les chevaux de Troie et les attaques par canal auxiliaire microarchitecturales, et un mécanisme de verrouillage à double cœur (lockstep) à grain fin pour la détection et la correction d'erreurs en temps réel.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Towards Dependable RISC-V Cores for Edge Computing Devices",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/iolts65288.2025.11117044": {
     "publication_date": "2025-07-07",
@@ -1853,6 +1921,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/tvlsi.2023.3302837": {
+    "doi": "https://doi.org/10.1109/tvlsi.2023.3302837",
+    "publication_date": "2023-08-28",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "score": 75,
+    "source": "https://doi.org/10.1109/tvlsi.2023.3302837",
+    "summary": "Cet article présente l'intégration et l'exploration de l'espace de conception du support de la virtualisation matérielle pour le processeur RISC-V CVA6. Les auteurs décrivent des améliorations microarchitecturales, telles qu'un GTLB et un L2 TLB, visant à réduire le surcoût de performance de la virtualisation, validées par des simulations post-layout en technologie 22-nm FDX et sur FPGA.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "CVA6 RISC-V Virtualization: Architecture, Microarchitecture, and Design Space Exploration",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/tvlsi.2025.3569219": {
     "doi": "https://doi.org/10.1109/tvlsi.2025.3569219",
     "publication_date": "2025-10-01",
@@ -1961,6 +2046,23 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "A keystone extension to defend against cache timing attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3579856.3595784": {
+    "doi": "https://doi.org/10.1145/3579856.3595784",
+    "publication_date": "2023-07-05",
+    "publication_type": "conference",
+    "publication_venue": "ACM Asia Conference on Computer and Communications Security (ASIA CCS)",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3579856.3595784",
+    "summary": "SPEAR-V est une architecture d'enclave sécurisée et pratique pour l'ISA RISC-V, conçue pour répondre aux limitations des architectures existantes en termes de performance, de vulnérabilité aux attaques par canal contrôlé et de contraintes matérielles ou logicielles rigides.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "SPEAR-V: Secure and Practical Enclave Architecture for RISC-V",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
