@@ -2872,6 +2872,14 @@
       "title": "A Novel graph-embedded musical chairs optimization with secure elliptic encryption framework for intelligent edge computing in healthcare iot networks",
       "updated_at": "2026-11-03T18:40:41.067542+00:00"
     },
+    "doi:10.1016/j.jisa.2023.103448": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "PROVE: Provable remote attestation for public verifiability",
+      "updated_at": "2026-11-06T23:14:44.112417+00:00"
+    },
     "doi:10.1016/j.jisa.2025.104177": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -6952,6 +6960,14 @@
       "title": "Towards an Enhanced PicoRV32: Architectural Design and Modular Subsystem Integration for a High-Fidelity RISC-V Core",
       "updated_at": "2026-11-03T17:53:51.188864+00:00"
     },
+    "doi:10.1109/ets56758.2023.10174099": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 82,
+      "status": "imported",
+      "title": "A Survey of Recent Developments in Testability, Safety and Security of RISC-V Processors",
+      "updated_at": "2026-11-06T23:13:45.690802+00:00"
+    },
     "doi:10.1109/ets63895.2025.11049618": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -7223,6 +7239,22 @@
       "status": "rejected",
       "title": "BROCA: A Low-power and Low-latency Conversational Agent RISC-V System-on-Chip for Voice-interactive Mobile Devices",
       "updated_at": "2026-11-05T00:26:14.667031+00:00"
+    },
+    "doi:10.1109/host55118.2023.10133542": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "CIFER: Code Integrity and control Flow verification for programs Executed on a RISC-V core",
+      "updated_at": "2026-11-06T23:14:35.953824+00:00"
+    },
+    "doi:10.1109/host55118.2023.10133713": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "SCALE: Secure and Scalable Cache Partitioning",
+      "updated_at": "2026-11-06T23:15:57.183716+00:00"
     },
     "doi:10.1109/host55342.2024.10545348": {
       "category": "coeur",
@@ -9279,6 +9311,14 @@
       "status": "rejected",
       "title": "QED: Scalable Consistency Verification of Memory Instruction Reordering in Hardware",
       "updated_at": "2026-11-03T09:07:33.657588+00:00"
+    },
+    "doi:10.1109/iscas46773.2023.10181732": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 78,
+      "status": "imported",
+      "title": "Cyber Security aboard Micro Aerial Vehicles: An OpenTitan-based Visual Communication Use Case",
+      "updated_at": "2026-11-06T23:13:47.143288+00:00"
     },
     "doi:10.1109/iscas56072.2025.11043208": {
       "category": "secondaire",
@@ -11920,6 +11960,14 @@
       "title": "Enhancing Manet Cybersecurity Through a Hardware-Driven AI-Based Defense System",
       "updated_at": "2026-11-06T05:38:08.381775+00:00"
     },
+    "doi:10.1109/rtas58335.2023.00018": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "ISC-FLAT: On the Conflict Between Control Flow Attestation and Real-Time Operations",
+      "updated_at": "2026-11-06T23:14:34.685501+00:00"
+    },
     "doi:10.1109/rusautocon65989.2025.11177395": {
       "category": "secondaire",
       "decision": "examiner",
@@ -12352,6 +12400,30 @@
       "title": "Hybrid RISC-V Coprocessor Architecture for Convolutional Neural-Network Inferencing",
       "updated_at": "2026-11-03T17:53:51.164174+00:00"
     },
+    "doi:10.1109/sp46215.2023.10179355": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "Spectre Declassified: Reading from the Right Place at the Wrong Time",
+      "updated_at": "2026-11-06T23:15:28.911480+00:00"
+    },
+    "doi:10.1109/sp46215.2023.10179391": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Hide and Seek with Spectres: Efficient discovery of speculative information leaks with random testing",
+      "updated_at": "2026-11-06T23:15:27.492794+00:00"
+    },
+    "doi:10.1109/sp46215.2023.10179440": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Scatter and Split Securely: Defeating Cache Contention and Occupancy Attacks",
+      "updated_at": "2026-11-06T23:15:55.754792+00:00"
+    },
     "doi:10.1109/sp54263.2024.00048": {
       "category": "coeur",
       "decision": "conserver",
@@ -12407,6 +12479,14 @@
       "status": "imported",
       "title": "TDXRay: Microarchitectural Side-Channel Analysis of Intel TDX for Real-World Workloads",
       "updated_at": "2026-11-01T20:13:52.972857+00:00"
+    },
+    "doi:10.1109/spw59333.2023.00029": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "The ghost is the machine: Weird machines in transient execution",
+      "updated_at": "2026-11-06T23:15:26.169203+00:00"
     },
     "doi:10.1109/stcr62650.2025.11019744": {
       "category": "hors_sujet",
@@ -15448,6 +15528,22 @@
       "title": "The Pomarinho enclave swarm: structural and petrological evidence of repeated quenching, splitting and magmatic erosion at the sidewalls of conduits (Iberian Variscan belt)",
       "updated_at": "2026-11-02T20:16:46.220256+00:00"
     },
+    "doi:10.1145/3578359.3593037": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "Towards Modular Trusted Execution Environments",
+      "updated_at": "2026-11-06T23:14:16.920075+00:00"
+    },
+    "doi:10.1145/3578359.3593040": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "A RISC-V Extension to Minimize Privileges of Enclave Runtimes",
+      "updated_at": "2026-11-06T23:14:15.826135+00:00"
+    },
     "doi:10.1145/3579371.3589070": {
       "category": "coeur",
       "decision": "conserver",
@@ -15488,6 +15584,14 @@
       "title": "Blockchain-based Runtime Attestation against Physical Fault Injection Attacks on Edge Devices",
       "updated_at": "2026-11-05T20:15:16.072970+00:00"
     },
+    "doi:10.1145/3583781.3590221": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "SCRAMBLE-CFI: Mitigating Fault-Induced Control-Flow Attacks on OpenTitan",
+      "updated_at": "2026-11-06T23:13:44.360633+00:00"
+    },
     "doi:10.1145/3600160.3600171": {
       "category": "coeur",
       "decision": "examiner",
@@ -15495,6 +15599,14 @@
       "status": "imported",
       "title": "Universal Remote Attestation for Cloud and Edge Platforms",
       "updated_at": "2026-11-06T11:13:50.149005+00:00"
+    },
+    "doi:10.1145/3603781.3603942": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "RISC-V ISA Extension Toolchain Supports: A Survey",
+      "updated_at": "2026-11-06T23:13:54.843856+00:00"
     },
     "doi:10.1145/3604906": {
       "category": "secondaire_technique",

@@ -609,6 +609,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/ets56758.2023.10174099": {
+    "doi": "https://doi.org/10.1109/ets56758.2023.10174099",
+    "publication_date": "2023-05-22",
+    "publication_type": "conference",
+    "publication_venue": "IEEE European Test Symposium (ETS)",
+    "score": 82,
+    "source": "https://doi.org/10.1109/ets56758.2023.10174099",
+    "summary": "Cet article est une étude générale (survey) sur les développements récents concernant la testabilité, la sûreté (safety) et la sécurité des processeurs RISC-V. Il aborde les solutions de test fonctionnel et système, les techniques de sûreté dans les domaines fonctionnel et temporel, ainsi que les aspects de sécurité des implémentations matérielles, incluant les primitives cryptographiques, la sécurité système et la résistance aux attaques par canal auxiliaire.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "A Survey of Recent Developments in Testability, Safety and Security of RISC-V Processors",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/ets69887.2026.11591831": {
     "publication_date": "2026-05-25",
     "publication_type": "conference",
@@ -689,6 +706,40 @@
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/host55118.2023.10133542": {
+    "doi": "https://doi.org/10.1109/host55118.2023.10133542",
+    "publication_date": "2023-05-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/host55118.2023.10133542",
+    "summary": "Cet article présente CIFER, un système de vérification de l'intégrité du code et du flux de contrôle pour les programmes exécutés sur un cœur RISC-V, conçu pour contrer les attaques par injection de fautes (FIA). L'approche combine l'analyse du chemin d'exécution et des signaux de contrôle microarchitecturaux.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "CIFER: Code Integrity and control Flow verification for programs Executed on a RISC-V core",
+    "venue_landmark": "IEEE HOST",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/host55118.2023.10133713": {
+    "doi": "https://doi.org/10.1109/host55118.2023.10133713",
+    "publication_date": "2023-05-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+    "score": 88,
+    "source": "http://dx.doi.org/10.1109/host55118.2023.10133713",
+    "summary": "SCALE est une politique d'allocation de cache sécurisée et scalable qui utilise l'aléa et la confidentialité différentielle pour contrer les attaques par canal auxiliaire basées sur le partitionnement dynamique des caches de dernier niveau, tout en améliorant les performances.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "SCALE: Secure and Scalable Cache Partitioning",
+    "venue_landmark": "IEEE HOST",
+    "venue_note": "",
+    "venue_priority": 1,
     "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/host55342.2024.10545348": {
@@ -1102,6 +1153,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/iscas46773.2023.10181732": {
+    "doi": "https://doi.org/10.1109/iscas46773.2023.10181732",
+    "publication_date": "2023-05-21",
+    "publication_type": "conference",
+    "publication_venue": "IEEE International Symposium on Circuits and Systems proceedings",
+    "score": 78,
+    "source": "http://dx.doi.org/10.1109/iscas46773.2023.10181732",
+    "summary": "Cet article présente la conception d'un SoC open-source pour micro-drones aériens (MAV) intégrant un processeur hôte 64 bits, un accélérateur programmable et une enclave de sécurité basée sur la racine de confiance OpenTitan. Un cas d'usage de communication visuelle par LED est démontré pour signaler une faille de sécurité.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Cyber Security aboard Micro Aerial Vehicles: An OpenTitan-based Visual Communication Use Case",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/iscas56072.2025.11044308": {
     "doi": "https://doi.org/10.1109/iscas56072.2025.11044308",
     "publication_date": "2025-05-25",
@@ -1503,6 +1571,57 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/sp46215.2023.10179355": {
+    "doi": "https://doi.org/10.1109/sp46215.2023.10179355",
+    "publication_date": "2023-05-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Symposium on Security and Privacy (S&P)",
+    "score": 88,
+    "source": "https://doi.org/10.1109/sp46215.2023.10179355",
+    "summary": "Cet article étudie l'interaction entre l'exécution spéculative et la déclassification dans les langages de programmation à flux d'information. Les auteurs démontrent que l'exécution spéculative provoque des fuites involontaires au niveau des sites de déclassification, permettant de récupérer des clés cryptographiques (AES) malgré l'utilisation de contre-mesures comme le SLH. Ils proposent de nouvelles contre-mesures formelles, dont le selSLH, pour garantir la non-interférence relative.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Spectre Declassified: Reading from the Right Place at the Wrong Time",
+    "venue_landmark": "IEEE S&P",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/sp46215.2023.10179391": {
+    "doi": "https://doi.org/10.1109/sp46215.2023.10179391",
+    "publication_date": "2023-05-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Symposium on Security and Privacy (S&P)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/sp46215.2023.10179391",
+    "summary": "Cet article analyse les limitations de performance des outils actuels de detection automatique de fuites d'information par execution speculative (Spectre) dans les processeurs commerciaux. Les auteurs proposent des techniques ameliorant la vitesse de test jusqu'a deux ordres de grandeur, permettant des campagnes de test approfondies sur des processeurs Intel et AMD qui ont revele deux nouveaux types de fuites speculatives.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Hide and Seek with Spectres: Efficient discovery of speculative information leaks with random testing",
+    "venue_landmark": "IEEE S&P",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/sp46215.2023.10179440": {
+    "doi": "https://doi.org/10.1109/sp46215.2023.10179440",
+    "publication_date": "2023-05-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Symposium on Security and Privacy (S&P)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/sp46215.2023.10179440",
+    "summary": "Cet article présente SassCache, un cache associatif biaisé sécurisé utilisant un mappage d'index chiffré et une construction cryptographique à deux couches pour contrer les attaques par contention et occupation de cache.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Scatter and Split Securely: Defeating Cache Contention and Occupancy Attacks",
+    "venue_landmark": "IEEE S&P",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/sp54263.2024.00048": {
     "doi": "https://doi.org/10.1109/sp54263.2024.00048",
     "publication_date": "2024-05-19",
@@ -1605,6 +1724,23 @@
     "venue_note": "",
     "venue_priority": 2,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/spw59333.2023.00029": {
+    "doi": "https://doi.org/10.1109/spw59333.2023.00029",
+    "publication_date": "2023-05-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Security and Privacy Workshops (SPW)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/spw59333.2023.00029",
+    "summary": "Cet article étudie une nouvelle classe d'attaques par exécution transitoire qui ne se limite plus au vol de données sensibles, mais utilise cette exécution pour effectuer des calculs de manière invisible. L'article généralise la construction de portes logiques bizarres (\"weird gates\") au-delà de la technologie TSX d'Intel en utilisant diverses primitives d'exécution transitoire telles que les exceptions, le prédicteur de branchement et le tampon de cible de branchement (BTB). Les auteurs démontrent la faisabilité de ces portes sur des processeurs AMD, Intel et ARM avec une précision de 95 à 99 %.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "The ghost is the machine: Weird machines in transient execution",
+    "venue_landmark": "IEEE S&P",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/tc.2023.3278536": {
     "doi": "https://doi.org/10.1109/tc.2023.3278536",
@@ -2083,6 +2219,40 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "A keystone extension to defend against cache timing attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3578359.3593037": {
+    "doi": "https://doi.org/10.1145/3578359.3593037",
+    "publication_date": "2023-05-08",
+    "publication_type": "conference",
+    "publication_venue": "Workshop on System Software for Trusted Execution (SysTEX)",
+    "score": 80,
+    "source": "https://doi.org/10.1145/3578359.3593037",
+    "summary": "Cet article analyse les problemes des environnements d'execution de confiance (TEE) actuels, lies a leur dependance vis-a-vis de l'architecture des instructions, a leur integration micro-architecturale profonde favorisant les attaques par canal auxiliaire, et a la complexite de leur integration logicielle. Pour y remedier, les auteurs proposent une conception modulaire des TEE, appliquee a la plateforme de co-conception materielle/logicielle M3.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Towards Modular Trusted Execution Environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3578359.3593040": {
+    "doi": "https://doi.org/10.1145/3578359.3593040",
+    "publication_date": "2023-05-08",
+    "publication_type": "conference",
+    "publication_venue": "Workshop on System Software for Trusted Execution (SysTEX)",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3578359.3593040",
+    "summary": "Cet article propose une extension RISC-V pour minimiser les privilèges des environnements d'exécution de type TEE (enclave runtimes), soulignant que ces logiciels de confiance, souvent aussi complexes qu'un système d'exploitation, violent le principe du moindre privilège vis-à-vis de l'application d'enclave.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "A RISC-V Extension to Minimize Privileges of Enclave Runtimes",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
