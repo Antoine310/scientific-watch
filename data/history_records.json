@@ -5492,6 +5492,26 @@
     ],
     "title": "Towards Reliable and Secure RISC-V Systems: Survey of Testability and Security Mechanisms"
   },
+  "title:tpm20supportedruntimecustomizableteeonfpgasocwithusercontrollablevtpm": {
+    "doi": "",
+    "publication_date": "2025-05-18",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2505.12256v1",
+    "summary": "Cet article propose une approche pour construire un environnement d'exécution de confiance (TEE) personnalisable à l'exécution sur FPGA-SoC, prenant en charge le standard TPM 2.0 grâce à un module de plateforme sécurisée virtuel (vTPM) contrôlable par l'utilisateur. L'objectif est de protéger la propriété intellectuelle des utilisateurs dans le cloud en mesurant, déployant et invoquant dynamiquement des cœurs IP. Une implémentation prototype sur Xilinx Zynq UltraScale+ MPSoC est évaluée.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "TPM2.0-Supported Runtime Customizable TEE on FPGA-SoC with User-Controllable vTPM",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:treestealerstealingdecisiontreesviaenclavesidechannels": {
     "doi": "",
     "publication_date": "2026-04-20",

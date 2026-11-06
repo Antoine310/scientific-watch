@@ -245,6 +245,21 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1016/j.vlsi.2025.102367": {
+    "publication_date": "2025-05-01",
+    "publication_date_note": "Date source Crossref : 2025-05 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2025-05",
+    "publication_type": "revue",
+    "publication_venue": "Integration",
+    "score": 65,
+    "source": "https://doi.org/10.1016/j.vlsi.2025.102367",
+    "title": "Language semantics to support secure computation and communication in embedded systems via hardware monitors",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1101/gr.280558.125": {
     "publication_date": "2025-11-12",
     "publication_type": "revue",
@@ -925,6 +940,21 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/tnse.2024.3432836": {
+    "publication_date": "2025-05-21",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Network Science and Engineering",
+    "score": 70,
+    "source": "http://arxiv.org/abs/2506.12026v1",
+    "title": "LURK-T: Limited Use of Remote Keys With Added Trust in TLS 1.3",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tnse.2025.3624091": {
     "publication_date": "2026-01-01",
     "publication_date_note": "Date source Crossref : 2026 seulement ; classement indicatif en 2026-01.",
@@ -1129,6 +1159,21 @@
     "score": 74,
     "source": "https://doi.org/10.1145/3719027.3765066",
     "title": "MileSan: Detecting Exploitable Microarchitectural Leakage via Differential Hardware-Software Taint Tracking",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3719027.3765128": {
+    "publication_date": "2025-05-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "CCS '25: ACM SIGSAC Conference on Computer and Communications Security",
+    "score": 68,
+    "source": "http://arxiv.org/abs/2505.02521v2",
+    "title": "Attestable Builds: Compiling Verifiable Binaries on Untrusted Systems using Trusted Execution Environments",
     "venue_landmark": "ACM CCS",
     "venue_note": "",
     "venue_priority": 2,
@@ -2527,6 +2572,21 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:memoryundersiegeacomprehensivesurveyofsidechannelattacksonmemory": {
+    "publication_date": "2025-05-08",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 65,
+    "source": "http://arxiv.org/abs/2505.04896v1",
+    "title": "Memory Under Siege: A Comprehensive Survey of Side-Channel Attacks on Memory",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:multitargetcoveragebasedgreyboxfuzzing": {
     "publication_date": "2026-03-26",
     "publication_date_note": "",
@@ -2672,6 +2732,21 @@
     "score": 72,
     "source": "http://arxiv.org/abs/2601.16448v2",
     "title": "Ringmaster: How to juggle high-throughput host OS system calls from TrustZone TEEs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:rollbaccineherdimmunityagainststoragerollbackattacksinteestechnicalreport": {
+    "publication_date": "2025-05-06",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 65,
+    "source": "http://arxiv.org/abs/2505.04014v3",
+    "title": "Rollbaccine : Herd Immunity against Storage Rollback Attacks in TEEs [Technical Report]",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -2860,6 +2935,21 @@
     "score": 60,
     "source": "http://arxiv.org/abs/2609.35919v1",
     "title": "TEE Anchor: Cross-TEE Organizational Endorsement for Mitigating TEE Physical Attacks"
+  },
+  "title:teeisnotahealerrollbackresistantreliablestorageextendedversion": {
+    "publication_date": "2025-05-24",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 62,
+    "source": "http://arxiv.org/abs/2505.18648v3",
+    "title": "TEE is not a Healer: Rollback-Resistant Reliable Storage (Extended Version)",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:twowayconfidentialvms2cvmcollaborativeconfidentialcomputingformutuallydistrustfulparties": {
     "publication_date": "2026-06-09",
