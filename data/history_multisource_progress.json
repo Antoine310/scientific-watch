@@ -1,8 +1,8 @@
 {
   "accepted": 137,
   "completed": false,
-  "cursor": "MTc0NjEwMTk3ODAwMCwxMC4zNjIyNyUyRnRlY2hyeGl2LjE3NDYxMTYzNy43MzQyMDY5MSUyRnYx",
-  "evaluated": 2801,
+  "cursor": "MTc0NjIyNTc2NjAwMCwxMC4zMjM4OCUyRmNidmRhaQ==",
+  "evaluated": 2815,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -194,190 +194,16 @@
     "monthly/2025-06/query-20 : résultat tronqué au plafond 12 pages",
     "monthly/2025-06/query-21 : résultat tronqué au plafond 12 pages",
     "monthly/2025-06/query-22 : résultat tronqué au plafond 12 pages",
-    "monthly/2025-06/query-24 : résultat tronqué au plafond 12 pages"
+    "monthly/2025-06/query-24 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-05/query-13 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-05/query-14 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2025-05",
   "needs_publish": false,
-  "offset": 320,
-  "pages_done": 2673,
-  "pages_in_query": 8,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {
-          "(SOCs)": [
-            10
-          ],
-          "Agent": [
-            44
-          ],
-          "Analysts": [
-            18
-          ],
-          "Analysts.": [
-            48
-          ],
-          "Centers": [
-            9
-          ],
-          "Data": [
-            43
-          ],
-          "LLM-powered": [
-            42
-          ],
-          "Operation": [
-            8
-          ],
-          "SOC": [
-            17,
-            47
-          ],
-          "Security": [
-            7
-          ],
-          "The": [
-            0
-          ],
-          "This": [
-            32
-          ],
-          "alerts": [
-            27
-          ],
-          "an": [
-            41
-          ],
-          "augment": [
-            46
-          ],
-          "become": [
-            20
-          ],
-          "by": [
-            22,
-            39
-          ],
-          "cybersecurity": [
-            3
-          ],
-          "developing": [
-            40
-          ],
-          "effective": [
-            29
-          ],
-          "evolving": [
-            2
-          ],
-          "high": [
-            24
-          ],
-          "hindering": [
-            28
-          ],
-          "investigation.": [
-            31
-          ],
-          "landscape": [
-            5
-          ],
-          "leading": [
-            16
-          ],
-          "many": [
-            13
-          ],
-          "necessitates": [
-            6
-          ],
-          "of": [
-            26
-          ],
-          "overwhelmed": [
-            21
-          ],
-          "problem": [
-            38
-          ],
-          "rapidly": [
-            1
-          ],
-          "research": [
-            33
-          ],
-          "security": [
-            14
-          ],
-          "seeks": [
-            34
-          ],
-          "solve": [
-            36
-          ],
-          "the": [
-            23
-          ],
-          "this": [
-            37
-          ],
-          "threat": [
-            4,
-            30
-          ],
-          "to": [
-            11,
-            19,
-            35,
-            45
-          ],
-          "tools": [
-            15
-          ],
-          "use": [
-            12
-          ],
-          "volume": [
-            25
-          ]
-        },
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Moses Owino"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Nelson Ochieng"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.36227/techrxiv.174611637.73420691/v1",
-        "id": "https://doi.org/10.36227/techrxiv.174611637.73420691/v1",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.36227/techrxiv.174611637.73420691/v1"
-        },
-        "publication_date": "2025-05-01",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-05-01",
-        "publication_type": "prepublication",
-        "publication_venue": "",
-        "title": "A Prototype Data Agent for Threat Modelling in the Security Operation Center (SOC)",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T01 — Root of Trust & Secure Boot"
-      ]
-    }
-  ],
+  "offset": 360,
+  "pages_done": 2698,
+  "pages_in_query": 9,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2781,9 +2607,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 842,
-  "query_index": 13,
-  "secondary": 163,
-  "skipped": 2775,
+  "prefilter_review_overflow": 850,
+  "query_index": 15,
+  "secondary": 164,
+  "skipped": 2786,
   "version": 1
 }
