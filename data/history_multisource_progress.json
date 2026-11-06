@@ -1,8 +1,8 @@
 {
   "accepted": 160,
   "completed": false,
-  "cursor": "MTc0MjMyMjM1NjAwMCwxMC4xNTY4OCUyRmVrLmp2b2xzdS4yMDI0LjQuMTc=",
-  "evaluated": 3119,
+  "cursor": "MTc0ODk1ODE1MTAwMCwxMC4xMTA5JTJGY3N0aWM2NDQ4MS4yMDI1LjExMDE3OTEw",
+  "evaluated": 3144,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -222,627 +222,372 @@
   ],
   "month": "2025-03",
   "needs_publish": false,
-  "offset": 160,
-  "pages_done": 3024,
-  "pages_in_query": 4,
+  "offset": 320,
+  "pages_done": 3028,
+  "pages_in_query": 8,
   "pending": [
     {
       "paper": {
-        "abstract_inverted_index": {
-          ".": [
-            92
-          ],
-          "A": [
-            136
-          ],
-          "Based": [
-            103
-          ],
-          "CONCLUSION.": [
-            205
-          ],
-          "Comparison": [
-            206
-          ],
-          "Control": [
-            76
-          ],
-          "Created:": [
-            159
-          ],
-          "For": [
-            93
-          ],
-          "Labview": [
-            167
-          ],
-          "METHOD": [
-            91
-          ],
-          "PMR": [
-            41,
-            274
-          ],
-          "PMRA-IV.": [
-            25
-          ],
-          "PURPOSE.": [
-            1
-          ],
-          "RESULTS.": [
-            146
-          ],
-          "SD-54": [
-            114
-          ],
-          "Smooth": [
-            184
-          ],
-          "THE": [
-            0
-          ],
-          "The": [
-            2,
-            26,
-            50,
-            119,
-            147,
-            231,
-            256
-          ],
-          "USB": [
-            203
-          ],
-          "a": [
-            82,
-            85,
-            88,
-            153,
-            163,
-            169,
-            173,
-            192,
-            196,
-            199,
-            202
-          ],
-          "accurate": [
-            31
-          ],
-          "accurate,": [
-            222
-          ],
-          "accurately": [
-            265
-          ],
-          "aim": [
-            3
-          ],
-          "algorithm": [
-            138
-          ],
-          "allows": [
-            260
-          ],
-          "also": [
-            69
-          ],
-          "an": [
-            10,
-            30
-          ],
-          "analyzer": [
-            24
-          ],
-          "analyzes": [
-            46
-          ],
-          "and": [
-            13,
-            32,
-            68,
-            72,
-            87,
-            125,
-            172,
-            224,
-            226,
-            264
-          ],
-          "arising": [
-            244,
-            252
-          ],
-          "around": [
-            253
-          ],
-          "be": [
-            63,
-            70,
-            78
-          ],
-          "been": [
-            134,
-            144
-          ],
-          "between": [
-            122
-          ],
-          "capable": [
-            234
-          ],
-          "carried": [
-            79
-          ],
-          "circuit": [
-            174
-          ],
-          "communication": [
-            120
-          ],
-          "compact": [
-            71,
-            155
-          ],
-          "complex": [
-            15
-          ],
-          "computer": [
-            86,
-            124,
-            164,
-            200
-          ],
-          "conducting": [
-            44
-          ],
-          "connection.": [
-            204
-          ],
-          "control": [
-            89,
-            137,
-            157,
-            160,
-            170,
-            194,
-            218,
-            229,
-            258
-          ],
-          "controlling": [
-            17
-          ],
-          "controls": [
-            129
-          ],
-          "designs": [
-            209
-          ],
-          "develop": [
-            9
-          ],
-          "developed": [
-            154
-          ],
-          "development": [
-            27,
-            232
-          ],
-          "development,": [
-            94
-          ],
-          "device": [
-            214,
-            259
-          ],
-          "device.": [
-            158
-          ],
-          "documentation,": [
-            107
-          ],
-          "easy": [
-            73
-          ],
-          "electric": [
-            115,
-            131
-          ],
-          "electromagnetic": [
-            66,
-            242
-          ],
-          "environment,": [
-            168
-          ],
-          "equipment": [
-            51
-          ],
-          "field": [
-            251
-          ],
-          "for": [
-            16,
-            139,
-            162
-          ],
-          "from": [
-            65,
-            245
-          ],
-          "hardware": [
-            14
-          ],
-          "has": [
-            133,
-            143,
-            227
-          ],
-          "immunity": [
-            180
-          ],
-          "improved": [
-            11
-          ],
-          "in": [
-            20,
-            59,
-            165,
-            238
-          ],
-          "increase": [
-            177
-          ],
-          "installation.": [
-            183
-          ],
-          "interference": [
-            243
-          ],
-          "interference,": [
-            67
-          ],
-          "into": [
-            272
-          ],
-          "investigated.": [
-            102
-          ],
-          "is": [
-            7,
-            152,
-            189,
-            220,
-            233
-          ],
-          "liquid": [
-            38,
-            271
-          ],
-          "magnetic": [
-            250
-          ],
-          "measuring": [
-            61
-          ],
-          "mechatronic": [
-            22
-          ],
-          "methods.": [
-            230
-          ],
-          "microcontroller": [
-            127
-          ],
-          "more": [
-            221
-          ],
-          "motor": [
-            116,
-            132
-          ],
-          "motor.": [
-            255
-          ],
-          "movement": [
-            55,
-            185
-          ],
-          "moving": [
-            140
-          ],
-          "multiphase": [
-            45
-          ],
-          "multiple": [
-            228
-          ],
-          "must": [
-            52,
-            77
-          ],
-          "new": [
-            217,
-            257
-          ],
-          "noise": [
-            179
-          ],
-          "nozzle": [
-            19,
-            58
-          ],
-          "of": [
-            4,
-            35,
-            47,
-            56,
-            98,
-            111,
-            149,
-            181,
-            186,
-            235,
-            241,
-            270
-          ],
-          "oil": [
-            23,
-            48
-          ],
-          "on": [
-            84,
-            104,
-            198
-          ],
-          "operate.": [
-            75
-          ],
-          "operating": [
-            96,
-            109,
-            236
-          ],
-          "or": [
-            195,
-            248
-          ],
-          "out": [
-            80
-          ],
-          "panel": [
-            171
-          ],
-          "panel.": [
-            90
-          ],
-          "pipe": [
-            142,
-            156,
-            188
-          ],
-          "presence": [
-            240
-          ],
-          "previous": [
-            208
-          ],
-          "principle": [
-            97,
-            110
-          ],
-          "program": [
-            83,
-            197
-          ],
-          "properties.": [
-            49
-          ],
-          "protected": [
-            64
-          ],
-          "protocol": [
-            121
-          ],
-          "provide": [
-            29,
-            53
-          ],
-          "provided": [
-            190
-          ],
-          "quickly": [
-            263
-          ],
-          "relay": [
-            246
-          ],
-          "remote": [
-            193
-          ],
-          "required": [
-            268
-          ],
-          "result": [
-            148
-          ],
-          "sampler": [
-            100
-          ],
-          "sampling": [
-            213
-          ],
-          "select": [
-            266
-          ],
-          "sensor": [
-            42
-          ],
-          "sensor.": [
-            275
-          ],
-          "should": [
-            28
-          ],
-          "shows": [
-            210
-          ],
-          "smooth": [
-            54
-          ],
-          "smooth,": [
-            225
-          ],
-          "software": [
-            12,
-            161
-          ],
-          "solution": [
-            175
-          ],
-          "stable": [
-            33,
-            223
-          ],
-          "stably": [
-            237
-          ],
-          "studied.": [
-            118,
-            135,
-            145
-          ],
-          "supply": [
-            34
-          ],
-          "switching": [
-            247
-          ],
-          "system": [
-            219
-          ],
-          "tank,": [
-            62
-          ],
-          "technical": [
-            106
-          ],
-          "test": [
-            37
-          ],
-          "that": [
-            128,
-            211
-          ],
-          "the": [
-            5,
-            18,
-            21,
-            36,
-            40,
-            57,
-            60,
-            95,
-            99,
-            105,
-            108,
-            112,
-            123,
-            126,
-            130,
-            141,
-            150,
-            166,
-            178,
-            182,
-            187,
-            212,
-            216,
-            239,
-            249,
-            254,
-            267,
-            273
-          ],
-          "to": [
-            8,
-            39,
-            74,
-            176,
-            262
-          ],
-          "used": [
-            113
-          ],
-          "using": [
-            81,
-            191
-          ],
-          "via": [
-            201
-          ],
-          "volume": [
-            269
-          ],
-          "was": [
-            101,
-            117
-          ],
-          "when": [
-            43
-          ],
-          "with": [
-            207,
-            215
-          ],
-          "work": [
-            6,
-            151
-          ],
-          "you": [
-            261
-          ]
-        },
+        "abstract_inverted_index": {},
         "authorships": [
           {
             "author": {
-              "display_name": "Duc Anh Nguyen"
+              "display_name": "Ye Cai"
             }
           },
           {
             "author": {
-              "display_name": "R. S. Kashaev"
+              "display_name": "Chuyu Zheng"
             }
           },
           {
             "author": {
-              "display_name": "O. V. Kozelkov"
+              "display_name": "Wei He"
             }
           },
           {
             "author": {
-              "display_name": "A. D. Arslanov"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Van Tung Tran"
+              "display_name": "Dan Tang"
             }
           }
         ],
-        "doi": "https://doi.org/10.30724/1998-9903-2025-27-1-3-15",
-        "id": "https://doi.org/10.30724/1998-9903-2025-27-1-3-15",
+        "doi": "https://doi.org/10.23919/date64628.2025.10992783",
+        "id": "https://doi.org/10.23919/date64628.2025.10992783",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.30724/1998-9903-2025-27-1-3-15"
+          "landing_page_url": "https://doi.org/10.23919/date64628.2025.10992783"
         },
-        "publication_date": "2025-03-17",
+        "publication_date": "2025-03-31",
         "publication_date_note": "",
         "publication_date_precision": "day",
-        "publication_date_source": "2025-03-17",
-        "publication_type": "revue",
-        "publication_venue": "Power engineering: research, equipment, technology",
-        "title": "Development of an improved software and hardware complex for controlling the pipe of the proton magnetic resonance analyzer PMRA-IV",
+        "publication_date_source": "2025-03-31",
+        "publication_type": "conference",
+        "publication_venue": "2025 Design, Automation &amp; Test in Europe Conference (DATE)",
+        "title": "Verilua: An Open Source Versatile Framework for Efficient Hardware Verification and Analysis Using LuaJIT",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Mohammad Ebrahimabadi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Raphael Viera"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sylvain Guilley"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jean-Luc Danger"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jean-Max Dutertre"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Naghmeh Karimi"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.23919/date64628.2025.10992902",
+        "id": "https://doi.org/10.23919/date64628.2025.10992902",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.23919/date64628.2025.10992902"
+        },
+        "publication_date": "2025-03-31",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-03-31",
+        "publication_type": "conference",
+        "publication_venue": "2025 Design, Automation &amp; Test in Europe Conference (DATE)",
+        "title": "Multi-Sensor Data Fusion for Enhanced Detection of Laser Fault Injection Attacks in Cryptographic Hardware: Practical Results",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Ilias Papalamprou"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Aimilios Leftheriotis"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Apostolos Garos"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Georgios Gardikis"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Maria Christopoulou"
+            }
+          },
+          {
+            "author": {
+              "display_name": "George Xilouris"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Lampros Argyriou"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Antonia Karamatskou"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Nikolaos Papadakis"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Emmanouil Kalotychos"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Nikolaos Chatzivasileiadis"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Dimosthenis Masouros"
+            }
+          },
+          {
+            "author": {
+              "display_name": "George Theodoridis"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Dimitrios Soudris"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.23919/date64628.2025.10992981",
+        "id": "https://doi.org/10.23919/date64628.2025.10992981",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.23919/date64628.2025.10992981"
+        },
+        "publication_date": "2025-03-31",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-03-31",
+        "publication_type": "conference",
+        "publication_venue": "2025 Design, Automation &amp; Test in Europe Conference (DATE)",
+        "title": "Multi-Partner Project: Secure Hardware Accelerated Data Analytics for 6G Networks: The PRIVATEER Approach",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Louis Savary"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Simon Rokicki"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Steven Derrien"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.23919/date64628.2025.10993188",
+        "id": "https://doi.org/10.23919/date64628.2025.10993188",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.23919/date64628.2025.10993188"
+        },
+        "publication_date": "2025-03-31",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-03-31",
+        "publication_type": "conference",
+        "publication_venue": "2025 Design, Automation &amp; Test in Europe Conference (DATE)",
+        "title": "Hardware/Software Runtime for GPSA Protection in RISC-V Embedded Cores",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Zhiyuan Yan"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Hongce Zhang"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.23919/date64628.2025.10993237",
+        "id": "https://doi.org/10.23919/date64628.2025.10993237",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.23919/date64628.2025.10993237"
+        },
+        "publication_date": "2025-03-31",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-03-31",
+        "publication_type": "conference",
+        "publication_venue": "2025 Design, Automation &amp; Test in Europe Conference (DATE)",
+        "title": "Word-Level Counterexample Reduction Methods for Hardware Verification",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Ulrich Muenz"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Alexandr Stinskiy"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Abhishek Banerjee"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Evandro De Oliveira"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Steve Sano"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Addison Li"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Meredith Chee"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Tapas Barik"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Deepak Ramasubramanian"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Evangelos Farantatos"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Shuvangkar Das"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/cfpr67343.2025.11013000",
+        "id": "https://doi.org/10.1109/cfpr67343.2025.11013000",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/cfpr67343.2025.11013000"
+        },
+        "publication_date": "2025-03-31",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-03-31",
+        "publication_type": "conference",
+        "publication_venue": "2025 78th Annual Conference for Protective Relay Engineers (CFPR)",
+        "title": "Protection Schemes for Inverter-Dominated Transmission Systems: First Experiences from Hardware Testbed of Hawai'i Island",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -3259,9 +3004,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 987,
+  "prefilter_review_overflow": 994,
   "query_index": 17,
-  "secondary": 178,
-  "skipped": 3067,
+  "secondary": 180,
+  "skipped": 3068,
   "version": 1
 }
