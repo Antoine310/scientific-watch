@@ -467,6 +467,26 @@
     "venue_priority": 1,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/ddecs63720.2025.11006772": {
+    "doi": "https://doi.org/10.1109/ddecs63720.2025.11006772",
+    "publication_date": "2025-05-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-05-05",
+    "publication_type": "conference",
+    "publication_venue": "2025 IEEE 28th International Symposium on Design and Diagnostics of Electronic Circuits and Systems (DDECS)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/ddecs63720.2025.11006772",
+    "summary": "Cet article présente S4V (Security for RISC-V), une suite de benchmarks de sécurité qui implémente plusieurs attaques par exécution transitoire (TEA) spécifiquement adaptées aux processeurs RISC-V. Les auteurs démontrent la faisabilité de ces attaques sur le cœur BOOM (Berkeley Out-of-Order Machine) afin de combler le manque d'outils d'évaluation pour cette architecture.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "S4V: A Benchmark Suite of Transient Execution Attacks for RISC-V Processors",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/ddecs69233.2026.11521000": {
     "publication_date": "2026-04-27",
     "publication_type": "conference",
