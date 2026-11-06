@@ -2328,6 +2328,38 @@
       "title": "Hardware information flow tracking based on lightweight path awareness",
       "updated_at": "2026-11-03T08:14:41.780030+00:00"
     },
+    "doi:10.1016/j.cose.2024.104196": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Fuzzing trusted execution environments with Rust",
+      "updated_at": "2026-11-06T18:40:02.503880+00:00"
+    },
+    "doi:10.1016/j.cose.2024.104200": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Covert timing channel detection based on isolated binary trees",
+      "updated_at": "2026-11-06T18:40:02.472894+00:00"
+    },
+    "doi:10.1016/j.cose.2024.104250": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "TEEMRDA: Leveraging trusted execution environments for multi-replica data auditing in cloud storage",
+      "updated_at": "2026-11-06T18:40:11.878947+00:00"
+    },
+    "doi:10.1016/j.cose.2024.104254": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Control-flow attestation: Concepts, solutions, and open challenges",
+      "updated_at": "2026-11-06T18:40:11.911591+00:00"
+    },
     "doi:10.1016/j.cose.2025.104313": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -5615,6 +5647,14 @@
       "status": "rejected",
       "title": "Architecture and Energy Efficiency Optimization of Neural Network Accelerator Based on RISC-V Instruction Set Extension",
       "updated_at": "2026-11-06T10:37:31.068018+00:00"
+    },
+    "doi:10.1109/ccgrid64434.2025.00041": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "COoL-TEE: Client-TEE Collaboration for Resilient Distributed Search",
+      "updated_at": "2026-11-06T18:37:55.041032+00:00"
     },
     "doi:10.1109/ccnc65079.2026.11366346": {
       "category": "coeur",
@@ -12216,6 +12256,22 @@
       "title": "A Multi-Stage FPGA-Based Instrumentation Platform for Characterization and Signal Integrity Testing of Superconducting Interconnects at Cryogenic Temperatures",
       "updated_at": "2026-11-05T00:24:35.632449+00:00"
     },
+    "doi:10.1109/tc.2023.3251864": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "AI Trojan Attack for Evading Machine Learning-Based Detection of Hardware Trojans",
+      "updated_at": "2026-11-06T18:39:41.422919+00:00"
+    },
+    "doi:10.1109/tc.2023.3278536": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Hardware Design of an Advanced-Feature Cryptographic Tile Within the European Processor Initiative",
+      "updated_at": "2026-11-06T18:39:52.839011+00:00"
+    },
     "doi:10.1109/tc.2023.3290870": {
       "category": "coeur",
       "decision": "conserver",
@@ -12719,6 +12775,14 @@
       "status": "rejected",
       "title": "End-to-End Multimedia Protection for Consumer-Centric Digital Twins via Blockchain and Hardware-Rooted Trust",
       "updated_at": "2026-11-03T10:28:08.097255+00:00"
+    },
+    "doi:10.1109/tcomm.2024.3451617": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Robust Secure Beamforming Design for Multi-RIS-Aided MISO Systems With Hardware Impairments and Channel Uncertainties",
+      "updated_at": "2026-11-06T18:39:52.902099+00:00"
     },
     "doi:10.1109/tcpmt.2025.3559543": {
       "category": "hors_sujet",
@@ -13528,6 +13592,14 @@
       "title": "Loss Optimization and Experimental Verification of MW-Level Medium-Frequency Transformer Using Grain-Oriented Silicon Steel",
       "updated_at": "2026-11-02T17:51:59.393771+00:00"
     },
+    "doi:10.1109/tie.2024.3436516": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Real-Time Estimation and Defense of PV Inverter Sensor Attacks With Hardware Implementation",
+      "updated_at": "2026-11-06T18:39:52.871062+00:00"
+    },
     "doi:10.1109/tie.2026.3675190": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -14215,6 +14287,14 @@
       "status": "rejected",
       "title": "Exploiting the Pico Cell as a PUF and TRNG Reconfigurable Entropy Source",
       "updated_at": "2026-11-01T02:15:02.252663+00:00"
+    },
+    "doi:10.1109/tvt.2024.3483952": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Robust and Secure Transmission Design for Reconfigurable Intelligent Surface Aided MU-SWIPT Systems With Hardware Impairments",
+      "updated_at": "2026-11-06T18:40:02.441356+00:00"
     },
     "doi:10.1109/tvt.2025.3550387": {
       "category": "hors_sujet",
@@ -18560,6 +18640,14 @@
       "title": "A Single-Inverter-Based True Random Number Generator with On-Chip Clock-Tuning-Based Entropy Calibration Circuit",
       "updated_at": "2026-11-06T17:14:07.821726+00:00"
     },
+    "doi:10.1587/transfun.2024cip0009": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Multi-Bit DDLA: Non-Profiled Deep Learning Side-Channel Attacks Using Multi-Bit Label against Hardware-Implemented AES",
+      "updated_at": "2026-11-06T18:40:02.409186+00:00"
+    },
     "doi:10.1587/transfun.2025cip0027": {
       "category": "coeur",
       "decision": "conserver",
@@ -22448,6 +22536,14 @@
       "title": "RISC-V hardware attack traces on gem5 O3 CPU performance and instruction counters (HARPY-V-GEM5-100c)",
       "updated_at": "2026-11-02T05:14:03.078269+00:00"
     },
+    "doi:10.35314/x0rctv54": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "The Implementation of AWS Cloud Technology to Enhance the Performance and Security of the Pharmacy Cashier Management System",
+      "updated_at": "2026-11-06T18:40:11.943061+00:00"
+    },
     "doi:10.35596/1729-7648-2026-24-2-69-78": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -25240,6 +25336,14 @@
       "title": "Explainable and Energy-Efficient Lightweight Deep Learning on Embedded Edge-Vision Hardware for Intelligent Medicinal Plant Recognition and Herbal Health Applications",
       "updated_at": "2026-11-02T18:51:13.414396+00:00"
     },
+    "doi:10.53370/001c.24040": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "DESIGN AND IMPLEMENTATION OF A MUSEUM SECURITY SYSTEM USING AN IR PROXIMITY ANTENNA",
+      "updated_at": "2026-11-06T18:39:41.389360+00:00"
+    },
     "doi:10.53469/jrse.2026.08(04).01": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -26808,6 +26912,22 @@
       "title": "A Comprehensive Survey on RISC-V: From RISC-1 to RISC-5 Generations Through Modern Architecture, ISA Extensions, Customizable Core Designs, Comparative Analysis, and Real-World Applications",
       "updated_at": "2026-10-31T20:14:02.127974+00:00"
     },
+    "title:activationfunctionsconsideredharmfulrecoveringneuralnetworkweightsthroughcontrolledchannels": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Activation Functions Considered Harmful: Recovering Neural Network Weights through Controlled Channels",
+      "updated_at": "2026-11-06T18:38:15.022623+00:00"
+    },
+    "title:acurastdecentralizedserverlesscloud": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Acurast: Decentralized Serverless Cloud",
+      "updated_at": "2026-11-06T18:37:54.981605+00:00"
+    },
     "title:addendumsystematicevaluationofrandomizedcachedesignsagainstcacheoccupancy": {
       "category": "coeur",
       "decision": "conserver",
@@ -27576,6 +27696,14 @@
       "title": "Deep Learning-Based Multi-Factor Authentication: A Survey of Biometric and Smart Card Integration Approaches",
       "updated_at": "2026-11-04T13:49:14.771611+00:00"
     },
+    "title:demotingsecurityviaexploitationofcachedemoteoperationinintelslatestisaextension": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Demoting Security via Exploitation of Cache Demote Operation in Intel's Latest ISA Extension",
+      "updated_at": "2026-11-06T18:38:48.586882+00:00"
+    },
     "title:desarrollodefirmwareenarquitecturariscvsobreraspberrypipicow2": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -27727,6 +27855,14 @@
       "status": "rejected",
       "title": "Efficient TCitH-Based Alternatives to SLH-DSA: Cross-Layer ASIC Design of Mirath",
       "updated_at": "2026-11-02T15:56:28.145601+00:00"
+    },
+    "title:efficienttraceforriscvdesignevaluationandintegrationincva6": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Efficient Trace for RISC-V: Design, Evaluation, and Integration in CVA6",
+      "updated_at": "2026-11-06T18:39:32.729913+00:00"
     },
     "title:eigenaideterministicinferenceverifiableresults": {
       "category": "secondaire",
@@ -28287,6 +28423,14 @@
       "status": "rejected",
       "title": "HOMARD: Hammering Off-chip Memory via Aggregate power Rail Disclosure",
       "updated_at": "2026-11-02T13:04:38.160375+00:00"
+    },
+    "title:honesttoafaultrootcausingfaultattackswithpresiliconriscpipelinecharacterization": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Honest to a Fault: Root-Causing Fault Attacks with Pre-Silicon RISC Pipeline Characterization",
+      "updated_at": "2026-11-06T18:37:32.245673+00:00"
     },
     "title:hotprotocol": {
       "category": "secondaire",
@@ -29008,6 +29152,14 @@
       "title": "Processeur RISC-V enrichi avec une unité de microdécodage dynamique",
       "updated_at": "2026-11-06T17:13:47.094550+00:00"
     },
+    "title:prodifprotectingdomaininvariantfeaturestosecurepretrainedmodelsagainstextraction": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "ProDiF: Protecting Domain-Invariant Features to Secure Pre-Trained Models Against Extraction",
+      "updated_at": "2026-11-06T18:37:54.918858+00:00"
+    },
     "title:proofofclouddatacenterexecutionassuranceforconfidentialvms": {
       "category": "coeur",
       "decision": "examiner",
@@ -29080,6 +29232,14 @@
       "title": "Qualcomm Trusted Application Emulation for Fuzzing Testing",
       "updated_at": "2026-11-05T01:25:09.082322+00:00"
     },
+    "title:quantumcomputingandcybersecurityeducationanovelcurriculumforenhancinggraduatestemlearning": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Quantum Computing and Cybersecurity Education: A Novel Curriculum for Enhancing Graduate STEM Learning",
+      "updated_at": "2026-11-06T18:37:02.669534+00:00"
+    },
     "title:quantumsecurephysicalunclonablefunctionenabledbysiliconphotonicsintegratedcircuits": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -29095,6 +29255,14 @@
       "status": "rejected",
       "title": "Qubes OS Security in the Public Record",
       "updated_at": "2026-11-02T19:56:52.622978+00:00"
+    },
+    "title:raceteeenablinginteroperabilityofconfidentialsmartcontracts": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "RaceTEE: Enabling Interoperability of Confidential Smart Contracts",
+      "updated_at": "2026-11-06T18:37:54.887627+00:00"
     },
     "title:rappxappattestationanewsecurityusecasefororan": {
       "category": "secondaire",
@@ -29608,6 +29776,14 @@
       "title": "SNPeek: Side-Channel Analysis for Privacy Applications on Confidential VMs",
       "updated_at": "2026-11-05T05:55:38.240308+00:00"
     },
+    "title:sokacloudyviewontrustrelationshipsofcvmshowconfidentialvirtualmachinesarefallingshortinpubliccloud": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "SoK: A cloudy view on trust relationships of CVMs -- How Confidential Virtual Machines are falling short in Public Cloud",
+      "updated_at": "2026-11-06T18:37:54.854919+00:00"
+    },
     "title:sokarcusontheefficiencyandefficacyofhardwarefuzzing": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -29639,6 +29815,14 @@
       "status": "rejected",
       "title": "SoK: Secure Software-Based Multi-Domain Data Segregation",
       "updated_at": "2026-11-02T15:57:36.237231+00:00"
+    },
+    "title:soktrustedexecutioninsocfpgas": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "SoK: Trusted Execution in SoC-FPGAs",
+      "updated_at": "2026-11-06T18:37:55.011101+00:00"
     },
     "title:sovereignagentstowardsinfrastructuralsovereigntyanddiffusedaccountabilityindecentralizedai": {
       "category": "hors_sujet",
@@ -29896,6 +30080,14 @@
       "title": "The Data Enclave Advantage: A New Paradigm for Least-Privileged Data Access in a Zero-Trust World",
       "updated_at": "2026-11-04T13:49:14.809116+00:00"
     },
+    "title:themistowardspracticalintellectualpropertyprotectionforpostdeploymentondevicedeeplearningmodels": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "THEMIS: Towards Practical Intellectual Property Protection for Post-Deployment On-Device Deep Learning Models",
+      "updated_at": "2026-11-06T18:37:55.070918+00:00"
+    },
     "title:thenexusofquantumtechnologyintellectualpropertyandnationalsecurityanlsitestforsecuringthequantumindustrialcommons": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -30063,6 +30255,14 @@
       "status": "rejected",
       "title": "TranScope: What the Software Hides About LLM Training Data, the Hardware Reveals at Scale, and Accelerators Magnify",
       "updated_at": "2026-11-02T13:04:59.321806+00:00"
+    },
+    "title:transparentattesteddnsforconfidentialcomputingservices": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Transparent Attested DNS for Confidential Computing Services",
+      "updated_at": "2026-11-06T18:37:54.951856+00:00"
     },
     "title:trbftascalableandefficientbyzantineconsensusbasedontrustedexecutionenvironmentforconsortiumblockchain": {
       "category": "secondaire",

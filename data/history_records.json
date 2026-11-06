@@ -1606,6 +1606,26 @@
     "venue_priority": 2,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/tc.2023.3278536": {
+    "doi": "https://doi.org/10.1109/tc.2023.3278536",
+    "publication_date": "2025-03-01",
+    "publication_date_note": "Date source Crossref : 2025-03 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2025-03",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computers",
+    "score": 75,
+    "source": "https://doi.org/10.1109/tc.2023.3278536",
+    "summary": "Ce travail présente la conception matérielle d'une suite d'accélérateurs cryptographiques nommée Crypto-Tile dans le cadre de l'European Processor Initiative (EPI). Le système intègre des algorithmes symétriques, asymétriques, de hachage, de génération aléatoire et de cryptographie post-quantique, ainsi que des services matériels natifs (gestion de clés, randomisation d'horloge, privilèges d'accès). Il est synthétisé en technologie 7 nm et intègre une démo avec un processeur softcore RISC-V.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Hardware Design of an Advanced-Feature Cryptographic Tile Within the European Processor Initiative",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tc.2023.3290870": {
     "doi": "https://doi.org/10.1109/tc.2023.3290870",
     "publication_date": "2023-06-29",
@@ -4860,6 +4880,26 @@
     ],
     "title": "Future-proofing Trusted Execution Environments Against the Emerging Threats of Speculative Execution"
   },
+  "title:activationfunctionsconsideredharmfulrecoveringneuralnetworkweightsthroughcontrolledchannels": {
+    "doi": "",
+    "publication_date": "2025-03-24",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2503.19142v2",
+    "summary": "Cet article étudie la sécurité des modèles de réseaux de neurones exécutés dans des enclaves matérielles isolées (Intel SGX). Les auteurs démontrent qu'un attaquant logiciel privilégié peut extraire les poids et biais secrets en exploitant les schémas d'accès mémoire dépendants des entrées dans les fonctions d'activation courantes. L'attaque s'appuie sur le framework SGX-Step pour obtenir une trace d'accès aux pages granulaire et sans bruit, permettant la récupération complète des poids de la première couche avec une erreur absolue moyenne inférieure à 1 % en seulement 20 requêtes par entrée et par poids.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Activation Functions Considered Harmful: Recovering Neural Network Weights through Controlled Channels",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:addendumsystematicevaluationofrandomizedcachedesignsagainstcacheoccupancy": {
     "doi": "",
     "publication_date": "2025-10-19",
@@ -5095,6 +5135,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:demotingsecurityviaexploitationofcachedemoteoperationinintelslatestisaextension": {
+    "doi": "",
+    "publication_date": "2025-03-13",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2503.10074v2",
+    "summary": "Cet article étudie l'extension ISA cldemote d'Intel, conçue pour transférer des lignes de cache vers le LLC, et démontre qu'elle peut être exploitée pour des attaques microarchitecturales en raison de son accès non privilégié, de ses transitions d'état inter-cache et de sa suppression de fautes.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Demoting Security via Exploitation of Cache Demote Operation in Intel's Latest ISA Extension",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:detectingspeculativedataflowvulnerabilitiesusingweakestpreconditionreasoning": {
     "doi": "",
     "publication_date": "2025-04-27",
@@ -5150,6 +5210,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Efficient RL-based Cache Vulnerability Exploration by Penalizing Useless Agent Actions",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:efficienttraceforriscvdesignevaluationandintegrationincva6": {
+    "doi": "",
+    "publication_date": "2025-03-24",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2504.01972v1",
+    "summary": "Ce travail présente la conception, l'évaluation et l'intégration d'un système de traçage de processeur conforme à la spécification RISC-V Efficient Trace pour le suivi des branchements d'instructions. Intégré dans l'architecture CVA6 pour des applications en périphérie, le système engendre un surcoût de 9,2 % en ressources sur FPGA Xilinx VCU118 et atteint un taux de compression moyen de 95,1 % par rapport à un traçage complet des instructions.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "Efficient Trace for RISC-V: Design, Evaluation, and Integration in CVA6",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -5985,6 +6065,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "SNPeek: Side-Channel Analysis for Privacy Applications on Confidential VMs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:sokacloudyviewontrustrelationshipsofcvmshowconfidentialvirtualmachinesarefallingshortinpubliccloud": {
+    "doi": "",
+    "publication_date": "2025-03-11",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2503.08256v1",
+    "summary": "Cette étude analyse de manière critique les offres de cloud computing confidentiel des principaux fournisseurs pour évaluer si les machines virtuelles confidentielles (CVM) respectent réellement leurs principes fondamentaux de sécurité. Les auteurs développent une taxonomie pour évaluer l'attestation à distance et le contrôle de la pile logicielle de confiance.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "SoK: A cloudy view on trust relationships of CVMs -- How Confidential Virtual Machines are falling short in Public Cloud",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
