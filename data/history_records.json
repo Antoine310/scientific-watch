@@ -84,6 +84,27 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1007/s13369-025-10215-9": {
+    "doi": "https://doi.org/10.1007/s13369-025-10215-9",
+    "publication_date": "2025-05-21",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-05-21",
+    "publication_type": "revue",
+    "publication_venue": "Arabian Journal for Science and Engineering",
+    "score": 88,
+    "source": "https://doi.org/10.1007/s13369-025-10215-9",
+    "summary": "Cette étude analyse les attaques Spectre exploitant l'exécution spéculative et propose une méthode de détection basée sur l'apprentissage automatique et profond au niveau matériel. Les auteurs introduisent un nouveau jeu de données nommé Spec17Tre, généré à l'aide du simulateur matériel GEM5 et de benchmarks SPEC CPU2017. En utilisant des modèles hybrides combinant LSTM, SVM et CNN, l'étude atteint une précision de 95% et un score F1 de 0.999 pour la détection des scénarios d'attaque Spectre.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels",
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Spec17Tre: A New Dataset in Hardware Security and Using Deep Learning for Detecting Spectre Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1007/s13389-024-00362-4": {
     "doi": "https://doi.org/10.1007/s13389-024-00362-4",
     "publication_date": "2024-08-13",
@@ -2232,6 +2253,26 @@
       "T04 — Runtime Attestation"
     ],
     "title": "Run-time Attestation and Auditing: The Verifier's Perspective",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3734521": {
+    "doi": "https://doi.org/10.1145/3734521",
+    "publication_date": "2025-05-31",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-05-31",
+    "publication_type": "revue",
+    "publication_venue": "ACM Transactions on Computer Systems",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3734521",
+    "summary": "RegVault II est un mécanisme matériel et logiciel de randomisation des données du noyau pour plusieurs architectures, conçu pour protéger les données d'exécution sensibles (comme les pointeurs de fonction) contre les vulnérabilités de corruption mémoire.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "RegVault II: Achieving Hardware-Assisted Selective Kernel Data Randomization for Multiple Architectures",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
