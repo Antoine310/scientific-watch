@@ -2233,6 +2233,26 @@
     "venue_priority": 2,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3706594.3726974": {
+    "doi": "https://doi.org/10.1145/3706594.3726974",
+    "publication_date": "2025-04-14",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "CF '25 Companion: 22nd ACM International Conference on Computing Frontiers",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2504.10345v1",
+    "summary": "Cette étude présente AraOS, une adaptation du processeur vectoriel open-source Ara2 pour inclure un support système via l'OS Linux, en partageant la MMU du cœur scalaire CVA6 sur la plateforme SoC Cheshire. Les auteurs évaluent l'impact de la gestion de la mémoire virtuelle sur les performances vectorielles en analysant la surcharge de la traduction d'adresse et les configurations du TLB lors de l'exécution de noyaux de multiplication matricielle et de la suite RiVEC.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "AraOS: Analyzing the Impact of Virtual Memory Management on Vector Unit Performance",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3708821.3733887": {
     "doi": "https://doi.org/10.1145/3708821.3733887",
     "publication_date": "2025-08-24",
@@ -4863,6 +4883,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "CryptRISC: A Secure RISC-V Processor for High-Performance Cryptography with Power Side-Channel Protection",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:detectingspeculativedataflowvulnerabilitiesusingweakestpreconditionreasoning": {
+    "doi": "",
+    "publication_date": "2025-04-27",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2504.19128v1",
+    "summary": "Cet article propose une approche formelle basée sur le raisonnement par précondition la plus faible pour détecter les vulnérabilités de flux de données en exécution spéculative, spécifiquement Spectre-STL et Spectre-PSF. L'approche est validée sur une suite de tests standard.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Detecting speculative data flow vulnerabilities using weakest precondition reasoning",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
