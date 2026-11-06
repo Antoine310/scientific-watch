@@ -4789,6 +4789,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:chypnosisundervoltingbasedstaticsidechannelattacks": {
+    "doi": "",
+    "publication_date": "2025-04-15",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2504.11633v5",
+    "summary": "Cet article présente Chypnosis, une technique d'attaque par sous-alimentation (undervolting) qui arrête indirectement l'horloge d'un circuit tout en préservant les données stockées. Cette méthode contourne les défenses de détection d'horloge et de tension, et permet de récupérer des informations sensibles à l'aide d'analyses par canaux cachés statiques, comme démontré sur OpenTitan.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Chypnosis: Undervolting-based Static Side-channel Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:chypothermiaclockfreezingforstaticsidechannelattacks": {
     "publication_date": "2026-09-10",
     "publication_date_note": "",
@@ -4988,6 +5008,26 @@
       "T02 — DICE & Hardware Identity"
     ],
     "title": "Extending Layered Attestation into ARM Application Run-Times",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:fireguardageneralizedmicroarchitectureforfinegrainedsecurityanalysisonooosuperscalarcores": {
+    "doi": "",
+    "publication_date": "2025-04-02",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2504.01380v1",
+    "summary": "FireGuard est une microarchitecture généraliste conçue pour l'analyse fine des instructions sur des processeurs superscalaires OoO (Out-of-Order). L'article détaille les défis d'implémentation de chemins programmables sans chemins critiques et introduit FireGuard comme première implémentation sur processeur OoO réel, couvrant la microarchitecture, le SoC, l'ISA et le modèle de programmation.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "FireGuard: A Generalized Microarchitecture for Fine-Grained Security Analysis on OoO Superscalar Cores",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -5564,6 +5604,46 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:shadowbindingrealizingeffectivemicroarchitecturesforincoresecurespeculationschemes": {
+    "doi": "",
+    "publication_date": "2025-04-09",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2504.07018v1",
+    "summary": "ShadowBinding propose des microarchitectures efficaces pour deux schémas de spéculation sécurisée de pointe (STT et NDA) implémentés sur le processeur RISC-V BOOM. L'étude met en évidence des limitations microarchitecturales fondamentales, telles qu'une chaîne de dépendance critique dans STT-Rename, et introduit STT-Issue pour repousser le calcul du taint au stade d'émission. L'évaluation montre un impact de performance global considérable, atteignant près de 35 % en combinant IPC et timing.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "ShadowBinding: Realizing Effective Microarchitectures for In-Core Secure Speculation Schemes",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:shieldbashabusingdefensivecoherencestateretrievaltobreaktimingobfuscation": {
+    "doi": "",
+    "publication_date": "2025-04-14",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2504.10318v1",
+    "summary": "Cette étude analyse l'interaction inattendue entre deux contre-mesures matérielles modernes, TORC (obfuscation temporelle des lignes de cache distantes) et DSRC (retard des modifications spéculatives). Les auteurs démontrent que la combinaison de ces défenses permet de récupérer des informations de cohérence dans le cœur du processeur, contournant l'obfuscation et créant une vulnérabilité exploitée via un nouveau canal secret. Deux correctifs sont proposés et évalués.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Shield Bash: Abusing Defensive Coherence State Retrieval to Break Timing Obfuscation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:shufflevamicroarchitecturaldefensestrategyagainstelectromagneticsidechannelattacksinmicroprocessors": {
     "doi": "",
     "publication_date": "2025-10-15",
@@ -5598,6 +5678,46 @@
       "T08 — Cache & Temporal Isolation"
     ],
     "title": "SLAC: Access-Driven CPU-to-GPU Side-channel Attacks via System-Level Cache on Apple Silicon",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:sliceslicebabygeneratinglastlevelcacheevictionsetsintheblinkofaneye": {
+    "doi": "",
+    "publication_date": "2025-04-15",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2504.11208v2",
+    "summary": "Cet article présente une nouvelle méthode pour générer rapidement des ensembles d'éviction (eviction sets) pour les caches de dernier niveau (LLC) sur des processeurs Intel dotés de fonctions de hachage non linéaires. En exploitant des courses microarchitecturales et en extrapolant les correspondances, les auteurs parviennent à réduire drastiquement le temps de génération à moins de deux secondes.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Slice+Slice Baby: Generating Last-Level Cache Eviction Sets in the Blink of an Eye",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:smoothintegratedproofsofcryptographicconstanttimefornondeterministicprogramsandcompilers": {
+    "doi": "",
+    "publication_date": "2025-04-22",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 80,
+    "source": "http://arxiv.org/abs/2504.15550v1",
+    "summary": "Cet article présente une méthode de vérification formelle pour garantir le temps constant cryptographique et l'absence de fuite d'information pour des programmes non déterministes et des compilateurs. En s'appuyant sur l'omnisémantique et des assertions simples, les auteurs formalisent et prouvent l'exécution sans fuite de routines cryptographiques compilées de Bedrock2 C vers du code machine RISC-V, le tout formalisé dans l'assistant de preuve Coq.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Smooth, Integrated Proofs of Cryptographic Constant Time for Nondeterministic Programs and Compilers",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -5828,6 +5948,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "title:virtualmemoryforrealtimesystemsusinghpmp": {
+    "doi": "",
+    "publication_date": "2025-04-06",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2504.04498v1",
+    "summary": "Cette publication présente une extension de la proposition RISC-V SPMP (Physical Memory Protection) permettant d'activer la redirection d'adresses pour certaines régions ciblées tout en préservant le comportement totalement déterministe d'une unité de protection mémoire. L'objectif est de répondre aux exigences de sécurité et de sûreté du domaine automobile en combinant les avantages d'une gestion de mémoire virtuelle et le déterminisme des systèmes temps réel.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Virtual memory for real-time systems using hPMP",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:yavinaunifiedarchitectureforsecureedgeprocessinginmemory": {
     "publication_date": "2026-08-13",
