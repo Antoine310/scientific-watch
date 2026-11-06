@@ -1034,6 +1034,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/iscas56072.2025.11044308": {
+    "doi": "https://doi.org/10.1109/iscas56072.2025.11044308",
+    "publication_date": "2025-05-25",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-05-25",
+    "publication_type": "conference",
+    "publication_venue": "2025 IEEE International Symposium on Circuits and Systems (ISCAS)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/iscas56072.2025.11044308",
+    "summary": "Cet article présente la conception et l'implémentation d'une protection de mémoire physique (PMP) asynchrone pour l'architecture RISC-V, visant à fournir un support matériel pour les environnements d'exécution de confiance (TEE). L'architecture gère plusieurs modes de privilège et offre une granularité et une configurabilité élevées. Les tests valident le fonctionnement correct et l'évaluation dans un processus de 110 nm montre une surface de 0.47 mm² pour une consommation de 3.6829 mW.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "Asynchronous Architecture Design and Implementation of Physical Memory Protection for RISC-V",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/isdfs69419.2026.11459082": {
     "publication_date": "2026-03-19",
     "publication_type": "conference",
@@ -2278,6 +2298,26 @@
     "venue_landmark": "ACM CCS",
     "venue_note": "",
     "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3719276.3725172": {
+    "doi": "https://doi.org/10.1145/3719276.3725172",
+    "publication_date": "2025-05-28",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2025-05-28",
+    "publication_type": "conference",
+    "publication_venue": "CF '25: 22nd ACM International Conference on Computing Frontiers",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3719276.3725172",
+    "summary": "Cet article présente CVA6-VMRT, une extension du processeur RISC-V open-source CVA6 visant à améliorer la prédictibilité temporelle et la gestion de la mémoire virtuelle dans les SoC hétérogènes. La solution intègre des TLB partitionnées dynamiquement et une mémoire hybride L1 cache/scratchpad pour garantir des temps d'accès déterministes pour les tâches critiques.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "CVA6-VMRT: A Modular Approach Towards Time-Predictable Virtual Memory in a 64-bit Application Class RISC-V Processor",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
   "doi:10.1145/3719276.3725176": {

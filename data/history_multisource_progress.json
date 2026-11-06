@@ -1,8 +1,8 @@
 {
-  "accepted": 141,
+  "accepted": 143,
   "completed": false,
-  "cursor": "MTc1MTMwNTAwNDAwMCwxMC4xMTA5JTJGYXBlbWM2Mjk1OC4yMDI1LjExMDUxODcx",
-  "evaluated": 2902,
+  "cursor": "MTc2NDc4NzExMDAwMCwxMC4xMTA5JTJGaWNiYXRzNjY1NDIuMjAyNS4xMTI1ODA5Nw==",
+  "evaluated": 2927,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -207,9 +207,9 @@
   ],
   "month": "2025-05",
   "needs_publish": false,
-  "offset": 280,
-  "pages_done": 2791,
-  "pages_in_query": 7,
+  "offset": 440,
+  "pages_done": 2795,
+  "pages_in_query": 11,
   "pending": [
     {
       "paper": {
@@ -217,307 +217,22 @@
         "authorships": [
           {
             "author": {
-              "display_name": "Haoyang Huang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jilin Zhang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Dexuan Huo"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Qibang Sun"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Woogeun Rhee"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Hong Chen"
+              "display_name": "Zihang Li"
             }
           }
         ],
-        "doi": "https://doi.org/10.1109/iscas56072.2025.11043907",
-        "id": "https://doi.org/10.1109/iscas56072.2025.11043907",
+        "doi": "https://doi.org/10.1109/icbats66542.2025.11258097",
+        "id": "https://doi.org/10.1109/icbats66542.2025.11258097",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/iscas56072.2025.11043907"
+          "landing_page_url": "https://doi.org/10.1109/icbats66542.2025.11258097"
         },
-        "publication_date": "2025-05-25",
+        "publication_date": "2025-05-01",
         "publication_date_note": "",
         "publication_date_precision": "day",
-        "publication_date_source": "2025-05-25",
+        "publication_date_source": "2025-05-01",
         "publication_type": "conference",
-        "publication_venue": "2025 IEEE International Symposium on Circuits and Systems (ISCAS)",
-        "title": "An Asynchronous RISC-V Processor Utilizing a Chisel-Based Desynchronization Flow",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T10 — RISC-V SoC & FPGA"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Sharjeel Imtiaz"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Uljana Reinsalu"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Tara Ghasempouri"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/iscas56072.2025.11043977",
-        "id": "https://doi.org/10.1109/iscas56072.2025.11043977",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/iscas56072.2025.11043977"
-        },
-        "publication_date": "2025-05-25",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-05-25",
-        "publication_type": "conference",
-        "publication_venue": "2025 IEEE International Symposium on Circuits and Systems (ISCAS)",
-        "title": "Translating Common Security Assertions Across Processor Designs: A RISC-V Case Study",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T10 — RISC-V SoC & FPGA"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Mitul Sudhirkumar Nagar"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Pinalkumar Engineer"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/iscas56072.2025.11044109",
-        "id": "https://doi.org/10.1109/iscas56072.2025.11044109",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/iscas56072.2025.11044109"
-        },
-        "publication_date": "2025-05-25",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-05-25",
-        "publication_type": "conference",
-        "publication_venue": "2025 IEEE International Symposium on Circuits and Systems (ISCAS)",
-        "title": "Energy-efficient Non-Neural Face Recognition on the Multi-core RISC-V System",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T10 — RISC-V SoC & FPGA"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "David Simpson"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jim Harkin"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Malachy McElholm"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Liam McDaid"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/iscas56072.2025.11044164",
-        "id": "https://doi.org/10.1109/iscas56072.2025.11044164",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/iscas56072.2025.11044164"
-        },
-        "publication_date": "2025-05-25",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-05-25",
-        "publication_type": "conference",
-        "publication_venue": "2025 IEEE International Symposium on Circuits and Systems (ISCAS)",
-        "title": "Live Demonstration: Smart Watchdog Mechanism for Real-time Fault Detection in RISC-V",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T10 — RISC-V SoC & FPGA"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Yuanyang Xiang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Chen Xu"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Yueyue Wang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Weiying Wang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Qingchen Zhai"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Kunyu Zong"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ruozhou Xiao"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Zhiwei Zhang"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/iscas56072.2025.11044187",
-        "id": "https://doi.org/10.1109/iscas56072.2025.11044187",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/iscas56072.2025.11044187"
-        },
-        "publication_date": "2025-05-25",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-05-25",
-        "publication_type": "conference",
-        "publication_venue": "2025 IEEE International Symposium on Circuits and Systems (ISCAS)",
-        "title": "A Lightweight RISC-V Multi-Core Interaction Framework For Embedded Real-Time Applications",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T10 — RISC-V SoC & FPGA"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Anping He"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Yunpeng Xing"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jingye Zhong"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Weimin Wang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Yinglong Li"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jun Ma"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/iscas56072.2025.11044308",
-        "id": "https://doi.org/10.1109/iscas56072.2025.11044308",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/iscas56072.2025.11044308"
-        },
-        "publication_date": "2025-05-25",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-05-25",
-        "publication_type": "conference",
-        "publication_venue": "2025 IEEE International Symposium on Circuits and Systems (ISCAS)",
-        "title": "Asynchronous Architecture Design and Implementation of Physical Memory Protection for RISC-V",
+        "publication_venue": "2025 3rd International Conference on Business Analytics for Technology and Security (ICBATS)",
+        "title": "Low-Power Implementation of DSP Instruction Set Extension and Audio Signal Denoising Algorithm in Embedded RISC-V System",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -2934,9 +2649,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 901,
+  "prefilter_review_overflow": 904,
   "query_index": 23,
   "secondary": 169,
-  "skipped": 2872,
+  "skipped": 2899,
   "version": 1
 }
