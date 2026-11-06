@@ -1902,6 +1902,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3607199.3607248": {
+    "doi": "https://doi.org/10.1145/3607199.3607248",
+    "publication_date": "2023-10-03",
+    "publication_type": "conference",
+    "publication_venue": "International Symposium on Research in Attacks, Intrusions and Defenses (RAID)",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3607199.3607248",
+    "summary": "Cet article traite des attaques par exécution spéculative et des vulnérabilités liées au partage des ressources microarchitecturales sur les cœurs de processeur. Il critique l'inefficacité et le coût des atténuations spécifiques (spot mitigations) proposées par les fabricants depuis 2018 face aux attaques de type Spectre et Meltdown, et souligne qu'elles ne résolvent pas le problème fondamental de la cohabitation de différents domaines de sécurité sur un même cœur physique.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Quarantine: Mitigating Transient Execution Attacks with Physical Domain Isolation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3623652.3623668": {
     "doi": "https://doi.org/10.1145/3623652.3623668",
     "publication_date": "2023-10-27",
