@@ -2408,6 +2408,14 @@
       "title": "Physical design of a 32-bit RISC-V based microprocessor: A proof of concept for chaotic systems implementation",
       "updated_at": "2026-11-03T08:42:34.461346+00:00"
     },
+    "doi:10.1016/j.cose.2023.103180": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "A survey on the (in)security of trusted execution environments",
+      "updated_at": "2026-11-07T05:15:56.027764+00:00"
+    },
     "doi:10.1016/j.cose.2024.103905": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -9968,6 +9976,22 @@
       "title": "Enabling Efficient Vectorization in Particle-In-Cell Monte Carlo Simulations on X86 and RISC-V",
       "updated_at": "2026-11-02T21:18:00.428425+00:00"
     },
+    "doi:10.1109/isqed57927.2023.10129319": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A True Random Number Generator for Probabilistic Computing using Stochastic Magnetic Actuated Random Transducer Devices",
+      "updated_at": "2026-11-07T05:15:15.272247+00:00"
+    },
+    "doi:10.1109/isqed57927.2023.10129363": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "ACPC: Covert Channel Attack on Last Level Cache using Dynamic Cache Partitioning",
+      "updated_at": "2026-11-07T05:14:46.549701+00:00"
+    },
     "doi:10.1109/isqed65160.2025.11014305": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -15416,6 +15440,14 @@
       "title": "A High-Bandwidth Multi-Stream SIMD RISC-V Quad-Core Processor Based on an Asynchronous Ring Architecture",
       "updated_at": "2026-11-03T14:30:45.908299+00:00"
     },
+    "doi:10.1109/vts56346.2023.10140057": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Special Session: Security Verification & Testing for SR-Latch TRNGs",
+      "updated_at": "2026-11-07T05:15:15.272242+00:00"
+    },
     "doi:10.1109/vts65138.2025.11022839": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -16015,6 +16047,14 @@
       "status": "rejected",
       "title": "SCRAMBLE-CFI: Mitigating Fault-Induced Control-Flow Attacks on OpenTitan",
       "updated_at": "2026-11-06T23:13:44.360633+00:00"
+    },
+    "doi:10.1145/3591464": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Physical Unclonable Functions (PUF) for IoT Devices",
+      "updated_at": "2026-11-07T05:15:03.806867+00:00"
     },
     "doi:10.1145/3592607": {
       "category": "secondaire_technique",
@@ -20824,6 +20864,14 @@
       "title": "Wenquxing 22: A Highly Efficient Neuromorphic Accelerator by RISC-V Customized Instruction Extension for Spiking Neural Network (RV-SNN 1.0), Streamlined LIF Model and Binary Stochastic STDP",
       "updated_at": "2026-11-03T16:10:31.100894+00:00"
     },
+    "doi:10.23919/date56975.2023.10136972": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Securing a RISC-V architecture: A dynamic approach",
+      "updated_at": "2026-11-07T05:14:54.305719+00:00"
+    },
     "doi:10.23919/date58400.2024.10546539": {
       "category": "coeur",
       "decision": "conserver",
@@ -23520,6 +23568,22 @@
       "title": "Adversarial Attack Resilient ML-Assisted Golden Free Approach for Hardware Trojan Detection",
       "updated_at": "2026-11-03T19:07:11.929089+00:00"
     },
+    "doi:10.3390/s23084070": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "On-Line Evaluation and Monitoring of Security Features of an RO-Based PUF/TRNG for IoT Devices",
+      "updated_at": "2026-11-07T05:15:15.272223+00:00"
+    },
+    "doi:10.3390/s23084082": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Octopus: A Novel Approach for Health Data Masking and Retrieving Using Physical Unclonable Functions and Machine Learning",
+      "updated_at": "2026-11-07T05:15:03.806886+00:00"
+    },
     "doi:10.3390/s23146307": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -25768,6 +25832,14 @@
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
     },
+    "doi:10.48550/arxiv.2304.08263": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Information Flow Coverage Metrics for Hardware Security Verification",
+      "updated_at": "2026-11-07T05:14:26.035602+00:00"
+    },
     "doi:10.48550/arxiv.2304.10268": {
       "category": "coeur",
       "decision": "conserver",
@@ -25775,6 +25847,14 @@
       "status": "imported",
       "title": "BackCache: Mitigating Contention-Based Cache Timing Attacks by Hiding Cache Line Evictions",
       "updated_at": "2026-11-07T02:14:36.424072+00:00"
+    },
+    "doi:10.48550/arxiv.2304.10877": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Timing the Transient Execution: A New Side-Channel Attack on Intel CPUs",
+      "updated_at": "2026-11-07T05:13:36.012065+00:00"
     },
     "doi:10.48550/arxiv.2306.01996": {
       "category": "coeur",
@@ -28239,6 +28319,14 @@
       "status": "imported",
       "title": "Mitigating spectre vulnerabilites in modern out-of-order cores",
       "updated_at": "2026-10-31T23:15:42.664080+00:00"
+    },
+    "doi:10.70675/6c564653z0f13z40cezbe6fze5cb91fcc8aa": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Sécurisation des accès aux périphériques et depuis les périphériques dans une architecture multicœur RISC-V utilisée pour la virtualisation",
+      "updated_at": "2026-11-07T05:15:36.967064+00:00"
     },
     "doi:10.70675/f42c1e00z90b4z449bzb2d8zc21d43dc9a3f": {
       "category": "coeur",

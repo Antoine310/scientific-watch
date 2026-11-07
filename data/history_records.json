@@ -158,6 +158,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1016/j.cose.2023.103180": {
+    "doi": "https://doi.org/10.1016/j.cose.2023.103180",
+    "publication_date": "2023-03-14",
+    "publication_type": "revue",
+    "publication_venue": "Computers & Security",
+    "score": 75,
+    "source": "https://doi.org/10.1016/j.cose.2023.103180",
+    "summary": "Cet article propose une étude approfondie et une catégorisation des vulnérabilités affectant les environnements d'exécution de confiance (TEE), en particulier ARM TrustZone. L'étude analyse les failles de conception à l'origine de ces attaques issues de la littérature, d'exploits publics et de bases de données, tout en présentant des contre-mesures efficaces et des défis ouverts pour la recherche.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "A survey on the (in)security of trusted execution environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1016/j.iot.2026.101885": {
     "publication_date": "2026-02-03",
     "publication_type": "revue",
@@ -1242,6 +1259,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/isqed57927.2023.10129363": {
+    "doi": "https://doi.org/10.1109/isqed57927.2023.10129363",
+    "publication_date": "2023-04-05",
+    "publication_type": "conference",
+    "publication_venue": "International Symposium on Quality Electronic Design (ISQED)",
+    "score": 90,
+    "source": "http://dx.doi.org/10.1109/isqed57927.2023.10129363",
+    "summary": "Cet article étudie la menace des attaques par canal caché (Covert Channel Attacks ou CCA) sur le cache de dernier niveau (LLC) dans les processeurs multicœurs. Alors que le partitionnement dynamique du cache est habituellement utilisé comme défense pour isoler les applications et empêcher les attaques de type Prime+Probe (P+P), les auteurs proposent une attaque modifiée capable de contourner cette protection et d'établir un canal caché malgré le partitionnement. Une contre-mesure est également discutée.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "ACPC: Covert Channel Attack on Last Level Cache using Dynamic Cache Partitioning",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/isqed69900.2026.11534738": {
     "doi": "https://doi.org/10.1109/isqed69900.2026.11534738",
@@ -4459,6 +4493,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.48550/arxiv.2304.08263": {
+    "doi": "https://doi.org/10.48550/arxiv.2304.08263",
+    "publication_date": "2023-04-12",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2304.08263",
+    "summary": "Cet article présente les graphes d'hyperflux, un modèle de sécurité matériel au niveau RTL (Register-Transfer Level) pour la vérification de la sécurité. Ces graphes modélisent les flux d'information et utilisent des attributs pour mesurer les chemins, conditions et taux de flux, permettant ainsi d'évaluer les vulnérabilités de confidentialité, d'intégrité et de disponibilité. L'approche est illustrée sur la racine de confiance matérielle OpenTitan sous différents modèles de menace.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Information Flow Coverage Metrics for Hardware Security Verification",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.48550/arxiv.2304.10268": {
     "doi": "https://doi.org/10.48550/arxiv.2304.10268",
     "publication_date": "2023-04-20",
@@ -4471,6 +4522,23 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "BackCache: Mitigating Contention-Based Cache Timing Attacks by Hiding Cache Line Evictions",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.48550/arxiv.2304.10877": {
+    "doi": "https://doi.org/10.48550/arxiv.2304.10877",
+    "publication_date": "2023-04-21",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2304.10877",
+    "summary": "Cette publication présente une nouvelle attaque par canal auxiliaire basée sur l'exécution spéculative (transient execution) sur les processeurs Intel. Les auteurs découvrent qu'une modification du registre EFLAGS lors de l'exécution spéculative affecte le temps d'exécution de l'instruction de saut conditionnel (Jcc) suivante. En mesurant ce temps, l'attaquant peut décoder des données secrètes sans utiliser le système de cache, contournant ainsi certaines méthodes de détection et d'atténuation. L'attaque a été implémentée avec succès, notamment combinée avec Meltdown sur certains processeurs Intel Core.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Timing the Transient Execution: A New Side-Channel Attack on Intel CPUs",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -5158,6 +5226,23 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Mitigating spectre vulnerabilites in modern out-of-order cores"
+  },
+  "doi:10.70675/6c564653z0f13z40cezbe6fze5cb91fcc8aa": {
+    "doi": "https://doi.org/10.70675/6c564653z0f13z40cezbe6fze5cb91fcc8aa",
+    "publication_date": "2023-03-15",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "https://doi.org/10.70675/6c564653z0f13z40cezbe6fze5cb91fcc8aa",
+    "summary": "Ce travail étudie la sécurité des architectures multicœurs RISC-V dédiées à la virtualisation, en se concentrant sur les interactions et l'isolation des périphériques. Face à la menace de composants non de confiance et d'attaques par canaux cachés, les auteurs proposent une nouvelle attaque exploitant les variations temporelles de la hiérarchie mémoire pour briser l'isolation entre périphériques via une IOMMU. Une contre-mesure microarchitecturale est ensuite introduite, évaluée par simulation et sur FPGA.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Sécurisation des accès aux périphériques et depuis les périphériques dans une architecture multicœur RISC-V utilisée pour la virtualisation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.70675/f42c1e00z90b4z449bzb2d8zc21d43dc9a3f": {
     "publication_date": "2025-12-05",
