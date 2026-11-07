@@ -752,6 +752,78 @@
       "title": "Improving the PUF’s Reliability",
       "updated_at": "2026-11-07T09:39:01.513259+00:00"
     },
+    "doi:10.1007/978-3-031-78676-1_22": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Subverting Cryptographic Hardware Used in Blockchain Consensus",
+      "updated_at": "2026-11-07T11:36:50.366761+00:00"
+    },
+    "doi:10.1007/978-3-031-81213-2": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hardware Security: Challenges and Solutions",
+      "updated_at": "2026-11-07T11:37:01.110144+00:00"
+    },
+    "doi:10.1007/978-3-031-81213-2_1": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Hardware Security in AI-Enabled Smart Vehicles: Key Components and Dynamics",
+      "updated_at": "2026-11-07T11:37:01.198753+00:00"
+    },
+    "doi:10.1007/978-3-031-81213-2_2": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Blockchain for Hardware Security and Trust",
+      "updated_at": "2026-11-07T11:37:01.241835+00:00"
+    },
+    "doi:10.1007/978-3-031-81213-2_3": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hardware-Assisted Security of Smart IoT Applications",
+      "updated_at": "2026-11-07T11:37:01.284939+00:00"
+    },
+    "doi:10.1007/978-3-031-81213-2_5": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Power Analysis Attack Resistant ASIC Implementation of AES Hardware Accelerator Based on Threshold Implementation",
+      "updated_at": "2026-11-07T11:37:01.154113+00:00"
+    },
+    "doi:10.1007/978-3-031-83093-8_3": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Processor Verification by Equivalent Program Execution",
+      "updated_at": "2026-11-07T11:37:07.440946+00:00"
+    },
+    "doi:10.1007/978-3-031-83093-8_4": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "A Formally Verified Microcoded RISC-V Platform",
+      "updated_at": "2026-11-07T11:37:07.395739+00:00"
+    },
+    "doi:10.1007/978-3-031-83093-8_6": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Programmable Analysis of RISC-V Processors Using WAL",
+      "updated_at": "2026-11-07T11:37:07.482733+00:00"
+    },
     "doi:10.1007/978-3-031-84100-2_5": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -759,6 +831,14 @@
       "status": "rejected",
       "title": "Exploring the New CV-X-IF Interface to Customize RISC-V Instruction Sets: A Case of Study in Cryptography",
       "updated_at": "2026-10-30T09:50:13.924552+00:00"
+    },
+    "doi:10.1007/978-3-031-85363-0_37": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "IoT Device Security Using PUF-Based Tags: A Lightweight Protocol for Preventing Hardware Substitution",
+      "updated_at": "2026-11-07T11:37:01.370132+00:00"
     },
     "doi:10.1007/978-3-031-89700-9_12": {
       "category": "hors_sujet",
@@ -1511,6 +1591,14 @@
       "status": "imported",
       "title": "Foundations of Hardware-Software Leakage Contracts",
       "updated_at": "2026-11-02T12:56:38.294340+00:00"
+    },
+    "doi:10.1007/978-981-96-2409-6_31": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A Configurable and Automated Testing Framework for Hardware Trojan Detection in FPGAs",
+      "updated_at": "2026-11-07T11:36:50.499612+00:00"
     },
     "doi:10.1007/978-981-96-2417-1_2": {
       "category": "secondaire",
@@ -5024,6 +5112,22 @@
       "title": "Breaking the mold: Overcoming the time constraints of molecular dynamics on general-purpose hardware",
       "updated_at": "2026-11-07T04:36:42.829241+00:00"
     },
+    "doi:10.1063/5.0253644": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Secure hardware and software codesign for IOT security",
+      "updated_at": "2026-11-07T11:36:50.584288+00:00"
+    },
+    "doi:10.1063/5.0258854": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Survey on hardware components providing information security",
+      "updated_at": "2026-11-07T11:37:01.327755+00:00"
+    },
     "doi:10.1063/5.0275293": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -5720,6 +5824,14 @@
       "title": "Unified Security Framework Using Device-Specific Fingerprint: Mitigating Hardware Trojans and Authenticating Firmware Updates",
       "updated_at": "2026-11-07T10:37:13.137998+00:00"
     },
+    "doi:10.1109/access.2025.3541931": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Comprehensive Review on the Exploitation of Advanced Memory Optimization Strategies to Improve Performance for Convolutional and Spiking Neural Networks in Medical Imaging Using Hardware Accelerators",
+      "updated_at": "2026-11-07T11:36:37.662831+00:00"
+    },
     "doi:10.1109/access.2025.3543000": {
       "category": "secondaire",
       "decision": "examiner",
@@ -5727,6 +5839,14 @@
       "status": "rejected",
       "title": "Reliability Assessment of Optical Physical Unclonable Functions Based on the Spatial Distribution of Catastrophic Failure Sites in MIM Structures",
       "updated_at": "2026-10-30T09:53:00.704975+00:00"
+    },
+    "doi:10.1109/access.2025.3546147": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "A Review of Lightweight IoT Authentication Protocols From the Perspective of Security Requirements, Computation, Communication, and Hardware Costs",
+      "updated_at": "2026-11-07T11:36:50.541858+00:00"
     },
     "doi:10.1109/access.2025.3596829": {
       "category": "coeur",
@@ -11856,6 +11976,14 @@
       "title": "Creating a Sustainable Future Workshop: Cultivating a Green and Resilient Environment in CAS and Reliability for Security in Hardware [CASS Regional Outreach]",
       "updated_at": "2026-11-07T10:37:13.269702+00:00"
     },
+    "doi:10.1109/mcas.2024.3509376": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Secure Machine Learning Hardware: Challenges and Progress [Feature]",
+      "updated_at": "2026-11-07T11:36:29.662590+00:00"
+    },
     "doi:10.1109/mcsoc60832.2023.00089": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -14888,6 +15016,14 @@
       "title": "Bringing Smart Contract Confidentiality via Trusted Hardware: Fact and Fiction",
       "updated_at": "2026-11-07T08:37:01.134027+00:00"
     },
+    "doi:10.1109/tifs.2025.3541442": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Low-Cost First-Order Secure Boolean Masking in Glitchy Hardware",
+      "updated_at": "2026-11-07T11:36:37.706153+00:00"
+    },
     "doi:10.1109/tifs.2025.3592573": {
       "category": "coeur",
       "decision": "conserver",
@@ -15839,6 +15975,14 @@
       "status": "rejected",
       "title": "Hardware Support for Statistical Methods Applied to Hardware-Software Verification and Debugging",
       "updated_at": "2026-11-02T15:15:30.015501+00:00"
+    },
+    "doi:10.1109/vlsid64188.2025.00037": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "SHAKTI: Securing Hardware IPs by Cascade Gated Multiplexer-Based Logic Obfuscation",
+      "updated_at": "2026-11-07T11:36:50.625637+00:00"
     },
     "doi:10.1109/vlsid68508.2026.00033": {
       "category": "coeur",
@@ -16856,6 +17000,22 @@
       "title": "Implementing Privacy Homomorphism with Random Encoding and Computation Controlled by a Remote Secure Server",
       "updated_at": "2026-11-07T08:37:26.450731+00:00"
     },
+    "doi:10.1145/3658617.3697745": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Towards Functional Safety of Neural Network Hardware Accelerators: Concurrent Out-of-Distribution Detection in Hardware Using Power Side-Channel Analysis",
+      "updated_at": "2026-11-07T11:37:01.066451+00:00"
+    },
+    "doi:10.1145/3658617.3697756": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "AssertLLM: Generating Hardware Verification Assertions from Design Specifications via Multi-LLMs",
+      "updated_at": "2026-11-07T11:37:00.957672+00:00"
+    },
     "doi:10.1145/3658617.3697763": {
       "category": "coeur",
       "decision": "conserver",
@@ -16863,6 +17023,22 @@
       "status": "imported",
       "title": "Dep-TEE: Decoupled Memory Protection for Secure and Scalable Inter-enclave Communication on RISC-V",
       "updated_at": "2026-10-30T09:42:58.124319+00:00"
+    },
+    "doi:10.1145/3658617.3697765": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Making Legacy Hardware Robust against Side Channel Attacks via High-Level Synthesis",
+      "updated_at": "2026-11-07T11:37:07.352799+00:00"
+    },
+    "doi:10.1145/3658617.3697774": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "RTLMarker: Protecting LLM-Generated RTL Copyright via a Hardware Watermarking Framework",
+      "updated_at": "2026-11-07T11:37:01.023579+00:00"
     },
     "doi:10.1145/3658644.3690203": {
       "category": "coeur",
@@ -21128,6 +21304,14 @@
       "title": "Implementation of Tomasulo Algorithm for Out-of-Order Execution of Risc-V Processor",
       "updated_at": "2026-11-03T11:51:30.192612+00:00"
     },
+    "doi:10.2139/ssrn.5153845": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "The national security case for secure AI hardware: A Heilmeier Catechism for FlexHEGs",
+      "updated_at": "2026-11-07T11:36:50.455485+00:00"
+    },
     "doi:10.2139/ssrn.6087791": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -22095,6 +22279,14 @@
       "status": "rejected",
       "title": "Design of Optimized Hardware Architecture for Discrete Cosine Transform using Loeffler’s Algorithm",
       "updated_at": "2026-11-03T21:27:51.591262+00:00"
+    },
+    "doi:10.24251/hicss.2025.361": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware-in-the-Loop Validation of Optimal Adaptive Protection for Utility Networked Microgrid Applications",
+      "updated_at": "2026-11-07T11:36:29.704779+00:00"
     },
     "doi:10.24425/ijet.2025.155477": {
       "category": "secondaire",
@@ -27455,6 +27647,14 @@
       "status": "imported",
       "title": "Cache Side-Channel Attacks Through Electromagnetic Emanations of DRAM Accesses",
       "updated_at": "2026-11-05T02:14:34.874110+00:00"
+    },
+    "doi:10.5220/0013091100003899": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Quantum-Resilient IoT: Integrating Hardware-Based Post-Quantum Cryptography for Robust Device Security",
+      "updated_at": "2026-11-07T11:36:50.412884+00:00"
     },
     "doi:10.5220/0013518800003979": {
       "category": "coeur",

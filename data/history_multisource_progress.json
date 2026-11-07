@@ -1,8 +1,8 @@
 {
   "accepted": 173,
   "completed": false,
-  "cursor": "MTczODkwMDc0NTAwMCwxMC4yNDI1MSUyRmhpY3NzLjIwMjUuMzYx",
-  "evaluated": 3356,
+  "cursor": "MTc0MTM5MTk2NDAwMCwxMC4xMDA3JTJGOTc4LTMtMDMxLTg0MTAwLTJfMjM=",
+  "evaluated": 3381,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -242,9 +242,9 @@
   ],
   "month": "2025-01",
   "needs_publish": false,
-  "offset": 280,
-  "pages_done": 3324,
-  "pages_in_query": 7,
+  "offset": 440,
+  "pages_done": 3328,
+  "pages_in_query": 11,
   "pending": [
     {
       "paper": {
@@ -252,111 +252,52 @@
         "authorships": [
           {
             "author": {
-              "display_name": "Kyungmi Lee"
+              "display_name": "Cinzia Bernardeschi"
             }
           },
           {
             "author": {
-              "display_name": "Maitreyi Ashok"
+              "display_name": "Nicasio Canino"
             }
           },
           {
             "author": {
-              "display_name": "Saurav Maji"
+              "display_name": "Gianluca Dini"
             }
           },
           {
             "author": {
-              "display_name": "Rashmi Agrawal"
+              "display_name": "Pierpaolo Dini"
             }
           },
           {
             "author": {
-              "display_name": "Ajay Joshi"
+              "display_name": "Daniele Rossi"
             }
           },
           {
             "author": {
-              "display_name": "Mengjia Yan"
+              "display_name": "Federico Rossi"
             }
           },
           {
             "author": {
-              "display_name": "Joel S. Emer"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Anantha P. Chandrakasan"
+              "display_name": "Sergio Saponara"
             }
           }
         ],
-        "doi": "https://doi.org/10.1109/mcas.2024.3509376",
-        "id": "https://doi.org/10.1109/mcas.2024.3509376",
+        "doi": "https://doi.org/10.1007/978-3-031-84100-2_52",
+        "id": "https://doi.org/10.1007/978-3-031-84100-2_52",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/mcas.2024.3509376"
+          "landing_page_url": "https://doi.org/10.1007/978-3-031-84100-2_52"
         },
-        "publication_date": "2025-01-01",
-        "publication_date_note": "Date source Crossref : 2025 seulement ; classement indicatif en 2025-01.",
-        "publication_date_precision": "year",
-        "publication_date_source": "2025",
-        "publication_type": "revue",
-        "publication_venue": "IEEE Circuits and Systems Magazine",
-        "title": "Secure Machine Learning Hardware: Challenges and Progress [Feature]",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Daniel Kelly"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Trupal Patel"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Adam Summers"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ronald Matthews"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Matt Reno"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.24251/hicss.2025.361",
-        "id": "https://doi.org/10.24251/hicss.2025.361",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.24251/hicss.2025.361"
-        },
-        "publication_date": "2025-01-01",
-        "publication_date_note": "Date source Crossref : 2025 seulement ; classement indicatif en 2025-01.",
-        "publication_date_precision": "year",
-        "publication_date_source": "2025",
-        "publication_type": "conference",
-        "publication_venue": "Hawaii International Conference on System Sciences",
-        "title": "Hardware-in-the-Loop Validation of Optimal Adaptive Protection for Utility Networked Microgrid Applications",
+        "publication_date": "2025-03-08",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-03-08",
+        "publication_type": "inconnu",
+        "publication_venue": "Lecture Notes in Electrical Engineering",
+        "title": "HARDNESS: Hardware-Supported Post Quantum Over-the-Air Software Update and Intrusion Detection System for Next Generation Secure Cars",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -2773,7 +2714,7 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1088,
+  "prefilter_review_overflow": 1089,
   "query_index": 17,
   "secondary": 189,
   "skipped": 3334,
