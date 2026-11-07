@@ -1452,6 +1452,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/les.2024.3354831": {
+    "doi": "https://doi.org/10.1109/les.2024.3354831",
+    "publication_date": "2024-12-01",
+    "publication_date_note": "Date source Crossref : 2024-12 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2024-12",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Embedded Systems Letters",
+    "score": 90,
+    "source": "https://doi.org/10.1109/les.2024.3354831",
+    "summary": "Cet article propose ProMiSE, un moniteur matériel programmable pour l'exécution sécurisée dans les réseaux Zero Trust (ZTA). Il calcule un score de confiance en ligne et infalsifiable en suivant en temps réel les signaux micro-architecturaux du processeur via un co-processeur de sécurité isolé. Le système est évalué sur un processeur RISC-V open-source face à divers vecteurs de menaces (ransomware, attaques RoP, attaques par canaux cachés) et déployé sur FPGA AMD Artix 7AC701 pour mesurer les surcoûts en surface.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "ProMiSE: A Programmable Hardware Monitor for Secure Execution in Zero Trust Networks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/mdat.2025.3530150": {
     "doi": "https://doi.org/10.1109/mdat.2025.3530150",
     "publication_date": "2025-06-01",
