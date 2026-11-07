@@ -191,6 +191,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1049/ise2.12113": {
+    "doi": "https://doi.org/10.1049/ise2.12113",
+    "publication_date": "2023-03-14",
+    "publication_type": "revue",
+    "publication_venue": "IET Information Security",
+    "score": 90,
+    "source": "https://doi.org/10.1049/ise2.12113",
+    "summary": "Ce papier propose un schéma d'attestation à distance assisté par matériel pour les systèmes embarqués critiques. Il vise à surmonter les limites des approches traditionnelles qui mesurent uniquement la mémoire statique et souffrent de fenêtres temporelles vulnérables (problème TOCTOU). L'approche utilise un module de sécurité matériel (HSM) novateur connecté au bus système pour surveiller en temps réel la mémoire statique et dynamique, en vérifiant la conformité des données par rapport à un modèle d'intégrité d'exécution (RIM).",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Hardware‐assisted remote attestation design for critical embedded systems",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1051/jnwpu/20264420417": {
     "publication_date": "2026-04-01",
     "publication_type": "revue",
@@ -4492,6 +4509,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2303.16282": {
+    "doi": "https://doi.org/10.48550/arxiv.2303.16282",
+    "publication_date": "2023-03-28",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2303.16282",
+    "summary": "Cet article présente ACFA, une architecture hybride (matérielle et logicielle) pour l'attestation active du flux de contrôle (Active Control Flow Attestation) sur des microcontrôleurs bas de gamme. ACFA permet une surveillance continue des transferts de flux de contrôle sans nécessrer d'instrumentation binaire, tout en offrant des mécanismes d'audit et de remédiation sécurisée.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "ACFA: Secure Runtime Auditing & Guaranteed Device Healing via Active Control Flow Attestation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2304.08263": {
     "doi": "https://doi.org/10.48550/arxiv.2304.08263",
