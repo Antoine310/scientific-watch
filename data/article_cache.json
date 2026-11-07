@@ -616,6 +616,38 @@
       "title": "Hardware Security Module",
       "updated_at": "2026-11-07T10:36:44.569615+00:00"
     },
+    "doi:10.1007/978-3-031-29497-6_3": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A CCFI Verification Scheme Based on the RISC-V Trace Encoder",
+      "updated_at": "2026-11-07T14:14:25.691897+00:00"
+    },
+    "doi:10.1007/978-3-031-33386-6_18": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Trusted Execution Environment",
+      "updated_at": "2026-11-07T14:14:15.985298+00:00"
+    },
+    "doi:10.1007/978-3-031-35504-2_1": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "MAMBO–V: Dynamic Side-Channel Leakage Analysis on RISC–V",
+      "updated_at": "2026-11-07T14:14:46.190376+00:00"
+    },
+    "doi:10.1007/978-3-031-39828-5_17": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "T3E: A Practical Solution to Trusted Time in Secure Enclaves",
+      "updated_at": "2026-11-07T14:13:57.779952+00:00"
+    },
     "doi:10.1007/978-3-031-48121-5_13": {
       "category": "secondaire",
       "decision": "examiner",
@@ -623,6 +655,14 @@
       "status": "rejected",
       "title": "A PUF-Based Secure Boot for RISC-V Architectures",
       "updated_at": "2026-11-05T02:13:33.382196+00:00"
+    },
+    "doi:10.1007/978-3-031-49187-0_13": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "TC4SE: A High-Performance Trusted Channel Mechanism for Secure Enclave-Based Trusted Execution Environments",
+      "updated_at": "2026-11-07T14:13:36.011035+00:00"
     },
     "doi:10.1007/978-3-031-54409-5_10": {
       "category": "hors_sujet",
@@ -2760,6 +2800,14 @@
       "title": "Physical design of a 32-bit RISC-V based microprocessor: A proof of concept for chaotic systems implementation",
       "updated_at": "2026-11-03T08:42:34.461346+00:00"
     },
+    "doi:10.1016/j.cose.2023.103095": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Design and implementation of trusted boot based on a new trusted computing dual-architecture",
+      "updated_at": "2026-11-07T14:13:36.011015+00:00"
+    },
     "doi:10.1016/j.cose.2023.103180": {
       "category": "coeur",
       "decision": "examiner",
@@ -2999,6 +3047,14 @@
       "status": "rejected",
       "title": "Coca is gone: Evaluating the unintended consequences of crop eradication on educational outcomes in a former cocaine enclave in the Upper Peruvian Amazon",
       "updated_at": "2026-11-03T08:42:21.716474+00:00"
+    },
+    "doi:10.1016/j.dsp.2023.103969": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "FPGA modeling of a novel fully-synthesizable and secure TRNG based on key-dependent s-box",
+      "updated_at": "2026-11-07T14:13:27.269381+00:00"
     },
     "doi:10.1016/j.dsp.2026.106008": {
       "category": "hors_sujet",
@@ -5807,6 +5863,30 @@
       "status": "rejected",
       "title": "BIONIC: A 64-Core SNN/RISC-V Reconfigurable Processor with Hybrid On-Chip Learning Achieving 0.62 pJ/SOP and >99% Core Utilization",
       "updated_at": "2026-11-04T13:24:37.769357+00:00"
+    },
+    "doi:10.1109/access.2023.3246491": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "RISC-V Instruction Set Architecture Extensions: A Survey",
+      "updated_at": "2026-11-07T14:13:57.779654+00:00"
+    },
+    "doi:10.1109/access.2023.3275757": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Microarchitectural Side-Channel Threats, Weaknesses and Mitigations: A Systematic Mapping Study",
+      "updated_at": "2026-11-07T14:14:08.312235+00:00"
+    },
+    "doi:10.1109/access.2023.3340680": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "MicroCFI: Microarchitecture-Level Control-Flow Restrictions for Spectre Mitigation",
+      "updated_at": "2026-11-07T14:14:59.535836+00:00"
     },
     "doi:10.1109/access.2024.3352114": {
       "category": "secondaire_technique",
@@ -8975,6 +9055,14 @@
       "status": "rejected",
       "title": "A Multidimensional Taxonomy of Hardware Security Threats and Countermeasures for Resource-Constrained IoT Embedded Devices",
       "updated_at": "2026-11-02T20:56:55.983109+00:00"
+    },
+    "doi:10.1109/icecct56650.2023.10179671": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "FPGA Implementation of High Speed 64-Bit Data Width True Random Number Generator using Clock Managers With Metastability",
+      "updated_at": "2026-11-07T14:13:27.269387+00:00"
     },
     "doi:10.1109/icecet65726.2026.11632716": {
       "category": "hors_sujet",
@@ -16696,6 +16784,14 @@
       "title": "Hybrid Graph–Behavioral Predictive Framework for Trust-Aware and Secure Recommendation Systems",
       "updated_at": "2026-11-02T13:42:12.438846+00:00"
     },
+    "doi:10.1142/s021947752350027x": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Random Telegraph Noise-Based True Random Number Generator for Fully Integrated Systems",
+      "updated_at": "2026-11-07T14:13:27.269392+00:00"
+    },
     "doi:10.1142/s0219581x26400284": {
       "category": "secondaire",
       "decision": "examiner",
@@ -16759,6 +16855,14 @@
       "status": "imported",
       "title": "A RISC-V Extension to Minimize Privileges of Enclave Runtimes",
       "updated_at": "2026-11-06T23:14:15.826135+00:00"
+    },
+    "doi:10.1145/3579092": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Post-Quantum Signatures on RISC-V with Hardware Acceleration",
+      "updated_at": "2026-11-07T14:13:45.680645+00:00"
     },
     "doi:10.1145/3579371.3589070": {
       "category": "coeur",
@@ -24480,6 +24584,14 @@
       "title": "Learning to Route On-Chip: A Survey of Machine Learning-Based Routing in Networks-on-Chip and Its Hardware Overheads",
       "updated_at": "2026-11-02T16:51:20.709326+00:00"
     },
+    "doi:10.3390/math11041049": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Non-Identical Inverter Rings as an Entropy Source: NIST-90B-Verified TRNG Architecture on FPGAs for IoT Device Integrity",
+      "updated_at": "2026-11-07T14:13:27.269356+00:00"
+    },
     "doi:10.3390/math12010077": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -24527,6 +24639,14 @@
       "status": "rejected",
       "title": "Adversarial Attack Resilient ML-Assisted Golden Free Approach for Hardware Trojan Detection",
       "updated_at": "2026-11-03T19:07:11.929089+00:00"
+    },
+    "doi:10.3390/nano13040675": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hardware-Intrinsic Physical Unclonable Functions by Harnessing Nonlinear Conductance Variation in Oxide Semiconductor-Based Diode",
+      "updated_at": "2026-11-07T14:13:27.269396+00:00"
     },
     "doi:10.3390/s23084070": {
       "category": "secondaire",
@@ -27744,6 +27864,22 @@
       "title": "Post-harvest Management for Sustainable Food Security",
       "updated_at": "2026-11-06T03:38:50.948934+00:00"
     },
+    "doi:10.5220/0011611900003405": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Towards a Rust SDK for Keystone Enclave Application Development",
+      "updated_at": "2026-11-07T14:14:15.985234+00:00"
+    },
+    "doi:10.5220/0012264400003584": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Cache Side-Channel Attacks Against Black-Box Image Processing Software",
+      "updated_at": "2026-11-07T14:15:05.809982+00:00"
+    },
     "doi:10.5220/0012813200003767": {
       "category": "coeur",
       "decision": "conserver",
@@ -30360,6 +30496,14 @@
       "title": "Companion Assisted Software Based Remote Attestation in SCADA Networks",
       "updated_at": "2026-11-05T23:16:26.844062+00:00"
     },
+    "title:comparisonofcachereplacementalgorithmsforriscv": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Comparison of Cache Replacement Algorithms for RISC-V",
+      "updated_at": "2026-11-07T14:13:57.779943+00:00"
+    },
     "title:compositionlawofconjugateobservablesinrandompermutationsortingsystems": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -32735,6 +32879,14 @@
       "status": "imported",
       "title": "SNPeek: Side-Channel Analysis for Privacy Applications on Confidential VMs",
       "updated_at": "2026-11-05T05:55:38.240308+00:00"
+    },
+    "title:softwarerootoftrustforagnssreceiver": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 62,
+      "status": "rejected",
+      "title": "Software Root Of Trust For A GNSS Receiver",
+      "updated_at": "2026-11-07T14:14:36.130416+00:00"
     },
     "title:sokacloudyviewontrustrelationshipsofcvmshowconfidentialvirtualmachinesarefallingshortinpubliccloud": {
       "category": "coeur",

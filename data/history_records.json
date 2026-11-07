@@ -224,6 +224,40 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/access.2023.3275757": {
+    "doi": "https://doi.org/10.1109/access.2023.3275757",
+    "publication_date": "2023-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Access",
+    "score": 75,
+    "source": "https://doi.org/10.1109/access.2023.3275757",
+    "summary": "Cette étude est une cartographie systématique (systematic mapping study) de la littérature académique concernant les attaques par canal auxiliaire microarchitecturales. En analysant 104 travaux primaires, les auteurs examnent les origines des artéfacts, l'efficacité des contre-mesures et proposent un schéma de classification pour orienter les recherches futures.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Microarchitectural Side-Channel Threats, Weaknesses and Mitigations: A Systematic Mapping Study",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/access.2023.3340680": {
+    "doi": "https://doi.org/10.1109/access.2023.3340680",
+    "publication_date": "2023-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Access",
+    "score": 85,
+    "source": "https://doi.org/10.1109/access.2023.3340680",
+    "summary": "MicroCFI est une approche de co-design matériel/logiciel visant à atténuer les variantes d'attaques Spectre ciblant la spéculation d'exécution, en particulier Spectre-BTB et Spectre-RSB. En appliquant une intégrité du flux de contrôle (CFI) au niveau microarchitectural, la méthode restreint les cibles des branchements indirects prédites par le BTB et le RSB afin de réduire drastiquement l'exécution de code arbitraire en mode transitoire. L'évaluation montre une réduction de plus de 90% des gadgets Spectre avec un surcoût de performance négligeable.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "MicroCFI: Microarchitecture-Level Control-Flow Restrictions for Spectre Mitigation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/access.2024.3399601": {
     "doi": "https://doi.org/10.1109/access.2024.3399601",
     "publication_date": "2024-01-01",
