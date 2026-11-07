@@ -3492,6 +3492,23 @@
     "venue_priority": 2,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1587/elex.20.20220477": {
+    "doi": "https://doi.org/10.1587/elex.20.20220477",
+    "publication_date": "2023-02-05",
+    "publication_type": "revue",
+    "publication_venue": "IEICE Electronics Express",
+    "score": 75,
+    "source": "http://dx.doi.org/10.1587/elex.20.20220477",
+    "summary": "Cette publication propose une architecture de guidage de partitionnement de cache sécurisée pour les mémoires non-volatiles afin de contrer les attaques par canal temporel sur le cache. En prenant en compte le nombre d'écritures et en évitant l'éviction de lignes de cache, la méthode améliore la durée de vie et réduit la pénalité de nettoyage du cache.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "A method of defense against cache timing attack in non-volatile memory",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1587/transfun.2025cip0027": {
     "doi": "https://doi.org/10.1587/transfun.2025cip0027",
     "publication_date": "2026-03-01",
@@ -4509,6 +4526,57 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2302.00732": {
+    "doi": "https://doi.org/10.48550/arxiv.2302.00732",
+    "publication_date": "2023-02-01",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2302.00732",
+    "summary": "Cet article propose une nouvelle méthodologie et un cadre pour concevoir des sous-systèmes de cache résistants à la fois aux attaques temporelles par canal auxiliaire non spéculatives et aux attaques par exécution spéculative. Les auteurs présentent deux architectures de cache sécurisées, STAR-FARR et STAR-NEWS, avec de faibles surcoûts de performance.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Protecting Cache States Against Both Speculative Execution Attacks and Side-channel Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.48550/arxiv.2302.09544": {
+    "doi": "https://doi.org/10.48550/arxiv.2302.09544",
+    "publication_date": "2023-02-19",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 80,
+    "source": "http://arxiv.org/abs/2302.09544",
+    "summary": "Cette étude évalue de manière approfondie les vulnérabilités microarchitecturales, notamment Spectre et SpectreRSB, sur des processeurs ARM. Les auteurs implémentent ces attaques pour analyser l'impact des différents designs microarchitecturaux d'ARM et introduisent un canal caché basé sur la structure RSB offrant un débit élevé de 94,19 Ko/s avec un taux d'erreur négligeable.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Comprehensive Evaluation of RSB and Spectre Vulnerability on Modern Processors",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.48550/arxiv.2303.00122": {
+    "doi": "https://doi.org/10.48550/arxiv.2303.00122",
+    "publication_date": "2023-02-28",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 80,
+    "source": "http://arxiv.org/abs/2303.00122",
+    "summary": "Cet article étudie l'optimisation et l'amplification des attaques par canaux cachés sur les caches en introduisant de nouveaux gadgets basés sur la spéculation du processeur pour modifier les signaux avant leur lecture, permettant d'évaluer des fonctions logiques et de s'affranchir de minuteurs haute précision.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Optimization and Amplification of Cache Side Channel Signals",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2303.16282": {
     "doi": "https://doi.org/10.48550/arxiv.2303.16282",
