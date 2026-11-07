@@ -2724,6 +2724,27 @@
     "venue_priority": 2,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3658644.3690247": {
+    "doi": "https://doi.org/10.1145/3658644.3690247",
+    "publication_date": "2024-12-02",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-12-02",
+    "publication_type": "conference",
+    "publication_venue": "CCS '24: ACM SIGSAC Conference on Computer and Communications Security",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3658644.3690247",
+    "summary": "Interstellar propose un matériel de surveillance de la sécurité entièrement partitionné, placé à proximité du cœur du processeur, pour protéger les systèmes contre les attaques visant les logiciels privilégiés (comme les TEE) en s'affranchissant de la dépendance envers ces derniers.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves",
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Interstellar: Fully Partitioned and Efficient Security Monitoring Hardware Near a Processor Core for Protecting Systems against Attacks on Privileged Software",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3663673": {
     "doi": "https://doi.org/10.1145/3663673",
     "publication_date": "2024-05-11",
