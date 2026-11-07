@@ -1,8 +1,8 @@
 {
-  "accepted": 173,
+  "accepted": 174,
   "completed": false,
-  "cursor": "MTc0MTM5MTk2NDAwMCwxMC4xMDA3JTJGOTc4LTMtMDMxLTg0MTAwLTJfMjM=",
-  "evaluated": 3381,
+  "cursor": "*",
+  "evaluated": 3388,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -238,79 +238,17 @@
     "monthly/2025-01/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2025-01/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2025-01/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2025-01/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2025-01/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-01/query-17 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-01/query-18 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-01/query-19 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2025-01",
   "needs_publish": false,
-  "offset": 440,
-  "pages_done": 3328,
-  "pages_in_query": 11,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Cinzia Bernardeschi"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Nicasio Canino"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Gianluca Dini"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Pierpaolo Dini"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Daniele Rossi"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Federico Rossi"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Sergio Saponara"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1007/978-3-031-84100-2_52",
-        "id": "https://doi.org/10.1007/978-3-031-84100-2_52",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1007/978-3-031-84100-2_52"
-        },
-        "publication_date": "2025-03-08",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-03-08",
-        "publication_type": "inconnu",
-        "publication_venue": "Lecture Notes in Electrical Engineering",
-        "title": "HARDNESS: Hardware-Supported Post Quantum Over-the-Air Software Update and Intrusion Detection System for Next Generation Secure Cars",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    }
-  ],
+  "offset": 0,
+  "pages_done": 3353,
+  "pages_in_query": 0,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2714,9 +2652,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1089,
-  "query_index": 17,
+  "prefilter_review_overflow": 1091,
+  "query_index": 20,
   "secondary": 189,
-  "skipped": 3334,
+  "skipped": 3340,
   "version": 1
 }
