@@ -1,8 +1,8 @@
 {
   "accepted": 173,
   "completed": false,
-  "cursor": "MTczNjg2NjkxOTAwMCwxMC4xMTA5JTJGYWNjZXNzLjIwMjUuMzUyOTcwMg==",
-  "evaluated": 3331,
+  "cursor": "MTczODkwMDc0NTAwMCwxMC4yNDI1MSUyRmhpY3NzLjIwMjUuMzYx",
+  "evaluated": 3356,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -242,144 +242,67 @@
   ],
   "month": "2025-01",
   "needs_publish": false,
-  "offset": 160,
-  "pages_done": 3321,
-  "pages_in_query": 4,
+  "offset": 280,
+  "pages_done": 3324,
+  "pages_in_query": 7,
   "pending": [
     {
       "paper": {
         "abstract_inverted_index": {},
-        "authorships": [],
-        "doi": "https://doi.org/10.1007/978-3-030-71522-9_300430",
-        "id": "https://doi.org/10.1007/978-3-030-71522-9_300430",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1007/978-3-030-71522-9_300430"
-        },
-        "publication_date": "2025-05-10",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-05-10",
-        "publication_type": "inconnu",
-        "publication_venue": "Encyclopedia of Cryptography, Security and Privacy",
-        "title": "Hardware Implementation Explorations of Post-quantum Cryptographic Primitives",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [],
-        "doi": "https://doi.org/10.1007/978-3-030-71522-9_300431",
-        "id": "https://doi.org/10.1007/978-3-030-71522-9_300431",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1007/978-3-030-71522-9_300431"
-        },
-        "publication_date": "2025-05-10",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-05-10",
-        "publication_type": "inconnu",
-        "publication_venue": "Encyclopedia of Cryptography, Security and Privacy",
-        "title": "Hardware Intellectual Property Protection",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [],
-        "doi": "https://doi.org/10.1007/978-3-030-71522-9_300435",
-        "id": "https://doi.org/10.1007/978-3-030-71522-9_300435",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1007/978-3-030-71522-9_300435"
-        },
-        "publication_date": "2025-05-10",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-05-10",
-        "publication_type": "inconnu",
-        "publication_venue": "Encyclopedia of Cryptography, Security and Privacy",
-        "title": "Hardware Security",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
         "authorships": [
           {
             "author": {
-              "display_name": "Laurent Sustek"
+              "display_name": "Kyungmi Lee"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Maitreyi Ashok"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Saurav Maji"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Rashmi Agrawal"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ajay Joshi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mengjia Yan"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Joel S. Emer"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Anantha P. Chandrakasan"
             }
           }
         ],
-        "doi": "https://doi.org/10.1007/978-3-030-71522-9_509",
-        "id": "https://doi.org/10.1007/978-3-030-71522-9_509",
+        "doi": "https://doi.org/10.1109/mcas.2024.3509376",
+        "id": "https://doi.org/10.1109/mcas.2024.3509376",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1007/978-3-030-71522-9_509"
+          "landing_page_url": "https://doi.org/10.1109/mcas.2024.3509376"
         },
-        "publication_date": "2025-05-10",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-05-10",
-        "publication_type": "inconnu",
-        "publication_venue": "Encyclopedia of Cryptography, Security and Privacy",
-        "title": "Hardware Security Module",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [],
-        "doi": "https://doi.org/10.1007/978-3-030-71522-9_300168",
-        "id": "https://doi.org/10.1007/978-3-030-71522-9_300168",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1007/978-3-030-71522-9_300168"
-        },
-        "publication_date": "2025-05-10",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-05-10",
-        "publication_type": "inconnu",
-        "publication_venue": "Encyclopedia of Cryptography, Security and Privacy",
-        "title": "Collective Remote Attestation",
+        "publication_date": "2025-01-01",
+        "publication_date_note": "Date source Crossref : 2025 seulement ; classement indicatif en 2025-01.",
+        "publication_date_precision": "year",
+        "publication_date_source": "2025",
+        "publication_type": "revue",
+        "publication_venue": "IEEE Circuits and Systems Magazine",
+        "title": "Secure Machine Learning Hardware: Challenges and Progress [Feature]",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -398,166 +321,42 @@
         "authorships": [
           {
             "author": {
-              "display_name": "Edlira Dushku"
+              "display_name": "Daniel Kelly"
             }
           },
           {
             "author": {
-              "display_name": "Nicola Dragoni"
+              "display_name": "Trupal Patel"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Adam Summers"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ronald Matthews"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Matt Reno"
             }
           }
         ],
-        "doi": "https://doi.org/10.1007/978-3-030-71522-9_1782",
-        "id": "https://doi.org/10.1007/978-3-030-71522-9_1782",
+        "doi": "https://doi.org/10.24251/hicss.2025.361",
+        "id": "https://doi.org/10.24251/hicss.2025.361",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1007/978-3-030-71522-9_1782"
+          "landing_page_url": "https://doi.org/10.24251/hicss.2025.361"
         },
-        "publication_date": "2025-05-10",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-05-10",
-        "publication_type": "inconnu",
-        "publication_venue": "Encyclopedia of Cryptography, Security and Privacy",
-        "title": "Remote Attestation in IoT Devices",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [],
-        "doi": "https://doi.org/10.1007/978-3-030-71522-9_300804",
-        "id": "https://doi.org/10.1007/978-3-030-71522-9_300804",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1007/978-3-030-71522-9_300804"
-        },
-        "publication_date": "2025-05-10",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-05-10",
-        "publication_type": "inconnu",
-        "publication_venue": "Encyclopedia of Cryptography, Security and Privacy",
-        "title": "Remote Attestation",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Michel A. Kinsy"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1007/978-3-030-71522-9_1645",
-        "id": "https://doi.org/10.1007/978-3-030-71522-9_1645",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1007/978-3-030-71522-9_1645"
-        },
-        "publication_date": "2025-05-10",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-05-10",
-        "publication_type": "inconnu",
-        "publication_venue": "Encyclopedia of Cryptography, Security and Privacy",
-        "title": "Post-quantum Cryptographic Hardware Primitives",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [],
-        "doi": "https://doi.org/10.1007/978-3-030-71522-9_300957",
-        "id": "https://doi.org/10.1007/978-3-030-71522-9_300957",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1007/978-3-030-71522-9_300957"
-        },
-        "publication_date": "2025-05-10",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-05-10",
-        "publication_type": "inconnu",
-        "publication_venue": "Encyclopedia of Cryptography, Security and Privacy",
-        "title": "Structured Encryption on Trusted Hardware",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Basile Pesin"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Sylvain Boulmé"
-            }
-          },
-          {
-            "author": {
-              "display_name": "David Monniaux"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Marie-Laure Potet"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1145/3703595.3705880",
-        "id": "https://doi.org/10.1145/3703595.3705880",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1145/3703595.3705880"
-        },
-        "publication_date": "2025-01-10",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-01-10",
+        "publication_date": "2025-01-01",
+        "publication_date_note": "Date source Crossref : 2025 seulement ; classement indicatif en 2025-01.",
+        "publication_date_precision": "year",
+        "publication_date_source": "2025",
         "publication_type": "conference",
-        "publication_venue": "CPP '25: 14th ACM SIGPLAN International Conference on Certified Programs and Proofs",
-        "title": "Formally Verified Hardening of C Programs against Hardware Fault Injection",
+        "publication_venue": "Hawaii International Conference on System Sciences",
+        "title": "Hardware-in-the-Loop Validation of Optimal Adaptive Protection for Utility Networked Microgrid Applications",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -2974,9 +2773,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1082,
+  "prefilter_review_overflow": 1088,
   "query_index": 17,
-  "secondary": 188,
+  "secondary": 189,
   "skipped": 3334,
   "version": 1
 }
