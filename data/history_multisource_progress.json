@@ -1,8 +1,8 @@
 {
   "accepted": 184,
   "completed": false,
-  "cursor": "*",
-  "evaluated": 3552,
+  "cursor": "MTc0MTk3NDMwMjAwMCwxMC4xMTA5JTJGYXRzNjQ0NDcuMjAyNC4xMDkxNTIxOQ==",
+  "evaluated": 3577,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -254,14 +254,70 @@
     "monthly/2024-12/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2024-12/query-19 : résultat tronqué au plafond 12 pages",
     "monthly/2024-12/query-20 : résultat tronqué au plafond 12 pages",
-    "monthly/2024-12/query-21 : résultat tronqué au plafond 12 pages"
+    "monthly/2024-12/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2024-12/query-22 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2024-12",
   "needs_publish": false,
-  "offset": 0,
-  "pages_done": 3534,
-  "pages_in_query": 0,
-  "pending": [],
+  "offset": 360,
+  "pages_done": 3555,
+  "pages_in_query": 9,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Chunyuan Wei"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Chuan Yuan"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Yu Qi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Bangjian Xu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Xin Niu"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/icftic64248.2024.10913377",
+        "id": "https://doi.org/10.1109/icftic64248.2024.10913377",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/icftic64248.2024.10913377"
+        },
+        "publication_date": "2024-12-13",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-12-13",
+        "publication_type": "conference",
+        "publication_venue": "2024 6th International Conference on Frontier Technologies of Information and Computer (ICFTIC)",
+        "title": "A Float-Point Arithmetic Logic Unit for High Performance RISC-V Processor",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2665,9 +2721,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1145,
-  "query_index": 22,
-  "secondary": 198,
-  "skipped": 3473,
+  "prefilter_review_overflow": 1166,
+  "query_index": 23,
+  "secondary": 199,
+  "skipped": 3551,
   "version": 1
 }
