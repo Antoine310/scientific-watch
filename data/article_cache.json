@@ -2280,6 +2280,14 @@
       "title": "Spec17Tre: A New Dataset in Hardware Security and Using Deep Learning for Detecting Spectre Attacks",
       "updated_at": "2026-11-06T05:37:40.259044+00:00"
     },
+    "doi:10.1007/s13389-022-00306-w": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Isadora: automated information-flow property generation for hardware security verification",
+      "updated_at": "2026-11-07T23:15:14.522581+00:00"
+    },
     "doi:10.1007/s13389-024-00362-4": {
       "category": "coeur",
       "decision": "conserver",
@@ -8047,6 +8055,14 @@
       "status": "rejected",
       "title": "From Theory to Practice: Hardware Verification of Beamforming for 16-channel Phased Array Systems",
       "updated_at": "2026-11-06T15:36:28.593053+00:00"
+    },
+    "doi:10.1109/ei256261.2022.10116661": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "A RISC-V System-on-Chip Based on Dual-core Isolation for Smart Grid Security",
+      "updated_at": "2026-11-07T23:13:35.710689+00:00"
     },
     "doi:10.1109/eicars71536.2026.11694487": {
       "category": "secondaire",
@@ -17640,6 +17656,14 @@
       "title": "Designing a Provenance Analysis for SGX Enclaves",
       "updated_at": "2026-11-07T20:13:56.602070+00:00"
     },
+    "doi:10.1145/3566053": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "SpecTerminator: Blocking Speculative Side Channels Based on Instruction Classes on RISC-V",
+      "updated_at": "2026-11-07T23:14:38.835538+00:00"
+    },
     "doi:10.1145/3577923.3583652": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -24232,6 +24256,14 @@
       "title": "Innovations in Hardware Verification for High-Speed Protocols: Addressing Emerging Challenges in Interface Design",
       "updated_at": "2026-11-07T04:36:42.775963+00:00"
     },
+    "doi:10.32628/ijsrset25122271": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Federated Identity Management Using Secure Enclaves for Cross-Domain Access Control in 5G Edge Networks",
+      "updated_at": "2026-11-07T23:13:33.756587+00:00"
+    },
     "doi:10.32634/0869-8155-2026-407-06-173-178": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -25696,6 +25728,14 @@
       "title": "Learning to Route On-Chip: A Survey of Machine Learning-Based Routing in Networks-on-Chip and Its Hardware Overheads",
       "updated_at": "2026-11-02T16:51:20.709326+00:00"
     },
+    "doi:10.3390/math10224236": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Efficient Implementation of SPEEDY Block Cipher on Cortex-M3 and RISC-V Microcontrollers",
+      "updated_at": "2026-11-07T23:14:54.981929+00:00"
+    },
     "doi:10.3390/math11041049": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -26871,6 +26911,14 @@
       "status": "rejected",
       "title": "EMPRESA DEL ESTADO: UN ENCLAVE ESTATAL EN TERRITORIO PRIVADO",
       "updated_at": "2026-11-05T02:24:53.938160+00:00"
+    },
+    "doi:10.46586/tches.v2023.i1.1-31": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 92,
+      "status": "imported",
+      "title": "Risky Translations: Securing TLBs against Timing Side Channels",
+      "updated_at": "2026-11-07T23:15:48.725321+00:00"
     },
     "doi:10.46586/tches.v2023.i2.381-417": {
       "category": "secondaire",
@@ -28192,6 +28240,30 @@
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
     },
+    "doi:10.48550/arxiv.2211.02179": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Verifying RISC-V Physical Memory Protection",
+      "updated_at": "2026-11-07T23:14:37.168212+00:00"
+    },
+    "doi:10.48550/arxiv.2211.06056": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Remapped Cache Layout: Thwarting Cache-Based Side-Channel Attacks with a Hardware Defense",
+      "updated_at": "2026-11-07T23:15:47.111525+00:00"
+    },
+    "doi:10.48550/arxiv.2211.13526": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Specognitor: Identifying Spectre Vulnerabilities via Prediction-Aware Symbolic Execution",
+      "updated_at": "2026-11-07T23:15:08.207471+00:00"
+    },
     "doi:10.48550/arxiv.2212.04197": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -28215,6 +28287,14 @@
       "status": "imported",
       "title": "Efficiently Hardening SGX Enclaves against Memory Access Pattern Attacks via Dynamic Program Partitioning",
       "updated_at": "2026-11-07T20:14:17.051715+00:00"
+    },
+    "doi:10.48550/arxiv.2301.02620": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Information Flow Tracking Methods for Protecting Cyber-Physical Systems against Hardware Trojans -- a Survey",
+      "updated_at": "2026-11-07T23:15:14.522599+00:00"
     },
     "doi:10.48550/arxiv.2302.00732": {
       "category": "coeur",
@@ -30159,6 +30239,14 @@
       "status": "rejected",
       "title": "Implementation and evaluation of the Forro stream cipher in Tofino programmable hardware for remote attestation in datacenters",
       "updated_at": "2026-11-03T17:29:09.366307+00:00"
+    },
+    "doi:10.5753/latinoware.2022.228038": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "The Ultimate Survey: Transient Execution Attacks",
+      "updated_at": "2026-11-07T23:15:10.010636+00:00"
     },
     "doi:10.5753/sbc.18460.5.2": {
       "category": "hors_sujet",

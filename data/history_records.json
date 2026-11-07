@@ -677,6 +677,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/ei256261.2022.10116661": {
+    "doi": "https://doi.org/10.1109/ei256261.2022.10116661",
+    "publication_date": "2022-11-11",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Conference on Energy Internet and Energy System Integration (EI2)",
+    "score": 75,
+    "source": "http://dx.doi.org/10.1109/ei256261.2022.10116661",
+    "summary": "Cet article propose une architecture de System-on-Chip (SoC) sécurisée basée sur le processeur RISC-V et destinée à la sécurité des réseaux électriques intelligents. Elle intègre un système d'isolation double cœur basé sur le principe d'isolation matérielle, un démarrage sécurisé fondé sur une chaîne de confiance, ainsi qu'un port série sécurisé pour l'authentification numérique. Une implémentation sur FPGA démontre un impact minimal des éléments de sécurité sur la transmission.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "A RISC-V System-on-Chip Based on Dual-core Isolation for Smart Grid Security",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/ets56758.2023.10174099": {
     "doi": "https://doi.org/10.1109/ets56758.2023.10174099",
     "publication_date": "2023-05-22",
@@ -2455,6 +2472,23 @@
       "T04 — Runtime Attestation"
     ],
     "title": "Designing a Provenance Analysis for SGX Enclaves",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3566053": {
+    "doi": "https://doi.org/10.1145/3566053",
+    "publication_date": "2022-11-12",
+    "publication_type": "revue",
+    "publication_venue": "ACM Transactions on Architecture and Code Optimization",
+    "score": 95,
+    "source": "https://doi.org/10.1145/3566053",
+    "summary": "SpecTerminator est un cadre de défense matériel proposé pour bloquer les canaux auxiliaires spéculatifs sur RISC-V. Basé sur les classes d'instructions, il utilise le suivi de taint matériel et le masquage pour identifier les fuites, puis applique des stratégies de retard ciblées. Évalué sur une plateforme FPGA, il protège contre toutes les attaques Spectre avec un surcoût de performance de 6,0 %.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "SpecTerminator: Blocking Speculative Side Channels Based on Instruction Classes on RISC-V",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -4320,6 +4354,23 @@
     ],
     "title": "Dorami: Privilege Separating Security Monitor on RISC-V TEEs"
   },
+  "doi:10.46586/tches.v2023.i1.1-31": {
+    "doi": "https://doi.org/10.46586/tches.v2023.i1.1-31",
+    "publication_date": "2022-11-29",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 92,
+    "source": "https://doi.org/10.46586/tches.v2023.i1.1-31",
+    "summary": "Cet article étudie les vulnérabilités par canaux auxiliaires temporels au niveau du Translation Lookaside Buffer (TLB). Les auteurs démontrent que les contre-mesures existantes pour les caches ne sont pas directement applicables aux TLB. Ils proposent TLBcoat, une nouvelle architecture de TLB sécurisée, et démontrent son efficacité sur des systèmes RISC-V sous Linux avec le simulateur gem5.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Risky Translations: Securing TLBs against Timing Side Channels",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.46586/tches.v2025.i1.227-250": {
     "doi": "https://doi.org/10.46586/tches.v2025.i1.227-250",
     "publication_date": "2024-12-09",
@@ -4789,6 +4840,57 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2211.02179": {
+    "doi": "https://doi.org/10.48550/arxiv.2211.02179",
+    "publication_date": "2022-11-03",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2211.02179",
+    "summary": "Ce papier présente la vérification formelle d'une implémentation matérielle open-source de la protection de la mémoire physique (PMP) pour l'architecture RISC-V, utilisée notamment dans les environnements d'exécution de confiance (TEE) comme Keystone.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Verifying RISC-V Physical Memory Protection",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.48550/arxiv.2211.06056": {
+    "doi": "https://doi.org/10.48550/arxiv.2211.06056",
+    "publication_date": "2022-11-11",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2211.06056",
+    "summary": "Cette publication présente Remapped Cache Layout (RCL), une défense matérielle contre les attaques par canal auxiliaire basées sur les caches, en particulier au niveau du dernier niveau de cache (LLC). RCL obfusque la correspondance entre les adresses et les ensembles de cache pour empêcher les attaquants de déduire l'emplacement des données ou de contourner l'ASLR. Selon les auteurs, RCL a été implémenté dans un processeur superscalaire avec de faibles surcoûts.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Remapped Cache Layout: Thwarting Cache-Based Side-Channel Attacks with a Hardware Defense",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.48550/arxiv.2211.13526": {
+    "doi": "https://doi.org/10.48550/arxiv.2211.13526",
+    "publication_date": "2022-11-24",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2211.13526",
+    "summary": "Specognitor est un moteur d'exécution symbolique prenant en compte la prédiction de branches pour détecter de manière robuste les vulnérabilités Spectre (variantes 1 et 2). Il intègre un mécanisme de détection dynamique de motifs pour identifier les failles actuelles et futures, tout en analysant des programmes cryptographiques réels.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Specognitor: Identifying Spectre Vulnerabilities via Prediction-Aware Symbolic Execution",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2212.05614": {
     "doi": "https://doi.org/10.48550/arxiv.2212.05614",
@@ -5566,6 +5668,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.5753/latinoware.2022.228038": {
+    "doi": "https://doi.org/10.5753/latinoware.2022.228038",
+    "publication_date": "2022-11-02",
+    "publication_type": "conference",
+    "publication_venue": "Congresso Latino-Americano de Software Livre e Tecnologias Abertas (Latinoware)",
+    "score": 85,
+    "source": "http://dx.doi.org/10.5753/latinoware.2022.228038",
+    "summary": "Cet article présente une synthèse sur les attaques par exécution transitoire, une catégorie de failles matérielles permettant de divulguer des données critiques. Le travail détaille les deux phases de ces attaques (canal transitoire et canal latéral en cache), passe en revue la littérature existante et aborde les différentes techniques de mitigation proposées par l'industrie et le monde académique.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "The Ultimate Survey: Transient Execution Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.5753/sbseg_estendido.2025.11653": {
     "doi": "https://doi.org/10.5753/sbseg_estendido.2025.11653",
