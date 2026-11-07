@@ -960,6 +960,30 @@
       "title": "HARDNESS: Hardware-Supported Post Quantum Over-the-Air Software Update and Intrusion Detection System for Next Generation Secure Cars",
       "updated_at": "2026-11-07T12:36:30.470415+00:00"
     },
+    "doi:10.1007/978-3-031-84100-2_6": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Integration of the Open-Source RISC-V Formal Verification Framework into the STMicroelectronics Toolchain and Its Application to the STRiVe2.4 CPU",
+      "updated_at": "2026-11-07T15:36:37.265459+00:00"
+    },
+    "doi:10.1007/978-3-031-84100-2_7": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Alternative Implementations of Error Correcting Codes in Register Files of a RISC-V Safety Critical Processor",
+      "updated_at": "2026-11-07T15:36:37.291838+00:00"
+    },
+    "doi:10.1007/978-3-031-84100-2_8": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Automatic Tunable Floating-Point Format Selection in a RISC-V Ecosystem",
+      "updated_at": "2026-11-07T15:36:37.234033+00:00"
+    },
     "doi:10.1007/978-3-031-84924-4_4": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -6224,6 +6248,14 @@
       "title": "Noise-resilient Hardware Fingerprinting for Physical-layer Authentication in Passive Optical Networks",
       "updated_at": "2026-11-04T10:49:30.558896+00:00"
     },
+    "doi:10.1109/acsac63791.2024.00027": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 70,
+      "status": "rejected",
+      "title": "T-Edge: Trusted Heterogeneous Edge Computing",
+      "updated_at": "2026-11-07T15:37:55.276123+00:00"
+    },
     "doi:10.1109/acsac63791.2024.00055": {
       "category": "coeur",
       "decision": "conserver",
@@ -6695,6 +6727,14 @@
       "status": "rejected",
       "title": "Online Adaptive Optimal Tracking Control of Uncertain Strict Feedback Discrete-Time Systems with Hardware Verification Using a Quadrotor UAV",
       "updated_at": "2026-11-04T22:50:15.496347+00:00"
+    },
+    "doi:10.1109/ccwc62904.2025.10903846": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Survey of RISC-V Pipelines and Testers",
+      "updated_at": "2026-11-07T15:36:26.748489+00:00"
     },
     "doi:10.1109/ce2ct64011.2025.10941276": {
       "category": "hors_sujet",
@@ -22992,6 +23032,22 @@
       "title": "PCBNN: An Algorithm–Hardware Co-Designed Binary Neural Network for Low-Power Edge Inference",
       "updated_at": "2026-11-02T20:18:07.496827+00:00"
     },
+    "doi:10.26678/abcm.cobem2023.cob2023-0222": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Numerical Verification of a Parallelized Code Run on GPU Applied to Moving Heat Source Autogenous Welding Processes",
+      "updated_at": "2026-11-07T15:36:46.764281+00:00"
+    },
+    "doi:10.26678/abcm.cobem2023.cob2023-0467": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Performance Verification of the Volumetric Thermal Capacitor Method Applied in Moving Heat Source Autogenous Welding Simulation Run in GPU with Enhanced Parallelized Code",
+      "updated_at": "2026-11-07T15:36:46.790935+00:00"
+    },
     "doi:10.26782/jmcms.2025.11.00004": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -30520,6 +30576,14 @@
       "title": "BugWhisperer: Fine-Tuning LLMs for SoC Hardware Vulnerability Detection",
       "updated_at": "2026-11-06T02:37:45.286845+00:00"
     },
+    "title:buildingaprivacywebwithspidersecurepipelineforinformationdeidentificationwithendtoendencryption": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Building a Privacy Web with SPIDEr -- Secure Pipeline for Information De-Identification with End-to-End Encryption",
+      "updated_at": "2026-11-07T15:37:45.050411+00:00"
+    },
     "title:c8saconfidentialkubernetesarchitecture": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -30575,6 +30639,14 @@
       "status": "rejected",
       "title": "CCX: Enabling Unmodified Intel SGX Applications on Arm CCA",
       "updated_at": "2026-11-03T10:13:51.683873+00:00"
+    },
+    "title:ccxtrustconfidentialcomputingplatformbasedonteeandtpmcollaborativetrust": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "CCxTrust: Confidential Computing Platform Based on TEE and TPM Collaborative Trust",
+      "updated_at": "2026-11-07T15:37:20.652927+00:00"
     },
     "title:challengeresponseauthenticationforleosatellitechannelsexploitingorbitspecificuniqueness": {
       "category": "hors_sujet",
@@ -31416,6 +31488,14 @@
       "title": "GATEBLEED: Exploiting On-Core Accelerator Power Gating for High Performance & Stealthy Attacks on AI",
       "updated_at": "2026-11-05T01:25:42.873947+00:00"
     },
+    "title:geccagpubasedhighthroughputframeworkforellipticcurvecryptography": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "gECC: A GPU-based high-throughput framework for Elliptic Curve Cryptography",
+      "updated_at": "2026-11-07T15:39:15.419175+00:00"
+    },
     "title:ghostaccessattackingthegpuonthemultitenantcloudviacpullcunderunifiedmemory": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -31864,6 +31944,14 @@
       "title": "LIPPEN: A Lightweight In-Place Pointer Encryption Architecture for Pointer Integrity",
       "updated_at": "2026-11-03T10:13:19.264046+00:00"
     },
+    "title:liquefactionprivatelyliquefyingblockchainassets": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Liquefaction: Privately Liquefying Blockchain Assets",
+      "updated_at": "2026-11-07T15:37:44.939056+00:00"
+    },
     "title:liteattapeertopeerselfattestationframeworkandhandshakeprotocolforconnectediotdevices": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -32048,6 +32136,14 @@
       "title": "NDAI Agreements",
       "updated_at": "2026-11-07T01:39:07.871977+00:00"
     },
+    "title:nebulafleffectiveasynchronousfederatedlearningforjointcloudcomputing": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "NebulaFL: Effective Asynchronous Federated Learning for JointCloud Computing",
+      "updated_at": "2026-11-07T15:37:44.965841+00:00"
+    },
     "title:netdetoxadversarialandefficientevasionofhardwaresecuritygnnsviarlllmorchestration": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -32216,6 +32312,14 @@
       "title": "Optoelectronic Physical Unclonable Functions and Reservoir-Inspired Computation with Low Symmetry Integrated Photonics",
       "updated_at": "2026-11-05T00:50:07.641609+00:00"
     },
+    "title:oreoprotectingaslragainstmicroarchitecturalattacksextendedversion": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Oreo: Protecting ASLR Against Microarchitectural Attacks (Extended Version)",
+      "updated_at": "2026-11-07T15:39:15.390074+00:00"
+    },
     "title:otrooblivioustokenizationpathwithsquarerootoram": {
       "category": "secondaire",
       "decision": "examiner",
@@ -32239,6 +32343,14 @@
       "status": "rejected",
       "title": "Pangolin: Efficient DAG-based BFT State-Machine Replication with TEE-Accelerated Commitment",
       "updated_at": "2026-11-02T13:03:57.246530+00:00"
+    },
+    "title:papayafederatedanalyticsstackengineeringprivacyscalabilityandpracticality": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "PAPAYA Federated Analytics Stack: Engineering Privacy, Scalability and Practicality",
+      "updated_at": "2026-11-07T15:37:44.911099+00:00"
     },
     "title:partialnumbertheoretictransformmaskinginpostquantumcryptographypqchardwareasecuritymarginanalysis": {
       "category": "coeur",
@@ -32400,6 +32512,14 @@
       "title": "Privacy-Preserving AI-Enabled Decentralized Learning and Employment Records System",
       "updated_at": "2026-11-03T18:11:18.464144+00:00"
     },
+    "title:privacypreservinglargelanguagemodelsmechanismsapplicationsandfuturedirections": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Privacy-Preserving Large Language Models: Mechanisms, Applications, and Future Directions",
+      "updated_at": "2026-11-07T15:37:44.994887+00:00"
+    },
     "title:privacypreservingproductquantizedapproximatenearestneighborsearchframeworkforlargescaledatasetsviaahybridoffullyhomomorphicencryptionandtrustedexecutionenvironment": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -32471,6 +32591,14 @@
       "status": "rejected",
       "title": "Proof of Trusted Execution: A Consensus Paradigm for Deterministic Blockchain Finality",
       "updated_at": "2026-11-03T20:08:40.948347+00:00"
+    },
+    "title:protectingconfidentialityprivacyandintegrityincollaborativelearning": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Protecting Confidentiality, Privacy and Integrity in Collaborative Learning",
+      "updated_at": "2026-11-07T15:37:45.022968+00:00"
     },
     "title:protectingcpuaionedgeteeswebassemblyspromiseandpracticalchallenges": {
       "category": "transfert_explicite",
@@ -32928,6 +33056,14 @@
       "title": "Selling the Stock, Not the Cream: The Soviet Émigré Career Premium of the 1990s",
       "updated_at": "2026-11-02T19:55:12.245702+00:00"
     },
+    "title:sesemisecureserverlessmodelinferenceonsensitivedata": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "SeSeMI: Secure Serverless Model Inference on Sensitive Data",
+      "updated_at": "2026-11-07T15:38:12.374031+00:00"
+    },
     "title:sessionattestationforunmodifiedtlsservicesinconfidentialvirtualmachines": {
       "category": "secondaire",
       "decision": "examiner",
@@ -33264,6 +33400,14 @@
       "title": "SV-LLM: An Agentic Approach for SoC Security Verification using Large Language Models",
       "updated_at": "2026-11-05T05:51:35.823023+00:00"
     },
+    "title:swarmcontractamultisovereignagentconsensusmechanism": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Swarm Contract: A Multi-Sovereign Agent Consensus Mechanism",
+      "updated_at": "2026-11-07T15:38:02.175437+00:00"
+    },
     "title:systematictimingleakageanalysisofnistpqdsscandidatestoolingandlessonslearned": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -33391,6 +33535,14 @@
       "status": "rejected",
       "title": "The Data Enclave Advantage: A New Paradigm for Least-Privileged Data Access in a Zero-Trust World",
       "updated_at": "2026-11-04T13:49:14.809116+00:00"
+    },
+    "title:theforkingwaywhenteesmeetconsensus": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "The Forking Way: When TEEs Meet Consensus",
+      "updated_at": "2026-11-07T15:37:44.882384+00:00"
     },
     "title:themistowardspracticalintellectualpropertyprotectionforpostdeploymentondevicedeeplearningmodels": {
       "category": "secondaire",
@@ -33632,6 +33784,14 @@
       "title": "TrojanGYM: A Detector-in-the-Loop LLM for Adaptive RTL Hardware Trojan Insertion",
       "updated_at": "2026-11-03T18:10:16.774709+00:00"
     },
+    "title:trojanwhisperevaluatingpretrainedllmstodetectandlocalizehardwaretrojans": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "TrojanWhisper: Evaluating Pre-trained LLMs to Detect and Localize Hardware Trojans",
+      "updated_at": "2026-11-07T15:36:57.818997+00:00"
+    },
     "title:trustbutvalidatetheinstrumentauditingaigeneratedrtlverificationplansonauthoredsecurityregressionproxies": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -33744,6 +33904,14 @@
       "title": "Validation of GPU Computation in Decentralized, Trustless Networks",
       "updated_at": "2026-11-07T07:37:48.596893+00:00"
     },
+    "title:vaultorputtingtheteeintor": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "VaulTor: Putting the TEE in Tor",
+      "updated_at": "2026-11-07T15:37:55.303476+00:00"
+    },
     "title:vcauseefficientandverifiablecausalityanalysisforcloudbasedendpointauditing": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -33759,6 +33927,14 @@
       "status": "rejected",
       "title": "Verifiable and Confidential DNN Inference on Low-End Edge Devices",
       "updated_at": "2026-11-02T21:35:59.647864+00:00"
+    },
+    "title:verifiableflverifiableclaimsforfederatedlearningusingexclaves": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "VerifiableFL: Verifiable Claims for Federated Learning using Exclaves",
+      "updated_at": "2026-11-07T15:37:55.080266+00:00"
     },
     "title:verificationoflightningnetworkchannelbalanceswithtrustedexecutionenvironmentstee": {
       "category": "secondaire_technique",

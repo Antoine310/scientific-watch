@@ -1,8 +1,8 @@
 {
-  "accepted": 174,
+  "accepted": 177,
   "completed": false,
-  "cursor": "MTc0MTI2NDA4NzAwMCwxMC4xMDA3JTJGOTc4LTMtMDMxLTgzMDkzLThfMw==",
-  "evaluated": 3419,
+  "cursor": "*",
+  "evaluated": 3441,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -244,69 +244,16 @@
     "monthly/2025-01/query-19 : résultat tronqué au plafond 12 pages",
     "monthly/2025-01/query-20 : résultat tronqué au plafond 12 pages",
     "monthly/2025-01/query-21 : résultat tronqué au plafond 12 pages",
-    "monthly/2025-01/query-22 : résultat tronqué au plafond 12 pages"
+    "monthly/2025-01/query-22 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-01/query-23 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-01/query-24 : résultat tronqué au plafond 12 pages"
   ],
-  "month": "2025-01",
+  "month": "2024-12",
   "needs_publish": false,
-  "offset": 440,
-  "pages_done": 3400,
-  "pages_in_query": 11,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Bryan Tovar"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Connor Yee"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Rian Ng"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Hussain Al-Asaad"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Savita Patil"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/ccwc62904.2025.10903846",
-        "id": "https://doi.org/10.1109/ccwc62904.2025.10903846",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/ccwc62904.2025.10903846"
-        },
-        "publication_date": "2025-01-06",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2025-01-06",
-        "publication_type": "conference",
-        "publication_venue": "2025 IEEE 15th Annual Computing and Communication Workshop and Conference (CCWC)",
-        "title": "Survey of RISC-V Pipelines and Testers",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T10 — RISC-V SoC & FPGA"
-      ]
-    }
-  ],
+  "offset": 0,
+  "pages_done": 3425,
+  "pages_in_query": 0,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2710,9 +2657,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1114,
-  "query_index": 23,
-  "secondary": 189,
-  "skipped": 3430,
+  "prefilter_review_overflow": 1118,
+  "query_index": 12,
+  "secondary": 191,
+  "skipped": 3451,
   "version": 1
 }

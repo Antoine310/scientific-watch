@@ -5674,6 +5674,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:ccxtrustconfidentialcomputingplatformbasedonteeandtpmcollaborativetrust": {
+    "doi": "",
+    "publication_date": "2024-12-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2412.03842v3",
+    "summary": "Cet article présente CCxTrust, une plateforme de calcul confidentiel combinant les racines de confiance (RoT) d'un TEE (matériel embarqué dans le CPU) et d'une puce TPM pour assurer une protection de bout en bout et une interopérabilité multi-cloud. Une architecture collaborative est proposée, incluant des mécanismes de mesure (RTM), de rapport (RTR) pour l'attestation composite, et de stockage (RTS). Un TPM confidentiel et un protocole d'attestation composite sont implémentés et évalués sur un serveur AMD SEV-SNP avec TPM.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "CCxTrust: Confidential Computing Platform Based on TEE and TPM Collaborative Trust",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:characterizingthevarianceenvelopeamultidimensionalanalysisofspectretelemetryacrossarchitecturesandworkloads": {
     "publication_date": "2026-08-14",
     "publication_date_note": "",
@@ -6400,6 +6420,26 @@
     ],
     "title": "Optimizing TLS Cryptographic Operations on RISC-V SoC with OpenTitan RoT"
   },
+  "title:oreoprotectingaslragainstmicroarchitecturalattacksextendedversion": {
+    "doi": "",
+    "publication_date": "2024-12-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2412.07135v1",
+    "summary": "Cet article présente Oreo, une solution de co-conception logiciel-matériel visant à renforcer l'ASLR (Address Space Layout Randomization) contre les attaques par canaux auxiliaires microarchitecturaux. Oreo utilise une nouvelle interface de cartographie mémoire pour masquer les bits aléatoires des adresses virtuelles avant la traduction en adresses physiques, empêchant ainsi leur fuite via les structures microarchitecturales, tout en restant transparent pour les programmes utilisateur et avec un faible surcoût sur Linux (simulateur gem5).",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Oreo: Protecting ASLR Against Microarchitectural Attacks (Extended Version)",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:page404breakinggpuisolationthroughhardwareassistedpagemigration": {
     "publication_date": "2026-10-14",
     "publication_type": "prepublication",
@@ -7092,6 +7132,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "title:verifiableflverifiableclaimsforfederatedlearningusingexclaves": {
+    "doi": "",
+    "publication_date": "2024-12-13",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2412.10537v4",
+    "summary": "VerifiableFL est un système permettant d'établir des revendications vérifiables sur l'entraînement de modèles d'apprentissage fédéré (FL) en utilisant des enclaves d'intégrité (exclaves), éliminant ainsi le besoin de garanties de confidentialité. Le système génère des preuves d'attestation d'exécution sous forme de graphe de flux de données vérifié par un auditeur, avec une surcharge inférieure à 12 % par rapport à un entraînement non protégé.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "VerifiableFL: Verifiable Claims for Federated Learning using Exclaves",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:virtualmemoryforrealtimesystemsusinghpmp": {
     "doi": "",
