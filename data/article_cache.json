@@ -496,6 +496,30 @@
       "title": "Hardware Security in the Connected World",
       "updated_at": "2026-11-04T22:48:45.771273+00:00"
     },
+    "doi:10.1007/978-3-030-71522-9_1651": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware Security in the Age of Machine Learning",
+      "updated_at": "2026-11-07T09:39:20.137043+00:00"
+    },
+    "doi:10.1007/978-3-030-71522-9_1726": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware Security in Cyber-Physical Systems",
+      "updated_at": "2026-11-07T09:39:20.170815+00:00"
+    },
+    "doi:10.1007/978-3-030-71522-9_300429": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hardware Considerations for Post-quantum Cryptography",
+      "updated_at": "2026-11-07T09:39:20.203632+00:00"
+    },
     "doi:10.1007/978-3-030-71522-9_300826": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -567,6 +591,70 @@
       "status": "rejected",
       "title": "Adding All Flavors: A Hybrid Random Number Generator for dApps and Web3",
       "updated_at": "2026-11-04T13:26:26.052015+00:00"
+    },
+    "doi:10.1007/978-3-031-76328-1": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Lightweight Hardware Security and Physically Unclonable Functions",
+      "updated_at": "2026-11-07T09:39:01.480404+00:00"
+    },
+    "doi:10.1007/978-3-031-76328-1_10": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Advanced PUF Designs",
+      "updated_at": "2026-11-07T09:39:01.675929+00:00"
+    },
+    "doi:10.1007/978-3-031-76328-1_11": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Lightweight PUF Protocols",
+      "updated_at": "2026-11-07T09:39:01.546835+00:00"
+    },
+    "doi:10.1007/978-3-031-76328-1_2": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Exploring Classic Security Attacks and Hardware Intricacies",
+      "updated_at": "2026-11-07T09:39:05.111381+00:00"
+    },
+    "doi:10.1007/978-3-031-76328-1_3": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hardware Security Challenges",
+      "updated_at": "2026-11-07T09:39:01.579317+00:00"
+    },
+    "doi:10.1007/978-3-031-76328-1_6": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "PUF: Security Threats",
+      "updated_at": "2026-11-07T09:39:01.644154+00:00"
+    },
+    "doi:10.1007/978-3-031-76328-1_7": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "PUF Performance Testing and Evaluation",
+      "updated_at": "2026-11-07T09:39:01.611596+00:00"
+    },
+    "doi:10.1007/978-3-031-76328-1_8": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Improving the PUF’s Reliability",
+      "updated_at": "2026-11-07T09:39:01.513259+00:00"
     },
     "doi:10.1007/978-3-031-84100-2_5": {
       "category": "transfert_explicite",
@@ -2095,6 +2183,14 @@
       "status": "rejected",
       "title": "Enhanced security framework for medical data embedding based on octonionic steganographic transforms and FPGA-accelerated integrity verification",
       "updated_at": "2026-11-05T18:40:01.944932+00:00"
+    },
+    "doi:10.1016/j.agee.2024.109254": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Peanut–cotton intercropping to enhance soil ecosystem multifunctionality: Roles of microbial keystone taxa, assembly processes, and C-cycling profiles",
+      "updated_at": "2026-11-07T09:38:32.966247+00:00"
     },
     "doi:10.1016/j.agee.2025.109568": {
       "category": "hors_sujet",
@@ -4104,6 +4200,14 @@
       "title": "EAGLE: A provably and verifiably secure blockchain-enabled dual-mode authentication scheme using reconfigurable PUFs for V2I communication",
       "updated_at": "2026-11-03T08:41:13.427572+00:00"
     },
+    "doi:10.1016/j.vlsi.2024.102282": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Integrating error correction and detection techniques in RISC-V processor microarchitecture for enhanced reliability",
+      "updated_at": "2026-11-07T09:36:31.324414+00:00"
+    },
     "doi:10.1016/j.vlsi.2024.102319": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -5455,6 +5559,22 @@
       "status": "rejected",
       "title": "A True Random Number Generator Based on Race Hazard and Jitter of Braided and Cross-Coupled Logic Gates Using FPGA",
       "updated_at": "2026-11-05T05:16:00.877573+00:00"
+    },
+    "doi:10.1109/access.2024.3523918": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "sThing: A Novel Configurable Ring Oscillator Based PUF for Hardware-Assisted Security and Recycled IC Detection",
+      "updated_at": "2026-11-07T09:38:43.615299+00:00"
+    },
+    "doi:10.1109/access.2025.3526583": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Hardware and Deep Learning-Based Authentication Through Enhanced RF Fingerprints of 3D-Printed Chaotic Antenna Arrays",
+      "updated_at": "2026-11-07T09:39:05.145691+00:00"
     },
     "doi:10.1109/access.2025.3543000": {
       "category": "secondaire",
@@ -11952,6 +12072,14 @@
       "title": "News: Open-Source Hardware Secures a Win > sprung From Risc-v's Roots, the First Open Security Chip Hits the Market",
       "updated_at": "2026-11-04T14:14:28.274134+00:00"
     },
+    "doi:10.1109/mspec.2025.10824228": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Careers: Joppe Bos: The Cryptographer Designs Encryption that Even Quantum Hardware Can't Crack",
+      "updated_at": "2026-11-07T09:39:01.412910+00:00"
+    },
     "doi:10.1109/mwc.004.2500023": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -14464,6 +14592,14 @@
       "title": "CyFence: Securing Cyber-Physical Controllers via Trusted Execution Environment",
       "updated_at": "2026-11-05T05:55:26.710846+00:00"
     },
+    "doi:10.1109/tetc.2024.3390435": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Janus: A Trusted Execution Environment Approach for Attack Detection in Industrial Robot Controllers",
+      "updated_at": "2026-11-07T09:38:22.835479+00:00"
+    },
     "doi:10.1109/tetc.2024.3407124": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -14991,6 +15127,30 @@
       "status": "imported",
       "title": "CVA6 RISC-V Virtualization: Architecture, Microarchitecture, and Design Space Exploration",
       "updated_at": "2026-11-06T14:13:38.538745+00:00"
+    },
+    "doi:10.1109/tvlsi.2024.3447279": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Sophon: A Time-Repeatable and Low-Latency Architecture for Embedded Real-Time Systems Based on RISC-V",
+      "updated_at": "2026-11-07T09:36:31.290814+00:00"
+    },
+    "doi:10.1109/tvlsi.2024.3466224": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "SPEED: A Scalable RISC-V Vector Processor Enabling Efficient Multiprecision DNN Inference",
+      "updated_at": "2026-11-07T09:36:41.274062+00:00"
+    },
+    "doi:10.1109/tvlsi.2024.3477632": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A 4.2-to-0.5-V, 0.8-μA–0.8-mA, Power-Efficient Three-Level SIMO Buck Converter for a Quad-Voltage RISC-V Microprocessor",
+      "updated_at": "2026-11-07T09:37:22.302303+00:00"
     },
     "doi:10.1109/tvlsi.2024.3486368": {
       "category": "secondaire",
@@ -16815,6 +16975,14 @@
       "status": "rejected",
       "title": "Mixed-Level Modeling and Evaluation of a Cache-less Grid of Processing Cells",
       "updated_at": "2026-11-03T15:43:12.798264+00:00"
+    },
+    "doi:10.1145/3711712": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Hardware Trojan Detection Potential and Limits with the Quantum Diamond Microscope",
+      "updated_at": "2026-11-07T09:39:05.178172+00:00"
     },
     "doi:10.1145/3711836": {
       "category": "secondaire",
@@ -22696,6 +22864,14 @@
       "title": "Enhancing the SRAM PUF with an XOR Gate",
       "updated_at": "2026-11-02T23:13:44.368531+00:00"
     },
+    "doi:10.3390/app15010341": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Hardware Design for Cascade-Structure, Dual-Stage, Current-Limiting, Solid-State DC Circuit Breaker",
+      "updated_at": "2026-11-07T09:38:43.649192+00:00"
+    },
     "doi:10.3390/app15073596": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -23904,6 +24080,14 @@
       "title": "Hardware-Efficient Configurable Ring-Oscillator-Based Physical Unclonable Function/True Random Number Generator Module for Secure Key Management",
       "updated_at": "2026-11-03T11:13:34.703040+00:00"
     },
+    "doi:10.3390/s25010236": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "An FPGA-Based SiNW-FET Biosensing System for Real-Time Viral Detection: Hardware Amplification and 1D CNN for Adaptive Noise Reduction",
+      "updated_at": "2026-11-07T09:39:01.378992+00:00"
+    },
     "doi:10.3390/s25051629": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -24351,6 +24535,14 @@
       "status": "rejected",
       "title": "RISC-V SoC Design for IoT: A Survey of Open-Source Cores and Applications",
       "updated_at": "2026-11-02T17:13:21.376329+00:00"
+    },
+    "doi:10.36227/techrxiv.173603488.84789422/v1": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Security in Depth: Rakshasa Hardware Backdoor Analysis",
+      "updated_at": "2026-11-07T09:39:01.447912+00:00"
     },
     "doi:10.36227/techrxiv.173933577.75659816/v1": {
       "category": "hors_sujet",
@@ -26959,6 +27151,14 @@
       "status": "rejected",
       "title": "Improved root development leads to higher root derived carbon stocks in formerly deep-plough soils - A biomarker-based approach",
       "updated_at": "2026-11-07T08:37:36.830439+00:00"
+    },
+    "doi:10.5194/egusphere-egu24-4934": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Responses of leaf functional traits to soil environment at different sand fixation stages in the Mu Us desertland",
+      "updated_at": "2026-11-07T09:37:45.308585+00:00"
     },
     "doi:10.5194/egusphere-egu24-9353": {
       "category": "hors_sujet",

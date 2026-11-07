@@ -1,8 +1,8 @@
 {
   "accepted": 173,
   "completed": false,
-  "cursor": "MTcyNTAwOTExMzAwMCwxMC4xMDE2JTJGYjk3OC0wLTQ0My0xMzIyMy0wLjAwMDkwLTQ=",
-  "evaluated": 3306,
+  "cursor": "MTczNjg2NjkxOTAwMCwxMC4xMTA5JTJGYWNjZXNzLjIwMjUuMzUyOTcwMg==",
+  "evaluated": 3331,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -236,14 +236,341 @@
     "monthly/2025-02/query-22 : résultat tronqué au plafond 12 pages",
     "monthly/2025-02/query-24 : résultat tronqué au plafond 12 pages",
     "monthly/2025-01/query-13 : résultat tronqué au plafond 12 pages",
-    "monthly/2025-01/query-14 : résultat tronqué au plafond 12 pages"
+    "monthly/2025-01/query-14 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-01/query-15 : résultat tronqué au plafond 12 pages",
+    "monthly/2025-01/query-16 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2025-01",
   "needs_publish": false,
-  "offset": 200,
-  "pages_done": 3298,
-  "pages_in_query": 5,
-  "pending": [],
+  "offset": 160,
+  "pages_done": 3321,
+  "pages_in_query": 4,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [],
+        "doi": "https://doi.org/10.1007/978-3-030-71522-9_300430",
+        "id": "https://doi.org/10.1007/978-3-030-71522-9_300430",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1007/978-3-030-71522-9_300430"
+        },
+        "publication_date": "2025-05-10",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-05-10",
+        "publication_type": "inconnu",
+        "publication_venue": "Encyclopedia of Cryptography, Security and Privacy",
+        "title": "Hardware Implementation Explorations of Post-quantum Cryptographic Primitives",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [],
+        "doi": "https://doi.org/10.1007/978-3-030-71522-9_300431",
+        "id": "https://doi.org/10.1007/978-3-030-71522-9_300431",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1007/978-3-030-71522-9_300431"
+        },
+        "publication_date": "2025-05-10",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-05-10",
+        "publication_type": "inconnu",
+        "publication_venue": "Encyclopedia of Cryptography, Security and Privacy",
+        "title": "Hardware Intellectual Property Protection",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [],
+        "doi": "https://doi.org/10.1007/978-3-030-71522-9_300435",
+        "id": "https://doi.org/10.1007/978-3-030-71522-9_300435",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1007/978-3-030-71522-9_300435"
+        },
+        "publication_date": "2025-05-10",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-05-10",
+        "publication_type": "inconnu",
+        "publication_venue": "Encyclopedia of Cryptography, Security and Privacy",
+        "title": "Hardware Security",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Laurent Sustek"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1007/978-3-030-71522-9_509",
+        "id": "https://doi.org/10.1007/978-3-030-71522-9_509",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1007/978-3-030-71522-9_509"
+        },
+        "publication_date": "2025-05-10",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-05-10",
+        "publication_type": "inconnu",
+        "publication_venue": "Encyclopedia of Cryptography, Security and Privacy",
+        "title": "Hardware Security Module",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [],
+        "doi": "https://doi.org/10.1007/978-3-030-71522-9_300168",
+        "id": "https://doi.org/10.1007/978-3-030-71522-9_300168",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1007/978-3-030-71522-9_300168"
+        },
+        "publication_date": "2025-05-10",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-05-10",
+        "publication_type": "inconnu",
+        "publication_venue": "Encyclopedia of Cryptography, Security and Privacy",
+        "title": "Collective Remote Attestation",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Edlira Dushku"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Nicola Dragoni"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1007/978-3-030-71522-9_1782",
+        "id": "https://doi.org/10.1007/978-3-030-71522-9_1782",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1007/978-3-030-71522-9_1782"
+        },
+        "publication_date": "2025-05-10",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-05-10",
+        "publication_type": "inconnu",
+        "publication_venue": "Encyclopedia of Cryptography, Security and Privacy",
+        "title": "Remote Attestation in IoT Devices",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [],
+        "doi": "https://doi.org/10.1007/978-3-030-71522-9_300804",
+        "id": "https://doi.org/10.1007/978-3-030-71522-9_300804",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1007/978-3-030-71522-9_300804"
+        },
+        "publication_date": "2025-05-10",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-05-10",
+        "publication_type": "inconnu",
+        "publication_venue": "Encyclopedia of Cryptography, Security and Privacy",
+        "title": "Remote Attestation",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Michel A. Kinsy"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1007/978-3-030-71522-9_1645",
+        "id": "https://doi.org/10.1007/978-3-030-71522-9_1645",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1007/978-3-030-71522-9_1645"
+        },
+        "publication_date": "2025-05-10",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-05-10",
+        "publication_type": "inconnu",
+        "publication_venue": "Encyclopedia of Cryptography, Security and Privacy",
+        "title": "Post-quantum Cryptographic Hardware Primitives",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [],
+        "doi": "https://doi.org/10.1007/978-3-030-71522-9_300957",
+        "id": "https://doi.org/10.1007/978-3-030-71522-9_300957",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1007/978-3-030-71522-9_300957"
+        },
+        "publication_date": "2025-05-10",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-05-10",
+        "publication_type": "inconnu",
+        "publication_venue": "Encyclopedia of Cryptography, Security and Privacy",
+        "title": "Structured Encryption on Trusted Hardware",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Basile Pesin"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sylvain Boulmé"
+            }
+          },
+          {
+            "author": {
+              "display_name": "David Monniaux"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Marie-Laure Potet"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1145/3703595.3705880",
+        "id": "https://doi.org/10.1145/3703595.3705880",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1145/3703595.3705880"
+        },
+        "publication_date": "2025-01-10",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2025-01-10",
+        "publication_type": "conference",
+        "publication_venue": "CPP '25: 14th ACM SIGPLAN International Conference on Certified Programs and Proofs",
+        "title": "Formally Verified Hardening of C Programs against Hardware Fault Injection",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2647,9 +2974,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1067,
-  "query_index": 15,
-  "secondary": 187,
-  "skipped": 3322,
+  "prefilter_review_overflow": 1082,
+  "query_index": 17,
+  "secondary": 188,
+  "skipped": 3334,
   "version": 1
 }
