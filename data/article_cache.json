@@ -2888,6 +2888,14 @@
       "title": "PETIT: PUF-enabled trust evaluation framework for IoT networks",
       "updated_at": "2026-11-07T16:39:03.206890+00:00"
     },
+    "doi:10.1016/j.comnet.2024.110777": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Securing the internet’s backbone: A blockchain-based and incentive-driven architecture for DNS cache poisoning defense",
+      "updated_at": "2026-11-07T21:43:20.727106+00:00"
+    },
     "doi:10.1016/j.comnet.2025.111061": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -8416,6 +8424,14 @@
       "title": "Post Quantum Hardware Encryption Module Using Kyber Lattice-Based Cryptography",
       "updated_at": "2026-11-04T11:24:52.347533+00:00"
     },
+    "doi:10.1109/gcwkshp64532.2024.11100896": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Deep SIMO Auto-Encoder and Radio Frequency Hardware Impairments Modeling for Physical Layer Security",
+      "updated_at": "2026-11-07T21:41:53.939880+00:00"
+    },
     "doi:10.1109/globecom52923.2024.10901102": {
       "category": "secondaire",
       "decision": "examiner",
@@ -9544,6 +9560,14 @@
       "title": "FPGA Implementation of High Speed 64-Bit Data Width True Random Number Generator using Clock Managers With Metastability",
       "updated_at": "2026-11-07T14:13:27.269387+00:00"
     },
+    "doi:10.1109/icece64886.2024.11024929": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Enhancement of Hardware Security by combining Multiple Cell Obfuscation with Anti-SAT and SARLock techniques",
+      "updated_at": "2026-11-07T21:41:53.888727+00:00"
+    },
     "doi:10.1109/icecet65726.2026.11632716": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -9687,6 +9711,14 @@
       "status": "imported",
       "title": "OpenTitan based Multi-Level Security in FPGA System-on-Chips",
       "updated_at": "2026-11-05T20:21:59.362250+00:00"
+    },
+    "doi:10.1109/icfpt64416.2024.11113397": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Hardware/Software Co-Design of RISC-V Extensions for Accelerating Sparse DNNs on FPGAs",
+      "updated_at": "2026-11-07T21:41:53.964175+00:00"
     },
     "doi:10.1109/icftic68075.2025.11324933": {
       "category": "secondaire",
@@ -11272,6 +11304,14 @@
       "title": "Verifying Hardware Resource Isolation Using Mandatory Access Control",
       "updated_at": "2026-11-03T13:40:07.610174+00:00"
     },
+    "doi:10.1109/isriti64779.2024.10963564": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A Configurable 2D-Integer DCT Hardware Accelerator Compatible with H.266 Standard based on RISC-V Architecture",
+      "updated_at": "2026-11-07T21:41:44.980880+00:00"
+    },
     "doi:10.1109/issc67739.2025.11291565": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -11503,6 +11543,14 @@
       "status": "rejected",
       "title": "Power Side-Channel Vulnerabilities of a RISC-V Cryptography Accelerator Integrated into CVA6 via Core-V eXtension Interface (CV-X-IF)",
       "updated_at": "2026-10-31T11:13:20.504921+00:00"
+    },
+    "doi:10.1109/itcem65710.2024.00031": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hardware-Software Co-Design of the Lightweight Authenticated Encryption Algorithm ASCON for Internet of Things",
+      "updated_at": "2026-11-07T21:36:42.850887+00:00"
     },
     "doi:10.1109/itcindia66078.2025.11141645": {
       "category": "secondaire",
@@ -15840,6 +15888,14 @@
       "title": "Coffer: An Efficient and Scalable TEE on RISC-V",
       "updated_at": "2026-10-31T20:14:02.815158+00:00"
     },
+    "doi:10.1109/tii.2024.3438284": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "FPGA Adaptive Neural Network Quantization for Adversarial Image Attack Defense",
+      "updated_at": "2026-11-07T21:43:09.299708+00:00"
+    },
     "doi:10.1109/tits.2025.3605407": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -16143,6 +16199,38 @@
       "status": "imported",
       "title": "Trusted Hart for Mobile RISC-V Security",
       "updated_at": "2026-11-07T17:15:02.198485+00:00"
+    },
+    "doi:10.1109/trustcom63139.2024.00030": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "MAXPOWR: Memory Attestation and Export in Process-based Trusted Execution Environments",
+      "updated_at": "2026-11-07T21:36:58.776854+00:00"
+    },
+    "doi:10.1109/trustcom63139.2024.00039": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hardware assisted security gateway system: combined with FPGA shielding protection",
+      "updated_at": "2026-11-07T21:36:58.804502+00:00"
+    },
+    "doi:10.1109/trustcom63139.2024.00219": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "HTV: Measuring Circuit Vulnerability to Hardware Trojan Insertion Based on Node Co-activation Analysis",
+      "updated_at": "2026-11-07T21:36:58.832724+00:00"
+    },
+    "doi:10.1109/trustcom63139.2024.00231": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "A Universally Composable Key Management System Using Trusted Hardware",
+      "updated_at": "2026-11-07T21:38:01.643176+00:00"
     },
     "doi:10.1109/trustcom66490.2025.00066": {
       "category": "secondaire",
@@ -22408,6 +22496,14 @@
       "title": "Lightweight Two-Stage Secure Boot with Automatic Rollback for STM32 IoT Devices",
       "updated_at": "2026-10-31T07:11:49.391695+00:00"
     },
+    "doi:10.2172/2571482": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Hardware-in-the-loop Laboratory Performance Verification of Flexible Building Equipment in a Typical Commercial Building",
+      "updated_at": "2026-11-07T21:41:53.914933+00:00"
+    },
     "doi:10.2172/2575473": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -23695,6 +23791,14 @@
       "status": "rejected",
       "title": "PCBNN: An Algorithm–Hardware Co-Designed Binary Neural Network for Low-Power Edge Inference",
       "updated_at": "2026-11-02T20:18:07.496827+00:00"
+    },
+    "doi:10.26629/uzjest.2024.15": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Hardware Design and Implementation of Automated Rotary Car Parking System on FPGA",
+      "updated_at": "2026-11-07T21:41:45.007914+00:00"
     },
     "doi:10.26678/abcm.cobem2023.cob2023-0222": {
       "category": "hors_sujet",

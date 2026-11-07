@@ -2253,6 +2253,46 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/trustcom63139.2024.00030": {
+    "doi": "https://doi.org/10.1109/trustcom63139.2024.00030",
+    "publication_date": "2024-12-17",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-12-17",
+    "publication_type": "conference",
+    "publication_venue": "2024 IEEE 23rd International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+    "score": 88,
+    "source": "https://doi.org/10.1109/trustcom63139.2024.00030",
+    "summary": "MAXPOWR est un protocole innovant de déchargement sécurisé de mémoire pour les environnements d'exécution de confiance (TEE) basés sur les processus pendant leur exécution. Il permet l'analyse à distance et en temps réel de la mémoire interne sans nécessiter de privilèges élevés, en utilisant des défis de type Preuve de Travail (Proof-of-Work) pour sécuriser l'opération, même en présence d'un processus cible compromis.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "MAXPOWR: Memory Attestation and Export in Process-based Trusted Execution Environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/trustcom63139.2024.00231": {
+    "doi": "https://doi.org/10.1109/trustcom63139.2024.00231",
+    "publication_date": "2024-12-17",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-12-17",
+    "publication_type": "conference",
+    "publication_venue": "2024 IEEE 23rd International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/trustcom63139.2024.00231",
+    "summary": "Cet article propose un système de gestion de clés (KMS) universellement composable utilisant du matériel de confiance (Intel TDX) pour sécuriser les clés cryptographiques dans le cloud contre les accès non autorisés des fournisseurs, incluant une authentification bidirectionnelle et un prototype évalué.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "A Universally Composable Key Management System Using Trusted Hardware",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/trustcom66490.2025.00382": {
     "doi": "https://doi.org/10.1109/trustcom66490.2025.00382",
     "publication_date": "2025-11-14",

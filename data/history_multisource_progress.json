@@ -1,8 +1,8 @@
 {
-  "accepted": 182,
+  "accepted": 184,
   "completed": false,
-  "cursor": "MTc0NDAwNDA5MTAwMCwxMC41Mjc2OCUyRmphcnRpZmludGVsbHJvYm90JTJGMTAxNw==",
-  "evaluated": 3533,
+  "cursor": "MTcyNzE5ODc4NDAwMCwxMC4xMTA5JTJGbGVkLjIwMjQuMzQ2Njk3Mw==",
+  "evaluated": 3546,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -250,250 +250,15 @@
     "monthly/2024-12/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2024-12/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2024-12/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2024-12/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2024-12/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2024-12/query-18 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2024-12",
   "needs_publish": false,
-  "offset": 400,
-  "pages_done": 3484,
-  "pages_in_query": 10,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Yunqiang Wu"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/itcem65710.2024.00031",
-        "id": "https://doi.org/10.1109/itcem65710.2024.00031",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/itcem65710.2024.00031"
-        },
-        "publication_date": "2024-12-20",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2024-12-20",
-        "publication_type": "conference",
-        "publication_venue": "2024 International Conference on Information Technology, Communication Ecosystem and Management (ITCEM)",
-        "title": "Hardware-Software Co-Design of the Lightweight Authenticated Encryption Algorithm ASCON for Internet of Things",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Hendrik Meyer Zum Felde"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Andrei-Cosmin Aprodu"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/trustcom63139.2024.00030",
-        "id": "https://doi.org/10.1109/trustcom63139.2024.00030",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/trustcom63139.2024.00030"
-        },
-        "publication_date": "2024-12-17",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2024-12-17",
-        "publication_type": "conference",
-        "publication_venue": "2024 IEEE 23rd International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
-        "title": "MAXPOWR: Memory Attestation and Export in Process-based Trusted Execution Environments",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T03 — RISC-V TEE & Enclaves"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Jihong Liu"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Chenyang Tu"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Yifei Zhang"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/trustcom63139.2024.00039",
-        "id": "https://doi.org/10.1109/trustcom63139.2024.00039",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/trustcom63139.2024.00039"
-        },
-        "publication_date": "2024-12-17",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2024-12-17",
-        "publication_type": "conference",
-        "publication_venue": "2024 IEEE 23rd International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
-        "title": "Hardware assisted security gateway system: combined with FPGA shielding protection",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Shuiliang Chai"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Zhanhui Shi"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Yanjiao Gao"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Yuhao Huang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Aizhu Liu"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jie Xiao"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/trustcom63139.2024.00219",
-        "id": "https://doi.org/10.1109/trustcom63139.2024.00219",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/trustcom63139.2024.00219"
-        },
-        "publication_date": "2024-12-17",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2024-12-17",
-        "publication_type": "conference",
-        "publication_venue": "2024 IEEE 23rd International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
-        "title": "HTV: Measuring Circuit Vulnerability to Hardware Trojan Insertion Based on Node Co-activation Analysis",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Zhenghao Lu"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ding Ma"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Lei Fan"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Xiuzhen Chen"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Yongshuai Duan"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jia Zhang"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/trustcom63139.2024.00231",
-        "id": "https://doi.org/10.1109/trustcom63139.2024.00231",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/trustcom63139.2024.00231"
-        },
-        "publication_date": "2024-12-17",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2024-12-17",
-        "publication_type": "conference",
-        "publication_venue": "2024 IEEE 23rd International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
-        "title": "A Universally Composable Key Management System Using Trusted Hardware",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    }
-  ],
+  "offset": 440,
+  "pages_done": 3509,
+  "pages_in_query": 11,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2897,9 +2662,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1141,
-  "query_index": 17,
+  "prefilter_review_overflow": 1143,
+  "query_index": 19,
   "secondary": 198,
-  "skipped": 3465,
+  "skipped": 3468,
   "version": 1
 }
