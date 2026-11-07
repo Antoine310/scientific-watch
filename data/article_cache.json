@@ -1704,6 +1704,14 @@
       "title": "A survey on lightweight hardware security using physically unclonable functions for IoT devices",
       "updated_at": "2026-11-04T15:26:28.295038+00:00"
     },
+    "doi:10.1007/s13177-025-00481-0": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "License Plate Recognition System Combining RISC-V Technology and Improved Faster R-CNN Algorithm",
+      "updated_at": "2026-11-07T00:37:44.085047+00:00"
+    },
     "doi:10.1007/s13369-025-10215-9": {
       "category": "coeur",
       "decision": "conserver",
@@ -2295,6 +2303,14 @@
       "status": "rejected",
       "title": "STSMC: A spatio-temporal defense mechanism against cache pollution attacks in LEO satellite edge CDNs",
       "updated_at": "2026-11-02T15:27:34.441285+00:00"
+    },
+    "doi:10.1016/j.compeleceng.2024.109945": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "An automated framework for detecting and mitigating memory safety vulnerabilities in UEFI firmware",
+      "updated_at": "2026-11-07T00:37:14.003316+00:00"
     },
     "doi:10.1016/j.compeleceng.2024.110029": {
       "category": "transfert_explicite",
@@ -7400,6 +7416,14 @@
       "title": "Amplifying Electromagnetic Leakage by Hardware Trojans Through Cable Geometry Manipulation",
       "updated_at": "2026-11-06T06:37:50.886765+00:00"
     },
+    "doi:10.1109/hpca61900.2025.00107": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Cooperative Warp Execution in Tensor Core for RISC-V GPGPU",
+      "updated_at": "2026-11-07T00:38:05.912508+00:00"
+    },
     "doi:10.1109/hpcc67675.2025.00034": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -7439,6 +7463,14 @@
       "status": "rejected",
       "title": "Adaptive Hardware-Aware Quantum Error Mitigation Policy Selection Framework on Edge Devices",
       "updated_at": "2026-11-03T15:41:16.382830+00:00"
+    },
+    "doi:10.1109/iatmsi64286.2025.10984468": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Adopting a Multi-issue, Out-of-order RISC-V Core Cluster in a Complex Modern System-on-Chip",
+      "updated_at": "2026-11-07T00:38:52.312180+00:00"
     },
     "doi:10.1109/iatmsi68868.2026.11465175": {
       "category": "secondaire",
@@ -8495,6 +8527,14 @@
       "status": "rejected",
       "title": "Design and Implementation of Power-Efficient RISC-V Processor",
       "updated_at": "2026-11-02T19:18:14.996047+00:00"
+    },
+    "doi:10.1109/icit63637.2025.10965319": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Low-Cost Intrusion Detection System for CAN Bus Networks Using RISC-V with Binarised Neural Networks",
+      "updated_at": "2026-11-07T00:38:52.159187+00:00"
     },
     "doi:10.1109/icitcom66635.2025.11264937": {
       "category": "secondaire",
@@ -11728,6 +11768,14 @@
       "title": "Efficient Hardware Primitives for Interval Contractors in Robotics and Integration to a Custom RISC-V ISA Extension",
       "updated_at": "2026-11-05T23:36:27.764193+00:00"
     },
+    "doi:10.1109/nice65350.2025.11065891": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "FeNN: A RISC-V vector processor for Spiking Neural Network acceleration",
+      "updated_at": "2026-11-07T00:39:10.583358+00:00"
+    },
     "doi:10.1109/nmitcon65824.2025.11188356": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -11815,6 +11863,30 @@
       "status": "rejected",
       "title": "Adaptive Cache Memory Optimization for IoT Data Processing in Simulated RISC-V Platform",
       "updated_at": "2026-11-03T17:53:30.644941+00:00"
+    },
+    "doi:10.1109/pdp66500.2025.00013": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Portable, High Performance Matrix Multiplication Micro-Kernels for RISC-V with ExO",
+      "updated_at": "2026-11-07T00:38:52.238196+00:00"
+    },
+    "doi:10.1109/pdp66500.2025.00026": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A Performance Analysis of Autovectorization on RVV RISC-V Boards",
+      "updated_at": "2026-11-07T00:38:52.199162+00:00"
+    },
+    "doi:10.1109/pdp66500.2025.00051": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "An Anomaly Detection Model for RISC-V in Automotive Applications: A Domain-Specific Accelerator Perspective",
+      "updated_at": "2026-11-07T00:38:52.275282+00:00"
     },
     "doi:10.1109/percomworkshops65533.2025.00099": {
       "category": "secondaire",
@@ -12231,6 +12303,14 @@
       "status": "rejected",
       "title": "Verification of RISC-V R-type Instructions Using A Custom Cocotb Based Approach",
       "updated_at": "2026-11-05T04:49:13.609214+00:00"
+    },
+    "doi:10.1109/smartindustrycon65166.2025.10986015": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Comparison of Time Characteristics of Real-Time Operating Systems (RTOS) on Microcontrollers with Core Architectures ARM and RISC-V",
+      "updated_at": "2026-11-07T00:38:52.349147+00:00"
     },
     "doi:10.1109/smartnets65254.2025.11106800": {
       "category": "secondaire",
@@ -12799,6 +12879,14 @@
       "status": "imported",
       "title": "A Scalable Formal Verification Methodology for Data-Oblivious Hardware",
       "updated_at": "2026-11-04T20:13:35.777348+00:00"
+    },
+    "doi:10.1109/tcad.2024.3448264": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "PreSIT: Predict Cryptography Computations in SGX-Style Integrity Trees",
+      "updated_at": "2026-11-07T00:36:45.463469+00:00"
     },
     "doi:10.1109/tcad.2024.3472293": {
       "category": "hors_sujet",
@@ -16000,6 +16088,14 @@
       "title": "PARADISE: Criticality-Aware Instruction Reordering for Power Attack Resistance",
       "updated_at": "2026-11-06T22:37:30.462552+00:00"
     },
+    "doi:10.1145/3703354": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "ShieldCXL: A Practical Obliviousness Support with Sealed CXL Memory",
+      "updated_at": "2026-11-07T00:36:52.661373+00:00"
+    },
     "doi:10.1145/3703456": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -16095,6 +16191,14 @@
       "status": "rejected",
       "title": "Lightweight Hypervisor Verification: Putting the Hardware Burger on a Diet",
       "updated_at": "2026-11-06T05:37:58.733758+00:00"
+    },
+    "doi:10.1145/3715009": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "HM-ORAM: A Lightweight Crash-consistent ORAM Framework on Hybrid Memory System",
+      "updated_at": "2026-11-07T00:37:26.528300+00:00"
     },
     "doi:10.1145/3715153": {
       "category": "hors_sujet",
@@ -20360,6 +20464,22 @@
       "title": "FVEval: Understanding Language Model Capabilities in Formal Verification of Digital Hardware",
       "updated_at": "2026-11-06T21:37:07.231255+00:00"
     },
+    "doi:10.23919/date64628.2025.10992722": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Late Breaking Results: A RISC-V ISA Extension for Chaining in Scalar Processors",
+      "updated_at": "2026-11-07T00:39:00.247405+00:00"
+    },
+    "doi:10.23919/date64628.2025.10992749": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "SpikeStream: Accelerating Spiking Neural Network Inference on RISC-V Clusters with Sparse Computation Extensions",
+      "updated_at": "2026-11-07T00:39:00.193644+00:00"
+    },
     "doi:10.23919/date64628.2025.10992783": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -20368,6 +20488,22 @@
       "title": "Verilua: An Open Source Versatile Framework for Efficient Hardware Verification and Analysis Using LuaJIT",
       "updated_at": "2026-11-06T22:36:32.069855+00:00"
     },
+    "doi:10.23919/date64628.2025.10992864": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Accelerating Authenticated Block Ciphers via RISC-V Custom Cryptography Instructions",
+      "updated_at": "2026-11-07T00:39:00.300284+00:00"
+    },
+    "doi:10.23919/date64628.2025.10992880": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "AraXL: A Physically Scalable, Ultra-Wide RISC-V Vector Processor Design for Fast and Efficient Computation on Long Vectors",
+      "updated_at": "2026-11-07T00:39:00.352311+00:00"
+    },
     "doi:10.23919/date64628.2025.10992902": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -20375,6 +20511,14 @@
       "status": "rejected",
       "title": "Multi-Sensor Data Fusion for Enhanced Detection of Laser Fault Injection Attacks in Cryptographic Hardware: Practical Results",
       "updated_at": "2026-11-06T22:36:32.112113+00:00"
+    },
+    "doi:10.23919/date64628.2025.10992962": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Evaluating IOMMU-Based Shared Virtual Addressing for RISC-V Embedded Heterogeneous SoCs",
+      "updated_at": "2026-11-07T00:39:00.400265+00:00"
     },
     "doi:10.23919/date64628.2025.10992981": {
       "category": "secondaire",
@@ -20400,6 +20544,14 @@
       "title": "A Synthesizable Thyristor-Like Leakage-Based True Random Number Generator",
       "updated_at": "2026-10-30T11:01:27.174403+00:00"
     },
+    "doi:10.23919/date64628.2025.10993181": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Assessing Soft Error Reliability in Vectorized Kernels: Vulnerability and Performance Trade-Offs on Arm and RISC-V ISAs",
+      "updated_at": "2026-11-07T00:39:10.407123+00:00"
+    },
     "doi:10.23919/date64628.2025.10993188": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -20407,6 +20559,14 @@
       "status": "rejected",
       "title": "Hardware/Software Runtime for GPSA Protection in RISC-V Embedded Cores",
       "updated_at": "2026-11-06T22:36:32.201965+00:00"
+    },
+    "doi:10.23919/date64628.2025.10993202": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "TYRCA: A RISC-V Tightly-Coupled Accelerator for Code-Based Cryptography",
+      "updated_at": "2026-11-07T00:39:10.459321+00:00"
     },
     "doi:10.23919/date64628.2025.10993204": {
       "category": "secondaire",
@@ -20423,6 +20583,14 @@
       "status": "rejected",
       "title": "Word-Level Counterexample Reduction Methods for Hardware Verification",
       "updated_at": "2026-11-06T22:36:32.239304+00:00"
+    },
+    "doi:10.23919/date64628.2025.10993284": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "RVEBS: Event-Based Sampling on RISC-V",
+      "updated_at": "2026-11-07T00:39:10.533376+00:00"
     },
     "doi:10.23919/date69613.2026.11539067": {
       "category": "hors_sujet",
@@ -22048,6 +22216,14 @@
       "title": "Lightweight Mutually Authenticated Key Exchange with Physical Unclonable Functions",
       "updated_at": "2026-11-03T02:14:24.764743+00:00"
     },
+    "doi:10.3390/cryptography9010020": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "BPAP: FPGA Design of a RISC-like Processor for Elliptic Curve Cryptography Using Task-Level Parallel Programming in High-Level Synthesis",
+      "updated_at": "2026-11-07T00:37:55.305446+00:00"
+    },
     "doi:10.3390/cryptography9020034": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -23383,6 +23559,14 @@
       "status": "rejected",
       "title": "Integration of Intel SGX with Confidential Measurement Control for Enhanced Remote Attestation",
       "updated_at": "2026-11-06T20:38:02.834864+00:00"
+    },
+    "doi:10.36227/techrxiv.174285353.31946374/v1": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "8-bit Vector SoftFloat Extension for the RISC-V Spike Simulator",
+      "updated_at": "2026-11-07T00:37:55.357759+00:00"
     },
     "doi:10.36227/techrxiv.174318149.91681274/v1": {
       "category": "hors_sujet",
@@ -26440,6 +26624,14 @@
       "title": "Secure Adaptive Hardware Protection Framework for Enhancing Hardware Security in VLSI Systems",
       "updated_at": "2026-11-02T20:18:20.191199+00:00"
     },
+    "doi:10.55041/ijsrem42109": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Design and verification of AES cryptography algorithm on RISC-V",
+      "updated_at": "2026-11-07T00:37:36.043347+00:00"
+    },
     "doi:10.55041/ijsrem43671": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -26487,6 +26679,14 @@
       "status": "rejected",
       "title": "Secure IoT Node with Hardware-Assisted Authentication",
       "updated_at": "2026-11-02T14:37:37.776140+00:00"
+    },
+    "doi:10.55041/isjem02553": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Design and Simulation of 32-Bit RISC Architecture Based on MIPS using Verilog",
+      "updated_at": "2026-11-07T00:38:05.970895+00:00"
     },
     "doi:10.55041/isjem02848": {
       "category": "hors_sujet",

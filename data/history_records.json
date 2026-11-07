@@ -1881,6 +1881,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/tcad.2024.3448264": {
+    "doi": "https://doi.org/10.1109/tcad.2024.3448264",
+    "publication_date": "2025-03-01",
+    "publication_date_note": "Date source Crossref : 2025-03 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2025-03",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "score": 75,
+    "source": "https://doi.org/10.1109/tcad.2024.3448264",
+    "summary": "Cet article présente PreSIT, une nouvelle conception visant à réduire les surcoûts de performance des arbres d'intégrité de type SGX (SIT) utilisés dans les environnements d'exécution de confiance (TEEs) pour protéger la mémoire externe contre les attaques physiques et par rejeu. En identifiant que les calculs de hachage et de déchiffrement constituent des goulets d'étranglement majeurs, PreSIT introduit un flux d'opérations parallèles permettant le préchargement et le précalcul de résultats partiels via une structure de données dédiée et des algorithmes prédictifs.",
+    "themes": [
+      "T09 — Secure Memory"
+    ],
+    "title": "PreSIT: Predict Cryptography Computations in SGX-Style Integrity Trees",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tcad.2025.3575014": {
     "publication_date": "2025-06-13",
     "publication_type": "revue",
