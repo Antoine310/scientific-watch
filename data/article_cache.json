@@ -272,6 +272,14 @@
       "title": "Physical Unclonable Functions From Microwave Metasurface Fingerprints",
       "updated_at": "2026-10-31T07:10:38.187499+00:00"
     },
+    "doi:10.1002/aisy.202200358": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Optimization of Random Telegraph Noise Characteristics in Memristor for True Random Number Generator",
+      "updated_at": "2026-11-07T17:14:22.016698+00:00"
+    },
     "doi:10.1002/aisy.202400648": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -647,6 +655,14 @@
       "status": "rejected",
       "title": "T3E: A Practical Solution to Trusted Time in Secure Enclaves",
       "updated_at": "2026-11-07T14:13:57.779952+00:00"
+    },
+    "doi:10.1007/978-3-031-40843-4_40": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Evaluation of HPC Workloads Running on Open-Source RISC-V Hardware",
+      "updated_at": "2026-11-07T17:13:29.455559+00:00"
     },
     "doi:10.1007/978-3-031-48121-5_13": {
       "category": "secondaire",
@@ -3784,6 +3800,14 @@
       "title": "Feasibility of Physical Unclonable Functions from Pre-stressed Organic Thin Film Transistors for Secure Microelectronics",
       "updated_at": "2026-11-03T18:39:45.214499+00:00"
     },
+    "doi:10.1016/j.mejo.2023.105690": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A dynamically reconfigurable entropy source circuit for high-throughput true random number generator",
+      "updated_at": "2026-11-07T17:14:22.016693+00:00"
+    },
     "doi:10.1016/j.mejo.2024.106113": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -6015,6 +6039,30 @@
       "status": "imported",
       "title": "Microarchitectural Side-Channel Threats, Weaknesses and Mitigations: A Systematic Mapping Study",
       "updated_at": "2026-11-07T14:14:08.312235+00:00"
+    },
+    "doi:10.1109/access.2023.3290896": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "True Random Number Generator Based on the Variability of the High Resistance State of RRAMs",
+      "updated_at": "2026-11-07T17:14:22.016678+00:00"
+    },
+    "doi:10.1109/access.2023.3304901": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Exploiting the DD-Cell as an Ultra-Compact Entropy Source for an FPGA-Based Re-Configurable PUF-TRNG Architecture",
+      "updated_at": "2026-11-07T17:14:22.016683+00:00"
+    },
+    "doi:10.1109/access.2023.3327325": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "RAVA: An Open Hardware True Random Number Generator Based on Avalanche Noise",
+      "updated_at": "2026-11-07T17:14:22.016718+00:00"
     },
     "doi:10.1109/access.2023.3340680": {
       "category": "coeur",
@@ -12992,6 +13040,14 @@
       "title": "Towards a Secure Modular Drone-Based Hardware Architecture for IoT-Enabled Traffic Safety in Intelligent Transportation Systems",
       "updated_at": "2026-11-05T22:39:22.385321+00:00"
     },
+    "doi:10.1109/ojies.2023.3262871": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Suitability of Generalized GAROs on FPGAs as PUFs or TRNGs Considering Spatial Correlations",
+      "updated_at": "2026-11-07T17:14:22.016688+00:00"
+    },
     "doi:10.1109/otcon69332.2026.11629940": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -14095,6 +14151,14 @@
       "status": "imported",
       "title": "System-Level Isolation for Mixed-Criticality RISC-V SoCs: A “World” Reality Check",
       "updated_at": "2026-11-02T08:30:29.730765+00:00"
+    },
+    "doi:10.1109/tcad.2023.3237957": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "A Lightweight True Random Number Generator for Root of Trust Applications",
+      "updated_at": "2026-11-07T17:14:22.016736+00:00"
     },
     "doi:10.1109/tcad.2023.3301386": {
       "category": "secondaire",
@@ -15751,6 +15815,14 @@
       "status": "rejected",
       "title": "PROTOTWIN-PET: A Deep Learning and GPU-Based Workflow for Dose Verification in Proton Therapy With PET",
       "updated_at": "2026-11-05T05:48:52.461640+00:00"
+    },
+    "doi:10.1109/trustcom56396.2022.00228": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Trusted Hart for Mobile RISC-V Security",
+      "updated_at": "2026-11-07T17:15:02.198485+00:00"
     },
     "doi:10.1109/trustcom66490.2025.00066": {
       "category": "secondaire",
@@ -20720,6 +20792,14 @@
       "title": "Foliar supplements improve physio-biochemical responses and root Brix in sugar beet under water deficit condition",
       "updated_at": "2026-11-02T18:17:44.725767+00:00"
     },
+    "doi:10.14722/ndss.2023.23041": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "MyTEE: Own the Trusted Execution Environment on Embedded Devices",
+      "updated_at": "2026-11-07T17:14:43.177121+00:00"
+    },
     "doi:10.14722/ndss.2025.230253": {
       "category": "coeur",
       "decision": "conserver",
@@ -22936,6 +23016,14 @@
       "title": "TEMPSURE-PUF: A SECURE IOT-BASED VACCINE COLD-CHAIN MONITORING SYSTEM WITH HARDWARE-LEVEL DEVICE AUTHENTICATION",
       "updated_at": "2026-11-03T09:02:01.105918+00:00"
     },
+    "doi:10.25405/ncl.34468761": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hardware Security Primitives using Passive RRAM Crossbar Array: Novel TRNG and PUF Designs",
+      "updated_at": "2026-11-07T17:14:22.016671+00:00"
+    },
     "doi:10.26102/2310-6018/2026.55.4.022": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -23472,6 +23560,14 @@
       "title": "АПАРАТНІ І ПРОГРАМНІ РІШЕННЯ ЗАХИСТУ ПЕРСОНІФІКОВАНИХ ДАНИХ ТА ІНФОРМАЦІЇ В ТЕЛЕКОМУНІКАЦІЙНИХ СИСТЕМАХ І МЕРЕЖАХ",
       "updated_at": "2026-11-04T21:24:53.648540+00:00"
     },
+    "doi:10.3233/atde221311": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "BIST Application of DCM Based True Random Number Generator",
+      "updated_at": "2026-11-07T17:14:22.016652+00:00"
+    },
     "doi:10.3233/faia260950": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -23495,6 +23591,14 @@
       "status": "rejected",
       "title": "Energy-Efficient Computer Systems: RISC-V Extensions for Machine Learning Inference at IoT's Edge Computing",
       "updated_at": "2026-11-04T21:24:53.801079+00:00"
+    },
+    "doi:10.32604/cmc.2023.028777": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Application of Physical Unclonable Function for Lightweight Authentication in Internet of Things",
+      "updated_at": "2026-11-07T17:14:09.856701+00:00"
     },
     "doi:10.32604/jcs.2025.073547": {
       "category": "hors_sujet",
@@ -33471,6 +33575,14 @@
       "status": "rejected",
       "title": "StegoMemory: Agentic Memory Acts as Covert Steganographic Channel",
       "updated_at": "2026-11-02T13:37:31.655399+00:00"
+    },
+    "title:studyonlowenergyinverterbasedandlatchbasedtruerandomnumbergeneratorsforhardwaresecurity": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Study on Low Energy Inverter-based and Latch-based True Random Number Generators for Hardware Security",
+      "updated_at": "2026-11-07T17:14:22.016713+00:00"
     },
     "title:styxcollaborativeandprivatedataprocessingwithteeenforcedstickypolicy": {
       "category": "secondaire",

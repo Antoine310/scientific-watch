@@ -2216,6 +2216,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/trustcom56396.2022.00228": {
+    "doi": "https://doi.org/10.1109/trustcom56396.2022.00228",
+    "publication_date": "2022-12-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/trustcom56396.2022.00228",
+    "summary": "Cet article étudie le portage de la pile de sécurité mobile sur une architecture matérielle RISC-V. Il identifie les lacunes du framework open-source Keystone et propose une nouvelle architecture de sécurité prenant en charge les spécifications GlobalPlatform TEE API. Cette architecture intègre un Trusted Hart (cœur normal dédié aux fonctions de sécurité) en plus des enclaves Keystone, et a été validée expérimentalement sur une carte HiFive Unleashed.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Trusted Hart for Mobile RISC-V Security",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/trustcom66490.2025.00382": {
     "doi": "https://doi.org/10.1109/trustcom66490.2025.00382",
     "publication_date": "2025-11-14",
@@ -3480,6 +3497,23 @@
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.14722/ndss.2023.23041": {
+    "doi": "https://doi.org/10.14722/ndss.2023.23041",
+    "publication_date": "2023-01-01",
+    "publication_type": "conference",
+    "publication_venue": "Network and Distributed System Security Symposium",
+    "score": 75,
+    "source": "https://doi.org/10.14722/ndss.2023.23041",
+    "summary": "Cet article présente MyTEE, une solution permettant de mettre en place un Trusted Execution Environment (TEE) sur des appareils embarqués dépourvus de primitives matérielles de sécurité majeures telles que les extensions TrustZone pour le contrôle d'accès mémoire ou l'IOMMU. Pour pallier ces absences matérielles, MyTEE utilise une gestion rigoureuse des tables de pages (notamment les tables de page de second niveau via un hyperviseur minimal), un filtrage logiciel des accès DMA et un mécanisme de sécurisation des E/S permettant d'isoler le TEE et de protéger les communications avec les périphériques.",
+    "themes": [
+      "T11 — PUF & TRNG"
+    ],
+    "title": "MyTEE: Own the Trusted Execution Environment on Embedded Devices",
+    "venue_landmark": "NDSS",
+    "venue_note": "",
+    "venue_priority": 2,
     "venue_provenance": "OpenAlex"
   },
   "doi:10.14722/ndss.2025.230253": {
