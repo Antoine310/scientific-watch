@@ -2403,6 +2403,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3564625.3567994": {
+    "doi": "https://doi.org/10.1145/3564625.3567994",
+    "publication_date": "2022-12-03",
+    "publication_type": "conference",
+    "publication_venue": "Annual Computer Security Applications Conference",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3564625.3567994",
+    "summary": "Cette publication étudie la sécurisation des enclaves SGX, qui sont des régions mémoire isolées mais vulnérables aux compromissions. L'objectif est de permettre aux propriétaires d'identifier les intrusions via un accès privilégié à la mémoire et une politique d'attaque, sans briser les propriétés fondamentales de SGX.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Designing a Provenance Analysis for SGX Enclaves",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3578359.3593037": {
     "doi": "https://doi.org/10.1145/3578359.3593037",
     "publication_date": "2023-05-08",
@@ -4183,6 +4200,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex (titre exact)"
   },
+  "doi:10.3390/jlpea13010001": {
+    "doi": "https://doi.org/10.3390/jlpea13010001",
+    "publication_date": "2022-12-27",
+    "publication_type": "revue",
+    "publication_venue": "Journal of Low Power Electronics and Applications",
+    "score": 95,
+    "source": "https://doi.org/10.3390/jlpea13010001",
+    "summary": "Cet article étudie une implémentation de bout en bout d'un canal caché de type Prime + Probe sur le processeur RISC-V CVA6 implémenté sur cible FPGA et exécutant un système d'exploitation Linux. Les auteurs analysent son comportement, son efficacité, et proposent un scénario d'extraction d'informations pour un algorithme AES-128, tout en discutant des défis liés à l'OS et en présentant des lignes directrices pour concevoir des caches résilients.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "CCALK: (When) CVA6 Cache Associativity Leaks the Key",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.3390/sym16030310": {
     "doi": "https://doi.org/10.3390/sym16030310",
     "publication_date": "2024-03-06",
@@ -4715,6 +4749,40 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2212.05614": {
+    "doi": "https://doi.org/10.48550/arxiv.2212.05614",
+    "publication_date": "2022-12-11",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2212.05614",
+    "summary": "Cet article présente COGENT, un générateur d'étiquettes d'instructions générique pour l'architecture RISC-V. Il associe des étiquettes configurables de 1 à 20 bits ou des labels de contrôle de flux aux binaires, en les encodant sous forme d'instructions nop pour garantir la rétrocompatibilité. L'évaluation montre une augmentation de la taille des binaires et des surcoûts d'exécution mesurés sur des benchmarks.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Generic Tagging for RISC-V Binaries",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.48550/arxiv.2212.12656": {
+    "doi": "https://doi.org/10.48550/arxiv.2212.12656",
+    "publication_date": "2022-12-24",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2212.12656",
+    "summary": "Cet article propose une méthode pour renforcer les enclaves Intel SGX contre les attaques par canaux auxiliaires basées sur les motifs d'accès mémoire, en utilisant le partitionnement dynamique de programmes pour s'affranchir des limites de passage à l'échelle des transactions matérielles (Intel TSX).",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Efficiently Hardening SGX Enclaves against Memory Access Pattern Attacks via Dynamic Program Partitioning",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2302.00732": {
     "doi": "https://doi.org/10.48550/arxiv.2302.00732",
@@ -5551,6 +5619,23 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Sécurisation des accès aux périphériques et depuis les périphériques dans une architecture multicœur RISC-V utilisée pour la virtualisation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.70675/d8e5f724zd18bz416fza565zfc810b5316db": {
+    "doi": "https://doi.org/10.70675/d8e5f724zd18bz416fza565zfc810b5316db",
+    "publication_date": "2022-12-12",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "https://doi.org/10.70675/d8e5f724zd18bz416fza565zfc810b5316db",
+    "summary": "Cette thèse étudie la sécurisation des mémoires cache contre les attaques logicielles par canaux auxiliaires. L'auteur développe la bibliothèque libMAAT pour abstraire l'implémentation de telles attaques sur diverses architectures (x86, ARM, RISC-V), propose un cadre d'analyse sans bruit et présente de nouvelles contre-mesures matérielles telles que ScrambleCache et des mécanismes d'expulsion aléatoire de lignes de cache pour les systèmes embarqués et d'application.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Strategies for securing cache memories against software side-channel attacks",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
