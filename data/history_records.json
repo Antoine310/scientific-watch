@@ -2565,6 +2565,46 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3672608.3707711": {
+    "doi": "https://doi.org/10.1145/3672608.3707711",
+    "publication_date": "2025-02-14",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "SAC '25: 40th ACM/SIGAPP Symposium on Applied Computing",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2502.09864v1",
+    "summary": "Cette publication présente MCHammer, une nouvelle technique d'attaque par canal auxiliaire et par temporisation microarchitecturale. Elle exploite les nettoyages de machine (machine clears) induits par les mécanismes de détection de code auto-modifié, permettant de fuiter des informations sensibles sans nécessiter d'accès mémoire ni de temps d'attente.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "U Can Touch This! Microarchitectural Timing Attacks via Machine Clears",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3676641.3716274": {
+    "doi": "https://doi.org/10.1145/3676641.3716274",
+    "publication_date": "2025-02-08",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "ASPLOS '25: 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2502.05429v1",
+    "summary": "Cet article étudie les implications de sécurité du code auto-modifié (SMC) sur les processeurs x86. Les auteurs montrent que le SMC induit des comportements microarchitecturaux spécifiques au niveau du cache d'instructions, créant des écarts de temps mesurables entre les succès et les échecs de cache. Ces variations permettent d'améliorer l'efficacité et la discrétion des attaques par cache, telles que Prime+Probe et Flush+Reload, pour cibler des clés cryptographiques ou établir des canaux cachés de type Spectre. Enfin, une méthode de détection dynamique basée sur des compteurs de performance matériels est proposée.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SMaCk: Efficient Instruction Cache Attacks via Self-Modifying Code Conflicts",
+    "venue_landmark": "ASPLOS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3676642.3736125": {
     "publication_date": "2025-08-06",
     "publication_type": "conference",
@@ -5359,6 +5399,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:cipherguardcompileraidedmitigationagainstciphertextsidechannelattacks": {
+    "doi": "",
+    "publication_date": "2025-02-19",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2502.13401v2",
+    "summary": "CipherGuard est un outil de mitigation basé sur un compilateur (LLVM) conçu pour contrer les canaux auxiliaires sur les textes chiffrés (ciphertext side channels) dus au chiffrement mémoire déterministe dans les environnements d'exécution de confiance (TEE). Il utilise le chiffrement probabiliste assisté par logiciel, l'allocation de registres sensible aux secrets et l'obfuscation pour réduire les surcoûts de performance par rapport aux méthodes existantes.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "CipherGuard: Compiler-aided Mitigation against Ciphertext Side-channel Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:coverageguidedpresiliconfuzzingofopensourceprocessorsbasedonleakagecontracts": {
     "doi": "",
     "publication_date": "2025-11-11",
@@ -5818,6 +5878,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:latteoaframeworktosupportlearningasynchronouslytemperedwithtrustedexecutionandobfuscation": {
+    "doi": "",
+    "publication_date": "2025-02-07",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2502.04601v1",
+    "summary": "LATTEO est un cadre de sécurité pour l'apprentissage fédéré asynchrone combinant obfuscation de gradient et environnements d'exécution de confiance (TEEs) pour sécuriser l'agrégation en périphérie de réseau tout en remplaçant l'attestation conventionnelle par un mécanisme basé sur le chiffrement par attributs.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "LATTEO: A Framework to Support Learning Asynchronously Tempered with Trusted Execution and Obfuscation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:leveraginggem5andmachinelearningforendtoenddetectionofcachebasedsidechannelattackpatterns": {
     "publication_date": "2025-09-18",
     "score": 85,
@@ -5978,6 +6058,26 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "PDRIMA: A Policy-Driven Runtime Integrity Measurement and Attestation Approach for ARM TrustZone-based TEE",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:pmudatadatatracescouldbedistinguished": {
+    "doi": "",
+    "publication_date": "2025-02-15",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2502.10722v1",
+    "summary": "Cet article étudie les effets secondaires de l'utilisation de l'unité de surveillance des performances (PMU) dans les processeurs modernes. Les auteurs introduisent PMU-Data, une nouvelle catégorie d'attaques par canal auxiliaire permettant de récupérer des opérandes d'instructions et de fuir des données secrètes. L'attaque utilise des gadgets encodant des données dans des traces de PMU sans modifier le flux de contrôle, identifiant ainsi 40 événements PMU vulnérables et démontrant des fuites de données du noyau, des canaux cachés et des compromissions d'environnements d'exécution de confiance (TEE).",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "PMU-Data: Data Traces Could be Distinguished",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -6448,6 +6548,46 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "The Real Menace of Cloning Attacks on SGX Applications",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:tnicatrustednicarchitecture": {
+    "doi": "",
+    "publication_date": "2025-02-07",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2502.05338v1",
+    "summary": "Cet article présente TNIC, une architecture de carte réseau de confiance (Trusted NIC) conçue pour les systèmes distribués dans des environnements cloud non fiables. TNIC intègre une racine de confiance matérielle minimale et formellement vérifiée au niveau de l'interface réseau, offrant une isolation de sécurité unifiée indépendante du processeur hôte, une base de calcul de confiance (TCB) vérifiable et une pile réseau matérielle accélérée.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "TNIC: A Trusted NIC Architecture",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:towardsreinforcementlearningforexplorationofspeculativeexecutionvulnerabilities": {
+    "doi": "",
+    "publication_date": "2025-02-24",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2502.16756v2",
+    "summary": "Ce papier présente SpecRL, un framework utilisant l'apprentissage par renforcement pour découvrir des fuites liées à l'exécution spéculative dans des microprocesseurs en post-silicium (boîte noire).",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Towards Reinforcement Learning for Exploration of Speculative Execution Vulnerabilities",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,

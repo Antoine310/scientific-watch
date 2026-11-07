@@ -2200,6 +2200,14 @@
       "title": "Rapid, high-throughput isolation of tumor specific small extracellular vesicles using radial flow microfluidic chip with IEDDA chemistry (ExoOnco ChipEpCAM−TCO)",
       "updated_at": "2026-11-04T16:50:37.702112+00:00"
     },
+    "doi:10.1016/j.cca.2024.120107": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Quantifying sampling method-induced imprecision in user-friendly lateral upper arm blood collection: Introducing σ3-methodology (S3) for the verification of alternative sampling methods with TAP® II as a use case",
+      "updated_at": "2026-11-07T01:36:47.370350+00:00"
+    },
     "doi:10.1016/j.cej.2025.167751": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -3263,6 +3271,14 @@
       "status": "rejected",
       "title": "Experimental EMFI detection on a RISC-V core using the Trace Verifier solution",
       "updated_at": "2026-11-06T02:14:55.720118+00:00"
+    },
+    "doi:10.1016/j.micpro.2025.105143": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Open-source ROS-based simulation for verification of FPGA robotics applications",
+      "updated_at": "2026-11-07T01:36:57.300004+00:00"
     },
     "doi:10.1016/j.micpro.2025.105185": {
       "category": "secondaire_technique",
@@ -10728,6 +10744,14 @@
       "title": "TF-HTPA: Distributed Optical Fiber Sensing Pattern Recognition Framework Based on Time–Frequency Fusion and Hierarchical Temporal Partition Attention",
       "updated_at": "2026-11-03T14:09:08.355793+00:00"
     },
+    "doi:10.1109/jssc.2024.3440506": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A 1.8% FAR, 2 ms Decision Latency, 1.73 nJ/Decision Keywords-Spotting (KWS) Chip Incorporating Transfer-Computing Speaker Verification, Hybrid-IF-Domain Computing and Scalable 5T-SRAM",
+      "updated_at": "2026-11-07T01:36:28.935770+00:00"
+    },
     "doi:10.1109/jssc.2024.3440970": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -14408,6 +14432,14 @@
       "title": "Give Me a Secure Ride: TEE-Blockchain Enabled Privacy-Aware and Verifiable Ride Sharing Services",
       "updated_at": "2026-11-03T15:08:21.645571+00:00"
     },
+    "doi:10.1109/tse.2026.3655766}": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Automated TEE Adaptation with LLMs: Identifying, Transforming, and Porting Sensitive Functions in Programs",
+      "updated_at": "2026-11-07T01:39:17.827396+00:00"
+    },
     "doi:10.1109/tse.2026.3692469": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -15944,6 +15976,14 @@
       "title": "Leveraging BRSKI to Protect the Hardware Supply Chain of Operational Technology: Opportunities and Challenges",
       "updated_at": "2026-11-06T21:37:07.151046+00:00"
     },
+    "doi:10.1145/3672608.3707711": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "U Can Touch This! Microarchitectural Timing Attacks via Machine Clears",
+      "updated_at": "2026-11-07T01:40:24.537026+00:00"
+    },
     "doi:10.1145/3672608.3707855": {
       "category": "secondaire",
       "decision": "examiner",
@@ -15975,6 +16015,14 @@
       "status": "rejected",
       "title": "Hardware Sentinel: Protecting Software Applications from Hardware Silent Data Corruptions",
       "updated_at": "2026-11-06T21:36:48.541009+00:00"
+    },
+    "doi:10.1145/3676641.3716274": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "SMaCk: Efficient Instruction Cache Attacks via Self-Modifying Code Conflicts",
+      "updated_at": "2026-11-07T01:40:17.035170+00:00"
     },
     "doi:10.1145/3676641.3716277": {
       "category": "secondaire_technique",
@@ -28280,6 +28328,14 @@
       "title": "AttestLLM: Efficient Attestation Framework for Billion-scale On-device LLMs",
       "updated_at": "2026-11-04T17:48:55.140135+00:00"
     },
+    "title:auditingpromptcachinginlanguagemodelapis": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Auditing Prompt Caching in Language Model APIs",
+      "updated_at": "2026-11-07T01:39:51.455741+00:00"
+    },
     "title:ausercentricprivacypreservingandverifiableecosystemforpersonaldatamanagementandutilization": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -28568,6 +28624,14 @@
       "title": "Chypothermia: Clock Freezing for Static Side-channel Attacks",
       "updated_at": "2026-11-02T15:52:18.938512+00:00"
     },
+    "title:cipherguardcompileraidedmitigationagainstciphertextsidechannelattacks": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "CipherGuard: Compiler-aided Mitigation against Ciphertext Side-channel Attacks",
+      "updated_at": "2026-11-07T01:39:29.947124+00:00"
+    },
     "title:clawedanddangerouscanwetrustopenagenticsystems": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -28848,6 +28912,14 @@
       "title": "DistilLock: Safeguarding LLMs from Unauthorized Knowledge Distillation on the Edge",
       "updated_at": "2026-11-04T13:26:26.110560+00:00"
     },
+    "title:ditingastaticanalyzerforidentifyingbadpartitioningissuesinteeapplications": {
+      "category": "secondaire_technique",
+      "decision": "conserver",
+      "score": 65,
+      "status": "rejected",
+      "title": "DITING: A Static Analyzer for Identifying Bad Partitioning Issues in TEE Applications",
+      "updated_at": "2026-11-07T01:39:30.028663+00:00"
+    },
     "title:doublestrikebreakingapproximationbasedsidechannelcountermeasuresfordnns": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -29039,6 +29111,14 @@
       "status": "rejected",
       "title": "Ethical Hyper-Velocity (EHV): A Hardware-Rooted Zero-Trust Runtime Enforcement Architecture for Agentic AI Systems",
       "updated_at": "2026-11-03T10:11:48.542878+00:00"
+    },
+    "title:evaluatingtheperformanceofthedeepseekmodelinconfidentialcomputingenvironment": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Evaluating the Performance of the DeepSeek Model in Confidential Computing Environment",
+      "updated_at": "2026-11-07T01:39:17.786283+00:00"
     },
     "title:evidenceboundgatewaypathprovenanceforthirdpartyllminference": {
       "category": "secondaire",
@@ -29312,6 +29392,14 @@
       "title": "Global Microprocessor Correctness in the Presence of Transient Execution",
       "updated_at": "2026-11-05T06:49:21.454129+00:00"
     },
+    "title:godmodelprivacypreservedaischoolforpersonalassistant": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "GOD model: Privacy Preserved AI School for Personal Assistant",
+      "updated_at": "2026-11-07T01:39:30.067084+00:00"
+    },
     "title:goldenfuzzgenerativegoldenreferencehardwarefuzzing": {
       "category": "coeur",
       "decision": "conserver",
@@ -29335,6 +29423,14 @@
       "status": "imported",
       "title": "Granite: A Modular Methodology for Foundational Verification of Hardware-Software Leakage Contracts",
       "updated_at": "2026-11-02T19:58:25.989826+00:00"
+    },
+    "title:graphinthevaultprotectingedgegnninferencewithtrustedexecutionenvironment": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Graph in the Vault: Protecting Edge GNN Inference with Trusted Execution Environment",
+      "updated_at": "2026-11-07T01:39:29.988660+00:00"
     },
     "title:guillotinehypervisorsforisolatingmaliciousais": {
       "category": "hors_sujet",
@@ -29672,6 +29768,14 @@
       "title": "LASHED: LLMs And Static Hardware Analysis for Early Detection of RTL Bugs",
       "updated_at": "2026-11-06T11:37:20.523033+00:00"
     },
+    "title:latteoaframeworktosupportlearningasynchronouslytemperedwithtrustedexecutionandobfuscation": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "LATTEO: A Framework to Support Learning Asynchronously Tempered with Trusted Execution and Obfuscation",
+      "updated_at": "2026-11-07T01:39:07.828325+00:00"
+    },
     "title:lessonsfromthehardwarehackingcompetitionsverificationtechniquesfindingsandinsights": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -29864,6 +29968,14 @@
       "title": "Narrowing the Gap between TEEs Threat Model and Deployment Strategies",
       "updated_at": "2026-11-05T05:55:26.743009+00:00"
     },
+    "title:ndaiagreements": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "NDAI Agreements",
+      "updated_at": "2026-11-07T01:39:07.871977+00:00"
+    },
     "title:netdetoxadversarialandefficientevasionofhardwaresecuritygnnsviarlllmorchestration": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -29879,6 +29991,14 @@
       "status": "rejected",
       "title": "Neural network approach to mitigating intra-gate crosstalk in superconducting CZ gates",
       "updated_at": "2026-11-03T14:53:49.445056+00:00"
+    },
+    "title:newsecuritychallengestowardsinsensorcomputingsystems": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "New Security Challenges Towards In-Sensor Computing Systems",
+      "updated_at": "2026-11-07T01:37:07.455121+00:00"
     },
     "title:noisyneighborexploitingrdmaforresourceexhaustionattacksincontainerizedclouds": {
       "category": "hors_sujet",
@@ -30120,6 +30240,14 @@
       "title": "Pirateship: Append-Only Ledgers for (Mostly) Trusted Execution Environments",
       "updated_at": "2026-11-03T16:30:43.659522+00:00"
     },
+    "title:pmudatadatatracescouldbedistinguished": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "PMU-Data: Data Traces Could be Distinguished",
+      "updated_at": "2026-11-07T01:39:17.743088+00:00"
+    },
     "title:poisoncapefficienthierarchicaltemporalsafetyforcheri": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -30343,6 +30471,14 @@
       "status": "imported",
       "title": "RealmEye: Virtual Machine Introspection for Arm CCA Realm VMs",
       "updated_at": "2026-11-02T18:03:45.415026+00:00"
+    },
+    "title:recipehardwareacceleratedreplicationprotocols": {
+      "category": "secondaire_technique",
+      "decision": "conserver",
+      "score": 70,
+      "status": "rejected",
+      "title": "Recipe: Hardware-Accelerated Replication Protocols",
+      "updated_at": "2026-11-07T01:39:07.914445+00:00"
     },
     "title:recommendationsfordesignandvalidationofaphysicaltruerandomnumbergeneratorintegratedinanelectronicdevice": {
       "category": "secondaire",
@@ -31224,6 +31360,14 @@
       "title": "Timing and Memory Telemetry on GPUs for AI Governance",
       "updated_at": "2026-11-03T16:31:31.356412+00:00"
     },
+    "title:tnicatrustednicarchitecture": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "TNIC: A Trusted NIC Architecture",
+      "updated_at": "2026-11-07T01:38:02.467221+00:00"
+    },
     "title:towardprovablyprivateanalyticsandinsightsintogenaiuse": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -31271,6 +31415,14 @@
       "status": "rejected",
       "title": "Towards Quantum Sensing for Side-Channel Analysis",
       "updated_at": "2026-10-31T07:10:38.187436+00:00"
+    },
+    "title:towardsreinforcementlearningforexplorationofspeculativeexecutionvulnerabilities": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Towards Reinforcement Learning for Exploration of Speculative Execution Vulnerabilities",
+      "updated_at": "2026-11-07T01:41:18.015587+00:00"
     },
     "title:towardsreliableandsecureriscvsystemssurveyoftestabilityandsecuritymechanisms": {
       "category": "coeur",
