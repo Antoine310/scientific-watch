@@ -1419,6 +1419,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/msec.2023.3251954": {
+    "doi": "https://doi.org/10.1109/msec.2023.3251954",
+    "publication_date": "2023-04-20",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Security & Privacy",
+    "score": 90,
+    "source": "https://doi.org/10.1109/msec.2023.3251954",
+    "summary": "Cet article decrit la verification de securite du projet OpenTitan en utilisant le suivi des flux d'information pour transformer des exigences de securite en proprietes formelles verifiees avec l'outil Radix de Cycuity, ce qui a permis d'identifier des faiblesses et d'apporter des corrections materielles.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Security Verification of the OpenTitan Hardware Root of Trust",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/msec.2023.3299349": {
     "doi": "https://doi.org/10.1109/msec.2023.3299349",
     "publication_date": "2023-09-01",
@@ -2324,6 +2341,23 @@
       "T08 — Cache & Temporal Isolation"
     ],
     "title": "CacheFX: A Framework for Evaluating Cache Security",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3579988.3585056": {
+    "doi": "https://doi.org/10.1145/3579988.3585056",
+    "publication_date": "2023-04-13",
+    "publication_type": "conference",
+    "publication_venue": "ACM Workshop on Secure and Trustworthy Cyber-Physical Systems (SaT-CPS)",
+    "score": 82,
+    "source": "https://doi.org/10.1145/3579988.3585056",
+    "summary": "Cet article analyse la manière dont l'attestation à distance (RA) repose sur les propriétés de sécurité des environnements d'exécution de confiance (TEE). En s'appuyant sur la notation GSN (Goal Structuring Notation), les auteurs construisent des arguments d'assurance pour cartographier la dépendance entre la RA, les propriétés des TEE et la littérature existante.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Remote Attestation Assurance Arguments for Trusted Execution Environments",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -4424,6 +4458,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2304.10268": {
+    "doi": "https://doi.org/10.48550/arxiv.2304.10268",
+    "publication_date": "2023-04-20",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2304.10268",
+    "summary": "Cet article présente BackCache, une co-conception matérielle-logicielle visant à atténuer les attaques temporelles par canal caché basées sur la contention sur le cache de données L1. L'approche consiste à masquer les évictions de lignes de cache en les plaçant dans un cache de sauvegarde entièrement associatif pour garantir des succès de cache au lieu de défauts. L'évaluation sur le simulateur gem5 montre une faible dégradation des performances.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "BackCache: Mitigating Contention-Based Cache Timing Attacks by Hiding Cache Line Evictions",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2306.01996": {
     "doi": "https://doi.org/10.48550/arxiv.2306.01996",

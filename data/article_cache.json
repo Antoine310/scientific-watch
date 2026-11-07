@@ -448,6 +448,14 @@
       "title": "P‐5.11: Lightweight Hardware Accelerator for Real‐Time Object Detection on Zynq‐7020",
       "updated_at": "2026-11-02T18:51:13.378553+00:00"
     },
+    "doi:10.1002/smll.202302842": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Attack Resilient True Random Number Generators Using Ferroelectric‐Enhanced Stochasticity in 2D Transistor",
+      "updated_at": "2026-11-07T02:13:33.415826+00:00"
+    },
     "doi:10.1002/smll.75550": {
       "category": "secondaire",
       "decision": "examiner",
@@ -4615,6 +4623,14 @@
       "status": "rejected",
       "title": "Coordinated Control Design and Hardware-in-the-Loop Verification of High-Temperature Methanol Reforming Fuel Cell System Based on Fuzzy Logic Optimized by Genetic Algorithm",
       "updated_at": "2026-11-04T21:50:19.251718+00:00"
+    },
+    "doi:10.1063/5.0145875": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A true random number generator based on double threshold-switching memristors for image encryption",
+      "updated_at": "2026-11-07T02:13:33.415805+00:00"
     },
     "doi:10.1063/5.0275293": {
       "category": "hors_sujet",
@@ -9384,6 +9400,14 @@
       "title": "QED: Scalable Consistency Verification of Memory Instruction Reordering in Hardware",
       "updated_at": "2026-11-03T09:07:33.657588+00:00"
     },
+    "doi:10.1109/iscas46773.2023.10181362": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "In-NVRAM Unified PUF and TRNG Based on Standard CMOS Technology",
+      "updated_at": "2026-11-07T02:13:22.943491+00:00"
+    },
     "doi:10.1109/iscas46773.2023.10181732": {
       "category": "coeur",
       "decision": "examiner",
@@ -11591,6 +11615,14 @@
       "status": "rejected",
       "title": "Predicting the Temporal Variability of Error Rates in Superconducting Quantum Processors: Mitigating Error Accuracy Loss in Queue-Based Quantum Computing Platforms [Focus: Quantum Software and its Engineering]",
       "updated_at": "2026-11-04T20:25:10.372716+00:00"
+    },
+    "doi:10.1109/msec.2023.3251954": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Security Verification of the OpenTitan Hardware Root of Trust",
+      "updated_at": "2026-11-07T02:13:54.754296+00:00"
     },
     "doi:10.1109/msec.2023.3299349": {
       "category": "coeur",
@@ -15664,6 +15696,14 @@
       "title": "The Pomarinho enclave swarm: structural and petrological evidence of repeated quenching, splitting and magmatic erosion at the sidewalls of conduits (Iberian Variscan belt)",
       "updated_at": "2026-11-02T20:16:46.220256+00:00"
     },
+    "doi:10.1145/3577923.3583652": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "SCAtt-man: Side-Channel-Based Remote Attestation for Embedded Devices that Users Understand",
+      "updated_at": "2026-11-07T02:13:52.992612+00:00"
+    },
     "doi:10.1145/3578359.3593037": {
       "category": "coeur",
       "decision": "conserver",
@@ -15712,6 +15752,14 @@
       "title": "CacheFX: A Framework for Evaluating Cache Security",
       "updated_at": "2026-11-06T17:13:38.737675+00:00"
     },
+    "doi:10.1145/3579988.3585056": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 82,
+      "status": "imported",
+      "title": "Remote Attestation Assurance Arguments for Trusted Execution Environments",
+      "updated_at": "2026-11-07T02:14:17.717877+00:00"
+    },
     "doi:10.1145/3583740.3628441": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -15727,6 +15775,22 @@
       "status": "rejected",
       "title": "SCRAMBLE-CFI: Mitigating Fault-Induced Control-Flow Attacks on OpenTitan",
       "updated_at": "2026-11-06T23:13:44.360633+00:00"
+    },
+    "doi:10.1145/3592607": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 74,
+      "status": "rejected",
+      "title": "End-to-End Security for Distributed Event-driven Enclave Applications on Heterogeneous TEEs",
+      "updated_at": "2026-11-07T02:15:13.965462+00:00"
+    },
+    "doi:10.1145/3597418": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Increasing the Robustness of TERO-TRNGs Against Process Variation",
+      "updated_at": "2026-11-07T02:13:33.415830+00:00"
     },
     "doi:10.1145/3600160.3600171": {
       "category": "coeur",
@@ -25343,6 +25407,14 @@
       "status": "rejected",
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
+    },
+    "doi:10.48550/arxiv.2304.10268": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "BackCache: Mitigating Contention-Based Cache Timing Attacks by Hiding Cache Line Evictions",
+      "updated_at": "2026-11-07T02:14:36.424072+00:00"
     },
     "doi:10.48550/arxiv.2306.01996": {
       "category": "coeur",
