@@ -4246,6 +4246,26 @@
     ],
     "title": "Dorami: Privilege Separating Security Monitor on RISC-V TEEs"
   },
+  "doi:10.46586/tches.v2025.i1.227-250": {
+    "doi": "https://doi.org/10.46586/tches.v2025.i1.227-250",
+    "publication_date": "2024-12-09",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-12-09",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 92,
+    "source": "https://doi.org/10.46586/tches.v2025.i1.227-250",
+    "summary": "Cet article présente « call rewinding », un mécanisme microarchitectural innovant de protection des adresses de retour visant à renforcer l'intégrité du flux de contrôle (CFI) contre les attaques par réutilisation de code. La méthode exploite une propriété des conventions d'appel communes aux architectures x86, ARM et RISC-V pour vérifier si la cible d'un retour provient d'un site d'appel valide, en optimisant la vérification grâce aux prédictions de branchement. Les auteurs ont implémenté et évalué ce mécanisme sur un processeur RISC-V CV64A6, démontrant une efficacité élevée avec un impact négligeable sur la surface et les performances.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Call Rewinding: Efficient Backward Edge Protection",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.46586/tches.v2025.i2.268-292": {
     "doi": "https://doi.org/10.46586/tches.v2025.i2.268-292",
     "publication_date": "2025-03-04",
