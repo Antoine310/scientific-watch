@@ -6424,6 +6424,30 @@
       "title": "T-Edge: Trusted Heterogeneous Edge Computing",
       "updated_at": "2026-11-07T15:37:55.276123+00:00"
     },
+    "doi:10.1109/acsac63791.2024.00035": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 74,
+      "status": "rejected",
+      "title": "TRACES: TEE-based Runtime Auditing for Commodity Embedded Systems",
+      "updated_at": "2026-11-07T20:37:10.651292+00:00"
+    },
+    "doi:10.1109/acsac63791.2024.00046": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "SecurityHub: Electromagnetic Fingerprinting USB Peripherals using Backscatter-assisted Commodity Hardware",
+      "updated_at": "2026-11-07T20:37:10.680657+00:00"
+    },
+    "doi:10.1109/acsac63791.2024.00050": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Janus: Enhancing Asynchronous Common Subset with Trusted Hardware",
+      "updated_at": "2026-11-07T20:37:10.709688+00:00"
+    },
     "doi:10.1109/acsac63791.2024.00055": {
       "category": "coeur",
       "decision": "conserver",
@@ -6431,6 +6455,14 @@
       "status": "imported",
       "title": "SpecCFA: Enhancing Control Flow Attestation/Auditing via Application-Aware Sub-Path Speculation",
       "updated_at": "2026-11-02T17:14:23.799608+00:00"
+    },
+    "doi:10.1109/acsac63791.2024.00094": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Robust Device Authentication in Multi-Node Networks: ML-Assisted Hybrid PLA Exploiting Hardware Impairments",
+      "updated_at": "2026-11-07T20:37:10.738693+00:00"
     },
     "doi:10.1109/acsac67867.2025.00049": {
       "category": "coeur",
@@ -6704,6 +6736,30 @@
       "title": "SecRiSBen: A RISC-V based SoC Benchmark for Evaluation of Security Verification Tools",
       "updated_at": "2026-11-07T19:37:07.829365+00:00"
     },
+    "doi:10.1109/asianhost63913.2024.10838478": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "PreLock: Precision Locking for Protecting Embedded Processor",
+      "updated_at": "2026-11-07T20:36:41.161424+00:00"
+    },
+    "doi:10.1109/asianhost63913.2024.10838484": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Sorting Attacks Resilient Authentication Protocol for CMOS Image Sensor Based PUF",
+      "updated_at": "2026-11-07T20:36:41.194545+00:00"
+    },
+    "doi:10.1109/asianhost63913.2024.10838487": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Power Side-Channel Key Recovery Attack on a Hardware Implementation of BIKE",
+      "updated_at": "2026-11-07T20:36:41.225234+00:00"
+    },
     "doi:10.1109/asianhost68425.2025.11370351": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -6808,6 +6864,14 @@
       "title": "A Lightweight Verification Framework for RISC-V SoCs Based on RTL Lint and Differential Testing",
       "updated_at": "2026-11-02T21:18:53.437471+00:00"
     },
+    "doi:10.1109/ats64447.2024.10915219": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Security Vulnerabilities in AI Hardware: Threats and Countermeasures",
+      "updated_at": "2026-11-07T20:36:51.522798+00:00"
+    },
     "doi:10.1109/ats64447.2024.10915242": {
       "category": "secondaire",
       "decision": "examiner",
@@ -6815,6 +6879,22 @@
       "status": "rejected",
       "title": "MTCX: Ultra-high Throughput TRNG Based on Mesh topology of Coupled-XOR",
       "updated_at": "2026-11-02T20:13:42.229534+00:00"
+    },
+    "doi:10.1109/ats64447.2024.10915390": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Security Concerns of Machine Learning Hardware",
+      "updated_at": "2026-11-07T20:36:51.551881+00:00"
+    },
+    "doi:10.1109/ats64447.2024.10915476": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "LLMs for Hardware Verification: Frameworks, Techniques, and Future Directions",
+      "updated_at": "2026-11-07T20:36:59.111098+00:00"
     },
     "doi:10.1109/austrochip67945.2025.11183709": {
       "category": "secondaire",
@@ -6839,6 +6919,14 @@
       "status": "rejected",
       "title": "Vicuna2.0: RISC-V Embedded Vector Unit with Half-Precision Floating-Point Support for TinyML",
       "updated_at": "2026-11-04T20:50:20.210577+00:00"
+    },
+    "doi:10.1109/auteee62881.2024.10869662": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Research on the System of Hardware Security Protection Module of Automobile Chips Based on HSM Vehicle Network",
+      "updated_at": "2026-11-07T20:36:41.344494+00:00"
     },
     "doi:10.1109/bcca66705.2025.11229770": {
       "category": "hors_sujet",
@@ -6887,6 +6975,14 @@
       "status": "rejected",
       "title": "COoL-TEE: Client-TEE Collaboration for Resilient Distributed Search",
       "updated_at": "2026-11-06T18:37:55.041032+00:00"
+    },
+    "doi:10.1109/ccis63231.2024.10932003": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Secure Federated Learning for Gate-Level IP Hardware Trojan Detection Using Homomorphic Encryption",
+      "updated_at": "2026-11-07T20:37:10.767174+00:00"
     },
     "doi:10.1109/ccnc65079.2026.11366346": {
       "category": "coeur",
@@ -6943,6 +7039,14 @@
       "status": "rejected",
       "title": "Design and Performance Evaluation of RISC-V Embedded Processor Using HDL",
       "updated_at": "2026-11-07T06:37:48.249897+00:00"
+    },
+    "doi:10.1109/ceect63656.2024.10898415": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Busbar Differential Protection System Testing Based on Practical Considerations Using Real-Time Digital Simulator Hardware-In-the-Loop Technique",
+      "updated_at": "2026-11-07T20:36:51.343836+00:00"
     },
     "doi:10.1109/cfpr67343.2025.11013000": {
       "category": "hors_sujet",
@@ -8320,6 +8424,22 @@
       "title": "LUT Level Information Flow Tracking for FPGA Design Security Verification",
       "updated_at": "2026-11-02T17:14:33.820988+00:00"
     },
+    "doi:10.1109/globecom52923.2024.10901169": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Wire-speed DDoS Attack Mitigation using Hardware Acceleration of Programmable DPUs",
+      "updated_at": "2026-11-07T20:36:51.402224+00:00"
+    },
+    "doi:10.1109/globecom52923.2024.10901523": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Pilot-Attacks Can Enable Positive-Rate Covert Communications of Wireless Hardware Trojans",
+      "updated_at": "2026-11-07T20:36:51.431905+00:00"
+    },
     "doi:10.1109/globecom59602.2025.11432218": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -9071,6 +9191,14 @@
       "status": "rejected",
       "title": "HERO: A High-Efficient RISC-V Exploration and Optimization Framework",
       "updated_at": "2026-11-07T06:37:48.383496+00:00"
+    },
+    "doi:10.1109/icces63552.2024.10859589": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Fuzzy Logic-Driven Approaches to Enhancing Hardware Security in IoT Devices",
+      "updated_at": "2026-11-07T20:36:41.284701+00:00"
     },
     "doi:10.1109/iccies63851.2025.11032419": {
       "category": "hors_sujet",
@@ -10928,6 +11056,14 @@
       "title": "Design of a RISC-V Based Hybrid Encryption Coprocessor for Resource-Constrained Environments",
       "updated_at": "2026-11-06T10:37:22.073914+00:00"
     },
+    "doi:10.1109/ises63344.2024.00034": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Secure Accelerated Computing: High-Level Synthesis Based Hardware Accelerator Design for CNN Applications",
+      "updated_at": "2026-11-07T20:36:41.373226+00:00"
+    },
     "doi:10.1109/ises63344.2024.00046": {
       "category": "secondaire",
       "decision": "examiner",
@@ -10935,6 +11071,14 @@
       "status": "rejected",
       "title": "A Hardware-Software Co-Design Approach to Implement PUFs and TRNGs on FPGAs",
       "updated_at": "2026-11-02T20:13:42.229516+00:00"
+    },
+    "doi:10.1109/ises63344.2024.00086": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "SecureHD: Designing Low-Cost Reliable and Security Aware Hardware Accelerators During High-Level Synthesis for Computationally Intensive Application Frameworks",
+      "updated_at": "2026-11-07T20:36:51.282420+00:00"
     },
     "doi:10.1109/isitia71267.2026.11642387": {
       "category": "hors_sujet",
@@ -15496,6 +15640,14 @@
       "title": "Area-Optimized RISC-V Matrix Extension Implementation for Edge Devices",
       "updated_at": "2026-11-04T13:24:27.843660+00:00"
     },
+    "doi:10.1109/tencon61640.2024.10902763": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Hardware Accelerator for Deep Neural Networks on Edge Devices Based on RISC-V Open Standard Instruction Set Architecture",
+      "updated_at": "2026-11-07T20:36:51.372372+00:00"
+    },
     "doi:10.1109/tensymp63728.2025.11144958": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -16520,6 +16672,14 @@
       "title": "PLC Modem With Hardware Implementation of Data Verification",
       "updated_at": "2026-11-03T11:07:20.050210+00:00"
     },
+    "doi:10.1109/vcc63113.2024.10914407": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Impact of Residual Hardware Impairments on RIS-Aided Authentication",
+      "updated_at": "2026-11-07T20:36:51.462363+00:00"
+    },
     "doi:10.1109/vcris68011.2025.11250546": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -17167,6 +17327,14 @@
       "status": "rejected",
       "title": "Hardware-Accelerated 0-RTT TLS 1.3 for Resource-Constrained IoT Devices: Implementation and Security Analysis",
       "updated_at": "2026-11-03T13:50:44.297687+00:00"
+    },
+    "doi:10.1134/s1063739724700938": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Software-Hardware Complex for Accelerating System-on-Chip Design Verification",
+      "updated_at": "2026-11-07T20:36:41.314140+00:00"
     },
     "doi:10.1134/s1063784225601322": {
       "category": "secondaire",
@@ -18151,6 +18319,14 @@
       "status": "rejected",
       "title": "WebAssembly for Container Runtime: Are We There Yet?",
       "updated_at": "2026-11-05T02:25:46.481393+00:00"
+    },
+    "doi:10.1145/3712464.3712500": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Integrating Information Security and Hardware Defense in Medical Printers: Addressing RowHammer Vulnerabilities",
+      "updated_at": "2026-11-07T20:36:51.312935+00:00"
     },
     "doi:10.1145/3713078": {
       "category": "secondaire",
@@ -23272,6 +23448,14 @@
       "title": "Rapid Improvement of Legacy Helium Leak Acceptance Tests for Safety Critical Spaceflight Hardware",
       "updated_at": "2026-11-03T10:52:19.900065+00:00"
     },
+    "doi:10.25140/2411-5363-2024-4(38)-172-188": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Methodology for comparison of information technologies for development of remote hardware laboratories",
+      "updated_at": "2026-11-07T20:37:10.620903+00:00"
+    },
     "doi:10.25140/2411-5363-2025-4(42)-195-207": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -23687,6 +23871,14 @@
       "status": "rejected",
       "title": "Scenario Selection and Prioritization for ADAS Hardware-in-the-Loop Validation: A Structured Critical Review",
       "updated_at": "2026-11-02T14:38:08.841222+00:00"
+    },
+    "doi:10.3103/s0146411624701074": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Development of Software and Hardware to Protect Technological Processes from Cyber Threats",
+      "updated_at": "2026-11-07T20:36:51.492331+00:00"
     },
     "doi:10.31127/tuje.1624366": {
       "category": "hors_sujet",
@@ -28895,6 +29087,14 @@
       "status": "rejected",
       "title": "Accelerating \\(x^n\\) Computation Using a Hardware-Integrated custom POW Instruction in 64-bit RISC-V Systems for Applied Mathematical Workloads",
       "updated_at": "2026-11-02T17:03:27.177810+00:00"
+    },
+    "doi:10.52783/cana.v32.2646": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Evaluation of Hardware Trojans in the Adder circuits",
+      "updated_at": "2026-11-07T20:36:41.255054+00:00"
     },
     "doi:10.52783/jisem.v10i45s.9142": {
       "category": "secondaire",
