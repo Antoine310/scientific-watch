@@ -2003,6 +2003,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/tcad.2024.3397880": {
+    "doi": "https://doi.org/10.1109/tcad.2024.3397880",
+    "publication_date": "2024-12-01",
+    "publication_date_note": "Date source Crossref : 2024-12 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2024-12",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "score": 90,
+    "source": "https://doi.org/10.1109/tcad.2024.3397880",
+    "summary": "Cet article présente AALERT, le premier mécanisme de détection conçu spécifiquement pour les attaques par exécution transitoire ciblant les fuites d'adresses (address-leakage), telles que Spoiler. Il intègre un filtre de Cuckoo dans le Memory Order Buffer (MOB) du processeur pour analyser les adresses à la volée, propose des contre-mesures associées et démontre un taux de détection de 99,99 % avec un surcoût de performance négligeable.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "CPU Address-Leakage Transient Execution Attack Detection and Its Countermeasures",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tcad.2024.3448264": {
     "doi": "https://doi.org/10.1109/tcad.2024.3448264",
     "publication_date": "2025-03-01",
@@ -3781,6 +3801,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.23919/jcc.ea.2021-0720.202401": {
+    "doi": "https://doi.org/10.23919/jcc.ea.2021-0720.202401",
+    "publication_date": "2024-12-01",
+    "publication_date_note": "Date source Crossref : 2024-12 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2024-12",
+    "publication_type": "revue",
+    "publication_venue": "China Communications",
+    "score": 90,
+    "source": "https://doi.org/10.23919/jcc.ea.2021-0720.202401",
+    "summary": "Cet article présente EBCache, un nouveau mécanisme de cache conçu pour atténuer les attaques Spectre sur les processeurs RISC-V en combinant le chiffrement des adresses et une liste noire (blacklist) pour contrer à la fois les canaux cachés basés sur l'éviction et sur la mise à jour.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "EBCache: A novel cache-based mechanism for mitigating the spectre attacks for RISC-V processor",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.26233/heallink.tuc.105404": {
     "publication_date": "2026-02-27",
