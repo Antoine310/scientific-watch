@@ -5420,6 +5420,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:analyzingandexploitingbranchmispredictionsinmicrocode": {
+    "doi": "",
+    "publication_date": "2025-01-22",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2501.12890v1",
+    "summary": "Cette publication présente uSpectre, une nouvelle classe d'attaques par exécution transitoire exploitant les prédictions erronées de branchements au niveau du microcode pour fuiter des données sensibles, et introduit une contre-mesure nommée uSLH.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Analyzing and Exploiting Branch Mispredictions in Microcode",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:antmananefficientandinterpretablertllevelruntimedetectionframeworkforstealthybranchpredictorattacksonboom": {
     "publication_date": "2026-08-10",
     "publication_date_note": "",
@@ -5551,6 +5571,26 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Chypothermia: Clock Freezing for Static Side-channel Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:cibpuaconflictinvisiblesecurebranchpredictionunit": {
+    "doi": "",
+    "publication_date": "2025-01-19",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2501.10983v1",
+    "summary": "Ce papier propose CIBPU (Conflict-Invisible Secure Branch Prediction Unit), une unité de prédiction de branchement sécurisée conçue pour surmonter les limitations des approches par isolation physique ou par chiffrement avec ré-randomisation périodique des clés. CIBPU utilise un stockage redondant, un indexation sensible à la charge, un mécanisme de remplacement et un chiffrement sans mise à jour périodique des clés pour empêcher la perception des conflits par un attaquant. L'évaluation montre une faible surcharge de performance.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "CIBPU: A Conflict-Invisible Secure Branch Prediction Unit",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -5711,6 +5751,26 @@
       "T10 — RISC-V SoC & FPGA"
     ],
     "title": "Efficient Trace for RISC-V: Design, Evaluation, and Integration in CVA6",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:eilidexecutionintegrityforlowendiotdevices": {
+    "doi": "",
+    "publication_date": "2025-01-16",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2501.09216v1",
+    "summary": "EILID est une architecture hybride conçue pour garantir l'intégrité de l'exécution des logiciels sur les appareils IoT bas de gamme. S'appuyant sur la racine de confiance hybride CASU, EILID surveille activement les violations de flux de contrôle pour assurer une intégrité du flux de contrôle (CFI) à grain fin pour les arêtes arrière et au niveau des fonctions pour les arêtes avant, grâce à une instrumentation de code semi-automatique et une pile fantôme sécurisée.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "EILID: Execution Integrity for Low-end IoT Devices",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -6080,6 +6140,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "LIPPEN: A Lightweight In-Place Pointer Encryption Architecture for Pointer Integrity",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:modernhardwaresecurityareviewofattacksandcountermeasures": {
+    "doi": "",
+    "publication_date": "2025-01-08",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 88,
+    "source": "http://arxiv.org/abs/2501.04394v1",
+    "summary": "Cet article de revue analyse l'état actuel des vulnérabilités matérielles et des stratégies d'atténuation dans les systèmes informatiques contemporains. Il aborde les attaques par canaux cachés (cache, puissance, électromagnétique), l'injection de fautes (glitch de tension), le chiffrement de la mémoire, ainsi que des architectures comme le Root of Trust, les PUF et RISC-V.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Modern Hardware Security: A Review of Attacks and Countermeasures",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,

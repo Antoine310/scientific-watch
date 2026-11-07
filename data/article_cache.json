@@ -1408,6 +1408,14 @@
       "title": "Lightweight detection and classification of RISC-V hardware exploits using machine learning techniques",
       "updated_at": "2026-11-02T11:13:21.226322+00:00"
     },
+    "doi:10.1007/s00778-024-00877-6": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "TEE-based Key-Value Stores: a Survey",
+      "updated_at": "2026-11-07T07:37:48.414895+00:00"
+    },
     "doi:10.1007/s10163-026-02686-1": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -9448,6 +9456,14 @@
       "title": "InjectV: Modeling Fault Injection Attacks in RISC-V Simulation Environment",
       "updated_at": "2026-11-02T05:14:51.375929+00:00"
     },
+    "doi:10.1109/iotais64014.2024.10799255": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Privacy-Preserving Data Quality Assessment for Time-Series IoT Sensors",
+      "updated_at": "2026-11-07T07:37:48.630373+00:00"
+    },
     "doi:10.1109/iotir66925.2025.00032": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -13248,6 +13264,30 @@
       "title": "A Scalable Formal Verification Methodology for Data-Oblivious Hardware",
       "updated_at": "2026-11-04T20:13:35.777348+00:00"
     },
+    "doi:10.1109/tcad.2024.3416865": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "TaintLock: Hardware IP Protection Against Oracle-Guided and Oracle-Reconstruction Attacks",
+      "updated_at": "2026-11-07T07:39:29.585341+00:00"
+    },
+    "doi:10.1109/tcad.2024.3418395": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Detection of Voltage Droop-Induced Timing Fault Attacks Due to Hardware Trojans",
+      "updated_at": "2026-11-07T07:39:29.620167+00:00"
+    },
+    "doi:10.1109/tcad.2024.3426364": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A Deep Investigation on Stealthy DVFS Fault Injection Attacks at DNN Hardware Accelerators",
+      "updated_at": "2026-11-07T07:39:29.652364+00:00"
+    },
     "doi:10.1109/tcad.2024.3448264": {
       "category": "coeur",
       "decision": "examiner",
@@ -13927,6 +13967,14 @@
       "status": "rejected",
       "title": "FPGA Assessment Methodology of Adverse X-Ray Effects on Secure Digital Circuits",
       "updated_at": "2026-11-06T19:38:37.979613+00:00"
+    },
+    "doi:10.1109/tdsc.2024.3399068": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "InvisiGuard: Data Integrity for Microcontroller-Based Devices via Hardware-Triggered Write Monitoring",
+      "updated_at": "2026-11-07T07:39:19.130828+00:00"
     },
     "doi:10.1109/tdsc.2024.3434667": {
       "category": "secondaire",
@@ -28688,6 +28736,14 @@
       "title": "Hardware–Software Co-Design for Reliable and Secure TinyML on Microcontrollers: A Narrative Review",
       "updated_at": "2026-11-02T15:15:10.724523+00:00"
     },
+    "title:acomprehensiveframeworkforbuildinghighlysecurenetworkconnecteddeviceschiptoapp": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 62,
+      "status": "rejected",
+      "title": "A Comprehensive Framework for Building Highly Secure, Network-Connected Devices: Chip to App",
+      "updated_at": "2026-11-07T07:37:16.220188+00:00"
+    },
     "title:acomprehensivesurveyonchallengesandnewdirectionsinhardwaresecurity": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -28848,6 +28904,14 @@
       "title": "A Multi-Interface Firmware Acquisition and Validation Methodology for Low-Cost Consumer Drones: A Case Study on Three Holy Stone Platforms",
       "updated_at": "2026-11-03T10:12:41.909606+00:00"
     },
+    "title:analyzingandexploitingbranchmispredictionsinmicrocode": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Analyzing and Exploiting Branch Mispredictions in Microcode",
+      "updated_at": "2026-11-07T07:38:41.500625+00:00"
+    },
     "title:anempiricalstudyofgpucachesidechannelleakageinlargelanguagemodelinference": {
       "category": "secondaire",
       "decision": "examiner",
@@ -28871,6 +28935,14 @@
       "status": "imported",
       "title": "ANTMAN: An Efficient and Interpretable RTL-Level Run-Time Detection Framework for Stealthy Branch Predictor Attacks on BOOM",
       "updated_at": "2026-11-02T17:53:04.893065+00:00"
+    },
+    "title:aperformanceanalysisofvmbasedtrustedexecutionenvironmentsforconfidentialfederatedlearning": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A performance analysis of VM-based Trusted Execution Environments for Confidential Federated Learning",
+      "updated_at": "2026-11-07T07:37:48.830945+00:00"
     },
     "title:apufbasedsecurityframeworkforfaultandintrusiondetection": {
       "category": "secondaire",
@@ -29272,6 +29344,14 @@
       "title": "Challenge-Response Authentication for LEO Satellite Channels: Exploiting Orbit-Specific Uniqueness",
       "updated_at": "2026-11-03T14:43:18.192978+00:00"
     },
+    "title:characterizationofgputeeoverheadsindistributeddataparallelmltraining": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Characterization of GPU TEE Overheads in Distributed Data Parallel ML Training",
+      "updated_at": "2026-11-07T07:37:56.184694+00:00"
+    },
     "title:characterizingthevarianceenvelopeamultidimensionalanalysisofspectretelemetryacrossarchitecturesandworkloads": {
       "category": "coeur",
       "decision": "conserver",
@@ -29319,6 +29399,14 @@
       "status": "imported",
       "title": "Chypothermia: Clock Freezing for Static Side-channel Attacks",
       "updated_at": "2026-11-02T15:52:18.938512+00:00"
+    },
+    "title:cibpuaconflictinvisiblesecurebranchpredictionunit": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "CIBPU: A Conflict-Invisible Secure Branch Prediction Unit",
+      "updated_at": "2026-11-07T07:37:38.542231+00:00"
     },
     "title:cipherguardcompileraidedmitigationagainstciphertextsidechannelattacks": {
       "category": "coeur",
@@ -29695,6 +29783,14 @@
       "status": "rejected",
       "title": "EigenAI: Deterministic Inference, Verifiable Results",
       "updated_at": "2026-11-03T18:11:38.954935+00:00"
+    },
+    "title:eilidexecutionintegrityforlowendiotdevices": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "EILID: Execution Integrity for Low-end IoT Devices",
+      "updated_at": "2026-11-07T07:37:08.189097+00:00"
     },
     "title:eimtrngobfuscatingdeepneuralnetworkweightswithencodinginmemorytruerandomnumbergeneratorviarowhammer": {
       "category": "secondaire",
@@ -30408,6 +30504,14 @@
       "title": "Jamming-Resilient Communication for Industrial IoT Systems using Chaotic Oscillators and Physical Unclonable Functions",
       "updated_at": "2026-11-03T11:13:23.740217+00:00"
     },
+    "title:jodesefficientobliviousjoininthedistributedsetting": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Jodes: Efficient Oblivious Join in the Distributed Setting",
+      "updated_at": "2026-11-07T07:37:48.663129+00:00"
+    },
     "title:kettleattestedbuildsforverifiablesoftwareprovenance": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -30552,6 +30656,14 @@
       "title": "LLMs in Cloud: A Discussion on Architecture, Orchestration, and Inference",
       "updated_at": "2026-11-02T13:03:57.253889+00:00"
     },
+    "title:logicalmaneuversdetectingandmitigatingadversarialhardwarefaultsinspace": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Logical Maneuvers: Detecting and Mitigating Adversarial Hardware Faults in Space",
+      "updated_at": "2026-11-07T07:37:38.575391+00:00"
+    },
     "title:logitboundarygeometricbeliefinterfacesandsparsesheafenclaveprotocolsaselfcontainedsubstrateforsecurenetworkelectronichealthrecordehrinteroperability": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -30607,6 +30719,14 @@
       "status": "rejected",
       "title": "Metadata-private Messaging without Coordination",
       "updated_at": "2026-11-06T11:39:23.908793+00:00"
+    },
+    "title:modernhardwaresecurityareviewofattacksandcountermeasures": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "Modern Hardware Security: A Review of Attacks and Countermeasures",
+      "updated_at": "2026-11-07T07:36:48.712568+00:00"
     },
     "title:moechoexploitingsidechannelattackstocompromiseuserprivacyinmixtureofexpertsllms": {
       "category": "secondaire",
@@ -30703,6 +30823,14 @@
       "status": "rejected",
       "title": "Noisy Neighbor: Exploiting RDMA for Resource Exhaustion Attacks in Containerized Clouds",
       "updated_at": "2026-11-04T13:49:57.333270+00:00"
+    },
+    "title:notexactlybyzantineefficientandresilientteebasedstatemachinereplication": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Not eXactly Byzantine: Efficient and Resilient TEE-Based State Machine Replication",
+      "updated_at": "2026-11-07T07:37:48.797306+00:00"
     },
     "title:observerquotientsecuritycomposableleakageboundsforhiddenstatecontinuations": {
       "category": "secondaire",
@@ -30920,6 +31048,14 @@
       "title": "Physically Unclonable Functions for Secure IoT Authentication and Hardware-Anchored AI Model Integrity",
       "updated_at": "2026-11-03T12:27:57.935745+00:00"
     },
+    "title:picachvformallyverifieddatausepolicyenforcementforsecuredataanalytics": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Picachv: Formally Verified Data Use Policy Enforcement for Secure Data Analytics",
+      "updated_at": "2026-11-07T07:37:48.763561+00:00"
+    },
     "title:picassoscalingcheriuseafterfreeprotectiontomillionsofallocationsusingcoloredcapabilities": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -30935,6 +31071,14 @@
       "status": "rejected",
       "title": "Pirateship: Append-Only Ledgers for (Mostly) Trusted Execution Environments",
       "updated_at": "2026-11-03T16:30:43.659522+00:00"
+    },
+    "title:pmdedupsecurededuplicationwithpartialmigrationfromcloudtoedgeservers": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "PM-Dedup: Secure Deduplication with Partial Migration from Cloud to Edge Servers",
+      "updated_at": "2026-11-07T07:37:48.378599+00:00"
     },
     "title:pmudatadatatracescouldbedistinguished": {
       "category": "coeur",
@@ -31007,6 +31151,14 @@
       "status": "rejected",
       "title": "Privacy-Preserving Product-Quantized Approximate Nearest Neighbor Search Framework for Large-scale Datasets via A Hybrid of Fully Homomorphic Encryption and Trusted Execution Environment",
       "updated_at": "2026-11-03T12:28:22.367395+00:00"
+    },
+    "title:privacypreservingsmartcontractsforpermissionedblockchainsazksnarkbasedrecipepart1": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Privacy-Preserving Smart Contracts for Permissioned Blockchains: A zk-SNARK-Based Recipe Part-1",
+      "updated_at": "2026-11-07T07:37:48.449079+00:00"
     },
     "title:privatecomputationspaceexperiencewithtrustedmulticlusterfederatedlearningforagriculture": {
       "category": "hors_sujet",
@@ -31551,6 +31703,14 @@
       "status": "rejected",
       "title": "Shape and Substance: Dual-Layer Side-Channel Attacks on Local Vision-Language Models",
       "updated_at": "2026-11-03T14:51:50.775884+00:00"
+    },
+    "title:shareoptimizingsecurehuballocationandroutingefficiencyinpaymentchannelnetworks": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "SHARE: Optimizing Secure Hub Allocation and Routing Efficiency in Payment Channel Networks",
+      "updated_at": "2026-11-07T07:37:48.483417+00:00"
     },
     "title:sharingiscaringattestableandtrustedworkflowsoutofdistrustfulcomponents": {
       "category": "secondaire_technique",
@@ -32311,6 +32471,14 @@
       "status": "imported",
       "title": "Uma unidade de gestão de memória de entrada/saída RISC-V de código aberto",
       "updated_at": "2026-11-05T02:15:06.596955+00:00"
+    },
+    "title:validationofgpucomputationindecentralizedtrustlessnetworks": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Validation of GPU Computation in Decentralized, Trustless Networks",
+      "updated_at": "2026-11-07T07:37:48.596893+00:00"
     },
     "title:vcauseefficientandverifiablecausalityanalysisforcloudbasedendpointauditing": {
       "category": "hors_sujet",
