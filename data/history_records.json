@@ -878,6 +878,26 @@
     "venue_priority": 1,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/hpcc64274.2024.00117": {
+    "doi": "https://doi.org/10.1109/hpcc64274.2024.00117",
+    "publication_date": "2024-12-13",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-12-13",
+    "publication_type": "conference",
+    "publication_venue": "2024 IEEE International Conference on High Performance Computing and Communications (HPCC)",
+    "score": 88,
+    "source": "https://doi.org/10.1109/hpcc64274.2024.00117",
+    "summary": "Cet article présente rTPM, un Trusted Platform Module (TPM) natif basé sur un micrologiciel et conçu spécifiquement pour l'architecture RISC-V. Il utilise des PUFs basées sur la latence de la DRAM et le mécanisme PMP (Physical Memory Protection) pour assurer un stockage NVRAM sécurisé, tout en proposant des solutions contre les attaques par retour en arrière et l'absence de horloge sécurisée.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "rTPM: A Native Firmware-Based Trusted Platform Module for RISC-V",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/icc59461.2026.11587746": {
     "publication_date": "2026-05-24",
     "publication_type": "conference",
@@ -2939,6 +2959,26 @@
     "venue_landmark": "ISCA",
     "venue_note": "",
     "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3696443.3708936": {
+    "doi": "https://doi.org/10.1145/3696443.3708936",
+    "publication_date": "2024-11-18",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "CGO '25: 23rd ACM/IEEE International Symposium on Code Generation and Optimization",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2411.11624v2",
+    "summary": "Cet article présente Teapot, le premier scanner de gadgets Spectre fonctionnant sur des binaires COTS (Commercial Off-The-Shelf) avec des performances comparables aux solutions basées sur le code source. En utilisant des « Speculation Shadows » et la réécriture binaire statique combinée au fuzzing, Teapot simule l'exécution spéculative et détecte les fuites à l'exécution.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Teapot: Efficiently Uncovering Spectre Gadgets in COTS Binaries",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
   "doi:10.1145/3706594.3726974": {
@@ -6166,6 +6206,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "CipherGuard: Compiler-aided Mitigation against Ciphertext Side-channel Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:comprehensivekernelsafetyinthespectreeramitigationsandperformanceevaluationextendedversion": {
+    "doi": "",
+    "publication_date": "2024-11-27",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2411.18094v2",
+    "summary": "Cette étude analyse l'efficacité de la randomisation de la disposition de l'espace d'adressage (ASLR) dans les noyaux de systèmes d'exploitation modernes face aux vulnérabilités d'exécution spéculative et aux canaux auxiliaires de type Spectre. Les auteurs démontrent que l'ASLR seule est insuffisante en présence de telles attaques et introduisent de nouveaux mécanismes d'application pour garantir la sécurité du noyau sous Linux, tout en évaluant leurs surcoûts de performance.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Comprehensive Kernel Safety in the Spectre Era: Mitigations and Performance Evaluation (Extended Version)",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
