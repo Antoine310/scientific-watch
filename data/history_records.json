@@ -3069,6 +3069,26 @@
     "venue_priority": 2,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3658644.3690319": {
+    "doi": "https://doi.org/10.1145/3658644.3690319",
+    "publication_date": "2024-09-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "CCS '24: ACM SIGSAC Conference on Computer and Communications Security",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2409.03743v2",
+    "summary": "Libra est une co-conception matériel-logiciel générique et de principe visant à contrer efficacement les attaques par fuite de flux de contrôle (CFL) sur les processeurs haut de gamme par un équilibrage sécurisé des branches, évitant le coût élevé de la linéarisation tout en maintenant les performances.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Libra: Architectural Support For Principled, Secure And Efficient Balanced Execution On High-End Processors (Extended Version)",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3663673": {
     "doi": "https://doi.org/10.1145/3663673",
     "publication_date": "2024-05-11",
@@ -6963,6 +6983,26 @@
       "T02 — DICE & Hardware Identity"
     ],
     "title": "Extending Layered Attestation into ARM Application Run-Times",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:fencetsclosingtimingchannelsinhighperformanceoutofordercoresthroughisasupportedtemporalpartitioning": {
+    "doi": "",
+    "publication_date": "2024-09-11",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 92,
+    "source": "http://arxiv.org/abs/2409.07576v1",
+    "summary": "Cette publication propose fence.t.s, une instruction logicielle de barrière temporelle (temporal fence) conçue pour éliminer les canaux cachés temporels dans les processeurs supersalaires à exécution désordonnée (out-of-order) RISC-V, en étendant le concept initial de fence.t à des architectures complexes tout en maintenant un coût matériel négligeable et un impact de performance minime de 1,0 % sur le cœur OpenC910.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "fence.t.s: Closing Timing Channels in High-Performance Out-of-Order Cores through ISA-Supported Temporal Partitioning",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
