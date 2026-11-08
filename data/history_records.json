@@ -1119,6 +1119,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/icnisc57059.2022.00016": {
+    "doi": "https://doi.org/10.1109/icnisc57059.2022.00016",
+    "publication_date": "2022-09-01",
+    "publication_type": "conference",
+    "publication_venue": "International Conference on Network and Information Systems for Computers (ICNISC)",
+    "score": 75,
+    "source": "http://dx.doi.org/10.1109/icnisc57059.2022.00016",
+    "summary": "Cet article présente une attaque par canal auxiliaire basée sur le temps d'accès au cache, appliquée pour la première fois à l'algorithme de chiffrement léger Present. En combinant l'attaque temporelle, un cheval de Troie matériel et un algorithme de récupération de clé, les auteurs parviennent à retrouver la clé maîtresse en exploitant la sortie des boîtes S des deux premiers rounds.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Implementation of Cache Timing Attack Based on Present Algorithm",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/icsft66733.2026.11507038": {
     "publication_date": "2026-01-01",
     "publication_type": "conference",
@@ -1695,6 +1712,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/seed55351.2022.00008": {
+    "doi": "https://doi.org/10.1109/seed55351.2022.00008",
+    "publication_date": "2022-09-01",
+    "publication_type": "conference",
+    "publication_venue": "International Symposium on Secure and Private Execution Environment Design (SEED)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/seed55351.2022.00008",
+    "summary": "Avenger est une technique d'atténuation conçue pour les systèmes multicœurs afin de contrer les attaques par canal auxiliaire sur le cache de dernier niveau (LLC) partagé. Contrairement aux approches traditionnelles qui isolent l'ensemble des processus au détriment des performances et de l'énergie, Avenger utilise un détecteur d'attaques pour n'isoler que le processus attaquant identifié, réduisant ainsi la surcharge de performance moyenne à 1% tout en maintenant une forte sécurité contre les attaques par contention.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Avenger: Punishing the Cross-Core Last-Level Cache Attacker and Not the Victim by Isolating the Attacker",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/seed61283.2024.00015": {
     "doi": "https://doi.org/10.1109/seed61283.2024.00015",
