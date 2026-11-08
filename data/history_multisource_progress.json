@@ -1,8 +1,8 @@
 {
   "accepted": 190,
   "completed": false,
-  "cursor": "MTcyNjcyNDkwNjAwMCwxMC4xMDE2JTJGai5nY2EuMjAyNC4wOS4wMTk=",
-  "evaluated": 3671,
+  "cursor": "MTczODA4OTEyODAwMCwxMC4xMTA5JTJGaWNlY3M2MTQ5Ni4yMDI0LjEwODQ4OTE5",
+  "evaluated": 3696,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -263,14 +263,395 @@
     "monthly/2024-11/query-16 : résultat tronqué au plafond 12 pages",
     "monthly/2024-11/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2024-11/query-19 : résultat tronqué au plafond 12 pages",
-    "monthly/2024-11/query-20 : résultat tronqué au plafond 12 pages"
+    "monthly/2024-11/query-20 : résultat tronqué au plafond 12 pages",
+    "monthly/2024-11/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2024-11/query-22 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2024-11",
   "needs_publish": false,
-  "offset": 400,
-  "pages_done": 3687,
-  "pages_in_query": 10,
-  "pending": [],
+  "offset": 320,
+  "pages_done": 3709,
+  "pages_in_query": 8,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Xinlong Min"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Wei Ni"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Zhiqiang Zhou"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Yukun Song"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Duoli Zhang"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/asid63618.2024.10839653",
+        "id": "https://doi.org/10.1109/asid63618.2024.10839653",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/asid63618.2024.10839653"
+        },
+        "publication_date": "2024-11-01",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-11-01",
+        "publication_type": "conference",
+        "publication_venue": "2024 IEEE 18th International Conference on Anti-counterfeiting, Security, and Identification (ASID)",
+        "title": "Agile Design of a RISC-V Processor with Trigonometric Math Extensions Using SpinalHDL",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Nuo Wang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Liji Wu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Lei Li"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Munkhbaatar Chinbat"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Xiangmin Zhang"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/asid63618.2024.10839700",
+        "id": "https://doi.org/10.1109/asid63618.2024.10839700",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/asid63618.2024.10839700"
+        },
+        "publication_date": "2024-11-01",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-11-01",
+        "publication_type": "conference",
+        "publication_venue": "2024 IEEE 18th International Conference on Anti-counterfeiting, Security, and Identification (ASID)",
+        "title": "Design and Implementation of a NTT Accelerator Based on RISC-V for PQC Kyber",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Andrea Galimberti"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Marco Vitali"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sebastiano Vittoria"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Davide Zoni"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/icecs61496.2024.10848613",
+        "id": "https://doi.org/10.1109/icecs61496.2024.10848613",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/icecs61496.2024.10848613"
+        },
+        "publication_date": "2024-11-18",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-11-18",
+        "publication_type": "conference",
+        "publication_venue": "2024 31st IEEE International Conference on Electronics, Circuits and Systems (ICECS)",
+        "title": "Functional ISS-Driven Verification of Superscalar RISC-V Processors",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Wei Zhao"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Neethu Kuriakose"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sabitha Kusuma"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Abdelaziz Ammari"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Arun Ashok"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Christian Grewing"
+            }
+          },
+          {
+            "author": {
+              "display_name": "André Zambanini"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Stefan Van Waasen"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/icecs61496.2024.10848936",
+        "id": "https://doi.org/10.1109/icecs61496.2024.10848936",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/icecs61496.2024.10848936"
+        },
+        "publication_date": "2024-11-18",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-11-18",
+        "publication_type": "conference",
+        "publication_venue": "2024 31st IEEE International Conference on Electronics, Circuits and Systems (ICECS)",
+        "title": "On-Chip Advanced Control Algorithm for Memristor Operations with Integrated RISC-V Core",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Filipe Pouget"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sylvain Clerc"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Camille Leroux"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Christophe Jego"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/icecs61496.2024.10848750",
+        "id": "https://doi.org/10.1109/icecs61496.2024.10848750",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/icecs61496.2024.10848750"
+        },
+        "publication_date": "2024-11-18",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-11-18",
+        "publication_type": "conference",
+        "publication_venue": "2024 31st IEEE International Conference on Electronics, Circuits and Systems (ICECS)",
+        "title": "Low-Energy RISC-V Core in 18nm FD-SOI CMOS for Embedded Edge-Computing",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Eleonora Vacca"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Corrado De Sio"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sarah Azimi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Luca Sterpone"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/icecs61496.2024.10848907",
+        "id": "https://doi.org/10.1109/icecs61496.2024.10848907",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/icecs61496.2024.10848907"
+        },
+        "publication_date": "2024-11-18",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-11-18",
+        "publication_type": "conference",
+        "publication_venue": "2024 31st IEEE International Conference on Electronics, Circuits and Systems (ICECS)",
+        "title": "On Assessing the Robustness of RISC-V Soft Cores for Space Systems by Mission-Tailored SEU Analysis",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Andrea La Gala"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Matteo Chiariello"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mirco Malanchini"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mattia Tambaro"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Marcello De Matteis"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/icecs61496.2024.10848919",
+        "id": "https://doi.org/10.1109/icecs61496.2024.10848919",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/icecs61496.2024.10848919"
+        },
+        "publication_date": "2024-11-18",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-11-18",
+        "publication_type": "conference",
+        "publication_venue": "2024 31st IEEE International Conference on Electronics, Circuits and Systems (ICECS)",
+        "title": "Design and Test-Verification of a Single-Cycle RISC-V Microprocessor on FPGA",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2674,9 +3055,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1195,
-  "query_index": 21,
+  "prefilter_review_overflow": 1216,
+  "query_index": 23,
   "secondary": 200,
-  "skipped": 3623,
+  "skipped": 3677,
   "version": 1
 }
