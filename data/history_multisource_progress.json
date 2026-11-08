@@ -1,8 +1,8 @@
 {
-  "accepted": 197,
+  "accepted": 198,
   "completed": false,
-  "cursor": "MTcwMzg4MTAzNTAwMCwxMC4xMTA5JTJGdGFzZS4yMDIzLjMzMzY4MDc=",
-  "evaluated": 3762,
+  "cursor": "MTczMTk1NTg2NTAwMCwxMC4xMTA5JTJGbm9yY2FzNjQ0MDguMjAyNC4xMDc1MjQ1OQ==",
+  "evaluated": 3787,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -269,14 +269,227 @@
     "monthly/2024-11/query-24 : résultat tronqué au plafond 12 pages",
     "monthly/2024-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2024-10/query-14 : résultat tronqué au plafond 12 pages",
-    "monthly/2024-10/query-15 : résultat tronqué au plafond 12 pages"
+    "monthly/2024-10/query-15 : résultat tronqué au plafond 12 pages",
+    "monthly/2024-10/query-16 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2024-10",
   "needs_publish": false,
-  "offset": 40,
-  "pages_done": 3774,
-  "pages_in_query": 1,
-  "pending": [],
+  "offset": 240,
+  "pages_done": 3791,
+  "pages_in_query": 6,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Srinivasa Rao Kamala"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jeewon Choi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Rachid Darbali-Zamora"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/naps61145.2024.10741658",
+        "id": "https://doi.org/10.1109/naps61145.2024.10741658",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/naps61145.2024.10741658"
+        },
+        "publication_date": "2024-10-13",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-10-13",
+        "publication_type": "conference",
+        "publication_venue": "2024 56th North American Power Symposium (NAPS)",
+        "title": "Unintentional Islanding Detection for Type-I Wind Turbine Generators Using Feeder Protection Relays: A Hardware-in-the-Loop Test",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Milan Joshi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mckayla Snow"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ali Bidram"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Matthew J. Reno"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Michael Ropp"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Joseph A. Azzolini"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/naps61145.2024.10741855",
+        "id": "https://doi.org/10.1109/naps61145.2024.10741855",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/naps61145.2024.10741855"
+        },
+        "publication_date": "2024-10-13",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-10-13",
+        "publication_type": "conference",
+        "publication_venue": "2024 56th North American Power Symposium (NAPS)",
+        "title": "Hardware-in-the-Loop Testing of Direct Transfer Trip for Network Protector Units in the Presence of Distributed Energy Resources",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Shreya P Manchala"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Shreeya Ranganath"
+            }
+          },
+          {
+            "author": {
+              "display_name": "V. Anandi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Shreesha T P"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Satwik Kamath"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Soham Bhattacharya"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/i4c62240.2024.10748481",
+        "id": "https://doi.org/10.1109/i4c62240.2024.10748481",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/i4c62240.2024.10748481"
+        },
+        "publication_date": "2024-10-04",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-10-04",
+        "publication_type": "conference",
+        "publication_venue": "2024 5th International Conference on Circuits, Control, Communication and Computing (I4C)",
+        "title": "RISC-V Architecture based Hardware Accelerator for kNN",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Kazi Mohammad Abidur Rahman"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Abdelrahman Noshy Abdelalim Ahmed"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Görschwin Fey"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ulf Kulau"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/norcas64408.2024.10752448",
+        "id": "https://doi.org/10.1109/norcas64408.2024.10752448",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/norcas64408.2024.10752448"
+        },
+        "publication_date": "2024-10-29",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-10-29",
+        "publication_type": "conference",
+        "publication_venue": "2024 IEEE Nordic Circuits and Systems Conference (NorCAS)",
+        "title": "Hardware-accelerated Compression Core on RISC-V for Online-BCG Data Reduction",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2680,9 +2893,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1229,
-  "query_index": 16,
-  "secondary": 204,
-  "skipped": 3724,
+  "prefilter_review_overflow": 1242,
+  "query_index": 17,
+  "secondary": 207,
+  "skipped": 3740,
   "version": 1
 }

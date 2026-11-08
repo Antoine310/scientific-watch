@@ -1506,6 +1506,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/jiot.2024.3429109": {
+    "doi": "https://doi.org/10.1109/jiot.2024.3429109",
+    "publication_date": "2024-10-15",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-10-15",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Internet of Things Journal",
+    "score": 75,
+    "source": "https://doi.org/10.1109/jiot.2024.3429109",
+    "summary": "Cet article propose une approche légère d'attestation à l'exécution (runtime) pour les appareils IoT basés sur FPGA, visant à détecter les chevaux de Troie matériels et les modifications malveillantes. La méthode valide à la fois la machine à états finis (FSM) et le chemin de données (datapath) en répondant aux défis d'un vérificateur de confiance. L'évaluation sur un SoC Zynq-7000 démontre son efficacité en termes de surcoût en ressources.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Runtime Self-Attestation of FPGA-Based IoT Devices",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/jiot.2026.3685841": {
     "publication_date": "2026-07-01",
     "publication_date_note": "",
