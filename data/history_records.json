@@ -1852,6 +1852,40 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/sp46214.2022.9833692": {
+    "doi": "https://doi.org/10.1109/sp46214.2022.9833692",
+    "publication_date": "2022-05-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Symposium on Security and Privacy (S&P)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/sp46214.2022.9833692",
+    "summary": "Cette étude analyse les failles de sécurité liées aux instructions de préchargement sur les processeurs x86 Intel, en particulier PREFETCHW. Les auteurs démontrent que cette instruction peut s'exécuter sur des données en lecture seule et que son temps d'exécution divulgue l'état de cohérence du cache. Ces vulnérabilités permettent de concevoir de nouvelles attaques par canal auxiliaire inter-cœurs (Prefetch+Reload et Prefetch+Prefetch) atteignant de hautes performances pour le canal caché, le suivi d'accès et l'exploitation en exécution transitoire.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Adversarial Prefetch: New Cross-Core Cache Side Channel Attacks",
+    "venue_landmark": "IEEE S&P",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/sp46214.2022.9833707": {
+    "doi": "https://doi.org/10.1109/sp46214.2022.9833707",
+    "publication_date": "2022-05-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Symposium on Security and Privacy (S&P)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/sp46214.2022.9833707",
+    "summary": "Cet article (SoK) systématise les connaissances actuelles sur la vérification logicielle et les atténuations contre les vulnérabilités Spectre. Il analyse les défenses logicielles avec ou sans modèles formels via un cadre unifié, explore les compromis entre expressivité, complexité et garanties de sécurité, et propose des choix pratiques pour les développeurs d'outils tout en identifiant des problèmes ouverts.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SoK: Practical Foundations for Software Spectre Defenses",
+    "venue_landmark": "IEEE S&P",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/sp46215.2023.10179355": {
     "doi": "https://doi.org/10.1109/sp46215.2023.10179355",
     "publication_date": "2023-05-01",
