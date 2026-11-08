@@ -6552,6 +6552,14 @@
       "title": "Transient Expression of Nicotiana tabacum Silicon-Induced Histidine-Rich Defensins in N. benthamiana Limits Necrotic Lesion Development Caused by Phytopathogenic Fungi",
       "updated_at": "2026-11-07T13:36:51.436261+00:00"
     },
+    "doi:10.1098/rsta.2023.0388": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "Exploiting the Lock: Leveraging MiG-V's Logic Locking for Secret-Data Extraction",
+      "updated_at": "2026-11-08T23:37:34.325259+00:00"
+    },
     "doi:10.1101/2025.07.31.667910": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -8007,6 +8015,14 @@
       "status": "imported",
       "title": "GuaranTEE: Introducing Control-Flow Attestation for Trusted Execution Environments",
       "updated_at": "2026-11-06T14:15:13.265051+00:00"
+    },
+    "doi:10.1109/cloud62652.2024.00026": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "CRISP: Confidentiality, Rollback, and Integrity Storage Protection for Confidential Cloud-Native Computing",
+      "updated_at": "2026-11-08T23:37:45.379406+00:00"
     },
     "doi:10.1109/cloudcom59040.2023.00027": {
       "category": "secondaire_technique",
@@ -10191,6 +10207,14 @@
       "status": "rejected",
       "title": "A RISC-V Multi-Core Accelerator for Flexible High-Performance In-Network Computing",
       "updated_at": "2026-11-06T17:38:03.871788+00:00"
+    },
+    "doi:10.1109/iccd63220.2024.00027": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 70,
+      "status": "rejected",
+      "title": "Hound: Locating Cryptographic Primitives in Desynchronized Side-Channel Traces Using Deep-Learning",
+      "updated_at": "2026-11-08T23:37:34.561994+00:00"
     },
     "doi:10.1109/iccd63220.2024.00047": {
       "category": "secondaire",
@@ -14159,6 +14183,14 @@
       "status": "imported",
       "title": "ProMiSE: A Programmable Hardware Monitor for Secure Execution in Zero Trust Networks",
       "updated_at": "2026-11-07T16:36:43.401034+00:00"
+    },
+    "doi:10.1109/les.2024.3415651": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Reliable Methodology to FPGA Design Verification and Noise Analysis for Digital Lock-In Amplifiers",
+      "updated_at": "2026-11-08T23:36:31.598709+00:00"
     },
     "doi:10.1109/les.2024.3416820": {
       "category": "hors_sujet",
@@ -22583,6 +22615,14 @@
       "status": "rejected",
       "title": "Expedited development of novel RISC-V instructions through an emulation-simulation framework",
       "updated_at": "2026-11-05T05:48:34.507829+00:00"
+    },
+    "doi:10.1145/3793532": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Confidential Computing on Heterogeneous CPU-GPU Systems: Survey and Future Directions",
+      "updated_at": "2026-11-08T23:37:45.769836+00:00"
     },
     "doi:10.1145/3793638.3793640": {
       "category": "coeur",
@@ -36672,6 +36712,14 @@
       "title": "Implementing and Optimizing an Open-Source SD-card Host Controller for RISC-V SoCs",
       "updated_at": "2026-11-03T14:43:58.965508+00:00"
     },
+    "title:inmemorycomputingarchitectureforefficienthardwaresecurity": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "In-Memory Computing Architecture for Efficient Hardware Security",
+      "updated_at": "2026-11-08T23:37:03.615826+00:00"
+    },
     "title:inputsnatchstealinginputinllmservicesviatimingsidechannelattacks": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -36791,6 +36839,14 @@
       "status": "rejected",
       "title": "KORD: Breaking the Key-Generation Bottleneck in Dealerless FSS via Protocol--Hardware Co-Design",
       "updated_at": "2026-11-02T17:52:40.960094+00:00"
+    },
+    "title:laagrvllmassistedassertiongenerationforrtldesignverification": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "LAAG-RV: LLM Assisted Assertion Generation for RTL Design Verification",
+      "updated_at": "2026-11-08T23:39:08.025060+00:00"
     },
     "title:largelanguagemodelsandattentionbasedaiforhardwaredesignandsecurityprogresschallengesandopportunities": {
       "category": "secondaire",
@@ -37320,6 +37376,14 @@
       "title": "PAPAYA Federated Analytics Stack: Engineering Privacy, Scalability and Practicality",
       "updated_at": "2026-11-07T15:37:44.911099+00:00"
     },
+    "title:parteetorasystemforpartialdeploymentsofteeswithintor": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "ParTEETor: A System for Partial Deployments of TEEs within Tor",
+      "updated_at": "2026-11-08T23:37:45.836547+00:00"
+    },
     "title:partialnumbertheoretictransformmaskinginpostquantumcryptographypqchardwareasecuritymarginanalysis": {
       "category": "coeur",
       "decision": "examiner",
@@ -37831,6 +37895,14 @@
       "status": "rejected",
       "title": "Rollbaccine : Herd Immunity against Storage Rollback Attacks in TEEs [Technical Report]",
       "updated_at": "2026-11-06T03:36:31.813263+00:00"
+    },
+    "title:rorqualspeedingupnarwhalwithtees": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Rorqual: Speeding up Narwhal with TEEs",
+      "updated_at": "2026-11-08T23:37:45.789328+00:00"
     },
     "title:rtfmhowhardareiotplatformprovidersmakingitfortheirdevelopers": {
       "category": "secondaire",
@@ -39055,6 +39127,14 @@
       "status": "imported",
       "title": "Virtual memory for real-time systems using hPMP",
       "updated_at": "2026-11-06T11:38:45.704302+00:00"
+    },
+    "title:voltranunlockingtrustandconfidentialityindecentralizedfederatedlearningaggregation": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Voltran: Unlocking Trust and Confidentiality in Decentralized Federated Learning Aggregation",
+      "updated_at": "2026-11-08T23:37:45.398547+00:00"
     },
     "title:vulnerabilitiesinpartialteeshieldedllminferencewithprecomputednoise": {
       "category": "secondaire",
