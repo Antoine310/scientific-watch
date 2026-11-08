@@ -3792,6 +3792,14 @@
       "title": "Feeding the enclave: special economic zones, street food vendors and the dynamics of urban economy in Tema, Ghana",
       "updated_at": "2026-11-03T17:07:10.240746+00:00"
     },
+    "doi:10.1016/j.geomorph.2024.109265": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Method for evaluating the hydrological heritage of geodiversity: Case study in the Cerrado enclave–Rio Grande do Norte, Brazil",
+      "updated_at": "2026-11-08T18:38:16.743620+00:00"
+    },
     "doi:10.1016/j.ijcip.2024.100705": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4376,6 +4384,14 @@
       "title": "Experimental EMFI detection on a RISC-V core using the Trace Verifier solution",
       "updated_at": "2026-11-06T02:14:55.720118+00:00"
     },
+    "doi:10.1016/j.micpro.2024.105084": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Count overflow and privilege mode filtering extension implementation on a RISC-V on-board processor",
+      "updated_at": "2026-11-08T18:38:38.904492+00:00"
+    },
     "doi:10.1016/j.micpro.2024.105103": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -4911,6 +4927,14 @@
       "status": "rejected",
       "title": "SecurityCloak: Protection against cache timing and speculative memory access attacks",
       "updated_at": "2026-11-04T17:16:34.887445+00:00"
+    },
+    "doi:10.1016/j.sysarc.2024.103221": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "SEDCPT: A secure and efficient Dynamic Searchable Encryption scheme with cluster padding assisted by TEE",
+      "updated_at": "2026-11-08T18:37:34.038364+00:00"
     },
     "doi:10.1016/j.sysarc.2024.103288": {
       "category": "secondaire_technique",
@@ -6335,6 +6359,14 @@
       "status": "rejected",
       "title": "GPU and RISC-V acceleration for neuromorphic computing based on spiking neural networks: taxonomy, comparison, and open challenges",
       "updated_at": "2026-11-02T17:36:51.057082+00:00"
+    },
+    "doi:10.1089/hs.2023.0163": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Building Clinical Care Capacity for Patients With Special Pathogens in Advance of the Next Outbreak",
+      "updated_at": "2026-11-08T18:36:32.306024+00:00"
     },
     "doi:10.1093/9780197817216.003.0011": {
       "category": "hors_sujet",
@@ -16824,6 +16856,14 @@
       "title": "Fault-Tolerant Reversible-Logic Based RO-PUF for Secure Device Authentication",
       "updated_at": "2026-11-07T16:38:46.117365+00:00"
     },
+    "doi:10.1109/tcsi.2024.3427681": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Designing Low-Power RISC-V Multicore Processors With a Shared Lightweight Floating Point Unit for IoT Endnodes",
+      "updated_at": "2026-11-08T18:38:38.933257+00:00"
+    },
     "doi:10.1109/tcsi.2024.3446662": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -17119,6 +17159,14 @@
       "status": "rejected",
       "title": "FPGA Assessment Methodology of Adverse X-Ray Effects on Secure Digital Circuits",
       "updated_at": "2026-11-06T19:38:37.979613+00:00"
+    },
+    "doi:10.1109/tdsc.2024.3354991": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "TreasureCache: Hiding Cache Evictions Against Side-Channel Attacks",
+      "updated_at": "2026-11-08T18:36:53.868462+00:00"
     },
     "doi:10.1109/tdsc.2024.3357521": {
       "category": "secondaire",
@@ -17856,6 +17904,14 @@
       "title": "BPSAC: A Blockchain and PUF-Enabled Security Architecture With C-IDS for Maritime Intelligent Transportation Systems",
       "updated_at": "2026-11-03T20:28:16.650871+00:00"
     },
+    "doi:10.1109/tkde.2024.3380367": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "BiTDB: Constructing A Built-in TEE Secure Database for Embedded Systems",
+      "updated_at": "2026-11-08T18:37:03.227472+00:00"
+    },
     "doi:10.1109/tkde.2026.3658859": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -18296,6 +18352,14 @@
       "title": "FPUx: High-Performance Floating-Point Support for Cost-Constrained RISC-V Cores",
       "updated_at": "2026-11-08T10:37:41.799734+00:00"
     },
+    "doi:10.1109/tvlsi.2024.3415481": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Thermally Constrained Codesign of Heterogeneous 3-D Integration of Compute-in-Memory, Digital ML Accelerator, and RISC-V Cores for Mixed ML and Non-ML Workloads",
+      "updated_at": "2026-11-08T18:38:28.472319+00:00"
+    },
     "doi:10.1109/tvlsi.2024.3444851": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -18639,6 +18703,14 @@
       "status": "rejected",
       "title": "Exploiting the Pico Cell as a PUF and TRNG Reconfigurable Entropy Source",
       "updated_at": "2026-11-01T02:15:02.252663+00:00"
+    },
+    "doi:10.1109/tvt.2024.3384959": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Secure Communication With Cache-Aided Relaying and Finite-Alphabet Inputs",
+      "updated_at": "2026-11-08T18:37:03.254713+00:00"
     },
     "doi:10.1109/tvt.2024.3398062": {
       "category": "hors_sujet",
@@ -24136,6 +24208,14 @@
       "title": "Clarifying CPU Vendor’s Responsibilities for Remote Attestation with Intel SGX",
       "updated_at": "2026-11-03T15:28:49.628040+00:00"
     },
+    "doi:10.1587/transinf.2023bci0001": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Permissionless Blockchain-Based Sybil-Resistant Self-Sovereign Identity Utilizing Attested Execution Secure Processors",
+      "updated_at": "2026-11-08T18:37:46.601382+00:00"
+    },
     "doi:10.1587/transinf.2025edp7101": {
       "category": "coeur",
       "decision": "conserver",
@@ -24183,6 +24263,14 @@
       "status": "rejected",
       "title": "Smart Anti-Theft SmartPhone Ecosystem With Offline Remote Access Using BLE and GSM: A Survey of Hardware and Algorithmic Methods for Securing Devices and Automated Offline Recovery",
       "updated_at": "2026-11-03T11:06:27.784717+00:00"
+    },
+    "doi:10.17485/ijst/v17i34.1449": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Combating Counterfeit Products with Blockchain Technology to Enhance Trust and Authenticity in Consumer Markets",
+      "updated_at": "2026-11-08T18:37:56.444848+00:00"
     },
     "doi:10.17487/rfc9684": {
       "category": "secondaire",
@@ -26071,6 +26159,14 @@
       "status": "rejected",
       "title": "Hardware and Secure Implementation of Enhanced ZUC Steam Cipher Based on Chaotic Dynamic S-Box",
       "updated_at": "2026-11-07T10:37:13.046600+00:00"
+    },
+    "doi:10.2514/1.i011304": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Cloud-Blockchain-Fusion–Based Secure Sharing Model for Air Traffic Management",
+      "updated_at": "2026-11-08T18:37:03.277770+00:00"
     },
     "doi:10.2514/6.2026-0836": {
       "category": "hors_sujet",
