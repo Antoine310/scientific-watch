@@ -776,6 +776,22 @@
       "title": "Formal Hardware/Software Models for Cache Locking Enabling Fast and Secure Code",
       "updated_at": "2026-11-05T02:14:42.385368+00:00"
     },
+    "doi:10.1007/978-3-031-71436-8_12": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Adapt and Defend: Reinforcement Learning for Hardware-Assisted Security",
+      "updated_at": "2026-11-08T12:37:00.828482+00:00"
+    },
+    "doi:10.1007/978-3-031-71436-8_9": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "AI-Enabled Hardware Security",
+      "updated_at": "2026-11-08T12:37:00.814318+00:00"
+    },
     "doi:10.1007/978-3-031-71518-1_3": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -7480,6 +7496,14 @@
       "title": "Architecture and Energy Efficiency Optimization of Neural Network Accelerator Based on RISC-V Instruction Set Extension",
       "updated_at": "2026-11-06T10:37:31.068018+00:00"
     },
+    "doi:10.1109/cce62852.2024.10770880": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hardware Architecture for the SHA-3 Family in Crystals-Kyber: Post-Quantum Cryptography",
+      "updated_at": "2026-11-08T12:37:00.722492+00:00"
+    },
     "doi:10.1109/ccgrid64434.2025.00041": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -8512,6 +8536,22 @@
       "title": "NCFET based Low Energy Overhead and Robust Logic Locking Design for Enhanced Hardware Security",
       "updated_at": "2026-11-05T22:39:32.247245+00:00"
     },
+    "doi:10.1109/ecce55643.2024.10861192": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "PWM-Based Hardware Authentication for Smart Inverters: Detecting Counterfeit Inverter through Transient Response Analysis",
+      "updated_at": "2026-11-08T12:37:08.932326+00:00"
+    },
+    "doi:10.1109/ecce55643.2024.10861840": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Hardware-in-the-Loop Testing of the Impact of Grid-Following Inverters Control and Momentary Cessation on System Protection",
+      "updated_at": "2026-11-08T12:37:08.948405+00:00"
+    },
     "doi:10.1109/ecce58356.2025.11260120": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -9376,6 +9416,14 @@
       "title": "Adaptive Hardware-Aware Quantum Error Mitigation Policy Selection Framework on Edge Devices",
       "updated_at": "2026-11-03T15:41:16.382830+00:00"
     },
+    "doi:10.1109/i4c62240.2024.10748481": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "RISC-V Architecture based Hardware Accelerator for kNN",
+      "updated_at": "2026-11-08T12:36:29.530392+00:00"
+    },
     "doi:10.1109/iatmsi64286.2025.10984468": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -9455,6 +9503,22 @@
       "status": "rejected",
       "title": "Fully Open-Source Implementation, Layout-Level Area and Power Analysis of Ultra-Low Power RISC-V Cores and a Bit-Serial NVM-Enabled Design",
       "updated_at": "2026-11-04T08:27:02.801651+00:00"
+    },
+    "doi:10.1109/icaecot62402.2024.10828877": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Simulation of EMC Perturbations for Soft Starters using Hardware-in-the-Loop in the Verification and Validation Phase",
+      "updated_at": "2026-11-08T12:37:00.679443+00:00"
+    },
+    "doi:10.1109/icai63388.2024.10851644": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Hardware implementation of lightweight cryptographic algorithms: An overview",
+      "updated_at": "2026-11-08T12:37:00.842630+00:00"
     },
     "doi:10.1109/icaice68195.2025.11382280": {
       "category": "secondaire",
@@ -10032,6 +10096,22 @@
       "title": "VLSI Design Course with FPGA Implementation of Pipelined RISC-V Processor",
       "updated_at": "2026-11-05T00:26:14.717755+00:00"
     },
+    "doi:10.1109/iccsn63464.2024.10793286": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Robust Covert and Secure Transmission for ISAC System With Transceiver Hardware Impairments",
+      "updated_at": "2026-11-08T12:36:49.692943+00:00"
+    },
+    "doi:10.1109/iccsnt62291.2024.10776641": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 50,
+      "status": "rejected",
+      "title": "Optimization Methods for Memory Access Monitoring Based on Hardware Page Protection",
+      "updated_at": "2026-11-08T12:36:39.580583+00:00"
+    },
     "doi:10.1109/iccss69952.2026.11593309": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -10536,6 +10616,38 @@
       "title": "RISC-V SIMD Instructions - Vector Extension (Load/Store)",
       "updated_at": "2026-11-06T01:37:40.376594+00:00"
     },
+    "doi:10.1109/icicm63644.2024.10814141": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Multi-Head Attention Hardware Implementation and Side-Channel Security Analysis for Transformer",
+      "updated_at": "2026-11-08T12:36:49.709467+00:00"
+    },
+    "doi:10.1109/icicm63644.2024.10814218": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hardware Design and Security Analysis for SHA-256 in PQC Sphincs+",
+      "updated_at": "2026-11-08T12:36:49.726724+00:00"
+    },
+    "doi:10.1109/icicm63644.2024.10814276": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hardware Design and Security Analysis for cSHAKE256 in PQC SIAKE",
+      "updated_at": "2026-11-08T12:36:49.741134+00:00"
+    },
+    "doi:10.1109/icicm63644.2024.10814453": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Research and Design of Hardware Circuit for Elliptic Curve Cryptographic Algorithm",
+      "updated_at": "2026-11-08T12:36:49.808193+00:00"
+    },
     "doi:10.1109/icicm66614.2025.11315911": {
       "category": "coeur",
       "decision": "conserver",
@@ -10575,6 +10687,14 @@
       "status": "rejected",
       "title": "UpGate: Low-Power and Secure Over-the-Air Hardware Reconfiguration for Deployed FPGAs",
       "updated_at": "2026-11-06T21:36:48.694781+00:00"
+    },
+    "doi:10.1109/icisaa62385.2024.10828710": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hardware Implementation of Intrusion detection system for Blackhole Attack Detection",
+      "updated_at": "2026-11-08T12:37:00.767240+00:00"
     },
     "doi:10.1109/icisc69558.2026.11681305": {
       "category": "secondaire",
@@ -10800,6 +10920,14 @@
       "title": "Power-Efficient 32-Bit Risc-V Processor with Optimized Pipeline Architecture",
       "updated_at": "2026-11-02T17:51:43.383667+00:00"
     },
+    "doi:10.1109/icpads63350.2024.00026": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Simple but Powerful Beginning: Metamorphic Verification Framework for Cryptographic Hardware Design",
+      "updated_at": "2026-11-08T12:36:39.541358+00:00"
+    },
     "doi:10.1109/icraie65839.2025.11239153": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -10855,6 +10983,14 @@
       "status": "imported",
       "title": "Secure Bootloader and Kernel Initialization in Embedded Systems Using Rust",
       "updated_at": "2026-10-31T23:14:45.367164+00:00"
+    },
+    "doi:10.1109/icsict62049.2024.10831552": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hardware Security Linking Everything: from Lightweight PUF to Post-Quantum Cryptography Hardware",
+      "updated_at": "2026-11-08T12:37:00.786140+00:00"
     },
     "doi:10.1109/icsist70215.2026.11706225": {
       "category": "secondaire",
@@ -10919,6 +11055,14 @@
       "status": "rejected",
       "title": "Design of a Dual-Issue Superscalar RISC-V Core With Dynamic Branch Prediction",
       "updated_at": "2026-11-04T17:25:42.427010+00:00"
+    },
+    "doi:10.1109/ictc62082.2024.10827194": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "HBRA: A History-Based Remote Attestation Approach to Resolve Malicious Verifiers in IoT",
+      "updated_at": "2026-11-08T12:37:00.752739+00:00"
     },
     "doi:10.1109/ictmim68190.2026.11506973": {
       "category": "secondaire",
@@ -11023,6 +11167,14 @@
       "status": "rejected",
       "title": "Shor’s Algorithm on NISQ Quantum Hardware: Experimental 4–12-Bit Factorizations and Post-Quantum Cryptography Implications",
       "updated_at": "2026-11-03T11:07:20.015551+00:00"
+    },
+    "doi:10.1109/iicm65053.2024.10824415": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Comparison Between Hardware/Software Co-Design of RiscV Vector and Scalar Implementation of Deep Neural Networks",
+      "updated_at": "2026-11-08T12:37:00.704042+00:00"
     },
     "doi:10.1109/iirw59383.2023.10477697": {
       "category": "secondaire",
@@ -14264,6 +14416,22 @@
       "title": "FaultRISC-V: Detecting Fault Injection Vulnerabilities in RISC-V Assembly",
       "updated_at": "2026-10-30T23:13:33.139373+00:00"
     },
+    "doi:10.1109/naps61145.2024.10741658": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Unintentional Islanding Detection for Type-I Wind Turbine Generators Using Feeder Protection Relays: A Hardware-in-the-Loop Test",
+      "updated_at": "2026-11-08T12:36:29.491308+00:00"
+    },
+    "doi:10.1109/naps61145.2024.10741855": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware-in-the-Loop Testing of Direct Transfer Trip for Network Protector Units in the Presence of Distributed Energy Resources",
+      "updated_at": "2026-11-08T12:36:29.505331+00:00"
+    },
     "doi:10.1109/naps66256.2025.11272364": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -14344,6 +14512,14 @@
       "title": "Cyber-Physical WebAssembly: Secure Hardware Interfaces and Pluggable Drivers",
       "updated_at": "2026-11-06T06:37:50.944709+00:00"
     },
+    "doi:10.1109/norcas64408.2024.10752448": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hardware-accelerated Compression Core on RISC-V for Online-BCG Data Reduction",
+      "updated_at": "2026-11-08T12:36:29.544455+00:00"
+    },
     "doi:10.1109/norcas64408.2024.10752453": {
       "category": "coeur",
       "decision": "examiner",
@@ -14351,6 +14527,14 @@
       "status": "rejected",
       "title": "RISC-V Triplet: Tapeouts for Security Applications",
       "updated_at": "2026-11-03T02:13:53.773267+00:00"
+    },
+    "doi:10.1109/norcas64408.2024.10752475": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Fully Automatic Compiler Retargeting and CV-X-IF Hardware Interface Generation for RISC-V Custom Instructions",
+      "updated_at": "2026-11-08T12:36:39.526045+00:00"
     },
     "doi:10.1109/norcas66540.2025.11231296": {
       "category": "hors_sujet",
@@ -17392,6 +17576,14 @@
       "title": "Development of a Three-Phase Integrated 1 MHz Class Transformer for LLC Converters: Design, Cosimulation, and Experimental Verification",
       "updated_at": "2026-11-02T19:34:54.513604+00:00"
     },
+    "doi:10.1109/tps-isa62245.2024.00055": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Large Language Models for Hardware Security (Invited, Short Paper)",
+      "updated_at": "2026-11-08T12:37:00.800676+00:00"
+    },
     "doi:10.1109/tps-isa67132.2025.00028": {
       "category": "coeur",
       "decision": "conserver",
@@ -18127,6 +18319,14 @@
       "status": "rejected",
       "title": "Secure Software/Hardware Hybrid In-Field Testing for System-on-Chip",
       "updated_at": "2026-11-08T07:38:19.949974+00:00"
+    },
+    "doi:10.1109/vlsi-soc62099.2024.10767831": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Continuity in Security: Leveraging LLM for Translating Security Properties Across Hardware Designs",
+      "updated_at": "2026-11-08T12:36:39.555569+00:00"
     },
     "doi:10.1109/vlsi-soc70418.2026.11740562": {
       "category": "hors_sujet",

@@ -1,8 +1,8 @@
 {
   "accepted": 198,
   "completed": false,
-  "cursor": "MTczMTk1NTg2NTAwMCwxMC4xMTA5JTJGbm9yY2FzNjQ0MDguMjAyNC4xMDc1MjQ1OQ==",
-  "evaluated": 3787,
+  "cursor": "MTc0MjgzODQxMzAwMCwxMC4xMTA5JTJGYXBwZWVjNjEyNTUuMjAyNC4xMDkyMjQwMA==",
+  "evaluated": 3812,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -274,9 +274,9 @@
   ],
   "month": "2024-10",
   "needs_publish": false,
-  "offset": 240,
-  "pages_done": 3791,
-  "pages_in_query": 6,
+  "offset": 400,
+  "pages_done": 3795,
+  "pages_in_query": 10,
   "pending": [
     {
       "paper": {
@@ -284,32 +284,27 @@
         "authorships": [
           {
             "author": {
-              "display_name": "Srinivasa Rao Kamala"
+              "display_name": "Oyedotun E. Oyewole"
             }
           },
           {
             "author": {
-              "display_name": "Jeewon Choi"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Rachid Darbali-Zamora"
+              "display_name": "Khaled H. Ahmed"
             }
           }
         ],
-        "doi": "https://doi.org/10.1109/naps61145.2024.10741658",
-        "id": "https://doi.org/10.1109/naps61145.2024.10741658",
+        "doi": "https://doi.org/10.1109/isgteurope62998.2024.10863373",
+        "id": "https://doi.org/10.1109/isgteurope62998.2024.10863373",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/naps61145.2024.10741658"
+          "landing_page_url": "https://doi.org/10.1109/isgteurope62998.2024.10863373"
         },
-        "publication_date": "2024-10-13",
+        "publication_date": "2024-10-14",
         "publication_date_note": "",
         "publication_date_precision": "day",
-        "publication_date_source": "2024-10-13",
+        "publication_date_source": "2024-10-14",
         "publication_type": "conference",
-        "publication_venue": "2024 56th North American Power Symposium (NAPS)",
-        "title": "Unintentional Islanding Detection for Type-I Wind Turbine Generators Using Feeder Protection Relays: A Hardware-in-the-Loop Test",
+        "publication_venue": "2024 IEEE PES Innovative Smart Grid Technologies Europe (ISGT EUROPE)",
+        "title": "Software and Hardware-Based Decoupling Control Comparison of Multiport-Isolated DC-DC Converters for Hydrogen Energy Storage Systems",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -328,47 +323,27 @@
         "authorships": [
           {
             "author": {
-              "display_name": "Milan Joshi"
+              "display_name": "Yakir Forman"
             }
           },
           {
             "author": {
-              "display_name": "Mckayla Snow"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ali Bidram"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Matthew J. Reno"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Michael Ropp"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Joseph A. Azzolini"
+              "display_name": "William L. Harrison"
             }
           }
         ],
-        "doi": "https://doi.org/10.1109/naps61145.2024.10741855",
-        "id": "https://doi.org/10.1109/naps61145.2024.10741855",
+        "doi": "https://doi.org/10.1109/rsp64122.2024.10871125",
+        "id": "https://doi.org/10.1109/rsp64122.2024.10871125",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/naps61145.2024.10741855"
+          "landing_page_url": "https://doi.org/10.1109/rsp64122.2024.10871125"
         },
-        "publication_date": "2024-10-13",
+        "publication_date": "2024-10-03",
         "publication_date_note": "",
         "publication_date_precision": "day",
-        "publication_date_source": "2024-10-13",
+        "publication_date_source": "2024-10-03",
         "publication_type": "conference",
-        "publication_venue": "2024 56th North American Power Symposium (NAPS)",
-        "title": "Hardware-in-the-Loop Testing of Direct Transfer Trip for Network Protector Units in the Presence of Distributed Energy Resources",
+        "publication_venue": "2024 IEEE International Workshop on Rapid System Prototyping (RSP)",
+        "title": "Temporal Staging for Correct-by-Construction Cryptographic Hardware",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -387,47 +362,22 @@
         "authorships": [
           {
             "author": {
-              "display_name": "Shreya P Manchala"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Shreeya Ranganath"
-            }
-          },
-          {
-            "author": {
-              "display_name": "V. Anandi"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Shreesha T P"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Satwik Kamath"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Soham Bhattacharya"
+              "display_name": "Giridhar Mandyam"
             }
           }
         ],
-        "doi": "https://doi.org/10.1109/i4c62240.2024.10748481",
-        "id": "https://doi.org/10.1109/i4c62240.2024.10748481",
+        "doi": "https://doi.org/10.1145/3703412.3703435",
+        "id": "https://doi.org/10.1145/3703412.3703435",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/i4c62240.2024.10748481"
+          "landing_page_url": "https://doi.org/10.1145/3703412.3703435"
         },
-        "publication_date": "2024-10-04",
+        "publication_date": "2024-10-08",
         "publication_date_note": "",
         "publication_date_precision": "day",
-        "publication_date_source": "2024-10-04",
+        "publication_date_source": "2024-10-08",
         "publication_type": "conference",
-        "publication_venue": "2024 5th International Conference on Circuits, Control, Communication and Computing (I4C)",
-        "title": "RISC-V Architecture based Hardware Accelerator for kNN",
+        "publication_venue": "AIMLSystems 2024: The 4th International Conference on AI-ML Systems",
+        "title": "Remote Attestation and Secure AI in Systems-on-Chip/Systems-in-Package",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -446,37 +396,111 @@
         "authorships": [
           {
             "author": {
-              "display_name": "Kazi Mohammad Abidur Rahman"
+              "display_name": "Nhat Nguyen Dinh"
             }
           },
           {
             "author": {
-              "display_name": "Abdelrahman Noshy Abdelalim Ahmed"
+              "display_name": "Tan Toan Nguyen"
             }
           },
           {
             "author": {
-              "display_name": "Görschwin Fey"
+              "display_name": "Tuan Hai Vu"
             }
           },
           {
             "author": {
-              "display_name": "Ulf Kulau"
+              "display_name": "Vu Trung Duong Le"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Hoai Luan Pham"
             }
           }
         ],
-        "doi": "https://doi.org/10.1109/norcas64408.2024.10752448",
-        "id": "https://doi.org/10.1109/norcas64408.2024.10752448",
+        "doi": "https://doi.org/10.1109/atc63255.2024.10908296",
+        "id": "https://doi.org/10.1109/atc63255.2024.10908296",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/norcas64408.2024.10752448"
+          "landing_page_url": "https://doi.org/10.1109/atc63255.2024.10908296"
         },
-        "publication_date": "2024-10-29",
+        "publication_date": "2024-10-17",
         "publication_date_note": "",
         "publication_date_precision": "day",
-        "publication_date_source": "2024-10-29",
+        "publication_date_source": "2024-10-17",
         "publication_type": "conference",
-        "publication_venue": "2024 IEEE Nordic Circuits and Systems Conference (NorCAS)",
-        "title": "Hardware-accelerated Compression Core on RISC-V for Online-BCG Data Reduction",
+        "publication_venue": "2024 International Conference on Advanced Technologies for Communications (ATC)",
+        "title": "Hardware/Software Co-Design of a Multi-Mode CRYSTALS-Kyber Accelerator for Quantum-Secure Internet-of-Things Systems",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Jiaye Tao"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Zhihong Liang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Lipeng Wei"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Chao Hong"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Yun Fu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Yiwei Yang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Zeyuan Zhou"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Lin Chen"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/appeec61255.2024.10922400",
+        "id": "https://doi.org/10.1109/appeec61255.2024.10922400",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/appeec61255.2024.10922400"
+        },
+        "publication_date": "2024-10-25",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-10-25",
+        "publication_type": "conference",
+        "publication_venue": "2024 IEEE PES 16th Asia-Pacific Power and Energy Engineering Conference (APPEEC)",
+        "title": "Enhancing Power System Stability Against DoS Attacks Through Hardware-in-the-Loop Simulation",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -2893,9 +2917,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1242,
+  "prefilter_review_overflow": 1247,
   "query_index": 17,
-  "secondary": 207,
-  "skipped": 3740,
+  "secondary": 208,
+  "skipped": 3741,
   "version": 1
 }
