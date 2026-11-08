@@ -4178,6 +4178,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.17587/prin.15.443-449": {
+    "doi": "https://doi.org/10.17587/prin.15.443-449",
+    "publication_date": "2024-09-09",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-09-09",
+    "publication_type": "revue",
+    "publication_venue": "Programmnaya Ingeneria",
+    "score": 85,
+    "source": "https://doi.org/10.17587/prin.15.443-449",
+    "summary": "Cet article présente un système de surveillance matériel conçu pour détecter les attaques par canal auxiliaire (SCA), en particulier celles exploitant le cache du processeur. Il repose sur l'analyse d'événements matériels à l'aide d'un système expert et propose des prédicats spécifiques à l'architecture Intel sous Linux pour identifier les comportements suspects.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Using Hardware Events to Detect Side-Channel Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.20944/preprints202511.1351.v1": {
     "publication_date": "2025-11-18",
     "publication_type": "prepublication",
@@ -4831,6 +4851,66 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.46586/tches.v2024.i4.110-132": {
+    "doi": "https://doi.org/10.46586/tches.v2024.i4.110-132",
+    "publication_date": "2024-09-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-09-05",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 82,
+    "source": "https://doi.org/10.46586/tches.v2024.i4.110-132",
+    "summary": "Cette publication propose d'étendre les contrats de fuite pour la vérification de la sécurité des implémentations logicielles masquées, en prenant en compte les effets matériels éphémères tels que les transitions et les glitches. Les auteurs présentent un outil de vérification de bout en bout basé sur ces contrats transitoires, permettant une vérification formelle depuis le niveau des portes matérielles jusqu'au logiciel. L'approche est appliquée et évaluée sur le cœur RISC-V Ibex sans modification matérielle.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Closing the Gap: Leakage Contracts for Processors with Transitions and Glitches",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/tches.v2024.i4.133-155": {
+    "doi": "https://doi.org/10.46586/tches.v2024.i4.133-155",
+    "publication_date": "2024-09-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-09-05",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 75,
+    "source": "https://doi.org/10.46586/tches.v2024.i4.133-155",
+    "summary": "Cette publication analyse de manière approfondie le projet SCARV présenté à CHES 2021, qui étend le jeu d'instructions (ISA) d'un cœur RISC-V avec des opérations masquées de premier ordre. En utilisant des évaluations assistées par outils, les auteurs identifient des défauts de conception entraînant des fuites d'informations, principalement attribués à un manque de composabilité des composants en cascade.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Another Evidence to not Employ Customized Masked Hardware",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/tches.v2024.i4.179-204": {
+    "doi": "https://doi.org/10.46586/tches.v2024.i4.179-204",
+    "publication_date": "2024-09-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-09-05",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 88,
+    "source": "https://doi.org/10.46586/tches.v2024.i4.179-204",
+    "summary": "Ce travail propose une méthodologie formelle de co-vérification matérielle et logicielle pour évaluer la robustesse des processeurs sécurisés face aux attaques par injection de fautes. En introduisant la notion de partitionnement résistant à k-fautes, l'approche surmonte les problèmes de scalabilité des méthodes monolithiques existantes. Les auteurs valident leur méthode sur des circuits cryptographiques, évaluent l'élément sécurisé OpenTitan contre des injections de fautes, découvrent et corrigent une vulnérabilité dans le fichier de registres.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Fault-Resistant Partitioning of Secure CPUs for System Co-Verification against Faults",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.46586/tches.v2025.i1.227-250": {
     "doi": "https://doi.org/10.46586/tches.v2025.i1.227-250",
@@ -6197,6 +6277,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.5753/sbseg_estendido.2024.241821": {
+    "doi": "https://doi.org/10.5753/sbseg_estendido.2024.241821",
+    "publication_date": "2024-09-16",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-09-16",
+    "publication_type": "conference",
+    "publication_venue": "Anais Estendidos do Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "score": 85,
+    "source": "https://doi.org/10.5753/sbseg_estendido.2024.241821",
+    "summary": "Cette recherche présente le développement du cœur Programmable Hardware Siloed Engine (PHaSE), intégré dans un FPGA pour servir de Racine de Confiance matérielle (Hardware Root of Trust) améliorée par rapport aux Trusted Platform Modules (TPMs) traditionnels dans les systèmes embarqués critiques.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Design and Implementation of the PHaSE Core: Establishing Hardware Roots of Trust for Safety-Critical Embedded Devices",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.5753/sbseg_estendido.2025.11653": {
     "doi": "https://doi.org/10.5753/sbseg_estendido.2025.11653",
