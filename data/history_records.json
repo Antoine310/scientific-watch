@@ -2639,6 +2639,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3489517.3530614": {
+    "doi": "https://doi.org/10.1145/3489517.3530614",
+    "publication_date": "2022-07-10",
+    "publication_type": "conference",
+    "publication_venue": "ACM/IEEE Design Automation Conference (DAC)",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3489517.3530614",
+    "summary": "Cette publication traite du partage prévisible des partitions de cache de dernier niveau (LLC) dans les systèmes multicœurs critiques pour la sécurité, afin de garantir de faibles bornes de latence au pire cas tout en améliorant l'utilisation du stockage du cache par rapport au partitionnement strict par cœur.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Predictable sharing of last-level cache partitions for multi-core safety-critical systems",
+    "venue_landmark": "DAC",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3564625.3567994": {
     "doi": "https://doi.org/10.1145/3564625.3567994",
     "publication_date": "2022-12-03",
@@ -4639,6 +4656,23 @@
       "T10 — RISC-V SoC & FPGA"
     ],
     "title": "CCALK: (When) CVA6 Cache Associativity Leaks the Key",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.3390/s22124340": {
+    "doi": "https://doi.org/10.3390/s22124340",
+    "publication_date": "2022-06-08",
+    "publication_type": "revue",
+    "publication_venue": "Sensors",
+    "score": 85,
+    "source": "https://doi.org/10.3390/s22124340",
+    "summary": "Cet article présente ERAMO, un protocole d'attestation à distance (RA) étendant les mécanismes actuels pour attester des régions mémoire plus larges sur des dispositifs IoT multi-services, en adoptant une approche de déchargement de mémoire (memory offloading) pour couvrir les attaques sur la mémoire de données et les périphériques externes.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Memory Offloading for Remote Attestation of Multi-Service IoT Devices",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
