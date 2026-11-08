@@ -7864,6 +7864,14 @@
       "title": "Assessing the Vulnerability of Open-Source RISC-V Processors to Transient Execution Attacks",
       "updated_at": "2026-11-01T17:14:17.358771+00:00"
     },
+    "doi:10.1109/dft56152.2022.9962352": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Is RISC-V ready for Space? A Security Perspective",
+      "updated_at": "2026-11-08T02:14:21.778109+00:00"
+    },
     "doi:10.1109/dft63277.2024.10753540": {
       "category": "coeur",
       "decision": "conserver",
@@ -14576,6 +14584,14 @@
       "title": "RVDLAHA: An RISC-V DLA Hardware Architecture for On-Device Real-Time Seizure Detection and Personalization in Wearable Applications",
       "updated_at": "2026-11-07T02:36:27.541814+00:00"
     },
+    "doi:10.1109/tc.2022.3218986": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Birds of the Same Feather Flock Together: A Dual-Mode Circuit Candidate for Strong PUF-TRNG Functionalities",
+      "updated_at": "2026-11-08T02:13:39.650306+00:00"
+    },
     "doi:10.1109/tc.2023.3251864": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -17487,6 +17503,14 @@
       "status": "rejected",
       "title": "Physical Layer Security for RIS-Aided Hardware-Impaired Cell-Free Massive MIMO",
       "updated_at": "2026-11-03T13:50:44.309583+00:00"
+    },
+    "doi:10.1109/wf-iot54382.2022.10152074": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Bao-Enclave: Virtualization-based Enclaves for Arm",
+      "updated_at": "2026-11-08T02:14:25.173351+00:00"
     },
     "doi:10.1109/wintechcon66724.2025.11430057": {
       "category": "hors_sujet",
@@ -24464,6 +24488,14 @@
       "title": "Enhancing IoT Security Through Trusted Execution Environments",
       "updated_at": "2026-11-05T02:13:33.382262+00:00"
     },
+    "doi:10.30574/wjarr.2022.16.1.0983": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Runtime Attestation and Provenance Tracking for Autonomous AI Agents: A Zero Trust Framework for Agentic Workflows",
+      "updated_at": "2026-11-08T02:14:29.744746+00:00"
+    },
     "doi:10.30574/wjarr.2026.29.1.0026": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -28744,6 +28776,14 @@
       "title": "Specognitor: Identifying Spectre Vulnerabilities via Prediction-Aware Symbolic Execution",
       "updated_at": "2026-11-07T23:15:08.207471+00:00"
     },
+    "doi:10.48550/arxiv.2211.16212": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "Control-Flow Integrity at RISC: Attacking RISC-V by Jump-Oriented Programming",
+      "updated_at": "2026-11-08T02:13:30.054951+00:00"
+    },
     "doi:10.48550/arxiv.2212.04197": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -29959,6 +29999,22 @@
       "status": "rejected",
       "title": "Generative AI Copyright Governance and Physical-Layer Autonomous Defense Infrastructure — Mathematical Formalization of $10B-Scale TCO Optimization, Decoupled Cluster/Unlearning Data Shapley, CLAP Multi-Stem Audio Attribution, Sub-1.5-ms HITL0 CBF-QP Subsea Rerouting under UNCLOS, QPUF Silicon Root of Trust, and NIST FIPS 203 (ML-KEM-768) Edge TEE Provenance",
       "updated_at": "2026-10-31T07:10:38.187513+00:00"
+    },
+    "doi:10.5281/zenodo.7188986": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Providing Trusted Execution Environments using FPGA",
+      "updated_at": "2026-11-08T02:14:20.162616+00:00"
+    },
+    "doi:10.5281/zenodo.7189003": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Implementacão do RISC-V IOPMP no CVA6 SoC",
+      "updated_at": "2026-11-08T02:14:23.639849+00:00"
     },
     "doi:10.52823/awgk1681": {
       "category": "hors_sujet",

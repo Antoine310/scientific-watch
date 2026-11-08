@@ -605,6 +605,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/dft56152.2022.9962352": {
+    "doi": "https://doi.org/10.1109/dft56152.2022.9962352",
+    "publication_date": "2022-10-19",
+    "publication_type": "conference",
+    "publication_venue": "Proceedings",
+    "score": 85,
+    "source": "https://doi.org/10.1109/dft56152.2022.9962352",
+    "summary": "Cet article analyse la sécurité des microprocesseurs RISC-V dans le contexte des applications spatiales, marqué par l'utilisation de composants COTS et de cœurs IP tiers (3PIPs). Il met en évidence les menaces de type chevaux de Troie matériels (HTH) et attaques par canaux cachés microarchitecturaux (MSCAs), tout en évaluant les extensions de sécurité existantes et leurs limites.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Is RISC-V ready for Space? A Security Perspective",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/dft63277.2024.10753540": {
     "publication_date": "2024-10-08",
     "publication_type": "conference",
@@ -2462,6 +2479,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/wf-iot54382.2022.10152074": {
+    "doi": "https://doi.org/10.1109/wf-iot54382.2022.10152074",
+    "publication_date": "2022-10-26",
+    "publication_type": "conference",
+    "publication_venue": "IEEE World Forum on Internet of Things (WF-IoT)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/wf-iot54382.2022.10152074",
+    "summary": "Cet article présente Bao-Enclave, une solution basée sur la virtualisation pour Arm qui permet de déplacer les fonctionnalités de sécurité hors du TEE traditionnel (TrustZone) vers des environnements isolés dans le monde normal, sous forme de machines virtuelles légères protégées contre les OS potentiellement malveillants.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Bao-Enclave: Virtualization-based Enclaves for Arm",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1117/12.3032012": {
     "doi": "https://doi.org/10.1117/12.3032012",
@@ -5681,6 +5715,23 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Embedded Security & RISC-V Research"
+  },
+  "doi:10.5281/zenodo.7189003": {
+    "doi": "https://doi.org/10.5281/zenodo.7189003",
+    "publication_date": "2022-10-12",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "https://zenodo.org/record/7189004",
+    "summary": "Ce travail présente l'implémentation d'un dispositif de protection de la mémoire basé sur la spécification RISC-V IOPMP (Input Output Physical Memory Protection) v0.1 au sein d'un SoC CVA6. L'objectif est de réguler et de protéger les accès mémoire effectués par les différents bus masters, tels que les contrôleurs DMA, dans une architecture de plateforme hétérogène.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Implementacão do RISC-V IOPMP no CVA6 SoC",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.53941/pc.2026.100006": {
     "publication_date": "2026-06-29",
