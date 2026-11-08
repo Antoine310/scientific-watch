@@ -1455,6 +1455,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/itc50671.2022.00056": {
+    "doi": "https://doi.org/10.1109/itc50671.2022.00056",
+    "publication_date": "2022-09-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE International Test Conference (ITC)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/itc50671.2022.00056",
+    "summary": "Ce travail présente une racine de confiance matérielle (Hardware Root of Trust) légère, non intrusive, simple et efficace, conçue pour contrer les menaces de sécurité liées au balayage (scan) dans les écosystèmes DFT (Design-for-Test). Elle s'intègre facilement avec la technologie Streaming Scan Network (SSN) en exploitant son embrouillage de données inhérent et sa distribution de données de test par paquets, répondant ainsi aux préoccupations des fabricants de circuits intégrés concernant la surcharge de surface et l'impact sur le flux de conception.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Hardware Root of Trust for SSN-basedDFT Ecosystems",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/jiot.2026.3685841": {
     "publication_date": "2026-07-01",
     "publication_date_note": "",
@@ -2543,6 +2560,23 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "SpecTerminator: Blocking Speculative Side Channels Based on Instruction Classes on RISC-V",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3569562.3569589": {
+    "doi": "https://doi.org/10.1145/3569562.3569589",
+    "publication_date": "2022-10-01",
+    "publication_type": "conference",
+    "publication_venue": "Hardware and Architectural Support for Security and Privacy",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3569562.3569589",
+    "summary": "Cet article présente une évaluation comparative des approches d'apprentissage automatique basées sur l'analyse statique et microarchitecturale pour détecter à la fois le code vulnérable aux failles Spectre (approche préventive) et les attaques Spectre en cours (approche réactive), tout en étudiant les compromis de performance des classifieurs.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Short Paper: Static and Microarchitectural ML-Based Approaches For Detecting Spectre Vulnerabilities and Attacks",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -4127,6 +4161,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.29007/vbqt": {
+    "doi": "https://doi.org/10.29007/vbqt",
+    "publication_date": "2022-10-04",
+    "publication_type": "revue",
+    "publication_venue": "EPiC series in computing",
+    "score": 75,
+    "source": "https://doi.org/10.29007/vbqt",
+    "summary": "Cet article propose une méthode de détection des attaques par canal caché sur les caches, basée sur la localité, en combinant des compteurs de performance matérielle (HPC) de bas niveau avec le graphe de flux de contrôle (CFG) de haut niveau. L'approche utilise la classification de graphes par réseaux de neurones graphiques (GNN) pour identifier les motifs d'attaque et atteint une précision de 99,44 % sur un corpus de 1 200 benchmarks.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Locality Based Cache Side-channel Attack Detection",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.31838/esa/03.01.08": {
     "publication_date": "2026-03-18",
