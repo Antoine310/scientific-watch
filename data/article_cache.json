@@ -5864,6 +5864,14 @@
       "title": "Harnessing temporal dispersion for integrated pump filtering in spontaneous heralded single-photon generation processes",
       "updated_at": "2026-11-05T04:25:27.859055+00:00"
     },
+    "doi:10.1088/1402-4896/ad8b79": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Implementation of adders using XOR gates in quantum-dot cellular automata with physical verification",
+      "updated_at": "2026-11-08T07:37:42.630762+00:00"
+    },
     "doi:10.1088/1674-4926/25050016": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -7120,6 +7128,14 @@
       "title": "Leveraging Large Language Models for Secure Hardware Verification and Analysis",
       "updated_at": "2026-11-03T21:07:19.329820+00:00"
     },
+    "doi:10.1109/asid63618.2024.10839653": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Agile Design of a RISC-V Processor with Trigonometric Math Extensions Using SpinalHDL",
+      "updated_at": "2026-11-08T07:36:33.959450+00:00"
+    },
     "doi:10.1109/asid63618.2024.10839693": {
       "category": "secondaire",
       "decision": "examiner",
@@ -7127,6 +7143,14 @@
       "status": "rejected",
       "title": "Design of a Novel TRNG Based on MSFRO and STR Entropy Source",
       "updated_at": "2026-11-02T23:13:53.632630+00:00"
+    },
+    "doi:10.1109/asid63618.2024.10839700": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Design and Implementation of a NTT Accelerator Based on RISC-V for PQC Kyber",
+      "updated_at": "2026-11-08T07:36:33.981976+00:00"
     },
     "doi:10.1109/async65240.2025.00009": {
       "category": "hors_sujet",
@@ -8376,6 +8400,14 @@
       "title": "Leveraging Remote Attestation APIs for Secure Image Sharing in Messaging Apps",
       "updated_at": "2026-11-06T15:36:49.972826+00:00"
     },
+    "doi:10.1109/edkcon62339.2024.10870604": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "ASIC Flow Implementation on a 32 Bit RISC V Processor using Cadence",
+      "updated_at": "2026-11-08T07:36:42.977469+00:00"
+    },
     "doi:10.1109/edkcon62339.2024.10870800": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -8487,6 +8519,14 @@
       "status": "rejected",
       "title": "A High-Performance RISC-V SoC with a DNN Accelerator for Energy Applications",
       "updated_at": "2026-11-08T00:36:40.154533+00:00"
+    },
+    "doi:10.1109/eiect64462.2024.10867213": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A Multiple Precision Floating-Point Arithmetic Unit Based on the RISC-V Instruction Set",
+      "updated_at": "2026-11-08T07:36:42.953420+00:00"
     },
     "doi:10.1109/eit67313.2025.11232447": {
       "category": "hors_sujet",
@@ -8751,6 +8791,14 @@
       "status": "imported",
       "title": "Enclave Application Cache for RISC-V Keystone",
       "updated_at": "2026-10-30T20:13:52.390287+00:00"
+    },
+    "doi:10.1109/ewdts63723.2024.10873766": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Sharing AES Engine for RISC-V Custom Instructions Performing Encryption and Decryption",
+      "updated_at": "2026-11-08T07:36:42.999026+00:00"
     },
     "doi:10.1109/ewdts67441.2025.11303704": {
       "category": "secondaire",
@@ -10064,6 +10112,54 @@
       "title": "Configuration and Testing of a Feeder Protection-Based Power Redirection Technique with IEC 61850 Standard GOOSE Control Model Using Hardware-in-the-Loop for an Electrical Distribution System",
       "updated_at": "2026-11-02T20:56:46.097202+00:00"
     },
+    "doi:10.1109/icecs61496.2024.10848613": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Functional ISS-Driven Verification of Superscalar RISC-V Processors",
+      "updated_at": "2026-11-08T07:36:34.003477+00:00"
+    },
+    "doi:10.1109/icecs61496.2024.10848750": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Low-Energy RISC-V Core in 18nm FD-SOI CMOS for Embedded Edge-Computing",
+      "updated_at": "2026-11-08T07:36:34.047424+00:00"
+    },
+    "doi:10.1109/icecs61496.2024.10848907": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "On Assessing the Robustness of RISC-V Soft Cores for Space Systems by Mission-Tailored SEU Analysis",
+      "updated_at": "2026-11-08T07:36:34.072654+00:00"
+    },
+    "doi:10.1109/icecs61496.2024.10848919": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Design and Test-Verification of a Single-Cycle RISC-V Microprocessor on FPGA",
+      "updated_at": "2026-11-08T07:36:34.097926+00:00"
+    },
+    "doi:10.1109/icecs61496.2024.10848921": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "RISC-V Core with AES-256 Accelerator",
+      "updated_at": "2026-11-08T07:36:42.931076+00:00"
+    },
+    "doi:10.1109/icecs61496.2024.10848936": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "On-Chip Advanced Control Algorithm for Memristor Operations with Integrated RISC-V Core",
+      "updated_at": "2026-11-08T07:36:34.024620+00:00"
+    },
     "doi:10.1109/icecs61496.2024.10849306": {
       "category": "secondaire",
       "decision": "examiner",
@@ -10583,6 +10679,14 @@
       "status": "rejected",
       "title": "Hardware-Assisted Secure Boot for Edge Devices using Lightweight Cryptographic Verification",
       "updated_at": "2026-11-02T18:56:35.297920+00:00"
+    },
+    "doi:10.1109/icsrs63046.2024.10927509": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A PCI Express Based Data Acquisition System for the Monitoring of Code Traces of RISC-V Microprocessors",
+      "updated_at": "2026-11-08T07:36:52.784229+00:00"
     },
     "doi:10.1109/icssas66150.2025.11081376": {
       "category": "secondaire",
@@ -14304,6 +14408,14 @@
       "title": "Enhancing Manet Cybersecurity Through a Hardware-Driven AI-Based Defense System",
       "updated_at": "2026-11-06T05:38:08.381775+00:00"
     },
+    "doi:10.1109/rpa65165.2024.10932927": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Implementation of a Prototype PLC Based on the RISC-V Architecture in the DTPS Package",
+      "updated_at": "2026-11-08T07:36:52.759396+00:00"
+    },
     "doi:10.1109/rtas58335.2023.00018": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -14559,6 +14671,14 @@
       "status": "rejected",
       "title": "Compromising Synchrophasor Data by Attacking Time Synchronization: A Hardware-Lab Study",
       "updated_at": "2026-11-03T09:07:33.690032+00:00"
+    },
+    "doi:10.1109/silcon63976.2024.10910442": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Securing RISC-V Processor Using Randomized Scan Obfuscation",
+      "updated_at": "2026-11-08T07:36:52.736614+00:00"
     },
     "doi:10.1109/silcon67893.2025.11327434": {
       "category": "hors_sujet",
@@ -17696,6 +17816,14 @@
       "title": "Fused SIM(S)D/Scalar Functional Units for RISC-V P-B-Zkn Instruction Set Extensions",
       "updated_at": "2026-11-02T19:34:45.799551+00:00"
     },
+    "doi:10.1109/vlsi-soc62099.2024.10767817": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Secure Software/Hardware Hybrid In-Field Testing for System-on-Chip",
+      "updated_at": "2026-11-08T07:38:19.949974+00:00"
+    },
     "doi:10.1109/vlsi-soc70418.2026.11740562": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -18888,6 +19016,14 @@
       "title": "DH-TRNG: A Dynamic Hybrid TRNG with Ultra-High Throughput and Area-Energy Efficiency",
       "updated_at": "2026-11-03T23:13:24.126733+00:00"
     },
+    "doi:10.1145/3649329.3658469": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "Lost and Found in Speculation: Hybrid Speculative Vulnerability Detection",
+      "updated_at": "2026-11-08T07:38:40.131081+00:00"
+    },
     "doi:10.1145/3649329.3658492": {
       "category": "coeur",
       "decision": "conserver",
@@ -19447,6 +19583,14 @@
       "status": "imported",
       "title": "Monocle: Transient Execution Proof Memory Views for Runtime Compiled Code",
       "updated_at": "2026-11-04T22:48:55.402348+00:00"
+    },
+    "doi:10.1145/3708821.3733909": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Breaking Bad: How Compilers Break Constant-Time Implementations",
+      "updated_at": "2026-11-08T07:38:30.951972+00:00"
     },
     "doi:10.1145/3708988": {
       "category": "hors_sujet",
@@ -23751,6 +23895,14 @@
       "status": "rejected",
       "title": "NEURAL-SURROGATE-ASSISTED HARDWARE-SOFTWARE CO-DESIGN FOR REAL-TIME RECONFIGURABLE FPGA SYSTEMS IN WEARABLE DEVICES",
       "updated_at": "2026-11-05T03:24:57.593400+00:00"
+    },
+    "doi:10.21956/openreseurope.20353.r45574": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Review: Co-designing ab initio electronic structure methods on a RISC-V vector architecture (Round2/Review1)",
+      "updated_at": "2026-11-08T07:37:02.071134+00:00"
     },
     "doi:10.21956/openreseurope.20502.r47178": {
       "category": "hors_sujet",
@@ -33208,6 +33360,14 @@
       "title": "Confidential LLM Inference: Performance and Cost Across CPU and GPU TEEs",
       "updated_at": "2026-11-04T17:48:55.269396+00:00"
     },
+    "title:confinepreservingdatasecrecyindecentralizedprocessmining": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "CONFINE: Preserving Data Secrecy in Decentralized Process Mining",
+      "updated_at": "2026-11-08T07:38:48.967594+00:00"
+    },
     "title:constantsizecryptographicevidencestructuresforregulatedaiworkflows": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -33791,6 +33951,14 @@
       "status": "imported",
       "title": "Formal Verification of Secure Encrypted Virtualization",
       "updated_at": "2026-11-03T10:13:45.988272+00:00"
+    },
+    "title:fortifyyourfoundationspracticalprivacyandsecurityforfoundationmodeldeploymentsinthecloud": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Fortify Your Foundations: Practical Privacy and Security for Foundation Model Deployments In The Cloud",
+      "updated_at": "2026-11-08T07:38:48.993030+00:00"
     },
     "title:fpgabasedlightweighthybridphysicalunclonablefunctionforsecuredeviceauthenticationusingarbiterandringoscillatorarchitectures": {
       "category": "secondaire",
@@ -34528,6 +34696,14 @@
       "title": "Multi-target Coverage-based Greybox Fuzzing",
       "updated_at": "2026-11-03T14:43:58.995783+00:00"
     },
+    "title:mvvmdeployyouraiagentssecurelyefficientlyeverywhere": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "MVVM: Deploy Your AI Agents-Securely, Efficiently, Everywhere",
+      "updated_at": "2026-11-08T07:38:30.974776+00:00"
+    },
     "title:nacrerethinkingconfidentialcontainersthroughnativearchitecturalsupport": {
       "category": "coeur",
       "decision": "conserver",
@@ -35104,6 +35280,14 @@
       "title": "Quantum Computing and Cybersecurity Education: A Novel Curriculum for Enhancing Graduate STEM Learning",
       "updated_at": "2026-11-06T18:37:02.669534+00:00"
     },
+    "title:quantumoperatingsystemsupportforquantumtrustedexecutionenvironments": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Quantum Operating System Support for Quantum Trusted Execution Environments",
+      "updated_at": "2026-11-08T07:38:49.015390+00:00"
+    },
     "title:quantumsecurephysicalunclonablefunctionenabledbysiliconphotonicsintegratedcircuits": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -35199,6 +35383,14 @@
       "status": "rejected",
       "title": "RepTC: Representation-Aware Optimization for Efficient Traffic Classification on Edge IoT Devices",
       "updated_at": "2026-11-02T13:03:18.653446+00:00"
+    },
+    "title:researchdirectionsforverifiablecryptophysicallysecuretees": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Research Directions for Verifiable Crypto-Physically Secure TEEs",
+      "updated_at": "2026-11-08T07:38:06.763903+00:00"
     },
     "title:resolvingconflictsbetweenrtostimekeepinganduninterruptabletrustedcomputing": {
       "category": "secondaire_technique",
@@ -36111,6 +36303,14 @@
       "status": "imported",
       "title": "TNIC: A Trusted NIC Architecture",
       "updated_at": "2026-11-07T01:38:02.467221+00:00"
+    },
+    "title:toleoscalingfreshnesstoterascalememoryusingcxlandpim": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "Toleo: Scaling Freshness to Tera-scale Memory using CXL and PIM",
+      "updated_at": "2026-11-08T07:38:06.786608+00:00"
     },
     "title:towardprovablyprivateanalyticsandinsightsintogenaiuse": {
       "category": "secondaire",

@@ -2854,6 +2854,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3649329.3658469": {
+    "doi": "https://doi.org/10.1145/3649329.3658469",
+    "publication_date": "2024-10-29",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "DAC '24: 61st ACM/IEEE Design Automation Conference",
+    "score": 88,
+    "source": "http://arxiv.org/abs/2410.22555v1",
+    "summary": "Cette publication présente Specure, une nouvelle méthode de vérification pré-silicium combinant le fuzzing matériel et le suivi de flux d'informations (IFT) pour détecter automatiquement les vulnérabilités liées à l'exécution spéculative dans les processeurs modernes.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Lost and Found in Speculation: Hybrid Speculative Vulnerability Detection",
+    "venue_landmark": "DAC",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3649329.3658492": {
     "doi": "https://doi.org/10.1145/3649329.3658492",
     "publication_date": "2024-06-23",
@@ -3144,6 +3164,26 @@
       "T04 — Runtime Attestation"
     ],
     "title": "Monocle: Transient Execution Proof Memory Views for Runtime Compiled Code",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3708821.3733909": {
+    "doi": "https://doi.org/10.1145/3708821.3733909",
+    "publication_date": "2024-10-17",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "ASIA CCS '25: 20th ACM Asia Conference on Computer and Communications Security",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2410.13489v2",
+    "summary": "Cet article étudie comment les optimisations des compilateurs modernes détruisent les protections en temps constant utilisées dans les bibliothèques cryptographiques durcies contre les attaques par canal auxiliaire. Les auteurs mènent une analyse dynamique à grande échelle sur 44604 cibles à l'aide d'un outil de profilage, révélant la présence d'opérations dépendantes du secret induites par le compilateur dans des bibliothèques majeures.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Breaking Bad: How Compilers Break Constant-Time Implementations",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -7220,6 +7260,26 @@
       "T07 — Hardware Security Verification"
     ],
     "title": "Remote-Timer-as-a-Service: Efficient Microarchitectural Leakage in the Cloud with Remote Timers",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:researchdirectionsforverifiablecryptophysicallysecuretees": {
+    "doi": "",
+    "publication_date": "2024-10-04",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2410.03183v2",
+    "summary": "Ce travail explore l'architecture et la conception de TEEs (Trusted Execution Environments) cryptophysiquement sécurisés pour le Web3, palliant les limitations de performance de la cryptographie (ZKP, FHE, MPC). Il propose d'éliminer la dépendance envers les fabricants de puces et le cloud en combinant PUFs, techniques de masquage/redondance et matériel open source.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Research Directions for Verifiable Crypto-Physically Secure TEEs",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
