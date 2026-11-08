@@ -2929,6 +2929,26 @@
     "venue_priority": 2,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3689939.3695779": {
+    "doi": "https://doi.org/10.1145/3689939.3695779",
+    "publication_date": "2024-11-17",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "CCS '24: ACM SIGSAC Conference on Computer and Communications Security",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2411.11060v1",
+    "summary": "Cet article étudie les implications de sécurité des modifications de flux de configuration (bitstreams) sur les FPGA, qui sont de plus en plus utilisés dans des applications critiques. Les auteurs présentent un cadre méthodologique permettant de manipuler les bitstreams avec un ingénierie inverse minimale en injectant des circuits pré-synthétisés, démontrant ainsi les risques liés à des protections inadéquates et la vulnérabilité potentielle des composants utilisés comme racines de confiance.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "Patching FPGAs: The Security Implications of Bitstream Modifications",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3690823": {
     "publication_date": "2024-09-05",
     "publication_type": "revue",

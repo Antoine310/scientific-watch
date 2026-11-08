@@ -1,5 +1,13 @@
 {
   "articles": {
+    "doi:10.1001/jamasurg.2024.3080": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Restrictive Strategy vs Usual Care for Cholecystectomy in Patients With Abdominal Pain and Gallstones",
+      "updated_at": "2026-11-08T01:38:58.425637+00:00"
+    },
     "doi:10.1002/9781394351909.ch12": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -2792,6 +2800,22 @@
       "title": "Assessing performance and porting strategies for gravitational N-body simulations on the RISC-V-based tenstorrent Wormhole™",
       "updated_at": "2026-11-02T20:16:40.646454+00:00"
     },
+    "doi:10.1016/j.asej.2024.103016": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Unveiling robust security: Chaotic maps for frequency hopping implementation in FPGA",
+      "updated_at": "2026-11-08T01:37:38.898679+00:00"
+    },
+    "doi:10.1016/j.asoc.2024.112078": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A Genetic Programming approach for hardware-oriented hash functions for network security applications",
+      "updated_at": "2026-11-08T01:37:28.509554+00:00"
+    },
     "doi:10.1016/j.asoc.2026.115903": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -3007,6 +3031,14 @@
       "status": "rejected",
       "title": "A cross-process Spectre attack via cache on RISC-V processor with trusted execution environment",
       "updated_at": "2026-11-07T20:13:35.113694+00:00"
+    },
+    "doi:10.1016/j.compeleceng.2024.109559": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Innovative protection schemes through hardware-in-the-loop dynamic testing.",
+      "updated_at": "2026-11-08T01:37:38.951283+00:00"
     },
     "doi:10.1016/j.compeleceng.2024.109826": {
       "category": "secondaire",
@@ -4543,6 +4575,14 @@
       "status": "rejected",
       "title": "SecurityCloak: Protection against cache timing and speculative memory access attacks",
       "updated_at": "2026-11-04T17:16:34.887445+00:00"
+    },
+    "doi:10.1016/j.sysarc.2024.103288": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 62,
+      "status": "rejected",
+      "title": "TaPaFuzz: Hardware-accelerated RISC-V bare-metal firmware fuzzing using rapid job launches",
+      "updated_at": "2026-11-08T01:38:18.777189+00:00"
     },
     "doi:10.1016/j.sysarc.2025.103372": {
       "category": "hors_sujet",
@@ -11808,6 +11848,22 @@
       "title": "REALISE-IoT: RISC-V-Based Efficient and Lightweight Public-Key System for IoT Applications",
       "updated_at": "2026-11-06T17:14:07.821730+00:00"
     },
+    "doi:10.1109/jiot.2024.3436057": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "RAM-Based Firmware Attestation for IoT Security: A Representation Learning Framework",
+      "updated_at": "2026-11-08T01:37:18.581014+00:00"
+    },
+    "doi:10.1109/jiot.2024.3443642": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Blockchain and Trusted Hardware-Enabled Data Scheduling for Edge Learning in Wireless IIoT",
+      "updated_at": "2026-11-08T01:37:38.845673+00:00"
+    },
     "doi:10.1109/jiot.2024.3486005": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -15504,6 +15560,38 @@
       "title": "FPGA Assessment Methodology of Adverse X-Ray Effects on Secure Digital Circuits",
       "updated_at": "2026-11-06T19:38:37.979613+00:00"
     },
+    "doi:10.1109/tdsc.2024.3357521": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Trusted Hardware-Assisted Leaderless Byzantine Fault Tolerance Consensus",
+      "updated_at": "2026-11-08T01:37:08.973998+00:00"
+    },
+    "doi:10.1109/tdsc.2024.3375311": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "ProveriT: A Parameterized, Composable, and Verified Model of TEE Protection Profile",
+      "updated_at": "2026-11-08T01:38:38.382782+00:00"
+    },
+    "doi:10.1109/tdsc.2024.3375925": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Parallel Byzantine Consensus Based on Hierarchical Architecture and Trusted Hardware",
+      "updated_at": "2026-11-08T01:37:09.028986+00:00"
+    },
+    "doi:10.1109/tdsc.2024.3381973": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Ensuring State Continuity for Confidential Computing: A Blockchain-Based Approach",
+      "updated_at": "2026-11-08T01:38:48.398098+00:00"
+    },
     "doi:10.1109/tdsc.2024.3387568": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -16159,6 +16247,14 @@
       "status": "rejected",
       "title": "FPGA Adaptive Neural Network Quantization for Adversarial Image Attack Defense",
       "updated_at": "2026-11-07T21:43:09.299708+00:00"
+    },
+    "doi:10.1109/tit.2024.3455557": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Robust, Secure, and Private Cache-Aided Scalar Linear Function Retrieval From Distributed System With Blind and Adversarial Servers",
+      "updated_at": "2026-11-08T01:39:08.494240+00:00"
     },
     "doi:10.1109/tits.2025.3605407": {
       "category": "hors_sujet",
@@ -17760,6 +17856,14 @@
       "title": "A Comprehensive Evaluation of Side-Channel Resistance of Xoodyak Hardware Implementations",
       "updated_at": "2026-11-04T22:48:45.687840+00:00"
     },
+    "doi:10.1142/s0218126625500926": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Hardware Implementation of Montgomery Modular Multiplication Based on New Compressor-4:2 Design",
+      "updated_at": "2026-11-08T01:37:59.038458+00:00"
+    },
     "doi:10.1142/s0218126625503050": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -18528,6 +18632,14 @@
       "title": "A Hardware-Software Co-Design for Efficient Secure Containers",
       "updated_at": "2026-11-06T21:36:38.211516+00:00"
     },
+    "doi:10.1145/3689939.3695779": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Patching FPGAs: The Security Implications of Bitstream Modifications",
+      "updated_at": "2026-11-08T01:37:00.977464+00:00"
+    },
     "doi:10.1145/3690823": {
       "category": "coeur",
       "decision": "conserver",
@@ -18560,6 +18672,30 @@
       "title": "SpecASan: Mitigating Transient Execution Attacks Using Speculative Address Sanitization",
       "updated_at": "2026-10-30T20:15:23.600029+00:00"
     },
+    "doi:10.1145/3695462": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Alert Prioritisation in Security Operations Centres: A Systematic Survey on Criteria and Methods",
+      "updated_at": "2026-11-08T01:37:48.522433+00:00"
+    },
+    "doi:10.1145/3696208": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Scabbard: An Exploratory Study on Hardware Aware Design Choices of Learning with Rounding-based Key Encapsulation Mechanisms",
+      "updated_at": "2026-11-08T01:37:59.092686+00:00"
+    },
+    "doi:10.1145/3696418": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "ArmSpy++: Enhanced PIN Inference through Video-based Fine-grained Arm Posture Analysis",
+      "updated_at": "2026-11-08T01:37:59.144388+00:00"
+    },
     "doi:10.1145/3696443.3708936": {
       "category": "coeur",
       "decision": "conserver",
@@ -18575,6 +18711,38 @@
       "status": "rejected",
       "title": "A Multi-level Compiler Backend for Accelerated Micro-kernels Targeting RISC-V ISA Extensions",
       "updated_at": "2026-11-06T20:36:45.697112+00:00"
+    },
+    "doi:10.1145/3696843": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Proceedings of the 13th International Workshop on Hardware and Architectural Support for Security and Privacy",
+      "updated_at": "2026-11-08T01:38:29.253246+00:00"
+    },
+    "doi:10.1145/3696843.3696844": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "TPU as Cryptographic Accelerator",
+      "updated_at": "2026-11-08T01:38:29.307749+00:00"
+    },
+    "doi:10.1145/3696843.3696848": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Position Paper: From Confidential Computing to Zero Trust, Come Along for the (Bumpy?) Ride",
+      "updated_at": "2026-11-08T01:38:29.360532+00:00"
+    },
+    "doi:10.1145/3696843.3696853": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Short Paper: Analysis of Vivado implementation strategies regarding side-channel leakage for FPGA-based AES implementations",
+      "updated_at": "2026-11-08T01:38:29.415038+00:00"
     },
     "doi:10.1145/3701100.3701165": {
       "category": "secondaire",
@@ -24551,6 +24719,14 @@
       "status": "rejected",
       "title": "E-AAPIV: Merkle Tree-Based Real-Time Android Manifest Integrity Verification for Mobile Payment Security",
       "updated_at": "2026-10-30T09:49:17.513077+00:00"
+    },
+    "doi:10.32628/cseit241051048": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Advanced Encryption Techniques for Database Security in Cloud Environments",
+      "updated_at": "2026-11-08T01:38:08.488629+00:00"
     },
     "doi:10.32628/cseit251112191": {
       "category": "hors_sujet",
