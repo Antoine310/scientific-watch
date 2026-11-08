@@ -224,6 +224,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1088/1742-6596/2333/1/012014": {
+    "doi": "https://doi.org/10.1088/1742-6596/2333/1/012014",
+    "publication_date": "2022-08-01",
+    "publication_type": "revue",
+    "publication_venue": "Journal of Physics Conference Series",
+    "score": 75,
+    "source": "https://doi.org/10.1088/1742-6596/2333/1/012014",
+    "summary": "Cette publication propose un nouveau modèle de cache basé sur la transition d'états pour analyser les attaques par canal auxiliaire sur les caches (CSCA). Les auteurs identifient 11 états de base pour un ensemble de cache et formalisent l'attaque à travers trois aspects : le coût pré-attaque, le coût de transition d'états et la précision de la détection, afin de surmonter les limites des modèles existants se concentrant uniquement sur la phase d'établissement et manquant de granularité.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "A State Transition Based Cache Side Channel Attack Model",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/access.2023.3275757": {
     "doi": "https://doi.org/10.1109/access.2023.3275757",
     "publication_date": "2023-01-01",
@@ -4590,6 +4607,40 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.3390/s22165981": {
+    "doi": "https://doi.org/10.3390/s22165981",
+    "publication_date": "2022-08-10",
+    "publication_type": "revue",
+    "publication_venue": "Sensors",
+    "score": 90,
+    "source": "https://doi.org/10.3390/s22165981",
+    "summary": "Cet article présente DITES, un SoC RISC-V double-cœur léger et flexible doté d'un Environnement d'Exécution de Confiance (TEE), conçu pour réduire l'utilisation des ressources par rapport aux architectures basées sur des cœurs complexes comme Rocket. Il intègre un coprocesseur cryptographique (SHA1, AES, RSA), une architecture de bus isolée multi-niveau, un démarrage sécurisé par chaîne de confiance et une politique d'accès hiérarchique pour la communication inter-cœur. Le système est déployé sur FPGA Kintex-7.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "DITES: A Lightweight and Flexible Dual-Core Isolated Trusted Execution SoC Based on RISC-V",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.3390/s22166044": {
+    "doi": "https://doi.org/10.3390/s22166044",
+    "publication_date": "2022-08-12",
+    "publication_type": "revue",
+    "publication_venue": "Sensors",
+    "score": 75,
+    "source": "https://doi.org/10.3390/s22166044",
+    "summary": "Cet article présente CFRV, un schéma d'attestation du flux de contrôle (CFA) décentralisé utilisant le partage de secrets mutuels. Conçu pour l'Internet des Objets (IoT) pair-à-pair sans centre de confiance, il vise à détecter les détournements de flux de contrôle, à éliminer les points uniques de défaillance et à réduire les coûts de calcul en limitant l'usage de l'infrastructure à clé publique (PKI). Le prototype a été évalué sur Raspberry-Pi.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "CFRV: A Decentralized Control-Flow Attestation Schema Using Mutual Secret Sharing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.3390/sym16030310": {
     "doi": "https://doi.org/10.3390/sym16030310",
     "publication_date": "2024-03-06",
@@ -5139,6 +5190,40 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2208.03631": {
+    "doi": "https://doi.org/10.48550/arxiv.2208.03631",
+    "publication_date": "2022-08-07",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2208.03631",
+    "summary": "Cet article présente une architecture TEE basée sur des enclaves pour sécuriser l'intégration d'un Secure Element (SE) dans un SoC RISC-V industriel. La solution utilise une co-conception matérielle et logicielle pour isoler les applications, contrôler le SE via une enclave de confiance et renforcer la résilience du cœur RISC-V face aux attaques par canal auxiliaire.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "An Enclave-based TEE for SE-in-SoC in RISC-V Industry",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.48550/arxiv.2208.14062": {
+    "doi": "https://doi.org/10.48550/arxiv.2208.14062",
+    "publication_date": "2022-08-30",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2208.14062",
+    "summary": "Cet article propose un mécanisme de détection en temps réel basé sur des algorithmes d'apprentissage automatique et l'optimisation de quatre événements de performance matérielle pour identifier des variantes de failles par canal auxiliaire et exécution spéculative (Spectre v1, v2, v4 et des implémentations de Meltdown). Les auteurs rapportent un taux de précision supérieur à 99 % sur les programmes bénins et les variantes testées.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Attack detection based on machine learning algorithms for different variants of Spectre attacks and different Meltdown attack implementations",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2211.02179": {
     "doi": "https://doi.org/10.48550/arxiv.2211.02179",
