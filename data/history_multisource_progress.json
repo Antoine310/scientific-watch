@@ -1,8 +1,8 @@
 {
   "accepted": 197,
   "completed": false,
-  "cursor": "MTcyNzQ3NDg0OTAwMCwxMC4yMTcyJTJGMjQ0NzkxNw==",
-  "evaluated": 3746,
+  "cursor": "*",
+  "evaluated": 3750,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -266,14 +266,346 @@
     "monthly/2024-11/query-20 : résultat tronqué au plafond 12 pages",
     "monthly/2024-11/query-21 : résultat tronqué au plafond 12 pages",
     "monthly/2024-11/query-22 : résultat tronqué au plafond 12 pages",
-    "monthly/2024-11/query-24 : résultat tronqué au plafond 12 pages"
+    "monthly/2024-11/query-24 : résultat tronqué au plafond 12 pages",
+    "monthly/2024-10/query-13 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2024-10",
   "needs_publish": false,
-  "offset": 320,
-  "pages_done": 3745,
-  "pages_in_query": 8,
-  "pending": [],
+  "offset": 0,
+  "pages_done": 3749,
+  "pages_in_query": 0,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "(IoT)": [
+            6
+          ],
+          "Experimental": [
+            89
+          ],
+          "Internet": [
+            3
+          ],
+          "IoT": [
+            35,
+            50
+          ],
+          "Our": [
+            67
+          ],
+          "The": [
+            0
+          ],
+          "Things": [
+            5
+          ],
+          "This": [
+            37
+          ],
+          "To": [
+            22
+          ],
+          "a": [
+            28,
+            85
+          ],
+          "accurate": [
+            77
+          ],
+          "additional": [
+            74
+          ],
+          "address": [
+            23
+          ],
+          "algorithm": [
+            57
+          ],
+          "also": [
+            81
+          ],
+          "ambiguous": [
+            54
+          ],
+          "an": [
+            53
+          ],
+          "and": [
+            19,
+            101
+          ],
+          "applications.": [
+            36
+          ],
+          "approach": [
+            68
+          ],
+          "authentication,": [
+            15
+          ],
+          "by": [
+            49
+          ],
+          "challenges,": [
+            12
+          ],
+          "cover": [
+            65,
+            106
+          ],
+          "data": [
+            17,
+            45,
+            78
+          ],
+          "devices": [
+            7
+          ],
+          "devices,": [
+            51
+          ],
+          "effectively": [
+            97
+          ],
+          "eliminates": [
+            69
+          ],
+          "embed": [
+            43
+          ],
+          "enhancing": [
+            82
+          ],
+          "extraction,": [
+            79
+          ],
+          "firmware": [
+            20
+          ],
+          "for": [
+            34,
+            76
+          ],
+          "generated": [
+            94
+          ],
+          "has": [
+            8
+          ],
+          "including": [
+            13
+          ],
+          "indicate": [
+            91
+          ],
+          "information": [
+            75,
+            103
+          ],
+          "insufficient": [
+            16
+          ],
+          "integrity": [
+            62
+          ],
+          "introduced": [
+            9
+          ],
+          "issues,": [
+            25
+          ],
+          "leverages": [
+            39
+          ],
+          "linguistic": [
+            29
+          ],
+          "maintains": [
+            59
+          ],
+          "mechanism.": [
+            88
+          ],
+          "messages.": [
+            66
+          ],
+          "need": [
+            71
+          ],
+          "networks": [
+            41
+          ],
+          "neural": [
+            40
+          ],
+          "of": [
+            2,
+            4,
+            63,
+            104
+          ],
+          "preserves": [
+            98
+          ],
+          "private": [
+            44
+          ],
+          "proliferation": [
+            1
+          ],
+          "propose": [
+            27
+          ],
+          "protection,": [
+            18
+          ],
+          "results": [
+            90
+          ],
+          "scheme": [
+            32,
+            38
+          ],
+          "secret": [
+            30,
+            86
+          ],
+          "security": [
+            11,
+            83
+          ],
+          "selection": [
+            56
+          ],
+          "semantic": [
+            102
+          ],
+          "sentiment": [
+            100
+          ],
+          "share": [
+            73
+          ],
+          "sharing": [
+            31,
+            87
+          ],
+          "significant": [
+            10
+          ],
+          "steganographic": [
+            95
+          ],
+          "tailored": [
+            33
+          ],
+          "text": [
+            96
+          ],
+          "text.": [
+            107
+          ],
+          "texts": [
+            47
+          ],
+          "textual": [
+            61
+          ],
+          "that": [
+            58,
+            92
+          ],
+          "the": [
+            60,
+            64,
+            70,
+            93,
+            99,
+            105
+          ],
+          "these": [
+            24
+          ],
+          "through": [
+            84
+          ],
+          "to": [
+            42,
+            72
+          ],
+          "token": [
+            55
+          ],
+          "transmitted": [
+            48
+          ],
+          "using": [
+            52
+          ],
+          "vulnerabilities.": [
+            21
+          ],
+          "we": [
+            26
+          ],
+          "weak": [
+            14
+          ],
+          "while": [
+            80
+          ],
+          "within": [
+            46
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Kai Gao"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ji-Hwei Horng"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ching-Chun Chang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Chin-Chen Chang"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.20944/preprints202410.0078.v1",
+        "id": "https://doi.org/10.20944/preprints202410.0078.v1",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.20944/preprints202410.0078.v1"
+        },
+        "publication_date": "2024-10-02",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-10-02",
+        "publication_type": "prepublication",
+        "publication_venue": "",
+        "title": "Linguistic Secret Sharing via Ambiguous Token Selection for IoT Security",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T01 — Root of Trust & Secure Boot"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2677,8 +3009,8 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1221,
-  "query_index": 13,
+  "prefilter_review_overflow": 1223,
+  "query_index": 14,
   "secondary": 203,
   "skipped": 3710,
   "version": 1
