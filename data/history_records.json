@@ -2108,6 +2108,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/tcad.2024.3392082": {
+    "doi": "https://doi.org/10.1109/tcad.2024.3392082",
+    "publication_date": "2024-10-01",
+    "publication_date_note": "Date source Crossref : 2024-10 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2024-10",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "score": 75,
+    "source": "https://doi.org/10.1109/tcad.2024.3392082",
+    "summary": "Cet article présente SnapMem, une mémoire coopérative matériel/logiciel conçue pour les SoC embarqués ARM-FPGA, mettant en œuvre un mécanisme de destruction des données après lecture afin de contrer les attaques liées aux caches inter-domaines.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "SnapMem: Hardware/Software Cooperative Memory Resistant to Cache-Related Attacks on ARM-FPGA Embedded SoC",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tcad.2024.3397880": {
     "doi": "https://doi.org/10.1109/tcad.2024.3397880",
     "publication_date": "2024-12-01",
@@ -2994,6 +3014,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3672392": {
+    "doi": "https://doi.org/10.1145/3672392",
+    "publication_date": "2024-10-01",
+    "publication_date_note": "Date source Crossref : 2024-10 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2024-10",
+    "publication_type": "revue",
+    "publication_venue": "ACM Computing Surveys",
+    "score": 88,
+    "source": "https://doi.org/10.1145/3672392",
+    "summary": "Cette publication propose une étude systématique et une taxonomie des améliorations matérielles destinées à sécuriser l'exécution des programmes. L'étude analyse comment le support matériel contribue à la sécurité à travers trois aspects : la correction d'état, la protection à l'exécution et la protection des entrées/sorties. Elle examine les rôles du matériel face aux attaques et discute des avantages et des inconvénients des solutions matérielles.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "A Survey of Hardware Improvements to Secure Program Execution",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1145/3672608.3707711": {
     "doi": "https://doi.org/10.1145/3672608.3707711",
@@ -6270,6 +6310,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:aschedulingawaredefenseagainstprefetchingbasedsidechannelattacks": {
+    "doi": "",
+    "publication_date": "2024-10-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2410.00452v1",
+    "summary": "Cet article traite des vulnérabilités par canal auxiliaire liées au préchargement (prefetching) spéculatif dans les processeurs modernes, qui permettent de contourner l'isolation des processus et de fuir des secrets cryptographiques. Les auteurs proposent PreFence, une contre-mesure consciente de l'ordonnancement qui permet de désactiver temporairement le préchargeur lors d'opérations critiques. Évaluée sur des architectures x86_64 et ARM, la solution stoppe les fuites avec un impact de performance négligeable hors des phases critiques et comparable à une désactivation totale du préchargeur dans le pire des cas.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "A Scheduling-Aware Defense Against Prefetching-Based Side-Channel Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:ateebasedarchitectureforconfidentialanddependableprocessattestationinauthorshipverification": {
     "doi": "",
     "publication_date": "2026-02-26",
@@ -6304,6 +6364,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Automated Template-free Synthesis of Instruction-Centric Leakage Contracts for Black-Box CPUs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:betaautomatedblackboxexplorationfortimingattacksinprocessors": {
+    "doi": "",
+    "publication_date": "2024-10-22",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 88,
+    "source": "http://arxiv.org/abs/2410.16648v1",
+    "summary": "Cet article présente BETA, un framework automatisé en boîte noire basé sur le fuzzing pour découvrir des vulnérabilités temporelles microarchitecturales dans les processeurs. Il combine un fuzzer contraignant la direction des mutations et un mécanisme de rétroaction basé sur la classification des instructions pour éliminer les cas de test redondants. Évalué sur quatre processeurs Intel et AMD, BETA a détecté toutes les vulnérabilités x86 connues ainsi que 8 nouvelles failles, avec une vitesse de détection multipliée par au moins 3 par rapport à l'état de l'art.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "BETA: Automated Black-box Exploration for Timing Attacks in Processors",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
