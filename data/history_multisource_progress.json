@@ -1,8 +1,8 @@
 {
   "accepted": 215,
   "completed": false,
-  "cursor": "MTcxODQxMTA3ODAwMCwxMC4xMDE2JTJGai5qZW52bWFuLjIwMjQuMTIxNDYz",
-  "evaluated": 4188,
+  "cursor": "MTcyODA0ODYwMzAwMCwxMC4xMTA5JTJGcGVzZ201MTk5NC4yMDI0LjEwNjg4Mzgz",
+  "evaluated": 4213,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -303,14 +303,66 @@
     "monthly/2024-07/query-16 : résultat tronqué au plafond 12 pages",
     "monthly/2024-07/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2024-07/query-19 : résultat tronqué au plafond 12 pages",
-    "monthly/2024-07/query-20 : résultat tronqué au plafond 12 pages"
+    "monthly/2024-07/query-20 : résultat tronqué au plafond 12 pages",
+    "monthly/2024-07/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2024-07/query-22 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2024-07",
   "needs_publish": false,
-  "offset": 400,
-  "pages_done": 4303,
-  "pages_in_query": 10,
-  "pending": [],
+  "offset": 360,
+  "pages_done": 4326,
+  "pages_in_query": 9,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Tamonash Bhattacharyya"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Akanksha Lohia"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Prasun Ghosal"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Himanshu Thapliyal"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/isvlsi61997.2024.00101",
+        "id": "https://doi.org/10.1109/isvlsi61997.2024.00101",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/isvlsi61997.2024.00101"
+        },
+        "publication_date": "2024-07-01",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-07-01",
+        "publication_type": "conference",
+        "publication_venue": "2024 IEEE Computer Society Annual Symposium on VLSI (ISVLSI)",
+        "title": "WAFER: Wearable, Ambient-Aware Adversarial Fall Event Detection System Using a RISC-V SoC Architecture",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2714,9 +2766,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1455,
-  "query_index": 21,
+  "prefilter_review_overflow": 1496,
+  "query_index": 23,
   "secondary": 237,
-  "skipped": 4148,
+  "skipped": 4222,
   "version": 1
 }

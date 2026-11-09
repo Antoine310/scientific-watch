@@ -3992,6 +3992,14 @@
       "title": "Advancing NDN security: Efficient identification of cache pollution attacks through rank comparison",
       "updated_at": "2026-11-09T07:36:42.590255+00:00"
     },
+    "doi:10.1016/j.iot.2024.101159": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "PAAF-SHS: PUF and authenticated encryption based authentication framework for the IoT-enabled smart healthcare system",
+      "updated_at": "2026-11-09T13:36:48.785685+00:00"
+    },
     "doi:10.1016/j.iot.2024.101249": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4431,6 +4439,14 @@
       "status": "rejected",
       "title": "High throughput dynamic dual entropy source true random number generator based on FPGA",
       "updated_at": "2026-11-04T23:13:57.383774+00:00"
+    },
+    "doi:10.1016/j.mejo.2024.106189": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Compensation architecture design utilizing residual resource to mitigate impacts of nonidealities in RRAM-based computing-in-memory chips",
+      "updated_at": "2026-11-09T13:37:08.401142+00:00"
     },
     "doi:10.1016/j.mejo.2024.106320": {
       "category": "secondaire",
@@ -5055,6 +5071,14 @@
       "status": "rejected",
       "title": "An efficient authentication protocol for smart grid communication based on on-chip-error-correcting physical unclonable function",
       "updated_at": "2026-11-06T02:13:38.582651+00:00"
+    },
+    "doi:10.1016/j.sna.2024.115346": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Cold and ultra-cold chain integrity monitoring via embedded resonant sensor indicators",
+      "updated_at": "2026-11-09T13:36:58.450292+00:00"
     },
     "doi:10.1016/j.sna.2025.117213": {
       "category": "hors_sujet",
@@ -5807,6 +5831,14 @@
       "status": "rejected",
       "title": "Liquid-metal physical unclonable functions resistant to both physical and digital cloning",
       "updated_at": "2026-11-01T07:10:00.269133+00:00"
+    },
+    "doi:10.1038/s41567-024-02529-6": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Non-Abelian braiding of Fibonacci anyons with a superconducting processor",
+      "updated_at": "2026-11-09T13:36:29.098324+00:00"
     },
     "doi:10.1038/s41586-024-07976-y": {
       "category": "hors_sujet",
@@ -7608,6 +7640,22 @@
       "title": "VEXP: A Low-Cost RISC-V ISA Extension for Accelerated Softmax Computation in Transformers",
       "updated_at": "2026-11-06T09:40:30.327889+00:00"
     },
+    "doi:10.1109/asap61560.2024.00018": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "ZeroVex: A Scalable and High-performance RISC-V Vector Processor Core for Embedded Systems",
+      "updated_at": "2026-11-09T13:37:45.308471+00:00"
+    },
+    "doi:10.1109/asap61560.2024.00032": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "SPARKLE: A 1,024-Core/16,384-Thread Single FPGA Many-Core RISC-V Barrel Processor Overlay",
+      "updated_at": "2026-11-09T13:37:45.223992+00:00"
+    },
     "doi:10.1109/asap61560.2024.00035": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -7623,6 +7671,38 @@
       "status": "rejected",
       "title": "RO-SVD: A Reconfigurable Hardware Copyright Protection Framework for AIGC Applications",
       "updated_at": "2026-11-09T11:36:29.126283+00:00"
+    },
+    "doi:10.1109/asap61560.2024.00042": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Spatzformer: An Efficient Reconfigurable Dual-Core RISC-V V Cluster for Mixed Scalar-Vector Workloads",
+      "updated_at": "2026-11-09T13:37:45.323084+00:00"
+    },
+    "doi:10.1109/asap61560.2024.00046": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Design of Light-Weight Encryption Algorithm Based on RISC-V Platform: (PhD Forum Paper)",
+      "updated_at": "2026-11-09T13:37:45.337262+00:00"
+    },
+    "doi:10.1109/asap61560.2024.00049": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "xTern: Energy-Efficient Ternary Neural Network Inference on RISC-V-Based Edge Systems",
+      "updated_at": "2026-11-09T13:37:45.238933+00:00"
+    },
+    "doi:10.1109/asap61560.2024.00056": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Lightweight Extension of RISC-V Core for NTT-like Algorithms: (PhD Forum Paper)",
+      "updated_at": "2026-11-09T13:37:45.351502+00:00"
     },
     "doi:10.1109/asap65064.2025.00018": {
       "category": "hors_sujet",
@@ -8432,6 +8512,22 @@
       "title": "A Hardware-Software Framework for IoT Security using Multi-Key Circuit Obfuscation",
       "updated_at": "2026-11-02T20:56:46.026080+00:00"
     },
+    "doi:10.1109/coins61597.2024.10622226": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "NIRVANA: Non-Invasive Real-Time VulnerAbility ANAlysis for RISC-V Processor",
+      "updated_at": "2026-11-09T13:37:45.193072+00:00"
+    },
+    "doi:10.1109/coins61597.2024.10622495": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Exploring RISC-V Based DNN Accelerators",
+      "updated_at": "2026-11-09T13:37:45.208862+00:00"
+    },
     "doi:10.1109/coins65080.2025.11125767": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -8527,6 +8623,22 @@
       "status": "rejected",
       "title": "Hardware Security Modules for Secure Communications in the Industrial Internet of Things",
       "updated_at": "2026-11-03T18:28:03.581064+00:00"
+    },
+    "doi:10.1109/conecct62155.2024.10677242": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Design and Performance Evaluation of an Adaptive Routing Algorithm for RISC-V Based NoC Architecture",
+      "updated_at": "2026-11-09T13:38:03.628898+00:00"
+    },
+    "doi:10.1109/conecct62155.2024.10677337": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Functional Verification of Arithmetic Logic Unit and Instruction Fetch Unit of a 32-bit RV321M ISA based RISC-V Processor",
+      "updated_at": "2026-11-09T13:38:03.643976+00:00"
     },
     "doi:10.1109/conecct65861.2025.11306804": {
       "category": "secondaire_technique",
@@ -11464,6 +11576,14 @@
       "title": "Research and Improvement of On-line SF6 Gas Infrared Imaging Leakage Detection Hardware Equipment",
       "updated_at": "2026-11-09T11:37:20.504520+00:00"
     },
+    "doi:10.1109/iceict61637.2024.10670953": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "An Approach to Enhance the Efficiency of RISC-V Verification Using Intelligent Algorithms",
+      "updated_at": "2026-11-09T13:37:53.372248+00:00"
+    },
     "doi:10.1109/iceict61637.2024.10671198": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -12528,6 +12648,22 @@
       "title": "Towards Dependable RISC-V Cores for Edge Computing Devices",
       "updated_at": "2026-11-06T14:14:28.870528+00:00"
     },
+    "doi:10.1109/iolts60994.2024.10616064": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Modeling Clock Glitch Fault Injection Effects on a RISC-V Microcontroller",
+      "updated_at": "2026-11-09T13:37:33.771444+00:00"
+    },
+    "doi:10.1109/iolts60994.2024.10616094": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Combining Fault Simulation and Beam Data for CNN Error Rate Estimation on RISC-V Commercial Platforms",
+      "updated_at": "2026-11-09T13:37:33.785349+00:00"
+    },
     "doi:10.1109/iolts65288.2025.11116879": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -13559,6 +13695,14 @@
       "status": "rejected",
       "title": "Research on RISC-V-based Edge Convolution Acceleration Extension Instruction Set",
       "updated_at": "2026-11-05T04:50:34.770343+00:00"
+    },
+    "doi:10.1109/isvlsi61997.2024.00018": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Thermal Analysis of 3D Stacking and BEOL Technologies with Functional Partitioning of Many-Core RISC-V SoC",
+      "updated_at": "2026-11-09T13:38:03.658399+00:00"
     },
     "doi:10.1109/isvlsi61997.2024.00041": {
       "category": "coeur",
@@ -14792,6 +14936,14 @@
       "title": "Case Study: RISC-V Cores for Resource-Constrained Computing Systems Facing Neutrons",
       "updated_at": "2026-11-03T16:09:27.760232+00:00"
     },
+    "doi:10.1109/lca.2024.3371062": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Exploiting Direct Memory Operands in GPU Instructions",
+      "updated_at": "2026-11-09T13:36:48.770190+00:00"
+    },
     "doi:10.1109/lca.2025.3539282": {
       "category": "secondaire",
       "decision": "examiner",
@@ -15847,6 +15999,22 @@
       "status": "rejected",
       "title": "FaultRISC-V: Detecting Fault Injection Vulnerabilities in RISC-V Assembly",
       "updated_at": "2026-10-30T23:13:33.139373+00:00"
+    },
+    "doi:10.1109/nano61778.2024.10628877": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Accelerating Bayesian Neural Networks on Low-Power Edge RISC-V Processors",
+      "updated_at": "2026-11-09T13:37:45.267439+00:00"
+    },
+    "doi:10.1109/nano61778.2024.10628939": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Integration of Posit Arithmetic in RISC-V Targeting Low-Power Computations",
+      "updated_at": "2026-11-09T13:37:45.281918+00:00"
     },
     "doi:10.1109/naps61145.2024.10741658": {
       "category": "hors_sujet",
@@ -20664,6 +20832,30 @@
       "title": "A keystone extension to defend against cache timing attacks",
       "updated_at": "2026-11-03T14:16:03.528430+00:00"
     },
+    "doi:10.1117/12.3032797": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "2048 game implementation on RISC-V",
+      "updated_at": "2026-11-09T13:37:23.753633+00:00"
+    },
+    "doi:10.1117/12.3034758": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Implementing RISC-V processor with three-stage pipeline on FPGA",
+      "updated_at": "2026-11-09T13:37:23.769796+00:00"
+    },
+    "doi:10.1117/12.3034759": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Research on dual stage pipeline MCU based on RISC-V on FPGA",
+      "updated_at": "2026-11-09T13:37:23.784342+00:00"
+    },
     "doi:10.1117/12.3038253": {
       "category": "coeur",
       "decision": "conserver",
@@ -24967,6 +25159,14 @@
       "status": "rejected",
       "title": "Atezolizumab for relapsed/refractory extranodal NK/T-cell lymphoma: phase 2 of NCCH1903/ATTACK trial",
       "updated_at": "2026-11-02T20:57:46.115261+00:00"
+    },
+    "doi:10.1186/s12879-024-09640-2": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Single nucleotide polymorphism of Notch1 gene rs3124599 allele is associated with the severity of CVA6-related HFMD in the Chinese Han population",
+      "updated_at": "2026-11-09T13:37:33.756722+00:00"
     },
     "doi:10.1186/s12879-024-10136-2": {
       "category": "hors_sujet",
