@@ -720,6 +720,14 @@
       "title": "Robust and Scalable Process Isolation Against Spectre in the Cloud",
       "updated_at": "2026-11-09T14:14:34.827620+00:00"
     },
+    "doi:10.1007/978-3-031-21514-8_29": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "QCA Technology Based 8-Bit TRNG Design for Cryptography Applications",
+      "updated_at": "2026-11-09T17:14:09.701021+00:00"
+    },
     "doi:10.1007/978-3-031-29497-6_3": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -5024,6 +5032,14 @@
       "title": "FL-DPCSA: Federated learning with differential privacy for cache side-channel attack detection in edge-based smart grids",
       "updated_at": "2026-11-04T20:24:39.026040+00:00"
     },
+    "doi:10.1016/j.procs.2021.12.269": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Physical Unclonable Function Based Identity Management for IoT with Blockchain",
+      "updated_at": "2026-11-09T17:13:58.902472+00:00"
+    },
     "doi:10.1016/j.resinv.2026.101406": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -7152,6 +7168,38 @@
       "title": "BIONIC: A 64-Core SNN/RISC-V Reconfigurable Processor with Hybrid On-Chip Learning Achieving 0.62 pJ/SOP and >99% Core Utilization",
       "updated_at": "2026-11-04T13:24:37.769357+00:00"
     },
+    "doi:10.1109/access.2022.3142536": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Design and Synchronization of Chaos-Based True Random Number Generators and Its FPGA Implementation",
+      "updated_at": "2026-11-09T17:14:09.701060+00:00"
+    },
+    "doi:10.1109/access.2022.3146989": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "A New Helper Data Scheme for Soft-Decision Decoding of Binary Physical Unclonable Functions",
+      "updated_at": "2026-11-09T17:13:58.902511+00:00"
+    },
+    "doi:10.1109/access.2022.3154012": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A Novel Moving Target Defense Scheme With Physical Unclonable Functions-Based Authentication",
+      "updated_at": "2026-11-09T17:13:58.902516+00:00"
+    },
+    "doi:10.1109/access.2022.3167690": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "A Robust and Healthy Against PVT Variations TRNG Based on Frequency Collapse",
+      "updated_at": "2026-11-09T17:14:09.701064+00:00"
+    },
     "doi:10.1109/access.2022.3169767": {
       "category": "coeur",
       "decision": "conserver",
@@ -7167,6 +7215,14 @@
       "status": "rejected",
       "title": "A Survey of the RISC-V Architecture Software Support",
       "updated_at": "2026-11-09T14:13:43.134396+00:00"
+    },
+    "doi:10.1109/access.2022.3193639": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A Unified NVRAM and TRNG in Standard CMOS Technology",
+      "updated_at": "2026-11-09T17:14:09.701055+00:00"
     },
     "doi:10.1109/access.2023.3246491": {
       "category": "secondaire",
@@ -17528,6 +17584,14 @@
       "title": "RVDLAHA: An RISC-V DLA Hardware Architecture for On-Device Real-Time Seizure Detection and Personalization in Wearable Applications",
       "updated_at": "2026-11-07T02:36:27.541814+00:00"
     },
+    "doi:10.1109/tc.2022.3148379": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Extending On-chain Trust to Off-chain -- Trustworthy Blockchain Data Collection using Trusted Execution Environment (TEE)",
+      "updated_at": "2026-11-09T17:14:18.158621+00:00"
+    },
     "doi:10.1109/tc.2022.3218986": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -18711,6 +18775,14 @@
       "status": "rejected",
       "title": "FPGA Assessment Methodology of Adverse X-Ray Effects on Secure Digital Circuits",
       "updated_at": "2026-11-06T19:38:37.979613+00:00"
+    },
+    "doi:10.1109/tdsc.2021.3138427": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "Trust Beyond Border: Lightweight, Verifiable User Isolation for Protecting In-Enclave Services",
+      "updated_at": "2026-11-09T17:14:28.566965+00:00"
     },
     "doi:10.1109/tdsc.2022.3144287": {
       "category": "coeur",
@@ -21519,6 +21591,22 @@
       "status": "rejected",
       "title": "The Pomarinho enclave swarm: structural and petrological evidence of repeated quenching, splitting and magmatic erosion at the sidewalls of conduits (Iberian Variscan belt)",
       "updated_at": "2026-11-02T20:16:46.220256+00:00"
+    },
+    "doi:10.1145/3485832.3485900": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "ReCFA: Resilient Control-Flow Attestation",
+      "updated_at": "2026-11-09T17:14:51.117059+00:00"
+    },
+    "doi:10.1145/3485832.3485919": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "TEEKAP: Self-Expiring Data Capsule using Trusted Execution Environment",
+      "updated_at": "2026-11-09T17:14:28.566989+00:00"
     },
     "doi:10.1145/3488932.3517391": {
       "category": "secondaire",
@@ -25168,6 +25256,14 @@
       "title": "Hardware-in-the-Loop Methodology Applied to a Solid Oxide Electrolysis Cell System – First Case Study: The Fuel Recirculation Loop",
       "updated_at": "2026-11-04T10:48:32.788701+00:00"
     },
+    "doi:10.1155/2022/1203691": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Lightweight and Anonymous Mutual Authentication Protocol for Edge IoT Nodes with Physical Unclonable Function",
+      "updated_at": "2026-11-09T17:13:58.902502+00:00"
+    },
     "doi:10.1155/2022/2532497": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -26280,6 +26376,14 @@
       "title": "Hardware Implementation of FPIC Controllers for Discrete-Time Chaotic Systems Using LabVIEW-FPGA",
       "updated_at": "2026-11-04T23:25:32.714049+00:00"
     },
+    "doi:10.15803/ijnc.12.2_372": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Implementation and Evaluation of Ring Oscillator-based True Random Number Generator",
+      "updated_at": "2026-11-09T17:14:09.701068+00:00"
+    },
     "doi:10.15803/ijnc.16.2_118": {
       "category": "secondaire",
       "decision": "examiner",
@@ -26407,6 +26511,14 @@
       "status": "rejected",
       "title": "Low-resource TRNG with variable entropy sources based on TDC",
       "updated_at": "2026-11-01T05:13:25.995976+00:00"
+    },
+    "doi:10.1587/transele.2021ses0001": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Evaluation of a True Random Number Generator Utilizing Timing Jitters in RSFQ Logic Circuits",
+      "updated_at": "2026-11-09T17:14:09.701076+00:00"
     },
     "doi:10.1587/transfun.2023kep0011": {
       "category": "secondaire",
@@ -29239,6 +29351,14 @@
       "status": "rejected",
       "title": "Application of Physical Unclonable Function for Lightweight Authentication in Internet of Things",
       "updated_at": "2026-11-07T17:14:09.856701+00:00"
+    },
+    "doi:10.32604/csse.2022.022280": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Design of Hybrid True Random Number Generator for Cryptographic Applications",
+      "updated_at": "2026-11-09T17:14:09.701072+00:00"
     },
     "doi:10.32604/jcs.2025.073547": {
       "category": "hors_sujet",
@@ -40903,6 +41023,14 @@
       "status": "rejected",
       "title": "Study on Low Energy Inverter-based and Latch-based True Random Number Generators for Hardware Security",
       "updated_at": "2026-11-07T17:14:22.016713+00:00"
+    },
+    "title:studyonlowenergytruerandomnumbergeneratorwithlatchbasedcoreandvonneumannbasedpostprocessingforhardwaresecurity": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Study on Low Energy True Random Number Generator with Latch-based Core and von Neumann-based Post-Processing for Hardware Security",
+      "updated_at": "2026-11-09T17:14:09.701049+00:00"
     },
     "title:styxcollaborativeandprivatedataprocessingwithteeenforcedstickypolicy": {
       "category": "secondaire",
