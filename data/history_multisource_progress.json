@@ -1,8 +1,8 @@
 {
   "accepted": 215,
   "completed": false,
-  "cursor": "MTcyNTU1ODk3MzAwMCwxMC4xMTA5JTJGaWdhcnNzNTM0NzUuMjAyNC4xMDY0MjE5NA==",
-  "evaluated": 4163,
+  "cursor": "MTcxNTg3MzY4NTAwMCwxMC4xMDE2JTJGai5hcHBsdGhlcm1hbGVuZy4yMDI0LjEyMzM4MA==",
+  "evaluated": 4187,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -300,113 +300,15 @@
     "monthly/2024-07/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2024-07/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2024-07/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2024-07/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2024-07/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2024-07/query-18 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2024-07",
   "needs_publish": false,
-  "offset": 320,
-  "pages_done": 4253,
-  "pages_in_query": 8,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Junzhe Huang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Qiang Dou"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Li Shen"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/asap61560.2024.00035",
-        "id": "https://doi.org/10.1109/asap61560.2024.00035",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/asap61560.2024.00035"
-        },
-        "publication_date": "2024-07-24",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2024-07-24",
-        "publication_type": "conference",
-        "publication_venue": "2024 IEEE 35th International Conference on Application-specific Systems, Architectures and Processors (ASAP)",
-        "title": "Extending the RISC-V Instruction Set for High Performance Data Compression Hardware Acceleration",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Zhuoheng Ran"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Muhammad A.A. Abdelgawad"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Zekai Zhang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ray C.C. Cheung"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Hong Yan"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/asap61560.2024.00037",
-        "id": "https://doi.org/10.1109/asap61560.2024.00037",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/asap61560.2024.00037"
-        },
-        "publication_date": "2024-07-24",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2024-07-24",
-        "publication_type": "conference",
-        "publication_venue": "2024 IEEE 35th International Conference on Application-specific Systems, Architectures and Processors (ASAP)",
-        "title": "RO-SVD: A Reconfigurable Hardware Copyright Protection Framework for AIGC Applications",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    }
-  ],
+  "offset": 360,
+  "pages_done": 4278,
+  "pages_in_query": 9,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2810,9 +2712,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1452,
-  "query_index": 17,
+  "prefilter_review_overflow": 1454,
+  "query_index": 19,
   "secondary": 237,
-  "skipped": 4121,
+  "skipped": 4128,
   "version": 1
 }
