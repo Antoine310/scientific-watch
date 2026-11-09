@@ -14400,6 +14400,14 @@
       "title": "Exploiting Trusted Execution Environments and Distributed Computation for Genomic Association Tests",
       "updated_at": "2026-11-03T17:12:28.812078+00:00"
     },
+    "doi:10.1109/jestpe.2024.3387653": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Design, Analysis, and Experimental Verification of Arm Link Enhanced Modular Multilevel Converter",
+      "updated_at": "2026-11-09T21:36:37.401770+00:00"
+    },
     "doi:10.1109/jetcas.2025.3592984": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -18623,6 +18631,14 @@
       "status": "rejected",
       "title": "Robust Secure Beamforming Design for Multi-RIS-Aided MISO Systems With Hardware Impairments and Channel Uncertainties",
       "updated_at": "2026-11-06T18:39:52.902099+00:00"
+    },
+    "doi:10.1109/tcpmt.2024.3396996": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Simulation and Experimental Verification of Moisture Diffusion in Embedded Component Packages",
+      "updated_at": "2026-11-09T21:36:52.977658+00:00"
     },
     "doi:10.1109/tcpmt.2025.3559543": {
       "category": "hors_sujet",
@@ -22855,6 +22871,14 @@
       "status": "rejected",
       "title": "Systematic Risk Characterisation of Hardware Threats to Automotive Systems",
       "updated_at": "2026-11-09T00:36:39.002801+00:00"
+    },
+    "doi:10.1145/3662010.3663447": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "DuckDB-SGX2: The Good, The Bad and The Ugly within Confidential Analytical Query Processing",
+      "updated_at": "2026-11-09T21:37:35.741131+00:00"
     },
     "doi:10.1145/3662736": {
       "category": "secondaire",
@@ -38064,6 +38088,14 @@
       "title": "A performance analysis of VM-based Trusted Execution Environments for Confidential Federated Learning",
       "updated_at": "2026-11-07T07:37:48.830945+00:00"
     },
+    "title:aprivacypreservinggraphencryptionschemebasedonobliviousram": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "A Privacy-Preserving Graph Encryption Scheme Based on Oblivious RAM",
+      "updated_at": "2026-11-09T21:37:35.787892+00:00"
+    },
     "title:apufbasedsecurityframeworkforfaultandintrusiondetection": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -38256,6 +38288,14 @@
       "title": "A User-Centric, Privacy-Preserving, and Verifiable Ecosystem for Personal Data Management and Utilization",
       "updated_at": "2026-11-05T05:55:45.620373+00:00"
     },
+    "title:automatedhardwarelogicobfuscationframeworkusinggpt": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Automated Hardware Logic Obfuscation Framework Using GPT",
+      "updated_at": "2026-11-09T21:37:03.449668+00:00"
+    },
     "title:automatedtemplatefreesynthesisofinstructioncentricleakagecontractsforblackboxcpus": {
       "category": "coeur",
       "decision": "conserver",
@@ -38375,6 +38415,14 @@
       "status": "rejected",
       "title": "Bitcoin Smart Accounts: Trust-Minimized Native Bitcoin DeFi Infrastructure",
       "updated_at": "2026-11-03T14:44:48.881181+00:00"
+    },
+    "title:bitvmxacpuforuniversalcomputationonbitcoin": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "BitVMX: A CPU for Universal Computation on Bitcoin",
+      "updated_at": "2026-11-09T21:37:24.905637+00:00"
     },
     "title:boltbandwidthoptimizedlightningfastobliviousmappoweredbysecurehbmaccelerators": {
       "category": "secondaire_technique",
@@ -38968,6 +39016,22 @@
       "title": "Double Strike: Breaking Approximation-Based Side-Channel Countermeasures for DNNs",
       "updated_at": "2026-11-03T18:13:02.507193+00:00"
     },
+    "title:doyouevenliftstrengtheningcompilersecurityguaranteesagainstspectreattacks": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Do You Even Lift? Strengthening Compiler Security Guarantees Against Spectre Attacks",
+      "updated_at": "2026-11-09T21:38:50.040213+00:00"
+    },
+    "title:dramscopeuncoveringdrammicroarchitectureandcharacteristicsbyissuingmemorycommands": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands",
+      "updated_at": "2026-11-09T21:38:25.158055+00:00"
+    },
     "title:dstackazerotrustframeworkforconfidentialcontainers": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -39159,6 +39223,14 @@
       "status": "rejected",
       "title": "Environmental Rate Manipulation Attacks on Power Grid Security",
       "updated_at": "2026-11-04T17:26:21.518745+00:00"
+    },
+    "title:establishingtrustinthebeyond5gcorenetworkusingtrustedexecutionenvironments": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Establishing Trust in the Beyond-5G Core Network using Trusted Execution Environments",
+      "updated_at": "2026-11-09T21:37:35.764802+00:00"
     },
     "title:ethicalhypervelocityehvahardwarerootedzerotrustruntimeenforcementarchitectureforagenticaisystems": {
       "category": "secondaire",
@@ -39495,6 +39567,14 @@
       "status": "rejected",
       "title": "gECC: A GPU-based high-throughput framework for Elliptic Curve Cryptography",
       "updated_at": "2026-11-07T15:39:15.419175+00:00"
+    },
+    "title:generativeaiincybersecurityacomprehensivereviewofllmapplicationsandvulnerabilities": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Generative AI in Cybersecurity: A Comprehensive Review of LLM Applications and Vulnerabilities",
+      "updated_at": "2026-11-09T21:37:03.474158+00:00"
     },
     "title:ghostaccessattackingthegpuonthemultitenantcloudviacpullcunderunifiedmemory": {
       "category": "transfert_explicite",
@@ -41136,6 +41216,14 @@
       "title": "SCRAPS : Scalable Collective Remote Attestation for Pub-Sub IoT Networks with Untrusted Proxy Verifier",
       "updated_at": "2026-11-09T14:14:54.464299+00:00"
     },
+    "title:seacacheaperformanceefficientcountermeasureforcontentionbasedattacks": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "SEA Cache: A Performance-Efficient Countermeasure for Contention-based Attacks",
+      "updated_at": "2026-11-09T21:38:18.343368+00:00"
+    },
     "title:secdmpprovablysecuredatamemorydependentprefetchingextendedversion": {
       "category": "secondaire",
       "decision": "examiner",
@@ -41736,6 +41824,14 @@
       "title": "Targeted Wearout Attacks in Microprocessor Cores",
       "updated_at": "2026-11-04T21:27:02.458387+00:00"
     },
+    "title:tbnetaneuralarchitecturaldefenseframeworkfacilitatingdnnmodelprotectionintrustedexecutionenvironments": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "TBNet: A Neural Architectural Defense Framework Facilitating DNN Model Protection in Trusted Execution Environments",
+      "updated_at": "2026-11-09T21:37:35.716848+00:00"
+    },
     "title:teeanchorcrossteeorganizationalendorsementformitigatingteephysicalattacks": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -42063,6 +42159,14 @@
       "status": "rejected",
       "title": "Towards TEE-Certified DP: Verifiable Differentially Private Training on Legacy GPUs",
       "updated_at": "2026-11-02T15:56:39.906998+00:00"
+    },
+    "title:towardstrustproofforsecureconfidentialvirtualmachines": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "Towards Trust Proof for Secure Confidential Virtual Machines",
+      "updated_at": "2026-11-09T21:37:13.277500+00:00"
     },
     "title:tpm20supportedruntimecustomizableteeonfpgasocwithusercontrollablevtpm": {
       "category": "coeur",

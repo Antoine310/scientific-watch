@@ -7566,6 +7566,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:doyouevenliftstrengtheningcompilersecurityguaranteesagainstspectreattacks": {
+    "doi": "",
+    "publication_date": "2024-05-16",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2405.10089v2",
+    "summary": "Cet article propose un nouveau cadre de compilation sécurisée permettant de renforcer les garanties de sécurité des contre-mesures contre les attaques Spectre en les migrant de sémantiques spéculatives faibles vers des sémantiques plus fortes, sans nécessiter de nouvelles preuves. Les auteurs ont analysé 9 contre-mesures contre 5 classes d'attaques Spectre face à 5 mécanismes de spéculation.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Do You Even Lift? Strengthening Compiler Security Guarantees Against Spectre Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:efficientrlbasedcachevulnerabilityexplorationbypenalizinguselessagentactions": {
     "doi": "",
     "publication_date": "2025-06-08",
@@ -8418,6 +8438,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "SCHERI: Provably Secure Speculation Under the Constant-Time Policy for CHERI (Extended Version)",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:seacacheaperformanceefficientcountermeasureforcontentionbasedattacks": {
+    "doi": "",
+    "publication_date": "2024-05-30",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2405.20027v1",
+    "summary": "Cet article présente le cache SEA, une contre-mesure logicielle et matérielle conçue pour atténuer les attaques par canal auxiliaire basées sur la contention. En s'appuyant sur l'extension du cache CEASER-SH, le cache SEA introduit une associativité logique variable par utilisateur ou processus, permettant d'offrir un niveau de protection élevé uniquement aux processus ciblés tout en préservant les performances des autres processus.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SEA Cache: A Performance-Efficient Countermeasure for Contention-based Attacks",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
