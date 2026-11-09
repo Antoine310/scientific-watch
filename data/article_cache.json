@@ -6400,6 +6400,14 @@
       "title": "FPGA implementation and hardware-in-the-loop validation of a deconvolution-based pile-up correction method for NaI(Tl) detectors",
       "updated_at": "2026-11-02T16:17:57.913295+00:00"
     },
+    "doi:10.1088/2058-6272/ad3c6c": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Analysis and verification of electrodynamic force, thermal stress and current sharing for CRAFT converter structure design",
+      "updated_at": "2026-11-09T06:36:48.706918+00:00"
+    },
     "doi:10.1088/2058-9565/add801": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -20888,6 +20896,14 @@
       "title": "SEVeriFast: Minimizing the root of trust for fast startup of SEV microVMs",
       "updated_at": "2026-11-04T14:13:30.691177+00:00"
     },
+    "doi:10.1145/3622781.3674168": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "TensorTEE: Unifying Heterogeneous TEE Granularity for Efficient Secure Collaborative Tensor Computing",
+      "updated_at": "2026-11-09T06:38:09.551009+00:00"
+    },
     "doi:10.1145/3623652.3623668": {
       "category": "coeur",
       "decision": "conserver",
@@ -21335,6 +21351,14 @@
       "status": "rejected",
       "title": "Mixed-precision Neural Networks on RISC-V Cores: ISA extensions for Multi-Pumped Soft SIMD Operations",
       "updated_at": "2026-11-08T16:37:08.647095+00:00"
+    },
+    "doi:10.1145/3676536.3676841": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "VeriCHERI: Exhaustive Formal Security Verification of CHERI at the RTL",
+      "updated_at": "2026-11-09T06:37:57.905452+00:00"
     },
     "doi:10.1145/3676641.3716012": {
       "category": "secondaire",
@@ -22767,6 +22791,14 @@
       "status": "rejected",
       "title": "MERE: Hardware-Software Co-Design for Masking Cache Miss Latency in Embedded Processors",
       "updated_at": "2026-11-04T18:49:34.867832+00:00"
+    },
+    "doi:10.1145/3763099": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Agora: Trust Less and Open More in Verification for Confidential Computing",
+      "updated_at": "2026-11-09T06:38:09.631700+00:00"
     },
     "doi:10.1145/3763788": {
       "category": "secondaire",
@@ -26263,6 +26295,30 @@
       "status": "rejected",
       "title": "Review: Integrated secure distance bounding and hardware-based security: A case study for the insurance claim verification of farmers during COVID-19 (Round1/Review4)",
       "updated_at": "2026-11-09T03:36:36.122722+00:00"
+    },
+    "doi:10.21956/openreseurope.19799.r42938": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Review: Co-designing ab initio electronic structure methods on a RISC-V vector architecture (Round1/Review3)",
+      "updated_at": "2026-11-09T06:36:33.503938+00:00"
+    },
+    "doi:10.21956/openreseurope.19799.r42941": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Review: Co-designing ab initio electronic structure methods on a RISC-V vector architecture (Round1/Review1)",
+      "updated_at": "2026-11-09T06:36:33.590487+00:00"
+    },
+    "doi:10.21956/openreseurope.19799.r42945": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Review: Co-designing ab initio electronic structure methods on a RISC-V vector architecture (Round1/Review2)",
+      "updated_at": "2026-11-09T06:36:33.485631+00:00"
     },
     "doi:10.21956/openreseurope.19799.r43456": {
       "category": "hors_sujet",
@@ -35000,6 +35056,14 @@
       "title": "Hardware Implementation of Fault Analysis in Transmission Line, Transformer Protection, Overload Sharing in Power Stations Using PLC",
       "updated_at": "2026-11-02T20:18:07.523984+00:00"
     },
+    "doi:10.64552/wipiec.v10i2.57": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Accelerating Cryptographic Algorithms on RISC-V cores using Carryless Multiplication",
+      "updated_at": "2026-11-09T06:36:33.624259+00:00"
+    },
     "doi:10.64552/wipiec.v10i2.60": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -35007,6 +35071,14 @@
       "status": "rejected",
       "title": "COSOI: True Random Number Generator Based on Coherent Sampling using the FD-SOI technology",
       "updated_at": "2026-11-03T11:13:34.703085+00:00"
+    },
+    "doi:10.64552/wipiec.v10i2.64": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Culsans: An Efficient Snoop-based Coherency Unit for the CVA6 Open Source RISC-V application processor",
+      "updated_at": "2026-11-09T06:36:33.644683+00:00"
     },
     "doi:10.64552/wipiec.v11i1.94": {
       "category": "coeur",
@@ -35904,6 +35976,14 @@
       "title": "A Statistical Side-Channel Risk Model for Timing Variability in Lattice-Based Post-Quantum Cryptography",
       "updated_at": "2026-11-03T20:08:55.467774+00:00"
     },
+    "title:asterfixingtheandroidteeecosystemwitharmcca": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "Aster: Fixing the Android TEE Ecosystem with Arm CCA",
+      "updated_at": "2026-11-09T06:39:07.572696+00:00"
+    },
     "title:ateebasedarchitectureforconfidentialanddependableprocessattestationinauthorshipverification": {
       "category": "coeur",
       "decision": "conserver",
@@ -36320,6 +36400,14 @@
       "title": "Clawed and Dangerous: Can We Trust Open Agentic Systems?",
       "updated_at": "2026-11-03T14:54:23.973656+00:00"
     },
+    "title:closedloopsuperparamagnetictunneljunctionsforreliabletruerandomnessandgenerativeartificialintelligence": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Closed Loop Superparamagnetic Tunnel Junctions for Reliable True Randomness and Generative Artificial Intelligence",
+      "updated_at": "2026-11-09T06:37:27.607678+00:00"
+    },
     "title:committeeconfigurationoptimizationforparallelbyzantineconsensusinatrustedexecutionenvironment": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -36439,6 +36527,14 @@
       "status": "rejected",
       "title": "Cross-party formal verification for hardware trust",
       "updated_at": "2026-11-01T02:14:10.567597+00:00"
+    },
+    "title:cruditeeastickandcarrotapproachtobuildingtrustworthycryptocurrencywalletswithtees": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "CrudiTEE: A Stick-and-Carrot Approach to Building Trustworthy Cryptocurrency Wallets with TEEs",
+      "updated_at": "2026-11-09T06:38:09.698602+00:00"
     },
     "title:cryptoracleamodularframeworktocharacterizefullyhomomorphicencryption": {
       "category": "hors_sujet",
@@ -37432,6 +37528,14 @@
       "title": "I Know What You Said: Unveiling Hardware Cache Side-Channels in Local Large Language Model Inference",
       "updated_at": "2026-11-06T03:37:11.539764+00:00"
     },
+    "title:imivinmemoryintegrityverificationfornvm": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 49,
+      "status": "rejected",
+      "title": "iMIV: in-Memory Integrity Verification for NVM",
+      "updated_at": "2026-11-09T06:39:17.329247+00:00"
+    },
     "title:implementingandoptimizinganopensourcesdcardhostcontrollerforriscvsocs": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -37736,6 +37840,14 @@
       "title": "Lost in the Pages: WebAssembly Code Recovery through SEV-SNP's Exposed Address Space",
       "updated_at": "2026-11-03T20:08:33.929806+00:00"
     },
+    "title:lskvaconfidentialdistributeddatastoretoprotectcriticaldatainthecloud": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "LSKV: A Confidential Distributed Datastore to Protect Critical Data in the Cloud",
+      "updated_at": "2026-11-09T06:38:09.604517+00:00"
+    },
     "title:magnetoionichardwaresecurityprimitivesembeddingdataprotectionatthemateriallevel": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -37783,6 +37895,14 @@
       "status": "rejected",
       "title": "Metadata-private Messaging without Coordination",
       "updated_at": "2026-11-06T11:39:23.908793+00:00"
+    },
+    "title:modelagnostichybridshardingforheterogeneousdistributedinference": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Model Agnostic Hybrid Sharding For Heterogeneous Distributed Inference",
+      "updated_at": "2026-11-09T06:38:09.737536+00:00"
     },
     "title:modernhardwaresecurityareviewofattacksandcountermeasures": {
       "category": "coeur",
@@ -38408,6 +38528,14 @@
       "title": "Prototyping Custom Hardware Performance Counters in gem5 Simulator: A Framework for RISC-V Side-Channel Attack Assessment",
       "updated_at": "2026-10-30T20:15:22.976573+00:00"
     },
+    "title:proxygptenablinguseranonymityinllmchatbotsviauntrustworthyvolunteerproxies": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "ProxyGPT: Enabling User Anonymity in LLM Chatbots via (Un)Trustworthy Volunteer Proxies",
+      "updated_at": "2026-11-09T06:38:09.532205+00:00"
+    },
     "title:qlinkquantumsafebridgearchitectureforblockchaininteroperability": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -38551,6 +38679,14 @@
       "status": "imported",
       "title": "Research Directions for Verifiable Crypto-Physically Secure TEEs",
       "updated_at": "2026-11-08T07:38:06.763903+00:00"
+    },
+    "title:resistivememoryforcomputingandsecurityalgorithmsarchitecturesandplatforms": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Resistive Memory for Computing and Security: Algorithms, Architectures, and Platforms",
+      "updated_at": "2026-11-09T06:37:27.588385+00:00"
     },
     "title:resolvingconflictsbetweenrtostimekeepinganduninterruptabletrustedcomputing": {
       "category": "secondaire_technique",
@@ -39591,6 +39727,14 @@
       "status": "imported",
       "title": "Towards Reliable and Secure RISC-V Systems: Survey of Testability and Security Mechanisms",
       "updated_at": "2026-11-01T23:15:24.981525+00:00"
+    },
+    "title:towardssecureandprivateaiaframeworkfordecentralizedinference": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Towards Secure and Private AI: A Framework for Decentralized Inference",
+      "updated_at": "2026-11-09T06:38:09.717387+00:00"
     },
     "title:towardsteecertifieddpverifiabledifferentiallyprivatetrainingonlegacygpus": {
       "category": "hors_sujet",
