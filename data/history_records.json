@@ -827,6 +827,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/hcs61935.2024.10664993": {
+    "doi": "https://doi.org/10.1109/hcs61935.2024.10664993",
+    "publication_date": "2024-08-25",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-08-25",
+    "publication_type": "conference",
+    "publication_venue": "2024 IEEE Hot Chips 36 Symposium (HCS)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/hcs61935.2024.10664993",
+    "summary": "Ce travail propose un nouveau cadre matériel open-source pour les environnements d'exécution de confiance (TEE) sur des systèmes RISC-V. Conçu pour être sécurisé, flexible et évolutif, il intègre des accélérateurs cryptographiques ainsi qu'un microcontrôleur isolé afin d'optimiser les performances de démarrage. La faisabilité et l'efficacité de l'architecture ont été démontrées par une mise en œuvre et des tests sur des plateformes VLSI.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "A Trusted Execution Environment RISC-V System on Chip",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/host55118.2023.10133542": {
     "doi": "https://doi.org/10.1109/host55118.2023.10133542",
     "publication_date": "2023-05-01",
@@ -2692,6 +2712,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1117/12.3038253": {
+    "doi": "https://doi.org/10.1117/12.3038253",
+    "publication_date": "2024-08-22",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-08-22",
+    "publication_type": "conference",
+    "publication_venue": "Fifth International Conference on Computer Communication and Network Security (CCNS 2024)",
+    "score": 75,
+    "source": "https://doi.org/10.1117/12.3038253",
+    "summary": "Cet article analyse l'état de l'art et les tendances de l'intégrité du flux de contrôle (CFI) pour les processeurs, et propose une stratégie de protection pour l'architecture RISC-V combinant une architecture diversifiée, un mécanisme novateur de chiffrement et d'authentification des données et instructions, ainsi que le CFI. Utilisant le noyau RISCY, l'algorithme léger ASCON, des extensions du jeu d'instructions RISC-V et le compilateur LLVM, les auteurs valident leur approche sur FPGA avec la suite Embench-IoT.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "Research on control flow integrity for RISC-V",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1145/3489517.3530614": {
     "doi": "https://doi.org/10.1145/3489517.3530614",
