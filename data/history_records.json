@@ -3110,6 +3110,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3634737.3659434": {
+    "doi": "https://doi.org/10.1145/3634737.3659434",
+    "publication_date": "2024-07-01",
+    "publication_date_note": "Date source Crossref : 2024-07 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2024-07",
+    "publication_type": "conference",
+    "publication_venue": "ASIA CCS '24: 19th ACM Asia Conference on Computer and Communications Security",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3634737.3659434",
+    "summary": "Cet article étudie la faisabilité d'inférer l'exécution d'enclaves Intel SGX via l'unité de surveillance des performances (PMU), malgré l'introduction par Intel de la fonction anti side-channel interface (ASCI) conçue pour désactiver la PMU pendant l'exécution d'une enclave. Les auteurs conçoivent un nouveau cadre d'évaluation analysant la linéarité entre les instructions et les événements mesurés, ainsi que des attaques de type single-stepping et zero-stepping. L'évaluation montre que les enclaves SGX ne laissent aucune empreinte sur les PMU, à l'exception des enclaves de débogage (opt-in).",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "POSTER: On the Feasibility of Inferring SGX Execution through PMU",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3649153.3649213": {
     "doi": "https://doi.org/10.1145/3649153.3649213",
     "publication_date": "2024-05-07",
