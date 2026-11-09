@@ -832,6 +832,14 @@
       "title": "Hardware Based Security",
       "updated_at": "2026-11-09T09:38:00.391726+00:00"
     },
+    "doi:10.1007/978-3-031-64334-7_5": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Perimeter-Gated Single-Photon Avalanche Diode Arrays as Hardware Security Primitives",
+      "updated_at": "2026-11-09T18:41:11.801633+00:00"
+    },
     "doi:10.1007/978-3-031-66456-4_6": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -5520,6 +5528,14 @@
       "title": "Analytical solution for seismic response of composite tunnel liners with arbitrary section shape and embedded with an isolation layer",
       "updated_at": "2026-11-09T04:37:21.600698+00:00"
     },
+    "doi:10.1016/j.vehcom.2024.100771": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Privacy-protecting predictive cache method based on blockchain and machine learning in Internet of vehicles",
+      "updated_at": "2026-11-09T18:42:11.249440+00:00"
+    },
     "doi:10.1016/j.vehcom.2024.100780": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -9584,6 +9600,14 @@
       "title": "Binding Application-Layer Provenance to CPU-rooted Attestation in Confidential VMs via a Kernel-resident Pseudo-CA",
       "updated_at": "2026-11-03T09:07:11.794665+00:00"
     },
+    "doi:10.1109/dsn58291.2024.00031": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Protecting Confidential Virtual Machines from Hardware Performance Counter Side Channels",
+      "updated_at": "2026-11-09T18:41:11.781081+00:00"
+    },
     "doi:10.1109/dsn69566.2026.00033": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -10800,6 +10824,14 @@
       "title": "Trusted Compute Units: A Framework for Chained Verifiable Computations",
       "updated_at": "2026-11-06T11:39:14.691928+00:00"
     },
+    "doi:10.1109/icc51166.2024.10623044": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "ParaEthereum: Private and Parallel Smart Contracts with Trusted Hardware",
+      "updated_at": "2026-11-09T18:40:59.229628+00:00"
+    },
     "doi:10.1109/icc52391.2025.11161539": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -10967,6 +10999,14 @@
       "status": "imported",
       "title": "Towards Protecting On-Device Machine Learning with RISC-V based Multi-Enclave TEE",
       "updated_at": "2026-11-03T11:14:25.309522+00:00"
+    },
+    "doi:10.1109/icccnt61001.2024.10724227": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Fortifying Artificial Pancreas: A Hardware-in-the-Loop Simulation Study of Cyber-Attacks and Defense Mechanisms",
+      "updated_at": "2026-11-09T18:41:18.534128+00:00"
     },
     "doi:10.1109/icccs65393.2025.11069946": {
       "category": "hors_sujet",
@@ -15048,6 +15088,14 @@
       "title": "Identifying Physical Unclonable Functions Using Classifier Algorithms",
       "updated_at": "2026-11-06T05:13:54.938238+00:00"
     },
+    "doi:10.1109/lad62341.2024.10691745": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Toward Hardware Security Benchmarking of LLMs",
+      "updated_at": "2026-11-09T18:41:18.497882+00:00"
+    },
     "doi:10.1109/lascas64004.2025.10966233": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -16016,6 +16064,14 @@
       "title": "Radio Frequency Fingerprints vs. Physical Unclonable Functions - Are They Twins, Competitors, or Allies?",
       "updated_at": "2026-11-08T17:13:53.317720+00:00"
     },
+    "doi:10.1109/mocast61810.2024.10615972": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "Evaluating Trusted Firmware Remote Attestation on ARM and RISC-V Edge Computing Prototypes",
+      "updated_at": "2026-11-09T18:40:18.806908+00:00"
+    },
     "doi:10.1109/mocast70204.2026.11626427": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -16671,6 +16727,22 @@
       "status": "rejected",
       "title": "Bit-Serial RISC-V CPU Core",
       "updated_at": "2026-11-07T23:38:18.436359+00:00"
+    },
+    "doi:10.1109/pvsc57443.2024.10748805": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Verification of Adaptive Protection in Hardware in the Loop for Coordination with Solar Variability",
+      "updated_at": "2026-11-09T18:41:29.426614+00:00"
+    },
+    "doi:10.1109/pvsc57443.2024.10749679": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Hardware-in-the-Loop (HIL) Validation for DER Protection Model Executed in Dominion Energy Training Program",
+      "updated_at": "2026-11-09T18:41:29.445023+00:00"
     },
     "doi:10.1109/qce60285.2024.00130": {
       "category": "hors_sujet",
@@ -17575,6 +17647,14 @@
       "status": "rejected",
       "title": "RISE: RISC-V Intermittent System Extensions for Batteryless IoT Devices",
       "updated_at": "2026-11-03T14:30:45.921444+00:00"
+    },
+    "doi:10.1109/svcc61185.2024.10637361": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Side-Channel Protected PIPO Implementation in Hardware",
+      "updated_at": "2026-11-09T18:40:59.339626+00:00"
     },
     "doi:10.1109/svcc65277.2025.11133644": {
       "category": "secondaire",
@@ -20904,6 +20984,14 @@
       "title": "A Low-Power CNTFET Based Reconfigurable PUF Architecture for Hardware Security Applications",
       "updated_at": "2026-11-03T09:07:23.654888+00:00"
     },
+    "doi:10.1109/vlsitechnologyandcir46783.2024.10631380": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "An In-Sensor PUF Featuring Optical Reconfigurability and Near-100% Hardware Reuse Ratio for Trustworthy Sensing",
+      "updated_at": "2026-11-09T18:41:03.747720+00:00"
+    },
     "doi:10.1109/vlsitsa60681.2024.10546389": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -22264,6 +22352,30 @@
       "title": "DH-TRNG: A Dynamic Hybrid TRNG with Ultra-High Throughput and Area-Energy Efficiency",
       "updated_at": "2026-11-03T23:13:24.126733+00:00"
     },
+    "doi:10.1145/3649329.3656255": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "NSPG: Natural language Processing-based Security Property Generator for Hardware Security Assurance",
+      "updated_at": "2026-11-09T18:41:29.362030+00:00"
+    },
+    "doi:10.1145/3649329.3658241": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "SecPaging: Secure Enclave Paging with Hardware-Enforced Protection against Controlled-Channel Attacks",
+      "updated_at": "2026-11-09T18:41:29.382227+00:00"
+    },
+    "doi:10.1145/3649329.3658252": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Beyond Conventional Defenses: Proactive and Adversarial-Resilient Hardware Malware Detection using Deep Reinforcement Learning",
+      "updated_at": "2026-11-09T18:41:18.479051+00:00"
+    },
     "doi:10.1145/3649329.3658469": {
       "category": "coeur",
       "decision": "conserver",
@@ -22279,6 +22391,14 @@
       "status": "imported",
       "title": "EnTurbo: Accelerate Confidential Serverless Computing via Parallelizing Enclave Startup Procedure",
       "updated_at": "2026-11-03T20:13:52.949552+00:00"
+    },
+    "doi:10.1145/3649329.3663498": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Late Breaking Results: LLM-assisted Automated Incremental Proof Generation for Hardware Verification",
+      "updated_at": "2026-11-09T18:41:29.408305+00:00"
     },
     "doi:10.1145/3649476.3658697": {
       "category": "secondaire",
@@ -28648,6 +28768,22 @@
       "title": "Secure transmission in satellite-assisted multiple relay networks under multiple eavesdroppers with hardware impairments",
       "updated_at": "2026-11-03T08:40:22.528857+00:00"
     },
+    "doi:10.23919/mixdes62605.2024.10614017": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Implementation of Hardware Trace Buffer Module for RISC-V Processor Core",
+      "updated_at": "2026-11-09T18:37:02.316342+00:00"
+    },
+    "doi:10.23919/mixdes62605.2024.10614026": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 55,
+      "status": "rejected",
+      "title": "Hardware Acceleration Method Using RISC-V Core with No ISA Extensions",
+      "updated_at": "2026-11-09T18:37:02.337397+00:00"
+    },
     "doi:10.23919/mixdes69535.2026.11617244": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -29279,6 +29415,22 @@
       "status": "rejected",
       "title": "Hardware-Implemented Multi-Agent Coordination for Adaptive Traffic Control in Developing Regions: A Low-Cost Microcontroller Approach",
       "updated_at": "2026-11-04T22:48:55.429483+00:00"
+    },
+    "doi:10.30880/jeva.2024.05.01.004": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Hardware Implementation of the Activation Layer and Mean Pooling Layer for the CNN Digit Recognition",
+      "updated_at": "2026-11-09T18:41:29.464529+00:00"
+    },
+    "doi:10.30880/jeva.2024.05.01.007": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "An Efficient Hardware Implementation of the Convolution Layer for the CNN Digit Recognition",
+      "updated_at": "2026-11-09T18:41:29.483052+00:00"
     },
     "doi:10.30939/ijastech..2015760": {
       "category": "hors_sujet",
@@ -36551,6 +36703,14 @@
       "status": "rejected",
       "title": "Hardware - software platform for controlling keithley 2400 series instruments",
       "updated_at": "2026-11-03T17:29:09.384443+00:00"
+    },
+    "doi:10.59544/ppym6586/ijatemv03i05p5": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Implementation of a Reverse Carry Propagate Adder Based On Efficient VLSI for Hardware Security and Area Consumption",
+      "updated_at": "2026-11-09T18:41:18.515938+00:00"
     },
     "doi:10.59717/j.xinn-energy.2026.100126": {
       "category": "hors_sujet",

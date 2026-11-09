@@ -708,6 +708,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/dsn58291.2024.00031": {
+    "doi": "https://doi.org/10.1109/dsn58291.2024.00031",
+    "publication_date": "2024-06-24",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-06-24",
+    "publication_type": "conference",
+    "publication_venue": "2024 54th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/dsn58291.2024.00031",
+    "summary": "Cet article présente Aegis, un cadre unifié conçu pour protéger les machines virtuelles confidentielles contre les canaux auxiliaires basés sur les compteurs de performance matériels (HPC). Le système combine profilage d'application, fuzzing d'événements et obfuscation par injection de bruit basée sur la confidentialité différentielle afin de garantir des garanties de confidentialité prouvables avec un impact minime sur les performances.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Protecting Confidential Virtual Machines from Hardware Performance Counter Side Channels",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/ectc51687.2025.00367": {
     "doi": "https://doi.org/10.1109/ectc51687.2025.00367",
     "publication_date": "2025-05-27",
@@ -1738,6 +1758,26 @@
       "T04 — Runtime Attestation"
     ],
     "title": "Hardware-Assisted Fault Isolation: Going Beyond the Limits of Software-Based Sandboxing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/mocast61810.2024.10615972": {
+    "doi": "https://doi.org/10.1109/mocast61810.2024.10615972",
+    "publication_date": "2024-06-26",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-06-26",
+    "publication_type": "conference",
+    "publication_venue": "2024 13th International Conference on Modern Circuits and Systems Technologies (MOCAST)",
+    "score": 80,
+    "source": "https://doi.org/10.1109/mocast61810.2024.10615972",
+    "summary": "Cet article étudie et évalue les performances de l'attestation à distance sur des prototypes d'edge computing, en comparant une architecture fermée (ARM sur Raspberry Pi 3 avec un TPM matériel Infineon) et une architecture ouverte (RISC-V sur FPGA Arty A7 avec un vTPM IBM). Les auteurs mesurent les coûts computationnels et réseau de protocoles d'attestation face à différents types de vérificateurs pour identifier les optimisations possibles et les écarts de performance entre architectures.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Evaluating Trusted Firmware Remote Attestation on ARM and RISC-V Edge Computing Prototypes",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
