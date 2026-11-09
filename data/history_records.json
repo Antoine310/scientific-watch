@@ -4511,6 +4511,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex (titre exact)"
   },
+  "doi:10.3390/app12052669": {
+    "doi": "https://doi.org/10.3390/app12052669",
+    "publication_date": "2022-03-04",
+    "publication_type": "revue",
+    "publication_venue": "Applied Sciences",
+    "score": 75,
+    "source": "https://doi.org/10.3390/app12052669",
+    "summary": "Cet article présente \"C-FLAT Linux\", une amélioration du système d'attestation du flux de contrôle C-FLAT pour les appareils embarqués. Alors que l'original s'exécutait sur bare-metal dans TrustZone, cette nouvelle version intègre un Nanoviseur de type 2 dans le système d'exploitation Linux afin de réduire les surcoûts de traitement et de détecter des attaques spécifiques comme SlowLoris.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Nanovised Control Flow Attestation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.3390/chips5030024": {
     "publication_date": "2026-08-06",
     "publication_date_note": "",
