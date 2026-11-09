@@ -5102,6 +5102,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.3390/mi15060760": {
+    "doi": "https://doi.org/10.3390/mi15060760",
+    "publication_date": "2024-06-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-06-05",
+    "publication_type": "revue",
+    "publication_venue": "Micromachines",
+    "score": 75,
+    "source": "https://doi.org/10.3390/mi15060760",
+    "summary": "Cet article propose une méthode de protection matérielle de sécurité pour les branches conditionnelles des systèmes embarqués, visant à contrer les attaques par analyse de prédiction de branchement et le vol d'informations critiques. La solution combine un verrouillage du tampon de cible de branchement (BTB) basé sur un seuil de mises à jour, un circuit PUF hybride (APUF) pour le chiffrement/déchiffrement, et une détection d'altération par comparaison de labels dynamiques et statiques. Évaluée sur FPGA, la méthode annonce un surcoût en ressources d'environ 5,4 % et un impact sur les performances inférieur à 5,5 %.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "A Hardware Security Protection Method for Conditional Branches of Embedded Systems",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.3390/s22124340": {
     "doi": "https://doi.org/10.3390/s22124340",
     "publication_date": "2022-06-08",
