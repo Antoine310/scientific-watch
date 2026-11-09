@@ -696,6 +696,30 @@
       "title": "Hardware Security Module",
       "updated_at": "2026-11-07T10:36:44.569615+00:00"
     },
+    "doi:10.1007/978-3-031-08147-7_15": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "PERMANENT: Publicly Verifiable Remote Attestation for Internet of Things Through Blockchain",
+      "updated_at": "2026-11-09T14:15:04.144691+00:00"
+    },
+    "doi:10.1007/978-3-031-16092-9_7": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Attestation Mechanisms for Trusted Execution Environments Demystified",
+      "updated_at": "2026-11-09T14:13:43.134418+00:00"
+    },
+    "doi:10.1007/978-3-031-17146-8_9": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Robust and Scalable Process Isolation Against Spectre in the Cloud",
+      "updated_at": "2026-11-09T14:14:34.827620+00:00"
+    },
     "doi:10.1007/978-3-031-29497-6_3": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -2823,6 +2847,14 @@
       "status": "rejected",
       "title": "Software-Based Techniques as Alternatives to Hardware Filters for Overvoltage Mitigation in Inverter Systems with SiC Modules",
       "updated_at": "2026-11-02T18:35:36.985256+00:00"
+    },
+    "doi:10.1007/s42974-021-00072-5": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Black Manakin (Xenopipo atronitens) as a keystone species for seed dispersal in a white-sand vegetation enclave in Southwest Amazonia",
+      "updated_at": "2026-11-09T14:14:45.281603+00:00"
     },
     "doi:10.1007/s42979-024-03247-9": {
       "category": "hors_sujet",
@@ -7063,6 +7095,22 @@
       "status": "rejected",
       "title": "BIONIC: A 64-Core SNN/RISC-V Reconfigurable Processor with Hybrid On-Chip Learning Achieving 0.62 pJ/SOP and >99% Core Utilization",
       "updated_at": "2026-11-04T13:24:37.769357+00:00"
+    },
+    "doi:10.1109/access.2022.3169767": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "Trusted Execution Environment Hardware by Isolated Heterogeneous Architecture for Key Scheduling",
+      "updated_at": "2026-11-09T14:14:29.287946+00:00"
+    },
+    "doi:10.1109/access.2022.3174125": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A Survey of the RISC-V Architecture Software Support",
+      "updated_at": "2026-11-09T14:13:43.134396+00:00"
     },
     "doi:10.1109/access.2023.3246491": {
       "category": "secondaire",
@@ -15704,6 +15752,14 @@
       "title": "HADA: Leveraging Multi-Source Data to Train Large Language Models for Hardware Security Assertion Generation",
       "updated_at": "2026-11-04T19:25:59.462000+00:00"
     },
+    "doi:10.1109/mm.2022.3140674": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Accelerating ML Recommendation With Over 1,000 RISC-V/Tensor Processors on Esperanto's ET-SoC-1 Chip",
+      "updated_at": "2026-11-09T14:13:32.826142+00:00"
+    },
     "doi:10.1109/mm.2024.3422977": {
       "category": "coeur",
       "decision": "examiner",
@@ -18535,6 +18591,14 @@
       "status": "rejected",
       "title": "FPGA Assessment Methodology of Adverse X-Ray Effects on Secure Digital Circuits",
       "updated_at": "2026-11-06T19:38:37.979613+00:00"
+    },
+    "doi:10.1109/tdsc.2022.3144287": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "SpecBox: A Label-Based Transparent Speculation Scheme Against Transient Execution Attacks",
+      "updated_at": "2026-11-09T14:15:27.358674+00:00"
     },
     "doi:10.1109/tdsc.2023.3300368": {
       "category": "secondaire",
@@ -25760,6 +25824,14 @@
       "title": "Foliar supplements improve physio-biochemical responses and root Brix in sugar beet under water deficit condition",
       "updated_at": "2026-11-02T18:17:44.725767+00:00"
     },
+    "doi:10.14722/ndss.2022.23110": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Chunked-Cache: On-Demand and Scalable Cache Isolation for Security Architectures",
+      "updated_at": "2026-11-09T14:16:27.866762+00:00"
+    },
     "doi:10.14722/ndss.2023.23041": {
       "category": "coeur",
       "decision": "conserver",
@@ -26319,6 +26391,14 @@
       "status": "rejected",
       "title": "An Exhaustive Examination of Architectural Methods for Hardware Security Mechanisms in IoT Devices",
       "updated_at": "2026-11-08T19:37:32.168456+00:00"
+    },
+    "doi:10.17760/d20467318": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 92,
+      "status": "imported",
+      "title": "Execution security in the Spectre era",
+      "updated_at": "2026-11-09T14:15:59.854841+00:00"
     },
     "doi:10.17762/ijritcc.v11i9.8982": {
       "category": "secondaire_technique",
@@ -27071,6 +27151,14 @@
       "status": "imported",
       "title": "Lightweight Two-Stage Secure Boot with Automatic Rollback for STM32 IoT Devices",
       "updated_at": "2026-10-31T07:11:49.391695+00:00"
+    },
+    "doi:10.21655/ijsi.1673-7288.00287": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 62,
+      "status": "rejected",
+      "title": "Memory Optimization System for SGXv2 Trusted Execution Environment",
+      "updated_at": "2026-11-09T14:14:34.827597+00:00"
     },
     "doi:10.2172/1861944": {
       "category": "secondaire_technique",
@@ -30328,6 +30416,14 @@
       "title": "Physical Unclonable Function Data Processing to Increase the Number of Challenge–Response Pairs in Wireless Sensor Network Applications",
       "updated_at": "2026-10-31T07:10:38.187506+00:00"
     },
+    "doi:10.3390/fi14010024": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "CacheHawkeye: Detecting Cache Side Channel Attacks Based on Memory Events",
+      "updated_at": "2026-11-09T14:16:29.501080+00:00"
+    },
     "doi:10.3390/fi16090303": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -31615,6 +31711,22 @@
       "status": "rejected",
       "title": "Low-cost, open-source, full-stack software and Arduino-based hardware for control of commercially available animal behavior systems",
       "updated_at": "2026-11-03T09:02:32.265964+00:00"
+    },
+    "doi:10.37602/ijssmr.2022.5319": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "HARDWARE ROOT OF TRUST BASED TPM: THE INHERENT OF 5IRECHAIN SECURITY",
+      "updated_at": "2026-11-09T14:13:32.826112+00:00"
+    },
+    "doi:10.37885/220809675": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "COMUNIDADE DE AVES E A INTERAÇÃO AVE-PLANTA EM UM ENCLAVE DE CAMPINARANA NO SUDOESTE DA AMAZÔNIA",
+      "updated_at": "2026-11-09T14:14:45.281626+00:00"
     },
     "doi:10.37934/araset.63.1.191201": {
       "category": "hors_sujet",
@@ -34519,6 +34631,22 @@
       "status": "rejected",
       "title": "Post-harvest Management for Sustainable Food Security",
       "updated_at": "2026-11-06T03:38:50.948934+00:00"
+    },
+    "doi:10.5220/0010779300003120": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Systematic Analysis of Programming Languages and Their Execution Environments for Spectre Attacks",
+      "updated_at": "2026-11-09T14:15:57.197138+00:00"
+    },
+    "doi:10.5220/0011336900003283": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "PASS-P: Performance and Security Sensitive Dynamic Cache Partitioning",
+      "updated_at": "2026-11-09T14:16:16.054049+00:00"
     },
     "doi:10.5220/0011611900003405": {
       "category": "secondaire",
@@ -39935,6 +40063,14 @@
       "status": "imported",
       "title": "SCHERI: Provably Secure Speculation Under the Constant-Time Policy for CHERI (Extended Version)",
       "updated_at": "2026-11-02T15:57:24.077420+00:00"
+    },
+    "title:scrapsscalablecollectiveremoteattestationforpubsubiotnetworkswithuntrustedproxyverifier": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "SCRAPS : Scalable Collective Remote Attestation for Pub-Sub IoT Networks with Untrusted Proxy Verifier",
+      "updated_at": "2026-11-09T14:14:54.464299+00:00"
     },
     "title:secdmpprovablysecuredatamemorydependentprefetchingextendedversion": {
       "category": "secondaire",

@@ -241,6 +241,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/access.2022.3169767": {
+    "doi": "https://doi.org/10.1109/access.2022.3169767",
+    "publication_date": "2022-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Access",
+    "score": 88,
+    "source": "https://doi.org/10.1109/access.2022.3169767",
+    "summary": "Cet article propose une architecture matérielle de type Trusted Execution Environment (TEE) basée sur un design hétérogène combinant des processeurs Linux 64 bits et un microcontrôleur 32 bits (MCU). Le sous-système isolé gère les données sensibles, le démarrage sécurisé et le stockage des clés racines via un bus dédié (IBus). L'implémentation a été testée sur FPGA Virtex-7 et synthétisée en technologie VLSI ROHM 180 nm.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Trusted Execution Environment Hardware by Isolated Heterogeneous Architecture for Key Scheduling",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/access.2023.3275757": {
     "doi": "https://doi.org/10.1109/access.2023.3275757",
     "publication_date": "2023-01-01",
@@ -2382,6 +2399,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex (titre exact)"
   },
+  "doi:10.1109/tdsc.2022.3144287": {
+    "doi": "https://doi.org/10.1109/tdsc.2022.3144287",
+    "publication_date": "2022-01-21",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Dependable and Secure Computing",
+    "score": 85,
+    "source": "https://doi.org/10.1109/tdsc.2022.3144287",
+    "summary": "Cet article présente SpecBox, un schéma de spéculation transparent basé sur des étiquettes pour contrer les attaques par exécution transitoire telles que Spectre. SpecBox partitionne dynamiquement le système de caches pour isoler les données spéculatives des non-spéculatives, utilise des sémaphores de propriété de threads pour empêcher l'accès transitoire inter-cœurs, et sécurise les composants auxiliaires comme le pré-chargeur matériel.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SpecBox: A Label-Based Transparent Speculation Scheme Against Transient Execution Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/tdsc.2024.3354991": {
     "doi": "https://doi.org/10.1109/tdsc.2024.3354991",
     "publication_date": "2024-09-01",
@@ -4232,6 +4266,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.14722/ndss.2022.23110": {
+    "doi": "https://doi.org/10.14722/ndss.2022.23110",
+    "publication_date": "2022-01-01",
+    "publication_type": "conference",
+    "publication_venue": "Network and Distributed System Security Symposium",
+    "score": 90,
+    "source": "https://doi.org/10.14722/ndss.2022.23110",
+    "summary": "Cet article présente \"Chunked-Cache\", une conception de partitionnement de cache associatif par ensembles, flexible et à la demande, destinée aux architectures de sécurité telles que les environnements d'exécution de confiance (TEE). L'objectif est de surmonter les limites des défenses par randomisation et par partitionnement en voies (way-based), offrant ainsi une isolation de cache évolutive et résistante aux attaques par canal auxiliaire avec un faible surcoût matériel et une performance accrue.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Chunked-Cache: On-Demand and Scalable Cache Isolation for Security Architectures",
+    "venue_landmark": "NDSS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.14722/ndss.2023.23041": {
     "doi": "https://doi.org/10.14722/ndss.2023.23041",
     "publication_date": "2023-01-01",
@@ -4405,6 +4456,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.17760/d20467318": {
+    "doi": "https://doi.org/10.17760/d20467318",
+    "publication_date": "2022-01-01",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 92,
+    "source": "http://dx.doi.org/10.17760/d20467318",
+    "summary": "Cette thèse explore l'impact des attaques par exécution transitoire (Meltdown, Spectre) sur la sécurité des systèmes en améliorant leur analyse microarchitecturale et en évaluant leurs effets sur les modèles de menace et les atténuations existantes.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Execution security in the Spectre era",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.20944/preprints202511.1351.v1": {
     "publication_date": "2025-11-18",
@@ -4946,6 +5014,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.3390/fi14010024": {
+    "doi": "https://doi.org/10.3390/fi14010024",
+    "publication_date": "2022-01-08",
+    "publication_type": "revue",
+    "publication_venue": "Future Internet",
+    "score": 85,
+    "source": "https://doi.org/10.3390/fi14010024",
+    "summary": "CacheHawkeye est une méthode de détection des attaques par canal cache basée sur l'analyse des événements mémoire via des compteurs de performance matériels du CPU. Elle exploite la caractéristique des accès mémoire fréquents des attaquants pour identifier des attaques telles que Flush+Reload et Flush+Flush, tout en maintenant une bonne précision sous diverses charges système.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "CacheHawkeye: Detecting Cache Side Channel Attacks Based on Memory Events",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.3390/iot7020048": {
     "publication_date": "2026-06-12",
@@ -6497,6 +6582,23 @@
       "T10 — RISC-V SoC & FPGA"
     ],
     "title": "Secure RISC-V architectures for brain-inspired computing"
+  },
+  "doi:10.5220/0010779300003120": {
+    "doi": "https://doi.org/10.5220/0010779300003120",
+    "publication_date": "2022-01-01",
+    "publication_type": "conference",
+    "publication_venue": "International Conference on Information Systems Security and Privacy (ICISSP)",
+    "score": 90,
+    "source": "https://doi.org/10.5220/0010779300003120",
+    "summary": "Cette étude analyse la sécurité de 42 langages de programmation et environnements d'exécution face aux attaques Spectre. Elle révèle qu'une grande majorité ne propose aucune mitigation et démontre de nouvelles attaques à l'aide de l'outil Speconnector.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Systematic Analysis of Programming Languages and Their Execution Environments for Spectre Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.5220/0012813200003767": {
     "doi": "https://doi.org/10.5220/0012813200003767",
