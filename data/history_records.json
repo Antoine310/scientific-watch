@@ -2887,6 +2887,40 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3460120.3484532": {
+    "doi": "https://doi.org/10.1145/3460120.3484532",
+    "publication_date": "2021-11-12",
+    "publication_type": "conference",
+    "publication_venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3460120.3484532",
+    "summary": "Cette publication étudie le problème de type Time-Of-Check-Time-Of-Use (TOCTOU) dans le cadre de l'attestation à distance (Remote Attestation ou RA) pour les appareils embarqués et IoT. Elle met en évidence que les techniques actuelles d'attestation vérifient l'intégrité binaire uniquement au moment de l'exécution de la RA, laissant ainsi passer les logiciels malveillants transitoires qui modifient le binaire, accomplissent leurs tâches puis s'effacent avant la prochaine attestation.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "On the TOCTOU Problem in Remote Attestation",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3460120.3484534": {
+    "doi": "https://doi.org/10.1145/3460120.3484534",
+    "publication_date": "2021-11-12",
+    "publication_type": "conference",
+    "publication_venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3460120.3484534",
+    "summary": "Cet article développe des fondations formelles et un cadre de critères de compilation sécurisée pour analyser la résistance des programmes contre les attaques Spectre v1. Il évalue les contre-mesures des compilateurs majeurs et fournit les premières preuves de sécurité pour ces défenses.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Exorcising Spectres with Secure Compilers",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3485832.3485900": {
     "doi": "https://doi.org/10.1145/3485832.3485900",
     "publication_date": "2021-12-06",
@@ -4257,6 +4291,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1155/2021/2914192": {
+    "doi": "https://doi.org/10.1155/2021/2914192",
+    "publication_date": "2021-11-18",
+    "publication_type": "revue",
+    "publication_venue": "Security and Communication Networks",
+    "score": 80,
+    "source": "https://doi.org/10.1155/2021/2914192",
+    "summary": "Cet article propose une approche d'attestation de flux de contrôle adaptative en granularité basée sur l'algorithme NSGA-II (GACFA) pour les appareils embarqués et l'edge computing. L'objectif est de trouver un compromis optimal entre la précision de détection contre le détournement de flux de contrôle (CFH) et les surcoûts de performance, en utilisant notamment SGX pour protéger les données de mesure.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "NSGA-II-Based Granularity-Adaptive Control-Flow Attestation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1186/s42400-024-00235-7": {
     "doi": "https://doi.org/10.1186/s42400-024-00235-7",
     "publication_date": "2024-08-04",
@@ -5003,6 +5054,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.3390/electronics10222748": {
+    "doi": "https://doi.org/10.3390/electronics10222748",
+    "publication_date": "2021-11-10",
+    "publication_type": "revue",
+    "publication_venue": "Electronics",
+    "score": 90,
+    "source": "https://doi.org/10.3390/electronics10222748",
+    "summary": "RT-Sniper est un mécanisme de défense à faible surcoût conçu pour identifier et localiser précisément les attaques par canal auxiliaire sur le cache dans les systèmes multi-locataires. Il utilise un filtrage à deux niveaux (au niveau du cœur puis du processus) pour minimiser l'impact sur les performances, évalué avec succès contre des attaques de type Flush+Reload et Prime+Probe.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "RT-Sniper: A Low-Overhead Defense Mechanism Pinpointing Cache Side-Channel Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.3390/electronics13132508": {
     "doi": "https://doi.org/10.3390/electronics13132508",
     "publication_date": "2024-06-26",
@@ -5329,6 +5397,40 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Dorami: Privilege Separating Security Monitor on RISC-V TEEs"
+  },
+  "doi:10.46586/tches.v2022.i1.28-68": {
+    "doi": "https://doi.org/10.46586/tches.v2022.i1.28-68",
+    "publication_date": "2021-11-19",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 95,
+    "source": "https://doi.org/10.46586/tches.v2022.i1.28-68",
+    "summary": "Cette étude analyse le contournement de l'isolation d'exécution sur l'architecture RISC-V protégée par la protection de mémoire physique (PMP). Les auteurs proposent une attaque combinant l'injection de fautes et les canaux cachés pour compromettre l'environnement d'exécution de confiance (TEE), valident l'attaque sur un TEE expérimental et sur le TEE réel Keystone, puis présentent une contre-mesure logicielle.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Bypassing Isolated Execution on RISC-V using Side-Channel-Assisted Fault-Injection and Its Countermeasure",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.46586/tches.v2022.i1.630-656": {
+    "doi": "https://doi.org/10.46586/tches.v2022.i1.630-656",
+    "publication_date": "2021-11-19",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 88,
+    "source": "https://doi.org/10.46586/tches.v2022.i1.630-656",
+    "summary": "Cet article présente les enclaves composites, une approche visant à étendre les environnements d'exécution de confiance (TEEs) au-delà du processeur central vers du matériel hétérogène et désagrégé. L'approche permet une base de confiance matérielle et logicielle (TCB) configurable pour inclure des ressources d'E/S et de calcul spécialisées. Deux études de cas sont présentées : une plateforme FPGA basée sur RISC-V Keystone et un accélérateur à grande échelle.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Composite Enclaves: Towards Disaggregated Trusted Execution",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.46586/tches.v2023.i1.1-31": {
     "doi": "https://doi.org/10.46586/tches.v2023.i1.1-31",
@@ -7645,6 +7747,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "arXiv"
+  },
+  "title:enablingdesignspaceexplorationforriscvsecurecomputeenvironments": {
+    "doi": null,
+    "publication_date": "2021-11-07",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "https://www.osti.gov/servlets/purl/1810828",
+    "summary": "Cet article présente l'implémentation de modèles dans le simulateur gem5 pour exécuter et évaluer l'environnement d'exécution de confiance (TEE) open-source basé sur RISC-V, Keystone. Cette approche permet une exploration de l'espace de conception au niveau du cycle. Les auteurs démontrent que ces simulations offrent des performances similaires aux évaluations matérielles précédentes et illustrent l'utilité de leur environnement à travers trois cas d'usage : l'analyse du ralentissement de l'exécution de confiance, la performance du chiffrement de la mémoire et l'impact de la microarchitecture.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Enabling Design Space Exploration for RISC-V Secure Compute Environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "title:enforcingattestableworkflowsacrossuntrustednetworks": {
     "doi": "",
