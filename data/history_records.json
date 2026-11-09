@@ -1400,6 +1400,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/isctis63324.2024.10699205": {
+    "doi": "https://doi.org/10.1109/isctis63324.2024.10699205",
+    "publication_date": "2024-07-12",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-07-12",
+    "publication_type": "conference",
+    "publication_venue": "2024 4th International Symposium on Computer Technology and Information Science (ISCTIS)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/isctis63324.2024.10699205",
+    "summary": "Ce papier présente un processeur RISC-V sécurisé de 32 bits conçu pour des applications légères, fabriqué en technologie 55nm. Il intègre de nombreuses mesures de sécurité matérielle (contre-mesures contre les attaques par canal auxiliaire et les attaques par cache, moniteur d'exécution, effacement d'état, protection de l'intégrité des opérations) et étend les fonctionnalités de privilège. Les tests montrent une fréquence d'horloge allant jusqu'à 350 MHz et une consommation électrique moyenne de 328 mW.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "A 55nm 350MHz 328mW Secure RISC-V CPU for Lightweight Systems",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/isdfs69419.2026.11459082": {
     "publication_date": "2026-03-19",
     "publication_type": "conference",
@@ -7191,6 +7211,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:cachesquashmakingcachesspeculationaware": {
+    "doi": "",
+    "publication_date": "2024-06-17",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2406.12110v2",
+    "summary": "CacheSquash est une mitigation proposée contre les attaques de type Spectre. L'article observe que les attaques Spectre exploitent le fait que les instructions spéculatives modifient l'état du cache même si elles sont annulées (squashed) par la suite. CacheSquash envoie immédiatement une annulation à la hiérarchie des caches dès qu'une mauvaise prédiction est détectée, prévenant ainsi les modifications d'état et réduisant le risque d'attaque par canal auxiliaire avec un surcoût de performance quasi nul.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "CacheSquash: Making caches speculation-aware",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:ccxtrustconfidentialcomputingplatformbasedonteeandtpmcollaborativetrust": {
     "doi": "",
     "publication_date": "2024-12-05",
@@ -7967,6 +8007,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:onkernelssafetyinthespectreeraextendedversion": {
+    "doi": "",
+    "publication_date": "2024-06-11",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 88,
+    "source": "http://arxiv.org/abs/2406.07278v2",
+    "summary": "Cet article étudie la sécurité du noyau à l'ère des attaques par exécution spéculative et canaux auxiliaires. Les auteurs démontrent que l'aléa de disposition de l'espace d'adressage (ASLR) du noyau ne suffit pas à garantir la sécurité en présence de telles attaques. Ils introduisent une nouvelle condition formelle garantissant la sécurité du noyau, permettant de s'affranchir de l'ASLR, et proposent un affaiblissement de cette condition pour l'appliquer aux appels système.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "On Kernel's Safety in the Spectre Era (Extended Version)",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:optimizingtlscryptographicoperationsonriscvsocwithopentitanrot": {
     "publication_date": "2025-01-01",
     "score": 90,
@@ -8305,6 +8365,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:sempatusinghyperpropertybasedsemanticanalysistogeneratemicroarchitecturalattackpatterns": {
+    "doi": "",
+    "publication_date": "2024-06-08",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2406.05403v1",
+    "summary": "SemPat est une technique qui combine l'analyse sémantique basée sur les hyperpropriétés et la génération de modèles d'attaque (« attack patterns »). En partant d'une spécification de sécurité non-interférence, l'outil génère automatiquement des motifs d'attaque scalables pour identifier des vulnérabilités microarchitecturales telles que Spectre V1 et Spectre V4, améliorant ainsi la scalabilité par rapport à la vérification formelle pure.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SemPat: Using Hyperproperty-based Semantic Analysis to Generate Microarchitectural Attack Patterns",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:shadowbindingrealizingeffectivemicroarchitecturesforincoresecurespeculationschemes": {
     "doi": "",
     "publication_date": "2025-04-09",
@@ -8320,6 +8400,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "ShadowBinding: Realizing Effective Microarchitectures for In-Core Secure Speculation Schemes",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:sheshamultiheadmicroarchitecturalleakagediscoveryinnewgenerationintelprocessors": {
+    "doi": "",
+    "publication_date": "2024-06-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2406.06034v2",
+    "summary": "Cet article présente Shesha, un cadre d'exploration automatique des fuites microarchitecturales par exécution spéculative, inspiré par l'optimisation par essaim de particules. Il permet de découvrir plus efficacement de nouveaux chemins d'exécution transitoire dans les processeurs Intel de nouvelle génération, notamment au sein des extensions du jeu d'instructions x86.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Shesha: Multi-head Microarchitectural Leakage Discovery in new-generation Intel Processors",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -8558,6 +8658,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "The Real Menace of Cloning Attacks on SGX Applications",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:tiktagbreakingarmsmemorytaggingextensionwithspeculativeexecution": {
+    "doi": "",
+    "publication_date": "2024-06-13",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2406.08719v1",
+    "summary": "Cet article étudie les risques de sécurité posés par l'exécution spéculative contre l'extension MTE (Memory Tagging Extension) d'ARM. Les auteurs identifient des gadgets nommes TikTag permettant de fuiter les tags MTE depuis des adresses mémoire arbitraires. Cela permet de contourner la défense probabiliste de MTE avec un taux de succès supérieur à 95 % en moins de 4 secondes, compromettant des systèmes réels comme Google Chrome et le noyau Linux. Des mécanismes de défense sont également proposés.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "TikTag: Breaking ARM's Memory Tagging Extension with Speculative Execution",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,

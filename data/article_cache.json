@@ -13320,6 +13320,14 @@
       "title": "MC-MLA: Accelerating Multi-Head Latent Attention on RISC-V Many-Core Chips",
       "updated_at": "2026-11-04T21:24:53.755378+00:00"
     },
+    "doi:10.1109/isctis63324.2024.10699205": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "A 55nm 350MHz 328mW Secure RISC-V CPU for Lightweight Systems",
+      "updated_at": "2026-11-09T14:37:21.998102+00:00"
+    },
     "doi:10.1109/isdfs69419.2026.11459082": {
       "category": "coeur",
       "decision": "conserver",
@@ -13791,6 +13799,14 @@
       "status": "rejected",
       "title": "Self-HWDebug: Automation of LLM Self-Instructing for Hardware Security Verification",
       "updated_at": "2026-11-09T11:36:41.083471+00:00"
+    },
+    "doi:10.1109/isvlsi61997.2024.00101": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "WAFER: Wearable, Ambient-Aware Adversarial Fall Event Detection System Using a RISC-V SoC Architecture",
+      "updated_at": "2026-11-09T14:36:28.286155+00:00"
     },
     "doi:10.1109/isvlsi61997.2024.00151": {
       "category": "hors_sujet",
@@ -16527,6 +16543,14 @@
       "status": "rejected",
       "title": "Hand Gesture Recognition for Real-Time Nano Drone Control on RISC-V",
       "updated_at": "2026-11-06T02:36:30.107822+00:00"
+    },
+    "doi:10.1109/redw61286.2024.10759200": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Single Event Upset Characterization of Microsemi RISC-V Softcore Processors on Polarfire MPF300T-1FCG1152E FPGA Using Proton Irradiation",
+      "updated_at": "2026-11-09T14:37:28.643804+00:00"
     },
     "doi:10.1109/redw68988.2025.11534015": {
       "category": "hors_sujet",
@@ -23927,6 +23951,14 @@
       "status": "imported",
       "title": "TIRA: Task-Based Intermittent Remote Attestation",
       "updated_at": "2026-11-03T10:52:08.982667+00:00"
+    },
+    "doi:10.1145/3776582": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "A Taxonomy and Comparative Analysis of IPv4 Identifier Selection Correctness, Security, and Performance",
+      "updated_at": "2026-11-09T14:39:06.131676+00:00"
     },
     "doi:10.1145/3778358": {
       "category": "secondaire_technique",
@@ -37456,6 +37488,14 @@
       "title": "C8s: A Confidential Kubernetes Architecture",
       "updated_at": "2026-11-03T12:28:50.796280+00:00"
     },
+    "title:cachesquashmakingcachesspeculationaware": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "CacheSquash: Making caches speculation-aware",
+      "updated_at": "2026-11-09T14:39:17.972158+00:00"
+    },
     "title:calessmutualcosigningofdocumentsoveraunidirectionalvisualchannelwithtransportedhardwareattestation": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -37719,6 +37759,14 @@
       "status": "imported",
       "title": "Coverage-Guided Pre-Silicon Fuzzing of Open-Source Processors based on Leakage Contracts",
       "updated_at": "2026-11-04T08:31:07.608019+00:00"
+    },
+    "title:crossconcrossplatformopensecuritystackforconnecteddevices": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "CROSSCON: Cross-platform Open Security Stack for Connected Devices",
+      "updated_at": "2026-11-09T14:38:27.054579+00:00"
     },
     "title:crosslayerrootsoftrustintegratingbiometricspufsandhardwareobfuscation": {
       "category": "secondaire",
@@ -38232,6 +38280,14 @@
       "title": "FAARM: Firmware Attestation and Authentication Framework for Mali GPUs",
       "updated_at": "2026-11-04T13:26:26.224714+00:00"
     },
+    "title:facosenablingprivacyprotectionthroughfinegrainedaccesscontrolwithonchainandoffchainsystem": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "FACOS: Enabling Privacy Protection Through Fine-Grained Access Control with On-chain and Off-chain System",
+      "updated_at": "2026-11-09T14:38:36.532027+00:00"
+    },
     "title:fastrackfastioforsecuremlusinggputees": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -38440,6 +38496,14 @@
       "title": "Fuzzilicon: A Post-Silicon Microcode-Guided x86 CPU Fuzzer",
       "updated_at": "2026-11-03T20:09:18.389011+00:00"
     },
+    "title:gapsesversatilesmartglassesforcomfortableandfullydryacquisitionandparallelultralowpowerprocessingofeegandeog": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "GAPses: Versatile smart glasses for comfortable and fully-dry acquisition and parallel ultra-low-power processing of EEG and EOG",
+      "updated_at": "2026-11-09T14:38:27.074708+00:00"
+    },
     "title:gasliteaaoptimizingerc4337forefficientandsecuregassponsorship": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -38559,6 +38623,14 @@
       "status": "imported",
       "title": "Hardening Trusted Execution Environments Against Microarchitectural Side-Channel Attacks: A Constructive Approach",
       "updated_at": "2026-10-30T17:13:45.362068+00:00"
+    },
+    "title:hardwarebasedstackbufferoverflowattackdetectiononriscvarchitectures": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 70,
+      "status": "rejected",
+      "title": "Hardware-based stack buffer overflow attack detection on RISC-V architectures",
+      "updated_at": "2026-11-09T14:38:27.162313+00:00"
     },
     "title:hardwaredesignandsecurityintheeraofchipletsandllms": {
       "category": "secondaire",
@@ -38887,6 +38959,14 @@
       "status": "rejected",
       "title": "LAAG-RV: LLM Assisted Assertion Generation for RTL Design Verification",
       "updated_at": "2026-11-08T23:39:08.025060+00:00"
+    },
+    "title:laminatorverifiablemlpropertycardsusinghardwareassistedattestations": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Laminator: Verifiable ML Property Cards using Hardware-assisted Attestations",
+      "updated_at": "2026-11-09T14:38:36.551979+00:00"
     },
     "title:largelanguagemodelsandattentionbasedaiforhardwaredesignandsecurityprogresschallengesandopportunities": {
       "category": "secondaire",
@@ -39296,6 +39376,14 @@
       "title": "On Abnormal Execution Timing of Conditional Jump Instructions",
       "updated_at": "2026-11-03T18:14:06.631212+00:00"
     },
+    "title:onkernelssafetyinthespectreeraextendedversion": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "On Kernel's Safety in the Spectre Era (Extended Version)",
+      "updated_at": "2026-11-09T14:40:08.442260+00:00"
+    },
     "title:onthedaytheyexperienceawakeningselfsovereignexperientialaiagents": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -39319,6 +39407,14 @@
       "status": "rejected",
       "title": "On the Performance of Malware Detection Classifiers Using Hardware Performance Counters",
       "updated_at": "2026-11-02T17:58:52.338702+00:00"
+    },
+    "title:ontheresponseentropyofapufs": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "On the Response Entropy of APUFs",
+      "updated_at": "2026-11-09T14:37:55.817272+00:00"
     },
     "title:onyxcostefficientdiskobliviousannsearch": {
       "category": "secondaire",
@@ -40232,6 +40328,14 @@
       "title": "Selling the Stock, Not the Cream: The Soviet Émigré Career Premium of the 1990s",
       "updated_at": "2026-11-02T19:55:12.245702+00:00"
     },
+    "title:sempatusinghyperpropertybasedsemanticanalysistogeneratemicroarchitecturalattackpatterns": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "SemPat: Using Hyperproperty-based Semantic Analysis to Generate Microarchitectural Attack Patterns",
+      "updated_at": "2026-11-09T14:39:38.464538+00:00"
+    },
     "title:sesemisecureserverlessmodelinferenceonsensitivedata": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -40295,6 +40399,14 @@
       "status": "rejected",
       "title": "Sharing without Showing: Secure Cloud Analytics with Trusted Execution Environments",
       "updated_at": "2026-11-08T08:36:26.471273+00:00"
+    },
+    "title:sheshamultiheadmicroarchitecturalleakagediscoveryinnewgenerationintelprocessors": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Shesha: Multi-head Microarchitectural Leakage Discovery in new-generation Intel Processors",
+      "updated_at": "2026-11-09T14:39:48.572470+00:00"
     },
     "title:shieldbashabusingdefensivecoherencestateretrievaltobreaktimingobfuscation": {
       "category": "coeur",
@@ -40752,6 +40864,14 @@
       "title": "The Early Bird Catches the Leak: Unveiling Timing Side Channels in LLM Serving Systems",
       "updated_at": "2026-11-08T17:38:22.596797+00:00"
     },
+    "title:theelephantintheroomsoftwareandhardwaresecurityvulnerabilitiesofportablesequencingdevices": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "The Elephant in the Room: Software and Hardware Security Vulnerabilities of Portable Sequencing Devices",
+      "updated_at": "2026-11-09T14:37:55.795753+00:00"
+    },
     "title:theforkingwaywhenteesmeetconsensus": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -40847,6 +40967,14 @@
       "status": "rejected",
       "title": "Threat Vectors and the State of the Art in Defense Methods for Security in Neurotechnology",
       "updated_at": "2026-11-02T19:35:23.927379+00:00"
+    },
+    "title:tiktagbreakingarmsmemorytaggingextensionwithspeculativeexecution": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "TikTag: Breaking ARM's Memory Tagging Extension with Speculative Execution",
+      "updated_at": "2026-11-09T14:40:18.084656+00:00"
     },
     "title:timingandmemorytelemetryongpusforaigovernance": {
       "category": "hors_sujet",
