@@ -20200,6 +20200,14 @@
       "title": "Automating hardware security property generation",
       "updated_at": "2026-11-08T17:13:31.637670+00:00"
     },
+    "doi:10.1145/3508398.3511507": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "A TOCTOU Attack on DICE Attestation",
+      "updated_at": "2026-11-09T02:14:08.537564+00:00"
+    },
     "doi:10.1145/3532862": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -28216,6 +28224,14 @@
       "title": "Spec-LAMP: Robust Spectre Attack Detection Under Web-Based LLM Workload via L1D Miss Pending Event",
       "updated_at": "2026-11-01T05:15:24.293481+00:00"
     },
+    "doi:10.3390/electronics11111735": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Stochastic Cell- and Bit-Discard Technique to Improve Randomness of a TRNG",
+      "updated_at": "2026-11-09T02:13:25.697978+00:00"
+    },
     "doi:10.3390/electronics11182921": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -31815,6 +31831,22 @@
       "status": "rejected",
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
+    },
+    "doi:10.48550/arxiv.2204.05508": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Fast Selective Flushing to Mitigate Contention-based Cache Timing Attacks",
+      "updated_at": "2026-11-09T02:14:28.806598+00:00"
+    },
+    "doi:10.48550/arxiv.2204.06790": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "An Exploratory Study of Attestation Mechanisms for Trusted Execution Environments",
+      "updated_at": "2026-11-09T02:13:48.099274+00:00"
     },
     "doi:10.48550/arxiv.2205.15359": {
       "category": "secondaire_technique",

@@ -2710,6 +2710,23 @@
     "venue_priority": 1,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3508398.3511507": {
+    "doi": "https://doi.org/10.1145/3508398.3511507",
+    "publication_date": "2022-04-14",
+    "publication_type": "conference",
+    "publication_venue": "ACM Conference on Data and Application Security and Privacy (CODASPY)",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3508398.3511507",
+    "summary": "Cet article démontre une attaque de type Time-Of-Check Time-Of-Use (TOCTOU) à distance sur l'architecture d'attestation DICE (Device Identifier Composition Engine) de la Trusted Computing Group. Les auteurs montrent qu'il est possible d'installer un malware persistant dans la mémoire flash d'un microcontrôleur Cortex-M sans qu'il soit détecté par l'attestation DICE, en copiant la clé d'attestation valide via une programmation orientée retour (ROP) pour l'utiliser lors des redémarrages.",
+    "themes": [
+      "T02 — DICE & Hardware Identity"
+    ],
+    "title": "A TOCTOU Attack on DICE Attestation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3564625.3567994": {
     "doi": "https://doi.org/10.1145/3564625.3567994",
     "publication_date": "2022-12-03",
@@ -5452,6 +5469,40 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2204.05508": {
+    "doi": "https://doi.org/10.48550/arxiv.2204.05508",
+    "publication_date": "2022-04-12",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2204.05508",
+    "summary": "Cet article propose FaSe, une contre-mesure matérielle/logique rapide et sélective basée sur le vidage du cache pour atténuer les attaques temporelles par canal auxiliaire basées sur la contention. En combinant une extension du jeu d'instructions (ISA) et des modifications du cache, FaSe évacue sélectivement les lignes de cache nécessaires et réduit significativement le surcoût temporel par rapport au vidage naïf. L'évaluation est réalisée sur un cœur RISC-V Rocket et un FPGA Xilinx.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Fast Selective Flushing to Mitigate Contention-based Cache Timing Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.48550/arxiv.2204.06790": {
+    "doi": "https://doi.org/10.48550/arxiv.2204.06790",
+    "publication_date": "2022-04-14",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2204.06790",
+    "summary": "Cet article explore les mécanismes d'attestation pour les environnements d'exécution de confiance (TEE), un composant fondamental pour garantir l'exécution de code authentique face à des attaquants puissants. Il examine les principes de l'attestation à distance et compare les fonctionnalités de TEEs existants tels que Intel SGX, Arm TrustZone et AMD SEV, ainsi que des solutions émergentes basées sur l'architecture RISC-V.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "An Exploratory Study of Attestation Mechanisms for Trusted Execution Environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2208.03631": {
     "doi": "https://doi.org/10.48550/arxiv.2208.03631",
