@@ -4665,6 +4665,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex (titre exact)"
   },
+  "doi:10.3390/app12052415": {
+    "doi": "https://doi.org/10.3390/app12052415",
+    "publication_date": "2022-02-25",
+    "publication_type": "revue",
+    "publication_venue": "Applied Sciences",
+    "score": 90,
+    "source": "https://doi.org/10.3390/app12052415",
+    "summary": "Cette étude analyse l'efficacité de la randomisation des caches de premier niveau (L1) et de la hiérarchie mémoire face aux attaques par canal auxiliaire et aux algorithmes de construction d'ensembles d'éviction (eviction sets). Les auteurs développent un cadre de simulation sans bruit pour évaluer ces algorithmes et démontrent que la randomisation L1 améliore la sécurité mais reste insuffisante seule contre certaines attaques comme Prime-Prune-Probe, nécessitant une combinaison avec des techniques d'éviction aléatoire dans les caches supérieurs.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Noise-Free Security Assessment of Eviction Set Construction Algorithms with Randomized Caches",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.3390/app12052669": {
     "doi": "https://doi.org/10.3390/app12052669",
     "publication_date": "2022-03-04",
@@ -5697,6 +5714,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2202.03749": {
+    "doi": "https://doi.org/10.48550/arxiv.2202.03749",
+    "publication_date": "2022-02-08",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2202.03749",
+    "summary": "Ce papier présente l'implémentation du cache de données du processeur RISC-V CVA6 (anciennement Ariane) développé par l'OpenHW Group. Il se focalise sur sa structure mémoire et illustre par des exemples le comportement du système lors de requêtes d'allocation mémoire, fournissant ainsi des détails microarchitecturaux essentiels pour comprendre et répliquer des attaques par canal caché de type Prime+Probe sur cette architecture.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "CVA6's Data cache: Structure and Behavior",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2204.05508": {
     "doi": "https://doi.org/10.48550/arxiv.2204.05508",
