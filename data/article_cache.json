@@ -2664,6 +2664,14 @@
       "title": "Recycled Counterfeit Chips Detection for AMS and Digital ICs Using Low-Area, Self-Contained, and Secure LDO Odometers",
       "updated_at": "2026-11-09T09:38:00.501858+00:00"
     },
+    "doi:10.1007/s41635-024-00154-6": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Analyzing Aging Effects on SRAM PUFs: Implications for Security and Reliability",
+      "updated_at": "2026-11-09T10:37:43.631881+00:00"
+    },
     "doi:10.1007/s41635-024-00157-3": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -6424,6 +6432,14 @@
       "title": "A State Transition Based Cache Side Channel Attack Model",
       "updated_at": "2026-11-08T11:15:29.133934+00:00"
     },
+    "doi:10.1088/1742-6596/2803/1/012053": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Digital twin and hardware-in-the-loop based robotic arm modelling simulation",
+      "updated_at": "2026-11-09T10:37:50.367547+00:00"
+    },
     "doi:10.1088/1742-6596/3191/1/012030": {
       "category": "secondaire",
       "decision": "examiner",
@@ -9672,6 +9688,14 @@
       "title": "Latte: Layered Attestation for Portable Enclaved Applications",
       "updated_at": "2026-10-30T20:13:52.916218+00:00"
     },
+    "doi:10.1109/eurospw61312.2024.00025": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Delegating Verification for Remote Attestation Using TEE",
+      "updated_at": "2026-11-09T10:37:50.386714+00:00"
+    },
     "doi:10.1109/eurospw61312.2024.00026": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -10151,6 +10175,14 @@
       "status": "rejected",
       "title": "Standardized RISC-V Near-Memory Processing: A Scalable Approach to Data-Intensive Workloads",
       "updated_at": "2026-11-06T09:40:30.255460+00:00"
+    },
+    "doi:10.1109/hpsr62440.2024.10635987": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Decentralizing DDoS Protection via Efficient Hardware Offloading",
+      "updated_at": "2026-11-09T10:38:00.728669+00:00"
     },
     "doi:10.1109/i-smac61858.2024.10714585": {
       "category": "hors_sujet",
@@ -10696,6 +10728,14 @@
       "title": "Integrated Hardware Watermarking Framework Based on 3-Factor Encoding, Connectivity Matrix and Hashing for Securing Sharpening Filter IP Cores Against Piracy",
       "updated_at": "2026-11-02T20:56:56.025572+00:00"
     },
+    "doi:10.1109/icce62051.2024.10634625": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Advancing Cryptographic Security: A Study on SHA-3 Implementation within CRYSTAL-KYBER Key-Encapsulation Mechanism Hardware",
+      "updated_at": "2026-11-09T10:38:00.747497+00:00"
+    },
     "doi:10.1109/icce63647.2025.10929908": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -11007,6 +11047,14 @@
       "status": "imported",
       "title": "WaTZ: A Trusted WebAssembly Runtime Environment with Remote Attestation for TrustZone",
       "updated_at": "2026-11-08T14:14:07.192877+00:00"
+    },
+    "doi:10.1109/icdcs60910.2024.00053": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "HardWhale: A Hardware-Isolated Network Security Enforcement System for Cloud Environments",
+      "updated_at": "2026-11-09T10:38:00.765833+00:00"
     },
     "doi:10.1109/icdcs63083.2025.00052": {
       "category": "secondaire",
@@ -20376,6 +20424,14 @@
       "title": "SHIELD-PCB: securing hardware inspection with enhanced learning and defense against adversarial examples in printed circuit boards images",
       "updated_at": "2026-11-08T11:37:32.335882+00:00"
     },
+    "doi:10.1117/12.3031284": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Security analysis and simulation of hardware circuits based on advanced encryption standard algorithm of different bus structures",
+      "updated_at": "2026-11-09T10:37:33.079451+00:00"
+    },
     "doi:10.1117/12.3031477": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -21583,6 +21639,38 @@
       "status": "imported",
       "title": "Lightweight Hardware-Based Cache Side-Channel Attack Detection for Edge Devices (Edge-CaSCADe)",
       "updated_at": "2026-11-04T08:15:17.349394+00:00"
+    },
+    "doi:10.1145/3664476.3664479": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 70,
+      "status": "rejected",
+      "title": "Hardware Trust Anchor Authentication for Updatable IoT Devices",
+      "updated_at": "2026-11-09T10:37:33.196127+00:00"
+    },
+    "doi:10.1145/3664476.3664485": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Provably Secure Communication Protocols for Remote Attestation",
+      "updated_at": "2026-11-09T10:37:33.214794+00:00"
+    },
+    "doi:10.1145/3664476.3670442": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "DDS Security+: Enhancing the Data Distribution Service With TPM-based Remote Attestation",
+      "updated_at": "2026-11-09T10:37:43.594288+00:00"
+    },
+    "doi:10.1145/3664476.3670889": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Trust-minimizing BDHKE-based e-cash mint using secure hardware and distributed computation",
+      "updated_at": "2026-11-09T10:37:43.613451+00:00"
     },
     "doi:10.1145/3666092": {
       "category": "transfert_explicite",
@@ -25928,6 +26016,14 @@
       "title": "FPGA Implementation and Comparative Hardware Analysis of FPLP Trivium and Prince",
       "updated_at": "2026-11-02T17:51:43.359606+00:00"
     },
+    "doi:10.20944/preprints202407.1670.v1": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Hardware-Efficient Configurable RO-Based PUF/TRNG Module for Secure Key Management",
+      "updated_at": "2026-11-09T10:37:33.120168+00:00"
+    },
     "doi:10.20944/preprints202409.0601.v1": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -28872,6 +28968,14 @@
       "title": "ChipGuard-AI: A Hardware-Assisted Unified Framework for Adversarial and Side-Channel Resilience in Consumer Electronics",
       "updated_at": "2026-11-02T13:59:38.338949+00:00"
     },
+    "doi:10.3390/asi7040064": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "An Image-Retrieval Method Based on Cross-Hardware Platform Features",
+      "updated_at": "2026-11-09T10:37:33.139364+00:00"
+    },
     "doi:10.3390/chips3040020": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -31431,6 +31535,86 @@
       "status": "rejected",
       "title": "Impact of the Flicker Noise on the Ring Oscillator-based TRNGs",
       "updated_at": "2026-11-04T20:13:55.166597+00:00"
+    },
+    "doi:10.46586/tches.v2024.i3.136-173": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Automated Generation of Fault-Resistant Circuits",
+      "updated_at": "2026-11-09T10:37:22.833492+00:00"
+    },
+    "doi:10.46586/tches.v2024.i3.174-199": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Correction Fault Attacks on Randomized CRYSTALS-Dilithium",
+      "updated_at": "2026-11-09T10:37:22.815848+00:00"
+    },
+    "doi:10.46586/tches.v2024.i3.200-223": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Hints from Hertz: Dynamic Frequency Scaling Side-Channel Analysis of Number Theoretic Transform in Lattice-Based KEMs",
+      "updated_at": "2026-11-09T10:37:12.546401+00:00"
+    },
+    "doi:10.46586/tches.v2024.i3.224-248": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Evict+Spec+Time: Exploiting Out-of-Order Execution to Improve Cache-Timing Attacks",
+      "updated_at": "2026-11-09T10:37:22.797361+00:00"
+    },
+    "doi:10.46586/tches.v2024.i3.249-272": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Time Sharing - A Novel Approach to Low-Latency Masking",
+      "updated_at": "2026-11-09T10:37:12.640029+00:00"
+    },
+    "doi:10.46586/tches.v2024.i3.273-301": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Efficient Table-Based Masking with Pre-processing",
+      "updated_at": "2026-11-09T10:37:12.619790+00:00"
+    },
+    "doi:10.46586/tches.v2024.i3.342-376": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "PoMMES: Prevention of Micro-architectural Leakages in Masked Embedded Software",
+      "updated_at": "2026-11-09T10:37:12.597735+00:00"
+    },
+    "doi:10.46586/tches.v2024.i3.377-417": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "CrISA-X: Unleashing Performance Excellence in Lightweight Symmetric Cryptography for Extendable and Deeply Embedded Processors",
+      "updated_at": "2026-11-09T10:37:12.576997+00:00"
+    },
+    "doi:10.46586/tches.v2024.i3.472-499": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Generalized Power Attacks against Crypto Hardware using Long-Range Deep Learning",
+      "updated_at": "2026-11-09T10:36:31.435157+00:00"
+    },
+    "doi:10.46586/tches.v2024.i3.99-135": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Optimized Hardware-Software Co-Design for Kyber and Dilithium on RISC-V SoC FPGA",
+      "updated_at": "2026-11-09T10:37:22.853612+00:00"
     },
     "doi:10.46586/tches.v2024.i4.110-132": {
       "category": "coeur",
@@ -34488,6 +34672,14 @@
       "title": "Secure Adaptive Hardware Protection Framework for Enhancing Hardware Security in VLSI Systems",
       "updated_at": "2026-11-02T20:18:20.191199+00:00"
     },
+    "doi:10.55041/ijsrem36782": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "AI Hardware Resource Monitoring in the Data Center Environment",
+      "updated_at": "2026-11-09T10:37:33.171305+00:00"
+    },
     "doi:10.55041/ijsrem42109": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -35335,6 +35527,14 @@
       "status": "rejected",
       "title": "Trust and transparency in privacy-enhancing technologies",
       "updated_at": "2026-11-07T02:41:16.726493+00:00"
+    },
+    "doi:10.61955/gytcps": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Implementation of Hardware, Software and Workstation Information Security Measures in Federal University Libraries of Nigeria",
+      "updated_at": "2026-11-09T10:37:33.100476+00:00"
     },
     "doi:10.62056/a3c0l2isfg": {
       "category": "secondaire_technique",

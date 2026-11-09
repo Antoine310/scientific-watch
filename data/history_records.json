@@ -3294,6 +3294,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3664476.3670442": {
+    "doi": "https://doi.org/10.1145/3664476.3670442",
+    "publication_date": "2024-07-30",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-07-30",
+    "publication_type": "conference",
+    "publication_venue": "ARES 2024: The 19th International Conference on Availability, Reliability and Security",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3664476.3670442",
+    "summary": "Cette publication présente DDS Security+, une solution qui intègre l'attestation à distance basée sur un TPM (Trusted Platform Module) dans l'architecture de sécurité du standard Data Distribution Service (DDS). L'objectif est de permettre aux développeurs de vérifier l'intégrité du code des participants distants lors du fonctionnement du système distribué. La solution étend le protocole de poignée de main des canaux sécurisés de DDS et lie cryptographiquement ces canaux aux piles logicielles attestées. Les auteurs vérifient formellement les propriétés de sécurité avec le prouveur de théorèmes Tamarin et évaluent les performances via une implémentation basée sur la bibliothèque eProsima FastDDS.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "DDS Security+: Enhancing the Data Distribution Service With TPM-based Remote Attestation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3672392": {
     "doi": "https://doi.org/10.1145/3672392",
     "publication_date": "2024-10-01",
@@ -5107,6 +5127,46 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.46586/tches.v2024.i3.200-223": {
+    "doi": "https://doi.org/10.46586/tches.v2024.i3.200-223",
+    "publication_date": "2024-07-18",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-07-18",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 75,
+    "source": "https://doi.org/10.46586/tches.v2024.i3.200-223",
+    "summary": "Cet article étudie la première attaque par canal auxiliaire basée sur la variation dynamique de la fréquence du processeur (similaire à Hertzbleed) ciblant la Transformée Théorique des Nombres (NTT) dans les mécanismes d'encapsulation de clé (KEM) basés sur les réseaux (lattice-based). Les auteurs démontrent que les variations de poids de Hamming lors de l'exécution de la NTT provoquent des fuites mesurables via la fréquence CPU, permettant d'extraire des indices sur la clé secrète.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Hints from Hertz: Dynamic Frequency Scaling Side-Channel Analysis of Number Theoretic Transform in Lattice-Based KEMs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/tches.v2024.i3.224-248": {
+    "doi": "https://doi.org/10.46586/tches.v2024.i3.224-248",
+    "publication_date": "2024-07-18",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-07-18",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 85,
+    "source": "https://doi.org/10.46586/tches.v2024.i3.224-248",
+    "summary": "Cet article étudie l'impact de l'exécution spéculative et dans le désordre (out-of-order) sur les attaques temporelles par cache, en particulier la technique Evict+Time. Les auteurs démontrent que ces mécanismes microarchitecturaux permettent d'obtenir des informations plus fines et conçoivent une nouvelle variante d'attaque nommée Evict+Spec+Time, démontrée sur des implémentations d'AES.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Evict+Spec+Time: Exploiting Out-of-Order Execution to Improve Cache-Timing Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.46586/tches.v2024.i4.110-132": {
     "doi": "https://doi.org/10.46586/tches.v2024.i4.110-132",
