@@ -2528,6 +2528,14 @@
       "title": "A survey on lightweight hardware security using physically unclonable functions for IoT devices",
       "updated_at": "2026-11-04T15:26:28.295038+00:00"
     },
+    "doi:10.1007/s12274-022-4109-9": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A flexible and stretchable bionic true random number generator",
+      "updated_at": "2026-11-09T08:14:23.596833+00:00"
+    },
     "doi:10.1007/s12633-024-03102-9": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -2751,6 +2759,14 @@
       "status": "rejected",
       "title": "A low-power FSM-based hardware intrusion detection system with lightweight decoy logic for secure SoC architectures",
       "updated_at": "2026-11-03T20:51:12.673589+00:00"
+    },
+    "doi:10.1007/s42452-022-04981-6": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "FPGA implantations of TRNG architecture using ADPLL based on FIR filter as a loop filter",
+      "updated_at": "2026-11-09T08:14:23.596827+00:00"
     },
     "doi:10.1007/s42452-026-09469-1": {
       "category": "hors_sujet",
@@ -4328,6 +4344,14 @@
       "title": "Feasibility of Physical Unclonable Functions from Pre-stressed Organic Thin Film Transistors for Secure Microelectronics",
       "updated_at": "2026-11-03T18:39:45.214499+00:00"
     },
+    "doi:10.1016/j.mejo.2022.105410": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Implementation of TRNG with SHA-3 for hardware security",
+      "updated_at": "2026-11-09T08:14:23.596797+00:00"
+    },
     "doi:10.1016/j.mejo.2022.105502": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -5031,6 +5055,14 @@
       "status": "rejected",
       "title": "Statistical device simulations of III-V nanowire resonant tunneling diodes as physical unclonable functions source",
       "updated_at": "2026-11-09T05:13:24.567745+00:00"
+    },
+    "doi:10.1016/j.sysarc.2022.102476": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Cost-effective fixed-point hardware support for RISC-V embedded systems",
+      "updated_at": "2026-11-09T08:14:02.809721+00:00"
     },
     "doi:10.1016/j.sysarc.2024.103107": {
       "category": "secondaire",
@@ -17600,6 +17632,22 @@
       "title": "Design and Signal Integrity Analysis of Meander Coupled Microstrip Lines With an Embedded Interdigital Structure for FEXT Suppression",
       "updated_at": "2026-11-02T19:17:04.916740+00:00"
     },
+    "doi:10.1109/tcsi.2022.3151794": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "A Stochastic Algorithm to Design Min-Entropy Tuning Controllers for True Random Number Generators",
+      "updated_at": "2026-11-09T08:14:23.596863+00:00"
+    },
+    "doi:10.1109/tcsi.2022.3158022": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "TROT: A Three-Edge Ring Oscillator Based True Random Number Generator With Time-to-Digital Conversion",
+      "updated_at": "2026-11-09T08:14:23.596820+00:00"
+    },
     "doi:10.1109/tcsi.2023.3316890": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -20679,6 +20727,22 @@
       "status": "rejected",
       "title": "Automating hardware security property generation",
       "updated_at": "2026-11-08T17:13:31.637670+00:00"
+    },
+    "doi:10.1145/3492321.3519559": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "Performance evolution of mitigating transient execution attacks",
+      "updated_at": "2026-11-09T08:13:22.957402+00:00"
+    },
+    "doi:10.1145/3503222.3507733": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "ShEF: shielded enclaves for cloud FPGAs",
+      "updated_at": "2026-11-09T08:15:16.672514+00:00"
     },
     "doi:10.1145/3508398.3511507": {
       "category": "coeur",
@@ -26784,6 +26848,22 @@
       "title": "Wenquxing 22: A Highly Efficient Neuromorphic Accelerator by RISC-V Customized Instruction Extension for Spiking Neural Network (RV-SNN 1.0), Streamlined LIF Model and Binary Stochastic STDP",
       "updated_at": "2026-11-03T16:10:31.100894+00:00"
     },
+    "doi:10.23919/date54114.2022.9774612": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 82,
+      "status": "imported",
+      "title": "A Cross-Platform Cache Timing Attack Framework via Deep Learning",
+      "updated_at": "2026-11-09T08:13:57.407480+00:00"
+    },
+    "doi:10.23919/date54114.2022.9774735": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Reliability Analysis of FinFET-Based SRAM PUFs for 16nm, 14nm, and 7nm Technology Nodes",
+      "updated_at": "2026-11-09T08:14:12.850908+00:00"
+    },
     "doi:10.23919/date56975.2023.10136972": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -30263,6 +30343,14 @@
       "status": "rejected",
       "title": "Mitigating Pipeline Hazards in RISC-V: Forwarding vs. Stalling in the Context of Continuous-Variable Quantum Key Distribution",
       "updated_at": "2026-11-02T15:35:36.800058+00:00"
+    },
+    "doi:10.34190/iccws.17.1.20": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Transient Execution and Side Channel Analysis: a Vulnerability or a Science Experiment?",
+      "updated_at": "2026-11-09T08:13:55.610251+00:00"
     },
     "doi:10.34190/iccws.20.1.3198": {
       "category": "hors_sujet",

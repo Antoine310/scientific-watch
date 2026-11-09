@@ -2770,6 +2770,23 @@
     "venue_priority": 1,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3503222.3507733": {
+    "doi": "https://doi.org/10.1145/3503222.3507733",
+    "publication_date": "2022-02-22",
+    "publication_type": "conference",
+    "publication_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3503222.3507733",
+    "summary": "ShEF est un environnement d'exécution de confiance (TEE) pour les accélérateurs FPGA dans le cloud, indépendant des TEE basés sur le CPU. Il protège les données sensibles contre un adversaire contrôlant le logiciel du CPU, ayant un accès physique au FPGA ou compromettant l'interface du cloud. ShEF intègre un démarrage sécurisé, une attestation à distance basée sur la racine de confiance (RoT) du FPGA et un composant Shield personnalisable pour sécuriser l'accès aux données avec de faibles surcoûts.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "ShEF: shielded enclaves for cloud FPGAs",
+    "venue_landmark": "ASPLOS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3508398.3511507": {
     "doi": "https://doi.org/10.1145/3508398.3511507",
     "publication_date": "2022-04-14",
@@ -4374,6 +4391,23 @@
     ],
     "title": "\"Microarchitectural Attack Detection Dataset (Spectre-v1, Spectre-v2, and Benign Workloads)\""
   },
+  "doi:10.23919/date54114.2022.9774612": {
+    "doi": "https://doi.org/10.23919/date54114.2022.9774612",
+    "publication_date": "2022-03-14",
+    "publication_type": "conference",
+    "publication_venue": "Design, Automation, and Test in Europe",
+    "score": 82,
+    "source": "https://doi.org/10.23919/date54114.2022.9774612",
+    "summary": "Cet article propose un cadre d'attaque temporelle par cache inter-plateforme basé sur l'apprentissage profond. Il introduit un moniteur de cache persistant capturant des traces temporelles à haute dimension, découvre un nouveau canal auxiliaire temporel de cache et applique une stratégie d'apprentissage profond différentiel non profilé pour la récupération de clés sur des processeurs Intel, AMD et ARM.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "A Cross-Platform Cache Timing Attack Framework via Deep Learning",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.23919/date58400.2024.10546539": {
     "doi": "https://doi.org/10.23919/date58400.2024.10546539",
     "publication_date": "2024-03-25",
@@ -4932,6 +4966,23 @@
       "T02 — DICE & Hardware Identity"
     ],
     "title": "SDATA: Symmetrical Device Identifier Composition Engine Complied Aggregate Trust Attestation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.34190/iccws.17.1.20": {
+    "doi": "https://doi.org/10.34190/iccws.17.1.20",
+    "publication_date": "2022-03-02",
+    "publication_type": "conference",
+    "publication_venue": "International Conference on Cyber Warfare and Security",
+    "score": 85,
+    "source": "https://doi.org/10.34190/iccws.17.1.20",
+    "summary": "Cet article analyse les attaques par canaux cachés et par exécution transitoire, telles que Spectre et Meltdown, qui exploitent des effets secondaires microarchitecturaux. Les auteurs passent en revue les types d'attaques courants, étudient des dépôts GitHub de preuves de concept (PoC) Spectre pour évaluer leur fonctionnement sur différentes plateformes, et discutent des mesures d'atténuation populaires ainsi que de la praticité, de la fiabilité et de la portabilité de ces attaques sur les systèmes modernes.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Transient Execution and Side Channel Analysis: a Vulnerability or a Science Experiment?",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
