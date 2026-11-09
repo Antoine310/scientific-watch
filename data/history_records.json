@@ -1686,6 +1686,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/mm.2024.3422977": {
+    "doi": "https://doi.org/10.1109/mm.2024.3422977",
+    "publication_date": "2024-07-01",
+    "publication_date_note": "Date source Crossref : 2024-07 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2024-07",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Micro",
+    "score": 75,
+    "source": "https://doi.org/10.1109/mm.2024.3422977",
+    "summary": "Cette publication présente l'isolation des pannes assistée par matériel (HFI), une extension minimale pour processeurs visant à assurer une isolation intra-processus sécurisée, flexible et efficace. HFI surmonte les limites des systèmes d'isolation logicielle (SFI) tels que la surcharge d'exécution, la scalabilité limitée, la vulnérabilité aux attaques Spectre et les problèmes de compatibilité. HFI s'intègre dans des systèmes SFI existants ou sandboxe directement des binaires natifs non modifiés grâce à des modifications incrémentales des processeurs.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Hardware-Assisted Fault Isolation: Going Beyond the Limits of Software-Based Sandboxing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/msec.2023.3251954": {
     "doi": "https://doi.org/10.1109/msec.2023.3251954",
     "publication_date": "2023-04-20",
