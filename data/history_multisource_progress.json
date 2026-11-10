@@ -1,8 +1,8 @@
 {
-  "accepted": 228,
+  "accepted": 230,
   "completed": false,
-  "cursor": "MTY5OTY0NDM0MzAwMCwxMC4xMTA5JTJGdGFjLjIwMjMuMzMzMjAxMw==",
-  "evaluated": 4427,
+  "cursor": "MTcxOTk0MDk3MjAwMCwxMC4xMTA5JTJGaXNjYXM1ODc0NC4yMDI0LjEwNTU4NjU4",
+  "evaluated": 4452,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -324,14 +324,94 @@
     "monthly/2024-05/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2024-05/query-19 : résultat tronqué au plafond 12 pages",
     "monthly/2024-05/query-20 : résultat tronqué au plafond 12 pages",
-    "monthly/2024-05/query-21 : résultat tronqué au plafond 12 pages"
+    "monthly/2024-05/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2024-05/query-22 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2024-05",
   "needs_publish": false,
-  "offset": 80,
-  "pages_done": 4616,
-  "pages_in_query": 2,
-  "pending": [],
+  "offset": 280,
+  "pages_done": 4633,
+  "pages_in_query": 7,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Jiashuo Wei"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Qiang Liu"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/iscas58744.2024.10558427",
+        "id": "https://doi.org/10.1109/iscas58744.2024.10558427",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/iscas58744.2024.10558427"
+        },
+        "publication_date": "2024-05-19",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-05-19",
+        "publication_type": "conference",
+        "publication_venue": "2024 IEEE International Symposium on Circuits and Systems (ISCAS)",
+        "title": "A Fault Attack Resistant Method for RISC-V Based on Interrupt Handlers and Instruction Extensions",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Josiah Mendes"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Rajesh C. Panicker"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/iscas58744.2024.10558557",
+        "id": "https://doi.org/10.1109/iscas58744.2024.10558557",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/iscas58744.2024.10558557"
+        },
+        "publication_date": "2024-05-19",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-05-19",
+        "publication_type": "conference",
+        "publication_venue": "2024 IEEE International Symposium on Circuits and Systems (ISCAS)",
+        "title": "RISCALAR: A Cycle-Approximate, Parametrisable RISC-V Microarchitecture Explorer & Simulator",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2735,9 +2815,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1560,
-  "query_index": 22,
+  "prefilter_review_overflow": 1567,
+  "query_index": 23,
   "secondary": 246,
-  "skipped": 4434,
+  "skipped": 4480,
   "version": 1
 }

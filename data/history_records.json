@@ -1513,6 +1513,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/isorc61049.2024.10551366": {
+    "doi": "https://doi.org/10.1109/isorc61049.2024.10551366",
+    "publication_date": "2024-05-22",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-05-22",
+    "publication_type": "conference",
+    "publication_venue": "2024 IEEE 27th International Symposium on Real-Time Distributed Computing (ISORC)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/isorc61049.2024.10551366",
+    "summary": "Cet article propose une architecture de référence de sécurité et de confiance basée sur un environnement d'exécution sécurisé (TEE) pour l'écosystème RISC-V, visant à combler le manque de spécifications TEE ratifiées et à offrir une approche de sécurité globale.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "Architectural Security and Trust Foundation for RISC-V",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/isqed57927.2023.10129363": {
     "doi": "https://doi.org/10.1109/isqed57927.2023.10129363",
     "publication_date": "2023-04-05",
@@ -4518,6 +4538,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.14210/cotb.v15.p336-337": {
+    "doi": "https://doi.org/10.14210/cotb.v15.p336-337",
+    "publication_date": "2024-05-28",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-05-28",
+    "publication_type": "conference",
+    "publication_venue": "Anais do Computer on the Beach",
+    "score": 75,
+    "source": "https://doi.org/10.14210/cotb.v15.p336-337",
+    "summary": "Ce projet étudie la vulnérabilité de l'architecture RISC-V face aux attaques par exécution spéculative, notamment Spectre. En tentant d'implémenter l'attaque sur la carte MangoPi fonctionnant avec le système d'exploitation Fedora, l'étude a montré que l'absence d'instruction de gestion du cache rendait cette implémentation impossible, concluant à une immunité dans ces conditions spécifiques.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "Avaliação da vulnerabilidade da arquitetura RISC-V a ataques de execução especulativa",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.14711/thesis-991013340458703412": {
     "doi": "https://doi.org/10.14711/thesis-991013340458703412",
