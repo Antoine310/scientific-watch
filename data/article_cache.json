@@ -3408,6 +3408,14 @@
       "title": "Rapid, high-throughput isolation of tumor specific small extracellular vesicles using radial flow microfluidic chip with IEDDA chemistry (ExoOnco ChipEpCAM−TCO)",
       "updated_at": "2026-11-04T16:50:37.702112+00:00"
     },
+    "doi:10.1016/j.bspc.2023.105554": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Design and implementation of low-power, high-speed, reliable and secured Hardware Accelerator using 28 nm technology for biomedical devices",
+      "updated_at": "2026-11-10T22:43:16.459225+00:00"
+    },
     "doi:10.1016/j.cca.2024.120107": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -3663,6 +3671,14 @@
       "status": "imported",
       "title": "A survey on the (in)security of trusted execution environments",
       "updated_at": "2026-11-07T05:15:56.027764+00:00"
+    },
+    "doi:10.1016/j.cose.2023.103596": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Single-board device individual authentication based on hardware performance and autoencoder transformer models",
+      "updated_at": "2026-11-10T22:43:35.844173+00:00"
     },
     "doi:10.1016/j.cose.2023.103618": {
       "category": "secondaire",
@@ -4920,6 +4936,14 @@
       "title": "Experimental EMFI detection on a RISC-V core using the Trace Verifier solution",
       "updated_at": "2026-11-06T02:14:55.720118+00:00"
     },
+    "doi:10.1016/j.micpro.2023.104989": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "A novel low hardware configurable ring oscillator (CRO) PUF for lightweight security applications",
+      "updated_at": "2026-11-10T22:47:13.783887+00:00"
+    },
     "doi:10.1016/j.micpro.2024.105021": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -5615,6 +5639,14 @@
       "status": "rejected",
       "title": "Cost-effective fixed-point hardware support for RISC-V embedded systems",
       "updated_at": "2026-11-09T08:14:02.809721+00:00"
+    },
+    "doi:10.1016/j.sysarc.2023.103049": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "SimplMM: A simplified and abstract multicore hardware model for large scale system software formal verification",
+      "updated_at": "2026-11-10T22:47:00.916232+00:00"
     },
     "doi:10.1016/j.sysarc.2024.103107": {
       "category": "secondaire",
@@ -6447,6 +6479,14 @@
       "status": "rejected",
       "title": "Security primitives for memoryless IoT devices based on Physical Unclonable Functions and True Random Number Generators",
       "updated_at": "2026-11-03T02:14:24.764747+00:00"
+    },
+    "doi:10.1038/s41598-024-80568-y": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Nonlinear behavior of memristive devices for hardware security primitives and neuromorphic computing systems",
+      "updated_at": "2026-11-10T22:36:45.576902+00:00"
     },
     "doi:10.1038/s41598-024-80854-9": {
       "category": "hors_sujet",
@@ -10407,6 +10447,14 @@
       "status": "rejected",
       "title": "Design, Implementation and Verification of Five Stage Pipeline RISC-V Core (RV32I ISA)",
       "updated_at": "2026-11-07T06:37:48.554549+00:00"
+    },
+    "doi:10.1109/ecctd49232.2020.9218404": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Introduction to Physically Unclonable Fuctions: Properties and Applications",
+      "updated_at": "2026-11-10T22:36:45.621187+00:00"
     },
     "doi:10.1109/ecie65947.2025.11086947": {
       "category": "hors_sujet",
@@ -19800,6 +19848,14 @@
       "title": "Design Guidelines and Feedback Structure of Ring Oscillator PUF for Performance Improvement",
       "updated_at": "2026-11-06T14:13:46.730020+00:00"
     },
+    "doi:10.1109/tcad.2023.3316113": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Secure Run-Time Hardware Trojan Detection Using Lightweight Analytical Models",
+      "updated_at": "2026-11-10T22:41:34.115535+00:00"
+    },
     "doi:10.1109/tcad.2023.3337192": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -20159,6 +20215,22 @@
       "status": "rejected",
       "title": "Toward FPGA Cloud Security: A Ring Oscillator-Free and Low-Power Attack Circuit",
       "updated_at": "2026-11-02T20:10:56.232049+00:00"
+    },
+    "doi:10.1109/tce.2023.3323621": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "BTIDEC : A Novel Detection Scheme for CPU Security of Consumer Electronics",
+      "updated_at": "2026-11-10T22:43:29.154946+00:00"
+    },
+    "doi:10.1109/tce.2023.3345861": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Freshness and Security-Aware Cache Update in Blockchain-Based Vehicular Edge Networks",
+      "updated_at": "2026-11-10T22:47:13.761113+00:00"
     },
     "doi:10.1109/tce.2024.3397662": {
       "category": "hors_sujet",
@@ -22095,6 +22167,22 @@
       "status": "imported",
       "title": "CVA6 RISC-V Virtualization: Architecture, Microarchitecture, and Design Space Exploration",
       "updated_at": "2026-11-06T14:13:38.538745+00:00"
+    },
+    "doi:10.1109/tvlsi.2023.3307027": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Practical Implementation of Robust State-Space Obfuscation for Hardware IP Protection",
+      "updated_at": "2026-11-10T22:41:34.148922+00:00"
+    },
+    "doi:10.1109/tvlsi.2023.3335876": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "TrustGuard: Standalone FPGA-Based Security Monitoring Through Power Side-Channel",
+      "updated_at": "2026-11-10T22:47:00.891904+00:00"
     },
     "doi:10.1109/tvlsi.2024.3375350": {
       "category": "hors_sujet",
@@ -24368,6 +24456,14 @@
       "title": "Attack of the Knights:Non Uniform Cache Side Channel Attack",
       "updated_at": "2026-11-05T20:19:09.946686+00:00"
     },
+    "doi:10.1145/3631117": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Security of Electrical, Optical, and Wireless On-chip Interconnects: A Survey",
+      "updated_at": "2026-11-10T22:43:29.187697+00:00"
+    },
     "doi:10.1145/3631610": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -24383,6 +24479,14 @@
       "status": "rejected",
       "title": "Hardware-hardened Sandbox Enclaves for Trusted Serverless Computing",
       "updated_at": "2026-11-05T23:16:16.885235+00:00"
+    },
+    "doi:10.1145/3634682": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Scalable and Accelerated Self-healing Control Circuit Using Evolvable Hardware",
+      "updated_at": "2026-11-10T22:43:46.172500+00:00"
     },
     "doi:10.1145/3634737.3637643": {
       "category": "secondaire",
@@ -24559,6 +24663,22 @@
       "status": "rejected",
       "title": "A Systematic Exploration of Evolutionary Computation for the Design of Hardware-oriented Non-cryptographic Hash Functions",
       "updated_at": "2026-11-09T09:37:40.552455+00:00"
+    },
+    "doi:10.1145/3639051": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Application-level Validation of Accelerator Designs Using a Formal Software/Hardware Interface",
+      "updated_at": "2026-11-10T22:50:27.947287+00:00"
+    },
+    "doi:10.1145/3639821": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "TROP: TRust-aware OPportunistic Routing in NoC with Hardware Trojans",
+      "updated_at": "2026-11-10T22:50:27.969310+00:00"
     },
     "doi:10.1145/3640461": {
       "category": "secondaire",
@@ -30943,6 +31063,14 @@
       "status": "rejected",
       "title": "IndexMAC: A Custom RISC-V Vector Instruction to Accelerate Structured-Sparse Matrix Multiplications",
       "updated_at": "2026-11-10T21:39:41.980385+00:00"
+    },
+    "doi:10.23919/date58400.2024.10546758": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "A Deep-Learning Technique to Locate Cryptographic Operations in Side-Channel Traces",
+      "updated_at": "2026-11-10T22:37:52.422881+00:00"
     },
     "doi:10.23919/date58400.2024.10546789": {
       "category": "secondaire_technique",
@@ -41048,6 +41176,14 @@
       "title": "An Evidence-driven Protocol for Trustworthy CI Pipelines",
       "updated_at": "2026-11-03T10:13:38.569096+00:00"
     },
+    "title:aninvestigationofhardwaresecuritybugcharacteristicsinopensourceprojects": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "An Investigation of Hardware Security Bug Characteristics in Open-Source Projects",
+      "updated_at": "2026-11-10T22:36:45.554697+00:00"
+    },
     "title:antmananefficientandinterpretablertllevelruntimedetectionframeworkforstealthybranchpredictorattacksonboom": {
       "category": "coeur",
       "decision": "conserver",
@@ -41207,6 +41343,14 @@
       "status": "rejected",
       "title": "ATLAS: A Multi-Agent Framework for Lifting Binary to Canonical Compiler IR",
       "updated_at": "2026-11-02T13:03:36.689484+00:00"
+    },
+    "title:attackgnnredteaminggnnsinhardwaresecurityusingreinforcementlearning": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "AttackGNN: Red-Teaming GNNs in Hardware Security Using Reinforcement Learning",
+      "updated_at": "2026-11-10T22:36:45.659369+00:00"
     },
     "title:attackingslicingnetworkviasidechannelreinforcementlearningattack": {
       "category": "transfert_explicite",
@@ -41799,6 +41943,14 @@
       "status": "rejected",
       "title": "CrudiTEE: A Stick-and-Carrot Approach to Building Trustworthy Cryptocurrency Wallets with TEEs",
       "updated_at": "2026-11-09T06:38:09.698602+00:00"
+    },
+    "title:cryptographicallyassuredinformationflowassuredremoteexecution": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Cryptographically Assured Information Flow: Assured Remote Execution",
+      "updated_at": "2026-11-10T22:38:12.159925+00:00"
     },
     "title:cryptoracleamodularframeworktocharacterizefullyhomomorphicencryption": {
       "category": "hors_sujet",
@@ -42431,6 +42583,14 @@
       "status": "rejected",
       "title": "FHE-SQL: Fully Homomorphic Encrypted SQL Database",
       "updated_at": "2026-11-04T13:25:27.934075+00:00"
+    },
+    "title:fighthardwarewithhardwaresystemwidedetectionandmitigationofsidechannelattacksusingperformancecounters": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Fight Hardware with Hardware: System-wide Detection and Mitigation of Side-Channel Attacks using Performance Counters",
+      "updated_at": "2026-11-10T22:40:29.151987+00:00"
     },
     "title:finegrainedcomputationoffloadforofftheshelfserversintensoflines": {
       "category": "secondaire",
@@ -43832,6 +43992,14 @@
       "title": "Preventing Rowhammer Exploits via Low-Cost Domain-Aware Memory Allocation",
       "updated_at": "2026-11-08T16:38:00.180470+00:00"
     },
+    "title:primeretouchwhencacheislockedandleaked": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Prime+Retouch: When Cache is Locked and Leaked",
+      "updated_at": "2026-11-10T22:40:38.820857+00:00"
+    },
     "title:privacypreservingaienableddecentralizedlearningandemploymentrecordssystem": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -44848,6 +45016,14 @@
       "title": "STAR: Scalable TEE-based Anonymous Rate-limiter",
       "updated_at": "2026-11-02T13:03:57.260728+00:00"
     },
+    "title:stateoftheartapproachestoenhancingprivacypreservationofmachinelearningdatasetsasurvey": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "State-of-the-Art Approaches to Enhancing Privacy Preservation of Machine Learning Datasets: A Survey",
+      "updated_at": "2026-11-10T22:39:53.788388+00:00"
+    },
     "title:stegomemoryagenticmemoryactsascovertsteganographicchannel": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -45040,6 +45216,14 @@
       "title": "Tessera: Secure, Near-Line-Rate Weight Streaming for UMA Edge Accelerators",
       "updated_at": "2026-11-03T12:28:42.337486+00:00"
     },
+    "title:testingsidechannelsecurityofcryptographicimplementationsagainstfuturemicroarchitectures": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Testing side-channel security of cryptographic implementations against future microarchitectures",
+      "updated_at": "2026-11-10T22:40:59.906293+00:00"
+    },
     "title:thechronosvulnerabilityataxonomyoftemporalpersistenceandmemorybaseddeceptioninagenticai": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -45151,6 +45335,14 @@
       "status": "imported",
       "title": "The Real Menace of Cloning Attacks on SGX Applications",
       "updated_at": "2026-11-03T18:11:38.887631+00:00"
+    },
+    "title:theroadtotrustbuildingenclaveswithinconfidentialvms": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "The Road to Trust: Building Enclaves within Confidential VMs",
+      "updated_at": "2026-11-10T22:39:53.758552+00:00"
     },
     "title:thevisionencoderasaprivacyboundaryvisualtokensidechannelsinencoderfreevisionlanguagemodels": {
       "category": "hors_sujet",
@@ -45671,6 +45863,14 @@
       "status": "rejected",
       "title": "When Rotation Bounds Nothing: Streaming Image Classifiers to Field Nodes Under Physical Capture",
       "updated_at": "2026-11-02T13:04:10.165313+00:00"
+    },
+    "title:whisperfuzzwhiteboxfuzzingfordetectingandlocatingtimingvulnerabilitiesinprocessors": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "WhisperFuzz: White-Box Fuzzing for Detecting and Locating Timing Vulnerabilities in Processors",
+      "updated_at": "2026-11-10T22:37:52.165013+00:00"
     },
     "title:writingagoodsecuritypaperforisscc2025": {
       "category": "hors_sujet",

@@ -2679,6 +2679,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/tce.2023.3323621": {
+    "doi": "https://doi.org/10.1109/tce.2023.3323621",
+    "publication_date": "2024-02-01",
+    "publication_date_note": "Date source Crossref : 2024-02 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2024-02",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Consumer Electronics",
+    "score": 85,
+    "source": "https://doi.org/10.1109/tce.2023.3323621",
+    "summary": "Cet article présente BTIDEC, un nouveau schéma de détection pour la sécurité des CPU dans l'électronique grand public, ciblant spécifiquement les attaques par injection de cible de branchement (BTI). En combinant l'analyse de sécurité, la modélisation du flux de contrôle spéculatif et le fuzzing, BTIDEC réduit l'espace de recherche et ameliore l'efficacité. Les expériences montrent une détection en environ 30 minutes, avec une amélioration de l'efficacité de 57,26% et une précision de 98% sur les architectures x86, incluant la découverte d'une nouvelle sous-variante.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "BTIDEC : A Novel Detection Scheme for CPU Security of Consumer Electronics",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tcsi.2024.3359044": {
     "doi": "https://doi.org/10.1109/tcsi.2024.3359044",
     "publication_date": "2024-02-07",
@@ -7874,6 +7894,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:aninvestigationofhardwaresecuritybugcharacteristicsinopensourceprojects": {
+    "doi": "",
+    "publication_date": "2024-02-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2402.00684v1",
+    "summary": "Cette étude analyse les caractéristiques des bugs de sécurité matérielle à travers le projet open-source OpenTitan. En examinant les rapports de bugs et les correctifs, les auteurs classent les bugs et étudient leur impact, leur localisation et les relations avec leur gestion. Les résultats montrent que 53 % des bugs ont des implications potentielles pour la sécurité et que 55 % des correctifs modifient un seul fichier.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "An Investigation of Hardware Security Bug Characteristics in Open-Source Projects",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:antmananefficientandinterpretablertllevelruntimedetectionframeworkforstealthybranchpredictorattacksonboom": {
     "publication_date": "2026-08-10",
     "publication_date_note": "",
@@ -8165,6 +8205,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Coverage-Guided Pre-Silicon Fuzzing of Open-Source Processors based on Leakage Contracts",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:cryptographicallyassuredinformationflowassuredremoteexecution": {
+    "doi": "",
+    "publication_date": "2024-02-04",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2402.02630v2",
+    "summary": "Cet article démontre qu'un mécanisme matériel simple nommé Cryptographically Assured Information Flow (CAIF) permet de réaliser une exécution à distance sécurisée (Assured Remote Execution). Basé sur des primitives cryptographiques, le CAIF s'apparente à certaines opérations des environnements d'exécution de confiance (TEE) et met en œuvre une fonctionnalité idéale définie par la journalisation et la mise sous séquestre confidentielle. L'analyse du protocole cryptographique confirme l'atteinte des objectifs de sécurité face à un adversaire fort. Cette approche permet notamment d'assurer une attestation à distance digne de confiance et facilite la reprogrammation à distance sécurisée.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Cryptographically Assured Information Flow: Assured Remote Execution",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -8487,6 +8547,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "fence.t.s: Closing Timing Channels in High-Performance Out-of-Order Cores through ISA-Supported Temporal Partitioning",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:fighthardwarewithhardwaresystemwidedetectionandmitigationofsidechannelattacksusingperformancecounters": {
+    "doi": "",
+    "publication_date": "2024-02-18",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2402.13281v1",
+    "summary": "Cette publication présente une infrastructure au niveau du noyau pour la détection et l'atténuation à l'échelle du système des attaques par canal auxiliaire basées sur le cache, utilisant les compteurs de performance matériels pour surveiller les applications en temps réel avec un faible surcoût.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Fight Hardware with Hardware: System-wide Detection and Mitigation of Side-Channel Attacks using Performance Counters",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -9006,6 +9086,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Pre-cache: A Microarchitectural Solution to prevent Meltdown and Spectre",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:primeretouchwhencacheislockedandleaked": {
+    "doi": "",
+    "publication_date": "2024-02-23",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2402.15425v1",
+    "summary": "Ce papier présente Prime+Retouch, une nouvelle attaque par canal auxiliaire ciblant les caches des processeurs modernes (Intel x86 et Apple M1). Cette attaque contourne les contre-mesures de détection et les techniques de préchargement et verrouillage du cache en exploitant les métadonnées de la politique de remplacement du cache, sans nécessiter l'éviction des données de la victime.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Prime+Retouch: When Cache is Locked and Leaked",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -9541,6 +9641,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:testingsidechannelsecurityofcryptographicimplementationsagainstfuturemicroarchitectures": {
+    "doi": "",
+    "publication_date": "2024-02-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2402.00641v1",
+    "summary": "Cet article étudie l'impact des futures optimisations microarchitecturales sur la sécurité des implémentations cryptographiques existantes. Face aux limites de la réduction de taille des transistors, les fabricants développent de nouvelles optimisations qui risquent de créer de nouvelles vulnérabilités par canaux cachés. Pour évaluer cet impact, les auteurs développent un langage dédié (LmSpec) pour exprimer les modèles de fuite et un cadre de test automatisé (LmTest). L'étude empirique sur 18 optimisations et 25 implémentations montre que toutes présenteraient des fuites dépendantes du secret, remettant en cause certaines pratiques actuelles de programmation à temps constant.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Testing side-channel security of cryptographic implementations against future microarchitectures",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:therealmenaceofcloningattacksonsgxapplications": {
     "doi": "",
     "publication_date": "2026-01-14",
@@ -9556,6 +9676,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "The Real Menace of Cloning Attacks on SGX Applications",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:theroadtotrustbuildingenclaveswithinconfidentialvms": {
+    "doi": "",
+    "publication_date": "2024-02-18",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2402.11438v3",
+    "summary": "Cet article présente NestedSGX, un framework permettant de créer des enclaves matérielles sécurisées à l'intérieur de machines virtuelles confidentielles (CVM) en s'appuyant sur les fonctionnalités VMPL d'AMD SEV-SNP. L'objectif est de protéger les applications utilisateur contre un système d'exploitation invité potentiellement compromis en simulant les fonctions Intel SGX.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "The Road to Trust: Building Enclaves within Confidential VMs",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -9783,6 +9923,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "WeSee: Using Malicious #VC Interrupts to Break AMD SEV-SNP",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:whisperfuzzwhiteboxfuzzingfordetectingandlocatingtimingvulnerabilitiesinprocessors": {
+    "doi": "",
+    "publication_date": "2024-02-06",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 95,
+    "source": "http://arxiv.org/abs/2402.03704v2",
+    "summary": "WhisperFuzz est le premier fuzzer en boîte blanche combinant analyse statique pour détecter et localiser des vulnérabilités temporelles dans les processeurs au niveau RTL. Il utilise les transitions d'états microarchitecturaux comme métrique de couverture et mesure le temps de traitement pour identifier des variations anormales. Évalué sur des processeurs RISC-V open-source (BOOM, Rocket Core, CVA6), il a détecté 12 nouvelles vulnérabilités temporelles, dont 8 violent l'extension Zkt.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "WhisperFuzz: White-Box Fuzzing for Detecting and Locating Timing Vulnerabilities in Processors",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
