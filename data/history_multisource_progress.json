@@ -1,8 +1,8 @@
 {
   "accepted": 238,
   "completed": false,
-  "cursor": "MTcxMDc4ODE5MTAwMCwxMC4xMTA5JTJGaWNhc3NwNDg0ODUuMjAyNC4xMDQ0NzU3Mg==",
-  "evaluated": 4556,
+  "cursor": "MTcwNTE1MTI5NTAwMCwxMC4xMDE2JTJGai5jbHNyLjIwMjMuMTA1OTMy",
+  "evaluated": 4572,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -333,13 +333,15 @@
     "monthly/2024-04/query-16 : résultat tronqué au plafond 12 pages",
     "monthly/2024-04/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2024-04/query-19 : résultat tronqué au plafond 12 pages",
-    "monthly/2024-04/query-20 : résultat tronqué au plafond 12 pages"
+    "monthly/2024-04/query-20 : résultat tronqué au plafond 12 pages",
+    "monthly/2024-04/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2024-04/query-22 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2024-04",
   "needs_publish": false,
-  "offset": 440,
-  "pages_done": 4766,
-  "pages_in_query": 11,
+  "offset": 160,
+  "pages_done": 4791,
+  "pages_in_query": 4,
   "pending": [],
   "phase": "monthly",
   "prefilter_review": [
@@ -2744,9 +2746,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1599,
-  "query_index": 21,
+  "prefilter_review_overflow": 1619,
+  "query_index": 24,
   "secondary": 252,
-  "skipped": 4552,
+  "skipped": 4616,
   "version": 1
 }
