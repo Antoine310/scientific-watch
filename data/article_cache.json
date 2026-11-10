@@ -4088,6 +4088,14 @@
       "title": "Method for evaluating the hydrological heritage of geodiversity: Case study in the Cerrado enclave–Rio Grande do Norte, Brazil",
       "updated_at": "2026-11-08T18:38:16.743620+00:00"
     },
+    "doi:10.1016/j.heliyon.2024.e30486": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Automated medication verification system (AMVS): System based on edge detection and CNN classification drug on embedded systems",
+      "updated_at": "2026-11-10T05:38:45.545515+00:00"
+    },
     "doi:10.1016/j.ijcip.2024.100675": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -7976,6 +7984,14 @@
       "title": "Variational Quantum Regression on NISQ Hardware with Error Mitigation",
       "updated_at": "2026-11-08T13:36:44.330285+00:00"
     },
+    "doi:10.1109/amathe61652.2024.10582142": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Implementation of PWM Using RISC-V Processor",
+      "updated_at": "2026-11-10T05:36:53.347864+00:00"
+    },
     "doi:10.1109/ap-s/cnc-usnc-ursi55537.2025.11266787": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -9127,6 +9143,14 @@
       "status": "rejected",
       "title": "Single-Chip Motes and SRAM PUF: Feasibility Study",
       "updated_at": "2026-11-04T08:16:22.248568+00:00"
+    },
+    "doi:10.1109/cscwd61410.2024.10580198": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 92,
+      "status": "imported",
+      "title": "Oblivious Demand Paging with Ring ORAM in RISC-V Trusted Execution Environments",
+      "updated_at": "2026-11-10T05:36:53.318737+00:00"
     },
     "doi:10.1109/cscwd68734.2026.11582105": {
       "category": "hors_sujet",
@@ -13712,6 +13736,14 @@
       "title": "QED: Scalable Consistency Verification of Memory Instruction Reordering in Hardware",
       "updated_at": "2026-11-03T09:07:33.657588+00:00"
     },
+    "doi:10.1109/iscaie61308.2024.10576323": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Real-Time Pipeline Tracking System on a RISC-V Embedded System Platform",
+      "updated_at": "2026-11-10T05:36:39.193478+00:00"
+    },
     "doi:10.1109/iscas46773.2023.10181362": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -13951,6 +13983,22 @@
       "status": "rejected",
       "title": "Exploring Error Correction Circuits on RISC-V based Systems for Space Applications",
       "updated_at": "2026-11-10T04:38:21.958785+00:00"
+    },
+    "doi:10.1109/iscas58744.2024.10558427": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A Fault Attack Resistant Method for RISC-V Based on Interrupt Handlers and Instruction Extensions",
+      "updated_at": "2026-11-10T05:36:29.382493+00:00"
+    },
+    "doi:10.1109/iscas58744.2024.10558557": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "RISCALAR: A Cycle-Approximate, Parametrisable RISC-V Microarchitecture Explorer & Simulator",
+      "updated_at": "2026-11-10T05:36:29.412047+00:00"
     },
     "doi:10.1109/iscas66217.2026.11561916": {
       "category": "hors_sujet",
@@ -14200,6 +14248,14 @@
       "title": "Electromigration Based Hardware Trojan Defense in Integrated Circuit",
       "updated_at": "2026-11-10T01:37:33.231019+00:00"
     },
+    "doi:10.1109/iseda62518.2024.10618013": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Efficient Verification Framework for RISC-V Instruction Extensions with FPGA Acceleration",
+      "updated_at": "2026-11-10T05:37:47.147998+00:00"
+    },
     "doi:10.1109/iseda65950.2025.11100964": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -14375,6 +14431,22 @@
       "status": "rejected",
       "title": "QVU: A RISC-V Vector-Extended Quantization Vector Unit for IEEE 754 and Posit Formats",
       "updated_at": "2026-11-04T17:25:51.907397+00:00"
+    },
+    "doi:10.1109/ispass61541.2024.00021": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "SimPoint-Based Microarchitectural Hotspot & Energy-Efficiency Analysis of RISC-V OoO CPUs",
+      "updated_at": "2026-11-10T05:36:53.374270+00:00"
+    },
+    "doi:10.1109/ispass61541.2024.00037": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Gem5-Based Evaluation of CVA6 SoC: Insights into the Architectural Design",
+      "updated_at": "2026-11-10T05:37:02.984646+00:00"
     },
     "doi:10.1109/ispass64960.2025.00053": {
       "category": "hors_sujet",
@@ -14903,6 +14975,14 @@
       "status": "rejected",
       "title": "Efficient TinyML Inference on a Fault-Tolerant RISC-V SoC with Vector Extension",
       "updated_at": "2026-11-05T04:49:24.129297+00:00"
+    },
+    "doi:10.1109/iwcmc61514.2024.10592332": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "An seL4-based Trusted Execution Environment on RISC-V",
+      "updated_at": "2026-11-10T05:37:47.019712+00:00"
     },
     "doi:10.1109/iwcmc69287.2026.11579896": {
       "category": "secondaire",
@@ -17520,6 +17600,14 @@
       "title": "Towards Zero-Trust Hardware Architectures in Safety and Security Critical System-on-Chips",
       "updated_at": "2026-11-10T01:37:33.266832+00:00"
     },
+    "doi:10.1109/raics61201.2024.10689726": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Efficient Adder Designs for Realizing Addition Subset of RISC-V P-SIMD Instructions",
+      "updated_at": "2026-11-10T05:37:54.076566+00:00"
+    },
     "doi:10.1109/raics66191.2025.11332602": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -17960,6 +18048,14 @@
       "title": "NMCu-CNN: A Scalable Near-Memory Computing Co-Processor on a RISC-V MCU in 22 nm FDSOI",
       "updated_at": "2026-11-04T12:48:46.933647+00:00"
     },
+    "doi:10.1109/siu61531.2024.10600793": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Optimization of the SPHINCS+ PQC Algorithm with Custom Instructions and LLVM Integration on a RISC-V Processor",
+      "updated_at": "2026-11-10T05:37:47.065312+00:00"
+    },
     "doi:10.1109/siu61531.2024.10600837": {
       "category": "coeur",
       "decision": "examiner",
@@ -17967,6 +18063,14 @@
       "status": "imported",
       "title": "Secure Boot Design for a RISC-V Based SoC and Implementation on an FPGA",
       "updated_at": "2026-11-04T05:13:33.844058+00:00"
+    },
+    "doi:10.1109/siu61531.2024.10601004": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "RISC-V Simulator Library for Real-time Applications: Development and Verification",
+      "updated_at": "2026-11-10T05:37:47.095221+00:00"
     },
     "doi:10.1109/siu71813.2026.11636375": {
       "category": "hors_sujet",
@@ -23880,6 +23984,14 @@
       "title": "Towards Human-AI Teaming to Mitigate Alert Fatigue in Security Operations Centres",
       "updated_at": "2026-11-09T07:39:12.128637+00:00"
     },
+    "doi:10.1145/3670105.3670188": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "RISC-V Virtualization: Exploring Virtualization in an Open Instruction Set Architecture",
+      "updated_at": "2026-11-10T05:37:47.121646+00:00"
+    },
     "doi:10.1145/3670474.3685955": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -27463,6 +27575,14 @@
       "status": "rejected",
       "title": "Optical identification using physical unclonable functions",
       "updated_at": "2026-11-06T20:14:17.259903+00:00"
+    },
+    "doi:10.1364/jocn.517147": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Automated fiber switch with path verification enabled by an AI-powered multi-task mobile robot",
+      "updated_at": "2026-11-10T05:38:29.517212+00:00"
     },
     "doi:10.1364/jocn.580878": {
       "category": "hors_sujet",

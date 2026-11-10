@@ -515,6 +515,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/cscwd61410.2024.10580198": {
+    "doi": "https://doi.org/10.1109/cscwd61410.2024.10580198",
+    "publication_date": "2024-05-08",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-05-08",
+    "publication_type": "conference",
+    "publication_venue": "2024 27th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+    "score": 92,
+    "source": "https://doi.org/10.1109/cscwd61410.2024.10580198",
+    "summary": "Cet article étudie la protection des environnements d'exécution de confiance (TEE) basés sur l'architecture RISC-V contre les fuites d'informations par les accès aux pages mémoire (demand paging). Les auteurs proposent d'utiliser des techniques de type Oblivious RAM (ORAM), en particulier une variante optimisée de Ring ORAM, pour masquer ces schémas d'accès face à un système d'exploitation malveillant, tout en réduisant le ralentissement des performances.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Oblivious Demand Paging with Ring ORAM in RISC-V Trusted Execution Environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/csf57540.2023.00019": {
     "doi": "https://doi.org/10.1109/csf57540.2023.00019",
     "publication_date": "2023-07-01",
@@ -1656,6 +1676,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/iwcmc61514.2024.10592332": {
+    "doi": "https://doi.org/10.1109/iwcmc61514.2024.10592332",
+    "publication_date": "2024-05-27",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-05-27",
+    "publication_type": "conference",
+    "publication_venue": "2024 International Wireless Communications and Mobile Computing (IWCMC)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/iwcmc61514.2024.10592332",
+    "summary": "Cet article présente une implémentation d'un environnement d'exécution de confiance (TEE) basé sur le micronoyau seL4 et exécuté sur une architecture matérielle RISC-V. Les auteurs déploient cette solution sur le kit PolarFire SoC Icicle, évaluent ses performances, analysent l'impact sur l'environnement d'exécution riche (REE) Linux et étudient divers services de sécurité tels que la génération de nombres aléatoires, de paires de clés et les opérations de signature numérique.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "An seL4-based Trusted Execution Environment on RISC-V",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/jiot.2024.3429109": {
     "doi": "https://doi.org/10.1109/jiot.2024.3429109",
