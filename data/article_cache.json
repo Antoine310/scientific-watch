@@ -2768,6 +2768,14 @@
       "title": "A Secure RISC-V Processor Architecture with Pipeline AES Randomization and Speculation Attack Mitigation",
       "updated_at": "2026-11-02T19:17:36.281520+00:00"
     },
+    "doi:10.1007/s41635-021-00120-6": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Design and Analysis of Reconfigurable Cryptographic Primitives: TRNG and PUF",
+      "updated_at": "2026-11-10T02:13:33.922931+00:00"
+    },
     "doi:10.1007/s41635-024-00152-8": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -7216,6 +7224,14 @@
       "title": "Mitigating quantum gate errors for variational eigensolvers using hardware-inspired zero-noise extrapolation",
       "updated_at": "2026-11-09T09:36:57.517649+00:00"
     },
+    "doi:10.1103/physrevapplied.16.054025": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Authentication of Optical Physical Unclonable Functions Based on Single-Pixel Detection",
+      "updated_at": "2026-11-10T02:13:23.398276+00:00"
+    },
     "doi:10.1103/physrevapplied.23.024014": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -10231,6 +10247,14 @@
       "status": "rejected",
       "title": "Fault Model-Driven Formal Verification of Cryptographic Hardware Against Fault Attacks",
       "updated_at": "2026-11-03T11:27:42.703645+00:00"
+    },
+    "doi:10.1109/euc53437.2021.00015": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Open Portable Trusted Execution Environment framework for RISC-V",
+      "updated_at": "2026-11-10T02:13:53.936898+00:00"
     },
     "doi:10.1109/eurosp57164.2023.00029": {
       "category": "secondaire",
@@ -19552,6 +19576,14 @@
       "title": "FPGA Assessment Methodology of Adverse X-Ray Effects on Secure Digital Circuits",
       "updated_at": "2026-11-06T19:38:37.979613+00:00"
     },
+    "doi:10.1109/tdsc.2021.3117145": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "XAI-Based Microarchitectural Side-Channel Analysis for Website Fingerprinting Attacks and Defenses",
+      "updated_at": "2026-11-10T02:14:23.636785+00:00"
+    },
     "doi:10.1109/tdsc.2021.3138427": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -21472,6 +21504,22 @@
       "title": "Fused SIM(S)D/Scalar Functional Units for RISC-V P-B-Zkn Instruction Set Extensions",
       "updated_at": "2026-11-02T19:34:45.799551+00:00"
     },
+    "doi:10.1109/vlsi-soc53125.2021.9606968": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "In Hardware We Trust? From TPM to Enclave Computing on RISC-V",
+      "updated_at": "2026-11-10T02:14:16.086367+00:00"
+    },
+    "doi:10.1109/vlsi-soc53125.2021.9607012": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "Security Assessment of Heterogeneous SoC-FPGA: On the Practicality of Cache Timing Attacks",
+      "updated_at": "2026-11-10T02:15:09.777344+00:00"
+    },
     "doi:10.1109/vlsi-soc62099.2024.10767817": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -22472,6 +22520,38 @@
       "title": "Exorcising Spectres with Secure Compilers",
       "updated_at": "2026-11-09T23:15:06.161105+00:00"
     },
+    "doi:10.1145/3466752.3480074": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "GhostMinion: A Strictness-Ordered Cache System for Spectre Mitigation",
+      "updated_at": "2026-11-10T02:15:07.335796+00:00"
+    },
+    "doi:10.1145/3466752.3480109": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "IceClave: A Trusted Execution Environment for In-Storage Computing",
+      "updated_at": "2026-11-10T02:13:46.406654+00:00"
+    },
+    "doi:10.1145/3471621.3471857": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "BasicBlocker: ISA Redesign to Make Spectre-Immune CPUs Faster",
+      "updated_at": "2026-11-10T02:14:20.376782+00:00"
+    },
+    "doi:10.1145/3485506": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "SpecSafe: detecting cache side channels in a speculative world",
+      "updated_at": "2026-11-10T02:15:12.132170+00:00"
+    },
     "doi:10.1145/3485832.3485900": {
       "category": "coeur",
       "decision": "examiner",
@@ -22512,6 +22592,14 @@
       "title": "Automating hardware security property generation",
       "updated_at": "2026-11-08T17:13:31.637670+00:00"
     },
+    "doi:10.1145/3491264": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Faulty Point Unit: ABI Poisoning Attacks on Trusted Execution Environments",
+      "updated_at": "2026-11-10T02:14:18.296798+00:00"
+    },
     "doi:10.1145/3492321.3519559": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -22527,6 +22615,14 @@
       "status": "imported",
       "title": "ShEF: shielded enclaves for cloud FPGAs",
       "updated_at": "2026-11-09T08:15:16.672514+00:00"
+    },
+    "doi:10.1145/3505253.3505257": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "A Novel Memory Management for RISC-V Enclaves",
+      "updated_at": "2026-11-10T02:13:46.406687+00:00"
     },
     "doi:10.1145/3508398.3511507": {
       "category": "coeur",
@@ -32119,6 +32215,14 @@
       "status": "rejected",
       "title": "L-PoPI: Cross-Layer Physical-to-EVM Attestation for DePIN IoT",
       "updated_at": "2026-11-02T15:15:10.733491+00:00"
+    },
+    "doi:10.3390/j4040052": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "A Novel True Random Number Generator in Near Field Communication as Memristive Wireless Power Transmission",
+      "updated_at": "2026-11-10T02:13:33.922952+00:00"
     },
     "doi:10.3390/jcp5040086": {
       "category": "secondaire",

@@ -2817,6 +2817,40 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/vlsi-soc53125.2021.9606968": {
+    "doi": "https://doi.org/10.1109/vlsi-soc53125.2021.9606968",
+    "publication_date": "2021-10-04",
+    "publication_type": "conference",
+    "publication_venue": "IFIP/IEEE International Conference on Very Large Scale Integration",
+    "score": 85,
+    "source": "https://doi.org/10.1109/vlsi-soc53125.2021.9606968",
+    "summary": "Cet article présente un aperçu des architectures d'enclaves basées sur l'architecture ouverte RISC-V, en discutant de leurs fonctionnalités, de leurs limites et des défis ouverts. Il analyse la transition des SoC traditionnels avec des fonctions de confiance (TPM) vers le calcul par enclaves, tout en soulignant les vulnérabilités persistantes telles que les attaques par canal auxiliaire et l'absence d'E/S sécurisées.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "In Hardware We Trust? From TPM to Enclave Computing on RISC-V",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/vlsi-soc53125.2021.9607012": {
+    "doi": "https://doi.org/10.1109/vlsi-soc53125.2021.9607012",
+    "publication_date": "2021-10-04",
+    "publication_type": "conference",
+    "publication_venue": "IFIP/IEEE International Conference on Very Large Scale Integration",
+    "score": 88,
+    "source": "https://doi.org/10.1109/vlsi-soc53125.2021.9607012",
+    "summary": "Cet article évalue la sécurité des systèmes sur puce hétérogènes (SoC-FPGA) face aux attaques temporelles sur le cache. Les auteurs démontrent pour la première fois la faisabilité des attaques Flush+Reload et Evict+Time ainsi qu'un canal caché basé sur le cache sur une cible réelle Xilinx Zynq-7010.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Security Assessment of Heterogeneous SoC-FPGA: On the Practicality of Cache Timing Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/vlsid68508.2026.00033": {
     "publication_date": "2026-01-03",
     "publication_type": "conference",
@@ -2941,6 +2975,57 @@
     "venue_priority": 2,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3466752.3480074": {
+    "doi": "https://doi.org/10.1145/3466752.3480074",
+    "publication_date": "2021-10-17",
+    "publication_type": "conference",
+    "publication_venue": "IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3466752.3480074",
+    "summary": "GhostMinion est un système de cache ordonné par strictaudio/strictezess visant à atténuer les vulnérabilités liées à l'exécution spéculative, telles que Spectre. L'article aborde comment la spéculation dans le désordre, omniprésente depuis les années 1990, permet à un attaquant de fuiter des secrets à travers les effets d'une exécution mal spéculée, compromis l'isolation des processus et le sandboxing.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "GhostMinion: A Strictness-Ordered Cache System for Spectre Mitigation",
+    "venue_landmark": "MICRO",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3471621.3471857": {
+    "doi": "https://doi.org/10.1145/3471621.3471857",
+    "publication_date": "2021-10-06",
+    "publication_type": "conference",
+    "publication_venue": "International Symposium on Research in Attacks, Intrusions and Defenses (RAID)",
+    "score": 80,
+    "source": "https://doi.org/10.1145/3471621.3471857",
+    "summary": "BasicBlocker propose une refonte de l'ISA pour concevoir des processeurs immunisés contre les attaques de type Spectre et plus performants, remplaçant les contre-mesures logicielles ou microarchitecturales actuelles jugées fragiles et sans arguments de sécurité convaincants.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "BasicBlocker: ISA Redesign to Make Spectre-Immune CPUs Faster",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3485506": {
+    "doi": "https://doi.org/10.1145/3485506",
+    "publication_date": "2021-10-15",
+    "publication_type": "revue",
+    "publication_venue": "Proceedings of the ACM on Programming Languages",
+    "score": 80,
+    "source": "https://doi.org/10.1145/3485506",
+    "summary": "Cette publication présente SpecSafe, un outil de détection statique des canaux cachés liés à l'exécution spéculative. Les auteurs introduisent une nouvelle définition sémantique de la sécurité, appelée SANI (Speculative-Aware noninterference), et utilisent une transformation de programme originale permettant à des détecteurs existants non conscients de la spéculation de vérifier cette propriété de manière saine, précise et scalable.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SpecSafe: detecting cache side channels in a speculative world",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3485832.3485900": {
     "doi": "https://doi.org/10.1145/3485832.3485900",
     "publication_date": "2021-12-06",
@@ -2973,6 +3058,23 @@
     "venue_landmark": "DAC",
     "venue_note": "",
     "venue_priority": 1,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3491264": {
+    "doi": "https://doi.org/10.1145/3491264",
+    "publication_date": "2021-10-15",
+    "publication_type": "revue",
+    "publication_venue": "Digital Threats Research and Practice",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3491264",
+    "summary": "Cet article analyse une surface d'attaque négligée permettant à des adversaires non privilégiés d'altérer les calculs en virgule flottante dans les environnements d'exécution de confiance (TEEs) via l'interface ABI. L'étude montre que les registres de contrôle et d'état du FPU x87 et des extensions SIMD ne sont pas toujours nettoyés lors de l'entrée dans l'enclave, affectant à la fois des runtimes Intel SGX et RISC-V.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Faulty Point Unit: ABI Poisoning Attacks on Trusted Execution Environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
   "doi:10.1145/3503222.3507733": {
