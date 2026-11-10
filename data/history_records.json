@@ -7992,6 +7992,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:dynamicfrequencybasedfingerprintingattacksagainstmodernsandboxenvironments": {
+    "doi": "",
+    "publication_date": "2024-04-16",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 80,
+    "source": "http://arxiv.org/abs/2404.10715v3",
+    "summary": "Cet article étudie les attaques par empreinte dynamique basées sur la fréquence CPU (« dynamic frequency-based fingerprinting ») contre les environnements de bac à sable modernes dans le cloud (conteneurs, microVM et TEE). Les auteurs démontrent qu'il est possible de distinguer différents conteneurs (Docker) et d'évaluer ces attaques sur des environnements tels que gVisor, Firecracker, Gramine (Intel SGX) et AMD SEV, avec une précision supérieure à 70 % en moins de 40 secondes, grâce à l'accès utilisateur aux informations de fréquence CPU. Une contre-mesure par injection de bruit est également proposée.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Dynamic Frequency-Based Fingerprinting Attacks against Modern Sandbox Environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:efficientrlbasedcachevulnerabilityexplorationbypenalizinguselessagentactions": {
     "doi": "",
     "publication_date": "2025-06-08",
@@ -8378,6 +8398,26 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Hardware Root of Trust en Sistemes RISC-V : Analysis and Evaluation of Open Source Approaches"
+  },
+  "title:hecklerbreakingconfidentialvmswithmaliciousinterrupts": {
+    "doi": "",
+    "publication_date": "2024-04-04",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2404.03387v1",
+    "summary": "Heckler est une nouvelle attaque démontrant que l'hyperviseur non sécurisé peut compromettre la confidentialité et l'intégrité des machines virtuelles confidentielles (CVM) basées sur des TEE matériels (AMD SEV-SNP et Intel TDX) en injectant des interruptions malveillantes non-timer.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Heckler: Breaking Confidential VMs with Malicious Interrupts",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:integratingopentitanasasecuritycontrollerforcryptographictasksinriscvsocs": {
     "publication_date": "2025-01-01",
@@ -9025,6 +9065,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:sigybreakingintelsgxenclaveswithmaliciousexceptionssignals": {
+    "doi": "",
+    "publication_date": "2024-04-22",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2404.13998v1",
+    "summary": "Cette publication présente l'attaque SIGY, qui exploite le modèle de gestion des exceptions et des signaux sur Intel SGX en utilisant le système d'exploitation non sécurisé pour injecter de faux événements matériels et signaux, compromettant ainsi la confidentialité et l'intégrité des enclaves.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "SIGY: Breaking Intel SGX Enclaves with Malicious Exceptions & Signals",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:slacaccessdrivencputogpusidechannelattacksviasystemlevelcacheonapplesilicon": {
     "publication_date": "2026-08-10",
     "publication_date_note": "",
@@ -9425,6 +9485,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Virtual memory for real-time systems using hPMP",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:weseeusingmaliciousvcinterruptstobreakamdsevsnp": {
+    "doi": "",
+    "publication_date": "2024-04-04",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2404.03526v1",
+    "summary": "Cet article présente l'attaque WeSee, qui exploite des interruptions de virtualisation malveillantes pour compromettre les garanties de sécurité d'AMD SEV-SNP en injectant de fausses exceptions #VC.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "WeSee: Using Malicious #VC Interrupts to Break AMD SEV-SNP",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,

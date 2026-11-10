@@ -848,6 +848,14 @@
       "title": "Enclave Computing",
       "updated_at": "2026-11-05T02:14:11.652297+00:00"
     },
+    "doi:10.1007/978-3-031-55673-9_4": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Reconfigurable Edge Hardware for Intelligent IDS: Systematic Approach",
+      "updated_at": "2026-11-10T09:37:28.846601+00:00"
+    },
     "doi:10.1007/978-3-031-55673-9_8": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -3600,6 +3608,14 @@
       "title": "A survey on the (in)security of trusted execution environments",
       "updated_at": "2026-11-07T05:15:56.027764+00:00"
     },
+    "doi:10.1016/j.cose.2023.103677": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "A review on security implementations in soft-processors for IoT applications",
+      "updated_at": "2026-11-10T09:43:28.764261+00:00"
+    },
     "doi:10.1016/j.cose.2024.103905": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -5111,6 +5127,14 @@
       "status": "rejected",
       "title": "FPGA-based optimization of communication encoding and verification of eliminating modulation phase for phasemeter in space gravitational wave detection",
       "updated_at": "2026-11-03T12:07:29.175026+00:00"
+    },
+    "doi:10.1016/j.optlastec.2023.109947": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware fingerprint construction of optical transmitters based on permutation entropy spectrum of chaos for secure authentication",
+      "updated_at": "2026-11-10T09:43:28.736928+00:00"
     },
     "doi:10.1016/j.parco.2024.103121": {
       "category": "secondaire",
@@ -6759,6 +6783,14 @@
       "status": "rejected",
       "title": "Design of a neural network inference engine based on RISC-V architecture",
       "updated_at": "2026-11-04T12:25:27.410832+00:00"
+    },
+    "doi:10.1088/1361-6501/ad338f": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Compensating trigger jitter and time interval error measurement for digital sampling oscilloscopes with hardware design on FPGA",
+      "updated_at": "2026-11-10T09:45:16.163788+00:00"
     },
     "doi:10.1088/1361-6528/ad3ce1": {
       "category": "hors_sujet",
@@ -15048,6 +15080,22 @@
       "title": "REALISE-IoT: RISC-V-Based Efficient and Lightweight Public-Key System for IoT Applications",
       "updated_at": "2026-11-06T17:14:07.821730+00:00"
     },
+    "doi:10.1109/jiot.2023.3333203": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 70,
+      "status": "rejected",
+      "title": "Low-Latency PAE: Permutation-Based Address Encryption Hardware Engine for IoT Real-Time Memory Protection",
+      "updated_at": "2026-11-10T09:42:42.595468+00:00"
+    },
+    "doi:10.1109/jiot.2023.3339488": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "A Side-Channel Hardware Trojan Detection Method Based on Fuzzy C-Means Clustering and Fusion Distance Algorithms",
+      "updated_at": "2026-11-10T09:42:42.620403+00:00"
+    },
     "doi:10.1109/jiot.2024.3355417": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -16320,6 +16368,14 @@
       "title": "Distributed Reactive Processing Using a RISC-V Processor",
       "updated_at": "2026-11-02T15:50:51.508831+00:00"
     },
+    "doi:10.1109/lpt.2024.3373176": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware Fingerprint Authentication Based on Siamese Neural Networks in PON",
+      "updated_at": "2026-11-10T09:45:16.136361+00:00"
+    },
     "doi:10.1109/lra.2024.3405810": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -16511,6 +16567,22 @@
       "status": "rejected",
       "title": "Efficient SoC Security Monitoring: Quality Attributes and Potential Solutions",
       "updated_at": "2026-11-09T00:36:28.449710+00:00"
+    },
+    "doi:10.1109/mdat.2023.3303435": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Intellectual Property Protection of Deep-Learning Systems via Hardware/Software Co-Design",
+      "updated_at": "2026-11-10T09:42:34.270114+00:00"
+    },
+    "doi:10.1109/mdat.2023.3349082": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Special Issue on the 2021 Workshop on Top Picks in Hardware and Embedded Security",
+      "updated_at": "2026-11-10T09:45:05.985009+00:00"
     },
     "doi:10.1109/mdat.2024.3377164": {
       "category": "secondaire",
@@ -23344,6 +23416,14 @@
       "title": "Attack of the Knights:Non Uniform Cache Side Channel Attack",
       "updated_at": "2026-11-05T20:19:09.946686+00:00"
     },
+    "doi:10.1145/3631610": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "HyBNN: Quantifying and Optimizing Hardware Efficiency of Binary Neural Networks",
+      "updated_at": "2026-11-10T09:42:42.569384+00:00"
+    },
     "doi:10.1145/3632954": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -23567,6 +23647,14 @@
       "status": "rejected",
       "title": "Protecting Sensitive Data with Secure Data Enclaves",
       "updated_at": "2026-11-09T15:38:25.595245+00:00"
+    },
+    "doi:10.1145/3648372": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "MRAAC: A Multi-stage Risk-aware Adaptive Authentication and Access Control Framework for Android",
+      "updated_at": "2026-11-10T09:44:20.602309+00:00"
     },
     "doi:10.1145/3649153.3649181": {
       "category": "hors_sujet",
@@ -29807,6 +29895,14 @@
       "status": "rejected",
       "title": "Word-Level Counterexample Reduction Methods for Hardware Verification",
       "updated_at": "2026-11-06T22:36:32.239304+00:00"
+    },
+    "doi:10.23919/date64628.2025.10993257": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Accurate and Extensible Symbolic Execution of Binary Code based on Formal ISA Semantics",
+      "updated_at": "2026-11-10T09:37:28.819734+00:00"
     },
     "doi:10.23919/date64628.2025.10993284": {
       "category": "secondaire",
@@ -39632,6 +39728,14 @@
       "title": "BeTaL-GBI: Admission-Aware Benchmark Tuning and Full-Stack Verification of Geometric Belief Interfaces",
       "updated_at": "2026-11-02T17:58:15.249192+00:00"
     },
+    "title:beyondrandominputsanovelmlbasedhardwarefuzzing": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Beyond Random Inputs: A Novel ML-Based Hardware Fuzzing",
+      "updated_at": "2026-11-10T09:37:16.315783+00:00"
+    },
     "title:beyondthebermudatriangleofcontentioniommuinterferenceinmixedcriticalitysystems": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -40008,6 +40112,14 @@
       "title": "Confidential Computing on NVIDIA Hopper GPUs: A Performance Benchmark Study",
       "updated_at": "2026-11-08T17:38:00.114556+00:00"
     },
+    "title:confidentialfederatedcomputations": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 49,
+      "status": "rejected",
+      "title": "Confidential Federated Computations",
+      "updated_at": "2026-11-10T09:39:20.381818+00:00"
+    },
     "title:confidentialllminferenceperformanceandcostacrosscpuandgputees": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -40192,6 +40304,14 @@
       "title": "Design and Development of an ML/DL Attack Resistance of RC-Based PUF for IoT Security",
       "updated_at": "2026-11-03T14:41:44.713697+00:00"
     },
+    "title:designingaphotonicphysicallyunclonablefunctionhavingresiliencetomachinelearningattacks": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Designing a Photonic Physically Unclonable Function Having Resilience to Machine Learning Attacks",
+      "updated_at": "2026-11-10T09:37:16.288022+00:00"
+    },
     "title:designingtrustworthylayeredattestations": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -40344,6 +40464,14 @@
       "title": "Dynamic Cache Partitioning-Based Redundancy Time Optimization for Smart Substation Inspection",
       "updated_at": "2026-11-01T02:14:31.196811+00:00"
     },
+    "title:dynamicfrequencybasedfingerprintingattacksagainstmodernsandboxenvironments": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "Dynamic Frequency-Based Fingerprinting Attacks against Modern Sandbox Environments",
+      "updated_at": "2026-11-10T09:39:20.355131+00:00"
+    },
     "title:efficienthqcimplementationsonriscvacrosslayerdesignspaceexploration": {
       "category": "secondaire",
       "decision": "examiner",
@@ -40455,6 +40583,14 @@
       "status": "rejected",
       "title": "Enabling Trustworthy Federated Learning via Remote Attestation for Mitigating Byzantine Threats",
       "updated_at": "2026-11-04T21:48:27.814679+00:00"
+    },
+    "title:enc2dbahybridandadaptiveencryptedqueryprocessingframework": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Enc2DB: A Hybrid and Adaptive Encrypted Query Processing Framework",
+      "updated_at": "2026-11-10T09:39:09.749140+00:00"
     },
     "title:enclavescalehardwareassistededgedpforsecuredatacentrepowertelemetry": {
       "category": "secondaire",
@@ -40655,6 +40791,14 @@
       "status": "rejected",
       "title": "Federated Trust for Embodied Robot Capability Marketplaces",
       "updated_at": "2026-11-02T19:52:30.018610+00:00"
+    },
+    "title:fedmpqsecureandcommunicationefficientfederatedlearningwithmulticodebookproductquantization": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "FedMPQ: Secure and Communication-Efficient Federated Learning with Multi-codebook Product Quantization",
+      "updated_at": "2026-11-10T09:39:20.407274+00:00"
     },
     "title:fencetsclosingtimingchannelsinhighperformanceoutofordercoresthroughisasupportedtemporalpartitioning": {
       "category": "coeur",
@@ -41031,6 +41175,14 @@
       "status": "rejected",
       "title": "Heartbeat-Bound Hierarchical Credentials: Cryptographic Revocation for AI Agent Swarms",
       "updated_at": "2026-11-03T10:13:51.701770+00:00"
+    },
+    "title:hecklerbreakingconfidentialvmswithmaliciousinterrupts": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Heckler: Breaking Confidential VMs with Malicious Interrupts",
+      "updated_at": "2026-11-10T09:38:27.242126+00:00"
     },
     "title:helpbenchassessingtheabilityofllmstoprovideprivacysafetyandsecurityadvice": {
       "category": "hors_sujet",
@@ -41624,6 +41776,14 @@
       "title": "NDAI Agreements",
       "updated_at": "2026-11-07T01:39:07.871977+00:00"
     },
+    "title:neartermenforcementofaichipexportcontrolsusingafirmwarebaseddesignforofflinelicensing": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Near-Term Enforcement of AI Chip Export Controls Using A Firmware-Based Design for Offline Licensing",
+      "updated_at": "2026-11-10T09:36:29.405231+00:00"
+    },
     "title:nebulafleffectiveasynchronousfederatedlearningforjointcloudcomputing": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -42072,6 +42232,14 @@
       "title": "Privacy-Preserving Large Language Models: Mechanisms, Applications, and Future Directions",
       "updated_at": "2026-11-07T15:37:44.994887+00:00"
     },
+    "title:privacypreservinglayerpartitioningfordeepneuralnetworkmodels": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Privacy preserving layer partitioning for Deep Neural Network models",
+      "updated_at": "2026-11-10T09:39:09.795843+00:00"
+    },
     "title:privacypreservingproductquantizedapproximatenearestneighborsearchframeworkforlargescaledatasetsviaahybridoffullyhomomorphicencryptionandtrustedexecutionenvironment": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -42343,6 +42511,14 @@
       "status": "rejected",
       "title": "Resolving Conflicts Between RTOS Timekeeping and Uninterruptable Trusted Computing",
       "updated_at": "2026-11-03T12:28:50.780203+00:00"
+    },
+    "title:revisitingmainmemorybasedcovertandsidechannelattacksinthecontextofprocessinginmemory": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "Revisiting Main Memory-Based Covert and Side Channel Attacks in the Context of Processing-in-Memory",
+      "updated_at": "2026-11-10T09:41:38.258202+00:00"
     },
     "title:ringmasterhowtojugglehighthroughputhostossystemcallsfromtrustzonetees": {
       "category": "secondaire_technique",
@@ -42799,6 +42975,14 @@
       "status": "rejected",
       "title": "Signing Right Away",
       "updated_at": "2026-11-04T13:26:26.020159+00:00"
+    },
+    "title:sigybreakingintelsgxenclaveswithmaliciousexceptionssignals": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "SIGY: Breaking Intel SGX Enclaves with Malicious Exceptions & Signals",
+      "updated_at": "2026-11-10T09:39:44.235017+00:00"
     },
     "title:silentflowleveragingtrustedexecutionforresourcelimitedmpcviahardwarealgorithmcodesign": {
       "category": "secondaire",
@@ -43376,6 +43560,14 @@
       "title": "Toleo: Scaling Freshness to Tera-scale Memory using CXL and PIM",
       "updated_at": "2026-11-08T07:38:06.786608+00:00"
     },
+    "title:towardaquantuminformationsystemcybersecuritytaxonomyandtestbedexploitingauniqueopportunityforearlyimpact": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Toward a Quantum Information System Cybersecurity Taxonomy and Testbed: Exploiting a Unique Opportunity for Early Impact",
+      "updated_at": "2026-11-10T09:36:29.376661+00:00"
+    },
     "title:towardprovablyprivateanalyticsandinsightsintogenaiuse": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -43775,6 +43967,14 @@
       "status": "rejected",
       "title": "WaveCommitments: Private and Verifiable Speech-Agent Marketplaces",
       "updated_at": "2026-11-02T19:54:40.738433+00:00"
+    },
+    "title:weseeusingmaliciousvcinterruptstobreakamdsevsnp": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "WeSee: Using Malicious #VC Interrupts to Break AMD SEV-SNP",
+      "updated_at": "2026-11-10T09:39:09.721533+00:00"
     },
     "title:whatyourcacherevealsaboutyou": {
       "category": "secondaire",
