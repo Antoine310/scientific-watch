@@ -3211,6 +3211,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3442479": {
+    "doi": "https://doi.org/10.1145/3442479",
+    "publication_date": "2021-05-08",
+    "publication_type": "revue",
+    "publication_venue": "ACM Computing Surveys",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3442479",
+    "summary": "Cet article présente une étude générale (survey) sur les attaques par exécution transitoire (spéculative), incluant une taxonomie basée sur les causes de l'exécution transitoire et les types de canaux cachés. L'étude analyse les phases des attaques, les frontières de sécurité franchies, propose des métriques pour évaluer leur faisabilité et discute des atténuations matérielles existantes avec leurs limites.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Survey of Transient Execution Attacks and Their Mitigations",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3456629": {
     "doi": "https://doi.org/10.1145/3456629",
     "publication_date": "2021-07-13",
@@ -6519,6 +6536,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.48550/arxiv.2105.02466": {
+    "doi": "https://doi.org/10.48550/arxiv.2105.02466",
+    "publication_date": "2021-05-06",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 82,
+    "source": "http://arxiv.org/abs/2105.02466",
+    "summary": "Cette revue de littérature sur l'attestation à distance (Remote Attestation - RA) analyse les différents paradigmes de sécurité pour les appareils IoT, allant des approches logicielles pures aux approches matérielles et hybrides. L'article décrit l'état de l'art de l'attestation individuelle et de groupe (swarm), ainsi que les recherches récentes sur les protocoles formellement vérifiés et l'attestation de flux de contrôle.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Remote Attestation: A Literature Review",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.48550/arxiv.2106.03470": {
     "doi": "https://doi.org/10.48550/arxiv.2106.03470",
     "publication_date": "2021-06-07",
@@ -8786,6 +8820,23 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Integrating OpenTitan as a Security Controller for Cryptographic Tasks in RISC-V SoCs"
+  },
+  "title:interposerbasedrootoftrust": {
+    "doi": null,
+    "publication_date": "2021-05-06",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://export.arxiv.org/pdf/2105.02917",
+    "summary": "Cet article étudie l'utilisation d'interposeurs actifs pour établir une Racine de Confiance (Root of Trust) matérielle dans les architectures multi-puces basées sur des chiplets. Face aux risques de Trojans matériels introduits lors de la fabrication dans des fonderies non fiables, les auteurs proposent d'intégrer une interface de réseau de sécurité (SNI) au niveau de l'interposeur actif pour surveiller les messages de cohérence de cache et le trafic réseau, tout en analysant l'impact sur les performances à l'aide des benchmarks SPEC CPU.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Interposer-Based Root of Trust.",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "title:isolationfailurefromsharedstoragecharacterizingandexploitingpagecachescaleakageacrosscontainersandvms": {
     "publication_date": "2026-07-20",

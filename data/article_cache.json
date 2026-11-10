@@ -6352,6 +6352,14 @@
       "title": "Linking traditional and scientific knowledge to assess cultural keystone species in the Yangtze River Delta",
       "updated_at": "2026-11-02T08:32:08.012591+00:00"
     },
+    "doi:10.1038/s41467-021-23184-y": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Self-clocking fast and variation tolerant true random number generator based on a stochastic mott memristor",
+      "updated_at": "2026-11-10T23:17:42.459116+00:00"
+    },
     "doi:10.1038/s41467-024-46397-3": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -10791,6 +10799,14 @@
       "status": "rejected",
       "title": "Towards an Enhanced PicoRV32: Architectural Design and Modular Subsystem Integration for a High-Fidelity RISC-V Core",
       "updated_at": "2026-11-03T17:53:51.188864+00:00"
+    },
+    "doi:10.1109/ets50041.2021.9465449": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "Security, Reliability and Test Aspects of the RISC-V Ecosystem",
+      "updated_at": "2026-11-10T23:17:21.810250+00:00"
     },
     "doi:10.1109/ets56758.2023.10174099": {
       "category": "coeur",
@@ -23872,6 +23888,30 @@
       "title": "HECTOR-V: A Heterogeneous CPU Architecture for a Secure RISC-V Execution Environment",
       "updated_at": "2026-11-10T20:17:26.354499+00:00"
     },
+    "doi:10.1145/3433210.3453113": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "PSec: Programming Secure Distributed Systems using Enclaves",
+      "updated_at": "2026-11-10T23:16:10.955182+00:00"
+    },
+    "doi:10.1145/3442479": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Survey of Transient Execution Attacks and Their Mitigations",
+      "updated_at": "2026-11-10T23:16:05.343933+00:00"
+    },
+    "doi:10.1145/3447867": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "Hardware Information Flow Tracking",
+      "updated_at": "2026-11-10T23:16:22.530859+00:00"
+    },
     "doi:10.1145/3456629": {
       "category": "coeur",
       "decision": "conserver",
@@ -33400,6 +33440,14 @@
       "title": "Spec-LAMP: Robust Spectre Attack Detection Under Web-Based LLM Workload via L1D Miss Pending Event",
       "updated_at": "2026-11-01T05:15:24.293481+00:00"
     },
+    "doi:10.3390/electronics10111267": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A Huffman-Based Joint Compression and Encryption Scheme for Secure Data Storage Using Physical Unclonable Functions",
+      "updated_at": "2026-11-10T23:17:35.168712+00:00"
+    },
     "doi:10.3390/electronics10172068": {
       "category": "coeur",
       "decision": "conserver",
@@ -37487,6 +37535,14 @@
       "status": "rejected",
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
+    },
+    "doi:10.48550/arxiv.2105.02466": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 82,
+      "status": "imported",
+      "title": "Remote Attestation: A Literature Review",
+      "updated_at": "2026-11-10T23:15:44.780564+00:00"
     },
     "doi:10.48550/arxiv.2106.03470": {
       "category": "coeur",
@@ -43144,6 +43200,14 @@
       "title": "Inter-Agent Trust Models: A Comparative Study of Brief, Claim, Proof, Stake, Reputation and Constraint in Agentic Web Protocol Design-A2A, AP2, ERC-8004, and Beyond",
       "updated_at": "2026-11-04T08:32:11.875120+00:00"
     },
+    "title:interposerbasedrootoftrust": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Interposer-Based Root of Trust.",
+      "updated_at": "2026-11-10T23:17:14.813679+00:00"
+    },
     "title:interpufdistributedauthenticationviaphysicallyunclonablefunctionsandmultipartycomputationforreconfigurableinterposers": {
       "category": "secondaire",
       "decision": "examiner",
@@ -43471,6 +43535,14 @@
       "status": "rejected",
       "title": "Model Agnostic Hybrid Sharding For Heterogeneous Distributed Inference",
       "updated_at": "2026-11-09T06:38:09.737536+00:00"
+    },
+    "title:modelingmicroarchitecturalsidechannelattacksforfunprofit": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Modeling Microarchitectural Side Channel Attacks for Fun & Profit",
+      "updated_at": "2026-11-10T23:15:49.255010+00:00"
     },
     "title:modernhardwaresecurityareviewofattacksandcountermeasures": {
       "category": "coeur",
