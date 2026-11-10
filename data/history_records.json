@@ -1457,6 +1457,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/isca52012.2021.00037": {
+    "doi": "https://doi.org/10.1109/isca52012.2021.00037",
+    "publication_date": "2021-06-01",
+    "publication_type": "conference",
+    "publication_venue": "Proceedings - International Symposium on Computer Architecture/Proceedings",
+    "score": 90,
+    "source": "https://doi.org/10.1109/isca52012.2021.00037",
+    "summary": "Cet article présente TimeCache, une conception de cache matérielle visant à éliminer les canaux cachés temporels dus à la réutilisation de logiciels partagés (code et données), tout en conservant les avantages d'un cache partagé. La solution utilise des horodatages et une conception matérielle pour une visibilité des lignes de cache par processus, testée via le simulateur gem5.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "TimeCache: Using Time to Eliminate Cache Side Channels when Sharing Software",
+    "venue_landmark": "ISCA",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/iscas46773.2023.10181732": {
     "doi": "https://doi.org/10.1109/iscas46773.2023.10181732",
     "publication_date": "2023-05-21",
@@ -2174,6 +2191,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/sp40001.2021.00050": {
+    "doi": "https://doi.org/10.1109/sp40001.2021.00050",
+    "publication_date": "2021-05-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Symposium on Security and Privacy (S&P)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/sp40001.2021.00050",
+    "summary": "Cette publication étudie la sécurité des derniers caches de dernier niveau (LLC) randomisés, notamment CEASER-S et ScatterCache, présentés comme des défenses contre les attaques par canal auxiliaire fondées sur les conflits. Les auteurs démontrent que ces mécanismes restent vulnérables. Par une analyse quantitative des schémas d'accès, ils identifient des failles dans les hypothèses et les implémentations actuelles. Enfin, ils proposent de nouvelles solutions correctives respectant le budget de performance et plaident pour le renforcement des caches associatifs à ensembles randomisés, jugés plus réalistes pour une adoption commerciale.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Randomized Last-Level Caches Are Still Vulnerable to Cache Side-Channel Attacks! But We Can Fix It",
+    "venue_landmark": "IEEE S&P",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/sp46214.2022.9833692": {
     "doi": "https://doi.org/10.1109/sp46214.2022.9833692",
     "publication_date": "2022-05-01",
@@ -2361,6 +2395,40 @@
     "venue_note": "",
     "venue_priority": 2,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/spw53761.2021.00036": {
+    "doi": "https://doi.org/10.1109/spw53761.2021.00036",
+    "publication_date": "2021-05-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Security and Privacy Workshops (SPW)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/spw53761.2021.00036",
+    "summary": "Ce papier présente LIRA-V, un système léger d'attestation à distance et de création de canal sécurisé pour les dispositifs RISC-V contraints. Il s'appuie sur une mémoire morte (ROM) et les primitives de protection de la mémoire physique (PMP) de RISC-V pour établir une racine de confiance. L'évaluation montre la faisabilité sur un microcontrôleur du commerce pour des applications IoT et des systèmes cyberphysiques.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "LIRA-V: Lightweight Remote Attestation for Constrained RISC-V Devices",
+    "venue_landmark": "IEEE S&P",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/spw53761.2021.00064": {
+    "doi": "https://doi.org/10.1109/spw53761.2021.00064",
+    "publication_date": "2021-05-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Security and Privacy Workshops (SPW)",
+    "score": 82,
+    "source": "https://doi.org/10.1109/spw53761.2021.00064",
+    "summary": "Cet article étudie les failles de sécurité de l'attestation à distance dans les environnements cloud basés sur AMD Secure Encrypted Virtualization (SEV), en particulier sur les architectures Zen 1 et Zen 2. Les auteurs démontrent une vulnérabilité permettant de manipuler le code chargé au démarrage sans invalider le résultat de l'attestation, ce qui conduit à une prise de contrôle totale de la machine virtuelle (VM) et à l'extraction de données sensibles.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "undeSErVed trust: Exploiting Permutation-Agnostic Remote Attestation",
+    "venue_landmark": "IEEE S&P",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/spw59333.2023.00029": {
     "doi": "https://doi.org/10.1109/spw59333.2023.00029",
@@ -3105,6 +3173,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3433210.3453112": {
+    "doi": "https://doi.org/10.1145/3433210.3453112",
+    "publication_date": "2021-05-24",
+    "publication_type": "conference",
+    "publication_venue": "ACM Asia Conference on Computer and Communications Security (ASIA CCS)",
+    "score": 95,
+    "source": "https://doi.org/10.1145/3433210.3453112",
+    "summary": "Cet article présente HECTOR-V, une architecture de processeur multicœur hétérogène visant à concevoir un environnement d'exécution de confiance (TEE) sécurisé sous architecture RISC-V. Pour surmonter les limites des TEE traditionnels (faible isolation face aux attaques par canal auxiliaire, communication lente avec les éléments sécurisés externes), les auteurs intègrent directement un processeur sécurisé, le RVSCP (RISC-V Secure Co-Processor), fortement couplé au processeur d'application. Cette approche réduit la base de calcul de confiance en fournissant des services système directement en matériel, tout en assurant l'intégrité du flux de contrôle et le contrôle des E/S.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "HECTOR-V: A Heterogeneous CPU Architecture for a Secure RISC-V Execution Environment",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1145/3456629": {
     "doi": "https://doi.org/10.1145/3456629",
@@ -6413,6 +6498,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2106.03470": {
+    "doi": "https://doi.org/10.48550/arxiv.2106.03470",
+    "publication_date": "2021-06-07",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2106.03470",
+    "summary": "Cet article présente Osiris, un framework de type fuzzing conçu pour automatiser la découverte de canaux auxiliaires microarchitecturaux sur les processeurs modernes. À partir d'une spécification lisible par machine du jeu d'instructions (ISA) d'un CPU, l'outil génère des séquences d'instructions et teste leur capacité à former un canal temporel ou à servir dans des attaques par exécution spéculative (type Spectre). Les auteurs ont découvert quatre nouveaux canaux auxiliaires sur des CPU Intel et AMD.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Osiris: Automated Discovery of Microarchitectural Side Channels",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2106.08877": {
     "doi": "https://doi.org/10.48550/arxiv.2106.08877",

@@ -320,6 +320,14 @@
       "title": "Physical Unclonable Functions From Microwave Metasurface Fingerprints",
       "updated_at": "2026-10-31T07:10:38.187499+00:00"
     },
+    "doi:10.1002/aisy.202100062": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "A High‐Speed True Random Number Generator Based on a Cu x Te 1− x Diffusive Memristor",
+      "updated_at": "2026-11-10T20:15:29.490829+00:00"
+    },
     "doi:10.1002/aisy.202200358": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -14176,6 +14184,22 @@
       "title": "Hardware Impairment Enabled Resource Allocation for Secure NOMA-ISAC Networks",
       "updated_at": "2026-11-03T09:07:33.769652+00:00"
     },
+    "doi:10.1109/isca52012.2021.00037": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "TimeCache: Using Time to Eliminate Cache Side Channels when Sharing Software",
+      "updated_at": "2026-11-10T20:15:01.017853+00:00"
+    },
+    "doi:10.1109/isca52012.2021.00078": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "QUAC-TRNG: High-Throughput True Random Number Generation Using Quadruple Row Activation in Commodity DRAM Chips",
+      "updated_at": "2026-11-10T20:15:29.490809+00:00"
+    },
     "doi:10.1109/isca59077.2024.00061": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -14631,6 +14655,14 @@
       "status": "rejected",
       "title": "Enabling Hardware-In-the-Loop for Digital Substations: Virtual Protection Tester",
       "updated_at": "2026-11-05T03:50:16.736023+00:00"
+    },
+    "doi:10.1109/iscipt53667.2021.00067": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Study on post-processing algorithms for true random number generators",
+      "updated_at": "2026-11-10T20:15:29.490835+00:00"
     },
     "doi:10.1109/iscipt61983.2024.10672771": {
       "category": "hors_sujet",
@@ -16968,6 +17000,14 @@
       "title": "Secure Machine Learning Hardware: Challenges and Progress [Feature]",
       "updated_at": "2026-11-07T11:36:29.662590+00:00"
     },
+    "doi:10.1109/mce.2021.3065857": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Physical Unclonable Function (PUF)-Based Sustainable Cybersecurity",
+      "updated_at": "2026-11-10T20:15:29.490840+00:00"
+    },
     "doi:10.1109/mcsoc60832.2023.00089": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -19064,6 +19104,14 @@
       "title": "Hybrid RISC-V Coprocessor Architecture for Convolutional Neural-Network Inferencing",
       "updated_at": "2026-11-03T17:53:51.164174+00:00"
     },
+    "doi:10.1109/sp40001.2021.00050": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Randomized Last-Level Caches Are Still Vulnerable to Cache Side-Channel Attacks! But We Can Fix It",
+      "updated_at": "2026-11-10T20:18:15.784097+00:00"
+    },
     "doi:10.1109/sp46214.2022.9833692": {
       "category": "coeur",
       "decision": "conserver",
@@ -19183,6 +19231,22 @@
       "status": "imported",
       "title": "TDXRay: Microarchitectural Side-Channel Analysis of Intel TDX for Real-World Workloads",
       "updated_at": "2026-11-01T20:13:52.972857+00:00"
+    },
+    "doi:10.1109/spw53761.2021.00036": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "LIRA-V: Lightweight Remote Attestation for Constrained RISC-V Devices",
+      "updated_at": "2026-11-10T20:17:24.313049+00:00"
+    },
+    "doi:10.1109/spw53761.2021.00064": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 82,
+      "status": "imported",
+      "title": "undeSErVed trust: Exploiting Permutation-Agnostic Remote Attestation",
+      "updated_at": "2026-11-10T20:16:53.917000+00:00"
     },
     "doi:10.1109/spw59333.2023.00029": {
       "category": "coeur",
@@ -23615,6 +23679,14 @@
       "status": "rejected",
       "title": "The Pomarinho enclave swarm: structural and petrological evidence of repeated quenching, splitting and magmatic erosion at the sidewalls of conduits (Iberian Variscan belt)",
       "updated_at": "2026-11-02T20:16:46.220256+00:00"
+    },
+    "doi:10.1145/3433210.3453112": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "HECTOR-V: A Heterogeneous CPU Architecture for a Secure RISC-V Execution Environment",
+      "updated_at": "2026-11-10T20:17:26.354499+00:00"
     },
     "doi:10.1145/3456629": {
       "category": "coeur",
@@ -30536,6 +30608,14 @@
       "title": "From Accuracy to Trust: Deployment-verified Adaptive Confidence-aware Fusion for Occlusion-resilient Driver Monitoring on CPU-bound Automotive Edge Hardware",
       "updated_at": "2026-11-03T12:41:24.198586+00:00"
     },
+    "doi:10.22331/q-2021-06-15-475": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Quantum Physical Unclonable Functions: Possibilities and Impossibilities",
+      "updated_at": "2026-11-10T20:15:17.951194+00:00"
+    },
     "doi:10.22399/ijcesen.4869": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -34088,6 +34168,14 @@
       "title": "Hardware-Intrinsic Physical Unclonable Functions by Harnessing Nonlinear Conductance Variation in Oxide Semiconductor-Based Diode",
       "updated_at": "2026-11-07T14:13:27.269396+00:00"
     },
+    "doi:10.3390/s21113920": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Physical Unclonable Function Based on the Internal State Transitions of a Fibonacci Ring Oscillator",
+      "updated_at": "2026-11-10T20:15:29.490845+00:00"
+    },
     "doi:10.3390/s22124340": {
       "category": "coeur",
       "decision": "conserver",
@@ -37088,6 +37176,14 @@
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
     },
+    "doi:10.48550/arxiv.2106.03470": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Osiris: Automated Discovery of Microarchitectural Side Channels",
+      "updated_at": "2026-11-10T20:14:11.274937+00:00"
+    },
     "doi:10.48550/arxiv.2106.08877": {
       "category": "coeur",
       "decision": "conserver",
@@ -37103,6 +37199,14 @@
       "status": "imported",
       "title": "Introducing Fast and Secure Deterministic Stash Free Write Only Oblivious RAMs for Demand Paging in Keystone",
       "updated_at": "2026-11-10T17:15:28.392764+00:00"
+    },
+    "doi:10.48550/arxiv.2106.12714": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 49,
+      "status": "rejected",
+      "title": "Circuit Masking: From Theory to Standardization, A Comprehensive Survey for Hardware Security Researchers and Practitioners",
+      "updated_at": "2026-11-10T20:15:07.933202+00:00"
     },
     "doi:10.48550/arxiv.2107.03781": {
       "category": "coeur",
@@ -44151,6 +44255,14 @@
       "status": "rejected",
       "title": "Securing Generative AI in Healthcare: A Zero-Trust Architecture Powered by Confidential Computing on Google Cloud",
       "updated_at": "2026-11-04T08:32:11.911808+00:00"
+    },
+    "title:securingiotcommunicationsusingtrustedexecutionenvironments": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Securing IoT communications using trusted execution environments",
+      "updated_at": "2026-11-10T20:17:22.522578+00:00"
     },
     "title:securingnetworkbootinglinuxsystemsattheexampleofbwlehrpoolandbwforclusternemo": {
       "category": "secondaire_technique",
