@@ -7032,6 +7032,14 @@
       "title": "Towards secure computation and trusted silicon: emerging trends in ISSCC 2026 hardware security",
       "updated_at": "2026-11-02T20:56:26.012682+00:00"
     },
+    "doi:10.1088/1742-6596/1964/6/062003": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Design of Digital Clock Manager Using Tunable BFD–True Random Number Generator",
+      "updated_at": "2026-11-10T17:13:58.531473+00:00"
+    },
     "doi:10.1088/1742-6596/2333/1/012014": {
       "category": "coeur",
       "decision": "examiner",
@@ -17144,6 +17152,14 @@
       "title": "NIST 800-22 Statistical Validation of SRAM-based PUFs for Hardware Security",
       "updated_at": "2026-11-06T07:37:51.926295+00:00"
     },
+    "doi:10.1109/meco52532.2021.9460246": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "VOSySmonitoRV: a mixed-criticality solution on Linux-capable RISC-V platforms",
+      "updated_at": "2026-11-10T17:15:25.704874+00:00"
+    },
     "doi:10.1109/meco58584.2023.10154913": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -19487,6 +19503,14 @@
       "status": "imported",
       "title": "System-Level Isolation for Mixed-Criticality RISC-V SoCs: A “World” Reality Check",
       "updated_at": "2026-11-02T08:30:29.730765+00:00"
+    },
+    "doi:10.1109/tcad.2021.3096464": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A Lightweight Full Entropy TRNG With On-Chip Entropy Assurance",
+      "updated_at": "2026-11-10T17:13:58.531630+00:00"
     },
     "doi:10.1109/tcad.2023.3237957": {
       "category": "secondaire_technique",
@@ -28792,6 +28816,14 @@
       "title": "Hardware Implementation of FPIC Controllers for Discrete-Time Chaotic Systems Using LabVIEW-FPGA",
       "updated_at": "2026-11-04T23:25:32.714049+00:00"
     },
+    "doi:10.15760/etd.7593": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "A Method for Comparative Analysis of Trusted Execution Environments",
+      "updated_at": "2026-11-10T17:14:08.433955+00:00"
+    },
     "doi:10.15803/ijnc.12.2_372": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -36647,6 +36679,22 @@
       "status": "rejected",
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
+    },
+    "doi:10.48550/arxiv.2106.08877": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Side-Channel Attacks on RISC-V Processors: Current Progress, Challenges, and Opportunities",
+      "updated_at": "2026-11-10T17:15:23.085030+00:00"
+    },
+    "doi:10.48550/arxiv.2106.09966": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "Introducing Fast and Secure Deterministic Stash Free Write Only Oblivious RAMs for Demand Paging in Keystone",
+      "updated_at": "2026-11-10T17:15:28.392764+00:00"
     },
     "doi:10.48550/arxiv.2107.03781": {
       "category": "coeur",

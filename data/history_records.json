@@ -1845,6 +1845,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/meco52532.2021.9460246": {
+    "doi": "https://doi.org/10.1109/meco52532.2021.9460246",
+    "publication_date": "2021-06-07",
+    "publication_type": "conference",
+    "publication_venue": "Mediterranean Conference on Embedded Computing (MECO)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/meco52532.2021.9460246",
+    "summary": "Cet article présente VOSySmonitoRV, une solution de criticité mixte pour les plateformes RISC-V capables de faire tourner Linux. Elle permet l'exécution conjointe et isolée de plusieurs systèmes d'exploitation au niveau de privilège machine le plus élevé, palliant ainsi l'absence d'extensions matérielles de virtualisation sur l'architecture RISC-V.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "VOSySmonitoRV: a mixed-criticality solution on Linux-capable RISC-V platforms",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/meditcom49071.2021.9647635": {
     "doi": "https://doi.org/10.1109/meditcom49071.2021.9647635",
     "publication_date": "2021-09-07",
@@ -6396,6 +6413,40 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2106.08877": {
+    "doi": "https://doi.org/10.48550/arxiv.2106.08877",
+    "publication_date": "2021-06-16",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2106.08877",
+    "summary": "Cet article présente une étude sur les vulnérabilités liées aux attaques par canal auxiliaire dans les microprocesseurs modernes, avec un accent particulier sur l'architecture RISC-V. Il analyse les attaques matérielles basées sur la consommation d'énergie et les attaques logicielles exploitant les caches, tout en discutant des techniques d'atténuation et des orientations de recherche futures.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Side-Channel Attacks on RISC-V Processors: Current Progress, Challenges, and Opportunities",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.48550/arxiv.2106.09966": {
+    "doi": "https://doi.org/10.48550/arxiv.2106.09966",
+    "publication_date": "2021-06-18",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 95,
+    "source": "http://arxiv.org/abs/2106.09966",
+    "summary": "Ce papier propose d'accélérer la pagination à la demande et l'utilisation d'Oblivious RAM (ORAM) dans l'environnement d'exécution de confiance (TEE) Keystone basé sur RISC-V. En s'appuyant sur une structure DetWoORAM (Deterministic, stash free, Write only ORAM) et en introduisant deux optimisations (Eager DetWoORAM avec préchargement et Parallel DetWoORAM multi-thread), les auteurs réduisent significativement le ralentissement de l'exécution des applications sécurisées face à un OS potentiellement malveillant.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Introducing Fast and Secure Deterministic Stash Free Write Only Oblivious RAMs for Demand Paging in Keystone",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2107.03781": {
     "doi": "https://doi.org/10.48550/arxiv.2107.03781",
