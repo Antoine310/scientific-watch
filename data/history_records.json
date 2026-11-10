@@ -6323,6 +6323,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.48550/arxiv.2108.10771": {
+    "doi": "https://doi.org/10.48550/arxiv.2108.10771",
+    "publication_date": "2021-08-24",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2108.10771",
+    "summary": "Cette publication analyse de manière boîte noire les processeurs AMD pour étudier leur vulnérabilité potentielle aux attaques par exécution spéculative (transitoire), comblant ainsi un manque de recherche centré majoritairement sur Intel. Les auteurs découvrent que les processeurs de la famille AMD Zen présentent des comportements d'exécution transitoire similaires à Meltdown ou MDS, malgré des choix de conception limitant la portée de l'exploitabilité par rapport à Intel.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Transient Execution of Non-Canonical Accesses",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.48550/arxiv.2202.03749": {
     "doi": "https://doi.org/10.48550/arxiv.2202.03749",
     "publication_date": "2022-02-08",
