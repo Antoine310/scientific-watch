@@ -3089,6 +3089,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3456629": {
+    "doi": "https://doi.org/10.1145/3456629",
+    "publication_date": "2021-07-13",
+    "publication_type": "revue",
+    "publication_venue": "ACM Computing Surveys",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3456629",
+    "summary": "Cet article propose une synthèse (survey) des vulnérabilités, attaques et défenses par canaux cachés microarchitecturaux ciblant spécifiquement les applications cryptographiques. L'article catégorise les attaques, identifie les stratégies d'atténuation à différents niveaux (application, système d'exploitation, matériel) et réalise une évaluation à grande échelle sur des applications cryptographiques réelles.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "A Survey of Microarchitectural Side-channel Vulnerabilities, Attacks, and Defenses in Cryptography",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3460120.3484532": {
     "doi": "https://doi.org/10.1145/3460120.3484532",
     "publication_date": "2021-11-12",
@@ -5208,6 +5225,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex (titre exact)"
   },
+  "doi:10.3390/app11146662": {
+    "doi": "https://doi.org/10.3390/app11146662",
+    "publication_date": "2021-07-20",
+    "publication_type": "revue",
+    "publication_venue": "Applied Sciences",
+    "score": 90,
+    "source": "https://doi.org/10.3390/app11146662",
+    "summary": "Cette étude expérimentale démontre la faisabilité d'attaques temporelles par cache (Flush+Reload et Evict+Time) ainsi qu'un canal caché exploitant la cohérence de cache au sein d'un SoC hétérogène SoC-FPGA (Xilinx Zynq-7010). L'attaquant réside dans la partie logique programmable pour cibler le système de traitement.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Performing Cache Timing Attacks from the Reconfigurable Part of a Heterogeneous SoC—An Experimental Study",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.3390/app12052415": {
     "doi": "https://doi.org/10.3390/app12052415",
     "publication_date": "2022-02-25",
@@ -6362,6 +6396,40 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2107.03781": {
+    "doi": "https://doi.org/10.48550/arxiv.2107.03781",
+    "publication_date": "2021-07-08",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2107.03781",
+    "summary": "Cet article présente TEEOD, un nouveau design d'environnement d'exécution de confiance (TEE) basé sur la logique programmable (PL) de system-on-chips (SoC) hétérogènes. Cette approche vise à offrir une isolation physique sur puce et une connexion à large bande. Les auteurs ont implémenté une preuve de concept sur une plateforme Ultra96-V2, capable d'héberger jusqu'à 6 enclaves simultanées, et ont validé la faisabilité avec un portefeuille Bitcoin open-source.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Towards a Trusted Execution Environment via Reconfigurable FPGA",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.48550/arxiv.2107.04175": {
+    "doi": "https://doi.org/10.48550/arxiv.2107.04175",
+    "publication_date": "2021-07-09",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2107.04175",
+    "summary": "Cet article présente une étude approfondie sur la sécurité de l'architecture RISC-V, en se concentrant sur le matériel et l'architecture. Il résume les mécanismes de sécurité représentatifs et prédit les orientations futures de la recherche et du développement pour combler un manque de synthèse dans la communauté académique.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "A Survey on RISC-V Security: Hardware and Architecture",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2108.10771": {
     "doi": "https://doi.org/10.48550/arxiv.2108.10771",
