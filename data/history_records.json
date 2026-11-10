@@ -105,6 +105,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1007/s13389-021-00273-8": {
+    "doi": "https://doi.org/10.1007/s13389-021-00273-8",
+    "publication_date": "2021-09-15",
+    "publication_type": "revue",
+    "publication_venue": "Journal of Cryptographic Engineering",
+    "score": 85,
+    "source": "https://doi.org/10.1007/s13389-021-00273-8",
+    "summary": "Cette publication démontre que du matériel malveillant situé dans la logique reconfigurable d'un FPGA-SoC moderne peut compromettre l'isolation mémoire et le démarrage sécurisé, contournant ainsi un TEE basé sur ARM TrustZone et la configuration de secure boot.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Breaking TrustZone memory isolation and secure boot through malicious hardware on a modern FPGA-SoC",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1007/s13389-024-00362-4": {
     "doi": "https://doi.org/10.1007/s13389-024-00362-4",
     "publication_date": "2024-08-13",
@@ -1750,6 +1767,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/meditcom49071.2021.9647635": {
+    "doi": "https://doi.org/10.1109/meditcom49071.2021.9647635",
+    "publication_date": "2021-09-07",
+    "publication_type": "conference",
+    "publication_venue": "IEEE International Mediterranean Conference on Communications and Networking (MeditCom)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/meditcom49071.2021.9647635",
+    "summary": "Cet article propose un cadre de traçage d'exécution multi-niveau s'appuyant sur des fonctionnalités logicielles telles que l'eBPF et le processeur trace d'Intel pour améliorer l'attestation de l'intégrité logicielle et du flux de contrôle dans les systèmes connectés, sans nécessiter de support matériel dédié lourd.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Towards Efficient Control-Flow Attestation with Software-Assisted Multi-level Execution Tracing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/micro50266.2020.00093": {
     "publication_date": "2026-10-06",
