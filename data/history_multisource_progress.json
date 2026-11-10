@@ -1,8 +1,8 @@
 {
   "accepted": 236,
   "completed": false,
-  "cursor": "MTcxMTcxNzEwNzAwMCwxMC4xMDE2JTJGai5oZWxpeW9uLjIwMjQuZTI4ODQ0",
-  "evaluated": 4502,
+  "cursor": "MTcxNzE3NjQ1OTAwMCwxMC4xMTA5JTJGZGNhczYxMTU5LjIwMjQuMTA1Mzk5MTI=",
+  "evaluated": 4527,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -328,14 +328,183 @@
     "monthly/2024-05/query-22 : résultat tronqué au plafond 12 pages",
     "monthly/2024-05/query-24 : résultat tronqué au plafond 12 pages",
     "monthly/2024-04/query-13 : résultat tronqué au plafond 12 pages",
-    "monthly/2024-04/query-14 : résultat tronqué au plafond 12 pages"
+    "monthly/2024-04/query-14 : résultat tronqué au plafond 12 pages",
+    "monthly/2024-04/query-15 : résultat tronqué au plafond 12 pages",
+    "monthly/2024-04/query-16 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2024-04",
   "needs_publish": false,
-  "offset": 360,
-  "pages_done": 4695,
-  "pages_in_query": 9,
-  "pending": [],
+  "offset": 240,
+  "pages_done": 4716,
+  "pages_in_query": 6,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Rahul Kande"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Vasudev Gohil"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Matthew DeLorenzo"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Chen Chen"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jeyavijayan Rajendran"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/vts60656.2024.10538871",
+        "id": "https://doi.org/10.1109/vts60656.2024.10538871",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/vts60656.2024.10538871"
+        },
+        "publication_date": "2024-04-22",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-04-22",
+        "publication_type": "conference",
+        "publication_venue": "2024 IEEE 42nd VLSI Test Symposium (VTS)",
+        "title": "LLMs for Hardware Security: Boon or Bane?",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Jordan Maynard"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Amin Rezaei"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/dcas61159.2024.10539881",
+        "id": "https://doi.org/10.1109/dcas61159.2024.10539881",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/dcas61159.2024.10539881"
+        },
+        "publication_date": "2024-04-19",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-04-19",
+        "publication_type": "conference",
+        "publication_venue": "2024 IEEE 17th Dallas Circuits and Systems Conference (DCAS)",
+        "title": "Reconfigurable Run-Time Hardware Trojan Mitigation for Logic-Locked Circuits",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Masoud Heidary"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Biresh Kumar Joardar"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/dcas61159.2024.10539864",
+        "id": "https://doi.org/10.1109/dcas61159.2024.10539864",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/dcas61159.2024.10539864"
+        },
+        "publication_date": "2024-04-19",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-04-19",
+        "publication_type": "conference",
+        "publication_venue": "2024 IEEE 17th Dallas Circuits and Systems Conference (DCAS)",
+        "title": "Hardware Attacks on ReRAM-Based AI Accelerators",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Hadi Mardani Kamali"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/dcas61159.2024.10539912",
+        "id": "https://doi.org/10.1109/dcas61159.2024.10539912",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/dcas61159.2024.10539912"
+        },
+        "publication_date": "2024-04-19",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-04-19",
+        "publication_type": "conference",
+        "publication_venue": "2024 IEEE 17th Dallas Circuits and Systems Conference (DCAS)",
+        "title": "From Full-Custom to Gate-Array ASIC for Hardware IP Protection",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2739,9 +2908,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1579,
-  "query_index": 15,
-  "secondary": 249,
-  "skipped": 4518,
+  "prefilter_review_overflow": 1595,
+  "query_index": 17,
+  "secondary": 252,
+  "skipped": 4536,
   "version": 1
 }
