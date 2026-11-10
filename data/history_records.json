@@ -835,6 +835,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/eurosp51992.2021.00047": {
+    "doi": "https://doi.org/10.1109/eurosp51992.2021.00047",
+    "publication_date": "2021-09-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE European Symposium on Security and Privacy",
+    "score": 75,
+    "source": "https://doi.org/10.1109/eurosp51992.2021.00047",
+    "summary": "FastSpec est une approche combinant le fuzzing mutationnel et le deep learning pour automatiser la génération et la détection de gadgets Spectre (variante 1). L'article introduit un jeu de données de plus d'un million de gadgets générés par perturbation, un modèle GAN nommé SpectreGAN pour la génération automatique de code assembleur, et un classifieur basé sur des embeddings neuronaux (BERT) pour détecter efficacement ces vulnérabilités dans des logiciels à grande échelle comme OpenSSL.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "FastSpec: Scalable Generation and Detection of Spectre Gadgets Using Neural Embeddings",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/eurosp57164.2023.00070": {
     "doi": "https://doi.org/10.1109/eurosp57164.2023.00070",
     "publication_date": "2023-07-01",
@@ -2018,6 +2035,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/seed51797.2021.00012": {
+    "doi": "https://doi.org/10.1109/seed51797.2021.00012",
+    "publication_date": "2021-09-01",
+    "publication_type": "conference",
+    "publication_venue": "International Symposium on Secure and Private Execution Environment Design (SEED)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/seed51797.2021.00012",
+    "summary": "Cet article étudie une architecture de cache associatif par ensembles où le biais (skewing) des ensembles de cache est défini par une fonction linéaire sur un corps de Galois. Les auteurs démontrent qu'cette configuration garantit que chaque ensemble de cache d'un domaine de sécurité intersecte exactement une fois chaque ensemble de tout autre domaine, permettant ainsi de perturber les attaques par canal auxiliaire de type Prime+Probe de manière efficace et d'implémenter cette solution matériellement.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Seeds of SEED: A Side-Channel Resilient Cache Skewed by a Linear Function over a Galois Field",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/seed55351.2022.00008": {
     "doi": "https://doi.org/10.1109/seed55351.2022.00008",
     "publication_date": "2022-09-01",
@@ -3067,6 +3101,23 @@
     "venue_landmark": "ACM CCS",
     "venue_note": "",
     "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3465481.3465762": {
+    "doi": "https://doi.org/10.1145/3465481.3465762",
+    "publication_date": "2021-08-16",
+    "publication_type": "conference",
+    "publication_venue": "International Conference on Availability, Reliability and Security (ARES)",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3465481.3465762",
+    "summary": "Cet article étend l'approche de la sécurité de confiance (Trusted Computing) au domaine analogique afin de détecter des manipulations matérielles sur les systèmes embarqués, telles que les écoutes passives, les manipulations de signaux et les modifications de circuits, qui échappent aux méthodes logicielles traditionnelles. L'étude examine la réponse impulsionnelle (step response) d'un circuit pour générer une empreinte (fingerprint) d'un composant, combinée à des méthodes de comparaison statistique (distance de Manhattan ou erreur quadratique moyenne). L'ensemble est intégré dans un protocole d'attestation à distance basé sur le moteur de composition d'identifiants de périphériques (Device Identifier Composition Engine), couvrant ainsi à la fois le micrologiciel (firmware) et le matériel périphérique d'un microcontrôleur aux ressources limitées.",
+    "themes": [
+      "T02 — DICE & Hardware Identity"
+    ],
+    "title": "Remote Attestation Extended to the Analog Domain",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
   "doi:10.1145/3466752.3480074": {
@@ -5289,6 +5340,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.3390/electronics10172068": {
+    "doi": "https://doi.org/10.3390/electronics10172068",
+    "publication_date": "2021-08-26",
+    "publication_type": "revue",
+    "publication_venue": "Electronics",
+    "score": 85,
+    "source": "https://doi.org/10.3390/electronics10172068",
+    "summary": "Cet article présente RiskiM, une plateforme matérielle externe de surveillance pour garantir l'intégrité du noyau OS sur une architecture RISC-V. Pour surmonter les limites d'accès des modules externes tout en évitant les surcoûts de performance et les modifications du noyau, les auteurs introduisent une interface matérielle dédiée nommée PEMI. L'implémentation sur processeur RISC-V et FPGA démontre une protection efficace contre des attaques avancées sans effets secondaires notables.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "A Hardware Platform for Ensuring OS Kernel Integrity on RISC-V",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.3390/electronics10222748": {
     "doi": "https://doi.org/10.3390/electronics10222748",
