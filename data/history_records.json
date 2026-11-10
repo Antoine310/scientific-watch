@@ -1805,6 +1805,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/mdat.2024.3352537": {
+    "doi": "https://doi.org/10.1109/mdat.2024.3352537",
+    "publication_date": "2024-04-01",
+    "publication_date_note": "Date source Crossref : 2024-04 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2024-04",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Design &amp; Test",
+    "score": 90,
+    "source": "https://doi.org/10.1109/mdat.2024.3352537",
+    "summary": "Cet article présente SpectreRSB, une nouvelle attaque de type Spectre exploitant le tampon de pile de retour (RSB) des microprocesseurs modernes pour exfiltrer des données sensibles à travers les frontières de protection. Contrairement aux attaques précédentes, elle ne dépend pas de l'unité de prédiction de branches et contourne certaines protections existantes comme Retpoline et les microcodes Intel, nécessitant des correctifs de remplissage du RSB.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Spectre Returns! Speculation Attacks Using the Return Stack Buffer",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/mdat.2025.3530150": {
     "doi": "https://doi.org/10.1109/mdat.2025.3530150",
     "publication_date": "2025-06-01",
