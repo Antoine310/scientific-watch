@@ -935,6 +935,26 @@
     "venue_priority": 1,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/host55342.2024.10545349": {
+    "doi": "https://doi.org/10.1109/host55342.2024.10545349",
+    "publication_date": "2024-05-06",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2024-05-06",
+    "publication_type": "conference",
+    "publication_venue": "2024 IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+    "score": 78,
+    "source": "https://doi.org/10.1109/host55342.2024.10545349",
+    "summary": "Cette publication propose une analyse de sécurité approfondie et une vérification formelle de l'architecture Intel TDX (Trust Domain Extensions) pour garantir la confidentialité et l'intégrité de la mémoire dans les environnements d'exécution de confiance (TEE). Les auteurs utilisent des machines à états finis, du model checking et de l'analyse statique de code pour dériver des invariants, vérifier des propriétés de sécurité et identifier des incohérences dans la spécification.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Verifying Memory Confidentiality and Integrity of Intel TDX Trusted Execution Environments",
+    "venue_landmark": "IEEE HOST",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/host55342.2024.10545376": {
     "doi": "https://doi.org/10.1109/host55342.2024.10545376",
     "publication_date": "2024-05-06",

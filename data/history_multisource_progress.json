@@ -1,8 +1,8 @@
 {
-  "accepted": 227,
+  "accepted": 228,
   "completed": false,
-  "cursor": "MTcxNTY1NjgyOTAwMCwxMC4zMzkwJTJGc3UxNjEwNDA5MA==",
-  "evaluated": 4364,
+  "cursor": "MTcxOTk0MDk3MjAwMCwxMC4xMTA5JTJGaXNjYXM1ODc0NC4yMDI0LjEwNTU3ODcw",
+  "evaluated": 4389,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -324,10 +324,198 @@
   ],
   "month": "2024-05",
   "needs_publish": false,
-  "offset": 80,
-  "pages_done": 4558,
-  "pages_in_query": 2,
-  "pending": [],
+  "offset": 240,
+  "pages_done": 4562,
+  "pages_in_query": 6,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Dennis Gnad"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Martin Gotthard"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jonas Krautter"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Angeliki Kritikakou"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Vincent Meyers"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Paolo Rech"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Josie E. Rodriguez Condia"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Annachiara Ruospo"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ernesto Sanchez"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Fernando Fernandes Dos Santos"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Olivier Sentieys"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mehdi Tahoori"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Russell Tessier"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Marcello Traiola"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/ets61313.2024.10567471",
+        "id": "https://doi.org/10.1109/ets61313.2024.10567471",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/ets61313.2024.10567471"
+        },
+        "publication_date": "2024-05-20",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-05-20",
+        "publication_type": "conference",
+        "publication_venue": "2024 IEEE European Test Symposium (ETS)",
+        "title": "Reliability and Security of AI Hardware",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Jo Vliegen"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Md Masoom Rabbani"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Wouter Hellemans"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Nele Mentens"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1145/3637543.3654655",
+        "id": "https://doi.org/10.1145/3637543.3654655",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1145/3637543.3654655"
+        },
+        "publication_date": "2024-05-07",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-05-07",
+        "publication_type": "conference",
+        "publication_venue": "CF '24: 21st ACM International Conference on Computing Frontiers",
+        "title": "HAGAR: Hashgraph-based Aggregated Communication and Remote Attestation",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Mingbo Zhang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Saman Zonouz"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/iccps61052.2024.00029",
+        "id": "https://doi.org/10.1109/iccps61052.2024.00029",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/iccps61052.2024.00029"
+        },
+        "publication_date": "2024-05-13",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-05-13",
+        "publication_type": "conference",
+        "publication_venue": "2024 ACM/IEEE 15th International Conference on Cyber-Physical Systems (ICCPS)",
+        "title": "Control Corruption without Firmware Infection: Stealthy Supply Chain Attacks via PLC Hardware Implants (MalTag)",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2731,9 +2919,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1552,
+  "prefilter_review_overflow": 1555,
   "query_index": 17,
-  "secondary": 243,
-  "skipped": 4412,
+  "secondary": 246,
+  "skipped": 4416,
   "version": 1
 }

@@ -2488,6 +2488,14 @@
       "title": "Retraction Note: A software/hardware secure watermarking scheme for Internet of Things applications",
       "updated_at": "2026-11-02T18:50:42.736986+00:00"
     },
+    "doi:10.1007/s11128-024-04421-x": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Software-based remote memory attestation using quantum entanglement",
+      "updated_at": "2026-11-10T00:36:32.829075+00:00"
+    },
     "doi:10.1007/s11227-024-06761-y": {
       "category": "secondaire",
       "decision": "examiner",
@@ -2679,6 +2687,14 @@
       "status": "rejected",
       "title": "Isadora: automated information-flow property generation for hardware security verification",
       "updated_at": "2026-11-07T23:15:14.522581+00:00"
+    },
+    "doi:10.1007/s13389-024-00355-3": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Universal Gaussian elimination hardware for cryptographic purposes",
+      "updated_at": "2026-11-10T00:36:32.751579+00:00"
     },
     "doi:10.1007/s13389-024-00362-4": {
       "category": "coeur",
@@ -6504,6 +6520,14 @@
       "title": "A true random number generator based on double threshold-switching memristors for image encryption",
       "updated_at": "2026-11-07T02:13:33.415805+00:00"
     },
+    "doi:10.1063/5.0183292": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Volatile threshold switching devices for hardware security primitives: Exploiting intrinsic variability as an entropy source",
+      "updated_at": "2026-11-10T00:36:32.775863+00:00"
+    },
     "doi:10.1063/5.0249193": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -6615,6 +6639,14 @@
       "status": "rejected",
       "title": "Bypassing software-based remote attestation using debug registers",
       "updated_at": "2026-11-05T05:15:18.876753+00:00"
+    },
+    "doi:10.1080/15325008.2024.2352785": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Rapid Prototyping and Hardware-In-the-Loop Verification of Enhanced Sliding Mode Control of an Asynchronous Machine Using a Xilinx System Generator and an FPGA-Zynq Board",
+      "updated_at": "2026-11-10T00:36:32.801593+00:00"
     },
     "doi:10.1080/17445760.2024.2442001": {
       "category": "secondaire",
@@ -8399,6 +8431,14 @@
       "status": "rejected",
       "title": "Leveraging Trusted Execution Environments For Data Security in Healthcare Workflows",
       "updated_at": "2026-10-31T11:14:40.055936+00:00"
+    },
+    "doi:10.1109/bigdatasecurity62737.2024.00037": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "AI-Finger: From Physical Unclonable Function to AI-Hardware Fingerprint",
+      "updated_at": "2026-11-10T00:37:21.657042+00:00"
     },
     "doi:10.1109/caibda65784.2025.11182748": {
       "category": "hors_sujet",
@@ -10504,6 +10544,30 @@
       "title": "LightFAt: Mitigating Control-Flow Explosion via Lightweight PMU-Based Control-Flow Attestation",
       "updated_at": "2026-11-04T08:13:52.969473+00:00"
     },
+    "doi:10.1109/host55342.2024.10545349": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 78,
+      "status": "imported",
+      "title": "Verifying Memory Confidentiality and Integrity of Intel TDX Trusted Execution Environments",
+      "updated_at": "2026-11-10T00:36:54.545904+00:00"
+    },
+    "doi:10.1109/host55342.2024.10545352": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Prioritizing Information Flow Violations: Generation of Ranked Security Assertions for Hardware Designs",
+      "updated_at": "2026-11-10T00:36:54.571578+00:00"
+    },
+    "doi:10.1109/host55342.2024.10545374": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "SpongePUF: A Modeling Attack Resilient Strong PUF with Scalable Challenge Response Pair",
+      "updated_at": "2026-11-10T00:36:54.597943+00:00"
+    },
     "doi:10.1109/host55342.2024.10545376": {
       "category": "coeur",
       "decision": "conserver",
@@ -10512,6 +10576,70 @@
       "title": "TrustZoneTunnel: A Cross-World Pattern History Table-Based Microarchitectural Side-Channel Attack",
       "updated_at": "2026-11-04T08:14:34.962020+00:00"
     },
+    "doi:10.1109/host55342.2024.10545377": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 70,
+      "status": "rejected",
+      "title": "LightEMU: Hardware Assisted Fuzzing of Trusted Applications",
+      "updated_at": "2026-11-10T00:36:54.625949+00:00"
+    },
+    "doi:10.1109/host55342.2024.10545381": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A Security Assessment of Protected Execute-Only Firmware in Microcontrollers Through Selective Chemical Engraving",
+      "updated_at": "2026-11-10T00:36:54.651295+00:00"
+    },
+    "doi:10.1109/host55342.2024.10545387": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "PhenoAuth: A Novel PUF-Phenotype-Based Authentication Protocol for IoT Devices",
+      "updated_at": "2026-11-10T00:37:04.070411+00:00"
+    },
+    "doi:10.1109/host55342.2024.10545393": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Empowering Hardware Security with LLM: The Development of a Vulnerable Hardware Database",
+      "updated_at": "2026-11-10T00:37:04.096484+00:00"
+    },
+    "doi:10.1109/host55342.2024.10545394": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "CTR+: A High-Performance Metadata Access Scheme for Secure Embedded Memory in Heterogeneous Computing Systems",
+      "updated_at": "2026-11-10T00:37:04.120553+00:00"
+    },
+    "doi:10.1109/host55342.2024.10545395": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Machine Learning Attacks on Challenge-Response Obfuscations in Strong PUFs",
+      "updated_at": "2026-11-10T00:37:04.144900+00:00"
+    },
+    "doi:10.1109/host55342.2024.10545396": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 35,
+      "status": "rejected",
+      "title": "Resurrection Attack: Defeating Xilinx MPU's Memory Protection",
+      "updated_at": "2026-11-10T00:37:04.168954+00:00"
+    },
+    "doi:10.1109/host55342.2024.10545397": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Non-Invasive Attack on Ring Oscillator-Based PUFs Through Localized X-Ray Irradiation",
+      "updated_at": "2026-11-10T00:37:04.192866+00:00"
+    },
     "doi:10.1109/host55342.2024.10545398": {
       "category": "coeur",
       "decision": "conserver",
@@ -10519,6 +10647,70 @@
       "status": "imported",
       "title": "Data-Oblivious ML Accelerators Using Hardware Security Extensions",
       "updated_at": "2026-11-04T08:15:33.601308+00:00"
+    },
+    "doi:10.1109/host55342.2024.10545400": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "A Pre-Silicon Physical Design Study Towards Mitigating EMSCA on Cryptographic ICs",
+      "updated_at": "2026-11-10T00:37:04.216768+00:00"
+    },
+    "doi:10.1109/host55342.2024.10545401": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Voltage Noise-Based Adversarial Attacks on Machine Learning Inference in Multi-Tenant FPGA Accelerators",
+      "updated_at": "2026-11-10T00:37:04.240896+00:00"
+    },
+    "doi:10.1109/host55342.2024.10545403": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Towards Practical Fabrication Stage Attacks Using Interrupt-Resilient Hardware Trojans",
+      "updated_at": "2026-11-10T00:37:04.265175+00:00"
+    },
+    "doi:10.1109/host55342.2024.10545405": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Too Hot to Handle: Novel Thermal Side-Channel in Power Attack-Protected Intel Processors",
+      "updated_at": "2026-11-10T00:37:04.289379+00:00"
+    },
+    "doi:10.1109/host55342.2024.10545407": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "DiSPEL: A Framework for SoC Security Policy Synthesis and Distributed Enforcement",
+      "updated_at": "2026-11-10T00:37:12.612481+00:00"
+    },
+    "doi:10.1109/host55342.2024.10545408": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "RTL-Spec: RTL Spectrum Analysis for Security Bug Localization",
+      "updated_at": "2026-11-10T00:37:12.637706+00:00"
+    },
+    "doi:10.1109/host55342.2024.10545412": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Photon Emission Modeling and Machine-Learning Assisted Pre-Silicon Optical Side-Channel Simulation",
+      "updated_at": "2026-11-10T00:37:12.662085+00:00"
+    },
+    "doi:10.1109/host55342.2024.10545415": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 74,
+      "status": "rejected",
+      "title": "Cache Wars: A Comparative Study of UMWAIT, UMONITOR, and Prime-Probe Attacks",
+      "updated_at": "2026-11-10T00:37:12.686187+00:00"
     },
     "doi:10.1109/host64725.2025.11050039": {
       "category": "secondaire",
@@ -16311,6 +16503,14 @@
       "status": "imported",
       "title": "Transient Execution Attacks",
       "updated_at": "2026-11-06T08:14:01.385481+00:00"
+    },
+    "doi:10.1109/msec.2024.3379768": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Hardware Security in the Era of Emerging Device and System Technologies",
+      "updated_at": "2026-11-10T00:36:32.726167+00:00"
     },
     "doi:10.1109/msec.2024.3381439": {
       "category": "coeur",
