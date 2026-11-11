@@ -6389,6 +6389,46 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.46586/tches.v2024.i1.180-206": {
+    "doi": "https://doi.org/10.46586/tches.v2024.i1.180-206",
+    "publication_date": "2023-12-04",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-12-04",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 90,
+    "source": "https://doi.org/10.46586/tches.v2024.i1.180-206",
+    "summary": "Cet article introduit SEV-Step, un framework de pas-à-pas (single-stepping) pour les environnements d'exécution de confiance (TEE) AMD SEV. Les auteurs démontrent que les machines virtuelles SEV peuvent être exécutées instruction par instruction de manière fiable, permettant d'atteindre une résolution temporelle maximale pour les attaques microarchitecturales. Le framework intègre également le suivi des défauts de page et des attaques par cache, et permet de mener une attaque de bout en bout extrayant une clé LUKS2, ainsi que la première application d'attaques de type Nemesis sur AMD SEV.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "SEV-Step A Single-Stepping Framework for AMD-SEV",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/tches.v2024.i1.457-500": {
+    "doi": "https://doi.org/10.46586/tches.v2024.i1.457-500",
+    "publication_date": "2023-12-04",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-12-04",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 92,
+    "source": "https://doi.org/10.46586/tches.v2024.i1.457-500",
+    "summary": "Cet article présente TeeJam, une nouvelle attaque microarchitecturale exploitant l'effet de repliement 4k (4k-aliasing) combiné au pas-à-pas d'enclaves SGX pour obtenir une résolution à l'échelle de la sous-ligne de cache. Les auteurs démontrent l'efficacité de cette méthode en brisant une implémentation durcie d'AES et en récupérant des clés RSA de 4096 bits en quelques minutes.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "TeeJam: Sub-Cache-Line Leakages Strike Back",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.46586/tches.v2024.i3.200-223": {
     "doi": "https://doi.org/10.46586/tches.v2024.i3.200-223",
     "publication_date": "2024-07-18",
