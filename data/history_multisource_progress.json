@@ -1,8 +1,8 @@
 {
   "accepted": 251,
   "completed": false,
-  "cursor": "MTY2NzU4MjcxODAwMCwxMC4xMTA5JTJGdG1jLjIwMjIuMzIxOTQ4NQ==",
-  "evaluated": 4839,
+  "cursor": "*",
+  "evaluated": 4864,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -365,14 +365,71 @@
     "monthly/2024-01/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2024-01/query-19 : résultat tronqué au plafond 12 pages",
     "monthly/2024-01/query-20 : résultat tronqué au plafond 12 pages",
-    "monthly/2024-01/query-21 : résultat tronqué au plafond 12 pages"
+    "monthly/2024-01/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2024-01/query-22 : résultat tronqué au plafond 12 pages",
+    "monthly/2024-01/query-23 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2024-01",
   "needs_publish": false,
-  "offset": 40,
-  "pages_done": 5216,
-  "pages_in_query": 1,
-  "pending": [],
+  "offset": 0,
+  "pages_done": 5239,
+  "pages_in_query": 0,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Karthikeyan Kalyanasundaram Balasubramanian"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mirco Di Salvo"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Walter Rocchia"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sergio Decherchi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Marco Crepaldi"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/access.2024.3389673",
+        "id": "https://doi.org/10.1109/access.2024.3389673",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/access.2024.3389673"
+        },
+        "publication_date": "2024-01-01",
+        "publication_date_note": "Date source Crossref : 2024 seulement ; classement indicatif en 2024-01.",
+        "publication_date_precision": "year",
+        "publication_date_source": "2024",
+        "publication_type": "revue",
+        "publication_venue": "IEEE Access",
+        "title": "Designing RISC-V Instruction Set Extensions for Artificial Neural Networks: An LLVM Compiler-Driven Perspective",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2776,9 +2833,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1797,
-  "query_index": 22,
-  "secondary": 261,
-  "skipped": 4911,
+  "prefilter_review_overflow": 1821,
+  "query_index": 24,
+  "secondary": 262,
+  "skipped": 4983,
   "version": 1
 }
