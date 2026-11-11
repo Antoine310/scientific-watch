@@ -5056,6 +5056,46 @@
     "venue_priority": 2,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.14722/ndss.2024.24105": {
+    "doi": "https://doi.org/10.14722/ndss.2024.24105",
+    "publication_date": "2024-01-01",
+    "publication_date_note": "Date source Crossref : 2024 seulement ; classement indicatif en 2024-01.",
+    "publication_date_precision": "year",
+    "publication_date_source": "2024",
+    "publication_type": "conference",
+    "publication_venue": "Network and Distributed System Security Symposium",
+    "score": 90,
+    "source": "https://doi.org/10.14722/ndss.2024.24105",
+    "summary": "Cet article présente BliMe (Blinded Memory), une architecture matérielle conçue pour sécuriser le calcul externalisé grâce à des extensions du jeu d'instructions (ISA) implémentant un suivi de taints (taint-tracking). L'approche combine un module de sécurité matériel (HSM) attestable, un moteur de chiffrement et le suivi de taints pour garantir la confidentialité des données face aux vulnérabilités du serveur, le tout évalué sur un processeur RISC-V BOOM avec de faibles surcoûts.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "BliMe: Verifiably Secure Outsourced Computation with Hardware-Enforced Taint Tracking",
+    "venue_landmark": "NDSS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.14722/ndss.2024.24815": {
+    "doi": "https://doi.org/10.14722/ndss.2024.24815",
+    "publication_date": "2024-01-01",
+    "publication_date_note": "Date source Crossref : 2024 seulement ; classement indicatif en 2024-01.",
+    "publication_date_precision": "year",
+    "publication_date_source": "2024",
+    "publication_type": "conference",
+    "publication_venue": "Network and Distributed System Security Symposium",
+    "score": 75,
+    "source": "https://doi.org/10.14722/ndss.2024.24815",
+    "summary": "Cet article présente zRA, un protocole d'attestation à distance (RA) non interactif et transparent basé sur les zk-SNARKs. Il permet de vérifier l'intégrité logicielle d'appareils distants sans nécessiter de clés pré-partagées ni de données confidentielles. Les preuves générées ont une taille constante, protègent la vie privée des états internes de l'appareil et permettent une vérification publique et auditable par n'importe qui, notamment via un déploiement sur blockchains publiques.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "From Interaction to Independence: zkSNARKs for Transparent and Non-Interactive Remote Attestation",
+    "venue_landmark": "NDSS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.14722/ndss.2025.230253": {
     "publication_date": "2025-01-01",
     "publication_type": "conference",
