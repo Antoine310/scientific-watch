@@ -3526,6 +3526,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3411504.3421216": {
+    "doi": "https://doi.org/10.1145/3411504.3421216",
+    "publication_date": "2020-11-05",
+    "publication_type": "conference",
+    "publication_venue": "CCS '20: 2020 ACM SIGSAC Conference on Computer and Communications Security",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3411504.3421216",
+    "summary": "SpectreRewind aborde les attaques par exécution spéculative qui exploitent des canaux cachés microarchitecturaux (comme les modifications d'état du cache) pour fuiter des secrets inaccessibles lors de l'exécution logique normale.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SpectreRewind",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3411505.3418437": {
     "doi": "https://doi.org/10.1145/3411505.3418437",
     "publication_date": "2020-11-02",
@@ -3542,6 +3559,23 @@
     "venue_note": "",
     "venue_priority": 2,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3428215": {
+    "doi": "https://doi.org/10.1145/3428215",
+    "publication_date": "2020-11-13",
+    "publication_type": "revue",
+    "publication_venue": "Proceedings of the ACM on Programming Languages",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3428215",
+    "summary": "Cet article présente SymO3, une technique basée sur l'exécution symbolique pour détecter les fuites par canal caché liées au temps d'accès au cache dans le contexte de l'exécution désordonnée (out-of-order) des processeurs modernes.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Exposing cache timing side-channel leaks through out-of-order symbolic execution",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1145/3433210.3453112": {
     "doi": "https://doi.org/10.1145/3433210.3453112",
@@ -7086,6 +7120,40 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2011.07400": {
+    "doi": "https://doi.org/10.48550/arxiv.2011.07400",
+    "publication_date": "2020-11-14",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 78,
+    "source": "http://arxiv.org/abs/2011.07400",
+    "summary": "Cet article présente Tiny-CFA, une technique d'attestation du flux de contrôle (CFA) conçue pour les microcontrôleurs bas de gamme (MCU). Elle repose sur une exigence matérielle unique : la capacité à générer des preuves d'exécution logicielle distante (PoX). Les auteurs démontrent une réduction significative du surcoût matériel et une amélioration des performances par rapport aux techniques existantes.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Tiny-CFA: A Minimalistic Approach for Control-Flow Attestation Using Verified Proofs of Execution",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.48550/arxiv.2011.10249": {
+    "doi": "https://doi.org/10.48550/arxiv.2011.10249",
+    "publication_date": "2020-11-20",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 95,
+    "source": "http://arxiv.org/abs/2011.10249",
+    "summary": "Cet article présente SIMF (Single-Instruction Multiple-Flush), un mécanisme matériel spécialisé conçu pour l'isolation temporelle des processeurs. Il vise à atténuer les attaques temporelles microarchitecturales en proposant une instruction d'extension du jeu d'instructions (ISA), appelée flushx, implémentée sur un processeur RISC-V scalaire en ordre. Le mécanisme permet de vider l'état au niveau du cœur (caches L1, BPU, TLBs, banc de registres) de manière beaucoup plus efficace que les solutions logicielles traditionnelles.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "SIMF: Single-Instruction Multiple-Flush Mechanism for Processor Temporal Isolation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2102.12730": {
     "doi": "https://doi.org/10.48550/arxiv.2102.12730",

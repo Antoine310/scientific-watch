@@ -3280,6 +3280,14 @@
       "title": "Physics-inspired Generative AI models via real hardware-based noisy quantum diffusion",
       "updated_at": "2026-11-02T14:00:07.642875+00:00"
     },
+    "doi:10.1007/s42514-020-00054-5": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A game theory approach for RTL security verification resources allocation",
+      "updated_at": "2026-11-11T23:14:46.899515+00:00"
+    },
     "doi:10.1007/s42514-024-00190-2": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -6847,6 +6855,14 @@
       "status": "rejected",
       "title": "Linking traditional and scientific knowledge to assess cultural keystone species in the Yangtze River Delta",
       "updated_at": "2026-11-02T08:32:08.012591+00:00"
+    },
+    "doi:10.1038/s41467-020-19324-5": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hybrid low-voltage physical unclonable function based on inkjet-printed metal-oxide transistors",
+      "updated_at": "2026-11-11T23:15:17.062632+00:00"
     },
     "doi:10.1038/s41467-021-23184-y": {
       "category": "secondaire",
@@ -25656,6 +25672,22 @@
       "title": "The Pomarinho enclave swarm: structural and petrological evidence of repeated quenching, splitting and magmatic erosion at the sidewalls of conduits (Iberian Variscan belt)",
       "updated_at": "2026-11-02T20:16:46.220256+00:00"
     },
+    "doi:10.1145/3411504.3421212": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Building a Modern TRNG",
+      "updated_at": "2026-11-11T23:15:27.178153+00:00"
+    },
+    "doi:10.1145/3411504.3421216": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "SpectreRewind",
+      "updated_at": "2026-11-11T23:14:41.011744+00:00"
+    },
     "doi:10.1145/3411505.3418437": {
       "category": "coeur",
       "decision": "conserver",
@@ -25663,6 +25695,14 @@
       "status": "imported",
       "title": "Protecting Enclaves from Intra-Core Side-Channel Attacks through Physical Isolation",
       "updated_at": "2026-11-11T20:16:15.491665+00:00"
+    },
+    "doi:10.1145/3428215": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Exposing cache timing side-channel leaks through out-of-order symbolic execution",
+      "updated_at": "2026-11-11T23:14:38.893104+00:00"
     },
     "doi:10.1145/3433210.3453112": {
       "category": "coeur",
@@ -40023,6 +40063,22 @@
       "status": "rejected",
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
+    },
+    "doi:10.48550/arxiv.2011.07400": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 78,
+      "status": "imported",
+      "title": "Tiny-CFA: A Minimalistic Approach for Control-Flow Attestation Using Verified Proofs of Execution",
+      "updated_at": "2026-11-11T23:14:09.668590+00:00"
+    },
+    "doi:10.48550/arxiv.2011.10249": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "SIMF: Single-Instruction Multiple-Flush Mechanism for Processor Temporal Isolation",
+      "updated_at": "2026-11-11T23:15:10.533328+00:00"
     },
     "doi:10.48550/arxiv.2102.09673": {
       "category": "secondaire",
