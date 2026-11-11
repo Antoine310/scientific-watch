@@ -3952,6 +3952,30 @@
       "title": "Towards a metrics suite for evaluating cache side-channel vulnerability: Case studies on an open-source RISC-V processor",
       "updated_at": "2026-11-11T16:39:30.983787+00:00"
     },
+    "doi:10.1016/j.cose.2023.103508": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "BinAIV: Semantic-enhanced vulnerability detection for Linux x86 binaries",
+      "updated_at": "2026-11-11T17:36:34.438440+00:00"
+    },
+    "doi:10.1016/j.cose.2023.103509": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "HT2ML: An efficient hybrid framework for privacy-preserving Machine Learning using HE and TEE",
+      "updated_at": "2026-11-11T17:36:34.478237+00:00"
+    },
+    "doi:10.1016/j.cose.2023.103514": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Evaluating the applicability of hardware trust anchors for automotive applications",
+      "updated_at": "2026-11-11T17:36:34.502196+00:00"
+    },
     "doi:10.1016/j.cose.2023.103568": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4584,6 +4608,14 @@
       "title": "Near-Infrared Off-Axis integrated cavity output spectroscopic sensor system for ammonia leakage measurement in cold store using embedded Multi-Core processor",
       "updated_at": "2026-11-10T20:37:07.166596+00:00"
     },
+    "doi:10.1016/j.iot.2023.100937": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "A secure and efficient AKE scheme for IoT devices using PUF and cancellable biometrics",
+      "updated_at": "2026-11-11T17:38:35.369674+00:00"
+    },
     "doi:10.1016/j.iot.2023.101041": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4671,6 +4703,14 @@
       "status": "rejected",
       "title": "Pontis: A decentralized framework for unifying remote attestation and enabling interoperability between heterogeneous TEEs",
       "updated_at": "2026-11-02T20:17:56.115171+00:00"
+    },
+    "doi:10.1016/j.jallcom.2023.172329": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Hardware-based security devices using a physical unclonable function created by the irregular grain boundaries found in perovskite calcium titanate",
+      "updated_at": "2026-11-11T17:36:34.399682+00:00"
     },
     "doi:10.1016/j.jallcom.2026.187287": {
       "category": "secondaire",
@@ -16504,6 +16544,14 @@
       "title": "Enhancing DFT Security in Chiplet-Based Systems With Encryption and Integrity Checking",
       "updated_at": "2026-11-04T17:53:03.964173+00:00"
     },
+    "doi:10.1109/jiot.2023.3284345": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Toward Secure and Efficient Collaborative Cached Data Auditing for Distributed Fog Computing",
+      "updated_at": "2026-11-11T17:37:22.836088+00:00"
+    },
     "doi:10.1109/jiot.2023.3285930": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -17663,6 +17711,14 @@
       "status": "rejected",
       "title": "Hardware-Level Secure Coding",
       "updated_at": "2026-11-10T15:41:04.019717+00:00"
+    },
+    "doi:10.1109/les.2023.3299202": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "NvMISC : Toward an FPGA-Based Emulation Platform for RISC-V and Nonvolatile Memories",
+      "updated_at": "2026-11-11T17:40:50.605262+00:00"
     },
     "doi:10.1109/les.2023.3333561": {
       "category": "secondaire",
@@ -21424,6 +21480,14 @@
       "title": "Side Channel Security Oriented Evaluation and Protection on Hardware Implementations of Kyber",
       "updated_at": "2026-11-11T16:37:35.264012+00:00"
     },
+    "doi:10.1109/tcsi.2023.3315604": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "An Efficient Fault-Tolerant Instruction Decoder for RISC-V Based Dual-Core Soft-Processors",
+      "updated_at": "2026-11-11T17:40:40.478893+00:00"
+    },
     "doi:10.1109/tcsi.2023.3316890": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -23352,6 +23416,14 @@
       "title": "Practical Implementation of Robust State-Space Obfuscation for Hardware IP Protection",
       "updated_at": "2026-11-10T22:41:34.148922+00:00"
     },
+    "doi:10.1109/tvlsi.2023.3314135": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Impact of 3-D Integration on Thermal Performance of RISC-V MemPool Multicore SOC",
+      "updated_at": "2026-11-11T17:40:50.580251+00:00"
+    },
     "doi:10.1109/tvlsi.2023.3335876": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -24839,6 +24911,14 @@
       "status": "rejected",
       "title": "A memristor-based unified PUF and TRNG chip with a concealable ability for advanced edge security",
       "updated_at": "2026-10-30T11:01:17.572271+00:00"
+    },
+    "doi:10.1128/msystems.00755-23": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Grass-legume mixtures maintain forage biomass under microbial diversity loss via gathering Pseudomonas in root zone soil",
+      "updated_at": "2026-11-11T17:38:44.965758+00:00"
     },
     "doi:10.1128/msystems.01124-23": {
       "category": "hors_sujet",
@@ -29480,6 +29560,14 @@
       "title": "Abstract C062: Enclave residence and social connectedness among Chinese immigrants in Philadelphia",
       "updated_at": "2026-10-31T07:10:38.187571+00:00"
     },
+    "doi:10.11591/eei.v12i6.5394": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A critical review of the state of computer security in the health sector",
+      "updated_at": "2026-11-11T17:41:03.017999+00:00"
+    },
     "doi:10.11591/eei.v14i1.8243": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -32224,6 +32312,14 @@
       "title": "Review: Co-designing ab initio electronic structure methods on a RISC-V vector architecture (Round4/Review1)",
       "updated_at": "2026-11-04T21:24:32.728891+00:00"
     },
+    "doi:10.2196/51277": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Secure Messaging Intervention in Patients Starting New Antidepressant to Promote Adherence: Pilot Randomized Controlled Trial",
+      "updated_at": "2026-11-11T17:38:44.942464+00:00"
+    },
     "doi:10.2196/60332": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -34143,6 +34239,14 @@
       "status": "rejected",
       "title": "Ensuring cybersecurity for industrial networks: A solution for ARP-based MITM attacks",
       "updated_at": "2026-11-10T23:39:55.889260+00:00"
+    },
+    "doi:10.3233/jifs-234164": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Secure double MAC implementation for STBC based FECG monitoring",
+      "updated_at": "2026-11-11T17:38:35.345501+00:00"
     },
     "doi:10.32362/2500-316x-2024-12-4-23-39": {
       "category": "secondaire",
