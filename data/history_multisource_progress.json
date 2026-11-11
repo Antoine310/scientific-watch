@@ -1,8 +1,8 @@
 {
   "accepted": 256,
   "completed": false,
-  "cursor": "MTcwODk3NjczNjAwMCwxMC4xMTA5JTJGZ2xvYmVjb201NDE0MC4yMDIzLjEwNDM3MzY0",
-  "evaluated": 4945,
+  "cursor": "MTY5NzI4MjUwMzAwMCwxMC4xMDE2JTJGai5jc2NtLjIwMjMuZTAyNTc2",
+  "evaluated": 4964,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -372,64 +372,15 @@
     "monthly/2023-12/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2023-12/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2023-12/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2023-12/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2023-12/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2023-12/query-18 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2023-12",
   "needs_publish": false,
-  "offset": 320,
-  "pages_done": 5320,
-  "pages_in_query": 8,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Parin Shah"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Yuvaraj Govindarajulu"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Pavan Kulkarni"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Manojkumar Parmar"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/icdds59137.2023.10434373",
-        "id": "https://doi.org/10.1109/icdds59137.2023.10434373",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/icdds59137.2023.10434373"
-        },
-        "publication_date": "2023-12-01",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2023-12-01",
-        "publication_type": "conference",
-        "publication_venue": "2023 IEEE 2nd International Conference on Data, Decision and Systems (ICDDS)",
-        "title": "Exploring AI Attacks on Hardware Accelerated Targets",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    }
-  ],
+  "offset": 400,
+  "pages_done": 5345,
+  "pages_in_query": 10,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2833,9 +2784,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1849,
-  "query_index": 17,
+  "prefilter_review_overflow": 1854,
+  "query_index": 19,
   "secondary": 270,
-  "skipped": 5026,
+  "skipped": 5040,
   "version": 1
 }
