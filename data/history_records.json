@@ -6570,6 +6570,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.48550/arxiv.2103.04533": {
+    "doi": "https://doi.org/10.48550/arxiv.2103.04533",
+    "publication_date": "2021-03-08",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2103.04533",
+    "summary": "Cet article présente Volcano, une attaque par canal auxiliaire sur les caches qui est sans état (« stateless ») et exploite la congestion de l'interconnexion en maillage (mesh interconnect) des CPU Intel. Contrairement aux attaques traditionnelles qui mesurent les changements d'état microarchitecturaux, Volcano contourne les isolations spatiales et temporelles en mesurant les variations de temps d'accès causées par la contention sur les liens du réseau partagé. Les auteurs démontrent l'efficacité de leur méthode en récupérant partiellement une clé privée RSA sous JDK.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Volcano: Stateless Cache Side-channel Attack by Exploiting Mesh Interconnect",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.48550/arxiv.2105.02466": {
     "doi": "https://doi.org/10.48550/arxiv.2105.02466",
     "publication_date": "2021-05-06",
