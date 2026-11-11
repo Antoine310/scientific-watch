@@ -784,6 +784,22 @@
       "title": "Hardware Security Module",
       "updated_at": "2026-11-07T10:36:44.569615+00:00"
     },
+    "doi:10.1007/978-3-030-88428-4_19": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "SERVAS! Secure Enclaves via RISC-V Authenticryption Shield",
+      "updated_at": "2026-11-11T14:13:33.621502+00:00"
+    },
+    "doi:10.1007/978-3-030-90370-1_15": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Strategic Remote Attestation: Testbed for Internet-of-Things Devices and Stackelberg Security Game for Optimal Strategies",
+      "updated_at": "2026-11-11T14:14:54.322065+00:00"
+    },
     "doi:10.1007/978-3-031-08147-7_15": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -8104,6 +8120,46 @@
       "title": "BIONIC: A 64-Core SNN/RISC-V Reconfigurable Processor with Hybrid On-Chip Learning Achieving 0.62 pJ/SOP and >99% Core Utilization",
       "updated_at": "2026-11-04T13:24:37.769357+00:00"
     },
+    "doi:10.1109/access.2021.3056190": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Defeating Hardware Prefetchers in Flush+Reload Side-Channel Attack",
+      "updated_at": "2026-11-11T14:19:14.587429+00:00"
+    },
+    "doi:10.1109/access.2021.3067697": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "CRAFT: A Continuous Remote Attestation Framework for IoT",
+      "updated_at": "2026-11-11T14:14:54.322086+00:00"
+    },
+    "doi:10.1109/access.2021.3069223": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "MeetGo: A Trusted Execution Environment for Remote Applications on FPGA",
+      "updated_at": "2026-11-11T14:14:29.545465+00:00"
+    },
+    "doi:10.1109/access.2021.3085524": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Systematic Literature Review on the Use of Trusted Execution Environments to Protect Cloud/Fog-Based Internet of Things Applications",
+      "updated_at": "2026-11-11T14:14:50.527167+00:00"
+    },
+    "doi:10.1109/access.2021.3112202": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "TS-Perf: General Performance Measurement of Trusted Execution Environment and Rich Execution Environment on Intel SGX, Arm TrustZone, and RISC-V Keystone",
+      "updated_at": "2026-11-11T14:14:34.033054+00:00"
+    },
     "doi:10.1109/access.2021.3119220": {
       "category": "coeur",
       "decision": "conserver",
@@ -8111,6 +8167,22 @@
       "status": "imported",
       "title": "A Taxonomy and Review of Remote Attestation Schemes in Embedded Systems",
       "updated_at": "2026-11-11T11:15:16.218385+00:00"
+    },
+    "doi:10.1109/access.2021.3124761": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "Exploring Cortex-M Microarchitectural Side Channel Information Leakage",
+      "updated_at": "2026-11-11T14:14:36.975521+00:00"
+    },
+    "doi:10.1109/access.2021.3134256": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "A Real-Time Cache Side-Channel Attack Detection System on RISC-V Out-of-Order Processor",
+      "updated_at": "2026-11-11T14:19:20.168173+00:00"
     },
     "doi:10.1109/access.2022.3142536": {
       "category": "secondaire",
@@ -20136,6 +20208,22 @@
       "title": "Leaking Information Through Cache LRU States in Commercial Processors and Secure Caches",
       "updated_at": "2026-11-11T11:14:49.883396+00:00"
     },
+    "doi:10.1109/tc.2021.3124320": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 74,
+      "status": "rejected",
+      "title": "A First Look at RISC-V Virtualization from an Embedded Systems Perspective",
+      "updated_at": "2026-11-11T14:20:24.085186+00:00"
+    },
+    "doi:10.1109/tc.2021.3126150": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Evaluation of Cache Attacks on Arm Processors and Secure Caches",
+      "updated_at": "2026-11-11T14:20:26.903459+00:00"
+    },
     "doi:10.1109/tc.2022.3148379": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -29720,6 +29808,14 @@
       "title": "Byzantine-Resilient Runtime Attestation for Resource-Constrained ECUs",
       "updated_at": "2026-11-01T14:13:21.562692+00:00"
     },
+    "doi:10.13089/jkiisc.2021.31.4.545": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Analyzing Trends of Commoditized Confidential Computing Frameworks for Implementing Trusted Execution Environment Applications",
+      "updated_at": "2026-11-11T14:14:29.545474+00:00"
+    },
     "doi:10.13121/polito/porto/3006045": {
       "category": "secondaire",
       "decision": "examiner",
@@ -29975,6 +30071,30 @@
       "status": "rejected",
       "title": "Foliar supplements improve physio-biochemical responses and root Brix in sugar beet under water deficit condition",
       "updated_at": "2026-11-02T18:17:44.725767+00:00"
+    },
+    "doi:10.14722/laser-ndss.2021.24286": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Reflections on the Experimental Evaluation of a Binary-Level Symbolic Analyzer for Spectre",
+      "updated_at": "2026-11-11T14:19:22.549141+00:00"
+    },
+    "doi:10.14722/ndss.2021.24286": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "Hunting the Haunter — Efficient Relational Symbolic Execution for Spectre with Haunted RelSE",
+      "updated_at": "2026-11-11T14:19:12.128823+00:00"
+    },
+    "doi:10.14722/ndss.2021.24466": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "SpecTaint: Speculative Taint Analysis for Discovering Spectre Gadgets",
+      "updated_at": "2026-11-11T14:16:10.644240+00:00"
     },
     "doi:10.14722/ndss.2022.23110": {
       "category": "coeur",
@@ -30287,6 +30407,14 @@
       "status": "rejected",
       "title": "Optimized Multi-Response Enhanced CRO PUFs: Addressing Process Variation for Robust Hardware Security",
       "updated_at": "2026-11-06T15:36:49.942595+00:00"
+    },
+    "doi:10.1587/elex.18.20210041": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "A Defense Mechanism Against Transient Execution Attacks On SMT Processors",
+      "updated_at": "2026-11-11T14:19:17.415945+00:00"
     },
     "doi:10.1587/elex.20.20220477": {
       "category": "coeur",
@@ -46023,6 +46151,14 @@
       "status": "rejected",
       "title": "Securing the Invisible Thread: A Comprehensive Analysis of BLE Tracker Security in Apple AirTags and Samsung SmartTags",
       "updated_at": "2026-11-11T08:36:47.895268+00:00"
+    },
+    "title:securingthepubliccloudhostobscurecomputingwithsecureenclaves": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Securing the Public Cloud: Host-Obscure Computing with Secure Enclaves",
+      "updated_at": "2026-11-11T14:14:29.545438+00:00"
     },
     "title:securingtransformerbasedaiexecutionviaunifiedteesandcryptoprotectedaccelerators": {
       "category": "secondaire",

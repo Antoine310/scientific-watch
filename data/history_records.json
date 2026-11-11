@@ -275,6 +275,40 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/access.2021.3056190": {
+    "doi": "https://doi.org/10.1109/access.2021.3056190",
+    "publication_date": "2021-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Access",
+    "score": 85,
+    "source": "https://doi.org/10.1109/access.2021.3056190",
+    "summary": "Cette publication étudie l'impact des pré-chercheurs matériels (hardware prefetchers) sur les attaques par canal auxiliaire de type Flush+Reload. Les auteurs proposent une version améliorée de l'attaque qui minimise ces interférences en s'appuyant sur l'ingénierie inverse des pré-chercheurs et un modèle d'évaluation, permettant de positionner finement les sondes.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Defeating Hardware Prefetchers in Flush+Reload Side-Channel Attack",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/access.2021.3112202": {
+    "doi": "https://doi.org/10.1109/access.2021.3112202",
+    "publication_date": "2021-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Access",
+    "score": 75,
+    "source": "https://doi.org/10.1109/access.2021.3112202",
+    "summary": "Cet article présente TS-perf, une méthode de mesure de performance basée sur un compilateur pour comparer les environnements d'exécution de confiance (TEE) et les environnements d'exécution riches (REE) sur différentes architectures matérielles (Intel SGX, Arm TrustZone et RISC-V Keystone).",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "TS-Perf: General Performance Measurement of Trusted Execution Environment and Rich Execution Environment on Intel SGX, Arm TrustZone, and RISC-V Keystone",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/access.2021.3119220": {
     "doi": "https://doi.org/10.1109/access.2021.3119220",
     "publication_date": "2021-01-01",
@@ -287,6 +321,40 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "A Taxonomy and Review of Remote Attestation Schemes in Embedded Systems",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/access.2021.3124761": {
+    "doi": "https://doi.org/10.1109/access.2021.3124761",
+    "publication_date": "2021-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Access",
+    "score": 80,
+    "source": "https://doi.org/10.1109/access.2021.3124761",
+    "summary": "Cet article propose un cadre au niveau du jeu d'instructions (ISA) pour caractériser les fuites d'informations microarchitecturales et extraire un profil de fuite pour les processeurs supersolides en ordre, appliqué ici aux ARM Cortex-M4 et Cortex-M7.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Exploring Cortex-M Microarchitectural Side Channel Information Leakage",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/access.2021.3134256": {
+    "doi": "https://doi.org/10.1109/access.2021.3134256",
+    "publication_date": "2021-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Access",
+    "score": 95,
+    "source": "https://doi.org/10.1109/access.2021.3134256",
+    "summary": "Ce travail présente un système de détection en temps réel des attaques par canal caché (type Spectre) sur un processeur RISC-V à exécution désordonnée, combinant les compteurs de performance matérielle (HPC) et un réseau de neurones (perceptron multicouche). L'approche atteint une précision supérieure à 99 % avec un faible surcoût de performance.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "A Real-Time Cache Side-Channel Attack Detection System on RISC-V Out-of-Order Processor",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -2547,6 +2615,23 @@
       "T08 — Cache & Temporal Isolation"
     ],
     "title": "Leaking Information Through Cache LRU States in Commercial Processors and Secure Caches",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/tc.2021.3126150": {
+    "doi": "https://doi.org/10.1109/tc.2021.3126150",
+    "publication_date": "2021-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computers",
+    "score": 85,
+    "source": "https://doi.org/10.1109/tc.2021.3126150",
+    "summary": "Cette publication présente une analyse systématique et à grande échelle des attaques par canaux cachés temporels sur les caches de processeurs Arm. Elle introduit de nouveaux benchmarks de sécurité adaptés aux architectures Arm, évalue 34 appareils physiques via un banc d'essai cloud, et étudie l'efficacité ainsi que les faiblesses de nouvelles architectures de caches sécurisés (PL et RF).",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Evaluation of Cache Attacks on Arm Processors and Secure Caches",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -5022,6 +5107,57 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.14722/laser-ndss.2021.24286": {
+    "doi": "https://doi.org/10.14722/laser-ndss.2021.24286",
+    "publication_date": "2021-01-01",
+    "publication_type": "conference",
+    "publication_venue": "Learning from Authoritative Security Experiment Results",
+    "score": 75,
+    "source": "https://doi.org/10.14722/laser-ndss.2021.24286",
+    "summary": "Cet article analyse l'évaluation expérimentale d'un analyseur symbolique au niveau binaire nommé BINSEC/HAUNTED, conçu pour détecter les vulnérabilités Spectre. Au-delà des aspects expérimentaux de l'outil, les auteurs prennent du recul pour formuler des conclusions générales sur la reproductibilité des artefacts, la méthodologie, la comparaison d'outils, ainsi que sur les défis spécifiques liés à la détection de Spectre (validation de prototypes sans vérité terrain accessible) et à l'analyse au niveau binaire par exécution symbolique.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Reflections on the Experimental Evaluation of a Binary-Level Symbolic Analyzer for Spectre",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.14722/ndss.2021.24286": {
+    "doi": "https://doi.org/10.14722/ndss.2021.24286",
+    "publication_date": "2021-01-01",
+    "publication_type": "conference",
+    "publication_venue": "Network and Distributed System Security Symposium",
+    "score": 88,
+    "source": "https://doi.org/10.14722/ndss.2021.24286",
+    "summary": "Cette publication présente Haunted RelSE, une optimisation de l'exécution symbolique relationnelle pour la détection efficace des vulnérabilités Spectre au niveau binaire. Les auteurs démontrent sa correction sémantique, introduisent un nouveau jeu de tests pour Spectre-STL, et montrent que leur outil surpasse l'état de l'art en analysant des bibliothèques cryptographiques et en découvrant de nouvelles violations, notamment induites par certaines défenses ou options de compilation.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Hunting the Haunter — Efficient Relational Symbolic Execution for Spectre with Haunted RelSE",
+    "venue_landmark": "NDSS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.14722/ndss.2021.24466": {
+    "doi": "https://doi.org/10.14722/ndss.2021.24466",
+    "publication_date": "2021-01-01",
+    "publication_type": "conference",
+    "publication_venue": "Network and Distributed System Security Symposium",
+    "score": 85,
+    "source": "https://doi.org/10.14722/ndss.2021.24466",
+    "summary": "Cet article présente SpecTaint, une technique novatrice de détection des gadgets Spectre basée sur l'analyse de taint dynamique sur les chemins d'exécution spéculative. Les auteurs utilisent un émulateur de processeur au niveau du système pour simuler et explorer l'exécution spéculative, démontrant une meilleure précision et un rappel supérieur par rapport aux méthodes existantes, tout en réduisant la surcharge de performance après correction.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SpecTaint: Speculative Taint Analysis for Discovering Spectre Gadgets",
+    "venue_landmark": "NDSS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.14722/ndss.2022.23110": {
     "doi": "https://doi.org/10.14722/ndss.2022.23110",
     "publication_date": "2022-01-01",
@@ -5179,6 +5315,23 @@
     "venue_note": "",
     "venue_priority": 2,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1587/elex.18.20210041": {
+    "doi": "https://doi.org/10.1587/elex.18.20210041",
+    "publication_date": "2021-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEICE Electronics Express",
+    "score": 90,
+    "source": "https://doi.org/10.1587/elex.18.20210041",
+    "summary": "Ce papier propose un mécanisme de défense pour les processeurs SMT contre les attaques d'exécution transitoire utilisant le cache partagé. L'approche combine une étiquette de sécurité (security shadow label) pour différencier les requêtes de threads de niveaux de sécurité différents, et un cache d'exécution transitoire (transient execution cache) pour préserver l'historique des données, réparer l'état du cache et empêcher son altération par des chemins mal spéculés. Le système garantit l'invisibilité des états du cache face aux attaques avec un surcoût de performance de seulement 3,9%.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "A Defense Mechanism Against Transient Execution Attacks On SMT Processors",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1587/elex.20.20220477": {
     "doi": "https://doi.org/10.1587/elex.20.20220477",
