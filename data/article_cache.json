@@ -3080,6 +3080,14 @@
       "title": "A Secure RISC-V Processor Architecture with Pipeline AES Randomization and Speculation Attack Mitigation",
       "updated_at": "2026-11-02T19:17:36.281520+00:00"
     },
+    "doi:10.1007/s41635-020-00108-8": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "Towards Designing a Secure RISC-V System-on-Chip: ITUS",
+      "updated_at": "2026-11-11T20:15:14.749993+00:00"
+    },
     "doi:10.1007/s41635-021-00120-6": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -14232,6 +14240,14 @@
       "title": "A Novel Dual-Channel Isolated Current Source Gate Driver for High-Frequency MOSFET Operation: With Hardware-in-the-Loop Verification",
       "updated_at": "2026-11-07T10:36:53.835502+00:00"
     },
+    "doi:10.1109/icm50269.2020.9331821": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Hardware Security for eXtended Merkle Signature Scheme Using SRAM-based PUFs and TRNGs",
+      "updated_at": "2026-11-11T20:14:51.927523+00:00"
+    },
     "doi:10.1109/icm60448.2023.10378911": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -14311,6 +14327,14 @@
       "status": "rejected",
       "title": "Hardware-Acceleration Based Privacy-Aware Authentication Scheme for Internet of Vehicles",
       "updated_at": "2026-11-10T12:37:26.544509+00:00"
+    },
+    "doi:10.1109/icmla51294.2020.00101": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "HybriDG: Hybrid Dynamic Time Warping and Gaussian Distribution Model for Detecting Emerging Zero-Day Microarchitectural Side-Channel Attacks",
+      "updated_at": "2026-11-11T20:14:22.852903+00:00"
     },
     "doi:10.1109/icmmts62835.2025.10926015": {
       "category": "hors_sujet",
@@ -14519,6 +14543,14 @@
       "status": "imported",
       "title": "Secure Bootloader and Kernel Initialization in Embedded Systems Using Rust",
       "updated_at": "2026-10-31T23:14:45.367164+00:00"
+    },
+    "doi:10.1109/icsict49897.2020.9278286": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "HPME: A High-Performance Hardware Memory Encryption Engine Based on RISC-V TEE",
+      "updated_at": "2026-11-11T20:16:12.654338+00:00"
     },
     "doi:10.1109/icsict62049.2024.10830991": {
       "category": "secondaire",
@@ -21112,6 +21144,14 @@
       "title": "System-Level Isolation for Mixed-Criticality RISC-V SoCs: A “World” Reality Check",
       "updated_at": "2026-11-02T08:30:29.730765+00:00"
     },
+    "doi:10.1109/tcad.2020.3047976": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "An Overview of Hardware Security and Trust: Threats, Countermeasures, and Design Tools",
+      "updated_at": "2026-11-11T20:14:38.123309+00:00"
+    },
     "doi:10.1109/tcad.2021.3096464": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -25455,6 +25495,14 @@
       "status": "rejected",
       "title": "The Pomarinho enclave swarm: structural and petrological evidence of repeated quenching, splitting and magmatic erosion at the sidewalls of conduits (Iberian Variscan belt)",
       "updated_at": "2026-11-02T20:16:46.220256+00:00"
+    },
+    "doi:10.1145/3411505.3418437": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "Protecting Enclaves from Intra-Core Side-Channel Attacks through Physical Isolation",
+      "updated_at": "2026-11-11T20:16:15.491665+00:00"
     },
     "doi:10.1145/3433210.3453112": {
       "category": "coeur",
@@ -31591,6 +31639,14 @@
       "status": "rejected",
       "title": "Lomalinda: enclave de un proyecto moderno-colonial. Notas sobre el Instituto Lingüístico de Verano en Colombia",
       "updated_at": "2026-11-10T17:37:22.274818+00:00"
+    },
+    "doi:10.18122/td/1770/boisestate": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Novel Memristor Based True Random Number Generator",
+      "updated_at": "2026-11-11T20:14:51.927537+00:00"
     },
     "doi:10.18137/rnu.v9187.26.03.p.151": {
       "category": "secondaire",
@@ -38016,6 +38072,14 @@
       "title": "EMPRESA DEL ESTADO: UN ENCLAVE ESTATAL EN TERRITORIO PRIVADO",
       "updated_at": "2026-11-05T02:24:53.938160+00:00"
     },
+    "doi:10.46586/tches.v2021.i1.109-136": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 49,
+      "status": "rejected",
+      "title": "The design of scalar AES Instruction Set Extensions for RISC-V",
+      "updated_at": "2026-11-11T20:14:30.857569+00:00"
+    },
     "doi:10.46586/tches.v2022.i1.28-68": {
       "category": "coeur",
       "decision": "conserver",
@@ -43087,6 +43151,14 @@
       "status": "imported",
       "title": "Mitigating spectre vulnerabilites in modern out-of-order cores",
       "updated_at": "2026-10-31T23:15:42.664080+00:00"
+    },
+    "doi:10.70675/67533d19z18f8z441ez8fabz37f757e6028a": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "Formal methods for the analysis of cache-timing leaks and key generation in cryptographic implementations",
+      "updated_at": "2026-11-11T20:14:26.133322+00:00"
     },
     "doi:10.70675/6c564653z0f13z40cezbe6fze5cb91fcc8aa": {
       "category": "coeur",

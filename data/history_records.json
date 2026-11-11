@@ -175,6 +175,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1007/s41635-020-00108-8": {
+    "doi": "https://doi.org/10.1007/s41635-020-00108-8",
+    "publication_date": "2020-11-10",
+    "publication_type": "revue",
+    "publication_venue": "Journal of Hardware and Systems Security",
+    "score": 95,
+    "source": "https://doi.org/10.1007/s41635-020-00108-8",
+    "summary": "Cet article présente la conception d'un système sur puce (SoC) sécurisé basé sur l'architecture RISC-V, nommé ITUS. Il intègre des blocs de construction pour la sécurité, incluant le démarrage sécurisé, la protection mémoire, la gestion de clés par PUF, des contre-mesures contre les canaux cachés micro-architecturaux et un TEE (Keystone Enclaves). Le prototype a été implémenté sur FPGA à partir du projet lowRISC.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Towards Designing a Secure RISC-V System-on-Chip: ITUS",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1016/j.cose.2023.103180": {
     "doi": "https://doi.org/10.1016/j.cose.2023.103180",
     "publication_date": "2023-03-14",
@@ -1443,6 +1460,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/icmla51294.2020.00101": {
+    "doi": "https://doi.org/10.1109/icmla51294.2020.00101",
+    "publication_date": "2020-12-01",
+    "publication_type": "conference",
+    "publication_venue": "International Conference on Machine Learning and Applications",
+    "score": 85,
+    "source": "https://doi.org/10.1109/icmla51294.2020.00101",
+    "summary": "La publication présente HybriDG, un modèle hybride léger combinant la Dynamic Time Warping (DTW) et un modèle de distribution gaussienne pour détecter en temps réel les attaques par canal auxiliaire microarchitecturales connues et émergentes (zero-day), en utilisant des compteurs de performance matériels (HPC).",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "HybriDG: Hybrid Dynamic Time Warping and Gaussian Distribution Model for Detecting Emerging Zero-Day Microarchitectural Side-Channel Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/icnisc57059.2022.00016": {
     "doi": "https://doi.org/10.1109/icnisc57059.2022.00016",
     "publication_date": "2022-09-01",
@@ -1475,6 +1509,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/icsict49897.2020.9278286": {
+    "doi": "https://doi.org/10.1109/icsict49897.2020.9278286",
+    "publication_date": "2020-11-03",
+    "publication_type": "conference",
+    "publication_venue": "IEEE International Conference on Solid-State and Integrated Circuit Technology",
+    "score": 90,
+    "source": "https://doi.org/10.1109/icsict49897.2020.9278286",
+    "summary": "Cet article propose un moteur de chiffrement de mémoire matériel à haute performance intégré dans un SoC RISC-V, visant à sécuriser le contenu de la mémoire pour les appareils IoT et les environnements d'exécution de confiance (TEE) comme Keystone.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "HPME: A High-Performance Hardware Memory Encryption Engine Based on RISC-V TEE",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/ietacs68750.2025.11385713": {
     "publication_date": "2025-11-06",
@@ -3473,6 +3524,23 @@
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3411505.3418437": {
+    "doi": "https://doi.org/10.1145/3411505.3418437",
+    "publication_date": "2020-11-02",
+    "publication_type": "conference",
+    "publication_venue": "CCS '20: 2020 ACM SIGSAC Conference on Computer and Communications Security",
+    "score": 88,
+    "source": "https://doi.org/10.1145/3411505.3418437",
+    "summary": "Ce papier propose un système protégeant les enclaves logicielles contre les attaques par canal auxiliaire intra-cœur et inter-cœur. La méthode repose sur l'isolation physique des enclaves sur des cœurs sécurisés séparés et sur une refonte de la hiérarchie mémoire basée sur la propriété des enclaves. L'évaluation porte sur les performances de communication, la surcharge mémoire et la surface matérielle.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Protecting Enclaves from Intra-Core Side-Channel Attacks through Physical Isolation",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
     "venue_provenance": "Crossref"
   },
   "doi:10.1145/3433210.3453112": {
@@ -8235,6 +8303,23 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Mitigating spectre vulnerabilites in modern out-of-order cores"
+  },
+  "doi:10.70675/67533d19z18f8z441ez8fabz37f757e6028a": {
+    "doi": "https://doi.org/10.70675/67533d19z18f8z441ez8fabz37f757e6028a",
+    "publication_date": "2020-12-07",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 80,
+    "source": "https://doi.org/10.70675/67533d19z18f8z441ez8fabz37f757e6028a",
+    "summary": "Cette thèse applique des méthodes formelles à deux problématiques de sécurité des implémentations : d'une part, l'analyse et la prévention des canaux auxiliaires logiciels de type cache-timing dans des programmes en C (notamment pour les candidats de cryptographie post-quantique du NIST) ; d'autre part, l'évaluation des garanties théoriques de stabilité et d'entropie pour les Physically Unclonable Functions (PUFs) utilisées en sécurité matérielle.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Formal methods for the analysis of cache-timing leaks and key generation in cryptographic implementations",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.70675/6c564653z0f13z40cezbe6fze5cb91fcc8aa": {
     "doi": "https://doi.org/10.70675/6c564653z0f13z40cezbe6fze5cb91fcc8aa",
