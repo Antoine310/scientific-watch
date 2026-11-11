@@ -1,8 +1,8 @@
 {
   "accepted": 251,
   "completed": false,
-  "cursor": "MTcxMjc0Nzc3MDAwMCwxMC4zMTY3MyUyRjI0MTItOTA3MC4yMDI0LjAxNDE0Nw==",
-  "evaluated": 4828,
+  "cursor": "*",
+  "evaluated": 4836,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -360,216 +360,17 @@
     "monthly/2024-01/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2024-01/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2024-01/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2024-01/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2024-01/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2024-01/query-17 : résultat tronqué au plafond 12 pages",
+    "monthly/2024-01/query-18 : résultat tronqué au plafond 12 pages",
+    "monthly/2024-01/query-19 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2024-01",
   "needs_publish": false,
-  "offset": 440,
-  "pages_done": 5166,
-  "pages_in_query": 11,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "R Sivaraman"
-            }
-          },
-          {
-            "author": {
-              "display_name": "D Muralidaran"
-            }
-          },
-          {
-            "author": {
-              "display_name": "R Muthaiah"
-            }
-          },
-          {
-            "author": {
-              "display_name": "V S Shankar Sriram"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/vlsid60093.2024.00086",
-        "id": "https://doi.org/10.1109/vlsid60093.2024.00086",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/vlsid60093.2024.00086"
-        },
-        "publication_date": "2024-01-06",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2024-01-06",
-        "publication_type": "conference",
-        "publication_venue": "2024 37th International Conference on VLSI Design and 2024 23rd International Conference on Embedded Systems (VLSID)",
-        "title": "Characteristic Exploitation of Programmable Delay Line Influenced Oscillator Circuit as Hardware Security Primitive",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "S Deepanjali"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ayesha Shaik"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Sk Noor Mahammad"
-            }
-          },
-          {
-            "author": {
-              "display_name": "S Beautlin"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/vlsid60093.2024.00119",
-        "id": "https://doi.org/10.1109/vlsid60093.2024.00119",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/vlsid60093.2024.00119"
-        },
-        "publication_date": "2024-01-06",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2024-01-06",
-        "publication_type": "conference",
-        "publication_venue": "2024 37th International Conference on VLSI Design and 2024 23rd International Conference on Embedded Systems (VLSID)",
-        "title": "Evolvable Hardware for Fault Mitigation in Control Circuits",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Arpan Jati"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Naina Gupta"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Anupam Chattopadhyay"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Somitra Kumar Sanadhya"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1007/978-3-031-57543-3_3",
-        "id": "https://doi.org/10.1007/978-3-031-57543-3_3",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1007/978-3-031-57543-3_3"
-        },
-        "publication_date": "2024-04-03",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2024-04-03",
-        "publication_type": "inconnu",
-        "publication_venue": "Lecture Notes in Computer Science",
-        "title": "EFFLUX-F2: A High Performance Hardware Security Evaluation Board",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Subashiny Tanigassalame"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Yohan Pipereau"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Adam Chader"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jana Toljaga"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Gaël Thomas"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1007/978-3-031-57916-5_7",
-        "id": "https://doi.org/10.1007/978-3-031-57916-5_7",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1007/978-3-031-57916-5_7"
-        },
-        "publication_date": "2024-04-09",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2024-04-09",
-        "publication_type": "inconnu",
-        "publication_venue": "Lecture Notes on Data Engineering and Communications Technologies",
-        "title": "FastSGX: A Message-Passing Based Runtime for SGX",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    }
-  ],
+  "offset": 0,
+  "pages_done": 5191,
+  "pages_in_query": 0,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2974,8 +2775,8 @@
     }
   ],
   "prefilter_review_overflow": 1796,
-  "query_index": 17,
+  "query_index": 20,
   "secondary": 261,
-  "skipped": 4895,
+  "skipped": 4902,
   "version": 1
 }
