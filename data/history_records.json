@@ -9823,6 +9823,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:titancfitowardenforcingcontrolflowintegrityintherootoftrust": {
+    "doi": "",
+    "publication_date": "2024-01-04",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 92,
+    "source": "http://arxiv.org/abs/2401.02567v1",
+    "summary": "Cet article présente TitanCFI, une approche novatrice pour appliquer l'intégrité du flux de contrôle (CFI) dans la Racine de Confiance (RoT) des plateformes RISC-V. En modifiant l'étage de validation (commit) du cœur protégé pour transmettre les instructions de contrôle à la RoT et en intégrant la politique de CFI dans le micrologiciel de la RoT, TitanCFI évite la modification de la chaîne d'outils de compilation et la conception de blocs IP matériels personnalisés, tout en exploitant les stockages inviolables et les accélérateurs cryptographiques de la RoT.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "TitanCFI: Toward Enforcing Control-Flow Integrity in the Root-of-Trust",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:tnicatrustednicarchitecture": {
     "doi": "",
     "publication_date": "2025-02-07",
