@@ -6096,6 +6096,14 @@
       "title": "Hardware/software security co-verification and vulnerability detection: An information flow perspective",
       "updated_at": "2026-11-11T08:39:04.771228+00:00"
     },
+    "doi:10.1016/j.vlsi.2023.102109": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "W-IQ: Wither-logic based issue queue for RISC-V superscalar out-of-order processor",
+      "updated_at": "2026-11-11T09:38:44.321148+00:00"
+    },
     "doi:10.1016/j.vlsi.2023.102111": {
       "category": "secondaire",
       "decision": "examiner",
@@ -6783,6 +6791,14 @@
       "status": "rejected",
       "title": "Hardware implementation of a true random number generator integrating a hexagonal boron nitride memristor with a commercial microcontroller",
       "updated_at": "2026-11-07T20:15:25.089245+00:00"
+    },
+    "doi:10.1039/d3nj04177h": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "A metastable small organic molecule for secure memory devices",
+      "updated_at": "2026-11-11T09:37:13.213390+00:00"
     },
     "doi:10.1039/d5an01178g": {
       "category": "hors_sujet",
@@ -16608,6 +16624,14 @@
       "title": "In-Memory Unified TRNG and Multi-Bit PUF for Ubiquitous Hardware Security",
       "updated_at": "2026-11-09T20:13:50.185519+00:00"
     },
+    "doi:10.1109/jssc.2023.3318301": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Marsellus: A Heterogeneous RISC-V AI-IoT End-Node SoC With 2–8 b DNN Acceleration and 30%-Boost Adaptive Body Biasing",
+      "updated_at": "2026-11-11T09:37:39.841489+00:00"
+    },
     "doi:10.1109/jssc.2024.3352048": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -17839,6 +17863,14 @@
       "status": "rejected",
       "title": "Accelerating ML Recommendation With Over 1,000 RISC-V/Tensor Processors on Esperanto's ET-SoC-1 Chip",
       "updated_at": "2026-11-09T14:13:32.826142+00:00"
+    },
+    "doi:10.1109/mm.2023.3335354": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 62,
+      "status": "rejected",
+      "title": "Cachet: Low-Overhead Integrity Verification on Metadata Cache in Secure Nonvolatile Memory Systems",
+      "updated_at": "2026-11-11T09:37:23.485668+00:00"
     },
     "doi:10.1109/mm.2024.3422977": {
       "category": "coeur",
@@ -20480,6 +20512,14 @@
       "title": "BnnRV: Hardware and Software Optimizations for Weight Sampling in Bayesian Neural Networks on Edge RISC-V Cores",
       "updated_at": "2026-11-03T12:40:33.967065+00:00"
     },
+    "doi:10.1109/tcbb.2023.3328714": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "An Event-Driven Approach to Genotype Imputation on a Custom RISC-V Cluster",
+      "updated_at": "2026-11-11T09:38:31.125365+00:00"
+    },
     "doi:10.1109/tcc.2023.3327290": {
       "category": "coeur",
       "decision": "conserver",
@@ -20711,6 +20751,14 @@
       "status": "rejected",
       "title": "A New Reconfigurable True Random Number Generator and Physical Unclonable Function Unified Chip With On-Chip Auto-Calibration",
       "updated_at": "2026-11-06T08:14:55.487426+00:00"
+    },
+    "doi:10.1109/tcsi.2023.3323425": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "HAMSA-DI: A Low-Power Dual-Issue RISC-V Core Targeting Energy-Efficient Embedded Systems",
+      "updated_at": "2026-11-11T09:37:51.520210+00:00"
     },
     "doi:10.1109/tcsi.2024.3350664": {
       "category": "hors_sujet",
@@ -21168,6 +21216,14 @@
       "title": "SpecBox: A Label-Based Transparent Speculation Scheme Against Transient Execution Attacks",
       "updated_at": "2026-11-09T14:15:27.358674+00:00"
     },
+    "doi:10.1109/tdsc.2023.3251418": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 78,
+      "status": "imported",
+      "title": "CacheIEE: Cache-Assisted Isolated Execution Environment on ARM Multi-Core Platforms",
+      "updated_at": "2026-11-11T09:36:52.497979+00:00"
+    },
     "doi:10.1109/tdsc.2023.3268169": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -21207,6 +21263,14 @@
       "status": "rejected",
       "title": "CPAKA: Mutual Authentication and Key Agreement Scheme Based on Conditional PUF in Space-Air-Ground Integrated Network",
       "updated_at": "2026-11-09T08:36:59.356632+00:00"
+    },
+    "doi:10.1109/tdsc.2023.3334277": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "Building a Lightweight Trusted Execution Environment for Arm GPUs",
+      "updated_at": "2026-11-11T09:37:23.508833+00:00"
     },
     "doi:10.1109/tdsc.2023.3334516": {
       "category": "secondaire_technique",
@@ -22503,6 +22567,14 @@
       "status": "rejected",
       "title": "Fuzzy Memory Controller Design Based-Machine Learning Algorithm and Stability Analysis for Nonlinear NCSs Under Asynchronous Cyber Attacks",
       "updated_at": "2026-11-11T02:37:33.979743+00:00"
+    },
+    "doi:10.1109/tsusc.2023.3308081": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Towards Sustainable Trust: A Practical SGX Aided Anonymous Reputation System",
+      "updated_at": "2026-11-11T09:37:02.872573+00:00"
     },
     "doi:10.1109/tvlsi.2023.3288754": {
       "category": "secondaire",
@@ -39071,6 +39143,14 @@
       "status": "rejected",
       "title": "Benchmarking Analytical Query Processing in Intel SGXv2",
       "updated_at": "2026-11-10T15:39:46.640927+00:00"
+    },
+    "doi:10.5040/9781501375880.ch-8": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "IN THE DESERTS OF THE EMPIRE: THE MAP, THE TERRITORY, AND THE HETEROTOPIAN ENCLAVE",
+      "updated_at": "2026-11-11T09:38:52.484102+00:00"
     },
     "doi:10.5120/ijca2025925634": {
       "category": "secondaire",

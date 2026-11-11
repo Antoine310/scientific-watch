@@ -2783,6 +2783,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/tdsc.2023.3251418": {
+    "doi": "https://doi.org/10.1109/tdsc.2023.3251418",
+    "publication_date": "2024-01-01",
+    "publication_date_note": "Date source Crossref : 2024-01 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2024-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Dependable and Secure Computing",
+    "score": 78,
+    "source": "https://doi.org/10.1109/tdsc.2023.3251418",
+    "summary": "Cet article présente CacheIEE, un système d'exécution isolée (IEE) assisté par cache sur des plateformes multi-cœurs ARM. Il vise à protéger les données sensibles d'applications dans le monde normal en utilisant le cache de données L1 pour contrer à la fois les attaques physiques par divulgation de mémoire et les attaques logicielles, tout en réduisant la base de confiance (TCB).",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "CacheIEE: Cache-Assisted Isolated Execution Environment on ARM Multi-Core Platforms",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tdsc.2024.3354991": {
     "doi": "https://doi.org/10.1109/tdsc.2024.3354991",
     "publication_date": "2024-09-01",
