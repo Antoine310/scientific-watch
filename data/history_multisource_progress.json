@@ -2,7 +2,7 @@
   "accepted": 253,
   "completed": false,
   "cursor": "*",
-  "evaluated": 4875,
+  "evaluated": 4882,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -368,14 +368,228 @@
     "monthly/2024-01/query-21 : résultat tronqué au plafond 12 pages",
     "monthly/2024-01/query-22 : résultat tronqué au plafond 12 pages",
     "monthly/2024-01/query-23 : résultat tronqué au plafond 12 pages",
-    "monthly/2024-01/query-24 : résultat tronqué au plafond 12 pages"
+    "monthly/2024-01/query-24 : résultat tronqué au plafond 12 pages",
+    "monthly/2023-12/query-13 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2023-12",
-  "needs_publish": false,
+  "needs_publish": true,
   "offset": 0,
-  "pages_done": 5264,
+  "pages_done": 5276,
   "pages_in_query": 0,
-  "pending": [],
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Subin Lee"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Eun Kwang Lee"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Byung Chul Jang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Hocheon Yoo"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1016/j.jallcom.2023.172329",
+        "id": "https://doi.org/10.1016/j.jallcom.2023.172329",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1016/j.jallcom.2023.172329"
+        },
+        "publication_date": "2023-12-01",
+        "publication_date_note": "Date source Crossref : 2023-12 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2023-12",
+        "publication_type": "revue",
+        "publication_venue": "Journal of Alloys and Compounds",
+        "title": "Hardware-based security devices using a physical unclonable function created by the irregular grain boundaries found in perovskite calcium titanate",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification",
+        "T11 — PUF & TRNG"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Yeming Gu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Hui Shu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Fei Kang"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1016/j.cose.2023.103508",
+        "id": "https://doi.org/10.1016/j.cose.2023.103508",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1016/j.cose.2023.103508"
+        },
+        "publication_date": "2023-12-01",
+        "publication_date_note": "Date source Crossref : 2023-12 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2023-12",
+        "publication_type": "revue",
+        "publication_venue": "Computers &amp; Security",
+        "title": "BinAIV: Semantic-enhanced vulnerability detection for Linux x86 binaries",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T01 — Root of Trust & Secure Boot"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Qifan Wang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Lei Zhou"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jianli Bai"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Yun Sing Koh"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Shujie Cui"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Giovanni Russello"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1016/j.cose.2023.103509",
+        "id": "https://doi.org/10.1016/j.cose.2023.103509",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1016/j.cose.2023.103509"
+        },
+        "publication_date": "2023-12-01",
+        "publication_date_note": "Date source Crossref : 2023-12 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2023-12",
+        "publication_type": "revue",
+        "publication_venue": "Computers &amp; Security",
+        "title": "HT2ML: An efficient hybrid framework for privacy-preserving Machine Learning using HE and TEE",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T01 — Root of Trust & Secure Boot"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Christian Plappert"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Dominik Lorych"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Michael Eckel"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Lukas Jäger"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Andreas Fuchs"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ronald Heddergott"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1016/j.cose.2023.103514",
+        "id": "https://doi.org/10.1016/j.cose.2023.103514",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1016/j.cose.2023.103514"
+        },
+        "publication_date": "2023-12-01",
+        "publication_date_note": "Date source Crossref : 2023-12 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2023-12",
+        "publication_type": "revue",
+        "publication_venue": "Computers &amp; Security",
+        "title": "Evaluating the applicability of hardware trust anchors for automotive applications",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T01 — Root of Trust & Secure Boot"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2779,9 +2993,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1823,
-  "query_index": 13,
-  "secondary": 262,
+  "prefilter_review_overflow": 1825,
+  "query_index": 14,
+  "secondary": 263,
   "skipped": 5005,
   "version": 1
 }
