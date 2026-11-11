@@ -3693,6 +3693,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3576915.3623065": {
+    "doi": "https://doi.org/10.1145/3576915.3623065",
+    "publication_date": "2023-12-14",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "CCS '23: ACM SIGSAC Conference on Computer and Communications Security",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2312.09336v1",
+    "summary": "DECLASSIFLOW est un cadre d'analyse statique et de protection de programmes conçu pour sécuriser le code à temps constant contre les attaques par exécution spéculative, tout en réduisant le coût de performance élevé des défenses actuelles comme le SLH.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "DECLASSIFLOW: A Static Analysis for Modeling Non-Speculative Knowledge to Relax Speculative Execution Security Measures (Full Version)",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3578359.3593037": {
     "doi": "https://doi.org/10.1145/3578359.3593037",
     "publication_date": "2023-05-08",
@@ -9994,6 +10014,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "SoK: A cloudy view on trust relationships of CVMs -- How Confidential Virtual Machines are falling short in Public Cloud",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:specrunthedangerofspeculativerunaheadexecutioninprocessors": {
+    "doi": "",
+    "publication_date": "2023-12-04",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2312.01832v1",
+    "summary": "Cet article étudie les risques de sécurité liés à l'exécution en anticipation (runahead execution), une technique microarchitecturale d'optimisation des performances des processeurs. Il introduit la première attaque par exécution transitoire sur cette technique, nommée SPECRUN, qui exploite la prédiction de branchement non résolue afin de contourner les limites de taille du tampon de réordonnancement (reorder buffer) et de fuir des secrets.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SPECRUN: The Danger of Speculative Runahead Execution in Processors",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
