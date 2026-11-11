@@ -1341,6 +1341,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/icecs58634.2023.10382921": {
+    "doi": "https://doi.org/10.1109/icecs58634.2023.10382921",
+    "publication_date": "2023-12-04",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-12-04",
+    "publication_type": "conference",
+    "publication_venue": "2023 30th IEEE International Conference on Electronics, Circuits and Systems (ICECS)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/icecs58634.2023.10382921",
+    "summary": "Cette publication étudie la vulnérabilité microarchitecturale RIDL (Rogue In-Flight Data Load) liée au transfert de données des tampons de remplissage de ligne (line fill buffer). Les auteurs proposent une nouvelle atténuation matérielle permettant l'utilisation du mécanisme store-to-load forwarding ainsi qu'une méthodologie de vérification formelle pour garantir l'immunité contre les attaques RIDL, dont l'efficacité est démontrée sur des benchmarks de pipeline mémoire.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Hardware Mitigation and Verification For Rogue In-Flight Data Load Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/icess49830.2020.9301516": {
     "doi": "https://doi.org/10.1109/icess49830.2020.9301516",
     "publication_date": "2020-12-10",

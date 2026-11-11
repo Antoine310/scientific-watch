@@ -3088,6 +3088,14 @@
       "title": "Design and Analysis of Reconfigurable Cryptographic Primitives: TRNG and PUF",
       "updated_at": "2026-11-10T02:13:33.922931+00:00"
     },
+    "doi:10.1007/s41635-024-00143-9": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Correction to: An Analysis of FPGA LUT Bias and Entropy for Physical Unclonable Functions",
+      "updated_at": "2026-11-11T19:38:19.757703+00:00"
+    },
     "doi:10.1007/s41635-024-00147-5": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -9432,6 +9440,86 @@
       "title": "LLM4SecHW: Leveraging Domain Specific Large Language Model for Hardware Debugging",
       "updated_at": "2026-11-11T03:41:48.594630+00:00"
     },
+    "doi:10.1109/asianhost59942.2023.10409308": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "When Memory Mappings Attack: On the (Mis)use of the ARM Cortex-M FPB Unit",
+      "updated_at": "2026-11-11T19:36:53.358546+00:00"
+    },
+    "doi:10.1109/asianhost59942.2023.10409311": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "TrustSoC: Light and Efficient Heterogeneous SoC Architecture, Secure-by-design",
+      "updated_at": "2026-11-11T19:36:53.387425+00:00"
+    },
+    "doi:10.1109/asianhost59942.2023.10409319": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Tamper Resistant Design of Convolutional Neural Network Hardware Accelerator",
+      "updated_at": "2026-11-11T19:36:53.416062+00:00"
+    },
+    "doi:10.1109/asianhost59942.2023.10409342": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 74,
+      "status": "rejected",
+      "title": "Overtake: Achieving Meltdown-type Attacks with One Instruction",
+      "updated_at": "2026-11-11T19:36:53.449035+00:00"
+    },
+    "doi:10.1109/asianhost59942.2023.10409352": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "DDQ-APUF: A Highly Reliable Arbiter PUF Using Delay Difference Quantization",
+      "updated_at": "2026-11-11T19:36:53.477423+00:00"
+    },
+    "doi:10.1109/asianhost59942.2023.10409376": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "DF-TEE: Trusted Execution Environment for Disaggregated Multi-FPGA Cloud Systems",
+      "updated_at": "2026-11-11T19:36:53.296108+00:00"
+    },
+    "doi:10.1109/asianhost59942.2023.10409381": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Processor based Intrinsic PUF Design for Approximate Computing: Faith or Reality?",
+      "updated_at": "2026-11-11T19:36:53.507214+00:00"
+    },
+    "doi:10.1109/asianhost59942.2023.10409383": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A Lightweight and Machine-Learning-Resistant PUF framework based on Nonlinear Structure and Obfuscating Challenges",
+      "updated_at": "2026-11-11T19:36:53.329328+00:00"
+    },
+    "doi:10.1109/asianhost59942.2023.10409433": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A Compact Weak PUF Circuit Based on Random Process Deviations of Amplifier Chain",
+      "updated_at": "2026-11-11T19:36:53.536920+00:00"
+    },
+    "doi:10.1109/asianhost59942.2023.10409476": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware Security of Digital Image Filter IP Cores against Piracy using IP Seller’s Fingerprint Encrypted Amino Acid Biometric Sample",
+      "updated_at": "2026-11-11T19:36:53.567675+00:00"
+    },
     "doi:10.1109/asianhost63913.2024.10838390": {
       "category": "secondaire",
       "decision": "examiner",
@@ -9551,6 +9639,22 @@
       "status": "rejected",
       "title": "Leveraging Large Language Models for Secure Hardware Verification and Analysis",
       "updated_at": "2026-11-03T21:07:19.329820+00:00"
+    },
+    "doi:10.1109/asid60355.2023.10426039": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "An UVM-Based Verification Platform for Hardware and Software Co-Design",
+      "updated_at": "2026-11-11T19:38:19.786423+00:00"
+    },
+    "doi:10.1109/asid60355.2023.10426450": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Evaluating Side-Channel Attack Vulnerabilities in Post-Quantum CRYSTALS-Kyber Hardware Based on Simple Power Analysis",
+      "updated_at": "2026-11-11T19:38:19.815979+00:00"
     },
     "doi:10.1109/asid63618.2024.10839653": {
       "category": "hors_sujet",
@@ -9711,6 +9815,14 @@
       "status": "rejected",
       "title": "Vicuna2.0: RISC-V Embedded Vector Unit with Half-Precision Floating-Point Support for TinyML",
       "updated_at": "2026-11-04T20:50:20.210577+00:00"
+    },
+    "doi:10.1109/auteee60196.2023.10407457": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Co-Designing Hardware/Software to Protect Crypto-Chip Side Channel Analysis at Design Time",
+      "updated_at": "2026-11-11T19:38:19.722191+00:00"
     },
     "doi:10.1109/auteee62881.2024.10869662": {
       "category": "secondaire",
@@ -13592,6 +13704,14 @@
       "title": "Configuration and Testing of a Feeder Protection-Based Power Redirection Technique with IEC 61850 Standard GOOSE Control Model Using Hardware-in-the-Loop for an Electrical Distribution System",
       "updated_at": "2026-11-02T20:56:46.097202+00:00"
     },
+    "doi:10.1109/icecs58634.2023.10382921": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Hardware Mitigation and Verification For Rogue In-Flight Data Load Attacks",
+      "updated_at": "2026-11-11T19:36:40.656893+00:00"
+    },
     "doi:10.1109/icecs61496.2024.10848613": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -14112,6 +14232,22 @@
       "title": "A Novel Dual-Channel Isolated Current Source Gate Driver for High-Frequency MOSFET Operation: With Hardware-in-the-Loop Verification",
       "updated_at": "2026-11-07T10:36:53.835502+00:00"
     },
+    "doi:10.1109/icm60448.2023.10378911": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Secured and Optimized Hardware Accelerators using Key-Controlled Encoded Hash Slices and Firefly Algorithm based Exploration",
+      "updated_at": "2026-11-11T19:36:27.900557+00:00"
+    },
+    "doi:10.1109/icm60448.2023.10378937": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Fusing IP vendor Palmprint Biometric with Encoded Hash for Hardware IP Core Protection of Image Processing Filters",
+      "updated_at": "2026-11-11T19:36:27.933816+00:00"
+    },
     "doi:10.1109/icm63406.2024.10815739": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -14303,6 +14439,14 @@
       "status": "rejected",
       "title": "Development and Verification of Digital Real-Time Hardware-in-the-Loop Co-simulation Platform Based on PSS/E and RTDS",
       "updated_at": "2026-11-09T11:39:03.086016+00:00"
+    },
+    "doi:10.1109/icps60393.2023.10428974": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Controller Hardware-In-the-Loop Validation of Phasor-Domain Algorithms for High-Speed Protection of Power Networks",
+      "updated_at": "2026-11-11T19:38:19.846605+00:00"
     },
     "doi:10.1109/icraie65839.2025.11239153": {
       "category": "hors_sujet",
@@ -18112,6 +18256,22 @@
       "title": "Physical Unclonable Function (PUF)-Based Sustainable Cybersecurity",
       "updated_at": "2026-11-10T20:15:29.490840+00:00"
     },
+    "doi:10.1109/mcsoc60832.2023.00009": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Hybrid Hardware-Software Architecture for Quantum Secure IoT Embedded Systems",
+      "updated_at": "2026-11-11T19:36:58.114939+00:00"
+    },
+    "doi:10.1109/mcsoc60832.2023.00055": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "PortBlocker: Detection and Mitigation of Hardware Trojan through Re-routing and Bypassing",
+      "updated_at": "2026-11-11T19:36:58.143598+00:00"
+    },
     "doi:10.1109/mcsoc60832.2023.00089": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -19191,6 +19351,14 @@
       "status": "rejected",
       "title": "A Physical Unclonable Function Using a Configurable Tristate Hybrid Scheme With Non-Volatile Memory",
       "updated_at": "2026-11-11T17:13:26.865770+00:00"
+    },
+    "doi:10.1109/oncon60463.2023.10430903": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Can the SHA-3 Algorithm be used for the Construction of Efficient and Robust Hardware Cryptographic Random Number Generators?",
+      "updated_at": "2026-11-11T19:38:19.875425+00:00"
     },
     "doi:10.1109/otcon69332.2026.11629940": {
       "category": "secondaire",
@@ -20479,6 +20647,14 @@
       "status": "rejected",
       "title": "Residue Number System Enveloped Configurable Hardware Mutual Authentication Protocol",
       "updated_at": "2026-11-06T05:37:58.705842+00:00"
+    },
+    "doi:10.1109/stpec59253.2023.10430825": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Hardware Implementation of H5 and Novel H6 Transformer-Less Inverter Topologies for Grid Connected Photovoltaic System to Eliminate Leakage Current using OPAL-RT",
+      "updated_at": "2026-11-11T19:38:19.904334+00:00"
     },
     "doi:10.1109/sustech67720.2026.11536391": {
       "category": "secondaire",
@@ -31440,6 +31616,14 @@
       "title": "Benchmarking Lightweight Cryptographic Algorithms for Resource-Constrained IoT Devices: MATLAB Simulation and Preliminary Hardware Validation",
       "updated_at": "2026-11-03T11:07:19.996773+00:00"
     },
+    "doi:10.18413/2518-1092-2023-8-4-0-1": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "ANALYSIS OF SOFTWARE AND HARDWARE-SOFTWARE TOOLS FOR INFORMATION PROTECTION IN INFORMATION SYSTEMS OF PUBLIC AUTHORITIES",
+      "updated_at": "2026-11-11T19:38:19.687627+00:00"
+    },
     "doi:10.18452/37215": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -40888,6 +41072,14 @@
       "title": "Assessing Security RISC: Analyzing Flush+Fault Attack on RISC-V Using gem5 Simulator",
       "updated_at": "2026-10-30T09:43:13.621067+00:00"
     },
+    "doi:10.52436/1.jutif.2023.4.6.1117": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "HARDWARE DESIGN OF THE TOUCHLESS HAND CODE AND CONVOLUTIONAL NEURAL NETWORKS - BASED AUTOMATIC DOOR SECURITY SYSTEM",
+      "updated_at": "2026-11-11T19:36:58.085828+00:00"
+    },
     "doi:10.52436/1.jutif.2026.7.3.5541": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -42327,6 +42519,14 @@
       "status": "rejected",
       "title": "Report on Secure Hardware Assurance Reference Dataset (SHARD) program",
       "updated_at": "2026-11-08T08:39:37.118999+00:00"
+    },
+    "doi:10.6109/jkiice.2023.27.12.1563": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hardware Design of a RISC-V Microprocessor Supporting 16-bit compressed Instructions and 32-bit Integer Instructions",
+      "updated_at": "2026-11-11T19:36:58.056423+00:00"
     },
     "doi:10.6109/jkiice.2025.29.6.811": {
       "category": "secondaire",
