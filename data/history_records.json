@@ -1341,6 +1341,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/icess49830.2020.9301516": {
+    "doi": "https://doi.org/10.1109/icess49830.2020.9301516",
+    "publication_date": "2020-12-10",
+    "publication_type": "conference",
+    "publication_venue": "International Conference on Embedded Software and Systems",
+    "score": 90,
+    "source": "https://doi.org/10.1109/icess49830.2020.9301516",
+    "summary": "Cet article présente SRACARE, un cadre de sécurité destiné aux appareils embarqués et IoT, combinant attestation à distance/locale, démarrage sécurisé et mécanisme de récupération intégré. Le prototype est implémenté sur un processeur RISC-V 32 bits basse consommation déployé sur un FPGA Artix 7.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "SRACARE: Secure Remote Attestation with Code Authentication and Resilience Engine",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/icet64964.2025.11103069": {
     "publication_date": "2025-05-17",
     "publication_type": "conference",
@@ -3105,6 +3122,40 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/trustcom50675.2020.00018": {
+    "doi": "https://doi.org/10.1109/trustcom50675.2020.00018",
+    "publication_date": "2020-12-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/trustcom50675.2020.00018",
+    "summary": "Cet article présente SeRoT, un nouveau système d'exécution sécurisé pour les environnements d'exécution de confiance (TEE) sur une plateforme RISC-V. Il vise à protéger l'interface hôte aux niveaux binaire et application pour empêcher l'adversaire d'interagir via des messages malveillants, offrant ainsi une alternative environ 10% plus rapide que Keystone sur deux benchmarks.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "SeRoT: A Secure Runtime System on Trusted Execution Environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/trustcom50675.2020.00161": {
+    "doi": "https://doi.org/10.1109/trustcom50675.2020.00161",
+    "publication_date": "2020-12-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/trustcom50675.2020.00161",
+    "summary": "Ce travail propose une implémentation sous forme de bibliothèque des API internes TEE de GlobalPlatform (GP) pour assurer la portabilité logicielle entre différents environnements d'exécution de confiance, spécifiquement évaluée et comparée sur Intel SGX et RISC-V Keystone par rapport à OP-TEE sur Arm TrustZone.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Library Implementation and Performance Analysis of GlobalPlatform TEE Internal API for Intel SGX and RISC-V Keystone",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/trustcom56396.2022.00228": {
     "doi": "https://doi.org/10.1109/trustcom56396.2022.00228",
