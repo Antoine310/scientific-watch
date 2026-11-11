@@ -326,6 +326,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/access.2023.3346501": {
+    "doi": "https://doi.org/10.1109/access.2023.3346501",
+    "publication_date": "2024-01-01",
+    "publication_date_note": "Date source Crossref : 2024 seulement ; classement indicatif en 2024-01.",
+    "publication_date_precision": "year",
+    "publication_date_source": "2024",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Access",
+    "score": 88,
+    "source": "https://doi.org/10.1109/access.2023.3346501",
+    "summary": "Cette publication présente une approche de vérification formelle holistique pour analyser les mécanismes d'attestation dans le computing confidentiel. Les auteurs étudient les TEEs Arm CCA et Intel TDX en modélisant toutes les phases (provisionnement, initialisation et protocole), démontrant qu'inclure l'initialisation révèle des violations de propriétés de sécurité non détectées auparavant.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Formal Specification and Verification of Architecturally-Defined Attestation Mechanisms in Arm CCA and Intel TDX",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/access.2024.3399601": {
     "doi": "https://doi.org/10.1109/access.2024.3399601",
     "publication_date": "2024-01-01",

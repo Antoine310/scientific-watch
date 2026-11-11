@@ -1,8 +1,8 @@
 {
-  "accepted": 248,
+  "accepted": 249,
   "completed": false,
-  "cursor": "MTY2OTA0ODgwMDAwMCwxMC4xMDE2JTJGai5nZWUuMjAyMi4xMS4wMDI=",
-  "evaluated": 4778,
+  "cursor": "MTcwODM3MjQ3NzAwMCwxMC4xMTA5JTJGc2hhcmM1OTkwOC4yMDI0LjEwNDM4NjM4",
+  "evaluated": 4803,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -359,14 +359,1013 @@
     "monthly/2024-02/query-24 : résultat tronqué au plafond 12 pages",
     "monthly/2024-01/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2024-01/query-14 : résultat tronqué au plafond 12 pages",
-    "monthly/2024-01/query-15 : résultat tronqué au plafond 12 pages"
+    "monthly/2024-01/query-15 : résultat tronqué au plafond 12 pages",
+    "monthly/2024-01/query-16 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2024-01",
   "needs_publish": false,
-  "offset": 80,
-  "pages_done": 5145,
-  "pages_in_query": 2,
-  "pending": [],
+  "offset": 280,
+  "pages_done": 5162,
+  "pages_in_query": 7,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Hossam ElAtali"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Lachlan J. Gunn"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Hans Liljestrand"
+            }
+          },
+          {
+            "author": {
+              "display_name": "N. Asokan"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.14722/ndss.2024.24105",
+        "id": "https://doi.org/10.14722/ndss.2024.24105",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.14722/ndss.2024.24105"
+        },
+        "publication_date": "2024-01-01",
+        "publication_date_note": "Date source Crossref : 2024 seulement ; classement indicatif en 2024-01.",
+        "publication_date_precision": "year",
+        "publication_date_source": "2024",
+        "publication_type": "conference",
+        "publication_venue": "Network and Distributed System Security Symposium",
+        "title": "BliMe: Verifiably Secure Outsourced Computation with Hardware-Enforced Taint Tracking",
+        "venue_landmark": "NDSS",
+        "venue_note": "",
+        "venue_priority": 2,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Yue Xiao"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Yi He"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Xiaoli Zhang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Qian Wang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Renjie Xie"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Kun Sun"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ke Xu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Qi Li"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.14722/ndss.2024.241231",
+        "id": "https://doi.org/10.14722/ndss.2024.241231",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.14722/ndss.2024.241231"
+        },
+        "publication_date": "2024-01-01",
+        "publication_date_note": "Date source Crossref : 2024 seulement ; classement indicatif en 2024-01.",
+        "publication_date_precision": "year",
+        "publication_date_source": "2024",
+        "publication_type": "conference",
+        "publication_venue": "Network and Distributed System Security Symposium",
+        "title": "From Hardware Fingerprint to Access Token: Enhancing the Authentication on IoT Devices",
+        "venue_landmark": "NDSS",
+        "venue_note": "",
+        "venue_priority": 2,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Shahriar Ebrahimi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Parisa Hassanizadeh"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.14722/ndss.2024.24815",
+        "id": "https://doi.org/10.14722/ndss.2024.24815",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.14722/ndss.2024.24815"
+        },
+        "publication_date": "2024-01-01",
+        "publication_date_note": "Date source Crossref : 2024 seulement ; classement indicatif en 2024-01.",
+        "publication_date_precision": "year",
+        "publication_date_source": "2024",
+        "publication_type": "conference",
+        "publication_venue": "Network and Distributed System Security Symposium",
+        "title": "From Interaction to Independence: zkSNARKs for Transparent and Non-Interactive Remote Attestation",
+        "venue_landmark": "NDSS",
+        "venue_note": "",
+        "venue_priority": 2,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "Also": [
+            107
+          ],
+          "But": [
+            184
+          ],
+          "Computing": [
+            71
+          ],
+          "Hardware": [
+            0,
+            269
+          ],
+          "In": [
+            35,
+            258
+          ],
+          "IoT": [
+            113,
+            215
+          ],
+          "SCADA": [
+            222
+          ],
+          "Security": [
+            270
+          ],
+          "The": [
+            86
+          ],
+          "Therefore,": [
+            224
+          ],
+          "These": [
+            288
+          ],
+          "Three": [
+            294
+          ],
+          "When": [
+            149
+          ],
+          "a": [
+            9,
+            12,
+            59,
+            75,
+            202,
+            228,
+            233
+          ],
+          "about": [
+            314
+          ],
+          "accessible": [
+            100
+          ],
+          "advancement": [
+            40
+          ],
+          "affordable": [
+            98
+          ],
+          "also": [
+            53
+          ],
+          "always": [
+            227
+          ],
+          "an": [
+            263
+          ],
+          "analyzed": [
+            292
+          ],
+          "analyzing": [
+            89
+          ],
+          "and": [
+            29,
+            69,
+            77,
+            96,
+            99,
+            129,
+            154,
+            182,
+            256,
+            279,
+            286,
+            312
+          ],
+          "applications.": [
+            336
+          ],
+          "approach": [
+            230
+          ],
+          "are": [
+            208,
+            291
+          ],
+          "article,": [
+            260
+          ],
+          "as": [
+            240,
+            242
+          ],
+          "aspects": [
+            178,
+            194
+          ],
+          "assist": [
+            323
+          ],
+          "attack": [
+            80
+          ],
+          "attacking": [
+            67
+          ],
+          "attacks": [
+            51
+          ],
+          "attractive": [
+            79
+          ],
+          "balance": [
+            234
+          ],
+          "be": [
+            187
+          ],
+          "because": [
+            205
+          ],
+          "become": [
+            8,
+            135
+          ],
+          "becoming": [
+            74,
+            94
+          ],
+          "before.": [
+            106
+          ],
+          "better": [
+            229
+          ],
+          "between": [
+            236
+          ],
+          "both": [
+            252
+          ],
+          "can": [
+            322
+          ],
+          "catastrophic": [
+            189
+          ],
+          "chains.": [
+            34
+          ],
+          "complex": [
+            219
+          ],
+          "components": [
+            92
+          ],
+          "compromising": [
+            249
+          ],
+          "computer": [
+            163,
+            276,
+            302,
+            330
+          ],
+          "considering": [
+            150
+          ],
+          "consumption": [
+            128
+          ],
+          "controversial": [
+            13
+          ],
+          "could": [
+            186
+          ],
+          "countermeasures": [
+            305
+          ],
+          "critical": [
+            203
+          ],
+          "cyber": [
+            4
+          ],
+          "day-to-day": [
+            335
+          ],
+          "decade": [
+            18
+          ],
+          "decrease": [
+            125
+          ],
+          "demand": [
+            153
+          ],
+          "design": [
+            25,
+            122,
+            255,
+            278,
+            319
+          ],
+          "designs": [
+            181
+          ],
+          "development.": [
+            257
+          ],
+          "devices": [
+            114,
+            211,
+            216
+          ],
+          "devices.": [
+            148,
+            183
+          ],
+          "discussing": [
+            313
+          ],
+          "disposal": [
+            285
+          ],
+          "distribution,": [
+            282
+          ],
+          "domain": [
+            6
+          ],
+          "domain,": [
+            271
+          ],
+          "due": [
+            19,
+            82,
+            108
+          ],
+          "either": [
+            250
+          ],
+          "eliminate": [
+            309
+          ],
+          "emergence": [
+            64
+          ],
+          "evolved": [
+            54
+          ],
+          "existing": [
+            49
+          ],
+          "expansion": [
+            30
+          ],
+          "exposing": [
+            298
+          ],
+          "fail": [
+            200
+          ],
+          "find": [
+            232
+          ],
+          "for": [
+            161
+          ],
+          "from": [
+            213
+          ],
+          "general": [
+            103
+          ],
+          "give": [
+            166
+          ],
+          "global": [
+            32
+          ],
+          "ground": [
+            235
+          ],
+          "had": [
+            7,
+            52
+          ],
+          "hardware": [
+            42,
+            50,
+            72,
+            91,
+            140,
+            197,
+            277,
+            331
+          ],
+          "hardware,": [
+            247,
+            303
+          ],
+          "has": [
+            134
+          ],
+          "high": [
+            61
+          ],
+          "if": [
+            191
+          ],
+          "implementations": [
+            141
+          ],
+          "in": [
+            2,
+            27,
+            115,
+            201,
+            210,
+            253,
+            268,
+            324,
+            333
+          ],
+          "influx": [
+            111
+          ],
+          "infrastructure,": [
+            204
+          ],
+          "insight": [
+            265
+          ],
+          "introduction": [
+            22
+          ],
+          "is": [
+            73,
+            93,
+            158,
+            226
+          ],
+          "it": [
+            157,
+            225,
+            261
+          ],
+          "like": [
+            221
+          ],
+          "main": [
+            295
+          ],
+          "manufacturers": [
+            164
+          ],
+          "manufacturing": [
+            280
+          ],
+          "market": [
+            152
+          ],
+          "market,": [
+            117
+          ],
+          "maximizing": [
+            130
+          ],
+          "methods.": [
+            70
+          ],
+          "minimize": [
+            307
+          ],
+          "modern": [
+            139,
+            275
+          ],
+          "more": [
+            10,
+            76,
+            78,
+            95,
+            97,
+            159,
+            174,
+            218
+          ],
+          "new": [
+            24,
+            66
+          ],
+          "objectives": [
+            296
+          ],
+          "obvious": [
+            160
+          ],
+          "of": [
+            11,
+            23,
+            31,
+            41,
+            47,
+            63,
+            65,
+            88,
+            112,
+            119,
+            138,
+            146,
+            179,
+            195,
+            245,
+            251,
+            297,
+            317
+          ],
+          "on": [
+            175
+          ],
+          "or": [
+            308
+          ],
+          "outcomes": [
+            190
+          ],
+          "over": [
+            15,
+            55
+          ],
+          "overall": [
+            264
+          ],
+          "past": [
+            17
+          ],
+          "power": [
+            127
+          ],
+          "presents": [
+            262
+          ],
+          "priority": [
+            167
+          ],
+          "processes,": [
+            281
+          ],
+          "processing": [
+            132
+          ],
+          "production,": [
+            43
+          ],
+          "proportion": [
+            36
+          ],
+          "public": [
+            104
+          ],
+          "ranging": [
+            212
+          ],
+          "rate": [
+            46,
+            62
+          ],
+          "rather": [
+            142,
+            171
+          ],
+          "reasons.": [
+            85
+          ],
+          "recycling.": [
+            287
+          ],
+          "related": [
+            273
+          ],
+          "requirement": [
+            239
+          ],
+          "requirements": [
+            170
+          ],
+          "requirements,": [
+            156
+          ],
+          "securing": [
+            328
+          ],
+          "security": [
+            1,
+            5,
+            145,
+            177,
+            193,
+            244
+          ],
+          "semiconductors": [
+            28,
+            207
+          ],
+          "several": [
+            84
+          ],
+          "significantly": [
+            60
+          ],
+          "simple": [
+            214
+          ],
+          "simplifying": [
+            120
+          ],
+          "some": [
+            188
+          ],
+          "specifically": [
+            272
+          ],
+          "speed": [
+            133
+          ],
+          "stages": [
+            290
+          ],
+          "stressing": [
+            173
+          ],
+          "structure": [
+            123
+          ],
+          "success": [
+            45
+          ],
+          "suggesting": [
+            304
+          ],
+          "supplier": [
+            33
+          ],
+          "surface": [
+            81
+          ],
+          "systems": [
+            220,
+            332
+          ],
+          "systems.": [
+            223
+          ],
+          "techniques": [
+            68
+          ],
+          "technological": [
+            39
+          ],
+          "technologies": [
+            26
+          ],
+          "technology": [
+            87
+          ],
+          "tends": [
+            198
+          ],
+          "than": [
+            105,
+            143,
+            172
+          ],
+          "that": [
+            321
+          ],
+          "the": [
+            3,
+            16,
+            21,
+            38,
+            44,
+            48,
+            56,
+            90,
+            102,
+            110,
+            116,
+            121,
+            126,
+            131,
+            136,
+            144,
+            147,
+            151,
+            162,
+            176,
+            192,
+            237,
+            243,
+            246,
+            254,
+            299,
+            315,
+            325
+          ],
+          "their": [
+            180,
+            284,
+            334
+          ],
+          "theme": [
+            137
+          ],
+          "there": [
+            185
+          ],
+          "these": [
+            196,
+            206,
+            329
+          ],
+          "this": [
+            259
+          ],
+          "those": [
+            310
+          ],
+          "threats": [
+            300,
+            311
+          ],
+          "time": [
+            57
+          ],
+          "to": [
+            20,
+            37,
+            83,
+            101,
+            109,
+            124,
+            165,
+            168,
+            199,
+            217,
+            231,
+            266,
+            274,
+            301,
+            306,
+            327
+          ],
+          "tools": [
+            320
+          ],
+          "topic": [
+            14
+          ],
+          "trend": [
+            118
+          ],
+          "trends": [
+            267
+          ],
+          "under": [
+            293
+          ],
+          "usage,": [
+            283
+          ],
+          "used": [
+            209
+          ],
+          "user": [
+            155,
+            169,
+            238
+          ],
+          "utilization": [
+            316
+          ],
+          "various": [
+            289,
+            318
+          ],
+          "way": [
+            326
+          ],
+          "well": [
+            241
+          ],
+          "with": [
+            58
+          ],
+          "without": [
+            248
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": "S.M.D.N. Siriwardana"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.47001/irjiet/2024.801016",
+        "id": "https://doi.org/10.47001/irjiet/2024.801016",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.47001/irjiet/2024.801016"
+        },
+        "publication_date": "2024-01-01",
+        "publication_date_note": "Date source Crossref : 2024 seulement ; classement indicatif en 2024-01.",
+        "publication_date_precision": "year",
+        "publication_date_source": "2024",
+        "publication_type": "revue",
+        "publication_venue": "International Research Journal of Innovations in Engineering and Technology",
+        "title": "Hardware Security and Trust: Trends, Challenges, and Design Tools",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Alireza Abolhasani Zeraatkar"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Parnian Shabani Kamran"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Hussain Al-Asaad"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/ccwc60891.2024.10427806",
+        "id": "https://doi.org/10.1109/ccwc60891.2024.10427806",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/ccwc60891.2024.10427806"
+        },
+        "publication_date": "2024-01-08",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-01-08",
+        "publication_type": "conference",
+        "publication_venue": "2024 IEEE 14th Annual Computing and Communication Workshop and Conference (CCWC)",
+        "title": "Advancements in Secure Computing: Exploring Automated Repair Debugging and Verification Techniques for Hardware Design",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Le Nam Hai Phan"
+            }
+          },
+          {
+            "author": {
+              "display_name": "André Felipe Silva Melo"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Francisco Gonzalez-Longatt"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/sgre59715.2024.10428924",
+        "id": "https://doi.org/10.1109/sgre59715.2024.10428924",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/sgre59715.2024.10428924"
+        },
+        "publication_date": "2024-01-08",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2024-01-08",
+        "publication_type": "conference",
+        "publication_venue": "2024 4th International Conference on Smart Grid and Renewable Energy (SGRE)",
+        "title": "Testing a Non-directional Overcurrent Protection Relay: Power-Hardware-in-The Loop Approach",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2770,9 +3769,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1775,
-  "query_index": 16,
+  "prefilter_review_overflow": 1792,
+  "query_index": 17,
   "secondary": 261,
-  "skipped": 4880,
+  "skipped": 4892,
   "version": 1
 }
