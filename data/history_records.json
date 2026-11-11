@@ -208,6 +208,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1049/ise2.12023": {
+    "doi": "https://doi.org/10.1049/ise2.12023",
+    "publication_date": "2021-04-14",
+    "publication_type": "revue",
+    "publication_venue": "IET Information Security",
+    "score": 75,
+    "source": "https://doi.org/10.1049/ise2.12023",
+    "summary": "Cet article étudie l'amélioration conjointe de la sécurité et des performances dans les caches partagés multi-niveaux. Il propose une attaque temporelle simple basée sur des conditions de course intentionnelles dans les espaces mémoire partagés, ainsi qu'une contre-mesure sous forme d'algorithme de placement des threads pour détecter et résoudre ces conflits, augmentant également les performances globales du système.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Joint security and performance improvement in multilevel shared caches",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1049/ise2.12113": {
     "doi": "https://doi.org/10.1049/ise2.12113",
     "publication_date": "2023-03-14",
@@ -1603,6 +1620,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/isqed51717.2021.9424322": {
+    "doi": "https://doi.org/10.1109/isqed51717.2021.9424322",
+    "publication_date": "2021-04-07",
+    "publication_type": "conference",
+    "publication_venue": "International Symposium on Quality Electronic Design (ISQED)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/isqed51717.2021.9424322",
+    "summary": "Cet article présente CARE, une architecture de démarrage sécurisé légère pour les SoC basés sur RISC-V, intégrant un mécanisme de récupération embarquée. Le framework utilise un moteur hybride (Code Authentication and Resilience Engine) s'appuyant sur la Protection de la Mémoire Physique (PMP) et d'autres techniques pour détecter les attaques, assurer la résilience et restaurer l'intégrité du logiciel avec un surcoût de performance et de ressources de seulement 8 %.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "CARE: Lightweight Attack Resilient Secure Boot Architecture with Onboard Recovery for RISC-V based SOC",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/isqed57927.2023.10129363": {
     "doi": "https://doi.org/10.1109/isqed57927.2023.10129363",
