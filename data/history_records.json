@@ -275,6 +275,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/access.2021.3119220": {
+    "doi": "https://doi.org/10.1109/access.2021.3119220",
+    "publication_date": "2021-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Access",
+    "score": 85,
+    "source": "https://doi.org/10.1109/access.2021.3119220",
+    "summary": "Cet article présente une taxonomie et une revue exhaustive des schémas d'attestation à distance (Remote Attestation - RA) pour les systèmes embarqués, couvrant la période de 2003 à 2020. Les auteurs découpent le problème de la RA en cinq sous-problèmes, proposent un modèle de menace amélioré, classent 58 schémas de la littérature via une nouvelle taxonomie et fournissent une analyse coûts-bénéfices.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "A Taxonomy and Review of Remote Attestation Schemes in Embedded Systems",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/access.2022.3169767": {
     "doi": "https://doi.org/10.1109/access.2022.3169767",
     "publication_date": "2022-01-01",
@@ -2022,6 +2039,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/msec.2021.3055799": {
+    "doi": "https://doi.org/10.1109/msec.2021.3055799",
+    "publication_date": "2021-02-24",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Security & Privacy",
+    "score": 85,
+    "source": "https://doi.org/10.1109/msec.2021.3055799",
+    "summary": "Cet article discute d'une suite de tests récemment développée pour vérifier les vulnérabilités basées sur le timing dans les caches de processeurs, révélant l'insécurité des caches actuels et la nécessité de recherches accrues sur des caches sécurisés.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Understanding the Insecurity of Processor Caches Due to Cache Timing-Based Vulnerabilities",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/msec.2023.3251954": {
     "doi": "https://doi.org/10.1109/msec.2023.3251954",
     "publication_date": "2023-04-20",
@@ -2499,6 +2533,23 @@
     "venue_landmark": "IEEE S&P",
     "venue_note": "",
     "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/tc.2021.3059531": {
+    "doi": "https://doi.org/10.1109/tc.2021.3059531",
+    "publication_date": "2021-02-16",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computers",
+    "score": 80,
+    "source": "https://doi.org/10.1109/tc.2021.3059531",
+    "summary": "Cet article montre que les états de remplacement LRU des caches peuvent être exploités pour fuiter des informations via des mesures temporelles, que les processus partagent de la mémoire ou non, avec des débits atteignant 600 Kbps par ensemble de cache en environnement hyper-threadé.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Leaking Information Through Cache LRU States in Commercial Processors and Secure Caches",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/tc.2023.3278536": {
@@ -5224,6 +5275,40 @@
     ],
     "title": "\"Microarchitectural Attack Detection Dataset (Spectre-v1, Spectre-v2, and Benign Workloads)\""
   },
+  "doi:10.23919/date51398.2021.9474013": {
+    "doi": "https://doi.org/10.23919/date51398.2021.9474013",
+    "publication_date": "2021-02-01",
+    "publication_type": "conference",
+    "publication_venue": "Design, Automation, and Test in Europe",
+    "score": 75,
+    "source": "https://doi.org/10.23919/date51398.2021.9474013",
+    "summary": "Cet article étudie une attaque par canal auxiliaire de type canal caché (CPCC - Cache Partitioned Covert Channel) exploitant le cloisonnement dynamique des caches de dernier niveau (LLC) dans les systèmes multicœurs. Bien que ce partitionnement vise l'isolation et la sécurité, il peut être détourné par des applications malveillantes (trojan et espion) via la mémoire partagée pour transmettre des secrets (clés de chiffrement) avec un taux d'erreur maximal de 5%. Des stratégies de défense sont également proposées.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Exploiting Secrets by Leveraging Dynamic Cache Partitioning of Last Level Cache",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.23919/date51398.2021.9474029": {
+    "doi": "https://doi.org/10.23919/date51398.2021.9474029",
+    "publication_date": "2021-02-01",
+    "publication_type": "conference",
+    "publication_venue": "Design, Automation, and Test in Europe",
+    "score": 75,
+    "source": "https://doi.org/10.23919/date51398.2021.9474029",
+    "summary": "Tiny-CFA est une technique d'attestation de flux de contrôle (CFA) minimaliste conçue pour sécuriser les microcontrôleurs (MCU) à bas coût contre les attaques sur le flux de contrôle. En s'appuyant sur une seule exigence matérielle (des preuves d'exécution à distance ou PoX formellement vérifiées), la solution revendique le surcoût matériel le plus bas de sa catégorie tout en surpassant les performances des techniques par instrumentation de code.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Tiny-CFA: Minimalistic Control-Flow Attestation Using Verified Proofs of Execution",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.23919/date54114.2022.9774612": {
     "doi": "https://doi.org/10.23919/date54114.2022.9774612",
     "publication_date": "2022-03-14",
@@ -6609,6 +6694,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2102.12730": {
+    "doi": "https://doi.org/10.48550/arxiv.2102.12730",
+    "publication_date": "2021-02-25",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2102.12730",
+    "summary": "Swivel est un nouveau cadre de compilation destiné à renforcer WebAssembly (Wasm) contre les attaques Spectre. Il empêche le code malveillant de s'échapper du bac à sable Wasm ou de forcer du code victime à fuiter des données. L'article présente deux approches (logicielle et assistée par matériel) avec des versions randomisées et déterministes.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Swivel: Hardening WebAssembly against Spectre",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2103.04533": {
     "doi": "https://doi.org/10.48550/arxiv.2103.04533",

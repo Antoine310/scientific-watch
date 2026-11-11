@@ -7088,6 +7088,14 @@
       "title": "Coordinated Control Design and Hardware-in-the-Loop Verification of High-Temperature Methanol Reforming Fuel Cell System Based on Fuzzy Logic Optimized by Genetic Algorithm",
       "updated_at": "2026-11-04T21:50:19.251718+00:00"
     },
+    "doi:10.1063/5.0035519": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Efficient FPGA implementation of high-speed true random number generator",
+      "updated_at": "2026-11-11T11:14:53.370575+00:00"
+    },
     "doi:10.1063/5.0064585": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -8039,6 +8047,14 @@
       "status": "rejected",
       "title": "BIONIC: A 64-Core SNN/RISC-V Reconfigurable Processor with Hybrid On-Chip Learning Achieving 0.62 pJ/SOP and >99% Core Utilization",
       "updated_at": "2026-11-04T13:24:37.769357+00:00"
+    },
+    "doi:10.1109/access.2021.3119220": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "A Taxonomy and Review of Remote Attestation Schemes in Embedded Systems",
+      "updated_at": "2026-11-11T11:15:16.218385+00:00"
     },
     "doi:10.1109/access.2022.3142536": {
       "category": "secondaire",
@@ -11775,6 +11791,14 @@
       "status": "rejected",
       "title": "Amplifying Electromagnetic Leakage by Hardware Trojans Through Cable Geometry Manipulation",
       "updated_at": "2026-11-06T06:37:50.886765+00:00"
+    },
+    "doi:10.1109/hpca51647.2021.00036": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Trident: A Hybrid Correlation-Collision GPU Cache Timing Attack for AES Key Recovery",
+      "updated_at": "2026-11-11T11:13:42.014912+00:00"
     },
     "doi:10.1109/hpca53966.2022.00087": {
       "category": "secondaire",
@@ -15608,6 +15632,14 @@
       "title": "Power-Time Series Characterisation of Heterogeneous ARM/RISC-V Cores Under Normal and Anomalous Workloads",
       "updated_at": "2026-11-06T02:37:00.244316+00:00"
     },
+    "doi:10.1109/isscc42613.2021.9366019": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "36.1 Unified In-Memory Dynamic TRNG and Multi-Bit Static PUF Entropy Generation for Ubiquitous Hardware Security",
+      "updated_at": "2026-11-11T11:14:53.370532+00:00"
+    },
     "doi:10.1109/isscc49657.2024.10454387": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -18080,6 +18112,14 @@
       "title": "Predicting the Temporal Variability of Error Rates in Superconducting Quantum Processors: Mitigating Error Accuracy Loss in Queue-Based Quantum Computing Platforms [Focus: Quantum Software and its Engineering]",
       "updated_at": "2026-11-04T20:25:10.372716+00:00"
     },
+    "doi:10.1109/msec.2021.3055799": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Understanding the Insecurity of Processor Caches Due to Cache Timing-Based Vulnerabilities",
+      "updated_at": "2026-11-11T11:14:14.967778+00:00"
+    },
     "doi:10.1109/msec.2023.3251954": {
       "category": "coeur",
       "decision": "conserver",
@@ -19951,6 +19991,14 @@
       "status": "rejected",
       "title": "RVDLAHA: An RISC-V DLA Hardware Architecture for On-Device Real-Time Seizure Detection and Personalization in Wearable Applications",
       "updated_at": "2026-11-07T02:36:27.541814+00:00"
+    },
+    "doi:10.1109/tc.2021.3059531": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "Leaking Information Through Cache LRU States in Commercial Processors and Secure Caches",
+      "updated_at": "2026-11-11T11:14:49.883396+00:00"
     },
     "doi:10.1109/tc.2022.3148379": {
       "category": "secondaire",
@@ -31632,6 +31680,22 @@
       "title": "Wenquxing 22: A Highly Efficient Neuromorphic Accelerator by RISC-V Customized Instruction Extension for Spiking Neural Network (RV-SNN 1.0), Streamlined LIF Model and Binary Stochastic STDP",
       "updated_at": "2026-11-03T16:10:31.100894+00:00"
     },
+    "doi:10.23919/date51398.2021.9474013": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Exploiting Secrets by Leveraging Dynamic Cache Partitioning of Last Level Cache",
+      "updated_at": "2026-11-11T11:14:47.666435+00:00"
+    },
+    "doi:10.23919/date51398.2021.9474029": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Tiny-CFA: Minimalistic Control-Flow Attestation Using Verified Proofs of Execution",
+      "updated_at": "2026-11-11T11:13:35.625131+00:00"
+    },
     "doi:10.23919/date54114.2022.9774612": {
       "category": "coeur",
       "decision": "conserver",
@@ -34031,6 +34095,14 @@
       "status": "rejected",
       "title": "A Brief Survey on Hardware Implementation of Fully Homomorphic Encryption",
       "updated_at": "2026-11-02T20:18:20.245377+00:00"
+    },
+    "doi:10.3390/cryptography5010008": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "TRNGs from Pre-Formed ReRAM Arrays",
+      "updated_at": "2026-11-11T11:14:53.370566+00:00"
     },
     "doi:10.3390/cryptography5030025": {
       "category": "secondaire",
@@ -38352,6 +38424,22 @@
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
     },
+    "doi:10.48550/arxiv.2102.09673": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Effective Cache Apportioning for Performance Isolation Under Compiler Guidance",
+      "updated_at": "2026-11-11T11:14:42.666640+00:00"
+    },
+    "doi:10.48550/arxiv.2102.12730": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Swivel: Hardening WebAssembly against Spectre",
+      "updated_at": "2026-11-11T11:14:18.101811+00:00"
+    },
     "doi:10.48550/arxiv.2103.04533": {
       "category": "coeur",
       "decision": "conserver",
@@ -39407,6 +39495,14 @@
       "status": "rejected",
       "title": "Experimental Validation of a Chaotic Jerk Circuit Based True Random Number Generator",
       "updated_at": "2026-11-08T20:13:30.065186+00:00"
+    },
+    "doi:10.51537/chaos.783548": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "FPGA-based Dual Core TRNG Design Using Ring and Runge-Kutta-Butcher based on Chaotic Oscillator",
+      "updated_at": "2026-11-11T11:14:53.370572+00:00"
     },
     "doi:10.51583/ijltemas.2025.1401012": {
       "category": "hors_sujet",
