@@ -1795,6 +1795,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/iscc50000.2020.9219627": {
+    "doi": "https://doi.org/10.1109/iscc50000.2020.9219627",
+    "publication_date": "2020-07-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Symposium on Computers and Communications (ISCC)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/iscc50000.2020.9219627",
+    "summary": "Cet article présente Flush-Detector, une API de vidage de cache sécurisée conçue pour atténuer les attaques Spectre basées sur les instructions flush sur les processeurs ARM Cortex-A9 MPCore. L'approche détecte ces attaques en temps réel, réduit le taux de succès des attaques à moins de 1% et présente un surcoût temporel d'environ 17,7% par rapport à l'API de vidage de cache d'origine.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Flush-Detector: More Secure API Resistant to Flush-Based Spectre Attacks on ARM Cortex-A9",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/isctis63324.2024.10699205": {
     "doi": "https://doi.org/10.1109/isctis63324.2024.10699205",
     "publication_date": "2024-07-12",
