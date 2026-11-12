@@ -5680,6 +5680,14 @@
       "title": "Design and implementation of secure boot architecture on RISC-V using FPGA",
       "updated_at": "2026-11-06T17:14:46.768400+00:00"
     },
+    "doi:10.1016/j.micpro.2023.104904": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Side-channel disassembly on a System-on-Chip: A practical feasibility study",
+      "updated_at": "2026-11-12T23:38:23.520809+00:00"
+    },
     "doi:10.1016/j.micpro.2023.104916": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -11872,6 +11880,14 @@
       "title": "Sargantana: A 1 GHz+ In-Order RISC-V Processor with SIMD Vector Extensions in 22nm FD-SOI",
       "updated_at": "2026-11-08T14:13:23.836255+00:00"
     },
+    "doi:10.1109/dsd60849.2023.00083": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Mitigating Masking in Automotive Communication Systems: Modeling and Hardware Generation",
+      "updated_at": "2026-11-12T23:36:57.901896+00:00"
+    },
     "doi:10.1109/dsd64264.2024.00015": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -12311,6 +12327,14 @@
       "status": "rejected",
       "title": "A High-Performance RISC-V SoC with a DNN Accelerator for Energy Applications",
       "updated_at": "2026-11-08T00:36:40.154533+00:00"
+    },
+    "doi:10.1109/eiecs59936.2023.10435372": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Trusted Embedded Attestation Storage Scheme and System",
+      "updated_at": "2026-11-12T23:36:57.872165+00:00"
     },
     "doi:10.1109/eiect64462.2024.10867213": {
       "category": "hors_sujet",
@@ -12759,6 +12783,14 @@
       "status": "rejected",
       "title": "Exploring the Parameter Space for Constrained Random Verification of RISC-V CPUs",
       "updated_at": "2026-11-02T17:51:34.311859+00:00"
+    },
+    "doi:10.1109/fdtc60478.2023.00018": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "DeepCover DS28C36: A Hardware Vulnerability Identification and Exploitation Using T- Test and Double Laser Fault Injection",
+      "updated_at": "2026-11-12T23:36:57.932513+00:00"
     },
     "doi:10.1109/fie58773.2023.10343047": {
       "category": "hors_sujet",
@@ -13343,6 +13375,14 @@
       "status": "rejected",
       "title": "VIFMM: Custom RISC-V Vector Instructions with INT-FP Mixed-Precision Computing for Accelerating LLM Inference",
       "updated_at": "2026-11-05T00:26:57.241438+00:00"
+    },
+    "doi:10.1109/hpec58863.2023.10363457": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "Hardware Root-of-Trust Support for Operational Technology Cybersecurity in Critical Infrastructures",
+      "updated_at": "2026-11-12T23:36:39.495596+00:00"
     },
     "doi:10.1109/hpec67600.2025.11196456": {
       "category": "hors_sujet",
@@ -15520,6 +15560,14 @@
       "title": "Retracted: Development of Secure Hardware Architectures for Preventing Side-Channel Attacks and Protecting Sensitive Data in VLSI Systems",
       "updated_at": "2026-11-12T22:38:33.644550+00:00"
     },
+    "doi:10.1109/icosec58147.2023.11753082": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Retraction Notice: Development of Secure Hardware Architectures for Preventing Side-Channel Attacks and Protecting Sensitive Data in VLSI Systems",
+      "updated_at": "2026-11-12T23:37:37.792288+00:00"
+    },
     "doi:10.1109/icosec67334.2025.11459751": {
       "category": "secondaire",
       "decision": "examiner",
@@ -16487,6 +16535,14 @@
       "status": "rejected",
       "title": "A RISC-V Coprocessor for Seamless Integration of Stream-Based Accelerators",
       "updated_at": "2026-11-06T01:38:00.938411+00:00"
+    },
+    "doi:10.1109/iq-cchess56596.2023.10391484": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 62,
+      "status": "rejected",
+      "title": "Secure Firmware Update Architecture for IoT Devices using Blockchain and PUF",
+      "updated_at": "2026-11-12T23:36:46.762600+00:00"
     },
     "doi:10.1109/iraset68627.2026.11538534": {
       "category": "hors_sujet",
@@ -18112,6 +18168,14 @@
       "title": "Enhancing DFT Security in Chiplet-Based Systems With Encryption and Integrity Checking",
       "updated_at": "2026-11-04T17:53:03.964173+00:00"
     },
+    "doi:10.1109/jiot.2023.3267657": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Modeling-Attack-Resistant Strong PUF Exploiting Stagewise Obfuscated Interconnections With Improved Reliability",
+      "updated_at": "2026-11-12T23:38:43.463178+00:00"
+    },
     "doi:10.1109/jiot.2023.3279847": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -19335,6 +19399,14 @@
       "status": "rejected",
       "title": "Dual-Mode PUFs Based on Spin Orbit Torque Devices Enabling Secure Key Switching Between Private and Public Clouds",
       "updated_at": "2026-11-03T08:41:37.870419+00:00"
+    },
+    "doi:10.1109/les.2022.3196499": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Toward an Optimal Countermeasure for Cache Side-Channel Attacks",
+      "updated_at": "2026-11-12T23:37:47.945570+00:00"
     },
     "doi:10.1109/les.2023.3239754": {
       "category": "secondaire",
@@ -21112,6 +21184,14 @@
       "title": "Optimization of ARIA Block Cipher Implementation on RISC-V Systems Through Instruction Extension",
       "updated_at": "2026-11-09T05:38:02.664740+00:00"
     },
+    "doi:10.1109/powercon58120.2023.10331598": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Construction and Functional Verification of Hardware In the Loop Simulation Platform for Energy Storage Converter Based on RTDS",
+      "updated_at": "2026-11-12T23:36:26.878710+00:00"
+    },
     "doi:10.1109/prdc59308.2023.00032": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -22495,6 +22575,14 @@
       "status": "rejected",
       "title": "AI Trojan Attack for Evading Machine Learning-Based Detection of Hardware Trojans",
       "updated_at": "2026-11-06T18:39:41.422919+00:00"
+    },
+    "doi:10.1109/tc.2023.3254918": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Information Leakage Attacks Exploiting Cache Replacement in Commercial Processors",
+      "updated_at": "2026-11-12T23:38:33.520205+00:00"
     },
     "doi:10.1109/tc.2023.3262926": {
       "category": "hors_sujet",
@@ -28447,6 +28535,14 @@
       "status": "rejected",
       "title": "A Systematic Review of IoT Security: Research Potential, Challenges, and Future Directions",
       "updated_at": "2026-11-12T01:36:57.121187+00:00"
+    },
+    "doi:10.1145/3625223.3649275": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "SerIOS: Enhancing Hardware Security in Integrated Optoelectronic Systems",
+      "updated_at": "2026-11-12T23:36:57.962787+00:00"
     },
     "doi:10.1145/3625275.3625402": {
       "category": "coeur",
@@ -35040,6 +35136,14 @@
       "title": "A Review of Technologies that can Provide a 'Root of Trust' for Operational Technologies",
       "updated_at": "2026-11-09T05:13:44.183141+00:00"
     },
+    "doi:10.2172/2409397": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Electronics Manufacture, Attacks, & Hardware Assurance: A look into electronics construction, subversion points, and how to keep from boiling the ocean.",
+      "updated_at": "2026-11-12T23:36:57.992654+00:00"
+    },
     "doi:10.2172/2462922": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -40328,6 +40432,14 @@
       "title": "GHAZI: An Open-Source ASIC Implementation of RISC-V based SoC",
       "updated_at": "2026-11-07T20:14:44.302150+00:00"
     },
+    "doi:10.36227/techrxiv.23255420": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "FedCache: A Knowledge Cache-driven Federated Learning Architecture for Personalized Edge Intelligence",
+      "updated_at": "2026-11-12T23:38:53.575088+00:00"
+    },
     "doi:10.36227/techrxiv.24179745": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -44551,6 +44663,14 @@
       "status": "rejected",
       "title": "Design a 5-stage pipeline RISC-V CPU and optimise its ALU",
       "updated_at": "2026-11-11T00:38:09.758160+00:00"
+    },
+    "doi:10.54278/sapientia.v15i29.126": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Implementación en hardware para la medición de la aceleración usando FPGA",
+      "updated_at": "2026-11-12T23:36:39.526562+00:00"
     },
     "doi:10.5445/ir/1000190847": {
       "category": "transfert_explicite",
