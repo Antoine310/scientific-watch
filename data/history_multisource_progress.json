@@ -1,8 +1,8 @@
 {
   "accepted": 275,
   "completed": false,
-  "cursor": "MTcwMTM3MDcyNTAwMCwxMC4xMTA5JTJGaWNjYWQ1NzM5MC4yMDIzLjEwMzIzOTMz",
-  "evaluated": 5168,
+  "cursor": "MTcwNjY0MDIwMTAwMCwxMC4xMTA5JTJGaXNndGV1cm9wZTU2NzgwLjIwMjMuMTA0MDc3MDA=",
+  "evaluated": 5185,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -396,9 +396,9 @@
   ],
   "month": "2023-10",
   "needs_publish": false,
-  "offset": 320,
-  "pages_done": 5625,
-  "pages_in_query": 8,
+  "offset": 440,
+  "pages_done": 5628,
+  "pages_in_query": 11,
   "pending": [
     {
       "paper": {
@@ -406,32 +406,37 @@
         "authorships": [
           {
             "author": {
-              "display_name": "Suman Deb"
+              "display_name": "Hossein Sayadi"
             }
           },
           {
             "author": {
-              "display_name": "Anupam Chattopadhyay"
+              "display_name": "Zhangying He"
             }
           },
           {
             "author": {
-              "display_name": "Avi Mendelson"
+              "display_name": "Chelsea William Fernandes"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Tahereh Miari"
             }
           }
         ],
-        "doi": "https://doi.org/10.1109/vlsi-soc57769.2023.10321883",
-        "id": "https://doi.org/10.1109/vlsi-soc57769.2023.10321883",
+        "doi": "https://doi.org/10.1109/biocas58349.2023.10388581",
+        "id": "https://doi.org/10.1109/biocas58349.2023.10388581",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/vlsi-soc57769.2023.10321883"
+          "landing_page_url": "https://doi.org/10.1109/biocas58349.2023.10388581"
         },
-        "publication_date": "2023-10-16",
+        "publication_date": "2023-10-19",
         "publication_date_note": "",
         "publication_date_precision": "day",
-        "publication_date_source": "2023-10-16",
+        "publication_date_source": "2023-10-19",
         "publication_type": "conference",
-        "publication_venue": "2023 IFIP/IEEE 31st International Conference on Very Large Scale Integration (VLSI-SoC)",
-        "title": "A RISC-V SoC with Hardware Trojans: Case Study on Trojan-ing the On-Chip Protocol Conversion",
+        "publication_venue": "2023 IEEE Biomedical Circuits and Systems Conference (BioCAS)",
+        "title": "Cyber-Immunity at the Core: Securing Biomedical Devices through Hardware-Level Machine Learning Defense",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -450,96 +455,37 @@
         "authorships": [
           {
             "author": {
-              "display_name": "Hala Ibrahim"
+              "display_name": "Myeongjin Kang"
             }
           },
           {
             "author": {
-              "display_name": "Haytham Azmi"
+              "display_name": "Nayoung Kwon"
             }
           },
           {
             "author": {
-              "display_name": "M. Watheq El-Kharashi"
+              "display_name": "Seungmin Lee"
             }
           },
           {
             "author": {
-              "display_name": "Mona Safar"
+              "display_name": "Daejin Park"
             }
           }
         ],
-        "doi": "https://doi.org/10.1109/vlsi-soc57769.2023.10321908",
-        "id": "https://doi.org/10.1109/vlsi-soc57769.2023.10321908",
+        "doi": "https://doi.org/10.1109/ictc58733.2023.10392587",
+        "id": "https://doi.org/10.1109/ictc58733.2023.10392587",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/vlsi-soc57769.2023.10321908"
+          "landing_page_url": "https://doi.org/10.1109/ictc58733.2023.10392587"
         },
-        "publication_date": "2023-10-16",
+        "publication_date": "2023-10-11",
         "publication_date_note": "",
         "publication_date_precision": "day",
-        "publication_date_source": "2023-10-16",
+        "publication_date_source": "2023-10-11",
         "publication_type": "conference",
-        "publication_venue": "2023 IFIP/IEEE 31st International Conference on Very Large Scale Integration (VLSI-SoC)",
-        "title": "Hardware Security Analysis of Arbiters: Trojan Modeling and Formal Verification",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Jhonatan Antônio Cassol"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Juliano Silva Damiani"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Adriano Peres de Morais"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ana Alice Timm Goretti"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Selso Rabelo"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Mairon Gallas"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/sepoc58810.2023.10322642",
-        "id": "https://doi.org/10.1109/sepoc58810.2023.10322642",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/sepoc58810.2023.10322642"
-        },
-        "publication_date": "2023-10-22",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2023-10-22",
-        "publication_type": "conference",
-        "publication_venue": "2023 15th Seminar on Power Electronics and Control (SEPOC)",
-        "title": "Loss-of-Field Protection Testing: Software and Hardware-in-the-Loop Approach",
+        "publication_venue": "2023 14th International Conference on Information and Communication Technology Convergence (ICTC)",
+        "title": "Fast Bit Inversion Vulnerability Pre-estimation using Tcl and UPF in RTL Simulation Runtime",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -554,556 +500,46 @@
     },
     {
       "paper": {
-        "abstract_inverted_index": {
-          "(CPU,": [
-            58
-          ],
-          "(DC)": [
-            12
-          ],
-          "(power": [
-            87
-          ],
-          "220VAC": [
-            146,
-            157
-          ],
-          "Centers": [
-            11
-          ],
-          "Data": [
-            10
-          ],
-          "However,": [
-            65
-          ],
-          "In": [
-            93
-          ],
-          "Real-time": [
-            0
-          ],
-          "The": [
-            128
-          ],
-          "To": [
-            38
-          ],
-          "WiFi": [
-            160
-          ],
-          "a": [
-            14,
-            101,
-            117,
-            123
-          ],
-          "act": [
-            35
-          ],
-          "against": [
-            36
-          ],
-          "also": [
-            26
-          ],
-          "and": [
-            46,
-            99,
-            107,
-            119,
-            159
-          ],
-          "are": [
-            43
-          ],
-          "as": [
-            84
-          ],
-          "available": [
-            8
-          ],
-          "basic": [
-            74
-          ],
-          "both": [
-            105
-          ],
-          "built": [
-            100
-          ],
-          "but": [
-            25
-          ],
-          "capable": [
-            120
-          ],
-          "composed": [
-            132
-          ],
-          "consumption": [
-            144
-          ],
-          "correct": [
-            78
-          ],
-          "critical": [
-            15
-          ],
-          "current": [
-            143
-          ],
-          "customers,": [
-            24
-          ],
-          "cyber-attacks.": [
-            37
-          ],
-          "designed": [
-            98
-          ],
-          "detect": [
-            28
-          ],
-          "device": [
-            56,
-            115,
-            130
-          ],
-          "devices": [
-            7
-          ],
-          "devices,": [
-            82
-          ],
-          "different": [
-            55
-          ],
-          "do": [
-            68
-          ],
-          "each": [
-            114
-          ],
-          "electronic": [
-            151
-          ],
-          "elements": [
-            75
-          ],
-          "embedded": [
-            103
-          ],
-          "environmental": [
-            85
-          ],
-          "etc.).": [
-            64,
-            92
-          ],
-          "for": [
-            76
-          ],
-          "functionalities": [
-            57
-          ],
-          "functions,": [
-            41
-          ],
-          "hardware": [
-            106,
-            129
-          ],
-          "hardware/-": [
-            30
-          ],
-          "have": [
-            97
-          ],
-          "humidity,": [
-            90
-          ],
-          "in": [
-            9,
-            111
-          ],
-          "incidents": [
-            32
-          ],
-          "include": [
-            70
-          ],
-          "information": [
-            165
-          ],
-          "infrared": [
-            137
-          ],
-          "input": [
-            148
-          ],
-          "inside": [
-            116
-          ],
-          "integrating": [
-            122
-          ],
-          "is": [
-            13,
-            131
-          ],
-          "level": [
-            141
-          ],
-          "market": [
-            52
-          ],
-          "memory,": [
-            59
-          ],
-          "meter,": [
-            145,
-            150
-          ],
-          "module": [
-            152,
-            161
-          ],
-          "monitor": [
-            110
-          ],
-          "monitoring": [
-            1,
-            48,
-            72
-          ],
-          "motherboard,": [
-            134
-          ],
-          "network": [
-            47
-          ],
-          "network,": [
-            61
-          ],
-          "noise": [
-            140
-          ],
-          "noise,": [
-            91
-          ],
-          "not": [
-            69
-          ],
-          "of": [
-            2,
-            5,
-            73,
-            80,
-            121,
-            126
-          ],
-          "of:": [
-            133
-          ],
-          "on": [
-            50
-          ],
-          "on/off": [
-            155
-          ],
-          "operation": [
-            79
-          ],
-          "or": [
-            33
-          ],
-          "output": [
-            158
-          ],
-          "parameters": [
-            86
-          ],
-          "perform": [
-            39
-          ],
-          "possible": [
-            29
-          ],
-          "power": [
-            135
-          ],
-          "processes,": [
-            62
-          ],
-          "project": [
-            95
-          ],
-          "prototype": [
-            102
-          ],
-          "provide": [
-            20
-          ],
-          "quality": [
-            21
-          ],
-          "rack": [
-            118
-          ],
-          "real": [
-            112,
-            147
-          ],
-          "send": [
-            163
-          ],
-          "sensor,": [
-            139,
-            142
-          ],
-          "sensors.": [
-            127
-          ],
-          "services": [
-            22
-          ],
-          "services,": [
-            63
-          ],
-          "software": [
-            31
-          ],
-          "software,": [
-            108
-          ],
-          "specific": [
-            44
-          ],
-          "status": [
-            4
-          ],
-          "storage,": [
-            60
-          ],
-          "such": [
-            83
-          ],
-          "supervise": [
-            54
-          ],
-          "supply,": [
-            88,
-            136
-          ],
-          "switch": [
-            154
-          ],
-          "system": [
-            45
-          ],
-          "system,": [
-            104
-          ],
-          "systems": [
-            67
-          ],
-          "task": [
-            16
-          ],
-          "temperature": [
-            138
-          ],
-          "temperature,": [
-            89
-          ],
-          "that": [
-            53
-          ],
-          "the": [
-            3,
-            6,
-            51,
-            71,
-            77,
-            156,
-            164
-          ],
-          "there": [
-            42
-          ],
-          "these": [
-            40,
-            66,
-            81
-          ],
-          "this": [
-            94
-          ],
-          "time": [
-            113
-          ],
-          "to": [
-            17,
-            19,
-            23,
-            27,
-            34,
-            109,
-            153,
-            162
-          ],
-          "tools": [
-            49
-          ],
-          "try": [
-            18
-          ],
-          "variety": [
-            125
-          ],
-          "voltage": [
-            149
-          ],
-          "we": [
-            96
-          ],
-          "wide": [
-            124
-          ]
-        },
+        "abstract_inverted_index": {},
         "authorships": [
           {
             "author": {
-              "display_name": "Alberto Pérez Aboli"
+              "display_name": "Leonidas Kosmidis"
             }
           },
           {
             "author": {
-              "display_name": "Carlos Dafonte"
+              "display_name": "Marc Solé"
             }
           },
           {
             "author": {
-              "display_name": "Ángel Gómez"
+              "display_name": "Ivan Rodriguez"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jannis Wolf"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Matina Maria Trompouki"
             }
           }
         ],
-        "doi": "https://doi.org/10.17979/spudc.000024.25",
-        "id": "https://doi.org/10.17979/spudc.000024.25",
+        "doi": "https://doi.org/10.23919/edhpc59100.2023.10396370",
+        "id": "https://doi.org/10.23919/edhpc59100.2023.10396370",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.17979/spudc.000024.25"
+          "landing_page_url": "https://doi.org/10.23919/edhpc59100.2023.10396370"
         },
         "publication_date": "2023-10-02",
         "publication_date_note": "",
         "publication_date_precision": "day",
         "publication_date_source": "2023-10-02",
         "publication_type": "conference",
-        "publication_venue": "Congreso XoveTIC: impulsando el talento científico (6º. 2023. A Coruña)",
-        "title": "Embedded System for Monitoring and Prevention of Hardware/Software Incidents in Data Center Devices",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Minwoo Kang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Azade Nova"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Eshan Singh"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Geetheeka Sharron Bathini"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Yuriy Viktorov"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/iccad57390.2023.10323681",
-        "id": "https://doi.org/10.1109/iccad57390.2023.10323681",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/iccad57390.2023.10323681"
-        },
-        "publication_date": "2023-10-28",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2023-10-28",
-        "publication_type": "conference",
-        "publication_venue": "2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD)",
-        "title": "LFPS: Learned Formal Proof Strengthening for Efficient Hardware Verification",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Yongliang Chen"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Xiaole Cui"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Pengyuan Yang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Gang Qu"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/iccad57390.2023.10323780",
-        "id": "https://doi.org/10.1109/iccad57390.2023.10323780",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/iccad57390.2023.10323780"
-        },
-        "publication_date": "2023-10-28",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2023-10-28",
-        "publication_type": "conference",
-        "publication_venue": "2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD)",
-        "title": "An Anti-Removal-Attack Hardware Watermarking Method Based on Polymorphic Gates",
+        "publication_venue": "2023 European Data Handling & Data Processing Conference (EDHPC)",
+        "title": "The METASAT Hardware Platform: A High-Performance Multicore, AI SIMD and GPU RISC-V Platform for On-board Processing",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -3520,7 +2956,7 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1957,
+  "prefilter_review_overflow": 1958,
   "query_index": 17,
   "secondary": 281,
   "skipped": 5274,
