@@ -3040,6 +3040,14 @@
       "title": "Spec17Tre: A New Dataset in Hardware Security and Using Deep Learning for Detecting Spectre Attacks",
       "updated_at": "2026-11-06T05:37:40.259044+00:00"
     },
+    "doi:10.1007/s13389-020-00230-x": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "A method for constructing sliding windows leak from noisy cache timing information",
+      "updated_at": "2026-11-12T17:18:55.782578+00:00"
+    },
     "doi:10.1007/s13389-021-00273-8": {
       "category": "coeur",
       "decision": "conserver",
@@ -4151,6 +4159,14 @@
       "status": "rejected",
       "title": "Physical design of a 32-bit RISC-V based microprocessor: A proof of concept for chaotic systems implementation",
       "updated_at": "2026-11-03T08:42:34.461346+00:00"
+    },
+    "doi:10.1016/j.cose.2020.101945": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "DO-RA: Data-oriented runtime attestation for IoT devices",
+      "updated_at": "2026-11-12T17:14:03.450758+00:00"
     },
     "doi:10.1016/j.cose.2023.103095": {
       "category": "secondaire",
@@ -26880,6 +26896,22 @@
       "title": "Déjà Vu: Side-Channel Analysis of Mozilla's NSS",
       "updated_at": "2026-11-12T02:14:26.322456+00:00"
     },
+    "doi:10.1145/3385412.3385970": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Constant-time foundations for the new spectre era",
+      "updated_at": "2026-11-12T17:15:05.796553+00:00"
+    },
+    "doi:10.1145/3385897": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "KLEESpectre: Detecting Information Leakage through Speculative Cache Attacks via Symbolic Execution",
+      "updated_at": "2026-11-12T17:19:02.182096+00:00"
+    },
     "doi:10.1145/3386263.3406922": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -26895,6 +26927,14 @@
       "status": "imported",
       "title": "Comprehensive Evaluation of Machine Learning Countermeasures for Detecting Microarchitectural Side-Channel Attacks",
       "updated_at": "2026-11-12T08:13:36.944118+00:00"
+    },
+    "doi:10.1145/3399742": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Spectre attacks: exploiting speculative execution",
+      "updated_at": "2026-11-12T17:18:57.915891+00:00"
     },
     "doi:10.1145/3411504.3421212": {
       "category": "secondaire_technique",
@@ -41839,6 +41879,14 @@
       "status": "rejected",
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
+    },
+    "doi:10.48550/arxiv.2006.01442": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Real time Detection of Spectre and Meltdown Attacks Using Machine Learning",
+      "updated_at": "2026-11-12T17:19:00.233889+00:00"
     },
     "doi:10.48550/arxiv.2007.06751": {
       "category": "secondaire_technique",
