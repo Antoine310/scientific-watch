@@ -924,6 +924,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/dttis59576.2023.10348176": {
+    "doi": "https://doi.org/10.1109/dttis59576.2023.10348176",
+    "publication_date": "2023-11-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-11-01",
+    "publication_type": "conference",
+    "publication_venue": "2023 IEEE International Conference on Design, Test and Technology of Integrated Systems (DTTIS)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/dttis59576.2023.10348176",
+    "summary": "Cet article présente LiFi-CFI, une architecture matérielle légère de protection de l'intégrité du flux de contrôle (CFI) pour les processeurs RISC-V embarqués. Elle vise à contrer les attaques de type JOP (Jump-Oriented Programming) et ROP (Return-Oriented Programming) tout en minimisant la consommation d'énergie, l'utilisation des ressources matérielles et le surcoût d'exécution.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "LiFi-CFI: Light-weight Fine-grained Hardware CFI Protection for RISC-V",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/ectc51687.2025.00367": {
     "doi": "https://doi.org/10.1109/ectc51687.2025.00367",
     "publication_date": "2025-05-27",
@@ -4095,6 +4115,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3605769.3623998": {
+    "doi": "https://doi.org/10.1145/3605769.3623998",
+    "publication_date": "2023-11-26",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-11-26",
+    "publication_type": "conference",
+    "publication_venue": "CCS '23: ACM SIGSAC Conference on Computer and Communications Security",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3605769.3623998",
+    "summary": "Cette publication retrace l'évolution sur trente ans du matériel informatique considéré comme source et racine de la confiance. L'article analyse le passage d'un environnement informatique simple et homogène à un paysage technologique complexe, omniprésent et interconnecté, tout en abordant les défis persistants, les erreurs passées, les intersections interdisciplinaires et les orientations futures pour les technologies de confiance.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "In Search of Trust: 30 Years of Evolution of Trusted Computing and Hardware Security",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1145/3606305.3606312": {
     "doi": "https://doi.org/10.1145/3606305.3606312",
