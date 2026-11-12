@@ -13184,6 +13184,14 @@
       "title": "A RISC-V Multi-Core Accelerator for Flexible High-Performance In-Network Computing",
       "updated_at": "2026-11-06T17:38:03.871788+00:00"
     },
+    "doi:10.1109/iccd50377.2020.00111": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Phased-Guard: Multi-Phase Machine Learning Framework for Detection and Identification of Zero-Day Microarchitectural Side-Channel Attacks",
+      "updated_at": "2026-11-12T02:14:23.957380+00:00"
+    },
     "doi:10.1109/iccd63220.2024.00027": {
       "category": "coeur",
       "decision": "examiner",
@@ -25968,6 +25976,14 @@
       "title": "The Pomarinho enclave swarm: structural and petrological evidence of repeated quenching, splitting and magmatic erosion at the sidewalls of conduits (Iberian Variscan belt)",
       "updated_at": "2026-11-02T20:16:46.220256+00:00"
     },
+    "doi:10.1145/3372297.3421761": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Déjà Vu: Side-Channel Analysis of Mozilla's NSS",
+      "updated_at": "2026-11-12T02:14:26.322456+00:00"
+    },
     "doi:10.1145/3411504.3421212": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -33031,6 +33047,14 @@
       "status": "rejected",
       "title": "Memory Optimization System for SGXv2 Trusted Execution Environment",
       "updated_at": "2026-11-09T14:14:34.827597+00:00"
+    },
+    "doi:10.2172/1768054": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Performance Analysis of Scientific Computing Workloads on Trusted Execution Environments",
+      "updated_at": "2026-11-12T02:13:54.630532+00:00"
     },
     "doi:10.2172/1861944": {
       "category": "secondaire_technique",
@@ -40415,6 +40439,22 @@
       "status": "rejected",
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
+    },
+    "doi:10.48550/arxiv.2010.08440": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Elasticlave: An Efficient Memory Model for Enclaves",
+      "updated_at": "2026-11-12T02:13:58.887943+00:00"
+    },
+    "doi:10.48550/arxiv.2010.15866": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "CURE: A Security Architecture with CUstomizable and Resilient Enclaves",
+      "updated_at": "2026-11-12T02:13:38.018975+00:00"
     },
     "doi:10.48550/arxiv.2011.07400": {
       "category": "coeur",

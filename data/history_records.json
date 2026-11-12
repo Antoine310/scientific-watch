@@ -1288,6 +1288,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/iccd50377.2020.00111": {
+    "doi": "https://doi.org/10.1109/iccd50377.2020.00111",
+    "publication_date": "2020-10-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE International Conference on Computer Design: VLSI in Computers and Processors (ICCD)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/iccd50377.2020.00111",
+    "summary": "Cet article présente Phased-Guard, un framework d'apprentissage automatique à deux niveaux conçu pour détecter et identifier à l'exécution les attaques par canal auxiliaire microarchitecturales, y compris les attaques inconnues (zero-day), en utilisant des compteurs de performance matérielle (HPC). L'approche combine une réduction de features, une classification binaire pour la détection et une classification multiclasse pour l'identification, atteignant une haute précision avec un faible surcoût.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Phased-Guard: Multi-Phase Machine Learning Framework for Detection and Identification of Zero-Day Microarchitectural Side-Channel Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/iccd65941.2025.00052": {
     "doi": "https://doi.org/10.1109/iccd65941.2025.00052",
     "publication_date": "2025-11-10",
@@ -7160,6 +7177,40 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2010.08440": {
+    "doi": "https://doi.org/10.48550/arxiv.2010.08440",
+    "publication_date": "2020-10-16",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2010.08440",
+    "summary": "Elasticlave est un nouveau modèle de mémoire pour environnements d'exécution de confiance (TEE) qui permet aux enclaves de partager de la mémoire de manière sélective et temporaire avec d'autres enclaves et le système d'exploitation, éliminant ainsi les copies de données coûteuses inhérentes au modèle d'isolation spatiale strict.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Elasticlave: An Efficient Memory Model for Enclaves",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.48550/arxiv.2010.15866": {
+    "doi": "https://doi.org/10.48550/arxiv.2010.15866",
+    "publication_date": "2020-10-29",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 95,
+    "source": "http://tubiblio.ulb.tu-darmstadt.de/123465/",
+    "summary": "Cet article présente CURE, une nouvelle architecture de sécurité fournissant des environnements d'exécution de confiance (TEE) personnalisables et résilients. CURE propose différents types d'enclaves pour répondre à des besoins flexibles, gère l'accès sécurisé aux périphériques et aux cœurs multiples, et offre une allocation fine des ressources de cache pour atténuer les attaques par canal auxiliaire. L'architecture a été implémentée sur un SoC RISC-V et évaluée avec une surcharge de performance moyenne de 15,33%.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "CURE: A Security Architecture with CUstomizable and Resilient Enclaves",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2011.07400": {
     "doi": "https://doi.org/10.48550/arxiv.2011.07400",
