@@ -4016,6 +4016,14 @@
       "title": "A survey on physical unclonable function (PUF)-based security solutions for Internet of Things",
       "updated_at": "2026-11-12T05:13:27.098663+00:00"
     },
+    "doi:10.1016/j.comnet.2023.109898": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "SED-SGC: A scalable, efficient, and distributed secure group communication scheme based on superlattice PUF",
+      "updated_at": "2026-11-12T21:37:27.643957+00:00"
+    },
     "doi:10.1016/j.comnet.2023.109998": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4903,6 +4911,14 @@
       "status": "rejected",
       "title": "Embedded shear layers in turbulent boundary layers of a NACA0012 airfoil at high angles of attack",
       "updated_at": "2026-11-09T11:39:37.051624+00:00"
+    },
+    "doi:10.1016/j.ijleo.2023.171164": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Image encryption application and security analysis based on current modulated edge-emitting semiconductor lasers with pulse packages embedded in the microcontroller",
+      "updated_at": "2026-11-12T21:36:37.427168+00:00"
     },
     "doi:10.1016/j.ijmecsci.2026.111427": {
       "category": "hors_sujet",
@@ -6399,6 +6415,14 @@
       "status": "rejected",
       "title": "Statistical device simulations of III-V nanowire resonant tunneling diodes as physical unclonable functions source",
       "updated_at": "2026-11-09T05:13:24.567745+00:00"
+    },
+    "doi:10.1016/j.sse.2023.108701": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Experimental analysis of variability in WS2-based devices for hardware security",
+      "updated_at": "2026-11-12T21:36:27.686749+00:00"
     },
     "doi:10.1016/j.sse.2023.108785": {
       "category": "hors_sujet",
@@ -22328,6 +22352,14 @@
       "title": "AI Trojan Attack for Evading Machine Learning-Based Detection of Hardware Trojans",
       "updated_at": "2026-11-06T18:39:41.422919+00:00"
     },
+    "doi:10.1109/tc.2023.3262926": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Transition Factors of Power Consumption Models for CPA Attacks on Cryptographic RISC-V SoC",
+      "updated_at": "2026-11-12T21:37:37.402412+00:00"
+    },
     "doi:10.1109/tc.2023.3266592": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -23856,6 +23888,30 @@
       "title": "SpecBox: A Label-Based Transparent Speculation Scheme Against Transient Execution Attacks",
       "updated_at": "2026-11-09T14:15:27.358674+00:00"
     },
+    "doi:10.1109/tdsc.2022.3207573": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Generic and Sensitive Anomaly Detection of Network Covert Timing Channels",
+      "updated_at": "2026-11-12T21:37:07.716791+00:00"
+    },
+    "doi:10.1109/tdsc.2022.3215977": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "ESMAC: Efficient and Secure Multi-Owner Access Control With TEE in Multi-Level Data Processing",
+      "updated_at": "2026-11-12T21:37:17.969006+00:00"
+    },
+    "doi:10.1109/tdsc.2022.3216020": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Smaug: A TEE-Assisted Secured SQLite for Embedded Systems",
+      "updated_at": "2026-11-12T21:37:17.998275+00:00"
+    },
     "doi:10.1109/tdsc.2022.3218506": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -25000,6 +25056,14 @@
       "title": "RISC-V Proton Reliability Assessment Using Redundancy and Optimization Techniques on Bare Metal and Linux",
       "updated_at": "2026-11-02T18:18:05.624544+00:00"
     },
+    "doi:10.1109/tnse.2022.3186478": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "QR-PUF: Design and Implementation of a RFID-Based Secure Inpatient Management System Using XOR-Arbiter-PUF and QR-Code",
+      "updated_at": "2026-11-12T21:37:07.683211+00:00"
+    },
     "doi:10.1109/tnse.2024.3432836": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -25351,6 +25415,14 @@
       "status": "rejected",
       "title": "RISE: RISC-V SoC for En/Decryption Acceleration on the Edge for Homomorphic Encryption",
       "updated_at": "2026-11-06T17:14:07.821739+00:00"
+    },
+    "doi:10.1109/tvlsi.2023.3297027": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "TVLA*: Test Vector Leakage Assessment on Hardware Implementations of Asymmetric Cryptography Algorithms",
+      "updated_at": "2026-11-12T21:36:47.553839+00:00"
     },
     "doi:10.1109/tvlsi.2023.3298327": {
       "category": "secondaire",
@@ -27783,6 +27855,14 @@
       "status": "rejected",
       "title": "Side-channel and Fault-injection attacks over Lattice-based Post-quantum Schemes (Kyber, Dilithium): Survey and New Results",
       "updated_at": "2026-11-10T18:40:26.818036+00:00"
+    },
+    "doi:10.1145/3603502": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hardware Security Risks and Threat Analyses in Advanced Manufacturing Industry",
+      "updated_at": "2026-11-12T21:36:27.637930+00:00"
     },
     "doi:10.1145/3603619": {
       "category": "coeur",
@@ -39023,6 +39103,14 @@
       "status": "rejected",
       "title": "Non-Identical Inverter Rings as an Entropy Source: NIST-90B-Verified TRNG Architecture on FPGAs for IoT Device Integrity",
       "updated_at": "2026-11-07T14:13:27.269356+00:00"
+    },
+    "doi:10.3390/math11173759": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Enhancing the Security and Privacy in the IoT Supply Chain Using Blockchain and Federated Learning with Trusted Execution Environment",
+      "updated_at": "2026-11-12T21:36:57.581669+00:00"
     },
     "doi:10.3390/math12010077": {
       "category": "secondaire",
