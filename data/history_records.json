@@ -2847,6 +2847,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/tcad.2023.3271583": {
+    "doi": "https://doi.org/10.1109/tcad.2023.3271583",
+    "publication_date": "2023-11-01",
+    "publication_date_note": "Date source Crossref : 2023-11 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2023-11",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "score": 82,
+    "source": "https://doi.org/10.1109/tcad.2023.3271583",
+    "summary": "Cet article présente ProMiSE, un moniteur matériel programmable haute performance conçu pour renforcer la sécurité de l'exécution logicielle contre les attaques à l'exécution. En s'appuyant sur un jeu d'instructions dédié aux moniteurs et des conceptions d'assistance à la sécurité, ProMiSE offre une grande flexibilité pour implémenter diverses politiques de détection d'attaques tout en maintenant de faibles surcoûts. Il est implémenté sur un processeur RISC-V RocketChip.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "ProMiSE: A High-Performance Programmable Hardware Monitor for High Security Enforcement of Software Execution",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tcad.2024.3374249": {
     "doi": "https://doi.org/10.1109/tcad.2024.3374249",
     "publication_date": "2024-03-07",
@@ -8657,6 +8677,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:ataleofunrealizedhopehardwareperformancecounteragainstcacheattacks": {
+    "doi": "",
+    "publication_date": "2023-11-17",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 80,
+    "source": "http://arxiv.org/abs/2311.10542v3",
+    "summary": "Cet article étudie une approche de défense émergente contre les attaques par canal cache utilisant les compteurs de performance matériels (HPC) pour détecter les comportements malveillants via l'analyse des déviations statistiques. Les auteurs réalisent une évaluation critique de la littérature existante sous forme de revue, complétée par des preuves expérimentales pour examiner la viabilité de ces méthodes en conditions réelles.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "A Tale of Unrealized Hope: Hardware Performance Counter Against Cache Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:ateebasedarchitectureforconfidentialanddependableprocessattestationinauthorshipverification": {
     "doi": "",
     "publication_date": "2026-02-26",
@@ -9577,6 +9617,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:microarchitecturalsecurityofawsfirecrackervmmforserverlesscloudplatforms": {
+    "doi": "",
+    "publication_date": "2023-11-27",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2311.15999v1",
+    "summary": "Cette publication étudie la sécurité microarchitecturale du moniteur de machines virtuelles (VMM) AWS Firecracker, utilisé pour l'informatique sans serveur (serverless). En combinant une analyse théorique du modèle d'isolation et des preuves de concept d'attaques, les auteurs démontrent que Firecracker offre une protection limitée contre les attaques microarchitecturales telles que Spectre ou MDS, mettant en évidence des variantes spécifiques non atténuées par les recommandations d'AWS.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Microarchitectural Security of AWS Firecracker VMM for Serverless Cloud Platforms",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:modernhardwaresecurityareviewofattacksandcountermeasures": {
     "doi": "",
     "publication_date": "2025-01-08",
@@ -9967,6 +10027,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "title:robustconstanttimecryptography": {
+    "doi": "",
+    "publication_date": "2023-11-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2311.05831v1",
+    "summary": "Cet article analyse les limites de la programmation en temps constant (« constant-time ») conventionnelle, qui est souvent non robuste lorsqu'elle est combinée à du code non sécurisé ou non sûr en mémoire. Les auteurs formalisent la notion de temps constant robuste (« robust constant-time ») et proposent le compilateur RobustIsoCrypt pour protéger les bibliothèques cryptographiques même lorsqu'elles sont liées à des applications non fiables.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Robust Constant-Time Cryptography",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:sableminimalistinstructionlevelauthenticatedencryptionforconstrainedconfidentialcomputing": {
     "publication_date": "2026-07-18",
     "publication_date_note": "",
@@ -10179,6 +10259,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "SIGY: Breaking Intel SGX Enclaves with Malicious Exceptions & Signals",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:sinclavehardwareassistedsingletonsfortees": {
+    "doi": "",
+    "publication_date": "2023-11-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2311.02697v1",
+    "summary": "SinClave propose une approche matérielle pour sécuriser les environnements d'exécution de confiance (TEE) en garantissant la fraîcheur et la complétude des mesures lors de l'attestation à distance. L'article démontre la faisabilité d'attaques par réutilisation d'enclaves et introduit le concept de singleton enclave associé à l'intégration des secrets provisionnés et du contenu du système de fichiers dans les mesures, pour un surcoût négligeable de 1,03 % à 13,2 %.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "SinClave: Hardware-assisted Singletons for TEEs",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,

@@ -6016,6 +6016,14 @@
       "title": "A Haskell-embedded DSL for secure information-flow",
       "updated_at": "2026-11-03T18:29:17.630120+00:00"
     },
+    "doi:10.1016/j.scitotenv.2023.165446": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Silicon-based nanoparticles for mitigating the effect of potentially toxic elements and plant stress in agroecosystems: A sustainable pathway towards food security",
+      "updated_at": "2026-11-12T00:39:40.965208+00:00"
+    },
     "doi:10.1016/j.scitotenv.2024.174778": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -11911,6 +11919,14 @@
       "status": "imported",
       "title": "Latte: Layered Attestation for Portable Enclaved Applications",
       "updated_at": "2026-10-30T20:13:52.916218+00:00"
+    },
+    "doi:10.1109/eurospw59978.2023.00049": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 50,
+      "status": "rejected",
+      "title": "D-GATE: Decentralized Geolocation and Time Enforcement for Usage Control",
+      "updated_at": "2026-11-12T00:37:40.734978+00:00"
     },
     "doi:10.1109/eurospw61312.2024.00025": {
       "category": "secondaire",
@@ -19144,6 +19160,14 @@
       "title": "Radio Frequency Fingerprints vs. Physical Unclonable Functions - Are They Twins, Competitors, or Allies?",
       "updated_at": "2026-11-08T17:13:53.317720+00:00"
     },
+    "doi:10.1109/mnet.135.2200558": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Securing NFV/SDN IoT Using VNFs Over a Compute-Intensive Hardware Resource in NFVI",
+      "updated_at": "2026-11-12T00:39:22.301813+00:00"
+    },
     "doi:10.1109/mocast61810.2024.10615972": {
       "category": "coeur",
       "decision": "conserver",
@@ -21496,6 +21520,14 @@
       "title": "A Lightweight True Random Number Generator for Root of Trust Applications",
       "updated_at": "2026-11-07T17:14:22.016736+00:00"
     },
+    "doi:10.1109/tcad.2023.3271583": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 82,
+      "status": "imported",
+      "title": "ProMiSE: A High-Performance Programmable Hardware Monitor for High Security Enforcement of Software Execution",
+      "updated_at": "2026-11-12T00:39:34.303477+00:00"
+    },
     "doi:10.1109/tcad.2023.3282897": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -22423,6 +22455,14 @@
       "status": "rejected",
       "title": "A High-Speed FPGA-Based True Random Number Generator Using Metastability With Clock Managers",
       "updated_at": "2026-11-08T05:14:28.843690+00:00"
+    },
+    "doi:10.1109/tcsii.2023.3282629": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "A 3.02 pJ/Bit 3T-APS-Based In-Sensor Strong PUF Featuring Near-100% Hardware Reuse Ratio and High Resilience to Machine Learning Attacks",
+      "updated_at": "2026-11-12T00:39:34.333047+00:00"
     },
     "doi:10.1109/tcsii.2023.3334273": {
       "category": "hors_sujet",
@@ -24543,6 +24583,14 @@
       "status": "rejected",
       "title": "D2DAP: Provably Secure and Efficient Drone-to-Drone Authentication Protocol Using Threshold Cryptography and PUF",
       "updated_at": "2026-11-02T18:16:50.490904+00:00"
+    },
+    "doi:10.1109/twc.2023.3252046": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Robust Transmission Design for RIS-Assisted Secure Multiuser Communication Systems in the Presence of Hardware Impairments",
+      "updated_at": "2026-11-12T00:39:22.331486+00:00"
     },
     "doi:10.1109/twc.2024.3382342": {
       "category": "hors_sujet",
@@ -44032,6 +44080,22 @@
       "title": "AI-Assisted Hardware Security Verification: A Survey and AI Accelerator Case Study",
       "updated_at": "2026-11-03T12:27:36.532894+00:00"
     },
+    "title:alargescalestudyontheprevalenceandusageofteebasedfeaturesonandroid": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "A Large-Scale Study on the Prevalence and Usage of TEE-based Features on Android",
+      "updated_at": "2026-11-12T00:37:40.706679+00:00"
+    },
+    "title:alastleveldefenseforapplicationintegrityandconfidentiality": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 70,
+      "status": "rejected",
+      "title": "A Last-Level Defense for Application Integrity and Confidentiality",
+      "updated_at": "2026-11-12T00:37:40.589908+00:00"
+    },
     "title:alifecycleorienteddetectionanddefenseframeworkforpricemanipulationattacksindefi": {
       "category": "secondaire",
       "decision": "examiner",
@@ -44119,6 +44183,14 @@
       "status": "rejected",
       "title": "A performance analysis of VM-based Trusted Execution Environments for Confidential Federated Learning",
       "updated_at": "2026-11-07T07:37:48.830945+00:00"
+    },
+    "title:apracticalkeyrecoveryattackonlwebasedkeyencapsulationmechanismschemesusingrowhammer": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 50,
+      "status": "rejected",
+      "title": "A practical key-recovery attack on LWE-based key-encapsulation mechanism schemes using Rowhammer",
+      "updated_at": "2026-11-12T00:38:33.346139+00:00"
     },
     "title:aprivacypreservinggraphencryptionschemebasedonobliviousram": {
       "category": "secondaire",
@@ -44247,6 +44319,14 @@
       "status": "rejected",
       "title": "Aster: Fixing the Android TEE Ecosystem with Arm CCA",
       "updated_at": "2026-11-09T06:39:07.572696+00:00"
+    },
+    "title:ataleofunrealizedhopehardwareperformancecounteragainstcacheattacks": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "A Tale of Unrealized Hope: Hardware Performance Counter Against Cache Attacks",
+      "updated_at": "2026-11-12T00:38:25.354012+00:00"
     },
     "title:ateebasedarchitectureforconfidentialanddependableprocessattestationinauthorshipverification": {
       "category": "coeur",
@@ -44832,6 +44912,22 @@
       "title": "Constant-Size Cryptographic Evidence Structures for Regulated AI Workflows",
       "updated_at": "2026-11-04T08:32:11.972679+00:00"
     },
+    "title:constanttimewasmtimeforrealthistimeendtoendverifiedzerooverheadconstanttimeprogrammingforthewebandbeyond": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Constant-Time Wasmtime, for Real This Time: End-to-End Verified Zero-Overhead Constant-Time Programming for the Web and Beyond",
+      "updated_at": "2026-11-12T00:38:33.375080+00:00"
+    },
+    "title:constmigenablingsecurelivemigrationoflargeintelsgxbasedapplications": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "ConstMig: Enabling Secure Live Migration of Large Intel SGX-based applications",
+      "updated_at": "2026-11-12T00:37:40.650170+00:00"
+    },
     "title:costruirelasafetyapartiredasecurityepredicibilitaunframeworkcentratosucheripersistemiautonomi": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -44951,6 +45047,14 @@
       "status": "rejected",
       "title": "Cybersecurity of High-Altitude Platform Stations: Threat Taxonomy, Attacks and Defenses with Standards Mapping - DDoS Attack Use Case",
       "updated_at": "2026-11-04T08:30:13.828955+00:00"
+    },
+    "title:daodecentralizationvotingblocentropybriberyanddarkdaos": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "DAO Decentralization: Voting-Bloc Entropy, Bribery, and Dark DAOs",
+      "updated_at": "2026-11-12T00:37:40.560576+00:00"
     },
     "title:datastructuresforprivatetokentransfersinteebasednetworks": {
       "category": "secondaire",
@@ -46048,6 +46152,14 @@
       "title": "Implementing and Optimizing an Open-Source SD-card Host Controller for RISC-V SoCs",
       "updated_at": "2026-11-03T14:43:58.965508+00:00"
     },
+    "title:improvingfsmstateenumerationperformanceforhardwaresecuritywithrecutandrefsmsat": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Improving FSM State Enumeration Performance for Hardware Security with RECUT and REFSM-SAT",
+      "updated_at": "2026-11-12T00:36:47.527161+00:00"
+    },
     "title:inmemorycomputingarchitectureforefficienthardwaresecurity": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -46183,6 +46295,14 @@
       "status": "rejected",
       "title": "KORD: Breaking the Key-Generation Bottleneck in Dealerless FSS via Protocol--Hardware Co-Design",
       "updated_at": "2026-11-02T17:52:40.960094+00:00"
+    },
+    "title:krattqbfassistedremovalandstructuralanalysisattackagainstlogiclocking": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "KRATT: QBF-Assisted Removal and Structural Analysis Attack Against Logic Locking",
+      "updated_at": "2026-11-12T00:36:47.496814+00:00"
     },
     "title:laagrvllmassistedassertiongenerationforrtldesignverification": {
       "category": "secondaire",
@@ -46368,6 +46488,14 @@
       "title": "LSKV: A Confidential Distributed Datastore to Protect Critical Data in the Cloud",
       "updated_at": "2026-11-09T06:38:09.604517+00:00"
     },
+    "title:mabfuzzmultiarmedbanditalgorithmsforfuzzingprocessors": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "MABFuzz: Multi-Armed Bandit Algorithms for Fuzzing Processors",
+      "updated_at": "2026-11-12T00:37:17.057703+00:00"
+    },
     "title:magnetoionichardwaresecurityprimitivesembeddingdataprotectionatthemateriallevel": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -46424,6 +46552,14 @@
       "title": "Metadata-private Messaging without Coordination",
       "updated_at": "2026-11-06T11:39:23.908793+00:00"
     },
+    "title:microarchitecturalsecurityofawsfirecrackervmmforserverlesscloudplatforms": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Microarchitectural Security of AWS Firecracker VMM for Serverless Cloud Platforms",
+      "updated_at": "2026-11-12T00:38:46.000236+00:00"
+    },
     "title:mirageprovabledefenseagainstllmkvcachetimingsidechannelswithtopologyawareisolation": {
       "category": "secondaire",
       "decision": "examiner",
@@ -46431,6 +46567,14 @@
       "status": "rejected",
       "title": "Mirage: Provable Defense Against LLM KV Cache Timing Side Channels with Topology-Aware Isolation",
       "updated_at": "2026-11-10T07:11:06.525928+00:00"
+    },
+    "title:mirrornetateefriendlyframeworkforsecureondevicednninference": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "MirrorNet: A TEE-Friendly Framework for Secure On-device DNN Inference",
+      "updated_at": "2026-11-12T00:37:40.678015+00:00"
     },
     "title:modelagnostichybridshardingforheterogeneousdistributedinference": {
       "category": "secondaire",
@@ -47384,6 +47528,14 @@
       "title": "RISC-V SoCにおけるSecure Boot高速化及びKeystone Enclaveにおける大規模データ授受手法の改善",
       "updated_at": "2026-11-05T02:13:33.382244+00:00"
     },
+    "title:robustconstanttimecryptography": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Robust Constant-Time Cryptography",
+      "updated_at": "2026-11-12T00:38:15.450362+00:00"
+    },
     "title:rollbaccineherdimmunityagainststoragerollbackattacksinteestechnicalreport": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -47847,6 +47999,14 @@
       "status": "rejected",
       "title": "Simulación de la instrucción dfence para mitigación de ataques Spectre en arquitecturas x86",
       "updated_at": "2026-11-01T05:15:33.198618+00:00"
+    },
+    "title:sinclavehardwareassistedsingletonsfortees": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "SinClave: Hardware-assisted Singletons for TEEs",
+      "updated_at": "2026-11-12T00:37:40.529243+00:00"
     },
     "title:slacaccessdrivencputogpusidechannelattacksviasystemlevelcacheonapplesilicon": {
       "category": "coeur",
@@ -48615,6 +48775,14 @@
       "status": "rejected",
       "title": "treVM: Tiny Rust Embedded Virtual Machines with WASM on Variable Resource-Constrained Hardware",
       "updated_at": "2026-11-03T12:28:10.011728+00:00"
+    },
+    "title:triadtrustedtimestampsinuntrustedenvironments": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 70,
+      "status": "rejected",
+      "title": "Triad: Trusted Timestamps in Untrusted Environments",
+      "updated_at": "2026-11-12T00:37:40.621605+00:00"
     },
     "title:trojanguardhardwaretrojansdetectionusinggnninrtldesigns": {
       "category": "secondaire",
