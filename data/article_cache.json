@@ -22632,6 +22632,14 @@
       "title": "Analysis of Cryptographic Randomness Properties of a TRNG-based Key Generator Hardware",
       "updated_at": "2026-11-09T11:14:04.623053+00:00"
     },
+    "doi:10.1109/tcsi.2020.3019030": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A High-Performance and Secure TRNG Based on Chaotic Cellular Automata Topology",
+      "updated_at": "2026-11-12T08:13:44.109822+00:00"
+    },
     "doi:10.1109/tcsi.2022.3151794": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -26479,6 +26487,22 @@
       "status": "rejected",
       "title": "Déjà Vu: Side-Channel Analysis of Mozilla's NSS",
       "updated_at": "2026-11-12T02:14:26.322456+00:00"
+    },
+    "doi:10.1145/3386263.3406922": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Towards Programmable All-Digital True Random Number Generator",
+      "updated_at": "2026-11-12T08:13:44.109845+00:00"
+    },
+    "doi:10.1145/3386263.3407586": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Comprehensive Evaluation of Machine Learning Countermeasures for Detecting Microarchitectural Side-Channel Attacks",
+      "updated_at": "2026-11-12T08:13:36.944118+00:00"
     },
     "doi:10.1145/3411504.3421212": {
       "category": "secondaire_technique",
@@ -41271,6 +41295,14 @@
       "status": "rejected",
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
+    },
+    "doi:10.48550/arxiv.2008.09501": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "MAGE: Mutual Attestation for a Group of Enclaves without Trusted Third Parties",
+      "updated_at": "2026-11-12T08:14:37.741411+00:00"
     },
     "doi:10.48550/arxiv.2009.01144": {
       "category": "secondaire_technique",

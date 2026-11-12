@@ -3620,6 +3620,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3386263.3407586": {
+    "doi": "https://doi.org/10.1145/3386263.3407586",
+    "publication_date": "2020-09-04",
+    "publication_type": "conference",
+    "publication_venue": "ACM Great Lakes Symposium on VLSI (GLSVLSI)",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3386263.3407586",
+    "summary": "Ce papier présente une évaluation globale de diverses contre-mesures basées sur l'apprentissage automatique pour la détection en temps réel d'attaques par canal auxiliaire microarchitectural. L'étude analyse les événements matériels des applications victimes à l'aide de compteurs de performance matérielle (HPC) afin d'éviter les manipulations de données par l'attaquant. Elle examine également l'impact de l'intervalle d'échantillonnage sur la surcharge de surveillance et compare plusieurs classifieurs selon des métriques telles que la précision, le score F, la robustesse et la latence.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Comprehensive Evaluation of Machine Learning Countermeasures for Detecting Microarchitectural Side-Channel Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3411504.3421216": {
     "doi": "https://doi.org/10.1145/3411504.3421216",
     "publication_date": "2020-11-05",
@@ -7291,6 +7308,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2008.09501": {
+    "doi": "https://doi.org/10.48550/arxiv.2008.09501",
+    "publication_date": "2020-08-21",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2008.09501",
+    "summary": "Cet article présente MAGE, un cadre permettant l'attestation mutuelle d'un groupe d'enclaves sans recourir à des tiers de confiance. L'approche résout le problème de l'interdépendance des mesures initiales (hachages cryptographiques du code et des données) qui survient lors de l'établissement d'une confiance mutuelle sous Intel SGX, en permettant à chaque enclave de dériver les mesures des autres à partir de ses propres données initiales.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "MAGE: Mutual Attestation for a Group of Enclaves without Trusted Third Parties",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2010.08440": {
     "doi": "https://doi.org/10.48550/arxiv.2010.08440",
