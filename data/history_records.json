@@ -192,6 +192,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1007/s41635-023-00135-1": {
+    "doi": "https://doi.org/10.1007/s41635-023-00135-1",
+    "publication_date": "2023-09-01",
+    "publication_date_note": "Date source Crossref : 2023-09 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2023-09",
+    "publication_type": "revue",
+    "publication_venue": "Journal of Hardware and Systems Security",
+    "score": 75,
+    "source": "https://doi.org/10.1007/s41635-023-00135-1",
+    "summary": "Cette étude analyse la fuite par canal caché de puissance au niveau des instructions pour un processeur soft-core RISC-V hébergé sur un FPGA partagé (multitenant). Contrairement aux attaques classiques nécessitant un accès physique et du matériel de mesure coûteux, les auteurs utilisent des capteurs de fluctuation de tension intégrés sur la puce (on-chip). En combinant apprentissage automatique classique et apprentissage profond (deep learning), ils parviennent à classifier les opcodes exécutés avec une précision moyenne atteignant 86,46 % dans un scénario de contournement de la séparation physique, démontrant la vulnérabilité de petits circuits logiciels sur FPGA cloud.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Instruction-Level Power Side-Channel Leakage Evaluation of Soft-Core CPUs on Shared FPGAs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1016/j.cose.2023.103180": {
     "doi": "https://doi.org/10.1016/j.cose.2023.103180",
     "publication_date": "2023-03-14",
@@ -4365,6 +4385,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3609104": {
+    "doi": "https://doi.org/10.1145/3609104",
+    "publication_date": "2023-09-09",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-09-09",
+    "publication_type": "revue",
+    "publication_venue": "ACM Transactions on Embedded Computing Systems",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3609104",
+    "summary": "Ce papier présente PReFeR, un protocole d'attestation à distance hybride s'appuyant sur les fonctions physiquement liées (PReF) pour sécuriser des appareils à faibles ressources sans stockage sécurisé de modèles PUF ou de grandes bases de données de défis-réponses. Il combine une attestation statique de l'état mémoire avant l'exécution du code et une attestation dynamique à l'exécution utilisant des compteurs de performance matériels (HPC) pour contrer les attaques de type TOCTOU.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "PReFeR : P hysically Re lated F unction bas e d R emote Attestation Protocol",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1145/3623652.3623668": {
     "doi": "https://doi.org/10.1145/3623652.3623668",
