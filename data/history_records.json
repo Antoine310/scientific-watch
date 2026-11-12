@@ -1741,6 +1741,23 @@
     "venue_priority": 2,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/iscas45731.2020.9180551": {
+    "doi": "https://doi.org/10.1109/iscas45731.2020.9180551",
+    "publication_date": "2020-09-29",
+    "publication_type": "conference",
+    "publication_venue": "IEEE International Symposium on Circuits and Systems proceedings",
+    "score": 80,
+    "source": "https://doi.org/10.1109/iscas45731.2020.9180551",
+    "summary": "Ce travail propose un accélérateur cryptographique dédié aux environnements d'exécution de confiance (TEE) sur processeurs RISC-V, intégrant une mémoire sécurisée en écriture seule sur le bus périphérique pour empêcher la lecture de données sensibles et atténuer les attaques par canal auxiliaire et par injection de fautes.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Cryptographic Accelerators for Trusted Execution Environment in RISC-V Processors",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/iscas46773.2023.10181732": {
     "doi": "https://doi.org/10.1109/iscas46773.2023.10181732",
     "publication_date": "2023-05-21",
@@ -6162,6 +6179,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.3390/cryptography4040026": {
+    "doi": "https://doi.org/10.3390/cryptography4040026",
+    "publication_date": "2020-09-25",
+    "publication_type": "revue",
+    "publication_venue": "Cryptography",
+    "score": 75,
+    "source": "https://doi.org/10.3390/cryptography4040026",
+    "summary": "Ce papier propose une architecture pour établir une racine de confiance (Root of Trust) au niveau matériel en utilisant des co-processeurs cryptographiques et des Trusted Platform Modules (TPM) afin de permettre des mises à jour sécurisées over-the-air pour les architectures reconfigurables et les FPGA Xilinx.",
+    "themes": [
+      "T05 — Enclave Performance & Crypto"
+    ],
+    "title": "Secure Boot for Reconfigurable Architectures",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.3390/cryptography7040058": {
     "doi": "https://doi.org/10.3390/cryptography7040058",
