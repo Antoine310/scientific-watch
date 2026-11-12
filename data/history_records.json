@@ -2782,6 +2782,23 @@
     "venue_priority": 2,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/tc.2020.2997555": {
+    "doi": "https://doi.org/10.1109/tc.2020.2997555",
+    "publication_date": "2020-05-26",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computers",
+    "score": 90,
+    "source": "https://doi.org/10.1109/tc.2020.2997555",
+    "summary": "Cet article propose un cadre de défense transparent pour le logiciel, nommé Conditional Speculation, visant à contrer les vulnérabilités d'exécution spéculative de type Spectre sur les microprocesseurs traditionnels hors d'ordre. L'approche introduit le concept de dépendance de sécurité pour marquer les instructions spéculatives à risque, évaluant si leur exécution modifie l'état des caches avec des données non autorisées.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Exploiting Security Dependence for Conditional Speculation Against Spectre Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/tc.2021.3059531": {
     "doi": "https://doi.org/10.1109/tc.2021.3059531",
     "publication_date": "2021-02-16",
