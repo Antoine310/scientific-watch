@@ -4278,6 +4278,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3625275.3625402": {
+    "doi": "https://doi.org/10.1145/3625275.3625402",
+    "publication_date": "2023-10-23",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-10-23",
+    "publication_type": "conference",
+    "publication_venue": "KISV '23: 1st Workshop on Kernel Isolation, Safety and Verification",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3625275.3625402",
+    "summary": "Cet article présente K2, une nouvelle architecture et approche de vérification pour les modules de sécurité matériels (HSM). Elle repose sur une séparation rigide entre les entrées/sorties, le stockage et le calcul sur les états secrets afin de permettre des preuves modulaires et un développement logiciel indépendant du matériel. K2 introduit également l'outil Chroniton pour prouver automatiquement les propriétés temporelles au niveau cycle-précis.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "The K2 Architecture for Trustworthy Hardware Security Modules",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3627106.3627112": {
     "doi": "https://doi.org/10.1145/3627106.3627112",
     "publication_date": "2023-12-02",
