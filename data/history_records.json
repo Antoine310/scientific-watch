@@ -3841,6 +3841,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3487058": {
+    "doi": "https://doi.org/10.1145/3487058",
+    "publication_date": "2023-10-11",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "revue",
+    "publication_venue": "Digital Threats: Research and Practice",
+    "score": 82,
+    "source": "http://arxiv.org/abs/2310.07327v1",
+    "summary": "Cet article présente PolEn, une chaîne d'outils et une architecture de processeur combinant le chiffrement du code et le polymorphisme logiciel pour atténuer les attaques par canal auxiliaire en couvrant à la fois la phase d'analyse et la phase d'exploitation. L'évaluation expérimentale montre une réduction des fuites avec une augmentation de la mémoire statique d'un facteur 5 à 22 et un surcoût temporel d'exécution de 1,8 à 4,6.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Code Polymorphism Meets Code Encryption: Confidentiality and Side-Channel Protection of Software Components",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3489517.3530614": {
     "doi": "https://doi.org/10.1145/3489517.3530614",
     "publication_date": "2022-07-10",
@@ -6591,6 +6611,26 @@
     ],
     "title": "Dorami: Privilege Separating Security Monitor on RISC-V TEEs"
   },
+  "doi:10.4204/eptcs.391.7": {
+    "doi": "https://doi.org/10.4204/EPTCS.391.7",
+    "publication_date": "2023-10-03",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "revue",
+    "publication_venue": "Electronic Proceedings in Theoretical Computer Science",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2310.02341v1",
+    "summary": "Cet article étudie l'utilisation de la vérification à l'exécution (runtime verification ou RV) pour sécuriser le calcul de confiance dans les systèmes autonomes et robotiques. Il présente l'approche RV-TEE qui renforce le niveau de confiance de l'environnement d'exécution riche (REE) pour protéger l'environnement d'exécution de confiance (TEE). Les auteurs proposent des solutions pratiques face à deux modèles de menace ciblant le processus de surveillance RV-TEE.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Runtime Verification for Trustworthy Computing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.46586/tches.v2022.i1.28-68": {
     "doi": "https://doi.org/10.46586/tches.v2022.i1.28-68",
     "publication_date": "2021-11-19",
@@ -8941,6 +8981,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:casestudysecuringmmulesslinuxusingcheri": {
+    "doi": "",
+    "publication_date": "2023-10-02",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2310.00933v2",
+    "summary": "Cet article présente une étude de cas sur la sécurisation d'une variante de Linux sans MMU (Memory Management Unit) pour l'architecture RISC-V en utilisant la technologie CHERI, qui offre une sécurité spatiale et de pointeurs au niveau matériel et logiciel.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Case Study: Securing MMU-less Linux Using CHERI",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:ccxtrustconfidentialcomputingplatformbasedonteeandtpmcollaborativetrust": {
     "doi": "",
     "publication_date": "2024-12-05",
@@ -9134,6 +9194,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "CryptRISC: A Secure RISC-V Processor for High-Performance Cryptography with Power Side-Channel Protection",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:dasicswhitepaperenhancingmemoryprotectionwithdynamiccompartmentalization": {
+    "doi": "",
+    "publication_date": "2023-10-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2310.06435v2",
+    "summary": "Ce document présente DASICS (Dynamic in-Address-Space Isolation by Code Segments), une conception de processeur sécurisé visant à offrir une protection dynamique et flexible de la mémoire à travers plusieurs niveaux de privilèges. L'approche combine des protections de flux de données, de flux de contrôle et des appels système sécurisés, en s'appuyant sur des prototypes matériels FPGA et logiciels QEMU.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "DASICS White Paper: Enhancing Memory Protection with Dynamic Compartmentalization",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -9666,6 +9746,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:indirectmeltdownbuildingnovelsidechannelattacksfromtransientexecutionattacks": {
+    "doi": "",
+    "publication_date": "2023-10-06",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2310.04183v1",
+    "summary": "Cet article démontre que l'attaque par exécution transitoire Meltdown peut être transformée en attaque par canal auxiliaire en ajoutant une couche d'indirection. Malgré les atténuations logicielles, les auteurs montrent qu'il est possible de fuiter des métadonnées d'autres domaines de sécurité en observant le taux de succès de Meltdown sur des données non secrètes, et présentent LeakIDT pour surveiller les adresses du noyau à la granularité de la ligne de cache.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Indirect Meltdown: Building Novel Side-Channel Attacks from Transient-Execution Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:integratingopentitanasasecuritycontrollerforcryptographictasksinriscvsocs": {
     "publication_date": "2025-01-01",
     "score": 90,
@@ -9846,6 +9946,26 @@
       "T09 — Secure Memory"
     ],
     "title": "NanoZone: Scalable, Efficient, and Secure Memory Protection for Arm CCA",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:noforkingwaydetectingcloningattacksonintelsgxapplications": {
+    "doi": "",
+    "publication_date": "2023-10-04",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2310.03002v1",
+    "summary": "Cet article étudie les attaques par bifurcation (forking) par clonage et retour en arrière sur les applications Intel SGX, et propose CloneBuster, un mécanisme pratique de détection de clones sans Tiers de Confiance (TTP) basé sur un canal cache-based covert channel.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "No Forking Way: Detecting Cloning Attacks on Intel SGX Applications",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -10067,6 +10187,26 @@
     ],
     "title": "Prototyping Custom Hardware Performance Counters in gem5 Simulator: A Framework for RISC-V Side-Channel Attack Assessment"
   },
+  "title:provingtheabsenceofmicroarchitecturaltimingchannels": {
+    "doi": "",
+    "publication_date": "2023-10-25",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2310.17046v1",
+    "summary": "Cet article étudie les canaux cachés temporels microarchitecturaux, une menace majeure pour la sécurité informatique, et formalise le concept de protection temporelle (\"time protection\") initialement proposé pour le micro-noyau seL4 afin de lier ces mécanismes aux preuves de flux d'information.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Proving the Absence of Microarchitectural Timing Channels",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:realmeyevirtualmachineintrospectionforarmccarealmvms": {
     "publication_date": "2026-08-13",
     "publication_date_note": "",
@@ -10140,6 +10280,26 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Research Directions for Verifiable Crypto-Physically Secure TEEs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:ripencapsulationdefeatingipencapsulationontimspdevices": {
+    "doi": "",
+    "publication_date": "2023-10-25",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 80,
+    "source": "http://arxiv.org/abs/2310.16433v1",
+    "summary": "Cet article étudie la sécurité des environnements d'exécution de confiance (TEE) sur les microcontrôleurs Texas Instruments MSP430 et MSP432, en se concentrant sur la technologie IP Encapsulation (IPE). Les auteurs mettent en évidence des faiblesses fondamentales liées à l'absence de contrôle des sites d'appel et à la persistance d'états résiduels. Ils proposent l'attaque RIPencapsulation, capable d'exfiltrer du code propriétaire et des données secrètes en quelques minutes sur du matériel grand public, malgré le respect des recommandations du fabricant.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "RIPencapsulation: Defeating IP Encapsulation on TI MSP Devices",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -10583,6 +10743,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Supporting Secured Integration of Microarchitectural Defenses",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:systematicevaluationofrandomizedcachedesignsagainstcacheoccupancy": {
+    "doi": "",
+    "publication_date": "2023-10-08",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2310.05172v2",
+    "summary": "Ce travail évalue systématiquement cinq conceptions de caches randomisés (CEASER, CEASER-S, MIRAGE, Scatter-Cache et Sass-cache) face à l'occupation du cache, en analysant à la fois la performance et la sécurité. L'étude comble un manque dans la littérature en considérant les attaques par occupation en plus des attaques par contention, et propose une stratégie de benchmark uniforme pour une analyse équitable.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Systematic Evaluation of Randomized Cache Designs against Cache Occupancy",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
