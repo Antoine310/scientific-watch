@@ -880,6 +880,14 @@
       "title": "Evaluation of HPC Workloads Running on Open-Source RISC-V Hardware",
       "updated_at": "2026-11-07T17:13:29.455559+00:00"
     },
+    "doi:10.1007/978-3-031-47705-8_11": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Automatic Formal Verification of RISC-V Pipelined Microprocessors with Fault Tolerance by Spatial Redundancy at a High Level of Abstraction",
+      "updated_at": "2026-11-12T05:37:49.563809+00:00"
+    },
     "doi:10.1007/978-3-031-48121-5_11": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -911,6 +919,14 @@
       "status": "rejected",
       "title": "Single Event Transient Reliability Analysis on a Fault-Tolerant RISC-V Microprocessor Design",
       "updated_at": "2026-11-11T14:37:48.043075+00:00"
+    },
+    "doi:10.1007/978-3-031-48711-8_6": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Accelerating Quantized DNN Layers on RISC-V with a STAR MAC Unit",
+      "updated_at": "2026-11-12T05:37:58.390830+00:00"
     },
     "doi:10.1007/978-3-031-49187-0_13": {
       "category": "secondaire",
@@ -8568,6 +8584,14 @@
       "title": "A Hardware-Optimized and Secure Variant of the Lightweight Encryption Algorithm for IoT Applications",
       "updated_at": "2026-11-04T11:24:52.374131+00:00"
     },
+    "doi:10.1109/a-sscc58667.2023.10347942": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Flexible and Efficient Implementation of CRYSTALS-KYBER SIMD RISC-V Coprocessor Based on Customized Vector Instruction-Set Extension",
+      "updated_at": "2026-11-12T05:38:41.738913+00:00"
+    },
     "doi:10.1109/a-sscc67472.2025.11349558": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -10160,6 +10184,22 @@
       "title": "Context Cache for Multicore RISC-V Processor",
       "updated_at": "2026-11-08T06:38:05.250780+00:00"
     },
+    "doi:10.1109/candarw60564.2023.00014": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A Design of Multithreaded RISC-V Processor for Real-Time System",
+      "updated_at": "2026-11-12T05:38:56.346810+00:00"
+    },
+    "doi:10.1109/candarw60564.2023.00036": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "An Implementation of an Instruction Controlled Cache Replacement Policy on a RISC-V Processor",
+      "updated_at": "2026-11-12T05:38:56.400812+00:00"
+    },
     "doi:10.1109/candarw64572.2024.00067": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -11136,6 +11176,22 @@
       "title": "Hardware Implementation and Verification of Early Image Signal Processing Stages Using OpenISP",
       "updated_at": "2026-11-03T13:50:44.284967+00:00"
     },
+    "doi:10.1109/dcis58620.2023.10335970": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "HW/SW implementation of RSA digital signature on a RISC-V-based System-on-Chip",
+      "updated_at": "2026-11-12T05:38:41.520479+00:00"
+    },
+    "doi:10.1109/dcis58620.2023.10335976": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Sargantana: An Academic SoC RISC-V Processor in 22nm FDSOI Technology",
+      "updated_at": "2026-11-12T05:38:41.629283+00:00"
+    },
     "doi:10.1109/dcis58620.2023.10335994": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -11143,6 +11199,14 @@
       "status": "rejected",
       "title": "Ethernet Emulation over PCIe for RISC-V Software Development Vehicles",
       "updated_at": "2026-11-06T02:13:27.895852+00:00"
+    },
+    "doi:10.1109/dcis58620.2023.10335997": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "RISC-V for Genome Data Analysis: Opportunities and Challenges",
+      "updated_at": "2026-11-12T05:38:41.717045+00:00"
     },
     "doi:10.1109/dcis62603.2024.10769137": {
       "category": "hors_sujet",
@@ -11895,6 +11959,14 @@
       "status": "rejected",
       "title": "FPGA Based Verification for the Difficulty of Delay Based Hardware Trojan Detection",
       "updated_at": "2026-11-12T03:37:17.728655+00:00"
+    },
+    "doi:10.1109/eleco60389.2023.10416066": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "DELTA-V: An Open-Source High-Level Synthesis Driven ASIP Design Automation Tool for RISC-V Microprocessors",
+      "updated_at": "2026-11-12T05:38:56.423239+00:00"
     },
     "doi:10.1109/eleco64362.2024.10847211": {
       "category": "secondaire",
@@ -13375,6 +13447,14 @@
       "status": "imported",
       "title": "Phased-Guard: Multi-Phase Machine Learning Framework for Detection and Identification of Zero-Day Microarchitectural Side-Channel Attacks",
       "updated_at": "2026-11-12T02:14:23.957380+00:00"
+    },
+    "doi:10.1109/iccd58817.2023.00090": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Efficient RISC-V-on-x64 Floating Point Simulation",
+      "updated_at": "2026-11-12T05:38:41.760671+00:00"
     },
     "doi:10.1109/iccd63220.2024.00027": {
       "category": "coeur",
@@ -15479,6 +15559,14 @@
       "status": "rejected",
       "title": "A Lightweight UART-Based In-System Debugging Interface for RISC-V SoC on FPGA",
       "updated_at": "2026-11-03T16:09:27.773111+00:00"
+    },
+    "doi:10.1109/inmic60434.2023.10465851": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Security Challenges Faced by RISC-V open-source Processors and its Security Features: A Survey",
+      "updated_at": "2026-11-12T05:39:00.716577+00:00"
     },
     "doi:10.1109/inmic60434.2023.10465970": {
       "category": "hors_sujet",
@@ -20751,6 +20839,14 @@
       "status": "rejected",
       "title": "SoK: Opportunities for Accelerating Multi - Party Computation via Trusted Hardware",
       "updated_at": "2026-11-10T01:37:43.207442+00:00"
+    },
+    "doi:10.1109/seeda-cecnsm61561.2023.10470707": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Design and Evaluation of a Peripheral for Integrity Checking to Improve RAS in RISC-V Architectures",
+      "updated_at": "2026-11-12T05:39:00.784877+00:00"
     },
     "doi:10.1109/sepoc67005.2025.11297719": {
       "category": "hors_sujet",
@@ -26696,6 +26792,14 @@
       "title": "RISC-V ISA Extension Toolchain Supports: A Survey",
       "updated_at": "2026-11-06T23:13:54.843856+00:00"
     },
+    "doi:10.1145/3604805": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 62,
+      "status": "rejected",
+      "title": "RegKey: A Register-based Implementation of ECC Signature Algorithms Against One-shot Memory Disclosure",
+      "updated_at": "2026-11-12T05:36:47.928975+00:00"
+    },
     "doi:10.1145/3604906": {
       "category": "secondaire_technique",
       "decision": "conserver",
@@ -26888,6 +26992,54 @@
       "title": "Towards a Formally Verified Security Monitor for VM-based Confidential Computing",
       "updated_at": "2026-11-06T02:14:09.826715+00:00"
     },
+    "doi:10.1145/3624062.3624229": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Automatic Generation of Micro-kernels for Performance Portability of Matrix Multiplication on RISC-V Vector Processors",
+      "updated_at": "2026-11-12T05:37:49.586314+00:00"
+    },
+    "doi:10.1145/3624062.3624230": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Evaluating HPX and Kokkos on RISC-V using an astrophysics application Octo-Tiger",
+      "updated_at": "2026-11-12T05:37:49.665826+00:00"
+    },
+    "doi:10.1145/3624062.3624231": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Short Reasons for Long Vectors in HPC CPUs: A Study Based on RISC-V",
+      "updated_at": "2026-11-12T05:37:49.688534+00:00"
+    },
+    "doi:10.1145/3624062.3624232": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Challenges and Opportunities in the Co-design of Convolutions and RISC-V Vector Processors",
+      "updated_at": "2026-11-12T05:37:49.869562+00:00"
+    },
+    "doi:10.1145/3624062.3624233": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "An Empirical Comparison of the RISC-V and AArch64 Instruction Sets",
+      "updated_at": "2026-11-12T05:37:49.891661+00:00"
+    },
+    "doi:10.1145/3624062.3624234": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Is RISC-V ready for HPC prime-time: Evaluating the 64-core Sophon SG2042 RISC-V CPU",
+      "updated_at": "2026-11-12T05:37:49.913228+00:00"
+    },
     "doi:10.1145/3624477": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -26927,6 +27079,14 @@
       "status": "rejected",
       "title": "Fast, Accurate and Distributed Simulation of novel HPC systems incorporating ARM and RISC-V CPUs",
       "updated_at": "2026-11-09T20:37:50.797630+00:00"
+    },
+    "doi:10.1145/3625823": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Heterogeneous Integration Supply Chain Integrity Through Blockchain and CHSM",
+      "updated_at": "2026-11-12T05:37:10.302422+00:00"
     },
     "doi:10.1145/3626202.3637591": {
       "category": "secondaire",
@@ -33504,6 +33664,14 @@
       "title": "Hardware Implementation Analysis of Ascon: A Structured Review",
       "updated_at": "2026-11-03T18:27:45.586046+00:00"
     },
+    "doi:10.2174/1871527321666220909142158": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "The Edible Seaweed Gelidium amansii Promotes Structural Plasticity of Hippocampal Neurons and Improves Scopolamine-induced Learning and Memory Impairment in Mice",
+      "updated_at": "2026-11-12T05:36:37.693986+00:00"
+    },
     "doi:10.2174/9789815274677125010004": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -35576,6 +35744,14 @@
       "title": "Secure double MAC implementation for STBC based FECG monitoring",
       "updated_at": "2026-11-11T17:38:35.345501+00:00"
     },
+    "doi:10.3233/thc-220588": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "OTP-Q encryption and Diffie-Hellman mutual authentication for e-healthcare data based on lightweight S-WBSN framework",
+      "updated_at": "2026-11-12T05:37:01.815985+00:00"
+    },
     "doi:10.32362/2500-316x-2024-12-4-23-39": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -36535,6 +36711,14 @@
       "status": "rejected",
       "title": "Spec-LAMP: Robust Spectre Attack Detection Under Web-Based LLM Workload via L1D Miss Pending Event",
       "updated_at": "2026-11-01T05:15:24.293481+00:00"
+    },
+    "doi:10.3390/ecsa-10-16212": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A High-Level Synthesis Approach for a RISC-V RV32I-Based System on Chip and Its FPGA Implementation",
+      "updated_at": "2026-11-12T05:38:56.293269+00:00"
     },
     "doi:10.3390/electronics10111267": {
       "category": "secondaire",
@@ -37735,6 +37919,14 @@
       "status": "rejected",
       "title": "Hash and Physical Unclonable Function (PUF)-Based Mutual Authentication Mechanism",
       "updated_at": "2026-11-06T17:13:57.041355+00:00"
+    },
+    "doi:10.3390/s23239408": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "A Programmable Crypto-Processor for National Institute of Standards and Technology Post-Quantum Cryptography Standardization Based on the RISC-V Architecture",
+      "updated_at": "2026-11-12T05:37:58.338520+00:00"
     },
     "doi:10.3390/s24030938": {
       "category": "secondaire",
@@ -38983,6 +39175,14 @@
       "status": "rejected",
       "title": "A Holistic Approach for Trustworthy Distributed Systems with WebAssembly and TEEs",
       "updated_at": "2026-11-11T15:39:11.740981+00:00"
+    },
+    "doi:10.4269/ajtmh.23-0431": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Temporal Trends in Phenotypic Macrolide and Nonmacrolide Resistance for Streptococcus pneumoniae Nasopharyngeal Samples Up to 36 Months after Mass Azithromycin Administration in a Cluster-Randomized Trial in Niger",
+      "updated_at": "2026-11-12T05:36:28.597144+00:00"
     },
     "doi:10.4269/ajtmh.24-0360": {
       "category": "hors_sujet",
