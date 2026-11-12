@@ -1744,6 +1744,40 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/isca45697.2020.00022": {
+    "doi": "https://doi.org/10.1109/isca45697.2020.00022",
+    "publication_date": "2020-05-01",
+    "publication_type": "conference",
+    "publication_venue": "Proceedings - International Symposium on Computer Architecture/Proceedings",
+    "score": 90,
+    "source": "https://doi.org/10.1109/isca45697.2020.00022",
+    "summary": "MuonTrap est une solution matérielle visant à empêcher les attaques par canal auxiliaire de type Spectre basées sur l'exécution spéculative, en isolant les états spéculatifs dans un cache de filtre L0 rapide et non inclusif qui est vidé lors des changements de domaine de protection, garantissant ainsi l'immunité contre la fuite d'informations inter-domaines avec un faible impact sur les performances.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "MuonTrap: Preventing Cross-Domain Spectre-Like Attacks by Capturing Speculative State",
+    "venue_landmark": "ISCA",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/isca45697.2020.00065": {
+    "doi": "https://doi.org/10.1109/isca45697.2020.00065",
+    "publication_date": "2020-05-01",
+    "publication_type": "conference",
+    "publication_venue": "Proceedings - International Symposium on Computer Architecture/Proceedings",
+    "score": 85,
+    "source": "https://doi.org/10.1109/isca45697.2020.00065",
+    "summary": "Cet article présente Packet Chasing, une attaque par canal auxiliaire exploitant le cache pour espionner les paquets réseau sans nécessiter d'accès direct au réseau ni de privilèges particuliers. L'attaque permet de découvrir l'emplacement et la séquence d'utilisation des tampons du pilote réseau pour surveiller la fréquence et la taille des paquets. Des solutions logicielles et un partitionnement adaptatif du cache sont proposés en guise de contre-mesures.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Packet Chasing: Spying on Network Packets over a Cache Side-Channel",
+    "venue_landmark": "ISCA",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/isca52012.2021.00037": {
     "doi": "https://doi.org/10.1109/isca52012.2021.00037",
     "publication_date": "2021-06-01",
@@ -2544,6 +2578,40 @@
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/sp40000.2020.00033": {
+    "doi": "https://doi.org/10.1109/sp40000.2020.00033",
+    "publication_date": "2020-05-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Symposium on Security and Privacy (S&P)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/sp40000.2020.00033",
+    "summary": "SpecCFI est une technique de défense proposée pour atténuer les attaques Spectre (notamment Spectre-BTB et Spectre-RSB) en étendant les principes de l'Intégrité du Flux de Contrôle (CFI) à l'exécution spéculative. En combinant le CFI matériel/logiciel existant avec une pile de retour consciente de la spéculation, SpecCFI restreint les cibles des sauts indirects et des retours spéculatifs pour empêcher le détournement du flux de contrôle, tout en générant de faibles surcoûts de performance et de complexité matérielle.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SpecCFI: Mitigating Spectre Attacks using CFI Informed Speculation",
+    "venue_landmark": "IEEE S&P",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/sp40000.2020.00089": {
+    "doi": "https://doi.org/10.1109/sp40000.2020.00089",
+    "publication_date": "2020-05-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Symposium on Security and Privacy (S&P)",
+    "score": 95,
+    "source": "https://doi.org/10.1109/sp40000.2020.00089",
+    "summary": "Cet article présente la technique Load Value Injection (LVI), qui généralise les attaques par injection à la hiérarchie mémoire en injectant des valeurs incorrectes et contrôlées par un attaquant dans l'exécution transitoire d'une victime, transformant les fuites de données de type Meltdown en une forme d'injection inverse.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection",
+    "venue_landmark": "IEEE S&P",
+    "venue_note": "",
+    "venue_priority": 2,
     "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/sp40001.2021.00050": {
@@ -3673,6 +3741,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3342195.3387532": {
+    "doi": "https://doi.org/10.1145/3342195.3387532",
+    "publication_date": "2020-04-15",
+    "publication_type": "conference",
+    "publication_venue": "European Conference on Computer Systems",
+    "score": 98,
+    "source": "https://doi.org/10.1145/3342195.3387532",
+    "summary": "Cet article présente Keystone, le premier framework open-source permettant de concevoir des environnements d'exécution de confiance (TEE) personnalisés. En s'appuyant sur des abstractions matérielles simples telles que l'isolation mémoire et une couche programmable sous les composants non sécurisés, Keystone offre une alternative flexible aux TEE propriétaires à compromis fixes. Les auteurs démontrent son exécution sur du matériel RISC-V non modifié et évaluent sa sécurité, la taille de sa base de confiance (TCB) ainsi que ses performances à travers divers benchmarks et modèles de déploiement.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Keystone: an open framework for architecting trusted execution environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1145/3385412.3385970": {
     "doi": "https://doi.org/10.1145/3385412.3385970",
@@ -7513,6 +7598,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2005.12453": {
+    "doi": "https://doi.org/10.48550/arxiv.2005.12453",
+    "publication_date": "2020-05-26",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2005.12453",
+    "summary": "Ce rapport présente une étude sur les schémas d'attestation à distance utilisant des dispositifs matériels et des primitives cryptographiques pour garantir l'intégrité des nœuds dans les infrastructures réseau, le cloud et l'Internet des objets. L'étude analyse différentes approches selon leurs objectifs de sécurité, leur scalabilité et leur efficacité, tout en identifiant des défis de recherche ouverts.",
+    "themes": [
+      "T11 — PUF & TRNG"
+    ],
+    "title": "A Survey on Hardware Approaches for Remote Attestation in Network Infrastructures",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2006.01442": {
     "doi": "https://doi.org/10.48550/arxiv.2006.01442",
