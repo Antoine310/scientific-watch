@@ -4102,6 +4102,26 @@
     "venue_priority": 2,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3576915.3624374": {
+    "doi": "https://doi.org/10.1145/3576915.3624374",
+    "publication_date": "2023-09-19",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "CCS '23: ACM SIGSAC Conference on Computer and Communications Security",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2309.10396v2",
+    "summary": "Cet article explore la mise en œuvre de l'intégrité du flux de contrôle (CFI) sur des appareils embarqués bas de gamme soumis à de fortes contraintes de coût. Les auteurs étendent une architecture existante (CASU, une racine de confiance active à bas coût) pour y intégrer une pile fictive (shadow stack) et un moniteur CFI afin de bloquer les attaques de type ROP (Return-Oriented Programming) avec un surcoût matériel minime.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Poster: Control-Flow Integrity in Low-end Embedded Devices",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3578359.3593037": {
     "doi": "https://doi.org/10.1145/3578359.3593037",
     "publication_date": "2023-05-08",
@@ -4473,6 +4493,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3649329.3656541": {
+    "doi": "https://doi.org/10.1145/3649329.3656541",
+    "publication_date": "2023-09-22",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "DAC '24: 61st ACM/IEEE Design Automation Conference",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2309.12925v2",
+    "summary": "Cet article étudie les canaux cachés temporels à l'échelle des microcontrôleurs (MCU) et présente une nouvelle méthode formelle pour les détecter, appliquée notamment au SoC RISC-V Pulpissimo.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "MCU-Wide Timing Side Channels and Their Detection",
+    "venue_landmark": "DAC",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1145/3649329.3658469": {
     "doi": "https://doi.org/10.1145/3649329.3658469",

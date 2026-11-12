@@ -18880,6 +18880,14 @@
       "title": "A 28-nm System-in-One-Macro Computing-in-Memory Chip Utilizing Leakage-Eliminated 2T1C and Capacitor-Over-Logic 1T1C eDRAM",
       "updated_at": "2026-11-02T21:16:50.276855+00:00"
     },
+    "doi:10.1109/jsyst.2023.3274872": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "IRS-Assisted Secure UAV Communication System for Multiuser With Hardware Impairments",
+      "updated_at": "2026-11-12T20:44:46.689450+00:00"
+    },
     "doi:10.1109/jsyst.2025.3550055": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -22664,6 +22672,14 @@
       "title": "ProMiSE: A High-Performance Programmable Hardware Monitor for High Security Enforcement of Software Execution",
       "updated_at": "2026-11-12T00:39:34.303477+00:00"
     },
+    "doi:10.1109/tcad.2023.3276507": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "MAFIA: Protecting the Microarchitecture of Embedded Systems Against Fault Injection Attacks",
+      "updated_at": "2026-11-12T20:38:06.140990+00:00"
+    },
     "doi:10.1109/tcad.2023.3282897": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -23616,6 +23632,14 @@
       "title": "A High-Speed FPGA-Based True Random Number Generator Using Metastability With Clock Managers",
       "updated_at": "2026-11-08T05:14:28.843690+00:00"
     },
+    "doi:10.1109/tcsii.2023.3267186": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Hardware/Software Co-Design of Cryptographic SoC Based on RISC-V Virtual Prototype",
+      "updated_at": "2026-11-12T20:44:42.655745+00:00"
+    },
     "doi:10.1109/tcsii.2023.3282629": {
       "category": "secondaire",
       "decision": "examiner",
@@ -23831,6 +23855,22 @@
       "status": "imported",
       "title": "SpecBox: A Label-Based Transparent Speculation Scheme Against Transient Execution Attacks",
       "updated_at": "2026-11-09T14:15:27.358674+00:00"
+    },
+    "doi:10.1109/tdsc.2022.3218506": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Exploring Handwritten Signature Image Features for Hardware Security",
+      "updated_at": "2026-11-12T20:44:01.432818+00:00"
+    },
+    "doi:10.1109/tdsc.2022.3218507": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Leaking Wireless ICs via Hardware Trojan-Infected Synchronization",
+      "updated_at": "2026-11-12T20:44:01.461405+00:00"
     },
     "doi:10.1109/tdsc.2022.3231632": {
       "category": "secondaire",
@@ -24815,6 +24855,14 @@
       "status": "rejected",
       "title": "Unified PUF and TRNG Design Using SOT-MTJ Crossbar Array",
       "updated_at": "2026-10-30T17:14:24.805348+00:00"
+    },
+    "doi:10.1109/tmbmc.2023.3281700": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware Verification of a Micro-Scale Receiver for Synthetic DNA Molecular Communications",
+      "updated_at": "2026-11-12T20:44:46.719505+00:00"
     },
     "doi:10.1109/tmc.2023.3284216": {
       "category": "secondaire",
@@ -27544,6 +27592,14 @@
       "title": "The Sparse Synchronous Model on Real Hardware",
       "updated_at": "2026-11-09T00:36:28.423882+00:00"
     },
+    "doi:10.1145/3576915.3616643": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Security Verification of Low-Trust Architectures",
+      "updated_at": "2026-11-12T20:41:40.540776+00:00"
+    },
     "doi:10.1145/3576915.3623065": {
       "category": "coeur",
       "decision": "conserver",
@@ -27552,6 +27608,22 @@
       "title": "DECLASSIFLOW: A Static Analysis for Modeling Non-Speculative Knowledge to Relax Speculative Execution Security Measures (Full Version)",
       "updated_at": "2026-11-11T15:43:20.393764+00:00"
     },
+    "doi:10.1145/3576915.3623079": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Capacity: Cryptographically-Enforced In-Process Capabilities for Modern ARM Architectures (Extended Version)",
+      "updated_at": "2026-11-12T20:37:26.483060+00:00"
+    },
+    "doi:10.1145/3576915.3623089": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "Caveat (IoT) Emptor: Towards Transparency of IoT Device Presence (Full Version)",
+      "updated_at": "2026-11-12T20:37:34.264864+00:00"
+    },
     "doi:10.1145/3576915.3624028": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -27559,6 +27631,14 @@
       "status": "rejected",
       "title": "ASHES '23: Workshop on Attacks and Solutions in Hardware Security",
       "updated_at": "2026-11-12T02:38:33.821595+00:00"
+    },
+    "doi:10.1145/3576915.3624374": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Poster: Control-Flow Integrity in Low-end Embedded Devices",
+      "updated_at": "2026-11-12T20:37:53.023440+00:00"
     },
     "doi:10.1145/3577923.3583652": {
       "category": "secondaire",
@@ -27872,6 +27952,14 @@
       "title": "HasTEE: Programming Trusted Execution Environments with Haskell",
       "updated_at": "2026-11-06T11:13:57.331858+00:00"
     },
+    "doi:10.1145/3610292": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "SoC Protocol Implementation Verification Using Instruction-Level Abstraction Specifications",
+      "updated_at": "2026-11-12T20:36:29.530969+00:00"
+    },
     "doi:10.1145/3610295": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -27903,6 +27991,14 @@
       "status": "rejected",
       "title": "Interruptible Remote Attestation of Low-end IoT Microcontrollers via Performance Counters",
       "updated_at": "2026-11-06T14:15:36.113464+00:00"
+    },
+    "doi:10.1145/3613424.3614279": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "GME: GPU-based Microarchitectural Extensions to Accelerate Homomorphic Encryption",
+      "updated_at": "2026-11-12T20:42:04.544941+00:00"
     },
     "doi:10.1145/3615358": {
       "category": "hors_sujet",
@@ -28631,6 +28727,14 @@
       "status": "rejected",
       "title": "NSPG: Natural language Processing-based Security Property Generator for Hardware Security Assurance",
       "updated_at": "2026-11-09T18:41:29.362030+00:00"
+    },
+    "doi:10.1145/3649329.3656541": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "MCU-Wide Timing Side Channels and Their Detection",
+      "updated_at": "2026-11-12T20:38:18.301960+00:00"
     },
     "doi:10.1145/3649329.3657347": {
       "category": "hors_sujet",
@@ -35943,6 +36047,14 @@
       "status": "rejected",
       "title": "Exploiting the Performance of an Underwater Vision-Based Positioning System for Different Hardware Configurations",
       "updated_at": "2026-11-04T19:48:49.462217+00:00"
+    },
+    "doi:10.23919/transcom.2023ebp3156": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A Distributed Efficient Blockchain Oracle Scheme for Internet of Things",
+      "updated_at": "2026-11-12T20:40:00.663184+00:00"
     },
     "doi:10.23919/transcom.2024ebp3167": {
       "category": "secondaire",
@@ -44856,6 +44968,14 @@
       "title": "Design of a Common Hardware Interface and Interoperability Verification for K-MOSA Based Small UGVs",
       "updated_at": "2026-11-02T16:51:31.039694+00:00"
     },
+    "doi:10.5772/intechopen.107715": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Review on Watermarking Techniques Aiming Authentication of Digital Image Artistic Works Minted as NFTs into Blockchains",
+      "updated_at": "2026-11-12T20:44:01.489416+00:00"
+    },
     "doi:10.5772/intechopen.112491": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -48280,6 +48400,14 @@
       "title": "INTCC: A Framework for Interactive Confidential Computing",
       "updated_at": "2026-11-02T15:56:39.938090+00:00"
     },
+    "title:integratedphotonicaiacceleratorsunderhardwaresecurityattacksimpactsandcountermeasures": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Integrated Photonic AI Accelerators under Hardware Security Attacks: Impacts and Countermeasures",
+      "updated_at": "2026-11-12T20:37:26.303880+00:00"
+    },
     "title:integratingopentitanasasecuritycontrollerforcryptographictasksinriscvsocs": {
       "category": "coeur",
       "decision": "conserver",
@@ -48600,6 +48728,14 @@
       "title": "MARVEL: Multi-Agent RTL Vulnerability Extraction using Large Language Models",
       "updated_at": "2026-11-06T02:37:45.247995+00:00"
     },
+    "title:mayhemtargetedcorruptionofregisterandstackvariables": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Mayhem: Targeted Corruption of Register and Stack Variables",
+      "updated_at": "2026-11-12T20:42:04.515649+00:00"
+    },
     "title:mecurypracticalcrosschainexchangeviatrustedhardware": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -48663,6 +48799,14 @@
       "status": "rejected",
       "title": "MirrorNet: A TEE-Friendly Framework for Secure On-device DNN Inference",
       "updated_at": "2026-11-12T00:37:40.678015+00:00"
+    },
+    "title:mitigatingadversarialattacksinfederatedlearningwithtrustedexecutionenvironments": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Mitigating Adversarial Attacks in Federated Learning with Trusted Execution Environments",
+      "updated_at": "2026-11-12T20:40:00.576176+00:00"
     },
     "title:modelagnostichybridshardingforheterogeneousdistributedinference": {
       "category": "secondaire",
@@ -49423,6 +49567,14 @@
       "status": "rejected",
       "title": "QLink: Quantum-Safe Bridge Architecture for Blockchain Interoperability",
       "updated_at": "2026-11-03T20:07:31.011679+00:00"
+    },
+    "title:qrtpminprogrammablelowpowerdevices": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 62,
+      "status": "rejected",
+      "title": "QR TPM in Programmable Low-Power Devices",
+      "updated_at": "2026-11-12T20:37:53.052362+00:00"
     },
     "title:qsafanovelmitigationframeworkforcognitivedegradationinagenticai": {
       "category": "hors_sujet",
@@ -50432,6 +50584,14 @@
       "title": "Swarm Contract: A Multi-Sovereign Agent Consensus Mechanism",
       "updated_at": "2026-11-07T15:38:02.175437+00:00"
     },
+    "title:syncsyncacovertchannelbuiltonfsyncwithstorage": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Sync+Sync: A Covert Channel Built on fsync with Storage",
+      "updated_at": "2026-11-12T20:41:55.944771+00:00"
+    },
     "title:systematicevaluationofrandomizedcachedesignsagainstcacheoccupancy": {
       "category": "coeur",
       "decision": "conserver",
@@ -50447,6 +50607,14 @@
       "status": "rejected",
       "title": "Systematic Timing Leakage Analysis of NIST PQDSS Candidates: Tooling and Lessons Learned",
       "updated_at": "2026-11-04T17:49:53.404371+00:00"
+    },
+    "title:syztruststateawarefuzzingontrustedosdesignedforiotdevices": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 49,
+      "status": "rejected",
+      "title": "SyzTrust: State-aware Fuzzing on Trusted OS Designed for IoT Devices",
+      "updated_at": "2026-11-12T20:40:00.634886+00:00"
     },
     "title:tamingopenclawsecurityanalysisandmitigationofautonomousllmagentthreats": {
       "category": "hors_sujet",
@@ -50575,6 +50743,14 @@
       "status": "imported",
       "title": "Testing side-channel security of cryptographic implementations against future microarchitectures",
       "updated_at": "2026-11-10T22:40:59.906293+00:00"
+    },
+    "title:tghateegchybridenablingconfidentialfaasplatforms": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "TGh: A TEE/GC Hybrid Enabling Confidential FaaS Platforms",
+      "updated_at": "2026-11-12T20:40:00.606074+00:00"
     },
     "title:thechronosvulnerabilityataxonomyoftemporalpersistenceandmemorybaseddeceptioninagenticai": {
       "category": "hors_sujet",
@@ -51095,6 +51271,14 @@
       "status": "rejected",
       "title": "Using a Performance Model to Implement a Superscalar CVA6",
       "updated_at": "2026-11-08T08:37:52.499404+00:00"
+    },
+    "title:usingllmstofacilitateformalverificationofrtl": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Using LLMs to Facilitate Formal Verification of RTL",
+      "updated_at": "2026-11-12T20:43:17.264520+00:00"
     },
     "title:validationofgpucomputationindecentralizedtrustlessnetworks": {
       "category": "hors_sujet",
