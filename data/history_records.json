@@ -209,6 +209,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1016/j.cose.2023.103437": {
+    "doi": "https://doi.org/10.1016/j.cose.2023.103437",
+    "publication_date": "2023-11-01",
+    "publication_date_note": "Date source Crossref : 2023-11 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2023-11",
+    "publication_type": "revue",
+    "publication_venue": "Computers &amp; Security",
+    "score": 90,
+    "source": "https://doi.org/10.1016/j.cose.2023.103437",
+    "summary": "Cet article analyse les failles de sécurité liées aux instructions de chargement et de stockage masquées des extensions AVX sur les processeurs x86 modernes. Les auteurs démontrent que ces instructions suppriment des exceptions d'accès mémoire et que leur temps d'exécution fuit l'état des correspondances de pages, des permissions et des TLB. Cela permet une attaque par canal auxiliaire temporel capable de contourner l'ASLR (User et Kernel) sur de nombreux processeurs Intel et AMD récents, y compris dans le cloud et au sein d'enclaves SGX.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "AVX-TSCHA: Leaking information through AVX extensions in commercial processors",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1016/j.iot.2026.101885": {
     "publication_date": "2026-02-03",
     "publication_type": "revue",

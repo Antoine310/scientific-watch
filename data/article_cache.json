@@ -2392,6 +2392,14 @@
       "title": "Augmenting Security in Edge Devices: FPGA-Based Enhanced LEA Algorithm with S-Box and Chaotic Functions",
       "updated_at": "2026-11-08T02:37:17.288480+00:00"
     },
+    "doi:10.1007/978-981-99-5091-1_22": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A Mini Review on—Physically Unclonable Functions: The Hardware Security Primitives",
+      "updated_at": "2026-11-12T01:37:14.927578+00:00"
+    },
     "doi:10.1007/978-981-99-8024-6_18": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -4024,6 +4032,14 @@
       "title": "A survey on the (in)security of trusted execution environments",
       "updated_at": "2026-11-07T05:15:56.027764+00:00"
     },
+    "doi:10.1016/j.cose.2023.103437": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "AVX-TSCHA: Leaking information through AVX extensions in commercial processors",
+      "updated_at": "2026-11-12T01:36:41.106843+00:00"
+    },
     "doi:10.1016/j.cose.2023.103480": {
       "category": "coeur",
       "decision": "examiner",
@@ -4912,6 +4928,14 @@
       "title": "PROVE: Provable remote attestation for public verifiability",
       "updated_at": "2026-11-06T23:14:44.112417+00:00"
     },
+    "doi:10.1016/j.jisa.2023.103610": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "A novel blockchain’s private key generation mechanism based on facial biometrics and physical unclonable function",
+      "updated_at": "2026-11-12T01:36:47.010132+00:00"
+    },
     "doi:10.1016/j.jisa.2024.103787": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -5784,6 +5808,14 @@
       "title": "Trend analysis of compensation-eligible work-related injuries among workers in the tema free zones enclave and heavy industrial area",
       "updated_at": "2026-11-03T20:40:17.888029+00:00"
     },
+    "doi:10.1016/j.nima.2023.168633": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A radiation hard RISC-V microprocessor for high-energy physics applications",
+      "updated_at": "2026-11-12T01:39:22.600323+00:00"
+    },
     "doi:10.1016/j.nupar.2023.09.005": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -6143,6 +6175,14 @@
       "status": "rejected",
       "title": "Cost-effective fixed-point hardware support for RISC-V embedded systems",
       "updated_at": "2026-11-09T08:14:02.809721+00:00"
+    },
+    "doi:10.1016/j.sysarc.2023.103006": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Secure Routing Framework for Mitigating Time-Delay Trojan Attack in System-on-Chip",
+      "updated_at": "2026-11-12T01:38:14.950430+00:00"
     },
     "doi:10.1016/j.sysarc.2023.103049": {
       "category": "hors_sujet",
@@ -8119,6 +8159,14 @@
       "status": "rejected",
       "title": "spectre, n.",
       "updated_at": "2026-11-02T21:03:22.610671+00:00"
+    },
+    "doi:10.1093/oed/1704763689": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "enclave, adj.",
+      "updated_at": "2026-11-12T01:38:53.502201+00:00"
     },
     "doi:10.1093/oso/9780197760963.003.0007": {
       "category": "hors_sujet",
@@ -17784,6 +17832,14 @@
       "title": "In-Memory Unified TRNG and Multi-Bit PUF for Ubiquitous Hardware Security",
       "updated_at": "2026-11-09T20:13:50.185519+00:00"
     },
+    "doi:10.1109/jssc.2023.3287360": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "An Error-Resilient RISC-V Microprocessor With a Fully Integrated DC–DC Voltage Regulator for Near-Threshold Operation in 28-nm CMOS",
+      "updated_at": "2026-11-12T01:38:53.393029+00:00"
+    },
     "doi:10.1109/jssc.2023.3318301": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -22648,6 +22704,22 @@
       "title": "SpecBox: A Label-Based Transparent Speculation Scheme Against Transient Execution Attacks",
       "updated_at": "2026-11-09T14:15:27.358674+00:00"
     },
+    "doi:10.1109/tdsc.2022.3231632": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Multi-Modal Side Channel Data Driven Golden-Free Detection of Software and Firmware Trojans",
+      "updated_at": "2026-11-12T01:37:45.293502+00:00"
+    },
+    "doi:10.1109/tdsc.2023.3241164": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Shielding Graph for eXact Analytics With SGX",
+      "updated_at": "2026-11-12T01:37:54.901703+00:00"
+    },
     "doi:10.1109/tdsc.2023.3251418": {
       "category": "coeur",
       "decision": "conserver",
@@ -25600,6 +25672,14 @@
       "title": "A memristor-based unified PUF and TRNG chip with a concealable ability for advanced edge security",
       "updated_at": "2026-10-30T11:01:17.572271+00:00"
     },
+    "doi:10.1128/aem.00960-23": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Variations in microbial assemblage between rhizosphere and root endosphere microbiomes contribute to host plant growth under cadmium stress",
+      "updated_at": "2026-11-12T01:38:27.024859+00:00"
+    },
     "doi:10.1128/msystems.00755-23": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -26504,6 +26584,14 @@
       "title": "Towards a Formally Verified Security Monitor for VM-based Confidential Computing",
       "updated_at": "2026-11-06T02:14:09.826715+00:00"
     },
+    "doi:10.1145/3624477": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Secure and Lightweight Authentication Protocol Using PUF for the IoT-based Wireless Sensor Network",
+      "updated_at": "2026-11-12T01:38:05.387381+00:00"
+    },
     "doi:10.1145/3624576": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -26519,6 +26607,14 @@
       "status": "rejected",
       "title": "High-efficiency TRNG Design Based on Multi-bit Dual-ring Oscillator",
       "updated_at": "2026-11-06T11:13:29.322623+00:00"
+    },
+    "doi:10.1145/3625094": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "A Systematic Review of IoT Security: Research Potential, Challenges, and Future Directions",
+      "updated_at": "2026-11-12T01:36:57.121187+00:00"
     },
     "doi:10.1145/3625549.3658816": {
       "category": "hors_sujet",
@@ -30440,6 +30536,14 @@
       "title": "Quantum-AI cybersecurity threat detection framework: A hybrid architecture for enterprise security operations",
       "updated_at": "2026-11-02T13:38:32.084349+00:00"
     },
+    "doi:10.11591/ijeecs.v32.i2.pp1134-1141": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Biometric face authentication system for secure smart office environments",
+      "updated_at": "2026-11-12T01:38:05.410981+00:00"
+    },
     "doi:10.11591/ijeecs.v33.i1.pp218-226": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -31103,6 +31207,14 @@
       "status": "rejected",
       "title": "Optical identification using physical unclonable functions",
       "updated_at": "2026-11-06T20:14:17.259903+00:00"
+    },
+    "doi:10.1364/jocn.499551": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Security-aware 5G RAN slice mapping with tiered isolation in physical-layer secured metro-aggregation elastic optical networks using heuristic-assisted DRL",
+      "updated_at": "2026-11-12T01:37:25.089060+00:00"
     },
     "doi:10.1364/jocn.517147": {
       "category": "hors_sujet",
@@ -34288,6 +34400,14 @@
       "title": "HardSecBench: Benchmarking the Security Awareness of LLMs for Hardware Code Generation",
       "updated_at": "2026-11-02T16:50:48.788474+00:00"
     },
+    "doi:10.25007/ajnu.v12n4a1116": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A Systematic Roadmap on Privacy, Security, Trust, Identity Management, and Resilience: Wireless Sensor Networks and Internet of Things Architectures",
+      "updated_at": "2026-11-12T01:38:42.957377+00:00"
+    },
     "doi:10.25046/aj090504": {
       "category": "secondaire",
       "decision": "examiner",
@@ -36071,6 +36191,14 @@
       "status": "rejected",
       "title": "Unmanned Aerial Vehicle-Assisted Federated Learning Method Based on a Trusted Execution Environment",
       "updated_at": "2026-11-06T05:14:15.181825+00:00"
+    },
+    "doi:10.3390/electronics12214507": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Hardware-Based Methods for Electronic Device Protection against Invasive and Non-Invasive Attacks",
+      "updated_at": "2026-11-12T01:37:35.235296+00:00"
     },
     "doi:10.3390/electronics13040733": {
       "category": "hors_sujet",
