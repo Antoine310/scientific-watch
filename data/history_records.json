@@ -4136,6 +4136,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3603619": {
+    "doi": "https://doi.org/10.1145/3603619",
+    "publication_date": "2023-10-06",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-10-06",
+    "publication_type": "revue",
+    "publication_venue": "ACM Computing Surveys",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3603619",
+    "summary": "Cet article présente une perspective d'architecte informatique sur les attaques par exécution transitoire. Il explique comment les optimisations microarchitecturales laissent des traces invisibles mais exploitables, menant à des fuites de données. L'étude divise ces attaques en deux catégories (spéculatives de type Spectre et par exception de type Meltdown), détaille l'utilisation de canaux de transmission et analyse les taxonomies ainsi que les défenses associées.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Transient-Execution Attacks: A Computer Architect Perspective",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3605769.3623993": {
     "doi": "https://doi.org/10.1145/3605769.3623993",
     "publication_date": "2023-11-23",
