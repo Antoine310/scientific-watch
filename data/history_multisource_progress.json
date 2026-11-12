@@ -1,8 +1,8 @@
 {
   "accepted": 275,
   "completed": false,
-  "cursor": "MTcwNjY0MDIwMTAwMCwxMC4xMTA5JTJGaXNndGV1cm9wZTU2NzgwLjIwMjMuMTA0MDc3MDA=",
-  "evaluated": 5185,
+  "cursor": "MTY5MTE4NzAwNTAwMCwxMC4xMDE2JTJGai5uZXVyb2ltYWdlLjIwMjMuMTIwMzA4",
+  "evaluated": 5195,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -392,51 +392,603 @@
     "monthly/2023-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2023-10/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2023-10/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2023-10/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2023-10/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2023-10/query-17 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2023-10",
-  "needs_publish": false,
-  "offset": 440,
-  "pages_done": 5628,
-  "pages_in_query": 11,
+  "needs_publish": true,
+  "offset": 360,
+  "pages_done": 5638,
+  "pages_in_query": 9,
   "pending": [
     {
       "paper": {
-        "abstract_inverted_index": {},
+        "abstract_inverted_index": {
+          "(PQC)": [
+            2
+          ],
+          "(SCA)": [
+            52
+          ],
+          "(TVLA)": [
+            227
+          ],
+          "100,000": [
+            236
+          ],
+          "17.4kB,": [
+            210
+          ],
+          "1st-,": [
+            188,
+            204
+          ],
+          "1st-order": [
+            222
+          ],
+          "24.0kB,": [
+            211
+          ],
+          "2nd-,": [
+            189,
+            205
+          ],
+          "3.01×,": [
+            194
+          ],
+          "30.2kB,": [
+            213
+          ],
+          "3rd-order": [
+            191,
+            207
+          ],
+          "5.58×,": [
+            195
+          ],
+          "8.68×,": [
+            197
+          ],
+          "ARM": [
+            176
+          ],
+          "As": [
+            163
+          ],
+          "Assessment": [
+            226
+          ],
+          "Cortex-M4.": [
+            177
+          ],
+          "However,": [
+            49
+          ],
+          "In": [
+            73
+          ],
+          "Leakage": [
+            225
+          ],
+          "Moreover,": [
+            129
+          ],
+          "PINI.": [
+            128
+          ],
+          "PQC": [
+            31
+          ],
+          "Post-quantum": [
+            0
+          ],
+          "SCA-resilience": [
+            216
+          ],
+          "SCAs.": [
+            72
+          ],
+          "Saber": [
+            68,
+            172
+          ],
+          "Saber,": [
+            21
+          ],
+          "Test": [
+            223
+          ],
+          "The": [
+            105,
+            178,
+            215
+          ],
+          "Vectors": [
+            224
+          ],
+          "a": [
+            76,
+            130,
+            164
+          ],
+          "accessibility.": [
+            48
+          ],
+          "against": [
+            10
+          ],
+          "an": [
+            35
+          ],
+          "analyzed": [
+            123
+          ],
+          "analyzing": [
+            59
+          ],
+          "and": [
+            47,
+            63,
+            88,
+            99,
+            116,
+            119,
+            150,
+            190,
+            196,
+            198,
+            206,
+            212
+          ],
+          "appealing": [
+            36
+          ],
+          "approach": [
+            133
+          ],
+          "are": [
+            122
+          ],
+          "arrays.": [
+            104
+          ],
+          "art,": [
+            140
+          ],
+          "as": [
+            22
+          ],
+          "attack": [
+            51
+          ],
+          "balances": [
+            93
+          ],
+          "based": [
+            83,
+            134
+          ],
+          "become": [
+            4
+          ],
+          "between": [
+            96
+          ],
+          "binomial": [
+            146
+          ],
+          "bitslicing": [
+            86,
+            158
+          ],
+          "by": [
+            58
+          ],
+          "can": [
+            53
+          ],
+          "centered": [
+            145
+          ],
+          "ciphertext": [
+            77,
+            111,
+            152
+          ],
+          "comparing": [
+            102
+          ],
+          "comparison": [
+            78,
+            112
+          ],
+          "comparison,": [
+            153
+          ],
+          "computing": [
+            15
+          ],
+          "concept": [
+            126
+          ],
+          "concept,": [
+            167
+          ],
+          "confidential": [
+            56
+          ],
+          "conventional": [
+            17
+          ],
+          "conversions,": [
+            149
+          ],
+          "correctness": [
+            118
+          ],
+          "cryptographic": [
+            8,
+            19
+          ],
+          "cryptography": [
+            1
+          ],
+          "demonstrate": [
+            66
+          ],
+          "description": [
+            107
+          ],
+          "design": [
+            82
+          ],
+          "due": [
+            41
+          ],
+          "dynamic": [
+            200
+          ],
+          "easily": [
+            54
+          ],
+          "efficiency": [
+            46
+          ],
+          "embedded": [
+            39
+          ],
+          "encryption": [
+            45
+          ],
+          "evaluation": [
+            217
+          ],
+          "factor": [
+            186
+          ],
+          "fails": [
+            229
+          ],
+          "finalist": [
+            24
+          ],
+          "for": [
+            38,
+            80,
+            203
+          ],
+          "functions,": [
+            144
+          ],
+          "has": [
+            3
+          ],
+          "hash": [
+            143
+          ],
+          "high": [
+            44
+          ],
+          "high-order": [
+            131
+          ],
+          "illustrate": [
+            219
+          ],
+          "implementation": [
+            170
+          ],
+          "improve": [
+            161
+          ],
+          "in": [
+            25
+          ],
+          "including": [
+            141
+          ],
+          "information": [
+            57
+          ],
+          "is": [
+            69,
+            90,
+            114,
+            154,
+            173,
+            193,
+            209
+          ],
+          "its": [
+            43,
+            117
+          ],
+          "key": [
+            234
+          ],
+          "manifestations,": [
+            62
+          ],
+          "masking": [
+            81,
+            132,
+            148,
+            192,
+            208
+          ],
+          "mathematical": [
+            106
+          ],
+          "memory": [
+            201
+          ],
+          "method": [
+            79,
+            113
+          ],
+          "metrics": [
+            121
+          ],
+          "most": [
+            6
+          ],
+          "of": [
+            13,
+            29,
+            101,
+            108,
+            127,
+            138,
+            166,
+            171,
+            187
+          ],
+          "on": [
+            84,
+            135,
+            174
+          ],
+          "option": [
+            37
+          ],
+          "overhead": [
+            185
+          ],
+          "performance": [
+            98,
+            179
+          ],
+          "physical": [
+            61
+          ],
+          "presented,": [
+            155
+          ],
+          "presents": [
+            34
+          ],
+          "procedure,": [
+            33
+          ],
+          "promising": [
+            7
+          ],
+          "proof": [
+            165
+          ],
+          "proposed": [
+            110,
+            151,
+            169
+          ],
+          "proposed,": [
+            91
+          ],
+          "provided,": [
+            115
+          ],
+          "public-key": [
+            18
+          ],
+          "quantum": [
+            14
+          ],
+          "respectively.": [
+            214
+          ],
+          "result": [
+            228
+          ],
+          "results": [
+            180,
+            218
+          ],
+          "reveal": [
+            55,
+            231
+          ],
+          "round": [
+            28
+          ],
+          "runtime": [
+            184
+          ],
+          "sampling,": [
+            147
+          ],
+          "scheme": [
+            9
+          ],
+          "schemes.": [
+            20
+          ],
+          "secret": [
+            233
+          ],
+          "security": [
+            100,
+            120
+          ],
+          "several": [
+            64
+          ],
+          "show": [
+            181
+          ],
+          "side-channel": [
+            50
+          ],
+          "standardization": [
+            32
+          ],
+          "state": [
+            137
+          ],
+          "systems": [
+            40
+          ],
+          "technique": [
+            87,
+            159
+          ],
+          "that": [
+            67,
+            182,
+            220
+          ],
+          "the": [
+            5,
+            11,
+            23,
+            26,
+            30,
+            60,
+            85,
+            94,
+            97,
+            109,
+            125,
+            136,
+            139,
+            142,
+            157,
+            168,
+            175,
+            183,
+            199,
+            221,
+            232
+          ],
+          "third": [
+            27
+          ],
+          "this": [
+            74
+          ],
+          "threat": [
+            12
+          ],
+          "throughput.": [
+            162
+          ],
+          "to": [
+            16,
+            42,
+            71,
+            160,
+            230
+          ],
+          "traces.": [
+            237
+          ],
+          "tradeoff": [
+            95
+          ],
+          "two": [
+            103
+          ],
+          "under": [
+            124
+          ],
+          "used": [
+            202
+          ],
+          "using": [
+            156
+          ],
+          "vulnerable": [
+            70
+          ],
+          "which": [
+            92
+          ],
+          "with": [
+            235
+          ],
+          "work,": [
+            75
+          ],
+          "works": [
+            65
+          ],
+          "zerotest": [
+            89
+          ]
+        },
         "authorships": [
           {
             "author": {
-              "display_name": "Hossein Sayadi"
+              "display_name": "Yajing Chang"
             }
           },
           {
             "author": {
-              "display_name": "Zhangying He"
+              "display_name": "Yingjian Yan"
             }
           },
           {
             "author": {
-              "display_name": "Chelsea William Fernandes"
+              "display_name": "Chunsheng Zhu"
             }
           },
           {
             "author": {
-              "display_name": "Tahereh Miari"
+              "display_name": "Yanjiang Liu"
             }
           }
         ],
-        "doi": "https://doi.org/10.1109/biocas58349.2023.10388581",
-        "id": "https://doi.org/10.1109/biocas58349.2023.10388581",
+        "doi": "https://doi.org/10.1145/3611670",
+        "id": "https://doi.org/10.1145/3611670",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/biocas58349.2023.10388581"
+          "landing_page_url": "https://doi.org/10.1145/3611670"
         },
-        "publication_date": "2023-10-19",
+        "publication_date": "2023-10-16",
         "publication_date_note": "",
         "publication_date_precision": "day",
-        "publication_date_source": "2023-10-19",
-        "publication_type": "conference",
-        "publication_venue": "2023 IEEE Biomedical Circuits and Systems Conference (BioCAS)",
-        "title": "Cyber-Immunity at the Core: Securing Biomedical Devices through Hardware-Level Machine Learning Defense",
+        "publication_date_source": "2023-10-16",
+        "publication_type": "revue",
+        "publication_venue": "ACM Transactions on Design Automation of Electronic Systems",
+        "title": "A High-performance Masking Design Approach for Saber against High-order Side-channel Attack",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -446,110 +998,7 @@
         "Crossref"
       ],
       "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Myeongjin Kang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Nayoung Kwon"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Seungmin Lee"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Daejin Park"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/ictc58733.2023.10392587",
-        "id": "https://doi.org/10.1109/ictc58733.2023.10392587",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/ictc58733.2023.10392587"
-        },
-        "publication_date": "2023-10-11",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2023-10-11",
-        "publication_type": "conference",
-        "publication_venue": "2023 14th International Conference on Information and Communication Technology Convergence (ICTC)",
-        "title": "Fast Bit Inversion Vulnerability Pre-estimation using Tcl and UPF in RTL Simulation Runtime",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Leonidas Kosmidis"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Marc Solé"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ivan Rodriguez"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jannis Wolf"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Matina Maria Trompouki"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.23919/edhpc59100.2023.10396370",
-        "id": "https://doi.org/10.23919/edhpc59100.2023.10396370",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.23919/edhpc59100.2023.10396370"
-        },
-        "publication_date": "2023-10-02",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2023-10-02",
-        "publication_type": "conference",
-        "publication_venue": "2023 European Data Handling & Data Processing Conference (EDHPC)",
-        "title": "The METASAT Hardware Platform: A High-Performance Multicore, AI SIMD and GPU RISC-V Platform for On-board Processing",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
+        "T06 — Microarchitectural Side Channels"
       ]
     }
   ],
@@ -2956,9 +3405,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 1958,
-  "query_index": 17,
-  "secondary": 281,
-  "skipped": 5274,
+  "prefilter_review_overflow": 1960,
+  "query_index": 18,
+  "secondary": 282,
+  "skipped": 5282,
   "version": 1
 }

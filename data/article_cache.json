@@ -10288,6 +10288,14 @@
       "title": "AI-Finger: From Physical Unclonable Function to AI-Hardware Fingerprint",
       "updated_at": "2026-11-10T00:37:21.657042+00:00"
     },
+    "doi:10.1109/biocas58349.2023.10388581": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Cyber-Immunity at the Core: Securing Biomedical Devices through Hardware-Level Machine Learning Defense",
+      "updated_at": "2026-11-12T15:37:05.452523+00:00"
+    },
     "doi:10.1109/cae59785.2024.10487148": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -14088,6 +14096,22 @@
       "title": "A Time-Predictable Multicore RISC-V Architecture for Real-Time AI Workloads",
       "updated_at": "2026-11-03T12:06:41.775858+00:00"
     },
+    "doi:10.1109/icct59356.2023.10419403": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Robust Secure Transmission Design for RIS-Aided MISO-NOMA System with Hardware Impairments and Imperfect CSI",
+      "updated_at": "2026-11-12T15:39:03.993743+00:00"
+    },
+    "doi:10.1109/icct59356.2023.10419744": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Satellite-Borne Fault-Tolerant Hardware Encryption for TT&C Data Secure Communication",
+      "updated_at": "2026-11-12T15:39:04.011596+00:00"
+    },
     "doi:10.1109/icct62411.2024.10946638": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -14920,6 +14944,14 @@
       "title": "UpGate: Low-Power and Secure Over-the-Air Hardware Reconfiguration for Deployed FPGAs",
       "updated_at": "2026-11-06T21:36:48.694781+00:00"
     },
+    "doi:10.1109/icips59254.2023.10404365": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Multi-node Trusted Remote Attestation and Recovery Scheme for Power Industrial Control Terminal",
+      "updated_at": "2026-11-12T15:39:03.975214+00:00"
+    },
     "doi:10.1109/icirdc62824.2023.00110": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -15464,6 +15496,14 @@
       "title": "A RISC-V Processor with Custom Instructions for Spiking Neural Network Acceleration",
       "updated_at": "2026-11-08T16:36:59.308774+00:00"
     },
+    "doi:10.1109/ictc58733.2023.10392587": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Fast Bit Inversion Vulnerability Pre-estimation using Tcl and UPF in RTL Simulation Runtime",
+      "updated_at": "2026-11-12T15:37:05.471620+00:00"
+    },
     "doi:10.1109/ictc62082.2024.10827194": {
       "category": "secondaire",
       "decision": "examiner",
@@ -15535,6 +15575,14 @@
       "status": "rejected",
       "title": "Embracing OS Gain Cell into Hardware Security: M3D Integrated 1Kb IGZO 2T Gain Cell PUF Array In-Situ Encrypting RRAM CiM for Secure Edge AI",
       "updated_at": "2026-11-03T21:07:10.027807+00:00"
+    },
+    "doi:10.1109/ieeeconf59524.2023.10477061": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "An Efficient Hardware Accelerator of High-Speed NTT for CRYSTALS-Kyber Post-Quantum Cryptography",
+      "updated_at": "2026-11-12T15:39:04.052160+00:00"
     },
     "doi:10.1109/ieeeconf60004.2024.10942848": {
       "category": "hors_sujet",
@@ -21976,6 +22024,14 @@
       "title": "$\\tt{PoisonedGNN}$: Backdoor Attack on Graph Neural Networks-Based Hardware Security Systems",
       "updated_at": "2026-11-12T07:36:27.920805+00:00"
     },
+    "doi:10.1109/tc.2023.3275096": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A Novel Covert Timing Channel Based on Bitcoin Messages",
+      "updated_at": "2026-11-12T15:39:50.006067+00:00"
+    },
     "doi:10.1109/tc.2023.3278536": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -26056,6 +26112,14 @@
       "title": "Bao-Enclave: Virtualization-based Enclaves for Arm",
       "updated_at": "2026-11-08T02:14:25.173351+00:00"
     },
+    "doi:10.1109/wf-iot58464.2023.10539576": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Quantum Static Remote Attestation",
+      "updated_at": "2026-11-12T15:39:04.079169+00:00"
+    },
     "doi:10.1109/wf-iot62078.2024.10811243": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -27735,6 +27799,14 @@
       "status": "rejected",
       "title": "Hardware-hardened Sandbox Enclaves for Trusted Serverless Computing",
       "updated_at": "2026-11-05T23:16:16.885235+00:00"
+    },
+    "doi:10.1145/3633637.3633659": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Hardware Design of 8-channel Analog I/O Module with Fault Injection Based on ZYNQ",
+      "updated_at": "2026-11-12T15:39:04.034928+00:00"
     },
     "doi:10.1145/3634682": {
       "category": "hors_sujet",
@@ -35311,6 +35383,14 @@
       "status": "rejected",
       "title": "Data-Driven Energy Modeling of RISC-V Architectures Using Deep Learning",
       "updated_at": "2026-11-02T17:42:12.159991+00:00"
+    },
+    "doi:10.23919/edhpc59100.2023.10396370": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "The METASAT Hardware Platform: A High-Performance Multicore, AI SIMD and GPU RISC-V Platform for On-board Processing",
+      "updated_at": "2026-11-12T15:37:05.489266+00:00"
     },
     "doi:10.23919/emcjapan/apemcokinaw58965.2024.10585053": {
       "category": "secondaire",
