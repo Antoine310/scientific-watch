@@ -4352,6 +4352,46 @@
     "venue_priority": 2,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3579856.3582833": {
+    "doi": "https://doi.org/10.1145/3579856.3582833",
+    "publication_date": "2023-07-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-07-10",
+    "publication_type": "conference",
+    "publication_venue": "ASIA CCS '23: ACM ASIA Conference on Computer and Communications Security",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3579856.3582833",
+    "summary": "ZEKRA est un mécanisme d'attestation de contrôle de flux basé sur les preuves à divulgation nulle de connaissance (Zero-Knowledge). Il permet à un dispositif distant de prouver l'intégrité de son chemin d'exécution à un vérificateur sans révéler de détails sensibles, en externalisant la vérification à un tiers non de confiance grâce à des circuits arithmétiques.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "ZEKRA: Zero-Knowledge Control-Flow Attestation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3579856.3590332": {
+    "doi": "https://doi.org/10.1145/3579856.3590332",
+    "publication_date": "2023-07-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-07-10",
+    "publication_type": "conference",
+    "publication_venue": "ASIA CCS '23: ACM ASIA Conference on Computer and Communications Security",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3579856.3590332",
+    "summary": "Cet article étudie l'impact des restrictions d'accès aux sources de temps précis (timers à haute granularité) mises en place par les navigateurs et les fabricants de processeurs pour atténuer les attaques par canal auxiliaire microarchitectural basées sur le temps. L'abstract note que ces restrictions entravent ou éliminent plusieurs vecteurs d'attaque de pointe.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "ShowTime: Amplifying Arbitrary CPU Timing Side Channels",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3579856.3595784": {
     "doi": "https://doi.org/10.1145/3579856.3595784",
     "publication_date": "2023-07-05",
@@ -4386,6 +4426,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3579856.3595803": {
+    "doi": "https://doi.org/10.1145/3579856.3595803",
+    "publication_date": "2023-07-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-07-10",
+    "publication_type": "conference",
+    "publication_venue": "ASIA CCS '23: ACM ASIA Conference on Computer and Communications Security",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3579856.3595803",
+    "summary": "Cet article présente FlushTime, une approche visant à atténuer les attaques de cache basées sur le flush (comme Flush+Reload ou Meltdown) sur les processeurs ARMv8-A en combinant des instructions de flush et des minuteurs, afin de surmonter les limites des défenses existantes en termes de modification matérielle, de couverture et de surcharge de performance.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "FlushTime: Towards Mitigating Flush-based Cache Attacks via Collaborating Flush Instructions and Timers on ARMv8-A",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3579988.3585056": {
     "doi": "https://doi.org/10.1145/3579988.3585056",
     "publication_date": "2023-04-13",
@@ -4402,6 +4462,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3587480": {
+    "doi": "https://doi.org/10.1145/3587480",
+    "publication_date": "2023-07-19",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-07-19",
+    "publication_type": "revue",
+    "publication_venue": "ACM Transactions on Architecture and Code Optimization",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3587480",
+    "summary": "Cet article propose ASM, une architecture multicœur adaptative et sécurisée conçue pour l'externalisation de calculs avec des processus mutuellement méfiants. ASM introduit un environnement d'exécution spatio-temporel reconfigurable qui permet d'isoler fortement des clusters de cœurs ou d'allouer tous les cœurs à un processus unique, atténuant ainsi les surcoûts liés au nettoyage d'état et maximisant l'utilisation des ressources matérielles tout en prévenant les attaques par canal auxiliaire basées sur le temps.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "ASM: An Adaptive Secure Multicore for Co-located Mutually Distrusting Processes",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1145/3600160.3600171": {
     "doi": "https://doi.org/10.1145/3600160.3600171",

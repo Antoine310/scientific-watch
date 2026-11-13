@@ -20752,6 +20752,14 @@
       "title": "Accelerating ML Recommendation With Over 1,000 RISC-V/Tensor Processors on Esperanto's ET-SoC-1 Chip",
       "updated_at": "2026-11-09T14:13:32.826142+00:00"
     },
+    "doi:10.1109/mm.2023.3273562": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Toward Developing High-Performance RISC-V Processors Using Agile Methodology",
+      "updated_at": "2026-11-13T10:39:14.319401+00:00"
+    },
     "doi:10.1109/mm.2023.3304091": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -23504,6 +23512,14 @@
       "title": "A Lightweight Full Entropy TRNG With On-Chip Entropy Assurance",
       "updated_at": "2026-11-10T17:13:58.531630+00:00"
     },
+    "doi:10.1109/tcad.2022.3220711": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "TRUST: Through-Silicon via Repair Using Switch Matrix Topology",
+      "updated_at": "2026-11-13T10:38:20.146618+00:00"
+    },
     "doi:10.1109/tcad.2022.3233736": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -24727,6 +24743,46 @@
       "status": "imported",
       "title": "SpecBox: A Label-Based Transparent Speculation Scheme Against Transient Execution Attacks",
       "updated_at": "2026-11-09T14:15:27.358674+00:00"
+    },
+    "doi:10.1109/tdsc.2022.3192524": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Harnessing the x86 Intermediate Rings for Intra-Process Isolation",
+      "updated_at": "2026-11-13T10:38:00.373376+00:00"
+    },
+    "doi:10.1109/tdsc.2022.3193570": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "PUF-Based Mutual Authentication and Key Exchange Protocol for Peer-to-Peer IoT Applications",
+      "updated_at": "2026-11-13T10:38:00.397160+00:00"
+    },
+    "doi:10.1109/tdsc.2022.3194871": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Securing TEEs With Verifiable Execution Contracts",
+      "updated_at": "2026-11-13T10:38:10.184494+00:00"
+    },
+    "doi:10.1109/tdsc.2022.3196109": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Detection of Cache Pollution Attack Based on Ensemble Learning in ICN-Based VANET",
+      "updated_at": "2026-11-13T10:38:10.208850+00:00"
+    },
+    "doi:10.1109/tdsc.2022.3200206": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "HyperPS: A Virtual-Machine Memory Protection Approach Through Hypervisor's Privilege Separation",
+      "updated_at": "2026-11-13T10:38:10.232838+00:00"
     },
     "doi:10.1109/tdsc.2022.3207573": {
       "category": "hors_sujet",
@@ -26224,6 +26280,14 @@
       "title": "Give Me a Secure Ride: TEE-Blockchain Enabled Privacy-Aware and Verifiable Ride Sharing Services",
       "updated_at": "2026-11-03T15:08:21.645571+00:00"
     },
+    "doi:10.1109/tse.2023.3275655": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Can We Trust the Phone Vendors? Comprehensive Security Measurements on the Android Firmware Ecosystem",
+      "updated_at": "2026-11-13T10:36:29.947925+00:00"
+    },
     "doi:10.1109/tse.2026.3655766}": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -26271,6 +26335,14 @@
       "status": "rejected",
       "title": "Towards Sustainable Trust: A Practical SGX Aided Anonymous Reputation System",
       "updated_at": "2026-11-11T09:37:02.872573+00:00"
+    },
+    "doi:10.1109/tvlsi.2023.3268108": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "RISC-V-Based Evaluation and Strategy Exploration of MRAM Triple-Level Hybrid Cache Systems",
+      "updated_at": "2026-11-13T10:39:14.294525+00:00"
     },
     "doi:10.1109/tvlsi.2023.3270866": {
       "category": "hors_sujet",
@@ -28728,6 +28800,38 @@
       "title": "Symbolic modelling of remote attestation protocols for device and app integrity on Android",
       "updated_at": "2026-11-06T14:14:06.659233+00:00"
     },
+    "doi:10.1145/3579856.3582820": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Secure and Efficient Mobile DNN Using Trusted Execution Environments",
+      "updated_at": "2026-11-13T10:37:00.863316+00:00"
+    },
+    "doi:10.1145/3579856.3582833": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "ZEKRA: Zero-Knowledge Control-Flow Attestation",
+      "updated_at": "2026-11-13T10:37:13.789648+00:00"
+    },
+    "doi:10.1145/3579856.3590332": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "ShowTime: Amplifying Arbitrary CPU Timing Side Channels",
+      "updated_at": "2026-11-13T10:37:33.836234+00:00"
+    },
+    "doi:10.1145/3579856.3590341": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Sfitag: Efficient Software Fault Isolation with Memory Tagging for ARM Kernel Extensions",
+      "updated_at": "2026-11-13T10:36:50.411371+00:00"
+    },
     "doi:10.1145/3579856.3595784": {
       "category": "coeur",
       "decision": "conserver",
@@ -28743,6 +28847,22 @@
       "status": "imported",
       "title": "CacheFX: A Framework for Evaluating Cache Security",
       "updated_at": "2026-11-06T17:13:38.737675+00:00"
+    },
+    "doi:10.1145/3579856.3595797": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "ThreadLock: Native Principal Isolation Through Memory Protection Keys",
+      "updated_at": "2026-11-13T10:37:33.860305+00:00"
+    },
+    "doi:10.1145/3579856.3595803": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "FlushTime: Towards Mitigating Flush-based Cache Attacks via Collaborating Flush Instructions and Timers on ARMv8-A",
+      "updated_at": "2026-11-13T10:37:52.466524+00:00"
     },
     "doi:10.1145/3579988.3585056": {
       "category": "coeur",
@@ -28767,6 +28887,14 @@
       "status": "rejected",
       "title": "SCRAMBLE-CFI: Mitigating Fault-Induced Control-Flow Attacks on OpenTitan",
       "updated_at": "2026-11-06T23:13:44.360633+00:00"
+    },
+    "doi:10.1145/3587480": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "ASM: An Adaptive Secure Multicore for Co-located Mutually Distrusting Processes",
+      "updated_at": "2026-11-13T10:38:42.522171+00:00"
     },
     "doi:10.1145/3588435": {
       "category": "secondaire",
@@ -33191,6 +33319,14 @@
       "status": "rejected",
       "title": "TEE-Watchdog: Mitigating Unauthorized Activities within Trusted Execution Environments in ARM-Based Low-Power IoT Devices",
       "updated_at": "2026-11-08T23:13:27.791323+00:00"
+    },
+    "doi:10.1155/2023/9210803": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "PRISMA Archetype-Based Systematic Literature Review of Security Algorithms in the Cloud",
+      "updated_at": "2026-11-13T10:36:40.236324+00:00"
     },
     "doi:10.1155/2023/9872972": {
       "category": "hors_sujet",
@@ -37880,6 +38016,14 @@
       "title": "Enhancing IoT Security Through Trusted Execution Environments",
       "updated_at": "2026-11-05T02:13:33.382262+00:00"
     },
+    "doi:10.30574/ijsra.2023.9.2.0506": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Database security at cache layer",
+      "updated_at": "2026-11-13T10:37:52.491627+00:00"
+    },
     "doi:10.30574/wjarr.2022.16.1.0983": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -39264,6 +39408,14 @@
       "title": "True Random Number Generation Capability of a Ring Oscillator PUF for Reconfigurable Devices",
       "updated_at": "2026-11-07T20:15:25.089251+00:00"
     },
+    "doi:10.3390/electronics12132926": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Better Safe Than Sorry: Constructing Byzantine-Robust Federated Learning with Synthesized Trust",
+      "updated_at": "2026-11-13T10:39:00.660881+00:00"
+    },
     "doi:10.3390/electronics12132987": {
       "category": "secondaire",
       "decision": "examiner",
@@ -40479,6 +40631,14 @@
       "status": "rejected",
       "title": "Octopus: A Novel Approach for Health Data Masking and Retrieving Using Physical Unclonable Functions and Machine Learning",
       "updated_at": "2026-11-07T05:15:03.806886+00:00"
+    },
+    "doi:10.3390/s23136076": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Multimode Optical Interconnects on Silicon Interposer Enable Confidential Hardware-to-Hardware Communication",
+      "updated_at": "2026-11-13T10:36:40.212059+00:00"
     },
     "doi:10.3390/s23146307": {
       "category": "secondaire",
@@ -46103,6 +46263,14 @@
       "status": "rejected",
       "title": "Design and FPGA Implementation of a 32-Bit Single-Cycle RISC-V Processor",
       "updated_at": "2026-11-02T15:51:01.550577+00:00"
+    },
+    "doi:10.56553/popets-2023-0067": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Trust TEE?: Exploring the Impact of Trusted Execution Environments on Smart Home Privacy Norms",
+      "updated_at": "2026-11-13T10:38:51.349091+00:00"
     },
     "doi:10.56553/popets-2024-0119": {
       "category": "secondaire",
