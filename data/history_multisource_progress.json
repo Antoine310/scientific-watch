@@ -1,8 +1,8 @@
 {
-  "accepted": 292,
+  "accepted": 293,
   "completed": false,
-  "cursor": "MTY5NTY1MDY1NzAwMCwxMC4xMTA5JTJGcGVzZ201MjAwMy4yMDIzLjEwMjUyNzcy",
-  "evaluated": 5493,
+  "cursor": "MTY4ODEyMDM3NDAwMCwxMC42MDM2JTJGMTA4NzY=",
+  "evaluated": 5509,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -424,260 +424,15 @@
     "monthly/2023-07/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2023-07/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2023-07/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2023-07/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2023-07/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2023-07/query-18 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2023-07",
   "needs_publish": false,
-  "offset": 280,
-  "pages_done": 6086,
-  "pages_in_query": 7,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Guorui Xu"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Fan Zhang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Xinjie Zhao"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Yuan Chen"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Shize Guo"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Kui Ren"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/dac56929.2023.10247932",
-        "id": "https://doi.org/10.1109/dac56929.2023.10247932",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/dac56929.2023.10247932"
-        },
-        "publication_date": "2023-07-09",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2023-07-09",
-        "publication_type": "conference",
-        "publication_venue": "2023 60th ACM/IEEE Design Automation Conference (DAC)",
-        "title": "Stalker: A Framework to Analyze Fragility of Cryptographic Libraries under Hardware Fault Models",
-        "venue_landmark": "DAC",
-        "venue_note": "",
-        "venue_priority": 1,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "S. Y. Sim"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Q. Liu"
-            }
-          },
-          {
-            "author": {
-              "display_name": "H. B. Kor"
-            }
-          },
-          {
-            "author": {
-              "display_name": "C. L. Gan"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/ipfa58228.2023.10249101",
-        "id": "https://doi.org/10.1109/ipfa58228.2023.10249101",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/ipfa58228.2023.10249101"
-        },
-        "publication_date": "2023-07-24",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2023-07-24",
-        "publication_type": "conference",
-        "publication_venue": "2023 IEEE International Symposium on the Physical and Failure Analysis of Integrated Circuits (IPFA)",
-        "title": "Hardware Security Assessment through Repair of Damaged Device",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Yonghae Kim"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Anurag Kar"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jaewon Lee"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jaekyu Lee"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Hyesoon Kim"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/lca.2023.3306326",
-        "id": "https://doi.org/10.1109/lca.2023.3306326",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/lca.2023.3306326"
-        },
-        "publication_date": "2023-07-01",
-        "publication_date_note": "Date source Crossref : 2023-07 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2023-07",
-        "publication_type": "revue",
-        "publication_venue": "IEEE Computer Architecture Letters",
-        "title": "Hardware-Assisted Code-Pointer Tagging for Forward-Edge Control-Flow Integrity",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Shengyu Duan"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Chenhong Cao"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/iceccme57830.2023.10252278",
-        "id": "https://doi.org/10.1109/iceccme57830.2023.10252278",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/iceccme57830.2023.10252278"
-        },
-        "publication_date": "2023-07-19",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2023-07-19",
-        "publication_type": "conference",
-        "publication_venue": "2023 3rd International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME)",
-        "title": "Differential Emulatable PUF Design against Machine Learning Attacks for Hardware Security",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Shiqi Cao"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ning Lin"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Venkata Dinavahi"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/pesgm52003.2023.10252674",
-        "id": "https://doi.org/10.1109/pesgm52003.2023.10252674",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/pesgm52003.2023.10252674"
-        },
-        "publication_date": "2023-07-16",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2023-07-16",
-        "publication_type": "conference",
-        "publication_venue": "2023 IEEE Power & Energy Society General Meeting (PESGM)",
-        "title": "Faster-Than-Real-Time Hardware Emulation of Extensive Contingencies for Dynamic Security Analysis of Large-Scale Integrated AC/DC Grid",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    }
-  ],
+  "offset": 440,
+  "pages_done": 6111,
+  "pages_in_query": 11,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -3081,9 +2836,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 2148,
-  "query_index": 17,
+  "prefilter_review_overflow": 2157,
+  "query_index": 19,
   "secondary": 306,
-  "skipped": 5643,
+  "skipped": 5651,
   "version": 1
 }

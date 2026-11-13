@@ -2252,6 +2252,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/lca.2023.3306326": {
+    "doi": "https://doi.org/10.1109/lca.2023.3306326",
+    "publication_date": "2023-07-01",
+    "publication_date_note": "Date source Crossref : 2023-07 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2023-07",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Computer Architecture Letters",
+    "score": 88,
+    "source": "https://doi.org/10.1109/lca.2023.3306326",
+    "summary": "Cet article présente le Code-Pointer Tagging (CPT), une solution dynamique d'intégrité du flux de contrôle (CFI) pour protéger les flux orientés vers l'avant (appels indirects). Elle combine le étiquetage de pointeurs et une protection cryptographique en associant le code d'authentification de message (MAC) d'un pointeur à son étiquette CFI. Implémentée via un support de compilation et matériel, la solution est évaluée sur une plateforme de simulation RISC-V accélérée par FPGA.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Hardware-Assisted Code-Pointer Tagging for Forward-Edge Control-Flow Integrity",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/lca.2026.3697544": {
     "publication_date": "2026-01-01",
     "publication_type": "revue",
