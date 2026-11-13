@@ -302,6 +302,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1016/j.sysarc.2019.101698": {
+    "doi": "https://doi.org/10.1016/j.sysarc.2019.101698",
+    "publication_date": "2019-12-06",
+    "publication_type": "revue",
+    "publication_venue": "Journal of Systems Architecture",
+    "score": 75,
+    "source": "https://doi.org/10.1016/j.sysarc.2019.101698",
+    "summary": "Cet article présente Flush+Prefetch, une contre-mesure logicielle contre les attaques par canal auxiliaire basées sur le cache (SCA). Elle utilise des threads indépendants pour accéder aléatoirement à la mémoire d'une application sécurisée afin d'en masquer les accès. Elle fonctionne sur matériel standard sans modification matérielle radicale et reste compatible avec les fonctionnalités de performance.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "FLUSH + PREFETCH: A countermeasure against access-driven cache-based side-channel attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1049/ise2.12023": {
     "doi": "https://doi.org/10.1049/ise2.12023",
     "publication_date": "2021-04-14",
@@ -3967,6 +3984,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3319535.3363206": {
+    "doi": "https://doi.org/10.1145/3319535.3363206",
+    "publication_date": "2019-11-06",
+    "publication_type": "conference",
+    "publication_venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3319535.3363206",
+    "summary": "Cet article analyse l'espace de vulnérabilité des environnements d'exécution de confiance (TEE) lors de l'interface entre du code enclave sécurisé et du code non sécurisé. Les auteurs révèlent que les exigences de blindage sont mal comprises dans les implémentations réelles, exposant des failles de sanitisation au niveau des ABI et API menant à des problèmes de sécurité mémoire et des canaux cachés.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "A Tale of Two Worlds: Assessing the Vulnerability of Enclave Shielding Runtimes",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3342195.3387532": {
     "doi": "https://doi.org/10.1145/3342195.3387532",
     "publication_date": "2020-04-15",
@@ -7267,6 +7301,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.34048/2019.4.f2": {
+    "doi": "https://doi.org/10.34048/2019.4.f2",
+    "publication_date": "2019-12-30",
+    "publication_type": "revue",
+    "publication_venue": "Advanced Computing and Communications",
+    "score": 75,
+    "source": "https://doi.org/10.34048/2019.4.f2",
+    "summary": "Cet article présente le développement d'un processeur sécurisé configurable nommé Shakti-S, conçu pour faire face aux vulnérabilités multi-couches allant du logiciel au matériel. Il intègre des schémas de protection mémoire activés par matériel, des mécanismes de randomisation pour contrer les attaques temporelles sur les caches, et un masquage de l'information critique contre l'analyse différentielle de puissance (DPA).",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "A RISC-V Processor Designed For Security",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.34190/iccws.17.1.20": {
     "doi": "https://doi.org/10.34190/iccws.17.1.20",
