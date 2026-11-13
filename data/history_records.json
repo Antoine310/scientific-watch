@@ -3981,6 +3981,23 @@
     "venue_priority": 2,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3380774.3382016": {
+    "doi": "https://doi.org/10.1145/3380774.3382016",
+    "publication_date": "2019-12-31",
+    "publication_type": "revue",
+    "publication_venue": "Queue",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3380774.3382016",
+    "summary": "Cet article traite de l'utilisation d'une racine de confiance matérielle (hardware root of trust) pour vérifier l'intégrité du logiciel installé dans les composants matériels, garantissant ainsi qu'aucune modification non autorisée n'a été effectuée par un adversaire malgré divers vecteurs d'attaque.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Securing the Boot Process: The hardware root of trust",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3385412.3385970": {
     "doi": "https://doi.org/10.1145/3385412.3385970",
     "publication_date": "2020-06-06",
@@ -7951,6 +7968,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.1912.01701": {
+    "doi": "https://doi.org/10.48550/arxiv.1912.01701",
+    "publication_date": "2019-12-03",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/1912.01701",
+    "summary": "Ce papier présente Membuster, une attaque hors-puce (« off-chip ») contre la confidentialité des enclaves matérielles exploitant le « snooping » du bus mémoire. Les auteurs démontrent que l'observation physique d'un bus d'adresses non chiffré permet d'extraire les motifs d'accès mémoire de la victime (sur Intel SGX). Pour surmonter les défis liés aux accès limités par les défauts de cache de dernier niveau et aux besoins de discrétion, l'attaque introduit trois techniques : la liste blanche de pages critiques, la compression de cache (« cache squeezing ») et un algorithme de correspondance floue basé sur un oracle.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "An Off-Chip Attack on Hardware Enclaves via the Memory Bus",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2002.08437": {
     "doi": "https://doi.org/10.48550/arxiv.2002.08437",
