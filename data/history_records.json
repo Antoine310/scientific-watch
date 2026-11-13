@@ -4688,6 +4688,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3594736": {
+    "doi": "https://doi.org/10.1145/3594736",
+    "publication_date": "2023-06-26",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-06-26",
+    "publication_type": "revue",
+    "publication_venue": "ACM Transactions on Programming Languages and Systems",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3594736",
+    "summary": "Cet article présente la linéarisation partielle du flux de contrôle comme une transformation de code originale pour protéger les programmes contre les attaques temporelles. Cette méthode garantit que le programme exécute toujours la même séquence d'instructions indépendamment des entrées secrètes, tout en préservant les boucles dépendant uniquement de données publiques.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Side-channel Elimination via Partial Control-flow Linearization",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3600160.3600171": {
     "doi": "https://doi.org/10.1145/3600160.3600171",
     "publication_date": "2023-08-09",
