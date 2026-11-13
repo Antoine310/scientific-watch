@@ -9152,6 +9152,14 @@
       "title": "BIONIC: A 64-Core SNN/RISC-V Reconfigurable Processor with Hybrid On-Chip Learning Achieving 0.62 pJ/SOP and >99% Core Utilization",
       "updated_at": "2026-11-04T13:24:37.769357+00:00"
     },
+    "doi:10.1109/access.2020.2980522": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Meet the Sherlock Holmes’ of Side Channel Leakage: A Survey of Cache SCA Detection Techniques",
+      "updated_at": "2026-11-13T14:15:07.453534+00:00"
+    },
     "doi:10.1109/access.2020.2987617": {
       "category": "coeur",
       "decision": "conserver",
@@ -9159,6 +9167,22 @@
       "status": "imported",
       "title": "Quick Boot of Trusted Execution Environment With Hardware Accelerators",
       "updated_at": "2026-11-13T11:15:40.076395+00:00"
+    },
+    "doi:10.1109/access.2020.3006703": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "SofTEE: Software-Based Trusted Execution Environment for User Applications",
+      "updated_at": "2026-11-13T14:13:49.159765+00:00"
+    },
+    "doi:10.1109/access.2020.3027946": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Defending Against Flush+Reload Attack With DRAM Cache by Bypassing Shared SRAM Cache",
+      "updated_at": "2026-11-13T14:14:25.761245+00:00"
     },
     "doi:10.1109/access.2021.3053307": {
       "category": "secondaire",
@@ -11463,6 +11487,14 @@
       "status": "rejected",
       "title": "A Comprehensive Study of Build Failures in Real-World RISC-V Software Packages on Build Platforms",
       "updated_at": "2026-11-02T21:34:32.712639+00:00"
+    },
+    "doi:10.1109/comst.2020.3008879": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Collective Remote Attestation at the Internet of Things Scale: State-of-the-Art and Future Challenges",
+      "updated_at": "2026-11-13T14:13:52.872080+00:00"
     },
     "doi:10.1109/comst.2024.3355168": {
       "category": "hors_sujet",
@@ -23408,6 +23440,14 @@
       "title": "Exploiting Security Dependence for Conditional Speculation Against Spectre Attacks",
       "updated_at": "2026-11-12T20:14:22.360498+00:00"
     },
+    "doi:10.1109/tc.2020.3019704": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "Enclavisor: A Hardware-software Co-design for Enclaves on Untrusted Cloud",
+      "updated_at": "2026-11-13T14:15:09.686143+00:00"
+    },
     "doi:10.1109/tc.2020.3020777": {
       "category": "coeur",
       "decision": "examiner",
@@ -34408,6 +34448,14 @@
       "title": "Byzantine-Resilient Runtime Attestation for Resource-Constrained ECUs",
       "updated_at": "2026-11-01T14:13:21.562692+00:00"
     },
+    "doi:10.13089/jkiisc.2020.30.6.1255": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Real-Time Detection of Cache Side-Channel Attacks Using Non-Cache Hardware Events",
+      "updated_at": "2026-11-13T14:14:15.434120+00:00"
+    },
     "doi:10.13089/jkiisc.2021.31.4.545": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -34719,6 +34767,14 @@
       "status": "imported",
       "title": "Reflections on the Experimental Evaluation of a Binary-Level Symbolic Analyzer for Spectre",
       "updated_at": "2026-11-11T14:19:22.549141+00:00"
+    },
+    "doi:10.14722/ndss.2020.24271": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "ConTExT: A Generic Approach for Mitigating Spectre",
+      "updated_at": "2026-11-13T14:13:46.501790+00:00"
     },
     "doi:10.14722/ndss.2021.24286": {
       "category": "coeur",
@@ -42135,6 +42191,14 @@
       "status": "rejected",
       "title": "DEACT: Hardware Solution to Rowhammer Attacks",
       "updated_at": "2026-11-13T12:36:51.895612+00:00"
+    },
+    "doi:10.3929/ethz-b-000463184": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Design of energy-efficient RISC-V-based edge-computing devices",
+      "updated_at": "2026-11-13T14:15:19.280747+00:00"
     },
     "doi:10.3929/ethz-b-000722075": {
       "category": "coeur",
@@ -51840,6 +51904,14 @@
       "title": "Reinforcing Secure Live Migration through Verifiable State Management",
       "updated_at": "2026-11-04T17:28:20.714545+00:00"
     },
+    "title:remoteattestationforsecureinternetofthings": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 49,
+      "status": "rejected",
+      "title": "Remote Attestation for Secure Internet of Things",
+      "updated_at": "2026-11-13T14:14:02.202163+00:00"
+    },
     "title:remotetimerasaserviceefficientmicroarchitecturalleakageinthecloudwithremotetimers": {
       "category": "coeur",
       "decision": "conserver",
@@ -53519,6 +53591,14 @@
       "status": "imported",
       "title": "VerifiableFL: Verifiable Claims for Federated Learning using Exclaves",
       "updated_at": "2026-11-07T15:37:55.080266+00:00"
+    },
+    "title:verificationandsynthesisofinformationflowsecurehardwaredesigns": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "Verification and Synthesis of Information Flow Secure Hardware Designs",
+      "updated_at": "2026-11-13T14:14:32.548122+00:00"
     },
     "title:verificationoflightningnetworkchannelbalanceswithtrustedexecutionenvironmentstee": {
       "category": "secondaire_technique",

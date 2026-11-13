@@ -349,6 +349,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/access.2020.2980522": {
+    "doi": "https://doi.org/10.1109/access.2020.2980522",
+    "publication_date": "2020-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Access",
+    "score": 85,
+    "source": "https://doi.org/10.1109/access.2020.2980522",
+    "summary": "Cet article présente une étude bibliographique détaillée sur les techniques de détection des attaques par canal auxiliaire basées sur le cache (Cache SCA). Les auteurs identifient un ensemble de caractéristiques importantes pour classifier et comparer ces méthodes, soulignent des observations clés et discutent des défis futurs pour la recherche.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Meet the Sherlock Holmes’ of Side Channel Leakage: A Survey of Cache SCA Detection Techniques",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/access.2020.2987617": {
     "doi": "https://doi.org/10.1109/access.2020.2987617",
     "publication_date": "2020-01-01",
@@ -361,6 +378,40 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Quick Boot of Trusted Execution Environment With Hardware Accelerators",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/access.2020.3006703": {
+    "doi": "https://doi.org/10.1109/access.2020.3006703",
+    "publication_date": "2020-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Access",
+    "score": 75,
+    "source": "https://doi.org/10.1109/access.2020.3006703",
+    "summary": "Cet article présente SofTEE, un environnement d'exécution de confiance (TEE) basé sur le logiciel pour les applications utilisateur, conçu pour pallier les limites des TEE matériels difficilement modifiables. SofTEE assure l'isolement de la mémoire via une rétrogradation du noyau (kernel deprivileging) et un moniteur de sécurité, tout en s'appuyant sur un minimum de fonctionnalités matérielles pour l'attestation, le tout évalué sur une carte Raspberry Pi 3.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "SofTEE: Software-Based Trusted Execution Environment for User Applications",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/access.2020.3027946": {
+    "doi": "https://doi.org/10.1109/access.2020.3027946",
+    "publication_date": "2020-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Access",
+    "score": 75,
+    "source": "https://doi.org/10.1109/access.2020.3027946",
+    "summary": "Cet article présente ByCA, une approche de sécurité exploitant le cache DRAM (cache L4) pour contrer les attaques par canal auxiliaire de type Flush+Reload. En contournant le cache SRAM partagé (L3) pour les blocs ciblés et en redéfinissant l'instruction clflush, ByCA élimine les différences de temps d'accès exploitées par l'attaquant, annulant ainsi l'attaque sans dégrader les performances.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Defending Against Flush+Reload Attack With DRAM Cache by Bypassing Shared SRAM Cache",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -6008,6 +6059,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.14722/ndss.2020.24271": {
+    "doi": "https://doi.org/10.14722/ndss.2020.24271",
+    "publication_date": "2020-01-01",
+    "publication_type": "conference",
+    "publication_venue": "Network and Distributed System Security Symposium",
+    "score": 85,
+    "source": "https://doi.org/10.14722/ndss.2020.24271",
+    "summary": "Cet article présente ConTExT (Considerate Transient Execution Technique), une approche générique et minimale pour atténuer les attaques Spectre. En empêchant les données secrètes de quitter les registres de manière transitoire, ConTExT modifie l'architecture pour rendre la résolution de Spectre possible en logiciel, tout en proposant une variante logicielle pure (ConTExT-light) pour les processeurs existants. L'évaluation montre une protection complète contre les variantes de Spectre avec un surcoût de performance nul pour le code non protégé et allant de 0 % à 338 % pour les applications critiques.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "ConTExT: A Generic Approach for Mitigating Spectre",
+    "venue_landmark": "NDSS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.14722/ndss.2021.24286": {
     "doi": "https://doi.org/10.14722/ndss.2021.24286",
