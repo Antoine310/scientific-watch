@@ -349,6 +349,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/access.2020.2987617": {
+    "doi": "https://doi.org/10.1109/access.2020.2987617",
+    "publication_date": "2020-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Access",
+    "score": 75,
+    "source": "https://doi.org/10.1109/access.2020.2987617",
+    "summary": "Cet article présente un système RISC-V compatible avec les environnements d'exécution de confiance (TEE), intégrant des accélérateurs matériels pour les algorithmes de sécurité (SHA-3 et Ed25519) afin d'accélérer le démarrage du TEE par rapport aux implémentations logicielles.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Quick Boot of Trusted Execution Environment With Hardware Accelerators",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/access.2021.3056190": {
     "doi": "https://doi.org/10.1109/access.2021.3056190",
     "publication_date": "2021-01-01",
@@ -7786,6 +7803,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.2002.08437": {
+    "doi": "https://doi.org/10.48550/arxiv.2002.08437",
+    "publication_date": "2020-02-19",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2002.08437",
+    "summary": "CopyCat est une attaque par canal contrôlé innovante et déterministe qui permet de compter précisément le nombre d'instructions exécutées dans une seule page de code d'une enclave. En combinant ces données avec des fuites grossières au niveau des pages, l'attaque reconstruit le flux de contrôle d'une enclave à une granularité d'instruction près, démontrée sur Intel SGX.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "CopyCat: Controlled Instruction-Level Attacks on Enclaves",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.2005.12453": {
     "doi": "https://doi.org/10.48550/arxiv.2005.12453",
