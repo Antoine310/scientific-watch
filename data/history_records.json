@@ -10309,6 +10309,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:formalizingverifyingandapplyingisasecurityguaranteesasuniversalcontracts": {
+    "doi": "",
+    "publication_date": "2023-06-08",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2306.05128v2",
+    "summary": "Cet article présente une méthode générale pour formaliser et vérifier les garanties de sécurité des architectures de jeux d'instructions (ISA) à l'aide de contrats universels. Les auteurs utilisent l'outil Katamaran pour vérifier semi-automatiquement ces contrats par rapport à des spécifications Sail, en appliquant leur approche à MinimalCaps et à une version simplifiée de RISC-V avec PMP.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Formalizing, Verifying and Applying ISA Security Guarantees as Universal Contracts",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:formalverificationofsecureencryptedvirtualization": {
     "doi": "",
     "publication_date": "2026-05-31",
@@ -10630,6 +10650,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:mitigatingspeculationbasedattacksthroughconfigurablehardwaresoftwarecodesign": {
+    "doi": "",
+    "publication_date": "2023-06-20",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 88,
+    "source": "http://arxiv.org/abs/2306.11291v1",
+    "summary": "Cet article présente SpecControl, une co-conception matériel/logiciel configurable visant à atténuer les attaques par spéculation tout en réduisant la surcharge de performance. Le système introduit une interface de communication permettant aux compilateurs et aux développeurs d'informer le matériel des dépendances de branches et des contraintes d'instructions.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Mitigating Speculation-based Attacks through Configurable Hardware/Software Co-design",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:modernhardwaresecurityareviewofattacksandcountermeasures": {
     "doi": "",
     "publication_date": "2025-01-08",
@@ -10694,6 +10734,26 @@
       "T09 — Secure Memory"
     ],
     "title": "NanoZone: Scalable, Efficient, and Secure Memory Protection for Arm CCA",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:newcrosscorecacheagnosticandprefetcherbasedsidechannelsandcovertchannels": {
+    "doi": "",
+    "publication_date": "2023-06-19",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2306.11195v1",
+    "summary": "Cette étude révèle l'existence du pré-chargeur XPT non documenté dans les processeurs Intel modernes, qui contourne les recherches dans le cache de dernier niveau (LLC). Partagé entre différents cœurs, il permet de concevoir des attaques par canal auxiliaire et canaux cachés trans-cœurs, nommées PrefetchX, capables de fuiter des données sensibles, des clés RSA et de surveiller l'activité des utilisateurs.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "New Cross-Core Cache-Agnostic and Prefetcher-based Side-Channels and Covert-Channels",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -11139,6 +11199,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:safebetsecuresimpleandfastspeculativeexecution": {
+    "doi": "",
+    "publication_date": "2023-06-13",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2306.07785v1",
+    "summary": "SafeBet est une approche matérielle pour sécuriser l'exécution spéculative contre les attaques de type Spectre en n'autorisant sans délai que les accès spéculatifs considérés comme sûrs, basés sur le suivi des paires région de code / destination déjà validées non-spéculativement.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SafeBet: Secure, Simple, and Fast Speculative Execution",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:scheriprovablysecurespeculationundertheconstanttimepolicyforcheriextendedversion": {
     "publication_date": "2026-09-15",
     "publication_date_note": "",
@@ -11551,6 +11631,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Systematic Evaluation of Randomized Cache Designs against Cache Occupancy",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:talusreinforcingteeconfidentialitywithcryptographiccoprocessorstechnicalreport": {
+    "doi": "",
+    "publication_date": "2023-06-06",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2306.03643v1",
+    "summary": "TALUS est une proposition de conception générale visant à renforcer la confidentialité des environnements d'exécution de confiance (TEE) en les associant à des coprocesseurs cryptographiques (tels que des TPM), comblant ainsi le manque d'intégration entre ces technologies pour protéger les secrets cryptographiques à long terme contre les attaques microarchitecturales.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "TALUS: Reinforcing TEE Confidentiality with Cryptographic Coprocessors (Technical Report)",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
