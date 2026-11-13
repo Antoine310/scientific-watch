@@ -192,6 +192,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1007/s41635-023-00133-3": {
+    "doi": "https://doi.org/10.1007/s41635-023-00133-3",
+    "publication_date": "2023-06-15",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-06-15",
+    "publication_type": "revue",
+    "publication_venue": "Journal of Hardware and Systems Security",
+    "score": 75,
+    "source": "https://doi.org/10.1007/s41635-023-00133-3",
+    "summary": "Ce papier présente CROWBAR, un framework de fuzzing assisté par matériel qui contourne l'isolation des environnements d'exécution de confiance (TEE) pour évaluer nativement des applications de confiance (TA) sur des appareils mobiles. En exploitant les composants ARM CoreSight, CROWBAR réalise un fuzzing orienté par les retours sur des TA commerciales et fermées, et a permis de découvrir 3 crashs uniques et inédits sur des smartphones COTS et une carte de développement.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "CROWBAR: Natively Fuzzing Trusted Applications Using ARM CoreSight",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1007/s41635-023-00135-1": {
     "doi": "https://doi.org/10.1007/s41635-023-00135-1",
     "publication_date": "2023-09-01",
@@ -4628,6 +4648,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3581791.3596864": {
+    "doi": "https://doi.org/10.1145/3581791.3596864",
+    "publication_date": "2023-06-18",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-06-18",
+    "publication_type": "conference",
+    "publication_venue": "MobiSys '23: 21st Annual International Conference on Mobile Systems, Applications and Services",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3581791.3596864",
+    "summary": "Cette publication présente une conception matérielle à confiance partagée et le système d'exploitation OctopOS afin de minimiser la base de confiance (TCB) des smartphones pour les programmes critiques. Elle utilise des domaines de confiance isolés physiquement, partitionnés statiquement, et des composants matériels vérifiés formellement pour offrir un accès exclusif temporaire aux ressources de calcul et d'E/S.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Minimizing a Smartphone's TCB for Security-Critical Programs with Exclusively-Used, Physically-Isolated, Statically-Partitioned Hardware",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3587480": {
     "doi": "https://doi.org/10.1145/3587480",
     "publication_date": "2023-07-19",
@@ -7358,6 +7398,46 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.46586/tches.v2023.i3.136-163": {
+    "doi": "https://doi.org/10.46586/tches.v2023.i3.136-163",
+    "publication_date": "2023-06-09",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-06-09",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 90,
+    "source": "https://doi.org/10.46586/tches.v2023.i3.136-163",
+    "summary": "Cette publication présente les premières attaques temporelles par cache sur l'implémentation de référence du cryptosystème post-quantique HQC. Les auteurs construisent un oracle de vérification de texte clair basé sur une vulnérabilité lors de la génération de vecteurs. Ils démontrent des attaques de type Flush+Reload et Prime+Probe, notamment sur Intel SGX, permettant une récupération de clé nécessitant en moyenne 53 857 traces.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Cache-Timing Attack Against HQC",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/tches.v2023.i3.391-421": {
+    "doi": "https://doi.org/10.46586/tches.v2023.i3.391-421",
+    "publication_date": "2023-06-09",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-06-09",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 75,
+    "source": "https://doi.org/10.46586/tches.v2023.i3.391-421",
+    "summary": "PROLEAD_SW est une adaptation logicielle du simulateur PROLEAD (présenté à CHES 2022) conçue pour évaluer les implémentations logicielles masquées contre les attaques par canal auxiliaire (SCA). L'outil introduit un modèle d'abstraction générique des fuites microarchitecturales indépendant du processeur, permettant d'évaluer des conceptions complexes telles qu'une implémentation complète d'AES et de révéler des vulnérabilités dans des codes publics existants.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "PROLEAD_SW",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.46586/tches.v2024.i1.180-206": {
     "doi": "https://doi.org/10.46586/tches.v2024.i1.180-206",

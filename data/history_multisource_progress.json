@@ -1,8 +1,8 @@
 {
-  "accepted": 299,
+  "accepted": 303,
   "completed": false,
-  "cursor": "MTY4MjUyMzM1ODAwMCwxMC4xMDE2JTJGai5hanNzLjIwMjMuMDMuMDA5",
-  "evaluated": 5575,
+  "cursor": "MTY4ODEzMzA4NDAwMCwxMC4xMDg4JTJGMTc0Mi02NTk2JTJGMjUzOCUyRjElMkYwMTIwMDE=",
+  "evaluated": 5600,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -432,14 +432,71 @@
     "monthly/2023-07/query-22 : résultat tronqué au plafond 12 pages",
     "monthly/2023-07/query-24 : résultat tronqué au plafond 12 pages",
     "monthly/2023-06/query-13 : résultat tronqué au plafond 12 pages",
-    "monthly/2023-06/query-14 : résultat tronqué au plafond 12 pages"
+    "monthly/2023-06/query-14 : résultat tronqué au plafond 12 pages",
+    "monthly/2023-06/query-15 : résultat tronqué au plafond 12 pages",
+    "monthly/2023-06/query-16 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2023-06",
   "needs_publish": false,
-  "offset": 200,
-  "pages_done": 6211,
-  "pages_in_query": 5,
-  "pending": [],
+  "offset": 240,
+  "pages_done": 6236,
+  "pages_in_query": 6,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Marco Angioli"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Marcello Barbirotta"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Antonio Mastrandrea"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Saeid Jamili"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mauro Olivieri"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/prime58259.2023.10161944",
+        "id": "https://doi.org/10.1109/prime58259.2023.10161944",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/prime58259.2023.10161944"
+        },
+        "publication_date": "2023-06-18",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2023-06-18",
+        "publication_type": "conference",
+        "publication_venue": "2023 18th Conference on Ph.D Research in Microelectronics and Electronics (PRIME)",
+        "title": "Automatic Hardware Accelerators Reconfiguration through LinearUCB Algorithms on a RISC-V Processor",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2843,9 +2900,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 2198,
-  "query_index": 15,
-  "secondary": 309,
-  "skipped": 5754,
+  "prefilter_review_overflow": 2209,
+  "query_index": 17,
+  "secondary": 310,
+  "skipped": 5777,
   "version": 1
 }
