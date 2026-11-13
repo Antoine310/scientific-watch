@@ -2414,6 +2414,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/mm.2023.3273189": {
+    "doi": "https://doi.org/10.1109/mm.2023.3273189",
+    "publication_date": "2023-07-01",
+    "publication_date_note": "Date source Crossref : 2023-07 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2023-07",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Micro",
+    "score": 85,
+    "source": "https://doi.org/10.1109/mm.2023.3273189",
+    "summary": "PACMAN est une nouvelle méthodologie d'attaque par canal auxiliaire microarchitectural ciblant l'authentification des pointeurs ARM. L'attaque permet de forger des signatures de pointeurs valides et de contourner cette mesure d'atténuation sans provoquer de plantage, démontrée sur l'architecture Apple M1.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "PACMAN: Attacking ARM Pointer Authentication With Speculative Execution",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/mm.2024.3422977": {
     "doi": "https://doi.org/10.1109/mm.2024.3422977",
     "publication_date": "2024-07-01",
