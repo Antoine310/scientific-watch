@@ -1,8 +1,8 @@
 {
   "accepted": 280,
   "completed": false,
-  "cursor": "MTY5MDU3MTcxMjAwMCwxMC4xMDE2JTJGai50cmEuMjAyMy4xMDM3ODk=",
-  "evaluated": 5318,
+  "cursor": "MTcwNTM1MjIwNzAwMCwxMC4xMTA5JTJGaXEtY2NoZXNzNTY1OTYuMjAyMy4xMDM5MTI5NA==",
+  "evaluated": 5330,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -407,14 +407,135 @@
     "monthly/2023-09/query-16 : résultat tronqué au plafond 12 pages",
     "monthly/2023-09/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2023-09/query-19 : résultat tronqué au plafond 12 pages",
-    "monthly/2023-09/query-20 : résultat tronqué au plafond 12 pages"
+    "monthly/2023-09/query-20 : résultat tronqué au plafond 12 pages",
+    "monthly/2023-09/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2023-09/query-22 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2023-09",
-  "needs_publish": false,
-  "offset": 360,
-  "pages_done": 5830,
-  "pages_in_query": 9,
-  "pending": [],
+  "needs_publish": true,
+  "offset": 280,
+  "pages_done": 5852,
+  "pages_in_query": 7,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Czea Sie Chuah"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Christian Appold"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Tim Leinmueller"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1145/3610579.3611085",
+        "id": "https://doi.org/10.1145/3610579.3611085",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1145/3610579.3611085"
+        },
+        "publication_date": "2023-09-21",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2023-09-21",
+        "publication_type": "conference",
+        "publication_venue": "MEMOCODE '23: 21st ACM-IEEE International Conference on Formal Methods and Models for System Design",
+        "title": "Formal Verification of Security Properties on RISC-V Processors",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Xu Bai"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ryusuke Nebashi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Makoto Miyamura"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Kazunori Funahashi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Koichiro Okamoto"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Hideaki Numata"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Noriyuki Iguchi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Toshitsugu Sakamoto"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Munehiro Tada"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.7567/ssdm.2023.k-2-01",
+        "id": "https://doi.org/10.7567/ssdm.2023.k-2-01",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.7567/ssdm.2023.k-2-01"
+        },
+        "publication_date": "2023-09-06",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2023-09-06",
+        "publication_type": "conference",
+        "publication_venue": "2023 International Conference on Solid State Devices and Materials",
+        "title": "A 0.11pJ/bit Read Energy Embedded NanoBridge NVM and its Integration in a 28nm 32-bit RISC-V MCU",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2818,9 +2939,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 2031,
-  "query_index": 21,
-  "secondary": 292,
-  "skipped": 5440,
+  "prefilter_review_overflow": 2052,
+  "query_index": 23,
+  "secondary": 293,
+  "skipped": 5491,
   "version": 1
 }
