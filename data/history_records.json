@@ -32,6 +32,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1007/978-981-15-6401-7_10-1": {
+    "doi": "https://doi.org/10.1007/978-981-15-6401-7_10-1",
+    "publication_date": "2023-05-25",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "inconnu",
+    "publication_venue": "Handbook of Computer Architecture",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2305.16251v1",
+    "summary": "Cet article présente une vue panoramique des problèmes de sécurité et des compromis entre sécurité et performance dans les microprocesseurs modernes, en se concentrant sur les attaques par exécution transitoire exploitant l'exécution spéculative et le désordre. Il propose une classification des variantes de ces attaques et discute des mécanismes de défense de pointe pour les atténuer.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "A Survey of Security Concerns and Countermeasures in Modern Micro-architectures with Transient Execution",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1007/978-981-92-3423-3_29": {
     "publication_date": "2026-07-19",
     "publication_date_note": "",
@@ -9620,6 +9640,26 @@
     ],
     "title": "Future-proofing Trusted Execution Environments Against the Emerging Threats of Speculative Execution"
   },
+  "title:acaiprotectingacceleratorexecutionwitharmconfidentialcomputingarchitecture": {
+    "doi": "",
+    "publication_date": "2023-05-25",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2305.15986v2",
+    "summary": "Cet article étudie la protection de l'exécution des accélérateurs matériels (GPU et FPGA) au sein des environnements d'exécution de confiance (TEE) en s'appuyant sur l'architecture Arm Confidential Computing Architecture (CCA) d'Armv9-A. Les auteurs proposent ACAI, une solution étendant les invariants de sécurité de CCA aux accès côté périphériques pour permettre aux machines virtuelles confidences d'utiliser ces accélérateurs en toute sécurité.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "ACAI: Protecting Accelerator Execution with Arm Confidential Computing Architecture",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:activationfunctionsconsideredharmfulrecoveringneuralnetworkweightsthroughcontrolledchannels": {
     "doi": "",
     "publication_date": "2025-03-24",
@@ -9849,6 +9889,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Automated Template-free Synthesis of Instruction-Centric Leakage Contracts for Black-Box CPUs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:automaticandincrementalrepairforspeculativeinformationleaks": {
+    "doi": "",
+    "publication_date": "2023-05-17",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2305.10092v1",
+    "summary": "Cet article présente CureSpec, un cadre de vérification par model-checking pour la réparation automatique de programmes vulnérables aux fuites d'informations par canaux auxiliaires et exécution spéculative. Il détecte les failles, insère des atténuations pour garantir la sécurité et génère un certificat vérifiable.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Automatic and Incremental Repair for Speculative Information Leaks",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -10699,6 +10759,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:hotpixelsfrequencypowerandtemperatureattacksongpusandarmsocs": {
+    "doi": "",
+    "publication_date": "2023-05-22",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2305.12784v1",
+    "summary": "Cette publication étudie la vulnérabilité des SoC ARM et des GPU face aux canaux auxiliaires hybrides exploitant les mécanismes de gestion dynamique de la tension et de la fréquence (DVFS). Les auteurs démontrent que l'observation logicielle des capteurs internes de température, de puissance et de fréquence permet de corréler l'activité avec les instructions exécutées et les données traitées, contournant ainsi les contre-mesures microarchitecturales traditionnelles. Des attaques concrètes basées sur JavaScript, telles que le vol de pixels et le profilage d'historique de navigation sur Chrome et Safari, ainsi que du fingerprinting de sites web, sont réalisées sans privilèges élevés.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Hot Pixels: Frequency, Power, and Temperature Attacks on GPUs and ARM SoCs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:indirectmeltdownbuildingnovelsidechannelattacksfromtransientexecutionattacks": {
     "doi": "",
     "publication_date": "2023-10-06",
@@ -11220,6 +11300,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:raresruntimeattackresilientembeddedsystemdesignusingverifiedproofofexecution": {
+    "doi": "",
+    "publication_date": "2023-05-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 88,
+    "source": "http://arxiv.org/abs/2305.03266v1",
+    "summary": "Cet article présente RARES, un système embarqué résistant aux attaques à l'exécution basé sur une preuve d'exécution vérifiée. Il intègre une technique de classification et de détection des attaques par modification mémoire en temps réel via un registre de contrôle matériel, ainsi que des mécanismes de prévention et de récupération sur FPGA.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "RARES: Runtime Attack Resilient Embedded System Design Using Verified Proof-of-Execution",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:realmeyevirtualmachineintrospectionforarmccarealmvms": {
     "publication_date": "2026-08-13",
     "publication_date_note": "",
@@ -11736,6 +11836,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "SoK: A cloudy view on trust relationships of CVMs -- How Confidential Virtual Machines are falling short in Public Cloud",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:specificationandverificationofsidechannelsecurityforopensourceprocessorsvialeakagecontracts": {
+    "doi": "",
+    "publication_date": "2023-05-11",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 88,
+    "source": "http://arxiv.org/abs/2305.06979v2",
+    "summary": "Cet article présente LeaVe, le premier outil de vérification de conceptions de processeurs au niveau RTL par rapport à des contrats de fuite au niveau de l'ISA, résolvant le manque de méthodologie de vérification pour ces abstractions de sécurité. L'approche repose sur un théorème de découplage et un raisonnement inductif sur des abstractions relationnelles, et est évaluée sur trois processeurs RISC-V open-source.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Specification and Verification of Side-channel Security for Open-source Processors via Leakage Contracts",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
