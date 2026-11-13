@@ -5768,6 +5768,22 @@
       "title": "A dual-mode MRAM-TCAM with intrinsic PUF for energy efficiency and data security",
       "updated_at": "2026-11-02T15:58:26.663872+00:00"
     },
+    "doi:10.1016/j.memori.2023.100035": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Design of a nonvolatile-register-embedded RISC-V CPU with software-controlled data-retention and hardware-acceleration functions",
+      "updated_at": "2026-11-13T09:41:34.841105+00:00"
+    },
+    "doi:10.1016/j.memori.2023.100044": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Exploiting switching properties of non-volatile memory chips for data security applications",
+      "updated_at": "2026-11-13T09:44:48.037714+00:00"
+    },
     "doi:10.1016/j.memori.2025.100135": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -5783,6 +5799,14 @@
       "status": "rejected",
       "title": "True random number generators in modern cryptography: A review",
       "updated_at": "2026-11-01T11:14:31.256851+00:00"
+    },
+    "doi:10.1016/j.micpro.2023.104827": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "FM-ModComp: Feature Map Modification and Hardware–Software Co-Comparison for secure hardware accelerator-based CNN inference",
+      "updated_at": "2026-11-13T09:44:59.660144+00:00"
     },
     "doi:10.1016/j.micpro.2023.104889": {
       "category": "secondaire",
@@ -6983,6 +7007,14 @@
       "status": "rejected",
       "title": "EAGLE: A provably and verifiably secure blockchain-enabled dual-mode authentication scheme using reconfigurable PUFs for V2I communication",
       "updated_at": "2026-11-03T08:41:13.427572+00:00"
+    },
+    "doi:10.1016/j.vlsi.2023.03.006": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Delay based hardware Trojan detection exploiting spatial correlations to suppress variations",
+      "updated_at": "2026-11-13T09:41:34.869924+00:00"
     },
     "doi:10.1016/j.vlsi.2023.102089": {
       "category": "secondaire",
@@ -8567,6 +8599,14 @@
       "status": "rejected",
       "title": "GPU and RISC-V acceleration for neuromorphic computing based on spiking neural networks: taxonomy, comparison, and open challenges",
       "updated_at": "2026-11-02T17:36:51.057082+00:00"
+    },
+    "doi:10.1089/ast.2022.0046": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Planetary Protection Implementation and Verification Approach for the Mars 2020 Mission",
+      "updated_at": "2026-11-13T09:36:30.240764+00:00"
     },
     "doi:10.1089/hs.2023.0060": {
       "category": "hors_sujet",
@@ -12927,6 +12967,14 @@
       "status": "rejected",
       "title": "MISO: Legacy-compatible Privacy-preserving Single Sign-on using Trusted Execution Environments",
       "updated_at": "2026-11-06T14:15:06.328466+00:00"
+    },
+    "doi:10.1109/eurosp57164.2023.00048": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "From Dragondoom to Dragonstar: Side-channel Attacks and Formally Verified Implementation of WPA3 Dragonfly Handshake",
+      "updated_at": "2026-11-13T09:40:47.853730+00:00"
     },
     "doi:10.1109/eurosp57164.2023.00070": {
       "category": "coeur",
@@ -18551,6 +18599,14 @@
       "status": "rejected",
       "title": "Enhancing DFT Security in Chiplet-Based Systems With Encryption and Integrity Checking",
       "updated_at": "2026-11-04T17:53:03.964173+00:00"
+    },
+    "doi:10.1109/jiot.2023.3253258": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Juliet-PUF: Enhancing the Security of IoT-Based SRAM-PUFs Using the Remanence Decay Effect",
+      "updated_at": "2026-11-13T09:41:34.811690+00:00"
     },
     "doi:10.1109/jiot.2023.3267657": {
       "category": "secondaire",
@@ -26216,6 +26272,14 @@
       "title": "Towards Sustainable Trust: A Practical SGX Aided Anonymous Reputation System",
       "updated_at": "2026-11-11T09:37:02.872573+00:00"
     },
+    "doi:10.1109/tvlsi.2023.3270866": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "TVF: A Metric for Quantifying Vulnerability Against Hardware Trojan Attacks",
+      "updated_at": "2026-11-13T09:46:44.470203+00:00"
+    },
     "doi:10.1109/tvlsi.2023.3277517": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -28743,6 +28807,14 @@
       "status": "rejected",
       "title": "Decentralized Translator of Trust: Supporting Heterogeneous TEE for Critical Infrastructure Protection",
       "updated_at": "2026-11-13T03:36:26.948973+00:00"
+    },
+    "doi:10.1145/3595179": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "HMT: A Hardware-centric Hybrid Bonsai Merkle Tree Algorithm for High-performance Authentication",
+      "updated_at": "2026-11-13T09:44:59.631143+00:00"
     },
     "doi:10.1145/3597418": {
       "category": "secondaire",
@@ -34727,6 +34799,14 @@
       "status": "rejected",
       "title": "Evaluation of a True Random Number Generator Utilizing Timing Jitters in RSFQ Logic Circuits",
       "updated_at": "2026-11-09T17:14:09.701076+00:00"
+    },
+    "doi:10.1587/transele.2022cdi0001": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Design of Circuits and Packaging Systems for Security Chips",
+      "updated_at": "2026-11-13T09:44:59.600543+00:00"
     },
     "doi:10.1587/transfun.2023eap1050": {
       "category": "hors_sujet",
@@ -48432,6 +48512,14 @@
       "title": "Comprehensive Kernel Safety in the Spectre Era: Mitigations and Performance Evaluation (Extended Version)",
       "updated_at": "2026-11-08T00:39:29.987313+00:00"
     },
+    "title:confidentialcomputingacrossedgetocloudformachinelearningasurveystudy": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 74,
+      "status": "rejected",
+      "title": "Confidential Computing across Edge-to-Cloud for Machine Learning: A Survey Study",
+      "updated_at": "2026-11-13T09:40:15.949645+00:00"
+    },
     "title:confidentialcomputingonnvidiahoppergpusaperformancebenchmarkstudy": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -51024,6 +51112,14 @@
       "title": "ProxyGPT: Enabling User Anonymity in LLM Chatbots via (Un)Trustworthy Volunteer Proxies",
       "updated_at": "2026-11-09T06:38:09.532205+00:00"
     },
+    "title:psofuzzfuzzingprocessorswithparticleswarmoptimization": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "PSOFuzz: Fuzzing Processors with Particle Swarm Optimization",
+      "updated_at": "2026-11-13T09:37:05.670833+00:00"
+    },
     "title:puppyapubliclyverifiablewatermarkingprotocol": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -52527,6 +52623,14 @@
       "status": "imported",
       "title": "Towards Reliable and Secure RISC-V Systems: Survey of Testability and Security Mechanisms",
       "updated_at": "2026-11-01T23:15:24.981525+00:00"
+    },
+    "title:towardsruntimecustomizabletrustedexecutionenvironmentonfpgasoc": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 82,
+      "status": "imported",
+      "title": "Towards Runtime Customizable Trusted Execution Environment on FPGA-SoC",
+      "updated_at": "2026-11-13T09:40:15.919848+00:00"
     },
     "title:towardssecureandprivateaiaframeworkfordecentralizedinference": {
       "category": "secondaire",

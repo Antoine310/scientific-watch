@@ -11483,6 +11483,26 @@
     ],
     "title": "Towards Reliable and Secure RISC-V Systems: Survey of Testability and Security Mechanisms"
   },
+  "title:towardsruntimecustomizabletrustedexecutionenvironmentonfpgasoc": {
+    "doi": "",
+    "publication_date": "2023-07-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 82,
+    "source": "http://arxiv.org/abs/2307.04375v2",
+    "summary": "Cet article propose une extension des environnements d'exécution de confiance (TEE) sur FPGA-SoC, appelés tbTEE, pour permettre une personnalisation dynamique et sécurisée à l'exécution (RCTEE). L'approche repose sur trois composants principaux : CrloadIP pour le chargement dynamique d'IP, CexecIP pour l'exécution sécurisée sans modifier l'OS, et CremoAT pour l'attestation à distance et la communication sécurisée. Une analyse de sécurité et une évaluation des performances sont réalisées sur un Xilinx Zynq UltraScale+ MPSoC.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Towards Runtime Customizable Trusted Execution Environment on FPGA-SoC",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:tpm20supportedruntimecustomizableteeonfpgasocwithusercontrollablevtpm": {
     "doi": "",
     "publication_date": "2025-05-18",
