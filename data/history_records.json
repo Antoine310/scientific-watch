@@ -6193,6 +6193,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.23919/date48585.2020.9116340": {
+    "doi": "https://doi.org/10.23919/date48585.2020.9116340",
+    "publication_date": "2020-03-01",
+    "publication_type": "conference",
+    "publication_venue": "Design, Automation, and Test in Europe",
+    "score": 85,
+    "source": "https://doi.org/10.23919/date48585.2020.9116340",
+    "summary": "Cet article analyse et propose une technique de randomisation légère au niveau système et architecture pour atténuer les attaques par canal auxiliaire basées sur le cache de dernier niveau (LLC). Sans nécessiter de refonte matérielle majeure pour les architectures actuelles ou existantes, l'approche combine l'adaptation de la fréquence du processeur, le contrôle des prefetchers et l'ajout de bruit pour masquer les accès aux caches. Les résultats montrent une réduction de la surcharge de performance à près de 20 % tout en protégeant les informations cryptographiques.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Mitigating Cache-Based Side-Channel Attacks through Randomization: A Comprehensive System and Architecture Level Analysis",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.23919/date51398.2021.9474013": {
     "doi": "https://doi.org/10.23919/date51398.2021.9474013",
     "publication_date": "2021-02-01",
