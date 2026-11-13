@@ -1,8 +1,8 @@
 {
-  "accepted": 280,
+  "accepted": 284,
   "completed": false,
-  "cursor": "MTcwNTM1MjIwNzAwMCwxMC4xMTA5JTJGaXEtY2NoZXNzNTY1OTYuMjAyMy4xMDM5MTI5NA==",
-  "evaluated": 5330,
+  "cursor": "*",
+  "evaluated": 5355,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -409,130 +409,2881 @@
     "monthly/2023-09/query-19 : résultat tronqué au plafond 12 pages",
     "monthly/2023-09/query-20 : résultat tronqué au plafond 12 pages",
     "monthly/2023-09/query-21 : résultat tronqué au plafond 12 pages",
-    "monthly/2023-09/query-22 : résultat tronqué au plafond 12 pages"
+    "monthly/2023-09/query-22 : résultat tronqué au plafond 12 pages",
+    "monthly/2023-09/query-24 : résultat tronqué au plafond 12 pages"
   ],
-  "month": "2023-09",
-  "needs_publish": true,
-  "offset": 280,
-  "pages_done": 5852,
-  "pages_in_query": 7,
+  "month": "2023-08",
+  "needs_publish": false,
+  "offset": 0,
+  "pages_done": 5872,
+  "pages_in_query": 0,
   "pending": [
     {
       "paper": {
-        "abstract_inverted_index": {},
+        "abstract_inverted_index": {
+          "(TEE)": [
+            3
+          ],
+          "(e.g.,": [
+            75
+          ],
+          "A": [
+            166
+          ],
+          "DHTee": [
+            148,
+            195
+          ],
+          "DHTee,": [
+            143
+          ],
+          "Device": [
+            167
+          ],
+          "First,": [
+            25
+          ],
+          "Second,": [
+            41
+          ],
+          "TEE": [
+            100,
+            123,
+            135,
+            155,
+            160,
+            171,
+            190,
+            203
+          ],
+          "TEE-based": [
+            62
+          ],
+          "TEEs": [
+            210
+          ],
+          "This": [
+            107
+          ],
+          "To": [
+            125
+          ],
+          "Trusted": [
+            0
+          ],
+          "While": [
+            57
+          ],
+          "a": [
+            58,
+            121,
+            144,
+            158,
+            188
+          ],
+          "address": [
+            71,
+            126
+          ],
+          "affecting": [
+            206
+          ],
+          "afford": [
+            52
+          ],
+          "also": [
+            197
+          ],
+          "an": [
+            15,
+            53
+          ],
+          "and": [
+            49,
+            78,
+            102,
+            119,
+            129,
+            199
+          ],
+          "another": [
+            181
+          ],
+          "applications": [
+            8
+          ],
+          "attacks.": [
+            40
+          ],
+          "attestation": [
+            164
+          ],
+          "attractive": [
+            20
+          ],
+          "be": [
+            34,
+            95
+          ],
+          "been": [
+            68,
+            213
+          ],
+          "belongs": [
+            103
+          ],
+          "blockchain": [
+            150,
+            177
+          ],
+          "by": [
+            215
+          ],
+          "can": [
+            172,
+            200
+          ],
+          "cannot": [
+            51
+          ],
+          "challenges": [
+            74,
+            128
+          ],
+          "claiming": [
+            185
+          ],
+          "collaborating": [
+            183
+          ],
+          "comprised": [
+            90
+          ],
+          "control),": [
+            80
+          ],
+          "coordination": [
+            146
+          ],
+          "critical": [
+            22,
+            29,
+            47,
+            63,
+            92,
+            138
+          ],
+          "cyber": [
+            39
+          ],
+          "decentralized": [
+            145
+          ],
+          "device": [
+            184
+          ],
+          "devices": [
+            89,
+            114,
+            207
+          ],
+          "different": [
+            105,
+            189
+          ],
+          "efficient": [
+            16
+          ],
+          "environment": [
+            2
+          ],
+          "environment,": [
+            161
+          ],
+          "environment.": [
+            124
+          ],
+          "equipped": [
+            96,
+            168
+          ],
+          "especially": [
+            162
+          ],
+          "establish": [
+            116
+          ],
+          "execution": [
+            1
+          ],
+          "existing": [
+            82,
+            209
+          ],
+          "expensive": [
+            54
+          ],
+          "feature": [
+            108
+          ],
+          "feature,": [
+            87
+          ],
+          "flexible": [
+            198
+          ],
+          "for": [
+            21,
+            46,
+            112,
+            137
+          ],
+          "form": [
+            120
+          ],
+          "found": [
+            6
+          ],
+          "from": [
+            37
+          ],
+          "fully": [
+            130
+          ],
+          "functions": [
+            156
+          ],
+          "hard": [
+            111
+          ],
+          "has": [
+            5
+          ],
+          "have": [
+            67,
+            187,
+            212
+          ],
+          "heterogeneous": [
+            159
+          ],
+          "i.e.,": [
+            88
+          ],
+          "ignore": [
+            84
+          ],
+          "important": [
+            45,
+            86
+          ],
+          "in": [
+            9,
+            14,
+            157
+          ],
+          "incompatible": [
+            99
+          ],
+          "infrastructure": [
+            23,
+            30,
+            48,
+            64,
+            93,
+            139
+          ],
+          "interact": [
+            173
+          ],
+          "is": [
+            19,
+            43,
+            196
+          ],
+          "it": [
+            32,
+            50,
+            110
+          ],
+          "key": [
+            154
+          ],
+          "large": [
+            59
+          ],
+          "makes": [
+            109
+          ],
+          "manner,": [
+            17
+          ],
+          "many": [
+            7
+          ],
+          "may": [
+            94
+          ],
+          "mechanism.": [
+            56,
+            147
+          ],
+          "meets": [
+            191
+          ],
+          "mitigating": [
+            10
+          ],
+          "most": [
+            81
+          ],
+          "multiple": [
+            98
+          ],
+          "mutual": [
+            117
+          ],
+          "natural": [
+            27
+          ],
+          "new": [
+            202
+          ],
+          "number": [
+            60
+          ],
+          "of": [
+            28,
+            61,
+            134
+          ],
+          "one": [
+            85,
+            170
+          ],
+          "owners.": [
+            106
+          ],
+          "performance": [
+            42
+          ],
+          "potential": [
+            133,
+            182
+          ],
+          "propose": [
+            142
+          ],
+          "proposed": [
+            69
+          ],
+          "protected": [
+            36
+          ],
+          "protection": [
+            55,
+            65
+          ],
+          "protection,": [
+            140
+          ],
+          "protection.": [
+            24
+          ],
+          "reliable": [
+            79
+          ],
+          "requirements.": [
+            194
+          ],
+          "requires": [
+            31
+          ],
+          "risks": [
+            13
+          ],
+          "schemes": [
+            204
+          ],
+          "secure": [
+            76
+          ],
+          "securely": [
+            174
+          ],
+          "security": [
+            12,
+            73,
+            193
+          ],
+          "sensing": [
+            77
+          ],
+          "service.": [
+            165
+          ],
+          "support": [
+            153,
+            201
+          ],
+          "supported": [
+            214
+          ],
+          "system.": [
+            217
+          ],
+          "systems": [
+            66
+          ],
+          "technologies": [
+            101
+          ],
+          "technology": [
+            4,
+            136,
+            151
+          ],
+          "that": [
+            211
+          ],
+          "the": [
+            26,
+            91,
+            132,
+            163,
+            176,
+            192,
+            216
+          ],
+          "these": [
+            113,
+            127
+          ],
+          "to": [
+            33,
+            70,
+            104,
+            115,
+            152,
+            178,
+            186
+          ],
+          "trust": [
+            118
+          ],
+          "unified": [
+            122
+          ],
+          "unleash": [
+            131
+          ],
+          "uses": [
+            149
+          ],
+          "using": [
+            208
+          ],
+          "usually": [
+            44
+          ],
+          "various": [
+            11,
+            38,
+            72
+          ],
+          "verify": [
+            179
+          ],
+          "we": [
+            141
+          ],
+          "well": [
+            35
+          ],
+          "whether": [
+            180
+          ],
+          "which": [
+            18
+          ],
+          "with": [
+            97,
+            169,
+            175
+          ],
+          "without": [
+            205
+          ],
+          "works": [
+            83
+          ]
+        },
         "authorships": [
           {
             "author": {
-              "display_name": "Czea Sie Chuah"
+              "display_name": "Rabimba Karanjai"
             }
           },
           {
             "author": {
-              "display_name": "Christian Appold"
+              "display_name": "Rowan Collier"
             }
           },
           {
             "author": {
-              "display_name": "Tim Leinmueller"
+              "display_name": "Zhimin Gao"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Lin Chen"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Xinxin Fan"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Taeweon Suh"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Weidong Shi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Lei Xu"
             }
           }
         ],
-        "doi": "https://doi.org/10.1145/3610579.3611085",
-        "id": "https://doi.org/10.1145/3610579.3611085",
+        "doi": "https://doi.org/10.1145/3594556.3594626",
+        "id": "http://arxiv.org/abs/2308.01474v1",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1145/3610579.3611085"
+          "landing_page_url": "http://arxiv.org/abs/2308.01474v1"
         },
-        "publication_date": "2023-09-21",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2023-09-21",
-        "publication_type": "conference",
-        "publication_venue": "MEMOCODE '23: 21st ACM-IEEE International Conference on Formal Methods and Models for System Design",
-        "title": "Formal Verification of Security Properties on RISC-V Processors",
+        "publication_date": "2023-08-02",
+        "publication_type": "prepublication",
+        "publication_venue": "",
+        "title": "Decentralized Translator of Trust: Supporting Heterogeneous TEE for Critical Infrastructure Protection",
         "venue_landmark": "",
-        "venue_note": "",
+        "venue_note": "Référence déclarée sur arXiv (non vérifiée) : 12 September 2023",
         "venue_priority": 0,
-        "venue_provenance": "Crossref"
+        "venue_provenance": "arXiv"
       },
       "sources": [
-        "Crossref"
+        "arXiv"
       ],
       "themes": [
-        "T07 — Hardware Security Verification"
+        "T03 — RISC-V TEE & Enclaves"
       ]
     },
     {
       "paper": {
-        "abstract_inverted_index": {},
+        "abstract_inverted_index": {
+          "(whether": [
+            111
+          ],
+          "Committee": [
+            48
+          ],
+          "Cross's": [
+            52
+          ],
+          "Humanitarian": [
+            0
+          ],
+          "International": [
+            47
+          ],
+          "Janus": [
+            94,
+            129,
+            158
+          ],
+          "Janus,": [
+            79
+          ],
+          "Red": [
+            51
+          ],
+          "Taking": [
+            45
+          ],
+          "Thus,": [
+            31
+          ],
+          "To": [
+            8
+          ],
+          "We": [
+            76,
+            122,
+            142,
+            156
+          ],
+          "a": [
+            58,
+            91
+          ],
+          "accuracy": [
+            172
+          ],
+          "accuracy,": [
+            149
+          ],
+          "aid": [
+            3,
+            25,
+            43,
+            53,
+            74
+          ],
+          "alternatives": [
+            161
+          ],
+          "and": [
+            101,
+            124,
+            138,
+            150,
+            162
+          ],
+          "are": [
+            28
+          ],
+          "as": [
+            57
+          ],
+          "at": [
+            39,
+            108
+          ],
+          "based": [
+            130
+          ],
+          "biometric": [
+            99
+          ],
+          "biometrics": [
+            85
+          ],
+          "bit": [
+            105
+          ],
+          "budget": [
+            12
+          ],
+          "can": [
+            37
+          ],
+          "cannot": [
+            22
+          ],
+          "case,": [
+            60
+          ],
+          "combines": [
+            81
+          ],
+          "compare": [
+            157
+          ],
+          "computation,": [
+            134
+          ],
+          "create": [
+            97
+          ],
+          "creating": [
+            70
+          ],
+          "database": [
+            119
+          ],
+          "databases": [
+            100
+          ],
+          "demonstrate": [
+            143
+          ],
+          "design": [
+            78
+          ],
+          "detect": [
+            66
+          ],
+          "distribution": [
+            15,
+            54
+          ],
+          "does": [
+            95
+          ],
+          "double": [
+            67,
+            88
+          ],
+          "efficiently,": [
+            13
+          ],
+          "encryption,": [
+            137
+          ],
+          "ensure": [
+            18
+          ],
+          "entitled": [
+            29
+          ],
+          "environments.": [
+            141
+          ],
+          "essential": [
+            34
+          ],
+          "evaluate": [
+            125
+          ],
+          "execution": [
+            140
+          ],
+          "existing": [
+            160
+          ],
+          "first": [
+            167
+          ],
+          "for": [
+            73
+          ],
+          "homomorphic": [
+            136
+          ],
+          "humanitarian": [
+            154
+          ],
+          "identify": [
+            62
+          ],
+          "implement": [
+            123
+          ],
+          "in": [
+            6,
+            90,
+            117
+          ],
+          "information": [
+            107
+          ],
+          "instantiations": [
+            127
+          ],
+          "is": [
+            33,
+            115,
+            165
+          ],
+          "it": [
+            32,
+            164
+          ],
+          "legitimate": [
+            20
+          ],
+          "limited": [
+            11
+          ],
+          "manner.": [
+            93
+          ],
+          "more": [
+            24
+          ],
+          "most": [
+            40
+          ],
+          "multiparty": [
+            133
+          ],
+          "must": [
+            17
+          ],
+          "need.": [
+            7
+          ],
+          "needs": [
+            152
+          ],
+          "new": [
+            71
+          ],
+          "not": [
+            96
+          ],
+          "not).": [
+            121
+          ],
+          "of": [
+            49,
+            106,
+            128,
+            153
+          ],
+          "on": [
+            131
+          ],
+          "once": [
+            41
+          ],
+          "one": [
+            104
+          ],
+          "only": [
+            103
+          ],
+          "or": [
+            120
+          ],
+          "organizations": [
+            1
+          ],
+          "organizations.": [
+            155
+          ],
+          "our": [
+            173
+          ],
+          "people": [
+            5
+          ],
+          "per": [
+            42
+          ],
+          "performance": [
+            151
+          ],
+          "plaintext": [
+            98
+          ],
+          "present": [
+            116
+          ],
+          "prevent": [
+            87
+          ],
+          "privacy,": [
+            148
+          ],
+          "privacy-enhancing": [
+            82
+          ],
+          "process": [
+            56
+          ],
+          "processes": [
+            16
+          ],
+          "program.": [
+            44
+          ],
+          "protection.": [
+            179
+          ],
+          "provide": [
+            2
+          ],
+          "provides": [
+            170
+          ],
+          "providing": [
+            177
+          ],
+          "receive": [
+            23
+          ],
+          "recipients": [
+            21,
+            36
+          ],
+          "recipients.": [
+            75
+          ],
+          "register": [
+            38
+          ],
+          "registering": [
+            114
+          ],
+          "registration": [
+            55,
+            68,
+            89,
+            109
+          ],
+          "requirements": [
+            64
+          ],
+          "requires": [
+            175
+          ],
+          "reveals": [
+            102
+          ],
+          "risks": [
+            72
+          ],
+          "safe": [
+            92
+          ],
+          "scenario": [
+            174
+          ],
+          "secure": [
+            132
+          ],
+          "show": [
+            163
+          ],
+          "somewhat": [
+            135
+          ],
+          "strong": [
+            178
+          ],
+          "support": [
+            146
+          ],
+          "system": [
+            168
+          ],
+          "technologies": [
+            83
+          ],
+          "than": [
+            26
+          ],
+          "that": [
+            19,
+            35,
+            144,
+            169
+          ],
+          "the": [
+            46,
+            50,
+            63,
+            112,
+            118,
+            147,
+            166,
+            171
+          ],
+          "their": [
+            10,
+            14
+          ],
+          "then": [
+            77
+          ],
+          "they": [
+            27,
+            145
+          ],
+          "three": [
+            126
+          ],
+          "time": [
+            110
+          ],
+          "to": [
+            4,
+            65,
+            86
+          ],
+          "to.": [
+            30
+          ],
+          "trusted": [
+            139
+          ],
+          "use": [
+            9,
+            59
+          ],
+          "user": [
+            113
+          ],
+          "we": [
+            61
+          ],
+          "which": [
+            80
+          ],
+          "while": [
+            176
+          ],
+          "with": [
+            84,
+            159
+          ],
+          "without": [
+            69
+          ]
+        },
         "authorships": [
           {
             "author": {
-              "display_name": "Xu Bai"
+              "display_name": "Kasra EdalatNejad"
             }
           },
           {
             "author": {
-              "display_name": "Ryusuke Nebashi"
+              "display_name": "Wouter Lueks"
             }
           },
           {
             "author": {
-              "display_name": "Makoto Miyamura"
+              "display_name": "Justinas Sukaitis"
             }
           },
           {
             "author": {
-              "display_name": "Kazunori Funahashi"
+              "display_name": "Vincent Graf Narbel"
             }
           },
           {
             "author": {
-              "display_name": "Koichiro Okamoto"
+              "display_name": "Massimo Marelli"
             }
           },
           {
             "author": {
-              "display_name": "Hideaki Numata"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Noriyuki Iguchi"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Toshitsugu Sakamoto"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Munehiro Tada"
+              "display_name": "Carmela Troncoso"
             }
           }
         ],
-        "doi": "https://doi.org/10.7567/ssdm.2023.k-2-01",
-        "id": "https://doi.org/10.7567/ssdm.2023.k-2-01",
+        "doi": "",
+        "id": "http://arxiv.org/abs/2308.02907v1",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.7567/ssdm.2023.k-2-01"
+          "landing_page_url": "http://arxiv.org/abs/2308.02907v1"
         },
-        "publication_date": "2023-09-06",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2023-09-06",
-        "publication_type": "conference",
-        "publication_venue": "2023 International Conference on Solid State Devices and Materials",
-        "title": "A 0.11pJ/bit Read Energy Embedded NanoBridge NVM and its Integration in a 28nm 32-bit RISC-V MCU",
+        "publication_date": "2023-08-05",
+        "publication_type": "prepublication",
+        "publication_venue": "",
+        "title": "Janus: Safe Biometric Deduplication for Humanitarian Aid Distribution",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
-        "venue_provenance": "Crossref"
+        "venue_provenance": "arXiv"
       },
       "sources": [
-        "Crossref"
+        "arXiv"
       ],
       "themes": [
-        "T10 — RISC-V SoC & FPGA"
+        "T03 — RISC-V TEE & Enclaves"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "\"smart\"": [
+            142
+          ],
+          "%": [
+            185,
+            190
+          ],
+          "(FL)": [
+            21
+          ],
+          "(FedYogi,": [
+            167
+          ],
+          "(TEE).": [
+            126
+          ],
+          "-": [
+            145,
+            183,
+            188
+          ],
+          "17": [
+            182
+          ],
+          "20": [
+            184,
+            187
+          ],
+          "60": [
+            189
+          ],
+          "FL": [
+            46,
+            60,
+            79,
+            165
+          ],
+          "FLIPS": [
+            40,
+            73,
+            96,
+            132,
+            174
+          ],
+          "FLIPS,": [
+            8
+          ],
+          "FedAvg).": [
+            170
+          ],
+          "FedAvg,": [
+            82
+          ],
+          "FedDyn,": [
+            84
+          ],
+          "FedOpt": [
+            85
+          ],
+          "FedProx": [
+            168
+          ],
+          "FedProx,": [
+            83
+          ],
+          "FedYogi.": [
+            87
+          ],
+          "In": [
+            24
+          ],
+          "Oort,": [
+            146
+          ],
+          "Our": [
+            127
+          ],
+          "Privacy": [
+            111
+          ],
+          "This": [
+            0
+          ],
+          "TiFL": [
+            147
+          ],
+          "To": [
+            88
+          ],
+          "We": [
+            171
+          ],
+          "a": [
+            9,
+            98,
+            122
+          ],
+          "accuracy": [
+            180
+          ],
+          "achieving": [
+            178
+          ],
+          "algorithms": [
+            166
+          ],
+          "algorithms,": [
+            80
+          ],
+          "an": [
+            45
+          ],
+          "and": [
+            5,
+            15,
+            58,
+            86,
+            92,
+            116,
+            148,
+            162,
+            169,
+            194
+          ],
+          "applications.": [
+            110
+          ],
+          "apriori,": [
+            57
+          ],
+          "as": [
+            137,
+            139
+          ],
+          "availability,": [
+            95
+          ],
+          "based": [
+            49
+          ],
+          "benchmark": [
+            156
+          ],
+          "benefits": [
+            29,
+            196
+          ],
+          "by": [
+            181
+          ],
+          "can": [
+            74
+          ],
+          "capacities": [
+            105
+          ],
+          "changing": [
+            104
+          ],
+          "cluster": [
+            65
+          ],
+          "clustering": [
+            33,
+            115,
+            150
+          ],
+          "clusters": [
+            41
+          ],
+          "common": [
+            78,
+            164
+          ],
+          "communication": [
+            192
+          ],
+          "community": [
+            109
+          ],
+          "compares": [
+            131
+          ],
+          "comprehensive": [
+            128
+          ],
+          "convergence,": [
+            177
+          ],
+          "costs,": [
+            193
+          ],
+          "data": [
+            14,
+            56
+          ],
+          "datasets,": [
+            154,
+            157
+          ],
+          "demonstrate": [
+            172
+          ],
+          "design": [
+            4
+          ],
+          "different": [
+            159
+          ],
+          "distributed,": [
+            107
+          ],
+          "distribution": [
+            32,
+            53
+          ],
+          "distributions": [
+            161
+          ],
+          "distributions,": [
+            114
+          ],
+          "during": [
+            59
+          ],
+          "dynamic": [
+            93
+          ],
+          "each": [
+            64
+          ],
+          "empirical": [
+            129
+          ],
+          "endure": [
+            197
+          ],
+          "ensured": [
+            120
+          ],
+          "ensures": [
+            62
+          ],
+          "environment": [
+            125
+          ],
+          "equitably": [
+            67
+          ],
+          "evaluation": [
+            130
+          ],
+          "examine": [
+            27
+          ],
+          "execution": [
+            124
+          ],
+          "federated": [
+            19,
+            38
+          ],
+          "gradient": [
+            149
+          ],
+          "handle": [
+            103
+          ],
+          "heterogeneity": [
+            17,
+            91
+          ],
+          "higher": [
+            179
+          ],
+          "implementation": [
+            6
+          ],
+          "improves": [
+            176
+          ],
+          "in": [
+            18,
+            37,
+            44,
+            69,
+            106,
+            198
+          ],
+          "including": [
+            81
+          ],
+          "incorporates": [
+            97
+          ],
+          "involved": [
+            43
+          ],
+          "is": [
+            66,
+            119
+          ],
+          "job": [
+            48
+          ],
+          "label": [
+            31,
+            52,
+            113
+          ],
+          "learning": [
+            20
+          ],
+          "learning.": [
+            39
+          ],
+          "lower": [
+            191
+          ],
+          "manage": [
+            13,
+            89
+          ],
+          "management": [
+            100
+          ],
+          "mechanism": [
+            101
+          ],
+          "mechanisms": [
+            144
+          ],
+          "middleware": [
+            10
+          ],
+          "most": [
+            77
+          ],
+          "non-IID": [
+            160
+          ],
+          "of": [
+            7,
+            30,
+            54,
+            112,
+            201
+          ],
+          "on": [
+            34,
+            50
+          ],
+          "other": [
+            141
+          ],
+          "paper": [
+            1
+          ],
+          "participant": [
+            16,
+            35,
+            117,
+            135
+          ],
+          "participants": [
+            71
+          ],
+          "participants.": [
+            203
+          ],
+          "particular,": [
+            25
+          ],
+          "parties": [
+            42
+          ],
+          "platform": [
+            90
+          ],
+          "presence": [
+            200
+          ],
+          "presents": [
+            2
+          ],
+          "random": [
+            134
+          ],
+          "real-world": [
+            153
+          ],
+          "represented": [
+            68
+          ],
+          "resource": [
+            94
+          ],
+          "selected.": [
+            72
+          ],
+          "selection": [
+            36,
+            118,
+            143
+          ],
+          "selection,": [
+            136
+          ],
+          "significantly": [
+            175
+          ],
+          "smart": [
+            108
+          ],
+          "straggler": [
+            99,
+            202
+          ],
+          "support": [
+            75
+          ],
+          "system": [
+            11
+          ],
+          "that": [
+            63,
+            173
+          ],
+          "the": [
+            3,
+            28,
+            51,
+            70,
+            76,
+            199
+          ],
+          "their": [
+            55
+          ],
+          "these": [
+            195
+          ],
+          "three": [
+            140,
+            163
+          ],
+          "through": [
+            121
+          ],
+          "to": [
+            12,
+            102
+          ],
+          "training": [
+            22,
+            47
+          ],
+          "training,": [
+            61
+          ],
+          "trusted": [
+            123
+          ],
+          "two": [
+            152,
+            155,
+            158
+          ],
+          "using": [
+            151
+          ],
+          "we": [
+            26
+          ],
+          "well": [
+            138
+          ],
+          "with": [
+            133,
+            186
+          ],
+          "workloads.": [
+            23
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Rahul Atul Bhope"
+            }
+          },
+          {
+            "author": {
+              "display_name": "K. R. Jayaram"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Nalini Venkatasubramanian"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ashish Verma"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Gegi Thomas"
+            }
+          }
+        ],
+        "doi": "",
+        "id": "http://arxiv.org/abs/2308.03901v2",
+        "primary_location": {
+          "landing_page_url": "http://arxiv.org/abs/2308.03901v2"
+        },
+        "publication_date": "2023-08-07",
+        "publication_type": "prepublication",
+        "publication_venue": "",
+        "title": "FLIPS: Federated Learning using Intelligent Participant Selection",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "arXiv"
+      },
+      "sources": [
+        "arXiv"
+      ],
+      "themes": [
+        "T03 — RISC-V TEE & Enclaves"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "(TEEs),": [
+            127
+          ],
+          "(to": [
+            80
+          ],
+          "Attack.": [
+            168
+          ],
+          "Attention": [
+            165
+          ],
+          "By": [
+            119
+          ],
+          "Environments": [
+            126
+          ],
+          "Execution": [
+            125
+          ],
+          "For": [
+            68
+          ],
+          "Gradient": [
+            166
+          ],
+          "However,": [
+            48
+          ],
+          "Pelta": [
+            128,
+            149
+          ],
+          "Pelta,": [
+            111
+          ],
+          "Self": [
+            164
+          ],
+          "The": [
+            0
+          ],
+          "This": [
+            31
+          ],
+          "To": [
+            104
+          ],
+          "Trusted": [
+            124
+          ],
+          "We": [
+            147
+          ],
+          "a": [
+            95,
+            112,
+            151
+          ],
+          "adversarial": [
+            66,
+            73,
+            167
+          ],
+          "against": [
+            162
+          ],
+          "aggregated,": [
+            38
+          ],
+          "and": [
+            44,
+            158
+          ],
+          "applications,": [
+            72
+          ],
+          "are": [
+            12
+          ],
+          "art": [
+            155
+          ],
+          "as": [
+            22
+          ],
+          "attack.": [
+            103
+          ],
+          "attackers": [
+            140
+          ],
+          "back-propagation": [
+            133
+          ],
+          "be": [
+            40,
+            91
+          ],
+          "broadcast": [
+            41
+          ],
+          "by": [
+            85,
+            139
+          ],
+          "can": [
+            54,
+            90
+          ],
+          "capabilities": [
+            122
+          ],
+          "chain": [
+            134
+          ],
+          "clients": [
+            53
+          ],
+          "collaborating": [
+            43
+          ],
+          "compromised": [
+            52
+          ],
+          "computed": [
+            13
+          ],
+          "considering": [
+            70
+          ],
+          "consist": [
+            75
+          ],
+          "counterpart": [
+            98
+          ],
+          "data": [
+            20
+          ],
+          "defenses,": [
+            51
+          ],
+          "demonstrate": [
+            159
+          ],
+          "design": [
+            143
+          ],
+          "device.": [
+            30
+          ],
+          "easily": [
+            55
+          ],
+          "effectiveness": [
+            161
+          ],
+          "ensemble": [
+            156
+          ],
+          "evaluate": [
+            148
+          ],
+          "examples": [
+            74
+          ],
+          "examples.": [
+            67
+          ],
+          "exploited": [
+            138
+          ],
+          "eye)": [
+            83
+          ],
+          "federated": [
+            4
+          ],
+          "for": [
+            141
+          ],
+          "general": [
+            35
+          ],
+          "hardware.": [
+            118
+          ],
+          "harnessing": [
+            120
+          ],
+          "human": [
+            82
+          ],
+          "image-based": [
+            71
+          ],
+          "images": [
+            79
+          ],
+          "imperceptibly": [
+            77
+          ],
+          "in": [
+            15,
+            63
+          ],
+          "inside": [
+            59
+          ],
+          "instance,": [
+            69
+          ],
+          "introduce": [
+            110
+          ],
+          "is": [
+            6
+          ],
+          "its": [
+            160
+          ],
+          "later": [
+            92
+          ],
+          "learning": [
+            5,
+            9
+          ],
+          "leave": [
+            25
+          ],
+          "leveraging": [
+            116
+          ],
+          "local": [
+            61,
+            87
+          ],
+          "locally,": [
+            14
+          ],
+          "machine": [
+            8
+          ],
+          "main": [
+            1
+          ],
+          "malicious": [
+            46,
+            107,
+            145
+          ],
+          "masks": [
+            129
+          ],
+          "mechanism": [
+            32,
+            115
+          ],
+          "memory": [
+            62
+          ],
+          "misclassified": [
+            84
+          ],
+          "mitigate": [
+            105
+          ],
+          "model": [
+            10,
+            58,
+            99,
+            157
+          ],
+          "model,": [
+            36,
+            88
+          ],
+          "never": [
+            24
+          ],
+          "node's": [
+            97
+          ],
+          "nodes.": [
+            47
+          ],
+          "non": [
+            45
+          ],
+          "novel": [
+            113
+          ],
+          "of": [
+            3,
+            28,
+            65,
+            76,
+            123,
+            131,
+            144,
+            153
+          ],
+          "on": [
+            150
+          ],
+          "once": [
+            37
+          ],
+          "otherwise": [
+            136
+          ],
+          "part": [
+            130
+          ],
+          "particular": [
+            16
+          ],
+          "perimeter": [
+            27
+          ],
+          "perturbed": [
+            78
+          ],
+          "premise": [
+            2
+          ],
+          "presented": [
+            93
+          ],
+          "preserve": [
+            18
+          ],
+          "privacy,": [
+            21
+          ],
+          "probe": [
+            56
+          ],
+          "probing,": [
+            108
+          ],
+          "proper": [
+            50
+          ],
+          "replicate": [
+            101
+          ],
+          "rule,": [
+            135
+          ],
+          "samples.": [
+            146
+          ],
+          "search": [
+            64
+          ],
+          "shielding": [
+            114
+          ],
+          "state": [
+            152
+          ],
+          "such": [
+            106
+          ],
+          "supposes": [
+            33
+          ],
+          "that": [
+            7
+          ],
+          "the": [
+            26,
+            34,
+            57,
+            81,
+            86,
+            102,
+            121,
+            132,
+            142,
+            154,
+            163
+          ],
+          "their": [
+            29,
+            60
+          ],
+          "those": [
+            23
+          ],
+          "to": [
+            17,
+            39,
+            42,
+            94,
+            100
+          ],
+          "trusted": [
+            117
+          ],
+          "typically": [
+            137
+          ],
+          "updates": [
+            11
+          ],
+          "user": [
+            19
+          ],
+          "victim": [
+            96
+          ],
+          "we": [
+            109
+          ],
+          "which": [
+            89
+          ],
+          "without": [
+            49
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Simon Queyrut"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Yérom-David Bromberg"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Valerio Schiavoni"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1145/3565010.3569064",
+        "id": "http://arxiv.org/abs/2308.04373v1",
+        "primary_location": {
+          "landing_page_url": "http://arxiv.org/abs/2308.04373v1"
+        },
+        "publication_date": "2023-08-08",
+        "publication_type": "prepublication",
+        "publication_venue": "",
+        "title": "Pelta: Shielding Transformers to Mitigate Evasion Attacks in Federated Learning",
+        "venue_landmark": "",
+        "venue_note": "Référence déclarée sur arXiv (non vérifiée) : DistributedML '22: Proceedings of the 3rd International Workshop on Distributed Machine Learning, December 2022",
+        "venue_priority": 0,
+        "venue_provenance": "arXiv"
+      },
+      "sources": [
+        "arXiv"
+      ],
+      "themes": [
+        "T03 — RISC-V TEE & Enclaves"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "(TEEs)": [
+            3
+          ],
+          "An": [
+            54
+          ],
+          "CPU-enabled": [
+            28
+          ],
+          "Environments": [
+            2
+          ],
+          "Execution": [
+            1
+          ],
+          "However,": [
+            41
+          ],
+          "TEE": [
+            97,
+            137
+          ],
+          "TEEs": [
+            26,
+            76
+          ],
+          "TEEs.": [
+            53
+          ],
+          "These": [
+            99
+          ],
+          "To": [
+            120
+          ],
+          "Trusted": [
+            0
+          ],
+          "We": [
+            141
+          ],
+          "While": [
+            70
+          ],
+          "\\emph{confidential": [
+            16
+          ],
+          "\\emph{data": [
+            63
+          ],
+          "a": [
+            12,
+            71,
+            112,
+            126
+          ],
+          "address": [
+            121
+          ],
+          "adopt": [
+            111
+          ],
+          "adopted": [
+            6,
+            78
+          ],
+          "against": [
+            92
+          ],
+          "also": [
+            142
+          ],
+          "an": [
+            144
+          ],
+          "analysis": [
+            128
+          ],
+          "and": [
+            93,
+            106,
+            110,
+            134,
+            154
+          ],
+          "appealing": [
+            55
+          ],
+          "applications": [
+            60,
+            138
+          ],
+          "applications.": [
+            98,
+            119
+          ],
+          "approach": [
+            116
+          ],
+          "approaches": [
+            86,
+            133
+          ],
+          "are": [
+            4,
+            49
+          ],
+          "attacks": [
+            48
+          ],
+          "attacks.": [
+            69
+          ],
+          "be": [
+            62
+          ],
+          "been": [
+            89
+          ],
+          "benchmark": [
+            96,
+            136
+          ],
+          "breaches": [
+            34
+          ],
+          "by": [
+            7
+          ],
+          "choose": [
+            109
+          ],
+          "cloud": [
+            9
+          ],
+          "clouds.": [
+            25
+          ],
+          "compared": [
+            91
+          ],
+          "comprehensive": [
+            127
+          ],
+          "compromised": [
+            36
+          ],
+          "computing}": [
+            17
+          ],
+          "conduct": [
+            125
+          ],
+          "conversion": [
+            85,
+            132
+          ],
+          "convert": [
+            59
+          ],
+          "data": [
+            80,
+            114
+          ],
+          "deter": [
+            66
+          ],
+          "difficult": [
+            103
+          ],
+          "direct": [
+            33
+          ],
+          "don't": [
+            21
+          ],
+          "ease": [
+            155
+          ],
+          "effective": [
+            51
+          ],
+          "eliminate": [
+            32
+          ],
+          "empirical": [
+            146
+          ],
+          "extensive": [
+            145
+          ],
+          "features": [
+            30
+          ],
+          "few": [
+            72
+          ],
+          "for": [
+            18,
+            104,
+            117
+          ],
+          "from": [
+            35
+          ],
+          "fully": [
+            22
+          ],
+          "general": [
+            84
+          ],
+          "gradually": [
+            5
+          ],
+          "hardware": [
+            29
+          ],
+          "have": [
+            44,
+            77,
+            87
+          ],
+          "hypervisors.": [
+            40
+          ],
+          "implement": [
+            135
+          ],
+          "insights": [
+            150
+          ],
+          "into": [
+            151
+          ],
+          "is": [
+            57
+          ],
+          "issues,": [
+            123
+          ],
+          "it": [
+            102
+          ],
+          "limitations": [
+            100
+          ],
+          "major": [
+            8
+          ],
+          "make": [
+            101
+          ],
+          "many": [
+            67
+          ],
+          "never": [
+            88
+          ],
+          "oblivious": [
+            81,
+            115
+          ],
+          "oblivious}": [
+            64
+          ],
+          "of": [
+            15,
+            129,
+            156
+          ],
+          "offering": [
+            11
+          ],
+          "on": [
+            52,
+            75,
+            95
+          ],
+          "operating": [
+            37
+          ],
+          "operations,": [
+            82
+          ],
+          "option": [
+            14
+          ],
+          "or": [
+            39
+          ],
+          "perform": [
+            143
+          ],
+          "performance": [
+            153
+          ],
+          "practical": [
+            13
+          ],
+          "practitioners": [
+            107
+          ],
+          "prototypes": [
+            74
+          ],
+          "provide": [
+            149
+          ],
+          "providers,": [
+            10
+          ],
+          "public": [
+            24
+          ],
+          "recent": [
+            42
+          ],
+          "representative": [
+            131
+          ],
+          "research": [
+            73
+          ],
+          "researchers": [
+            105
+          ],
+          "several": [
+            130
+          ],
+          "shown": [
+            45
+          ],
+          "side-channel": [
+            47,
+            68
+          ],
+          "solution": [
+            56
+          ],
+          "specific": [
+            79
+          ],
+          "still": [
+            50
+          ],
+          "studies": [
+            43
+          ],
+          "study": [
+            147
+          ],
+          "suitable": [
+            113
+          ],
+          "systems": [
+            38
+          ],
+          "tested": [
+            94
+          ],
+          "that": [
+            46
+          ],
+          "the": [
+            83
+          ],
+          "their": [
+            118,
+            152
+          ],
+          "them.": [
+            140
+          ],
+          "these": [
+            122
+          ],
+          "thoroughly": [
+            90
+          ],
+          "to": [
+            31,
+            58,
+            61,
+            65,
+            108,
+            148
+          ],
+          "trust": [
+            23
+          ],
+          "use": [
+            27
+          ],
+          "use.": [
+            157
+          ],
+          "users": [
+            19
+          ],
+          "we": [
+            124
+          ],
+          "who": [
+            20
+          ],
+          "with": [
+            139
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": "AKM Mubashwir Alam"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Keke Chen"
+            }
+          }
+        ],
+        "doi": "",
+        "id": "http://arxiv.org/abs/2308.06442v1",
+        "primary_location": {
+          "landing_page_url": "http://arxiv.org/abs/2308.06442v1"
+        },
+        "publication_date": "2023-08-12",
+        "publication_type": "prepublication",
+        "publication_venue": "",
+        "title": "Making Your Program Oblivious: a Comparative Study for Side-channel-safe Confidential Computing",
+        "venue_landmark": "",
+        "venue_note": "Référence déclarée sur arXiv (non vérifiée) : IEEE CLOUD 2023",
+        "venue_priority": 0,
+        "venue_provenance": "arXiv"
+      },
+      "sources": [
+        "arXiv"
+      ],
+      "themes": [
+        "T03 — RISC-V TEE & Enclaves"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "Common": [
+            38
+          ],
+          "Environments,": [
+            2
+          ],
+          "Execution": [
+            1
+          ],
+          "However,": [
+            23
+          ],
+          "Intel": [
+            5
+          ],
+          "MapReduce": [
+            83
+          ],
+          "ORAM,": [
+            47
+          ],
+          "SGX": [
+            103
+          ],
+          "SGX,": [
+            6
+          ],
+          "SGX-MR-Prot": [
+            66,
+            80
+          ],
+          "SGX-based": [
+            73
+          ],
+          "This": [
+            61,
+            105
+          ],
+          "Trusted": [
+            0
+          ],
+          "a": [
+            19,
+            64
+          ],
+          "access": [
+            27,
+            50,
+            70
+          ],
+          "access-pattern": [
+            94
+          ],
+          "adversaries": [
+            31
+          ],
+          "against": [
+            18
+          ],
+          "allow": [
+            108
+          ],
+          "and": [
+            14,
+            34,
+            76,
+            96,
+            124
+          ],
+          "application": [
+            87
+          ],
+          "applications": [
+            17,
+            75
+          ],
+          "approach": [
+            120
+          ],
+          "approaches": [
+            39
+          ],
+          "are": [
+            57
+          ],
+          "as": [
+            4,
+            46
+          ],
+          "challenging": [
+            58
+          ],
+          "channels": [
+            25
+          ],
+          "cloud": [
+            21
+          ],
+          "compromised": [
+            20
+          ],
+          "confidentiality": [
+            13
+          ],
+          "contributions": [
+            115
+          ],
+          "cost": [
+            92
+          ],
+          "data": [
+            99
+          ],
+          "data,": [
+            55
+          ],
+          "data-intensive": [
+            74
+          ],
+          "dataflows": [
+            88
+          ],
+          "demonstration": [
+            62,
+            106
+          ],
+          "details": [
+            101
+          ],
+          "develop.": [
+            60
+          ],
+          "developers'": [
+            78
+          ],
+          "developers.": [
+            104
+          ],
+          "efficiently": [
+            68
+          ],
+          "efforts.": [
+            79
+          ],
+          "ensure": [
+            11
+          ],
+          "exploit": [
+            33
+          ],
+          "exploration": [
+            123
+          ],
+          "for": [
+            30,
+            67
+          ],
+          "framework": [
+            84
+          ],
+          "framework-based": [
+            118
+          ],
+          "from": [
+            102
+          ],
+          "hardware": [
+            8
+          ],
+          "hide": [
+            97
+          ],
+          "information.": [
+            37
+          ],
+          "input": [
+            54
+          ],
+          "integrity": [
+            15
+          ],
+          "interactive": [
+            122
+          ],
+          "intuitively": [
+            111
+          ],
+          "like": [
+            26
+          ],
+          "make": [
+            49
+          ],
+          "minimizing": [
+            77
+          ],
+          "oblivious": [
+            41,
+            52,
+            100
+          ],
+          "obtain": [
+            35
+          ],
+          "of": [
+            16,
+            72,
+            93,
+            116
+          ],
+          "or": [
+            43
+          ],
+          "patterns": [
+            28,
+            51,
+            71
+          ],
+          "primitives,": [
+            44
+          ],
+          "programs": [
+            42
+          ],
+          "protecting": [
+            69
+          ],
+          "protection": [
+            95,
+            119
+          ],
+          "prototype": [
+            65
+          ],
+          "reduce": [
+            90
+          ],
+          "regulate": [
+            86
+          ],
+          "remain": [
+            29
+          ],
+          "sensitive": [
+            36
+          ],
+          "shows": [
+            63
+          ],
+          "side": [
+            24
+          ],
+          "such": [
+            3,
+            45
+          ],
+          "supports": [
+            9
+          ],
+          "system.": [
+            22
+          ],
+          "the": [
+            12,
+            82,
+            91,
+            98,
+            113,
+            117
+          ],
+          "to": [
+            10,
+            32,
+            48,
+            53,
+            59,
+            85,
+            89,
+            110
+          ],
+          "understand": [
+            112
+          ],
+          "unique": [
+            114
+          ],
+          "use": [
+            7,
+            40
+          ],
+          "users": [
+            109
+          ],
+          "uses": [
+            81
+          ],
+          "via": [
+            121
+          ],
+          "visualization.": [
+            125
+          ],
+          "which": [
+            56
+          ],
+          "will": [
+            107
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": "AKM Mubashwir Alam"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Justin Boyce"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Keke Chen"
+            }
+          }
+        ],
+        "doi": "",
+        "id": "http://arxiv.org/abs/2308.06445v1",
+        "primary_location": {
+          "landing_page_url": "http://arxiv.org/abs/2308.06445v1"
+        },
+        "publication_date": "2023-08-12",
+        "publication_type": "prepublication",
+        "publication_venue": "",
+        "title": "SGX-MR-Prot: Efficient and Developer-Friendly Access-Pattern Protection in Trusted Execution Environments",
+        "venue_landmark": "",
+        "venue_note": "Référence déclarée sur arXiv (non vérifiée) : International Conference on Distributed Computing Systems (ICDCS) 2023",
+        "venue_priority": 0,
+        "venue_provenance": "arXiv"
+      },
+      "sources": [
+        "arXiv"
+      ],
+      "themes": [
+        "T03 — RISC-V TEE & Enclaves"
       ]
     }
   ],
@@ -2939,9 +5690,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 2052,
-  "query_index": 23,
-  "secondary": 293,
-  "skipped": 5491,
+  "prefilter_review_overflow": 2059,
+  "query_index": 5,
+  "secondary": 294,
+  "skipped": 5515,
   "version": 1
 }

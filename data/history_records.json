@@ -925,6 +925,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/dsd60849.2023.00066": {
+    "doi": "https://doi.org/10.1109/dsd60849.2023.00066",
+    "publication_date": "2023-09-06",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-09-06",
+    "publication_type": "conference",
+    "publication_venue": "2023 26th Euromicro Conference on Digital System Design (DSD)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/dsd60849.2023.00066",
+    "summary": "Ce travail propose une optimisation de la micro-architecture du processeur RISC-V open-source CVA6 pour réduire les pénalités de performance liées aux dépendances charge-utilisation. En remplaçant le mécanisme de tableau de bord (scoreboard) par un pipeline plus profond incluant une seconde ALU dédiée, les auteurs améliorent l'IPC de 6,5 % en moyenne tout en réduisant la surface et la puissance de 2,5 %.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "Reducing Load-Use Dependency-Induced Performance Penalty in the Open-Source RISC-V CVA6 CPU",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/dsd67783.2025.00045": {
     "publication_date": "2025-09-10",
     "publication_type": "conference",
@@ -10452,6 +10472,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:parseltowardsaverifiedrootoftrustoversel4": {
+    "doi": "",
+    "publication_date": "2023-08-23",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 82,
+    "source": "http://arxiv.org/abs/2308.11921v1",
+    "summary": "Cet article présente PARseL, une architecture visant à construire une racine de confiance (Root-of-Trust) et un mécanisme d'attestation à distance vérifié sur le micronoyau seL4 pour des appareils de milieu de gamme équipés d'une MMU. L'approche isole les composants dépendants de l'utilisateur de la base de confiance (TCB), permettant d'obtenir des garanties formelles de sécurité telles que la sûreté mémoire, la correction fonctionnelle et l'indépendance vis-à-vis des secrets.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "PARseL: Towards a Verified Root-of-Trust over seL4",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:partialnumbertheoretictransformmaskinginpostquantumcryptographypqchardwareasecuritymarginanalysis": {
     "doi": "",
     "publication_date": "2026-04-04",
@@ -11063,6 +11103,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:softflowautomatedhwswconfidentialityverificationforembeddedprocessors": {
+    "doi": "",
+    "publication_date": "2023-08-04",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2308.02694v1",
+    "summary": "SoftFlow est un outil d'automatisation de conception électronique (EDA) qui permet de vérifier la confidentialité matériel-logiciel pour les processeurs embarqués. Il détermine si un logiciel exploite des chemins de fuite existants dans le matériel, permettant ainsi de conserver ou de corriger ces chemins selon l'impact sur les performances. Sa faisabilité est démontrée en identifiant des vulnérabilités dans des programmes OpenSSL sur une architecture RISC-V.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "SoftFlow: Automated HW-SW Confidentiality Verification for Embedded Processors",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:sokacloudyviewontrustrelationshipsofcvmshowconfidentialvirtualmachinesarefallingshortinpubliccloud": {
     "doi": "",
     "publication_date": "2025-03-11",
@@ -11448,6 +11508,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "title:unlockinghardwaresecurityassurancethepotentialofllms": {
+    "doi": "",
+    "publication_date": "2023-08-21",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2308.11042v1",
+    "summary": "Cet article étudie le potentiel des grands modèles de langage (LLM) pour l'assurance de la sécurité matérielle. Les auteurs proposent le premier générateur automatique de propriétés de sécurité basé sur le traitement automatique du langage naturel (NLP), appelé NSPG, et introduisent HS-BERT, un modèle de langue spécifique à la sécurité matérielle entraîné sur la documentation de divers SoC (dont RISC-V et OpenTitan). L'approche extrait des propriétés de sécurité à partir de la documentation matérielle pour faciliter la validation et identifier des bugs.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Unlocking Hardware Security Assurance: The Potential of LLMs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:verifiableflverifiableclaimsforfederatedlearningusingexclaves": {
     "doi": "",

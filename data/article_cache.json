@@ -3912,6 +3912,14 @@
       "title": "Rapid, high-throughput isolation of tumor specific small extracellular vesicles using radial flow microfluidic chip with IEDDA chemistry (ExoOnco ChipEpCAM−TCO)",
       "updated_at": "2026-11-04T16:50:37.702112+00:00"
     },
+    "doi:10.1016/j.brachy.2023.05.003": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Feasibility of internal-source tracking with C-arm CT/SPECT imaging with limited-angle projection data for online in vivo dose verification in brachytherapy: A Monte Carlo simulation study",
+      "updated_at": "2026-11-13T02:37:55.820634+00:00"
+    },
     "doi:10.1016/j.bspc.2023.105554": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -6511,6 +6519,14 @@
       "status": "rejected",
       "title": "Cost-effective fixed-point hardware support for RISC-V embedded systems",
       "updated_at": "2026-11-09T08:14:02.809721+00:00"
+    },
+    "doi:10.1016/j.sysarc.2023.102928": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Compositional verification of embedded real-time systems",
+      "updated_at": "2026-11-13T02:38:11.099930+00:00"
     },
     "doi:10.1016/j.sysarc.2023.102997": {
       "category": "secondaire",
@@ -9816,6 +9832,14 @@
       "title": "Joint Design of Low Sidelobe Radar Waveform and Filter with Hardware Platform Verification",
       "updated_at": "2026-11-04T15:51:48.176275+00:00"
     },
+    "doi:10.1109/arith58626.2023.00032": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Vectorized Nonlinear Functions with the RISC-V Vector Extension",
+      "updated_at": "2026-11-13T02:36:55.603241+00:00"
+    },
     "doi:10.1109/arith61463.2024.00019": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -11912,6 +11936,22 @@
       "title": "Sargantana: A 1 GHz+ In-Order RISC-V Processor with SIMD Vector Extensions in 22nm FD-SOI",
       "updated_at": "2026-11-08T14:13:23.836255+00:00"
     },
+    "doi:10.1109/dsd60849.2023.00050": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "VITAMIN-V: Virtual Environment and Tool-Boxing for Trustworthy Development of RISC-V Based Cloud Services",
+      "updated_at": "2026-11-13T02:36:44.617854+00:00"
+    },
+    "doi:10.1109/dsd60849.2023.00066": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Reducing Load-Use Dependency-Induced Performance Penalty in the Open-Source RISC-V CVA6 CPU",
+      "updated_at": "2026-11-13T02:36:55.530661+00:00"
+    },
     "doi:10.1109/dsd60849.2023.00083": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -11919,6 +11959,22 @@
       "status": "rejected",
       "title": "Mitigating Masking in Automotive Communication Systems: Modeling and Hardware Generation",
       "updated_at": "2026-11-12T23:36:57.901896+00:00"
+    },
+    "doi:10.1109/dsd60849.2023.00094": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A RISC-V based platform supporting mixed timing-critical and high performance workloads",
+      "updated_at": "2026-11-13T02:36:55.555247+00:00"
+    },
+    "doi:10.1109/dsd60849.2023.00099": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Efficient ML-Based Performance Estimation Approach Across Different Microarchitectures for RISC-V Processors",
+      "updated_at": "2026-11-13T02:36:55.579255+00:00"
     },
     "doi:10.1109/dsd64264.2024.00015": {
       "category": "hors_sujet",
@@ -19504,6 +19560,22 @@
       "title": "Toward an Optimal Countermeasure for Cache Side-Channel Attacks",
       "updated_at": "2026-11-12T23:37:47.945570+00:00"
     },
+    "doi:10.1109/les.2022.3218289": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Accelerating the Verification of Forward Error Correction Decoders by PCIe FPGA Cards",
+      "updated_at": "2026-11-13T02:37:02.331923+00:00"
+    },
+    "doi:10.1109/les.2022.3221810": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "An XSLT-Based Proposal to Ease Embedded Critical Systems Tools Implementation, Verification, Validation, Testing, and Certification Efforts",
+      "updated_at": "2026-11-13T02:37:02.355800+00:00"
+    },
     "doi:10.1109/les.2023.3239754": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -22511,6 +22583,22 @@
       "status": "rejected",
       "title": "Poster: RTOS Security Risks in Telecommunications Hardware",
       "updated_at": "2026-11-05T23:36:38.370161+00:00"
+    },
+    "doi:10.1109/synasc61333.2023.00041": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "LLVM RISC-V Target Backend Instruction for Reshape Operator",
+      "updated_at": "2026-11-13T02:36:55.626836+00:00"
+    },
+    "doi:10.1109/synasc61333.2023.00042": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Maxpool operator for RISC-V processor",
+      "updated_at": "2026-11-13T02:36:55.650523+00:00"
     },
     "doi:10.1109/synchroinfo65403.2025.11079320": {
       "category": "hors_sujet",
@@ -28392,6 +28480,14 @@
       "title": "Quarantine: Mitigating Transient Execution Attacks with Physical Domain Isolation",
       "updated_at": "2026-11-06T05:13:36.365667+00:00"
     },
+    "doi:10.1145/3609021.3609299": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Enabling eBPF on Embedded Systems Through Decoupled Verification",
+      "updated_at": "2026-11-13T02:38:52.236321+00:00"
+    },
     "doi:10.1145/3609026.3609731": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -28423,6 +28519,14 @@
       "status": "rejected",
       "title": "A Compact TRNG Design for FPGA Based on the Metastability of RO-driven Shift Registers",
       "updated_at": "2026-11-06T17:14:07.821704+00:00"
+    },
+    "doi:10.1145/3610579.3611085": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Formal Verification of Security Properties on RISC-V Processors",
+      "updated_at": "2026-11-13T02:36:32.180362+00:00"
     },
     "doi:10.1145/3611670": {
       "category": "secondaire",
@@ -28663,6 +28767,14 @@
       "status": "rejected",
       "title": "SerIOS: Enhancing Hardware Security in Integrated Optoelectronic Systems",
       "updated_at": "2026-11-12T23:36:57.962787+00:00"
+    },
+    "doi:10.1145/3625223.3649280": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "HDLGen-ChatGPT Case Study: RISC-V Processor VHDL and Verilog Model - Testbench and EDA Project Generation",
+      "updated_at": "2026-11-13T02:36:55.699366+00:00"
     },
     "doi:10.1145/3625275.3625402": {
       "category": "coeur",
@@ -29071,6 +29183,14 @@
       "status": "rejected",
       "title": "VRV: A Versatile RISC-V Simulator for Education",
       "updated_at": "2026-11-07T06:37:16.925497+00:00"
+    },
+    "doi:10.1145/3641584.3641670": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Design and Memory Access Optimization of Graph processing Processor design Based on RISC-V",
+      "updated_at": "2026-11-13T02:36:55.675829+00:00"
     },
     "doi:10.1145/3642921.3642926": {
       "category": "secondaire",
@@ -40784,6 +40904,14 @@
       "title": "Hardware Implementation of Hough Transform for the Application in Lane Detection in Smart Vehicles",
       "updated_at": "2026-11-08T11:37:41.504806+00:00"
     },
+    "doi:10.37934/sej.2.1.17b": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Register Transfer Level Design of 32-Bit RISC-V Out-of-Order Processor",
+      "updated_at": "2026-11-13T02:36:55.723072+00:00"
+    },
     "doi:10.37943/zhxt2203": {
       "category": "secondaire",
       "decision": "examiner",
@@ -46560,6 +46688,14 @@
       "title": "Machine Learning Attack Resilient MoS2 Fe-FET True Random Number Generator for Hardware Security in IoT: 0.7 pJ/bit Writing Energy, Self-Correction Function, and 1250 bit/s Seed Throughput",
       "updated_at": "2026-11-08T08:14:17.595861+00:00"
     },
+    "doi:10.7567/ssdm.2023.k-2-01": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A 0.11pJ/bit Read Energy Embedded NanoBridge NVM and its Integration in a 28nm 32-bit RISC-V MCU",
+      "updated_at": "2026-11-13T02:36:32.204315+00:00"
+    },
     "doi:10.7567/ssdm.2024.ps-07-06": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -46719,6 +46855,14 @@
       "status": "imported",
       "title": "Activation Functions Considered Harmful: Recovering Neural Network Weights through Controlled Channels",
       "updated_at": "2026-11-06T18:38:15.022623+00:00"
+    },
+    "title:activelearningforfastandslowmodelingattacksonarbiterpufs": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Active learning for fast and slow modeling attacks on Arbiter PUFs",
+      "updated_at": "2026-11-13T02:39:14.984220+00:00"
     },
     "title:acurastdecentralizedserverlesscloud": {
       "category": "secondaire",
@@ -47752,6 +47896,14 @@
       "title": "CrudiTEE: A Stick-and-Carrot Approach to Building Trustworthy Cryptocurrency Wallets with TEEs",
       "updated_at": "2026-11-09T06:38:09.698602+00:00"
     },
+    "title:cryptobapabinaryanalysisplatformforcryptographicprotocols": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "CryptoBap: A Binary Analysis Platform for Cryptographic Protocols",
+      "updated_at": "2026-11-13T02:39:59.665162+00:00"
+    },
     "title:cryptographicallyassuredinformationflowassuredremoteexecution": {
       "category": "coeur",
       "decision": "conserver",
@@ -48592,6 +48744,14 @@
       "title": "Fuzzilicon: A Post-Silicon Microcode-Guided x86 CPU Fuzzer",
       "updated_at": "2026-11-03T20:09:18.389011+00:00"
     },
+    "title:gametheoreticmodellingofaransomandextortionattackonethereumvalidators": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Game Theoretic Modelling of a Ransom and Extortion Attack on Ethereum Validators",
+      "updated_at": "2026-11-13T02:39:23.488823+00:00"
+    },
     "title:gapsesversatilesmartglassesforcomfortableandfullydryacquisitionandparallelultralowpowerprocessingofeegandeog": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -49015,6 +49175,14 @@
       "status": "rejected",
       "title": "Integrated Photonic AI Accelerators under Hardware Security Attacks: Impacts and Countermeasures",
       "updated_at": "2026-11-12T20:37:26.303880+00:00"
+    },
+    "title:integratinghomomorphicencryptionandtrustedexecutiontechnologyforautonomousandconfidentialmodelrefiningincloud": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Integrating Homomorphic Encryption and Trusted Execution Technology for Autonomous and Confidential Model Refining in Cloud",
+      "updated_at": "2026-11-13T02:40:07.159554+00:00"
     },
     "title:integratingopentitanasasecuritycontrollerforcryptographictasksinriscvsocs": {
       "category": "coeur",
@@ -49815,6 +49983,14 @@
       "status": "rejected",
       "title": "PAPAYA Federated Analytics Stack: Engineering Privacy, Scalability and Practicality",
       "updated_at": "2026-11-07T15:37:44.911099+00:00"
+    },
+    "title:parseltowardsaverifiedrootoftrustoversel4": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 82,
+      "status": "imported",
+      "title": "PARseL: Towards a Verified Root-of-Trust over seL4",
+      "updated_at": "2026-11-13T02:39:35.421875+00:00"
     },
     "title:parteetorasystemforpartialdeploymentsofteeswithintor": {
       "category": "hors_sujet",
@@ -50952,6 +51128,14 @@
       "title": "SNPeek: Side-Channel Analysis for Privacy Applications on Confidential VMs",
       "updated_at": "2026-11-05T05:55:38.240308+00:00"
     },
+    "title:softflowautomatedhwswconfidentialityverificationforembeddedprocessors": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "SoftFlow: Automated HW-SW Confidentiality Verification for Embedded Processors",
+      "updated_at": "2026-11-13T02:39:59.641689+00:00"
+    },
     "title:softwarerootoftrustforagnssreceiver": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -51856,6 +52040,14 @@
       "title": "Uncertainty-Aware Hardware Trojan Detection Using Multimodal Deep Learning",
       "updated_at": "2026-11-11T03:41:48.514103+00:00"
     },
+    "title:unlockinghardwaresecurityassurancethepotentialofllms": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Unlocking Hardware Security Assurance: The Potential of LLMs",
+      "updated_at": "2026-11-13T02:39:14.959389+00:00"
+    },
     "title:unlockingthepowerofenvironmentassumptionsforunitproofs": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -51871,6 +52063,14 @@
       "status": "rejected",
       "title": "Urban Enclaves: New Forms of Precarity for Exiled Workers in Bangkok",
       "updated_at": "2026-11-09T23:14:13.732349+00:00"
+    },
+    "title:usabilityassessmentoftheonlykeyhardwaretwofactorauthenticationkeyamonglowvisionorblindusers": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Usability Assessment of the OnlyKey Hardware Two-Factor Authentication Key Among Low Vision or Blind Users",
+      "updated_at": "2026-11-13T02:39:02.942374+00:00"
     },
     "title:usingaperformancemodeltoimplementasuperscalarcva6": {
       "category": "secondaire",
