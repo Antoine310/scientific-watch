@@ -3816,6 +3816,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3373376.3378526": {
+    "doi": "https://doi.org/10.1145/3373376.3378526",
+    "publication_date": "2020-03-09",
+    "publication_type": "conference",
+    "publication_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3373376.3378526",
+    "summary": "Cet article explore l'utilisation des prédicateurs de branchement pour concevoir des chevaux de Troie à exécution transitoire (transient trojans). Les auteurs démontrent que les protections matérielles et logicielles actuelles, y compris les correctifs de microcode, laissent des vulnérabilités exploitables. Ils présentent une analyse détaillée de la surface d'attaque, réalisent de la rétro-ingénierie sur des prédicateurs de branchement de processeurs x86_64 récents, et mettent au point trois types de chevaux de Troie capables de contourner les analyses statiques et dynamiques tout en extrayant des données sensibles.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Exploring Branch Predictors for Constructing Transient Execution Trojans",
+    "venue_landmark": "ASPLOS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3385412.3385970": {
     "doi": "https://doi.org/10.1145/3385412.3385970",
     "publication_date": "2020-06-06",
@@ -6158,6 +6175,23 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "\"Microarchitectural Attack Detection Dataset (Spectre-v1, Spectre-v2, and Benign Workloads)\""
+  },
+  "doi:10.23919/date48585.2020.9116252": {
+    "doi": "https://doi.org/10.23919/date48585.2020.9116252",
+    "publication_date": "2020-03-01",
+    "publication_type": "conference",
+    "publication_venue": "Design, Automation, and Test in Europe",
+    "score": 85,
+    "source": "https://doi.org/10.23919/date48585.2020.9116252",
+    "summary": "Cet article présente la première solution de démarrage sécurisé (secure boot) post-quantique implémentée entièrement en matériel. Elle utilise le schéma de signature basé sur le hachage XMSS (eXtended Merkle Signature Scheme) et a été intégrée dans une plateforme SoC sécurisée à base de cœurs RISC-V, puis évaluée sur FPGA.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Post-Quantum Secure Boot",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.23919/date51398.2021.9474013": {
     "doi": "https://doi.org/10.23919/date51398.2021.9474013",
