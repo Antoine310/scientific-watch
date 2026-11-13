@@ -1138,6 +1138,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/eurospw59978.2023.00038": {
+    "doi": "https://doi.org/10.1109/eurospw59978.2023.00038",
+    "publication_date": "2023-07-01",
+    "publication_date_note": "Date source Crossref : 2023-07 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2023-07",
+    "publication_type": "conference",
+    "publication_venue": "2023 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)",
+    "score": 82,
+    "source": "https://doi.org/10.1109/eurospw59978.2023.00038",
+    "summary": "Cet article présente une approche pour contrer les attaques par canal temporel sur les microcontrôleurs à faible capacité de calcul. Les auteurs proposent d'augmenter le jeu d'instructions (ISA) RISC-V avec des primitives de sécurité garantissant un comportement temporel constant pour les opérations ALU et les accès mémoire, avec un faible surcoût.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Work in Progress: Thwarting Timing Attacks in Microcontrollers using Fine-grained Hardware Protections",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/eurospw67616.2025.00055": {
     "publication_date": "2025-06-30",
     "publication_type": "conference",
@@ -3225,6 +3245,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "LayerTEE: Decoupled Memory Protection for Scalable Multilayer Communication on RISC-V",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/tcc.2023.3243891": {
+    "doi": "https://doi.org/10.1109/tcc.2023.3243891",
+    "publication_date": "2023-07-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-07-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Cloud Computing",
+    "score": 75,
+    "source": "https://doi.org/10.1109/tcc.2023.3243891",
+    "summary": "Cet article présente SvTPM, un module de plateforme virtuelle de confiance (vTPM) basé sur les enclaves Intel SGX pour le cloud computing. Il vise à offrir une protection complète du cycle de vie des vTPM sans dépendre d'un TPM physique, tout en surmontant les défis de sécurité et de performance.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "SvTPM: SGX-Based Virtual Trusted Platform Modules for Cloud Computing",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
