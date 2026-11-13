@@ -10,5 +10,19 @@
     "score": 65,
     "source": "https://www.shinan.info/wp-content/uploads/2026/10/micro2026-dan.pdf",
     "title": "GhostAccess: Attacking the GPU on the Multi-tenant Cloud via CPU LLC under Unified Memory"
+  },
+  "title:reconfiguringsystemlevelprotectionthroughboundeddelegationinriscvmcus": {
+    "group": "primary",
+    "score": 92,
+    "source": "https://arxiv.org/pdf/2611.12622",
+    "summary": "Cet article étudie la protection au niveau système dans les microcontrôleurs RISC-V, où les politiques de sécurité doivent évoluer dynamiquement à l'exécution. Les auteurs introduisent la notion d'autorité de configuration bornée et un modèle fondé sur la propriété pour encadrer la délégation et la modification des règles de protection sans impacter le chemin de données des accès. Une implémentation sur SoC CVA6 et FPGA démontre une faible surcharge matérielle sans perte de performance, ainsi qu'une réduction significative de la latence lors des mises à jour OTA.",
+    "title": "Reconfiguring System-Level Protection Through Bounded Delegation in RISC-V MCUs"
+  },
+  "title:robustscalablewebsitefingerprintingviaminimaldramtraffic": {
+    "group": "primary",
+    "score": 75,
+    "source": "https://arxiv.org/pdf/2611.09422",
+    "summary": "Cet article présente une attaque par empreinte de site web (website fingerprinting) co-localisée et scalable, baptisée memory-chasing. Elle exploite les interférences du trafic DRAM via des parcours de type pointer-chasing avec un minimum d'interférences. Évaluée sur les 50 meilleurs sites web, l'approche atteint une précision de 96 % sur un système à 24 cœurs et démontre sa robustesse face à divers environnements et contre-mesures.",
+    "title": "Robust & Scalable Website Fingerprinting via Minimal DRAM Traffic"
   }
 }
