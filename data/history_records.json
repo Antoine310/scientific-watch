@@ -3163,6 +3163,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/tc.2022.3212636": {
+    "doi": "https://doi.org/10.1109/tc.2022.3212636",
+    "publication_date": "2023-05-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-05-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computers",
+    "score": 96,
+    "source": "https://doi.org/10.1109/tc.2022.3212636",
+    "summary": "Cet article propose une approche de prévention systématique des canaux cachés temporels sur cœur en introduisant une instruction de barrière temporelle (« fence.t ») dans le jeu d'instructions RISC-V. Cette instruction efface l'état microarchitectural vulnérable et garantit une latence de changement de contexte indépendante de l'historique. Les auteurs évaluent trois implémentations sur le micro-noyau seL4 et le cœur RISC-V CVA6, démontrant une faible surcharge de performance (moins de 1 %) et un coût matériel négligeable.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Systematic Prevention of On-Core Timing Channels by Full Temporal Partitioning",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tc.2023.3278536": {
     "doi": "https://doi.org/10.1109/tc.2023.3278536",
     "publication_date": "2025-03-01",
