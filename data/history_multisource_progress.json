@@ -1,8 +1,8 @@
 {
   "accepted": 322,
   "completed": false,
-  "cursor": "MTcyNTI4Njg4ODAwMCwxMC4xODAzNCUyRmFiY2phci52MTJpMS43NjE=",
-  "evaluated": 5913,
+  "cursor": "*",
+  "evaluated": 5918,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -464,133 +464,16 @@
     "monthly/2023-03/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2023-03/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2023-03/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2023-03/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2023-03/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2023-03/query-18 : résultat tronqué au plafond 12 pages",
+    "monthly/2023-03/query-19 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2023-03",
   "needs_publish": false,
-  "offset": 280,
-  "pages_done": 6692,
-  "pages_in_query": 7,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Felix Staudigl"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Thorben Fetz"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Rebecca Pelke"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Dominik Sisejkovic"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jan Moritz Joseph"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Leticia Bolzani Pöhls"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Rainer Leupers"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/lats58125.2023.10154482",
-        "id": "https://doi.org/10.1109/lats58125.2023.10154482",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/lats58125.2023.10154482"
-        },
-        "publication_date": "2023-03-21",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2023-03-21",
-        "publication_type": "conference",
-        "publication_venue": "2023 IEEE 24th Latin American Test Symposium (LATS)",
-        "title": "Invited Paper: A Holistic Fault Injection Platform for Neuromorphic Hardware",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "V Swetha"
-            }
-          },
-          {
-            "author": {
-              "display_name": "G Evangeline Divya Sagayee"
-            }
-          },
-          {
-            "author": {
-              "display_name": "J S Brintha"
-            }
-          },
-          {
-            "author": {
-              "display_name": "K Karthika"
-            }
-          },
-          {
-            "author": {
-              "display_name": "S P Joy Vasantha Rani"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/icbsii58188.2023.10181061",
-        "id": "https://doi.org/10.1109/icbsii58188.2023.10181061",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/icbsii58188.2023.10181061"
-        },
-        "publication_date": "2023-03-16",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2023-03-16",
-        "publication_type": "conference",
-        "publication_venue": "2023 International Conference on Bio Signals, Images, and Instrumentation (ICBSII)",
-        "title": "Design of DCT Hardware Accelerator using FPGA for Medical Image Authentication",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    }
-  ],
+  "offset": 0,
+  "pages_done": 6717,
+  "pages_in_query": 0,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2994,9 +2877,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 2424,
-  "query_index": 17,
+  "prefilter_review_overflow": 2428,
+  "query_index": 20,
   "secondary": 330,
-  "skipped": 6160,
+  "skipped": 6172,
   "version": 1
 }
