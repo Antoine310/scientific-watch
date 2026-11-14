@@ -4790,6 +4790,27 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3579988.3585052": {
+    "doi": "https://doi.org/10.1145/3579988.3585052",
+    "publication_date": "2023-04-24",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-04-24",
+    "publication_type": "conference",
+    "publication_venue": "CODASPY '23: Thirteenth ACM Conference on Data and Application Security and Privacy",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3579988.3585052",
+    "summary": "Cet article présente un système de détection en temps réel des attaques par canal auxiliaire sur le cache dans les environnements cloud, utilisant des compteurs de performance matériels (HPC) et une combinaison de réseaux de neurones entraînés sur des séries temporelles longues pour identifier les anomalies. L'étude se concentre principalement sur la sélection des HPC les plus adaptés à cette tâche.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels",
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Selection of Best Fit Hardware Performance Counters to Detect Cache Side-Channel Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3579988.3585056": {
     "doi": "https://doi.org/10.1145/3579988.3585056",
     "publication_date": "2023-04-13",
@@ -7196,6 +7217,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.3390/electronics12081799": {
+    "doi": "https://doi.org/10.3390/electronics12081799",
+    "publication_date": "2023-04-11",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-04-11",
+    "publication_type": "revue",
+    "publication_venue": "Electronics",
+    "score": 90,
+    "source": "https://doi.org/10.3390/electronics12081799",
+    "summary": "Cette étude propose une méthode de protection combinant le chiffrement d'adresses et une extension de bruit temporel pour sécuriser les caches contre les attaques par canal auxiliaire basées sur les conflits. En générant aléatoirement des défauts de cache (cache misses) pour empêcher la réduction de l'ensemble d'éviction (eviction set), la solution réduit l'information temporelle précise des accès mémoire tout en limitant la surcharge de performance à 2,9 % sur SPEC CPU 2017.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Applying Address Encryption and Timing Noise to Enhance the Security of Caches",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.3390/electronics13132508": {
     "doi": "https://doi.org/10.3390/electronics13132508",

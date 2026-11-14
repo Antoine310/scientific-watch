@@ -1,8 +1,8 @@
 {
-  "accepted": 315,
+  "accepted": 317,
   "completed": false,
-  "cursor": "MTY4MDY3OTQwMzAwMCwxMC4xMDAyJTJGOTc4MTExOTg5MjMzNS5jaDEx",
-  "evaluated": 5798,
+  "cursor": "MTcwNjkxMzg3NzAwMCwxMC4yMTcyJTJGMTk3MTk3Mw==",
+  "evaluated": 5823,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -452,14 +452,302 @@
     "monthly/2023-05/query-22 : résultat tronqué au plafond 12 pages",
     "monthly/2023-05/query-24 : résultat tronqué au plafond 12 pages",
     "monthly/2023-04/query-13 : résultat tronqué au plafond 12 pages",
-    "monthly/2023-04/query-14 : résultat tronqué au plafond 12 pages"
+    "monthly/2023-04/query-14 : résultat tronqué au plafond 12 pages",
+    "monthly/2023-04/query-15 : résultat tronqué au plafond 12 pages",
+    "monthly/2023-04/query-16 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2023-04",
   "needs_publish": false,
-  "offset": 320,
-  "pages_done": 6520,
-  "pages_in_query": 8,
-  "pending": [],
+  "offset": 280,
+  "pages_done": 6543,
+  "pages_in_query": 7,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Sohrab Aftabjahani"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mark Tehranipoor"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Farimah Farahmandi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Bulbul Ahmed"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ryan Kastner"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Francesco Restuccia"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Andres Meza"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Kaki Ryan"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Nicole Fern"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jasper van Woudenberg"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Rajesh Velegalati"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Cees-Bart Breunesse"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Cynthia Sturton"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Calvin Deutschbein"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/vts56346.2023.10140100",
+        "id": "https://doi.org/10.1109/vts56346.2023.10140100",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/vts56346.2023.10140100"
+        },
+        "publication_date": "2023-04-24",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2023-04-24",
+        "publication_type": "conference",
+        "publication_venue": "2023 IEEE 41st VLSI Test Symposium (VTS)",
+        "title": "Special Session: CAD for Hardware Security - Promising Directions for Automation of Security Assurance",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "S. Anantha Babu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ajay Kumar Upadhyay"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/icdcece57866.2023.10151368",
+        "id": "https://doi.org/10.1109/icdcece57866.2023.10151368",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/icdcece57866.2023.10151368"
+        },
+        "publication_date": "2023-04-29",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2023-04-29",
+        "publication_type": "conference",
+        "publication_venue": "2023 International Conference on Distributed Computing and Electrical Circuits and Electronics (ICDCECE)",
+        "title": "Two Factor Authentication using Hardware and Biometrics Factors for IoT Devices and Users",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Maziar Amiraski"
+            }
+          },
+          {
+            "author": {
+              "display_name": "David Werner"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Alexander Hankin"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Julien Sebot"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Kaushik Vaidyanathan"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mark Hempstead"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/ispass57527.2023.00036",
+        "id": "https://doi.org/10.1109/ispass57527.2023.00036",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/ispass57527.2023.00036"
+        },
+        "publication_date": "2023-04-01",
+        "publication_date_note": "Date source Crossref : 2023-04 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2023-04",
+        "publication_type": "conference",
+        "publication_venue": "2023 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)",
+        "title": "Boreas: A Cost-Effective Mitigation Method for Advanced Hotspots using Machine Learning and Hardware Telemetry",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "S.V. Koryakin"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.36979/1694-500x-2023-23-4-59-66",
+        "id": "https://doi.org/10.36979/1694-500x-2023-23-4-59-66",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.36979/1694-500x-2023-23-4-59-66"
+        },
+        "publication_date": "2023-04-01",
+        "publication_date_note": "Date source Crossref : 2023-04 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2023-04",
+        "publication_type": "revue",
+        "publication_venue": "Vestnik of the Kyrgyz-Russian Slavic University",
+        "title": "METHODS FOR FORMALIZING SOLUTIONS TO ACTUAL PROBLEMS OF HARDWARE AND SOFTWARE INFORMATION SECURITY IN AUTOMATED SYSTEMS",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Sajay Krishnan Paruthiyil"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ali Bidram"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Miguel Jimenez Aparicio"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Javier Hernandez-Alvidrez"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Matthew J. Reno"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/kpec58008.2023.10215446",
+        "id": "https://doi.org/10.1109/kpec58008.2023.10215446",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/kpec58008.2023.10215446"
+        },
+        "publication_date": "2023-04-27",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2023-04-27",
+        "publication_type": "conference",
+        "publication_venue": "2023 IEEE Kansas Power and Energy Conference (KPEC)",
+        "title": "Hardware Implementation of a Traveling Wave Protection Device for DC Microgrids",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2863,9 +3151,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 2327,
-  "query_index": 15,
-  "secondary": 322,
-  "skipped": 6030,
+  "prefilter_review_overflow": 2349,
+  "query_index": 17,
+  "secondary": 324,
+  "skipped": 6050,
   "version": 1
 }
