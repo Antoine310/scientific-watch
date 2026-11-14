@@ -3488,6 +3488,14 @@
       "title": "Design and Analysis of Reconfigurable Cryptographic Primitives: TRNG and PUF",
       "updated_at": "2026-11-10T02:13:33.922931+00:00"
     },
+    "doi:10.1007/s41635-022-00130-y": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "FPGA Design Deobfuscation by Iterative LUT Modification at Bitstream Level",
+      "updated_at": "2026-11-14T22:37:32.712532+00:00"
+    },
     "doi:10.1007/s41635-023-00133-3": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -7072,6 +7080,14 @@
       "title": "A Haskell-embedded DSL for secure information-flow",
       "updated_at": "2026-11-03T18:29:17.630120+00:00"
     },
+    "doi:10.1016/j.scitotenv.2022.159718": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Elucidation of microbial interactions, dynamics, and keystone microbes in high pressure anaerobic digestion",
+      "updated_at": "2026-11-14T22:37:07.686078+00:00"
+    },
     "doi:10.1016/j.scitotenv.2023.165239": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -8071,6 +8087,14 @@
       "status": "rejected",
       "title": "Self-clocking fast and variation tolerant true random number generator based on a stochastic mott memristor",
       "updated_at": "2026-11-10T23:17:42.459116+00:00"
+    },
+    "doi:10.1038/s41467-023-36508-x": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Spectral sensitivity near exceptional points as a resource for hardware encryption",
+      "updated_at": "2026-11-14T22:37:43.229183+00:00"
     },
     "doi:10.1038/s41467-023-37097-5": {
       "category": "hors_sujet",
@@ -13552,6 +13576,14 @@
       "title": "Hardware-in-the-Loop Testing of the Impact of Grid-Following Inverters Control and Momentary Cessation on System Protection",
       "updated_at": "2026-11-08T12:37:08.948405+00:00"
     },
+    "doi:10.1109/ecce57851.2023.10101599": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "PUF-based Hardware Trojan: Design and Novel Attack on Encryption Circuit",
+      "updated_at": "2026-11-14T22:37:53.769328+00:00"
+    },
     "doi:10.1109/ecce58356.2025.11260120": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -15984,6 +16016,14 @@
       "title": "Investigative Analysis of Three RISC-V Microarchitectures in the Context of Computer Architecture Research",
       "updated_at": "2026-11-08T00:36:59.428909+00:00"
     },
+    "doi:10.1109/iccmc56507.2023.10084185": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Obfuscation Technique to Protect the Hardware IP Piracy",
+      "updated_at": "2026-11-14T22:37:53.715256+00:00"
+    },
     "doi:10.1109/iccmc69250.2026.11624696": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -16712,6 +16752,30 @@
       "title": "True Random Number Generator Based on Multi-State Silicon Nitride Memristor Entropy Sources Combination",
       "updated_at": "2026-11-11T17:13:38.356179+00:00"
     },
+    "doi:10.1109/iceic57457.2023.10049857": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Hardware-Software Co-Design of AES-CCM for Bluetooth LE Security",
+      "updated_at": "2026-11-14T22:37:43.256015+00:00"
+    },
+    "doi:10.1109/iceic57457.2023.10049871": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 50,
+      "status": "rejected",
+      "title": "Hardware-Based Isolation Technique to Guarantee Availability of Security Controls in a Gateway for Industrial Networks",
+      "updated_at": "2026-11-14T22:37:43.288187+00:00"
+    },
+    "doi:10.1109/iceic57457.2023.10049940": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Verilator-based Fast Verification Methodology for BLE MAC Hardware",
+      "updated_at": "2026-11-14T22:37:53.659820+00:00"
+    },
     "doi:10.1109/iceic61013.2024.10457251": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -17295,6 +17359,14 @@
       "status": "rejected",
       "title": "Towards adaptive RISC-V based systems for non-terrestrial sub-THz communication",
       "updated_at": "2026-11-07T06:37:48.182532+00:00"
+    },
+    "doi:10.1109/icnc57223.2023.10074126": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "TPMWallet: Towards Blockchain Hardware Wallet using Trusted Platform Module in IoT",
+      "updated_at": "2026-11-14T22:37:53.687910+00:00"
     },
     "doi:10.1109/icnisc57059.2022.00016": {
       "category": "coeur",
@@ -21384,6 +21456,22 @@
       "title": "Toward Hardware Security Benchmarking of LLMs",
       "updated_at": "2026-11-09T18:41:18.497882+00:00"
     },
+    "doi:10.1109/lascas56464.2023.10108235": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Quantitative Information Flow for Hardware: Advancing the Attack Landscape",
+      "updated_at": "2026-11-14T22:37:53.795542+00:00"
+    },
+    "doi:10.1109/lascas56464.2023.10108340": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Security Implications of Decoupling Capacitors on Leakage Reduction in Hardware Masking",
+      "updated_at": "2026-11-14T22:37:53.821021+00:00"
+    },
     "doi:10.1109/lascas60203.2024.10506132": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -23743,6 +23831,14 @@
       "status": "rejected",
       "title": "A Tunable GHz-Range Memristive Chaotic Oscillator for Hardware Security Primitive",
       "updated_at": "2026-11-04T15:52:18.585290+00:00"
+    },
+    "doi:10.1109/piecon56912.2023.10085792": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Smart Grid Security by Embedding Cryptography Hardware Chip",
+      "updated_at": "2026-11-14T22:37:53.742324+00:00"
     },
     "doi:10.1109/pimrc59610.2024.10817222": {
       "category": "hors_sujet",
@@ -28200,6 +28296,14 @@
       "title": "Hardware Verification of a Micro-Scale Receiver for Synthetic DNA Molecular Communications",
       "updated_at": "2026-11-12T20:44:46.719505+00:00"
     },
+    "doi:10.1109/tmc.2021.3086143": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "Ambassy: A Runtime Framework to Delegate Trusted Applications in an ARM/FPGA Hybrid System",
+      "updated_at": "2026-11-14T22:36:45.915055+00:00"
+    },
     "doi:10.1109/tmc.2023.3284216": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -31327,6 +31431,14 @@
       "status": "imported",
       "title": "Short Paper: Static and Microarchitectural ML-Based Approaches For Detecting Spectre Vulnerabilities and Attacks",
       "updated_at": "2026-11-08T05:13:42.574311+00:00"
+    },
+    "doi:10.1145/3569577": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "SoK: Deep Learning-based Physical Side-channel Analysis",
+      "updated_at": "2026-11-14T22:38:50.300595+00:00"
     },
     "doi:10.1145/3569955": {
       "category": "hors_sujet",
@@ -37072,6 +37184,14 @@
       "title": "Hardware-Based Security Protection Technology Based on PPC460",
       "updated_at": "2026-11-03T19:07:51.433546+00:00"
     },
+    "doi:10.12688/openreseurope.15448.1": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Integrated secure distance bounding and hardware-based security: A case study for the insurance claim verification of farmers during COVID-19",
+      "updated_at": "2026-11-14T22:37:43.201623+00:00"
+    },
     "doi:10.12694/scpe.v25i5.3164": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -39200,6 +39320,14 @@
       "title": "\"Microarchitectural Attack Detection Dataset (Spectre-v1, Spectre-v2, and Benign Workloads)\"",
       "updated_at": "2026-11-02T08:14:43.776875+00:00"
     },
+    "doi:10.21275/sr23207225851": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Comparison of Conventional Single Phase 21-Level Cascaded H-Bridge MLI and Single Phase 21-Level MLI with Reduced Switches and Sources and Verifying the Topology with Hardware of 7-Level MLI",
+      "updated_at": "2026-11-14T22:38:36.576158+00:00"
+    },
     "doi:10.21275/sr24601021648": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -41232,6 +41360,14 @@
       "title": "Multidimensional physical unclonable function encryption architecture based on microtexture in polycrystalline diamond",
       "updated_at": "2026-11-02T19:16:55.148167+00:00"
     },
+    "doi:10.26599/tst.2021.9010088": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "ETS-TEE: An Energy-Efficient Task Scheduling Strategy in a Mobile Trusted Computing Environment",
+      "updated_at": "2026-11-14T22:36:57.775763+00:00"
+    },
     "doi:10.26599/tst.2021.9010094": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -42296,6 +42432,14 @@
       "title": "Nanovised Control Flow Attestation",
       "updated_at": "2026-11-09T05:14:07.048674+00:00"
     },
+    "doi:10.3390/app13042349": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Combining SABSA and Vis4Sec to the Process Framework IdMSecMan to Continuously Improve Identity Management Security in Heterogeneous ICT Infrastructures",
+      "updated_at": "2026-11-14T22:36:35.884634+00:00"
+    },
     "doi:10.3390/app13074092": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -42951,6 +43095,14 @@
       "status": "rejected",
       "title": "Polymorphic Hybrid CMOS-MTJ Logic Gates for Hardware Security Applications",
       "updated_at": "2026-11-14T21:36:52.097696+00:00"
+    },
+    "doi:10.3390/electronics12040971": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Low-Cost Hardware in the Loop for Intelligent Neural Predictive Control of Hybrid Electric Vehicle",
+      "updated_at": "2026-11-14T22:37:32.685190+00:00"
     },
     "doi:10.3390/electronics12051235": {
       "category": "secondaire",
@@ -43767,6 +43919,14 @@
       "status": "rejected",
       "title": "Secure Federated Intrusion Detection for Resource-Constrained IoT Devices Using Lightweight Cryptography: A Hardware-Validated Study",
       "updated_at": "2026-11-03T08:56:34.586640+00:00"
+    },
+    "doi:10.3390/fractalfract7020197": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Design, Hardware Implementation on FPGA and Performance Analysis of Three Chaos-Based Stream Ciphers",
+      "updated_at": "2026-11-14T22:37:32.739395+00:00"
     },
     "doi:10.3390/futuretransp3010012": {
       "category": "hors_sujet",
