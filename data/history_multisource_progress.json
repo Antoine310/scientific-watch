@@ -1,8 +1,8 @@
 {
   "accepted": 310,
   "completed": false,
-  "cursor": "MTY4MzIwMjY5OTAwMCwxMC4xMTQ1JTJGMzU3Njg0MS4zNTg1OTI3",
-  "evaluated": 5691,
+  "cursor": "MTY5MDI5MTM2MDAwMCwxMC4xMTA5JTJGZWl0NTczMjEuMjAyMy4xMDE4NzIxOA==",
+  "evaluated": 5716,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -448,10 +448,114 @@
   ],
   "month": "2023-05",
   "needs_publish": false,
-  "offset": 40,
-  "pages_done": 6386,
-  "pages_in_query": 1,
-  "pending": [],
+  "offset": 280,
+  "pages_done": 6392,
+  "pages_in_query": 7,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Georg Rutishauser"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Robin Hunziker"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Alfio Di Mauro"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sizhen Bian"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Luca Benini"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Michele Magno"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/iscas46773.2023.10181726",
+        "id": "https://doi.org/10.1109/iscas46773.2023.10181726",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/iscas46773.2023.10181726"
+        },
+        "publication_date": "2023-05-21",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2023-05-21",
+        "publication_type": "conference",
+        "publication_venue": "2023 IEEE International Symposium on Circuits and Systems (ISCAS)",
+        "title": "ColibriES: A Milliwatts RISC-V Based Embedded System Leveraging Neuromorphic and Neural Networks Hardware Accelerators for Low-Latency Closed-loop Control Applications",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Kai-Yuan Guo"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Wai-Chi Fang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Nicolas Fahier"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/iscas46773.2023.10181906",
+        "id": "https://doi.org/10.1109/iscas46773.2023.10181906",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/iscas46773.2023.10181906"
+        },
+        "publication_date": "2023-05-21",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2023-05-21",
+        "publication_type": "conference",
+        "publication_venue": "2023 IEEE International Symposium on Circuits and Systems (ISCAS)",
+        "title": "An Efficient Hardware Design of Prime Field Modular Inversion/Division for Public Key Cryptography",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2855,9 +2959,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 2266,
+  "prefilter_review_overflow": 2276,
   "query_index": 17,
-  "secondary": 316,
-  "skipped": 5925,
+  "secondary": 318,
+  "skipped": 5931,
   "version": 1
 }
