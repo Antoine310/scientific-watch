@@ -8391,6 +8391,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.48550/arxiv.1907.13245": {
+    "doi": "https://doi.org/10.48550/arxiv.1907.13245",
+    "publication_date": "2019-07-30",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/1907.13245",
+    "summary": "EnclaveDom est un système de séparation des privilèges pour les applications à TCB (Trusted Computing Base) étendu dans les environnements d'exécution de confiance (TEE). Il partitionne une enclave en zones mémoires étiquetées et applique des règles d'accès fines par région et par fonction pour protéger les données internes, notamment les structures de gestion d'un OS de bibliothèque (libOS), contre les vulnérabilités du code tiers.",
+    "themes": [
+      "T05 — Enclave Performance & Crypto"
+    ],
+    "title": "EnclaveDom: Privilege Separation for Large-TCB Applications in Trusted Execution Environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.48550/arxiv.1908.03383": {
     "doi": "https://doi.org/10.48550/arxiv.1908.03383",
     "publication_date": "2019-08-09",
