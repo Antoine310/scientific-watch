@@ -7746,6 +7746,66 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.46586/tches.v2023.i2.155-179": {
+    "doi": "https://doi.org/10.46586/tches.v2023.i2.155-179",
+    "publication_date": "2023-03-06",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-03-06",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 75,
+    "source": "https://doi.org/10.46586/tches.v2023.i2.155-179",
+    "summary": "Cet article étudie la sécurisation algorithmique des masquages d'ordre un dans les micro-architectures scalaires en adaptant les notions de sécurité des implémentations à seuil aux effets de fuite micro-architecturaux. Les concepts proposés, basés sur le placement des parts, sont appliqués à un chiffrement PRESENT sans aléas à deux parts et à Keccak-f, puis implémentés sur des cœurs RISC-V et ARM Cortex-M4 avec une validation pratique en laboratoire.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Threshold Implementations in Software: Micro-architectural Leakages in Algorithms",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/tches.v2023.i2.241-269": {
+    "doi": "https://doi.org/10.46586/tches.v2023.i2.241-269",
+    "publication_date": "2023-03-06",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-03-06",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 80,
+    "source": "https://doi.org/10.46586/tches.v2023.i2.241-269",
+    "summary": "Cet article présente la première évaluation de la sécurité de l'implémentation RSA-CRT aveuglée par exposant avec exponentiation par fenêtre glissante face aux attaques par cache. Les auteurs démontrent une attaque par cache améliorée (Flush+Reload), une nouvelle attaque par exposition partielle de clé exploitant une fuite de bits aléatoires, et analysent les compromis entre la longueur des bits du masque et les performances d'implémentation.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "How Secure is Exponent-blinded RSA–CRT with Sliding Window Exponentiation?",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/tches.v2023.i2.543-567": {
+    "doi": "https://doi.org/10.46586/tches.v2023.i2.543-567",
+    "publication_date": "2023-03-06",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-03-06",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 75,
+    "source": "https://doi.org/10.46586/tches.v2023.i2.543-567",
+    "summary": "Cet article présente une nouvelle approche de conception de capteurs de tension sur FPGA pour les attaques par canal auxiliaire et analyse de puissance distante. Au lieu d'utiliser des convertisseurs temps-numérique (TDC) basés sur des chaînes de report, les auteurs proposent des capteurs de délai de routage (RDS) utilisant les ressources de routage du FPGA. Trois variantes sont évaluées expérimentalement sur les cartes Sakura-X et Alveo U200, démontrant une efficacité supérieure aux TDC.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "RDS: FPGA Routing Delay Sensors for Effective Remote Power Analysis Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.46586/tches.v2023.i3.136-163": {
     "doi": "https://doi.org/10.46586/tches.v2023.i3.136-163",
     "publication_date": "2023-06-09",
