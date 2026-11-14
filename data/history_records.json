@@ -4055,6 +4055,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3352460.3358310": {
+    "doi": "https://doi.org/10.1145/3352460.3358310",
+    "publication_date": "2019-10-11",
+    "publication_type": "conference",
+    "publication_venue": "IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3352460.3358310",
+    "summary": "MI6 présente des enclaves sécurisées conçues pour un processeur spéculatif à exécution désordonnée. Face aux attaques récentes brisant l'isolation des processus par canaux auxiliaires microarchitecturaux, l'article propose de renforcer l'abstraction des processus pour restaurer ces garanties d'isolation.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "MI6: Secure Enclaves in a Speculative Out-of-Order Processor",
+    "venue_landmark": "MICRO",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3373376.3378526": {
     "doi": "https://doi.org/10.1145/3373376.3378526",
     "publication_date": "2020-03-09",
