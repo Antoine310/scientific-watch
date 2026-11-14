@@ -3579,6 +3579,28 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/tdsc.2022.3160346": {
+    "doi": "https://doi.org/10.1109/tdsc.2022.3160346",
+    "publication_date": "2023-03-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-03-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Dependable and Secure Computing",
+    "score": 75,
+    "source": "https://doi.org/10.1109/tdsc.2022.3160346",
+    "summary": "ENCIDER est un outil d'analyse précis pour détecter les canaux auxiliaires temporels et de cache dans les applications SGX et les bibliothèques cryptographiques. Il utilise l'exécution symbolique dynamique et le suivi du flux d'informations au niveau des octets pour identifier ces vulnérabilités en tenant compte du modèle de programmation spécifique d'Intel SGX.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves",
+      "T06 — Microarchitectural Side Channels",
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "ENCIDER: Detecting Timing and Cache Side Channels in SGX Enclaves and Cryptographic APIs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tdsc.2023.3251418": {
     "doi": "https://doi.org/10.1109/tdsc.2023.3251418",
     "publication_date": "2024-01-01",
