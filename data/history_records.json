@@ -6872,6 +6872,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.29007/ws8z": {
+    "doi": "https://doi.org/10.29007/ws8z",
+    "publication_date": "2019-09-06",
+    "publication_type": "revue",
+    "publication_venue": "Kalpa publications in computing",
+    "score": 75,
+    "source": "https://doi.org/10.29007/ws8z",
+    "summary": "Cet article propose une méthode pour reconstruire une séquence d'opérations complète et correcte à partir d'informations de cache bruitées issues d'une attaque par canal auxiliaire sur l'exponentiation modulaire RSA utilisant la fenêtre glissante (SWL). L'approche utilise la distance de Levenshtein, l'algorithme DTW (Dynamic Time Warping) et un découpage en motifs pour traiter les erreurs de capture à partir d'observations multiples.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Constructing Sliding Windows Leak from Noisy Cache Timing Information of OSS-RSA",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.31838/esa/03.01.08": {
     "publication_date": "2026-03-18",
     "publication_type": "revue",
@@ -8193,6 +8210,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.1909.09599": {
+    "doi": "https://doi.org/10.48550/arxiv.1909.09599",
+    "publication_date": "2019-09-20",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 92,
+    "source": "http://tubiblio.ulb.tu-darmstadt.de/114432/",
+    "summary": "Cet article présente HybCache, une architecture de cache hybride et résistante aux canaux cachés, conçue pour les environnements d'exécution de confiance (TEEs). HybCache permet d'activer sélectivement des mécanismes de protection uniquement pour les charges de travail critiques pour la sécurité, tout en conservant les performances et la capacité conventionnelles pour le reste de l'exécution, grâce à un partitionnement logiciel flexible des caches associatifs par ensembles.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "HybCache: Hybrid Side-Channel-Resilient Caches for Trusted Execution Environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.1912.01701": {
     "doi": "https://doi.org/10.48550/arxiv.1912.01701",
