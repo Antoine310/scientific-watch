@@ -2,7 +2,7 @@
   "accepted": 311,
   "completed": false,
   "cursor": "*",
-  "evaluated": 5734,
+  "evaluated": 5759,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -448,14 +448,44 @@
     "monthly/2023-05/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2023-05/query-19 : résultat tronqué au plafond 12 pages",
     "monthly/2023-05/query-20 : résultat tronqué au plafond 12 pages",
-    "monthly/2023-05/query-21 : résultat tronqué au plafond 12 pages"
+    "monthly/2023-05/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2023-05/query-22 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2023-05",
   "needs_publish": false,
   "offset": 0,
-  "pages_done": 6442,
+  "pages_done": 6463,
   "pages_in_query": 0,
-  "pending": [],
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [],
+        "doi": "https://doi.org/10.12968/s0047-9624(24)60083-0",
+        "id": "https://doi.org/10.12968/s0047-9624(24)60083-0",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.12968/s0047-9624(24)60083-0"
+        },
+        "publication_date": "2023-05-01",
+        "publication_date_note": "Date source Crossref : 2023-05 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2023-05",
+        "publication_type": "revue",
+        "publication_venue": "New Electronics",
+        "title": "Customisable RISC-V IP Cores",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2859,9 +2889,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 2278,
-  "query_index": 22,
+  "prefilter_review_overflow": 2301,
+  "query_index": 24,
   "secondary": 319,
-  "skipped": 5939,
+  "skipped": 6000,
   "version": 1
 }
