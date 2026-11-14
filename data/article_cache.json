@@ -18704,6 +18704,14 @@
       "title": "Real-Time Pipeline Tracking System on a RISC-V Embedded System Platform",
       "updated_at": "2026-11-10T05:36:39.193478+00:00"
     },
+    "doi:10.1109/iscas.2019.8702785": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "High-Speed True Random Number Generator Based on Differential Current Starved Ring Oscillators with Improved Thermal Stability",
+      "updated_at": "2026-11-14T23:14:58.071039+00:00"
+    },
     "doi:10.1109/iscas45731.2020.9180551": {
       "category": "coeur",
       "decision": "conserver",
@@ -25000,6 +25008,14 @@
       "title": "Hybrid RISC-V Coprocessor Architecture for Convolutional Neural-Network Inferencing",
       "updated_at": "2026-11-03T17:53:51.164174+00:00"
     },
+    "doi:10.1109/sp.2019.00004": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Attack Directories, Not Caches: Side Channel Attacks in a Non-Inclusive World",
+      "updated_at": "2026-11-14T23:14:40.325491+00:00"
+    },
     "doi:10.1109/sp40000.2020.00030": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -30976,6 +30992,14 @@
       "title": "The Pomarinho enclave swarm: structural and petrological evidence of repeated quenching, splitting and magmatic erosion at the sidewalls of conduits (Iberian Variscan belt)",
       "updated_at": "2026-11-02T20:16:46.220256+00:00"
     },
+    "doi:10.1145/3299874.3317981": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "On the Theoretical Analysis of Memristor based True Random Number Generator",
+      "updated_at": "2026-11-14T23:14:58.071044+00:00"
+    },
     "doi:10.1145/3307650.3322238": {
       "category": "coeur",
       "decision": "conserver",
@@ -30983,6 +31007,30 @@
       "status": "imported",
       "title": "Secure TLBs",
       "updated_at": "2026-11-14T17:15:28.914875+00:00"
+    },
+    "doi:10.1145/3316781.3317903": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "SafeSpec: Banishing the Spectre of a Meltdown with Leakage-Free Speculation",
+      "updated_at": "2026-11-14T23:13:50.616122+00:00"
+    },
+    "doi:10.1145/3316781.3317914": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "SpectreGuard: An Efficient Data-centric Defense Mechanism against Spectre Attacks",
+      "updated_at": "2026-11-14T23:13:52.688662+00:00"
+    },
+    "doi:10.1145/3316781.3323482": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Design Principles for True Random Number Generators for Security Applications",
+      "updated_at": "2026-11-14T23:14:58.071017+00:00"
     },
     "doi:10.1145/3319535.3363206": {
       "category": "coeur",
@@ -36336,6 +36384,14 @@
       "title": "A Survey on True Random Number Generators Based on Chaos",
       "updated_at": "2026-11-13T20:14:04.310495+00:00"
     },
+    "doi:10.1155/2019/9684239": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A Lightweight BCH Code Corrector of TRNG with Measurable Dependence",
+      "updated_at": "2026-11-14T23:14:58.071047+00:00"
+    },
     "doi:10.1155/2021/2439427": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -37231,6 +37287,14 @@
       "status": "rejected",
       "title": "Enhanced Approach To Generate One Time Password (OTP) Using Quantum True Random Number Generator (QTRNG)",
       "updated_at": "2026-11-05T05:16:00.877594+00:00"
+    },
+    "doi:10.12794/metadc1505261": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Exploring Physical Unclonable Functions for Efficient Hardware Assisted Security in the IoT",
+      "updated_at": "2026-11-14T23:14:47.635747+00:00"
     },
     "doi:10.12794/metadc2332527": {
       "category": "coeur",
@@ -44352,6 +44416,14 @@
       "title": "Algorithm–Hardware Co-Optimization and Deployment Method for Field-Programmable Gate-Array-Based Convolutional Neural Network Remote Sensing Image Processing",
       "updated_at": "2026-11-11T18:38:56.690189+00:00"
     },
+    "doi:10.3390/s19112428": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Intrinsic Physical Unclonable Function (PUF) Sensors in Commodity Devices",
+      "updated_at": "2026-11-14T23:14:47.635724+00:00"
+    },
     "doi:10.3390/s19194130": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -47967,6 +48039,30 @@
       "status": "rejected",
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
+    },
+    "doi:10.48550/arxiv.1904.04782": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Enabling Privacy-Preserving, Compute- and Data-Intensive Computing using Heterogeneous Trusted Execution Environment",
+      "updated_at": "2026-11-14T23:15:20.734289+00:00"
+    },
+    "doi:10.48550/arxiv.1905.09100": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "ConTExT: Leakage-Free Transient Execution",
+      "updated_at": "2026-11-14T23:14:20.359482+00:00"
+    },
+    "doi:10.48550/arxiv.1905.10311": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "SpecFuzz: Bringing Spectre-type vulnerabilities to the surface",
+      "updated_at": "2026-11-14T23:14:22.841361+00:00"
     },
     "doi:10.48550/arxiv.1906.02362": {
       "category": "coeur",

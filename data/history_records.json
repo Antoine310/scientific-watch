@@ -2907,6 +2907,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/sp.2019.00004": {
+    "doi": "https://doi.org/10.1109/sp.2019.00004",
+    "publication_date": "2019-05-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Symposium on Security and Privacy (S&P)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/sp.2019.00004",
+    "summary": "Cet article étudie la viabilité des attaques par canal auxiliaire sur les caches non inclusifs modernes. En rétro-ingéniant la structure des répertoires de cache partagés, les auteurs démontrent qu'il est possible de détourner ces répertoires pour réaliser des attaques de type Prime+Probe et Evict+Reload à travers différents cœurs, sans partage de mémoire virtuelle, et valident leur approche en extrayant des clés RSA sur un serveur Intel Skylake-X.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Attack Directories, Not Caches: Side Channel Attacks in a Non-Inclusive World",
+    "venue_landmark": "IEEE S&P",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/sp40000.2020.00033": {
     "doi": "https://doi.org/10.1109/sp40000.2020.00033",
     "publication_date": "2020-05-01",
@@ -4217,6 +4234,40 @@
     "venue_landmark": "ISCA",
     "venue_note": "",
     "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3316781.3317903": {
+    "doi": "https://doi.org/10.1145/3316781.3317903",
+    "publication_date": "2019-05-23",
+    "publication_type": "conference",
+    "publication_venue": "ACM/IEEE Design Automation Conference (DAC)",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3316781.3317903",
+    "summary": "Cet article présente SafeSpec, un nouveau modèle d'exécution spéculative conçu pour éliminer les fuites par canal cache via les attaques de type Spectre et Meltdown. Il stocke les effets secondaires des instructions spéculatives dans des structures séparées jusqu'à leur validation, tout en prévenant les canaux cachés vers les instructions validées. Un modèle cycle-précis d'un processeur x86-64 modifié démontre un impact négligeable sur les performances.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SafeSpec: Banishing the Spectre of a Meltdown with Leakage-Free Speculation",
+    "venue_landmark": "DAC",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3316781.3317914": {
+    "doi": "https://doi.org/10.1145/3316781.3317914",
+    "publication_date": "2019-05-23",
+    "publication_type": "conference",
+    "publication_venue": "ACM/IEEE Design Automation Conference (DAC)",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3316781.3317914",
+    "summary": "Cet article présente SpectreGuard, un mécanisme de défense efficace et orienté données contre les attaques Spectre. Cette approche permet de marquer des blocs de mémoire sensibles via une API système ou logicielle, puis de les protéger sélectivement au niveau matériel grâce à une extension microarchitecturale à faible coût, préservant ainsi les performances des processeurs modernes tout en offrant un compromis sécurité-performance.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SpectreGuard: An Efficient Data-centric Defense Mechanism against Spectre Attacks",
+    "venue_landmark": "DAC",
+    "venue_note": "",
+    "venue_priority": 1,
     "venue_provenance": "OpenAlex"
   },
   "doi:10.1145/3319535.3363206": {
@@ -8523,6 +8574,57 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.1904.04782": {
+    "doi": "https://doi.org/10.48550/arxiv.1904.04782",
+    "publication_date": "2019-04-09",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/1904.04782",
+    "summary": "Cet article présente HETEE (Heterogeneous TEE), un système conçu pour protéger l'informatique intensive en calcul et en données en étendant les environnements d'exécution de confiance (TEE) aux accélérateurs hétérogènes non sécurisés tels que les GPU et TPU, sans nécessiter de modifications matérielles des processeurs ou accélérateurs commerciaux actuels.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Enabling Privacy-Preserving, Compute- and Data-Intensive Computing using Heterogeneous Trusted Execution Environment",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.48550/arxiv.1905.09100": {
+    "doi": "https://doi.org/10.48550/arxiv.1905.09100",
+    "publication_date": "2019-05-22",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/1905.09100",
+    "summary": "Cet article présente ConTExT (Considerate Transient Execution Technique), une technique visant à éliminer les fuites de données lors de l'exécution spéculative et transitoire dans les processeurs modernes. Le principe fondamental repose sur le fait que les secrets peuvent entrer dans les registres mais ne peuvent pas en sortir de manière transitoire. L'approche offre une protection complète pour les secrets en mémoire et dans les registres, atténuant également les attaques de type microarchitectural data sampling. L'évaluation montre un surcoût de performance nul pour le code non protégé, de 71,14 % pour les applications critiques évaluées par surapproximation, et inférieur à 1 % pour les charges de travail réelles.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "ConTExT: Leakage-Free Transient Execution",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.48550/arxiv.1905.10311": {
+    "doi": "https://doi.org/10.48550/arxiv.1905.10311",
+    "publication_date": "2019-05-24",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 80,
+    "source": "http://arxiv.org/abs/1905.10311",
+    "summary": "SpecFuzz est un outil de test dynamique conçu pour détecter les vulnérabilités d'exécution spéculative de type Spectre en simulant l'exécution spéculative par instrumentation logicielle et en combinant cette approche avec des techniques de fuzzing conventionnelles.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SpecFuzz: Bringing Spectre-type vulnerabilities to the surface",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.1906.02362": {
     "doi": "https://doi.org/10.48550/arxiv.1906.02362",
