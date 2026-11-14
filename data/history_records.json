@@ -10262,6 +10262,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:anattackonthespeculativevectorizationleakagefromhigherdimensionalspeculation": {
+    "doi": "",
+    "publication_date": "2023-02-02",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2302.01131v1",
+    "summary": "Cet article démontre que la vectorisation spéculative, qui consiste à vectoriser des boucles présentant des dépendances mémorielles rares ou inconnues, est fondamentalement vulnérable et échappe aux défenses existantes. Les auteurs implémentent une preuve de concept sur un SoC Apple M2 et utilisent des descripteurs de fuite microarchitecturale pour formaliser la source de ces fuites.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "An Attack on The Speculative Vectorization: Leakage from Higher Dimensional Speculation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:aninvestigationofhardwaresecuritybugcharacteristicsinopensourceprojects": {
     "doi": "",
     "publication_date": "2024-02-01",
@@ -10475,6 +10495,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "CacheSquash: Making caches speculation-aware",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:capstoneacapabilitybasedfoundationfortrustlesssecurememoryaccessextendedversion": {
+    "doi": "",
+    "publication_date": "2023-02-27",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2302.13863v2",
+    "summary": "Cet article présente Capstone, une conception de capacité architecturale plus expressive permettant de supporter plusieurs modèles d'isolation de mémoire dans un environnement sans tiers de confiance (trustless). L'approche offre une surcharge inférieure à 50% dans les cas d'utilisation courants et démontre la faisabilité de six modèles de mémoire réels via un émulateur fonctionnel.",
+    "themes": [
+      "T09 — Secure Memory"
+    ],
+    "title": "Capstone: A Capability-based Foundation for Trustless Secure Memory Access (Extended Version)",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -11816,6 +11856,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:prospectprovablysecurespeculationfortheconstanttimepolicyextendedversion": {
+    "doi": "",
+    "publication_date": "2023-02-23",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2302.12108v3",
+    "summary": "ProSpeCT est un modèle de processeur formel générique offrant une spéculation sécurisée et prouvable pour la politique de temps constant. Il garantit qu'aucune fuite microarchitecturale n'est causée par l'exécution spéculative et désordonnée pour les programmes à temps constant. Une implémentation prototype sur processeur RISC-V démontre un faible impact sur le coût matériel, les performances et les modifications logicielles.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "ProSpeCT: Provably Secure Speculation for the Constant-Time Policy (Extended version)",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:prototypingcustomhardwareperformancecountersingem5simulatoraframeworkforriscvsidechannelattackassessment": {
     "publication_date": "2025-06-30",
     "score": 85,
@@ -12442,6 +12502,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "SPECRUN: The Danger of Speculative Runahead Execution in Processors",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:specwandsanefficientprioritybasedscheduleragainstspeculationcontentionattacks": {
+    "doi": "",
+    "publication_date": "2023-02-02",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2302.00947v2",
+    "summary": "Cet article présente SPECWANDS, un ordonnanceur basé sur des priorités conçu pour contrer les attaques par canal auxiliaire et exécution spéculative de type volatil (liées à la contention sur les ressources partagées comme les unités d'exécution ou les ports d'émission). Il propose trois politiques d'ordonnancement pour empêcher la transmission de secrets tout en préservant les performances de la spéculation et du partage de ressources.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SPECWANDS: An Efficient Priority-based Scheduler Against Speculation Contention Attacks",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
