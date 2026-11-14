@@ -796,6 +796,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/cns.2019.8802805": {
+    "doi": "https://doi.org/10.1109/cns.2019.8802805",
+    "publication_date": "2019-06-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Conference on Communications and Network Security",
+    "score": 75,
+    "source": "https://doi.org/10.1109/cns.2019.8802805",
+    "summary": "Cet article présente une nouvelle technique de détection des attaques par canal caché sur les caches (CSCAs) dans l'architecture x86 d'Intel. Elle repose sur l'utilisation de modèles d'apprentissage automatique combinés aux compteurs de performance matériels (HPCs) pour analyser en temps réel le comportement des processus concurrents, démontrant une haute précision et une résistance au bruit système.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Sherlock Holmes of Cache Side-Channel Attacks in Intel's x86 Architecture",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/comcomap68359.2025.11353166": {
     "doi": "https://doi.org/10.1109/comcomap68359.2025.11353166",
     "publication_date": "2025-12-14",
@@ -1195,6 +1212,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/eurosp.2019.00020": {
+    "doi": "https://doi.org/10.1109/eurosp.2019.00020",
+    "publication_date": "2019-06-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE European Symposium on Security and Privacy",
+    "score": 90,
+    "source": "https://doi.org/10.1109/eurosp.2019.00020",
+    "summary": "Ce papier étudie l'impact des vulnérabilités d'exécution spéculative (variantes de Spectre, nommées SgxPectre) sur la sécurité des enclaves Intel SGX. Les auteurs démontrent la faisabilité d'attaques compromettant la confidentialité des enclaves, développent une approche par exécution symbolique pour identifier des motifs de code vulnérables dans les runtimes (Intel SGX SDK, Rust-SGX, Graphene-SGX), appliquent l'attaque pour voler des clés de scellement et d'attestation sur des enclaves de signature réelles, et évaluent les contre-mesures d'Intel.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SgxPectre: Stealing Intel Secrets from SGX Enclaves Via Speculative Execution",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/eurosp51992.2021.00047": {
     "doi": "https://doi.org/10.1109/eurosp51992.2021.00047",
@@ -2538,6 +2572,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/mm.2019.2920814": {
+    "doi": "https://doi.org/10.1109/mm.2019.2920814",
+    "publication_date": "2019-06-04",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Micro",
+    "score": 85,
+    "source": "https://doi.org/10.1109/mm.2019.2920814",
+    "summary": "Cet article propose un cadre de protection pratique contre les attaques par canal temporel sur les caches, en s'appuyant sur le matériel de gestion de cache disponible sur étagère pour le suivi et le partitionnement des derniers niveaux de cache.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Leveraging Cache Management Hardware for Practical Defense Against Cache Timing Channel Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/mm.2023.3273189": {
     "doi": "https://doi.org/10.1109/mm.2023.3273189",
@@ -4150,6 +4201,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3307650.3322238": {
+    "doi": "https://doi.org/10.1145/3307650.3322238",
+    "publication_date": "2019-06-14",
+    "publication_type": "conference",
+    "publication_venue": "Proceedings - International Symposium on Computer Architecture/Proceedings",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3307650.3322238",
+    "summary": "Cet article étudie les vulnérabilités par canaux cachés et temporels liées aux TLB (Translation Look-aside Buffers) dans les processeurs modernes. Il introduit un modèle en trois étapes pour identifier ces failles, génère des benchmarks de sécurité automatisés et propose deux nouvelles conceptions de TLB sécurisés (SP-TLB et RF-TLB) implémentés sur une architecture RISC-V Rocket Core, offrant une protection efficace avec un surcoût de performance inférieur à 10% pour le RF-TLB.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Secure TLBs",
+    "venue_landmark": "ISCA",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1145/3319535.3363206": {
     "doi": "https://doi.org/10.1145/3319535.3363206",
@@ -8455,6 +8523,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.1906.02362": {
+    "doi": "https://doi.org/10.48550/arxiv.1906.02362",
+    "publication_date": "2019-06-06",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/1906.02362",
+    "summary": "Cet article propose une solution matérielle, appelée Zombie-Based Mitigation (ZBM), pour atténuer les attaques par canal auxiliaire de type Flush+Reload sur les caches partagés. En marquant comme « zombies » les lignes de cache invalidées par une instruction de flush (FCI) tout en préservant leurs données et étiquettes, le système détecte et neutralise les attaques en traitant les accès à ces lignes comme des défauts de cache (misses), éliminant ainsi les fuites temporelles sans nécessiter de modification de l'OS ou de l'ISA.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Lookout for Zombies: Mitigating Flush+Reload Attack on Shared Caches by Monitoring Invalidated Lines",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.1907.10119": {
     "doi": "https://doi.org/10.48550/arxiv.1907.10119",
