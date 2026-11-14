@@ -2704,6 +2704,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/pst47121.2019.8949036": {
+    "doi": "https://doi.org/10.1109/pst47121.2019.8949036",
+    "publication_date": "2019-08-01",
+    "publication_type": "conference",
+    "publication_venue": "Conference on Privacy, Security and Trust",
+    "score": 90,
+    "source": "https://doi.org/10.1109/pst47121.2019.8949036",
+    "summary": "Cet article propose un nouveau schéma d'attestation à distance basé sur le matériel pour les systèmes embarqués critiques. Il vise à détecter les attaques d'exécution affectant la mémoire dynamique en analysant en temps réel les fonctionnalités de contrôle et de données d'un programme via un module de sécurité matériel (HSM) dédié connecté au bus système.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Hardware-assisted Remote Runtime Attestation for Critical Embedded Systems",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/rivf64335.2024.11009032": {
     "publication_date": "2024-12-21",
     "publication_type": "conference",
@@ -3692,6 +3709,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/trustcom/bigdatase.2019.00077": {
+    "doi": "https://doi.org/10.1109/trustcom/bigdatase.2019.00077",
+    "publication_date": "2019-08-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/trustcom/bigdatase.2019.00077",
+    "summary": "Cette publication présente le schéma MGC-FA (Mutable Granularity Control-Flow Attestation), une méthode d'attestation de flux de contrôle à granularité mutable basée sur un modèle probabiliste. L'objectif est de combiner une attestation fine (coûteuse) pour les parties vulnérables d'un programme et une vérification grossière (légère) pour les parties normales, afin d'équilibrer sécurité et efficacité d'exécution sur les plateformes embarquées.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "A Probability Prediction Based Mutable Control-Flow Attestation Scheme on Embedded Platforms",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/trustcom50675.2020.00018": {
     "doi": "https://doi.org/10.1109/trustcom50675.2020.00018",
     "publication_date": "2020-12-01",
@@ -3916,6 +3950,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/ubmk.2019.8907000": {
+    "doi": "https://doi.org/10.1109/ubmk.2019.8907000",
+    "publication_date": "2019-09-01",
+    "publication_type": "conference",
+    "publication_venue": "International Conference on Computer Science and Engineering (UBMK)",
+    "score": 82,
+    "source": "https://doi.org/10.1109/ubmk.2019.8907000",
+    "summary": "FairSDP est un mécanisme de cache sécurisé et dynamique qui vise à réduire la pénalité de performance des architectures de cache sécurisées tout en présissant l'équité entre les threads en compétition. Évalué sur des processeurs à 4 et 8 threads, il montre des améliorations de performance par rapport aux architectures de base et au partitionnement statique.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "FairSDP: Fair and Secure Dynamic Cache Partitioning",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1109/vlsi-soc53125.2021.9606968": {
     "doi": "https://doi.org/10.1109/vlsi-soc53125.2021.9606968",
