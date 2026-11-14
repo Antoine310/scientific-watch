@@ -2160,6 +2160,14 @@
       "title": "Reverse Engineering and Systematic Evaluation of Prefetcher-Based Security Vulnerabilities in Commercial RISC-V Processors",
       "updated_at": "2026-11-02T09:08:53.633435+00:00"
     },
+    "doi:10.1007/978-981-13-8715-9_45": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A Review—Hardware Security Using PUF (Physical Unclonable Function)",
+      "updated_at": "2026-11-14T11:14:58.226806+00:00"
+    },
     "doi:10.1007/978-981-15-2612-1_19": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -19816,6 +19824,14 @@
       "title": "Procedural Abstraction on RISC-V Using TP Register",
       "updated_at": "2026-11-08T22:38:01.973902+00:00"
     },
+    "doi:10.1109/ivsw.2019.8854418": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 78,
+      "status": "imported",
+      "title": "Secure Design Flow of FPGA Based RISC-V Implementation",
+      "updated_at": "2026-11-14T11:15:30.986150+00:00"
+    },
     "doi:10.1109/iwasi58316.2023.10164418": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -22448,6 +22464,14 @@
       "title": "Secure Supply Chain Provenance via PUF-Anchored NFTs and 6G Edge Networks",
       "updated_at": "2026-11-03T12:42:16.604592+00:00"
     },
+    "doi:10.1109/mwscas.2019.8885006": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "An SR Flip-Flop based Physical Unclonable Functions for Hardware Security",
+      "updated_at": "2026-11-14T11:14:47.396791+00:00"
+    },
     "doi:10.1109/mwscas53549.2025.11244476": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -23511,6 +23535,14 @@
       "status": "rejected",
       "title": "Implementation of a Prototype PLC Based on the RISC-V Architecture in the DTPS Package",
       "updated_at": "2026-11-08T07:36:52.759396+00:00"
+    },
+    "doi:10.1109/rsm46715.2019.8943568": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Inverters with Different Loads for Ring Oscillators True Random Number Generator Analysis",
+      "updated_at": "2026-11-14T11:14:58.226826+00:00"
     },
     "doi:10.1109/rsp64122.2024.10870951": {
       "category": "hors_sujet",
@@ -28103,6 +28135,14 @@
       "status": "rejected",
       "title": "Towards Sustainable Trust: A Practical SGX Aided Anonymous Reputation System",
       "updated_at": "2026-11-11T09:37:02.872573+00:00"
+    },
+    "doi:10.1109/tvlsi.2019.2927816": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "An Asynchronous and Low-Power True Random Number Generator Using STT-MTJ",
+      "updated_at": "2026-11-14T11:14:58.226831+00:00"
     },
     "doi:10.1109/tvlsi.2023.3265559": {
       "category": "hors_sujet",
@@ -37344,6 +37384,14 @@
       "title": "Clarifying CPU Vendor’s Responsibilities for Remote Attestation with Intel SGX",
       "updated_at": "2026-11-03T15:28:49.628040+00:00"
     },
+    "doi:10.1587/transinf.2019edl8048": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Cross-VM Cache Timing Attacks on Virtualized Network Functions",
+      "updated_at": "2026-11-14T11:14:39.424347+00:00"
+    },
     "doi:10.1587/transinf.2023bci0001": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -39983,6 +40031,14 @@
       "status": "rejected",
       "title": "Secure GNSS telemetry on ESP32 using kinematic validation, adaptive logging, and hardware-accelerated AES encryption",
       "updated_at": "2026-11-02T14:00:07.670619+00:00"
+    },
+    "doi:10.2478/tmmp-2019-0010": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Self-Spectre, Write-Execute and the Hidden State",
+      "updated_at": "2026-11-14T11:14:36.908206+00:00"
     },
     "doi:10.24867/33be03stamenkovic": {
       "category": "secondaire",
@@ -46712,6 +46768,22 @@
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
     },
+    "doi:10.48550/arxiv.1907.10119": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 98,
+      "status": "imported",
+      "title": "Keystone: An Open Framework for Architecting TEEs",
+      "updated_at": "2026-11-14T11:15:33.435940+00:00"
+    },
+    "doi:10.48550/arxiv.1908.03383": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "Advanced profiling for probabilistic Prime+Probe attacks and covert channels in ScatterCache",
+      "updated_at": "2026-11-14T11:14:44.423231+00:00"
+    },
     "doi:10.48550/arxiv.1909.09599": {
       "category": "coeur",
       "decision": "conserver",
@@ -50759,6 +50831,14 @@
       "status": "rejected",
       "title": "A Deterministic Security Runtime for LLM Agents on MPI and Batch-Scheduled HPC Systems: Consensus-Governed, Hardware-Rooted Supervision of Every Rank",
       "updated_at": "2026-11-02T12:56:55.308580+00:00"
+    },
+    "title:advancedprofilingforprobabilisticprimeprobeattacksandcovertchannelsinscattercache": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "Advanced profiling for probabilistic Prime+Probe attacks and covert channels in ScatterCache",
+      "updated_at": "2026-11-14T11:14:42.168961+00:00"
     },
     "title:aegissatsecuringaienabledsocfpgasatelliteplatforms": {
       "category": "secondaire_technique",
