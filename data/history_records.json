@@ -10053,6 +10053,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:avxtimingsidechannelattacksagainstaddressspacelayoutrandomization": {
+    "doi": "",
+    "publication_date": "2023-04-17",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2304.07940v1",
+    "summary": "Cette publication étudie une faille de sécurité liée aux instructions AVX (masked load/store) sur les processeurs x86 modernes. Les auteurs présentent une attaque par canal auxiliaire temporel capable de contourner l'ASLR (Address Space Layout Randomization) sous diverses conditions, incluant le cloud, des environnements SGX et les principaux systèmes d'exploitation.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "AVX Timing Side-Channel Attacks against Address Space Layout Randomization",
+    "venue_landmark": "",
+    "venue_note": "Référence déclarée sur arXiv (non vérifiée) : The 60th Annual Design Automation Conference (DAC), 2023",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:betaautomatedblackboxexplorationfortimingattacksinprocessors": {
     "doi": "",
     "publication_date": "2024-10-22",
@@ -10286,6 +10306,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Coverage-Guided Pre-Silicon Fuzzing of Open-Source Processors based on Leakage Contracts",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:covetowardsconfidentialcomputingonriscvplatforms": {
+    "doi": "",
+    "publication_date": "2023-04-12",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2304.06167v1",
+    "summary": "Cet article présente une architecture de référence nommée CoVE (Confidential Virtual Machines for RISC-V) visant à permettre le computing confidentiel sur les plateformes RISC-V. Il aborde les exigences en matière d'ISA (Instruction Set Architecture), de non-ISA et de System-on-Chip (SoC) pour protéger les données en cours d'utilisation via des environnements d'exécution de confiance (TEE) attestés par le matériel, réduisant ainsi la base de confiance (TCB).",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "CoVE: Towards Confidential Computing on RISC-V Platforms",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -10612,6 +10652,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Exploiting Software-level Abstractions To Support Practical Hardware Trojan Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:explorationandexploitationofhiddenpmuevents": {
+    "doi": "",
+    "publication_date": "2023-04-24",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 88,
+    "source": "http://arxiv.org/abs/2304.12072v1",
+    "summary": "Cet article étudie les compteurs de performance (PMU) des processeurs Intel, en se concentrant sur les événements cachés ou non documentés. Sur un total de 65 536 espaces d'événements possibles, seuls 200 environ sont officiellement publiés par Intel. Les auteurs conçoivent une méthode de collecte pour découvrir un grand nombre d'événements PMU non documentés sur les microarchitectures Skylake, Kabylake et Alderlake, et démontrent leur exploitation potentielle pour la détection d'attaques par exécution transitoire et la réalisation d'attaques par canal auxiliaire.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Exploration and Exploitation of Hidden PMU Events",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -11638,6 +11698,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "SafeBet: Secure, Simple, and Fast Speculative Execution",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:scalableattestationofvirtualizedexecutionenvironmentsinhybridandmulticloud": {
+    "doi": "",
+    "publication_date": "2023-04-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2304.00382v1",
+    "summary": "Cet article présente WAWEL, un framework unifié permettant l'attestation scalable d'environnements d'exécution virtualisés (VEE) hétérogènes dans des environnements multi-cloud et hybrides. Il s'intègre aux mécanismes matériels existants et au standard TPM.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Scalable Attestation of Virtualized Execution Environments in Hybrid- and Multi-Cloud",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,

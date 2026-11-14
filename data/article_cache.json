@@ -1896,6 +1896,14 @@
       "title": "$$\\texttt {ARCHER}$$: Architecture-Level Simulator for Side-Channel Analysis in RISC-V Processors",
       "updated_at": "2026-11-03T19:52:35.887253+00:00"
     },
+    "doi:10.1007/978-3-032-15700-3_8": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Forward Symbolic Execution for Trustworthy Automation of Binary Code Verification",
+      "updated_at": "2026-11-14T08:37:50.581151+00:00"
+    },
     "doi:10.1007/978-3-032-16165-9_27": {
       "category": "secondaire",
       "decision": "examiner",
@@ -6055,6 +6063,14 @@
       "status": "rejected",
       "title": "True random number generators in modern cryptography: A review",
       "updated_at": "2026-11-01T11:14:31.256851+00:00"
+    },
+    "doi:10.1016/j.micpro.2023.104782": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Optimized algorithms and architectures for fast non-cryptographic hash functions in hardware",
+      "updated_at": "2026-11-14T08:42:22.517609+00:00"
     },
     "doi:10.1016/j.micpro.2023.104827": {
       "category": "hors_sujet",
@@ -13695,6 +13711,14 @@
       "status": "rejected",
       "title": "From Dragondoom to Dragonstar: Side-channel Attacks and Formally Verified Implementation of WPA3 Dragonfly Handshake",
       "updated_at": "2026-11-13T09:40:47.853730+00:00"
+    },
+    "doi:10.1109/eurosp57164.2023.00069": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "faulTPM: Exposing AMD fTPMs' Deepest Secrets",
+      "updated_at": "2026-11-14T08:37:58.284207+00:00"
     },
     "doi:10.1109/eurosp57164.2023.00070": {
       "category": "coeur",
@@ -21600,6 +21624,22 @@
       "title": "Python-Based Lightweight and Extensible RISC-V Simulator: Design and Implementation",
       "updated_at": "2026-11-05T00:48:31.336322+00:00"
     },
+    "doi:10.1109/mdat.2022.3148967": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "On the Mitigation of Read Disturbances in Neuromorphic Inference Hardware",
+      "updated_at": "2026-11-14T08:41:44.120703+00:00"
+    },
+    "doi:10.1109/mdat.2022.3156016": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Shaping Resilient AI Hardware Through DNN Computational Feature Exploitation",
+      "updated_at": "2026-11-14T08:41:44.142259+00:00"
+    },
     "doi:10.1109/mdat.2022.3226709": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -25368,6 +25408,14 @@
       "title": "An Event-Driven Approach to Genotype Imputation on a Custom RISC-V Cluster",
       "updated_at": "2026-11-11T09:38:31.125365+00:00"
     },
+    "doi:10.1109/tcc.2021.3137351": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "ReFlat: A Robust Access Pattern Hiding Solution for General Cloud Query Processing Based on K-Isomorphism and Hardware Enclave",
+      "updated_at": "2026-11-14T08:41:44.098591+00:00"
+    },
     "doi:10.1109/tcc.2022.3207145": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -25975,6 +26023,14 @@
       "status": "rejected",
       "title": "A High-Speed FPGA-Based True Random Number Generator Using Metastability With Clock Managers",
       "updated_at": "2026-11-08T05:14:28.843690+00:00"
+    },
+    "doi:10.1109/tcsii.2022.3224470": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "A High-Speed and High-Efficiency Diverse Error Margin Write-Verify Scheme for an RRAM-Based Neuromorphic Hardware Accelerator",
+      "updated_at": "2026-11-14T08:41:58.106580+00:00"
     },
     "doi:10.1109/tcsii.2023.3267186": {
       "category": "secondaire",
@@ -27239,6 +27295,14 @@
       "status": "imported",
       "title": "Coffer: An Efficient and Scalable TEE on RISC-V",
       "updated_at": "2026-10-31T20:14:02.815158+00:00"
+    },
+    "doi:10.1109/tii.2022.3170348": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Blockchain-based Federated Learning with Secure Aggregation in Trusted Execution Environment for Internet-of-Things",
+      "updated_at": "2026-11-14T08:37:58.061417+00:00"
     },
     "doi:10.1109/tii.2024.3438284": {
       "category": "hors_sujet",
@@ -30384,6 +30448,14 @@
       "title": "MemFHE: End-to-end Computing with Fully Homomorphic Encryption in Memory",
       "updated_at": "2026-11-10T20:37:39.587198+00:00"
     },
+    "doi:10.1145/3570161": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Paralinguistic Privacy Protection at the Edge",
+      "updated_at": "2026-11-14T08:41:58.081474+00:00"
+    },
     "doi:10.1145/3572920": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -30456,6 +30528,14 @@
       "title": "Poster: Control-Flow Integrity in Low-end Embedded Devices",
       "updated_at": "2026-11-12T20:37:53.023440+00:00"
     },
+    "doi:10.1145/3577200": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "High-Level Approaches to Hardware Security: A Tutorial",
+      "updated_at": "2026-11-14T08:42:02.997188+00:00"
+    },
     "doi:10.1145/3577923.3583652": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -30511,6 +30591,14 @@
       "status": "rejected",
       "title": "Understanding and Mitigating Hardware Failures in Deep Learning Training Systems",
       "updated_at": "2026-11-13T17:40:11.450379+00:00"
+    },
+    "doi:10.1145/3579823": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Hardware Trojan Detection Using Machine Learning: A Tutorial",
+      "updated_at": "2026-11-14T08:42:16.560295+00:00"
     },
     "doi:10.1145/3579856.3582812": {
       "category": "secondaire_technique",
@@ -30759,6 +30847,14 @@
       "status": "rejected",
       "title": "PrivExtractor: Toward Redressing the Imbalance of Understanding between Virtual Assistant Users and Vendors",
       "updated_at": "2026-11-13T22:36:58.590368+00:00"
+    },
+    "doi:10.1145/3589506": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A Survey on Machine Learning in Hardware Security",
+      "updated_at": "2026-11-14T08:42:33.027106+00:00"
     },
     "doi:10.1145/3589774": {
       "category": "secondaire",
@@ -35424,6 +35520,14 @@
       "title": "Quantum-AI cybersecurity threat detection framework: A hybrid architecture for enterprise security operations",
       "updated_at": "2026-11-02T13:38:32.084349+00:00"
     },
+    "doi:10.11591/ijeecs.v30.i1.pp451-459": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Efficient hardware implementation for lightweight Loong algorithm using FPGA",
+      "updated_at": "2026-11-14T08:42:16.587772+00:00"
+    },
     "doi:10.11591/ijeecs.v30.i2.pp982-992": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -39952,6 +40056,14 @@
       "title": "Multidimensional physical unclonable function encryption architecture based on microtexture in polycrystalline diamond",
       "updated_at": "2026-11-02T19:16:55.148167+00:00"
     },
+    "doi:10.26599/tst.2021.9010094": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Arm PSA-Certified IoT Chip Security: A Case Study",
+      "updated_at": "2026-11-14T08:41:44.163621+00:00"
+    },
     "doi:10.26599/tst.2022.9010005": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -44111,6 +44223,14 @@
       "status": "rejected",
       "title": "ML-Based Finger-Vein Biometric Authentication and Hardware Implementation Strategies",
       "updated_at": "2026-11-13T18:36:39.054371+00:00"
+    },
+    "doi:10.4018/978-1-6684-7343-6.ch011": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "IoT Security Enhancement System",
+      "updated_at": "2026-11-14T08:42:02.975629+00:00"
     },
     "doi:10.4018/979-8-2600-0888-1.ch004": {
       "category": "hors_sujet",
@@ -50776,6 +50896,14 @@
       "title": "Automated Hardware Logic Obfuscation Framework Using GPT",
       "updated_at": "2026-11-09T21:37:03.449668+00:00"
     },
+    "title:automatedinformationflowanalysisforintegratedcomputinginmemorymodules": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Automated Information Flow Analysis for Integrated Computing-in-Memory Modules",
+      "updated_at": "2026-11-14T08:36:27.636623+00:00"
+    },
     "title:automatedtemplatefreesynthesisofinstructioncentricleakagecontractsforblackboxcpus": {
       "category": "coeur",
       "decision": "conserver",
@@ -50807,6 +50935,14 @@
       "status": "rejected",
       "title": "AutoTrans: AI-Assisted Automatic Translation of Security Assertions for RISC-V Processors",
       "updated_at": "2026-11-02T15:51:58.066365+00:00"
+    },
+    "title:avxtimingsidechannelattacksagainstaddressspacelayoutrandomization": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "AVX Timing Side-Channel Attacks against Address Space Layout Randomization",
+      "updated_at": "2026-11-14T08:38:54.881747+00:00"
     },
     "title:azerooverheadflowforsecurityclosure": {
       "category": "secondaire",
@@ -51351,6 +51487,14 @@
       "status": "imported",
       "title": "Coverage-Guided Pre-Silicon Fuzzing of Open-Source Processors based on Leakage Contracts",
       "updated_at": "2026-11-04T08:31:07.608019+00:00"
+    },
+    "title:covetowardsconfidentialcomputingonriscvplatforms": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "CoVE: Towards Confidential Computing on RISC-V Platforms",
+      "updated_at": "2026-11-14T08:37:50.363488+00:00"
     },
     "title:crossconcrossplatformopensecuritystackforconnecteddevices": {
       "category": "secondaire_technique",
@@ -51992,6 +52136,14 @@
       "title": "Exploiting Software-level Abstractions To Support Practical Hardware Trojan Attacks",
       "updated_at": "2026-11-02T15:52:53.072266+00:00"
     },
+    "title:explorationandexploitationofhiddenpmuevents": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "Exploration and Exploitation of Hidden PMU Events",
+      "updated_at": "2026-11-14T08:39:30.051683+00:00"
+    },
     "title:exploringimplementationofrustbasedsecureoperatingsystemsonriscvmpsoc": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -52295,6 +52447,14 @@
       "status": "imported",
       "title": "Fuzzilicon: A Post-Silicon Microcode-Guided x86 CPU Fuzzer",
       "updated_at": "2026-11-03T20:09:18.389011+00:00"
+    },
+    "title:fvcareformalverificationofsecurityprimitivesinresilientembeddedsocs": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "FVCARE:Formal Verification of Security Primitives in Resilient Embedded SoCs",
+      "updated_at": "2026-11-14T08:37:27.273306+00:00"
     },
     "title:gametheoreticmodellingofaransomandextortionattackonethereumvalidators": {
       "category": "hors_sujet",
@@ -52727,6 +52887,14 @@
       "status": "rejected",
       "title": "INTCC: A Framework for Interactive Confidential Computing",
       "updated_at": "2026-11-02T15:56:39.938090+00:00"
+    },
+    "title:integratedarchitectureforneuralnetworksandsecurityprimitivesusingrramcrossbar": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Integrated Architecture for Neural Networks and Security Primitives using RRAM Crossbar",
+      "updated_at": "2026-11-14T08:36:27.658711+00:00"
     },
     "title:integratedphotonicaiacceleratorsunderhardwaresecurityattacksimpactsandcountermeasures": {
       "category": "hors_sujet",
@@ -53335,6 +53503,14 @@
       "status": "rejected",
       "title": "New Security Challenges Towards In-Sensor Computing Systems",
       "updated_at": "2026-11-07T01:37:07.455121+00:00"
+    },
+    "title:nnsplitteranactivedefensesolutionfordnnmodelviaautomatedweightobfuscation": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "NNSplitter: An Active Defense Solution for DNN Model via Automated Weight Obfuscation",
+      "updated_at": "2026-11-14T08:37:58.305364+00:00"
     },
     "title:noforkingwaydetectingcloningattacksonintelsgxapplications": {
       "category": "coeur",
@@ -54367,6 +54543,14 @@
       "status": "rejected",
       "title": "Scalable and Privacy-Preserving Synthetic Data Generation on Decentralised Web",
       "updated_at": "2026-11-12T06:40:43.737748+00:00"
+    },
+    "title:scalableattestationofvirtualizedexecutionenvironmentsinhybridandmulticloud": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Scalable Attestation of Virtualized Execution Environments in Hybrid- and Multi-Cloud",
+      "updated_at": "2026-11-14T08:37:19.932875+00:00"
     },
     "title:scalablegpubasedintegrityverificationforlargemachinelearningmodels": {
       "category": "secondaire",
@@ -55784,6 +55968,14 @@
       "title": "Unlocking the Power of Environment Assumptions for Unit Proofs",
       "updated_at": "2026-11-08T17:38:00.159843+00:00"
     },
+    "title:unravelinglatchlockingusingmachinelearningbooleananalysisandilp": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Unraveling Latch Locking Using Machine Learning, Boolean Analysis, and ILP",
+      "updated_at": "2026-11-14T08:36:27.679521+00:00"
+    },
     "title:urbanenclavesnewformsofprecarityforexiledworkersinbangkok": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -56007,6 +56199,14 @@
       "status": "imported",
       "title": "Yet Another Mirage of Breaking MIRAGE: Debunking Occupancy-based Side-Channel Attacks on Fully Associative Randomized Caches",
       "updated_at": "2026-11-04T21:49:02.312608+00:00"
+    },
+    "title:youcantalwayscheckwhatyouwantedselectivecheckingandtrustedexecutiontopreventfalseactuationsincyberphysicalsystems": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "You Can't Always Check What You Wanted: Selective Checking and Trusted Execution to Prevent False Actuations in Cyber-Physical Systems",
+      "updated_at": "2026-11-14T08:37:58.082939+00:00"
     },
     "title:yourmailboxisminepromptinjectionattacksagainstrealworldllmemailagents": {
       "category": "hors_sujet",
