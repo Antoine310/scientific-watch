@@ -3339,6 +3339,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/tcad.2022.3193325": {
+    "doi": "https://doi.org/10.1109/tcad.2022.3193325",
+    "publication_date": "2023-04-01",
+    "publication_date_note": "Date source Crossref : 2023-04 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2023-04",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "score": 85,
+    "source": "https://doi.org/10.1109/tcad.2022.3193325",
+    "summary": "Cette publication présente PiPoMonitor, une architecture conçue pour contrer les attaques par canal auxiliaire sur le cache inter-cœurs. En exploitant un filtre Cuckoo doté de fonctionnalités d'effacement autonome et d'accélération de relocalisation, le mécanisme enregistre le trafic d'accès mémoire et pré-charge les lignes suspectes pour perturber les observations de l'adversaire avec un impact de performance négligeable.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Architecting the Autocuckoo Filter to Defend Against Cross-Core Cache Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tcad.2023.3271583": {
     "doi": "https://doi.org/10.1109/tcad.2023.3271583",
     "publication_date": "2023-11-01",
