@@ -1,8 +1,8 @@
 {
   "accepted": 310,
   "completed": false,
-  "cursor": "MTY5MDI5MTM2MDAwMCwxMC4xMTA5JTJGZWl0NTczMjEuMjAyMy4xMDE4NzIxOA==",
-  "evaluated": 5716,
+  "cursor": "MTY4MDg2MjM5MjAwMCwxMC4xMDE2JTJGai5jc2l0ZS4yMDIzLjEwMjk0Mw==",
+  "evaluated": 5725,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -444,118 +444,15 @@
     "monthly/2023-05/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2023-05/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2023-05/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2023-05/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2023-05/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2023-05/query-18 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2023-05",
   "needs_publish": false,
-  "offset": 280,
-  "pages_done": 6392,
-  "pages_in_query": 7,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Georg Rutishauser"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Robin Hunziker"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Alfio Di Mauro"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Sizhen Bian"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Luca Benini"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Michele Magno"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/iscas46773.2023.10181726",
-        "id": "https://doi.org/10.1109/iscas46773.2023.10181726",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/iscas46773.2023.10181726"
-        },
-        "publication_date": "2023-05-21",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2023-05-21",
-        "publication_type": "conference",
-        "publication_venue": "2023 IEEE International Symposium on Circuits and Systems (ISCAS)",
-        "title": "ColibriES: A Milliwatts RISC-V Based Embedded System Leveraging Neuromorphic and Neural Networks Hardware Accelerators for Low-Latency Closed-loop Control Applications",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Kai-Yuan Guo"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Wai-Chi Fang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Nicolas Fahier"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/iscas46773.2023.10181906",
-        "id": "https://doi.org/10.1109/iscas46773.2023.10181906",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/iscas46773.2023.10181906"
-        },
-        "publication_date": "2023-05-21",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2023-05-21",
-        "publication_type": "conference",
-        "publication_venue": "2023 IEEE International Symposium on Circuits and Systems (ISCAS)",
-        "title": "An Efficient Hardware Design of Prime Field Modular Inversion/Division for Public Key Cryptography",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    }
-  ],
+  "offset": 440,
+  "pages_done": 6417,
+  "pages_in_query": 11,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2959,9 +2856,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 2276,
-  "query_index": 17,
-  "secondary": 318,
-  "skipped": 5931,
+  "prefilter_review_overflow": 2278,
+  "query_index": 19,
+  "secondary": 319,
+  "skipped": 5933,
   "version": 1
 }
