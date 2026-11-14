@@ -184,6 +184,14 @@
       "title": "Challenge‐Routed Reconfiguration in Multidimensional Black Phosphorus Physical Unclonable Functions for Replay‐Resistant Hardware Authentication",
       "updated_at": "2026-11-06T07:14:27.388408+00:00"
     },
+    "doi:10.1002/adma.202205365": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Hardware and Information Security Primitives Based on 2D Materials and Devices",
+      "updated_at": "2026-11-14T14:39:50.624814+00:00"
+    },
     "doi:10.1002/adma.202303077": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -4495,6 +4503,14 @@
       "status": "rejected",
       "title": "DO-RA: Data-oriented runtime attestation for IoT devices",
       "updated_at": "2026-11-12T17:14:03.450758+00:00"
+    },
+    "doi:10.1016/j.cose.2022.103068": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "VERI: A Large-scale Open-Source Components Vulnerability Detection in IoT Firmware",
+      "updated_at": "2026-11-14T14:39:50.589943+00:00"
     },
     "doi:10.1016/j.cose.2023.103095": {
       "category": "secondaire",
@@ -20712,6 +20728,14 @@
       "title": "Trustworthy Distributed Machine Learning in Cloud-Edge-IoT Systems: A Heterogeneity-Aware Survey of Security, Privacy, and Robustness",
       "updated_at": "2026-11-02T13:03:57.267094+00:00"
     },
+    "doi:10.1109/jlt.2022.3221186": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "On-Chip Silicon Optical Scattering Physical Unclonable Function Towards Hardware Security",
+      "updated_at": "2026-11-14T14:39:08.666804+00:00"
+    },
     "doi:10.1109/jproc.2025.3630989": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -28304,6 +28328,14 @@
       "title": "Towards Sustainable Trust: A Practical SGX Aided Anonymous Reputation System",
       "updated_at": "2026-11-11T09:37:02.872573+00:00"
     },
+    "doi:10.1109/tte.2022.3191411": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "A Mechanical-Hardware-in-the-Loop Test Bench for Verification of Multimotor Drivetrain Systems",
+      "updated_at": "2026-11-14T14:38:58.424466+00:00"
+    },
     "doi:10.1109/tvlsi.2019.2927816": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -30784,6 +30816,14 @@
       "title": "Software Solution of Secure Debug Based on RISC-V CPU",
       "updated_at": "2026-11-08T05:15:05.311049+00:00"
     },
+    "doi:10.1145/3563391": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "A Survey and Perspective on Artificial Intelligence for Security-Aware Electronic Design Automation",
+      "updated_at": "2026-11-14T14:39:08.630929+00:00"
+    },
     "doi:10.1145/3564625.3567994": {
       "category": "coeur",
       "decision": "examiner",
@@ -30983,6 +31023,14 @@
       "status": "rejected",
       "title": "Understanding and Mitigating Hardware Failures in Deep Learning Training Systems",
       "updated_at": "2026-11-13T17:40:11.450379+00:00"
+    },
+    "doi:10.1145/3579822": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "RansomShield: A Visualization Approach to Defending Mobile Systems Against Ransomware",
+      "updated_at": "2026-11-14T14:40:00.103616+00:00"
     },
     "doi:10.1145/3579823": {
       "category": "secondaire",
@@ -32087,6 +32135,14 @@
       "status": "rejected",
       "title": "ConFIDe: A PWM-Driven Control-Fused Intrusion Detection System for Hardware Security in Unmanned Aerial Vehicles",
       "updated_at": "2026-11-09T07:41:53.270795+00:00"
+    },
+    "doi:10.1145/3634737.3657015": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "A Generative Framework for Low-Cost Result Validation of Machine Learning-as-a-Service Inference",
+      "updated_at": "2026-11-14T14:37:38.231303+00:00"
     },
     "doi:10.1145/3634737.3657016": {
       "category": "hors_sujet",
@@ -53592,6 +53648,14 @@
       "title": "Integration of Post-Quantum Cryptography in the Keylime Agent for Quantum-Safe Remote Attestation",
       "updated_at": "2026-10-31T23:15:52.001819+00:00"
     },
+    "title:inteltdxdemystifiedatopdownapproach": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "Intel TDX Demystified: A Top-Down Approach",
+      "updated_at": "2026-11-14T14:38:47.460770+00:00"
+    },
     "title:interagenttrustmodelsacomparativestudyofbriefclaimproofstakereputationandconstraintinagenticwebprotocoldesigna2aap2erc8004andbeyond": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -54552,6 +54616,14 @@
       "title": "PoisonCap: Efficient Hierarchical Temporal Safety for CHERI",
       "updated_at": "2026-11-03T10:14:18.249882+00:00"
     },
+    "title:poisonedgnnbackdoorattackongraphneuralnetworksbasedhardwaresecuritysystems": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "PoisonedGNN: Backdoor Attack on Graph Neural Networks-based Hardware Security Systems",
+      "updated_at": "2026-11-14T14:36:58.321984+00:00"
+    },
     "title:polarsinsideintelsgx2enclavesanempiricalstudyofconfidentialanalyticalqueryprocessing": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -55120,6 +55192,14 @@
       "title": "Rorqual: Speeding up Narwhal with TEEs",
       "updated_at": "2026-11-08T23:37:45.789328+00:00"
     },
+    "title:rputheringprocessingunit": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "RPU: The Ring Processing Unit",
+      "updated_at": "2026-11-14T14:38:17.451058+00:00"
+    },
     "title:rtfmhowhardareiotplatformprovidersmakingitfortheirdevelopers": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -55671,6 +55751,14 @@
       "status": "imported",
       "title": "SoftFlow: Automated HW-SW Confidentiality Verification for Embedded Processors",
       "updated_at": "2026-11-13T02:39:59.641689+00:00"
+    },
+    "title:softwarebasedsecurityapproachfornetworkedembeddeddevices": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Software-based security approach for networked embedded devices",
+      "updated_at": "2026-11-14T14:37:38.195663+00:00"
     },
     "title:softwarerootoftrustforagnssreceiver": {
       "category": "secondaire_technique",
@@ -56639,6 +56727,14 @@
       "status": "rejected",
       "title": "Unraveling Latch Locking Using Machine Learning, Boolean Analysis, and ILP",
       "updated_at": "2026-11-14T08:36:27.679521+00:00"
+    },
+    "title:unsupervisedrecycledfpgadetectionusingsymmetryanalysis": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Unsupervised Recycled FPGA Detection Using Symmetry Analysis",
+      "updated_at": "2026-11-14T14:36:58.285950+00:00"
     },
     "title:urbanenclavesnewformsofprecarityforexiledworkersinbangkok": {
       "category": "hors_sujet",
