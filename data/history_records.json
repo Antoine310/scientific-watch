@@ -2195,6 +2195,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/isqed.2019.8697657": {
+    "doi": "https://doi.org/10.1109/isqed.2019.8697657",
+    "publication_date": "2019-03-01",
+    "publication_type": "conference",
+    "publication_venue": "International Symposium on Quality Electronic Design (ISQED)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/isqed.2019.8697657",
+    "summary": "Cet article propose une architecture de démarrage sécurisé (secure boot) matérielle et légère pour les SoC basés sur RISC-V, intégrant l'algorithme ECDSA, le hachage SHA3, un DMA, une unité de gestion des clés et une PUF optimisée pour sécuriser à la fois le démarrage et l'attestation à distance.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Lightweight Secure-Boot Architecture for RISC-V System-on-Chip",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/isqed51717.2021.9424322": {
     "doi": "https://doi.org/10.1109/isqed51717.2021.9424322",
     "publication_date": "2021-04-07",
@@ -6992,6 +7009,57 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "\"Microarchitectural Attack Detection Dataset (Spectre-v1, Spectre-v2, and Benign Workloads)\""
+  },
+  "doi:10.23638/lmcs-15(1:21)2019": {
+    "doi": "https://doi.org/10.23638/lmcs-15(1:21)2019",
+    "publication_date": "2019-03-05",
+    "publication_type": "revue",
+    "publication_venue": "Logical Methods in Computer Science",
+    "score": 75,
+    "source": "https://doi.org/10.23638/lmcs-15(1:21)2019",
+    "summary": "Cet article analyse la sécurité des algorithmes de cache face aux fuites temporelles. Les auteurs introduisent la notion de \"compétitivité des fuites\" pour comparer l'impact de différents algorithmes sur les temps d'exécution des programmes. Ils démontrent que cette relation est symétrique, prouvant qu'aucun algorithme de cache ne domine un autre en termes de fuite totale d'informations, contrairement aux performances. De plus, pour les caches à contrôle fini, la relation de compétitivité est asymptotiquement linéaire ou constante.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "On the Incomparability of Cache Algorithms in Terms of Timing Leakage",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.23919/date.2019.8714822": {
+    "doi": "https://doi.org/10.23919/date.2019.8714822",
+    "publication_date": "2019-03-01",
+    "publication_type": "conference",
+    "publication_venue": "Design, Automation, and Test in Europe",
+    "score": 75,
+    "source": "https://doi.org/10.23919/date.2019.8714822",
+    "summary": "Cette publication présente une architecture de sécurité pour une plateforme IoT personnalisable basée sur le jeu d'instruction RISC-V et développée par plusieurs instituts Fraunhofer. Conçue sous forme de Système-en-Boîtier tridimensionnel (3D-SiP) pour la technologie 22FDX de GLOBALFOUNDRIES, elle intègre des fonctionnalités telles que le démarrage sécurisé (secure boot), un chien de garde authentifié et la gestion des clés pour cibler un niveau de sécurité moyen adapté au marché de l'IoT.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "A Security Architecture for RISC-V based IoT Devices",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.23919/date.2019.8715182": {
+    "doi": "https://doi.org/10.23919/date.2019.8715182",
+    "publication_date": "2019-03-01",
+    "publication_type": "conference",
+    "publication_venue": "Design, Automation, and Test in Europe",
+    "score": 95,
+    "source": "https://doi.org/10.23919/date.2019.8715182",
+    "summary": "Cet article présente Sanctorum, un moniteur de sécurité léger et une base de code de confiance (TCB) réduite, destiné à implémenter des environnements d'exécution sécurisés (enclaves) similaires à Intel SGX. Il repose sur du logiciel privilégié authentifié et une spécification formellement vérifiée pour des enclaves génériques sur un système multiprocesseur in-order, nécessitant un matériel de confiance adapté.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Sanctorum: A lightweight security monitor for secure enclaves",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.23919/date48585.2020.9116252": {
     "doi": "https://doi.org/10.23919/date48585.2020.9116252",
