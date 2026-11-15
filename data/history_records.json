@@ -4869,6 +4869,27 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3534962": {
+    "doi": "https://doi.org/10.1145/3534962",
+    "publication_date": "2022-12-07",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2022-12-07",
+    "publication_type": "revue",
+    "publication_venue": "ACM Computing Surveys",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3534962",
+    "summary": "Cette étude analyse l'impact des différentes fonctionnalités et utilisations des caches matériels sur la sécurité des plateformes. Les auteurs examinent comment l'intégration des caches, qui conservent des copies de code et de données, influence l'application des politiques de sécurité. L'article aborde les menaces associées, telles que les canaux auxiliaires, les abus d'exécution spéculative et les manipulations de cache visant à contourner la détection logicielle.",
+    "themes": [
+      "T07 — Hardware Security Verification",
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Cache-related Hardware Capabilities and Their Impact on Information Security",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3564625.3567994": {
     "doi": "https://doi.org/10.1145/3564625.3567994",
     "publication_date": "2022-12-03",
@@ -11868,6 +11889,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:mprotectoperatingsystemmemorymanagementwithoutaccess": {
+    "doi": "",
+    "publication_date": "2022-12-24",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2212.12671v1",
+    "summary": "MProtect est un système conçu pour empêcher le système d'exploitation (OS) d'avoir un accès illimité aux données des applications. Il repose sur un petit logiciel fonctionnant à un niveau de privilège supérieur à l'OS pour protéger l'espace utilisateur tout en permettant une gestion légitime de la mémoire, évitant ainsi le recours à la virtualisation imbriquée.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "MProtect: Operating System Memory Management without Access",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:mstepasinglesteppingframeworkforsidechannelanalysisontrustzonem": {
     "publication_date": "2026-08-12",
     "score": 80,
@@ -12012,6 +12053,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "On Kernel's Safety in the Spectre Era (Extended Version)",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:onthelackofcodeconfidentialityintrustedexecutionenvironments": {
+    "doi": "",
+    "publication_date": "2022-12-15",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2212.07899v1",
+    "summary": "Cette étude analyse la résistance à la confidentialité du code dans les environnements d'exécution de confiance (TEE) face aux attaques par canal auxiliaire, en comparant l'exécution de binaires natifs et de représentations intermédiaires (IR) telles que le bytecode WASM sur un runtime.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "On (the Lack of) Code Confidentiality in Trusted Execution Environments",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -12809,6 +12870,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "SoK: A cloudy view on trust relationships of CVMs -- How Confidential Virtual Machines are falling short in Public Cloud",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:sokanalysisofrootcausesanddefensestrategiesforattacksonmicroarchitecturaloptimizations": {
+    "doi": "",
+    "publication_date": "2022-12-20",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2212.10221v1",
+    "summary": "Cet article (SoK) analyse les causes profondes et les stratégies de défense contre les attaques ciblant les optimisations microarchitecturales. Les auteurs examinent les attaques par canal temporel, qu'elles soient transitoires ou non, et proposent un cadre systématique identifiant quatre causes profondes : le déterminisme, le partage, la violation d'accès et le flux d'informations. L'élimination d'au moins une de ces causes à n'importe quelle étape permet d'assurer la protection, ce qui permet de systématiser les défenses existantes.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SoK: Analysis of Root Causes and Defense Strategies for Attacks on Microarchitectural Optimizations",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
