@@ -6653,6 +6653,40 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.14722/ndss.2019.23068": {
+    "doi": "https://doi.org/10.14722/ndss.2019.23068",
+    "publication_date": "2019-01-01",
+    "publication_type": "conference",
+    "publication_venue": "Network and Distributed System Security Symposium",
+    "score": 90,
+    "source": "https://doi.org/10.14722/ndss.2019.23068",
+    "summary": "TIMBER-V est une nouvelle architecture de mémoire étiquetée conçue pour les petits systèmes embarqués, offrant un cloisonnement flexible et efficace du code et des données. Elle combine l'isolation par étiquettes et une unité de protection mémoire (MPU) pour isoler les processus avec un faible surcoût, réduire la fragmentation et permettre le partage de piles d'exécution et de tas entrelacés entre domaines de sécurité, tout en étant compatible avec le code existant sur RISC-V.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "TIMBER-V: Tag-Isolated Memory Bringing Fine-grained Enclaves to RISC-V",
+    "venue_landmark": "NDSS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.14722/ndss.2019.23448": {
+    "doi": "https://doi.org/10.14722/ndss.2019.23448",
+    "publication_date": "2019-01-01",
+    "publication_type": "conference",
+    "publication_venue": "Network and Distributed System Security Symposium",
+    "score": 75,
+    "source": "https://doi.org/10.14722/ndss.2019.23448",
+    "summary": "Cet article présente SANCTUARY, une architecture de sécurité pour l'écosystème TrustZone d'ARM qui permet une utilisation non contrainte des environnements d'exécution de confiance (TEEs) sans recourir à la virtualisation. SANCTUARY permet d'exécuter des applications sensibles au sein de compartiments fortement isolés dans le monde normal de TrustZone, comparables aux enclaves utilisateur d'Intel SGX. Les auteurs évaluent leur prototype sur une carte HiKey 960 à l'aide de microbenchmarks et d'un cas d'usage de génération de mots de passe à usage unique.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "SANCTUARY: ARMing TrustZone with User-space Enclaves",
+    "venue_landmark": "NDSS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.14722/ndss.2020.24271": {
     "doi": "https://doi.org/10.14722/ndss.2020.24271",
     "publication_date": "2020-01-01",
@@ -8783,6 +8817,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.1902.04711": {
+    "doi": "https://doi.org/10.48550/arxiv.1902.04711",
+    "publication_date": "2019-02-13",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 82,
+    "source": "http://arxiv.org/abs/1902.04711",
+    "summary": "Cette étude analyse les canaux cachés temporels basés sur le cache et propose d'utiliser l'occupation du cache plutôt que les traces de défauts de cache comme indicateur pour détecter ces attaques microarchitecturales, démontrant une meilleure résistance face à des adversaires avancés.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Towards a Better Indicator for Cache Timing Channels",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.1902.05178": {
     "doi": "https://doi.org/10.48550/arxiv.1902.05178",

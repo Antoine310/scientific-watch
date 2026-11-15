@@ -920,6 +920,14 @@
       "title": "Strategic Remote Attestation: Testbed for Internet-of-Things Devices and Stackelberg Security Game for Optimal Strategies",
       "updated_at": "2026-11-11T14:14:54.322065+00:00"
     },
+    "doi:10.1007/978-3-031-01760-5_5": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hardware Root of Trust",
+      "updated_at": "2026-11-15T11:13:44.278041+00:00"
+    },
     "doi:10.1007/978-3-031-08147-7_15": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -6711,6 +6719,14 @@
       "status": "rejected",
       "title": "Unique identification of gold and banknotes through the use of antipode elements: Material selection, laboratory verification steps, and industrial software–hardware implementation",
       "updated_at": "2026-11-15T04:37:05.843427+00:00"
+    },
+    "doi:10.1016/j.micpro.2019.01.007": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Cache timing attacks on NoC-based MPSoCs",
+      "updated_at": "2026-11-15T11:13:24.359442+00:00"
     },
     "doi:10.1016/j.micpro.2022.104737": {
       "category": "secondaire",
@@ -31904,6 +31920,14 @@
       "title": "The Pomarinho enclave swarm: structural and petrological evidence of repeated quenching, splitting and magmatic erosion at the sidewalls of conduits (Iberian Variscan belt)",
       "updated_at": "2026-11-02T20:16:46.220256+00:00"
     },
+    "doi:10.1145/3290384": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "ISA semantics for ARMv8-a, RISC-v, and CHERI-MIPS",
+      "updated_at": "2026-11-15T11:14:15.251812+00:00"
+    },
     "doi:10.1145/3299874.3317981": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -38448,6 +38472,14 @@
       "title": "A Post-Quantum Secure RISC-V application core for IoT: from hardware design to applications",
       "updated_at": "2026-10-31T23:13:21.058552+00:00"
     },
+    "doi:10.13140/rg.2.2.22919.44960": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Hardware-Based Isolation and Attestation Architecture for a RISC-V core",
+      "updated_at": "2026-11-15T11:14:15.251790+00:00"
+    },
     "doi:10.13189/ms.2026.140504": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -38791,6 +38823,22 @@
       "status": "imported",
       "title": "Reflections on the Experimental Evaluation of a Binary-Level Symbolic Analyzer for Spectre",
       "updated_at": "2026-11-11T14:19:22.549141+00:00"
+    },
+    "doi:10.14722/ndss.2019.23068": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "TIMBER-V: Tag-Isolated Memory Bringing Fine-grained Enclaves to RISC-V",
+      "updated_at": "2026-11-15T11:14:17.923764+00:00"
+    },
+    "doi:10.14722/ndss.2019.23448": {
+      "category": "transfert_explicite",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "SANCTUARY: ARMing TrustZone with User-space Enclaves",
+      "updated_at": "2026-11-15T11:14:20.352098+00:00"
     },
     "doi:10.14722/ndss.2020.24271": {
       "category": "coeur",
@@ -49328,6 +49376,14 @@
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
     },
+    "doi:10.48550/arxiv.1902.04711": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 82,
+      "status": "imported",
+      "title": "Towards a Better Indicator for Cache Timing Channels",
+      "updated_at": "2026-11-15T11:13:37.764439+00:00"
+    },
     "doi:10.48550/arxiv.1902.05178": {
       "category": "coeur",
       "decision": "conserver",
@@ -55719,6 +55775,14 @@
       "status": "rejected",
       "title": "Hardware Root of Trust for Internet of Things Devices",
       "updated_at": "2026-11-12T05:13:47.307714+00:00"
+    },
+    "title:hardwarerootoftrustoniotgateway": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 62,
+      "status": "rejected",
+      "title": "Hardware Root of Trust on IoT Gateway",
+      "updated_at": "2026-11-15T11:13:44.278088+00:00"
     },
     "title:hardwaretrojanthreatstomultichipletphotonicneuralnetworkaccelerators": {
       "category": "hors_sujet",
