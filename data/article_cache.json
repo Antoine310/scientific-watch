@@ -3152,6 +3152,14 @@
       "title": "Adversarially Robust Hardware Trojan Detection with Synthetic Data Augmentation",
       "updated_at": "2026-11-02T18:35:29.231094+00:00"
     },
+    "doi:10.1007/s10836-026-06269-8": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "When Microarchitecture Meets Cache Side Channels: Quantifying Interaction Effects via Mutual Information",
+      "updated_at": "2026-11-15T07:10:03.488810+00:00"
+    },
     "doi:10.1007/s10854-026-17194-z": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -36743,6 +36751,14 @@
       "status": "rejected",
       "title": "Efficient Linkage-Based Compartmentalization on CHERI",
       "updated_at": "2026-11-02T15:56:28.154859+00:00"
+    },
+    "doi:10.1145/3830454.3846672": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Branch Target Reuse: Practical Spectre-v2 Attacks in JIT Engines via Stale Branch Prediction Entries",
+      "updated_at": "2026-11-15T07:10:17.101443+00:00"
     },
     "doi:10.1145/3830454.3846712": {
       "category": "hors_sujet",
