@@ -3285,6 +3285,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/tc.2022.3152666": {
+    "doi": "https://doi.org/10.1109/tc.2022.3152666",
+    "publication_date": "2023-01-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computers",
+    "score": 90,
+    "source": "https://doi.org/10.1109/tc.2022.3152666",
+    "summary": "Cet article propose une approche formelle exhaustive basée sur l'UPEC (Unique Program Execution Checking) pour détecter les vulnérabilités liées aux attaques par exécution spéculative et canaux auxiliaires transitoires directement au niveau RTL (Register Transfer Level) des processeurs. L'approche ne nécessite pas de connaissances a priori sur les attaques connues et s'avère capable de découvrir de nouveaux vecteurs d'attaque sur des architectures de complexité réaliste.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "An Exhaustive Approach to Detecting Transient Execution Side Channels in RTL Designs of Processors",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tc.2022.3209923": {
     "doi": "https://doi.org/10.1109/tc.2022.3209923",
     "publication_date": "2023-02-01",
