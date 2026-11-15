@@ -8763,6 +8763,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.48550/arxiv.1902.05178": {
+    "doi": "https://doi.org/10.48550/arxiv.1902.05178",
+    "publication_date": "2019-02-14",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/1902.05178",
+    "summary": "Cet article analyse les attaques par canaux cachés liés à l'exécution spéculative, notamment Spectre et Meltdown. Il démontre que ces vulnérabilités ne sont pas de simples bugs mais découlent des optimisations microarchitecturales fondamentales. Les auteurs introduisent un méta-modèle mathématique, un modèle architectural avec sémantique spéculative et évaluent des atténuations logicielles. Ils concluent que les failles spéculatives compromettent la confidentialité au niveau logiciel et ont motivé un changement vers l'isolation des processus dans Chrome et V8.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Spectre is here to stay: An analysis of side-channels and speculative execution",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.48550/arxiv.1904.04782": {
     "doi": "https://doi.org/10.48550/arxiv.1904.04782",
     "publication_date": "2019-04-09",
