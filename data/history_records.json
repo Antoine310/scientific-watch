@@ -3710,6 +3710,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/tdsc.2021.3139840": {
+    "doi": "https://doi.org/10.1109/tdsc.2021.3139840",
+    "publication_date": "2023-01-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Dependable and Secure Computing",
+    "score": 75,
+    "source": "https://doi.org/10.1109/tdsc.2021.3139840",
+    "summary": "Cette étude analyse la sécurité des fonctionnalités de débogage des processeurs ARM, en particulier l'architecture ARM CoreSight et ses signaux d'authentification. Les auteurs démontrent que le nouveau modèle de débogage sans accès physique introduit depuis ARMv7 présente des risques majeurs. Ils présentent l'attaque Nailgun, qui permet d'extraire des secrets (clés AES, images d'empreintes) et d'exécuter du code arbitraire en mode hautement privilégié sans exploiter de bug logiciel. Enfin, ils proposent une contre-mesure basée sur la virtualisation ARM.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Revisiting ARM Debugging Features: Nailgun and its Defense",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tdsc.2022.3144287": {
     "doi": "https://doi.org/10.1109/tdsc.2022.3144287",
     "publication_date": "2022-01-21",
