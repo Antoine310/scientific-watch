@@ -21224,6 +21224,14 @@
       "title": "RIHANN: Remote IoT Hardware Authentication With Intrinsic Identifiers",
       "updated_at": "2026-11-15T09:40:03.533806+00:00"
     },
+    "doi:10.1109/jiot.2022.3195733": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "S-Box Attack Using FPGA Reverse Engineering for Lightweight Cryptography",
+      "updated_at": "2026-11-15T12:37:58.568163+00:00"
+    },
     "doi:10.1109/jiot.2022.3202265": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -23192,6 +23200,14 @@
       "title": "Shaping Resilient AI Hardware Through DNN Computational Feature Exploitation",
       "updated_at": "2026-11-14T08:41:44.142259+00:00"
     },
+    "doi:10.1109/mdat.2022.3202995": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Eavesdropping Attack Detection Using Machine Learning in Network-on-Chip Architectures",
+      "updated_at": "2026-11-15T12:38:07.204795+00:00"
+    },
     "doi:10.1109/mdat.2022.3203017": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -25087,6 +25103,14 @@
       "status": "rejected",
       "title": "Hardware Supported Crypto-Agility in Quantum Key Distribution and Physical Layer Security",
       "updated_at": "2026-11-06T05:38:08.325941+00:00"
+    },
+    "doi:10.1109/sasg57022.2022.10200406": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware Demonstration of a Coding-Based Attack Detection/Correction Metering System",
+      "updated_at": "2026-11-15T12:36:28.277440+00:00"
     },
     "doi:10.1109/satc65530.2025.11136985": {
       "category": "secondaire",
@@ -27512,6 +27536,14 @@
       "title": "TROT: A Three-Edge Ring Oscillator Based True Random Number Generator With Time-to-Digital Conversion",
       "updated_at": "2026-11-09T08:14:23.596820+00:00"
     },
+    "doi:10.1109/tcsi.2022.3208325": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Interleaved Challenge Loop PUF: A Highly Side-Channel Protected Oscillator-Based PUF",
+      "updated_at": "2026-11-15T12:38:17.326706+00:00"
+    },
     "doi:10.1109/tcsi.2023.3288600": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -29391,6 +29423,14 @@
       "status": "rejected",
       "title": "Polynomial Formal Verification of a RISC-V Processor",
       "updated_at": "2026-11-07T14:38:51.310280+00:00"
+    },
+    "doi:10.1109/tnet.2022.3171720": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Attack Resilience of Cache Replacement Policies: A Study Based on TTL Approximation",
+      "updated_at": "2026-11-15T12:37:48.351450+00:00"
     },
     "doi:10.1109/tnet.2023.3294019": {
       "category": "secondaire",
@@ -32528,6 +32568,22 @@
       "title": "Cache-related Hardware Capabilities and Their Impact on Information Security",
       "updated_at": "2026-11-15T09:39:56.876247+00:00"
     },
+    "doi:10.1145/3534972": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Cross-VM Covert- and Side-Channel Attacks in Cloud FPGAs",
+      "updated_at": "2026-11-15T12:36:37.994751+00:00"
+    },
+    "doi:10.1145/3544102": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 80,
+      "status": "imported",
+      "title": "Microarchitectural Attacks in Heterogeneous Systems: A Survey",
+      "updated_at": "2026-11-15T12:37:01.768999+00:00"
+    },
     "doi:10.1145/3557742": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -32631,6 +32687,14 @@
       "status": "rejected",
       "title": "Agile Acceleration of Stateful Hash-based Signatures in Hardware",
       "updated_at": "2026-11-10T15:41:03.998446+00:00"
+    },
+    "doi:10.1145/3568957": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Silicon-correlated Simulation Methodology of EM Side-channel Leakage Analysis",
+      "updated_at": "2026-11-15T12:38:27.297379+00:00"
     },
     "doi:10.1145/3569052.3571878": {
       "category": "hors_sujet",
@@ -33063,6 +33127,14 @@
       "status": "rejected",
       "title": "Introduction to the Special Issue on the Digital Threats of Hardware Security",
       "updated_at": "2026-11-13T15:46:56.737926+00:00"
+    },
+    "doi:10.1145/3586102.3586117": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "MURAS: An Efficient Multi-Value-Proof-Based Remote Attestation Scheme for Cloud Platform",
+      "updated_at": "2026-11-15T12:36:28.248238+00:00"
     },
     "doi:10.1145/3587096": {
       "category": "hors_sujet",
@@ -47127,6 +47199,14 @@
       "status": "rejected",
       "title": "HARDWARE ROOT OF TRUST BASED TPM: THE INHERENT OF 5IRECHAIN SECURITY",
       "updated_at": "2026-11-09T14:13:32.826112+00:00"
+    },
+    "doi:10.37676/jki.v1i2.18": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Security Control Systems Decelopment Laboratory In Space Hardware-Based Microcontroller Atmega 16",
+      "updated_at": "2026-11-15T12:36:28.311121+00:00"
     },
     "doi:10.37885/220809675": {
       "category": "hors_sujet",
