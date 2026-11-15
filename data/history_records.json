@@ -3322,6 +3322,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/tc.2021.3133701": {
+    "doi": "https://doi.org/10.1109/tc.2021.3133701",
+    "publication_date": "2022-10-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2022-10-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computers",
+    "score": 75,
+    "source": "https://doi.org/10.1109/tc.2021.3133701",
+    "summary": "La publication présente RvDfi, une architecture RISC-V conçue pour offrir une intégrité complète du flux de données (DFI) avec des performances élevées et de faibles surcoûts. En s'appuyant sur l'écosystème Rocket Chip, les auteurs proposent la première implémentation matérielle complète de la politique DFI sur RISC-V, réduisant significativement la perte de performance par rapport aux études antérieures.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "RvDfi: A RISC-V Architecture With Security Enforcement by High Performance Complete Data-Flow Integrity",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tc.2022.3152666": {
     "doi": "https://doi.org/10.1109/tc.2022.3152666",
     "publication_date": "2023-01-01",
@@ -11169,6 +11189,26 @@
     "title": "CIBPU: A Conflict-Invisible Secure Branch Prediction Unit",
     "venue_landmark": "",
     "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:cipherfixmitigatingciphertextsidechannelattacksinsoftware": {
+    "doi": "",
+    "publication_date": "2022-10-24",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2210.13124v2",
+    "summary": "Cet article présente Cipherfix, une solution logicielle pour atténuer les attaques par canal auxiliaire sur le texte chiffré dans les environnements d'exécution de confiance (TEEs). Il combine le suivi de taint et l'instrumentation binaire pour masquer les données sensibles avant leur écriture en mémoire, détruisant ainsi les motifs exploitables par les attaques de type Cipherleaks sans nécessiter de recompilation.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Cipherfix: Mitigating Ciphertext Side-Channel Attacks in Software",
+    "venue_landmark": "",
+    "venue_note": "Référence déclarée sur arXiv (non vérifiée) : 32nd USENIX Security Symposium, USENIX Security 2023",
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
