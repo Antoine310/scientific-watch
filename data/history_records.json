@@ -4396,6 +4396,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3240765.3240844": {
+    "doi": "https://doi.org/10.1145/3240765.3240844",
+    "publication_date": "2018-11-05",
+    "publication_type": "conference",
+    "publication_venue": "ICCAD '18: IEEE/ACM INTERNATIONAL CONFERENCE ON COMPUTER-AIDED DESIGN",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3240765.3240844",
+    "summary": "Cet article présente SCADET, un nouvel outil de détection des attaques par canaux auxiliaires microarchitecturaux, axé sur le suivi des attaques Prime+Probe. Plutôt que de se baser sur des compteurs de performance matériels, la méthode cible la sémantique de haut niveau et les motifs invariants de ces attaques. L'évaluation montre une détection de toutes les variantes de Prime+Probe avec un taux de vrais positifs de 100 % et un taux de faux positifs moyen de 7,4 %.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SCADET: a side-channel attack detection tool for tracking prime+probe",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3307650.3322238": {
     "doi": "https://doi.org/10.1145/3307650.3322238",
     "publication_date": "2019-06-14",
@@ -8976,6 +8993,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.48550/arxiv.1811.05441": {
+    "doi": "https://doi.org/10.48550/arxiv.1811.05441",
+    "publication_date": "2018-11-13",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/1811.05441",
+    "summary": "Cet article présente une systématisation des attaques par exécution spéculative (Spectre et Meltdown), révélant 6 nouvelles attaques (2 variantes de Meltdown et 4 nouvelles stratégies de mistraining pour Spectre) évaluées sur des processeurs Intel, AMD et ARM. L'évaluation montre que la plupart des défenses actuelles ne parviennent pas à atténuer complètement toutes les variantes.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "A Systematic Evaluation of Transient Execution Attacks and Defenses",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.48550/arxiv.1902.04711": {
     "doi": "https://doi.org/10.48550/arxiv.1902.04711",
     "publication_date": "2019-02-13",
@@ -10582,6 +10616,23 @@
       "T08 — Cache & Temporal Isolation"
     ],
     "title": "Strategies for securing cache memories against software side-channel attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.70675/e3b678aczaed6z4d28za08fz148521e61b8b": {
+    "doi": "https://doi.org/10.70675/e3b678aczaed6z4d28za08fz148521e61b8b",
+    "publication_date": "2018-11-26",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "https://doi.org/10.70675/e3b678aczaed6z4d28za08fz148521e61b8b",
+    "summary": "Cette thèse, réalisée dans le cadre du projet TEEVA, analyse la sécurité de l'architecture Trusted Execution Environment (TEE) basée sur la technologie ARM TrustZone face aux attaques par scan exploitant les infrastructures de test et de debug (DfT). Elle propose une nouvelle contremesure basée sur l'encryption du canal de test pour préserver la testabilité tout en protégeant les données sensibles.",
+    "themes": [
+      "T11 — PUF & TRNG"
+    ],
+    "title": "Securing a trusted hardware environment (Trusted Execution Environment)",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
