@@ -7040,6 +7040,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.20868/upm.thesis.57557": {
+    "doi": "https://doi.org/10.20868/upm.thesis.57557",
+    "publication_date": "2019-01-01",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 88,
+    "source": "https://doi.org/10.20868/upm.thesis.57557",
+    "summary": "Cette thèse analyse les mécanismes de fuite d'information par canaux auxiliaires microarchitecturaux, en se concentrant sur la cache de dernier niveau (LLC) dans les processeurs modernes. L'auteur étudie l'impact des optimisations de performance sur la sécurité, rétro-ingénière la politique de remplacement des processeurs Intel, développe de nouveaux attaques plus rapides contournant certaines contre-mesures, et propose des mécanismes de détection fiables ainsi qu'une politique d'allocation de tâches consciente de la sécurité pour le cloud.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Analysis and design of microarchitectural side-channel attacks and countermeasures",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.20944/preprints202511.1351.v1": {
     "publication_date": "2025-11-18",
     "publication_type": "prepublication",
@@ -10740,6 +10757,23 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:asecurityevaluationoftrustzonebasedtrustedexecutionenvironments": {
+    "doi": null,
+    "publication_date": "2019-01-01",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "https://dione.lib.unipi.gr/xmlui/handle/unipi/11965",
+    "summary": "Cet article analyse l'architecture des environnements d'exécution de confiance (TEE), en examinant spécifiquement les aspects de mise en œuvre des TEE basés sur TrustZone et en évaluant leur sécurité réelle à travers l'exploration des attaques et vulnérabilités de la littérature.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "A security evaluation of TrustZone based trusted execution environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "title:ataleofunrealizedhopehardwareperformancecounteragainstcacheattacks": {
     "doi": "",
     "publication_date": "2023-11-17",
@@ -13005,6 +13039,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "arXiv"
+  },
+  "title:spectreattackanddefense": {
+    "doi": null,
+    "publication_date": "2019-01-01",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "https://scholarship.claremont.edu/scripps_theses/1384",
+    "summary": "Cet article traite des attaques par canal auxiliaire basées sur la microarchitecture, notamment l'attaque Spectre, qui exploite l'exécution spéculative des processeurs modernes pour permettre des accès mémoriels non autorisés. Il décrit les variantes de Spectre ainsi que des propositions de défense et leur évaluation.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Spectre: Attack and Defense",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "title:specwandsanefficientprioritybasedscheduleragainstspeculationcontentionattacks": {
     "doi": "",
