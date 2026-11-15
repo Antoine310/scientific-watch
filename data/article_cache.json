@@ -792,6 +792,14 @@
       "title": "Hardware Security in the Connected World",
       "updated_at": "2026-11-04T22:48:45.771273+00:00"
     },
+    "doi:10.1007/978-1-4471-7503-2_22": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware and Software Reliability, Verification, and Testing",
+      "updated_at": "2026-11-15T05:36:51.130441+00:00"
+    },
     "doi:10.1007/978-3-030-71522-9_1645": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -968,6 +976,70 @@
       "title": "QCA Technology Based 8-Bit TRNG Design for Cryptography Applications",
       "updated_at": "2026-11-09T17:14:09.701021+00:00"
     },
+    "doi:10.1007/978-3-031-26896-0": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "CAD for Hardware Security",
+      "updated_at": "2026-11-15T05:37:01.578781+00:00"
+    },
+    "doi:10.1007/978-3-031-26896-0_1": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Introduction to CAD for Hardware Security",
+      "updated_at": "2026-11-15T05:37:01.611473+00:00"
+    },
+    "doi:10.1007/978-3-031-26896-0_10": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "CAD for Machine Learning in Hardware Security",
+      "updated_at": "2026-11-15T05:37:01.656310+00:00"
+    },
+    "doi:10.1007/978-3-031-26896-0_16": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "CAD for PUF Security",
+      "updated_at": "2026-11-15T05:37:01.690632+00:00"
+    },
+    "doi:10.1007/978-3-031-26896-0_17": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "CAD for FPGA Security",
+      "updated_at": "2026-11-15T05:37:01.725029+00:00"
+    },
+    "doi:10.1007/978-3-031-26896-0_18": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "The Future of CAD for Hardware Security",
+      "updated_at": "2026-11-15T05:37:09.739613+00:00"
+    },
+    "doi:10.1007/978-3-031-28259-1_5": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware Security Analysis",
+      "updated_at": "2026-11-15T05:36:50.957586+00:00"
+    },
+    "doi:10.1007/978-3-031-29497-6_10": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Energy Consumption of Protected Cryptographic Hardware Cores",
+      "updated_at": "2026-11-15T05:36:40.702429+00:00"
+    },
     "doi:10.1007/978-3-031-29497-6_3": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -975,6 +1047,46 @@
       "status": "rejected",
       "title": "A CCFI Verification Scheme Based on the RISC-V Trace Encoder",
       "updated_at": "2026-11-07T14:14:25.691897+00:00"
+    },
+    "doi:10.1007/978-3-031-29689-5_4": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Towards Automating Cryptographic Hardware Implementations: A Case Study of HQC",
+      "updated_at": "2026-11-15T05:36:40.737521+00:00"
+    },
+    "doi:10.1007/978-3-031-29927-8_24": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A Hardware Trojan Exploiting Coherence Protocol on NoCs",
+      "updated_at": "2026-11-15T05:36:40.838353+00:00"
+    },
+    "doi:10.1007/978-3-031-30122-3_3": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Do Not Rely on Clock Randomization: A Side-Channel Attack on a Protected Hardware Implementation of AES",
+      "updated_at": "2026-11-15T05:36:40.771745+00:00"
+    },
+    "doi:10.1007/978-3-031-30820-8_2": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "WASIM: A Word-level Abstract Symbolic Simulation Framework for Hardware Formal Verification",
+      "updated_at": "2026-11-15T05:36:51.096318+00:00"
+    },
+    "doi:10.1007/978-3-031-30872-7_18": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "A Flexible Shared Hardware Accelerator for NIST-Recommended Algorithms CRYSTALS-Kyber and CRYSTALS-Dilithium with SCA Protection",
+      "updated_at": "2026-11-15T05:36:51.061887+00:00"
     },
     "doi:10.1007/978-3-031-33386-6_18": {
       "category": "secondaire",
@@ -2607,6 +2719,22 @@
       "status": "rejected",
       "title": "Augmenting Security in Edge Devices: FPGA-Based Enhanced LEA Algorithm with S-Box and Chaotic Functions",
       "updated_at": "2026-11-08T02:37:17.288480+00:00"
+    },
+    "doi:10.1007/978-981-99-0055-8_19": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Modelling and Analysis of Confluence Attack by Hardware Trojan in NoC",
+      "updated_at": "2026-11-15T05:37:01.474800+00:00"
+    },
+    "doi:10.1007/978-981-99-1027-4_4": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Field-Oriented Control Strategy Verification Based on Power Hardware in Loop Simulation Technology",
+      "updated_at": "2026-11-15T05:37:01.542883+00:00"
     },
     "doi:10.1007/978-981-99-5091-1_22": {
       "category": "secondaire",
@@ -10327,6 +10455,14 @@
       "status": "rejected",
       "title": "RISC-V Instruction Set Architecture Extensions: A Survey",
       "updated_at": "2026-11-07T14:13:57.779654+00:00"
+    },
+    "doi:10.1109/access.2023.3273150": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Stealing Keys From Hardware Wallets: A Single Trace Side-Channel Attack on Elliptic Curve Scalar Multiplication Without Profiling",
+      "updated_at": "2026-11-15T05:37:01.508622+00:00"
     },
     "doi:10.1109/access.2023.3275757": {
       "category": "coeur",
@@ -28520,6 +28656,14 @@
       "title": "ALScA: A Framework for Using Auxiliary Learning Side-Channel Attacks to Model PUFs",
       "updated_at": "2026-11-15T02:40:06.206799+00:00"
     },
+    "doi:10.1109/tifs.2023.3263621": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Transfer-Path-Based Hardware-Reuse Strong PUF Achieving Modeling Attack Resilience With200 Million Training CRPs",
+      "updated_at": "2026-11-15T05:36:40.805304+00:00"
+    },
     "doi:10.1109/tifs.2023.3318935": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -28999,6 +29143,14 @@
       "status": "rejected",
       "title": "Real-Time Implementation and Detection of Stealthy False Data Injection Attacks in Active Distribution Networks Using Hardware-in-the-Loop Framework",
       "updated_at": "2026-11-03T17:31:20.424494+00:00"
+    },
+    "doi:10.1109/tpel.2022.3206182": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "An Encrypted On-Chip Power Supply With Random Parallel Power Injection and Charge Recycling Against Power/EM Side-Channel Attacks",
+      "updated_at": "2026-11-15T05:37:30.886309+00:00"
     },
     "doi:10.1109/tpel.2023.3336073": {
       "category": "hors_sujet",
@@ -30207,6 +30359,22 @@
       "status": "rejected",
       "title": "A Survey on Hardware Security Techniques for Preventing Reverse Engineering Attacks",
       "updated_at": "2026-11-14T10:37:51.549225+00:00"
+    },
+    "doi:10.1109/vlsid57277.2023.00019": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hardware implementation of Ring-LWE lattice cryptography with BCH and Gray coding based error correction",
+      "updated_at": "2026-11-15T05:36:50.993021+00:00"
+    },
+    "doi:10.1109/vlsid57277.2023.00080": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "DARK-Adders: Digital Hardware Trojan Attack on Block-based Approximate Adders",
+      "updated_at": "2026-11-15T05:36:51.027846+00:00"
     },
     "doi:10.1109/vlsid60093.2024.00059": {
       "category": "secondaire",
@@ -37784,6 +37952,22 @@
       "title": "Enhanced Approach To Generate One Time Password (OTP) Using Quantum True Random Number Generator (QTRNG)",
       "updated_at": "2026-11-05T05:16:00.877594+00:00"
     },
+    "doi:10.12792/iciae2023.054": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Introduction Hardware Switching Functionality to Web browser-based FPGA Hardware Verification System",
+      "updated_at": "2026-11-15T05:37:01.394969+00:00"
+    },
+    "doi:10.12792/iciae2023.055": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Development of Relationship Interface between High-level Synthesis and Web Browser-based Hardware Verification System with Virtual Peripheral",
+      "updated_at": "2026-11-15T05:37:01.440749+00:00"
+    },
     "doi:10.12794/metadc1505261": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -39927,6 +40111,22 @@
       "status": "rejected",
       "title": "Implementation of Tomasulo Algorithm for Out-of-Order Execution of Risc-V Processor",
       "updated_at": "2026-11-03T11:51:30.192612+00:00"
+    },
+    "doi:10.2139/ssrn.4386943": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Comparative Analysis of Multiresolution Features Through Power Side-Channel Signals for Hardware Trojan Detection",
+      "updated_at": "2026-11-15T05:36:29.139873+00:00"
+    },
+    "doi:10.2139/ssrn.4388717": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Certified Hardware Requirements Undermine Digital Currency",
+      "updated_at": "2026-11-15T05:36:29.173156+00:00"
     },
     "doi:10.2139/ssrn.4778901": {
       "category": "hors_sujet",
