@@ -3584,6 +3584,14 @@
       "title": "A Review on Blockchain and IoT Integration from Energy, Security and Hardware Perspectives",
       "updated_at": "2026-11-14T15:36:47.005949+00:00"
     },
+    "doi:10.1007/s11390-022-0910-x": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "RV16: An Ultra-Low-Cost Embedded RISC-V Processor Core",
+      "updated_at": "2026-11-15T21:37:04.402009+00:00"
+    },
     "doi:10.1007/s11390-023-0005-3": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -11624,6 +11632,14 @@
       "title": "RF-Fingerprinted Reconfigurable-Intelligent-Surface for Countering Hardware Spoofing Attacks",
       "updated_at": "2026-11-05T03:48:28.253425+00:00"
     },
+    "doi:10.1109/apccas55924.2022.10090293": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A High-Speed NTT-Based Polynomial Multiplication Accelerator with Vector Extension of RISC-V for Saber Algorithm",
+      "updated_at": "2026-11-15T21:37:23.575105+00:00"
+    },
     "doi:10.1109/apccas55924.2022.10090297": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -11631,6 +11647,14 @@
       "status": "rejected",
       "title": "Logic Locking for Hardware Security Using Voltage-Gated Spin-orbit Torque Magnetic Tunnel Junction",
       "updated_at": "2026-11-15T18:37:02.283229+00:00"
+    },
+    "doi:10.1109/apccas55924.2022.10090381": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Up to 13.7% Increase in Throughput of RISC V SoC Using Timing Speculative Razor SRAM",
+      "updated_at": "2026-11-15T21:37:23.610621+00:00"
     },
     "doi:10.1109/apccas60141.2023.00031": {
       "category": "secondaire",
@@ -12567,6 +12591,14 @@
       "status": "rejected",
       "title": "Context Cache for Multicore RISC-V Processor",
       "updated_at": "2026-11-08T06:38:05.250780+00:00"
+    },
+    "doi:10.1109/candarw57323.2022.00059": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "An Implementation of a Pattern Matching Accelerator on a RISC-V Processor",
+      "updated_at": "2026-11-15T21:37:23.540138+00:00"
     },
     "doi:10.1109/candarw60564.2023.00014": {
       "category": "secondaire",
@@ -13775,6 +13807,38 @@
       "status": "rejected",
       "title": "Hardware Implementation and Verification of Early Image Signal Processing Stages Using OpenISP",
       "updated_at": "2026-11-03T13:50:44.284967+00:00"
+    },
+    "doi:10.1109/dcis55711.2022.9970026": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Customizing the CVA6 RISC-V Core to Integrate Posit and Quire Instructions",
+      "updated_at": "2026-11-15T21:36:53.104825+00:00"
+    },
+    "doi:10.1109/dcis55711.2022.9970050": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "peRISCVcope: A Tiny Teaching-Oriented RISC-V Interpreter",
+      "updated_at": "2026-11-15T21:36:53.141551+00:00"
+    },
+    "doi:10.1109/dcis55711.2022.9970069": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Extending RISC-V Processor Datapaths with Multi-Grain Reconfigurable Overlays",
+      "updated_at": "2026-11-15T21:36:53.066860+00:00"
+    },
+    "doi:10.1109/dcis55711.2022.9970128": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "DVINO: A RISC-V Vector Processor Implemented in 65nm Technology",
+      "updated_at": "2026-11-15T21:37:04.254782+00:00"
     },
     "doi:10.1109/dcis58620.2023.10335970": {
       "category": "secondaire",
@@ -20264,6 +20328,14 @@
       "title": "A Novel Computational Model for Hardware-Level Security of Cloud Databases in Public Clouds",
       "updated_at": "2026-11-14T16:39:28.898090+00:00"
     },
+    "doi:10.1109/iscsic57216.2022.00082": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Design of A Programmable PCI-E Encryption System Based on RISC-V",
+      "updated_at": "2026-11-15T21:37:23.504472+00:00"
+    },
     "doi:10.1109/iscsic67494.2025.11351976": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -20503,6 +20575,22 @@
       "status": "rejected",
       "title": "SecureHD: Designing Low-Cost Reliable and Security Aware Hardware Accelerators During High-Level Synthesis for Computationally Intensive Application Frameworks",
       "updated_at": "2026-11-07T20:36:51.282420+00:00"
+    },
+    "doi:10.1109/isesd56103.2022.9980712": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Analysis of Cache Associativity and Replacement Policy on Matrix Multiplication Performance in RISC-V",
+      "updated_at": "2026-11-15T21:37:04.291431+00:00"
+    },
+    "doi:10.1109/isetc56213.2022.10010137": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "RISC-V based HW accelerator",
+      "updated_at": "2026-11-15T21:37:12.884255+00:00"
     },
     "doi:10.1109/isetc63109.2024.10797245": {
       "category": "secondaire",
@@ -25320,6 +25408,14 @@
       "title": "An Iot And Ml-Based Hardware Model For Antitheft Protection Of Laptops",
       "updated_at": "2026-11-06T22:36:41.609765+00:00"
     },
+    "doi:10.1109/rasse54974.2022.9989732": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A Programmable CNN Accelerator with RISC-V Core in Real-Time Wearable Application",
+      "updated_at": "2026-11-15T21:37:04.326959+00:00"
+    },
     "doi:10.1109/rcar61438.2024.10671295": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -25527,6 +25623,14 @@
       "status": "rejected",
       "title": "Transformer Differential Protection System Testing for Scholarly Benefits Using RTDS Hardware-in-the-Loop Technique",
       "updated_at": "2026-11-15T04:38:15.207968+00:00"
+    },
+    "doi:10.1109/sbac-pad55451.2022.00031": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Prof5: A RISC-V profiler tool",
+      "updated_at": "2026-11-15T21:37:04.218391+00:00"
     },
     "doi:10.1109/sbcci60457.2023.10261656": {
       "category": "secondaire",
@@ -27239,6 +27343,22 @@
       "status": "rejected",
       "title": "Toward Register Spilling Security Using LLVM and ARM Pointer Authentication",
       "updated_at": "2026-11-15T15:39:32.702977+00:00"
+    },
+    "doi:10.1109/tcad.2022.3197541": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Cyber–Physical Verification of Intermittently Powered Embedded Systems",
+      "updated_at": "2026-11-15T21:37:42.984608+00:00"
+    },
+    "doi:10.1109/tcad.2022.3199903": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Optimizing Random Forest-Based Inference on RISC-V MCUs at the Extreme Edge",
+      "updated_at": "2026-11-15T21:36:42.620161+00:00"
     },
     "doi:10.1109/tcad.2022.3207709": {
       "category": "hors_sujet",
@@ -29327,6 +29447,14 @@
       "status": "rejected",
       "title": "In-Memory Unified TRNG and PUF Based on RRAM Random Switching Time",
       "updated_at": "2026-10-31T17:15:11.713295+00:00"
+    },
+    "doi:10.1109/telfor56187.2022.9983779": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "RISC-V vector processor for acceleration of machine learning algorithms",
+      "updated_at": "2026-11-15T21:37:04.364609+00:00"
     },
     "doi:10.1109/telfor67910.2025.11314213": {
       "category": "hors_sujet",
@@ -33423,6 +33551,14 @@
       "status": "rejected",
       "title": "SoK: Deep Learning-based Physical Side-channel Analysis",
       "updated_at": "2026-11-14T22:38:50.300595+00:00"
+    },
+    "doi:10.1145/3569902.3569906": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Impact of failures in a MPSoC with shared coprocessors to extend the RISC-V ISA",
+      "updated_at": "2026-11-15T21:37:12.921441+00:00"
     },
     "doi:10.1145/3569955": {
       "category": "hors_sujet",
@@ -44327,6 +44463,14 @@
       "status": "rejected",
       "title": "Intelligent Load Management and Quiescent Power Reduction via Master-Controlled Power Strip Architectures for Energy-Efficient Hardware Design",
       "updated_at": "2026-11-02T16:51:20.697499+00:00"
+    },
+    "doi:10.3233/jae-210238": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Improvement of core loss model under AC–DC hybrid excitation and verification based on TEAM P21 extended model",
+      "updated_at": "2026-11-15T21:37:32.520352+00:00"
     },
     "doi:10.3233/jcs-210167": {
       "category": "secondaire",
@@ -58360,6 +58504,14 @@
       "title": "Physically Unclonable Functions for Secure IoT Authentication and Hardware-Anchored AI Model Integrity",
       "updated_at": "2026-11-03T12:27:57.935745+00:00"
     },
+    "title:physicsinspiredcompactmodellingofbifeo3basedmemristorsforhardwaresecurityapplications": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Physics inspired compact modelling of BiFeO$_3$ based memristors for hardware security applications",
+      "updated_at": "2026-11-15T21:37:53.368614+00:00"
+    },
     "title:picachvformallyverifieddatausepolicyenforcementforsecuredataanalytics": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -59119,6 +59271,14 @@
       "status": "imported",
       "title": "SCHERI: Provably Secure Speculation Under the Constant-Time Policy for CHERI (Extended Version)",
       "updated_at": "2026-11-02T15:57:24.077420+00:00"
+    },
+    "title:sclasecureconcurrencylayerforparanoidstatefullambdas": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "SCL: A Secure Concurrency Layer For Paranoid Stateful Lambdas",
+      "updated_at": "2026-11-15T21:37:53.404965+00:00"
     },
     "title:scrapsscalablecollectiveremoteattestationforpubsubiotnetworkswithuntrustedproxyverifier": {
       "category": "secondaire",
