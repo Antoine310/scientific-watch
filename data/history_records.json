@@ -3285,6 +3285,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/tc.2022.3222083": {
+    "doi": "https://doi.org/10.1109/tc.2022.3222083",
+    "publication_date": "2023-02-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-02-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computers",
+    "score": 90,
+    "source": "https://doi.org/10.1109/tc.2022.3222083",
+    "summary": "Cette étude analyse par rétro-ingénierie le bus frontal des processeurs Intel modernes, notamment entre le cache d'instructions décodées et la file d'attente, ainsi qu'entre cette file et le backend. Les auteurs démontrent que ce bus partagé dynamiquement entre cœurs logiques permet des canaux cachés temporels performants, sur machines physiques et virtuelles, et introduisent une nouvelle variante de l'attaque Spectre ainsi que des pistes d'atténuation.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Reverse-Engineering and Exploiting the Frontend Bus of Intel Processor",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tc.2023.3278536": {
     "doi": "https://doi.org/10.1109/tc.2023.3278536",
     "publication_date": "2025-03-01",
