@@ -4930,6 +4930,27 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3548606.3560613": {
+    "doi": "https://doi.org/10.1145/3548606.3560613",
+    "publication_date": "2022-11-25",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "CCS '22: 2022 ACM SIGSAC Conference on Computer and Communications Security",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2211.13958v1",
+    "summary": "Cet article introduit le concept de Leakage Templates pour décrire de manière abstraite les canaux auxiliaires basés sur la microarchitecture et identifier leurs occurrences dans les applications binaires. Les auteurs présentent Plumber, un framework combinant fuzzing d'instructions, mutation d'opérandes et analyse statistique pour explorer les comportements non documentés et dériver des conditions de vulnérabilité. L'approche permet d'identifier de nouvelles primitives de fuite (notamment sur ARM Cortex-A53 et -A72 liées à la prédiction et au préchargement) et de ré-identifier une vulnérabilité de préchargement dans OpenSSL.",
+    "themes": [
+      "T07 — Hardware Security Verification",
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Microarchitectural Leakage Templates and Their Application to Cache-Based Side Channels",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3564625.3567994": {
     "doi": "https://doi.org/10.1145/3564625.3567994",
     "publication_date": "2022-12-03",
@@ -4980,6 +5001,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3575693.3575700": {
+    "doi": "https://doi.org/10.1145/3575693.3575700",
+    "publication_date": "2022-11-26",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "ASPLOS '23: 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2211.14647v1",
+    "summary": "Cet article présente Hacky Racers, un nouveau type de chronomètre à grain fin basé sur le parallélisme au niveau des instructions (ILP) dans les processeurs modernes. Cette technique permet de contourner les restrictions des environnements bac à sable (comme les navigateurs) en matière de mesure du temps, sans nécessiter de SharedArrayBuffer ni d'exécution spéculative.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Hacky Racers: Exploiting Instruction-Level Parallelism to Generate Stealthy Fine-Grained Timers",
+    "venue_landmark": "ASPLOS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1145/3576915.3623065": {
     "doi": "https://doi.org/10.1145/3576915.3623065",
