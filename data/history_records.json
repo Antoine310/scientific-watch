@@ -4971,6 +4971,26 @@
     "venue_priority": 2,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3563695": {
+    "doi": "https://doi.org/10.1145/3563695",
+    "publication_date": "2022-11-17",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2022-11-17",
+    "publication_type": "revue",
+    "publication_venue": "ACM Transactions on Architecture and Code Optimization",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3563695",
+    "summary": "Cet article étudie les attaques par relecture microarchitecturale, telles que MicroScope, qui exploitent l'exécution spéculative pour piéger les applications dans des boucles et amplifier les canaux auxiliaires, même dans des environnements sécurisés comme les enclaves. Les auteurs généralisent ces attaques et proposent Delay-on-Squash, une défense matérielle efficace.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Delay-on-Squash: Stopping Microarchitectural Replay Attacks in Their Tracks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3564625.3567994": {
     "doi": "https://doi.org/10.1145/3564625.3567994",
     "publication_date": "2022-12-03",
