@@ -4951,6 +4951,26 @@
     "venue_priority": 2,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3560834.3563830": {
+    "doi": "https://doi.org/10.1145/3560834.3563830",
+    "publication_date": "2022-11-07",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2022-11-07",
+    "publication_type": "conference",
+    "publication_venue": "CCS '22: 2022 ACM SIGSAC Conference on Computer and Communications Security",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3560834.3563830",
+    "summary": "SpecDefender est un cadre de protection contre les attaques d'exécution spéculative (variantes de Spectre) qui utilise les compteurs de performance matériels (HPC) pour détecter dynamiquement les attaques et appliquer une instrumentation dynamique, préservant ainsi les performances du système.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "SpecDefender: Transient Execution Attack Defender using Performance Counters",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3564625.3567994": {
     "doi": "https://doi.org/10.1145/3564625.3567994",
     "publication_date": "2022-12-03",
