@@ -2822,6 +2822,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/seed51797.2021.00023": {
+    "doi": "https://doi.org/10.1109/SEED51797.2021.00023",
+    "publication_date": "2023-01-09",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "2021 International Symposium on Secure and Private Execution Environment Design (SEED)",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2301.03724v1",
+    "summary": "Cet article propose une systématisation (SoK) des défenses matérielles contre les attaques par exécution spéculative. Les auteurs identifient six étapes critiques dans ces attaques et définissent des stratégies de défense correspondantes pour bloquer chacune de ces étapes. Vingt défenses matérielles et techniques de réduction de surcoût sont ainsi classées et analysées selon leur portée, leur impact sur les performances et les compromis sécurité-performance.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SoK: Hardware Defenses Against Speculative Execution Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/seed55351.2022.00008": {
     "doi": "https://doi.org/10.1109/seed55351.2022.00008",
     "publication_date": "2022-09-01",
@@ -3669,6 +3689,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex (titre exact)"
+  },
+  "doi:10.1109/tdsc.2021.3133576": {
+    "doi": "https://doi.org/10.1109/tdsc.2021.3133576",
+    "publication_date": "2023-01-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2023-01-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Dependable and Secure Computing",
+    "score": 85,
+    "source": "https://doi.org/10.1109/tdsc.2021.3133576",
+    "summary": "Cet article présente CVTEE, une architecture TEE vérifiée et compatible, utilisant un moniteur de sécurité pour gérer les ressources. La correction fonctionnelle et la sécurité sont garanties par des preuves formelles, et l'architecture est applicable à différentes plateformes TEE grâce à un haut niveau d'abstraction. Une preuve de concept a été implémentée pour le module de contrôle d'accès de Teaclave.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "CVTEE: A Compatible Verified TEE Architecture With Enhanced Security",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/tdsc.2022.3144287": {
     "doi": "https://doi.org/10.1109/tdsc.2022.3144287",
@@ -10800,6 +10840,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:cluelessatoolcharacterisingvaluesleakingasaddresses": {
+    "doi": "",
+    "publication_date": "2023-01-25",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2301.10618v1",
+    "summary": "Clueless est un outil d'instrumentation binaire conçu pour caractériser les vulnérabilités par canaux cachés explicites liés aux caches dans les programmes. Il détecte la transformation de valeurs de données en adresses en suivant les dépendances dynamiques des instructions et permet de tracer des données spécifiques, comme des mots de passe, pour analyser leur conversion en adresses.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Clueless: A Tool Characterising Values Leaking as Addresses",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:comprehensivekernelsafetyinthespectreeramitigationsandperformanceevaluationextendedversion": {
     "doi": "",
     "publication_date": "2024-11-27",
@@ -11692,6 +11752,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "M-Step: A Single-Stepping Framework for Side-Channel Analysis on TrustZone-M"
+  },
+  "title:mvammultivariantattacksonmemoryforiottrustcomputing": {
+    "doi": "",
+    "publication_date": "2023-01-11",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2301.04591v1",
+    "summary": "Cet article analyse les vulnérabilités d'ARM TrustZone sur les processeurs Cortex-M et introduit deux nouvelles attaques multi-variantes sur la mémoire (MOFlow et Achilles heel) permettant de compromettre l'isolation des données dans les environnements d'exécution de confiance (TEE) pour l'IdO.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "MVAM: Multi-variant Attacks on Memory for IoT Trust Computing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:nacrerethinkingconfidentialcontainersthroughnativearchitecturalsupport": {
     "publication_date": "2026-09-03",
