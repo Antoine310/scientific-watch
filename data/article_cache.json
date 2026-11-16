@@ -24312,6 +24312,14 @@
       "title": "Coverage-Driven Power Scenario Construction and Quantitative Evaluation for RISC-V Processors",
       "updated_at": "2026-11-02T19:34:37.185022+00:00"
     },
+    "doi:10.1109/micro.2018.00083": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "DAWG: A Defense Against Cache Timing Attacks in Speculative Execution Processors",
+      "updated_at": "2026-11-16T02:13:56.904664+00:00"
+    },
     "doi:10.1109/micro50266.2020.00093": {
       "category": "coeur",
       "decision": "conserver",
@@ -27631,6 +27639,14 @@
       "status": "imported",
       "title": "System-Level Isolation for Mixed-Criticality RISC-V SoCs: A “World” Reality Check",
       "updated_at": "2026-11-02T08:30:29.730765+00:00"
+    },
+    "doi:10.1109/tcad.2018.2858402": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Symbolic Verification of Cache Side-Channel Freedom",
+      "updated_at": "2026-11-16T02:13:54.094428+00:00"
     },
     "doi:10.1109/tcad.2020.3047976": {
       "category": "secondaire_technique",
@@ -33247,6 +33263,14 @@
       "status": "imported",
       "title": "SCADET: a side-channel attack detection tool for tracking prime+probe",
       "updated_at": "2026-11-15T23:13:49.227589+00:00"
+    },
+    "doi:10.1145/3243734.3243822": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Nemesis: Studying Microarchitectural Timing Leaks in Rudimentary CPU Interrupt Logic",
+      "updated_at": "2026-11-16T02:13:37.172608+00:00"
     },
     "doi:10.1145/3267116": {
       "category": "secondaire",
@@ -44600,6 +44624,14 @@
       "title": "Constructing Sliding Windows Leak from Noisy Cache Timing Information of OSS-RSA",
       "updated_at": "2026-11-14T05:14:30.268509+00:00"
     },
+    "doi:10.29042/2018-4375-4379": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "True Random Number Generator through Beat Frequency Oscillators in FPGA",
+      "updated_at": "2026-11-16T02:14:13.610062+00:00"
+    },
     "doi:10.29056/jsf.2026.03.04": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -52695,6 +52727,14 @@
       "status": "rejected",
       "title": "Benchmarking Analytical Query Processing in Intel SGXv2",
       "updated_at": "2026-11-10T15:39:46.640927+00:00"
+    },
+    "doi:10.4995/thesis/10251/112423": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Adaptive Prefetching and Cache Partitioning for Multicore Processors",
+      "updated_at": "2026-11-16T02:14:03.403413+00:00"
     },
     "doi:10.5038/1944-0472.16.3.2137": {
       "category": "hors_sujet",

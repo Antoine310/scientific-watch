@@ -2598,6 +2598,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/micro.2018.00083": {
+    "doi": "https://doi.org/10.1109/micro.2018.00083",
+    "publication_date": "2018-10-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/micro.2018.00083",
+    "summary": "Cet article présente DAWG (Dynamically Allocated Way Guard), un mécanisme matériel minimal visant à éliminer le canal cachée des caches par le partitionnement sécurisé des voies des structures associatives, afin de contrer les attaques par canal auxiliaire et par exécution spéculative.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "DAWG: A Defense Against Cache Timing Attacks in Speculative Execution Processors",
+    "venue_landmark": "MICRO",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/micro50266.2020.00093": {
     "publication_date": "2026-10-06",
     "publication_type": "prepublication",
@@ -4452,6 +4469,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3243734.3243822": {
+    "doi": "https://doi.org/10.1145/3243734.3243822",
+    "publication_date": "2018-10-15",
+    "publication_type": "conference",
+    "publication_venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3243734.3243822",
+    "summary": "Cet article présente Nemesis, un vecteur d'attaque par canal auxiliaire exploitant le mécanisme d'interruption des CPU pour fuiter des informations temporelles d'exécution à partir d'environnements sécurisés isolés, tels que des enclaves matérielles, en mesurant la latence d'interruptions minutieusement chronométrées.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Nemesis: Studying Microarchitectural Timing Leaks in Rudimentary CPU Interrupt Logic",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.1145/3307650.3322238": {
     "doi": "https://doi.org/10.1145/3307650.3322238",
