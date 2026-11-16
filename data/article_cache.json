@@ -2592,6 +2592,14 @@
       "title": "Reverse Engineering and Systematic Evaluation of Prefetcher-Based Security Vulnerabilities in Commercial RISC-V Processors",
       "updated_at": "2026-11-02T09:08:53.633435+00:00"
     },
+    "doi:10.1007/978-981-10-8797-4_44": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Random Seeding LFSR-Based TRNG for Hardware Security Applications",
+      "updated_at": "2026-11-16T08:13:27.174357+00:00"
+    },
     "doi:10.1007/978-981-13-8715-9_45": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -19423,6 +19431,14 @@
       "status": "rejected",
       "title": "An Area-Efficient ChaCha20 Hardware Accelerator Design for Secure and Real-Time Communication in CAVs",
       "updated_at": "2026-11-05T03:26:15.359379+00:00"
+    },
+    "doi:10.1109/idap.2018.8620811": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Hardware Design and Analysis of Ring Oscillator Based Noise Source for True Random Number Generators",
+      "updated_at": "2026-11-16T08:13:27.174323+00:00"
     },
     "doi:10.1109/idciot56793.2023.10052782": {
       "category": "hors_sujet",
@@ -62071,6 +62087,14 @@
       "status": "rejected",
       "title": "TranScope: What the Software Hides About LLM Training Data, the Hardware Reveals at Scale, and Accelerators Magnify",
       "updated_at": "2026-11-02T13:04:59.321806+00:00"
+    },
+    "title:translationleakasidebufferdefeatingcachesidechannelprotectionswithtlbattacks": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Translation leak-aside buffer : Defeating cache side-channel protections with TLB attacks",
+      "updated_at": "2026-11-16T08:13:50.707476+00:00"
     },
     "title:transparentattesteddnsforconfidentialcomputingservices": {
       "category": "secondaire_technique",

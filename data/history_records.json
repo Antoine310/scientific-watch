@@ -13749,6 +13749,23 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:translationleakasidebufferdefeatingcachesidechannelprotectionswithtlbattacks": {
+    "doi": null,
+    "publication_date": "2018-08-01",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "https://research.vu.nl/en/publications/c7ba898c-adea-4d6c-9e09-79b40d38ad92",
+    "summary": "Cette publication démontre que les mécanismes de protection des caches CPU (comme CAT et TSX) ne suffisent pas à empêcher les attaques par canal auxiliaire. Les auteurs introduisent le concept de Translation leak-aside buffer (TLB) en montrant que les TLBs matériels peuvent être détournés pour fuiter des informations fines sur l'activité d'une victime, malgré l'isolation des caches. Ils proposent TLBleed, une stratégie combinant rétro-ingénierie des fonctions d'adressage des TLB et apprentissage automatique sur des caractéristiques temporelles de haute résolution, permettant d'extraire des clés cryptographiques.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Translation leak-aside buffer : Defeating cache side-channel protections with TLB attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "title:treestealerstealingdecisiontreesviaenclavesidechannels": {
     "doi": "",
     "publication_date": "2026-04-20",
