@@ -1671,6 +1671,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/icecs202256217.2022.9971056": {
+    "doi": "https://doi.org/10.1109/icecs202256217.2022.9971056",
+    "publication_date": "2022-10-24",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2022-10-24",
+    "publication_type": "conference",
+    "publication_venue": "2022 29th IEEE International Conference on Electronics, Circuits and Systems (ICECS)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/icecs202256217.2022.9971056",
+    "summary": "Cet article présente la conception, le développement et la synthèse des composants matériels de l'architecture M3, qui intègre des cœurs et des accélérateurs dans une architecture matérielle modulaire (tiled hardware architecture). Chaque tuile comprend une unité de communication de confiance (TCD) qui isole les tuiles par défaut. Les mesures de performance montrent un surcoût temporel négligeable, et les résultats de synthèse indiquent un surcoût de surface de 11 % pour les composants de sécurité à grande échelle.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "A Trusted Communication Unit for Secure Tiled Hardware Architectures",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/icecs58634.2023.10382921": {
     "doi": "https://doi.org/10.1109/icecs58634.2023.10382921",
     "publication_date": "2023-12-04",
@@ -2837,6 +2857,26 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Implementing a Secure Boot System on a 32-Bit RISC-V CPU on FPGA",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/secdev53368.2022.00019": {
+    "doi": "https://doi.org/10.1109/secdev53368.2022.00019",
+    "publication_date": "2022-10-01",
+    "publication_date_note": "Date source Crossref : 2022-10 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2022-10",
+    "publication_type": "conference",
+    "publication_venue": "2022 IEEE Secure Development Conference (SecDev)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/secdev53368.2022.00019",
+    "summary": "Cette publication présente Salsa, la première solution d'attestation du flux de contrôle pour les enclaves Intel SGX. L'article aborde la vulnérabilité des enclaves face aux attaques logicielles à l'exécution, que l'attestation statique traditionnelle ne peut détecter. Pour démontrer son applicabilité, Salsa est utilisé dans un service de streaming vidéo sécurisé par enclave SGX, capable d'interrompre instantanément la diffusion en cas de compromission détectée et d'offrir des performances suffisantes pour un service en direct.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Salsa: SGX Attestation for Live Streaming Applications",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,

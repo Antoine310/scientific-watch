@@ -1104,6 +1104,86 @@
       "title": "Building a RISC-V Processor with a Multicycle Pipeline",
       "updated_at": "2026-11-15T08:37:39.589599+00:00"
     },
+    "doi:10.1007/978-3-031-19185-5_1": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Intrinsic Racetrack PUF",
+      "updated_at": "2026-11-16T01:37:09.102452+00:00"
+    },
+    "doi:10.1007/978-3-031-19185-5_18": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Side-Channel Protection in Cryptographic Hardware",
+      "updated_at": "2026-11-16T01:37:09.142548+00:00"
+    },
+    "doi:10.1007/978-3-031-19185-5_19": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Fault Injection Resistant Cryptographic Hardware",
+      "updated_at": "2026-11-16T01:37:09.180109+00:00"
+    },
+    "doi:10.1007/978-3-031-19185-5_2": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Intrinsic-Transient PUF",
+      "updated_at": "2026-11-16T01:37:09.221556+00:00"
+    },
+    "doi:10.1007/978-3-031-19185-5_3": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Direct Intrinsic Characterization PUF",
+      "updated_at": "2026-11-16T01:37:09.263288+00:00"
+    },
+    "doi:10.1007/978-3-031-19185-5_4": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Volatile Memory-Based PUF",
+      "updated_at": "2026-11-16T01:37:09.305062+00:00"
+    },
+    "doi:10.1007/978-3-031-19185-5_5": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Extrinsic Direct Characterization PUF",
+      "updated_at": "2026-11-16T01:37:09.345755+00:00"
+    },
+    "doi:10.1007/978-3-031-19185-5_6": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hybrid Extrinsic Radio Frequency PUF",
+      "updated_at": "2026-11-16T01:37:09.387366+00:00"
+    },
+    "doi:10.1007/978-3-031-19185-5_7": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Optical PUF",
+      "updated_at": "2026-11-16T01:37:09.425700+00:00"
+    },
+    "doi:10.1007/978-3-031-19185-5_9": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Hardware Security Primitives Based on Emerging Technologies",
+      "updated_at": "2026-11-16T01:37:17.639117+00:00"
+    },
     "doi:10.1007/978-3-031-21514-8_29": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -17688,6 +17768,14 @@
       "title": "Configuration and Testing of a Feeder Protection-Based Power Redirection Technique with IEC 61850 Standard GOOSE Control Model Using Hardware-in-the-Loop for an Electrical Distribution System",
       "updated_at": "2026-11-02T20:56:46.097202+00:00"
     },
+    "doi:10.1109/icecs202256217.2022.9971056": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "A Trusted Communication Unit for Secure Tiled Hardware Architectures",
+      "updated_at": "2026-11-16T01:36:40.005574+00:00"
+    },
     "doi:10.1109/icecs58634.2023.10382727": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -19872,6 +19960,14 @@
       "title": "Design and Functional Evaluation of a Custom RISC-V Convolution Instruction Using the Spike Simulator",
       "updated_at": "2026-11-03T11:51:41.475329+00:00"
     },
+    "doi:10.1109/iros47612.2022.9981550": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Sparse PointPillars: Maintaining and Exploiting Input Sparsity to Improve Runtime on Embedded Systems",
+      "updated_at": "2026-11-16T01:37:45.404968+00:00"
+    },
     "doi:10.1109/irps61424.2026.11499200": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -21335,6 +21431,14 @@
       "status": "rejected",
       "title": "Research on RISC-V-based Edge Convolution Acceleration Extension Instruction Set",
       "updated_at": "2026-11-05T04:50:34.770343+00:00"
+    },
+    "doi:10.1109/issrew55968.2022.00080": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Improving Flexibility in Embedded System Runtime Verification with Python",
+      "updated_at": "2026-11-16T01:37:45.371582+00:00"
     },
     "doi:10.1109/isssr58837.2023.00073": {
       "category": "secondaire",
@@ -26071,6 +26175,14 @@
       "status": "rejected",
       "title": "RADIS: Remote Attestation of Distributed IoT Services",
       "updated_at": "2026-11-14T17:13:33.965440+00:00"
+    },
+    "doi:10.1109/secdev53368.2022.00019": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Salsa: SGX Attestation for Live Streaming Applications",
+      "updated_at": "2026-11-16T01:37:09.061619+00:00"
     },
     "doi:10.1109/secdev61143.2024.00021": {
       "category": "transfert_explicite",
@@ -33568,6 +33680,46 @@
       "title": "Lessons Learned from Blockchain Applications of Trusted Execution Environments and Implications for Future Research",
       "updated_at": "2026-11-10T05:13:26.835465+00:00"
     },
+    "doi:10.1145/3508352.3561096": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Embracing Graph Neural Networks for Hardware Security",
+      "updated_at": "2026-11-16T01:37:27.656419+00:00"
+    },
+    "doi:10.1145/3508352.3561103": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware IP Protection against Confidentiality Attacks and Evolving Role of CAD Tool",
+      "updated_at": "2026-11-16T01:37:27.692000+00:00"
+    },
+    "doi:10.1145/3508352.3561115": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Quantum Machine Learning for Material Synthesis and Hardware Security (Invited Paper)",
+      "updated_at": "2026-11-16T01:37:27.732153+00:00"
+    },
+    "doi:10.1145/3508352.3561116": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Securing Hardware through Reconfigurable Nano-Structures",
+      "updated_at": "2026-11-16T01:37:27.772168+00:00"
+    },
+    "doi:10.1145/3508352.3561117": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Reconfigurable Logic for Hardware IP Protection",
+      "updated_at": "2026-11-16T01:37:27.812317+00:00"
+    },
     "doi:10.1145/3508398.3511507": {
       "category": "coeur",
       "decision": "conserver",
@@ -34079,6 +34231,54 @@
       "status": "imported",
       "title": "A RISC-V Extension to Minimize Privileges of Enclave Runtimes",
       "updated_at": "2026-11-06T23:14:15.826135+00:00"
+    },
+    "doi:10.1145/3578428": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Session details: Addressing Sensor Security through Hardware/Software Co-Design",
+      "updated_at": "2026-11-16T01:37:27.847697+00:00"
+    },
+    "doi:10.1145/3578432": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Session details: CAD for Confidentiality of Hardware IPS",
+      "updated_at": "2026-11-16T01:37:27.882310+00:00"
+    },
+    "doi:10.1145/3578445": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Session details: Hardware Security: Attacks and Countermeasures (Virtual)",
+      "updated_at": "2026-11-16T01:37:27.913960+00:00"
+    },
+    "doi:10.1145/3578459": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Session details: Architectures and Methodologies for Advanced Hardware Security",
+      "updated_at": "2026-11-16T01:37:27.952289+00:00"
+    },
+    "doi:10.1145/3578470": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Session details: Special Session: Hardware Security through Reconfigurability: Attacks, Defenses, and Challenges",
+      "updated_at": "2026-11-16T01:37:27.992310+00:00"
+    },
+    "doi:10.1145/3578478": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Session details: Algorithms and Tools for Security Analysis and Secure Hardware Design",
+      "updated_at": "2026-11-16T01:37:35.202845+00:00"
     },
     "doi:10.1145/3579092": {
       "category": "secondaire",
