@@ -4531,6 +4531,27 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1142/s0218126623500263": {
+    "doi": "https://doi.org/10.1142/s0218126623500263",
+    "publication_date": "2022-08-19",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2022-08-19",
+    "publication_type": "revue",
+    "publication_venue": "Journal of Circuits, Systems and Computers",
+    "score": 90,
+    "source": "https://doi.org/10.1142/s0218126623500263",
+    "summary": "Cet article présente un cache d'isolement dynamique à premier accès (dynamic first access isolation cache) conçu pour éliminer les attaques par canal auxiliaire basées sur la réutilisation (reuse-based cache side channel attacks). L'approche utilise des bits de suivi par ligne de cache, des niveaux de sécurité hiérarchiques et un mécanisme de planification dynamique pour empêcher l'exploitation des états de cache par un attaquant tout en maintenant le partage des données, avec un surcoût de performance très faible évalué via le simulateur Zsim.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels",
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Dynamic First Access Isolation Cache to Eliminate Reuse-Based Cache Side Channel Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3240765.3240844": {
     "doi": "https://doi.org/10.1145/3240765.3240844",
     "publication_date": "2018-11-05",
