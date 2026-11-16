@@ -1,8 +1,8 @@
 {
   "accepted": 348,
   "completed": false,
-  "cursor": "*",
-  "evaluated": 6416,
+  "cursor": "MTc5MzA0MzU2MjAwMCwxMC4xMTA5JTJGaWN0YWNzNTYyNzAuMjAyMi4xMTc1MjEyMQ==",
+  "evaluated": 6441,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -520,14 +520,168 @@
     "monthly/2022-10/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2022-10/query-19 : résultat tronqué au plafond 12 pages",
     "monthly/2022-10/query-20 : résultat tronqué au plafond 12 pages",
-    "monthly/2022-10/query-21 : résultat tronqué au plafond 12 pages"
+    "monthly/2022-10/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2022-10/query-22 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2022-10",
   "needs_publish": false,
-  "offset": 0,
-  "pages_done": 7496,
-  "pages_in_query": 0,
-  "pending": [],
+  "offset": 440,
+  "pages_done": 7519,
+  "pages_in_query": 11,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Dexing Qin"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Xue Bai"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Yiliang Wu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Yendo Hu"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1145/3573428.3573757",
+        "id": "https://doi.org/10.1145/3573428.3573757",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1145/3573428.3573757"
+        },
+        "publication_date": "2022-10-21",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2022-10-21",
+        "publication_type": "conference",
+        "publication_venue": "EITCE 2022: 2022 6th International Conference on Electronic Information Technology and Computer Engineering",
+        "title": "Design and Implementation of Neural Network Accelerated SOC Based on Small RISC-V Processor",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Hui Wang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Yuyuan Du"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Xiangcheng Mu"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/ahpcai57455.2022.10087608",
+        "id": "https://doi.org/10.1109/ahpcai57455.2022.10087608",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/ahpcai57455.2022.10087608"
+        },
+        "publication_date": "2022-10-21",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2022-10-21",
+        "publication_type": "conference",
+        "publication_venue": "2022 2nd International Conference on Algorithms, High Performance Computing and Artificial Intelligence (AHPCAI)",
+        "title": "Research on In-System Programming IP of RISC-V Processor",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Carlos Moratelli"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ramão Tiburski"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sérgio F. Johann"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Emanuel Moura"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Everton De Matos"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Fabiano Hessel"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/wf-iot54382.2022.10152084",
+        "id": "https://doi.org/10.1109/wf-iot54382.2022.10152084",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/wf-iot54382.2022.10152084"
+        },
+        "publication_date": "2022-10-26",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2022-10-26",
+        "publication_type": "conference",
+        "publication_venue": "2022 IEEE 8th World Forum on Internet of Things (WF-IoT)",
+        "title": "MIPS and RISC-V: Evaluating Virtualization Trade-off for Edge Devices",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2931,9 +3085,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 2698,
-  "query_index": 22,
+  "prefilter_review_overflow": 2710,
+  "query_index": 23,
   "secondary": 347,
-  "skipped": 6823,
+  "skipped": 6899,
   "version": 1
 }
