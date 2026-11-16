@@ -7850,6 +7850,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.3390/app12157750": {
+    "doi": "https://doi.org/10.3390/app12157750",
+    "publication_date": "2022-08-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2022-08-01",
+    "publication_type": "revue",
+    "publication_venue": "Applied Sciences",
+    "score": 75,
+    "source": "https://doi.org/10.3390/app12157750",
+    "summary": "Cet article propose une architecture matérielle de surveillance de la sécurité pour les systèmes embarqués, combinant l'intégrité des données (DI) et l'intégrité du flux de contrôle (CFI) afin de détecter les attaques par altération. L'approche utilise des résumés DI, des étiquettes CFI et une table de bitmap pour le saut indirect, le tout implémenté sur un FPGA Xilinx Virtex 5 avec une surcharge de performance d'environ 6 %.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "A Hardware Security-Monitoring Architecture Based on Data Integrity and Control Flow Integrity for Embedded Systems",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.3390/chips5030024": {
     "publication_date": "2026-08-06",
     "publication_date_note": "",
@@ -11207,6 +11227,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "A TEE-Based Architecture for Confidential and Dependable Process Attestation in Authorship Verification",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:autocatreinforcementlearningforautomatedexplorationofcachetimingattacks": {
+    "doi": "",
+    "publication_date": "2022-08-17",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2208.08025v3",
+    "summary": "Cet article présente AutoCAT, un cadre d'exploration automatisé basé sur l'apprentissage par renforcement (RL) pour découvrir des attaques par canal temporel sur les caches des microprocesseurs. L'approche formule l'attaque comme un jeu de devinettes entre un programme attaquant et une victime. AutoCAT a permis de découvrir StealthyStreamline, une nouvelle attaque contournant la détection par compteurs de performance avec un taux de fuite d'information supérieur aux attaques par LRU.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "AutoCAT: Reinforcement Learning for Automated Exploration of Cache-Timing Attacks",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
