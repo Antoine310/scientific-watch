@@ -11728,6 +11728,14 @@
       "title": "An Instruction-Level On-Chip Side-Channel Analysis Platform Based on RISC-V",
       "updated_at": "2026-11-03T16:10:31.088042+00:00"
     },
+    "doi:10.1109/ahpcai57455.2022.10087608": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 50,
+      "status": "rejected",
+      "title": "Research on In-System Programming IP of RISC-V Processor",
+      "updated_at": "2026-11-16T05:36:29.047811+00:00"
+    },
     "doi:10.1109/aicas57966.2023.10168630": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -26520,6 +26528,14 @@
       "title": "Avenger: Punishing the Cross-Core Last-Level Cache Attacker and Not the Victim by Isolating the Attacker",
       "updated_at": "2026-11-08T08:14:00.237444+00:00"
     },
+    "doi:10.1109/seed55351.2022.00009": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "Chameleon Cache: Approximating Fully Associative Caches with Random Replacement to Prevent Contention-Based Cache Attacks",
+      "updated_at": "2026-11-16T05:39:46.955165+00:00"
+    },
     "doi:10.1109/seed61283.2024.00015": {
       "category": "coeur",
       "decision": "conserver",
@@ -32688,6 +32704,14 @@
       "title": "Bao-Enclave: Virtualization-based Enclaves for Arm",
       "updated_at": "2026-11-08T02:14:25.173351+00:00"
     },
+    "doi:10.1109/wf-iot54382.2022.10152084": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "MIPS and RISC-V: Evaluating Virtualization Trade-off for Edge Devices",
+      "updated_at": "2026-11-16T05:36:29.108605+00:00"
+    },
     "doi:10.1109/wf-iot58464.2023.10539576": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -34032,6 +34056,14 @@
       "title": "Lessons Learned from Blockchain Applications of Trusted Execution Environments and Implications for Future Research",
       "updated_at": "2026-11-10T05:13:26.835465+00:00"
     },
+    "doi:10.1145/3508352.3549369": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 49,
+      "status": "rejected",
+      "title": "Don't CWEAT It: Toward CWE Analysis Techniques in Early Stages of Hardware Design",
+      "updated_at": "2026-11-16T05:37:16.736602+00:00"
+    },
     "doi:10.1145/3508352.3561096": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -34152,6 +34184,14 @@
       "title": "Microarchitectural Attacks in Heterogeneous Systems: A Survey",
       "updated_at": "2026-11-15T12:37:01.768999+00:00"
     },
+    "doi:10.1145/3545948.3545987": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Write Me and I'll Tell You Secrets -- Write-After-Write Effects On Intel CPUs",
+      "updated_at": "2026-11-16T05:39:36.468566+00:00"
+    },
     "doi:10.1145/3545948.3545997": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -34168,6 +34208,14 @@
       "title": "Designing Hardware for Cryptography and Cryptography for Hardware",
       "updated_at": "2026-11-15T17:38:09.646186+00:00"
     },
+    "doi:10.1145/3548606.3560595": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 92,
+      "status": "imported",
+      "title": "Cerberus: A Formal Approach to Secure and Efficient Enclave Memory Sharing",
+      "updated_at": "2026-11-16T05:38:51.911504+00:00"
+    },
     "doi:10.1145/3548606.3560613": {
       "category": "coeur",
       "decision": "conserver",
@@ -34175,6 +34223,14 @@
       "status": "imported",
       "title": "Microarchitectural Leakage Templates and Their Application to Cache-Based Side Channels",
       "updated_at": "2026-11-15T15:38:09.307873+00:00"
+    },
+    "doi:10.1145/3548606.3560672": {
+      "category": "secondaire_technique",
+      "decision": "conserver",
+      "score": 74,
+      "status": "rejected",
+      "title": "Cache Refinement Type for Side-Channel Detection of Cryptographic Software",
+      "updated_at": "2026-11-16T05:39:36.807441+00:00"
     },
     "doi:10.1145/3548606.3560690": {
       "category": "hors_sujet",
@@ -34503,6 +34559,14 @@
       "status": "rejected",
       "title": "The Sparse Synchronous Model on Real Hardware",
       "updated_at": "2026-11-09T00:36:28.423882+00:00"
+    },
+    "doi:10.1145/3573428.3573757": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Design and Implementation of Neural Network Accelerated SOC Based on Small RISC-V Processor",
+      "updated_at": "2026-11-16T05:36:29.018488+00:00"
     },
     "doi:10.1145/3573834.3574530": {
       "category": "hors_sujet",
@@ -56616,6 +56680,14 @@
       "title": "Automatic and Incremental Repair for Speculative Information Leaks",
       "updated_at": "2026-11-13T21:39:31.294949+00:00"
     },
+    "title:automaticdetectionofspeculativeexecutioncombinations": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Automatic Detection of Speculative Execution Combinations",
+      "updated_at": "2026-11-16T05:40:11.644946+00:00"
+    },
     "title:automotivehsmsarchitecturalchallengesandsecurityimplications": {
       "category": "secondaire",
       "decision": "examiner",
@@ -56839,6 +56911,14 @@
       "status": "rejected",
       "title": "C8s: A Confidential Kubernetes Architecture",
       "updated_at": "2026-11-03T12:28:50.796280+00:00"
+    },
+    "title:cacheqlquantifyingandlocalizingcachesidechannelvulnerabilitiesinproductionsoftware": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 70,
+      "status": "rejected",
+      "title": "CacheQL: Quantifying and Localizing Cache Side-Channel Vulnerabilities in Production Software",
+      "updated_at": "2026-11-16T05:39:46.997938+00:00"
     },
     "title:cachesquashmakingcachesspeculationaware": {
       "category": "coeur",
@@ -57695,6 +57775,14 @@
       "status": "rejected",
       "title": "Emerging Paradigms for Securing Federated Learning Systems",
       "updated_at": "2026-11-04T17:49:14.452637+00:00"
+    },
+    "title:emfaultityourselfbuildingareplicableemfisetupfordesktopandserverhardware": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "EM-Fault It Yourself: Building a Replicable EMFI Setup for Desktop and Server Hardware",
+      "updated_at": "2026-11-16T05:38:38.083314+00:00"
     },
     "title:empiricalanalysisofteeenabledrollupdesigns": {
       "category": "secondaire",
@@ -59560,6 +59648,14 @@
       "title": "OTRO: Oblivious Tokenization Path with Square-Root ORAM",
       "updated_at": "2026-11-02T21:36:06.460053+00:00"
     },
+    "title:pabootaformallyverifiedauthenticationprotocolformultiprocessorsecureboot": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "PA-Boot: A Formally Verified Authentication Protocol for Multiprocessor Secure Boot",
+      "updated_at": "2026-11-16T05:38:26.997922+00:00"
+    },
     "title:page404breakinggpuisolationthroughhardwareassistedpagemigration": {
       "category": "coeur",
       "decision": "conserver",
@@ -59887,6 +59983,14 @@
       "status": "rejected",
       "title": "Processeur RISC-V enrichi avec une unité de microdécodage dynamique",
       "updated_at": "2026-11-06T17:13:47.094550+00:00"
+    },
+    "title:processorfuzzguidingprocessorfuzzingusingcontrolandstatusregisters": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "ProcessorFuzz: Guiding Processor Fuzzing using Control and Status Registers",
+      "updated_at": "2026-11-16T05:38:38.055857+00:00"
     },
     "title:prodifprotectingdomaininvariantfeaturestosecurepretrainedmodelsagainstextraction": {
       "category": "secondaire",
@@ -61824,6 +61928,14 @@
       "title": "Trusted Identities for AI Agents: Leveraging Telco-Hosted eSIM Infrastructure",
       "updated_at": "2026-11-06T11:38:13.466962+00:00"
     },
+    "title:trustedipsolutioninmultitenantcloudfpgaplatform": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Trusted IP solution in multi-tenant cloud FPGA platform",
+      "updated_at": "2026-11-16T05:38:20.187578+00:00"
+    },
     "title:trustedmodelenvironmentforprivatesemanticcomputations": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -61839,6 +61951,14 @@
       "status": "rejected",
       "title": "Trustless Autonomy: Understanding Motivations, Benefits, and Governance Dilemmas in Self-Sovereign Decentralized AI Agents",
       "updated_at": "2026-11-06T03:36:31.850673+00:00"
+    },
+    "title:trusttokenatrustedsocsolutionfornontrustedintellectualpropertyips": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "TrustToken, a Trusted SoC solution for Non-Trusted Intellectual Property (IP)s",
+      "updated_at": "2026-11-16T05:37:29.535919+00:00"
     },
     "title:trustworthyandcontrollableprofessionalknowledgeutilizationinlargelanguagemodelswithteegpuexecution": {
       "category": "secondaire",

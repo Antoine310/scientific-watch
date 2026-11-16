@@ -2953,6 +2953,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/seed55351.2022.00009": {
+    "doi": "https://doi.org/10.1109/SEED55351.2022.00009",
+    "publication_date": "2022-09-29",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "2022 IEEE International Symposium on Secure and Private Execution Environment Design (SEED)",
+    "score": 88,
+    "source": "http://arxiv.org/abs/2209.14673v1",
+    "summary": "Ce papier présente Chameleon Cache, une architecture de cache visant à améliorer la robustesse des caches randomisés et biaisés (RSCs) contre les attaques par canal auxiliaire basées sur la contention. En combinant un RSC avec une mémoire cache victime (VC) et en exploitant les multiples correspondances d'adresses, Chameleon Cache simule un cache entièrement associatif à remplacement aléatoire pour masquer les motifs d'accès mémoire tout en réduisant la fréquence nécessaire de changement de clé.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Chameleon Cache: Approximating Fully Associative Caches with Random Replacement to Prevent Contention-Based Cache Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/seed61283.2024.00015": {
     "doi": "https://doi.org/10.1109/seed61283.2024.00015",
     "publication_date": "2024-05-16",
@@ -5039,6 +5059,46 @@
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3545948.3545987": {
+    "doi": "https://doi.org/10.1145/3545948.3545987",
+    "publication_date": "2022-09-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "RAID 2022: 25th International Symposium on Research in Attacks, Intrusions and Defenses",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2209.01894v1",
+    "summary": "Cet article étudie les particularités des instructions d'écriture sur les processeurs Intel récents et met en évidence le canal auxiliaire Write+Write, qui permet de détecter si deux adresses entrent en conflit dans le même ensemble de cache. Les auteurs démontrent son utilisation pour construire rapidement des ensembles d'éviction, attaquer des schémas de randomisation du cache comme ScatterCache, et synchroniser des canaux cachés furtifs.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Write Me and I'll Tell You Secrets -- Write-After-Write Effects On Intel CPUs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3548606.3560595": {
+    "doi": "https://doi.org/10.1145/3548606.3560595",
+    "publication_date": "2022-09-30",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "CCS '22: 2022 ACM SIGSAC Conference on Computer and Communications Security",
+    "score": 92,
+    "source": "http://arxiv.org/abs/2209.15253v2",
+    "summary": "Cet article présente Cerberus, une approche formelle pour un partage de mémoire sécurisé et efficace entre enclaves matérielles. L'étude compare différents modèles, étend une plateforme d'enclave existante pour permettre l'immutabilité et le partage de mémoire, et utilise une vérification formelle incrémentale basée sur le modèle TAP (Trusted Abstract Platform). Les auteurs prouvent la propriété d'exécution à distance sécurisée (SRE) et démontrent la faisabilité de leur approche en l'implémentant sur la plateforme RISC-V Keystone.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Cerberus: A Formal Approach to Secure and Efficient Enclave Memory Sharing",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
     "venue_provenance": "Crossref"
   },
   "doi:10.1145/3548606.3560613": {
@@ -11116,6 +11176,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:automaticdetectionofspeculativeexecutioncombinations": {
+    "doi": "",
+    "publication_date": "2022-09-02",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2209.01179v1",
+    "summary": "Cet article présente un cadre formel et son implémentation dans l'outil Spectector pour raisonner sur les combinaisons de mécanismes d'exécution spéculative. Les auteurs modélisent et combinent la spéculation sur les branchements, les écritures (stores) et les retours (returns) pour vérifier automatiquement des codes vulnérables à des attaques de type Spectre v1, v4, v5 ainsi qu'à leurs compositions.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Automatic Detection of Speculative Execution Combinations",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:avxtimingsidechannelattacksagainstaddressspacelayoutrandomization": {
     "doi": "",
     "publication_date": "2023-04-17",
@@ -13704,6 +13784,46 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "TRUSTCHECKPOINTS: Time Betrays Malware for Unconditional Software Root of Trust",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:trustedipsolutioninmultitenantcloudfpgaplatform": {
+    "doi": "",
+    "publication_date": "2022-09-22",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2209.11274v1",
+    "summary": "Cet article traite de la sécurité des FPGAs en environnement cloud multi-locataires et propose TrustToken, un mécanisme d'exécution de confiance basé sur une racine de confiance matérielle pour protéger les IP tierces contre les attaquants logiciels malveillants.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Trusted IP solution in multi-tenant cloud FPGA platform",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:trusttokenatrustedsocsolutionfornontrustedintellectualpropertyips": {
+    "doi": "",
+    "publication_date": "2022-09-26",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2209.12987v1",
+    "summary": "La publication présente TrustToken, une solution matérielle basée sur une racine de confiance (RoT) pour sécuriser des IP tierces non de confiance au sein de System-on-Chips (SoC) hétérogènes. Le système isole les IP non de confiance, gère la génération de clés sécurisées, l'aléa (TRNG), et contrôle l'autorisation des communications à l'exécution via un contrôleur dédié et des signaux de jeton (tokens).",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "TrustToken, a Trusted SoC solution for Non-Trusted Intellectual Property (IP)s",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
