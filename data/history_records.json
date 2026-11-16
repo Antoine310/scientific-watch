@@ -9225,6 +9225,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.48550/arxiv.1806.07480": {
+    "doi": "https://doi.org/10.48550/arxiv.1806.07480",
+    "publication_date": "2018-06-19",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/1806.07480",
+    "summary": "Cet article présente LazyFP, une attaque par canal auxiliaire microarchitectural exploitant le mécanisme d'optimisation du changement de contexte paresseux (lazy context switching) des registres FPU et SIMD. Les auteurs démontrent qu'il est possible de récupérer l'état des registres d'autres processus ou machines virtuelles via les effets secondaires sur les caches, en raison de l'exécution transitoire d'instructions FPU ou SIMD après une exception.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "LazyFP: Leaking FPU Register State using Microarchitectural Side-Channels",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.48550/arxiv.1807.08003": {
     "doi": "https://doi.org/10.48550/arxiv.1807.08003",
     "publication_date": "2018-07-20",
