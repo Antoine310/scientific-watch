@@ -1,8 +1,8 @@
 {
   "accepted": 354,
   "completed": false,
-  "cursor": "MTY2MTQzMjI3NzAwMCwxMC4xMDgwJTJGMjE2ODE3MjQuMjAyMi4yMTE3ODQ4",
-  "evaluated": 6486,
+  "cursor": "MTY3MzM4ODE2OTAwMCwxMC4xMDA3JTJGOTc4LTMtMDMxLTE2MzQ0LTlfMw==",
+  "evaluated": 6511,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -530,10 +530,260 @@
   ],
   "month": "2022-09",
   "needs_publish": false,
-  "offset": 40,
-  "pages_done": 7594,
-  "pages_in_query": 1,
-  "pending": [],
+  "offset": 320,
+  "pages_done": 7601,
+  "pages_in_query": 8,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Luca Bertaccini"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Gianna Paulin"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Tim Fischer"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Stefan Mach"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Luca Benini"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/arith54963.2022.00010",
+        "id": "https://doi.org/10.1109/arith54963.2022.00010",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/arith54963.2022.00010"
+        },
+        "publication_date": "2022-09-01",
+        "publication_date_note": "Date source Crossref : 2022-09 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2022-09",
+        "publication_type": "conference",
+        "publication_venue": "2022 IEEE 29th Symposium on Computer Arithmetic (ARITH)",
+        "title": "MiniFloat-NN and ExSdotp: An ISA Extension and a Modular Open Hardware Unit for Low-Precision Training on RISC-V Cores",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Ludmila A. Zolotorevich"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Valery A. Ilyinkov"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.17223/19988605/60/11",
+        "id": "https://doi.org/10.17223/19988605/60/11",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.17223/19988605/60/11"
+        },
+        "publication_date": "2022-09-01",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2022-09-01",
+        "publication_type": "revue",
+        "publication_venue": "Vestnik Tomskogo gosudarstvennogo universiteta. Upravlenie, vychislitel'naya tekhnika i informatika",
+        "title": "Determining security key the hardware for digital devices",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Franco Stellari"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Peilin Song"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/itc50671.2022.00009",
+        "id": "https://doi.org/10.1109/itc50671.2022.00009",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/itc50671.2022.00009"
+        },
+        "publication_date": "2022-09-01",
+        "publication_date_note": "Date source Crossref : 2022-09 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2022-09",
+        "publication_type": "conference",
+        "publication_venue": "2022 IEEE International Test Conference (ITC)",
+        "title": "Reliability Study of 14 nm Scan Chains and Its Application to Hardware Security",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Prabuddha Chakraborty"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Swarup Bhunia"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/itc50671.2022.00081",
+        "id": "https://doi.org/10.1109/itc50671.2022.00081",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/itc50671.2022.00081"
+        },
+        "publication_date": "2022-09-01",
+        "publication_date_note": "Date source Crossref : 2022-09 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2022-09",
+        "publication_type": "conference",
+        "publication_venue": "2022 IEEE International Test Conference (ITC)",
+        "title": "AI-Driven Assurance of Hardware IP against Reverse Engineering Attacks",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Siarhei S. Zalivaka"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Alexander A. Ivaniuk"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1007/978-3-031-16344-9_1",
+        "id": "https://doi.org/10.1007/978-3-031-16344-9_1",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1007/978-3-031-16344-9_1"
+        },
+        "publication_date": "2022-09-06",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2022-09-06",
+        "publication_type": "inconnu",
+        "publication_venue": "Frontiers of Quality Electronic Design (QED)",
+        "title": "NAND Flash Memory Devices Security Enhancement Based on Physical Unclonable Functions",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T11 — PUF & TRNG"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Jaya Dofe"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Wafi Danesh"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1007/978-3-031-16344-9_10",
+        "id": "https://doi.org/10.1007/978-3-031-16344-9_10",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1007/978-3-031-16344-9_10"
+        },
+        "publication_date": "2022-09-06",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2022-09-06",
+        "publication_type": "inconnu",
+        "publication_venue": "Frontiers of Quality Electronic Design (QED)",
+        "title": "AI-Based Hardware Security Methods for Internet-of-Things Applications",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2937,9 +3187,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 2722,
+  "prefilter_review_overflow": 2737,
   "query_index": 17,
   "secondary": 352,
-  "skipped": 6939,
+  "skipped": 6943,
   "version": 1
 }
