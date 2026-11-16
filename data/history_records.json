@@ -2506,6 +2506,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/lca.2022.3197777": {
+    "doi": "https://doi.org/10.1109/lca.2022.3197777",
+    "publication_date": "2022-07-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2022-07-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Computer Architecture Letters",
+    "score": 95,
+    "source": "https://doi.org/10.1109/lca.2022.3197777",
+    "summary": "Ce travail présente un moteur de protection mémoire (MPE) open-source basé sur un arbre d'intégrité de style SGX, intégré à un SoC RISC-V compatible avec Keystone, et couplé à un simulateur de mémoire principale non volatile (NVMM). L'objectif est d'offrir une plateforme d'évaluation système pour les appareils en périphérie (edge) gérant des environnements d'exécution de confiance (TEE).",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Open-Source Hardware Memory Protection Engine Integrated With NVMM Simulator",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/lca.2023.3306326": {
     "doi": "https://doi.org/10.1109/lca.2023.3306326",
     "publication_date": "2023-07-01",
