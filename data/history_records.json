@@ -4293,6 +4293,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/tvlsi.2022.3171810": {
+    "doi": "https://doi.org/10.1109/tvlsi.2022.3171810",
+    "publication_date": "2022-07-01",
+    "publication_date_note": "Date source Crossref : 2022-07 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2022-07",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "score": 90,
+    "source": "https://doi.org/10.1109/tvlsi.2022.3171810",
+    "summary": "Cet article présente une nouvelle approche pour détecter les attaques microarchitecturales dans les microprocesseurs de systèmes embarqués, en utilisant des structures Count-Min Sketches. Un module de vérification de sécurité externe observe les instructions et identifie les activités suspectes sans modifier le processeur ni perturber son fonctionnement. Évalué sur un grand cœur RISC-V, le système détecte 100 % de diverses attaques (Spectre, Orchestration, Rowhammer, Flush + Reload) sans faux positif, avec un surcoût de surface d'environ 10 %, une augmentation de puissance de 4 % et aucune réduction de fréquence.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Processor Security: Detecting Microarchitectural Attacks via Count-Min Sketches",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tvlsi.2023.3302837": {
     "doi": "https://doi.org/10.1109/tvlsi.2023.3302837",
     "publication_date": "2023-08-28",
@@ -12874,6 +12894,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "PMU-Data: Data Traces Could be Distinguished",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:pmuspillthecountersinperformancemonitorunitthatleaksgxprotectedsecrets": {
+    "doi": "",
+    "publication_date": "2022-07-24",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2207.11689v1",
+    "summary": "PMUSpill est une attaque microarchitecturale exploitant l'unité de surveillance des performances (PMU) pour fuiter des données protégées par Intel SGX, en montrant que certains événements liés à l'exécution transitoire sont enregistrés à tort par les compteurs du PMU.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "PMUSpill: The Counters in Performance Monitor Unit that Leak SGX-Protected Secrets",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
