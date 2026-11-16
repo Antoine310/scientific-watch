@@ -1827,6 +1827,27 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/icnisc57059.2022.00048": {
+    "doi": "https://doi.org/10.1109/icnisc57059.2022.00048",
+    "publication_date": "2022-09-01",
+    "publication_date_note": "Date source Crossref : 2022-09 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2022-09",
+    "publication_type": "conference",
+    "publication_venue": "2022 8th Annual International Conference on Network and Information Systems for Computers (ICNISC)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/icnisc57059.2022.00048",
+    "summary": "Cet article présente un système embarqué RISC-V sécurisé intégrant une unité de surveillance de la sécurité (SMU) matérielle. Cette unité réalise un suivi en temps réel de l'intégrité des instructions via des blocs de base de programme et surveille les adresses de retour de fonction à l'aide d'une pile miroir (shadow stack). L'évaluation montre un bon équilibre entre la surcharge de performance et la consommation de ressources.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves",
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Real-Time Instruction Execution Monitoring with Hardware-Assisted Security Monitoring Unit in RISC-V Embedded Systems",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/icsft66733.2026.11507038": {
     "publication_date": "2026-01-01",
     "publication_type": "conference",
