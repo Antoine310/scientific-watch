@@ -1,8 +1,8 @@
 {
   "accepted": 346,
   "completed": false,
-  "cursor": "MTYzNzcyMTMwNjAwMCwxMC4xMDE2JTJGai5nZWUuMjAyMS4xMC4wMDQ=",
-  "evaluated": 6339,
+  "cursor": "MTY3MDg3NDYwMjAwMCwxMC4xMTA5JTJGaWNlY3MyMDIyNTYyMTcuMjAyMi45OTcxMDc5",
+  "evaluated": 6364,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -515,14 +515,55 @@
     "monthly/2022-11/query-24 : résultat tronqué au plafond 12 pages",
     "monthly/2022-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2022-10/query-14 : résultat tronqué au plafond 12 pages",
-    "monthly/2022-10/query-15 : résultat tronqué au plafond 12 pages"
+    "monthly/2022-10/query-15 : résultat tronqué au plafond 12 pages",
+    "monthly/2022-10/query-16 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2022-10",
   "needs_publish": false,
-  "offset": 80,
-  "pages_done": 7426,
-  "pages_in_query": 2,
-  "pending": [],
+  "offset": 280,
+  "pages_done": 7443,
+  "pages_in_query": 7,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Sebastian Haas"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Nils Asmussen"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/icecs202256217.2022.9971056",
+        "id": "https://doi.org/10.1109/icecs202256217.2022.9971056",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/icecs202256217.2022.9971056"
+        },
+        "publication_date": "2022-10-24",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2022-10-24",
+        "publication_type": "conference",
+        "publication_venue": "2022 29th IEEE International Conference on Electronics, Circuits and Systems (ICECS)",
+        "title": "A Trusted Communication Unit for Secure Tiled Hardware Architectures",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -2926,9 +2967,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 2678,
-  "query_index": 16,
-  "secondary": 344,
-  "skipped": 6791,
+  "prefilter_review_overflow": 2691,
+  "query_index": 17,
+  "secondary": 346,
+  "skipped": 6800,
   "version": 1
 }
