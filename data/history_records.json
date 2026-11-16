@@ -873,6 +873,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/csf.2018.00011": {
+    "doi": "https://doi.org/10.1109/csf.2018.00011",
+    "publication_date": "2018-07-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE Computer Security Foundations Workshop (CSFW)",
+    "score": 92,
+    "source": "https://doi.org/10.1109/csf.2018.00011",
+    "summary": "Cet article présente la conception, la documentation et l'implémentation d'un processeur d'exécution sécurisée basé sur l'architecture RISC-V Rocket. Il met en œuvre un démarrage sécurisé (secure boot) et une attestation à distance sans nécessiter de mémoire non volatile sécurisée ni de clé privée assignée par le fabricant. L'identité cryptographique est dérivée des variations de fabrication via une fonction physiquement clonable (PUF) et transformée en paire de clés par un extracteur flou trapdoor, évaluée sur FPGA Xilinx Zynq 7000.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Invited Paper: Secure Boot and Remote Attestation in the Sanctum Processor",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/csf57540.2023.00019": {
     "doi": "https://doi.org/10.1109/csf57540.2023.00019",
     "publication_date": "2023-07-01",
@@ -9147,6 +9164,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "Crossref"
+  },
+  "doi:10.48550/arxiv.1807.08003": {
+    "doi": "https://doi.org/10.48550/arxiv.1807.08003",
+    "publication_date": "2018-07-20",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 88,
+    "source": "http://arxiv.org/abs/1807.08003",
+    "summary": "Cet article présente ScaRR, un schéma d'attestation à distance en cours d'exécution (runtime remote attestation) conçu pour être scalable et applicable aux systèmes complexes tels que les machines virtuelles dans le cloud, surmontant ainsi les limites des solutions existantes limitées aux appareils embarqués ou aux propriétés statiques.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "ScaRR: Scalable Runtime Remote Attestation for Complex Systems",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "doi:10.48550/arxiv.1811.05441": {
     "doi": "https://doi.org/10.48550/arxiv.1811.05441",

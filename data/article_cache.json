@@ -13872,6 +13872,14 @@
       "title": "A Human-Machine Collaborative Code Translator from ARM NEON to RISC-V Vector",
       "updated_at": "2026-11-03T12:06:41.740100+00:00"
     },
+    "doi:10.1109/csf.2018.00011": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 92,
+      "status": "imported",
+      "title": "Invited Paper: Secure Boot and Remote Attestation in the Sanctum Processor",
+      "updated_at": "2026-11-16T11:14:06.711037+00:00"
+    },
     "doi:10.1109/csf57540.2023.00019": {
       "category": "coeur",
       "decision": "examiner",
@@ -34080,6 +34088,14 @@
       "title": "Side-Channel Analysis of SM2: A Late-Stage Featurization Case Study",
       "updated_at": "2026-11-15T17:13:30.101158+00:00"
     },
+    "doi:10.1145/3277539.3281471": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "How to Live in a Post-Meltdown and -Spectre World: Learn from the past to prepare for the next battle.",
+      "updated_at": "2026-11-16T11:13:22.694683+00:00"
+    },
     "doi:10.1145/3290384": {
       "category": "secondaire",
       "decision": "examiner",
@@ -47136,6 +47152,14 @@
       "title": "A Brief Survey on Hardware Implementation of Fully Homomorphic Encryption",
       "updated_at": "2026-11-02T20:18:20.245377+00:00"
     },
+    "doi:10.3390/cryptography2030022": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Barrel Shifter Physical Unclonable Function Based Encryption",
+      "updated_at": "2026-11-16T11:13:32.844098+00:00"
+    },
     "doi:10.3390/cryptography3030018": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -48087,6 +48111,14 @@
       "status": "rejected",
       "title": "GC-Assisted Runtime Integrity Verification for Heap-Resident Bytecode in an FPGA-Based Virtual Machine",
       "updated_at": "2026-11-02T15:15:29.994361+00:00"
+    },
+    "doi:10.3390/electronics7090163": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Total Ionizing Dose Effects on a Delay-Based Physical Unclonable Function Implemented in FPGAs",
+      "updated_at": "2026-11-16T11:13:43.026334+00:00"
     },
     "doi:10.3390/electronics9081197": {
       "category": "hors_sujet",
@@ -50536,6 +50568,14 @@
       "title": "THE EFFECT OF CUSTOMER VALUE, CUSTOMER EXPERIENCE AND CUSTOMER TRUST ON CUSTOMER SATISFACTION (ACE HARDWARE MEDAN CUSTOMER)",
       "updated_at": "2026-11-14T00:37:01.414565+00:00"
     },
+    "doi:10.46586/tches.v2018.i3.267-292": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "ES-TRNG: A High-throughput, Low-area True Random Number Generator based on Edge Sampling",
+      "updated_at": "2026-11-16T11:13:43.026315+00:00"
+    },
     "doi:10.46586/tches.v2021.i1.109-136": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -52575,6 +52615,22 @@
       "status": "rejected",
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
+    },
+    "doi:10.48550/arxiv.1807.00477": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "BesFS: A POSIX Filesystem for Enclaves with a Mechanized Safety Proof",
+      "updated_at": "2026-11-16T11:14:13.001837+00:00"
+    },
+    "doi:10.48550/arxiv.1807.08003": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "ScaRR: Scalable Runtime Remote Attestation for Complex Systems",
+      "updated_at": "2026-11-16T11:14:36.670234+00:00"
     },
     "doi:10.48550/arxiv.1811.05441": {
       "category": "coeur",
