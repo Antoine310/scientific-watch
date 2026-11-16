@@ -31088,6 +31088,14 @@
       "title": "Research and Development Priorities for Security of Embedded Hardware Devices",
       "updated_at": "2026-11-11T08:38:34.729995+00:00"
     },
+    "doi:10.1109/temc.2018.2844027": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "EM Information Security Threats Against RO-Based TRNGs: The Frequency Injection Attack Based on IEMI and EM Information Leakage",
+      "updated_at": "2026-11-16T20:13:33.452468+00:00"
+    },
     "doi:10.1109/temc.2022.3159868": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -34607,6 +34615,22 @@
       "status": "rejected",
       "title": "The Pomarinho enclave swarm: structural and petrological evidence of repeated quenching, splitting and magmatic erosion at the sidewalls of conduits (Iberian Variscan belt)",
       "updated_at": "2026-11-02T20:16:46.220256+00:00"
+    },
+    "doi:10.1145/3196494.3196501": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "Leveraging Hardware Transactional Memory for Cache Side-Channel Defenses",
+      "updated_at": "2026-11-16T20:14:44.395777+00:00"
+    },
+    "doi:10.1145/3214292.3214294": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Cache timing side-channel vulnerability checking with computation tree logic",
+      "updated_at": "2026-11-16T20:14:41.904539+00:00"
     },
     "doi:10.1145/3240765.3240844": {
       "category": "coeur",
@@ -53544,6 +53568,14 @@
       "title": "Hardware-Assisted Security Using IoT Devices (Using RFID-Based Access Control)",
       "updated_at": "2026-11-02T14:38:08.787647+00:00"
     },
+    "doi:10.48550/arxiv.1805.06411": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Airtnt: Fair Exchange Payment for Outsourced Secure Enclave Computations",
+      "updated_at": "2026-11-16T20:14:39.203970+00:00"
+    },
     "doi:10.48550/arxiv.1806.07480": {
       "category": "coeur",
       "decision": "conserver",
@@ -63327,6 +63359,14 @@
       "status": "imported",
       "title": "The Real Menace of Cloning Attacks on SGX Applications",
       "updated_at": "2026-11-03T18:11:38.887631+00:00"
+    },
+    "title:thermallyassistedswitchingtasmrambasedtrng": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Thermally Assisted Switching (TAS) MRAM based TRNG",
+      "updated_at": "2026-11-16T20:13:33.452501+00:00"
     },
     "title:theroadtotrustbuildingenclaveswithinconfidentialvms": {
       "category": "coeur",

@@ -4552,6 +4552,40 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3196494.3196501": {
+    "doi": "https://doi.org/10.1145/3196494.3196501",
+    "publication_date": "2018-05-29",
+    "publication_type": "conference",
+    "publication_venue": "ACM Asia Conference on Computer and Communications Security (ASIA CCS)",
+    "score": 88,
+    "source": "https://doi.org/10.1145/3196494.3196501",
+    "summary": "Cet article propose un mécanisme exploitant la mémoire transactionnelle matérielle (HTM) pour permettre aux programmes logiciels de se défendre contre diverses attaques par canaux cachés sur les caches, en s'appuyant sur le fait que les interférences de cache nécessaires à ces attaques provoquent l'annulation des transactions matérielles.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Leveraging Hardware Transactional Memory for Cache Side-Channel Defenses",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3214292.3214294": {
+    "doi": "https://doi.org/10.1145/3214292.3214294",
+    "publication_date": "2018-05-25",
+    "publication_type": "conference",
+    "publication_venue": "Hardware and Architectural Support for Security and Privacy",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3214292.3214294",
+    "summary": "Cet article étudie la vérification des vulnérabilités par canaux auxiliaires temporels liés aux caches à l'aide de la logique des arbres de calcul (Computation Tree Logic). Les auteurs modélisent les chemins d'exécution pour dériver des formules de vulnérabilités, identifiant 28 types d'attaques de cache, dont 8 nouvelles. Ils introduisent également une approche de model checking borné basée sur un modèle d'accès à un seul bloc de cache en trois étapes pour limiter la profondeur des chemins à vérifier.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Cache timing side-channel vulnerability checking with computation tree logic",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3240765.3240844": {
     "doi": "https://doi.org/10.1145/3240765.3240844",
     "publication_date": "2018-11-05",
