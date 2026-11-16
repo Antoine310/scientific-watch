@@ -8478,6 +8478,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.46586/tches.v2022.i4.56-87": {
+    "doi": "https://doi.org/10.46586/tches.v2022.i4.56-87",
+    "publication_date": "2022-08-31",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2022-08-31",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 90,
+    "source": "https://doi.org/10.46586/tches.v2022.i4.56-87",
+    "summary": "Cet article présente SYNFI, un cadre formel de vérification de fautes pré-silicium opérant sur des netlists synthétisées. SYNFI permet d'analyser l'effet général des fautes sur la relation entrée-sortie d'un circuit et de ses contre-mesures, offrant une évaluation systématique et semi-automatique. Les auteurs démontrent son efficacité sur OpenTitan, un élément sécurisé open-source, en identifiant des faiblesses, en développant des contre-mesures et en confirmant la protection d'autres blocs.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "SYNFI: Pre-Silicon Fault Analysis of an Open-Source Secure Element",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.46586/tches.v2023.i1.1-31": {
     "doi": "https://doi.org/10.46586/tches.v2023.i1.1-31",
     "publication_date": "2022-11-29",
