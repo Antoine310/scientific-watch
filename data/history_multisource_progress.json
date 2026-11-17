@@ -1,8 +1,8 @@
 {
   "accepted": 375,
   "completed": false,
-  "cursor": "MTY0ODgyNTQ0NjAwMCwxMC4xMDgwJTJGMDM2NzAyNDQuMjAyMi4yMDU5NDc2",
-  "evaluated": 6939,
+  "cursor": "MTY0OTE2ODA2MjAwMCwxMC4zMjI0JTJGcGVyaXBoZXJpZS52NDFpNC4xMg==",
+  "evaluated": 6954,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -569,133 +569,16 @@
     "monthly/2022-05/query-20 : résultat tronqué au plafond 12 pages",
     "monthly/2022-05/query-21 : résultat tronqué au plafond 12 pages",
     "monthly/2022-05/query-22 : résultat tronqué au plafond 12 pages",
-    "monthly/2022-05/query-24 : résultat tronqué au plafond 12 pages"
+    "monthly/2022-05/query-24 : résultat tronqué au plafond 12 pages",
+    "monthly/2022-04/query-13 : résultat tronqué au plafond 12 pages",
+    "monthly/2022-04/query-14 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2022-04",
   "needs_publish": false,
-  "offset": 280,
-  "pages_done": 8288,
-  "pages_in_query": 7,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Hudson Ayers"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Prabal Dutta"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Philip Levis"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Amit Levy"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Pat Pannuto"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Johnathan Van Why"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jean-Luc Watson"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1145/3517208.3523752",
-        "id": "https://doi.org/10.1145/3517208.3523752",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1145/3517208.3523752"
-        },
-        "publication_date": "2022-04-05",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2022-04-05",
-        "publication_type": "conference",
-        "publication_venue": "EuroSys '22: Seventeenth European Conference on Computer Systems",
-        "title": "Tiered trust for useful embedded systems security",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T01 — Root of Trust & Secure Boot"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Vasile Adrian Bogdan Pop"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Arto Niemi"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Valentin Manea"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Antti Rusanen"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jan-Erik Ekberg"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1145/3517208.3523755",
-        "id": "https://doi.org/10.1145/3517208.3523755",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1145/3517208.3523755"
-        },
-        "publication_date": "2022-04-05",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2022-04-05",
-        "publication_type": "conference",
-        "publication_venue": "EuroSys '22: Seventeenth European Conference on Computer Systems",
-        "title": "Towards securely migrating webassembly enclaves",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T03 — RISC-V TEE & Enclaves"
-      ]
-    }
-  ],
+  "offset": 320,
+  "pages_done": 8313,
+  "pages_in_query": 8,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -3099,9 +2982,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 2985,
-  "query_index": 13,
-  "secondary": 373,
-  "skipped": 7522,
+  "prefilter_review_overflow": 2993,
+  "query_index": 15,
+  "secondary": 376,
+  "skipped": 7534,
   "version": 1
 }
