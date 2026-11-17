@@ -1,8 +1,8 @@
 {
-  "accepted": 369,
+  "accepted": 370,
   "completed": false,
-  "cursor": "MTY1OTEyMzU1OTAwMCwxMC4xMTA5JTJGaWNjZXM1NDE4My4yMDIyLjk4MzU5MjM=",
-  "evaluated": 6785,
+  "cursor": "MTY2MTQ1Mjk3MjAwMCwxMC4xMTA5JTJGZGNhczUzOTc0LjIwMjIuOTg0NTU5NA==",
+  "evaluated": 6810,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -558,9 +558,9 @@
   ],
   "month": "2022-06",
   "needs_publish": false,
-  "offset": 280,
-  "pages_done": 8034,
-  "pages_in_query": 7,
+  "offset": 360,
+  "pages_done": 8036,
+  "pages_in_query": 9,
   "pending": [
     {
       "paper": {
@@ -568,22 +568,76 @@
         "authorships": [
           {
             "author": {
-              "display_name": "Sherif Hosny"
+              "display_name": "Dipanjan Roy"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sabiya Jani Shaik"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sonam Sharma"
             }
           }
         ],
-        "doi": "https://doi.org/10.1109/mocast54814.2022.9837568",
-        "id": "https://doi.org/10.1109/mocast54814.2022.9837568",
+        "doi": "https://doi.org/10.1109/host54066.2022.9840309",
+        "id": "https://doi.org/10.1109/host54066.2022.9840309",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/mocast54814.2022.9837568"
+          "landing_page_url": "https://doi.org/10.1109/host54066.2022.9840309"
         },
-        "publication_date": "2022-06-08",
+        "publication_date": "2022-06-27",
         "publication_date_note": "",
         "publication_date_precision": "day",
-        "publication_date_source": "2022-06-08",
+        "publication_date_source": "2022-06-27",
         "publication_type": "conference",
-        "publication_venue": "2022 11th International Conference on Modern Circuits and Systems Technologies (MOCAST)",
-        "title": "A Unified UVM Methodology For MPSoC Hardware/Software Functional Verification",
+        "publication_venue": "2022 IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+        "title": "Securing Hardware Accelerator during High-level Synthesis",
+        "venue_landmark": "IEEE HOST",
+        "venue_note": "",
+        "venue_priority": 1,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Giulio Galderisi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Thomas Mikolajick"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jens Trommer"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/drc55272.2022.9855805",
+        "id": "https://doi.org/10.1109/drc55272.2022.9855805",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/drc55272.2022.9855805"
+        },
+        "publication_date": "2022-06-26",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2022-06-26",
+        "publication_type": "conference",
+        "publication_venue": "2022 Device Research Conference (DRC)",
+        "title": "Robust Reconfigurable Field Effect Transistors Process Route Enabling Multi-V T Devices Fabrication for Hardware Security Applications",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -602,27 +656,52 @@
         "authorships": [
           {
             "author": {
-              "display_name": "Chenyang Li"
+              "display_name": "Alba Colet-Subirachs"
             }
           },
           {
             "author": {
-              "display_name": "John M Acken"
+              "display_name": "Pol Paradell"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jorge Luis Vasquez"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jose Luis Dominguez-Garcia"
+            }
+          },
+          {
+            "author": {
+              "display_name": "David Pampliega"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Francisco Ramos"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ramon Gallart-Fernandez"
             }
           }
         ],
-        "doi": "https://doi.org/10.1109/icces54183.2022.9835781",
-        "id": "https://doi.org/10.1109/icces54183.2022.9835781",
+        "doi": "https://doi.org/10.1109/eeeic/icpseurope54979.2022.9854730",
+        "id": "https://doi.org/10.1109/eeeic/icpseurope54979.2022.9854730",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/icces54183.2022.9835781"
+          "landing_page_url": "https://doi.org/10.1109/eeeic/icpseurope54979.2022.9854730"
         },
-        "publication_date": "2022-06-22",
+        "publication_date": "2022-06-28",
         "publication_date_note": "",
         "publication_date_precision": "day",
-        "publication_date_source": "2022-06-22",
+        "publication_date_source": "2022-06-28",
         "publication_type": "conference",
-        "publication_venue": "2022 7th International Conference on Communication and Electronics Systems (ICCES)",
-        "title": "Example Hardware Features that Support Information Security",
+        "publication_venue": "2022 IEEE International Conference on Environment and Electrical Engineering and 2022 IEEE Industrial and Commercial Power Systems Europe (EEEIC / I&CPS Europe)",
+        "title": "Cyberattack Mitigation in a Microgrid Environment: a Power-Hardware-in-The-Loop testing methodology",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -632,7 +711,7 @@
         "Crossref"
       ],
       "themes": [
-        "T07 — Hardware Security Verification"
+        "T04 — Runtime Attestation"
       ]
     },
     {
@@ -641,42 +720,22 @@
         "authorships": [
           {
             "author": {
-              "display_name": "R Naveenkumar"
-            }
-          },
-          {
-            "author": {
-              "display_name": "N.M Sivamangai"
-            }
-          },
-          {
-            "author": {
-              "display_name": "A Napolean"
-            }
-          },
-          {
-            "author": {
-              "display_name": "A. Puviarasu"
-            }
-          },
-          {
-            "author": {
-              "display_name": "G Saranya"
+              "display_name": "Christian Pilato"
             }
           }
         ],
-        "doi": "https://doi.org/10.1109/icces54183.2022.9835923",
-        "id": "https://doi.org/10.1109/icces54183.2022.9835923",
+        "doi": "https://doi.org/10.1109/dcas53974.2022.9845667",
+        "id": "https://doi.org/10.1109/dcas53974.2022.9845667",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/icces54183.2022.9835923"
+          "landing_page_url": "https://doi.org/10.1109/dcas53974.2022.9845667"
         },
-        "publication_date": "2022-06-22",
+        "publication_date": "2022-06-17",
         "publication_date_note": "",
         "publication_date_precision": "day",
-        "publication_date_source": "2022-06-22",
+        "publication_date_source": "2022-06-17",
         "publication_type": "conference",
-        "publication_venue": "2022 7th International Conference on Communication and Electronics Systems (ICCES)",
-        "title": "Preventive Measure of SAT Attack by Integrating Anti-SAT on Locked Circuit for Improving Hardware Security",
+        "publication_venue": "2022 IEEE 15th Dallas Circuit And System Conference (DCAS)",
+        "title": "High-Level Methods for Hardware IP Protections: Solutions, Trends, and Challenges",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -686,7 +745,7 @@
         "Crossref"
       ],
       "themes": [
-        "T07 — Hardware Security Verification"
+        "T04 — Runtime Attestation"
       ]
     }
   ],

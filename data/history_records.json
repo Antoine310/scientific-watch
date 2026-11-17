@@ -1387,6 +1387,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/host54066.2022.9839725": {
+    "doi": "https://doi.org/10.1109/host54066.2022.9839725",
+    "publication_date": "2022-06-01",
+    "publication_date_note": "Date source Crossref : 2022-06 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2022-06",
+    "publication_type": "conference",
+    "publication_venue": "2022 IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/host54066.2022.9839725",
+    "summary": "Cet article présente EnclaveSim, un simulateur micro-architectural basé sur des traces, flexible et détaillé, conçu pour simuler l'exécution de code de confiance via des enclaves de type Intel SGX. Les auteurs constatent l'absence de simulateurs open-source et de suites de benchmarks adaptés, la recherche actuelle exécutant souvent des benchmarks entiers dans des enclaves alors qu'en réalité seule une infime partie du code nécessite une telle protection.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "EnclaveSim:A Micro-architectural Simulator with Enclave Support",
+    "venue_landmark": "IEEE HOST",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/host55118.2023.10133542": {
     "doi": "https://doi.org/10.1109/host55118.2023.10133542",
     "publication_date": "2023-05-01",
