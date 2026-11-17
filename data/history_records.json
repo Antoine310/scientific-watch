@@ -7218,6 +7218,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.14722/diss.2018.23011": {
+    "doi": "https://doi.org/10.14722/diss.2018.23011",
+    "publication_date": "2018-01-01",
+    "publication_type": "conference",
+    "publication_venue": "Workshop on Decentralized IoT Security and Standards",
+    "score": 75,
+    "source": "https://doi.org/10.14722/diss.2018.23011",
+    "summary": "Cet article traite de la sécurisation des appareils IoT contraints en proposant une méthode pratique d'attestation à l'exécution (runtime attestation). En s'appuyant sur la spécification DICE et des fonctionnalités standard des CPU (MPU, niveaux de privilèges, ROM de démarrage et mécanisme de verrouillage), les auteurs parviennent à générer des preuves d'attestation de manière sécurisée sans nécessiter d'extensions matérielles personnalisées. La solution isole le micrologiciel d'attestation et les secrets du reste de l'application, et une preuve de concept est implémentée sur un microcontrôleur STM32L476 basé sur Cortex-M4.",
+    "themes": [
+      "T02 — DICE & Hardware Identity"
+    ],
+    "title": "Practical Runtime Attestation for Tiny IoT Devices",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.14722/laser-ndss.2021.24286": {
     "doi": "https://doi.org/10.14722/laser-ndss.2021.24286",
     "publication_date": "2021-01-01",
@@ -12598,6 +12615,23 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Hardware Root of Trust en Sistemes RISC-V : Analysis and Evaluation of Open Source Approaches"
+  },
+  "title:hardwarerootoftrustforlinuxbasededgegateway": {
+    "doi": null,
+    "publication_date": "2018-01-01",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://urn.kb.se/resolve?urn=urn:nbn:se:hkr:diva-18846",
+    "summary": "Ce travail présente une solution de Racine de Confiance Matérielle (Hardware Root of Trust) pour les passerelles IoT Linux en s'appuyant sur un module TPM 2.0 (SLB 9670) et un SoC Zynq-7020 FPGA. L'étude détaille la mise en place du démarrage sécurisé (secure boot), l'utilisation de la pile logicielle TSS 2.0, ainsi que des cas d'usage comme la génération et le stockage sécurisé de clés cryptographiques. Une analyse de la latence des commandes TPM est également menée, démontrant un renforcement de la sécurité de la distribution Linux et de l'authentification réseau.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Hardware Root of Trust for Linux Based Edge Gateway",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "title:hecklerbreakingconfidentialvmswithmaliciousinterrupts": {
     "doi": "",
