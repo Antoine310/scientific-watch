@@ -2579,6 +2579,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/les.2021.3125617": {
+    "doi": "https://doi.org/10.1109/les.2021.3125617",
+    "publication_date": "2022-06-01",
+    "publication_date_note": "Date source Crossref : 2022-06 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2022-06",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Embedded Systems Letters",
+    "score": 75,
+    "source": "https://doi.org/10.1109/les.2021.3125617",
+    "summary": "Cette publication présente HASTE, un cadre d'analyse de sécurité logicielle pour la détection des attaques par canal temporel. Contrairement aux approches existantes qui ignorent généralement le matériel, HASTE intègre à la fois le code logiciel et la microarchitecture matérielle sous-jacente afin d'améliorer la précision de la détection des vulnérabilités, tout en proposant des métriques pour quantifier leur sévérité.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "HASTE: Software Security Analysis for Timing Attacks on Clear Hardware Assumption",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/les.2024.3354831": {
     "doi": "https://doi.org/10.1109/les.2024.3354831",
     "publication_date": "2024-12-01",
@@ -5051,6 +5071,26 @@
     "venue_priority": 2,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3470496.3527412": {
+    "doi": "https://doi.org/10.1145/3470496.3527412",
+    "publication_date": "2022-06-11",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2022-06-11",
+    "publication_type": "conference",
+    "publication_venue": "ISCA '22: The 49th Annual International Symposium on Computer Architecture",
+    "score": 82,
+    "source": "https://doi.org/10.1145/3470496.3527412",
+    "summary": "Cet article propose les modèles de confinement des fuites (LCM), des contrats de sécurité axiomatiques pour raisonner formellement sur les garanties de sécurité des programmes exécutés sur des microarchitectures spécifiques. En s'appuyant sur un vocabulaire axiomatique inspiré de la cohérence mémoire, cette approche formalise les fuites microarchitecturales via les systèmes mémoire pour permettre leur détection automatique et leur classification par sévérité. Les auteurs démontrent l'efficacité des LCM en capturant des attaques de la littérature (transitoires et non transitoires) et en développant un outil d'analyse statique capable d'identifier automatiquement des vulnérabilités de type Spectre dans des bibliothèques cryptographiques réelles.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Axiomatic hardware-software contracts for security",
+    "venue_landmark": "ISCA",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3471621.3471857": {
     "doi": "https://doi.org/10.1145/3471621.3471857",
     "publication_date": "2021-10-06",
@@ -5189,6 +5229,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3526241.3530363": {
+    "doi": "https://doi.org/10.1145/3526241.3530363",
+    "publication_date": "2022-06-06",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2022-06-06",
+    "publication_type": "conference",
+    "publication_venue": "GLSVLSI '22: Great Lakes Symposium on VLSI 2022",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3526241.3530363",
+    "summary": "Cet article propose une méthode efficace pour vérifier et surveiller les flux d'informations basés sur le temps dans les conceptions matérielles, afin de détecter les canaux cachés temporels. L'approche réduit la surcharge du modèle de sécurité et peut être appliquée lors de la vérification formelle, dynamique, de la validation post-fabrication et de la surveillance à l'exécution.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Efficient Method for Timing-based Information Flow Verification in Hardware Designs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1145/3534962": {
     "doi": "https://doi.org/10.1145/3534962",

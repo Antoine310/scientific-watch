@@ -5184,6 +5184,14 @@
       "title": "High performance isolation of circulating tumor cells by acoustofluidic chip coupled with ultrasonic concentrated energy transducer",
       "updated_at": "2026-11-15T00:37:49.463597+00:00"
     },
+    "doi:10.1016/j.comcom.2022.03.012": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A lightweight device-level Public Key Infrastructure with DRAM based Physical Unclonable Function (PUF) for secure cyber physical systems",
+      "updated_at": "2026-11-17T02:42:50.065053+00:00"
+    },
     "doi:10.1016/j.comnet.2020.107593": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -23008,6 +23016,14 @@
       "title": "CT PUF: Configurable Tristate PUF Against Machine Learning Attacks for IoT Security",
       "updated_at": "2026-11-16T12:38:40.020780+00:00"
     },
+    "doi:10.1109/jiot.2022.3144405": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "On Security of TrustZone-M-Based IoT Systems",
+      "updated_at": "2026-11-17T02:40:07.378318+00:00"
+    },
     "doi:10.1109/jiot.2022.3151364": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -24503,6 +24519,14 @@
       "status": "rejected",
       "title": "Dual-Mode PUFs Based on Spin Orbit Torque Devices Enabling Secure Key Switching Between Private and Public Clouds",
       "updated_at": "2026-11-03T08:41:37.870419+00:00"
+    },
+    "doi:10.1109/les.2021.3125617": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "HASTE: Software Security Analysis for Timing Attacks on Clear Hardware Assumption",
+      "updated_at": "2026-11-17T02:38:26.369820+00:00"
     },
     "doi:10.1109/les.2022.3159541": {
       "category": "hors_sujet",
@@ -29016,6 +29040,14 @@
       "title": "A Lightweight Full Entropy TRNG With On-Chip Entropy Assurance",
       "updated_at": "2026-11-10T17:13:58.531630+00:00"
     },
+    "doi:10.1109/tcad.2021.3100275": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Deceptive Logic Locking for Hardware Integrity Protection Against Machine Learning Attacks",
+      "updated_at": "2026-11-17T02:38:08.614962+00:00"
+    },
     "doi:10.1109/tcad.2021.3112884": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -30231,6 +30263,14 @@
       "status": "rejected",
       "title": "Can Deep Learning Break a True Random Number Generator?",
       "updated_at": "2026-11-11T08:13:34.886894+00:00"
+    },
+    "doi:10.1109/tcsii.2022.3160489": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hardware Patching Methodology for Neutralizing Timing Hardware Trojans Using Vulnerability Analysis and Time Borrowing Scheme",
+      "updated_at": "2026-11-17T02:40:21.515089+00:00"
     },
     "doi:10.1109/tcsii.2022.3183121": {
       "category": "hors_sujet",
@@ -35312,6 +35352,14 @@
       "title": "IceClave: A Trusted Execution Environment for In-Storage Computing",
       "updated_at": "2026-11-10T02:13:46.406654+00:00"
     },
+    "doi:10.1145/3470496.3527412": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 82,
+      "status": "imported",
+      "title": "Axiomatic hardware-software contracts for security",
+      "updated_at": "2026-11-17T02:41:38.685914+00:00"
+    },
     "doi:10.1145/3470535": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -35536,6 +35584,14 @@
       "title": "A TOCTOU Attack on DICE Attestation",
       "updated_at": "2026-11-09T02:14:08.537564+00:00"
     },
+    "doi:10.1145/3510421": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Breaking the Design and Security Trade-off of Look-up-table–based Obfuscation",
+      "updated_at": "2026-11-17T02:40:07.413033+00:00"
+    },
     "doi:10.1145/3512768": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -35599,6 +35655,30 @@
       "status": "rejected",
       "title": "WebAssembly as a Common Layer for the Cloud-edge Continuum",
       "updated_at": "2026-11-17T01:39:26.835523+00:00"
+    },
+    "doi:10.1145/3526241.3530363": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Efficient Method for Timing-based Information Flow Verification in Hardware Designs",
+      "updated_at": "2026-11-17T02:42:31.369628+00:00"
+    },
+    "doi:10.1145/3526241.3530828": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hands-On Teaching of Hardware Security for Machine Learning",
+      "updated_at": "2026-11-17T02:42:31.404664+00:00"
+    },
+    "doi:10.1145/3526241.3530829": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware Security in Advanced Manufacturing",
+      "updated_at": "2026-11-17T02:42:31.439371+00:00"
     },
     "doi:10.1145/3527156": {
       "category": "hors_sujet",
@@ -35719,6 +35799,46 @@
       "status": "rejected",
       "title": "On Secure and Side-Channel Resistant Hardware Implementations of Post-Quantum Cryptography",
       "updated_at": "2026-11-16T14:36:51.889367+00:00"
+    },
+    "doi:10.1145/3542682": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Session details: Session 1A: Hardware Security",
+      "updated_at": "2026-11-17T02:42:31.473360+00:00"
+    },
+    "doi:10.1145/3542684": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Session details: Session 2A: Hardware Security",
+      "updated_at": "2026-11-17T02:42:31.508370+00:00"
+    },
+    "doi:10.1145/3542690": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Session details: Session 5A: Hardware Security",
+      "updated_at": "2026-11-17T02:42:31.542488+00:00"
+    },
+    "doi:10.1145/3542692": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Session details: Session 6A: Special Session -1: Machine Learning and Hardware Attacks",
+      "updated_at": "2026-11-17T02:42:31.576568+00:00"
+    },
+    "doi:10.1145/3542693": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Session details: Session 6B: Special Session - 2: Application-oriented Hardware Security Challenges and Solutions",
+      "updated_at": "2026-11-17T02:42:31.610748+00:00"
     },
     "doi:10.1145/3544102": {
       "category": "coeur",
@@ -41440,6 +41560,22 @@
       "title": "Memristor based ring oscillators true random number generator with different window functions for applications in cryptography",
       "updated_at": "2026-11-15T02:13:28.210976+00:00"
     },
+    "doi:10.11591/ijeecs.v26.i3.pp1581-1588": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A survey of security and smart home automation based on internet of things technology",
+      "updated_at": "2026-11-17T02:42:39.015618+00:00"
+    },
+    "doi:10.11591/ijeecs.v26.i3.pp1781-1790": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Based on mesh sensor network: design and implementation of security monitoring system with Bluetooth technology",
+      "updated_at": "2026-11-17T02:42:39.050556+00:00"
+    },
     "doi:10.11591/ijeecs.v30.i1.pp451-459": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -43215,6 +43351,14 @@
       "status": "imported",
       "title": "A Defense Mechanism Against Transient Execution Attacks On SMT Processors",
       "updated_at": "2026-11-11T14:19:17.415945+00:00"
+    },
+    "doi:10.1587/elex.19.20220167": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "A multi-level architecture for hardware Trojan and vulnerability runtime detection and response towards cryptographic IP",
+      "updated_at": "2026-11-17T02:40:32.870137+00:00"
     },
     "doi:10.1587/elex.19.20220244": {
       "category": "hors_sujet",
@@ -50752,6 +50896,14 @@
       "title": "Hardware Implementation of a Two-Layer Neural Network Based on FPGA: Analysis of the Efficiency of Using ReLU and LeakyReLU Activation Functions",
       "updated_at": "2026-11-03T10:52:19.839698+00:00"
     },
+    "doi:10.35609/gcbssproceeding.2022.1(51)": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Non-Traditional Issues among ASEAN Nations: Securitization and Policy Making in Issues of Non-Traditional Security (NTS)",
+      "updated_at": "2026-11-17T02:40:42.004728+00:00"
+    },
     "doi:10.35662/unine-thesis-2812": {
       "category": "secondaire",
       "decision": "examiner",
@@ -51448,6 +51600,14 @@
       "title": "Security Control Systems Decelopment Laboratory In Space Hardware-Based Microcontroller Atmega 16",
       "updated_at": "2026-11-15T12:36:28.311121+00:00"
     },
+    "doi:10.37801/ajad2022.19.1.p1": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Exploring Pathways for Promoting and Scaling Up Climate-Smart Agriculture in Myanmar",
+      "updated_at": "2026-11-17T02:40:32.835371+00:00"
+    },
     "doi:10.37885/220809675": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -51711,6 +51871,22 @@
       "status": "rejected",
       "title": "Review of the Literature on Using Machine and Deep Learning Techniques to Improve IoT Security",
       "updated_at": "2026-11-09T15:38:06.342961+00:00"
+    },
+    "doi:10.4018/ijec.299003": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Lightweight Two-Factor Authentication With S-Box Flipping Module for IoT Security",
+      "updated_at": "2026-11-17T02:40:11.375265+00:00"
+    },
+    "doi:10.4018/ijertcs.302107": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Improved Security Approach Based on AES Algorithm for LST Retrieval Using Satellite Imagery in Radiation-Tolerant FPGAs",
+      "updated_at": "2026-11-17T02:40:32.799892+00:00"
     },
     "doi:10.4018/ijiit.423593": {
       "category": "hors_sujet",
@@ -60072,6 +60248,14 @@
       "title": "Enabling Design Space Exploration for RISC-V Secure Compute Environments",
       "updated_at": "2026-11-09T23:14:06.386854+00:00"
     },
+    "title:enablingheterogeneousmulticoresocresearchwithriscvandesp": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Enabling Heterogeneous, Multicore SoC Research with RISC-V and ESP",
+      "updated_at": "2026-11-17T02:37:26.510285+00:00"
+    },
     "title:enablingssicompliantuseofeudiwalletcredentialsthroughtrustedexecutionenvironmentandzeroknowledgeproof": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -62767,6 +62951,14 @@
       "status": "rejected",
       "title": "RPU: The Ring Processing Unit",
       "updated_at": "2026-11-14T14:38:17.451058+00:00"
+    },
+    "title:rssddefendagainstransomwarewithhardwareisolatednetworkstoragecodesignandpostattackanalysis": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "RSSD: Defend against Ransomware with Hardware-Isolated Network-Storage Codesign and Post-Attack Analysis",
+      "updated_at": "2026-11-17T02:37:06.501089+00:00"
     },
     "title:rtfmhowhardareiotplatformprovidersmakingitfortheirdevelopers": {
       "category": "secondaire",
