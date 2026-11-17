@@ -1568,6 +1568,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/iccad.2017.8203803": {
+    "doi": "https://doi.org/10.1109/iccad.2017.8203803",
+    "publication_date": "2017-11-01",
+    "publication_type": "conference",
+    "publication_venue": "International Conference on Computer Aided Design",
+    "score": 90,
+    "source": "https://doi.org/10.1109/iccad.2017.8203803",
+    "summary": "Cet article présente ATRIUM, un système d'attestation à distance capable de certifier à la fois le binaire d'un code et son comportement d'exécution malgré des attaques mémoire, offrant ainsi une résilience contre les attaques de type Time of Check Time of Use (TOCTOU).",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "ATRIUM: Runtime attestation resilient under memory attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/iccad57390.2023.10323688": {
     "doi": "https://doi.org/10.1109/iccad57390.2023.10323688",
     "publication_date": "2023-10-28",
@@ -11682,6 +11699,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "arXiv"
+  },
+  "title:atriumruntimeattestationresilientundermemoryattacks": {
+    "doi": null,
+    "publication_date": "2017-11-01",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://tubiblio.ulb.tu-darmstadt.de/101532/",
+    "summary": "ATRIUM (présentant SMARTER) est un système d'attestation à distance capable de résister à des attaques logicielles et matérielles, notamment les attaques TOCTOU (Time of Check Time of Use) exploitant un accès physique à la mémoire de code pour exécuter du code malveillant tout en attestant un code bénin.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "ATRIUM: Runtime Attestation Resilient Under Memory Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "title:autocatreinforcementlearningforautomatedexplorationofcachetimingattacks": {
     "doi": "",
