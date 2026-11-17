@@ -11932,6 +11932,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:confidentialmachinelearningwithingraphcoreipus": {
+    "doi": "",
+    "publication_date": "2022-05-18",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2205.09005v2",
+    "summary": "Cet article présente les extensions matérielles expérimentales IPU Trusted Extensions (ITX) pour les accélérateurs d'IA de Graphcore, permettant des environnements d'exécution sécurisés (TEE) pour l'apprentissage automatique confidentiel avec de fortes garanties de confidentialité, d'intégrité et un faible surcoût de performance.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Confidential Machine Learning within Graphcore IPUs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:coverageguidedpresiliconfuzzingofopensourceprocessorsbasedonleakagecontracts": {
     "doi": "",
     "publication_date": "2025-11-11",
@@ -12735,6 +12755,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:madenmicroarchitecturalattackdetectionthroughsystemwideenergyconsumption": {
+    "doi": "",
+    "publication_date": "2022-05-31",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 82,
+    "source": "http://arxiv.org/abs/2206.00101v1",
+    "summary": "Cette étude présente MAD-EN, un outil de détection dynamique d'anomalies basé sur la consommation d'énergie globale du système (via Intel RAPL) pour identifier les attaques microarchitecturales telles que Spectre et Meltdown. En utilisant des réseaux de neurones convolutifs (CNN), MAD-EN parvient à détecter 10 attaques différentes (15 variantes) avec un score F1 maximal de 0,999, tout en réduisant de 69,3 % la surcharge de performance par rapport aux compteurs matériels traditionnels.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "MAD-EN: Microarchitectural Attack Detection through System-wide Energy Consumption",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:microarchitecturalsecurityofawsfirecrackervmmforserverlesscloudplatforms": {
     "doi": "",
     "publication_date": "2023-11-27",
@@ -13165,6 +13205,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Prime+Retouch: When Cache is Locked and Leaked",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:privatedelegatedcomputationsusingstrongisolation": {
+    "doi": "",
+    "publication_date": "2022-05-06",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2205.03322v1",
+    "summary": "Cet article présente Veracruz, un cadre de travail facilitant la conception et la mise en œuvre de calculs délégués, collaboratifs et préservant la confidentialité entre des acteurs se méfiant mutuellement. Le système unifie plusieurs technologies d'isolation (matérielles et logicielles) autour d'un modèle de programmation et d'un protocole d'attestation communs pour sécuriser des environnements d'exécution de confiance.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Private delegated computations using strong isolation",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
