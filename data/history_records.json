@@ -7621,6 +7621,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.23919/date.2018.8342179": {
+    "doi": "https://doi.org/10.23919/date.2018.8342179",
+    "publication_date": "2018-03-01",
+    "publication_type": "conference",
+    "publication_venue": "Design, Automation, and Test in Europe",
+    "score": 90,
+    "source": "https://doi.org/10.23919/date.2018.8342179",
+    "summary": "Cet article présente Øzone, une ressource d'exécution matérielle conçue pour éliminer totalement les fuites temporelles sur les microarchitectures modernes. L'approche repose sur l'utilisation de threads matériels spéciaux offrant un accès exclusif aux ressources d'un cœur pour un nombre de cycles fixe et non interruptible, avec des accès mémoire restreints à des lignes de cache préallouées non éevictables et un état microarchitectural initial fixe.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Øzone: Efficient execution with zero timing leakage for modern microarchitectures",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.23919/date.2019.8714822": {
     "doi": "https://doi.org/10.23919/date.2019.8714822",
     "publication_date": "2019-03-01",
