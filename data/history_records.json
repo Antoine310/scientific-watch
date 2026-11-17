@@ -4524,6 +4524,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/vlsi-dat54769.2022.9768079": {
+    "doi": "https://doi.org/10.1109/vlsi-dat54769.2022.9768079",
+    "publication_date": "2022-04-18",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2022-04-18",
+    "publication_type": "conference",
+    "publication_venue": "2022 International Symposium on VLSI Design, Automation and Test (VLSI-DAT)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/vlsi-dat54769.2022.9768079",
+    "summary": "Ce document présente la conception d'une racine de confiance matérielle (HRoT) basée sur une fonction physiquement clonable (PUF) pour les applications AIoT. L'approche combine des nombres aléatoires statiques issus de PUF et une entropie dynamique pour concevoir un générateur de nombres aléatoires vrais et atteindre une protection anti-effraction. L'architecture intègre des moteurs cryptographiques standardisés par le NIST afin de gérer les fonctions de sécurité sur l'ensemble du cycle de vie du produit.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Hardware Root-of-Trust Design Based on on-chip PUF for AIoT Applications",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/vlsi-soc53125.2021.9606968": {
     "doi": "https://doi.org/10.1109/vlsi-soc53125.2021.9606968",
     "publication_date": "2021-10-04",
@@ -7916,6 +7936,26 @@
       "T02 — DICE & Hardware Identity"
     ],
     "title": "An Efficient Secure Boot Mechanism Leveraging DICE as a Use Case",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.23919/fruct54823.2022.9770907": {
+    "doi": "https://doi.org/10.23919/fruct54823.2022.9770907",
+    "publication_date": "2022-04-27",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2022-04-27",
+    "publication_type": "conference",
+    "publication_venue": "2022 31st Conference of Open Innovations Association (FRUCT)",
+    "score": 85,
+    "source": "https://doi.org/10.23919/fruct54823.2022.9770907",
+    "summary": "Cet article analyse différentes architectures et techniques d'attestation ainsi que les méthodes pour présenter les preuves et métriques d'attestation pour les enclaves sécurisées. Il examine comment les efforts industriels actuels pour l'interopérabilité de l'attestation peuvent bénéficier de décennies de recherche académique menée depuis les années 1990.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Towards Interoperable Enclave Attestation: Learnings from Decades of Academic Work",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
