@@ -6416,6 +6416,14 @@
       "title": "Near-Infrared Off-Axis integrated cavity output spectroscopic sensor system for ammonia leakage measurement in cold store using embedded Multi-Core processor",
       "updated_at": "2026-11-10T20:37:07.166596+00:00"
     },
+    "doi:10.1016/j.iot.2022.100508": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Secure firmware Over-The-Air updates for IoT: Survey, challenges, and discussions",
+      "updated_at": "2026-11-17T11:39:48.178470+00:00"
+    },
     "doi:10.1016/j.iot.2023.100685": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -7079,6 +7087,14 @@
       "status": "rejected",
       "title": "Feasibility of Physical Unclonable Functions from Pre-stressed Organic Thin Film Transistors for Secure Microelectronics",
       "updated_at": "2026-11-03T18:39:45.214499+00:00"
+    },
+    "doi:10.1016/j.mejo.2022.105392": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "The Characterization of Errors in an FPGA-Based RISC-V Processor due to Single Event Transients",
+      "updated_at": "2026-11-17T11:40:07.026113+00:00"
     },
     "doi:10.1016/j.mejo.2022.105410": {
       "category": "secondaire",
@@ -23400,6 +23416,14 @@
       "title": "CT PUF: Configurable Tristate PUF Against Machine Learning Attacks for IoT Security",
       "updated_at": "2026-11-16T12:38:40.020780+00:00"
     },
+    "doi:10.1109/jiot.2021.3114086": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Secure Throughput Optimization for Cache-Enabled Multi-UAVs Networks",
+      "updated_at": "2026-11-17T11:39:36.995720+00:00"
+    },
     "doi:10.1109/jiot.2022.3144405": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -26064,6 +26088,14 @@
       "title": "Accelerating ML Recommendation With Over 1,000 RISC-V/Tensor Processors on Esperanto's ET-SoC-1 Chip",
       "updated_at": "2026-11-09T14:13:32.826142+00:00"
     },
+    "doi:10.1109/mm.2022.3153891": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Can We Trust Undervolting in FPGA-Based Deep Learning Designs at Harsh Conditions?",
+      "updated_at": "2026-11-17T11:39:48.065290+00:00"
+    },
     "doi:10.1109/mm.2022.3184867": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -26247,6 +26279,14 @@
       "status": "imported",
       "title": "Understanding the Insecurity of Processor Caches Due to Cache Timing-Based Vulnerabilities",
       "updated_at": "2026-11-11T11:14:14.967778+00:00"
+    },
+    "doi:10.1109/msec.2022.3155376": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Toward Hardware Security Property Generation at Scale",
+      "updated_at": "2026-11-17T11:36:42.355171+00:00"
     },
     "doi:10.1109/msec.2023.3236999": {
       "category": "hors_sujet",
@@ -34768,6 +34808,30 @@
       "title": "Photonic physical unclonable functions: from the concept to fully functional device operating in the field",
       "updated_at": "2026-11-13T08:13:52.347571+00:00"
     },
+    "doi:10.1117/12.2635843": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A trusted remote attestation protocol based on attributes for containerized virtual network functions",
+      "updated_at": "2026-11-17T11:39:28.281397+00:00"
+    },
+    "doi:10.1117/12.2635966": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A remote attestation model and protocol for multimedia mobile edge computing security",
+      "updated_at": "2026-11-17T11:39:28.316688+00:00"
+    },
+    "doi:10.1117/12.2635977": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Research on event capture method for network security testbed based on trusted execution environment",
+      "updated_at": "2026-11-17T11:39:28.394612+00:00"
+    },
     "doi:10.1117/12.2638497": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -36120,6 +36184,14 @@
       "title": "A TOCTOU Attack on DICE Attestation",
       "updated_at": "2026-11-09T02:14:08.537564+00:00"
     },
+    "doi:10.1145/3510360": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Risk Prediction of IoT Devices Based on Vulnerability Analysis",
+      "updated_at": "2026-11-17T11:37:33.562850+00:00"
+    },
     "doi:10.1145/3510421": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -36255,6 +36327,22 @@
       "status": "rejected",
       "title": "Hardware Approximate Techniques for Deep Neural Network Accelerators: A Survey",
       "updated_at": "2026-11-15T15:39:13.409531+00:00"
+    },
+    "doi:10.1145/3528416.3530243": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "On the use of hardware accelerators in QC-MDPC code-based cryptography",
+      "updated_at": "2026-11-17T11:39:17.209670+00:00"
+    },
+    "doi:10.1145/3528416.3530998": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "SmartFusion2 SoC as a security module for the IoT world",
+      "updated_at": "2026-11-17T11:39:17.248887+00:00"
     },
     "doi:10.1145/3528535.3565255": {
       "category": "secondaire",
@@ -41904,6 +41992,14 @@
       "title": "Blockchain-Assisted Distributed Fog Computing Control Flow Attestation",
       "updated_at": "2026-11-08T11:14:24.906949+00:00"
     },
+    "doi:10.1155/2022/7868502": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "EnclavePoSt: A Practical Proof of Storage-Time in Cloud via Intel SGX",
+      "updated_at": "2026-11-17T11:37:33.593177+00:00"
+    },
     "doi:10.1155/2022/8033799": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -45103,6 +45199,14 @@
       "status": "rejected",
       "title": "Hardware-Efficient and Accurately Frequency Offset Compensation based on Feedback Structure and Polar Coordinates Processing",
       "updated_at": "2026-11-16T22:37:09.892298+00:00"
+    },
+    "doi:10.21203/rs.3.rs-1618395/v1": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Design, Analysis and Evaluation of a Lightweight Symmetric Key Stream Generator for Smart Meter and Autonomous Vehicle Security",
+      "updated_at": "2026-11-17T11:39:28.476836+00:00"
     },
     "doi:10.21203/rs.3.rs-1686290/v1": {
       "category": "secondaire",
@@ -48759,6 +48863,14 @@
       "status": "rejected",
       "title": "Pharmaceutical access in medical security systems and health policy mobilization: cross-national evidence on TRIPS compulsory licensing from 2001 to 2024",
       "updated_at": "2026-11-02T13:39:04.919187+00:00"
+    },
+    "doi:10.3389/fsens.2022.850056": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hardware Security in Sensor and its Networks",
+      "updated_at": "2026-11-17T11:37:23.390138+00:00"
     },
     "doi:10.3389/fsufs.2026.1914989": {
       "category": "hors_sujet",
@@ -52639,6 +52751,14 @@
       "status": "rejected",
       "title": "Design of Cluster Supply Chain Network Security Monitoring System Based on System Dynamics Simulation",
       "updated_at": "2026-11-02T13:48:02.123701+00:00"
+    },
+    "doi:10.4018/ijtd.300744": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Embedded Systems Design Space Exploration Under Security Constraints",
+      "updated_at": "2026-11-17T11:37:23.361018+00:00"
     },
     "doi:10.4071/001c.147091": {
       "category": "secondaire",
@@ -58407,6 +58527,14 @@
       "status": "rejected",
       "title": "Report on Secure Hardware Assurance Reference Dataset (SHARD) program",
       "updated_at": "2026-11-08T08:39:37.118999+00:00"
+    },
+    "doi:10.6028/nist.sp.1278": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "5G hardware supply chain security through physical measurements",
+      "updated_at": "2026-11-17T11:36:31.053446+00:00"
     },
     "doi:10.6109/jkiice.2023.27.12.1563": {
       "category": "hors_sujet",
