@@ -9531,6 +9531,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.48456/tr-916": {
+    "doi": "https://doi.org/10.48456/tr-916",
+    "publication_date": "2018-01-01",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "https://doi.org/10.48456/tr-916",
+    "summary": "Ce rapport examine l'impact potentiel des attaques microarchitecturales Meltdown et Spectre sur l'architecture CHERI (Capability Hardware Enhanced RISC Instructions). Les auteurs observent que la vérification matérielle des permissions et des limites par CHERI peut atténuer une variante de ces attaques, tout en proposant un ID de compartiment géré par logiciel pour faire face aux fuites par canal caché trans-compartiments.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Capability Hardware Enhanced RISC Instructions (CHERI): Notes on the Meltdown and Spectre Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.48550/arxiv.1802.03530": {
     "doi": "https://doi.org/10.48550/arxiv.1802.03530",
     "publication_date": "2018-02-10",
@@ -12997,6 +13014,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "arXiv"
+  },
+  "title:netspectre": {
+    "doi": null,
+    "publication_date": "2018-01-01",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://openlib.tugraz.at/5c05b6a7f2361",
+    "summary": "Cet article présente NetSpectre, une variante distante de l'attaque Spectre de type 1. Les auteurs démontrent qu'il est possible d'exploiter l'exécution spéculative à travers un réseau, sans nécessiter d'exécution de code local sur la cible, marquant un changement de paradigme vers des attaques distantes via des canaux cachés basés sur le réseau ou sur les instructions AVX.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "NetSpectre",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "title:newcrosscorecacheagnosticandprefetcherbasedsidechannelsandcovertchannels": {
     "doi": "",
