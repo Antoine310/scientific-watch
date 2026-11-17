@@ -12740,6 +12740,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "title:investigatingblackboxfunctionrecognitionusinghardwareperformancecounters": {
+    "doi": "",
+    "publication_date": "2022-04-25",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 78,
+    "source": "http://arxiv.org/abs/2204.11639v5",
+    "summary": "Ce papier présente de nouvelles méthodes et résultats pour la reconnaissance de fonctions de programmes en boîte noire en utilisant des compteurs de performance matérielle (HPC), permettant d'analyser des bibliothèques compilées et des applications TEE. Une approche générique est développée pour classifier des événements matériels afin de reconnaître des fonctions de benchmark et cryptographiques. L'évaluation couvre des architectures Intel/X86-64, ARM et RISC-V. De plus, le papier montre la détection de vulnérabilités CVE dans OpenSSL et la reconnaissance de fonctions cryptographiques dans ARM TrustZone à partir du monde non sécurisé.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Investigating Black-Box Function Recognition Using Hardware Performance Counters",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:isolationfailurefromsharedstoragecharacterizingandexploitingpagecachescaleakageacrosscontainersandvms": {
     "publication_date": "2026-07-20",
     "publication_date_note": "",
