@@ -2180,6 +2180,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/iscas48785.2022.9937212": {
+    "doi": "https://doi.org/10.1109/iscas48785.2022.9937212",
+    "publication_date": "2022-05-28",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2022-05-28",
+    "publication_type": "conference",
+    "publication_venue": "2022 IEEE International Symposium on Circuits and Systems (ISCAS)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/iscas48785.2022.9937212",
+    "summary": "Cette étude explore la détection en temps réel des attaques par canal auxiliaire sur le cache, telles que Spectre, dans une architecture open-source RISC-V. En combinant l'utilisation des compteurs de performance du processeur pour suivre le comportement du cache et un réseau de neurones pour analyser ces données, les auteurs parviennent à identifier les attaques avec une précision supérieure à 99 % en utilisant seulement quatre compteurs, offrant ainsi une alternative aux modifications matérielles lourdes et aux défenses logicielles dégradant les performances.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Spectre attack detection with Neutral Network on RISC-V processor",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/iscas56072.2025.11044308": {
     "doi": "https://doi.org/10.1109/iscas56072.2025.11044308",
     "publication_date": "2025-05-25",
