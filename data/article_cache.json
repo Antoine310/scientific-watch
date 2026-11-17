@@ -4104,6 +4104,14 @@
       "title": "Breaking TrustZone memory isolation and secure boot through malicious hardware on a modern FPGA-SoC",
       "updated_at": "2026-11-10T05:14:08.933131+00:00"
     },
+    "doi:10.1007/s13389-021-00283-6": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Secret-free security: a survey and tutorial",
+      "updated_at": "2026-11-17T23:39:04.779792+00:00"
+    },
     "doi:10.1007/s13389-022-00306-w": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -7183,6 +7191,14 @@
       "status": "rejected",
       "title": "Feasibility of Physical Unclonable Functions from Pre-stressed Organic Thin Film Transistors for Secure Microelectronics",
       "updated_at": "2026-11-03T18:39:45.214499+00:00"
+    },
+    "doi:10.1016/j.mejo.2022.105362": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "An ACF<0.03 low-power software PUF based on the RISC-V processor for IoT security",
+      "updated_at": "2026-11-17T23:38:53.747771+00:00"
     },
     "doi:10.1016/j.mejo.2022.105392": {
       "category": "hors_sujet",
@@ -23864,6 +23880,14 @@
       "title": "CT PUF: Configurable Tristate PUF Against Machine Learning Attacks for IoT Security",
       "updated_at": "2026-11-16T12:38:40.020780+00:00"
     },
+    "doi:10.1109/jiot.2021.3105286": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A Hardware Trojan Detection Method for IoT Sensors Using Side-Channel Activity Magnifier",
+      "updated_at": "2026-11-17T23:38:35.043105+00:00"
+    },
     "doi:10.1109/jiot.2021.3109299": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -29488,6 +29512,14 @@
       "title": "Engaged Student Learning with Gamified Labs: A New Approach for Hardware Security Education",
       "updated_at": "2026-11-12T03:37:07.869818+00:00"
     },
+    "doi:10.1109/tap.2021.3118846": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware RFID Security for Preventing Far-Field Attacks",
+      "updated_at": "2026-11-17T23:38:45.164006+00:00"
+    },
     "doi:10.1109/tap.2025.3639757": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -30063,6 +30095,14 @@
       "status": "rejected",
       "title": "ForASec: Formal Analysis of Hardware Trojan-Based Security Vulnerabilities in Sequential Circuits",
       "updated_at": "2026-11-17T16:45:07.097139+00:00"
+    },
+    "doi:10.1109/tcad.2021.3066560": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "RTL-ConTest: Concolic Testing on RTL for Detecting Security Vulnerabilities",
+      "updated_at": "2026-11-17T23:38:35.006729+00:00"
     },
     "doi:10.1109/tcad.2021.3075939": {
       "category": "secondaire",
@@ -31327,6 +31367,22 @@
       "status": "rejected",
       "title": "Can Deep Learning Break a True Random Number Generator?",
       "updated_at": "2026-11-11T08:13:34.886894+00:00"
+    },
+    "doi:10.1109/tcsii.2021.3110954": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Electromagnetic Side-Channel Hardware Trojan Detection Based on Transfer Learning",
+      "updated_at": "2026-11-17T23:38:45.124190+00:00"
+    },
+    "doi:10.1109/tcsii.2021.3118443": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "CRAlert: Hardware-Assisted Code Reuse Attack Detection",
+      "updated_at": "2026-11-17T23:38:45.201097+00:00"
     },
     "doi:10.1109/tcsii.2021.3136463": {
       "category": "secondaire",
@@ -33647,6 +33703,14 @@
       "status": "rejected",
       "title": "Fostering Trust in Smart Inverters: A Framework for Firmware Update Management and Tracking in VPP Context",
       "updated_at": "2026-11-06T19:38:17.909126+00:00"
+    },
+    "doi:10.1109/tsmc.2020.3036879": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Ensuring Cryptography Chips Security by Preventing Scan-Based Side-Channel Attacks With Improved DFT Architecture",
+      "updated_at": "2026-11-17T23:38:34.968202+00:00"
     },
     "doi:10.1109/tsmc.2022.3232517": {
       "category": "hors_sujet",
@@ -53728,6 +53792,14 @@
       "title": "Design of Cluster Supply Chain Network Security Monitoring System Based on System Dynamics Simulation",
       "updated_at": "2026-11-02T13:48:02.123701+00:00"
     },
+    "doi:10.4018/ijisp.291700": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Lightweight VLSI Architectures for Image Encryption Applications",
+      "updated_at": "2026-11-17T23:38:45.238236+00:00"
+    },
     "doi:10.4018/ijtd.300744": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -61648,6 +61720,14 @@
       "title": "Comprehensive Kernel Safety in the Spectre Era: Mitigations and Performance Evaluation (Extended Version)",
       "updated_at": "2026-11-08T00:39:29.987313+00:00"
     },
+    "title:computationoffloadingtohardwareacceleratorsinintelsgxandgraminelibraryos": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Computation offloading to hardware accelerators in Intel SGX and Gramine Library OS",
+      "updated_at": "2026-11-17T23:37:16.828456+00:00"
+    },
     "title:confidentialcomputingacrossedgetocloudformachinelearningasurveystudy": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -64848,6 +64928,14 @@
       "title": "rApp/xApp Attestation: A New Security Use Case for O-RAN",
       "updated_at": "2026-11-02T15:56:51.404625+00:00"
     },
+    "title:rapteeleveragingtrustedexecutionenvironmentsforbyzantinetolerantpeersamplingservices": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "RAPTEE: Leveraging trusted execution environments for Byzantine-tolerant peer sampling services",
+      "updated_at": "2026-11-17T23:37:06.862426+00:00"
+    },
     "title:raresruntimeattackresilientembeddedsystemdesignusingverifiedproofofexecution": {
       "category": "coeur",
       "decision": "conserver",
@@ -65752,6 +65840,14 @@
       "title": "SoK: Secure Software-Based Multi-Domain Data Segregation",
       "updated_at": "2026-11-02T15:57:36.237231+00:00"
     },
+    "title:sokteeassistedconfidentialsmartcontract": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "SoK: TEE-assisted Confidential Smart Contract",
+      "updated_at": "2026-11-17T23:37:06.899356+00:00"
+    },
     "title:soktrustedexecutioninsocfpgas": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -65863,6 +65959,14 @@
       "status": "imported",
       "title": "SPOILER-GUARD: Gating Latency Effects of Memory Accesses through Randomized Dependency Prediction",
       "updated_at": "2026-11-03T18:14:50.658850+00:00"
+    },
+    "title:spyinthegpuboxcovertandsidechannelattacksonmultigpusystems": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Spy in the GPU-box: Covert and Side Channel Attacks on Multi-GPU Systems",
+      "updated_at": "2026-11-17T23:37:38.563712+00:00"
     },
     "title:srflipflopbasedphysicalunclonablefunctionsforhardwaresecurity": {
       "category": "secondaire",
@@ -66327,6 +66431,14 @@
       "status": "rejected",
       "title": "Threat Vectors and the State of the Art in Defense Methods for Security in Neurotechnology",
       "updated_at": "2026-11-02T19:35:23.927379+00:00"
+    },
+    "title:tightlysealyoursensitivepointerswithpactight": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Tightly Seal Your Sensitive Pointers with PACTight",
+      "updated_at": "2026-11-17T23:36:27.308814+00:00"
     },
     "title:tiktagbreakingarmsmemorytaggingextensionwithspeculativeexecution": {
       "category": "coeur",
@@ -66999,6 +67111,14 @@
       "status": "imported",
       "title": "Yet Another Mirage of Breaking MIRAGE: Debunking Occupancy-based Side-Channel Attacks on Fully Associative Randomized Caches",
       "updated_at": "2026-11-04T21:49:02.312608+00:00"
+    },
+    "title:youcannotalwayswintheraceanalyzingthelfencejmpmitigationforbranchtargetinjection": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "You Cannot Always Win the Race: Analyzing the LFENCE/JMP Mitigation for Branch Target Injection",
+      "updated_at": "2026-11-17T23:38:10.131618+00:00"
     },
     "title:youcantalwayscheckwhatyouwantedselectivecheckingandtrustedexecutiontopreventfalseactuationsincyberphysicalsystems": {
       "category": "secondaire",

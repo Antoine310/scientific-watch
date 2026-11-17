@@ -14755,5 +14755,25 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "arXiv"
+  },
+  "title:youcannotalwayswintheraceanalyzingthelfencejmpmitigationforbranchtargetinjection": {
+    "doi": "",
+    "publication_date": "2022-03-08",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2203.04277v1",
+    "summary": "Cette étude analyse l'efficacité de la mitigation logicielle LFENCE/JMP contre les attaques par injection de cible de branche (BTI) et les attaques d'exécution spéculative similaires, principalement utilisées sur les processeurs AMD. Les auteurs démontrent que la mitigation peut être contournée en raison d'une condition de course inhérente entre l'exécution spéculative et la résolution architecturale, permettant à un attaquant de gagner la course et d'exploiter les vulnérabilités de type BTI sur divers processeurs x86.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "You Cannot Always Win the Race: Analyzing the LFENCE/JMP Mitigation for Branch Target Injection",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   }
 }
