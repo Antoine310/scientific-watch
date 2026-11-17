@@ -7112,6 +7112,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1186/s13677-017-0101-4": {
+    "doi": "https://doi.org/10.1186/s13677-017-0101-4",
+    "publication_date": "2017-12-01",
+    "publication_type": "revue",
+    "publication_venue": "Journal of Cloud Computing Advances Systems and Applications",
+    "score": 85,
+    "source": "https://doi.org/10.1186/s13677-017-0101-4",
+    "summary": "Cet article présente PokerFace, une méthode novatrice pour identifier et atténuer les attaques par canal auxiliaire sur le cache de dernier niveau partagé dans les instances cloud. La solution combine la surveillance de la bande passante du bus mémoire et l'obfuscation du cache pour contrer des attaques telles que Prime+Probe et Flush+Reload, le tout avec un surcoût modeste et sans nécessiter l'intervention du fournisseur cloud.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Keep the PokerFace on! Thwarting cache side channel attacks by memory bus monitoring and cache obfuscation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1186/s42400-024-00235-7": {
     "doi": "https://doi.org/10.1186/s42400-024-00235-7",
     "publication_date": "2024-08-04",
@@ -9583,6 +9600,23 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Capability Hardware Enhanced RISC Instructions (CHERI): Notes on the Meltdown and Spectre Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.48550/arxiv.1712.07882": {
+    "doi": "https://doi.org/10.48550/arxiv.1712.07882",
+    "publication_date": "2017-12-21",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/1712.07882",
+    "summary": "Cet article étudie la conception d'une mémoire RAM obfusquée (ORAM), appelée Pyramid ORAM, pour les processeurs de confiance comme Intel SGX afin de masquer les fuites d'informations par les canaux auxiliaires liés aux accès aux adresses mémoire. Les auteurs proposent une construction hiérarchique optimisée pour la bande passante en ligne et les petits blocs, utilisant une nouvelle technique de hachage.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "The Pyramid Scheme: Oblivious RAM for Trusted Processors",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
