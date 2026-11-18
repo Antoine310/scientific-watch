@@ -8324,6 +8324,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.3390/app12031452": {
+    "doi": "https://doi.org/10.3390/app12031452",
+    "publication_date": "2022-01-29",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2022-01-29",
+    "publication_type": "revue",
+    "publication_venue": "Applied Sciences",
+    "score": 92,
+    "source": "https://doi.org/10.3390/app12031452",
+    "summary": "Ce papier présente MATANA, un framework matériel/logiciel reconfigurable, ouvert et co-conçu pour la détection d'attaques à l'exécution en analysant les signaux microarchitecturaux. Les auteurs démontrent son implémentation sur un processeur RISC-V Rocket (FPGA Virtex-6) pour analyser des attaques par canal auxiliaire sur les caches et des attaques par programmation orientée retour (ROP).",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "MATANA: A Reconfigurable Framework for Runtime Attack Detection Based on the Analysis of Microarchitectural Signals",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.3390/app12052415": {
     "doi": "https://doi.org/10.3390/app12052415",
     "publication_date": "2022-02-25",
