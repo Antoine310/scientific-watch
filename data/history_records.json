@@ -12479,6 +12479,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:duvisorauserlevelhypervisorthroughdelegatedvirtualization": {
+    "doi": "",
+    "publication_date": "2022-01-24",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2201.09652v1",
+    "summary": "Cet article présente DuVisor, un hyperviseur au niveau utilisateur utilisant une approche de virtualisation déléguée pour séparer totalement le plan de contrôle (pilote noyau) et le plan de données (processus d'aide). Cette architecture élimine l'intervention du noyau à l'exécution et permet de traiter toutes les opérations de VM sans piège (« trap ») vers le noyau après l'initialisation. Les auteurs ont implémenté une extension matérielle sur un processeur RISC-V open-source et un hyperviseur en Rust, démontrant des performances supérieures à KVM et une réduction de la surface d'attaque.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "DuVisor: a User-level Hypervisor Through Delegated Virtualization",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:dynamicfrequencybasedfingerprintingattacksagainstmodernsandboxenvironments": {
     "doi": "",
     "publication_date": "2024-04-16",
