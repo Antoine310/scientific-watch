@@ -4000,6 +4000,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/tcsii.2021.3102526": {
+    "doi": "https://doi.org/10.1109/tcsii.2021.3102526",
+    "publication_date": "2022-02-01",
+    "publication_date_note": "Date source Crossref : 2022-02 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2022-02",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Circuits and Systems II: Express Briefs",
+    "score": 75,
+    "source": "https://doi.org/10.1109/tcsii.2021.3102526",
+    "summary": "Cette étude présente un prototype novateur de calculateur réservoir (RC) en technologie CMOS 65 nm capable de détecter en temps réel des malwares et des attaques microarchitecturales à l'aide de traces de compteurs de performance matérielle (HPC). Le circuit intégré atteint une précision de classification de 96,8 % pour les malwares et 96,5 % pour les attaques microarchitecturales, avec une consommation énergétique et des performances supérieures aux modèles d'apprentissage automatique numériques traditionnels.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Real-Time Hardware-Based Malware and Micro-Architectural Attack Detection Utilizing CMOS Reservoir Computing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tcsii.2026.3735193": {
     "publication_date": "2026-01-01",
     "publication_type": "revue",
@@ -7705,6 +7725,26 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Efficient Memory Protection Method for Large-Scale Host-Enclave Data Transfer on Keystone Enclave",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.17341/gazimmfd.711396": {
+    "doi": "https://doi.org/10.17341/gazimmfd.711396",
+    "publication_date": "2022-02-28",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2022-02-28",
+    "publication_type": "revue",
+    "publication_venue": "Gazi Üniversitesi Mühendislik Mimarlık Fakültesi Dergisi",
+    "score": 85,
+    "source": "https://doi.org/10.17341/gazimmfd.711396",
+    "summary": "Bu çalışmada, eş zamanlı çok işlem parçacıklı işlemcilerde önbellek tabanlı yan kanal saldırılarına karşı güvenli bir önbellek paylaşım mekanizması olan FairSDP önerilmiştir. Amaç, güvenlik önlemlerinin neden olduğu performans düşüşünü kullanıcılar veya iş parçacıkları arasında adil bir şekilde dağıtmak ve genel performansı artırmaktır. Önerilen mimari 4 ve 8 iş parçacıklı sistemlerde değerlendirilmiş ve mevcut yaklaşımlara kıyasla performans artışları elde edilmiştir.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Eş zamanlı çok işlem parçacıklı işlemcilerde adalet için güvenli önbellek paylaşımı",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
