@@ -4766,6 +4766,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3061639.3062276": {
+    "doi": "https://doi.org/10.1145/3061639.3062276",
+    "publication_date": "2017-06-13",
+    "publication_type": "conference",
+    "publication_venue": "ACM/IEEE Design Automation Conference (DAC)",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3061639.3062276",
+    "summary": "LO-FAT est une approche matérielle pour l'attestation de flux de contrôle dans les systèmes embarqués. Elle exploite les fonctionnalités matérielles existantes et des blocs IP courants pour permettre une attestation efficace sans nécessiter d'instrumentation logicielle. Le prototype basé sur un SoC RISC-V ne génère aucun temps d'attente (stalls) du processeur et présente un surcoût de surface raisonnable.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "LO-FAT: Low-Overhead Control Flow ATtestation in Hardware",
+    "venue_landmark": "DAC",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3133956.3134029": {
     "doi": "https://doi.org/10.1145/3133956.3134029",
     "publication_date": "2017-10-27",
