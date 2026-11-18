@@ -11959,6 +11959,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:automatedsidechannelanalysisofmediasoftwarewithmanifoldlearning": {
+    "doi": "",
+    "publication_date": "2021-12-09",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2112.04947v2",
+    "summary": "Cet article étudie l'utilisation du manifold learning et d'un auto-encodeur avec mécanisme d'attention pour automatiser l'analyse par canaux cachés (SCA) contre les logiciels multimédias et reconstruire des entrées confidentielles. Il propose également une contre-mesure nommée perception blinding pour atténuer ces attaques.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Automated Side Channel Analysis of Media Software with Manifold Learning",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:automatedtemplatefreesynthesisofinstructioncentricleakagecontractsforblackboxcpus": {
     "publication_date": "2026-07-16",
     "publication_date_note": "",
@@ -12830,6 +12850,26 @@
       "T07 — Hardware Security Verification"
     ],
     "title": "FireGuard: A Generalized Microarchitecture for Fine-Grained Security Analysis on OoO Superscalar Cores",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:flexostowardsflexibleosisolation": {
+    "doi": "",
+    "publication_date": "2021-12-13",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2112.06566v3",
+    "summary": "FlexOS est un système d'exploitation modulaire (LibOS) qui permet de spécialiser et de reconfigurer facilement la stratégie de sécurité et d'isolation au moment de la compilation ou du déploiement, plutôt qu'au moment de la conception. Il utilise des composants à grain fin combinant divers mécanismes matériels et logiciels, et propose une technique d'exploration pour naviguer dans l'espace de conception sécurité/performance.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "FlexOS: Towards Flexible OS Isolation",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -13846,6 +13886,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Reinforcing Secure Live Migration through Verifiable State Management",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:relationalmodelsofmicroarchitecturesforformalsecurityanalyses": {
+    "doi": "",
+    "publication_date": "2021-12-20",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2112.10511v1",
+    "summary": "Cet article propose les modèles de confinement des fuites (LCM), des contrats de sécurité axiomatiques conçus pour lier précisément les détails d'implémentation microarchitecturaux aux garanties de sécurité logicielle tout en restant suffisamment abstraits pour permettre des analyses formelles efficaces.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Relational Models of Microarchitectures for Formal Security Analyses",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
