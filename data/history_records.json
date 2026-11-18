@@ -3537,6 +3537,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/tc.2021.3055293": {
+    "doi": "https://doi.org/10.1109/tc.2021.3055293",
+    "publication_date": "2022-02-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2022-02-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computers",
+    "score": 75,
+    "source": "https://doi.org/10.1109/tc.2021.3055293",
+    "summary": "Cet article présente Colony, un nouvel environnement d'exécution de confiance (TEE) privilégié conçu pour offrir une extensibilité et un support des sémantiques au niveau du système tout en maintenant une base de confiance (TCB) réduite. L'approche utilise un moniteur sécurisé pour l'isolation et la gestion des capacités, permettant de déployer des services de sécurité complexes sur des architectures ARMv7 et ARMv8.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Colony: A Privileged Trusted Execution Environment With Extensibility",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tc.2021.3059531": {
     "doi": "https://doi.org/10.1109/tc.2021.3059531",
     "publication_date": "2021-02-16",
