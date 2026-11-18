@@ -4817,6 +4817,23 @@
     "venue_priority": 2,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3140659.3080222": {
+    "doi": "https://doi.org/10.1145/3140659.3080222",
+    "publication_date": "2017-06-24",
+    "publication_type": "revue",
+    "publication_venue": "ACM SIGARCH Computer Architecture News",
+    "score": 90,
+    "source": "https://doi.org/10.1145/3140659.3080222",
+    "summary": "Cet article présente SHARP (Secure Hierarchy-Aware cache Replacement Policy), une politique de remplacement de cache conçue pour contrer les attaques par canaux cachés inter-cœurs basées sur le cache. En modifiant l'algorithme de remplacement du cache partagé pour empêcher un processus de créer des victimes d'inclusion dans les caches privés d'autres cœurs, SHARP empêche un espion d'évincer les adresses sondées par la victime. L'évaluation montre une protection efficace contre les attaques réelles avec une dégradation de performance négligeable.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Secure Hierarchy-Aware Cache Replacement Policy (SHARP): Defending Against Cache-Based Side Channel Atacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3196494.3196501": {
     "doi": "https://doi.org/10.1145/3196494.3196501",
     "publication_date": "2018-05-29",
