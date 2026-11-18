@@ -9424,6 +9424,14 @@
       "title": "A deep learning-based integrated analytical system for tumor exosome on-chip isolation and automated image identification",
       "updated_at": "2026-11-04T23:49:23.937111+00:00"
     },
+    "doi:10.1016/j.tcs.2021.09.042": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hardware security without secure hardware: How to decrypt with a password and a server",
+      "updated_at": "2026-11-18T23:37:11.438643+00:00"
+    },
     "doi:10.1016/j.teadva.2024.200120": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -15359,6 +15367,70 @@
       "status": "rejected",
       "title": "Late Binding ROM: Flexible, In-Field Updateable Post Quantum Cryptography in Hardware",
       "updated_at": "2026-11-03T21:07:19.382351+00:00"
+    },
+    "doi:10.1109/dac18074.2021.9586106": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 59,
+      "status": "rejected",
+      "title": "Invited: End-to-End Secure SoC Lifecycle Management",
+      "updated_at": "2026-11-18T23:38:31.513940+00:00"
+    },
+    "doi:10.1109/dac18074.2021.9586165": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Shortest Path to Secured Hardware: Domain Oriented Masking with High-Level-Synthesis",
+      "updated_at": "2026-11-18T23:37:41.630668+00:00"
+    },
+    "doi:10.1109/dac18074.2021.9586178": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "A Lightweight Isolation Mechanism for Secure Branch Predictors",
+      "updated_at": "2026-11-18T23:38:31.640333+00:00"
+    },
+    "doi:10.1109/dac18074.2021.9586222": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 59,
+      "status": "rejected",
+      "title": "Distributed Memory Guard: Enabling Secure Enclave Computing in NoC-based Architectures",
+      "updated_at": "2026-11-18T23:38:32.354999+00:00"
+    },
+    "doi:10.1109/dac18074.2021.9586233": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Leveraging Noise and Aggressive Quantization of In-Memory Computing for Robust DNN Hardware Against Adversarial Input and Weight Attacks",
+      "updated_at": "2026-11-18T23:37:59.167280+00:00"
+    },
+    "doi:10.1109/dac18074.2021.9586242": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Securing Hardware via Dynamic Obfuscation Utilizing Reconfigurable Interconnect and Logic Blocks",
+      "updated_at": "2026-11-18T23:37:59.382790+00:00"
+    },
+    "doi:10.1109/dac18074.2021.9586291": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "SoCCAR: Detecting System-on-Chip Security Violations Under Asynchronous Resets",
+      "updated_at": "2026-11-18T23:37:59.870844+00:00"
+    },
+    "doi:10.1109/dac18074.2021.9586293": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "SHORE: Hardware/Software Method for Memory Safety Acceleration on RISC-V",
+      "updated_at": "2026-11-18T23:37:59.978954+00:00"
     },
     "doi:10.1109/dac56929.2023.10247742": {
       "category": "hors_sujet",
@@ -24647,6 +24719,22 @@
       "status": "rejected",
       "title": "Design, Analysis, and Experimental Verification of Arm Link Enhanced Modular Multilevel Converter",
       "updated_at": "2026-11-09T21:36:37.401770+00:00"
+    },
+    "doi:10.1109/jetcas.2021.3120417": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "An Overview of Sparsity Exploitation in CNNs for On-Device Intelligence With Software-Hardware Cross-Layer Optimizations",
+      "updated_at": "2026-11-18T23:37:21.660614+00:00"
+    },
+    "doi:10.1109/jetcas.2021.3126816": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Enabling Micro AI for Securing Edge Devices at Hardware Level",
+      "updated_at": "2026-11-18T23:38:00.270852+00:00"
     },
     "doi:10.1109/jetcas.2025.3592984": {
       "category": "secondaire",
@@ -34824,6 +34912,14 @@
       "title": "Physical Attack Protection Techniques for IC Chip Level Hardware Security",
       "updated_at": "2026-11-18T15:41:12.429403+00:00"
     },
+    "doi:10.1109/tvlsi.2021.3120296": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Secure XOR-CIM Engine: Compute-In-Memory SRAM Architecture With Embedded XOR Encryption",
+      "updated_at": "2026-11-18T23:38:21.094358+00:00"
+    },
     "doi:10.1109/tvlsi.2021.3129141": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -35399,6 +35495,14 @@
       "status": "rejected",
       "title": "Exploiting the Pico Cell as a PUF and TRNG Reconfigurable Entropy Source",
       "updated_at": "2026-11-01T02:15:02.252663+00:00"
+    },
+    "doi:10.1109/tvt.2021.3122333": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hardware Limitations to Secure C-ITS: Experimental Evaluation and Solutions",
+      "updated_at": "2026-11-18T23:37:31.336235+00:00"
     },
     "doi:10.1109/tvt.2021.3136083": {
       "category": "hors_sujet",
@@ -61208,6 +61312,14 @@
       "title": "Secure Smart Card IP",
       "updated_at": "2026-11-09T15:38:35.882077+00:00"
     },
+    "doi:10.5772/intechopen.98541": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Cloud Security in Middleware Architecture",
+      "updated_at": "2026-11-18T23:37:01.547257+00:00"
+    },
     "doi:10.57841/casdc.0006531": {
       "category": "secondaire",
       "decision": "examiner",
@@ -68047,6 +68159,14 @@
       "status": "rejected",
       "title": "Supporting Intel(r) SGX on Multi-Package Platforms",
       "updated_at": "2026-11-05T01:25:09.048684+00:00"
+    },
+    "title:supportingriscvperformancecountersthroughperformanceanalysistoolsforlinuxperf": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "Supporting RISC-V Performance Counters through Performance analysis tools for Linux (Perf)",
+      "updated_at": "2026-11-18T23:36:36.227133+00:00"
     },
     "title:supportingsecuredintegrationofmicroarchitecturaldefenses": {
       "category": "coeur",
