@@ -2,7 +2,7 @@
   "accepted": 379,
   "completed": false,
   "cursor": "*",
-  "evaluated": 7068,
+  "evaluated": 7070,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -592,9 +592,9 @@
     "monthly/2022-03/query-24 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2022-02",
-  "needs_publish": false,
+  "needs_publish": true,
   "offset": 0,
-  "pages_done": 8563,
+  "pages_done": 8568,
   "pages_in_query": 0,
   "pending": [],
   "phase": "monthly",
@@ -3001,8 +3001,8 @@
     }
   ],
   "prefilter_review_overflow": 3087,
-  "query_index": 3,
-  "secondary": 385,
-  "skipped": 7724,
+  "query_index": 8,
+  "secondary": 386,
+  "skipped": 7729,
   "version": 1
 }
