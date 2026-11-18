@@ -4706,6 +4706,40 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3133956.3134029": {
+    "doi": "https://doi.org/10.1145/3133956.3134029",
+    "publication_date": "2017-10-27",
+    "publication_type": "conference",
+    "publication_venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3133956.3134029",
+    "summary": "Cette publication étudie une attaque par canal auxiliaire microarchitectural ciblant plusieurs applications réelles de Curve25519, et plus particulièrement l'implémentation de Libgcrypt pour le chiffrement ECDH. Bien que cette implémentation utilise une échelle de Montgomery sans branche et un échange d'arguments à temps constant, les opérations arithmétiques de corps sous-jacentes ne sont pas conçues pour résister aux canaux auxiliaires.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "May the Fourth Be With You: A Microarchitectural Side Channel Attack on Several Real-World Applications of Curve25519",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3133956.3134098": {
+    "doi": "https://doi.org/10.1145/3133956.3134098",
+    "publication_date": "2017-10-27",
+    "publication_type": "conference",
+    "publication_venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3133956.3134098",
+    "summary": "Cet article propose une fondation formelle pour l'exécution à distance sécurisée d'enclaves matérielles. Les auteurs introduisent une méthodologie de vérification basée sur une plateforme abstraite de confiance (TAP) et des preuves vérifiées par machine démontrant que des architectures comme Intel SGX et Sanctum raffinent cette TAP.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "A Formal Foundation for Secure Remote Execution of Enclaves",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3196494.3196501": {
     "doi": "https://doi.org/10.1145/3196494.3196501",
     "publication_date": "2018-05-29",
