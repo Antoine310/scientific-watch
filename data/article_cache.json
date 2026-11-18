@@ -56960,6 +56960,14 @@
       "title": "Capability Hardware Enhanced RISC Instructions (CHERI): Notes on the Meltdown and Spectre Attacks",
       "updated_at": "2026-11-17T17:14:32.908901+00:00"
     },
+    "doi:10.48550/arxiv.1708.09538": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "A Novel Scheduling Framework Leveraging Hardware Cache Partitioning for Cache-Side-Channel Elimination in Clouds",
+      "updated_at": "2026-11-18T11:14:52.054412+00:00"
+    },
     "doi:10.48550/arxiv.1712.07882": {
       "category": "coeur",
       "decision": "examiner",
@@ -62136,6 +62144,14 @@
       "title": "CacheSquash: Making caches speculation-aware",
       "updated_at": "2026-11-09T14:39:17.972158+00:00"
     },
+    "title:cachetimingattacksonpublickeyencryption": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Cache Timing Attacks on Public Key Encryption",
+      "updated_at": "2026-11-18T11:14:32.856775+00:00"
+    },
     "title:calessmutualcosigningofdocumentsoveraunidirectionalvisualchannelwithtransportedhardwareattestation": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -66943,6 +66959,14 @@
       "status": "imported",
       "title": "TEE-X: TEE-aware Acceleration Framework for Large Vision Models at the Edge",
       "updated_at": "2026-11-02T17:57:47.170531+00:00"
+    },
+    "title:tellingyoursecretswithoutpagefaultsstealthypagetablebasedattacksonenclavedexecution": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Telling your secrets without page faults: stealthy page table-based attacks on enclaved execution",
+      "updated_at": "2026-11-18T11:13:39.270426+00:00"
     },
     "title:tempoconfidentialitypreservationincloudbasedneuralnetworktraining": {
       "category": "secondaire",

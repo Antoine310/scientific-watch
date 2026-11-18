@@ -9733,6 +9733,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.48550/arxiv.1708.09538": {
+    "doi": "https://doi.org/10.48550/arxiv.1708.09538",
+    "publication_date": "2017-08-31",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/1708.09538",
+    "summary": "Cet article présente un mécanisme matériel-logiciel combinant l'architecture Intel CAT (Cache Allocation Technology), de nouvelles techniques d'ordonnancement et des mécanismes de nettoyage d'état pour éliminer les canaux cachés liés aux caches partagés dans les environnements cloud (conteneurs et machines virtuelles gérées par KVM). L'approche permet de maintenir le SMT (Simultaneous Multithreading) actif sans nécessiter de modification applicative.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "A Novel Scheduling Framework Leveraging Hardware Cache Partitioning for Cache-Side-Channel Elimination in Clouds",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.48550/arxiv.1712.07882": {
     "doi": "https://doi.org/10.48550/arxiv.1712.07882",
     "publication_date": "2017-12-21",
@@ -11986,6 +12003,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "arXiv"
+  },
+  "title:cachetimingattacksonpublickeyencryption": {
+    "doi": null,
+    "publication_date": "2017-08-28",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "https://aaltodoc.aalto.fi/handle/123456789/27907",
+    "summary": "Cette thèse étudie une attaque par canal auxiliaire basée sur le temps d'accès aux caches, ciblant la bibliothèque mathématique LibTomMath et plus particulièrement sa fonction d'exponentiation modulaire utilisée dans RSA. L'objectif est d'extraire la clé privée à long terme du serveur en partageant le même processeur, y compris à travers des machines virtuelles différentes. L'étude aborde également les optimisations du chiffrement RSA, l'exploitation des motifs d'accès mémoire, ainsi que les contre-mesures potentielles pour les fournisseurs cloud, les développeurs et les fabricants.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Cache Timing Attacks on Public Key Encryption",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "title:capstoneacapabilitybasedfoundationfortrustlesssecurememoryaccessextendedversion": {
     "doi": "",
@@ -14400,6 +14434,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "arXiv"
+  },
+  "title:tellingyoursecretswithoutpagefaultsstealthypagetablebasedattacksonenclavedexecution": {
+    "doi": null,
+    "publication_date": "2017-08-16",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "https://lirias.kuleuven.be/handle/123456789/586081",
+    "summary": "Cet article démontre que les architectures d'exécution enclavée restent vulnérables aux attaques par canaux auxiliaires basées sur les tables de pages, même en l'absence de défauts de page. Les auteurs introduisent deux nouveaux vecteurs d'attaque exploitant les attributs des tables de pages et le comportement de mise en cache pour inférer les accès mémoire de l'enclave, permettant notamment de récupérer des clés de session EdDSA de Libgcrypt.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Telling your secrets without page faults: stealthy page table-based attacks on enclaved execution",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "title:tesserasecurenearlinerateweightstreamingforumaedgeaccelerators": {
     "doi": "",
