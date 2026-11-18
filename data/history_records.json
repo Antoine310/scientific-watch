@@ -1552,6 +1552,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/hst.2017.7951819": {
+    "doi": "https://doi.org/10.1109/hst.2017.7951819",
+    "publication_date": "2017-05-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/hst.2017.7951819",
+    "summary": "Ce travail étudie l'application de variantes d'attaques temporelles par cache (comme S$A) sur les microarchitectures Intel récentes, notamment Nehalem, Haswell et Skylake. Il démontre la récupération complète de clés cryptographiques à distance via TCP avec un attaquant co-localisé disposant des privilèges root, et inclut le rétro-ingénierie des algorithmes de sélection des tranches de cache (CSSA) pour Skylake.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Cache timing attacks on recent microarchitectures",
+    "venue_landmark": "IEEE HOST",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/icc59461.2026.11587746": {
     "publication_date": "2026-05-24",
     "publication_type": "conference",
