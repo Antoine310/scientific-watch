@@ -1,8 +1,8 @@
 {
   "accepted": 391,
   "completed": false,
-  "cursor": "MTYzNDg3MzgxMzAwMCwxMC4xMDE2JTJGai5jc2l0ZS4yMDIxLjEwMTU3MQ==",
-  "evaluated": 7303,
+  "cursor": "MTYzNjQxNDIzNDAwMCwxMC4xMTA5JTJGZGFjMTgwNzQuMjAyMS45NTg2MTg3",
+  "evaluated": 7308,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -616,13 +616,15 @@
     "monthly/2021-12/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2021-12/query-15 : résultat tronqué au plafond 12 pages",
     "monthly/2021-12/query-16 : résultat tronqué au plafond 12 pages",
-    "monthly/2021-12/query-18 : résultat tronqué au plafond 12 pages"
+    "monthly/2021-12/query-18 : résultat tronqué au plafond 12 pages",
+    "monthly/2021-12/query-19 : résultat tronqué au plafond 12 pages",
+    "monthly/2021-12/query-20 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2021-12",
   "needs_publish": false,
-  "offset": 400,
-  "pages_done": 8954,
-  "pages_in_query": 10,
+  "offset": 440,
+  "pages_done": 8979,
+  "pages_in_query": 11,
   "pending": [],
   "phase": "monthly",
   "prefilter_review": [
@@ -3028,8 +3030,8 @@
     }
   ],
   "prefilter_review_overflow": 3229,
-  "query_index": 19,
+  "query_index": 21,
   "secondary": 405,
-  "skipped": 7950,
+  "skipped": 7955,
   "version": 1
 }
