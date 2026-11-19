@@ -5397,6 +5397,26 @@
     "venue_priority": 2,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3460120.3484821": {
+    "doi": "https://doi.org/10.1145/3460120.3484821",
+    "publication_date": "2021-10-13",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "CCS '21: 2021 ACM SIGSAC Conference on Computer and Communications Security",
+    "score": 78,
+    "source": "http://arxiv.org/abs/2110.06657v1",
+    "summary": "Cet article présente SmashEx, une nouvelle attaque ciblant l'interface entre le système d'exploitation et les enclaves matérielles sécurisées (Intel SGX) lors de la gestion des exceptions asynchrones. En exploitant le manque d'atomicité dans cette gestion, l'attaque permet d'obtenir la divulgation de mémoire privée et des attaques de type ROP sans nécessiter d'erreurs mémoire ou de canaux auxiliaires.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "SmashEx: Smashing SGX Enclaves Using Exceptions",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3465481.3465762": {
     "doi": "https://doi.org/10.1145/3465481.3465762",
     "publication_date": "2021-08-16",
@@ -12803,6 +12823,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Dynamic Frequency-Based Fingerprinting Attacks against Modern Sandbox Environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:dynamicprocessisolation": {
+    "doi": "",
+    "publication_date": "2021-10-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2110.04751v1",
+    "summary": "Cet article étudie les failles de type Spectre dans les environnements de calcul en périphérie (edge-computing) qui suppriment l'isolation stricte des processus au profit de bac à sable logiciels (comme V8) pour améliorer les performances. Les auteurs démontrent une attaque Spectre à distance permettant de fuiter 120 bit/h et proposent « Dynamic Process Isolation », un mécanisme d'isolation dynamique ciblant uniquement les scripts suspects.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Dynamic Process Isolation",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
