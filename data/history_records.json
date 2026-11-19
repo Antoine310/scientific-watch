@@ -5377,6 +5377,26 @@
     "venue_priority": 2,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3460120.3484810": {
+    "doi": "https://doi.org/10.1145/3460120.3484810",
+    "publication_date": "2021-11-12",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2021-11-12",
+    "publication_type": "conference",
+    "publication_venue": "CCS '21: 2021 ACM SIGSAC Conference on Computer and Communications Security",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3460120.3484810",
+    "summary": "Cet article présente Xenon, une méthode interactive assistée par solveur pour vérifier formellement que le matériel en Verilog s'exécute en temps constant. Xenon réduit l'effort de localisation des causes de défaillance grâce à de nouveaux contre-exemples de temps constant et à la synthèse interactive d'hypothèses de secret minimales. L'outil exploite la modularité du code via des résumés de modules pour accélérer la vérification, ce qui a permis de valider des circuits complexes comme une implémentation AES-256 et le microcontrôleur RISC-V durci ScarV, tout en aidant des utilisateurs non experts.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Solver-Aided Constant-Time Hardware Verification",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3465481.3465762": {
     "doi": "https://doi.org/10.1145/3465481.3465762",
     "publication_date": "2021-08-16",
@@ -5447,6 +5467,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3474376.3487404": {
+    "doi": "https://doi.org/10.1145/3474376.3487404",
+    "publication_date": "2021-11-15",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2021-11-15",
+    "publication_type": "conference",
+    "publication_venue": "CCS '21: 2021 ACM SIGSAC Conference on Computer and Communications Security",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3474376.3487404",
+    "summary": "Cette publication analyse les attaques par exécution spéculative (type Spectre et Meltdown) qui exploitent les optimisations microarchitecturales pour fuiter des secrets. Les auteurs identifient les étapes critiques de ces attaques, introduisent le concept de dépendances de sécurité, proposent une taxonomie des stratégies de défense matérielle, discutent des compromis sécurité-performance et suggèrent des principes de conception pour les futures microarchitectures sécurisées.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Speculative Execution Attacks and Hardware Defenses",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1145/3485506": {
     "doi": "https://doi.org/10.1145/3485506",
@@ -9139,6 +9179,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Runtime Verification for Trustworthy Computing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/tches.v2022.i1.175-220": {
+    "doi": "https://doi.org/10.46586/tches.v2022.i1.175-220",
+    "publication_date": "2021-11-19",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2021-11-19",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 75,
+    "source": "https://doi.org/10.46586/tches.v2022.i1.175-220",
+    "summary": "Cet article présente MIRACLE, une infrastructure expérimentale extensible pour évaluer les fuites micro-architecturales basées sur la consommation de puissance des appareils physiques. Les auteurs étudient 14 appareils issus de 4 architectures de jeux d'instructions et 4 fabricants, mettant en évidence de nouveaux effets de fuite (liés notamment à l'exécution spéculative) et la non-portabilité des hypothèses de fuite entre appareils compatibles.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "MIRACLE: MIcRo-ArChitectural Leakage Evaluation",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,

@@ -2960,6 +2960,14 @@
       "title": "Hardware Oriented Authenticated Encryption Based on Tweakable Block Ciphers",
       "updated_at": "2026-11-18T16:37:12.347358+00:00"
     },
+    "doi:10.1007/978-981-16-6344-4_8": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hardware Design Space Exploration of a Selection of NIST Lightweight Cryptography Candidates",
+      "updated_at": "2026-11-19T11:38:27.927669+00:00"
+    },
     "doi:10.1007/978-981-16-6723-7_2": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4608,6 +4616,14 @@
       "title": "Design and Analysis of Reconfigurable Cryptographic Primitives: TRNG and PUF",
       "updated_at": "2026-11-10T02:13:33.922931+00:00"
     },
+    "doi:10.1007/s41635-021-00123-3": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "A Secure Boot Framework with Multi-security Features and Logic-Locking Applications for Reconfigurable Logic",
+      "updated_at": "2026-11-19T11:39:01.880106+00:00"
+    },
     "doi:10.1007/s41635-022-00126-8": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -4896,6 +4912,14 @@
       "title": "Software-Based Techniques as Alternatives to Hardware Filters for Overvoltage Mitigation in Inverter Systems with SiC Modules",
       "updated_at": "2026-11-02T18:35:36.985256+00:00"
     },
+    "doi:10.1007/s42853-021-00118-6": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "IoT for Promoting Agriculture 4.0: a Review from the Perspective of Weather Monitoring, Yield Prediction, Security of WSN Protocols, and Hardware Cost Analysis",
+      "updated_at": "2026-11-19T11:39:01.835198+00:00"
+    },
     "doi:10.1007/s42974-021-00072-5": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -4903,6 +4927,14 @@
       "status": "rejected",
       "title": "Black Manakin (Xenopipo atronitens) as a keystone species for seed dispersal in a white-sand vegetation enclave in Southwest Amazonia",
       "updated_at": "2026-11-09T14:14:45.281603+00:00"
+    },
+    "doi:10.1007/s42979-021-00954-5": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "2L-3W: 2-Level 3-Way Hardware–Software Co-verification for the Mapping of Convolutional Neural Network (CNN) onto FPGA Boards",
+      "updated_at": "2026-11-19T11:38:13.011459+00:00"
     },
     "doi:10.1007/s42979-022-01194-x": {
       "category": "secondaire",
@@ -38488,6 +38520,30 @@
       "title": "Exorcising Spectres with Secure Compilers",
       "updated_at": "2026-11-09T23:15:06.161105+00:00"
     },
+    "doi:10.1145/3460120.3484785": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A Formally Verified Configuration for Hardware Security Modules in the Cloud",
+      "updated_at": "2026-11-19T11:38:12.906838+00:00"
+    },
+    "doi:10.1145/3460120.3484788": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "RealSWATT: Remote Software-based Attestation for Embedded Devices under Realtime Constraints",
+      "updated_at": "2026-11-19T11:38:12.979281+00:00"
+    },
+    "doi:10.1145/3460120.3484810": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Solver-Aided Constant-Time Hardware Verification",
+      "updated_at": "2026-11-19T11:38:12.797029+00:00"
+    },
     "doi:10.1145/3462223.3485620": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -38559,6 +38615,22 @@
       "status": "imported",
       "title": "BasicBlocker: ISA Redesign to Make Spectre-Immune CPUs Faster",
       "updated_at": "2026-11-10T02:14:20.376782+00:00"
+    },
+    "doi:10.1145/3474376": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Proceedings of the 5th Workshop on Attacks and Solutions in Hardware Security",
+      "updated_at": "2026-11-19T11:37:20.533778+00:00"
+    },
+    "doi:10.1145/3474376.3487404": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Speculative Execution Attacks and Hardware Defenses",
+      "updated_at": "2026-11-19T11:37:31.327269+00:00"
     },
     "doi:10.1145/3477314.3508378": {
       "category": "secondaire_technique",
@@ -45560,6 +45632,22 @@
       "title": "RISC-V Open Source Instruction Set and Architecture",
       "updated_at": "2026-11-10T21:38:40.123300+00:00"
     },
+    "doi:10.1201/9781003201038-14": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Machine Learning in Hardware Security of IoT Nodes",
+      "updated_at": "2026-11-19T11:38:27.962771+00:00"
+    },
+    "doi:10.1201/9781003201038-4": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Machine Learning Methods for Hardware Security",
+      "updated_at": "2026-11-19T11:38:32.531506+00:00"
+    },
     "doi:10.1201/9781003304203-7": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -51768,6 +51856,14 @@
       "title": "Secure double MAC implementation for STBC based FECG monitoring",
       "updated_at": "2026-11-11T17:38:35.345501+00:00"
     },
+    "doi:10.3233/kes-210075": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "CPU runtime optimization in data damage tracking quarantine and recovery (DTQR) scheme based on customized ANN",
+      "updated_at": "2026-11-19T11:38:27.872328+00:00"
+    },
     "doi:10.3233/nicsp230010": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -56736,6 +56832,30 @@
       "title": "The design of scalar AES Instruction Set Extensions for RISC-V",
       "updated_at": "2026-11-11T20:14:30.857569+00:00"
     },
+    "doi:10.46586/tches.v2022.i1.127-151": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Multi-moduli NTTs for Saber on Cortex-M3 and Cortex-M4",
+      "updated_at": "2026-11-19T11:39:01.687959+00:00"
+    },
+    "doi:10.46586/tches.v2022.i1.175-220": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "MIRACLE: MIcRo-ArChitectural Leakage Evaluation",
+      "updated_at": "2026-11-19T11:38:53.415891+00:00"
+    },
+    "doi:10.46586/tches.v2022.i1.245-269": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Efficient Implementations of Rainbow and UOV using AVX2",
+      "updated_at": "2026-11-19T11:38:40.565501+00:00"
+    },
     "doi:10.46586/tches.v2022.i1.28-68": {
       "category": "coeur",
       "decision": "conserver",
@@ -56744,6 +56864,54 @@
       "title": "Bypassing Isolated Execution on RISC-V using Side-Channel-Assisted Fault-Injection and Its Countermeasure",
       "updated_at": "2026-11-09T23:13:35.959191+00:00"
     },
+    "doi:10.46586/tches.v2022.i1.323-344": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Generic Hardware Private Circuits",
+      "updated_at": "2026-11-19T11:38:33.349438+00:00"
+    },
+    "doi:10.46586/tches.v2022.i1.367-390": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Practical Multiple Persistent Faults Analysis",
+      "updated_at": "2026-11-19T11:38:33.182069+00:00"
+    },
+    "doi:10.46586/tches.v2022.i1.414-460": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Masked Accelerators and Instruction Set Extensions for Post-Quantum Cryptography",
+      "updated_at": "2026-11-19T11:38:33.151251+00:00"
+    },
+    "doi:10.46586/tches.v2022.i1.461-481": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "A Finer-Grain Analysis of the Leakage (Non) Resilience of OCB",
+      "updated_at": "2026-11-19T11:38:32.624598+00:00"
+    },
+    "doi:10.46586/tches.v2022.i1.482-505": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 49,
+      "status": "rejected",
+      "title": "Polynomial multiplication on embedded vector architectures",
+      "updated_at": "2026-11-19T11:38:33.119233+00:00"
+    },
+    "doi:10.46586/tches.v2022.i1.506-556": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "ModuloNET: Neural Networks Meet Modular Arithmetic for Efficient Hardware Masking",
+      "updated_at": "2026-11-19T11:38:33.086376+00:00"
+    },
     "doi:10.46586/tches.v2022.i1.630-656": {
       "category": "coeur",
       "decision": "conserver",
@@ -56751,6 +56919,38 @@
       "status": "imported",
       "title": "Composite Enclaves: Towards Disaggregated Trusted Execution",
       "updated_at": "2026-11-09T23:14:08.115979+00:00"
+    },
+    "doi:10.46586/tches.v2022.i1.679-721": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Cryptanalysis of Efficient Masked Ciphers: Applications to Low Latency",
+      "updated_at": "2026-11-19T11:38:32.792327+00:00"
+    },
+    "doi:10.46586/tches.v2022.i1.69-93": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Can’t Touch This: Inertial HSMs Thwart Advanced Physical Attacks",
+      "updated_at": "2026-11-19T11:39:01.720458+00:00"
+    },
+    "doi:10.46586/tches.v2022.i1.722-761": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Will You Cross the Threshold for Me?",
+      "updated_at": "2026-11-19T11:38:32.592632+00:00"
+    },
+    "doi:10.46586/tches.v2022.i1.94-126": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "CFNTT: Scalable Radix-2/4 NTT Multiplication Architecture with an Efficient Conflict-free Memory Mapping Scheme",
+      "updated_at": "2026-11-19T11:38:32.657274+00:00"
     },
     "doi:10.46586/tches.v2022.i2.115-139": {
       "category": "secondaire",
