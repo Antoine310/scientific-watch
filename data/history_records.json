@@ -4884,6 +4884,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3020078.3021802": {
+    "doi": "https://doi.org/10.1145/3020078.3021802",
+    "publication_date": "2017-02-02",
+    "publication_type": "conference",
+    "publication_venue": "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA)",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3020078.3021802",
+    "summary": "Cette présentation démontre un risque de sécurité lié aux canaux auxiliaires dans la microarchitecture des SoCFPGA, en utilisant un cheval de Troie FPGA basé sur OpenCL qui réalise des attaques temporelles sur le cache via le port de cohérence de l'accélérateur (ACP). L'objectif est de déduire des adresses physiques du noyau Linux pour modifier des emplacements mémoire et obtenir des privilèges similaires à un rootkit, en prédisant avec précision les adresses physiques et les entrées de table des pages après environ 300 itérations.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Cache Timing Attacks from The SoCFPGA Coherency Port (Abstract Only)",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3061639.3062276": {
     "doi": "https://doi.org/10.1145/3061639.3062276",
     "publication_date": "2017-06-13",
