@@ -1,8 +1,8 @@
 {
   "accepted": 402,
   "completed": false,
-  "cursor": "MTYzMzAwMzI0NjAwMCwxMC4xMzY0JTJGYm9lLjQzMDU4Ng==",
-  "evaluated": 7509,
+  "cursor": "MTYzNDgwNjg3OTAwMCwxMC4xMDAyJTJGY3RhLjMxNTU=",
+  "evaluated": 7510,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -638,14 +638,189 @@
     "monthly/2021-10/query-16 : résultat tronqué au plafond 12 pages",
     "monthly/2021-10/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2021-10/query-19 : résultat tronqué au plafond 12 pages",
-    "monthly/2021-10/query-20 : résultat tronqué au plafond 12 pages"
+    "monthly/2021-10/query-20 : résultat tronqué au plafond 12 pages",
+    "monthly/2021-10/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2021-10/query-22 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2021-10",
   "needs_publish": false,
-  "offset": 440,
-  "pages_done": 9285,
-  "pages_in_query": 11,
-  "pending": [],
+  "offset": 120,
+  "pages_done": 9301,
+  "pages_in_query": 3,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Blaise Tine"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Krishna Praveen Yalamarthy"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Fares Elsabbagh"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Kim Hyesoon"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1145/3466752.3480128",
+        "id": "https://doi.org/10.1145/3466752.3480128",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1145/3466752.3480128"
+        },
+        "publication_date": "2021-10-17",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2021-10-17",
+        "publication_type": "conference",
+        "publication_venue": "MICRO '21: 54th Annual IEEE/ACM International Symposium on Microarchitecture",
+        "title": "Vortex: Extending the RISC-V ISA for GPGPU and 3D-Graphics",
+        "venue_landmark": "MICRO",
+        "venue_note": "",
+        "venue_priority": 2,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Vasileios Tsoutsouras"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Orestis Kaparounakis"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Bilgesu Bilgin"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Chatura Samarakoon"
+            }
+          },
+          {
+            "author": {
+              "display_name": "James Meech"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jan Heck"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Phillip Stanley-Marbell"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1145/3466752.3480131",
+        "id": "https://doi.org/10.1145/3466752.3480131",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1145/3466752.3480131"
+        },
+        "publication_date": "2021-10-17",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2021-10-17",
+        "publication_type": "conference",
+        "publication_venue": "MICRO '21: 54th Annual IEEE/ACM International Symposium on Microarchitecture",
+        "title": "The Laplace Microarchitecture for Tracking Data Uncertainty and Its Implementation in a RISC-V Processor",
+        "venue_landmark": "MICRO",
+        "venue_note": "",
+        "venue_priority": 2,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Zahra Kazemi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Amin Norollah"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Afef Kchaou"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mahdi Fazeli"
+            }
+          },
+          {
+            "author": {
+              "display_name": "David Hely"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Vincent Beroulle"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/dft52944.2021.9568318",
+        "id": "https://doi.org/10.1109/dft52944.2021.9568318",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/dft52944.2021.9568318"
+        },
+        "publication_date": "2021-10-06",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2021-10-06",
+        "publication_type": "conference",
+        "publication_venue": "2021 IEEE International Symposium on Defect and Fault Tolerance in VLSI and Nanotechnology Systems (DFT)",
+        "title": "An In-Depth Vulnerability Analysis of RISC-V Micro-Architecture Against Fault Injection Attack",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -3049,9 +3224,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 3317,
-  "query_index": 21,
+  "prefilter_review_overflow": 3329,
+  "query_index": 23,
   "secondary": 414,
-  "skipped": 8186,
+  "skipped": 8211,
   "version": 1
 }
