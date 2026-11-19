@@ -252,6 +252,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1016/j.cja.2021.03.004": {
+    "doi": "https://doi.org/10.1016/j.cja.2021.03.004",
+    "publication_date": "2021-11-01",
+    "publication_date_note": "Date source Crossref : 2021-11 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2021-11",
+    "publication_type": "revue",
+    "publication_venue": "Chinese Journal of Aeronautics",
+    "score": 75,
+    "source": "https://doi.org/10.1016/j.cja.2021.03.004",
+    "summary": "Cet article propose une architecture de contrôle de supervision de type System-on-a-Chip (SoC) sécurisée et immunisée contre les attaques pour le matériel aéronautique. L'architecture repose sur un système de surveillance de confiance (TMS) isolé matériellement du processeur principal (MPS), relié par un canal d'accès unidirectionnel. Elle permet une mesure dynamique de l'intégrité (DIM) sans interférence de l'OS ou des logiciels clés du MPS, et a été vérifiée sur un prototype FPGA.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "An attack-immune trusted architecture for supervisory aircraft hardware",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1016/j.cose.2023.103180": {
     "doi": "https://doi.org/10.1016/j.cose.2023.103180",
     "publication_date": "2023-03-14",
@@ -12626,6 +12646,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Detecting speculative leaks with compositional semantics",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:domainpagetableisolation": {
+    "doi": "",
+    "publication_date": "2021-11-21",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 82,
+    "source": "http://arxiv.org/abs/2111.10876v1",
+    "summary": "Cet article présente Domain Page-Table Isolation (DPTI), un nouveau mécanisme d'isolation de domaines de sécurité exécutable sur des processeurs standard du commerce. DPTI utilise la \"gelée mémoire\" et le \"stashing\" pour modifier dynamiquement l'isolation mémoire. Il est évalué sur le filtrage d'appels système et le confinement d'enclaves SGX.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Domain Page-Table Isolation",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
