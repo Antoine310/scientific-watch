@@ -1,8 +1,8 @@
 {
-  "accepted": 388,
+  "accepted": 389,
   "completed": false,
-  "cursor": "MTYzNjQxNDIzNDAwMCwxMC4xMTA5JTJGZGFjMTgwNzQuMjAyMS45NTg2MTI5",
-  "evaluated": 7259,
+  "cursor": "MTY0NDkwNTgyMDAwMCwxMC4xMTA5JTJGYXNpYW5ob3N0NTMyMzEuMjAyMS45Njk5NTYz",
+  "evaluated": 7284,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -619,10 +619,384 @@
   ],
   "month": "2021-12",
   "needs_publish": false,
-  "offset": 40,
-  "pages_done": 8922,
-  "pages_in_query": 1,
-  "pending": [],
+  "offset": 320,
+  "pages_done": 8929,
+  "pages_in_query": 8,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Shih-Yuan Yu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Rozhin Yasaei"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Qingrong Zhou"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Tommy Nguyen"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mohammad Abdullah Al Faruque"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/host49136.2021.9702281",
+        "id": "https://doi.org/10.1109/host49136.2021.9702281",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/host49136.2021.9702281"
+        },
+        "publication_date": "2021-12-12",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2021-12-12",
+        "publication_type": "conference",
+        "publication_venue": "2021 IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+        "title": "HW2VEC: a Graph Learning Tool for Automating Hardware Security",
+        "venue_landmark": "IEEE HOST",
+        "venue_note": "",
+        "venue_priority": 1,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Yu Zou"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Amro Awad"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mingjie Lin"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/host49136.2021.9702283",
+        "id": "https://doi.org/10.1109/host49136.2021.9702283",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/host49136.2021.9702283"
+        },
+        "publication_date": "2021-12-12",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2021-12-12",
+        "publication_type": "conference",
+        "publication_venue": "2021 IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+        "title": "HERMES: Hardware-Efficient Speculative Dataflow Architecture for Bonsai Merkle Tree-Based Memory Authentication",
+        "venue_landmark": "IEEE HOST",
+        "venue_note": "",
+        "venue_priority": 1,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T09 — Secure Memory"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Pavitra Prakash Bhade"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sharad Sinha"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/mcsoc51149.2021.00039",
+        "id": "https://doi.org/10.1109/mcsoc51149.2021.00039",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/mcsoc51149.2021.00039"
+        },
+        "publication_date": "2021-12-01",
+        "publication_date_note": "Date source Crossref : 2021-12 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2021-12",
+        "publication_type": "conference",
+        "publication_venue": "2021 IEEE 14th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)",
+        "title": "Detection of Cache Side Channel Attacks Using Thread Level Monitoring of Hardware Performance Counters",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T06 — Microarchitectural Side Channels",
+        "T08 — Cache & Temporal Isolation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Mohamed El-Sayed M. Essa"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Joseph Victor W. Lotfy"
+            }
+          },
+          {
+            "author": {
+              "display_name": "M. Essam K. Abd-Elwahed"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/icenco49852.2021.9698945",
+        "id": "https://doi.org/10.1109/icenco49852.2021.9698945",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/icenco49852.2021.9698945"
+        },
+        "publication_date": "2021-12-29",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2021-12-29",
+        "publication_type": "conference",
+        "publication_venue": "2021 17th International Computer Engineering Conference (ICENCO)",
+        "title": "Adaptive Neural Network Predictive Control Design for Hybrid Electric Vehicle with Hardware in the Loop (HIL) Verification",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Lili Zhao"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Feng Xue"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Heqin Tong"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Manli Li"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Xiaodan Cui"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/powercon53785.2021.9697739",
+        "id": "https://doi.org/10.1109/powercon53785.2021.9697739",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/powercon53785.2021.9697739"
+        },
+        "publication_date": "2021-12-08",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2021-12-08",
+        "publication_type": "conference",
+        "publication_venue": "2021 International Conference on Power System Technology (POWERCON)",
+        "title": "A Multi-interface Hardware-in-the-Loop Simulation Platform for System Protection in Cyber-physical Power System",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Rahul Chaurasia"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Anirban Sengupta"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/ises52644.2021.00099",
+        "id": "https://doi.org/10.1109/ises52644.2021.00099",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/ises52644.2021.00099"
+        },
+        "publication_date": "2021-12-01",
+        "publication_date_note": "Date source Crossref : 2021-12 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2021-12",
+        "publication_type": "conference",
+        "publication_venue": "2021 IEEE International Symposium on Smart Electronic Systems (iSES)",
+        "title": "Securing Reusable Hardware IP cores using Palmprint Biometric",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Kaveri Hatti"
+            }
+          },
+          {
+            "author": {
+              "display_name": "C Paramasivam"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/ccube53681.2021.9702737",
+        "id": "https://doi.org/10.1109/ccube53681.2021.9702737",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/ccube53681.2021.9702737"
+        },
+        "publication_date": "2021-12-23",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2021-12-23",
+        "publication_type": "conference",
+        "publication_venue": "2021 International Conference on Circuits, Controls and Communications (CCUBE)",
+        "title": "The MUX-Based PUF Architecture for Hardware Security",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Qing Yang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Hao Wang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Xiaoxiao Wu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Taotao Wang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Shengli Zhang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Naijin Liu"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/iotm.001.2100043",
+        "id": "https://doi.org/10.1109/iotm.001.2100043",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/iotm.001.2100043"
+        },
+        "publication_date": "2021-12-01",
+        "publication_date_note": "Date source Crossref : 2021-12 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2021-12",
+        "publication_type": "revue",
+        "publication_venue": "IEEE Internet of Things Magazine",
+        "title": "Secure Blockchain Platform for Industrial IoT with Trusted Computing Hardware",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -3026,9 +3400,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 3209,
+  "prefilter_review_overflow": 3228,
   "query_index": 17,
-  "secondary": 400,
-  "skipped": 7943,
+  "secondary": 402,
+  "skipped": 7948,
   "version": 1
 }

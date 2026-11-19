@@ -940,6 +940,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/dac18074.2021.9586180": {
+    "doi": "https://doi.org/10.1109/dac18074.2021.9586180",
+    "publication_date": "2021-12-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2021-12-05",
+    "publication_type": "conference",
+    "publication_venue": "2021 58th ACM/IEEE Design Automation Conference (DAC)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/dac18074.2021.9586180",
+    "summary": "Cet article présente DIALED, une technique d'attestation de flux de données (Data-Flow Attestation) conçue pour les microcontrôleurs bas de gamme aux ressources très limitées. L'objectif est de détecter les attaques axées uniquement sur les données (data-only attacks), qui corrompent la mémoire sans modifier le code ni le flux de contrôle, complétant ainsi les approches existantes d'attestation à distance.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "DIALED: Data Integrity Attestation for Low-end Embedded Devices",
+    "venue_landmark": "DAC",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/dac63849.2025.11132094": {
     "publication_date": "2025-06-22",
     "publication_type": "conference",
