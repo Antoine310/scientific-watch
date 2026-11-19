@@ -10042,6 +10042,23 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.48550/arxiv.1611.06952": {
+    "doi": "https://doi.org/10.48550/arxiv.1611.06952",
+    "publication_date": "2016-11-21",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/1611.06952",
+    "summary": "Cette publication explore une nouvelle attaque par canal auxiliaire nommée branch shadowing contre Intel SGX, capable de révéler les flux de contrôle fins d'un programme d'enclave. L'attaque exploite le fait que l'historique des branches n'est pas effacé lors du passage du mode enclave au mode non-enclave, combiné à des techniques d'exploitation basées sur Intel PT, LBR et APIC. Les auteurs démontrent l'efficacité de l'attaque sur plusieurs constructions de sécurité et proposent des solutions matérielles et logicielles (Zigzagger).",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Inferring Fine-grained Control Flow Inside SGX Enclaves with Branch Shadowing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.48550/arxiv.1708.09538": {
     "doi": "https://doi.org/10.48550/arxiv.1708.09538",
     "publication_date": "2017-08-31",
