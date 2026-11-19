@@ -13768,6 +13768,14 @@
       "title": "SSEL: An Extensible Specification Language for SoC Security",
       "updated_at": "2026-11-19T01:37:30.580935+00:00"
     },
+    "doi:10.1109/asianhost53231.2021.9699720": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Auto-PUFChain: An Automated Interaction Tool for PUFs and Blockchain in Electronic Supply Chain",
+      "updated_at": "2026-11-19T02:37:07.347962+00:00"
+    },
     "doi:10.1109/asianhost56390.2022.10022071": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -14599,6 +14607,14 @@
       "status": "rejected",
       "title": "Online Adaptive Optimal Tracking Control of Uncertain Strict Feedback Discrete-Time Systems with Hardware Verification Using a Quadrotor UAV",
       "updated_at": "2026-11-04T22:50:15.496347+00:00"
+    },
+    "doi:10.1109/ccube53681.2021.9702737": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "The MUX-Based PUF Architecture for Hardware Security",
+      "updated_at": "2026-11-19T02:37:03.141536+00:00"
     },
     "doi:10.1109/ccwc60891.2024.10427806": {
       "category": "secondaire",
@@ -17880,6 +17896,14 @@
       "title": "BROCA: A Low-power and Low-latency Conversational Agent RISC-V System-on-Chip for Voice-interactive Mobile Devices",
       "updated_at": "2026-11-05T00:26:14.667031+00:00"
     },
+    "doi:10.1109/host49136.2021.9702268": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Protecting Indirect Branches Against Fault Attacks Using ARM Pointer Authentication",
+      "updated_at": "2026-11-19T02:37:07.389257+00:00"
+    },
     "doi:10.1109/host49136.2021.9702270": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -17887,6 +17911,22 @@
       "status": "rejected",
       "title": "Multiphysics Simulation of EM Side-Channels from Silicon Backside with ML-based Auto-POI Identification",
       "updated_at": "2026-11-19T01:37:30.621639+00:00"
+    },
+    "doi:10.1109/host49136.2021.9702275": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 74,
+      "status": "rejected",
+      "title": "Morpheus II: A RISC-V Security Extension for Protecting Vulnerable Software and Hardware",
+      "updated_at": "2026-11-19T02:37:07.429041+00:00"
+    },
+    "doi:10.1109/host49136.2021.9702277": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 70,
+      "status": "rejected",
+      "title": "Cross-VM Information Leaks in FPGA-Accelerated Cloud Environments",
+      "updated_at": "2026-11-19T02:37:07.469538+00:00"
     },
     "doi:10.1109/host49136.2021.9702278": {
       "category": "secondaire",
@@ -17903,6 +17943,38 @@
       "status": "rejected",
       "title": "ConNOC: A Practical Timing Channel Attack on Network-on-chip Hardware in a Multicore Processor",
       "updated_at": "2026-11-19T01:37:30.701717+00:00"
+    },
+    "doi:10.1109/host49136.2021.9702281": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "HW2VEC: a Graph Learning Tool for Automating Hardware Security",
+      "updated_at": "2026-11-19T02:36:37.215787+00:00"
+    },
+    "doi:10.1109/host49136.2021.9702283": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "HERMES: Hardware-Efficient Speculative Dataflow Architecture for Bonsai Merkle Tree-Based Memory Authentication",
+      "updated_at": "2026-11-19T02:36:49.353118+00:00"
+    },
+    "doi:10.1109/host49136.2021.9702285": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "POCA: First Power-on Chip Authentication in Untrusted Foundry and Assembly",
+      "updated_at": "2026-11-19T02:37:07.513826+00:00"
+    },
+    "doi:10.1109/host49136.2021.9702290": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 74,
+      "status": "rejected",
+      "title": "iTimed: Cache Attacks on the Apple A10 Fusion SoC",
+      "updated_at": "2026-11-19T02:37:07.553023+00:00"
     },
     "doi:10.1109/host54066.2022.9839670": {
       "category": "secondaire",
@@ -18463,6 +18535,14 @@
       "status": "rejected",
       "title": "Cooperative Warp Execution in Tensor Core for RISC-V GPGPU",
       "updated_at": "2026-11-07T00:38:05.912508+00:00"
+    },
+    "doi:10.1109/hpcc-dss-smartcity-dependsys53884.2021.00033": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Efficient Hardware Redo Logging for Secure Persistent Memory",
+      "updated_at": "2026-11-19T02:37:19.437015+00:00"
     },
     "doi:10.1109/hpcc64274.2024.00117": {
       "category": "coeur",
@@ -20487,6 +20567,14 @@
       "status": "rejected",
       "title": "Detection of Hardware Attacks in Network on Chip Based on Machine Learning",
       "updated_at": "2026-11-09T11:36:40.822298+00:00"
+    },
+    "doi:10.1109/icenco49852.2021.9698945": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Adaptive Neural Network Predictive Control Design for Hybrid Electric Vehicle with Hardware in the Loop (HIL) Verification",
+      "updated_at": "2026-11-19T02:37:03.024910+00:00"
     },
     "doi:10.1109/icercs57948.2023.10434094": {
       "category": "hors_sujet",
@@ -22560,6 +22648,14 @@
       "title": "Research and Practice of Embedded AI-Driven Machine Vision Under the RISC-V Open Source Framework",
       "updated_at": "2026-11-06T11:36:39.603809+00:00"
     },
+    "doi:10.1109/iotm.001.2100043": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Secure Blockchain Platform for Industrial IoT with Trusted Computing Hardware",
+      "updated_at": "2026-11-19T02:37:03.180989+00:00"
+    },
     "doi:10.1109/ipccc55026.2022.9894297": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -23583,6 +23679,14 @@
       "status": "rejected",
       "title": "Design of a RISC-V Based Hybrid Encryption Coprocessor for Resource-Constrained Environments",
       "updated_at": "2026-11-06T10:37:22.073914+00:00"
+    },
+    "doi:10.1109/ises52644.2021.00099": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Securing Reusable Hardware IP cores using Palmprint Biometric",
+      "updated_at": "2026-11-19T02:37:03.102509+00:00"
     },
     "doi:10.1109/ises54909.2022.00064": {
       "category": "secondaire",
@@ -27016,6 +27120,14 @@
       "title": "Keynote Speech 3: Exploring the Synergy of 3D Integration and Hardware Security",
       "updated_at": "2026-11-13T18:36:39.106161+00:00"
     },
+    "doi:10.1109/mcsoc51149.2021.00039": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Detection of Cache Side Channel Attacks Using Thread Level Monitoring of Hardware Performance Counters",
+      "updated_at": "2026-11-19T02:37:02.981836+00:00"
+    },
     "doi:10.1109/mcsoc57363.2022.00012": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -28999,6 +29111,14 @@
       "status": "rejected",
       "title": "Optimization of ARIA Block Cipher Implementation on RISC-V Systems Through Instruction Extension",
       "updated_at": "2026-11-09T05:38:02.664740+00:00"
+    },
+    "doi:10.1109/powercon53785.2021.9697739": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A Multi-interface Hardware-in-the-Loop Simulation Platform for System Protection in Cyber-physical Power System",
+      "updated_at": "2026-11-19T02:37:03.064329+00:00"
     },
     "doi:10.1109/powercon58120.2023.10331598": {
       "category": "hors_sujet",
@@ -38496,6 +38616,14 @@
       "title": "Breaking the Design and Security Trade-off of Look-up-table–based Obfuscation",
       "updated_at": "2026-11-17T02:40:07.413033+00:00"
     },
+    "doi:10.1145/3510487.3510491": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "TrustCross: Enabling Confidential Interoperability across Blockchains Using Trusted Hardware",
+      "updated_at": "2026-11-19T02:37:19.356529+00:00"
+    },
     "doi:10.1145/3510578": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -47432,6 +47560,14 @@
       "title": "Illegal trading in the cross-border of Indonesia and Enclave Oecusse, Timor Leste",
       "updated_at": "2026-11-13T23:37:19.705550+00:00"
     },
+    "doi:10.20533/icitst.2021.0022": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Priority Based Soft-Solution for Operating System Integrity Due To Randomized Hardware Faults At The Transistor Level",
+      "updated_at": "2026-11-19T02:37:19.475687+00:00"
+    },
     "doi:10.20868/upm.thesis.57557": {
       "category": "coeur",
       "decision": "conserver",
@@ -54896,6 +55032,14 @@
       "title": "Webassembly as an abstraction for secure and efficient computing in trusted execution environments",
       "updated_at": "2026-11-05T02:13:33.382272+00:00"
     },
+    "doi:10.35784/acs-2021-26": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "IMPLEMENTATION OF A HARDWARE TROJAN CHIP DETECTOR MODEL USING ARDUINO MICROCONTROLLER",
+      "updated_at": "2026-11-19T02:37:19.513863+00:00"
+    },
     "doi:10.35848/1347-4065/ac3a8d": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -55439,6 +55583,14 @@
       "status": "rejected",
       "title": "Исследование рабочих характеристик аппаратных кодеров на базе различных микропроцессоров методом нагрузочного тестирования",
       "updated_at": "2026-11-03T12:41:44.485383+00:00"
+    },
+    "doi:10.36622/vstu.2021.24.4.002": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "ALGORITHM AND HARDWARE FOR RISK ANALYSIS OF THE SMART HOME AUTOMATED INFORMATION SYSTEM",
+      "updated_at": "2026-11-19T02:37:19.397757+00:00"
     },
     "doi:10.36676/jrps.v16.i2.59": {
       "category": "hors_sujet",

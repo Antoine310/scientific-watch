@@ -1407,6 +1407,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/host49136.2021.9702283": {
+    "doi": "https://doi.org/10.1109/host49136.2021.9702283",
+    "publication_date": "2021-12-12",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2021-12-12",
+    "publication_type": "conference",
+    "publication_venue": "2021 IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/host49136.2021.9702283",
+    "summary": "Cet article présente HERMES, un moteur d'intégrité mémoire matériel et efficace conçu pour les mémoires non-volatiles (NVM) persistantes dans les environnements d'exécution de confiance (TEE). L'architecture repose sur un flux de données asynchrone et une exécution spéculative pour surmonter les goulots d'étranglement des arbres de Merkle de Bonsai (BMT), atteignant des gains significatifs en performance.",
+    "themes": [
+      "T09 — Secure Memory"
+    ],
+    "title": "HERMES: Hardware-Efficient Speculative Dataflow Architecture for Bonsai Merkle Tree-Based Memory Authentication",
+    "venue_landmark": "IEEE HOST",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/host54066.2022.9839725": {
     "doi": "https://doi.org/10.1109/host54066.2022.9839725",
     "publication_date": "2022-06-01",
@@ -2708,6 +2728,27 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "ProMiSE: A Programmable Hardware Monitor for Secure Execution in Zero Trust Networks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/mcsoc51149.2021.00039": {
+    "doi": "https://doi.org/10.1109/mcsoc51149.2021.00039",
+    "publication_date": "2021-12-01",
+    "publication_date_note": "Date source Crossref : 2021-12 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2021-12",
+    "publication_type": "conference",
+    "publication_venue": "2021 IEEE 14th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/mcsoc51149.2021.00039",
+    "summary": "Cet article propose une approche agnostique de l'architecture pour détecter les attaques par canal auxiliaire sur le cache en utilisant des compteurs de performance matérielle (HPC) au niveau des threads et en temps réel. Cette méthode réduit les faux positifs de 48 % par rapport aux approches au niveau du système, minimisant ainsi l'impact sur les performances des systèmes embarqués.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels",
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Detection of Cache Side Channel Attacks Using Thread Level Monitoring of Hardware Performance Counters",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
