@@ -3129,6 +3129,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/rtss52674.2021.00043": {
+    "doi": "https://doi.org/10.1109/rtss52674.2021.00043",
+    "publication_date": "2021-12-01",
+    "publication_date_note": "Date source Crossref : 2021-12 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2021-12",
+    "publication_type": "conference",
+    "publication_venue": "2021 IEEE Real-Time Systems Symposium (RTSS)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/rtss52674.2021.00043",
+    "summary": "Ce papier présente MINOTAuR, un cœur RISC-V open source dérivé d'Ariane et conçu pour être prévisible en temps tout en autorisant une quantité limitée d'exécution spéculative. Les auteurs démontrent formellement cette prédictibilité et rapportent une réduction de performance moyenne de seulement 10 % par rapport au cœur Ariane d'origine.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "Speculative Execution and Timing Predictability in an Open Source RISC-V Core",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/secdev53368.2022.00019": {
     "doi": "https://doi.org/10.1109/secdev53368.2022.00019",
     "publication_date": "2022-10-01",
