@@ -1,8 +1,8 @@
 {
-  "accepted": 400,
+  "accepted": 401,
   "completed": false,
-  "cursor": "MTYyMTc2OTkxMTAwMCwxMC4xMDE2JTJGai5zY2l0b3RlbnYuMjAyMS4xNDc5NDQ=",
-  "evaluated": 7453,
+  "cursor": "MTY0MDAyNjEwNDAwMCwxMC4xMTA5JTJGbW9kZWxzLWM1MzQ4My4yMDIxLjAwMTI3",
+  "evaluated": 7478,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -634,14 +634,310 @@
     "monthly/2021-11/query-24 : résultat tronqué au plafond 12 pages",
     "monthly/2021-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2021-10/query-14 : résultat tronqué au plafond 12 pages",
-    "monthly/2021-10/query-15 : résultat tronqué au plafond 12 pages"
+    "monthly/2021-10/query-15 : résultat tronqué au plafond 12 pages",
+    "monthly/2021-10/query-16 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2021-10",
   "needs_publish": false,
-  "offset": 240,
-  "pages_done": 9222,
-  "pages_in_query": 6,
-  "pending": [],
+  "offset": 280,
+  "pages_done": 9235,
+  "pages_in_query": 7,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Xinyu Qin"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Xudong Liu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jun Han"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/asicon52560.2021.9620500",
+        "id": "https://doi.org/10.1109/asicon52560.2021.9620500",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/asicon52560.2021.9620500"
+        },
+        "publication_date": "2021-10-26",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2021-10-26",
+        "publication_type": "conference",
+        "publication_venue": "2021 IEEE 14th International Conference on ASIC (ASICON)",
+        "title": "A CNN Hardware Accelerator Designed for YOLO Algorithm Based on RISC-V SoC",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Sina Rezaei Aghdam"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ehsan Amid"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Marija Furdek"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Alexandre Graell i Amat"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/camad52502.2021.9617764",
+        "id": "https://doi.org/10.1109/camad52502.2021.9617764",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/camad52502.2021.9617764"
+        },
+        "publication_date": "2021-10-01",
+        "publication_date_note": "Date source Crossref : 2021-10 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2021-10",
+        "publication_type": "conference",
+        "publication_venue": "2021 IEEE 26th International Workshop on Computer Aided Modeling and Design of Communication Links and Networks (CAMAD)",
+        "title": "Privacy-Preserving Wireless Federated Learning Exploiting Inherent Hardware Impairments",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Sisong Ru"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Bingbing Zhang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Yixin Jie"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Chi Zhang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Lingbo Wei"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Chengjie Gu"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/nana53684.2021.00075",
+        "id": "https://doi.org/10.1109/nana53684.2021.00075",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/nana53684.2021.00075"
+        },
+        "publication_date": "2021-10-01",
+        "publication_date_note": "Date source Crossref : 2021-10 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2021-10",
+        "publication_type": "conference",
+        "publication_venue": "2021 International Conference on Networking and Network Applications (NaNA)",
+        "title": "Graph Neural Networks for Privacy-Preserving Recommendation with Secure Hardware",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Jithu Philip"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Merin Raju"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.17010/ijcs/2021/v6/i5/166514",
+        "id": "https://doi.org/10.17010/ijcs/2021/v6/i5/166514",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.17010/ijcs/2021/v6/i5/166514"
+        },
+        "publication_date": "2021-10-31",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2021-10-31",
+        "publication_type": "revue",
+        "publication_venue": "Indian Journal of Computer Science",
+        "title": "Analyzing the Growing Needs of Users to Employ Hardware and Software Restrictions in Smartphones for Increased Privacy and Data Security",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Lukas Malina"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Peter Cibik"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Petr Jedlicka"
+            }
+          },
+          {
+            "author": {
+              "display_name": "David Smekal"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sara Ricci"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jakub Hrabovsky"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/icumt54235.2021.9631686",
+        "id": "https://doi.org/10.1109/icumt54235.2021.9631686",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/icumt54235.2021.9631686"
+        },
+        "publication_date": "2021-10-25",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2021-10-25",
+        "publication_type": "conference",
+        "publication_venue": "2021 13th International Congress on Ultra Modern Telecommunications and Control Systems and Workshops (ICUMT)",
+        "title": "Hardware-based Cryptographic Accelerator for Post Quantum Era",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Nathan Swearingen"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ryan Hosler"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Xukai Zou"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/mass52906.2021.00087",
+        "id": "https://doi.org/10.1109/mass52906.2021.00087",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/mass52906.2021.00087"
+        },
+        "publication_date": "2021-10-01",
+        "publication_date_note": "Date source Crossref : 2021-10 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2021-10",
+        "publication_type": "conference",
+        "publication_venue": "2021 IEEE 18th International Conference on Mobile Ad Hoc and Smart Systems (MASS)",
+        "title": "Hardware Speculation Vulnerabilities and Mitigations",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -3045,9 +3341,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 3302,
-  "query_index": 16,
-  "secondary": 412,
-  "skipped": 8156,
+  "prefilter_review_overflow": 3314,
+  "query_index": 17,
+  "secondary": 414,
+  "skipped": 8170,
   "version": 1
 }
