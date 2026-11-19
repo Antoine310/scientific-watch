@@ -1,7 +1,7 @@
 {
   "accepted": 397,
   "completed": false,
-  "cursor": "MTYzNTcwNjI4MDAwMCwxMC4xMDcxJTJGcmQyMTAzNw==",
+  "cursor": "MTYzMDQwODg2MDAwMCwxMC4xMDE2JTJGai5uZXVyb24uMjAyMS4wOC4wMDI=",
   "evaluated": 7393,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
@@ -628,14 +628,65 @@
     "monthly/2021-11/query-16 : résultat tronqué au plafond 12 pages",
     "monthly/2021-11/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2021-11/query-19 : résultat tronqué au plafond 12 pages",
-    "monthly/2021-11/query-20 : résultat tronqué au plafond 12 pages"
+    "monthly/2021-11/query-20 : résultat tronqué au plafond 12 pages",
+    "monthly/2021-11/query-21 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2021-11",
   "needs_publish": false,
-  "offset": 400,
-  "pages_done": 9132,
-  "pages_in_query": 10,
-  "pending": [],
+  "offset": 240,
+  "pages_done": 9140,
+  "pages_in_query": 6,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Jiakang Zhou"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mingming Lu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jieqiong Lin"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Yongsheng Du"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1016/j.jmrt.2021.08.096",
+        "id": "https://doi.org/10.1016/j.jmrt.2021.08.096",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1016/j.jmrt.2021.08.096"
+        },
+        "publication_date": "2021-11-01",
+        "publication_date_note": "Date source Crossref : 2021-11 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2021-11",
+        "publication_type": "revue",
+        "publication_venue": "Journal of Materials Research and Technology",
+        "title": "Elliptic vibration assisted cutting of metal matrix composite reinforced by silicon carbide: an investigation of machining mechanisms and surface integrity",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T09 — Secure Memory"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -3039,9 +3090,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 3272,
-  "query_index": 21,
+  "prefilter_review_overflow": 3275,
+  "query_index": 22,
   "secondary": 411,
-  "skipped": 8068,
+  "skipped": 8069,
   "version": 1
 }
