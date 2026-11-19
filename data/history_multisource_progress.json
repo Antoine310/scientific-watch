@@ -1,8 +1,8 @@
 {
   "accepted": 397,
   "completed": false,
-  "cursor": "MTYzMDQwODg2MDAwMCwxMC4xMDE2JTJGai5uZXVyb24uMjAyMS4wOC4wMDI=",
-  "evaluated": 7393,
+  "cursor": "MTY0MTI0MTE2OTAwMCwxMC4xMTA5JTJGaWN0YTUzMTU3LjIwMjEuOTY2MTcxOQ==",
+  "evaluated": 7397,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -629,13 +629,14 @@
     "monthly/2021-11/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2021-11/query-19 : résultat tronqué au plafond 12 pages",
     "monthly/2021-11/query-20 : résultat tronqué au plafond 12 pages",
-    "monthly/2021-11/query-21 : résultat tronqué au plafond 12 pages"
+    "monthly/2021-11/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2021-11/query-22 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2021-11",
   "needs_publish": false,
-  "offset": 240,
-  "pages_done": 9140,
-  "pages_in_query": 6,
+  "offset": 280,
+  "pages_done": 9153,
+  "pages_in_query": 7,
   "pending": [
     {
       "paper": {
@@ -643,37 +644,32 @@
         "authorships": [
           {
             "author": {
-              "display_name": "Jiakang Zhou"
+              "display_name": "Rei Watanabe"
             }
           },
           {
             "author": {
-              "display_name": "Mingming Lu"
+              "display_name": "Jubee Tada"
             }
           },
           {
             "author": {
-              "display_name": "Jieqiong Lin"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Yongsheng Du"
+              "display_name": "Keiichi Sato"
             }
           }
         ],
-        "doi": "https://doi.org/10.1016/j.jmrt.2021.08.096",
-        "id": "https://doi.org/10.1016/j.jmrt.2021.08.096",
+        "doi": "https://doi.org/10.1109/candarw53999.2021.00059",
+        "id": "https://doi.org/10.1109/candarw53999.2021.00059",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1016/j.jmrt.2021.08.096"
+          "landing_page_url": "https://doi.org/10.1109/candarw53999.2021.00059"
         },
         "publication_date": "2021-11-01",
         "publication_date_note": "Date source Crossref : 2021-11 (jour inconnu ; 01 utilisé pour classer).",
         "publication_date_precision": "month",
         "publication_date_source": "2021-11",
-        "publication_type": "revue",
-        "publication_venue": "Journal of Materials Research and Technology",
-        "title": "Elliptic vibration assisted cutting of metal matrix composite reinforced by silicon carbide: an investigation of machining mechanisms and surface integrity",
+        "publication_type": "conference",
+        "publication_venue": "2021 Ninth International Symposium on Computing and Networking Workshops (CANDARW)",
+        "title": "An Implementation of a World Grid Square Codes Generator on a RISC-V Processor",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -683,7 +679,262 @@
         "Crossref"
       ],
       "themes": [
-        "T09 — Secure Memory"
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Chen Bai"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Qi Sun"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jianwang Zhai"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Yuzhe Ma"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Bei Yu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Martin D.F. Wong"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/iccad51958.2021.9643455",
+        "id": "https://doi.org/10.1109/iccad51958.2021.9643455",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/iccad51958.2021.9643455"
+        },
+        "publication_date": "2021-11-01",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2021-11-01",
+        "publication_type": "conference",
+        "publication_venue": "2021 IEEE/ACM International Conference On Computer Aided Design (ICCAD)",
+        "title": "BOOM-Explorer: RISC-V BOOM Microarchitecture Design Space Exploration Framework",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Samuel Riedel"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Fabian Schuiki"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Paul Scheffler"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Florian Zaruba"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Luca Benini"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/iccad51958.2021.9643546",
+        "id": "https://doi.org/10.1109/iccad51958.2021.9643546",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/iccad51958.2021.9643546"
+        },
+        "publication_date": "2021-11-01",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2021-11-01",
+        "publication_type": "conference",
+        "publication_venue": "2021 IEEE/ACM International Conference On Computer Aided Design (ICCAD)",
+        "title": "Banshee: A Fast LLVM-Based RISC-V Binary Translator",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Roberto Molina-Robles"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ronny Garcia-Ramirez"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Alfonso Chacon-Rodriguez"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Renato Rimolo-Donadio"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Alfredo Arnaud"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/urucon53396.2021.9647309",
+        "id": "https://doi.org/10.1109/urucon53396.2021.9647309",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/urucon53396.2021.9647309"
+        },
+        "publication_date": "2021-11-24",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2021-11-24",
+        "publication_type": "conference",
+        "publication_venue": "2021 IEEE URUCON",
+        "title": "Low-level algorithm for a software-emulated I 2 C I/O module in general purpose RISC-V based microcontrollers",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Jin-Yang Lai"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Chiung-An Chen"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Shih-Lun Chen"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Chun-Yu Su"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/ispacs51563.2021.9651130",
+        "id": "https://doi.org/10.1109/ispacs51563.2021.9651130",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/ispacs51563.2021.9651130"
+        },
+        "publication_date": "2021-11-16",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2021-11-16",
+        "publication_type": "conference",
+        "publication_venue": "2021 International Symposium on Intelligent Signal Processing and Communication Systems (ISPACS)",
+        "title": "Implement 32-bit RISC-V Architecture Processor using Verilog HDL",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Recep Onur Yildiz"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ayse Yilmazer-Metin"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/telfor52709.2021.9653439",
+        "id": "https://doi.org/10.1109/telfor52709.2021.9653439",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/telfor52709.2021.9653439"
+        },
+        "publication_date": "2021-11-23",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2021-11-23",
+        "publication_type": "conference",
+        "publication_venue": "2021 29th Telecommunications Forum (TELFOR)",
+        "title": "CORDIC Accelerator for RISC-V",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T10 — RISC-V SoC & FPGA"
       ]
     }
   ],
@@ -3090,9 +3341,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 3275,
-  "query_index": 22,
+  "prefilter_review_overflow": 3293,
+  "query_index": 23,
   "secondary": 411,
-  "skipped": 8069,
+  "skipped": 8112,
   "version": 1
 }
