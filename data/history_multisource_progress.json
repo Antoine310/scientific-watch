@@ -1,8 +1,8 @@
 {
-  "accepted": 415,
+  "accepted": 416,
   "completed": false,
-  "cursor": "MTYyNjQxNDUwODAwMCwxMC4zMzg5JTJGZm5pbnMuMjAyMS42NzQ1Njc=",
-  "evaluated": 7748,
+  "cursor": "MTYzMDY2MzEyOTAwMCwxMC40NzgxMyUyRjI3ODItMjgxOC0yMDIxLTEtMi02NC04MQ==",
+  "evaluated": 7762,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -668,10 +668,10 @@
     "monthly/2021-07/query-16 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2021-07",
-  "needs_publish": false,
-  "offset": 160,
-  "pages_done": 9684,
-  "pages_in_query": 4,
+  "needs_publish": true,
+  "offset": 280,
+  "pages_done": 9687,
+  "pages_in_query": 7,
   "pending": [
     {
       "paper": {
@@ -679,27 +679,57 @@
         "authorships": [
           {
             "author": {
-              "display_name": "N. Ramasubramanian"
+              "display_name": "Muhammad Monir Hossain"
             }
           },
           {
             "author": {
-              "display_name": "J. Kokila"
+              "display_name": "Sajeed Mohammad"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jason Vosatka"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jeffery Allen"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Monica Allen"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Farimah Farahmandi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Fahim Rahman"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mark Tehranipoor"
             }
           }
         ],
-        "doi": "https://doi.org/10.1201/9781003127598-10-10",
-        "id": "https://doi.org/10.1201/9781003127598-10-10",
+        "doi": "https://doi.org/10.1109/isvlsi51109.2021.00069",
+        "id": "https://doi.org/10.1109/isvlsi51109.2021.00069",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1201/9781003127598-10-10"
+          "landing_page_url": "https://doi.org/10.1109/isvlsi51109.2021.00069"
         },
-        "publication_date": "2021-07-14",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2021-07-14",
-        "publication_type": "inconnu",
-        "publication_venue": "Security of Internet of Things Nodes",
-        "title": "Study of Hardware Attacks on Smart System Design Lab",
+        "publication_date": "2021-07-01",
+        "publication_date_note": "Date source Crossref : 2021-07 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2021-07",
+        "publication_type": "conference",
+        "publication_venue": "2021 IEEE Computer Society Annual Symposium on VLSI (ISVLSI)",
+        "title": "HEXON: Protecting Firmware Using Hardware-Assisted Execution-Level Obfuscation",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -718,37 +748,52 @@
         "authorships": [
           {
             "author": {
-              "display_name": "K. Rajalakshmi"
+              "display_name": "Jun Ma"
             }
           },
           {
             "author": {
-              "display_name": "N. Susithra"
+              "display_name": "Ting Chong"
             }
           },
           {
             "author": {
-              "display_name": "V. Gowtham"
+              "display_name": "Lei Li"
             }
           },
           {
             "author": {
-              "display_name": "G. Saravanaraj"
+              "display_name": "Hao Liu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Xige Zhang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Liang Liu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Yidong Yuan"
             }
           }
         ],
-        "doi": "https://doi.org/10.1201/9781003127598-6-6",
-        "id": "https://doi.org/10.1201/9781003127598-6-6",
+        "doi": "https://doi.org/10.1109/icpics52425.2021.9524261",
+        "id": "https://doi.org/10.1109/icpics52425.2021.9524261",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1201/9781003127598-6-6"
+          "landing_page_url": "https://doi.org/10.1109/icpics52425.2021.9524261"
         },
-        "publication_date": "2021-07-14",
+        "publication_date": "2021-07-29",
         "publication_date_note": "",
         "publication_date_precision": "day",
-        "publication_date_source": "2021-07-14",
-        "publication_type": "inconnu",
-        "publication_venue": "Security of Internet of Things Nodes",
-        "title": "Obfuscation to Mitigate Hardware Attacks in Edge Nodes of IoT System",
+        "publication_date_source": "2021-07-29",
+        "publication_type": "conference",
+        "publication_venue": "2021 IEEE International Conference on Power, Intelligent Computing and Systems (ICPICS)",
+        "title": "Construction of RISC-V Lightweight Trusted Execution Environment Based on Hardware Extension",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -758,51 +803,7 @@
         "Crossref"
       ],
       "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Nagarjuna Telagam"
-            }
-          },
-          {
-            "author": {
-              "display_name": "D. Ajitha"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Nehru Kandasamy"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1201/9781003127598-9-9",
-        "id": "https://doi.org/10.1201/9781003127598-9-9",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1201/9781003127598-9-9"
-        },
-        "publication_date": "2021-07-14",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2021-07-14",
-        "publication_type": "inconnu",
-        "publication_venue": "Security of Internet of Things Nodes",
-        "title": "Review on Hardware Attacks and Security Challenges in IoT Edge Nodes",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
+        "T03 — RISC-V TEE & Enclaves"
       ]
     }
   ],
@@ -3209,9 +3210,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 3445,
+  "prefilter_review_overflow": 3451,
   "query_index": 17,
-  "secondary": 427,
+  "secondary": 428,
   "skipped": 8485,
   "version": 1
 }
