@@ -4924,6 +4924,23 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/2976749.2978358": {
+    "doi": "https://doi.org/10.1145/2976749.2978358",
+    "publication_date": "2016-10-24",
+    "publication_type": "conference",
+    "publication_venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+    "score": 90,
+    "source": "https://doi.org/10.1145/2976749.2978358",
+    "summary": "C-FLAT est une solution d'attestation à distance du flux de contrôle pour les systèmes embarqués et les objets connectés. Contrairement aux approches statiques, elle permet de vérifier le chemin d'exécution d'une application à l'exécution sans nécessiter le code source. Un prototype complet a été implémenté sur Raspberry Pi en utilisant ARM TrustZone et évalué sur une application cyberphysique réelle.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "C-FLAT: Control-Flow Attestation for Embedded Systems Software",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1145/3020078.3021802": {
     "doi": "https://doi.org/10.1145/3020078.3021802",
     "publication_date": "2017-02-02",
@@ -15278,6 +15295,23 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "arXiv"
+  },
+  "title:trustedexecutiondevelopmentdesigningasecurehighperformanceremoteattestationprotocol": {
+    "doi": null,
+    "publication_date": "2016-10-24",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "https://digitalcommons.wpi.edu/cgi/viewcontent.cgi?article=2144&context=mqp-all",
+    "summary": "Cet article propose une méthode pour combiner l'attestation des extensions Intel Software Guard Extensions (SGX) avec le protocole Transport Layer Security (TLS). L'objectif est d'intégrer des garanties concernant le programme, l'environnement d'exécution et l'identité de la machine directement dans une négociation TLS normale. Les auteurs ont implémenté un serveur de base utilisant SGX/TLS et présentent des détails de performance ainsi que des leçons tirées du développement.",
+    "themes": [
+      "T05 — Enclave Performance & Crypto"
+    ],
+    "title": "Trusted Execution Development: Designing a Secure, High-Performance Remote Attestation Protocol",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
   },
   "title:trustedipsolutioninmultitenantcloudfpgaplatform": {
     "doi": "",

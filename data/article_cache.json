@@ -39056,6 +39056,22 @@
       "title": "The Pomarinho enclave swarm: structural and petrological evidence of repeated quenching, splitting and magmatic erosion at the sidewalls of conduits (Iberian Variscan belt)",
       "updated_at": "2026-11-02T20:16:46.220256+00:00"
     },
+    "doi:10.1145/2966986.2967046": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Imprecise security: quality and complexity tradeoffs for hardware information flow tracking",
+      "updated_at": "2026-11-20T02:14:04.336347+00:00"
+    },
+    "doi:10.1145/2976749.2978358": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "C-FLAT: Control-Flow Attestation for Embedded Systems Software",
+      "updated_at": "2026-11-20T02:13:37.338565+00:00"
+    },
     "doi:10.1145/3018113": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -71343,6 +71359,14 @@
       "status": "rejected",
       "title": "Trusted Container Extensions for Container-based Confidential Computing",
       "updated_at": "2026-11-17T10:39:15.730193+00:00"
+    },
+    "title:trustedexecutiondevelopmentdesigningasecurehighperformanceremoteattestationprotocol": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Trusted Execution Development: Designing a Secure, High-Performance Remote Attestation Protocol",
+      "updated_at": "2026-11-20T02:13:56.984346+00:00"
     },
     "title:trustedexecutionenvironmentteeforsolvingthereplicationcrisisinacademia": {
       "category": "secondaire",
