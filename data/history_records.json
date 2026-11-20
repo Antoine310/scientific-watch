@@ -1161,6 +1161,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/dsd53832.2021.00056": {
+    "doi": "https://doi.org/10.1109/dsd53832.2021.00056",
+    "publication_date": "2021-09-01",
+    "publication_date_note": "Date source Crossref : 2021-09 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2021-09",
+    "publication_type": "conference",
+    "publication_venue": "2021 24th Euromicro Conference on Digital System Design (DSD)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/dsd53832.2021.00056",
+    "summary": "Ce travail propose d'intégrer la protection par masquage RSM (Rotating SBox Masking) sous forme d'une extension de jeu d'instructions RISC-V générique pour sécuriser les chiffrement légers par blocs utilisant des boîtes de substitution 4x4. L'approche a été implémentée sur le processeur VexRiscv et testée avec le chiffrement PRESENT. L'analyse de sécurité indique qu'aucune attaque par canaux cachés (SCA) n'a été possible avec jusqu'à 1 million de traces.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "RSM Protection of the PRESENT Lightweight Cipher as a RISC-V Extension",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/dsd60849.2023.00066": {
     "doi": "https://doi.org/10.1109/dsd60849.2023.00066",
     "publication_date": "2023-09-06",

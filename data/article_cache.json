@@ -1096,6 +1096,14 @@
       "title": "Behavioral Synthesis for Hardware Security",
       "updated_at": "2026-11-18T18:37:21.891518+00:00"
     },
+    "doi:10.1007/978-3-030-82529-4_14": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "RISC-V Online Tutor",
+      "updated_at": "2026-11-20T06:37:29.399913+00:00"
+    },
     "doi:10.1007/978-3-030-87010-2_3": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -15288,6 +15296,14 @@
       "title": "Busbar Differential Protection System Testing Based on Practical Considerations Using Real-Time Digital Simulator Hardware-In-the-Loop Technique",
       "updated_at": "2026-11-07T20:36:51.343836+00:00"
     },
+    "doi:10.1109/cei52496.2021.9574575": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Design and verification of RISC-V CPU based on HLS and UVM",
+      "updated_at": "2026-11-20T06:38:03.496061+00:00"
+    },
     "doi:10.1109/cei63587.2024.10871759": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -15575,6 +15591,14 @@
       "status": "rejected",
       "title": "Providing Reliable Services for Hardware Cryptography Accelerator in Virtualization",
       "updated_at": "2026-11-13T11:38:47.281725+00:00"
+    },
+    "doi:10.1109/cluster48925.2021.00115": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "TIGRA: A Tightly Integrated Generic RISC-V Accelerator Interface",
+      "updated_at": "2026-11-20T06:38:03.405108+00:00"
     },
     "doi:10.1109/cluster68337.2026.00033": {
       "category": "hors_sujet",
@@ -17008,6 +17032,30 @@
       "title": "Exploiting Hardware Imperfections for GPS Spoofing Detection using Clock Variations",
       "updated_at": "2026-11-12T03:36:59.422086+00:00"
     },
+    "doi:10.1109/dsd53832.2021.00011": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A RISC-V-based FPGA Overlay to Simplify Embedded Accelerator Deployment",
+      "updated_at": "2026-11-20T06:37:51.467116+00:00"
+    },
+    "doi:10.1109/dsd53832.2021.00014": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Vector Processing Unit: A RISC-V based SIMD Co-processor for Embedded Processing",
+      "updated_at": "2026-11-20T06:37:51.505288+00:00"
+    },
+    "doi:10.1109/dsd53832.2021.00015": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "An Open-Source Framework for the Generation of RISC-V Processor + CGRA Accelerator Systems",
+      "updated_at": "2026-11-20T06:37:51.541975+00:00"
+    },
     "doi:10.1109/dsd53832.2021.00027": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -17015,6 +17063,14 @@
       "status": "rejected",
       "title": "Protecting IoT Devices through a Hardware-driven Memory Verification",
       "updated_at": "2026-11-20T03:37:45.551008+00:00"
+    },
+    "doi:10.1109/dsd53832.2021.00056": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "RSM Protection of the PRESENT Lightweight Cipher as a RISC-V Extension",
+      "updated_at": "2026-11-20T06:38:03.379848+00:00"
     },
     "doi:10.1109/dsd53832.2021.00060": {
       "category": "secondaire",
@@ -17872,6 +17928,14 @@
       "title": "Secure Bitcoin Hardware Wallet Design, Implementation, and Security Analysis",
       "updated_at": "2026-11-06T21:36:58.518083+00:00"
     },
+    "doi:10.1109/esscirc53450.2021.9567768": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A 16mm 2 106.1 GOPS/W Heterogeneous RISC-V Multi-Core Multi-Accelerator SoC in Low-Power 22nm FinFET",
+      "updated_at": "2026-11-20T06:38:03.450160+00:00"
+    },
     "doi:10.1109/esscirc55480.2022.9911384": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -18216,6 +18280,14 @@
       "title": "Enclave Application Cache for RISC-V Keystone",
       "updated_at": "2026-10-30T20:13:52.390287+00:00"
     },
+    "doi:10.1109/ewdts52692.2021.9580979": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "AFTAB: A RISC-V Implementation with Configurable Gateways for Security",
+      "updated_at": "2026-11-20T06:38:03.472962+00:00"
+    },
     "doi:10.1109/ewdts59469.2023.10297033": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -18255,6 +18327,14 @@
       "status": "rejected",
       "title": "EVO-QNN: Efficient Mixed-Precision Quantization Inference on RISC-V-Based Edge Device",
       "updated_at": "2026-11-06T09:39:46.551945+00:00"
+    },
+    "doi:10.1109/fdl53530.2021.9568387": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "RISC-V AMS VP: An Open Source Evaluation Platform for Cyber-Physical Systems",
+      "updated_at": "2026-11-20T06:38:03.427012+00:00"
     },
     "doi:10.1109/fdl56239.2022.9925667": {
       "category": "secondaire",
@@ -20359,6 +20439,14 @@
       "status": "rejected",
       "title": "Integrated Hardware Watermarking Framework Based on 3-Factor Encoding, Connectivity Matrix and Hashing for Securing Sharpening Filter IP Cores Against Piracy",
       "updated_at": "2026-11-02T20:56:56.025572+00:00"
+    },
+    "doi:10.1109/icce-tw52618.2021.9602978": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "An Energy-efficient and Programmable RISC-V CNN Coprocessor for Real-time Epilepsy Detection and Identification on Wearable Devices",
+      "updated_at": "2026-11-20T06:38:09.488567+00:00"
     },
     "doi:10.1109/icce-tw52618.2021.9603186": {
       "category": "secondaire",
@@ -27631,6 +27719,14 @@
       "status": "rejected",
       "title": "Dual-Mode PUFs Based on Spin Orbit Torque Devices Enabling Secure Key Switching Between Private and Public Clouds",
       "updated_at": "2026-11-03T08:41:37.870419+00:00"
+    },
+    "doi:10.1109/les.2020.3035560": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "SMT-Based Verification of Safety-Critical Embedded Control Software",
+      "updated_at": "2026-11-20T06:38:24.724311+00:00"
     },
     "doi:10.1109/les.2021.3077368": {
       "category": "secondaire",
@@ -60607,6 +60703,14 @@
       "status": "rejected",
       "title": "Hardware Implementation of Chaotic Image Encryption on FPGA",
       "updated_at": "2026-11-04T15:51:22.925389+00:00"
+    },
+    "doi:10.46610/jovdsp.2021.v07i03.002": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Design and Assertion Based Verification of RISC-V Processor Subsystems",
+      "updated_at": "2026-11-20T06:37:39.560754+00:00"
     },
     "doi:10.46632/jdaai/4/2/8": {
       "category": "hors_sujet",
