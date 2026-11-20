@@ -2681,6 +2681,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/jssc.2021.3058551": {
+    "doi": "https://doi.org/10.1109/jssc.2021.3058551",
+    "publication_date": "2021-08-01",
+    "publication_date_note": "Date source Crossref : 2021-08 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2021-08",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Journal of Solid-State Circuits",
+    "score": 75,
+    "source": "https://doi.org/10.1109/jssc.2021.3058551",
+    "summary": "Cet article présente Jintide, une architecture utilisant des moniteurs externes reconfigurables à bas coût pour valider à l'exécutable une puce CPU non fiable dans des clusters à grande échelle. L'approche analyse les comportements d'entrées-sorties et de mémoire pour détecter des menaces architecturales et micro-architecturales (vulnérabilités, portes dérobées, chevaux de Troie matériels) avec une perte de performance minime.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Jintide: Utilizing Low-Cost Reconfigurable External Monitors to Substantially Enhance Hardware Security of Large-Scale CPU Clusters",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/lats70329.2026.11480312": {
     "publication_date": "2026-03-17",
     "publication_type": "conference",
@@ -5453,6 +5473,26 @@
     "venue_note": "",
     "venue_priority": 2,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1145/3460120.3484783": {
+    "doi": "https://doi.org/10.1145/3460120.3484783",
+    "publication_date": "2021-08-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "CCS '21: 2021 ACM SIGSAC Conference on Computer and Communications Security",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2108.04600v1",
+    "summary": "Cet article démontre que les fonctions utilitaires de décodage, notamment le décodage base64 pour charger les clés au format PEM dans des bibliothèques cryptographiques, souffrent souvent de fuites par canaux cachés malgré l'utilisation d'implémentations à temps constant. Les auteurs présentent une attaque par canal caché sur le dernier niveau de cache (LLC) permettant de récupérer des clés privées RSA avec une seule trace, même au sein d'environnements d'exécution de confiance (TEE), et soulignent que certaines contre-mesures récentes facilitent paradoxalement cette exploitabilité.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Util::Lookup: Exploiting key decoding in cryptographic libraries",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1145/3460120.3484810": {
     "doi": "https://doi.org/10.1145/3460120.3484810",
@@ -12524,6 +12564,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:catsvsspectreanaxiomaticapproachtomodelingspeculativeexecutionattacks": {
+    "doi": "",
+    "publication_date": "2021-08-31",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2108.13818v2",
+    "summary": "Cette publication propose une approche axiomatique et légère, s'appuyant sur les modèles de mémoire de la concurrence et le langage CAT, pour modéliser la spéculation et les attaques par canal auxiliaire de type Spectre. Les auteurs présentent un cadre de vérification par modèle borné (bounded model checking) permettant de détecter de nouvelles attaques et de valider des contre-mesures.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Cats vs. Spectre: An Axiomatic Approach to Modeling Speculative Execution Attacks",
+    "venue_landmark": "",
+    "venue_note": "Référence déclarée sur arXiv (non vérifiée) : IEEE Symposium on Security and Privacy, 2022",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:ccxtrustconfidentialcomputingplatformbasedonteeandtpmcollaborativetrust": {
     "doi": "",
     "publication_date": "2024-12-05",
@@ -13945,6 +14005,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:oneglitchtorulethemallfaultinjectionattacksagainstamdssecureencryptedvirtualization": {
+    "doi": "",
+    "publication_date": "2021-08-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2108.04575v4",
+    "summary": "Cet article analyse les failles de sécurité de la technologie AMD Secure Encrypted Virtualization (SEV). En ciblant le processeur de sécurité dédié (AMD-SP) via une attaque par injection de fautes par variation de tension, les auteurs démontrent qu'il est possible d'exécuter du code arbitraire sur toutes les microarchitectures Zen actuelles, permettant ainsi le déchiffrement de la mémoire des machines virtuelles et la compromission des mécanismes d'attestation.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "One Glitch to Rule Them All: Fault Injection Attacks Against AMD's Secure Encrypted Virtualization",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:onkernelssafetyinthespectreeraextendedversion": {
     "doi": "",
     "publication_date": "2024-06-11",
@@ -14988,6 +15068,46 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "SPOILER-GUARD: Gating Latency Effects of Memory Accesses through Randomized Dependency Prediction",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:stbpuareasonablysecurebranchpredictionunit": {
+    "doi": "",
+    "publication_date": "2021-08-04",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 88,
+    "source": "http://arxiv.org/abs/2108.02156v2",
+    "summary": "Cet article présente le STBPU (Secret Token Branch Prediction Unit), une conception sécurisée de l'unité de prédiction de branchement visant à contrer les attaques par exécution spéculative transitoire basées sur les collisions et les canaux cachés, tout en maintenant un impact minimal sur les performances.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "STBPU: A Reasonably Secure Branch Prediction Unit",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:stockadehardwarehardeningfordistributedtrustedsandboxes": {
+    "doi": "",
+    "publication_date": "2021-08-26",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2108.13922v2",
+    "summary": "Cet article présente Stockade, un modèle d'enclave étendu conçu pour sécuriser les applications cloud distribuées utilisant des environnements d'exécution de confiance (TEEs). Stockade propose d'étendre le modèle matériel existant, tel que celui d'Intel SGX, pour offrir à la fois un sandboxing des modules logiciels au sein de l'enclave et une protection contre les autres modules non de confiance et les systèmes d'exploitation, le tout sans recourir à un chiffrement logiciel lourd pour les communications.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Stockade: Hardware Hardening for Distributed Trusted Sandboxes",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
