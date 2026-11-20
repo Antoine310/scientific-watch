@@ -18608,6 +18608,22 @@
       "title": "On the Feasibility of TERO-Based True Random Number Generator on Xilinx FPGAs",
       "updated_at": "2026-11-12T11:13:39.779024+00:00"
     },
+    "doi:10.1109/fpl53798.2021.00030": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Demonstrating custom SIMD instruction development for a RISC-V softcore",
+      "updated_at": "2026-11-20T12:37:51.840750+00:00"
+    },
+    "doi:10.1109/fpl53798.2021.00032": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "RVfpga: Using a RISC-V Core Targeted to an FPGA in Computer Architecture Education",
+      "updated_at": "2026-11-20T12:37:51.814221+00:00"
+    },
     "doi:10.1109/fpl53798.2021.00049": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -18615,6 +18631,14 @@
       "status": "rejected",
       "title": "Exploiting the Potential of Approximate Arithmetic in DSP & AI Hardware Accelerators",
       "updated_at": "2026-11-20T10:36:46.015339+00:00"
+    },
+    "doi:10.1109/fpl53798.2021.00082": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Simodense: a RISC-V softcore optimised for exploring custom SIMD instructions",
+      "updated_at": "2026-11-20T12:37:51.868594+00:00"
     },
     "doi:10.1109/fpl57034.2022.00053": {
       "category": "hors_sujet",
@@ -18807,6 +18831,14 @@
       "status": "rejected",
       "title": "Securing Hardware Development Process using Blockchain",
       "updated_at": "2026-11-18T01:38:04.142344+00:00"
+    },
+    "doi:10.1109/hcs52781.2021.9566904": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Accelerating ML Recommendation with over a Thousand RISC-V/Tensor Processors on Esperanto’s ET-SoC-1 Chip",
+      "updated_at": "2026-11-20T12:37:51.892594+00:00"
     },
     "doi:10.1109/hcs52781.2021.9567158": {
       "category": "secondaire",
@@ -21704,6 +21736,14 @@
       "title": "RISC V Based Fault Diagnosis Architecture for Skinny Family of Block Ciphers",
       "updated_at": "2026-11-11T23:37:53.951525+00:00"
     },
+    "doi:10.1109/icesc51422.2021.9532933": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Design and Implementation of low power RISC V ISA based coprocessor design for Matrix multiplication",
+      "updated_at": "2026-11-20T12:37:51.712061+00:00"
+    },
     "doi:10.1109/icesc70182.2026.11686966": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -23575,6 +23615,14 @@
       "status": "rejected",
       "title": "A Review of Hardware-Based Security Techniques for Cyber-Physical Power Systems",
       "updated_at": "2026-11-04T19:48:49.510223+00:00"
+    },
+    "doi:10.1109/intercon52678.2021.9532810": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Exploring Dynamic Partial Reconfiguration in a Tightly-coupled Coprocessor Attached to a RISC-V Soft-processor on a FPGA",
+      "updated_at": "2026-11-20T12:37:38.744102+00:00"
     },
     "doi:10.1109/intermagshortpapers68882.2026.11596253": {
       "category": "secondaire",
@@ -29512,6 +29560,14 @@
       "title": "An SR Flip-Flop based Physical Unclonable Functions for Hardware Security",
       "updated_at": "2026-11-14T11:14:47.396791+00:00"
     },
+    "doi:10.1109/mwscas47672.2021.9531753": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Digital ASIC Implementation of RISC-V: OpenLane and Commercial Approaches in Comparison",
+      "updated_at": "2026-11-20T12:37:38.716291+00:00"
+    },
     "doi:10.1109/mwscas53549.2025.11244476": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -31151,6 +31207,30 @@
       "status": "rejected",
       "title": "A 22 nm CMOS Voltage-Mode PWM Controller for a DC-DC Buck Converter Used in a 32 -Bit RISC-V Microcontroller for IoT Applications",
       "updated_at": "2026-11-05T00:26:57.168240+00:00"
+    },
+    "doi:10.1109/scc49971.2021.00008": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Fault Injection of TMR Open Source RISC-V Processors using Dynamic Partial Reconfiguration on SRAM-based FPGAs",
+      "updated_at": "2026-11-20T12:37:51.763450+00:00"
+    },
+    "doi:10.1109/scc49971.2021.00010": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "De-RISC: the First RISC-V Space-Grade Platform for Safety-Critical Systems",
+      "updated_at": "2026-11-20T12:37:51.788712+00:00"
+    },
+    "doi:10.1109/scc49971.2021.00013": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "RISC-V Benchmarking for Onboard Sensor Processing",
+      "updated_at": "2026-11-20T12:37:51.737359+00:00"
     },
     "doi:10.1109/scc53864.2021.00046": {
       "category": "secondaire",
@@ -40016,6 +40096,22 @@
       "title": "A Survey of Microarchitectural Side-channel Vulnerabilities, Attacks, and Defenses in Cryptography",
       "updated_at": "2026-11-10T14:15:24.414835+00:00"
     },
+    "doi:10.1145/3458744.3473348": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hyperchaining Optimizations for an LLVM-Based Binary Translator on x86-64 and RISC-V Platforms",
+      "updated_at": "2026-11-20T12:37:51.641927+00:00"
+    },
+    "doi:10.1145/3458744.3473351": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Accelerate Binarized Neural Networks with Processing-in-Memory Enabled by RISC-V Custom Instructions",
+      "updated_at": "2026-11-20T12:37:51.670621+00:00"
+    },
     "doi:10.1145/3460120.3484532": {
       "category": "coeur",
       "decision": "conserver",
@@ -47168,6 +47264,14 @@
       "title": "The Spectre of Capital: Idea and Reality",
       "updated_at": "2026-11-16T23:37:26.135816+00:00"
     },
+    "doi:10.1166/jnn.2021.19394": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Design of a Capacitorless Dynamic Random Access Memory Based on Junctionless Dual-Gate Field-Effect Transistor with a Silicon-Germanium/Silicon Nanotube",
+      "updated_at": "2026-11-20T12:36:55.922640+00:00"
+    },
     "doi:10.1166/jno.2025.3815": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -51151,6 +51255,14 @@
       "status": "rejected",
       "title": "Review: Co-designing ab initio electronic structure methods on a RISC-V vector architecture (Round4/Review1)",
       "updated_at": "2026-11-04T21:24:32.728891+00:00"
+    },
+    "doi:10.2196/26047": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "A Simple Ventilator Designed To Be Used in Shortage Crises: Construction and Verification Testing",
+      "updated_at": "2026-11-20T12:37:58.412711+00:00"
     },
     "doi:10.2196/38163": {
       "category": "hors_sujet",
