@@ -1,8 +1,8 @@
 {
-  "accepted": 403,
+  "accepted": 405,
   "completed": false,
-  "cursor": "MTYxNTU5MjQ4NTAwMCwxMC4xMTQ1JTJGMzQ0Nzk5My4zNDQ4NjIw",
-  "evaluated": 7559,
+  "cursor": "MTY0MDI4Mjc2MzAwMCwxMC4xMTA5JTJGbWVkaXRjb200OTA3MS4yMDIxLjk2NDc2OTA=",
+  "evaluated": 7584,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -644,14 +644,65 @@
     "monthly/2021-10/query-24 : résultat tronqué au plafond 12 pages",
     "monthly/2021-09/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2021-09/query-14 : résultat tronqué au plafond 12 pages",
-    "monthly/2021-09/query-15 : résultat tronqué au plafond 12 pages"
+    "monthly/2021-09/query-15 : résultat tronqué au plafond 12 pages",
+    "monthly/2021-09/query-16 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2021-09",
   "needs_publish": false,
-  "offset": 80,
-  "pages_done": 9371,
-  "pages_in_query": 2,
-  "pending": [],
+  "offset": 320,
+  "pages_done": 9389,
+  "pages_in_query": 8,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Maksim Iavich"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Giorgi Iashvili"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Avtandil Gagnidze"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Roman Odarchenko"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/aict52120.2021.9628948",
+        "id": "https://doi.org/10.1109/aict52120.2021.9628948",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/aict52120.2021.9628948"
+        },
+        "publication_date": "2021-09-21",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2021-09-21",
+        "publication_type": "conference",
+        "publication_venue": "2021 IEEE 4th International Conference on Advanced Information and Communication Technologies (AICT)",
+        "title": "Use of Content-Filtering Method for Hardware Vulnerabilities Identification System",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -3055,9 +3106,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 3343,
-  "query_index": 16,
-  "secondary": 415,
-  "skipped": 8272,
+  "prefilter_review_overflow": 3354,
+  "query_index": 17,
+  "secondary": 417,
+  "skipped": 8281,
   "version": 1
 }

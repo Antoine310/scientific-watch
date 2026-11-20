@@ -5545,6 +5545,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3471936": {
+    "doi": "https://doi.org/10.1145/3471936",
+    "publication_date": "2021-09-13",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2021-09-13",
+    "publication_type": "revue",
+    "publication_venue": "ACM Transactions on Design Automation of Electronic Systems",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3471936",
+    "summary": "Cet article présente une étude exhaustive des attaques ciblant les vulnérabilités matérielles de la micro-architecture dans les dispositifs IoT et IIoT sans nécessiter d'accès physique, ainsi que les mécanismes de détection associés. L'étude analyse les effets secondaires de ces attaques et propose une classification sous forme de tableaux pour informer les concepteurs de systèmes sécurisés.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "A Comprehensive Survey of Attacks without Physical Access Targeting Hardware Vulnerabilities in IoT/IIoT Devices, and Their Detection Mechanisms",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3474376.3487404": {
     "doi": "https://doi.org/10.1145/3474376.3487404",
     "publication_date": "2021-11-15",
@@ -5563,6 +5583,26 @@
     "venue_landmark": "ACM CCS",
     "venue_note": "",
     "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3476989": {
+    "doi": "https://doi.org/10.1145/3476989",
+    "publication_date": "2021-09-17",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2021-09-17",
+    "publication_type": "revue",
+    "publication_venue": "ACM Transactions on Embedded Computing Systems",
+    "score": 78,
+    "source": "https://doi.org/10.1145/3476989",
+    "summary": "Cet article propose une analyse comparative de plusieurs schémas d'intégrité du flux de contrôle (CFI) basés sur des graphes de flux de contrôle (CFG) et assistés par matériel. En implémentant ces schémas sur une plateforme commune à base de RISC-V dans un FPGA et en utilisant environ 40 applications de référence, les auteurs évaluent les performances à l'exécution, l'utilisation du matériel et la taille des binaires. Ils introduisent également une approche CFI améliorée combinant les meilleurs concepts existants pour réduire les surcoûts.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Comparative Analysis and Enhancement of CFG-based Hardware-Assisted CFI Schemes",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
   "doi:10.1145/3485506": {
