@@ -944,6 +944,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/csr51186.2021.9527978": {
+    "doi": "https://doi.org/10.1109/csr51186.2021.9527978",
+    "publication_date": "2021-07-26",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2021-07-26",
+    "publication_type": "conference",
+    "publication_venue": "2021 IEEE International Conference on Cyber Security and Resilience (CSR)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/csr51186.2021.9527978",
+    "summary": "Cet article présente ERAMO, un nouveau protocole d'attestation à distance (RA) pour les appareils IoT aux ressources limitées. ERAMO utilise le déchargement de mémoire (memory offloading) vers le Fog Computing pour vérifier de larges régions de mémoire de données et détecter des attaques furtives. L'approche est validée sur un microcontrôleur ARM Cortex-M33 avec TrustZone.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "ERAMO: Effective Remote Attestation through Memory Offloading",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/csr64739.2025.11130017": {
     "publication_date": "2025-08-04",
     "publication_type": "conference",
@@ -2036,6 +2056,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/icpics52425.2021.9524261": {
+    "doi": "https://doi.org/10.1109/icpics52425.2021.9524261",
+    "publication_date": "2021-07-29",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2021-07-29",
+    "publication_type": "conference",
+    "publication_venue": "2021 IEEE International Conference on Power, Intelligent Computing and Systems (ICPICS)",
+    "score": 78,
+    "source": "https://doi.org/10.1109/icpics52425.2021.9524261",
+    "summary": "Ce papier propose la construction d'un environnement d'exécution de confiance (TEE) léger basé sur les extensions matérielles de l'architecture RISC-V, destiné aux appareils IoT. La solution isole le noyau du système d'exploitation de confiance et le système d'exploitation temps réel (RTOS) embarqué en mode Machine (M), tandis que les applications s'exécutent en mode User (U). Un processus de gestion des interruptions est également conçu pour cette architecture à deux modes.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Construction of RISC-V Lightweight Trusted Execution Environment Based on Hardware Extension",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/icsft66733.2026.11507038": {
     "publication_date": "2026-01-01",
     "publication_type": "conference",
@@ -2566,6 +2606,26 @@
       "T07 — Hardware Security Verification"
     ],
     "title": "Reliable Hardware Trojan Detection for RISC-V Processors using Formal Verification and Automation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/isvlsi51109.2021.00069": {
+    "doi": "https://doi.org/10.1109/isvlsi51109.2021.00069",
+    "publication_date": "2021-07-01",
+    "publication_date_note": "Date source Crossref : 2021-07 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2021-07",
+    "publication_type": "conference",
+    "publication_venue": "2021 IEEE Computer Society Annual Symposium on VLSI (ISVLSI)",
+    "score": 82,
+    "source": "https://doi.org/10.1109/isvlsi51109.2021.00069",
+    "summary": "Cet article présente HEXON, une solution matérielle d'obfuscation de micrologiciel au niveau de l'exécution utilisant des signatures intrinsèques de l'appareil. La méthode combine des obfuscations d'opcodes et de blocs ainsi qu'un mélange des blocs de mémoire, le tout géré par une architecture sur puce pour le déchiffrement dynamique. Les résultats indiquent un faible surcoût en surface (0,6%) et en puissance (4,8%), une pénalité de performance d'environ 9,62% et une résistance élevée au force brute.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "HEXON: Protecting Firmware Using Hardware-Assisted Execution-Level Obfuscation",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
