@@ -8120,6 +8120,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1587/transinf.2020edl8148": {
+    "doi": "https://doi.org/10.1587/transinf.2020edl8148",
+    "publication_date": "2021-08-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2021-08-01",
+    "publication_type": "revue",
+    "publication_venue": "IEICE Transactions on Information and Systems",
+    "score": 90,
+    "source": "https://doi.org/10.1587/transinf.2020edl8148",
+    "summary": "Cette étude analyse le fonctionnement interne du préfet de cache DCUIP présent dans les processeurs Intel et démontre une vulnérabilité liée au partage de la table DCUIP entre contextes d'exécution en mode hyperthreading. Les auteurs proposent une attaque par empoisonnement (DCUIP poisoning) et l'illustrent en extrayant une clé de chiffrement AES d'une implémentation AES-NI.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "DCUIP Poisoning Attack in Intel x86 Processors",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1587/transinf.2025edp7101": {
     "publication_date": "2025-12-10",
     "publication_type": "revue",
