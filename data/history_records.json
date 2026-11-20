@@ -4144,6 +4144,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/tcc.2019.2892449": {
+    "doi": "https://doi.org/10.1109/tcc.2019.2892449",
+    "publication_date": "2021-07-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2021-07-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Cloud Computing",
+    "score": 75,
+    "source": "https://doi.org/10.1109/tcc.2019.2892449",
+    "summary": "Cet article propose SMK, une approche architecturale pour fournir des services système de confiance (comme une horloge et un réseau sécurisés) aux enclaves Intel SGX dans le cloud. En s'appuyant sur le Mode de Gestion du Système (SMM) et l'UEFI, SMK isole un micro-noyau pour s'affranchir d'un système d'exploitation ou d'un hyperviseur non fiables, tout en réutilisant les pilotes existants.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Architectural Protection of Trusted System Services for SGX Enclaves in Cloud Computing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tcc.2023.3243891": {
     "doi": "https://doi.org/10.1109/tcc.2023.3243891",
     "publication_date": "2023-07-01",
@@ -9376,6 +9396,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Runtime Verification for Trustworthy Computing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/tches.v2021.i3.28-59": {
+    "doi": "https://doi.org/10.46586/tches.v2021.i3.28-59",
+    "publication_date": "2021-07-09",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2021-07-09",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 85,
+    "source": "https://doi.org/10.46586/tches.v2021.i3.28-59",
+    "summary": "Cet article revisite les attaques par templates en ligne (Online Template Attacks ou OTA) pour les étendre à des signaux microarchitecturaux, en proposant un cadre générique et de nouvelles métriques d'évaluation. Les auteurs démontrent que ces attaques fonctionnent même dans une direction rétrograde (permettant une attaque par coordonnées projectives augmentées), contournant ainsi les randomisations d'état initial. L'évaluation est menée sur les bibliothèques libgcrypt, mbedTLS et wolfSSL à l'aide de deux canaux auxiliaires microarchitecturaux, récupérant à chaque fois le scalaire complet à l'aide d'une seule trace.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Online Template Attacks: Revisited",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
