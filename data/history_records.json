@@ -2934,6 +2934,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/mdat.2021.3063313": {
+    "doi": "https://doi.org/10.1109/mdat.2021.3063313",
+    "publication_date": "2021-06-01",
+    "publication_date_note": "Date source Crossref : 2021-06 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2021-06",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Design &amp; Test",
+    "score": 85,
+    "source": "https://doi.org/10.1109/mdat.2021.3063313",
+    "summary": "Cet article propose un cadre (framework) pour atténuer les attaques temporelles par canal cache. La méthode consiste à identifier les attaques et les cibles en surveillant les schémas d'accès au cache, puis à les contrer en injectant du bruit à l'aide d'un pré-chargeur (hardware prefetcher).",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Defeating Cache Timing Channels with Hardware Prefetchers",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/mdat.2024.3352537": {
     "doi": "https://doi.org/10.1109/mdat.2024.3352537",
     "publication_date": "2024-04-01",
@@ -12292,6 +12312,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "title:akeradesignandverificationframeworkforsafeandsecuresocaccesscontrol": {
+    "doi": "",
+    "publication_date": "2021-06-24",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2106.13263v1",
+    "summary": "AKER est un framework de conception et de vérification pour le contrôle d'accès dans les systèmes sur puce (SoC) modernes. Il repose sur des modules matériels distribués nommés Access Control Wrappers (ACW) et propose une vérification de sécurité guidée par les propriétés basée sur les énumérations CWE de MITRE. Le framework est évalué sur FPGA Xilinx UltraScale+, intégré avec la racine de confiance matérielle OpenTitan et testé sur l'architecture multicœur OpenPULP.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "AKER: A Design and Verification Framework for Safe andSecure SoC Access Control",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:amdsevsnpaconfidentialcomputingprimer": {
     "publication_date": "2026-08-03",

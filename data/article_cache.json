@@ -1128,6 +1128,14 @@
       "title": "Hardware Security Module",
       "updated_at": "2026-11-07T10:36:44.569615+00:00"
     },
+    "doi:10.1007/978-3-030-78120-0_2": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Trust Me If You Can: Trusted Transformation Between (JSON) Schemas to Support Global Authentication of Education Credentials",
+      "updated_at": "2026-11-20T21:36:53.793515+00:00"
+    },
     "doi:10.1007/978-3-030-78841-4": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -5544,6 +5552,14 @@
       "title": "Assessing performance and porting strategies for gravitational N-body simulations on the RISC-V-based tenstorrent Wormhole™",
       "updated_at": "2026-11-02T20:16:40.646454+00:00"
     },
+    "doi:10.1016/j.asej.2020.09.012": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "A hybrid circuits-cloud: Development of a low-cost secure cloud-based collaborative platform for A/D circuits in virtual hardware E-lab",
+      "updated_at": "2026-11-20T21:39:26.966815+00:00"
+    },
     "doi:10.1016/j.asej.2023.102625": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -7984,6 +8000,14 @@
       "title": "Brittle fragmentation of Fissure 17 enclave magma revealed by fractal analysis",
       "updated_at": "2026-11-09T16:37:18.236431+00:00"
     },
+    "doi:10.1016/j.jwb.2021.101195": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "The dark side of trust in global value chains: Taiwan’s electronics and IT hardware industries",
+      "updated_at": "2026-11-20T21:40:05.593794+00:00"
+    },
     "doi:10.1016/j.knosys.2026.116232": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -8840,6 +8864,14 @@
       "title": "All-aerosol-sprayed high-performance transparent triboelectric nanogenerator with embedded charge-storage layer for self-powered invisible security IoT system and raindrop-solar hybrid energy harvester",
       "updated_at": "2026-11-15T09:43:53.305926+00:00"
     },
+    "doi:10.1016/j.nanoms.2021.01.001": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Low-power emerging memristive designs towards secure hardware systems for applications in internet of things",
+      "updated_at": "2026-11-20T21:39:35.518950+00:00"
+    },
     "doi:10.1016/j.net.2021.05.006": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -9223,6 +9255,14 @@
       "status": "rejected",
       "title": "Optimizing parallel I/O performance in NVMe SSDs by Dynamic cache partitioning",
       "updated_at": "2026-11-05T23:40:07.849669+00:00"
+    },
+    "doi:10.1016/j.phycom.2021.101315": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware impaired modify-and-forward relaying with relay selection: Reliability and security",
+      "updated_at": "2026-11-20T21:40:05.530341+00:00"
     },
     "doi:10.1016/j.phycom.2024.102437": {
       "category": "hors_sujet",
@@ -26488,6 +26528,14 @@
       "title": "Exploiting Trusted Execution Environments and Distributed Computation for Genomic Association Tests",
       "updated_at": "2026-11-03T17:12:28.812078+00:00"
     },
+    "doi:10.1109/jestpe.2020.3017769": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A Hardware-in-the-Loop Platform for DC Protection",
+      "updated_at": "2026-11-20T21:39:26.845764+00:00"
+    },
     "doi:10.1109/jestpe.2024.3387653": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -28600,6 +28648,14 @@
       "title": "Speeding up System Identification Algorithms on a Parallel RISC-V MCU for Fast Near-Sensor Vibration Diagnostic",
       "updated_at": "2026-11-12T22:36:29.181483+00:00"
     },
+    "doi:10.1109/lwc.2021.3064992": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Secure Wireless Communication in RIS-Aided MISO System With Hardware Impairments",
+      "updated_at": "2026-11-20T21:40:05.562880+00:00"
+    },
     "doi:10.1109/lwc.2024.3476142": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -28943,6 +28999,30 @@
       "status": "rejected",
       "title": "Python-Based Lightweight and Extensible RISC-V Simulator: Design and Implementation",
       "updated_at": "2026-11-05T00:48:31.336322+00:00"
+    },
+    "doi:10.1109/mdat.2021.3063313": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Defeating Cache Timing Channels with Hardware Prefetchers",
+      "updated_at": "2026-11-20T21:39:57.860379+00:00"
+    },
+    "doi:10.1109/mdat.2021.3063314": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "End-to-End Automated Exploit Generation for Processor Security Validation",
+      "updated_at": "2026-11-20T21:39:57.923367+00:00"
+    },
+    "doi:10.1109/mdat.2021.3063337": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "A Systematic Design Methodology of Formally Proven Side-Channel-Resistant Cryptographic Hardware",
+      "updated_at": "2026-11-20T21:39:57.892886+00:00"
     },
     "doi:10.1109/mdat.2021.3135324": {
       "category": "secondaire",
@@ -32648,6 +32728,14 @@
       "title": "Engaged Student Learning with Gamified Labs: A New Approach for Hardware Security Education",
       "updated_at": "2026-11-12T03:37:07.869818+00:00"
     },
+    "doi:10.1109/tap.2020.3037659": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "Side-Channel Propagation Measurements and Modeling for Hardware Security in IoT Devices",
+      "updated_at": "2026-11-20T21:39:26.937152+00:00"
+    },
     "doi:10.1109/tap.2021.3118846": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -33255,6 +33343,22 @@
       "status": "rejected",
       "title": "CacheTree: Reducing Integrity Verification Overhead of Secure Nonvolatile Memories",
       "updated_at": "2026-11-20T14:36:59.739134+00:00"
+    },
+    "doi:10.1109/tcad.2020.3019772": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Toward Hardware-Based IP Vulnerability Detection and Post-Deployment Patching in Systems-on-Chip",
+      "updated_at": "2026-11-20T21:39:26.878207+00:00"
+    },
+    "doi:10.1109/tcad.2020.3022841": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "hPRESS: A Hardware-Enhanced Proxy Re-Encryption Scheme Using Secure Enclave",
+      "updated_at": "2026-11-20T21:39:26.907156+00:00"
     },
     "doi:10.1109/tcad.2020.3026960": {
       "category": "secondaire",
@@ -40592,6 +40696,14 @@
       "title": "Low-overhead Hardware Supervision for Securing an IoT Bluetooth-enabled Device: Monitoring Radio Frequency and Supply Voltage",
       "updated_at": "2026-11-20T03:37:36.865922+00:00"
     },
+    "doi:10.1145/3468264.3468617": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Code Integrity Attestation for PLCs using Black Box Neural Network Predictions",
+      "updated_at": "2026-11-20T21:36:53.761607+00:00"
+    },
     "doi:10.1145/3470496.3527412": {
       "category": "coeur",
       "decision": "conserver",
@@ -40655,6 +40767,14 @@
       "status": "rejected",
       "title": "Proceedings of the 5th Workshop on Attacks and Solutions in Hardware Security",
       "updated_at": "2026-11-19T11:37:20.533778+00:00"
+    },
+    "doi:10.1145/3474376.3487286": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Isadora: Automated Information Flow Property Generation for Hardware Designs",
+      "updated_at": "2026-11-20T21:37:19.561325+00:00"
     },
     "doi:10.1145/3474376.3487404": {
       "category": "coeur",
@@ -49320,6 +49440,14 @@
       "title": "FIRV: A language-based control flow integrity protection for RISC-V architectures",
       "updated_at": "2026-11-07T06:37:27.250361+00:00"
     },
+    "doi:10.1521/csit.2021.110915": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Electromagnetic Analysis of an Ultra-Lightweight Cipher: PRESENT",
+      "updated_at": "2026-11-20T21:37:58.477303+00:00"
+    },
     "doi:10.15222/tkea2026.1.32": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -54223,6 +54351,14 @@
       "status": "rejected",
       "title": "Memometer: Memory PUF-based Hardware Metering Methodology for FPGAs",
       "updated_at": "2026-11-15T17:38:18.277930+00:00"
+    },
+    "doi:10.31436/iiumej.v22i2.1618": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "EXPERIMENTAL VERIFICATION OF THREE MODE CONTROLLER FOR HOME APPLIANCE USING WIRELESS TECHNOLOGY",
+      "updated_at": "2026-11-20T21:36:38.892500+00:00"
     },
     "doi:10.31436/iiumej.v26i3.3610": {
       "category": "secondaire",
@@ -66864,6 +67000,14 @@
       "title": "AI-Assisted Hardware Security Verification: A Survey and AI Accelerator Case Study",
       "updated_at": "2026-11-03T12:27:36.532894+00:00"
     },
+    "title:akeradesignandverificationframeworkforsafeandsecuresocaccesscontrol": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "AKER: A Design and Verification Framework for Safe andSecure SoC Access Control",
+      "updated_at": "2026-11-20T21:37:06.804321+00:00"
+    },
     "title:alargescalestudyontheprevalenceandusageofteebasedfeaturesonandroid": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -66943,6 +67087,14 @@
       "status": "imported",
       "title": "An Attack on The Speculative Vectorization: Leakage from Higher Dimensional Speculation",
       "updated_at": "2026-11-14T20:39:14.657562+00:00"
+    },
+    "title:anefficientandsecureschemeofverifiablecomputationforintelsgx": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "An efficient and secure scheme of verifiable computation for Intel SGX",
+      "updated_at": "2026-11-20T21:37:29.002123+00:00"
     },
     "title:anempiricalstudyofgpucachesidechannelleakageinlargelanguagemodelinference": {
       "category": "secondaire",
@@ -67791,6 +67943,14 @@
       "status": "rejected",
       "title": "Clawed and Dangerous: Can We Trust Open Agentic Systems?",
       "updated_at": "2026-11-03T14:54:23.973656+00:00"
+    },
+    "title:cloakaframeworkfordevelopmentofconfidentialblockchainsmartcontracts": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "CLOAK: A Framework For Development of Confidential Blockchain Smart Contracts",
+      "updated_at": "2026-11-20T21:37:28.972351+00:00"
     },
     "title:closedloopsuperparamagnetictunneljunctionsforreliabletruerandomnessandgenerativeartificialintelligence": {
       "category": "secondaire",
@@ -68895,6 +69055,14 @@
       "status": "rejected",
       "title": "FedMPQ: Secure and Communication-Efficient Federated Learning with Multi-codebook Product Quantization",
       "updated_at": "2026-11-10T09:39:20.407274+00:00"
+    },
+    "title:femtocontainersdevopsonmicrocontrollerswithlightweightvirtualizationisolationforiotsoftwaremodules": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Femto-Containers: DevOps on Microcontrollers with Lightweight Virtualization & Isolation for IoT Software Modules",
+      "updated_at": "2026-11-20T21:37:19.532245+00:00"
     },
     "title:femtocontainerslightweightvirtualizationandfaultisolationforsmallsoftwarefunctionsonlowpoweriotmicrocontrollers": {
       "category": "secondaire_technique",
@@ -71232,6 +71400,14 @@
       "title": "Quantum Operating System Support for Quantum Trusted Execution Environments",
       "updated_at": "2026-11-08T07:38:49.015390+00:00"
     },
+    "title:quantumresistantsecurityforsoftwareupdatesonlowpowernetworkedembeddeddevices": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Quantum-Resistant Security for Software Updates on Low-power Networked Embedded Devices",
+      "updated_at": "2026-11-20T21:37:19.500526+00:00"
+    },
     "title:quantumsecurephysicalunclonablefunctionenabledbysiliconphotonicsintegratedcircuits": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -72375,6 +72551,14 @@
       "status": "rejected",
       "title": "SR flip-flop based physical unclonable functions for hardware security",
       "updated_at": "2026-11-07T20:15:14.626847+00:00"
+    },
+    "title:sssprnuprivacypreservingprnubasedcameraattributionusingshamirsecretsharing": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "SSS-PRNU: Privacy-Preserving PRNU Based Camera Attribution using Shamir Secret Sharing",
+      "updated_at": "2026-11-20T21:37:28.939466+00:00"
     },
     "title:standardbasedremoteattestationtheveraisonproject": {
       "category": "secondaire_technique",
