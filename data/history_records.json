@@ -13555,6 +13555,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:leakingcontrolflowinformationviathehardwareprefetcher": {
+    "doi": "",
+    "publication_date": "2021-09-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2109.00474v1",
+    "summary": "Cet article étudie les risques de sécurité liés au pré-chargeur matériel (hardware prefetcher) des processeurs modernes et présente AfterImage, une nouvelle attaque par canal auxiliaire exploitant le pré-chargeur à base de pointeur d'instruction (IP-stride) d'Intel pour fuiter des informations de flux de contrôle, y compris à travers la frontière utilisateur-noyau sur le chemin d'exécution non spéculatif.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Leaking Control Flow Information via the Hardware Prefetcher",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:leveraginggem5andmachinelearningforendtoenddetectionofcachebasedsidechannelattackpatterns": {
     "publication_date": "2025-09-18",
     "score": 85,
