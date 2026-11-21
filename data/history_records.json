@@ -9636,6 +9636,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.46586/tches.v2021.i2.275-303": {
+    "doi": "https://doi.org/10.46586/tches.v2021.i2.275-303",
+    "publication_date": "2021-02-23",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2021-02-23",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 90,
+    "source": "https://doi.org/10.46586/tches.v2021.i2.275-303",
+    "summary": "Cet article présente RASSLE, une attaque par canal auxiliaire exploitant la pile d'adresses de retour (RAS) des processeurs modernes. En provoquant une condition de débordement dans la RAS et en établissant un canal temporel, les auteurs démontrent trois scénarios d'attaque concrets : un canal caché entre processus, la récupération de clés secrètes pour des courbes elliptiques (P-384) dans OpenSSL, et une attaque par réseau (Lattice Attack) sur l'ECDSA (P-256) via la fuite de nonces partiels.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "RASSLE: Return Address Stack based Side-channel LEakage",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.46586/tches.v2021.i3.28-59": {
     "doi": "https://doi.org/10.46586/tches.v2021.i3.28-59",
     "publication_date": "2021-07-09",
