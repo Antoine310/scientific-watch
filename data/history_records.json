@@ -9481,6 +9481,23 @@
     ],
     "title": "Dorami: Privilege Separating Security Monitor on RISC-V TEEs"
   },
+  "doi:10.4018/ijitn.2016040108": {
+    "doi": "https://doi.org/10.4018/ijitn.2016040108",
+    "publication_date": "2016-04-01",
+    "publication_type": "revue",
+    "publication_venue": "International Journal of Interdisciplinary Telecommunications and Networking",
+    "score": 75,
+    "source": "https://doi.org/10.4018/ijitn.2016040108",
+    "summary": "Cet article analyse les vulnérabilités de l'algorithme cryptographique RSA implémenté avec une exponentiation par fenêtre glissante (sliding window) via OpenSSL. En exploitant le multithreading simultané (SMT) et le partage des ressources de cache, un thread espion peut surveiller les accès mémoire d'un thread de chiffrement et mesurer le temps d'exécution pour retrouver la clé secrète.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Research on Cache Timing Attack Against RSA with Sliding Window Exponentiation Algorithm",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.4204/eptcs.391.7": {
     "doi": "https://doi.org/10.4204/EPTCS.391.7",
     "publication_date": "2023-10-03",
