@@ -4848,6 +4848,14 @@
       "title": "Towards Designing a Secure RISC-V System-on-Chip: ITUS",
       "updated_at": "2026-11-11T20:15:14.749993+00:00"
     },
+    "doi:10.1007/s41635-021-00114-4": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 50,
+      "status": "rejected",
+      "title": "Firmware Security Module",
+      "updated_at": "2026-11-21T11:39:27.743294+00:00"
+    },
     "doi:10.1007/s41635-021-00115-3": {
       "category": "coeur",
       "decision": "conserver",
@@ -17376,6 +17384,14 @@
       "title": "Ariel OS: An Embedded Rust Operating System for Networked Sensors & Multi-Core Microcontrollers",
       "updated_at": "2026-11-06T11:39:05.443141+00:00"
     },
+    "doi:10.1109/ddecs52668.2021.9417053": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "HEIST: A Hardware Signal Fault Injection Methodology Enabling Feasible Software Robustness Testing",
+      "updated_at": "2026-11-21T11:39:27.786671+00:00"
+    },
     "doi:10.1109/ddecs54261.2022.9770108": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -18311,6 +18327,14 @@
       "status": "rejected",
       "title": "A Hybrid Clause Deletion Framework for Enhanced SMT Solving in Hardware Formal Verification",
       "updated_at": "2026-11-05T23:39:21.081898+00:00"
+    },
+    "doi:10.1109/edtm50988.2021.9420857": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A Novel Leaky-FeFET Based True Random Number Generator with Ultralow Hardware Cost for Neuromorphic Application",
+      "updated_at": "2026-11-21T11:40:26.032385+00:00"
     },
     "doi:10.1109/edtm58488.2024.10511353": {
       "category": "secondaire",
@@ -20336,6 +20360,14 @@
       "title": "Hybrid Compiler and Hardware Approach to Mitigate Side-Channel Vulnerabilities in Parallel GPU Architectures",
       "updated_at": "2026-11-08T11:38:03.552061+00:00"
     },
+    "doi:10.1109/i2ct51068.2021.9418187": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Design and Verification of PID Controller for Unstable System with Hardware-in-Loop Simulation",
+      "updated_at": "2026-11-21T11:40:25.987872+00:00"
+    },
     "doi:10.1109/i2ct61223.2024.10543746": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -21903,6 +21935,14 @@
       "status": "rejected",
       "title": "Exploring AI Attacks on Hardware Accelerated Targets",
       "updated_at": "2026-11-11T21:36:27.802171+00:00"
+    },
+    "doi:10.1109/icde51399.2021.00025": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 59,
+      "status": "rejected",
+      "title": "Twine: An Embedded Trusted Runtime for WebAssembly",
+      "updated_at": "2026-11-21T11:40:26.355690+00:00"
     },
     "doi:10.1109/icde65448.2025.00336": {
       "category": "secondaire",
@@ -23935,6 +23975,14 @@
       "status": "rejected",
       "title": "A scalable RISC-V Coprocessor for Liquid Time-Constant Neural Network",
       "updated_at": "2026-11-08T16:37:18.055483+00:00"
+    },
+    "doi:10.1109/iemtronics52119.2021.9422651": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Software and Hardware Security of IoT",
+      "updated_at": "2026-11-21T11:40:26.076877+00:00"
     },
     "doi:10.1109/ietacs68750.2025.11385590": {
       "category": "secondaire",
@@ -26199,6 +26247,14 @@
       "status": "imported",
       "title": "Lightweight Secure-Boot Architecture for RISC-V System-on-Chip",
       "updated_at": "2026-11-15T05:13:46.562848+00:00"
+    },
+    "doi:10.1109/isqed51717.2021.9424260": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Sandbox Detection Using Hardware Side Channels",
+      "updated_at": "2026-11-21T11:40:25.943050+00:00"
     },
     "doi:10.1109/isqed51717.2021.9424322": {
       "category": "coeur",
@@ -30912,6 +30968,14 @@
       "title": "Deep Neural Network Security From a Hardware Perspective",
       "updated_at": "2026-11-19T13:38:42.205644+00:00"
     },
+    "doi:10.1109/naps50074.2021.9449802": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Integrating Hardware Security into a Blockchain-Based Transactive Energy Platform",
+      "updated_at": "2026-11-21T11:40:26.311118+00:00"
+    },
     "doi:10.1109/naps52732.2021.9654656": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -33376,6 +33440,14 @@
       "title": "FPGA Implementation of a Real-Time Application Based on RISC-V Cores",
       "updated_at": "2026-11-07T06:37:48.416557+00:00"
     },
+    "doi:10.1109/ssi52265.2021.9467030": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "From Hardware-Software Contracts to Industrial IoT-Cloud Block-chains for Security",
+      "updated_at": "2026-11-21T11:41:24.067366+00:00"
+    },
     "doi:10.1109/stcr62650.2025.11019744": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -33439,6 +33511,14 @@
       "status": "rejected",
       "title": "Concept of Hardware-Software Complex for Secure Data Transmission Using Quantum Key Distribution",
       "updated_at": "2026-11-05T22:39:22.419148+00:00"
+    },
+    "doi:10.1109/syscon48628.2021.9447066": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 59,
+      "status": "rejected",
+      "title": "Trusted Inter-Process Communication Using Hardware Enclaves",
+      "updated_at": "2026-11-21T11:40:26.266648+00:00"
     },
     "doi:10.1109/taee59541.2024.10604934": {
       "category": "secondaire",
@@ -39440,6 +39520,22 @@
       "title": "A Survey on Hardware Security Techniques for Preventing Reverse Engineering Attacks",
       "updated_at": "2026-11-14T10:37:51.549225+00:00"
     },
+    "doi:10.1109/vlsi-tsa51926.2021.9440100": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hardware Security - Back to the Future",
+      "updated_at": "2026-11-21T11:40:26.179351+00:00"
+    },
+    "doi:10.1109/vlsi-tsa51926.2021.9440114": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Quantum Tunneling PUF: A Chip Fingerprint for Hardware Security",
+      "updated_at": "2026-11-21T11:40:26.121272+00:00"
+    },
     "doi:10.1109/vlsid2022.2022.00028": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -39759,6 +39855,14 @@
       "status": "rejected",
       "title": "A High-Bandwidth Multi-Stream SIMD RISC-V Quad-Core Processor Based on an Asynchronous Ring Architecture",
       "updated_at": "2026-11-03T14:30:45.908299+00:00"
+    },
+    "doi:10.1109/vts50974.2021.9441032": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Special Session: CAD for Hardware Security - Automation is Key to Adoption of Solutions",
+      "updated_at": "2026-11-21T11:40:26.221693+00:00"
     },
     "doi:10.1109/vts52500.2021.9794219": {
       "category": "hors_sujet",
@@ -41504,6 +41608,22 @@
       "title": "Survey of Transient Execution Attacks and Their Mitigations",
       "updated_at": "2026-11-10T23:16:05.343933+00:00"
     },
+    "doi:10.1145/3445814.3446736": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "HerQules: securing programs via hardware-enforced message queues",
+      "updated_at": "2026-11-21T11:37:31.498428+00:00"
+    },
+    "doi:10.1145/3445814.3446761": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "In-fat pointer: hardware-assisted tagged-pointer spatial memory safety defense with subobject granularity protection",
+      "updated_at": "2026-11-21T11:37:31.544094+00:00"
+    },
     "doi:10.1145/3445979": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -41711,6 +41831,14 @@
       "status": "imported",
       "title": "SmashEx: Smashing SGX Enclaves Using Exceptions",
       "updated_at": "2026-11-19T18:38:22.594366+00:00"
+    },
+    "doi:10.1145/3460470": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Session details: Session 6 Hardware and Device Security/Privacy",
+      "updated_at": "2026-11-21T11:37:21.663883+00:00"
     },
     "doi:10.1145/3460941": {
       "category": "secondaire",
@@ -48272,6 +48400,14 @@
       "title": "A Novel Security Authentication Protocol Based on Physical Unclonable Function for RFID Healthcare Systems",
       "updated_at": "2026-11-11T17:13:26.865797+00:00"
     },
+    "doi:10.1155/2021/8859618": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Remote Attestation on Behavioral Traces for Crowd Quality Control Based on Trusted Platform Module",
+      "updated_at": "2026-11-21T11:39:27.695253+00:00"
+    },
     "doi:10.1155/2021/8883614": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -52303,6 +52439,14 @@
       "status": "rejected",
       "title": "Hardware real-time individualised blood glucose predictor generator based on grammars and cartesian genetic programming",
       "updated_at": "2026-11-10T11:37:21.841579+00:00"
+    },
+    "doi:10.21203/rs.3.rs-449278/v1": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Development of a sensor and measurement platform for water quality observations: design, sensor integration, 3D printing, and open-source hardware",
+      "updated_at": "2026-11-21T11:37:31.698739+00:00"
     },
     "doi:10.21203/rs.3.rs-523604/v1": {
       "category": "hors_sujet",
@@ -56432,6 +56576,14 @@
       "title": "Hardware demonstration of a fixed Tensor P2 kernel: zero-entropy leakage and stable coherence across dual microcontroller platforms",
       "updated_at": "2026-11-03T13:07:15.917872+00:00"
     },
+    "doi:10.3389/fpsyt.2021.632031": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Psychosocial Well-Being, Mental Health, and Available Supports in an Arab Enclave: Exploring Outcomes for Foreign-Born and U.S.-Born Adolescents",
+      "updated_at": "2026-11-21T11:36:32.854756+00:00"
+    },
     "doi:10.3389/fpubh.2026.1944235": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -58560,6 +58712,14 @@
       "title": "Residence in a Hispanic Enclave Is Associated with Inferior Overall Survival among Children with Acute Lymphoblastic Leukemia",
       "updated_at": "2026-11-20T02:37:17.861585+00:00"
     },
+    "doi:10.3390/info12040169": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 55,
+      "status": "rejected",
+      "title": "RDAMS: An Efficient Run-Time Approach for Memory Fault and Hardware Trojans Detection",
+      "updated_at": "2026-11-21T11:37:31.588535+00:00"
+    },
     "doi:10.3390/info14090475": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -59023,6 +59183,14 @@
       "status": "rejected",
       "title": "DCSS Protocol for Data Caching and Sharing Security in a 5G Network",
       "updated_at": "2026-11-20T15:38:47.301751+00:00"
+    },
+    "doi:10.3390/rs13081518": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "An FPGA-Based Hardware Accelerator for CNNs Inference on Board Satellites: Benchmarking with Myriad 2-Based Solution for the CloudScout Case Study",
+      "updated_at": "2026-11-21T11:37:31.632750+00:00"
     },
     "doi:10.3390/rs14133180": {
       "category": "hors_sujet",
