@@ -1652,6 +1652,23 @@
     "venue_priority": 1,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/hpca.2016.7446082": {
+    "doi": "https://doi.org/10.1109/hpca.2016.7446082",
+    "publication_date": "2016-03-01",
+    "publication_type": "conference",
+    "publication_venue": "IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/hpca.2016.7446082",
+    "summary": "CATalyst est un mécanisme hybride matériel-logiciel utilisant la technologie CAT (Cache Allocation Technology) d'Intel pour contrer les attaques par canal auxiliaire sur le dernier niveau de cache (LLC) dans le cloud multi-locataire, avec un faible impact sur les performances.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "CATalyst: Defeating last-level cache side channel attacks in cloud computing",
+    "venue_landmark": "HPCA",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "OpenAlex"
+  },
   "doi:10.1109/hpcc64274.2024.00117": {
     "doi": "https://doi.org/10.1109/hpcc64274.2024.00117",
     "publication_date": "2024-12-13",
