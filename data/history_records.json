@@ -12976,6 +12976,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:coherenceattacksandcountermeasuresininterposerbasedsystems": {
+    "doi": "",
+    "publication_date": "2021-05-06",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2105.02917v2",
+    "summary": "Cette publication explore les défis de sécurité des systèmes à base de 2.5D et d'interposeurs intégrant des chiplets tiers. Elle introduit GETXspy, une attaque par canal auxiliaire basée sur la cohérence de cache, et propose une contre-mesure sous la forme d'un interposeur actif servant de racine de confiance physique (RoT) avec une faible surcharge de performance d'environ 4 %.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Coherence Attacks and Countermeasures in Interposer-Based Systems",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:comprehensivekernelsafetyinthespectreeramitigationsandperformanceevaluationextendedversion": {
     "doi": "",
     "publication_date": "2024-11-27",
@@ -13946,6 +13966,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:leakyfrontendssecurityvulnerabilitiesinprocessorfrontends": {
+    "doi": "",
+    "publication_date": "2021-05-25",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2105.12224v3",
+    "summary": "Ce papier évalue de nouvelles menaces de sécurité liées au frontend de processeurs Intel modernes. Les causes profondes résident dans les multiples chemins d'exécution des micro-opérations (MITE, DSB/Cache de micro-opérations, LSD), chacun ayant des signatures temporelles et de puissance uniques. Leurs commutations et le partage des composants permettent des attaques par canaux cachés et auxiliaires, affectant le multi-threading, les enclaves SGX, permettant une variante de Spectre intra-domaine et le fingerprinting de microcode.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Leaky Frontends: Security Vulnerabilities in Processor Frontends",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:leveraginggem5andmachinelearningforendtoenddetectionofcachebasedsidechannelattackpatterns": {
     "publication_date": "2025-09-18",
     "score": 85,
@@ -14710,6 +14750,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:revizortestingblackboxcpusagainstspeculationcontracts": {
+    "doi": "",
+    "publication_date": "2021-05-14",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2105.06872v3",
+    "summary": "Cet article propose une approche pour détecter automatiquement les fuites d'informations microarchitecturales dans les processeurs dits \"boîte noire\" en utilisant des contrats de spéculation et une technique de test relationnel basée sur des modèles (MRT), implémentée dans l'outil Revizor et évaluée sur des CPU Intel x86.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Revizor: Testing Black-box CPUs against Speculation Contracts",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:ripencapsulationdefeatingipencapsulationontimspdevices": {
     "doi": "",
     "publication_date": "2023-10-25",
@@ -14929,6 +14989,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "SemPat: Using Hyperproperty-based Semantic Analysis to Generate Microarchitectural Attack Patterns",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:severitycodeinjectionattacksagainstencryptedvirtualmachines": {
+    "doi": "",
+    "publication_date": "2021-05-28",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2105.13824v1",
+    "summary": "Cet article présente \"SEVerity\", une attaque par injection de code ciblant les machines virtuelles protégées par AMD SEV et SEV-ES. En exploitant l'absence de protection de l'intégrité de la mémoire, les auteurs démontrent qu'il est possible d'injecter et d'exécuter du code arbitraire à l'intérieur d'une machine virtuelle chiffrée, malgré le chiffrement de la mémoire et la protection des registres par SEV-ES, obtenant un taux de succès de 100%.",
+    "themes": [
+      "T09 — Secure Memory"
+    ],
+    "title": "SEVerity: Code Injection Attacks against Encrypted Virtual Machines",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
