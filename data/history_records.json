@@ -14171,6 +14171,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:lordoftheringssidechannelattacksonthecpuonchipringinterconnectarepractical": {
+    "doi": "",
+    "publication_date": "2021-03-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2103.03443v1",
+    "summary": "Cet article présente les premières attaques par canal auxiliaire exploitant la contention sur l'interconnexion en anneau (ring interconnect) d'un processeur, démontrant ainsi la faisabilité de telles attaques pratiques malgré la complexité et le bruit inhérents à ce canal.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Lord of the Ring(s): Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:madenmicroarchitecturalattackdetectionthroughsystemwideenergyconsumption": {
     "doi": "",
     "publication_date": "2022-05-31",
@@ -15129,6 +15149,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:selectivelydelayinginstructionstopreventmicroarchitecturalreplayattacks": {
+    "doi": "",
+    "publication_date": "2021-03-19",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2103.10692v1",
+    "summary": "Cet article étudie les attaques par relecture microarchitecturale, telles que MicroScope, qui exploitent l'exécution spéculative pour piéger une application victime dans une boucle infinie et amplifier des attaques par canal auxiliaire, menaçant notamment les environnements d'exécution de confiance (TEEs). Les auteurs généralisent ces attaques et proposent « Delay-on-Squash », une contre-mesure matérielle efficace pour suivre et empêcher la relecture spéculative de telles instructions.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Selectively Delaying Instructions to Prevent Microarchitectural Replay Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:sempatusinghyperpropertybasedsemanticanalysistogeneratemicroarchitecturalattackpatterns": {
     "doi": "",
     "publication_date": "2024-06-08",
@@ -16074,6 +16114,26 @@
       "T07 — Hardware Security Verification"
     ],
     "title": "Unlocking Hardware Security Assurance: The Potential of LLMs",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:updatetherootofintegritytreeinsecurenonvolatilememorysystemswithlowoverhead": {
+    "doi": "",
+    "publication_date": "2021-03-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2103.03502v1",
+    "summary": "Cette publication présente SCUE, un schéma efficace et à faible latence conçu pour mettre directement à jour la racine de l'arbre d'intégrité dans les systèmes de mémoire non volatile (NVM) sécurisés, en contournant les nœuds intermédiaires. L'approche vise à réduire le goulot d'étranglement des performances sur le chemin critique d'écriture tout en garantissant la cohérence en cas de panne et la sécurité après redémarrage.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Update the Root of Integrity Tree in Secure Non-Volatile Memory Systems with Low Overhead",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
