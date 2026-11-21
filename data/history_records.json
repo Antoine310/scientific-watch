@@ -3444,6 +3444,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/seed51797.2021.00021": {
+    "doi": "https://doi.org/10.1109/SEED51797.2021.00021",
+    "publication_date": "2021-02-22",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "2021 International Symposium on Secure and Private Execution Environment Design (SEED)",
+    "score": 88,
+    "source": "http://arxiv.org/abs/2102.10932v1",
+    "summary": "Cet article étudie l'utilisation de la recomputation de valeurs pour accélérer les techniques de masquage de la spéculation (comme Delay-on-Miss) destinées à contrer les attaques par canaux cachés spéculatifs. En remplaçant la prédiction de valeur par une recomputation non spéculative en isohation, les auteurs obtiennent 93% des performances de base non sécurisées.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "On Value Recomputation to Accelerate Invisible Speculation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/seed51797.2021.00023": {
     "doi": "https://doi.org/10.1109/SEED51797.2021.00023",
     "publication_date": "2023-01-09",
@@ -13354,6 +13374,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:doveadataobliviousvirtualenvironment": {
+    "doi": "",
+    "publication_date": "2021-02-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2102.05195v1",
+    "summary": "DOVE propose un environnement virtuel oblivious aux données combiné à des transcripts (DOT) pour protéger les applications haut niveau s'exécutant dans des TEE contre les attaques par canaux auxiliaires microarchitecturaux, en démontrant son efficacité sur le langage R.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "DOVE: A Data-Oblivious Virtual Environment",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:doyouevenliftstrengtheningcompilersecurityguaranteesagainstspectreattacks": {
     "doi": "",
     "publication_date": "2024-05-16",
@@ -13799,6 +13839,26 @@
     "title": "Fuzzilicon: A Post-Silicon Microcode-Guided x86 CPU Fuzzer",
     "venue_landmark": "",
     "venue_note": "Référence déclarée sur arXiv (non vérifiée) : Network and Distributed System Security (NDSS) Symposium 2026, 23 - 27 February 2026 , San Diego, CA, USA ISBN 979-8-9919276-8-0",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:fuzzinghardwarelikesoftware": {
+    "doi": "",
+    "publication_date": "2021-02-03",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2102.02308v1",
+    "summary": "Cette publication propose d'adapter le fuzzing logiciel à la vérification de designs matériels (RTL) en traduisant le matériel en un modèle logiciel. L'approche vise à surmonter les limites de la vérification aléatoire dynamique et de la vérification formelle. Evaluée sur quatre blocs IP de l'OpenTitan SoC de Google, elle démontre une réduction significative du temps d'exécution pour atteindre une bonne couverture de code et d'états.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Fuzzing Hardware Like Software",
+    "venue_landmark": "",
+    "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
