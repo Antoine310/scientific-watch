@@ -6312,6 +6312,22 @@
       "title": "DO-RA: Data-oriented runtime attestation for IoT devices",
       "updated_at": "2026-11-12T17:14:03.450758+00:00"
     },
+    "doi:10.1016/j.cose.2020.102117": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hardware-based solutions for trusted cloud computing",
+      "updated_at": "2026-11-21T09:41:14.842748+00:00"
+    },
+    "doi:10.1016/j.cose.2020.102167": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Accelerating hardware security verification and vulnerability detection through state space reduction",
+      "updated_at": "2026-11-21T09:40:32.441171+00:00"
+    },
     "doi:10.1016/j.cose.2021.102300": {
       "category": "secondaire",
       "decision": "examiner",
@@ -34944,6 +34960,14 @@
       "title": "End-to-End Multimedia Protection for Consumer-Centric Digital Twins via Blockchain and Hardware-Rooted Trust",
       "updated_at": "2026-11-03T10:28:08.097255+00:00"
     },
+    "doi:10.1109/tcomm.2021.3050503": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware Impaired Ambient Backscatter NOMA Systems: Reliability and Security",
+      "updated_at": "2026-11-21T09:41:14.809798+00:00"
+    },
     "doi:10.1109/tcomm.2021.3074978": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -36919,6 +36943,14 @@
       "status": "rejected",
       "title": "Implementation of a Compact and Resource-Efficient 32-bit Microcontroller Based on RISC-V Steel on FPGA and ASIC",
       "updated_at": "2026-11-05T04:50:14.786275+00:00"
+    },
+    "doi:10.1109/tetc.2020.2977735": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Design and Analysis of Secure Emerging Crypto-Hardware Using HyperFET Devices",
+      "updated_at": "2026-11-21T09:40:15.578571+00:00"
     },
     "doi:10.1109/tetc.2020.3027789": {
       "category": "secondaire",
@@ -41559,6 +41591,14 @@
       "status": "imported",
       "title": "Exorcising Spectres with Secure Compilers",
       "updated_at": "2026-11-09T23:15:06.161105+00:00"
+    },
+    "doi:10.1145/3460120.3484583": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Constantine: Automatic Side-Channel Resistance Using Efficient Control and Data Flow Linearization",
+      "updated_at": "2026-11-21T09:39:11.058206+00:00"
     },
     "doi:10.1145/3460120.3484783": {
       "category": "coeur",
@@ -68152,6 +68192,14 @@
       "title": "A Blockchain-driven Architecture for Usage Control in Solid",
       "updated_at": "2026-11-12T06:39:29.419573+00:00"
     },
+    "title:abusingcachelinedirtystatestoleakinformationincommercialprocessors": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Abusing Cache Line Dirty States to Leak Information in Commercial Processors",
+      "updated_at": "2026-11-21T09:38:41.228923+00:00"
+    },
     "title:acaiprotectingacceleratorexecutionwitharmconfidentialcomputingarchitecture": {
       "category": "coeur",
       "decision": "examiner",
@@ -68271,6 +68319,14 @@
       "status": "imported",
       "title": "Advanced profiling for probabilistic Prime+Probe attacks and covert channels in ScatterCache",
       "updated_at": "2026-11-14T11:14:42.168961+00:00"
+    },
+    "title:adversariallearninginspiredemergingsidechannelattacksanddefenses": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Adversarial Learning Inspired Emerging Side-Channel Attacks and Defenses",
+      "updated_at": "2026-11-21T09:38:30.442412+00:00"
     },
     "title:aegissatsecuringaienabledsocfpgasatelliteplatforms": {
       "category": "secondaire_technique",
@@ -69343,6 +69399,14 @@
       "status": "rejected",
       "title": "Clawed and Dangerous: Can We Trust Open Agentic Systems?",
       "updated_at": "2026-11-03T14:54:23.973656+00:00"
+    },
+    "title:clepsydracachepreventingcacheattackswithtimebasedevictions": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "ClepsydraCache -- Preventing Cache Attacks with Time-Based Evictions",
+      "updated_at": "2026-11-21T09:38:51.289278+00:00"
     },
     "title:cloakaframeworkfordevelopmentofconfidentialblockchainsmartcontracts": {
       "category": "secondaire",
@@ -71376,6 +71440,14 @@
       "title": "Kettle: Attested builds for verifiable software provenance",
       "updated_at": "2026-11-03T10:11:48.525567+00:00"
     },
+    "title:kevlartzasecurecacheforarmtrustzone": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "KEVLAR-TZ: A Secure Cache for ARM TrustZone",
+      "updated_at": "2026-11-21T09:37:53.984404+00:00"
+    },
     "title:knowthyneighborcrossteemutualattestation": {
       "category": "coeur",
       "decision": "examiner",
@@ -71728,6 +71800,14 @@
       "title": "Memory-Efficient and Secure DNN Inference on TrustZone-enabled Consumer IoT Devices",
       "updated_at": "2026-11-10T15:39:46.662223+00:00"
     },
+    "title:memoryefficientdeeplearninginferenceintrustedexecutionenvironments": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Memory-Efficient Deep Learning Inference in Trusted Execution Environments",
+      "updated_at": "2026-11-21T09:37:54.052739+00:00"
+    },
     "title:memoryundersiegeacomprehensivesurveyofsidechannelattacksonmemory": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -72072,6 +72152,14 @@
       "title": "ODYSSEY: Reestablishing Confidentiality in Confidential Blockchain via Delegated Execution",
       "updated_at": "2026-11-02T21:35:59.576682+00:00"
     },
+    "title:offchainexecutionandverificationofcomputationallyintensivesmartcontracts": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Off-chain Execution and Verification of Computationally Intensive Smart Contracts",
+      "updated_at": "2026-11-21T09:37:53.954577+00:00"
+    },
     "title:oliveobliviousfederatedlearningontrustedexecutionenvironmentagainsttheriskofsparsification": {
       "category": "coeur",
       "decision": "examiner",
@@ -72111,6 +72199,14 @@
       "status": "imported",
       "title": "On Kernel's Safety in the Spectre Era (Extended Version)",
       "updated_at": "2026-11-09T14:40:08.442260+00:00"
+    },
+    "title:onsecuringcloudhostedcyberphysicalsystemsusingtrustedexecutionenvironments": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "On Securing Cloud-hosted Cyber-physical Systems Using Trusted Execution Environments",
+      "updated_at": "2026-11-21T09:37:53.921572+00:00"
     },
     "title:onstatisticalpropertiesofarbiterphysicalunclonablefunctions": {
       "category": "secondaire",
@@ -72432,6 +72528,14 @@
       "title": "Pirateship: Append-Only Ledgers for (Mostly) Trusted Execution Environments",
       "updated_at": "2026-11-03T16:30:43.659522+00:00"
     },
+    "title:pliniussecureandpersistentmachinelearningmodeltraining": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Plinius: Secure and Persistent Machine Learning Model Training",
+      "updated_at": "2026-11-21T09:38:03.189334+00:00"
+    },
     "title:pmdedupsecurededuplicationwithpartialmigrationfromcloudtoedgeservers": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -72487,6 +72591,14 @@
       "status": "rejected",
       "title": "Policy-Driven AI in Dataspaces: Taxonomy, Explainability, and Pathways for Compliant Innovation",
       "updated_at": "2026-11-05T01:25:09.179570+00:00"
+    },
+    "title:ppflprivacypreservingfederatedlearningwithtrustedexecutionenvironments": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "PPFL: Privacy-preserving Federated Learning with Trusted Execution Environments",
+      "updated_at": "2026-11-21T09:37:54.018341+00:00"
     },
     "title:practicalsecureaggregationbycombiningcryptographyandtrustedexecutionenvironments": {
       "category": "secondaire",
@@ -73903,6 +74015,14 @@
       "status": "rejected",
       "title": "SoK: Where's the \"up\"?! A Comprehensive (bottom-up) Study on the Security of Arm Cortex-M Systems",
       "updated_at": "2026-11-11T03:41:48.567532+00:00"
+    },
+    "title:solveraidedconstanttimecircuitverification": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "Solver-Aided Constant-Time Circuit Verification",
+      "updated_at": "2026-11-21T09:37:46.059435+00:00"
     },
     "title:sovereignagentstowardsinfrastructuralsovereigntyanddiffusedaccountabilityindecentralizedai": {
       "category": "hors_sujet",
