@@ -4863,6 +4863,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/tvlsi.2020.3041451": {
+    "doi": "https://doi.org/10.1109/tvlsi.2020.3041451",
+    "publication_date": "2021-02-01",
+    "publication_date_note": "Date source Crossref : 2021-02 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2021-02",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "score": 90,
+    "source": "https://doi.org/10.1109/tvlsi.2020.3041451",
+    "summary": "Cette publication présente le Ping-Pong regulator (PPR) et sa version améliorée PPR+, des mécanismes matériels visant à atténuer les attaques par canal auxiliaire sur le cache inter-cœurs (cross-core cache) qualifiées d'attaques continues (Continuous Attacks), caractérisées par des motifs de va-et-vient (Ping-Pong patterns). PPR+ utilise une indexation dynamique et chiffrée des adresses physiques vers le répertoire de régulation pour empêcher les attaquants d'évincer les entrées ciblées.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Mitigating Cross-Core Cache Attacks via Suspicious Traffic Detection",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tvlsi.2022.3171810": {
     "doi": "https://doi.org/10.1109/tvlsi.2022.3171810",
     "publication_date": "2022-07-01",
