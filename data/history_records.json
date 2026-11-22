@@ -8615,6 +8615,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.23919/date51398.2021.9473932": {
+    "doi": "https://doi.org/10.23919/date51398.2021.9473932",
+    "publication_date": "2021-02-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2021-02-01",
+    "publication_type": "conference",
+    "publication_venue": "2021 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+    "score": 85,
+    "source": "https://doi.org/10.23919/date51398.2021.9473932",
+    "summary": "Cet article présente SealPK, une technique d'isolation mémoire intra-processus efficace conçue pour l'architecture RISC-V. Elle étend les capacités des clés de protection en supportant jusqu'à 1024 domaines uniques et intègre trois fonctionnalités de scellement pour protéger les domaines, les pages et les permissions contre les modifications. Son efficacité est démontrée via l'implémentation d'une pile fantôme sécurisée sur un prototype FPGA.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "SealPK: Sealable Protection Keys for RISC-V",
+    "venue_landmark": "DATE",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.23919/date51398.2021.9474013": {
     "doi": "https://doi.org/10.23919/date51398.2021.9474013",
     "publication_date": "2021-02-01",
@@ -8648,6 +8668,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.23919/date51398.2021.9474214": {
+    "doi": "https://doi.org/10.23919/date51398.2021.9474214",
+    "publication_date": "2021-02-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2021-02-01",
+    "publication_type": "conference",
+    "publication_venue": "2021 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+    "score": 90,
+    "source": "https://doi.org/10.23919/date51398.2021.9474214",
+    "summary": "Cet article étudie les canaux temporels microarchitecturaux sur un cœur RISC-V 64 bits open-source (Ariane) et démontre que les méthodes logicielles de protection temporelle (telles que mises en œuvre dans le micro-noyau seL4) sont insuffisantes et inefficaces. Les auteurs proposent d'ajouter une unique instruction de purge (flush) matérielle pour combler tous les canaux évalués à un coût négligeable.",
+    "themes": [
+      "T10 — RISC-V SoC & FPGA"
+    ],
+    "title": "Microarchitectural Timing Channels and their Prevention on an Open-Source 64-bit RISC-V Core",
+    "venue_landmark": "DATE",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "Crossref"
   },
   "doi:10.23919/date54114.2022.9774612": {
     "doi": "https://doi.org/10.23919/date54114.2022.9774612",

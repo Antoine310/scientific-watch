@@ -12720,6 +12720,14 @@
       "title": "Real-Time Hardware Realization of SC-FDMA/OFDMA MIMO Systems Using Higher-Order QAM on SoC",
       "updated_at": "2026-11-03T15:40:47.988201+00:00"
     },
+    "doi:10.1088/1748-0221/16/02/p02005": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "High level verification of the VFAT3 ASIC for CMS GEM detectors",
+      "updated_at": "2026-11-22T02:37:51.770576+00:00"
+    },
     "doi:10.1088/1748-0221/16/07/p07004": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -26840,6 +26848,14 @@
       "title": "Power-Time Series Characterisation of Heterogeneous ARM/RISC-V Cores Under Normal and Anomalous Workloads",
       "updated_at": "2026-11-06T02:37:00.244316+00:00"
     },
+    "doi:10.1109/isscc42613.2021.9365789": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "4.3 An Eight-Core 1.44GHz RISC-V Vector Machine in 16nm FinFET",
+      "updated_at": "2026-11-22T02:36:43.703318+00:00"
+    },
     "doi:10.1109/isscc42613.2021.9365930": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -28927,6 +28943,14 @@
       "status": "rejected",
       "title": "An affordable post-silicon testing framework applied to a RISC-V based microcontroller",
       "updated_at": "2026-11-21T14:37:47.835788+00:00"
+    },
+    "doi:10.1109/lascas51355.2021.9459152": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "TailoredCore: Generating Application-Specific RISC-V-based Cores",
+      "updated_at": "2026-11-22T02:37:17.279697+00:00"
     },
     "doi:10.1109/lascas51355.2021.9667154": {
       "category": "hors_sujet",
@@ -40040,6 +40064,22 @@
       "title": "A Soft RISC-V Vector Processor for Edge-AI",
       "updated_at": "2026-11-18T14:39:04.120956+00:00"
     },
+    "doi:10.1109/vlsid51830.2021.00014": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Evaluation of Bit Manipulation Instructions in Optimization of Size and Speed in RISC-V",
+      "updated_at": "2026-11-22T02:36:43.746962+00:00"
+    },
+    "doi:10.1109/vlsid51830.2021.00051": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "ANDROMEDA: An FPGA Based RISC-V MPSoC Exploration Framework",
+      "updated_at": "2026-11-22T02:36:43.789207+00:00"
+    },
     "doi:10.1109/vlsid57277.2023.00019": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -42080,6 +42120,14 @@
       "title": "Protecting Enclaves from Intra-Core Side-Channel Attacks through Physical Isolation",
       "updated_at": "2026-11-11T20:16:15.491665+00:00"
     },
+    "doi:10.1145/3423211.3425687": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "secureTF: A Secure TensorFlow Framework",
+      "updated_at": "2026-11-22T02:38:36.284917+00:00"
+    },
     "doi:10.1145/3428215": {
       "category": "coeur",
       "decision": "conserver",
@@ -42175,6 +42223,14 @@
       "status": "rejected",
       "title": "Timing-Optimized Hardware Implementation to Accelerate Polynomial Multiplication in the NTRU Algorithm",
       "updated_at": "2026-11-21T05:38:25.118898+00:00"
+    },
+    "doi:10.1145/3446215": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Robust and Attack Resilient Logic Locking with a High Application-Level Impact",
+      "updated_at": "2026-11-22T02:38:02.078317+00:00"
     },
     "doi:10.1145/3447543": {
       "category": "secondaire",
@@ -54368,6 +54424,14 @@
       "title": "Hardware Benchmarking of Round 2 Candidates in the NIST Lightweight Cryptography Standardization Process",
       "updated_at": "2026-11-21T23:37:41.988457+00:00"
     },
+    "doi:10.23919/date51398.2021.9473932": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "SealPK: Sealable Protection Keys for RISC-V",
+      "updated_at": "2026-11-22T02:37:07.103656+00:00"
+    },
     "doi:10.23919/date51398.2021.9473941": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -54400,6 +54464,22 @@
       "title": "Tiny-CFA: Minimalistic Control-Flow Attestation Using Verified Proofs of Execution",
       "updated_at": "2026-11-11T11:13:35.625131+00:00"
     },
+    "doi:10.23919/date51398.2021.9474114": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "RISC-V for Real-time MCUs - Software Optimization and Microarchitectural Gap Analysis",
+      "updated_at": "2026-11-22T02:36:54.157460+00:00"
+    },
+    "doi:10.23919/date51398.2021.9474152": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Towards a firmware TPM on RISC-V",
+      "updated_at": "2026-11-22T02:36:54.202059+00:00"
+    },
     "doi:10.23919/date51398.2021.9474194": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -54407,6 +54487,14 @@
       "status": "rejected",
       "title": "Leveraging Processor Modeling and Verification for General Hardware Modules",
       "updated_at": "2026-11-21T23:37:42.096988+00:00"
+    },
+    "doi:10.23919/date51398.2021.9474214": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Microarchitectural Timing Channels and their Prevention on an Open-Source 64-bit RISC-V Core",
+      "updated_at": "2026-11-22T02:37:17.234465+00:00"
     },
     "doi:10.23919/date54114.2022.9774501": {
       "category": "secondaire",
@@ -74880,6 +74968,14 @@
       "title": "Security Enclave Architecture for Heterogeneous Security Primitives for Supply-Chain Attacks",
       "updated_at": "2026-11-05T00:50:07.694433+00:00"
     },
+    "title:sedatsecurityenhanceddeviceattestationwithtpm20": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "SEDAT:Security Enhanced Device Attestation with TPM2.0",
+      "updated_at": "2026-11-22T02:38:11.911437+00:00"
+    },
     "title:selectivelydelayinginstructionstopreventmicroarchitecturalreplayattacks": {
       "category": "coeur",
       "decision": "conserver",
@@ -75959,6 +76055,14 @@
       "status": "imported",
       "title": "TitanCFI: Toward Enforcing Control-Flow Integrity in the Root-of-Trust",
       "updated_at": "2026-11-11T08:36:42.726955+00:00"
+    },
+    "title:tleaseatrustedleaseprimitivefordistributedsystems": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "T-Lease: A Trusted Lease Primitive for Distributed Systems",
+      "updated_at": "2026-11-22T02:38:36.240013+00:00"
     },
     "title:tnicatrustednicarchitecture": {
       "category": "coeur",
