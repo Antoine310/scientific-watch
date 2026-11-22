@@ -1112,6 +1112,14 @@
       "title": "A Cube Attack on a Trojan-Compromised Hardware Implementation of Ascon",
       "updated_at": "2026-11-22T05:37:46.412518+00:00"
     },
+    "doi:10.1007/978-3-030-62743-0_70": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Secure Big Data Computing Based on Trusted Computing and Key Management",
+      "updated_at": "2026-11-22T17:38:08.695381+00:00"
+    },
     "doi:10.1007/978-3-030-64448-2": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -5112,6 +5120,14 @@
       "title": "Graphical Models for Power Electronic Converters and their Control in RT Modeling and HIL Verification using NI Software and Hardware",
       "updated_at": "2026-11-13T05:36:37.406240+00:00"
     },
+    "doi:10.1007/s41635-020-00107-9": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Probabilistic Hardware Trojan Attacks on Multiple Layers of Reconfigurable Network Infrastructure",
+      "updated_at": "2026-11-22T17:37:31.990082+00:00"
+    },
     "doi:10.1007/s41635-020-00108-8": {
       "category": "coeur",
       "decision": "conserver",
@@ -9032,6 +9048,30 @@
       "title": "Cache timing attacks on NoC-based MPSoCs",
       "updated_at": "2026-11-15T11:13:24.359442+00:00"
     },
+    "doi:10.1016/j.micpro.2020.103270": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Hardware Root-of-Trust-based integrity for shared library function pointers in embedded systems",
+      "updated_at": "2026-11-22T17:36:53.122429+00:00"
+    },
+    "doi:10.1016/j.micpro.2020.103282": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Real-time task scheduling and network device security for complex embedded systems based on deep learning networks",
+      "updated_at": "2026-11-22T17:36:53.080448+00:00"
+    },
+    "doi:10.1016/j.micpro.2020.103295": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Conventional and machine learning approaches as countermeasures against hardware trojan attacks",
+      "updated_at": "2026-11-22T17:36:53.166492+00:00"
+    },
     "doi:10.1016/j.micpro.2020.103383": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -12088,6 +12128,30 @@
       "title": "Hardware nanosecond‐precision timestamping for line‐rate packet capture",
       "updated_at": "2026-11-11T10:38:06.425142+00:00"
     },
+    "doi:10.1049/pbcs066e_ch3": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Deployment of EMC techniques in design of IC chips for hardware security",
+      "updated_at": "2026-11-22T17:37:22.415373+00:00"
+    },
+    "doi:10.1049/pbcs066e_ch4": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Hardware obfuscation for IP protection",
+      "updated_at": "2026-11-22T17:37:22.459930+00:00"
+    },
+    "doi:10.1049/pbcs066e_ch5": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Formal verification for SoC security",
+      "updated_at": "2026-11-22T17:37:22.504278+00:00"
+    },
     "doi:10.1049/pbcs066e_ch6": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -12095,6 +12159,14 @@
       "status": "rejected",
       "title": "Silicon-based true random number generators",
       "updated_at": "2026-11-12T05:13:38.221833+00:00"
+    },
+    "doi:10.1049/pbcs066e_ch8": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 59,
+      "status": "rejected",
+      "title": "Mitigating the CACHEKIT attack",
+      "updated_at": "2026-11-22T17:37:22.547947+00:00"
     },
     "doi:10.1049/pbcs080e": {
       "category": "hors_sujet",
@@ -34784,6 +34856,14 @@
       "title": "Built-in Security Computer: Deploying Security-First Architecture Using Active Security Processor",
       "updated_at": "2026-11-22T16:42:17.417580+00:00"
     },
+    "doi:10.1109/tc.2020.3013266": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Elliptic Curve Cryptography Point Multiplication Core for Hardware Security Module",
+      "updated_at": "2026-11-22T17:36:30.059440+00:00"
+    },
     "doi:10.1109/tc.2020.3019704": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -34799,6 +34879,14 @@
       "status": "rejected",
       "title": "2.5D Root of Trust: Secure System-Level Integration of Untrusted Chiplets",
       "updated_at": "2026-11-12T05:14:07.737703+00:00"
+    },
+    "doi:10.1109/tc.2020.3021223": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Guest Editors' Introduction to the Special Issue on Hardware Security",
+      "updated_at": "2026-11-22T17:37:07.081376+00:00"
     },
     "doi:10.1109/tc.2020.3022979": {
       "category": "secondaire",
@@ -35343,6 +35431,14 @@
       "status": "rejected",
       "title": "Physically Unclonable and Reconfigurable Computing System (PURCS) for Hardware Security Applications",
       "updated_at": "2026-11-21T15:39:49.066051+00:00"
+    },
+    "doi:10.1109/tcad.2020.3012640": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "ABCFI: Fast and Lightweight Fine-Grained Hardware-Assisted Control-Flow Integrity",
+      "updated_at": "2026-11-22T17:37:01.739916+00:00"
     },
     "doi:10.1109/tcad.2020.3015925": {
       "category": "secondaire",
@@ -37159,6 +37255,22 @@
       "status": "rejected",
       "title": "FPGA Assessment Methodology of Adverse X-Ray Effects on Secure Digital Circuits",
       "updated_at": "2026-11-06T19:38:37.979613+00:00"
+    },
+    "doi:10.1109/tdsc.2018.2866425": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Design, Analysis and Application of Embedded Resistive RAM Based Strong Arbiter PUF",
+      "updated_at": "2026-11-22T17:37:46.749830+00:00"
+    },
+    "doi:10.1109/tdsc.2018.2876257": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Detection and Defense of Cache Pollution Attacks Using Clustering in Named Data Networks",
+      "updated_at": "2026-11-22T17:37:46.793493+00:00"
     },
     "doi:10.1109/tdsc.2019.2897666": {
       "category": "secondaire_technique",
@@ -39591,6 +39703,14 @@
       "status": "rejected",
       "title": "An Asynchronous and Low-Power True Random Number Generator Using STT-MTJ",
       "updated_at": "2026-11-14T11:14:58.226831+00:00"
+    },
+    "doi:10.1109/tvlsi.2020.3021533": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "An M-Cache-Based Security Monitoring and Fault Recovery Architecture for Embedded Processor",
+      "updated_at": "2026-11-22T17:36:53.036631+00:00"
     },
     "doi:10.1109/tvlsi.2020.3029245": {
       "category": "hors_sujet",
@@ -50328,6 +50448,14 @@
       "title": "Memristor based ring oscillators true random number generator with different window functions for applications in cryptography",
       "updated_at": "2026-11-15T02:13:28.210976+00:00"
     },
+    "doi:10.11591/ijeecs.v20.i2.pp894-902": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Compare encryption performance across devices to ensure the security of the IOT",
+      "updated_at": "2026-11-22T17:36:30.013630+00:00"
+    },
     "doi:10.11591/ijeecs.v20.i3.pp1685-1692": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -50872,6 +51000,38 @@
       "title": "Data security and privacy in cloud computing-based internet of things environments: current gaps and emerging solutions",
       "updated_at": "2026-11-02T13:48:02.108712+00:00"
     },
+    "doi:10.1201/9780367276706-8": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Hardware Security in the Context of Internet of Things",
+      "updated_at": "2026-11-22T17:36:40.630750+00:00"
+    },
+    "doi:10.1201/9780367276706-9": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Security Challenges in Hardware Used for Smart Environments",
+      "updated_at": "2026-11-22T17:36:40.675975+00:00"
+    },
+    "doi:10.1201/9780429055126-29": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Trusted Computing Technology",
+      "updated_at": "2026-11-22T17:36:40.542151+00:00"
+    },
+    "doi:10.1201/9780429055126-31": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "Trusted Computing Technology and Proposals for Resolving Cloud Computing Security Problems",
+      "updated_at": "2026-11-22T17:36:40.586960+00:00"
+    },
     "doi:10.1201/9780429355080-12": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -50879,6 +51039,14 @@
       "status": "rejected",
       "title": "RISC-V Open Source Instruction Set and Architecture",
       "updated_at": "2026-11-10T21:38:40.123300+00:00"
+    },
+    "doi:10.1201/9781003045854-7": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "An FPGA-Based Advanced Lightweight Cryptography Architecture for IoT Security and Its Cryptanalysis",
+      "updated_at": "2026-11-22T17:37:01.694483+00:00"
     },
     "doi:10.1201/9781003069621-72": {
       "category": "hors_sujet",
@@ -60296,6 +60464,14 @@
       "title": "A Security Monitoring Framework for Mobile Devices",
       "updated_at": "2026-11-12T14:13:33.441467+00:00"
     },
+    "doi:10.3390/en13215777": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Client-Aware Negotiation for Secure and Efficient Data Transmission",
+      "updated_at": "2026-11-22T17:38:18.739689+00:00"
+    },
     "doi:10.3390/en14154676": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -65807,6 +65983,14 @@
       "status": "rejected",
       "title": "Design and FPGA Realization of a Hybrid CryptographicArchitecture Integrating AES, ECC, and Hardware-Based RandomKey Generation",
       "updated_at": "2026-11-03T13:07:15.961655+00:00"
+    },
+    "doi:10.46908/rict.v3i2.113": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Household food security, anthropometric assessment of nutritional status and socioeconomic status of families in an urban community",
+      "updated_at": "2026-11-22T17:37:31.945345+00:00"
     },
     "doi:10.47001/irjiet/2024.801016": {
       "category": "secondaire",
