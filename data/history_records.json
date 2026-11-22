@@ -3916,6 +3916,26 @@
     "venue_priority": 2,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/tc.2020.2996021": {
+    "doi": "https://doi.org/10.1109/tc.2020.2996021",
+    "publication_date": "2020-11-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2020-11-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computers",
+    "score": 92,
+    "source": "https://doi.org/10.1109/tc.2020.2996021",
+    "summary": "OPTIMUS propose un schéma de partitionnement dynamique et centré sur la sécurité des ressources matérielles pour les processeurs, visant à prévenir les attaques sur l'état microarchitectural lors du partage temporel entre processus critiques et non critiques. Il permet une allocation déterministe au niveau applicatif tout en limitant les reconfigurations pour borner les fuites d'information par canaux cachés, co-optimisant ainsi performance et sécurité pour des architectures comme MI6 et IRONHIDE.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "OPTIMUS: A Security-Centric Dynamic Hardware Partitioning Scheme for Processors that Prevent Microarchitecture State Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tc.2020.2997555": {
     "doi": "https://doi.org/10.1109/tc.2020.2997555",
     "publication_date": "2020-05-26",
@@ -3932,6 +3952,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/tc.2020.3011748": {
+    "doi": "https://doi.org/10.1109/tc.2020.3011748",
+    "publication_date": "2020-11-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2020-11-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computers",
+    "score": 85,
+    "source": "https://doi.org/10.1109/tc.2020.3011748",
+    "summary": "Cet article propose une architecture orientée sécurité basée sur l'intégration d'un processeur de sécurité actif (ASP) physiquement isolé du processeur de calcul (CPU) avec un espace d'adressage asymétrique. L'ASP dispose du privilège maximal (Super Root) pour surveiller le CPU et gérer activement les mécanismes de sécurité, tout en restant inaccessible au CPU. Une première génération d'ASP a été implémentée en technologie 40nm et évaluée sur matériel réel.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Built-in Security Computer: Deploying Security-First Architecture Using Active Security Processor",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/tc.2021.3055293": {
     "doi": "https://doi.org/10.1109/tc.2021.3055293",
@@ -14364,6 +14404,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:leakybuddiescrosscomponentcovertchannelsonintegratedcpugpusystems": {
+    "doi": "",
+    "publication_date": "2020-11-19",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2011.09642v1",
+    "summary": "Cet article étudie les canaux cachés microarchitecturaux inter-composants sur les systèmes CPU-GPU intégrés. Les auteurs démontrent que le partage de ressources comme le cache LLC et le bus en anneau permet des attaques de type canal caché du GPU vers le CPU ou inversement. Deux attaques concrètes sont développées : l'une utilisant le cache LLC partagé (débit de 120 kbps, taux d'erreur de 2%) et l'autre basée sur la contention du bus en anneau (débit de 400 kbps, taux d'erreur de 0,8%).",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Leaky Buddies: Cross-Component Covert Channels on Integrated CPU-GPU Systems",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:leakyfrontendssecurityvulnerabilitiesinprocessorfrontends": {
     "doi": "",
     "publication_date": "2021-05-25",
@@ -14732,6 +14792,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "On Kernel's Safety in the Spectre Era (Extended Version)",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:onthechallengesofdetectingsidechannelattacksinsgx": {
+    "doi": "",
+    "publication_date": "2020-11-30",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2011.14599v2",
+    "summary": "Cet article étudie les limites des outils de détection d'attaques par canaux cachés basés sur les performances sur Intel SGX. Les auteurs démontrent qu'en minimisant l'information divulguée à chaque exécution, un attaquant peut reconstruire un secret entier sans impacter significativement les performances, contournant ainsi les mécanismes de surveillance actuels.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "On the Challenges of Detecting Side-Channel Attacks in SGX",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
