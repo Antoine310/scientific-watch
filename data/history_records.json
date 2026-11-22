@@ -14118,6 +14118,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:hyperdegradefromghztomhzeffectivecpufrequencies": {
+    "doi": "",
+    "publication_date": "2021-01-04",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 78,
+    "source": "http://arxiv.org/abs/2101.01077v2",
+    "summary": "HyperDegrade est une technique combinant des approches existantes et l'utilisation du SMT (simultaneous multithreading) pour la dégradation des performances CPU, servant de complément aux attaques par canaux cachés. L'étude analyse les causes profondes du ralentissement (via l'éviction de cache), évalue la méthode sur différentes microarchitectures Intel avec des gains majeurs, et démontre son efficacité pour amplifier des attaques Flush+Reload et une attaque de type Raccoon sur des protocoles cryptographiques.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "HyperDegrade: From GHz to MHz Effective CPU Frequencies",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:indirectmeltdownbuildingnovelsidechannelattacksfromtransientexecutionattacks": {
     "doi": "",
     "publication_date": "2023-10-06",
