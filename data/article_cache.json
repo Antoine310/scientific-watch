@@ -1136,6 +1136,38 @@
       "title": "Emerging Topics in Hardware Security",
       "updated_at": "2026-11-22T06:36:53.760789+00:00"
     },
+    "doi:10.1007/978-3-030-64448-2_12": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Software Security with Hardware in Mind",
+      "updated_at": "2026-11-22T20:38:17.898390+00:00"
+    },
+    "doi:10.1007/978-3-030-64448-2_13": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Firmware Protection",
+      "updated_at": "2026-11-22T20:38:17.938470+00:00"
+    },
+    "doi:10.1007/978-3-030-64448-2_14": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Security of Emerging Memory Chips",
+      "updated_at": "2026-11-22T20:38:28.293996+00:00"
+    },
+    "doi:10.1007/978-3-030-64448-2_18": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Computer Vision for Hardware Security",
+      "updated_at": "2026-11-22T20:38:28.334949+00:00"
+    },
     "doi:10.1007/978-3-030-64448-2_19": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -1143,6 +1175,38 @@
       "status": "rejected",
       "title": "Asynchronous Circuits and Their Applications in Hardware Security",
       "updated_at": "2026-11-22T06:36:53.718122+00:00"
+    },
+    "doi:10.1007/978-3-030-64448-2_4": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Security of AI Hardware Systems",
+      "updated_at": "2026-11-22T20:38:28.374905+00:00"
+    },
+    "doi:10.1007/978-3-030-64448-2_5": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Machine Learning in Hardware Security",
+      "updated_at": "2026-11-22T20:38:28.409762+00:00"
+    },
+    "doi:10.1007/978-3-030-64448-2_8": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Post-Quantum Hardware Security",
+      "updated_at": "2026-11-22T20:38:28.443902+00:00"
+    },
+    "doi:10.1007/978-3-030-64448-2_9": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Post-Quantum Cryptographic Hardware and Embedded Systems",
+      "updated_at": "2026-11-22T20:38:28.479054+00:00"
     },
     "doi:10.1007/978-3-030-68128-9_38-1": {
       "category": "hors_sujet",
@@ -21728,6 +21792,14 @@
       "title": "Soc Design of Intelligent Recognition Based on RISC-V",
       "updated_at": "2026-11-15T14:37:53.021472+00:00"
     },
+    "doi:10.1109/icasi49664.2020.9426243": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hardware Trojan Focusing on Plaintext in Power Analysis Attacks",
+      "updated_at": "2026-11-22T20:38:28.514279+00:00"
+    },
     "doi:10.1109/icassp39728.2021.9413564": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -25847,6 +25919,14 @@
       "status": "rejected",
       "title": "A RISC-V Coprocessor for Seamless Integration of Stream-Based Accelerators",
       "updated_at": "2026-11-06T01:38:00.938411+00:00"
+    },
+    "doi:10.1109/ipemc-ecceasia48364.2020.9368164": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Verification of Quasi Multi-rate Deadbeat Control for MMC using FPGA based hardware Controller",
+      "updated_at": "2026-11-22T20:38:04.803001+00:00"
     },
     "doi:10.1109/ipfa58228.2023.10249101": {
       "category": "hors_sujet",
@@ -35032,6 +35112,14 @@
       "title": "Enclavisor: A Hardware-software Co-design for Enclaves on Untrusted Cloud",
       "updated_at": "2026-11-13T14:15:09.686143+00:00"
     },
+    "doi:10.1109/tc.2020.3020407": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Side-Channel Analysis and Countermeasure Design on ARM-Based Quantum-Resistant SIKE",
+      "updated_at": "2026-11-22T20:39:32.896026+00:00"
+    },
     "doi:10.1109/tc.2020.3020777": {
       "category": "coeur",
       "decision": "examiner",
@@ -39384,6 +39472,14 @@
       "title": "MOVE: Effective and Harmless Ownership Verification via Embedded External Features",
       "updated_at": "2026-11-06T02:37:15.925827+00:00"
     },
+    "doi:10.1109/tpds.2020.2996031": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Phase-Aware Cache Partitioning to Target Both Turnaround Time and System Performance",
+      "updated_at": "2026-11-22T20:39:42.932202+00:00"
+    },
     "doi:10.1109/tpds.2020.3043755": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -43367,6 +43463,14 @@
       "status": "rejected",
       "title": "Attack Mitigation of Hardware Trojans for Thermal Sensing via Micro-ring Resonator in Optical NoCs",
       "updated_at": "2026-11-21T00:36:31.705071+00:00"
+    },
+    "doi:10.1145/3437120.3437322": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A Review on Hardware Security Countermeasures for IoT: Emerging Mechanisms and Machine Learning Solutions",
+      "updated_at": "2026-11-22T20:38:04.757543+00:00"
     },
     "doi:10.1145/3437378.3444364": {
       "category": "secondaire",
