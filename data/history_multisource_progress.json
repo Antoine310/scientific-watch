@@ -1,8 +1,8 @@
 {
   "accepted": 455,
   "completed": false,
-  "cursor": "MTYwNjMwMjI2NzAwMCwxMC4xMDA3JTJGOTc4LTMtNjU4LTIzNjY0LTlfMQ==",
-  "evaluated": 8343,
+  "cursor": "MTYxODM1MjY0OTAwMCwxMC4xMTA5JTJGaXBkcm01MTk0OS4yMDIwLjAwMDAy",
+  "evaluated": 8368,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -751,10 +751,109 @@
   ],
   "month": "2020-11",
   "needs_publish": false,
-  "offset": 160,
-  "pages_done": 10878,
-  "pages_in_query": 4,
-  "pending": [],
+  "offset": 320,
+  "pages_done": 10882,
+  "pages_in_query": 8,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Emmanouel T. Michailidis"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Dimitrios G. Kogias"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ioannis Voyiatzis"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1145/3437120.3437322",
+        "id": "https://doi.org/10.1145/3437120.3437322",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1145/3437120.3437322"
+        },
+        "publication_date": "2020-11-20",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2020-11-20",
+        "publication_type": "conference",
+        "publication_venue": "PCI 2020: 24th Pan-Hellenic Conference on Informatics",
+        "title": "A Review on Hardware Security Countermeasures for IoT: Emerging Mechanisms and Machine Learning Solutions",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Shogo Kurita"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Natsumi Kanai"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Takashi Ando"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Kantaro Yoshimoto"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Tomoki Yokoyama"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/ipemc-ecceasia48364.2020.9368164",
+        "id": "https://doi.org/10.1109/ipemc-ecceasia48364.2020.9368164",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/ipemc-ecceasia48364.2020.9368164"
+        },
+        "publication_date": "2020-11-29",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2020-11-29",
+        "publication_type": "conference",
+        "publication_venue": "2020 IEEE 9th International Power Electronics and Motion Control Conference (IPEMC2020-ECCE Asia)",
+        "title": "Verification of Quasi Multi-rate Deadbeat Control for MMC using FPGA based hardware Controller",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T07 — Hardware Security Verification"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -3158,9 +3257,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 3793,
+  "prefilter_review_overflow": 3794,
   "query_index": 17,
   "secondary": 466,
-  "skipped": 9241,
+  "skipped": 9242,
   "version": 1
 }
