@@ -1040,6 +1040,22 @@
       "title": "Log-Based Control Flow Attestation for Embedded Devices",
       "updated_at": "2026-11-15T14:13:26.344214+00:00"
     },
+    "doi:10.1007/978-3-030-52017-5_23": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Reliable CPS Design for Unreliable Hardware Platforms",
+      "updated_at": "2026-11-22T12:36:57.962345+00:00"
+    },
+    "doi:10.1007/978-3-030-60425-7_6": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Cloud Computing Security: Hardware-Based Attacks and Countermeasures",
+      "updated_at": "2026-11-22T12:36:57.927930+00:00"
+    },
     "doi:10.1007/978-3-030-60769-2_2": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -13128,6 +13144,14 @@
       "title": "Efficient Hardware Implementation for Quantum key Distribution Protocol using FPGA",
       "updated_at": "2026-11-21T23:37:12.892931+00:00"
     },
+    "doi:10.1088/1757-899x/994/1/012019": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Hardware Design and Implementation of Microcontroller Based Reduced Switch Multilevel Inverter Topology for Harmonic Studies Using MRPWM",
+      "updated_at": "2026-11-22T12:37:09.318171+00:00"
+    },
     "doi:10.1088/2053-1591/acb4e1": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -15103,6 +15127,14 @@
       "status": "rejected",
       "title": "RF-Fingerprinted Reconfigurable-Intelligent-Surface for Countering Hardware Spoofing Attacks",
       "updated_at": "2026-11-05T03:48:28.253425+00:00"
+    },
+    "doi:10.1109/apccas50809.2020.9301658": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hardware Attack and Assurance with Machine Learning: A Security Threat to Circuits and Systems",
+      "updated_at": "2026-11-22T12:38:04.982561+00:00"
     },
     "doi:10.1109/apccas55924.2022.10090293": {
       "category": "secondaire",
@@ -19992,6 +20024,22 @@
       "title": "AI Based Algorithm-Hardware Separation for IoV Security",
       "updated_at": "2026-11-19T01:37:10.305646+00:00"
     },
+    "doi:10.1109/globecom42002.2020.9322370": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "On Runtime Software Security of TrustZone-M Based IoT Devices",
+      "updated_at": "2026-11-22T12:38:14.573998+00:00"
+    },
+    "doi:10.1109/globecom42002.2020.9348020": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Integrating Cellphone-based Hardware Wallet with Visional Certificate Verification System",
+      "updated_at": "2026-11-22T12:38:14.642651+00:00"
+    },
     "doi:10.1109/globecom46510.2021.9685537": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -20159,6 +20207,70 @@
       "status": "rejected",
       "title": "BROCA: A Low-power and Low-latency Conversational Agent RISC-V System-on-Chip for Voice-interactive Mobile Devices",
       "updated_at": "2026-11-05T00:26:14.667031+00:00"
+    },
+    "doi:10.1109/host45689.2020.9300126": {
+      "category": "secondaire_technique",
+      "decision": "conserver",
+      "score": 74,
+      "status": "rejected",
+      "title": "Secure Boot from Non-Volatile Memory for Programmable SoC Architectures",
+      "updated_at": "2026-11-22T12:37:21.323670+00:00"
+    },
+    "doi:10.1109/host45689.2020.9300127": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "A Novel Golden-Chip-Free Clustering Technique Using Backscattering Side Channel for Hardware Trojan Detection",
+      "updated_at": "2026-11-22T12:37:21.356159+00:00"
+    },
+    "doi:10.1109/host45689.2020.9300257": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 70,
+      "status": "rejected",
+      "title": "LAHEL: Lightweight Attestation Hardening Embedded Devices using Macrocells",
+      "updated_at": "2026-11-22T12:37:21.389389+00:00"
+    },
+    "doi:10.1109/host45689.2020.9300259": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Hardware/Software Obfuscation against Timing Side-channel Attack on a GPU",
+      "updated_at": "2026-11-22T12:37:21.422789+00:00"
+    },
+    "doi:10.1109/host45689.2020.9300262": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Going Deep: Using deep learning techniques with simplified mathematical models against XOR BR and TBR PUFs (Attacks and Countermeasures)",
+      "updated_at": "2026-11-22T12:37:21.455008+00:00"
+    },
+    "doi:10.1109/host45689.2020.9300270": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Lattice PUF: A Strong Physical Unclonable Function Provably Secure against Machine Learning Attacks",
+      "updated_at": "2026-11-22T12:37:21.487623+00:00"
+    },
+    "doi:10.1109/host45689.2020.9300276": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "MaskedNet: The First Hardware Inference Engine Aiming Power Side-Channel Protection",
+      "updated_at": "2026-11-22T12:37:21.255067+00:00"
+    },
+    "doi:10.1109/host45689.2020.9300292": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Application-Specific Instruction Set Architecture for an Ultralight Hardware Security Module",
+      "updated_at": "2026-11-22T12:37:21.290326+00:00"
     },
     "doi:10.1109/host49136.2021.9702268": {
       "category": "hors_sujet",
@@ -27167,6 +27279,14 @@
       "status": "rejected",
       "title": "Verifying Hardware Resource Isolation Using Mandatory Access Control",
       "updated_at": "2026-11-03T13:40:07.610174+00:00"
+    },
+    "doi:10.1109/isriti51436.2020.9315502": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Multilayer Secure Hardware Network Stack using FPGA",
+      "updated_at": "2026-11-22T12:38:14.608866+00:00"
     },
     "doi:10.1109/isriti64779.2024.10963564": {
       "category": "hors_sujet",
@@ -42584,6 +42704,14 @@
       "title": "Protecting Enclaves from Intra-Core Side-Channel Attacks through Physical Isolation",
       "updated_at": "2026-11-11T20:16:15.491665+00:00"
     },
+    "doi:10.1145/3418685": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Decentralized Firmware Attestation for In-Vehicle Networks",
+      "updated_at": "2026-11-22T12:38:05.049137+00:00"
+    },
     "doi:10.1145/3422353": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -42623,6 +42751,14 @@
       "status": "rejected",
       "title": "Resilient and Secure Hardware Devices Using ASL",
       "updated_at": "2026-11-22T05:37:23.226166+00:00"
+    },
+    "doi:10.1145/3430699": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 45,
+      "status": "rejected",
+      "title": "A Distributed Hardware Monitoring System for Runtime Verification on Multi-Tile MPSoCs",
+      "updated_at": "2026-11-22T12:38:05.014846+00:00"
     },
     "doi:10.1145/3431499": {
       "category": "secondaire",
@@ -50080,6 +50216,14 @@
       "title": "Enhancing industrial cybersecurity via IoT device-trusted remote attestation framework with zero trust architecture in brewery operations",
       "updated_at": "2026-11-01T05:14:33.319499+00:00"
     },
+    "doi:10.11591/ijpeds.v11.i4.pp1719-1730": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware in the loop co-simulation of finite set-model predictive control using FPGA for a three level CHB inverter",
+      "updated_at": "2026-11-22T12:36:38.472844+00:00"
+    },
     "doi:10.11591/ijpeds.v17.i1.pp383-393": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -52047,6 +52191,14 @@
       "status": "rejected",
       "title": "6 The Spectre of “Amoral Realism” in International Relations: A Classical Indian Overview",
       "updated_at": "2026-11-11T22:36:41.517120+00:00"
+    },
+    "doi:10.15276/eltecs.33.109.2020.4": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "LOGARITHMIC AMPLIFIERS FOR SOFTWARE HARDWARE MAGNETIC TRACKING SYSTEMS",
+      "updated_at": "2026-11-22T12:38:04.948258+00:00"
     },
     "doi:10.15282/mekatronika.v3i1.7152": {
       "category": "hors_sujet",
@@ -60400,6 +60552,14 @@
       "title": "Energy-Aware Physical Unclonable Functions: From Physical Entropy Sources to MRAM-Based Low-Power Hardware Roots of Trust",
       "updated_at": "2026-11-02T08:30:38.630815+00:00"
     },
+    "doi:10.3390/jsan10010003": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "A Review of Techniques for Implementing Elliptic Curve Point Multiplication on Hardware",
+      "updated_at": "2026-11-22T12:38:05.082898+00:00"
+    },
     "doi:10.3390/knowledge4020008": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -62904,6 +63064,14 @@
       "title": "ES-TRNG: A High-throughput, Low-area True Random Number Generator based on Edge Sampling",
       "updated_at": "2026-11-16T11:13:43.026315+00:00"
     },
+    "doi:10.46586/tches.v2021.i1.1-24": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Compact Dilithium Implementations on Cortex-M3 and Cortex-M4",
+      "updated_at": "2026-11-22T12:36:57.894992+00:00"
+    },
     "doi:10.46586/tches.v2021.i1.109-136": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -62911,6 +63079,38 @@
       "status": "rejected",
       "title": "The design of scalar AES Instruction Set Extensions for RISC-V",
       "updated_at": "2026-11-11T20:14:30.857569+00:00"
+    },
+    "doi:10.46586/tches.v2021.i1.137-168": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Rapidly Verifiable XMSS Signatures",
+      "updated_at": "2026-11-22T12:36:47.569412+00:00"
+    },
+    "doi:10.46586/tches.v2021.i1.192-216": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Fault Injection as an Oscilloscope: Fault Correlation Analysis",
+      "updated_at": "2026-11-22T12:36:57.826369+00:00"
+    },
+    "doi:10.46586/tches.v2021.i1.279-304": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Side-Channel Analysis of the Xilinx Zynq UltraScale+ Encryption Engine",
+      "updated_at": "2026-11-22T12:36:57.791841+00:00"
+    },
+    "doi:10.46586/tches.v2021.i1.56-81": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Fill your Boots: Enhanced Embedded Bootloader Exploits via Fault Injection and Binary Analysis",
+      "updated_at": "2026-11-22T12:36:57.859709+00:00"
     },
     "doi:10.46586/tches.v2021.i2.1-36": {
       "category": "secondaire",
