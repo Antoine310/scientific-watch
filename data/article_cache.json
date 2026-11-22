@@ -1096,6 +1096,22 @@
       "title": "A Cube Attack on a Trojan-Compromised Hardware Implementation of Ascon",
       "updated_at": "2026-11-22T05:37:46.412518+00:00"
     },
+    "doi:10.1007/978-3-030-64448-2": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Emerging Topics in Hardware Security",
+      "updated_at": "2026-11-22T06:36:53.760789+00:00"
+    },
+    "doi:10.1007/978-3-030-64448-2_19": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Asynchronous Circuits and Their Applications in Hardware Security",
+      "updated_at": "2026-11-22T06:36:53.718122+00:00"
+    },
     "doi:10.1007/978-3-030-68128-9_38-1": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -1119,6 +1135,22 @@
       "status": "rejected",
       "title": "Integrating Side Channel Security in the FPGA Hardware Design Flow",
       "updated_at": "2026-11-22T05:37:46.473638+00:00"
+    },
+    "doi:10.1007/978-3-030-69131-8_15": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Securing Silicon Photonic NoCs Against Hardware Attacks",
+      "updated_at": "2026-11-22T06:36:53.805591+00:00"
+    },
+    "doi:10.1007/978-3-030-69131-8_17": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Securing 3D NoCs from Hardware Trojan Attacks",
+      "updated_at": "2026-11-22T06:36:53.848567+00:00"
     },
     "doi:10.1007/978-3-030-69255-1_18": {
       "category": "hors_sujet",
@@ -1231,6 +1263,54 @@
       "status": "rejected",
       "title": "Hardware Security Module",
       "updated_at": "2026-11-07T10:36:44.569615+00:00"
+    },
+    "doi:10.1007/978-3-030-71892-3_9": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Complex Tools for Surge Process Analysis and Hardware Disturbance Protection",
+      "updated_at": "2026-11-22T06:37:55.000832+00:00"
+    },
+    "doi:10.1007/978-3-030-72013-1_18": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "HLola: a Very Functional Tool for Extensible Stream Runtime Verification",
+      "updated_at": "2026-11-22T06:36:29.881690+00:00"
+    },
+    "doi:10.1007/978-3-030-72725-3_6": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Exploring the Coverage of Existing Hardware Vulnerabilities in Community Standards",
+      "updated_at": "2026-11-22T06:36:29.925736+00:00"
+    },
+    "doi:10.1007/978-3-030-73445-9": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Split Manufacturing of Integrated Circuits for Hardware Security and Trust",
+      "updated_at": "2026-11-22T06:37:48.932632+00:00"
+    },
+    "doi:10.1007/978-3-030-76384-8_17": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "An Infrastructure for Faithful Execution of Remote Attestation Protocols",
+      "updated_at": "2026-11-22T06:37:34.994218+00:00"
+    },
+    "doi:10.1007/978-3-030-77424-0_15": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "On Use of Deep Learning for Side Channel Evaluation of Black Box Hardware AES Engine",
+      "updated_at": "2026-11-22T06:37:48.976164+00:00"
     },
     "doi:10.1007/978-3-030-78120-0_2": {
       "category": "hors_sujet",
@@ -13967,6 +14047,14 @@
       "status": "rejected",
       "title": "MeetGo: A Trusted Execution Environment for Remote Applications on FPGA",
       "updated_at": "2026-11-11T14:14:29.545465+00:00"
+    },
+    "doi:10.1109/access.2021.3075429": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "AI-Powered Terahertz VLSI Testing Technology for Ensuring Hardware Security and Reliability",
+      "updated_at": "2026-11-22T06:36:53.674532+00:00"
     },
     "doi:10.1109/access.2021.3085483": {
       "category": "secondaire",
@@ -34328,6 +34416,14 @@
       "title": "A RISC-V ISA Extension for Ultra-Low Power IoT Wireless Signal Processing",
       "updated_at": "2026-11-17T18:39:45.901196+00:00"
     },
+    "doi:10.1109/tc.2021.3082471": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Detecting Spectre Attacks Using Hardware Performance Counters",
+      "updated_at": "2026-11-22T06:37:48.888801+00:00"
+    },
     "doi:10.1109/tc.2021.3097174": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -38559,6 +38655,14 @@
       "status": "rejected",
       "title": "Auditing Cache Data Integrity in the Edge Computing Environment",
       "updated_at": "2026-11-21T05:37:03.994926+00:00"
+    },
+    "doi:10.1109/tpds.2021.3085210": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "DeTraS: Delaying Stores for Friendly-Fire Mitigation in Hardware Transactional Memory",
+      "updated_at": "2026-11-22T06:37:54.912672+00:00"
     },
     "doi:10.1109/tpds.2021.3121562": {
       "category": "secondaire",
@@ -68631,6 +68735,14 @@
       "status": "rejected",
       "title": "Hardware - software platform for controlling keithley 2400 series instruments",
       "updated_at": "2026-11-03T17:29:09.384443+00:00"
+    },
+    "doi:10.5954/icarob.2021.os19-3": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "A Hardware-Oriented Random Number Generation Method and A Verification System for FPGA",
+      "updated_at": "2026-11-22T06:37:54.956084+00:00"
     },
     "doi:10.59544/ppym6586/ijatemv03i05p5": {
       "category": "secondaire",

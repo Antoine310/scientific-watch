@@ -3950,6 +3950,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/tc.2021.3082471": {
+    "doi": "https://doi.org/10.1109/tc.2021.3082471",
+    "publication_date": "2021-01-01",
+    "publication_date_note": "Date source Crossref : 2021 seulement ; classement indicatif en 2021-01.",
+    "publication_date_precision": "year",
+    "publication_date_source": "2021",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computers",
+    "score": 85,
+    "source": "https://doi.org/10.1109/tc.2021.3082471",
+    "summary": "Cet article propose une méthode de détection des attaques Spectre basée sur la surveillance des événements microarchitecturaux via des compteurs de performance matérielle (HPC). L'approche initiale atteint une précision supérieure à 90 %, mais les auteurs étudient également des stratégies d'évitement de l'attaque et proposent une amélioration par commutation aléatoire de détecteurs pour maintenir une précision supérieure à 80 %.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Detecting Spectre Attacks Using Hardware Performance Counters",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tc.2021.3126150": {
     "doi": "https://doi.org/10.1109/tc.2021.3126150",
     "publication_date": "2021-01-01",
