@@ -779,6 +779,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/asianhost51057.2020.9358255": {
+    "doi": "https://doi.org/10.1109/asianhost51057.2020.9358255",
+    "publication_date": "2020-12-15",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2020-12-15",
+    "publication_type": "conference",
+    "publication_venue": "2020 Asian Hardware Oriented Security and Trust Symposium (AsianHOST)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/asianhost51057.2020.9358255",
+    "summary": "Cette publication présente un mécanisme de défense matériel basé sur l'apprentissage automatique pour détecter les attaques Spectre. En analysant les profils d'exécution via des compteurs de performance regroupés en fenêtres d'instructions, le système identifie les tentatives malveillantes d'accès à la mémoire et parvient à les distinguer des comportements bénins.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Hardware-Based Detection of Spectre Attacks: A Machine Learning Approach",
+    "venue_landmark": "IEEE HOST",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/ccgrid.2018.00046": {
     "doi": "https://doi.org/10.1109/ccgrid.2018.00046",
     "publication_date": "2018-05-01",
