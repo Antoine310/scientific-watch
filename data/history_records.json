@@ -13294,6 +13294,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:contractawaresecurecompilation": {
+    "doi": "",
+    "publication_date": "2020-12-28",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2012.14205v1",
+    "summary": "Cet article présente la notion de Contract-Aware Secure COmpilation (CASCO), une approche où les compilateurs sont paramétriques par rapport à un contrat de sécurité matériel/logiciel pour combler l'écart d'abstraction entre l'ISA et l'exécution réelle du processeur, protégeant ainsi contre les attaques microarchitecturales.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Contract-Aware Secure Compilation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:coverageguidedpresiliconfuzzingofopensourceprocessorsbasedonleakagecontracts": {
     "doi": "",
     "publication_date": "2025-11-11",
@@ -13589,6 +13609,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Efficient RL-based Cache Vulnerability Exploration by Penalizing Useless Agent Actions",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:efficientsealableprotectionkeysforriscv": {
+    "doi": "",
+    "publication_date": "2020-12-04",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2012.02715v1",
+    "summary": "Cet article présente SealPK, une technique matérielle d'isolation intra-processus efficace pour l'architecture RISC-V. Elle permet de gérer jusqu'à 1024 domaines uniques, résout la vulnérabilité d'utilisation après libération (use-after-free) des clés de protection grâce à une approche de désallocation paresseuse (lazy de-allocation), et intègre des fonctions de scellement (sealing) pour protéger les domaines, pages et permissions contre les modifications. L'évaluation est réalisée sur un processeur RISC-V Rocket implémenté sur FPGA.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Efficient Sealable Protection Keys for RISC-V",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -14795,6 +14835,26 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "PDRIMA: A Policy-Driven Runtime Integrity Measurement and Attestation Approach for ARM TrustZone-based TEE",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:pipomonitormitigatingcrosscorecacheattacksusingtheautocuckoofilter": {
+    "doi": "",
+    "publication_date": "2020-12-02",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2012.01046v2",
+    "summary": "Cet article présente PiPoMonitor, une méthode de mitigation des attaques par canal caché inter-cœurs ciblant le dernier niveau de cache (LLC). Pour réduire le coût de stockage des approches stateful traditionnelles tout en résistant aux attaques par rétro-ingénierie, les auteurs introduisent un filtre Auto-Cuckoo, non-déterministe et économe en espace. PiPoMonitor utilise ce filtre pour détecter les motifs de type ping-pong et effectuer un préchargement de lignes de cache afin de perturber les sondes de l'adversaire, avec un impact sur les performances jugé négligeable et un surcoût de stockage de seulement 0,37 %.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "PiPoMonitor: Mitigating Cross-core Cache Attacks Using the Auto-Cuckoo Filter",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
