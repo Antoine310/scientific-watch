@@ -1869,6 +1869,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/iccd50377.2020.00096": {
+    "doi": "https://doi.org/10.1109/iccd50377.2020.00096",
+    "publication_date": "2020-10-01",
+    "publication_date_note": "Date source Crossref : 2020-10 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2020-10",
+    "publication_type": "conference",
+    "publication_venue": "2020 IEEE 38th International Conference on Computer Design (ICCD)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/iccd50377.2020.00096",
+    "summary": "Cet article étudie la détection des attaques par exécution spéculative (transient execution attacks) à l'aide de détecteurs logiciels/matériels basés sur des compteurs de performance matériels (HPCs). Constatant que les méthodes d'attaque évasives par gradient ou basées sur le sommeil contournent les détecteurs matériels classiques (HMDs), les auteurs proposent des HMDs non différentiables (ND-HMDs) utilisant des classifieurs sans gradient pour bloquer ces techniques d'évasion tout en maintenant une haute précision.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "ND-HMDs: Non-Differentiable Hardware Malware Detectors against Evasive Transient Execution Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/iccd50377.2020.00111": {
     "doi": "https://doi.org/10.1109/iccd50377.2020.00111",
     "publication_date": "2020-10-01",
@@ -1938,6 +1958,26 @@
       "T10 — RISC-V SoC & FPGA"
     ],
     "title": "Easy Adazone: A Memory-Safe Physical Memory Isolation Framwork for RISC-V",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/iccws48432.2020.9292371": {
+    "doi": "https://doi.org/10.1109/iccws48432.2020.9292371",
+    "publication_date": "2020-10-20",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2020-10-20",
+    "publication_type": "conference",
+    "publication_venue": "2020 International Conference on Cyber Warfare and Security (ICCWS)",
+    "score": 88,
+    "source": "https://doi.org/10.1109/iccws48432.2020.9292371",
+    "summary": "Cet article analyse et compare différentes technologies d'isolation assistée par matériel fournissant un Environnement d'Exécution de Confiance (TEE). Il examine les architectures de sécurité, les fonctionnalités et la vulnérabilité de ces technologies (notamment Intel SGX, ARM TrustZone, Intel ME et AMD Secure Processor) face aux attaques microarchitecturales.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Hardware-Assisted Isolation Technologies: Security Architecture and Vulnerability Analysis",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
