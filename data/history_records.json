@@ -4652,6 +4652,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex (titre exact)"
   },
+  "doi:10.1109/tdsc.2018.2840709": {
+    "doi": "https://doi.org/10.1109/tdsc.2018.2840709",
+    "publication_date": "2020-09-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2020-09-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Dependable and Secure Computing",
+    "score": 75,
+    "source": "https://doi.org/10.1109/tdsc.2018.2840709",
+    "summary": "Cette publication propose le framework TFence pour sécuriser le canal de communication entre l'environnement riche (REE) et l'environnement d'exécution de confiance (TEE) sur architecture ARM. En s'appuyant sur les modes système et les extensions de virtualisation, TFence crée un processus partiellement privilégié (par-priv) capable de communiquer directement avec les ancres de confiance (hyperviseur et TrustZone) sans dépendre du noyau, réduisant ainsi la surface d'attaque et facilitant l'adoption de techniques de protection des applications.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Retrofitting the Partially Privileged Mode for TEE Communication Channel Protection",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tdsc.2021.3133576": {
     "doi": "https://doi.org/10.1109/tdsc.2021.3133576",
     "publication_date": "2023-01-01",
