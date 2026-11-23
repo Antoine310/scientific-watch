@@ -449,6 +449,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1088/1742-6596/1634/1/012118": {
+    "doi": "https://doi.org/10.1088/1742-6596/1634/1/012118",
+    "publication_date": "2020-09-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2020-09-01",
+    "publication_type": "revue",
+    "publication_venue": "Journal of Physics: Conference Series",
+    "score": 82,
+    "source": "https://doi.org/10.1088/1742-6596/1634/1/012118",
+    "summary": "Cet article propose une revue approfondie des technologies de détection et des techniques d'atténuation des canaux temporels matériels. Les auteurs analysent des méthodes de détection telles que l'analyse de tainting, le fuzzing, l'analyse symbolique et les statistiques d'information, ainsi que des techniques d'atténuation. Ils comparent les méthodologies récentes et proposent une perspective pour de futures recherches.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "A review of hardware timing channel detection and mitigation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1088/1742-6596/2333/1/012014": {
     "doi": "https://doi.org/10.1088/1742-6596/2333/1/012014",
     "publication_date": "2022-08-01",
@@ -3346,6 +3366,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "How Trusted Execution Environments Fuel Research on Microarchitectural Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/msec.2020.3015413": {
+    "doi": "https://doi.org/10.1109/msec.2020.3015413",
+    "publication_date": "2020-09-01",
+    "publication_date_note": "Date source Crossref : 2020-09 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2020-09",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Security &amp; Privacy",
+    "score": 85,
+    "source": "https://doi.org/10.1109/msec.2020.3015413",
+    "summary": "Cet article introductif d'une section spéciale examine l'essor des environnements d'exécution de confiance (TEE) assistés par matériel, tels qu'Arm TrustZone et Intel SGX, tout en soulignant l'émergence de nouvelles vulnérabilités, notamment les canaux cachés microarchitecturaux, qui remettent en cause la fiabilité absolue des garanties matérielles.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Confronting the Limitations of Hardware-Assisted Security",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -8045,6 +8085,46 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Lattice: Enabling Scalable Enclaves for Commercial RISC-V Platforms",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1155/2020/1756130": {
+    "doi": "https://doi.org/10.1155/2020/1756130",
+    "publication_date": "2020-09-23",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2020-09-23",
+    "publication_type": "revue",
+    "publication_venue": "Security and Communication Networks",
+    "score": 75,
+    "source": "https://doi.org/10.1155/2020/1756130",
+    "summary": "Cette publication présente TZ-MRAS, un système de télé-attestation pour terminaux mobiles basé sur ARM TrustZone. Il vise à résoudre les problèmes d'absence de racine de confiance (RoT), d'hétérogénéité des appareils et de limitation des ressources matérielles. L'article introduit également ProbeIMA, un modèle de mesure d'intégrité dynamique basé sur des sondes pour contrer les attaques de type TOC-TOU (Time-Of-Check-To-Time-Of-Use), ainsi qu'un algorithme de construction de journal (LPSML) pour améliorer l'efficacité de la vérification.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "TZ-MRAS: A Remote Attestation Scheme for the Mobile Terminal Based on ARM TrustZone",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1155/2020/8957641": {
+    "doi": "https://doi.org/10.1155/2020/8957641",
+    "publication_date": "2020-09-23",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2020-09-23",
+    "publication_type": "revue",
+    "publication_venue": "Security and Communication Networks",
+    "score": 75,
+    "source": "https://doi.org/10.1155/2020/8957641",
+    "summary": "Cet article présente RIPTE (Runtime Integrity Protection Based on Trusted Execution for IoT Device), un nouveau schéma pratique pour l'exécution sécurisée de logiciels basé sur une confiance légère. RIPTE combine la mesure dynamique et l'intégrité du flux de contrôle avec une clé de liaison d'appareil PUF en chiffrant l'adresse de retour des fonctions du programme, permettant de protéger l'intégrité logicielle à l'exécution sur les appareils IoT et de prévenir les attaques par réutilisation de code.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "RIPTE: Runtime Integrity Protection Based on Trusted Execution for IoT Device",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
