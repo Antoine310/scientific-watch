@@ -5,6 +5,13 @@
     "source": "https://link.springer.com/chapter/10.1007/978-3-032-42936-0_11",
     "title": "Reverse Engineering and Systematic Evaluation of Prefetcher-Based Security Vulnerabilities in Commercial RISC-V Processors"
   },
+  "title:ariscvmemoryencryptionframeworkforconfidentialcomputing": {
+    "group": "primary",
+    "score": 90,
+    "source": "https://ieeexplore.ieee.org/abstract/document/11773954/",
+    "summary": "Cet article présente un framework de chiffrement mémoire pour RISC-V dédié au computing confidentiel, assurant la protection des données au repos et en transit. Il intègre un démarrage sécurisé authentifié (boot-crypt) et un chiffrement mémoire à l'exécution (mem-crypt) pour réduire l'impact sur les performances, évalué sur FPGA et ASIC.",
+    "title": "A RISC-V Memory Encryption Framework for Confidential Computing"
+  },
   "title:ghostaccessattackingthegpuonthemultitenantcloudviacpullcunderunifiedmemory": {
     "group": "secondary",
     "score": 65,
@@ -24,5 +31,12 @@
     "source": "https://arxiv.org/pdf/2611.09422",
     "summary": "Cet article présente une attaque par empreinte de site web (website fingerprinting) co-localisée et scalable, baptisée memory-chasing. Elle exploite les interférences du trafic DRAM via des parcours de type pointer-chasing avec un minimum d'interférences. Évaluée sur les 50 meilleurs sites web, l'approche atteint une précision de 96 % sur un système à 24 cœurs et démontre sa robustesse face à divers environnements et contre-mesures.",
     "title": "Robust & Scalable Website Fingerprinting via Minimal DRAM Traffic"
+  },
+  "title:securityanalysisframeworkoftransientexecutionattacksonoutoforderprocessors": {
+    "group": "primary",
+    "score": 90,
+    "source": "https://ieeexplore.ieee.org/abstract/document/11773920/",
+    "summary": "Cet article présente un cadre de vérification (VIP) basé sur une méthodologie formelle à deux phases pour analyser statiquement les attaques par exécution transitoire (TEAs) au niveau RTL. La méthode est appliquée à deux processeurs RISC-V open-source, BOOM v3 et RSD, et validée sur des conceptions mitigées pour démontrer son efficacité dans la détection des vulnérabilités.",
+    "title": "Security Analysis Framework of Transient Execution Attacks on Out-of-Order Processors"
   }
 }
