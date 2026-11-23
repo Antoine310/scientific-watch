@@ -1,7 +1,7 @@
 {
   "accepted": 471,
   "completed": false,
-  "cursor": "MTU5Mjc5MDk0NDAwMCwxMC4xMDE2JTJGai5iYnIuMjAyMC4xMTI3Nzk=",
+  "cursor": "MTU5NDYxNTA5OTAwMCwxMC40MzI0JTJGOTc4MTAwMzA5MTMzMi0x",
   "evaluated": 8555,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
@@ -774,10 +774,520 @@
   ],
   "month": "2020-09",
   "needs_publish": false,
-  "offset": 320,
-  "pages_done": 11243,
-  "pages_in_query": 8,
-  "pending": [],
+  "offset": 400,
+  "pages_done": 11245,
+  "pages_in_query": 10,
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "C,": [
+            58
+          ],
+          "Combined": [
+            84
+          ],
+          "Given": [
+            67
+          ],
+          "Internet": [
+            21
+          ],
+          "Internet.": [
+            45
+          ],
+          "LLVM-based": [
+            136
+          ],
+          "Medical": [
+            31
+          ],
+          "RISC-V": [
+            153
+          ],
+          "Since": [
+            12
+          ],
+          "The": [
+            129,
+            165
+          ],
+          "Things,": [
+            23
+          ],
+          "This": [
+            0,
+            144
+          ],
+          "To": [
+            106
+          ],
+          "TrustFlow-X": [
+            130
+          ],
+          "TrustFlow-X,": [
+            113
+          ],
+          "Unfortunately,": [
+            46
+          ],
+          "a": [
+            68,
+            71,
+            77,
+            98,
+            114,
+            141,
+            162,
+            175
+          ],
+          "address": [
+            107
+          ],
+          "addresses": [
+            2
+          ],
+          "against": [
+            126
+          ],
+          "an": [
+            135,
+            151
+          ],
+          "and": [
+            79
+          ],
+          "are": [
+            60
+          ],
+          "article": [
+            1,
+            111
+          ],
+          "as": [
+            47,
+            57
+          ],
+          "attacker": [
+            73
+          ],
+          "attacks.": [
+            128
+          ],
+          "be": [
+            40
+          ],
+          "can": [
+            74,
+            101
+          ],
+          "challenges": [
+            4
+          ],
+          "co-designed": [
+            117
+          ],
+          "code": [
+            82,
+            146
+          ],
+          "code.": [
+            143
+          ],
+          "compiler": [
+            137
+          ],
+          "composed": [
+            133
+          ],
+          "connected": [
+            42
+          ],
+          "contribution": [
+            171
+          ],
+          "control-flow": [
+            123
+          ],
+          "critical": [
+            36,
+            48
+          ],
+          "data": [
+            160
+          ],
+          "decade,": [
+            15
+          ],
+          "devices": [
+            49,
+            90
+          ],
+          "devices,": [
+            32
+          ],
+          "devices.": [
+            11
+          ],
+          "directly": [
+            91
+          ],
+          "disastrous": [
+            104
+          ],
+          "efficient": [
+            121
+          ],
+          "embedded": [
+            182
+          ],
+          "embraced": [
+            19
+          ],
+          "exception": [
+            62
+          ],
+          "executed": [
+            149
+          ],
+          "execution.": [
+            83
+          ],
+          "extended": [
+            152
+          ],
+          "fact": [
+            87
+          ],
+          "fine-grained": [
+            122
+          ],
+          "framework": [
+            118,
+            131
+          ],
+          "generates": [
+            140
+          ],
+          "hardware/software": [
+            116
+          ],
+          "have": [
+            18
+          ],
+          "healthcare": [
+            16
+          ],
+          "high": [
+            176
+          ],
+          "impact": [
+            92
+          ],
+          "in": [
+            8,
+            180
+          ],
+          "including": [
+            33
+          ],
+          "increase": [
+            28
+          ],
+          "increasingly": [
+            41
+          ],
+          "innovations": [
+            26
+          ],
+          "integrity": [
+            124
+          ],
+          "is": [
+            132,
+            147,
+            172
+          ],
+          "issue,": [
+            109
+          ],
+          "issues.": [
+            66
+          ],
+          "keeps": [
+            156
+          ],
+          "languages": [
+            55
+          ],
+          "last": [
+            14
+          ],
+          "lead": [
+            102
+          ],
+          "level": [
+            177
+          ],
+          "life-critical": [
+            9,
+            181
+          ],
+          "manufacturers": [
+            17
+          ],
+          "market": [
+            29
+          ],
+          "medical": [
+            10,
+            89
+          ],
+          "memory": [
+            6,
+            64,
+            69
+          ],
+          "memory-based": [
+            127
+          ],
+          "memory.": [
+            164
+          ],
+          "most": [
+            35
+          ],
+          "no": [
+            61
+          ],
+          "novel": [
+            115
+          ],
+          "obtained": [
+            166
+          ],
+          "of": [
+            5,
+            22,
+            95,
+            134,
+            158,
+            178
+          ],
+          "often": [
+            50
+          ],
+          "on": [
+            52,
+            150
+          ],
+          "ones,": [
+            37
+          ],
+          "over": [
+            76
+          ],
+          "perform": [
+            80
+          ],
+          "practical,": [
+            173
+          ],
+          "presents": [
+            112
+          ],
+          "processor": [
+            154
+          ],
+          "programming": [
+            54
+          ],
+          "protection": [
+            125
+          ],
+          "provides": [
+            120
+          ],
+          "providing": [
+            174
+          ],
+          "pushing": [
+            24
+          ],
+          "rely": [
+            51
+          ],
+          "remote": [
+            81
+          ],
+          "results": [
+            167
+          ],
+          "safety": [
+            7,
+            65,
+            94
+          ],
+          "scenarios.": [
+            105
+          ],
+          "secure": [
+            142,
+            145
+          ],
+          "security": [
+            99
+          ],
+          "sensitive": [
+            159
+          ],
+          "share.": [
+            30
+          ],
+          "show": [
+            168
+          ],
+          "skillful": [
+            72
+          ],
+          "such": [
+            56
+          ],
+          "system": [
+            78
+          ],
+          "systems.": [
+            183
+          ],
+          "take": [
+            75
+          ],
+          "technological": [
+            25
+          ],
+          "tend": [
+            38
+          ],
+          "that": [
+            88,
+            119,
+            139,
+            155,
+            169
+          ],
+          "the": [
+            3,
+            13,
+            20,
+            34,
+            44,
+            86,
+            93,
+            170
+          ],
+          "their": [
+            96
+          ],
+          "then": [
+            148
+          ],
+          "they": [
+            59
+          ],
+          "this": [
+            108,
+            110
+          ],
+          "to": [
+            27,
+            39,
+            43,
+            63,
+            103
+          ],
+          "toolchain": [
+            138
+          ],
+          "track": [
+            157
+          ],
+          "trust": [
+            179
+          ],
+          "trusted": [
+            163
+          ],
+          "unsafe": [
+            53
+          ],
+          "users,": [
+            97
+          ],
+          "using": [
+            161
+          ],
+          "vulnerability": [
+            100
+          ],
+          "vulnerability,": [
+            70
+          ],
+          "with": [
+            85
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Cyril Bresch"
+            }
+          },
+          {
+            "author": {
+              "display_name": "David Hély"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Roman Lysecky"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Stéphanie Chollet"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ioannis Parissis"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1145/3398327",
+        "id": "https://doi.org/10.1145/3398327",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1145/3398327"
+        },
+        "publication_date": "2020-09-26",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2020-09-26",
+        "publication_type": "revue",
+        "publication_venue": "ACM Transactions on Embedded Computing Systems",
+        "title": "TrustFlow-X",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T09 — Secure Memory"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
