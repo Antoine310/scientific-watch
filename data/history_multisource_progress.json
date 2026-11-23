@@ -1,8 +1,8 @@
 {
   "accepted": 472,
   "completed": false,
-  "cursor": "MTU5NTI3OTQ5ODAwMCwxMC4xMDE2JTJGai5lbmdmcmFjbWVjaC4yMDIwLjEwNzIxMw==",
-  "evaluated": 8556,
+  "cursor": "*",
+  "evaluated": 8566,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -770,113 +770,16 @@
     "monthly/2020-09/query-18 : résultat tronqué au plafond 12 pages",
     "monthly/2020-09/query-19 : résultat tronqué au plafond 12 pages",
     "monthly/2020-09/query-20 : résultat tronqué au plafond 12 pages",
-    "monthly/2020-09/query-21 : résultat tronqué au plafond 12 pages"
+    "monthly/2020-09/query-21 : résultat tronqué au plafond 12 pages",
+    "monthly/2020-09/query-22 : résultat tronqué au plafond 12 pages",
+    "monthly/2020-09/query-24 : résultat tronqué au plafond 12 pages"
   ],
-  "month": "2020-09",
-  "needs_publish": true,
-  "offset": 440,
-  "pages_done": 11246,
-  "pages_in_query": 11,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Erick Cardoso Costa"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Fabio Antonio Xavier"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ricardo Knoblauch"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Cristiano Binder"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Walter Lindolfo Weingaertner"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1016/j.solener.2020.07.018",
-        "id": "https://doi.org/10.1016/j.solener.2020.07.018",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1016/j.solener.2020.07.018"
-        },
-        "publication_date": "2020-09-01",
-        "publication_date_note": "Date source Crossref : 2020-09 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2020-09",
-        "publication_type": "revue",
-        "publication_venue": "Solar Energy",
-        "title": "Effect of cutting parameters on surface integrity of monocrystalline silicon sawn with an endless diamond wire saw",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T09 — Secure Memory"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Kieu T.M. Pham"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Huiqing Hu"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ziyin Li"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1074/jbc.ra120.014237",
-        "id": "https://doi.org/10.1074/jbc.ra120.014237",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1074/jbc.ra120.014237"
-        },
-        "publication_date": "2020-09-01",
-        "publication_date_note": "Date source Crossref : 2020-09 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2020-09",
-        "publication_type": "revue",
-        "publication_venue": "Journal of Biological Chemistry",
-        "title": "Maintenance of hook complex integrity and centrin arm assembly facilitates flagellum inheritance in Trypanosoma brucei",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T09 — Secure Memory"
-      ]
-    }
-  ],
+  "month": "2020-08",
+  "needs_publish": false,
+  "offset": 0,
+  "pages_done": 11271,
+  "pages_in_query": 0,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -3280,9 +3183,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 3855,
-  "query_index": 22,
+  "prefilter_review_overflow": 3867,
+  "query_index": 4,
   "secondary": 475,
-  "skipped": 9567,
+  "skipped": 9627,
   "version": 1
 }
