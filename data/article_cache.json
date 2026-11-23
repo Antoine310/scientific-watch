@@ -6784,6 +6784,22 @@
       "title": "The cooperative deformation test of an embedded FBG sensor and strain correction curve verification",
       "updated_at": "2026-11-16T19:36:39.560539+00:00"
     },
+    "doi:10.1016/j.cose.2020.101874": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "TEEnder: SGX enclave migration using HSMs",
+      "updated_at": "2026-11-23T09:39:01.258874+00:00"
+    },
+    "doi:10.1016/j.cose.2020.101916": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "RCA-SOC: A novel adversarial defense by refocusing on critical areas and strengthening object contours",
+      "updated_at": "2026-11-23T09:39:01.304719+00:00"
+    },
     "doi:10.1016/j.cose.2020.101922": {
       "category": "secondaire",
       "decision": "examiner",
@@ -9255,6 +9271,22 @@
       "status": "rejected",
       "title": "Cache timing attacks on NoC-based MPSoCs",
       "updated_at": "2026-11-15T11:13:24.359442+00:00"
+    },
+    "doi:10.1016/j.micpro.2020.103196": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Reset: A Reconfigurable state encoding technique for FSM to achieve security and hardware optimality",
+      "updated_at": "2026-11-23T09:39:43.086056+00:00"
+    },
+    "doi:10.1016/j.micpro.2020.103198": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Toward a hardware man-in-the-middle attack on PCIe bus",
+      "updated_at": "2026-11-23T09:39:43.131876+00:00"
     },
     "doi:10.1016/j.micpro.2020.103208": {
       "category": "secondaire",
@@ -12359,6 +12391,22 @@
       "status": "rejected",
       "title": "An ultra-low power real-time garbage classification system utilizing lightweight networks on RISC-V platform",
       "updated_at": "2026-11-02T17:36:18.598033+00:00"
+    },
+    "doi:10.1049/iet-ifs.2018.5228": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Chosen base‐point side‐channel attack on Montgomery ladder with x ‐only coordinate: with application to secp256k1",
+      "updated_at": "2026-11-23T09:38:40.901061+00:00"
+    },
+    "doi:10.1049/iet-ifs.2019.0605": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Improved SIMD implementation of Poly1305",
+      "updated_at": "2026-11-23T09:38:40.944584+00:00"
     },
     "doi:10.1049/iet-ifs.2019.0620": {
       "category": "secondaire",
@@ -24040,6 +24088,14 @@
       "title": "Cross-Domain Trust Remote Attestation Scheme in the Internet of Things",
       "updated_at": "2026-11-14T01:36:38.511801+00:00"
     },
+    "doi:10.1109/icfpt47387.2019.00037": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Secure Internal Communication of a Trustzone-Enabled Heterogeneous Soc Lightweight Encryption",
+      "updated_at": "2026-11-23T09:37:09.969652+00:00"
+    },
     "doi:10.1109/icfpt51103.2020.00034": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -30784,6 +30840,14 @@
       "title": "Dual-Mode PUFs Based on Spin Orbit Torque Devices Enabling Secure Key Switching Between Private and Public Clouds",
       "updated_at": "2026-11-03T08:41:37.870419+00:00"
     },
+    "doi:10.1109/les.2019.2953485": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Do Not Trust, Verify: A Verifiable Hardware Accelerator for Matrix Multiplication",
+      "updated_at": "2026-11-23T09:38:40.855789+00:00"
+    },
     "doi:10.1109/les.2020.3003974": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -32351,6 +32415,38 @@
       "status": "rejected",
       "title": "Predicting the Temporal Variability of Error Rates in Superconducting Quantum Processors: Mitigating Error Accuracy Loss in Queue-Based Quantum Computing Platforms [Focus: Quantum Software and its Engineering]",
       "updated_at": "2026-11-04T20:25:10.372716+00:00"
+    },
+    "doi:10.1109/msec.2020.2990230": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Dedicated Security Chips in the Age of Secure Enclaves",
+      "updated_at": "2026-11-23T09:38:50.223109+00:00"
+    },
+    "doi:10.1109/msec.2020.2990649": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Building Open Trusted Execution Environments",
+      "updated_at": "2026-11-23T09:39:13.524648+00:00"
+    },
+    "doi:10.1109/msec.2020.2993896": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "How Trusted Execution Environments Fuel Research on Microarchitectural Attacks",
+      "updated_at": "2026-11-23T09:39:23.099154+00:00"
+    },
+    "doi:10.1109/msec.2020.2994827": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Is Hardware More Secure Than Software?",
+      "updated_at": "2026-11-23T09:39:23.144729+00:00"
     },
     "doi:10.1109/msec.2021.3055799": {
       "category": "coeur",
@@ -37704,6 +37800,14 @@
       "title": "Hardware-Efficient Post-Processing Architectures for True Random Number Generators",
       "updated_at": "2026-11-15T23:14:06.616901+00:00"
     },
+    "doi:10.1109/tcsii.2020.3013415": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Unified Hardware for High-Throughput AES-Based Authenticated Encryptions",
+      "updated_at": "2026-11-23T09:39:50.081803+00:00"
+    },
     "doi:10.1109/tcsii.2020.3043204": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -40543,6 +40647,14 @@
       "status": "rejected",
       "title": "An Asynchronous and Low-Power True Random Number Generator Using STT-MTJ",
       "updated_at": "2026-11-14T11:14:58.226831+00:00"
+    },
+    "doi:10.1109/tvlsi.2020.2999514": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Securing Hardware Accelerators for CE Systems Using Biometric Fingerprinting",
+      "updated_at": "2026-11-23T09:39:30.048990+00:00"
     },
     "doi:10.1109/tvlsi.2020.3021533": {
       "category": "secondaire_technique",
@@ -43815,6 +43927,22 @@
       "status": "imported",
       "title": "Securing the Boot Process: The hardware root of trust",
       "updated_at": "2026-11-13T17:14:48.641372+00:00"
+    },
+    "doi:10.1145/3384217.3386394": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Exploiting DRAM bank mapping and HugePages for effective denial-of-service attacks on shared cache in multicore",
+      "updated_at": "2026-11-23T09:40:00.067552+00:00"
+    },
+    "doi:10.1145/3384217.3386399": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Using Intel SGX to improve private neural network training and inference",
+      "updated_at": "2026-11-23T09:40:10.223498+00:00"
     },
     "doi:10.1145/3385412.3385970": {
       "category": "coeur",
@@ -72192,6 +72320,14 @@
       "title": "An efficient and secure scheme of verifiable computation for Intel SGX",
       "updated_at": "2026-11-20T21:37:29.002123+00:00"
     },
+    "title:anembeddedriscvcorewithfastmodularmultiplication": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "An Embedded RISC-V Core with Fast Modular Multiplication",
+      "updated_at": "2026-11-23T09:36:58.239590+00:00"
+    },
     "title:anempiricalstudyofgpucachesidechannelleakageinlargelanguagemodelinference": {
       "category": "secondaire",
       "decision": "examiner",
@@ -72711,6 +72847,14 @@
       "status": "rejected",
       "title": "BGPay: An Incentive-Compatible Mechanism for BGP Hijack Filtering",
       "updated_at": "2026-11-02T17:52:40.939948+00:00"
+    },
+    "title:biasedrsaprivatekeysoriginattributionofgcdfactorablekeys": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Biased RSA private keys: Origin attribution of GCD-factorable keys",
+      "updated_at": "2026-11-23T09:36:28.317605+00:00"
     },
     "title:bifrosthybridteefheinferenceforprivacypreservingtransformerandllmserving": {
       "category": "secondaire",
@@ -75440,6 +75584,14 @@
       "title": "Lifetime-configurable soft robots via photodegradable silicone elastomer composites",
       "updated_at": "2026-11-14T20:36:59.804353+00:00"
     },
+    "title:lightcanhackyourfaceblackboxbackdoorattackonfacerecognitionsystems": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Light Can Hack Your Face! Black-box Backdoor Attack on Face Recognition Systems",
+      "updated_at": "2026-11-23T09:37:18.522237+00:00"
+    },
     "title:lightweightandmachinelearningattackresistantphysicalunclonablefunctions": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -75680,6 +75832,14 @@
       "title": "Mining Secure Behavior of Hardware Designs",
       "updated_at": "2026-11-20T07:36:42.454715+00:00"
     },
+    "title:miragemitigatingconflictbasedcacheattackswithapracticalfullyassociativedesign": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "MIRAGE: Mitigating Conflict-Based Cache Attacks with a Practical Fully-Associative Design",
+      "updated_at": "2026-11-23T09:37:52.325367+00:00"
+    },
     "title:mirageprovabledefenseagainstllmkvcachetimingsidechannelswithtopologyawareisolation": {
       "category": "secondaire",
       "decision": "examiner",
@@ -75904,6 +76064,14 @@
       "title": "New Cross-Core Cache-Agnostic and Prefetcher-based Side-Channels and Covert-Channels",
       "updated_at": "2026-11-13T15:41:11.925143+00:00"
     },
+    "title:newmodelsforunderstandingandreasoningaboutspeculativeexecutionattacks": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "New Models for Understanding and Reasoning about Speculative Execution Attacks",
+      "updated_at": "2026-11-23T09:38:17.586796+00:00"
+    },
     "title:newsecuritychallengestowardsinsensorcomputingsystems": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -75967,6 +76135,14 @@
       "status": "rejected",
       "title": "Obfuscation as Instruction Decorrelation",
       "updated_at": "2026-11-08T00:38:17.662216+00:00"
+    },
+    "title:oblivioussamplingalgorithmsforprivatedataanalysis": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Oblivious Sampling Algorithms for Private Data Analysis",
+      "updated_at": "2026-11-23T09:37:10.013890+00:00"
     },
     "title:observerquotientsecuritycomposableleakageboundsforhiddenstatecontinuations": {
       "category": "secondaire",
@@ -76575,6 +76751,14 @@
       "status": "rejected",
       "title": "Privacy preserving layer partitioning for Deep Neural Network models",
       "updated_at": "2026-11-10T09:39:09.795843+00:00"
+    },
+    "title:privacypreservingmachinelearninginuntrustedcloudsmadesimple": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Privacy-Preserving Machine Learning in Untrusted Clouds Made Simple",
+      "updated_at": "2026-11-23T09:37:09.682569+00:00"
     },
     "title:privacypreservingproductquantizedapproximatenearestneighborsearchframeworkforlargescaledatasetsviaahybridoffullyhomomorphicencryptionandtrustedexecutionenvironment": {
       "category": "secondaire",
@@ -77671,6 +77855,14 @@
       "status": "rejected",
       "title": "SGX-MR-Prot: Efficient and Developer-Friendly Access-Pattern Protection in Trusted Execution Environments",
       "updated_at": "2026-11-13T03:36:27.057904+00:00"
+    },
+    "title:sgxmrregulatingdataflowsforprotectingaccesspatternsofdataintensivesgxapplications": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "SGX-MR: Regulating Dataflows for Protecting Access Patterns of Data-Intensive SGX Applications",
+      "updated_at": "2026-11-23T09:37:09.633009+00:00"
     },
     "title:sgxswitchlesscallsmadeconfigless": {
       "category": "secondaire_technique",

@@ -3311,6 +3311,46 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/msec.2020.2990649": {
+    "doi": "https://doi.org/10.1109/msec.2020.2990649",
+    "publication_date": "2020-09-01",
+    "publication_date_note": "Date source Crossref : 2020-09 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2020-09",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Security &amp; Privacy",
+    "score": 75,
+    "source": "https://doi.org/10.1109/msec.2020.2990649",
+    "summary": "Cette publication examine l'écosystème croissant des environnements d'exécution de confiance (TEE), soulignant que les TEE actuels souffrent de conceptions fermées et d'un manque de flexibilité. Les auteurs exposent les défis associés, plaident en faveur de TEE ouverts, extensibles et portables, et détaillent les efforts en cours.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Building Open Trusted Execution Environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/msec.2020.2993896": {
+    "doi": "https://doi.org/10.1109/msec.2020.2993896",
+    "publication_date": "2020-09-01",
+    "publication_date_note": "Date source Crossref : 2020-09 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2020-09",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Security &amp; Privacy",
+    "score": 85,
+    "source": "https://doi.org/10.1109/msec.2020.2993896",
+    "summary": "Cet article analyse comment les environnements d'exécution de confiance (TEEs) ont stimulé la recherche sur les attaques microarchitecturales. Les connaissances acquises dans ces contextes, caractérisés par des attaquants hautement privilégiés contrôlant précisément le système, ont permis de découvrir des attaques hors TEE, telles que Spectre et Foreshadow.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "How Trusted Execution Environments Fuel Research on Microarchitectural Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/msec.2021.3055799": {
     "doi": "https://doi.org/10.1109/msec.2021.3055799",
     "publication_date": "2021-02-24",
@@ -14631,6 +14671,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:miragemitigatingconflictbasedcacheattackswithapracticalfullyassociativedesign": {
+    "doi": "",
+    "publication_date": "2020-09-18",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2009.09090v3",
+    "summary": "Cet article présente Mirage, une conception pratique de cache entièrement associatif visant à atténuer les attaques par canal auxiliaire basées sur les conflits dans les caches partagés. En découplant le placement et le remplacement par indirection basée sur des pointeurs et en utilisant une structure de type de tags à associativité biaisée, Mirage permet l'éviction globale aléatoire de n'importe quelle ligne pour éliminer les conflits d'ensembles, tout en maintenant des recherches pratiques. L'analyse montre une immunité quasi-totale contre la découverte d'ensembles d'éviction pour un surcoût de performance et de stockage limité.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "MIRAGE: Mitigating Conflict-Based Cache Attacks with a Practical Fully-Associative Design",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:mitigatingspeculationbasedattacksthroughconfigurablehardwaresoftwarecodesign": {
     "doi": "",
     "publication_date": "2023-06-20",
@@ -14792,6 +14852,26 @@
       "T08 — Cache & Temporal Isolation"
     ],
     "title": "New Cross-Core Cache-Agnostic and Prefetcher-based Side-Channels and Covert-Channels",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:newmodelsforunderstandingandreasoningaboutspeculativeexecutionattacks": {
+    "doi": "",
+    "publication_date": "2020-09-17",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2009.07998v2",
+    "summary": "Cet article propose un nouveau modèle formel basé sur des graphes d'attaque pour comprendre, analyser et raisonner sur les attaques par exécution spéculative telles que Spectre et Meltdown. Les auteurs modélisent les attaques comme des graphes de dépendance ordonnés et démontrent qu'une condition de course entre l'autorisation d'accès à une ressource et l'accès lui-même (définie comme une absence de dépendance de sécurité) constitue la cause racine de ces vulnérabilités microarchitecturales.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "New Models for Understanding and Reasoning about Speculative Execution Attacks",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
