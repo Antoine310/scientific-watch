@@ -16283,6 +16283,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "title:speculativedereferencingofregistersrevivingforeshadow": {
+    "doi": "",
+    "publication_date": "2020-08-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2008.02307v1",
+    "summary": "Cet article analyse en profondeur les attaques microarchitecturales attribuées à tort au prefetching depuis 2016. Les auteurs démontrent que le phénomène observé est en réalité causé par le déférencement spéculatif de registres utilisateur dans le noyau, contournant ainsi les protections existantes telles que KAISER et invalidant certaines défenses. Ils présentent de nouvelles attaques, dont une résurgence de Foreshadow ciblant des données non-L1, et montrent que la vulnérabilité touche divers processeurs récents (Intel, ARM, IBM, AMD).",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Speculative Dereferencing of Registers:Reviving Foreshadow",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:specwandsanefficientprioritybasedscheduleragainstspeculationcontentionattacks": {
     "doi": "",
     "publication_date": "2023-02-02",

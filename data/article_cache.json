@@ -7744,6 +7744,14 @@
       "title": "Hardware-enhanced data security for Internet of Things",
       "updated_at": "2026-11-03T14:55:13.895743+00:00"
     },
+    "doi:10.1016/j.future.2018.05.064": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "iFlask: Isolate flask security system from dangerous execution environment by using ARM TrustZone",
+      "updated_at": "2026-11-23T22:39:51.153732+00:00"
+    },
     "doi:10.1016/j.future.2020.05.017": {
       "category": "coeur",
       "decision": "conserver",
@@ -10167,6 +10175,14 @@
       "status": "rejected",
       "title": "Trend analysis of compensation-eligible work-related injuries among workers in the tema free zones enclave and heavy industrial area",
       "updated_at": "2026-11-03T20:40:17.888029+00:00"
+    },
+    "doi:10.1016/j.nima.2020.164122": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Silicon carbide neutron detector testing at the JSI TRIGA reactor for enhanced border and port security",
+      "updated_at": "2026-11-23T22:41:03.537067+00:00"
     },
     "doi:10.1016/j.nima.2022.167613": {
       "category": "hors_sujet",
@@ -32552,6 +32568,14 @@
       "title": "Securing NFV/SDN IoT Using VNFs Over a Compute-Intensive Hardware Resource in NFVI",
       "updated_at": "2026-11-12T00:39:22.301813+00:00"
     },
+    "doi:10.1109/mobilecloud48802.2020.00020": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Global and Secured UAV Authentication System based on Hardware-Security",
+      "updated_at": "2026-11-23T22:41:41.142560+00:00"
+    },
     "doi:10.1109/mocast49295.2020.9200266": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -36536,6 +36560,22 @@
       "title": "Symbolic Verification of Cache Side-Channel Freedom",
       "updated_at": "2026-11-16T02:13:54.094428+00:00"
     },
+    "doi:10.1109/tcad.2019.2912924": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Compiler-Based Techniques to Secure Cryptographic Embedded Software Against Side-Channel Attacks",
+      "updated_at": "2026-11-23T22:43:14.993671+00:00"
+    },
+    "doi:10.1109/tcad.2019.2917856": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Spin-Orbit Torque Devices for Hardware Security: From Deterministic to Probabilistic Regime",
+      "updated_at": "2026-11-23T22:39:51.189875+00:00"
+    },
     "doi:10.1109/tcad.2020.2974343": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -39775,6 +39815,14 @@
       "status": "rejected",
       "title": "UDhashing: Physical Unclonable Function-Based User-Device Hash for Endpoint Authentication",
       "updated_at": "2026-11-15T14:15:18.554801+00:00"
+    },
+    "doi:10.1109/tie.2019.2938462": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Physical Unclonable Function-Based Key Sharing via Machine Learning for IoT Security",
+      "updated_at": "2026-11-23T22:39:51.220797+00:00"
     },
     "doi:10.1109/tie.2020.3032918": {
       "category": "hors_sujet",
@@ -44312,6 +44360,14 @@
       "title": "Security of Neural Networks from Hardware Perspective",
       "updated_at": "2026-11-22T05:37:46.221721+00:00"
     },
+    "doi:10.1145/3396374": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Foundations, Properties, and Security Applications of Puzzles",
+      "updated_at": "2026-11-23T22:41:41.073207+00:00"
+    },
     "doi:10.1145/3397166.3412801": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -44319,6 +44375,14 @@
       "status": "rejected",
       "title": "Defining trust in IoT environments via distributed remote attestation using blockchain",
       "updated_at": "2026-11-23T01:37:10.635019+00:00"
+    },
+    "doi:10.1145/3397513": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hardware Security in Spin-based Computing-in-memory",
+      "updated_at": "2026-11-23T22:41:41.108817+00:00"
     },
     "doi:10.1145/3398327": {
       "category": "coeur",
@@ -44367,6 +44431,22 @@
       "status": "rejected",
       "title": "Hardware Performance Counter-Based Fine-Grained Malware Detection",
       "updated_at": "2026-11-23T11:37:56.351028+00:00"
+    },
+    "doi:10.1145/3406089.3409029": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Strongly bounded termination with applications to security and hardware synthesis",
+      "updated_at": "2026-11-23T22:42:21.603545+00:00"
+    },
+    "doi:10.1145/3407023.3407072": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Memory corruption attacks within Android TEEs",
+      "updated_at": "2026-11-23T22:42:21.568336+00:00"
     },
     "doi:10.1145/3408877.3432472": {
       "category": "hors_sujet",
@@ -51440,6 +51520,14 @@
       "title": "TZ-MRAS: A Remote Attestation Scheme for the Mobile Terminal Based on ARM TrustZone",
       "updated_at": "2026-11-23T11:37:46.485210+00:00"
     },
+    "doi:10.1155/2020/5429630": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Mobile IPv6 Vertical Handover Specifications, Threats, and Mitigation Methods: A Survey",
+      "updated_at": "2026-11-23T22:43:13.388170+00:00"
+    },
     "doi:10.1155/2020/8816023": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -52575,6 +52663,14 @@
       "status": "rejected",
       "title": "TEM structural studies of novel dielectric sidewalls for electrical isolation in silicon bipolar transistors",
       "updated_at": "2026-11-22T08:37:00.864172+00:00"
+    },
+    "doi:10.1201/9781003083436-20": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hardware Protection through Logic Obfuscation",
+      "updated_at": "2026-11-23T22:42:17.856653+00:00"
     },
     "doi:10.1201/9781003109952-1": {
       "category": "secondaire_technique",
@@ -54207,6 +54303,14 @@
       "status": "rejected",
       "title": "The Development Model Of Oil And Gas Producing Region: Enclave Or Cluster",
       "updated_at": "2026-11-20T14:38:54.111096+00:00"
+    },
+    "doi:10.1541/ieejeiss.140.939": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Secure Implementation of Authenticated Encryption in SROS2 for Embedded Systems and Its Evaluation",
+      "updated_at": "2026-11-23T22:43:24.565484+00:00"
     },
     "doi:10.1541/ieejeiss.141.165": {
       "category": "hors_sujet",
@@ -78759,6 +78863,14 @@
       "status": "imported",
       "title": "Spectre: Attack and Defense",
       "updated_at": "2026-11-15T14:14:49.820258+00:00"
+    },
+    "title:speculativedereferencingofregistersrevivingforeshadow": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Speculative Dereferencing of Registers:Reviving Foreshadow",
+      "updated_at": "2026-11-23T22:37:30.831583+00:00"
     },
     "title:specwandsanefficientprioritybasedscheduleragainstspeculationcontentionattacks": {
       "category": "coeur",
