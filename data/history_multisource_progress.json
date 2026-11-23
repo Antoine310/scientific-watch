@@ -1,8 +1,8 @@
 {
   "accepted": 471,
   "completed": false,
-  "cursor": "MTU5MzgzODc1MDAwMCwxMC4xMDE2JTJGai5jbHNyLjIwMjAuMTA1NDQy",
-  "evaluated": 8551,
+  "cursor": "MTU5Mjc5MDk0NDAwMCwxMC4xMDE2JTJGai5iYnIuMjAyMC4xMTI3Nzk=",
+  "evaluated": 8555,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -768,64 +768,16 @@
     "monthly/2020-09/query-15 : résultat tronqué au plafond 12 pages",
     "monthly/2020-09/query-16 : résultat tronqué au plafond 12 pages",
     "monthly/2020-09/query-18 : résultat tronqué au plafond 12 pages",
-    "monthly/2020-09/query-19 : résultat tronqué au plafond 12 pages"
+    "monthly/2020-09/query-19 : résultat tronqué au plafond 12 pages",
+    "monthly/2020-09/query-20 : résultat tronqué au plafond 12 pages",
+    "monthly/2020-09/query-21 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2020-09",
-  "needs_publish": true,
-  "offset": 280,
-  "pages_done": 11218,
-  "pages_in_query": 7,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "D. Osswald"
-            }
-          },
-          {
-            "author": {
-              "display_name": "J. De Seze"
-            }
-          },
-          {
-            "author": {
-              "display_name": "N. Collongues"
-            }
-          },
-          {
-            "author": {
-              "display_name": "C. Speeg-Schatz"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1016/j.jfo.2019.11.011",
-        "id": "https://doi.org/10.1016/j.jfo.2019.11.011",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1016/j.jfo.2019.11.011"
-        },
-        "publication_date": "2020-09-01",
-        "publication_date_note": "Date source Crossref : 2020-09 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2020-09",
-        "publication_type": "revue",
-        "publication_venue": "Journal Français d'Ophtalmologie",
-        "title": "Comparaison clinico-épidémiologique des pathologies du spectre des neuromyélites optiques",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T06 — Microarchitectural Side Channels"
-      ]
-    }
-  ],
+  "needs_publish": false,
+  "offset": 320,
+  "pages_done": 11243,
+  "pages_in_query": 8,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -3230,8 +3182,8 @@
     }
   ],
   "prefilter_review_overflow": 3855,
-  "query_index": 20,
+  "query_index": 22,
   "secondary": 475,
-  "skipped": 9562,
+  "skipped": 9567,
   "version": 1
 }
