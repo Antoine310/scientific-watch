@@ -1514,6 +1514,27 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/eurospw51379.2020.00101": {
+    "doi": "https://doi.org/10.1109/eurospw51379.2020.00101",
+    "publication_date": "2020-09-01",
+    "publication_date_note": "Date source Crossref : 2020-09 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2020-09",
+    "publication_type": "conference",
+    "publication_venue": "2020 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/eurospw51379.2020.00101",
+    "summary": "Ce papier présente REHAD, une nouvelle architecture de détection des attaques par canaux cachés sur le cache utilisant du matériel reconfigurable à basse fréquence. Intégrée dans un softcore RISC-V sur FPGA, elle combine la réactivité du matériel et la flexibilité d'un noyau logiciel de confiance pour détecter de nouvelles attaques tout en exploitant le parallélisme matériel pour combler l'écart de fréquence.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels",
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "REHAD: Using Low-Frequency Reconfigurable Hardware for Cache Side-Channel Attacks Detection",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/eurospw59978.2023.00038": {
     "doi": "https://doi.org/10.1109/eurospw59978.2023.00038",
     "publication_date": "2023-07-01",
@@ -1764,6 +1785,26 @@
       "T10 — RISC-V SoC & FPGA"
     ],
     "title": "rTPM: A Native Firmware-Based Trusted Platform Module for RISC-V",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/hpec43674.2020.9286164": {
+    "doi": "https://doi.org/10.1109/hpec43674.2020.9286164",
+    "publication_date": "2020-09-22",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2020-09-22",
+    "publication_type": "conference",
+    "publication_venue": "2020 IEEE High Performance Extreme Computing Conference (HPEC)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/hpec43674.2020.9286164",
+    "summary": "Cet article présente une architecture matérielle de racine de confiance (Hardware Root-of-Trust) conçue pour les appareils en périphérie de réseau (edge devices) à faible consommation. Elle intègre un SoC basé sur des accélérateurs, utilise une mémoire de démarrage e-fused, une mémoire d'instructions programmable signée numériquement et une machine à états finis programmable pour faire respecter les politiques d'accès et isoler les environnements d'exécution, le tout avec un surcoût matériel réduit par rapport à une enclave sécurisée séparée.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "A Hardware Root-of-Trust Design for Low-Power SoC Edge Devices",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,

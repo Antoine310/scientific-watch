@@ -1,8 +1,8 @@
 {
-  "accepted": 469,
+  "accepted": 471,
   "completed": false,
-  "cursor": "MTYwNDUwNjgyNTAwMCwxMC4xMTA5JTJGcmZpZDQ5Mjk4LjIwMjAuOTI0NDg4Mg==",
-  "evaluated": 8537,
+  "cursor": "MTU5NzgxMzYzMTAwMCwxMC4xMDE2JTJGai5raW50LjIwMjAuMDUuMDMx",
+  "evaluated": 8551,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -766,202 +766,15 @@
     "monthly/2020-09/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2020-09/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2020-09/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2020-09/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2020-09/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2020-09/query-18 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2020-09",
-  "needs_publish": false,
-  "offset": 200,
-  "pages_done": 11184,
-  "pages_in_query": 5,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Guillaume Hiet"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Frédéric Tronel"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jean-Louis Lanet"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/eurospw51379.2020.00097",
-        "id": "https://doi.org/10.1109/eurospw51379.2020.00097",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/eurospw51379.2020.00097"
-        },
-        "publication_date": "2020-09-01",
-        "publication_date_note": "Date source Crossref : 2020-09 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2020-09",
-        "publication_type": "conference",
-        "publication_venue": "2020 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)",
-        "title": "Preface of the 2 nd Workshop on the Security of Software/Hardware Interfaces (SILM 2020)",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Yuxiao Mao"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Vincent Migliore"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Vincent Nicomette"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/eurospw51379.2020.00101",
-        "id": "https://doi.org/10.1109/eurospw51379.2020.00101",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/eurospw51379.2020.00101"
-        },
-        "publication_date": "2020-09-01",
-        "publication_date_note": "Date source Crossref : 2020-09 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2020-09",
-        "publication_type": "conference",
-        "publication_venue": "2020 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)",
-        "title": "REHAD: Using Low-Frequency Reconfigurable Hardware for Cache Side-Channel Attacks Detection",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T06 — Microarchitectural Side Channels",
-        "T08 — Cache & Temporal Isolation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Yrjo Koyen"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Adriaan Peetermans"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Vladimir Rozic"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ingrid Verbauwhede"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/fdtc51366.2020.00010",
-        "id": "https://doi.org/10.1109/fdtc51366.2020.00010",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/fdtc51366.2020.00010"
-        },
-        "publication_date": "2020-09-01",
-        "publication_date_note": "Date source Crossref : 2020-09 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2020-09",
-        "publication_type": "conference",
-        "publication_venue": "2020 Workshop on Fault Detection and Tolerance in Cryptography (FDTC)",
-        "title": "Attacking Hardware Random Number Generators in a Multi-Tenant Scenario",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Luca Cremona"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Nicola Carrus"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ilaria Sergi"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Luigi Patrono"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.23919/splitech49282.2020.9243719",
-        "id": "https://doi.org/10.23919/splitech49282.2020.9243719",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.23919/splitech49282.2020.9243719"
-        },
-        "publication_date": "2020-09-23",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2020-09-23",
-        "publication_type": "conference",
-        "publication_venue": "2020 5th International Conference on Smart and Sustainable Technologies (SpliTech)",
-        "title": "A Rapid Prototyping Approach in Industry4.0 based on Secure Hardware and Azure Sphere Cloud",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    }
-  ],
+  "needs_publish": true,
+  "offset": 400,
+  "pages_done": 11209,
+  "pages_in_query": 10,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -3365,9 +3178,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 3852,
-  "query_index": 17,
+  "prefilter_review_overflow": 3854,
+  "query_index": 19,
   "secondary": 475,
-  "skipped": 9535,
+  "skipped": 9552,
   "version": 1
 }
