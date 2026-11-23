@@ -13320,6 +13320,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:cachesniperaccuratetimingcontrolofcacheevictions": {
+    "doi": "",
+    "publication_date": "2020-08-27",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2008.12188v1",
+    "summary": "Cet article présente une nouvelle attaque par canal auxiliaire microarchitectural nommée CACHE SNIPER. Elle permet de contourner les contre-mesures logicielles standards (comme l'évitement des accès dépendants des secrets et le préchargement) en utilisant une technique de minutage précise pour identifier le début du chiffrement et évincer les données au moment opportun, sans privilèges particuliers ni synchronisation explicite.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "CACHE SNIPER : Accurate timing control of cache evictions",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:cachesquashmakingcachesspeculationaware": {
     "doi": "",
     "publication_date": "2024-06-17",
