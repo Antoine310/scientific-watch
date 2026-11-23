@@ -777,9 +777,1581 @@
   "month": "2020-08",
   "needs_publish": false,
   "offset": 0,
-  "pages_done": 11271,
+  "pages_done": 11272,
   "pages_in_query": 0,
-  "pending": [],
+  "pending": [
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "(TEE)": [
+            125
+          ],
+          "Also,": [
+            32
+          ],
+          "Environment": [
+            124
+          ],
+          "Execution": [
+            123
+          ],
+          "Hence,": [
+            76
+          ],
+          "Intel": [
+            128
+          ],
+          "IoT": [
+            4,
+            35,
+            66,
+            78,
+            107,
+            152
+          ],
+          "SGX": [
+            145
+          ],
+          "SGX,": [
+            129
+          ],
+          "The": [
+            0,
+            55
+          ],
+          "To": [
+            89
+          ],
+          "Trusted": [
+            122
+          ],
+          "We": [
+            113,
+            135
+          ],
+          "a": [
+            12,
+            99
+          ],
+          "address": [
+            90
+          ],
+          "adoption": [
+            2
+          ],
+          "against": [
+            87
+          ],
+          "and": [
+            22,
+            30,
+            49,
+            63,
+            80,
+            104,
+            109,
+            130,
+            150
+          ],
+          "are": [
+            59
+          ],
+          "as": [
+            127
+          ],
+          "automate": [
+            43
+          ],
+          "be": [
+            71,
+            85
+          ],
+          "both": [
+            148
+          ],
+          "by": [
+            45,
+            139
+          ],
+          "careful": [
+            20
+          ],
+          "challenge,": [
+            93
+          ],
+          "cloud": [
+            56
+          ],
+          "confidentiality": [
+            103
+          ],
+          "cyberattacks.": [
+            88
+          ],
+          "daily": [
+            8
+          ],
+          "data": [
+            13,
+            28,
+            67,
+            79,
+            108,
+            119,
+            132
+          ],
+          "data.": [
+            154
+          ],
+          "deluge,": [
+            14
+          ],
+          "design": [
+            114
+          ],
+          "device": [
+            153
+          ],
+          "devices": [
+            5,
+            48
+          ],
+          "ecosystem": [
+            36
+          ],
+          "encryption": [
+            133
+          ],
+          "end-to-end": [
+            131
+          ],
+          "engendering": [
+            11
+          ],
+          "ensure": [
+            27
+          ],
+          "evaluate": [
+            136
+          ],
+          "executing": [
+            140
+          ],
+          "execution.": [
+            112
+          ],
+          "framework": [
+            100,
+            116,
+            138
+          ],
+          "growing": [
+            1
+          ],
+          "has": [
+            37
+          ],
+          "important": [
+            92
+          ],
+          "in": [
+            6,
+            94,
+            143
+          ],
+          "information": [
+            17
+          ],
+          "integrity": [
+            29,
+            105
+          ],
+          "interconnecting": [
+            46
+          ],
+          "is": [
+            10
+          ],
+          "life": [
+            9
+          ],
+          "maintain": [
+            102
+          ],
+          "maintenance": [
+            21
+          ],
+          "mechanism.": [
+            134
+          ],
+          "mostly": [
+            15
+          ],
+          "need": [
+            83
+          ],
+          "needs": [
+            19
+          ],
+          "of": [
+            3,
+            106
+          ],
+          "opportunities": [
+            41
+          ],
+          "other": [
+            50
+          ],
+          "our": [
+            7
+          ],
+          "out": [
+            69
+          ],
+          "outside": [
+            74
+          ],
+          "paper,": [
+            96
+          ],
+          "preserve": [
+            118
+          ],
+          "privacy": [
+            120
+          ],
+          "private": [
+            16
+          ],
+          "process": [
+            64
+          ],
+          "prodigious": [
+            34
+          ],
+          "program": [
+            111
+          ],
+          "programs": [
+            82,
+            142
+          ],
+          "programs.": [
+            54
+          ],
+          "propose": [
+            98
+          ],
+          "protected": [
+            86
+          ],
+          "protection.": [
+            31
+          ],
+          "provided": [
+            38
+          ],
+          "real": [
+            151
+          ],
+          "rule-based": [
+            53,
+            81,
+            110,
+            141
+          ],
+          "secure": [
+            23
+          ],
+          "securely": [
+            146
+          ],
+          "sensitive": [
+            65,
+            77
+          ],
+          "services": [
+            51,
+            57
+          ],
+          "simulated": [
+            149
+          ],
+          "storage": [
+            24
+          ],
+          "store": [
+            62
+          ],
+          "such": [
+            126
+          ],
+          "system": [
+            25
+          ],
+          "systems": [
+            44
+          ],
+          "that": [
+            18,
+            58
+          ],
+          "the": [
+            33,
+            115,
+            137,
+            144
+          ],
+          "their": [
+            47
+          ],
+          "this": [
+            91,
+            95
+          ],
+          "threats.": [
+            75
+          ],
+          "to": [
+            26,
+            42,
+            61,
+            70,
+            73,
+            84,
+            101,
+            117
+          ],
+          "turn": [
+            68
+          ],
+          "used": [
+            60
+          ],
+          "users": [
+            39
+          ],
+          "utilizing": [
+            121
+          ],
+          "vulnerable": [
+            72
+          ],
+          "we": [
+            97
+          ],
+          "with": [
+            40,
+            52,
+            147
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Md Shihabul Islam"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mustafa Safa Ozdayi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Latifur Khan"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Murat Kantarcioglu"
+            }
+          }
+        ],
+        "doi": "",
+        "id": "http://arxiv.org/abs/2008.05286v1",
+        "primary_location": {
+          "landing_page_url": "http://arxiv.org/abs/2008.05286v1"
+        },
+        "publication_date": "2020-08-10",
+        "publication_type": "prepublication",
+        "publication_venue": "",
+        "title": "Secure IoT Data Analytics in Cloud via Intel SGX",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "arXiv"
+      },
+      "sources": [
+        "arXiv"
+      ],
+      "themes": [
+        "T03 — RISC-V TEE & Enclaves"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "(AI)": [
+            20
+          ],
+          "(IP)": [
+            90
+          ],
+          "(PETs)": [
+            58
+          ],
+          "AI": [
+            48,
+            77,
+            118,
+            129,
+            173
+          ],
+          "Additionally,": [
+            50
+          ],
+          "Artificial": [
+            18
+          ],
+          "Finally,": [
+            148
+          ],
+          "For": [
+            121
+          ],
+          "In": [
+            0
+          ],
+          "Intellectual": [
+            88
+          ],
+          "Intelligence": [
+            19
+          ],
+          "Privacy-Enhancing": [
+            56
+          ],
+          "Property": [
+            89
+          ],
+          "Regarding": [
+            98
+          ],
+          "Such": [
+            23
+          ],
+          "Technologies": [
+            57
+          ],
+          "To": [
+            66
+          ],
+          "We": [
+            80
+          ],
+          "academia,": [
+            163
+          ],
+          "advances": [
+            139
+          ],
+          "aid": [
+            34
+          ],
+          "also": [
+            54
+          ],
+          "an": [
+            5
+          ],
+          "and": [
+            14,
+            30,
+            91,
+            106,
+            115,
+            126,
+            164
+          ],
+          "any": [
+            64
+          ],
+          "approach": [
+            67
+          ],
+          "approaching": [
+            10
+          ],
+          "appropriate": [
+            43
+          ],
+          "areas": [
+            151
+          ],
+          "at": [
+            38,
+            63
+          ],
+          "attention": [
+            160
+          ],
+          "between": [
+            87
+          ],
+          "blocks": [
+            109
+          ],
+          "building": [
+            108
+          ],
+          "building,": [
+            113
+          ],
+          "by": [
+            72,
+            82
+          ],
+          "challenges": [
+            127
+          ],
+          "collective": [
+            159
+          ],
+          "combined": [
+            135
+          ],
+          "continue": [
+            81
+          ],
+          "cryptographic": [
+            141
+          ],
+          "current": [
+            74
+          ],
+          "customers": [
+            26
+          ],
+          "customers'": [
+            61
+          ],
+          "customized": [
+            31
+          ],
+          "data": [
+            62,
+            93,
+            145
+          ],
+          "decision,": [
+            36
+          ],
+          "deploying,": [
+            114
+          ],
+          "deployment,": [
+            13
+          ],
+          "design,": [
+            12
+          ],
+          "designing,": [
+            112
+          ],
+          "development": [
+            154
+          ],
+          "elaborating": [
+            83
+          ],
+          "environments": [
+            134
+          ],
+          "example,": [
+            122
+          ],
+          "execution": [
+            133
+          ],
+          "for": [
+            9,
+            47
+          ],
+          "further": [
+            153
+          ],
+          "global": [
+            158
+          ],
+          "government": [
+            165
+          ],
+          "highlight": [
+            124
+          ],
+          "in": [
+            76,
+            95,
+            111,
+            128,
+            140,
+            146
+          ],
+          "industry": [
+            6
+          ],
+          "industry,": [
+            162
+          ],
+          "inference": [
+            21,
+            78,
+            119,
+            174
+          ],
+          "inferences": [
+            32
+          ],
+          "informed,": [
+            29
+          ],
+          "instrumental": [
+            110
+          ],
+          "introducing": [
+            73
+          ],
+          "mechanisms": [
+            46
+          ],
+          "mechanisms,": [
+            101
+          ],
+          "models.": [
+            49
+          ],
+          "more": [
+            137
+          ],
+          "of": [
+            16,
+            152,
+            161,
+            171
+          ],
+          "on": [
+            84
+          ],
+          "operating": [
+            116
+          ],
+          "operation": [
+            15,
+            170
+          ],
+          "opportunities": [
+            125
+          ],
+          "outline": [
+            150
+          ],
+          "privacy": [
+            107
+          ],
+          "private": [
+            92,
+            117
+          ],
+          "protect": [
+            60,
+            144
+          ],
+          "protection": [
+            45,
+            94,
+            100
+          ],
+          "provide": [
+            4,
+            25
+          ],
+          "recent": [
+            138
+          ],
+          "relationship": [
+            86
+          ],
+          "require": [
+            156
+          ],
+          "research": [
+            7
+          ],
+          "researchers": [
+            166
+          ],
+          "same": [
+            40
+          ],
+          "security": [
+            44,
+            105
+          ],
+          "should": [
+            53
+          ],
+          "start": [
+            71
+          ],
+          "subject,": [
+            69
+          ],
+          "such": [
+            51,
+            96
+          ],
+          "survey": [
+            103
+          ],
+          "sustain": [
+            168
+          ],
+          "systems": [
+            24,
+            52,
+            130
+          ],
+          "systems.": [
+            22,
+            79,
+            97,
+            120,
+            175
+          ],
+          "techniques": [
+            142
+          ],
+          "that": [
+            155
+          ],
+          "the": [
+            11,
+            39,
+            68,
+            85,
+            99,
+            104,
+            157,
+            169
+          ],
+          "their": [
+            35
+          ],
+          "this": [
+            1
+          ],
+          "time": [
+            41
+          ],
+          "time.": [
+            65
+          ],
+          "timely,": [
+            28
+          ],
+          "to": [
+            33,
+            59,
+            143,
+            167
+          ],
+          "trends": [
+            75
+          ],
+          "trusted": [
+            132
+          ],
+          "trustworthy": [
+            17,
+            172
+          ],
+          "use": [
+            55
+          ],
+          "use.": [
+            147
+          ],
+          "using": [
+            131
+          ],
+          "utilizing": [
+            42
+          ],
+          "view": [
+            8
+          ],
+          "we": [
+            3,
+            70,
+            102,
+            123,
+            149
+          ],
+          "while": [
+            37
+          ],
+          "with": [
+            27,
+            136
+          ],
+          "work,": [
+            2
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Rosario Cammarota"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Matthias Schunter"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Anand Rajan"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Fabian Boemer"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ágnes Kiss"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Amos Treiber"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Christian Weinert"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Thomas Schneider"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Emmanuel Stapf"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Ahmad-Reza Sadeghi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Daniel Demmler"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Joshua Stock"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Huili Chen"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Siam Umar Hussain"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Sadegh Riazi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Farinaz Koushanfar"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Saransh Gupta"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Tajan Simunic Rosing"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Kamalika Chaudhuri"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Hamid Nejatollahi"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Nikil Dutt"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mohsen Imani"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Kim Laine"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Anuj Dubey"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Aydin Aysu"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Fateme Sadat Hosseini"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Chengmo Yang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Eric Wallace"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Pamela Norton"
+            }
+          }
+        ],
+        "doi": "",
+        "id": "http://arxiv.org/abs/2008.04449v2",
+        "primary_location": {
+          "landing_page_url": "http://arxiv.org/abs/2008.04449v2"
+        },
+        "publication_date": "2020-08-10",
+        "publication_type": "prepublication",
+        "publication_venue": "",
+        "title": "Trustworthy AI Inference Systems: An Industry Research View",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "arXiv"
+      },
+      "sources": [
+        "arXiv"
+      ],
+      "themes": [
+        "T03 — RISC-V TEE & Enclaves"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "(TEE)": [
+            78
+          ],
+          "(e.g.,": [
+            90,
+            96,
+            186
+          ],
+          "Arm": [
+            91,
+            121,
+            204
+          ],
+          "Blockchain": [
+            0
+          ],
+          "Fabric": [
+            118,
+            146
+          ],
+          "For": [
+            7
+          ],
+          "However,": [
+            56
+          ],
+          "Hyperledger": [
+            117,
+            145
+          ],
+          "Instead,": [
+            158
+          ],
+          "Intel": [
+            97
+          ],
+          "OP-TEE": [
+            176
+          ],
+          "Our": [
+            130,
+            189
+          ],
+          "Pis).": [
+            188
+          ],
+          "Raspberry": [
+            187
+          ],
+          "SGX).": [
+            98
+          ],
+          "Several": [
+            24
+          ],
+          "TEE,": [
+            150
+          ],
+          "TEEs": [
+            99
+          ],
+          "TZ4Fabric": [
+            171,
+            206
+          ],
+          "TZ4Fabric,": [
+            113
+          ],
+          "The": [
+            46,
+            170
+          ],
+          "This": [
+            108
+          ],
+          "TrustZone": [
+            122
+          ],
+          "TrustZone)": [
+            92
+          ],
+          "TrustZone.": [
+            205
+          ],
+          "Trusted": [
+            75
+          ],
+          "a": [
+            33,
+            40,
+            143
+          ],
+          "additional": [
+            199
+          ],
+          "advantage": [
+            38
+          ],
+          "an": [
+            37,
+            80,
+            114
+          ],
+          "and": [
+            18,
+            39,
+            50,
+            93,
+            103
+          ],
+          "are": [
+            58,
+            79
+          ],
+          "as": [
+            69,
+            71,
+            178,
+            210
+          ],
+          "aspect": [
+            31
+          ],
+          "asset": [
+            16
+          ],
+          "assets": [
+            49
+          ],
+          "at": [
+            42
+          ],
+          "attackers.": [
+            107
+          ],
+          "automated": [
+            19
+          ],
+          "available": [
+            83
+          ],
+          "avoiding": [
+            139
+          ],
+          "base": [
+            136
+          ],
+          "be": [
+            208
+          ],
+          "benefit": [
+            13
+          ],
+          "blockchain": [
+            34
+          ],
+          "both": [
+            36,
+            85,
+            101
+          ],
+          "business": [
+            51
+          ],
+          "by": [
+            138,
+            203
+          ],
+          "cheap": [
+            183
+          ],
+          "code": [
+            102
+          ],
+          "computing": [
+            135
+          ],
+          "confidentiality": [
+            61
+          ],
+          "continues": [
+            152
+          ],
+          "contract": [
+            67
+          ],
+          "contract.": [
+            169
+          ],
+          "contracts.": [
+            23,
+            129
+          ],
+          "critical": [
+            54
+          ],
+          "data": [
+            104
+          ],
+          "data.": [
+            74
+          ],
+          "deployments": [
+            26,
+            181
+          ],
+          "design": [
+            131
+          ],
+          "devices": [
+            185
+          ],
+          "disadvantage": [
+            41
+          ],
+          "due": [
+            196
+          ],
+          "edge": [
+            86
+          ],
+          "emerging": [
+            81
+          ],
+          "environment.": [
+            157
+          ],
+          "environments": [
+            77
+          ],
+          "example,": [
+            8
+          ],
+          "executed": [
+            137
+          ],
+          "execution": [
+            76,
+            126,
+            141,
+            164
+          ],
+          "exist": [
+            27
+          ],
+          "experience": [
+            110
+          ],
+          "experimental": [
+            190
+          ],
+          "exploits": [
+            173
+          ],
+          "exposure": [
+            47
+          ],
+          "extension": [
+            115
+          ],
+          "for": [
+            123
+          ],
+          "framework,": [
+            177
+          ],
+          "from": [
+            14,
+            105
+          ],
+          "guarantees": [
+            62,
+            201
+          ],
+          "highlight": [
+            192
+          ],
+          "in": [
+            84,
+            155
+          ],
+          "industries.": [
+            6
+          ],
+          "inside": [
+            148
+          ],
+          "interaction": [
+            52
+          ],
+          "is": [
+            35
+          ],
+          "it": [
+            161,
+            179
+          ],
+          "leverage": [
+            120
+          ],
+          "logic": [
+            68
+          ],
+          "low-end": [
+            184
+          ],
+          "malicious": [
+            106
+          ],
+          "manufacturing": [
+            5
+          ],
+          "may": [
+            12
+          ],
+          "minimizes": [
+            132
+          ],
+          "mobile-grade": [
+            88
+          ],
+          "no": [
+            60
+          ],
+          "node": [
+            147
+          ],
+          "of": [
+            32,
+            48,
+            116,
+            127,
+            142,
+            165
+          ],
+          "on": [
+            182
+          ],
+          "only": [
+            166
+          ],
+          "open-source": [
+            175
+          ],
+          "open-source.": [
+            211
+          ],
+          "or": [
+            87
+          ],
+          "performance": [
+            194
+          ],
+          "practical": [
+            109
+          ],
+          "presents": [
+            112
+          ],
+          "processed": [
+            73
+          ],
+          "processes": [
+            20
+          ],
+          "processors": [
+            89,
+            95
+          ],
+          "promises": [
+            2
+          ],
+          "protect": [
+            64
+          ],
+          "prototype": [
+            172
+          ],
+          "provided": [
+            202
+          ],
+          "real-world": [
+            25
+          ],
+          "released": [
+            209
+          ],
+          "report": [
+            111
+          ],
+          "represent": [
+            53
+          ],
+          "restrict": [
+            160
+          ],
+          "results": [
+            191
+          ],
+          "revolutionize": [
+            4
+          ],
+          "risks.": [
+            55
+          ],
+          "run": [
+            154
+          ],
+          "same": [
+            44
+          ],
+          "secure": [
+            125
+          ],
+          "security": [
+            200
+          ],
+          "server-grade": [
+            94
+          ],
+          "several": [
+            9
+          ],
+          "shield": [
+            100
+          ],
+          "smart": [
+            22,
+            66,
+            128,
+            168
+          ],
+          "supply-chain": [
+            10
+          ],
+          "supports": [
+            180
+          ],
+          "technology": [
+            1,
+            82
+          ],
+          "the": [
+            29,
+            43,
+            65,
+            72,
+            124,
+            133,
+            140,
+            149,
+            163,
+            167,
+            174,
+            193,
+            198
+          ],
+          "there": [
+            57
+          ],
+          "time.": [
+            45
+          ],
+          "to": [
+            3,
+            63,
+            119,
+            153,
+            162,
+            197
+          ],
+          "tracking": [
+            17
+          ],
+          "trade-off": [
+            195
+          ],
+          "transparency": [
+            30
+          ],
+          "transparent": [
+            15
+          ],
+          "trusted": [
+            134
+          ],
+          "typically": [
+            59
+          ],
+          "untrusted": [
+            156
+          ],
+          "use-cases": [
+            11
+          ],
+          "using": [
+            21
+          ],
+          "we": [
+            159
+          ],
+          "well": [
+            70
+          ],
+          "where": [
+            28
+          ],
+          "which": [
+            151
+          ],
+          "whole": [
+            144
+          ],
+          "will": [
+            207
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Christina Müller"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Marcus Brandenburger"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Christian Cachin"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Pascal Felber"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Christian Göttel"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Valerio Schiavoni"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/SRDS51746.2020.00011",
+        "id": "http://arxiv.org/abs/2008.11601v3",
+        "primary_location": {
+          "landing_page_url": "http://arxiv.org/abs/2008.11601v3"
+        },
+        "publication_date": "2020-08-26",
+        "publication_type": "prepublication",
+        "publication_venue": "",
+        "title": "TZ4Fabric: Executing Smart Contracts with ARM TrustZone",
+        "venue_landmark": "",
+        "venue_note": "Référence déclarée sur arXiv (non vérifiée) : 2020 International Symposium on Reliable Distributed Systems (SRDS), Shanghai, China, 2020, pp. 31-40",
+        "venue_priority": 0,
+        "venue_provenance": "arXiv"
+      },
+      "sources": [
+        "arXiv"
+      ],
+      "themes": [
+        "T03 — RISC-V TEE & Enclaves"
+      ]
+    }
+  ],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -3184,7 +4756,7 @@
     }
   ],
   "prefilter_review_overflow": 3867,
-  "query_index": 4,
+  "query_index": 5,
   "secondary": 475,
   "skipped": 9627,
   "version": 1
