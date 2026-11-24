@@ -13048,6 +13048,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:anexploratoryanalysisofmicrocodeasabuildingblockforsystemdefenses": {
+    "doi": "",
+    "publication_date": "2020-07-06",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2007.03549v1",
+    "summary": "Ce papier étudie le microcode comme brique de base pour implémenter des défenses système sur des processeurs x86 AMD commerciaux. Les auteurs présentent de nouveaux résultats de rétro-ingénierie sur le microcode propriétaire et démontrent la faisabilité de réaliser des mesures de sécurité (atténuation des attaques temporelles, sanitisation d'adresses, randomisation du jeu d'instructions), ainsi qu'un environnement d'exécution de confiance (TEE) minimaliste via des mises à jour de microcode.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "An Exploratory Analysis of Microcode as a Building Block for System Defenses",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:aninvestigationofhardwaresecuritybugcharacteristicsinopensourceprojects": {
     "doi": "",
     "publication_date": "2024-02-01",
@@ -13675,6 +13695,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:confidentialattestationefficientinenclaveverificationofprivacypolicycompliance": {
+    "doi": "",
+    "publication_date": "2020-07-20",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2007.10513v1",
+    "summary": "Cet article présente CAT (Confidential Attestation), un nouveau modèle pour l'attestation à distance dans les environnements d'exécution de confiance (TEE) permettant de vérifier la conformité d'un programme aux politiques de confidentialité sans exposer son code source. Inspiré du code mobile et de la preuve de code, le système déplace la charge lourde de génération de preuves vers un générateur hors enclave (non sécurisé), tandis qu'un consommateur intra-enclave léger vérifie l'instrumentation et la protection avant l'exécution. Implémenté sur Intel SGX, il démontre une faible surcharge de performance et une extension minime de la base de confiance (TCB).",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Confidential Attestation: Efficient in-Enclave Verification of Privacy Policy Compliance",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:confidentialmachinelearningwithingraphcoreipus": {
     "doi": "",
     "publication_date": "2022-05-18",
@@ -13810,6 +13850,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "DASICS White Paper: Enhancing Memory Protection with Dynamic Compartmentalization",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:datasamplingonmdsresistant10thgenerationintelcoreicelake": {
+    "doi": "",
+    "publication_date": "2020-07-15",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2007.07428v1",
+    "summary": "Ce rapport technique démontre une variante de l'attaque par échantillonnage de données microarchitecturales (MDS), spécifiquement MSBDS (CVE-2018-12126 ou Fallout), fonctionnant sur des processeurs Intel Core de 10e génération (Ice Lake) pourtant réputés résistants aux attaques MDS. Cette variante a été synthétisée automatiquement à l'aide de l'outil Transynther.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Data Sampling on MDS-resistant 10th Generation Intel Core (Ice Lake)",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -16323,6 +16383,46 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:speculativeinterferenceattacksbreakinginvisiblespeculationschemes": {
+    "doi": "",
+    "publication_date": "2020-07-23",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2007.11818v4",
+    "summary": "Cet article étudie les attaques par interférence spéculative, montrant que les mécanismes récents de spéculation invisible ne parviennent pas à bloquer totalement les attaques par canal auxiliaire basées sur la spéculation. En exploitant la modification du timing et de l'ordre des instructions mémoire par des instructions mal spéculées, les auteurs démontrent qu'il est possible de provoquer des modifications persistantes de l'état du cache, contournant ainsi les défenses existantes.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Speculative Interference Attacks: Breaking Invisible Speculation Schemes",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:speculativeleakageinarmcortexa53": {
+    "doi": "",
+    "publication_date": "2020-07-14",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2007.06865v2",
+    "summary": "Cette publication démontre que le processeur ARM Cortex-A53, pourtant dépourvu d'exécution dans le désordre, est vulnérable à des fuites spéculatives. Les auteurs nomment cette nouvelle classe de vulnérabilités SiSCloak, prouvant que les optimisations microarchitecturales comme la spéculation suffisent à compromettre la sécurité via des canaux auxiliaires.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Speculative Leakage in ARM Cortex-A53",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:specwandsanefficientprioritybasedscheduleragainstspeculationcontentionattacks": {
     "doi": "",
     "publication_date": "2023-02-02",
@@ -16458,6 +16558,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "TALUS: Reinforcing TEE Confidentiality with Cryptographic Coprocessors (Technical Report)",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:teerexdiscoveryandexploitationofmemorycorruptionvulnerabilitiesinsgxenclaves": {
+    "doi": "",
+    "publication_date": "2020-07-15",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2007.07586v2",
+    "summary": "Cet article étudie la sécurité des enclaves Intel SGX face aux vulnérabilités de corruption de mémoire. Les auteurs présentent TeeRex, un outil basé sur l'exécution symbolique pour analyser automatiquement le code binaire des enclaves et détecter ces failles au niveau de la frontière hôte-enclave, démontrant leur exploitabilité sur des logiciels réels.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "TeeRex: Discovery and Exploitation of Memory Corruption Vulnerabilities in SGX Enclaves",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
