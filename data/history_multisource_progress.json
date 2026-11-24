@@ -1,8 +1,8 @@
 {
-  "accepted": 482,
+  "accepted": 483,
   "completed": false,
-  "cursor": "*",
-  "evaluated": 8705,
+  "cursor": "MTU3NzgwNzE2MTAwMCwxMC4xMTA5JTJGdHNjLjIwMTkuMjk2MzMwMQ==",
+  "evaluated": 8712,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -786,92 +786,16 @@
     "monthly/2020-07/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2020-07/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2020-07/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2020-07/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2020-07/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2020-07/query-18 : résultat tronqué au plafond 12 pages",
+    "monthly/2020-07/query-19 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2020-07",
   "needs_publish": false,
-  "offset": 0,
-  "pages_done": 11482,
-  "pages_in_query": 0,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Christian Boit"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Tuba Kiyan"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Thilo Krachenfels"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jean-Pierre Seifert"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/ipfa49335.2020.9261000",
-        "id": "https://doi.org/10.1109/ipfa49335.2020.9261000",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/ipfa49335.2020.9261000"
-        },
-        "publication_date": "2020-07-20",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2020-07-20",
-        "publication_type": "conference",
-        "publication_venue": "2020 IEEE International Symposium on the Physical and Failure Analysis of Integrated Circuits (IPFA)",
-        "title": "Logic State Imaging From FA Techniques for Special Applications to One of the Most Powerful Hardware Security Side-Channel Threats",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [],
-        "doi": "https://doi.org/10.1002/9781119695158.ch11",
-        "id": "https://doi.org/10.1002/9781119695158.ch11",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1002/9781119695158.ch11"
-        },
-        "publication_date": "2020-07-21",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2020-07-21",
-        "publication_type": "inconnu",
-        "publication_venue": "Trust in Computer Systems and the Cloud",
-        "title": "Hardware, Trust, and Confidential Computing",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    }
-  ],
+  "offset": 40,
+  "pages_done": 11507,
+  "pages_in_query": 1,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -3275,9 +3199,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 3926,
-  "query_index": 18,
+  "prefilter_review_overflow": 3936,
+  "query_index": 20,
   "secondary": 481,
-  "skipped": 9752,
+  "skipped": 9756,
   "version": 1
 }
