@@ -12584,6 +12584,14 @@
       "title": "Hardware‐assisted remote attestation design for critical embedded systems",
       "updated_at": "2026-11-07T08:13:45.042531+00:00"
     },
+    "doi:10.1049/joe.2020.0022": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "GPS spoofing‐based time synchronisation attack in advanced metering infrastructure and its protection",
+      "updated_at": "2026-11-24T01:39:11.994911+00:00"
+    },
     "doi:10.1049/ntw2.12114": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -17192,6 +17200,14 @@
       "title": "Hardware Architecture for the SHA-3 Family in Crystals-Kyber: Post-Quantum Cryptography",
       "updated_at": "2026-11-08T12:37:00.722492+00:00"
     },
+    "doi:10.1109/ccece47787.2020.9255709": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Accelerated Hardware Implementation of BLAKE2 Cryptographic Hash for Blockchain",
+      "updated_at": "2026-11-24T01:38:24.251417+00:00"
+    },
     "doi:10.1109/ccece49351.2022.9918259": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -17847,6 +17863,14 @@
       "status": "rejected",
       "title": "VeriChat: An Agentic Conversational AI Assistant for Hardware Security Verification",
       "updated_at": "2026-11-02T17:03:27.134615+00:00"
+    },
+    "doi:10.1109/colcaci50549.2020.9247877": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Decision Tree-Based Automated Test-Bed for Performance Validation of Line Protection Relays Using a Hardware-in-the-Loop Architecture",
+      "updated_at": "2026-11-24T01:38:24.225859+00:00"
     },
     "doi:10.1109/com-it-con54601.2022.9850797": {
       "category": "secondaire",
@@ -24071,6 +24095,14 @@
       "status": "rejected",
       "title": "The Fact of the MATTER: Efficient Hardware Accelerators for Wide-Block Memory Encryption",
       "updated_at": "2026-11-03T21:27:51.645438+00:00"
+    },
+    "doi:10.1109/icee50131.2020.9260614": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Digital Hardware Implementation of Lightweight Cryptography Algorithm Using Neural Networks",
+      "updated_at": "2026-11-24T01:38:31.564938+00:00"
     },
     "doi:10.1109/icee59167.2023.10334758": {
       "category": "secondaire",
@@ -35959,6 +35991,14 @@
       "status": "rejected",
       "title": "Concept of Hardware-Software Complex for Secure Data Transmission Using Quantum Key Distribution",
       "updated_at": "2026-11-05T22:39:22.419148+00:00"
+    },
+    "doi:10.1109/syscon47679.2020.9381831": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Verified Hardware/Software Co-Assurance: Enhancing Safety and Security for Critical Systems",
+      "updated_at": "2026-11-24T01:38:31.592230+00:00"
     },
     "doi:10.1109/syscon48628.2021.9447066": {
       "category": "secondaire_technique",
@@ -58624,6 +58664,14 @@
       "title": "Enhancing security and privacy in educational environments: A secure grade distribution scheme with Moodle integration",
       "updated_at": "2026-11-09T00:36:48.557214+00:00"
     },
+    "doi:10.24425/bpasts.2020.134169": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Testing power system protections utilizing hardware-in-the-loop simulations on real-time Linux",
+      "updated_at": "2026-11-24T01:38:40.025534+00:00"
+    },
     "doi:10.24425/ijet.2025.155477": {
       "category": "secondaire",
       "decision": "examiner",
@@ -65567,6 +65615,70 @@
       "status": "rejected",
       "title": "ES-TRNG: A High-throughput, Low-area True Random Number Generator based on Edge Sampling",
       "updated_at": "2026-11-16T11:13:43.026315+00:00"
+    },
+    "doi:10.46586/tches.v2020.i4.1-23": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A Hybrid-CPU-FPGA-based Solution to the Recovery of Sha256crypt-hashed Passwords",
+      "updated_at": "2026-11-24T01:36:33.399162+00:00"
+    },
+    "doi:10.46586/tches.v2020.i4.129-153": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Second-Order Masked Lookup Table Compression Scheme",
+      "updated_at": "2026-11-24T01:36:33.427031+00:00"
+    },
+    "doi:10.46586/tches.v2020.i4.239-280": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 70,
+      "status": "rejected",
+      "title": "RISQ-V: Tightly Coupled RISC-V Accelerators for Post-Quantum Cryptography",
+      "updated_at": "2026-11-24T01:36:33.457371+00:00"
+    },
+    "doi:10.46586/tches.v2020.i4.309-336": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "DANA Universal Dataflow Analysis for Gate-Level Netlist Reverse Engineering",
+      "updated_at": "2026-11-24T01:38:24.123351+00:00"
+    },
+    "doi:10.46586/tches.v2020.i4.365-388": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 72,
+      "status": "rejected",
+      "title": "Retrofitting Leakage Resilient Authenticated Encryption to Microcontrollers",
+      "updated_at": "2026-11-24T01:36:33.372043+00:00"
+    },
+    "doi:10.46586/tches.v2020.i4.416-442": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "Unrolled Cryptography on Silicon",
+      "updated_at": "2026-11-24T01:38:24.149860+00:00"
+    },
+    "doi:10.46586/tches.v2020.i4.443-466": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "High-speed Instruction-set Coprocessor for Lattice-based Key Encapsulation Mechanism: Saber in Hardware",
+      "updated_at": "2026-11-24T01:38:24.175404+00:00"
+    },
+    "doi:10.46586/tches.v2020.i4.86-128": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Rejection Sampling Schemes for Extracting Uniform Distribution from Biased PUFs",
+      "updated_at": "2026-11-24T01:38:24.199823+00:00"
     },
     "doi:10.46586/tches.v2021.i1.1-24": {
       "category": "secondaire",
