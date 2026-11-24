@@ -13184,6 +13184,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "title:asurveyofpublishedattacksonintelsgx": {
+    "doi": "",
+    "publication_date": "2020-06-24",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2006.13598v1",
+    "summary": "Cet article présente une étude exhaustive des attaques publiées contre l'environnement d'exécution de confiance (TEE) Intel SGX. Les auteurs recensent et catégorisent ces attaques en sept types selon leurs détails d'implémentation, tout en analysant les mécanismes de défense et les mesures d'atténuation associés.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "A Survey of Published Attacks on Intel SGX",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:ataleofunrealizedhopehardwareperformancecounteragainstcacheattacks": {
     "doi": "",
     "publication_date": "2023-11-17",
@@ -13395,6 +13415,26 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Boosting Device Utilization in Control Flow Auditing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:cacheoutleakingdataonintelcpusviacacheevictions": {
+    "doi": "",
+    "publication_date": "2020-06-23",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2006.13353v1",
+    "summary": "CacheOut est une nouvelle attaque microarchitecturale sur les processeurs Intel qui contourne les contre-mesures de type écrasement de tampons (« buffer overwrite »). En exploitant le transfert de données depuis le cache L1 vers les tampons fuyants lors des évictions, l'attaque permet de cibler précisément les données et les parties de lignes de cache à fuiter à travers diverses frontières de sécurité.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "CacheOut: Leaking Data on Intel CPUs via Cache Evictions",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -15651,6 +15691,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:rcpalowoverheadreversiblecoherenceprotocol": {
+    "doi": "",
+    "publication_date": "2020-06-30",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 78,
+    "source": "http://arxiv.org/abs/2006.16535v4",
+    "summary": "Cet article présente RCP (Reversible Coherence Protocol), un protocole de cohérence réversible conçu pour assurer une exécution invisible des charges spéculatives (ISLE) avec un faible surcoût. Combiné à des mécanismes éliminant les effets des instructions spéculatives, il permet une exécution spéculative invisible (ISE) offrant une protection plus forte ou équivalente aux approches de type SPT et STT, tout en réduisant la surcharge.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "RCP: A Low-overhead Reversible Coherence Protocol",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:realmeyevirtualmachineintrospectionforarmccarealmvms": {
     "publication_date": "2026-08-13",
     "publication_date_note": "",
@@ -16025,6 +16085,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "SemPat: Using Hyperproperty-based Semantic Analysis to Generate Microarchitectural Attack Patterns",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:sempesecuremultipathexecutionarchitectureforremovingconditionalbranchsidechannels": {
+    "doi": "",
+    "publication_date": "2020-06-29",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2006.16345v2",
+    "summary": "SeMPE est une architecture matérielle conçue pour éliminer les canaux cachés liés aux branchements conditionnels dépendants du secret (SDBCB). Au lieu d'utiliser des expressions à temps constant, SeMPE s'appuie sur un support matériel pour récupérer, exécuter et valider séquentiellement les deux chemins d'un branchement dépendant du secret, empêchant ainsi l'adversaire de déduire les valeurs secrètes tout en réduisant la surcharge de performance.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SeMPE: Secure Multi Path Execution Architecture for Removing Conditional Branch Side Channels",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,

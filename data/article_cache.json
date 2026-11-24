@@ -4480,6 +4480,14 @@
       "title": "Emerging tunnel FET and spintronics-based hardware-secure circuit design with ultra-low energy consumption",
       "updated_at": "2026-11-15T17:38:09.941657+00:00"
     },
+    "doi:10.1007/s10836-019-05849-1": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Novel Randomized Placement for FPGA Based Robust ROPUF with Improved Uniqueness",
+      "updated_at": "2026-11-24T10:36:45.127416+00:00"
+    },
     "doi:10.1007/s10836-022-05984-2": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -30640,6 +30648,14 @@
       "title": "Trustworthy Distributed Machine Learning in Cloud-Edge-IoT Systems: A Heterogeneity-Aware Survey of Security, Privacy, and Robustness",
       "updated_at": "2026-11-02T13:03:57.267094+00:00"
     },
+    "doi:10.1109/jlt.2020.2995161": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Enhancing the Physical Layer Security of OFDM-PONs With Hardware Fingerprint Authentication: A Machine Learning Approach",
+      "updated_at": "2026-11-24T10:40:09.237735+00:00"
+    },
     "doi:10.1109/jlt.2022.3221186": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -31031,6 +31047,14 @@
       "status": "rejected",
       "title": "A 28-nm System-in-One-Macro Computing-in-Memory Chip Utilizing Leakage-Eliminated 2T1C and Capacitor-Over-Logic 1T1C eDRAM",
       "updated_at": "2026-11-02T21:16:50.276855+00:00"
+    },
+    "doi:10.1109/jsyst.2019.2919584": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Secure Communications Over Cell-Free Massive MIMO Networks With Hardware Impairments",
+      "updated_at": "2026-11-24T10:39:49.331562+00:00"
     },
     "doi:10.1109/jsyst.2021.3066437": {
       "category": "secondaire_technique",
@@ -33351,6 +33375,14 @@
       "status": "rejected",
       "title": "Design and Implementation of a RISC V Processor on FPGA",
       "updated_at": "2026-11-19T04:38:52.690780+00:00"
+    },
+    "doi:10.1109/mspec.2020.9099920": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "The rise of confidential computing: Big tech companies are adopting a new security model to protect data while it's in use - [News]",
+      "updated_at": "2026-11-24T10:40:09.281255+00:00"
     },
     "doi:10.1109/mspec.2021.9444942": {
       "category": "hors_sujet",
@@ -41672,6 +41704,22 @@
       "title": "PUF-Based Secure Chaotic Random Number Generator Design Methodology",
       "updated_at": "2026-11-24T05:37:13.003393+00:00"
     },
+    "doi:10.1109/tvlsi.2020.2982188": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Cache-Out: Leaking Cache Memory Using Hardware Trojan",
+      "updated_at": "2026-11-24T10:39:59.474802+00:00"
+    },
+    "doi:10.1109/tvlsi.2020.2982473": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 49,
+      "status": "rejected",
+      "title": "Side-Channel Hardware Trojan for Provably-Secure SCA-Protected Implementations",
+      "updated_at": "2026-11-24T10:39:59.519394+00:00"
+    },
     "doi:10.1109/tvlsi.2020.2999514": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -46151,6 +46199,14 @@
       "status": "rejected",
       "title": "Packet header attack by hardware trojan in NoC based TCMP and its impact analysis",
       "updated_at": "2026-11-19T18:44:11.663665+00:00"
+    },
+    "doi:10.1145/3484197": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Client-Server Identification Protocols with Quantum PUF",
+      "updated_at": "2026-11-24T10:36:45.170222+00:00"
     },
     "doi:10.1145/3485506": {
       "category": "coeur",
@@ -72280,6 +72336,14 @@
       "title": "Secure Smart Card IP",
       "updated_at": "2026-11-09T15:38:35.882077+00:00"
     },
+    "doi:10.5772/intechopen.82390": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A New Cross-Layer FPGA-Based Security Scheme for Wireless Networks",
+      "updated_at": "2026-11-24T10:39:49.283615+00:00"
+    },
     "doi:10.5772/intechopen.94018": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -74208,6 +74272,14 @@
       "title": "Aster: Fixing the Android TEE Ecosystem with Arm CCA",
       "updated_at": "2026-11-09T06:39:07.572696+00:00"
     },
+    "title:asurveyofpublishedattacksonintelsgx": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "A Survey of Published Attacks on Intel SGX",
+      "updated_at": "2026-11-24T10:37:37.715230+00:00"
+    },
     "title:ataleofunrealizedhopehardwareperformancecounteragainstcacheattacks": {
       "category": "coeur",
       "decision": "conserver",
@@ -74424,6 +74496,14 @@
       "title": "Basilisk: An End-to-End Open-Source Linux-Capable RISC-V SoC in 130nm CMOS",
       "updated_at": "2026-11-03T20:14:11.169830+00:00"
     },
+    "title:benchmarkingatthefrontierofhardwaresecuritylessonsfromlogiclocking": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Benchmarking at the Frontier of Hardware Security: Lessons from Logic Locking",
+      "updated_at": "2026-11-24T10:36:45.212917+00:00"
+    },
     "title:benchmarkingconfidentialcomputingperformanceonnvidiablackwellgpus": {
       "category": "secondaire",
       "decision": "examiner",
@@ -74639,6 +74719,14 @@
       "status": "rejected",
       "title": "C8s: A Confidential Kubernetes Architecture",
       "updated_at": "2026-11-03T12:28:50.796280+00:00"
+    },
+    "title:cacheoutleakingdataonintelcpusviacacheevictions": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "CacheOut: Leaking Data on Intel CPUs via Cache Evictions",
+      "updated_at": "2026-11-24T10:37:58.730505+00:00"
     },
     "title:cacheqlquantifyingandlocalizingcachesidechannelvulnerabilitiesinproductionsoftware": {
       "category": "secondaire_technique",
@@ -75040,6 +75128,14 @@
       "title": "Confidential Computing across Edge-to-Cloud for Machine Learning: A Survey Study",
       "updated_at": "2026-11-13T09:40:15.949645+00:00"
     },
+    "title:confidentialcomputingforprivacypreservingcontacttracing": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Confidential Computing for Privacy-Preserving Contact Tracing",
+      "updated_at": "2026-11-24T10:37:37.761794+00:00"
+    },
     "title:confidentialcomputinginedgecloudhierarchy": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -75328,6 +75424,14 @@
       "title": "DAO Decentralization: Voting-Bloc Entropy, Bribery, and Dark DAOs",
       "updated_at": "2026-11-12T00:37:40.560576+00:00"
     },
+    "title:darknightadataprivacyschemefortrainingandinferenceofdeepneuralnetworks": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "DarKnight: A Data Privacy Scheme for Training and Inference of Deep Neural Networks",
+      "updated_at": "2026-11-24T10:37:24.784470+00:00"
+    },
     "title:darknightanacceleratedframeworkforprivacyandintegritypreservingdeeplearningusingtrustedhardware": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -75343,6 +75447,14 @@
       "status": "imported",
       "title": "DASICS White Paper: Enhancing Memory Protection with Dynamic Compartmentalization",
       "updated_at": "2026-11-12T06:39:38.970472+00:00"
+    },
+    "title:databasereconstructionfromnoisyvolumesacachesidechannelattackonsqlite": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Database Reconstruction from Noisy Volumes: A Cache Side-Channel Attack on SQLite",
+      "updated_at": "2026-11-24T10:38:12.315808+00:00"
     },
     "title:datasamplingonmdsresistant10thgenerationintelcoreicelake": {
       "category": "coeur",
@@ -75367,6 +75479,14 @@
       "status": "rejected",
       "title": "Data Structures for Private Token Transfers in TEE-Based Networks",
       "updated_at": "2026-11-02T19:54:40.712963+00:00"
+    },
+    "title:deanonymizingtextbyfingerprintinglanguagegeneration": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "De-Anonymizing Text by Fingerprinting Language Generation",
+      "updated_at": "2026-11-24T10:38:12.266616+00:00"
     },
     "title:decentralizedfirmwareintegrityverificationforcyberphysicalsystemsusingethereumblockchain": {
       "category": "secondaire",
@@ -76655,6 +76775,14 @@
       "status": "rejected",
       "title": "Hardware Root of Trust on IoT Gateway",
       "updated_at": "2026-11-15T11:13:44.278088+00:00"
+    },
+    "title:hardwaresecurityinspinbasedcomputinginmemoryanalysisexploitsandmitigationtechniques": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Hardware Security in Spin-Based Computing-In-Memory: Analysis, Exploits, and Mitigation Techniques",
+      "updated_at": "2026-11-24T10:36:45.083605+00:00"
     },
     "title:hardwaretrojanthreatstomultichipletphotonicneuralnetworkaccelerators": {
       "category": "hors_sujet",
@@ -78808,6 +78936,14 @@
       "title": "Ratio-Based Ring Oscillator PUF Statistical Model",
       "updated_at": "2026-11-04T07:10:01.288873+00:00"
     },
+    "title:rcpalowoverheadreversiblecoherenceprotocol": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 78,
+      "status": "imported",
+      "title": "RCP: A Low-overhead Reversible Coherence Protocol",
+      "updated_at": "2026-11-24T10:39:25.045960+00:00"
+    },
     "title:realmeyevirtualmachineintrospectionforarmccarealmvms": {
       "category": "coeur",
       "decision": "conserver",
@@ -79551,6 +79687,14 @@
       "status": "imported",
       "title": "SemPat: Using Hyperproperty-based Semantic Analysis to Generate Microarchitectural Attack Patterns",
       "updated_at": "2026-11-09T14:39:38.464538+00:00"
+    },
+    "title:sempesecuremultipathexecutionarchitectureforremovingconditionalbranchsidechannels": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "SeMPE: Secure Multi Path Execution Architecture for Removing Conditional Branch Side Channels",
+      "updated_at": "2026-11-24T10:38:34.452791+00:00"
     },
     "title:sesemisecureserverlessmodelinferenceonsensitivedata": {
       "category": "secondaire",
@@ -81263,6 +81407,14 @@
       "status": "imported",
       "title": "Virtual memory for real-time systems using hPMP",
       "updated_at": "2026-11-06T11:38:45.704302+00:00"
+    },
+    "title:visorprivacypreservingvideoanalyticsasacloudservice": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 55,
+      "status": "rejected",
+      "title": "Visor: Privacy-Preserving Video Analytics as a Cloud Service",
+      "updated_at": "2026-11-24T10:37:24.827887+00:00"
     },
     "title:voltranunlockingtrustandconfidentialityindecentralizedfederatedlearningaggregation": {
       "category": "secondaire",
