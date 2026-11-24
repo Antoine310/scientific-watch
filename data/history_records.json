@@ -10097,6 +10097,46 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.46586/tches.v2020.i3.121-146": {
+    "doi": "https://doi.org/10.46586/tches.v2020.i3.121-146",
+    "publication_date": "2020-06-19",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2020-06-19",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 85,
+    "source": "https://doi.org/10.46586/tches.v2020.i3.121-146",
+    "summary": "Cette publication étudie la complexité de la virtualisation sécurisée des FPGA et du multi-tenant dans le cloud. Elle analyse l'impact du placement physique et du routage sur le succès des attaques par canal auxiliaire (CPA) menées entre des partitions logiquement isolées mais partageant la même matrice FPGA et le même réseau de distribution d'énergie, compromettant ainsi des modules cryptographiques comme l'AES.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "CPAmap: On the Complexity of Secure FPGA Virtualization, Multi-Tenancy, and Physical Design",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/tches.v2020.i3.169-195": {
+    "doi": "https://doi.org/10.46586/tches.v2020.i3.169-195",
+    "publication_date": "2020-06-19",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2020-06-19",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 90,
+    "source": "https://doi.org/10.46586/tches.v2020.i3.169-195",
+    "summary": "Cet article étudie les risques de sécurité liés aux plateformes hétérogènes FPGA-CPU dans les serveurs cloud, en particulier les attaques Rowhammer et les attaques cache. Les auteurs présentent JackHammer, une attaque Rowhammer menée depuis un FPGA vers la mémoire principale de l'hôte, et démontrent son efficacité supérieure aux attaques CPU traditionnelles, notamment pour compromettre des implémentations cryptographiques comme WolfSSL RSA.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "JackHammer: Efficient Rowhammer on Heterogeneous FPGA-CPU Platforms",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.46586/tches.v2020.i4.309-336": {
     "doi": "https://doi.org/10.46586/tches.v2020.i4.309-336",
     "publication_date": "2020-08-26",
