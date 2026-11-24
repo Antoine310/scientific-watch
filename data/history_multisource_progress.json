@@ -1,8 +1,8 @@
 {
   "accepted": 487,
   "completed": false,
-  "cursor": "MTU5MjM5OTQ5MjAwMCwxMC4zMzkwJTJGYXBwMTAxMjQxNTk=",
-  "evaluated": 8751,
+  "cursor": "MTU5Njc0ODk4MzAwMCwxMC4xMTA5JTJGbWV0cm9hZXJvc3BhY2U0ODc0Mi4yMDIwLjkxNjAzMDk=",
+  "evaluated": 8762,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -800,52 +800,395 @@
   ],
   "month": "2020-06",
   "needs_publish": false,
-  "offset": 160,
-  "pages_done": 11626,
-  "pages_in_query": 4,
+  "offset": 280,
+  "pages_done": 11629,
+  "pages_in_query": 7,
   "pending": [
     {
       "paper": {
-        "abstract_inverted_index": {},
+        "abstract_inverted_index": {
+          "(AVC)": [
+            26
+          ],
+          "(HIL)": [
+            81
+          ],
+          "(SVG)": [
+            100
+          ],
+          "AVC": [
+            42,
+            58,
+            92,
+            144
+          ],
+          "Abstract": [
+            0
+          ],
+          "FPGA": [
+            127
+          ],
+          "HIL": [
+            118
+          ],
+          "However,": [
+            62
+          ],
+          "I/O": [
+            110
+          ],
+          "In": [
+            1
+          ],
+          "MODBUS": [
+            114
+          ],
+          "RT-LAB": [
+            86,
+            106
+          ],
+          "RT-LAB.": [
+            129
+          ],
+          "The": [
+            37,
+            90
+          ],
+          "This": [
+            74
+          ],
+          "With": [
+            130
+          ],
+          "a": [
+            77
+          ],
+          "access,": [
+            21
+          ],
+          "actual": [
+            71
+          ],
+          "affect": [
+            56
+          ],
+          "and": [
+            7,
+            43,
+            50,
+            94,
+            113,
+            116,
+            138
+          ],
+          "are": [
+            103
+          ],
+          "automatic": [
+            23
+          ],
+          "based": [
+            84,
+            125
+          ],
+          "cannot": [
+            68
+          ],
+          "capacity": [
+            142
+          ],
+          "characteristic": [
+            137
+          ],
+          "characteristic.": [
+            73
+          ],
+          "characteristics": [
+            46
+          ],
+          "communication,": [
+            115
+          ],
+          "connected": [
+            104
+          ],
+          "control": [
+            25,
+            38,
+            145
+          ],
+          "controller": [
+            93,
+            101
+          ],
+          "coordinated": [
+            119
+          ],
+          "digital": [
+            65
+          ],
+          "directly.": [
+            61
+          ],
+          "effect": [
+            60
+          ],
+          "energy": [
+            20,
+            31
+          ],
+          "ensure": [
+            4
+          ],
+          "equipment": [
+            54
+          ],
+          "established": [
+            76,
+            131
+          ],
+          "generator": [
+            99
+          ],
+          "grid": [
+            14
+          ],
+          "hardware": [
+            78,
+            102
+          ],
+          "high": [
+            16
+          ],
+          "important.": [
+            36
+          ],
+          "in": [
+            79
+          ],
+          "interface": [
+            112
+          ],
+          "is": [
+            34,
+            123,
+            147
+          ],
+          "its": [
+            70
+          ],
+          "large": [
+            12
+          ],
+          "loop": [
+            80
+          ],
+          "new": [
+            30
+          ],
+          "of": [
+            10,
+            18,
+            28,
+            40,
+            47,
+            128,
+            143
+          ],
+          "on": [
+            85,
+            126
+          ],
+          "operation": [
+            9
+          ],
+          "order": [
+            2
+          ],
+          "paper": [
+            75
+          ],
+          "physical": [
+            111
+          ],
+          "platform": [
+            83,
+            108
+          ],
+          "platform,": [
+            133
+          ],
+          "power": [
+            13,
+            32,
+            52,
+            140
+          ],
+          "proportion": [
+            17
+          ],
+          "pure": [
+            64
+          ],
+          "reactive": [
+            51,
+            139
+          ],
+          "real": [
+            91,
+            96
+          ],
+          "real-time": [
+            87
+          ],
+          "regulating": [
+            53,
+            136
+          ],
+          "regulation": [
+            59
+          ],
+          "renewable": [
+            19
+          ],
+          "replacement": [
+            141
+          ],
+          "response": [
+            45,
+            72
+          ],
+          "safe": [
+            6
+          ],
+          "scheme": [
+            122
+          ],
+          "simulate": [
+            69
+          ],
+          "simulation": [
+            66,
+            88,
+            120
+          ],
+          "software": [
+            67
+          ],
+          "stable": [
+            8
+          ],
+          "static": [
+            97
+          ],
+          "station": [
+            33
+          ],
+          "strategy": [
+            39,
+            146
+          ],
+          "studied": [
+            124
+          ],
+          "system": [
+            27
+          ],
+          "system.": [
+            89
+          ],
+          "testing": [
+            82,
+            107,
+            121,
+            132
+          ],
+          "the": [
+            5,
+            11,
+            22,
+            29,
+            41,
+            44,
+            48,
+            57,
+            63,
+            95,
+            117,
+            134
+          ],
+          "to": [
+            3,
+            105
+          ],
+          "var": [
+            98
+          ],
+          "verified.": [
+            148
+          ],
+          "very": [
+            35
+          ],
+          "via": [
+            109
+          ],
+          "voltage": [
+            24,
+            49,
+            135
+          ],
+          "will": [
+            55
+          ],
+          "with": [
+            15
+          ]
+        },
         "authorships": [
           {
             "author": {
-              "display_name": "Hongyu Fang"
+              "display_name": "Nan Wang"
             }
           },
           {
             "author": {
-              "display_name": "Sai Santosh Dayapule"
+              "display_name": "Wei Zhao"
             }
           },
           {
             "author": {
-              "display_name": "Fan Yao"
+              "display_name": "Shumin Sun"
             }
           },
           {
             "author": {
-              "display_name": "Milos Doroslovacki"
+              "display_name": "Yan Cheng"
             }
           },
           {
             "author": {
-              "display_name": "Guru Venkataramani"
+              "display_name": "Yuejiao Wang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Jiawei Xing"
             }
           }
         ],
-        "doi": "https://doi.org/10.1007/s41635-020-00095-w",
-        "id": "https://doi.org/10.1007/s41635-020-00095-w",
+        "doi": "https://doi.org/10.1088/1755-1315/510/2/022016",
+        "id": "https://doi.org/10.1088/1755-1315/510/2/022016",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1007/s41635-020-00095-w"
+          "landing_page_url": "https://doi.org/10.1088/1755-1315/510/2/022016"
         },
-        "publication_date": "2020-06-07",
+        "publication_date": "2020-06-01",
         "publication_date_note": "",
         "publication_date_precision": "day",
-        "publication_date_source": "2020-06-07",
+        "publication_date_source": "2020-06-01",
         "publication_type": "revue",
-        "publication_venue": "Journal of Hardware and Systems Security",
-        "title": "Cache-Zoomer: On-demand High-resolution Cache Monitoring for Security",
+        "publication_venue": "IOP Conference Series: Earth and Environmental Science",
+        "title": "Hardware-in-loop test platform design for AVC sub-station of the new energy station based on RT-LAB",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -855,7 +1198,7 @@
         "Crossref"
       ],
       "themes": [
-        "T08 — Cache & Temporal Isolation"
+        "T04 — Runtime Attestation"
       ]
     },
     {
@@ -864,32 +1207,66 @@
         "authorships": [
           {
             "author": {
-              "display_name": "Qiaoyan Yu"
+              "display_name": "Kathleen E. Hamilton"
             }
           },
           {
             "author": {
-              "display_name": "Zhiming Zhang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jaya Dofe"
+              "display_name": "Raphael C. Pooser"
             }
           }
         ],
-        "doi": "https://doi.org/10.1002/9781119593386.ch18",
-        "id": "https://doi.org/10.1002/9781119593386.ch18",
+        "doi": "https://doi.org/10.1007/s42484-020-00021-x",
+        "id": "https://doi.org/10.1007/s42484-020-00021-x",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1002/9781119593386.ch18"
+          "landing_page_url": "https://doi.org/10.1007/s42484-020-00021-x"
         },
-        "publication_date": "2020-06-12",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2020-06-12",
-        "publication_type": "inconnu",
-        "publication_venue": "Modeling and Design of Secure Internet of Things",
-        "title": "Proactive Defense Against Security Threats on IoT Hardware",
+        "publication_date": "2020-06-01",
+        "publication_date_note": "Date source Crossref : 2020-06 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2020-06",
+        "publication_type": "revue",
+        "publication_venue": "Quantum Machine Intelligence",
+        "title": "Error-mitigated data-driven circuit learning on noisy quantum hardware",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Nassim Corteggiani"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Aurelien Francillon"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1109/dsn48063.2020.00046",
+        "id": "https://doi.org/10.1109/dsn48063.2020.00046",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1109/dsn48063.2020.00046"
+        },
+        "publication_date": "2020-06-01",
+        "publication_date_note": "Date source Crossref : 2020-06 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2020-06",
+        "publication_type": "conference",
+        "publication_venue": "2020 50th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
+        "title": "HardSnap: Leveraging Hardware Snapshotting for Embedded Systems Security Testing",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -900,700 +1277,6 @@
       ],
       "themes": [
         "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {
-          "(AI)": [
-            126
-          ],
-          "(IoT)": [
-            5
-          ],
-          "(mIoT)": [
-            162
-          ],
-          "As": [
-            0
-          ],
-          "However,": [
-            73
-          ],
-          "In": [
-            145,
-            259
-          ],
-          "Internet": [
-            2
-          ],
-          "IoT": [
-            21,
-            53,
-            156,
-            161
-          ],
-          "IoT,": [
-            276
-          ],
-          "On": [
-            32
-          ],
-          "Pursuant": [
-            63
-          ],
-          "RISC-V": [
-            221
-          ],
-          "Recently,": [
-            106
-          ],
-          "The": [
-            194,
-            212
-          ],
-          "Things": [
-            4
-          ],
-          "Through": [
-            236
-          ],
-          "a": [
-            154,
-            159,
-            192,
-            206,
-            224,
-            272
-          ],
-          "acceleration": [
-            142,
-            168
-          ],
-          "account": [
-            33
-          ],
-          "addition,": [
-            260
-          ],
-          "and": [
-            23,
-            49,
-            110,
-            127,
-            136,
-            177,
-            223
-          ],
-          "and,": [
-            115
-          ],
-          "application": [
-            108
-          ],
-          "applications": [
-            118
-          ],
-          "applied": [
-            131
-          ],
-          "architecture": [
-            222
-          ],
-          "are": [
-            29,
-            130,
-            143
-          ],
-          "artificial": [
-            124
-          ],
-          "as": [
-            45,
-            47,
-            107,
-            123,
-            210
-          ],
-          "at": [
-            26,
-            182
-          ],
-          "based": [
-            139,
-            204,
-            219,
-            233
-          ],
-          "be": [
-            278
-          ],
-          "because": [
-            94
-          ],
-          "becoming": [
-            7
-          ],
-          "bottlenecks": [
-            36
-          ],
-          "by": [
-            252,
-            261
-          ],
-          "callability-based": [
-            244
-          ],
-          "callability.": [
-            211,
-            235
-          ],
-          "called": [
-            158
-          ],
-          "can": [
-            165,
-            247,
-            277
-          ],
-          "cannot": [
-            80
-          ],
-          "capabilities": [
-            138
-          ],
-          "capabilities.": [
-            72
-          ],
-          "cloud": [
-            58,
-            104
-          ],
-          "collected": [
-            111
-          ],
-          "complex": [
-            70,
-            120
-          ],
-          "computation": [
-            71,
-            121,
-            137
-          ],
-          "computing": [
-            59
-          ],
-          "computing.": [
-            62,
-            105
-          ],
-          "confirmed": [
-            241
-          ],
-          "connect": [
-            19
-          ],
-          "consists": [
-            214
-          ],
-          "constraint": [
-            274
-          ],
-          "constraints,": [
-            77
-          ],
-          "consumption,": [
-            269
-          ],
-          "daily": [
-            12
-          ],
-          "data": [
-            24,
-            112,
-            190
-          ],
-          "data,": [
-            44,
-            86
-          ],
-          "device": [
-            255
-          ],
-          "devices": [
-            17,
-            68,
-            79,
-            218,
-            232
-          ],
-          "diversify,": [
-            114
-          ],
-          "due": [
-            39,
-            74
-          ],
-          "edge": [
-            61,
-            78,
-            217,
-            231,
-            254
-          ],
-          "edges": [
-            22,
-            28,
-            183
-          ],
-          "edges,": [
-            133
-          ],
-          "edge’s": [
-            199
-          ],
-          "embedded": [
-            67
-          ],
-          "enough": [
-            82
-          ],
-          "equip": [
-            81
-          ],
-          "experimental": [
-            238
-          ],
-          "fields": [
-            109
-          ],
-          "fixed": [
-            99
-          ],
-          "flexibility": [
-            89
-          ],
-          "flexible": [
-            134
-          ],
-          "from": [
-            57
-          ],
-          "functions": [
-            264
-          ],
-          "functions,": [
-            101
-          ],
-          "generated": [
-            25
-          ],
-          "hardware": [
-            83,
-            100,
-            141,
-            167,
-            171,
-            181,
-            200,
-            250
-          ],
-          "hardware,": [
-            267
-          ],
-          "has": [
-            55
-          ],
-          "in": [
-            10,
-            37,
-            43,
-            116,
-            256
-          ],
-          "increase": [
-            42
-          ],
-          "increasing.": [
-            31
-          ],
-          "instead": [
-            184
-          ],
-          "intelligence": [
-            125
-          ],
-          "is": [
-            6,
-            92,
-            271
-          ],
-          "issues,": [
-            51
-          ],
-          "known": [
-            209
-          ],
-          "limitations": [
-            97
-          ],
-          "limited": [
-            170
-          ],
-          "lives,": [
-            13
-          ],
-          "mIoT": [
-            213,
-            245
-          ],
-          "major": [
-            273
-          ],
-          "manages": [
-            227
-          ],
-          "meet": [
-            149
-          ],
-          "metamorphic": [
-            160
-          ],
-          "minimal": [
-            202
-          ],
-          "more": [
-            8
-          ],
-          "needs,": [
-            151
-          ],
-          "new": [
-            155
-          ],
-          "number": [
-            15
-          ],
-          "of": [
-            3,
-            16,
-            34,
-            90,
-            95,
-            98,
-            179,
-            185,
-            188,
-            215,
-            230,
-            275
-          ],
-          "on": [
-            140,
-            205,
-            220,
-            234
-          ],
-          "on-demand": [
-            175
-          ],
-          "operation": [
-            91
-          ],
-          "our": [
-            11
-          ],
-          "overhead,": [
-            203
-          ],
-          "paper,": [
-            147
-          ],
-          "paradigm": [
-            54
-          ],
-          "particular,": [
-            117
-          ],
-          "performing": [
-            262
-          ],
-          "pervasive": [
-            9
-          ],
-          "platform": [
-            172,
-            196,
-            246
-          ],
-          "platform,": [
-            157,
-            163
-          ],
-          "power": [
-            268
-          ],
-          "privacy": [
-            50
-          ],
-          "probabilistic": [
-            207
-          ],
-          "process": [
-            85
-          ],
-          "processing": [
-            129,
-            135
-          ],
-          "propose": [
-            153
-          ],
-          "proposed": [
-            195
-          ],
-          "provide": [
-            248
-          ],
-          "rapidly": [
-            30
-          ],
-          "real": [
-            257
-          ],
-          "reconfigurable": [
-            216
-          ],
-          "reconfiguration": [
-            178,
-            229
-          ],
-          "reconfigures": [
-            197
-          ],
-          "reduced,": [
-            93
-          ],
-          "reduced.": [
-            279
-          ],
-          "relative": [
-            102
-          ],
-          "require": [
-            69
-          ],
-          "required": [
-            180,
-            251
-          ],
-          "required.": [
-            144
-          ],
-          "requiring": [
-            119
-          ],
-          "resources,": [
-            173
-          ],
-          "results,": [
-            239
-          ],
-          "security": [
-            48
-          ],
-          "sensing": [
-            189
-          ],
-          "server": [
-            225
-          ],
-          "server.": [
-            193
-          ],
-          "servers,": [
-            38
-          ],
-          "shifted": [
-            56
-          ],
-          "signal": [
-            128
-          ],
-          "small": [
-            266
-          ],
-          "so": [
-            87
-          ],
-          "such": [
-            122
-          ],
-          "that": [
-            18,
-            226,
-            242
-          ],
-          "the": [
-            1,
-            14,
-            27,
-            35,
-            41,
-            52,
-            88,
-            96,
-            198,
-            228,
-            243,
-            249,
-            253
-          ],
-          "these": [
-            150
-          ],
-          "this": [
-            65,
-            146
-          ],
-          "through": [
-            174
-          ],
-          "time.": [
-            258
-          ],
-          "to": [
-            20,
-            40,
-            60,
-            64,
-            75,
-            84,
-            103,
-            132,
-            148,
-            191
-          ],
-          "transference": [
-            187
-          ],
-          "transmission": [
-            176
-          ],
-          "trend,": [
-            66
-          ],
-          "types": [
-            113
-          ],
-          "value,": [
-            208
-          ],
-          "various": [
-            76,
-            166,
-            237,
-            263
-          ],
-          "via": [
-            186
-          ],
-          "we": [
-            152,
-            240
-          ],
-          "well": [
-            46
-          ],
-          "which": [
-            164,
-            270
-          ],
-          "with": [
-            169,
-            201,
-            265
-          ]
-        },
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Dongkyu Lee"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Hyeongyun Moon"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Sejong Oh"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Daejin Park"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.3390/s20123337",
-        "id": "https://doi.org/10.3390/s20123337",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.3390/s20123337"
-        },
-        "publication_date": "2020-06-12",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2020-06-12",
-        "publication_type": "revue",
-        "publication_venue": "Sensors",
-        "title": "mIoT: Metamorphic IoT Platform for On-Demand Hardware Replacement in Large-Scaled IoT Applications",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Felix Miller"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1007/s11623-020-1304-2",
-        "id": "https://doi.org/10.1007/s11623-020-1304-2",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1007/s11623-020-1304-2"
-        },
-        "publication_date": "2020-06-15",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2020-06-15",
-        "publication_type": "revue",
-        "publication_venue": "Datenschutz und Datensicherheit - DuD",
-        "title": "Root-of-Trust-Architekturen als Open-Source-Hardware und deren Zertifizierung",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
       ]
     }
   ],
@@ -4000,7 +3683,7 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 3972,
+  "prefilter_review_overflow": 3980,
   "query_index": 17,
   "secondary": 482,
   "skipped": 9825,
