@@ -10768,6 +10768,14 @@
       "title": "Fire detection and anti-fire system to enhance food security: A concept of smart agriculture systems-based IoT and embedded systems with machine-to-machine protocol",
       "updated_at": "2026-11-06T19:37:11.639197+00:00"
     },
+    "doi:10.1016/j.scib.2020.02.029": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "An experimental demonstration of long-haul public-channel key distribution using matched superlattice physical unclonable function pairs",
+      "updated_at": "2026-11-24T22:37:05.155842+00:00"
+    },
     "doi:10.1016/j.scico.2021.102766": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -29728,6 +29736,14 @@
       "title": "Analysis of Lightweight Cryptographic Algorithms on IoT Hardware Platforms",
       "updated_at": "2026-11-15T18:36:41.258870+00:00"
     },
+    "doi:10.1109/itnec48623.2020.9085024": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A Network Covert Timing Channel Detection Method Based on Chaos Theory and Threshold Secret Sharing",
+      "updated_at": "2026-11-24T22:38:16.714916+00:00"
+    },
     "doi:10.1109/itnec56291.2023.10082372": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -36752,6 +36768,14 @@
       "title": "Laser-Induced Fault Injection on Smartphone Bypassing the Secure Boot-Extended Version",
       "updated_at": "2026-11-23T00:37:17.260998+00:00"
     },
+    "doi:10.1109/tc.2020.2968066": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 62,
+      "status": "rejected",
+      "title": "Page Reusability-Based Cache Partitioning for Multi-Core Systems",
+      "updated_at": "2026-11-24T22:37:42.853546+00:00"
+    },
     "doi:10.1109/tc.2020.2987314": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -40560,6 +40584,14 @@
       "title": "A Low Power Consumption Software PUF Based on Video Coding Hardware for Image Frame Encryption",
       "updated_at": "2026-11-03T13:40:07.623620+00:00"
     },
+    "doi:10.1109/tetci.2019.2918573": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Intelligent Cache Pollution Attacks Detection for Edge Computing Enabled Mobile Social Networks",
+      "updated_at": "2026-11-24T22:37:32.809229+00:00"
+    },
     "doi:10.1109/tgcn.2023.3280118": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -43935,6 +43967,14 @@
       "status": "rejected",
       "title": "Novel mechanosensory role for acid sensing ion channel subtype 1a in evoking the exercise pressor reflex in rats with heart failure",
       "updated_at": "2026-11-17T20:38:30.527574+00:00"
+    },
+    "doi:10.1115/1.4046969": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Effects of Heat Flux, Mass Flux, Inlet Fluid Subcooling, and Channel Orientation on Subcooled Flow Boiling in a High-Aspect-Ratio Rectangular Microchannel",
+      "updated_at": "2026-11-24T22:37:22.464761+00:00"
     },
     "doi:10.1115/1.4050547": {
       "category": "hors_sujet",
@@ -66583,6 +66623,62 @@
       "status": "rejected",
       "title": "Single-Trace Attacks on Keccak",
       "updated_at": "2026-11-24T19:38:15.774352+00:00"
+    },
+    "doi:10.46586/tches.v2020.i3.269-306": {
+      "category": "transfert_explicite",
+      "decision": "examiner",
+      "score": 50,
+      "status": "rejected",
+      "title": "Parameterized Hardware Accelerators for Lattice-Based Cryptography and Their Application to the HW/SW Co-Design of qTESLA",
+      "updated_at": "2026-11-24T22:36:28.643644+00:00"
+    },
+    "doi:10.46586/tches.v2020.i3.307-335": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Generic Side-channel attacks on CCA-secure lattice-based PKE and KEMs",
+      "updated_at": "2026-11-24T22:36:28.679071+00:00"
+    },
+    "doi:10.46586/tches.v2020.i3.358-401": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Understanding Screaming Channels: From a Detailed Analysis to Improved Attacks",
+      "updated_at": "2026-11-24T22:36:28.714497+00:00"
+    },
+    "doi:10.46586/tches.v2020.i3.402-427": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Fixslicing: A New GIFT Representation",
+      "updated_at": "2026-11-24T22:36:28.749249+00:00"
+    },
+    "doi:10.46586/tches.v2020.i3.428-453": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "From A to Z: Projective coordinates leakage in the wild",
+      "updated_at": "2026-11-24T22:36:28.806530+00:00"
+    },
+    "doi:10.46586/tches.v2020.i3.483-507": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "High-Speed Masking for Polynomial Comparison in Lattice-based KEMs",
+      "updated_at": "2026-11-24T22:36:28.841635+00:00"
+    },
+    "doi:10.46586/tches.v2020.i3.97-120": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Splitting the Interpose PUF: A Novel Modeling Attack Strategy",
+      "updated_at": "2026-11-24T22:36:28.945162+00:00"
     },
     "doi:10.46586/tches.v2020.i4.1-23": {
       "category": "secondaire",
