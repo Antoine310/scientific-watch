@@ -2343,6 +2343,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/iolts50870.2020.9159708": {
+    "doi": "https://doi.org/10.1109/iolts50870.2020.9159708",
+    "publication_date": "2020-07-01",
+    "publication_date_note": "Date source Crossref : 2020-07 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2020-07",
+    "publication_type": "conference",
+    "publication_venue": "2020 IEEE 26th International Symposium on On-Line Testing and Robust System Design (IOLTS)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/iolts50870.2020.9159708",
+    "summary": "Cet article présente SCARF, une méthodologie en temps réel basée sur le machine learning pour détecter les attaques par canal auxiliaire (SCA). Contrairement aux approches existantes, SCARF surveille uniquement le comportement de l'application victime via des compteurs de performance matériels (HPC) afin d'éviter la manipulation des données par l'attaquant. Les auteurs introduisent également une technique de minimisation des fausses alarmes (FAM) pour améliorer la fiabilité de la détection.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "SCARF: Detecting Side-Channel Attacks at Real-time using Low-level Hardware Features",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/iolts56730.2022.9897297": {
     "doi": "https://doi.org/10.1109/iolts56730.2022.9897297",
     "publication_date": "2022-09-12",
