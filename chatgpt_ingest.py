@@ -168,11 +168,13 @@ def public_index(rows, existing):
 
 
 def main():
-    files = sorted(INBOX.glob('*.json'))[:MAX_FILES]
-    if not files:
-        print('Aucun lot ChatGPT en attente.')
-        return
     state = load(STATE, {'processed': {}, 'published': {}})
+    files = [p for p in sorted(INBOX.glob('*.json'))
+             if str(p) not in state['processed']][:MAX_FILES]
+    if not files:
+        print('Aucun nouveau lot ChatGPT en attente.')
+        if not APPLY or not state['published']:
+            return
     primary, secondary = load(PRIMARY, {}), load(SECONDARY, {})
     cache = cache_v16.read()
     all_rows = {**primary, **secondary}
