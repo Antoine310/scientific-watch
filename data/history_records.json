@@ -3352,6 +3352,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/mm.2020.2985366": {
+    "doi": "https://doi.org/10.1109/mm.2020.2985366",
+    "publication_date": "2020-05-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2020-05-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Micro",
+    "score": 90,
+    "source": "https://doi.org/10.1109/mm.2020.2985366",
+    "summary": "Cet article propose une extension d'ISA orientée vers la sécurité, appelée Data-Oblivious ISA (OISA), pour permettre l'écriture de code sans canaux cachés microarchitecturaux tout en maintenant de bonnes performances. L'approche découple la politique de sécurité de la microarchitecture et du modèle de menace. Les auteurs présentent les principes de l'OISA, une implémentation concrète sur RISC-V BOOM, une analyse formelle et une évaluation des performances.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Creating Foundations for Secure Microarchitectures With Data-Oblivious ISA Extensions",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/mm.2023.3273189": {
     "doi": "https://doi.org/10.1109/mm.2023.3273189",
     "publication_date": "2023-07-01",
