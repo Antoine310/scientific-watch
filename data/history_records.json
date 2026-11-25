@@ -10190,6 +10190,46 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.46586/tches.v2020.i2.196-221": {
+    "doi": "https://doi.org/10.46586/tches.v2020.i2.196-221",
+    "publication_date": "2020-03-02",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2020-03-02",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 85,
+    "source": "https://doi.org/10.46586/tches.v2020.i2.196-221",
+    "summary": "Cette publication analyse la sécurité de l'algorithme GCD binaire de mbedTLS face aux attaques par canal auxiliaire basées sur la microarchitecture. En utilisant le framework SGX-Step contre des enclaves Intel SGX, les auteurs démontrent que des boucles très serrées dans l'implémentation mbedTLS le rendent vulnérable, permettant notamment des attaques par trace unique (single-trace) sur les chemins de code ECDSA et RSA avec des taux de réussite proches de 100%.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "When one vulnerable primitive turns viral: Novel single-trace attacks on ECDSA and RSA",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/tches.v2020.i2.73-98": {
+    "doi": "https://doi.org/10.46586/tches.v2020.i2.73-98",
+    "publication_date": "2020-03-02",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2020-03-02",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 75,
+    "source": "https://doi.org/10.46586/tches.v2020.i2.73-98",
+    "summary": "Cet article présente FENL, une instruction (ISE) conçue pour atténuer les fuites micro-architecturales analogiques, telles que les fuites de poids et de distance de Hamming basées sur la puissance au niveau des registres de pipeline. S'appuyant sur l'approche de l'ISA augmentée (aISA), FENL agit comme une barrière (« fence ») empêchant les interactions et les fuites entre les instructions situées avant et après elle dans l'ordre du programme. Les auteurs démontrent que FENL génère un surcoût relativement faible tout en constituant un outil efficace pour localiser et réduire systématiquement les fuites.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "FENL: an ISE to mitigate analogue micro-architectural leakage",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.46586/tches.v2020.i3.121-146": {
     "doi": "https://doi.org/10.46586/tches.v2020.i3.121-146",
     "publication_date": "2020-06-19",
