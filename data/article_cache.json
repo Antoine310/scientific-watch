@@ -12608,6 +12608,14 @@
       "title": "A photonic crystal sensing array based on a tandem CRISPR/Cas13a system for ultra-sensitive and high-throughput detection of the CVA6 virus",
       "updated_at": "2026-11-03T19:51:54.616695+00:00"
     },
+    "doi:10.1049/2020.02.019": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Remote Attestation for Intelligent Electronic Devices in Smart Grid Based on Trusted Level Measurement",
+      "updated_at": "2026-11-25T03:37:24.193445+00:00"
+    },
     "doi:10.1049/cds2.12111": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -13807,6 +13815,14 @@
       "status": "rejected",
       "title": "Towards secure computation and trusted silicon: emerging trends in ISSCC 2026 hardware security",
       "updated_at": "2026-11-02T20:56:26.012682+00:00"
+    },
+    "doi:10.1088/1742-6596/1550/3/032086": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Research on the Detection Method of HOG-SVM for Doping Modified Hardware Trojan",
+      "updated_at": "2026-11-25T03:38:04.873312+00:00"
     },
     "doi:10.1088/1742-6596/1631/1/012002": {
       "category": "secondaire",
@@ -20776,6 +20792,14 @@
       "title": "Towards an Enhanced PicoRV32: Architectural Design and Modular Subsystem Integration for a High-Fidelity RISC-V Core",
       "updated_at": "2026-11-03T17:53:51.188864+00:00"
     },
+    "doi:10.1109/ets48528.2020.9131560": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware Trojan Attacks in Analog/Mixed-Signal ICs via the Test Access Mechanism",
+      "updated_at": "2026-11-25T03:38:14.955059+00:00"
+    },
     "doi:10.1109/ets50041.2021.9465373": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -24800,6 +24824,14 @@
       "title": "SRACARE: Secure Remote Attestation with Code Authentication and Resilience Engine",
       "updated_at": "2026-11-11T17:14:47.795526+00:00"
     },
+    "doi:10.1109/icet49382.2020.9119643": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Hardware Implementation of a Cryptographically Secure Pseudo-Random Number Generators Based on Koblitz Elliptic Curves",
+      "updated_at": "2026-11-25T03:38:04.966049+00:00"
+    },
     "doi:10.1109/icet51757.2021.9450911": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -27344,6 +27376,14 @@
       "title": "MuonTrap: Preventing Cross-Domain Spectre-Like Attacks by Capturing Speculative State",
       "updated_at": "2026-11-12T23:14:27.247000+00:00"
     },
+    "doi:10.1109/isca45697.2020.00062": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Hardware-Based Domain Virtualization for Intra-Process Isolation of Persistent Memory Objects",
+      "updated_at": "2026-11-25T03:38:14.813432+00:00"
+    },
     "doi:10.1109/isca45697.2020.00065": {
       "category": "coeur",
       "decision": "conserver",
@@ -27351,6 +27391,14 @@
       "status": "imported",
       "title": "Packet Chasing: Spying on Network Packets over a Cache Side-Channel",
       "updated_at": "2026-11-12T23:14:25.098507+00:00"
+    },
+    "doi:10.1109/isca45697.2020.00067": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "A Bus Authentication and Anti-Probing Architecture Extending Hardware Trusted Computing Base Off CPU Chips and Beyond",
+      "updated_at": "2026-11-25T03:38:14.863355+00:00"
     },
     "doi:10.1109/isca52012.2021.00037": {
       "category": "coeur",
@@ -36384,6 +36432,14 @@
       "title": "Enabling Rack-scale Confidential Computing using Heterogeneous Trusted Execution Environment",
       "updated_at": "2026-11-12T20:13:57.580192+00:00"
     },
+    "doi:10.1109/sp40000.2020.00055": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 60,
+      "status": "rejected",
+      "title": "Rigorous engineering for hardware security: Formal modelling and proof in the CHERI design and implementation process",
+      "updated_at": "2026-11-25T03:38:14.908425+00:00"
+    },
     "doi:10.1109/sp40000.2020.00089": {
       "category": "coeur",
       "decision": "conserver",
@@ -36535,6 +36591,14 @@
       "status": "imported",
       "title": "TDXRay: Microarchitectural Side-Channel Analysis of Intel TDX for Real-World Workloads",
       "updated_at": "2026-11-01T20:13:52.972857+00:00"
+    },
+    "doi:10.1109/spw50608.2020.00044": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "On-Chip Randomization for Memory Protection Against Hardware Supply Chain Attacks to DRAM",
+      "updated_at": "2026-11-25T03:38:24.352790+00:00"
     },
     "doi:10.1109/spw53761.2021.00036": {
       "category": "coeur",
@@ -42880,6 +42944,14 @@
       "title": "Low-level algorithm for a software-emulated I 2 C I/O module in general purpose RISC-V based microcontrollers",
       "updated_at": "2026-11-19T17:38:12.896445+00:00"
     },
+    "doi:10.1109/usbereit48449.2020.9117757": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Testing Software and Hardware Data Security Tools Using the Automata Theory and the Graph Theory",
+      "updated_at": "2026-11-25T03:38:04.919997+00:00"
+    },
     "doi:10.1109/usbereit56278.2022.9923382": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -44176,6 +44248,14 @@
       "title": "Photonic physical unclonable functions: from the concept to fully functional device operating in the field",
       "updated_at": "2026-11-13T08:13:52.347571+00:00"
     },
+    "doi:10.1117/12.2557551": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 55,
+      "status": "rejected",
+      "title": "Remote attestation of host-based defense via optical channel",
+      "updated_at": "2026-11-25T03:37:12.970604+00:00"
+    },
     "doi:10.1117/12.2568289": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -45424,6 +45504,14 @@
       "title": "Exploring Branch Predictors for Constructing Transient Execution Trojans",
       "updated_at": "2026-11-13T05:14:07.310370+00:00"
     },
+    "doi:10.1145/3378678.3391886": {
+      "category": "secondaire_technique",
+      "decision": "conserver",
+      "score": 74,
+      "status": "rejected",
+      "title": "A secure hardware-software solution based on RISC-V, logic locking and microkernel",
+      "updated_at": "2026-11-25T03:37:24.147677+00:00"
+    },
     "doi:10.1145/3380774.3382016": {
       "category": "coeur",
       "decision": "conserver",
@@ -45487,6 +45575,14 @@
       "status": "rejected",
       "title": "Security Analysis of Hardware Trojans on Approximate Circuits",
       "updated_at": "2026-11-23T11:37:15.702467+00:00"
+    },
+    "doi:10.1145/3391890": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Runtime Identification of Hardware Trojans by Feature Analysis on Gate-Level Unstructured Data and Anomaly Detection",
+      "updated_at": "2026-11-25T03:37:24.102690+00:00"
     },
     "doi:10.1145/3391900": {
       "category": "hors_sujet",
@@ -53624,6 +53720,14 @@
       "title": "Design of a Capacitorless Dynamic Random Access Memory Based on Junctionless Dual-Gate Field-Effect Transistor with a Silicon-Germanium/Silicon Nanotube",
       "updated_at": "2026-11-20T12:36:55.922640+00:00"
     },
+    "doi:10.1166/jno.2020.2835": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 5,
+      "status": "rejected",
+      "title": "Field-Programmable Gate Array-Based Hardware Design of Optical Fiber Transducer Integrated Platform",
+      "updated_at": "2026-11-25T03:38:24.398129+00:00"
+    },
     "doi:10.1166/jno.2025.3815": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -57415,6 +57519,14 @@
       "status": "rejected",
       "title": "Comparison of Conventional Single Phase 21-Level Cascaded H-Bridge MLI and Single Phase 21-Level MLI with Reduced Switches and Sources and Verifying the Topology with Hardware of 7-Level MLI",
       "updated_at": "2026-11-14T22:38:36.576158+00:00"
+    },
+    "doi:10.21275/sr24529193549": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Advanced Cryptographic Techniques for Cloud Data Security: A Technical Exploration into State-of-the-Art Encryption Methodologies Including Homomorphic Encryption, Quantum-Resistant Algorithms, and Hardware Security Modules for Protecting Cloud Data",
+      "updated_at": "2026-11-25T03:38:24.442941+00:00"
     },
     "doi:10.21275/sr24601021648": {
       "category": "hors_sujet",
@@ -64168,6 +64280,14 @@
       "title": "Advances in Physical Unclonable Functions Based on New Technologies: A Comprehensive Review",
       "updated_at": "2026-11-05T23:13:23.638334+00:00"
     },
+    "doi:10.3390/math8050829": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Statistical RF/Analog Integrated Circuit Design Using Combinatorial Randomness for Hardware Security Applications",
+      "updated_at": "2026-11-25T03:37:24.056785+00:00"
+    },
     "doi:10.3390/math8081208": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -64359,6 +64479,14 @@
       "status": "rejected",
       "title": "True Random Number Generator (TRNG) Utilizing FM Radio Signals for Mobile and Embedded Devices in Multi-Access Edge Computing",
       "updated_at": "2026-11-14T08:13:42.859362+00:00"
+    },
+    "doi:10.3390/s20113092": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Anomaly Detection Trusted Hardware Sensors for Critical Infrastructure Legacy Devices",
+      "updated_at": "2026-11-25T03:38:04.827242+00:00"
     },
     "doi:10.3390/s20123337": {
       "category": "secondaire",
