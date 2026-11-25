@@ -1,0 +1,72 @@
+name: ChatGPT — importer les publications validées
+
+on:
+  push:
+    paths:
+      - 'inbox/chatgpt/*.json'
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: 'Publier réellement (false = aperçu)'
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scientific-watch-shared-state
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    env:
+      NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+      NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+      NOTION_DATA_SOURCE_ID: ${{ secrets.NOTION_DATA_SOURCE_ID }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.5-flash-lite' }}
+      PUBLIC_REPO_TOKEN: ${{ secrets.PUBLIC_REPO_TOKEN }}
+      PUBLIC_REPO: Antoine310/scientific-watch-v2
+      PUBLIC_DRY_RUN: 'false'
+      WRITE_NOTION: 'true'
+      CHATGPT_APPLY: ${{ github.event_name == 'push' || inputs.apply == true }}
+    steps:
+      - name: Checkout du dépôt scientifique
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Vérifier les scripts Python
+        run: python3 -m py_compile chatgpt_ingest.py cache_v16.py publish_history.py publish_weekly.py collect.py
+
+      - name: Importer les découvertes ChatGPT
+        shell: bash
+        run: |
+          set -o pipefail
+          mkdir -p run-logs
+          python3 -u chatgpt_ingest.py 2>&1 | tee "run-logs/chatgpt-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}.log"
+
+      - name: Conserver le journal, même si l'import a échoué
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: logs-chatgpt-${{ github.run_id }}-${{ github.run_attempt }}
+          path: run-logs/*.log
+          if-no-files-found: warn
+
+      - name: Sauvegarder le cache et la progression même en cas d'erreur
+        if: ${{ always() && (github.event_name == 'push' || inputs.apply == true) }}
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f data/article_cache.json data/history_records.json data/history_secondary_records.json data/chatgpt_ingest_state.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'Veille ChatGPT : cache, historique et progression'
+            git pull --rebase
+            git push
+          fi
