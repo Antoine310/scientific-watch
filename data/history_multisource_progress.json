@@ -1,8 +1,8 @@
 {
-  "accepted": 489,
+  "accepted": 493,
   "completed": false,
-  "cursor": "MTU4NjQ1MzkwOTAwMCwxMC4xMDE2JTJGai5nZnMuMjAyMC4xMDAzNjU=",
-  "evaluated": 8790,
+  "cursor": "MTU4NzY4NTg5NjAwMCwxMC4xMTE3JTJGMTIuMjU1ODk2Ng==",
+  "evaluated": 8806,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -801,12 +801,13 @@
     "monthly/2020-06/query-19 : résultat tronqué au plafond 12 pages",
     "monthly/2020-06/query-20 : résultat tronqué au plafond 12 pages",
     "monthly/2020-06/query-21 : résultat tronqué au plafond 12 pages",
-    "monthly/2020-06/query-22 : résultat tronqué au plafond 12 pages"
+    "monthly/2020-06/query-22 : résultat tronqué au plafond 12 pages",
+    "monthly/2020-06/query-24 : résultat tronqué au plafond 12 pages"
   ],
-  "month": "2020-06",
+  "month": "2020-05",
   "needs_publish": false,
   "offset": 200,
-  "pages_done": 11706,
+  "pages_done": 11731,
   "pages_in_query": 5,
   "pending": [],
   "phase": "monthly",
@@ -3212,9 +3213,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 4013,
-  "query_index": 24,
-  "secondary": 484,
-  "skipped": 9879,
+  "prefilter_review_overflow": 4015,
+  "query_index": 13,
+  "secondary": 487,
+  "skipped": 9888,
   "version": 1
 }

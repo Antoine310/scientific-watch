@@ -14543,6 +14543,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:frontalattackleakingcontrolflowinsgxviathecpufrontend": {
+    "doi": "",
+    "publication_date": "2020-05-23",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 92,
+    "source": "http://arxiv.org/abs/2005.11516v4",
+    "summary": "Cette publication présente 'Frontal Attack', une nouvelle attaque par canal auxiliaire temporel ciblant les processeurs Intel. L'attaque exploite les différences de temps d'exécution dans le frontend du CPU lors des interruptions, permettant de fuiter des flux de contrôle dans des enclaves SGX, y compris pour des branches strictement identiques sur le plan des instructions.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Frontal Attack: Leaking Control-Flow in SGX via the CPU Frontend",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:fuzziliconapostsiliconmicrocodeguidedx86cpufuzzer": {
     "doi": "",
     "publication_date": "2025-12-29",
@@ -15596,6 +15616,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Pre-cache: A Microarchitectural Solution to prevent Meltdown and Spectre",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:preventionofmicroarchitecturalcovertchannelsonanopensource64bitriscvcore": {
+    "doi": "",
+    "publication_date": "2020-05-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2005.02193v1",
+    "summary": "Cet article étudie la prévention des canaux cachés microarchitecturaux sur un cœur RISC-V 64 bits open-source (Ariane) en combinant le support du micronoyau seL4 et une extension matérielle légère de type instruction unique pour purger l'état microarchitectural.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Prevention of Microarchitectural Covert Channels on an Open-Source 64-bit RISC-V Core",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -16683,6 +16723,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:surveyoftransientexecutionattacks": {
+    "doi": "",
+    "publication_date": "2020-05-27",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2005.13435v2",
+    "summary": "Cet article présente une étude synthétique sur les attaques par exécution transitoire (ou exécution spéculative), telles que Spectre et Meltdown. Il catégorise les composants et phases de ces attaques, propose des métriques d'évaluation de faisabilité, résume les données pouvant être divulguées, compare les attaques existantes, discute leurs limites et passe en revue les atténuations proposées au niveau micro-architectural.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Survey of Transient Execution Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:systematicevaluationofrandomizedcachedesignsagainstcacheoccupancy": {
     "doi": "",
     "publication_date": "2023-10-08",
@@ -17195,6 +17255,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Update the Root of Integrity Tree in Secure Non-Volatile Memory Systems with Low Overhead",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:validationofabstractsidechannelmodelsforcomputerarchitectures": {
+    "doi": "",
+    "publication_date": "2020-05-11",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2005.05254v1",
+    "summary": "Cette publication présente Scam-V, une méthodologie et un outil pour valider les modèles observationnels de canaux auxiliaires (side-channels) sur des architectures matérielles modernes. En combinant exécution symbolique et analyse relationnelle, le système génère des programmes de test pour vérifier l'indistinguabilité sur de vrais composants matériels. L'évaluation a été menée sur le cache de données d'un processeur ARMv8-A.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Validation of Abstract Side-Channel Models for Computer Architectures",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,

@@ -11600,6 +11600,14 @@
       "title": "A microfluidic cell chip for virus isolation via rapid screening for permissive cells",
       "updated_at": "2026-11-16T17:37:56.842220+00:00"
     },
+    "doi:10.1016/j.vlsi.2020.02.001": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A formal model for proving hardware timing properties and identifying timing channels",
+      "updated_at": "2026-11-25T01:40:30.839323+00:00"
+    },
     "doi:10.1016/j.vlsi.2022.10.006": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -29256,6 +29264,14 @@
       "title": "A Highly Flexible Lightweight and High Speed True Random Number Generator on FPGA",
       "updated_at": "2026-11-16T14:14:19.075680+00:00"
     },
+    "doi:10.1109/isvlsi49217.2020.00-10": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Molecular MUX-Based Physical Unclonable Functions",
+      "updated_at": "2026-11-25T01:37:12.882660+00:00"
+    },
     "doi:10.1109/isvlsi49217.2020.000-5": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -45287,6 +45303,14 @@
       "status": "imported",
       "title": "A Tale of Two Worlds: Assessing the Vulnerability of Enclave Shielding Runtimes",
       "updated_at": "2026-11-13T20:14:37.741416+00:00"
+    },
+    "doi:10.1145/3320269.3384723": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "The Lazarus Effect: Healing Compromised Devices in the Internet of Small Things",
+      "updated_at": "2026-11-25T01:38:09.797351+00:00"
     },
     "doi:10.1145/3320269.3384738": {
       "category": "secondaire_technique",
@@ -74088,6 +74112,14 @@
       "title": "A Confidential Computing Transparency Framework for a Comprehensive Trust Chain",
       "updated_at": "2026-11-08T17:38:00.093072+00:00"
     },
+    "title:acrisprcasinspiredmechanismfordetectinghardwaretrojansinfpgadevices": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "A CRISPR-Cas-Inspired Mechanism for Detecting Hardware Trojans in FPGA Devices",
+      "updated_at": "2026-11-25T01:37:12.837729+00:00"
+    },
     "title:activationfunctionsconsideredharmfulrecoveringneuralnetworkweightsthroughcontrolledchannels": {
       "category": "coeur",
       "decision": "examiner",
@@ -74479,6 +74511,14 @@
       "status": "rejected",
       "title": "A PUF-Based Security Framework for Fault and Intrusion Detection",
       "updated_at": "2026-11-03T18:09:32.199830+00:00"
+    },
+    "title:aquareumnonequivocatingcensorshipevidentcentralizedledgerwithevmbasedverifiableexecutionusingtrustedcomputingandblockchain": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "AQUAREUM: Non-Equivocating Censorship-Evident Centralized Ledger with EVM-Based Verifiable Execution using Trusted Computing and Blockchain",
+      "updated_at": "2026-11-25T01:38:09.844399+00:00"
     },
     "title:arbiterpufuniquenessandreliabilityanalysisusinghybridcmosstanfordmemristormodel": {
       "category": "secondaire",
@@ -75031,6 +75071,14 @@
       "status": "rejected",
       "title": "BugWhisperer: Fine-Tuning LLMs for SoC Hardware Vulnerability Detection",
       "updated_at": "2026-11-06T02:37:45.286845+00:00"
+    },
+    "title:buildingandmaintainingathirdpartylibrarysupplychainforproductiveandsecuresgxenclavedevelopment": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 62,
+      "status": "rejected",
+      "title": "Building and Maintaining a Third-Party Library Supply Chain for Productive and Secure SGX Enclave Development",
+      "updated_at": "2026-11-25T01:38:09.460559+00:00"
     },
     "title:buildingaprivacypreservingsmartcamerasystem": {
       "category": "secondaire",
@@ -76128,6 +76176,14 @@
       "title": "Effects of Temporal Variations on Delay based Physical Unclonable Functions",
       "updated_at": "2026-11-21T14:16:34.219999+00:00"
     },
+    "title:efficacyofsatisfiabilitybasedattacksinthepresenceofcircuitreverseengineeringerrors": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Efficacy of Satisfiability Based Attacks in the Presence of Circuit Reverse Engineering Errors",
+      "updated_at": "2026-11-25T01:38:05.874640+00:00"
+    },
     "title:efficientbyzantinefaulttoleranceusingtrustedexecutionenvironmentpreventingequivocationisonlythebeginning": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -76839,6 +76895,14 @@
       "status": "rejected",
       "title": "From Similarity to Vulnerability: Key Collision Attack on LLM Semantic Caching",
       "updated_at": "2026-11-03T18:12:20.393232+00:00"
+    },
+    "title:frontalattackleakingcontrolflowinsgxviathecpufrontend": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 92,
+      "status": "imported",
+      "title": "Frontal Attack: Leaking Control-Flow in SGX via the CPU Frontend",
+      "updated_at": "2026-11-25T01:39:04.116958+00:00"
     },
     "title:fullyobliviousdifferentialprivacyforfrequencyestimationintheaugmentedshufflemodelwithtrustedprocessors": {
       "category": "secondaire",
@@ -77912,6 +77976,14 @@
       "title": "Making Your Program Oblivious: a Comparative Study for Side-channel-safe Confidential Computing",
       "updated_at": "2026-11-13T03:36:27.038229+00:00"
     },
+    "title:malwaredetectionatthemicroarchitecturelevelusingmachinelearningtechniques": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 62,
+      "status": "rejected",
+      "title": "Malware Detection at the Microarchitecture Level using Machine Learning Techniques",
+      "updated_at": "2026-11-25T01:39:36.336490+00:00"
+    },
     "title:marvelmultiagentrtlvulnerabilityextractionusinglargelanguagemodels": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -78887,6 +78959,14 @@
       "status": "rejected",
       "title": "Preventing Rowhammer Exploits via Low-Cost Domain-Aware Memory Allocation",
       "updated_at": "2026-11-08T16:38:00.180470+00:00"
+    },
+    "title:preventionofmicroarchitecturalcovertchannelsonanopensource64bitriscvcore": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Prevention of Microarchitectural Covert Channels on an Open-Source 64-bit RISC-V Core",
+      "updated_at": "2026-11-25T01:38:05.784001+00:00"
     },
     "title:primeretouchwhencacheislockedandleaked": {
       "category": "coeur",
@@ -80048,6 +80128,22 @@
       "title": "SeMPE: Secure Multi Path Execution Architecture for Removing Conditional Branch Side Channels",
       "updated_at": "2026-11-24T10:38:34.452791+00:00"
     },
+    "title:seqlsecurescanlockingforipprotection": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "SeqL: Secure Scan-Locking for IP Protection",
+      "updated_at": "2026-11-25T01:38:05.830109+00:00"
+    },
+    "title:serdabaniotframeworkforpartitioningneuralnetworkscomputationacrossmultipleenclaves": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Serdab: An IoT Framework for Partitioning Neural Networks Computation across Multiple Enclaves",
+      "updated_at": "2026-11-25T01:38:18.324126+00:00"
+    },
     "title:sesemisecureserverlessmodelinferenceonsensitivedata": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -80696,6 +80792,14 @@
       "title": "Supporting Secured Integration of Microarchitectural Defenses",
       "updated_at": "2026-11-03T18:13:02.489783+00:00"
     },
+    "title:surveyoftransientexecutionattacks": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Survey of Transient Execution Attacks",
+      "updated_at": "2026-11-25T01:40:01.429682+00:00"
+    },
     "title:svagentaiagentforhardwaresecurityverificationassertion": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -81056,6 +81160,14 @@
       "title": "The Real Menace of Cloning Attacks on SGX Applications",
       "updated_at": "2026-11-03T18:11:38.887631+00:00"
     },
+    "title:theritvablockchainenablingconfidentialtransactionsatscale": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "The Ritva Blockchain: Enabling Confidential Transactions at Scale",
+      "updated_at": "2026-11-25T01:38:09.890320+00:00"
+    },
     "title:thermallyassistedswitchingtasmrambasedtrng": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -81239,6 +81351,14 @@
       "status": "rejected",
       "title": "Towards LLM-based Root Cause Analysis of Hardware Design Failures",
       "updated_at": "2026-11-05T00:50:07.665973+00:00"
+    },
+    "title:towardsmemorysafepythonenclaveforsecuritysensitivecomputation": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 55,
+      "status": "rejected",
+      "title": "Towards Memory Safe Python Enclave for Security Sensitive Computation",
+      "updated_at": "2026-11-25T01:38:09.506318+00:00"
     },
     "title:towardspracticalprivacypreservingsolutionforoutsourcedneuralnetworkinference": {
       "category": "secondaire",
@@ -81679,6 +81799,14 @@
       "status": "rejected",
       "title": "uTango: an open-source TEE for IoT devices",
       "updated_at": "2026-11-21T20:38:00.067520+00:00"
+    },
+    "title:validationofabstractsidechannelmodelsforcomputerarchitectures": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Validation of Abstract Side-Channel Models for Computer Architectures",
+      "updated_at": "2026-11-25T01:39:31.624534+00:00"
     },
     "title:validationofgpucomputationindecentralizedtrustlessnetworks": {
       "category": "hors_sujet",
