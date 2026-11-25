@@ -16816,6 +16816,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "title:spectrerewindleakingsecretstopastinstructions": {
+    "doi": "",
+    "publication_date": "2020-03-27",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2003.12208v2",
+    "summary": "Cet article présente SpectreRewind, une nouvelle approche pour établir des canaux cachés fondés sur la contention lors d'attaques par exécution transitoire. Contrairement aux méthodes existantes nécessitant un multithreading simultané (SMT), SpectreRewind permet d'exploiter un canal caché sur un seul thread matériel, notamment en créant une contention sur l'unité de division en virgule flottante de processeurs grand public. Les auteurs démontrent une attaque Meltdown performante utilisant ce canal, y compris dans le moteur JavaScript de Chrome.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SpectreRewind: Leaking Secrets to Past Instructions",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:speculativedereferencingofregistersrevivingforeshadow": {
     "doi": "",
     "publication_date": "2020-08-05",

@@ -1,8 +1,8 @@
 {
-  "accepted": 498,
+  "accepted": 499,
   "completed": false,
-  "cursor": "*",
-  "evaluated": 8896,
+  "cursor": "MTU3NzM2MzEyMDAwMCwxMC4xMDE2JTJGai5jb3NlLjIwMTkuMTAxNzAw",
+  "evaluated": 8897,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -826,503 +826,145 @@
   ],
   "month": "2020-03",
   "needs_publish": true,
-  "offset": 0,
-  "pages_done": 12008,
-  "pages_in_query": 0,
+  "offset": 120,
+  "pages_done": 12015,
+  "pages_in_query": 3,
   "pending": [
     {
       "paper": {
-        "abstract_inverted_index": {
-          "(SMT),": [
-            102
-          ],
-          "(~100": [
-            141
-          ],
-          "Chrome": [
-            195
-          ],
-          "Commonly": [
-            20
-          ],
-          "In": [
-            53,
-            72
-          ],
-          "JavaScript": [
-            191
-          ],
-          "KB/s),": [
-            142
-          ],
-          "Meltdown": [
-            162
-          ],
-          "SMT.": [
-            120
-          ],
-          "SpectreRewind": [
-            103
-          ],
-          "SpectreRewind,": [
-            58
-          ],
-          "Transient": [
-            0
-          ],
-          "Unlike": [
-            92
-          ],
-          "We": [
-            121,
-            159,
-            181
-          ],
-          "a": [
-            37,
-            59,
-            75,
-            139,
-            161,
-            194
-          ],
-          "accessible": [
-            15
-          ],
-          "after": [
-            47
-          ],
-          "also": [
-            182
-          ],
-          "approach": [
-            61
-          ],
-          "approach,": [
-            74
-          ],
-          "are": [
-            25
-          ],
-          "attack": [
-            163
-          ],
-          "attacker": [
-            117
-          ],
-          "attacks": [
-            2,
-            149
-          ],
-          "attacks.": [
-            71
-          ],
-          "based": [
-            65,
-            95,
-            108,
-            155,
-            177
-          ],
-          "be": [
-            135
-          ],
-          "been": [
-            14
-          ],
-          "before": [
-            86
-          ],
-          "browser.": [
-            196
-          ],
-          "by": [
-            80
-          ],
-          "cache": [
-            38,
-            156,
-            176
-          ],
-          "can": [
-            134
-          ],
-          "cannot": [
-            118
-          ],
-          "change,": [
-            40
-          ],
-          "channel": [
-            77,
-            145,
-            168,
-            179,
-            187
-          ],
-          "channels": [
-            6,
-            24,
-            67
-          ],
-          "channels,": [
-            97,
-            110
-          ],
-          "channels.": [
-            158
-          ],
-          "code.": [
-            91
-          ],
-          "commodity": [
-            132
-          ],
-          "commonly": [
-            152
-          ],
-          "compared": [
-            172
-          ],
-          "competitive": [
-            170
-          ],
-          "completed.": [
-            52
-          ],
-          "contention": [
-            64,
-            94,
-            124
-          ],
-          "covert": [
-            5,
-            23,
-            66,
-            76,
-            96,
-            109,
-            144,
-            157,
-            167,
-            178,
-            186
-          ],
-          "create": [
-            63,
-            138
-          ],
-          "division": [
-            129
-          ],
-          "during": [
-            16
-          ],
-          "engine": [
-            192
-          ],
-          "established": [
-            79
-          ],
-          "example,": [
-            36
-          ],
-          "executed": [
-            89
-          ],
-          "execution": [
-            1,
-            50,
-            70,
-            148
-          ],
-          "execution.": [
-            19
-          ],
-          "floating": [
-            127
-          ],
-          "flush+reload": [
-            154
-          ],
-          "footprints": [
-            30
-          ],
-          "for": [
-            35,
-            68,
-            146
-          ],
-          "from": [
-            41
-          ],
-          "hardware": [
-            106
-          ],
-          "have": [
-            13
-          ],
-          "high-performance": [
-            140
-          ],
-          "implement": [
-            160
-          ],
-          "implementation.": [
-            180
-          ],
-          "in": [
-            31,
-            189
-          ],
-          "instead": [
-            150
-          ],
-          "instructions": [
-            84
-          ],
-          "is": [
-            45,
-            51,
-            78
-          ],
-          "issuing": [
-            81
-          ],
-          "it": [
-            112
-          ],
-          "lasting": [
-            29
-          ],
-          "leak": [
-            8
-          ],
-          "leave": [
-            28
-          ],
-          "logical": [
-            17
-          ],
-          "logically": [
-            85
-          ],
-          "low-noise": [
-            143
-          ],
-          "making": [
-            111
-          ],
-          "micro-architectural": [
-            4,
-            22
-          ],
-          "microarchitectural": [
-            33
-          ],
-          "multi-threading": [
-            101
-          ],
-          "necessary": [
-            83
-          ],
-          "new": [
-            60
-          ],
-          "not": [
-            12
-          ],
-          "of": [
-            151,
-            193
-          ],
-          "on": [
-            114,
-            125,
-            131
-          ],
-          "our": [
-            73
-          ],
-          "paper,": [
-            55
-          ],
-          "performance": [
-            171
-          ],
-          "point": [
-            128
-          ],
-          "present": [
-            57
-          ],
-          "prior": [
-            93
-          ],
-          "processors": [
-            133
-          ],
-          "program": [
-            18
-          ],
-          "proposed": [
-            166
-          ],
-          "recovered": [
-            46
-          ],
-          "require": [
-            99
-          ],
-          "secret": [
-            44
-          ],
-          "secrets": [
-            9
-          ],
-          "should": [
-            11
-          ],
-          "show": [
-            122,
-            183
-          ],
-          "showing": [
-            169
-          ],
-          "simultaneous": [
-            100
-          ],
-          "single": [
-            105
-          ],
-          "state": [
-            39
-          ],
-          "state,": [
-            34
-          ],
-          "stateof-the-art": [
-            175
-          ],
-          "supports": [
-            104
-          ],
-          "systems": [
-            115
-          ],
-          "that": [
-            10,
-            27,
-            123,
-            184
-          ],
-          "the": [
-            32,
-            43,
-            48,
-            82,
-            87,
-            126,
-            165,
-            174,
-            185,
-            190
-          ],
-          "this": [
-            54
-          ],
-          "those": [
-            26
-          ],
-          "thread": [
-            107
-          ],
-          "to": [
-            7,
-            62,
-            137,
-            173
-          ],
-          "transient": [
-            49,
-            69,
-            147
-          ],
-          "transiently": [
-            88
-          ],
-          "unit": [
-            130
-          ],
-          "used": [
-            21,
-            136,
-            153
-          ],
-          "utilize": [
-            3,
-            119
-          ],
-          "utilizing": [
-            164
-          ],
-          "viable": [
-            113
-          ],
-          "victim": [
-            90
-          ],
-          "we": [
-            56
-          ],
-          "where": [
-            116
-          ],
-          "which": [
-            42,
-            98
-          ],
-          "works": [
-            188
-          ]
-        },
+        "abstract_inverted_index": {},
         "authorships": [
           {
             "author": {
-              "display_name": "Jacob Fustos"
+              "display_name": "Pinchang Zhang"
             }
           },
           {
             "author": {
-              "display_name": "Michael Bechtel"
+              "display_name": "Tarik Taleb"
             }
           },
           {
             "author": {
-              "display_name": "Heechul Yun"
+              "display_name": "Xiaohong Jiang"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Bin Wu"
             }
           }
         ],
-        "doi": "",
-        "id": "http://arxiv.org/abs/2003.12208v2",
+        "doi": "https://doi.org/10.1109/twc.2019.2955128",
+        "id": "https://doi.org/10.1109/twc.2019.2955128",
         "primary_location": {
-          "landing_page_url": "http://arxiv.org/abs/2003.12208v2"
+          "landing_page_url": "https://doi.org/10.1109/twc.2019.2955128"
         },
-        "publication_date": "2020-03-27",
-        "publication_type": "prepublication",
-        "publication_venue": "",
-        "title": "SpectreRewind: Leaking Secrets to Past Instructions",
+        "publication_date": "2020-03-01",
+        "publication_date_note": "Date source Crossref : 2020-03 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2020-03",
+        "publication_type": "revue",
+        "publication_venue": "IEEE Transactions on Wireless Communications",
+        "title": "Physical Layer Authentication for Massive MIMO Systems With Hardware Impairments",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
-        "venue_provenance": "arXiv"
+        "venue_provenance": "Crossref"
       },
       "sources": [
-        "arXiv"
+        "Crossref"
       ],
       "themes": [
-        "T06 — Microarchitectural Side Channels"
+        "T01 — Root of Trust & Secure Boot"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Abdelmoughni Toubal"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Billel Bengherbia"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Mohamed Ould Zmirli"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Abderrezak Guessoum"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1016/j.measurement.2019.107429",
+        "id": "https://doi.org/10.1016/j.measurement.2019.107429",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1016/j.measurement.2019.107429"
+        },
+        "publication_date": "2020-03-01",
+        "publication_date_note": "Date source Crossref : 2020-03 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2020-03",
+        "publication_type": "revue",
+        "publication_venue": "Measurement",
+        "title": "FPGA implementation of a wireless sensor node with built-in security coprocessors for secured key exchange and data transfer",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T01 — Root of Trust & Secure Boot"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {},
+        "authorships": [
+          {
+            "author": {
+              "display_name": "S. Madhavapandian"
+            }
+          },
+          {
+            "author": {
+              "display_name": "P. MaruthuPandi"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.1016/j.micpro.2019.102972",
+        "id": "https://doi.org/10.1016/j.micpro.2019.102972",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1016/j.micpro.2019.102972"
+        },
+        "publication_date": "2020-03-01",
+        "publication_date_note": "Date source Crossref : 2020-03 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2020-03",
+        "publication_type": "revue",
+        "publication_venue": "Microprocessors and Microsystems",
+        "title": "FPGA implementation of highly scalable AES algorithm using modified mix column with gate replacement technique for security application in TCP/IP",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T01 — Root of Trust & Secure Boot"
       ]
     }
   ],
@@ -3729,9 +3371,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 4083,
-  "query_index": 9,
+  "prefilter_review_overflow": 4085,
+  "query_index": 13,
   "secondary": 501,
-  "skipped": 9982,
+  "skipped": 9983,
   "version": 1
 }
