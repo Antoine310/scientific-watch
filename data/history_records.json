@@ -13028,6 +13028,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:acompilerassistedschedulerfordetectingandmitigatingcachebasedsidechannelattacks": {
+    "doi": "",
+    "publication_date": "2020-03-08",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2003.03850v3",
+    "summary": "Cet article présente Biscuit, un ordonnanceur assisté par compilateur conçu pour détecter et atténuer les attaques par canal auxiliaire basées sur le cache dans les environnements serveurs multi-locataires. La solution utilise un modèle de défauts de cache inséré par le compilateur pour prédire le comportement des boucles. L'ordonnanceur utilise ces informations pour co-ordonner les processus afin de limiter l'utilisation du cache de dernier niveau et surveille les écarts entre prédictions et réalités pour identifier les attaquants. Les résultats montrent une haute efficacité avec de faibles surcoûts.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "A Compiler Assisted Scheduler for Detecting and Mitigating Cache-Based Side Channel Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:activationfunctionsconsideredharmfulrecoveringneuralnetworkweightsthroughcontrolledchannels": {
     "doi": "",
     "publication_date": "2025-03-24",
@@ -13176,6 +13196,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "AMD SEV-SNP: A Confidential Computing Primer",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:anabstractsemanticsofspeculativeexecutionforreasoningaboutsecurityvulnerabilities": {
+    "doi": "",
+    "publication_date": "2020-03-10",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/2004.00577v1",
+    "summary": "Cet article formalise l'execution speculative et ses effets secondaires pour permettre un raisonnement abstrait sur la securite des logiciels face aux vulnerabilites de type Spectre. Les auteurs encodent l'execution speculative directement dans le langage de programmation en redefinissant les instructions conditionnelles, en introduisant de nouvelles constructions pour l'execution transitoire, et en ajoutant un cache abstrait au systeme pour analyser les attaques.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "An abstract semantics of speculative execution for reasoning about security vulnerabilities",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
