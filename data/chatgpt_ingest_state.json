@@ -1,0 +1,89 @@
+{
+  "processed": {
+    "inbox/chatgpt/2026-11-25-test-integration.json": "2026-11-25T09:07:36.158150+00:00"
+  },
+  "published": {
+    "doi:10.14722/ndss.2019.23420": {
+      "added_at": "2026-11-25",
+      "doi": "https://doi.org/10.14722/ndss.2019.23420",
+      "publication_date": "2019-02-01",
+      "publication_date_precision": "month",
+      "publication_date_source": "2019-02",
+      "publication_type": "conference",
+      "publication_venue": "NDSS 2019",
+      "score": 82,
+      "source": "https://www.ndss-symposium.org/ndss-paper/diat-data-integrity-attestation-for-resilient-collaboration-of-autonomous-systems/",
+      "summary": "Attestation de la génération et du traitement des données à l'aide de preuves du flot de contrôle. Piste pour compléter l'attestation d'enclaves par des garanties sur les données qu'elles produisent.",
+      "themes": [
+        "T04 — Runtime Attestation"
+      ],
+      "title": "DIAT: Data Integrity Attestation for Resilient Collaboration of Autonomous Systems",
+      "venue_provenance": "Vérification ChatGPT"
+    },
+    "doi:10.14722/ndss.2024.23059": {
+      "added_at": "2026-11-25",
+      "doi": "https://doi.org/10.14722/ndss.2024.23059",
+      "publication_date": "2024-02-01",
+      "publication_date_precision": "month",
+      "publication_date_source": "2024-02",
+      "publication_type": "conference",
+      "publication_venue": "NDSS 2024",
+      "score": 91,
+      "source": "https://www.ndss-symposium.org/ndss-paper/ida-hybrid-attestation-with-support-for-interrupts-and-toctou/",
+      "summary": "Attestation hybride autorisant les interruptions ; IDA+ surveille les modifications de la mémoire du programme entre attestations. Piste pour la surveillance de l'intégrité à l'exécution avec une RoT matérielle.",
+      "themes": [
+        "T04 — Runtime Attestation"
+      ],
+      "title": "IDA: Hybrid Attestation with Support for Interrupts and TOCTOU",
+      "venue_provenance": "Vérification ChatGPT"
+    },
+    "title:composablecacheletsprotectingenclavesfromcachesidechannelattacks": {
+      "added_at": "2026-11-25",
+      "publication_date": "2022-08-01",
+      "publication_date_precision": "month",
+      "publication_date_source": "2022-08",
+      "publication_type": "conference",
+      "publication_venue": "USENIX Security 2022",
+      "score": 96,
+      "source": "https://www.usenix.org/conference/usenixsecurity22/presentation/townley",
+      "summary": "Partitionnement dynamique du cache de dernier niveau pour isoler les enclaves entre elles et des autres applications. Piste pour protéger les enclaves Keystone et les opérations sensibles de la RoT ; adaptation à CVA6 à évaluer.",
+      "themes": [
+        "T08 — Cache & Temporal Isolation"
+      ],
+      "title": "Composable Cachelets: Protecting Enclaves from Cache Side-Channel Attacks",
+      "venue_provenance": "Vérification ChatGPT"
+    },
+    "title:reusableenclavesforconfidentialserverlesscomputing": {
+      "added_at": "2026-11-25",
+      "publication_date": "2023-08-01",
+      "publication_date_precision": "month",
+      "publication_date_source": "2023-08",
+      "publication_type": "conference",
+      "publication_venue": "USENIX Security 2023",
+      "score": 95,
+      "source": "https://www.usenix.org/conference/usenixsecurity23/presentation/zhao-shixuan",
+      "summary": "Réutilisation sécurisée des enclaves par instantané et restauration, attestation imbriquée et compartimentation interne. Piste pour réduire le coût de réinstanciation des enclaves Keystone ; transfert vers RISC-V à évaluer.",
+      "themes": [
+        "T05 — Enclave Performance & Crypto"
+      ],
+      "title": "Reusable Enclaves for Confidential Serverless Computing",
+      "venue_provenance": "Vérification ChatGPT"
+    },
+    "title:securecachesforcompartmentalizedsoftware": {
+      "added_at": "2026-11-25",
+      "publication_date": "2025-08-01",
+      "publication_date_precision": "month",
+      "publication_date_source": "2025-08",
+      "publication_type": "conference",
+      "publication_venue": "USENIX Security 2025",
+      "score": 92,
+      "source": "https://www.usenix.org/conference/usenixsecurity25/presentation/arikan",
+      "summary": "Partitionnement des caches à plusieurs niveaux, y compris L1, par domaines mémoire plutôt que par compartiments. Piste pour limiter les fuites temporelles dans les domaines de confiance sur CVA6.",
+      "themes": [
+        "T08 — Cache & Temporal Isolation"
+      ],
+      "title": "Secure Caches for Compartmentalized Software",
+      "venue_provenance": "Vérification ChatGPT"
+    }
+  }
+}

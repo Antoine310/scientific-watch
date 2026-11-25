@@ -55336,6 +55336,14 @@
       "title": "TIMBER-V: Tag-Isolated Memory Bringing Fine-grained Enclaves to RISC-V",
       "updated_at": "2026-11-15T11:14:17.923764+00:00"
     },
+    "doi:10.14722/ndss.2019.23420": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 82,
+      "status": "imported",
+      "title": "DIAT: Data Integrity Attestation for Resilient Collaboration of Autonomous Systems",
+      "updated_at": "2026-11-25T09:07:36.114689+00:00"
+    },
     "doi:10.14722/ndss.2019.23448": {
       "category": "transfert_explicite",
       "decision": "conserver",
@@ -55399,6 +55407,14 @@
       "status": "rejected",
       "title": "LDR: Secure and Efficient Linux Driver Runtime for Embedded TEE Systems",
       "updated_at": "2026-11-11T10:40:09.210096+00:00"
+    },
+    "doi:10.14722/ndss.2024.23059": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 91,
+      "status": "imported",
+      "title": "IDA: Hybrid Attestation with Support for Interrupts and TOCTOU",
+      "updated_at": "2026-11-25T09:07:35.745683+00:00"
     },
     "doi:10.14722/ndss.2024.24105": {
       "category": "coeur",
@@ -75912,6 +75928,14 @@
       "title": "CompartOS: CHERI Compartmentalization for Embedded Systems",
       "updated_at": "2026-11-17T01:39:16.096379+00:00"
     },
+    "title:composablecacheletsprotectingenclavesfromcachesidechannelattacks": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 96,
+      "status": "imported",
+      "title": "Composable Cachelets: Protecting Enclaves from Cache Side-Channel Attacks",
+      "updated_at": "2026-11-25T09:07:34.720638+00:00"
+    },
     "title:compositionlawofconjugateobservablesinrandompermutationsortingsystems": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -79936,6 +79960,14 @@
       "title": "Return-Oriented Programming in RISC-V",
       "updated_at": "2026-11-24T04:37:02.846313+00:00"
     },
+    "title:reusableenclavesforconfidentialserverlesscomputing": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "Reusable Enclaves for Confidential Serverless Computing",
+      "updated_at": "2026-11-25T09:07:35.044433+00:00"
+    },
     "title:revisitingchallengesforselectivedataprotectionofrealapplications": {
       "category": "coeur",
       "decision": "conserver",
@@ -80295,6 +80327,14 @@
       "status": "rejected",
       "title": "Secure and Fault Tolerant Decentralized Learning",
       "updated_at": "2026-11-22T23:37:44.317647+00:00"
+    },
+    "title:securecachesforcompartmentalizedsoftware": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 92,
+      "status": "imported",
+      "title": "Secure Caches for Compartmentalized Software",
+      "updated_at": "2026-11-25T09:07:35.380796+00:00"
     },
     "title:securecollaborativetrainingandinferenceforxgboost": {
       "category": "coeur",
