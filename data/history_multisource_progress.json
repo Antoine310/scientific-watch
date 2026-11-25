@@ -1,8 +1,8 @@
 {
   "accepted": 499,
   "completed": false,
-  "cursor": "MTU4MTU2NjQwMDAwMCwxMC4xMDE2JTJGczAxNjctNDA0OCUyODIwJTI5MzAwMTQtNg==",
-  "evaluated": 8902,
+  "cursor": "MTU4MzEzODI3MjAwMCwxMC4xMDgwJTJGMTIwNjIxMnguMjAyMC4xNzM0MzEz",
+  "evaluated": 8904,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -826,562 +826,432 @@
   ],
   "month": "2020-03",
   "needs_publish": true,
-  "offset": 200,
-  "pages_done": 12017,
-  "pages_in_query": 5,
+  "offset": 240,
+  "pages_done": 12018,
+  "pages_in_query": 6,
   "pending": [
     {
       "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Saraju P. Mohanty"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Venkata P. Yanambaka"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Elias Kougianos"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Deepak Puthal"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/mce.2019.2953758",
-        "id": "https://doi.org/10.1109/mce.2019.2953758",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/mce.2019.2953758"
-        },
-        "publication_date": "2020-03-01",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2020-03-01",
-        "publication_type": "revue",
-        "publication_venue": "IEEE Consumer Electronics Magazine",
-        "title": "PUFchain: A Hardware-Assisted Blockchain for Sustainable Simultaneous Device and Data Security in the Internet of Everything (IoE)",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
         "abstract_inverted_index": {
-          "(PUF)": [
-            3
+          "(ASIC).": [
+            88
           ],
-          "Currently,": [
-            109
+          "(ECC)": [
+            4
           ],
-          "For": [
-            87
+          "(ECSM)": [
+            43
           ],
-          "However,": [
-            47
+          "(FPGA)": [
+            83
+          ],
+          "(GF": [
+            110
+          ],
+          "(RSA).": [
+            28
+          ],
+          ",": [
+            134
+          ],
+          ".": [
+            50
+          ],
+          "0.46": [
+            126
+          ],
+          "0.6": [
+            128
+          ],
+          "1.76": [
+            93
+          ],
+          "2.44": [
+            95
+          ],
+          "224‐bit": [
+            102
+          ],
+          "256‐bit": [
+            104
+          ],
+          "40": [
+            111
+          ],
+          "ASIC": [
+            109,
+            150
+          ],
+          "ECSM": [
+            91
+          ],
+          "Elliptic": [
+            1
+          ],
+          "FPGA": [
+            99,
+            148
           ],
           "In": [
-            67,
-            137
+            29
           ],
-          "Internet": [
-            157
+          "Jacobian": [
+            45
           ],
-          "Moreover,": [
-            173
+          "Rivest‐Shamir‐Adleman": [
+            27
           ],
-          "PUF": [
-            26,
-            55,
-            82,
-            126,
-            168,
-            186
-          ],
-          "PUF.": [
+          "Similarly,": [
             108
           ],
-          "PUFs": [
-            97
-          ],
-          "Physical": [
+          "Summary": [
             0
           ],
           "The": [
-            22
+            89
           ],
-          "Things": [
-            159
-          ],
-          "a": [
-            48,
-            94,
-            138,
-            170,
-            177
-          ],
-          "among": [
-            18
-          ],
-          "analogue/mixed‐signal": [
-            124
-          ],
-          "analytics": [
-            52
-          ],
-          "and": [
-            79,
-            106,
-            119,
-            123,
-            156,
-            160,
-            166,
-            188
-          ],
-          "applicable": [
-            14
-          ],
-          "application": [
-            146
-          ],
-          "applications,": [
-            77
-          ],
-          "architecture,": [
-            76
-          ],
-          "are": [
-            13,
-            98,
-            128,
-            183
-          ],
-          "area": [
-            154
-          ],
-          "as": [
-            133
-          ],
-          "authors": [
-            71
-          ],
-          "based": [
-            125
-          ],
-          "be": [
-            30,
-            131
-          ],
-          "believes": [
-            53
-          ],
-          "body": [
-            153
-          ],
-          "but": [
-            34
-          ],
-          "categorical": [
-            171
-          ],
-          "categories,": [
-            103
-          ],
-          "challenges": [
-            80,
-            194
-          ],
-          "communication": [
-            17
-          ],
-          "community": [
-            50
-          ],
-          "compared": [
-            134
-          ],
-          "comparison": [
-            118
-          ],
-          "comprehensive": [
-            113
-          ],
-          "considered": [
-            28,
-            129
-          ],
-          "controlled": [
-            167
-          ],
-          "counterparts.": [
+          "This": [
+            51,
             136
           ],
-          "cryptographic": [
-            10
+          "Virtex‐7": [
+            98
           ],
-          "dependable": [
-            65
-          ],
-          "designed": [
-            93
-          ],
-          "desired": [
-            198
-          ],
-          "devices.": [
-            21
-          ],
-          "divided": [
-            99
-          ],
-          "due": [
-            40
-          ],
-          "easy": [
-            31
-          ],
-          "embedded": [
-            20
-          ],
-          "explored": [
-            74
-          ],
-          "for": [
-            8,
-            15,
-            60
-          ],
-          "function": [
-            2
-          ],
-          "functionalities": [
-            11
-          ],
-          "hard": [
-            35
-          ],
-          "hardware‐based": [
-            54
-          ],
-          "hardware‐specific": [
-            5
-          ],
-          "has": [
-            56
-          ],
-          "have": [
-            72,
-            92,
-            142,
-            175
-          ],
-          "highlights": [
+          "[CMOS])": [
             116
           ],
-          "identified": [
-            162,
-            184,
-            190
+          "a": [
+            34,
+            53,
+            123
           ],
-          "impossible": [
-            37
-          ],
-          "in": [
-            43,
-            63,
-            148,
-            169,
-            185
-          ],
-          "including": [
-            104
-          ],
-          "is": [
-            4,
-            27,
-            111
-          ],
-          "its": [
-            44,
-            61
-          ],
-          "large": [
-            49
-          ],
-          "levels.": [
-            200
-          ],
-          "limitations": [
-            181
-          ],
-          "literature,": [
-            90
-          ],
-          "main": [
-            102
-          ],
-          "manner.": [
-            172
-          ],
-          "manufacture": [
-            33
-          ],
-          "manufacturing": [
-            45
-          ],
-          "meet": [
-            196
-          ],
-          "memory‐based": [
-            122
-          ],
-          "network": [
-            155
-          ],
-          "network,": [
-            151
-          ],
-          "network‐specific": [
-            145
-          ],
-          "no": [
-            112
-          ],
-          "non‐silicon": [
-            105
-          ],
-          "number": [
-            178
-          ],
-          "of": [
-            25,
-            51,
-            81,
-            121,
-            158,
-            179
-          ],
-          "open": [
-            192
-          ],
-          "or": [
-            36
-          ],
-          "paved": [
-            57
-          ],
-          "physical": [
-            23
-          ],
-          "presented": [
-            143,
-            176
-          ],
-          "presenting": [
-            88
-          ],
-          "primitive": [
-            7
-          ],
-          "process.": [
-            46
-          ],
-          "prospective": [
-            180
-          ],
-          "provide": [
-            84
-          ],
-          "providing": [
-            9,
-            64
-          ],
-          "realisation": [
-            62
-          ],
-          "replicate": [
-            39
-          ],
-          "requirements,": [
-            78
-          ],
-          "research": [
-            193
-          ],
-          "scenarios": [
-            147
-          ],
-          "secure": [
-            16
-          ],
-          "security": [
-            6,
-            85,
-            199
-          ],
-          "security.": [
-            66
-          ],
-          "sensor": [
-            150
-          ],
-          "silicon‐based": [
-            107
-          ],
-          "similar": [
-            139
-          ],
-          "solutions.": [
-            86
-          ],
-          "strong,": [
-            164
-          ],
-          "structure": [
-            24
-          ],
-          "structures": [
-            187
-          ],
-          "study,": [
-            69
-          ],
-          "suitable": [
-            132
-          ],
-          "survey": [
-            114
-          ],
-          "taxonomy": [
-            95
-          ],
-          "that": [
-            12,
-            83,
-            115,
-            127,
-            182
-          ],
-          "the": [
-            19,
-            58,
-            70,
-            75,
-            89,
-            117,
-            144,
-            163,
-            191,
-            197
-          ],
-          "then": [
-            161,
-            189
-          ],
-          "there": [
-            110
-          ],
-          "they": [
-            91,
-            141,
-            174
-          ],
-          "this": [
+          "achieve": [
             68
           ],
-          "thoroughly": [
-            73
+          "addition": [
+            60
           ],
-          "to": [
-            29,
-            32,
-            38,
-            41,
-            130,
-            135,
-            195
+          "adopted": [
+            8
           ],
-          "two": [
-            101
+          "and": [
+            21,
+            58,
+            71,
+            84,
+            94,
+            103,
+            127,
+            133,
+            142,
+            149
           ],
-          "unclonable": [
-            1
+          "applications": [
+            13
           ],
-          "under": [
-            100
+          "application‐specific": [
+            85
           ],
-          "usability": [
-            120
+          "architecture": [
+            37
           ],
-          "variations": [
-            42
+          "architecture,": [
+            61
           ],
-          "vein,": [
+          "are": [
+            6
+          ],
+          "area‐delay": [
             140
           ],
-          "way": [
+          "array": [
+            82
+          ],
+          "better": [
+            139
+          ],
+          "bit": [
+            25
+          ],
+          "both": [
+            78,
+            147
+          ],
+          "circuit": [
+            87
+          ],
+          "combination": [
+            54
+          ],
+          "compared": [
+            152
+          ],
+          "complementary": [
+            113
+          ],
+          "concept": [
+            66
+          ],
+          "coordinates": [
+            46
+          ],
+          "cryptography": [
+            3
+          ],
+          "curve": [
+            2,
+            40
+          ],
+          "design": [
+            137
+          ],
+          "designs.": [
+            155
+          ],
+          "digital": [
+            11
+          ],
+          "doubling": [
+            57
+          ],
+          "due": [
+            14
+          ],
+          "efficient": [
+            121
+          ],
+          "elliptic": [
+            39
+          ],
+          "energy": [
+            120
+          ],
+          "field": [
+            132
+          ],
+          "field,": [
+            49,
+            106
+          ],
+          "field‐programmable": [
+            80
+          ],
+          "for": [
+            9,
+            38
+          ],
+          "gate": [
+            81
+          ],
+          "hardware": [
+            19,
+            36,
+            73
+          ],
+          "high": [
+            69,
+            143
+          ],
+          "higher": [
+            22
+          ],
+          "implementation": [
+            118
+          ],
+          "implemented": [
+            62
+          ],
+          "in": [
+            44,
+            79,
+            146
+          ],
+          "integrated": [
+            86
+          ],
+          "is": [
+            52,
+            76
+          ],
+          "key": [
+            17
+          ],
+          "latency": [
+            124
+          ],
+          "low": [
+            72
+          ],
+          "metal‐oxide": [
+            114
+          ],
+          "ms": [
+            96,
+            129
+          ],
+          "multiplication": [
+            42
+          ],
+          "new": [
+            35
+          ],
+          "nm": [
+            112
+          ],
+          "of": [
+            55,
+            125
+          ],
+          "on": [
+            97
+          ],
+          "other": [
+            154
+          ],
+          "over": [
+            47,
+            101,
+            130
+          ],
+          "per": [
+            24
+          ],
+          "platform": [
+            100
+          ],
+          "point": [
+            56,
             59
           ],
-          "weak": [
-            165
+          "prime": [
+            48,
+            105,
+            131
           ],
-          "where": [
-            96
+          "product": [
+            141
           ],
-          "wireless": [
-            149,
-            152
+          "proposed": [
+            33,
+            90
+          ],
+          "provides": [
+            119,
+            138
+          ],
+          "resource": [
+            64
+          ],
+          "resources,": [
+            20,
+            74
+          ],
+          "respectively.": [
+            107,
+            135
+          ],
+          "scalar": [
+            41
+          ],
+          "schemes": [
+            5
+          ],
+          "security": [
+            23
+          ],
+          "semiconductor": [
+            115
+          ],
+          "sharing": [
+            65
+          ],
+          "signature": [
+            12
+          ],
+          "sizes,": [
+            18
+          ],
+          "speed": [
+            70
+          ],
+          "synthesized": [
+            77
+          ],
+          "takes": [
+            92
+          ],
+          "technology": [
+            117
+          ],
+          "than": [
+            26
+          ],
+          "the": [
+            10
+          ],
+          "their": [
+            16
+          ],
+          "this": [
+            30
+          ],
+          "throughput": [
+            144
+          ],
+          "to": [
+            15,
+            67
+          ],
+          "using": [
+            63
+          ],
+          "value": [
+            145
+          ],
+          "we": [
+            32
+          ],
+          "when": [
+            151
+          ],
+          "which": [
+            75
+          ],
+          "widely": [
+            7
+          ],
+          "with": [
+            122,
+            153
+          ],
+          "work,": [
+            31
           ]
         },
         "authorships": [
           {
             "author": {
-              "display_name": "Huansheng Ning"
+              "display_name": "Thirumalesu Kudithi"
             }
           },
           {
             "author": {
-              "display_name": "Fadi Farha"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ata Ullah"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Lingfeng Mao"
+              "display_name": "Sakthivel R"
             }
           }
         ],
-        "doi": "https://doi.org/10.1049/iet-cds.2019.0175",
-        "id": "https://doi.org/10.1049/iet-cds.2019.0175",
+        "doi": "https://doi.org/10.1002/cta.2759",
+        "id": "https://doi.org/10.1002/cta.2759",
         "primary_location": {
-          "landing_page_url": "https://doi.org/10.1049/iet-cds.2019.0175"
+          "landing_page_url": "https://doi.org/10.1002/cta.2759"
         },
-        "publication_date": "2020-03-19",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2020-03-19",
+        "publication_date": "2020-03-01",
+        "publication_date_note": "Date source Crossref : 2020-03 (jour inconnu ; 01 utilisé pour classer).",
+        "publication_date_precision": "month",
+        "publication_date_source": "2020-03",
         "publication_type": "revue",
-        "publication_venue": "IET Circuits, Devices &amp; Systems",
-        "title": "Physical unclonable function: architectures, applications and challenges for dependable security",
+        "publication_venue": "International Journal of Circuit Theory and Applications",
+        "title": "An efficient hardware implementation of the elliptic curve cryptographic processor over prime field,",
         "venue_landmark": "",
         "venue_note": "",
         "venue_priority": 0,
@@ -1391,7 +1261,567 @@
         "Crossref"
       ],
       "themes": [
-        "T11 — PUF & TRNG"
+        "T01 — Root of Trust & Secure Boot"
+      ]
+    },
+    {
+      "paper": {
+        "abstract_inverted_index": {
+          "(0.5%)": [
+            118
+          ],
+          "(3%)": [
+            122
+          ],
+          "(BER)": [
+            164
+          ],
+          "(SNRs)": [
+            186
+          ],
+          "6": [
+            189
+          ],
+          "An": [
+            58
+          ],
+          "BER": [
+            176,
+            197
+          ],
+          "Design": [
+            43
+          ],
+          "FPGA": [
+            86
+          ],
+          "FPGA-based": [
+            59
+          ],
+          "In": [
+            140,
+            171
+          ],
+          "Integrated": [
+            0
+          ],
+          "LUTs": [
+            116
+          ],
+          "PC": [
+            96
+          ],
+          "RAM": [
+            83
+          ],
+          "SNRs.": [
+            207
+          ],
+          "The": [
+            72,
+            104
+          ],
+          "This": [
+            15,
+            208
+          ],
+          "Trojan": [
+            7,
+            51,
+            67,
+            130,
+            214
+          ],
+          "Trojan.": [
+            139
+          ],
+          "Trojans": [
+            33,
+            147
+          ],
+          "Trojans,": [
+            175,
+            196
+          ],
+          "Trojans.": [
+            170
+          ],
+          "Viterbi": [
+            26,
+            41,
+            46
+          ],
+          "a": [
+            18,
+            25,
+            35,
+            45,
+            204
+          ],
+          "absence": [
+            173
+          ],
+          "activated": [
+            216
+          ],
+          "an": [
+            98
+          ],
+          "and": [
+            28,
+            48,
+            64,
+            87,
+            119
+          ],
+          "any": [
+            112
+          ],
+          "are": [
+            56,
+            156
+          ],
+          "article": [
+            16
+          ],
+          "associated": [
+            66
+          ],
+          "asynchronous": [
+            100
+          ],
+          "at": [
+            203
+          ],
+          "attacks": [
+            8
+          ],
+          "barely": [
+            111
+          ],
+          "be": [
+            3
+          ],
+          "been": [
+            70
+          ],
+          "being": [
+            215
+          ],
+          "bit": [
+            161
+          ],
+          "block": [
+            82
+          ],
+          "but": [
+            191
+          ],
+          "case": [
+            19
+          ],
+          "cause": [
+            148
+          ],
+          "change": [
+            113
+          ],
+          "changes": [
+            150,
+            158
+          ],
+          "circuit": [
+            153
+          ],
+          "circuits": [
+            1,
+            68
+          ],
+          "circuits,": [
+            131
+          ],
+          "coded": [
+            36
+          ],
+          "communication": [
+            37
+          ],
+          "dB,": [
+            190
+          ],
+          "data": [
+            76,
+            90
+          ],
+          "decoded": [
+            89
+          ],
+          "decoder": [
+            27,
+            47,
+            63
+          ],
+          "decoder.": [
+            42
+          ],
+          "design": [
+            11,
+            23
+          ],
+          "discussed.": [
+            71
+          ],
+          "dissipation": [
+            121
+          ],
+          "doesn’t": [
+            198
+          ],
+          "down": [
+            178
+          ],
+          "drops": [
+            177
+          ],
+          "due": [
+            123,
+            165
+          ],
+          "duration": [
+            222
+          ],
+          "during": [
+            9,
+            219
+          ],
+          "effect": [
+            30
+          ],
+          "employing": [
+            39
+          ],
+          "encoded": [
+            74
+          ],
+          "entire": [
+            221
+          ],
+          "error": [
+            162
+          ],
+          "establishing": [
+            133
+          ],
+          "even": [
+            202,
+            211
+          ],
+          "fabrication": [
+            13
+          ],
+          "fact": [
+            144
+          ],
+          "for": [
+            53,
+            181
+          ],
+          "hardware": [
+            6,
+            32,
+            50
+          ],
+          "have": [
+            69
+          ],
+          "high": [
+            206
+          ],
+          "higher": [
+            187
+          ],
+          "implementation": [
+            60,
+            105
+          ],
+          "in": [
+            80,
+            114,
+            151,
+            159
+          ],
+          "input": [
+            75
+          ],
+          "insertion": [
+            126
+          ],
+          "interface.": [
+            103
+          ],
+          "is": [
+            17,
+            78,
+            92,
+            110,
+            209
+          ],
+          "its": [
+            10
+          ],
+          "may": [
+            2
+          ],
+          "models": [
+            52
+          ],
+          "monitored": [
+            93
+          ],
+          "nature": [
+            136
+          ],
+          "negligible": [
+            149
+          ],
+          "noise": [
+            184
+          ],
+          "noise-added": [
+            73
+          ],
+          "of": [
+            21,
+            24,
+            31,
+            44,
+            61,
+            84,
+            127,
+            137,
+            142,
+            169,
+            174,
+            195,
+            223
+          ],
+          "on": [
+            34,
+            94
+          ],
+          "once": [
+            218
+          ],
+          "only": [
+            217
+          ],
+          "or": [
+            12
+          ],
+          "parameters,": [
+            154
+          ],
+          "phases.": [
+            14
+          ],
+          "possible": [
+            49
+          ],
+          "power": [
+            120
+          ],
+          "presence": [
+            168,
+            194
+          ],
+          "proposed": [
+            129
+          ],
+          "proposed.": [
+            57
+          ],
+          "rate": [
+            163
+          ],
+          "rations": [
+            185
+          ],
+          "receiver": [
+            101
+          ],
+          "reduce": [
+            199
+          ],
+          "results": [
+            106
+          ],
+          "same": [
+            55
+          ],
+          "show": [
+            107
+          ],
+          "signal": [
+            182
+          ],
+          "significant": [
+            157
+          ],
+          "spite": [
+            141
+          ],
+          "stored": [
+            79
+          ],
+          "stream": [
+            77,
+            91
+          ],
+          "study": [
+            20
+          ],
+          "surreptitious": [
+            135
+          ],
+          "system": [
+            38
+          ],
+          "than": [
+            188
+          ],
+          "that": [
+            108,
+            145
+          ],
+          "the": [
+            22,
+            29,
+            40,
+            54,
+            62,
+            65,
+            81,
+            85,
+            88,
+            95,
+            115,
+            125,
+            128,
+            134,
+            138,
+            143,
+            146,
+            152,
+            160,
+            167,
+            172,
+            193,
+            213,
+            220,
+            224
+          ],
+          "there": [
+            109,
+            155
+          ],
+          "through": [
+            97
+          ],
+          "thus": [
+            132
+          ],
+          "to": [
+            5,
+            124,
+            166,
+            179,
+            183,
+            200
+          ],
+          "transmission.": [
+            225
+          ],
+          "transmitter": [
+            102
+          ],
+          "true": [
+            210
+          ],
+          "universal": [
+            99
+          ],
+          "used": [
+            117
+          ],
+          "very": [
+            205
+          ],
+          "vulnerable": [
+            4
+          ],
+          "with": [
+            192,
+            212
+          ],
+          "zero": [
+            180,
+            201
+          ]
+        },
+        "authorships": [
+          {
+            "author": {
+              "display_name": "Varsha Kakkara"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Karthi Balasubramanian"
+            }
+          },
+          {
+            "author": {
+              "display_name": "B. Yamuna"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Deepak Mishra"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Karthikeyan Lingasubramanian"
+            }
+          },
+          {
+            "author": {
+              "display_name": "Senthil Murugan"
+            }
+          }
+        ],
+        "doi": "https://doi.org/10.7717/peerj-cs.250",
+        "id": "https://doi.org/10.7717/peerj-cs.250",
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.7717/peerj-cs.250"
+        },
+        "publication_date": "2020-03-02",
+        "publication_date_note": "",
+        "publication_date_precision": "day",
+        "publication_date_source": "2020-03-02",
+        "publication_type": "revue",
+        "publication_venue": "PeerJ Computer Science",
+        "title": "A Viterbi decoder and its hardware Trojan models: an FPGA-based implementation study",
+        "venue_landmark": "",
+        "venue_note": "",
+        "venue_priority": 0,
+        "venue_provenance": "Crossref"
+      },
+      "sources": [
+        "Crossref"
+      ],
+      "themes": [
+        "T01 — Root of Trust & Secure Boot"
       ]
     }
   ],
