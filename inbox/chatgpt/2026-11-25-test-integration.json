@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "articles": [
+    {
+      "title": "Composable Cachelets: Protecting Enclaves from Cache Side-Channel Attacks",
+      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/townley",
+      "publication_date": "2022-08",
+      "score": 96,
+      "summary": "Partitionnement dynamique du cache de dernier niveau pour isoler les enclaves entre elles et des autres applications. Piste pour protéger les enclaves Keystone et les opérations sensibles de la RoT ; adaptation à CVA6 à évaluer.",
+      "venue": "USENIX Security 2022",
+      "publication_type": "conference",
+      "themes": [
+        "T08 — Cache & Temporal Isolation"
+      ]
+    },
+    {
+      "title": "Reusable Enclaves for Confidential Serverless Computing",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/zhao-shixuan",
+      "publication_date": "2023-08",
+      "score": 95,
+      "summary": "Réutilisation sécurisée des enclaves par instantané et restauration, attestation imbriquée et compartimentation interne. Piste pour réduire le coût de réinstanciation des enclaves Keystone ; transfert vers RISC-V à évaluer.",
+      "venue": "USENIX Security 2023",
+      "publication_type": "conference",
+      "themes": [
+        "T05 — Enclave Performance & Crypto"
+      ]
+    },
+    {
+      "title": "Secure Caches for Compartmentalized Software",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/arikan",
+      "publication_date": "2025-08",
+      "score": 92,
+      "summary": "Partitionnement des caches à plusieurs niveaux, y compris L1, par domaines mémoire plutôt que par compartiments. Piste pour limiter les fuites temporelles dans les domaines de confiance sur CVA6.",
+      "venue": "USENIX Security 2025",
+      "publication_type": "conference",
+      "themes": [
+        "T08 — Cache & Temporal Isolation"
+      ]
+    },
+    {
+      "title": "IDA: Hybrid Attestation with Support for Interrupts and TOCTOU",
+      "url": "https://www.ndss-symposium.org/ndss-paper/ida-hybrid-attestation-with-support-for-interrupts-and-toctou/",
+      "doi": "10.14722/ndss.2024.23059",
+      "publication_date": "2024-02",
+      "score": 91,
+      "summary": "Attestation hybride autorisant les interruptions ; IDA+ surveille les modifications de la mémoire du programme entre attestations. Piste pour la surveillance de l'intégrité à l'exécution avec une RoT matérielle.",
+      "venue": "NDSS 2024",
+      "publication_type": "conference",
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    },
+    {
+      "title": "DIAT: Data Integrity Attestation for Resilient Collaboration of Autonomous Systems",
+      "url": "https://www.ndss-symposium.org/ndss-paper/diat-data-integrity-attestation-for-resilient-collaboration-of-autonomous-systems/",
+      "doi": "10.14722/ndss.2019.23420",
+      "publication_date": "2019-02",
+      "score": 82,
+      "summary": "Attestation de la génération et du traitement des données à l'aide de preuves du flot de contrôle. Piste pour compléter l'attestation d'enclaves par des garanties sur les données qu'elles produisent.",
+      "venue": "NDSS 2019",
+      "publication_type": "conference",
+      "themes": [
+        "T04 — Runtime Attestation"
+      ]
+    }
+  ]
+}
