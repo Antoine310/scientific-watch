@@ -13222,6 +13222,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:alightweightisaextensionforaesandsm4": {
+    "doi": "",
+    "publication_date": "2020-02-17",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2002.07041v5",
+    "summary": "Cette publication présente une extension légère du jeu d'instructions (ISA) RISC-V dédiée aux chiffrements par blocs AES et SM4. Elle vise à réduire le nombre d'instructions, à éliminer les tables de correspondance dépendantes des secrets pour contrer les attaques par canaux cachés temporels, et à minimiser la surface matérielle pour les applications à ultra-faible consommation.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "A Lightweight ISA Extension for AES and SM4",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:amdsevsnpaconfidentialcomputingprimer": {
     "publication_date": "2026-08-03",
     "publication_date_note": "",
@@ -14836,6 +14856,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "GATEBLEED: Exploiting On-Core Accelerator Power Gating for High Performance & Stealthy Attacks on AI",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:ghostknightbreachingdataintegrityviaspeculativeexecution": {
+    "doi": "",
+    "publication_date": "2020-02-03",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/2002.00524v2",
+    "summary": "GhostKnight est une attaque par exécution spéculative qui ne se limite plus à la violation de la confidentialité comme les attaques de type Spectre, mais permet de briser l'intégrité des données en induisant des effets secondaires dans la DRAM, entraînant des basculements de bits permanents.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "GhostKnight: Breaching Data Integrity via Speculative Execution",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,

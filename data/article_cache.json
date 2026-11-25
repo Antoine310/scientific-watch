@@ -9000,6 +9000,14 @@
       "title": "A secure encrypted data access scheme based on hardware tokens",
       "updated_at": "2026-11-02T16:03:56.235862+00:00"
     },
+    "doi:10.1016/j.jksues.2018.07.002": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "An efficient AES implementation using FPGA with enhanced security features",
+      "updated_at": "2026-11-25T23:39:01.438125+00:00"
+    },
     "doi:10.1016/j.jmapro.2022.03.021": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -10703,6 +10711,14 @@
       "status": "rejected",
       "title": "Optimizing parallel I/O performance in NVMe SSDs by Dynamic cache partitioning",
       "updated_at": "2026-11-05T23:40:07.849669+00:00"
+    },
+    "doi:10.1016/j.phycom.2019.100912": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Exploiting System Performance in AF non-orthogonal multiple access network under impacts of imperfect SIC and imperfect hardware",
+      "updated_at": "2026-11-25T23:39:01.465335+00:00"
     },
     "doi:10.1016/j.phycom.2020.101162": {
       "category": "hors_sujet",
@@ -13456,6 +13472,14 @@
       "title": "Placing a spin on cryptography and hardware authentication",
       "updated_at": "2026-11-24T06:38:55.032248+00:00"
     },
+    "doi:10.1063/5.0005335": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "A physically unclonable function using NV diamond magnetometry and micromagnet arrays",
+      "updated_at": "2026-11-25T23:36:35.567355+00:00"
+    },
     "doi:10.1063/5.0035519": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -13639,6 +13663,14 @@
       "status": "rejected",
       "title": "Port Arthur and the spectre of ‘unnatural acts’ in Australia",
       "updated_at": "2026-11-25T10:38:13.836556+00:00"
+    },
+    "doi:10.1080/01430750.2020.1720811": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Artificial neural network-based dynamic power management of a DC microgrid: a hardware-in-loop real-time verification",
+      "updated_at": "2026-11-25T23:39:29.838023+00:00"
     },
     "doi:10.1080/0144929x.2024.2374889": {
       "category": "secondaire",
@@ -39127,6 +39159,14 @@
       "status": "rejected",
       "title": "Towards a Dependable True Random Number Generator With Self-Repair Capabilities",
       "updated_at": "2026-11-18T20:14:56.489453+00:00"
+    },
+    "doi:10.1109/tcsi.2019.2952936": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A Novel Physical Layer Authentication With PAPR Reduction Based on Channel and Hardware Frequency Responses",
+      "updated_at": "2026-11-25T23:39:21.193155+00:00"
     },
     "doi:10.1109/tcsi.2020.2983185": {
       "category": "secondaire",
@@ -65328,6 +65368,22 @@
       "title": "True Random Number Generator (TRNG) Utilizing FM Radio Signals for Mobile and Embedded Devices in Multi-Access Edge Computing",
       "updated_at": "2026-11-14T08:13:42.859362+00:00"
     },
+    "doi:10.3390/s20030801": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Lightweight Data-Security Ontology for IoT",
+      "updated_at": "2026-11-25T23:39:41.120285+00:00"
+    },
+    "doi:10.3390/s20030844": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Bio-Inspired Approaches to Safety and Security in IoT-Enabled Cyber-Physical Systems",
+      "updated_at": "2026-11-25T23:39:41.147847+00:00"
+    },
     "doi:10.3390/s20071963": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -72048,6 +72104,14 @@
       "title": "A Unified NIST SP 800-90B Validation Framework for CMOS True Random Number Generators and Quantum Random Number Generators",
       "updated_at": "2026-11-01T11:14:31.256875+00:00"
     },
+    "doi:10.5121/csit.2019.91328": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Public-Key Based Authentication Architecture for IoT Devices Using PUF",
+      "updated_at": "2026-11-25T23:36:45.719263+00:00"
+    },
     "doi:10.5121/csit.2021.111511": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -75536,6 +75600,14 @@
       "title": "A Lifecycle-Oriented Detection and Defense Framework for Price Manipulation Attacks in DeFi",
       "updated_at": "2026-11-02T17:57:06.732157+00:00"
     },
+    "title:alightweightisaextensionforaesandsm4": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 75,
+      "status": "imported",
+      "title": "A Lightweight ISA Extension for AES and SM4",
+      "updated_at": "2026-11-25T23:37:16.898220+00:00"
+    },
     "title:allriversruntotheseaprivatelearningwithasymmetricflows": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -77648,6 +77720,14 @@
       "title": "Enc2DB: A Hybrid and Adaptive Encrypted Query Processing Framework",
       "updated_at": "2026-11-10T09:39:09.749140+00:00"
     },
+    "title:encdbdbsearchableencryptedfastcompressedinmemorydatabaseusingenclaves": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "EncDBDB: Searchable Encrypted, Fast, Compressed, In-Memory Database using Enclaves",
+      "updated_at": "2026-11-25T23:37:44.555827+00:00"
+    },
     "title:enclavecomputingonriscvabrighterfutureforsecurity": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -78280,6 +78360,14 @@
       "title": "GhostAccess: Attacking the GPU on the Multi-tenant Cloud via CPU LLC under Unified Memory",
       "updated_at": "2026-11-02T09:08:44.664356+00:00"
     },
+    "title:ghostknightbreachingdataintegrityviaspeculativeexecution": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "GhostKnight: Breaching Data Integrity via Speculative Execution",
+      "updated_at": "2026-11-25T23:37:44.526856+00:00"
+    },
     "title:globalmicroprocessorcorrectnessinthepresenceoftransientexecution": {
       "category": "coeur",
       "decision": "conserver",
@@ -78488,6 +78576,14 @@
       "title": "Hardware Trojan Threats to Multi-Chiplet Photonic Neural Network Accelerators",
       "updated_at": "2026-11-02T15:51:58.055772+00:00"
     },
+    "title:hardwaretrustandassurancethroughreverseengineeringasurveyandoutlookfromimageanalysisandmachinelearningperspectives": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Hardware Trust and Assurance through Reverse Engineering: A Survey and Outlook from Image Analysis and Machine Learning Perspectives",
+      "updated_at": "2026-11-25T23:36:35.537096+00:00"
+    },
     "title:harmchipevaluatinghardwaresecuritycentricllmsafetyviajailbreakbenchmarking": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -78631,6 +78727,14 @@
       "status": "rejected",
       "title": "HOT Protocol",
       "updated_at": "2026-11-03T20:08:33.802208+00:00"
+    },
+    "title:howto0wnnasinyoursparetime": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "How to 0wn NAS in Your Spare Time",
+      "updated_at": "2026-11-25T23:38:08.661234+00:00"
     },
     "title:howtoquantifythesecuritylevelofembeddedsystemsataxonomyofsecuritymetrics": {
       "category": "secondaire",
