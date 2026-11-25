@@ -3151,6 +3151,27 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/mce.2019.2956206": {
+    "doi": "https://doi.org/10.1109/mce.2019.2956206",
+    "publication_date": "2020-05-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2020-05-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Consumer Electronics Magazine",
+    "score": 85,
+    "source": "https://doi.org/10.1109/mce.2019.2956206",
+    "summary": "Cet article explore CONDENSE, une technique de sécurité axée sur la configurabilité pour atténuer les attaques par canal auxiliaire sur les caches des processeurs. En utilisant des caches reconfigurables à l'exécution, l'approche met en œuvre une défense par cible mobile tout en optimisant la consommation d'énergie.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels",
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "CONDENSE: A Moving Target Defense Approach for Mitigating Cache Side-Channel Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/mcsoc51149.2021.00039": {
     "doi": "https://doi.org/10.1109/mcsoc51149.2021.00039",
     "publication_date": "2021-12-01",
@@ -4176,6 +4197,26 @@
     "venue_note": "",
     "venue_priority": 2,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/tc.2019.2958611": {
+    "doi": "https://doi.org/10.1109/tc.2019.2958611",
+    "publication_date": "2020-05-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2020-05-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Computers",
+    "score": 75,
+    "source": "https://doi.org/10.1109/tc.2019.2958611",
+    "summary": "Cet article présente la première attaque par template (gabarit) sur le prédicteur de branchement, visant des multiplications scalaires aveuglées. Les auteurs inversent le prédicteur de branchement, utilisent des traces de mauvais prédiction et appliquent une stratégie de déduction et de suppression exploitant les propriétés du masquage pour récupérer la clé secrète. Des résultats expérimentaux sur Curve1174 démontrent l'efficacité de l'attaque malgré le masquage et l'absence de branchements conditionnels directs sur le secret.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Branch Prediction Attack on Blinded Scalar Multiplication",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/tc.2020.2996021": {
     "doi": "https://doi.org/10.1109/tc.2020.2996021",
