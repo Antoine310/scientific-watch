@@ -1,5 +1,6 @@
 {
   "processed": {
+    "inbox/chatgpt/2026-11-25-1022.json": "2026-11-25T09:22:03.513561+00:00",
     "inbox/chatgpt/2026-11-25-test-integration.json": "2026-11-25T09:07:36.158150+00:00"
   },
   "published": {
@@ -37,6 +38,22 @@
       "title": "IDA: Hybrid Attestation with Support for Interrupts and TOCTOU",
       "venue_provenance": "Vérification ChatGPT"
     },
+    "title:artoefficientexecutionintegrityattestationforrealtimeoperationofcyberphysicalsystems": {
+      "added_at": "2026-11-25",
+      "publication_date": "2026-08-01",
+      "publication_date_precision": "month",
+      "publication_date_source": "2026-08",
+      "publication_type": "conference",
+      "publication_venue": "USENIX Security 2026",
+      "score": 92,
+      "source": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhao-ruizhe",
+      "summary": "Zhao et al. combinent attestation du flot de contrôle et protection du flot de données. La segmentation des chemins et la mémorisation des résultats de validation par hachage réduisent le coût local, tandis que la vérification contextuelle complète est déportée. Évalué sur des autopilotes robotiques ; piste pour concevoir une attestation d'enclave à faible coût, sans preuve directe sur Keystone.",
+      "themes": [
+        "T04 — Runtime Attestation"
+      ],
+      "title": "ARTO: Efficient Execution Integrity Attestation for Real-Time Operation of Cyber-Physical Systems",
+      "venue_provenance": "Vérification ChatGPT"
+    },
     "title:composablecacheletsprotectingenclavesfromcachesidechannelattacks": {
       "added_at": "2026-11-25",
       "publication_date": "2022-08-01",
@@ -53,6 +70,38 @@
       "title": "Composable Cachelets: Protecting Enclaves from Cache Side-Channel Attacks",
       "venue_provenance": "Vérification ChatGPT"
     },
+    "title:donkydomainkeysefficientinprocessisolationforriscvandx86": {
+      "added_at": "2026-11-25",
+      "publication_date": "2020-08-01",
+      "publication_date_precision": "month",
+      "publication_date_source": "2020-08",
+      "publication_type": "conference",
+      "publication_venue": "USENIX Security 2020",
+      "score": 86,
+      "source": "https://www.usenix.org/conference/usenixsecurity20/presentation/schrammel",
+      "summary": "Schrammel et al. associent une extension matérielle et un cadre logiciel pour isoler des domaines mémoire au sein d'un processus, avec des transitions en mode utilisateur. Une implémentation ouverte sur Ariane RISC-V est évaluée sur FPGA. Piste pour compartimenter les opérations cryptographiques et les composants de confiance sur CVA6 ; ne constitue pas en soi une défense contre les canaux temporels.",
+      "themes": [
+        "T03 — RISC-V TEE & Enclaves"
+      ],
+      "title": "Donky: Domain Keys – Efficient In-Process Isolation for RISC-V and x86",
+      "venue_provenance": "Vérification ChatGPT"
+    },
+    "title:onbridgingthegapbetweencontrolflowintegrityandattestationschemes": {
+      "added_at": "2026-11-25",
+      "publication_date": "2024-08-01",
+      "publication_date_precision": "month",
+      "publication_date_source": "2024-08",
+      "publication_type": "conference",
+      "publication_venue": "USENIX Security 2024",
+      "score": 90,
+      "source": "https://www.usenix.org/conference/usenixsecurity24/presentation/ammar",
+      "summary": "Ammar et al. proposent CFA+, combinant l'extension BTI d'ARMv8.5-A et une instrumentation sélective pour prévenir ou détecter les détournements du flot de contrôle et produire des preuves d'intégrité. Le surcoût moyen rapporté est inférieur à 3 %. Piste de comparaison pour une attestation matérielle continue sur RISC-V ; une adaptation de l'architecture est nécessaire.",
+      "themes": [
+        "T04 — Runtime Attestation"
+      ],
+      "title": "On Bridging the Gap between Control Flow Integrity and Attestation Schemes",
+      "venue_provenance": "Vérification ChatGPT"
+    },
     "title:reusableenclavesforconfidentialserverlesscomputing": {
       "added_at": "2026-11-25",
       "publication_date": "2023-08-01",
@@ -67,6 +116,38 @@
         "T05 — Enclave Performance & Crypto"
       ],
       "title": "Reusable Enclaves for Confidential Serverless Computing",
+      "venue_provenance": "Vérification ChatGPT"
+    },
+    "title:sanctumminimalhardwareextensionsforstrongsoftwareisolation": {
+      "added_at": "2026-11-25",
+      "publication_date": "2016-08-01",
+      "publication_date_precision": "month",
+      "publication_date_source": "2016-08",
+      "publication_type": "conference",
+      "publication_venue": "USENIX Security 2016",
+      "score": 96,
+      "source": "https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/costan",
+      "summary": "Costan, Lebedev et Devadas proposent une architecture d'isolation logicielle forte qui traite les fuites liées aux motifs d'accès mémoire par des modifications matérielles limitées. Le prototype repose sur Rocket RISC-V. Référence fondamentale pour comparer les garanties d'isolation de Keystone et les modifications microarchitecturales envisageables sur CVA6.",
+      "themes": [
+        "T03 — RISC-V TEE & Enclaves"
+      ],
+      "title": "Sanctum: Minimal Hardware Extensions for Strong Software Isolation",
+      "venue_provenance": "Vérification ChatGPT"
+    },
+    "title:scalablememoryprotectioninthepenglaienclave": {
+      "added_at": "2026-11-25",
+      "publication_date": "2021-07-01",
+      "publication_date_precision": "month",
+      "publication_date_source": "2021-07",
+      "publication_type": "conference",
+      "publication_venue": "USENIX OSDI 2021",
+      "score": 97,
+      "source": "https://www.usenix.org/conference/osdi21/presentation/feng",
+      "summary": "Feng et al. proposent des tables de pages protégées et des arbres de Merkle montables pour permettre une mémoire sécurisée dynamique et la création d'enclaves par fork. Le prototype Penglai réduit de trois ordres de grandeur la latence d'initialisation de la mémoire sécurisée. Référence directe pour comparer les mécanismes de réutilisation et d'intégrité lors du démarrage d'enclaves RISC-V ; le transfert vers Keystone reste à étudier.",
+      "themes": [
+        "T03 — RISC-V TEE & Enclaves"
+      ],
+      "title": "Scalable Memory Protection in the PENGLAI Enclave",
       "venue_provenance": "Vérification ChatGPT"
     },
     "title:securecachesforcompartmentalizedsoftware": {
