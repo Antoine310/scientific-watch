@@ -859,6 +859,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/apsec48747.2019.00036": {
+    "doi": "https://doi.org/10.1109/apsec48747.2019.00036",
+    "publication_date": "2019-12-01",
+    "publication_date_note": "Date source Crossref : 2019-12 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2019-12",
+    "publication_type": "conference",
+    "publication_venue": "2019 26th Asia-Pacific Software Engineering Conference (APSEC)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/apsec48747.2019.00036",
+    "summary": "Cet article présente Dam, un schéma matériel pratique basé sur une mémoire étiquetée pour atténuer les attaques orientées données telles que DOE, DOP et BOP. Implémenté sur un SoC RISC-V lowRISC, Dam réduit les exigences de construction de telles attaques en effectuant des vérifications de sécurité lors des accès mémoire, avec un surcoût de performance moyen de seulement 6,48 % tout en garantissant la compatibilité des sources.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Dam: A Practical Scheme to Mitigate Data-Oriented Attacks with Tagged Memory Based on Hardware",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/asianhost51057.2020.9358255": {
     "doi": "https://doi.org/10.1109/asianhost51057.2020.9358255",
     "publication_date": "2020-12-15",
