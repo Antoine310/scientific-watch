@@ -5048,6 +5048,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/tifs.2019.2945621": {
+    "doi": "https://doi.org/10.1109/tifs.2019.2945621",
+    "publication_date": "2020-01-01",
+    "publication_date_note": "Date source Crossref : 2020 seulement ; classement indicatif en 2020-01.",
+    "publication_date_precision": "year",
+    "publication_date_source": "2020",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Information Forensics and Security",
+    "score": 75,
+    "source": "https://doi.org/10.1109/tifs.2019.2945621",
+    "summary": "Cet article présente Aurora, une architecture innovante visant à établir des chemins d'E/S de confiance pour les environnements d'exécution sécurisés (TEE) tels qu'Intel SGX, même en présence de logiciels système non fiables.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Establishing Trusted I/O Paths for SGX Client Systems With Aurora",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/tifs.2025.3592573": {
     "publication_date": "2025-01-01",
     "publication_type": "revue",
@@ -16024,6 +16044,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "Prototyping Custom Hardware Performance Counters in gem5 Simulator: A Framework for RISC-V Side-Channel Attack Assessment"
+  },
+  "title:provablysecureisolationforinterruptibleenclavedexecutiononsmallmicroprocessorsextendedversion": {
+    "doi": "",
+    "publication_date": "2020-01-29",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/2001.10881v1",
+    "summary": "Cet article étudie la sécurisation de l'extension de microprocesseurs avec de nouvelles fonctionnalités, spécifiquement l'interruptibilité des enclaves, en utilisant l'abstraction complète comme critère de sécurité formel. Les auteurs proposent un design, le prouvent sûr selon ce critère, l'implémentent sur un microprocesseur open-source et en évaluent les coûts de performance et de surface matérielle.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Provably Secure Isolation for Interruptible Enclaved Execution on Small Microprocessors: Extended Version",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:provingtheabsenceofmicroarchitecturaltimingchannels": {
     "doi": "",
