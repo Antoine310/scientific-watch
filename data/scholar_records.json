@@ -18,6 +18,13 @@
     "source": "https://www.shinan.info/wp-content/uploads/2026/10/micro2026-dan.pdf",
     "title": "GhostAccess: Attacking the GPU on the Multi-tenant Cloud via CPU LLC under Unified Memory"
   },
+  "title:mjolnirfindingandreproducingvulnerabilitiesinrootoftrustfirmwareandrtlwithprojectgroundedagents": {
+    "group": "primary",
+    "score": 95,
+    "source": "https://arxiv.org/pdf/2611.27567",
+    "summary": "Mjolnir est un pipeline d'agents autonomes par LLM conçu pour identifier et reproduire des vulnérabilités dans le micrologiciel (firmware) et le RTL des racines de confiance (RoT). Évalué sur six cibles issues de Caliptra, OpenTitan et OpenPRoT, Mjolnir intègre le modèle de menace spécifique du projet et s'appuie sur des bancs de test matériels ou des simulateurs pour détecter des bugs de sécurité subtils (absence de crash) liés aux frontières de confiance et aux contre-mesures contre l'injection de fautes.",
+    "title": "Mjolnir: Finding and Reproducing Vulnerabilities in Root-of-Trust Firmware and RTL with Project-Grounded Agents"
+  },
   "title:reconfiguringsystemlevelprotectionthroughboundeddelegationinriscvmcus": {
     "group": "primary",
     "score": 92,
