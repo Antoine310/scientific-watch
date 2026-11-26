@@ -15158,6 +15158,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:inspectrebreakingandfixingmicroarchitecturalvulnerabilitiesbyformalanalysis": {
+    "doi": "",
+    "publication_date": "2019-11-03",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/1911.00868v2",
+    "summary": "Cet article présente un modèle microarchitectural formel pour les processeurs monocœurs, capable de représenter les comportements de pipeline, d'exécution désordonnée et de spéculation afin de formaliser les vulnérabilités de type Spectre et d'analyser l'efficacité des contre-mesures.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "InSpectre: Breaking and Fixing Microarchitectural Vulnerabilities by Formal Analysis",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:integratingopentitanasasecuritycontrollerforcryptographictasksinriscvsocs": {
     "publication_date": "2025-01-01",
     "score": 90,
@@ -17077,6 +17097,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:specusymspeculativesymbolicexecutionforcachetimingleakdetection": {
+    "doi": "",
+    "publication_date": "2019-11-04",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/1911.00507v2",
+    "summary": "Cet article présente SpecuSym, une méthode basée sur l'exécution symbolique pour détecter précisément les fuites par canal caché temporel liées au cache du processeur et induites par l'exécution spéculative. Implémenté sur KLEE et évalué sur 15 benchmarks open-source, l'outil a détecté entre 2 et 61 fuites dans 6 programmes selon différents paramètres de cache, tout en identifiant des faux positifs signalés par des travaux récents.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SpecuSym: Speculative Symbolic Execution for Cache Timing Leak Detection",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:specwandsanefficientprioritybasedscheduleragainstspeculationcontentionattacks": {
     "doi": "",
     "publication_date": "2023-02-02",
@@ -17538,6 +17578,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "TPM2.0-Supported Runtime Customizable TEE on FPGA-SoC with User-Controllable vTPM",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:tpmfailtpmmeetstimingandlatticeattacks": {
+    "doi": "",
+    "publication_date": "2019-11-13",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/1911.05673v1",
+    "summary": "Cette publication analyse la sécurité de modules TPM 2.0 (matériels et microprogramme) et démontre des vulnérabilités par canaux cachés temporels lors de la génération de signatures sur courbes elliptiques (ECDSA et ECSchnorr). Ces fuites permettent de récupérer des clés privées de 256 bits via des attaques par réseaux de Bravais (lattice), tant en local qu'à distance via une connexion réseau (ex: VPN IPsec).",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "TPM-FAIL: TPM meets Timing and Lattice Attacks",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
