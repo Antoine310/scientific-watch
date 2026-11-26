@@ -5882,6 +5882,47 @@
     "venue_priority": 2,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3338508.3359568": {
+    "doi": "https://doi.org/10.1145/3338508.3359568",
+    "publication_date": "2019-11-15",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2019-11-15",
+    "publication_type": "conference",
+    "publication_venue": "CCS '19: 2019 ACM SIGSAC Conference on Computer and Communications Security",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3338508.3359568",
+    "summary": "Cette publication étudie la faisabilité d'attaques d'accès direct à la mémoire (DMA) menées par un bloc matériel malveillant situé dans la logique reconfigurable d'un FPGA-SoC moderne (Xilinx Zynq Ultrascale+) vers le processeur. Malgré la présence de mécanismes d'isolation comme une SMMU, des MPU et la technologie ARM TrustZone, les auteurs démontrent que de telles attaques peuvent contourner ces protections et interférer avec des tâches critiques exécutées dans la zone sécurisée du CPU.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Breaking TrustZone Memory Isolation through Malicious Hardware on a Modern FPGA-SoC",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3338508.3359574": {
+    "doi": "https://doi.org/10.1145/3338508.3359574",
+    "publication_date": "2019-11-15",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2019-11-15",
+    "publication_type": "conference",
+    "publication_venue": "CCS '19: 2019 ACM SIGSAC Conference on Computer and Communications Security",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3338508.3359574",
+    "summary": "Cette publication explore l'utilisation des caches adaptatifs, traditionnellement orientés performance, comme mécanisme de défense contre les attaques par canal auxiliaire sur les caches. Les auteurs réalisent une analyse empirique évaluant l'impact des reconfigurations dynamiques des paramètres du cache sur la précision des attaques, démontrant une réduction moyenne de 44% de cette précision.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels",
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Adaptive Caches as a Defense Mechanism Against Cache Side-Channel Attacks",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3342195.3387532": {
     "doi": "https://doi.org/10.1145/3342195.3387532",
     "publication_date": "2020-04-15",
