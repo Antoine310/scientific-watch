@@ -1887,6 +1887,26 @@
     "venue_priority": 1,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/hst47167.2019.9032955": {
+    "doi": "https://doi.org/10.1109/hst47167.2019.9032955",
+    "publication_date": "2019-11-01",
+    "publication_date_note": "Date source Crossref : 2019-11 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2019-11",
+    "publication_type": "conference",
+    "publication_venue": "2019 IEEE International Symposium on Technologies for Homeland Security (HST)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/hst47167.2019.9032955",
+    "summary": "Cette publication présente un concept matériel sur puce (SoC) destiné à protéger les processeurs embarqués bas de gamme contre les attaques par violation de flux de contrôle, en combinant des mécanismes de détection, de réponse, de récupération et d'inviolabilité, tout en prenant en compte les interruptions et les systèmes d'exploitation temps réel.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Hardware Based Detection, Recovery, and Tamper Evident Concept to Protect from Control Flow Violations in Embedded Processing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/icc59461.2026.11587746": {
     "publication_date": "2026-05-24",
     "publication_type": "conference",
@@ -1969,6 +1989,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/iccd46524.2019.00085": {
+    "doi": "https://doi.org/10.1109/iccd46524.2019.00085",
+    "publication_date": "2019-11-01",
+    "publication_date_note": "Date source Crossref : 2019-11 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2019-11",
+    "publication_type": "conference",
+    "publication_venue": "2019 IEEE 37th International Conference on Computer Design (ICCD)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/iccd46524.2019.00085",
+    "summary": "Cet article présente AdapTimer, une solution conjointe matériel/logiciel (co-design) pour les SoC embarqués ARM-FPGA, visant à protéger les temporisateurs haute résolution contre les attaques par canal auxiliaire basées sur le cache (flush-based cache attacks, telles que Flush+Reload et Spectre). Le timer réduit adaptativement sa résolution lorsqu'une opération de vidage (flush) est appelée, puis la récupère rapidement, offrant ainsi une haute résolution tout en contrant des attaquants disposant de privilèges root.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "AdapTimer: Hardware/Software Collaborative Timer Resistant to Flush-Based Cache Attacks on ARM-FPGA Embedded SoC",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/iccd50377.2020.00096": {
     "doi": "https://doi.org/10.1109/iccd50377.2020.00096",
@@ -10307,6 +10347,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Runtime Verification for Trustworthy Computing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/tches.v2020.i1.321-347": {
+    "doi": "https://doi.org/10.46586/tches.v2020.i1.321-347",
+    "publication_date": "2019-11-19",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2019-11-19",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 90,
+    "source": "https://doi.org/10.46586/tches.v2020.i1.321-347",
+    "summary": "Bluethunder est une attaque par canal auxiliaire basée sur le prédicteur de direction à 2 niveaux de l'unité de prédiction de branches contre les enclaves Intel SGX. Elle permet de contourner les protections existantes et de récupérer des informations sensibles avec une faible surcharge d'entraînement et une bande passante élevée, surpassant les attaques PHT antérieures.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Bluethunder: A 2-level Directional Predictor Based Side-Channel Attack against SGX",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,

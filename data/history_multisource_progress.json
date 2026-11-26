@@ -1,8 +1,8 @@
 {
-  "accepted": 514,
+  "accepted": 517,
   "completed": false,
-  "cursor": "MTU4MTM3MTk3ODAwMCwxMC4xMTA5JTJGaWNjZDQ2NTI0LjIwMTkuMDAwODU=",
-  "evaluated": 9202,
+  "cursor": "MTU3MjAxOTg0NzAwMCwxMC4xMDAyJTJGam1zLjQ0NDc=",
+  "evaluated": 9219,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -868,172 +868,15 @@
     "monthly/2019-11/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2019-11/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2019-11/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2019-11/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2019-11/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2019-11/query-18 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2019-11",
   "needs_publish": false,
-  "offset": 280,
-  "pages_done": 12660,
-  "pages_in_query": 7,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Abdul Ghaffar Khan"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Amjad Hussain Zahid"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Muzammil Hussain"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Usama Riaz"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/icic48496.2019.8966739",
-        "id": "https://doi.org/10.1109/icic48496.2019.8966739",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/icic48496.2019.8966739"
-        },
-        "publication_date": "2019-11-01",
-        "publication_date_note": "Date source Crossref : 2019-11 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2019-11",
-        "publication_type": "conference",
-        "publication_venue": "2019 International Conference on Innovative Computing (ICIC)",
-        "title": "Security Of Cryptocurrency Using Hardware Wallet And QR Code",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Maxime Montoya"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Thomas Hiscock"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Simone Bacles-Min"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Anca Molnos"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Jacques Fournier"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/iccd46524.2019.00082",
-        "id": "https://doi.org/10.1109/iccd46524.2019.00082",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/iccd46524.2019.00082"
-        },
-        "publication_date": "2019-11-01",
-        "publication_date_note": "Date source Crossref : 2019-11 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2019-11",
-        "publication_type": "conference",
-        "publication_venue": "2019 IEEE 37th International Conference on Computer Design (ICCD)",
-        "title": "Adaptive Masking: a Dynamic Trade-off between Energy Consumption and Hardware Security",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T07 — Hardware Security Verification"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Jingquan Ge"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Neng Gao"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Chenyang Tu"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Ji Xiang"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Zeyi Liu"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/iccd46524.2019.00085",
-        "id": "https://doi.org/10.1109/iccd46524.2019.00085",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/iccd46524.2019.00085"
-        },
-        "publication_date": "2019-11-01",
-        "publication_date_note": "Date source Crossref : 2019-11 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2019-11",
-        "publication_type": "conference",
-        "publication_venue": "2019 IEEE 37th International Conference on Computer Design (ICCD)",
-        "title": "AdapTimer: Hardware/Software Collaborative Timer Resistant to Flush-Based Cache Attacks on ARM-FPGA Embedded SoC",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    }
-  ],
+  "offset": 440,
+  "pages_done": 12685,
+  "pages_in_query": 11,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -3437,9 +3280,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 4329,
-  "query_index": 17,
-  "secondary": 517,
-  "skipped": 10307,
+  "prefilter_review_overflow": 4334,
+  "query_index": 19,
+  "secondary": 519,
+  "skipped": 10316,
   "version": 1
 }
