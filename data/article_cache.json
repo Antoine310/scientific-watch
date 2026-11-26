@@ -1336,6 +1336,22 @@
       "title": "High-Level Synthesis in Implementing and Benchmarking Number Theoretic Transform in Lattice-Based Post-Quantum Cryptography Using Software/Hardware Codesign",
       "updated_at": "2026-11-26T08:37:29.212020+00:00"
     },
+    "doi:10.1007/978-3-030-49556-5_8": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "RVTensor: A Light-Weight Neural Network Inference Framework Based on the RISC-V Architecture",
+      "updated_at": "2026-11-26T11:38:29.859045+00:00"
+    },
+    "doi:10.1007/978-3-030-49556-5_9": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "AIRV: Enabling Deep Learning Inference on RISC-V",
+      "updated_at": "2026-11-26T11:38:29.892006+00:00"
+    },
     "doi:10.1007/978-3-030-52017-5_23": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -32624,6 +32640,14 @@
       "title": "From Cooling to Coupling and Back: A Novel Beam- Switching Heatsink Antenna Array With CSRR Embedded Isolation Wall",
       "updated_at": "2026-11-12T04:38:31.306570+00:00"
     },
+    "doi:10.1109/lca.2020.2992644": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Heterogeneous 3D Integration for a RISC-V System With STT-MRAM",
+      "updated_at": "2026-11-26T11:36:30.646816+00:00"
+    },
     "doi:10.1109/lca.2022.3197777": {
       "category": "coeur",
       "decision": "conserver",
@@ -33255,6 +33279,14 @@
       "status": "rejected",
       "title": "Speeding up System Identification Algorithms on a Parallel RISC-V MCU for Fast Near-Sensor Vibration Diagnostic",
       "updated_at": "2026-11-12T22:36:29.181483+00:00"
+    },
+    "doi:10.1109/lssc.2020.3006626": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Completion Detection-Based Timing Error Detection and Correction in a Near-Threshold RISC-V Microprocessor in FDSOI 28 nm",
+      "updated_at": "2026-11-26T11:38:39.885241+00:00"
     },
     "doi:10.1109/lwc.2021.3064992": {
       "category": "hors_sujet",
@@ -38551,6 +38583,14 @@
       "status": "imported",
       "title": "System-Level Isolation for Mixed-Criticality RISC-V SoCs: A “World” Reality Check",
       "updated_at": "2026-11-02T08:30:29.730765+00:00"
+    },
+    "doi:10.1109/tcad.2018.2857321": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "PAGURUS: Low-Overhead Dynamic Information Flow Tracking on Loosely Coupled Accelerators",
+      "updated_at": "2026-11-26T11:40:01.795559+00:00"
     },
     "doi:10.1109/tcad.2018.2858402": {
       "category": "secondaire_technique",
@@ -55680,6 +55720,14 @@
       "title": "RISC-V: Open Instruction Set Driven Innovation in Artificial Intelligence and High-Performance Computing",
       "updated_at": "2026-11-03T19:51:54.595109+00:00"
     },
+    "doi:10.12677/csa.2020.106129": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Research on Formal Verification Method of RISC-V Microcontroller",
+      "updated_at": "2026-11-26T11:38:39.855575+00:00"
+    },
     "doi:10.12677/csa.2026.162076": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -68040,6 +68088,14 @@
       "title": "Review on Machine and Deep Learning Applications for Cyber Security",
       "updated_at": "2026-11-26T05:38:44.938737+00:00"
     },
+    "doi:10.4018/978-1-5225-9659-2.ch010": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Independent Verification and Validation of FPGA-Based Design for Airborne Electronic Applications",
+      "updated_at": "2026-11-26T11:38:49.621226+00:00"
+    },
     "doi:10.4018/978-1-5225-9767-4.ch003": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -78656,6 +78712,14 @@
       "title": "Enhancing IoT Security and Privacy with Trusted Execution Environments and Machine Learning",
       "updated_at": "2026-11-13T21:38:06.920892+00:00"
     },
+    "title:enjoytheuntrustedcloudasecurescalableandefficientsqllikequeryframeworkforoutsourcingdata": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Enjoy the Untrusted Cloud: A Secure, Scalable and Efficient SQL-like Query Framework for Outsourcing Data",
+      "updated_at": "2026-11-26T11:40:12.145913+00:00"
+    },
     "title:enterexitpagefaultleaktestingisolationboundariesformicroarchitecturalleaks": {
       "category": "coeur",
       "decision": "conserver",
@@ -81288,6 +81352,14 @@
       "title": "Privacy-Preserving Electronic Healthcare with Self-Monitoring Devices using Trusted Execution Environments",
       "updated_at": "2026-11-13T17:14:05.682883+00:00"
     },
+    "title:privacypreservinginferenceinmachinelearningservicesusingtrustedexecutionenvironments": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Privacy-Preserving Inference in Machine Learning Services Using Trusted Execution Environments",
+      "updated_at": "2026-11-26T11:40:12.082235+00:00"
+    },
     "title:privacypreservinglargelanguagemodelsmechanismsapplicationsandfuturedirections": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -82720,6 +82792,14 @@
       "title": "SNPeek: Side-Channel Analysis for Privacy Applications on Confidential VMs",
       "updated_at": "2026-11-05T05:55:38.240308+00:00"
     },
+    "title:socionetworkanalysisofrtldesignsforhardwaretrojanlocalization": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Socio-network Analysis of RTL Designs for Hardware Trojan Localization",
+      "updated_at": "2026-11-26T11:39:39.864262+00:00"
+    },
     "title:softflowautomatedhwswconfidentialityverificationforembeddedprocessors": {
       "category": "coeur",
       "decision": "conserver",
@@ -82943,6 +83023,14 @@
       "status": "imported",
       "title": "SPECWANDS: An Efficient Priority-based Scheduler Against Speculation Contention Attacks",
       "updated_at": "2026-11-14T20:39:34.743343+00:00"
+    },
+    "title:speechmineraframeworkforinvestigatingandmeasuringspeculativeexecutionvulnerabilities": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "SPEECHMINER: A Framework for Investigating and Measuring Speculative Execution Vulnerabilities",
+      "updated_at": "2026-11-26T11:41:19.325467+00:00"
     },
     "title:speedingupenclavetransitionsforiointensiveapplications": {
       "category": "secondaire_technique",
@@ -84151,6 +84239,14 @@
       "status": "rejected",
       "title": "uTango: an open-source TEE for IoT devices",
       "updated_at": "2026-11-21T20:38:00.067520+00:00"
+    },
+    "title:v0ltpwnattackingx86processorintegrityfromsoftware": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "V0LTpwn: Attacking x86 Processor Integrity from Software",
+      "updated_at": "2026-11-26T11:40:12.113207+00:00"
     },
     "title:validationofabstractsidechannelmodelsforcomputerarchitectures": {
       "category": "coeur",
