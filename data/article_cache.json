@@ -78160,6 +78160,14 @@
       "title": "Agentic Witnessing: Pragmatic and Scalable TEE-Enabled Privacy-Preserving Auditing",
       "updated_at": "2026-11-03T12:27:57.950508+00:00"
     },
+    "title:ahardwaresoftwarecodesignforefficientintraenclaveisolation": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 80,
+      "status": "imported",
+      "title": "A Hardware-Software Co-design for Efficient Intra-Enclave Isolation",
+      "updated_at": "2026-11-27T07:43:53.859342+00:00"
+    },
     "title:ahybridedgecloudarchitectureforlowlatencyentitlementverificationinresourceconstraineddevices": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -83952,6 +83960,22 @@
       "title": "Scalable Memory Protection in the PENGLAI Enclave",
       "updated_at": "2026-11-25T09:22:01.526809+00:00"
     },
+    "title:scarfalowlatencyblockcipherforsecurecacherandomization": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 91,
+      "status": "imported",
+      "title": "SCARF – A Low-Latency Block Cipher for Secure Cache-Randomization",
+      "updated_at": "2026-11-27T07:43:53.315933+00:00"
+    },
+    "title:scattercachethwartingcacheattacksviacachesetrandomization": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 93,
+      "status": "imported",
+      "title": "ScatterCache: Thwarting Cache Attacks via Cache Set Randomization",
+      "updated_at": "2026-11-27T07:43:52.996462+00:00"
+    },
     "title:scheriprovablysecurespeculationundertheconstanttimepolicyforcheriextendedversion": {
       "category": "coeur",
       "decision": "conserver",
@@ -84752,6 +84776,14 @@
       "title": "Spécification et vérification formelle de mécanismes de sécurité pour processeurs RISC-V: Version non-finale",
       "updated_at": "2026-11-02T17:13:51.746154+00:00"
     },
+    "title:speclfbeliminatingcachesidechannelsinspeculativeexecutions": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 95,
+      "status": "imported",
+      "title": "SpecLFB: Eliminating Cache Side Channels in Speculative Executions",
+      "updated_at": "2026-11-27T07:43:52.681836+00:00"
+    },
     "title:specreadabenchmarkformeasuringwhetherlanguagemodelsunderstandhardwarespecifications": {
       "category": "secondaire",
       "decision": "examiner",
@@ -85479,6 +85511,14 @@
       "status": "imported",
       "title": "TitanCFI: Toward Enforcing Control-Flow Integrity in the Root-of-Trust",
       "updated_at": "2026-11-11T08:36:42.726955+00:00"
+    },
+    "title:tlblurcompilerassistedautomatedhardeningagainstcontrolledchannelsonofftheshelfintelsgxplatforms": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 84,
+      "status": "imported",
+      "title": "TLBlur: Compiler-Assisted Automated Hardening against Controlled Channels on Off-the-Shelf Intel SGX Platforms",
+      "updated_at": "2026-11-27T07:43:53.584639+00:00"
     },
     "title:tleaseatrustedleaseprimitivefordistributedsystems": {
       "category": "secondaire_technique",

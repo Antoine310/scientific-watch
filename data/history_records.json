@@ -13404,6 +13404,21 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "title:ahardwaresoftwarecodesignforefficientintraenclaveisolation": {
+    "publication_date": "2022-08-01",
+    "publication_date_precision": "month",
+    "publication_date_source": "2022-08",
+    "publication_type": "conference",
+    "publication_venue": "USENIX Security 2022",
+    "score": 80,
+    "source": "https://www.usenix.org/conference/usenixsecurity22/presentation/gu-jinyu",
+    "summary": "Gu et al. proposent LIGHTENCLAVE, intégrant MPK dans SGX pour compartimenter les composants d'une enclave. Surcoût annoncé jusqu'à 4 % pour isoler des clés SSL. Piste pour séparer les secrets et services de la RoT au sein d'un TEE RISC-V ; nécessite un mécanisme d'isolation adapté et ne garantit pas l'isolation temporelle.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "A Hardware-Software Co-design for Efficient Intra-Enclave Isolation",
+    "venue_provenance": "Vérification ChatGPT"
+  },
   "title:akeradesignandverificationframeworkforsafeandsecuresocaccesscontrol": {
     "doi": "",
     "publication_date": "2021-06-24",
@@ -16652,6 +16667,36 @@
     "title": "Scalable Memory Protection in the PENGLAI Enclave",
     "venue_provenance": "Vérification ChatGPT"
   },
+  "title:scarfalowlatencyblockcipherforsecurecacherandomization": {
+    "publication_date": "2023-08-01",
+    "publication_date_precision": "month",
+    "publication_date_source": "2023-08",
+    "publication_type": "conference",
+    "publication_venue": "USENIX Security 2023",
+    "score": 91,
+    "source": "https://www.usenix.org/conference/usenixsecurity23/presentation/canale",
+    "summary": "Canale et al. conçoivent un chiffrement spécialisé à faible latence pour randomiser l'indexation du cache sur son chemin critique. Utile pour évaluer le compromis latence, coût RTL et robustesse d'une défense de cache protégeant les opérations de la RoT.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "SCARF – A Low-Latency Block Cipher for Secure Cache-Randomization",
+    "venue_provenance": "Vérification ChatGPT"
+  },
+  "title:scattercachethwartingcacheattacksviacachesetrandomization": {
+    "publication_date": "2019-08-01",
+    "publication_date_precision": "month",
+    "publication_date_source": "2019-08",
+    "publication_type": "conference",
+    "publication_venue": "USENIX Security 2019",
+    "score": 93,
+    "source": "https://www.usenix.org/conference/usenixsecurity19/presentation/werner",
+    "summary": "Werner et al. proposent une indexation de cache dépendant du domaine de sécurité et d'une clé pour compliquer la construction d'ensembles d'éviction. Référence fondamentale pour comparer randomisation et partitionnement sur CVA6 ; les travaux ultérieurs sur les attaques probabilistes doivent également être considérés.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "ScatterCache: Thwarting Cache Attacks via Cache Set Randomization",
+    "venue_provenance": "Vérification ChatGPT"
+  },
   "title:scheriprovablysecurespeculationundertheconstanttimepolicyforcheriextendedversion": {
     "publication_date": "2026-09-15",
     "publication_date_note": "",
@@ -17161,6 +17206,21 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:speclfbeliminatingcachesidechannelsinspeculativeexecutions": {
+    "publication_date": "2024-08-01",
+    "publication_date_precision": "month",
+    "publication_date_source": "2024-08",
+    "publication_type": "conference",
+    "publication_venue": "USENIX Security 2024",
+    "score": 95,
+    "source": "https://www.usenix.org/conference/usenixsecurity24/presentation/cheng-xiaoyu",
+    "summary": "Cheng et al. utilisent le Line-Fill-Buffer et un masque ROB pour contrôler les chargements spéculatifs. Prototype SonicBOOM RISC-V sur FPGA et gem5 : surcoût matériel annoncé de 0,6 %, ralentissement de 1,85 % sur FPGA et 3,20 % dans gem5. Piste de comparaison pour CVA6, sans garantie contre tous les canaux temporels non spéculatifs.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "SpecLFB: Eliminating Cache Side Channels in Speculative Executions",
+    "venue_provenance": "Vérification ChatGPT"
+  },
   "title:specrunthedangerofspeculativerunaheadexecutioninprocessors": {
     "doi": "",
     "publication_date": "2023-12-04",
@@ -17653,6 +17713,21 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "arXiv"
+  },
+  "title:tlblurcompilerassistedautomatedhardeningagainstcontrolledchannelsonofftheshelfintelsgxplatforms": {
+    "publication_date": "2025-08-01",
+    "publication_date_precision": "month",
+    "publication_date_source": "2025-08",
+    "publication_type": "conference",
+    "publication_venue": "USENIX Security 2025",
+    "score": 84,
+    "source": "https://www.usenix.org/conference/usenixsecurity25/presentation/vanoverloop",
+    "summary": "Vanoverloop et al. combinent instrumentation compilateur et gestion des interruptions SGX pour masquer les accès récents aux pages via le TLB. Évaluation notamment sur wolfSSL et OpenSSL. Piste pour étudier les fuites de traduction mémoire et les interruptions d'enclaves Keystone ; dépendances SGX à remplacer.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "TLBlur: Compiler-Assisted Automated Hardening against Controlled Channels on Off-the-Shelf Intel SGX Platforms",
+    "venue_provenance": "Vérification ChatGPT"
   },
   "title:tnicatrustednicarchitecture": {
     "doi": "",
