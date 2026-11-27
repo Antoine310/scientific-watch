@@ -6002,6 +6002,26 @@
     "venue_priority": 2,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3321705.3329913": {
+    "doi": "https://doi.org/10.1145/3321705.3329913",
+    "publication_date": "2019-07-02",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2019-07-02",
+    "publication_type": "conference",
+    "publication_venue": "Asia CCS '19: ACM Asia Conference on Computer and Communications Security",
+    "score": 82,
+    "source": "https://doi.org/10.1145/3321705.3329913",
+    "summary": "Ce document aborde l'établissement et le maintien d'une Racine de Confiance (Root of Trust ou RoT) sur des systèmes informatiques banalisés pouvant contenir des logiciels malveillants persistants, en se passant de secrets, de modules matériels de confiance (comme les TPM ou HSM) ou de bornes de calcul pour l'adversaire. L'auteur illustre les défis théoriques et pratiques, présente une solution inconditionnelle unique, et discute de l'isolement entre de petits composants logiciels sûrs et des systèmes d'exploitation complexes ainsi que des défis de la séparation des E/S.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Establishing and Maintaining Root of Trust on Commodity Computer Systems",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3338508.3359568": {
     "doi": "https://doi.org/10.1145/3338508.3359568",
     "publication_date": "2019-11-15",
