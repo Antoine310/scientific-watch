@@ -990,6 +990,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/compsac.2019.00090": {
+    "doi": "https://doi.org/10.1109/compsac.2019.00090",
+    "publication_date": "2019-07-01",
+    "publication_date_note": "Date source Crossref : 2019-07 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2019-07",
+    "publication_type": "conference",
+    "publication_venue": "2019 IEEE 43rd Annual Computer Software and Applications Conference (COMPSAC)",
+    "score": 90,
+    "source": "https://doi.org/10.1109/compsac.2019.00090",
+    "summary": "Cet article démontre qu'il est possible de détecter efficacement des attaques exploitant des vulnérabilités matérielles, telles que Rowhammer et Spectre, pendant l'exécution (runtime). L'approche repose sur la surveillance des déviations des événements microarchitecturaux (comme les défauts de cache ou les erreurs de prédiction de branchement) à l'aide de compteurs de performance du processeur (PMC) combinés à des classifieurs par apprentissage automatique.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Detecting Malicious Attacks Exploiting Hardware Vulnerabilities Using Performance Counters",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/compsac65507.2025.00324": {
     "doi": "https://doi.org/10.1109/compsac65507.2025.00324",
     "publication_date": "2025-07-08",
@@ -3492,6 +3512,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/mm.2019.2921509": {
+    "doi": "https://doi.org/10.1109/mm.2019.2921509",
+    "publication_date": "2019-07-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2019-07-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Micro",
+    "score": 85,
+    "source": "https://doi.org/10.1109/mm.2019.2921509",
+    "summary": "Cet article présente FinalFilter, une technique de vérification à l'exécution conçue pour détecter et répondre aux violations de propriétés de sécurité sur les processeurs après leur déploiement, palliant ainsi les limites de la vérification formelle statique et des tests traditionnels.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "FinalFilter: Asserting Security Properties of a Processor at Runtime",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/mm.2020.2985366": {
     "doi": "https://doi.org/10.1109/mm.2020.2985366",
@@ -6017,6 +6057,26 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Establishing and Maintaining Root of Trust on Commodity Computer Systems",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3337770": {
+    "doi": "https://doi.org/10.1145/3337770",
+    "publication_date": "2019-07-20",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2019-07-20",
+    "publication_type": "revue",
+    "publication_venue": "ACM Transactions on Architecture and Code Optimization",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3337770",
+    "summary": "Cet article explore une approche de sécurité pour les réseaux sur puce (NoC) dans les architectures multicoeurs afin de prévenir les attaques par canal auxiliaire temporel. Les auteurs proposent une politique de placement (mapping) dynamique des applications au niveau logiciel et applicatif pour garantir une communication sans interférence, maximiser l'utilisation du système sans fuite d'information, et ce, sans nécessiter de modification microarchitecturale des routeurs.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Toward On-chip Network Security Using Runtime Isolation Mapping",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
