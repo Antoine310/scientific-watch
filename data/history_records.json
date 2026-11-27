@@ -5980,6 +5980,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3342559.3365334": {
+    "doi": "https://doi.org/10.1145/3342559.3365334",
+    "publication_date": "2019-10-27",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2019-10-27",
+    "publication_type": "conference",
+    "publication_venue": "SOSP '19: ACM SIGOPS 27th Symposium on Operating Systems Principles",
+    "score": 85,
+    "source": "https://doi.org/10.1145/3342559.3365334",
+    "summary": "Cet article propose un mécanisme d'attestation mutuelle permettant à des appareils de même rang et de même type d'évaluer directement leur état de confiance et de gérer leur coopération, sans nécessiter d'autorité centrale. Le système intègre des actions de réponse pour récupérer les appareils non fiables et s'appuie sur un module Racine de Confiance (RoT) implémenté sur FPGA (Zynq SoCs) en extension d'un processeur RISC-V.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Propagating trusted execution through mutual attestation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3352460.3358310": {
     "doi": "https://doi.org/10.1145/3352460.3358310",
     "publication_date": "2019-10-11",
