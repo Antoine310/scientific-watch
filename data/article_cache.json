@@ -7520,6 +7520,22 @@
       "title": "Freeze and Crypt: Linux kernel support for main memory encryption",
       "updated_at": "2026-11-27T06:38:49.768905+00:00"
     },
+    "doi:10.1016/j.cose.2019.04.010": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "A robust and secure image sharing scheme with personal identity information embedded",
+      "updated_at": "2026-11-27T12:38:51.690034+00:00"
+    },
+    "doi:10.1016/j.cose.2019.05.005": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Theorem proof based gate level information flow tracking for hardware security verification",
+      "updated_at": "2026-11-27T12:38:51.785322+00:00"
+    },
     "doi:10.1016/j.cose.2019.06.008": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -13775,6 +13791,14 @@
       "status": "rejected",
       "title": "FPGA‐based hardware‐in‐the‐loop real‐time simulation implementation for high‐speed train electrical traction system",
       "updated_at": "2026-11-25T15:40:36.285996+00:00"
+    },
+    "doi:10.1049/iet-gtd.2018.6370": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Auto‐correlation‐based Islanding detection technique verified through hardware‐in‐loop testing",
+      "updated_at": "2026-11-27T12:39:11.345250+00:00"
     },
     "doi:10.1049/iet-ifs.2018.5228": {
       "category": "secondaire",
@@ -31896,6 +31920,14 @@
       "title": "Enhancing DFT Security in Chiplet-Based Systems With Encryption and Integrity Checking",
       "updated_at": "2026-11-04T17:53:03.964173+00:00"
     },
+    "doi:10.1109/jiot.2019.2914079": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Toward FPGA Security in IoT: A New Detection Technique for Hardware Trojans",
+      "updated_at": "2026-11-27T12:38:51.738361+00:00"
+    },
     "doi:10.1109/jiot.2019.2917223": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -39144,6 +39176,14 @@
       "title": "Laser-Induced Fault Injection on Smartphone Bypassing the Secure Boot-Extended Version",
       "updated_at": "2026-11-23T00:37:17.260998+00:00"
     },
+    "doi:10.1109/tc.2019.2900235": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "The Security of ARM TrustZone in a FPGA-Based SoC",
+      "updated_at": "2026-11-27T12:38:41.358718+00:00"
+    },
     "doi:10.1109/tc.2019.2907847": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -42800,6 +42840,14 @@
       "title": "EM Information Security Threats Against RO-Based TRNGs: The Frequency Injection Attack Based on IEMI and EM Information Leakage",
       "updated_at": "2026-11-16T20:13:33.452468+00:00"
     },
+    "doi:10.1109/temc.2018.2849105": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Data Injection Attack Against Electronic Devices With Locally Weakened Immunity Using a Hardware Trojan",
+      "updated_at": "2026-11-27T12:38:32.026396+00:00"
+    },
     "doi:10.1109/temc.2022.3159868": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -42911,6 +42959,14 @@
       "status": "rejected",
       "title": "A New PUF Based Lock and Key Solution for Secure In-Field Testing of Cryptographic Chips",
       "updated_at": "2026-11-21T10:37:05.509458+00:00"
+    },
+    "doi:10.1109/tetc.2019.2933572": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A Modern Approach to IP Protection and Trojan Prevention: Split Manufacturing for 3D ICs and Obfuscation of Vertical Interconnects",
+      "updated_at": "2026-11-27T12:36:29.473045+00:00"
     },
     "doi:10.1109/tetc.2020.2977735": {
       "category": "hors_sujet",
@@ -43191,6 +43247,14 @@
       "status": "rejected",
       "title": "Physical Design Obfuscation of Hardware: A Comprehensive Investigation of Device- and Logic-Level Techniques",
       "updated_at": "2026-11-27T00:36:39.971086+00:00"
+    },
+    "doi:10.1109/tifs.2019.2891223": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Machine-Learning Attacks on PolyPUFs, OB-PUFs, RPUFs, LHS-PUFs, and PUF–FSMs",
+      "updated_at": "2026-11-27T12:38:32.119571+00:00"
     },
     "doi:10.1109/tifs.2019.2895552": {
       "category": "secondaire",
@@ -44167,6 +44231,14 @@
       "status": "rejected",
       "title": "PROTOTWIN-PET: A Deep Learning and GPU-Based Workflow for Dose Verification in Proton Therapy With PET",
       "updated_at": "2026-11-05T05:48:52.461640+00:00"
+    },
+    "doi:10.1109/trustcom/bigdatase.2019.00014": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 68,
+      "status": "rejected",
+      "title": "MicroTEE: Designing TEE OS Based on the Microkernel Architecture",
+      "updated_at": "2026-11-27T12:37:09.558400+00:00"
     },
     "doi:10.1109/trustcom/bigdatase.2019.00077": {
       "category": "coeur",
@@ -47512,6 +47584,14 @@
       "title": "ASIC and FPGA Comparative Study for IoT Lightweight Hardware Security Algorithms",
       "updated_at": "2026-11-26T18:39:29.103209+00:00"
     },
+    "doi:10.1142/s0218126619501494": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Efficient Lightweight Hardware Structures of Point Multiplication on Binary Edwards Curves for Elliptic Curve Cryptosystems",
+      "updated_at": "2026-11-27T12:38:32.073145+00:00"
+    },
     "doi:10.1142/s0218126619502037": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -47847,6 +47927,14 @@
       "status": "rejected",
       "title": "From Hardware to Semantic Intelligence: LLM-Enhanced Ontology Engineering and Agentic Maintenance for Explainable Cybersecurity",
       "updated_at": "2026-11-02T13:39:00.817180+00:00"
+    },
+    "doi:10.1142/s179396231950020x": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "FPGA-based hardware-in-the-loop for multi-domain simulation",
+      "updated_at": "2026-11-27T12:39:01.060818+00:00"
     },
     "doi:10.1142/s2301385025500219": {
       "category": "hors_sujet",
@@ -65160,6 +65248,14 @@
       "title": "WAGENet: A Hardware-Aware Lightweight Network for Real-Time Weed Identification on Low-Power Resource-Constrained MCUs",
       "updated_at": "2026-11-03T10:52:19.958781+00:00"
     },
+    "doi:10.3390/agriculture9080168": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Food System Digitalization as a Means to Promote Food and Nutrition Security in the Barents Region",
+      "updated_at": "2026-11-27T12:39:21.143540+00:00"
+    },
     "doi:10.3390/agriengineering8100446": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -79240,6 +79336,14 @@
       "title": "Boosting Device Utilization in Control Flow Auditing",
       "updated_at": "2026-11-03T14:43:18.160939+00:00"
     },
+    "title:boostingtheboundsofsymbolicqedforeffectivepresiliconverificationofprocessorcores": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Boosting the Bounds of Symbolic QED for Effective Pre-Silicon Verification of Processor Cores",
+      "updated_at": "2026-11-27T12:36:59.319544+00:00"
+    },
     "title:bootstrappingmutualattestationwithkleenessecondrecursiontheorem": {
       "category": "coeur",
       "decision": "conserver",
@@ -84320,6 +84424,14 @@
       "title": "Secure Caches for Compartmentalized Software",
       "updated_at": "2026-11-25T09:07:35.380796+00:00"
     },
+    "title:securecalibrationforsafetycriticaliottraceabilityforsafetyresilience": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Secure Calibration for Safety-Critical IoT: Traceability for Safety Resilience",
+      "updated_at": "2026-11-27T12:36:39.424718+00:00"
+    },
     "title:securecollaborativetrainingandinferenceforxgboost": {
       "category": "coeur",
       "decision": "examiner",
@@ -84623,6 +84735,14 @@
       "status": "imported",
       "title": "SEVerity: Code Injection Attacks against Encrypted Virtual Machines",
       "updated_at": "2026-11-21T03:40:03.193912+00:00"
+    },
+    "title:sgxlklsecuringthehostosinterfacefortrustedexecution": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "SGX-LKL: Securing the Host OS Interface for Trusted Execution",
+      "updated_at": "2026-11-27T12:37:19.508629+00:00"
     },
     "title:sgxmrprotefficientanddeveloperfriendlyaccesspatternprotectionintrustedexecutionenvironments": {
       "category": "secondaire_technique",
