@@ -3175,6 +3175,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/lca.2019.2916328": {
+    "doi": "https://doi.org/10.1109/lca.2019.2916328",
+    "publication_date": "2019-07-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2019-07-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Computer Architecture Letters",
+    "score": 90,
+    "source": "https://doi.org/10.1109/lca.2019.2916328",
+    "summary": "Cette étude présente une technique d'atténuation microarchitecturale visant à protéger l'état transitoire contre les canaux cachés lors de l'exécution spéculative. Plutôt que de fermer des canaux cachés individuels, l'approche proposée empêche l'utilisation de données spéculatives par les instructions en aval jusqu'à ce que cela soit jugé sûr, prévenant ainsi les attaques par exécution transitoire au prix d'une dégradation moyenne des performances de 18 pour cent.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Isolating Speculative Data to Prevent Transient Execution Attacks",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/lca.2022.3197777": {
     "doi": "https://doi.org/10.1109/lca.2022.3197777",
     "publication_date": "2022-07-01",
