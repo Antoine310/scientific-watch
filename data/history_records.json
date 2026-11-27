@@ -15738,6 +15738,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "title:newattacksanddefensesforrandomizedcaches": {
+    "doi": "",
+    "publication_date": "2019-09-26",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/1909.12302v1",
+    "summary": "Cet article étudie les attaques par canal temporel sur les derniers niveaux de cache (LLC) utilisant des groupes de conflits restreints et évalue les limites des mécanismes de randomisation actuels. Les auteurs introduisent de nouvelles attaques démontrant qu'une haute fréquence de rafraîchissement est nécessaire avec un coût de performance élevé (jusqu'à 50%). Ils proposent ensuite une nouvelle stratégie de randomisation basée sur une table d'indirection (iTable) chiffrée, mise à jour lors des évictions naturelles, réduisant ainsi la surcharge de performance à moins de 4% tout en maintenant une forte résistance contre ces attaques.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "New Attacks and Defenses for Randomized Caches",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:newcrosscorecacheagnosticandprefetcherbasedsidechannelsandcovertchannels": {
     "doi": "",
     "publication_date": "2023-06-19",
