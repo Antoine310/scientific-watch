@@ -15112,6 +15112,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:fortunetellerpredictingmicroarchitecturalattacksviaunsuperviseddeeplearning": {
+    "doi": "",
+    "publication_date": "2019-07-08",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/1907.03651v1",
+    "summary": "FortuneTeller est un modèle d'apprentissage profond non supervisé basé sur des réseaux de neurones récurrents (RNN) pour prédire et détecter les attaques microarchitecturales au niveau matériel en analysant les compteurs de performance (HPC).",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "FortuneTeller: Predicting Microarchitectural Attacks via Unsupervised Deep Learning",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:fpgabasedprototypingandperformanceanalysisofalinuxcapableriscvsoc": {
     "publication_date": "2025-01-01",
     "score": 75,
@@ -16786,6 +16806,26 @@
     ],
     "title": "Scalable Memory Protection in the PENGLAI Enclave",
     "venue_provenance": "Vérification ChatGPT"
+  },
+  "title:scanclaveverifyingapplicationruntimeintegrityinuntrustedenvironments": {
+    "doi": "",
+    "publication_date": "2019-07-23",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/1907.09906v1",
+    "summary": "Scanclave est une conception légère présentée pour vérifier l'intégrité à l'exécution d'applications dans des environnements non fiables face à un adversaire hautement privilégié, en combinant les protections des environnements d'exécution de confiance (TEEs) avec la vérification d'intégrité à l'exécution.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "Scanclave: Verifying Application Runtime Integrity in Untrusted Environments",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
   },
   "title:scarfalowlatencyblockcipherforsecurecacherandomization": {
     "publication_date": "2023-08-01",
