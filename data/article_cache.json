@@ -10688,6 +10688,14 @@
       "title": "Highly stable guava-like QDs nanobeads with dual‑silicon protection for ultra-sensitive and secure latent fingerprint detection",
       "updated_at": "2026-11-04T09:24:27.661534+00:00"
     },
+    "doi:10.1016/j.microrel.2019.113413": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "Hardware-based approach to guarantee trusted system boot in embedded systems",
+      "updated_at": "2026-11-27T08:37:25.209314+00:00"
+    },
     "doi:10.1016/j.microrel.2020.114021": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -21632,6 +21640,14 @@
       "title": "Enhancing Runtime Security in Heterogeneous System-in-Package Through a Chiplet-Based Root-of-Trust",
       "updated_at": "2026-11-06T06:36:41.531645+00:00"
     },
+    "doi:10.1109/edcc.2019.00018": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 82,
+      "status": "imported",
+      "title": "Toubkal: A Flexible and Efficient Hardware Isolation Module for Secure Lightweight Devices",
+      "updated_at": "2026-11-27T08:37:47.803285+00:00"
+    },
     "doi:10.1109/edcc66201.2025.00023": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -22071,6 +22087,14 @@
       "status": "rejected",
       "title": "Secure Bitcoin Hardware Wallet Design, Implementation, and Security Analysis",
       "updated_at": "2026-11-06T21:36:58.518083+00:00"
+    },
+    "doi:10.1109/esscirc.2019.8902789": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "An Inherently Secure FPGA using PUF Hardware-Entanglement and Side-Channel Resistant Logic in 65nm Bulk CMOS",
+      "updated_at": "2026-11-27T08:38:08.048132+00:00"
     },
     "doi:10.1109/esscirc53450.2021.9567768": {
       "category": "secondaire",
@@ -22672,6 +22696,14 @@
       "title": "A survey of AIS-20/31 compliant TRNG cores suitable for FPGA devices",
       "updated_at": "2026-11-20T11:13:28.322810+00:00"
     },
+    "doi:10.1109/fpl.2019.00040": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Open-Source FPGA Implementation of Post-Quantum Cryptographic Hardware Primitives",
+      "updated_at": "2026-11-27T08:37:56.215836+00:00"
+    },
     "doi:10.1109/fpl.2019.00041": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -22679,6 +22711,22 @@
       "status": "rejected",
       "title": "A Highly-Portable True Random Number Generator Based on Coherent Sampling",
       "updated_at": "2026-11-14T08:13:42.859358+00:00"
+    },
+    "doi:10.1109/fpl.2019.00042": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Software/Hardware Codesign of the Post Quantum Cryptography Algorithm NTRUEncrypt Using High-Level Synthesis and Register-Transfer Level Design Methodologies",
+      "updated_at": "2026-11-27T08:37:56.261616+00:00"
+    },
+    "doi:10.1109/fpl.2019.00063": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Reducing Dynamic Power in Streaming CNN Hardware Accelerators by Exploiting Computational Redundancies",
+      "updated_at": "2026-11-27T08:37:56.307251+00:00"
     },
     "doi:10.1109/fpl50879.2020.00016": {
       "category": "secondaire",
@@ -23855,6 +23903,22 @@
       "status": "rejected",
       "title": "VIFMM: Custom RISC-V Vector Instructions with INT-FP Mixed-Precision Computing for Accelerating LLM Inference",
       "updated_at": "2026-11-05T00:26:57.241438+00:00"
+    },
+    "doi:10.1109/hpec.2019.8916486": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 82,
+      "status": "imported",
+      "title": "A Survey on Hardware Security Techniques Targeting Low-Power SoC Designs",
+      "updated_at": "2026-11-27T08:38:18.373581+00:00"
+    },
+    "doi:10.1109/hpec.2019.8916526": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Synthesis of Hardware Sandboxes for Trojan Mitigation in Systems on Chip",
+      "updated_at": "2026-11-27T08:38:24.905984+00:00"
     },
     "doi:10.1109/hpec43674.2020.9286164": {
       "category": "coeur",
@@ -25047,6 +25111,14 @@
       "status": "rejected",
       "title": "A Compatible RISC-V SoC Platform for Embedded AI Applications",
       "updated_at": "2026-11-04T17:25:54.448667+00:00"
+    },
+    "doi:10.1109/icce-berlin47944.2019.9127237": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Hardware Steganography for IP Core Protection of Fault Secured DSP Cores",
+      "updated_at": "2026-11-27T08:38:35.831975+00:00"
     },
     "doi:10.1109/icce-berlin67488.2025.11277926": {
       "category": "secondaire",
@@ -31311,6 +31383,14 @@
       "status": "rejected",
       "title": "Stochastic Dynamic Cache Partitioning for Encrypted Content Delivery",
       "updated_at": "2026-11-20T08:13:31.958740+00:00"
+    },
+    "doi:10.1109/itc-asia.2019.00021": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Time-Related Hardware Trojan Attacks on Processor Cores",
+      "updated_at": "2026-11-27T08:37:34.848334+00:00"
     },
     "doi:10.1109/itc-asia51099.2020.00025": {
       "category": "hors_sujet",
@@ -38159,6 +38239,38 @@
       "status": "rejected",
       "title": "Assembly code translation from ARM64 to RISC-V",
       "updated_at": "2026-11-17T01:37:14.279072+00:00"
+    },
+    "doi:10.1109/socc46988.2019.1570557958": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Reconfigurable Routing Paths As Noise Generators Using NoC Platform for Hardware Security Applications",
+      "updated_at": "2026-11-27T08:38:35.643430+00:00"
+    },
+    "doi:10.1109/socc46988.2019.1570559752": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Cycle-Accurate Evaluation of Software-Hardware Co-Design of Decimal Computation in RISC-V Ecosystem",
+      "updated_at": "2026-11-27T08:38:35.690006+00:00"
+    },
+    "doi:10.1109/socc46988.2019.9088079": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Wednesday Plenary: Machine Learning and Hardware Security Technologies for the Nanoscale era: Challenges & Opportunities",
+      "updated_at": "2026-11-27T08:38:35.736314+00:00"
+    },
+    "doi:10.1109/socc46988.2019.9088087": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "T2C: Special Session V: Hardware Security",
+      "updated_at": "2026-11-27T08:38:35.785207+00:00"
     },
     "doi:10.1109/socc49529.2020.9524771": {
       "category": "hors_sujet",
@@ -48096,6 +48208,14 @@
       "title": "Exploiting Bank Conflict-based Side-channel Timing Leakage of GPUs",
       "updated_at": "2026-11-13T23:13:25.832598+00:00"
     },
+    "doi:10.1145/3362752.3362753": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 40,
+      "status": "rejected",
+      "title": "Hardware Security-present and Future Trends",
+      "updated_at": "2026-11-27T08:38:24.952820+00:00"
+    },
     "doi:10.1145/3365578": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -55520,6 +55640,14 @@
       "title": "A Generic Multifactor Authenticated Key Exchange with Physical Unclonable Function",
       "updated_at": "2026-11-15T08:13:23.860604+00:00"
     },
+    "doi:10.1155/2019/7410478": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Biometric-Based Attendance Tracking System for Education Sectors: A Literature Survey on Hardware Requirements",
+      "updated_at": "2026-11-27T08:37:14.698293+00:00"
+    },
     "doi:10.1155/2019/9684239": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -62808,6 +62936,14 @@
       "title": "Design of Optimized Hardware Architecture for Discrete Cosine Transform using Loeffler’s Algorithm",
       "updated_at": "2026-11-03T21:27:51.591262+00:00"
     },
+    "doi:10.24018/ejeng.2019.4.9.1501": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Hardware co-simulation of 1024-point FFT and it's Implementation, in Simulink, Xilinx Vivado IDE on Zynq-7000 FPGA",
+      "updated_at": "2026-11-27T08:38:35.877667+00:00"
+    },
     "doi:10.24054/face.v22i4.2837": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -66816,6 +66952,14 @@
       "title": "Total Ionizing Dose Effects on a Delay-Based Physical Unclonable Function Implemented in FPGAs",
       "updated_at": "2026-11-16T11:13:43.026334+00:00"
     },
+    "doi:10.3390/electronics8101070": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "A Study on the Improved Capacitor Voltage Balancing Method for Modular Multilevel Converter Based on Hardware-In-the-Loop Simulation",
+      "updated_at": "2026-11-27T08:37:25.254791+00:00"
+    },
     "doi:10.3390/electronics9010175": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -67743,6 +67887,22 @@
       "status": "rejected",
       "title": "Intrinsic Physical Unclonable Function (PUF) Sensors in Commodity Devices",
       "updated_at": "2026-11-14T23:14:47.635724+00:00"
+    },
+    "doi:10.3390/s19183905": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Use of Thermistor Temperature Sensors for Cyber-Physical System Security",
+      "updated_at": "2026-11-27T08:36:38.065603+00:00"
+    },
+    "doi:10.3390/s19184017": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Elemental: An Open-Source Wireless Hardware and Software Platform for Building Energy and Indoor Environmental Monitoring and Control",
+      "updated_at": "2026-11-27T08:37:25.162949+00:00"
     },
     "doi:10.3390/s19194130": {
       "category": "hors_sujet",
@@ -68696,6 +68856,14 @@
       "title": "FPGA Hardware Co Simulation of Image Encryption using Hybrid Chaotic Maps Based Stream Cipher",
       "updated_at": "2026-11-25T09:37:45.973152+00:00"
     },
+    "doi:10.35940/ijeat.e1089.0785s319": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Predicting Reliability of Open Source Hardware Platform",
+      "updated_at": "2026-11-27T08:37:14.744527+00:00"
+    },
     "doi:10.35940/ijitee.c8752.019320": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -68720,6 +68888,14 @@
       "title": "Trusted Execution Environments for Internet of Things Devices",
       "updated_at": "2026-11-08T23:13:46.853807+00:00"
     },
+    "doi:10.35940/ijrte.b1016.0782s619": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "The Hardware Design and Implementation of a Key Exchange Protocol for Low-cost IoT Devices",
+      "updated_at": "2026-11-27T08:37:14.791113+00:00"
+    },
     "doi:10.35940/ijrte.b1028.0982s1119": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -68743,6 +68919,14 @@
       "status": "rejected",
       "title": "IoT Based Bank Security System",
       "updated_at": "2026-11-26T19:37:05.295223+00:00"
+    },
+    "doi:10.35940/ijrte.c5412.098319": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "A Hardware Efficient Watermarking Technique Based on LFSR",
+      "updated_at": "2026-11-27T08:37:25.300473+00:00"
     },
     "doi:10.35940/ijrte.f9352.038620": {
       "category": "secondaire",

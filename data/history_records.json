@@ -1437,6 +1437,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/edcc.2019.00018": {
+    "doi": "https://doi.org/10.1109/edcc.2019.00018",
+    "publication_date": "2019-09-01",
+    "publication_date_note": "Date source Crossref : 2019-09 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2019-09",
+    "publication_type": "conference",
+    "publication_venue": "2019 15th European Dependable Computing Conference (EDCC)",
+    "score": 82,
+    "source": "https://doi.org/10.1109/edcc.2019.00018",
+    "summary": "Toubkal est une nouvelle architecture matérielle modulaire conçue pour offrir une isolation matérielle sécurisée, efficace et flexible pour les appareils légers. Elle complète les unités de protection mémoire (MPU) en ajoutant une couche matérielle pour créer des environnements d'accès distincts pour les différents composants, sans modifier les modules matériels existants.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Toubkal: A Flexible and Efficient Hardware Isolation Module for Secure Lightweight Devices",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/ei256261.2022.10116661": {
     "doi": "https://doi.org/10.1109/ei256261.2022.10116661",
     "publication_date": "2022-11-11",
@@ -1453,6 +1473,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.1109/esscirc.2019.8902789": {
+    "doi": "https://doi.org/10.1109/esscirc.2019.8902789",
+    "publication_date": "2019-09-01",
+    "publication_date_note": "Date source Crossref : 2019-09 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2019-09",
+    "publication_type": "conference",
+    "publication_venue": "ESSCIRC 2019 - IEEE 45th European Solid State Circuits Conference (ESSCIRC)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/esscirc.2019.8902789",
+    "summary": "Cet article présente la conception d'un FPGA intrinsèquement sécurisé fabriqué en technologie CMOS 65 nm. Il intègre un mécanisme d'enchevêtrement matériel basé sur des PUF pour les données de configuration ainsi qu'une logique auto-synchronisée résistante aux attaques par canaux cachés. La puce de test mesure 3,14 mm sur 2,47 mm et intègre une matrice de 10x10 tuiles fonctionnant à 290 MHz.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "An Inherently Secure FPGA using PUF Hardware-Entanglement and Side-Channel Resistant Logic in 65nm Bulk CMOS",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
   },
   "doi:10.1109/ets56758.2023.10174099": {
     "doi": "https://doi.org/10.1109/ets56758.2023.10174099",
@@ -1825,6 +1865,26 @@
       "T10 — RISC-V SoC & FPGA"
     ],
     "title": "rTPM: A Native Firmware-Based Trusted Platform Module for RISC-V",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/hpec.2019.8916486": {
+    "doi": "https://doi.org/10.1109/hpec.2019.8916486",
+    "publication_date": "2019-09-01",
+    "publication_date_note": "Date source Crossref : 2019-09 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2019-09",
+    "publication_type": "conference",
+    "publication_venue": "2019 IEEE High Performance Extreme Computing Conference (HPEC)",
+    "score": 82,
+    "source": "https://doi.org/10.1109/hpec.2019.8916486",
+    "summary": "Cette publication propose une étude exhaustive des techniques de sécurité matérielles applicables aux systèmes sur puce (SoC) à faible consommation d'énergie. L'article examine différentes composantes des systèmes, notamment les éléments de traitement, les mémoires volatiles et non volatiles, ainsi que les interconnexions sur puce, tout en analysant les modèles de menaces, les surcoûts de performance et les compromis associés.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "A Survey on Hardware Security Techniques Targeting Low-Power SoC Designs",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
