@@ -3832,6 +3832,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1109/recosoc48741.2019.9034935": {
+    "doi": "https://doi.org/10.1109/recosoc48741.2019.9034935",
+    "publication_date": "2019-07-01",
+    "publication_date_note": "Date source Crossref : 2019-07 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2019-07",
+    "publication_type": "conference",
+    "publication_venue": "2019 14th International Symposium on Reconfigurable Communication-centric Systems-on-Chip (ReCoSoC)",
+    "score": 75,
+    "source": "https://doi.org/10.1109/recosoc48741.2019.9034935",
+    "summary": "Cet article analyse les attaques par canal auxiliaire du point de vue de la conception matérielle, en utilisant une implémentation FPGA du système sur puce ORPSoC exécutant un AES logiciel. Il explore la corrélation entre les fuites d'information et les composants microarchitecturaux, ainsi que l'observabilité de ces fuites aux niveaux post-synthèse et post-implémentation.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Analysis and countermeasures to side-channel attacks: a hardware design perspective",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/rivf64335.2024.11009032": {
     "publication_date": "2024-12-21",
     "publication_type": "conference",
