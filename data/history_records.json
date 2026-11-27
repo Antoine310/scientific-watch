@@ -14400,6 +14400,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:ddmademandbaseddynamicmitigationforsmttransientchannels": {
+    "doi": "",
+    "publication_date": "2019-10-26",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/1910.12021v1",
+    "summary": "Cet article étudie les canaux cachés transitoires liés à la technologie SMT (Simultaneous Multi-Threading) dus au partage de ressources matérielles. Les auteurs proposent DDM (Demand-based Dynamic Mitigation), une solution d'atténuation dynamique basée sur la demande de sécurité, qui utilise les registres du processeur et des modifications du noyau Linux pour activer ou désactiver dynamiquement l'hyper-threading via l'instruction HLT. L'évaluation montre une protection contre des attaques comme PortsMash avec une perte de performance inférieure à 8 %.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "DDM: A Demand-based Dynamic Mitigation for SMT Transient Channels",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:demotingsecurityviaexploitationofcachedemoteoperationinintelslatestisaextension": {
     "doi": "",
     "publication_date": "2025-03-13",
@@ -17036,6 +17056,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "SoK: Analysis of Root Causes and Defense Strategies for Attacks on Microarchitectural Optimizations",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:sokhardwaresecuritysupportfortrustworthyexecution": {
+    "doi": "",
+    "publication_date": "2019-10-11",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/1910.04957v1",
+    "summary": "Cet article (SoK) systématise les mécanismes de sécurité matérielle récents visant à améliorer la sécurité des systèmes informatiques, tels que les environnements d'exécution de confiance (TEE), le contrôle d'intégrité, la sécurité mémoire et les racines de confiance matérielles (RoT). Les auteurs analysent ces approches à travers le prisme de l'abstraction entre le matériel et le logiciel.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "SoK: Hardware Security Support for Trustworthy Execution",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
