@@ -20640,6 +20640,14 @@
       "title": "Protecting RSA Hardware Accelerators against Differential Fault Analysis through Residue Checking",
       "updated_at": "2026-11-27T02:37:27.255549+00:00"
     },
+    "doi:10.1109/dft.2019.8875345": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "On-line Testing for Autonomous Systems driven by RISC-V Processor Design Verification",
+      "updated_at": "2026-11-27T05:37:55.099370+00:00"
+    },
     "doi:10.1109/dft50435.2020.9250871": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -22983,6 +22991,14 @@
       "status": "rejected",
       "title": "BROCA: A Low-power and Low-latency Conversational Agent RISC-V System-on-Chip for Voice-interactive Mobile Devices",
       "updated_at": "2026-11-05T00:26:14.667031+00:00"
+    },
+    "doi:10.1109/honet.2019.8908033": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Information Flow Tracking in RISC-V",
+      "updated_at": "2026-11-27T05:38:00.769223+00:00"
     },
     "doi:10.1109/host45689.2020.9300126": {
       "category": "secondaire_technique",
@@ -27416,6 +27432,14 @@
       "title": "A Comprehensive Approach to Mitigate Return-Oriented Programming Attacks: Combining Operating System Protection Mechanisms and Hardware-Assisted Techniques",
       "updated_at": "2026-11-13T05:38:00.043413+00:00"
     },
+    "doi:10.1109/icsess47205.2019.9040769": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "The Implementation of LeNet-5 with NVDLA on RISC-V SoC",
+      "updated_at": "2026-11-27T05:38:29.953184+00:00"
+    },
     "doi:10.1109/icsft66733.2026.11507038": {
       "category": "coeur",
       "decision": "conserver",
@@ -27863,6 +27887,14 @@
       "status": "rejected",
       "title": "Statistical and Hardware Validation of Arbiter PUF for Secure and Energy Efficient IoT Devices",
       "updated_at": "2026-11-02T17:51:43.349010+00:00"
+    },
+    "doi:10.1109/iecon.2019.8926844": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Towards a Heterogeneous Fault-Tolerance Architecture based on Arm and RISC-V Processors",
+      "updated_at": "2026-11-27T05:38:20.343385+00:00"
     },
     "doi:10.1109/iecon.2019.8927361": {
       "category": "hors_sujet",
@@ -34184,6 +34216,14 @@
       "title": "Keynote Speech 3: Exploring the Synergy of 3D Integration and Hardware Security",
       "updated_at": "2026-11-13T18:36:39.106161+00:00"
     },
+    "doi:10.1109/mcsoc.2019.00017": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Modular Memory System for RISC-V Based MPSoCs on Xilinx FPGAs",
+      "updated_at": "2026-11-27T05:38:00.801658+00:00"
+    },
     "doi:10.1109/mcsoc51149.2021.00024": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -36271,6 +36311,14 @@
       "status": "rejected",
       "title": "HALib: Hardware Assertion Library for on-board verification of FPGA-based modules using HLS",
       "updated_at": "2026-11-27T02:37:57.089036+00:00"
+    },
+    "doi:10.1109/norchip.2019.8906975": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Instruction Extension of a RISC-V Processor Modeled with IP-XACT",
+      "updated_at": "2026-11-27T05:38:00.737363+00:00"
     },
     "doi:10.1109/nqcomp68334.2026.11497709": {
       "category": "secondaire",
@@ -38839,6 +38887,14 @@
       "status": "rejected",
       "title": "Laser-Induced Fault Injection on Smartphone Bypassing the Secure Boot-Extended Version",
       "updated_at": "2026-11-23T00:37:17.260998+00:00"
+    },
+    "doi:10.1109/tc.2019.2907847": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A Light-Weight White-Box Encryption Scheme for Securing Distributed Embedded Devices",
+      "updated_at": "2026-11-27T05:37:16.791689+00:00"
     },
     "doi:10.1109/tc.2019.2953752": {
       "category": "secondaire",
@@ -45375,6 +45431,14 @@
       "status": "imported",
       "title": "Hardware Root-of-Trust Design Based on on-chip PUF for AIoT Applications",
       "updated_at": "2026-11-17T19:38:43.302422+00:00"
+    },
+    "doi:10.1109/vlsi-soc.2019.8920307": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "A 0.80pJ/flop, 1.24Tflop/sW 8-to-64 bit Transprecision Floating-Point Unit for a 64 bit RISC-V Processor in 22nm FD-SOI",
+      "updated_at": "2026-11-27T05:38:10.364281+00:00"
     },
     "doi:10.1109/vlsi-soc.2019.8920335": {
       "category": "hors_sujet",
@@ -63207,6 +63271,14 @@
       "status": "rejected",
       "title": "Multidimensional physical unclonable function encryption architecture based on microtexture in polycrystalline diamond",
       "updated_at": "2026-11-02T19:16:55.148167+00:00"
+    },
+    "doi:10.26599/tst.2018.9010128": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 49,
+      "status": "rejected",
+      "title": "Leakage is prohibited: memory protection extensions protected address space randomization",
+      "updated_at": "2026-11-27T05:37:26.057710+00:00"
     },
     "doi:10.26599/tst.2018.9010129": {
       "category": "secondaire_technique",
