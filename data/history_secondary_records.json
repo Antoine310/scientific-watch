@@ -9165,6 +9165,21 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:sgxshieldenablingaddressspacelayoutrandomizationforsgxprograms": {
+    "publication_date": "2017-02-01",
+    "publication_date_precision": "month",
+    "publication_date_source": "2017-02",
+    "publication_type": "conference",
+    "publication_venue": "NDSS 2017",
+    "score": 70,
+    "source": "https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/sgx-shield-enabling-address-space-layout-randomization-sgx-programs/",
+    "summary": "Seo et al. proposent un chargeur interne à l'enclave pour randomiser son espace d'adressage tout en tenant compte des contraintes d'attestation SGX. Piste pour étudier la compatibilité entre relocalisation dynamique et mesure initiale des enclaves RISC-V ; ne constitue pas une défense générale contre les canaux de cache.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "SGX-Shield: Enabling Address Space Layout Randomization for SGX Programs",
+    "venue_provenance": "Vérification ChatGPT"
+  },
   "title:sgxswitchlesscallsmadeconfigless": {
     "publication_date": "2023-05-01",
     "publication_date_note": "",

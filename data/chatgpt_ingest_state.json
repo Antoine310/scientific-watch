@@ -2,7 +2,8 @@
   "processed": {
     "inbox/chatgpt/2026-11-25-1022.json": "2026-11-25T09:22:03.513561+00:00",
     "inbox/chatgpt/2026-11-25-test-integration.json": "2026-11-25T09:07:36.158150+00:00",
-    "inbox/chatgpt/2026-11-27-0843.json": "2026-11-27T07:43:54.004773+00:00"
+    "inbox/chatgpt/2026-11-27-0843.json": "2026-11-27T07:43:54.004773+00:00",
+    "inbox/chatgpt/2026-11-28-0842.json": "2026-11-28T07:41:58.131983+00:00"
   },
   "published": {
     "doi:10.14722/ndss.2019.23420": {
@@ -37,6 +38,23 @@
         "T04 — Runtime Attestation"
       ],
       "title": "IDA: Hybrid Attestation with Support for Interrupts and TOCTOU",
+      "venue_provenance": "Vérification ChatGPT"
+    },
+    "doi:10.14722/ndss.2026.240515": {
+      "added_at": "2026-11-28",
+      "doi": "https://doi.org/10.14722/ndss.2026.240515",
+      "publication_date": "2026-02-01",
+      "publication_date_precision": "month",
+      "publication_date_source": "2026-02",
+      "publication_type": "conference",
+      "publication_venue": "NDSS 2026",
+      "score": 88,
+      "source": "https://www.ndss-symposium.org/ndss-paper/latticebox-a-hardware-software-co-designed-framework-for-scalable-and-low-latency-compartmentalization/",
+      "summary": "Liu et al. proposent un contrôle d'accès hiérarchique et une protection du flot de contrôle inter-domaines sur BOOM RISC-V. Les transitions de domaine prennent un cycle dans leur architecture. Piste pour compartimenter les services de la RoT sur CVA6, sans garantie démontrée contre les canaux temporels.",
+      "themes": [
+        "T03 — RISC-V TEE & Enclaves"
+      ],
+      "title": "LatticeBox: A Hardware-Software Co-Designed Framework for Scalable and Low-Latency Compartmentalization",
       "venue_provenance": "Vérification ChatGPT"
     },
     "title:ahardwaresoftwarecodesignforefficientintraenclaveisolation": {
@@ -101,6 +119,22 @@
         "T03 — RISC-V TEE & Enclaves"
       ],
       "title": "Donky: Domain Keys – Efficient In-Process Isolation for RISC-V and x86",
+      "venue_provenance": "Vérification ChatGPT"
+    },
+    "title:nvleakoffchipsidechannelattacksvianonvolatilememorysystems": {
+      "added_at": "2026-11-28",
+      "publication_date": "2023-08-01",
+      "publication_date_precision": "month",
+      "publication_date_source": "2023-08",
+      "publication_type": "conference",
+      "publication_venue": "USENIX Security 2023",
+      "score": 76,
+      "source": "https://www.usenix.org/conference/usenixsecurity23/presentation/wang-zixuan",
+      "summary": "Wang et al. montrent que les ressources mémoire non volatiles hors puce peuvent divulguer des informations malgré les protections internes au processeur. Ils étudient un partitionnement du cache mémoire non volatile. Piste pour étendre le modèle de menace de la RoT au système mémoire, sans supposer la présence de NVRAM sur CVA6.",
+      "themes": [
+        "T08 — Cache & Temporal Isolation"
+      ],
+      "title": "NVLeak: Off-Chip Side-Channel Attacks via Non-Volatile Memory Systems",
       "venue_provenance": "Vérification ChatGPT"
     },
     "title:onbridgingthegapbetweencontrolflowintegrityandattestationschemes": {
@@ -215,6 +249,22 @@
       "title": "Secure Caches for Compartmentalized Software",
       "venue_provenance": "Vérification ChatGPT"
     },
+    "title:sgxshieldenablingaddressspacelayoutrandomizationforsgxprograms": {
+      "added_at": "2026-11-28",
+      "publication_date": "2017-02-01",
+      "publication_date_precision": "month",
+      "publication_date_source": "2017-02",
+      "publication_type": "conference",
+      "publication_venue": "NDSS 2017",
+      "score": 70,
+      "source": "https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/sgx-shield-enabling-address-space-layout-randomization-sgx-programs/",
+      "summary": "Seo et al. proposent un chargeur interne à l'enclave pour randomiser son espace d'adressage tout en tenant compte des contraintes d'attestation SGX. Piste pour étudier la compatibilité entre relocalisation dynamique et mesure initiale des enclaves RISC-V ; ne constitue pas une défense générale contre les canaux de cache.",
+      "themes": [
+        "T03 — RISC-V TEE & Enclaves"
+      ],
+      "title": "SGX-Shield: Enabling Address Space Layout Randomization for SGX Programs",
+      "venue_provenance": "Vérification ChatGPT"
+    },
     "title:speclfbeliminatingcachesidechannelsinspeculativeexecutions": {
       "added_at": "2026-11-27",
       "publication_date": "2024-08-01",
@@ -245,6 +295,38 @@
         "T08 — Cache & Temporal Isolation"
       ],
       "title": "TLBlur: Compiler-Assisted Automated Hardening against Controlled Channels on Off-the-Shelf Intel SGX Platforms",
+      "venue_provenance": "Vérification ChatGPT"
+    },
+    "title:tsgxeradicatingcontrolledchannelattacksagainstenclaveprograms": {
+      "added_at": "2026-11-28",
+      "publication_date": "2017-02-01",
+      "publication_date_precision": "month",
+      "publication_date_source": "2017-02",
+      "publication_type": "conference",
+      "publication_venue": "NDSS 2017",
+      "score": 78,
+      "source": "https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/t-sgx-eradicating-controlled-channel-attacks-against-enclave-programs/",
+      "summary": "Shih et al. utilisent la mémoire transactionnelle Intel TSX et une transformation par compilateur pour masquer les fautes de pages à un OS hostile. Surcoût moyen de 50 % sur les benchmarks étudiés. Référence pour les canaux contrôlés par le système ; nécessite une adaptation importante sur RISC-V.",
+      "themes": [
+        "T08 — Cache & Temporal Isolation"
+      ],
+      "title": "T-SGX: Eradicating Controlled-Channel Attacks Against Enclave Programs",
+      "venue_provenance": "Vérification ChatGPT"
+    },
+    "title:varysprotectingsgxenclavesfrompracticalsidechannelattacks": {
+      "added_at": "2026-11-28",
+      "publication_date": "2018-07-01",
+      "publication_date_precision": "month",
+      "publication_date_source": "2018-07",
+      "publication_type": "conference",
+      "publication_venue": "USENIX ATC 2018",
+      "score": 90,
+      "source": "https://www.usenix.org/conference/atc18/presentation/oleksenko",
+      "summary": "Oleksenko et al. réservent des cœurs physiques aux threads sensibles malgré un OS non fiable pour limiter les fuites par caches L1/L2 et tables de pages. Surcoût moyen annoncé de 15 % sur Phoenix et PARSEC. Piste de comparaison pour l'isolation temporelle des enclaves et de la RoT ; protection L3 proposée mais distincte.",
+      "themes": [
+        "T08 — Cache & Temporal Isolation"
+      ],
+      "title": "Varys: Protecting SGX Enclaves from Practical Side-Channel Attacks",
       "venue_provenance": "Vérification ChatGPT"
     }
   }

@@ -60008,6 +60008,14 @@
       "title": "Exploiting TLBs in Virtualized GPUs for Cross-VM Side-Channel Attacks",
       "updated_at": "2026-11-01T02:14:31.196830+00:00"
     },
+    "doi:10.14722/ndss.2026.240515": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "LatticeBox: A Hardware-Software Co-Designed Framework for Scalable and Low-Latency Compartmentalization",
+      "updated_at": "2026-11-28T07:41:57.141149+00:00"
+    },
     "doi:10.14722/ndss.2026.240526": {
       "category": "secondaire",
       "decision": "examiner",
@@ -84712,6 +84720,14 @@
       "title": "Not eXactly Byzantine: Efficient and Resilient TEE-Based State Machine Replication",
       "updated_at": "2026-11-07T07:37:48.797306+00:00"
     },
+    "title:nvleakoffchipsidechannelattacksvianonvolatilememorysystems": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 76,
+      "status": "imported",
+      "title": "NVLeak: Off-Chip Side-Channel Attacks via Non-Volatile Memory Systems",
+      "updated_at": "2026-11-28T07:41:58.062263+00:00"
+    },
     "title:obfuscationasinstructiondecorrelation": {
       "category": "secondaire",
       "decision": "examiner",
@@ -86672,6 +86688,14 @@
       "title": "SGX-MR: Regulating Dataflows for Protecting Access Patterns of Data-Intensive SGX Applications",
       "updated_at": "2026-11-23T09:37:09.633009+00:00"
     },
+    "title:sgxshieldenablingaddressspacelayoutrandomizationforsgxprograms": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 70,
+      "status": "imported",
+      "title": "SGX-Shield: Enabling Address Space Layout Randomization for SGX Programs",
+      "updated_at": "2026-11-28T07:41:58.097638+00:00"
+    },
     "title:sgxswitchlesscallsmadeconfigless": {
       "category": "secondaire_technique",
       "decision": "examiner",
@@ -88288,6 +88312,14 @@
       "title": "Trustworthy Smart Fabs via Professional Proxies: Scaling Safe and Sustainable by Design (SSbD) through Industrial Data Spaces",
       "updated_at": "2026-11-02T21:35:59.680897+00:00"
     },
+    "title:tsgxeradicatingcontrolledchannelattacksagainstenclaveprograms": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 78,
+      "status": "imported",
+      "title": "T-SGX: Eradicating Controlled-Channel Attacks Against Enclave Programs",
+      "updated_at": "2026-11-28T07:41:57.746828+00:00"
+    },
     "title:twowayconfidentialvms2cvmcollaborativeconfidentialcomputingformutuallydistrustfulparties": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -88455,6 +88487,14 @@
       "status": "rejected",
       "title": "Validation of GPU Computation in Decentralized, Trustless Networks",
       "updated_at": "2026-11-07T07:37:48.596893+00:00"
+    },
+    "title:varysprotectingsgxenclavesfrompracticalsidechannelattacks": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "Varys: Protecting SGX Enclaves from Practical Side-Channel Attacks",
+      "updated_at": "2026-11-28T07:41:57.445312+00:00"
     },
     "title:vaultorputtingtheteeintor": {
       "category": "secondaire",
