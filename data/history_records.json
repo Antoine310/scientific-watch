@@ -15192,6 +15192,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:falloutreadingkernelwritesfromuserspace": {
+    "doi": "",
+    "publication_date": "2019-05-29",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/1905.12701v1",
+    "summary": "Cette étude présente Fallout, une nouvelle attaque par exécution spéculative qui exploite les tampons d'écriture (store buffers) et les microcode assists pour contourner les protections matérielles d'Intel, permettant à des processus utilisateurs non privilégiés de lire des données écrites par le noyau et de contourner l'ASLR du noyau.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Fallout: Reading Kernel Writes From User Space",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:fencetsclosingtimingchannelsinhighperformanceoutofordercoresthroughisasupportedtemporalpartitioning": {
     "doi": "",
     "publication_date": "2024-09-11",
@@ -15634,6 +15654,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:identifyingcachebasedsidechannelsthroughsecretaugmentedabstractinterpretation": {
+    "doi": "",
+    "publication_date": "2019-05-30",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/1905.13332v1",
+    "summary": "Cet article propose une nouvelle méthode d'analyse statique sur les binaires utilisant l'interprétation abstaite pour détecter les canaux auxiliaires liés au cache. Les auteurs introduisent un domaine abstrait, le Secret-Augmented Symbolic domain (SAS), permettant de concilier précision, couverture complète et passage à l'échelle. Implémentée dans l'outil CacheS, la méthode a permis d'évaluer des bibliothèques cryptographiques réelles et d'identifier 54 fuites d'informations inédites.",
+    "themes": [
+      "T08 — Cache & Temporal Isolation"
+    ],
+    "title": "Identifying Cache-Based Side Channels through Secret-Augmented Abstract Interpretation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:indirectmeltdownbuildingnovelsidechannelattacksfromtransientexecutionattacks": {
     "doi": "",
     "publication_date": "2023-10-06",
@@ -15902,6 +15942,26 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "MAD-EN: Microarchitectural Attack Detection through System-wide Energy Consumption",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:methodicallydefeatingnintendoswitchsecurity": {
+    "doi": "",
+    "publication_date": "2019-05-18",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/1905.07643v2",
+    "summary": "Cette publication expose une méthodologie étape par étape pour contourner la sécurité du système de la Nintendo Switch, en combinant l'exécution de code en espace utilisateur, l'analyse du système d'exploitation et l'exploitation d'une ROM de démarrage sécurisée pour compromettre la racine de confiance matérielle.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Methodically Defeating Nintendo Switch Security",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -17818,6 +17878,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:storetoleakforwardingleakingdataonmeltdownresistantcpusupdatedandextendedversion": {
+    "doi": "",
+    "publication_date": "2019-05-14",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/1905.05725v2",
+    "summary": "Cet article démontre que des attaques de type Meltdown restent possibles sur des processeurs récents réputés immunisés contre la vulnérabilité originale. En combinant le tampon d'écriture (store buffer) et le TLB, les auteurs réalisent des attaques de contournement d'ASLR (KASLR et depuis JavaScript), des attaques par canal auxiliaire cassant l'atomicité de TSX, et du monitoring de flux de contrôle du noyau, voire la fuite de données arbitraires via un gadget Spectre.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Store-to-Leak Forwarding: Leaking Data on Meltdown-resistant CPUs (Updated and Extended Version)",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:supportingsecuredintegrationofmicroarchitecturaldefenses": {
     "doi": "",
     "publication_date": "2026-01-08",
@@ -18564,6 +18644,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "You Cannot Always Win the Race: Analyzing the LFENCE/JMP Mitigation for Branch Target Injection",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:zombieloadcrossprivilegeboundarydatasampling": {
+    "doi": "",
+    "publication_date": "2019-05-14",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/1905.05726v1",
+    "summary": "Cet article présente ZombieLoad, une nouvelle attaque par exécution transitoire de type Meltdown ciblant la logique des tampons de remplissage (fill-buffer) des processeurs. L'attaque permet de fuiter des données obsolètes récemment chargées à travers les cœurs logiques, compromettant divers niveaux de privilèges, processus, machines virtuelles et enclaves SGX.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "ZombieLoad: Cross-Privilege-Boundary Data Sampling",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
