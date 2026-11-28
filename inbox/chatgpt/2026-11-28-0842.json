@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "articles": [
+    {
+      "title": "LatticeBox: A Hardware-Software Co-Designed Framework for Scalable and Low-Latency Compartmentalization",
+      "url": "https://www.ndss-symposium.org/ndss-paper/latticebox-a-hardware-software-co-designed-framework-for-scalable-and-low-latency-compartmentalization/",
+      "doi": "10.14722/ndss.2026.240515",
+      "publication_date": "2026-02",
+      "score": 88,
+      "summary": "Liu et al. proposent un contrôle d'accès hiérarchique et une protection du flot de contrôle inter-domaines sur BOOM RISC-V. Les transitions de domaine prennent un cycle dans leur architecture. Piste pour compartimenter les services de la RoT sur CVA6, sans garantie démontrée contre les canaux temporels.",
+      "venue": "NDSS 2026",
+      "publication_type": "conference",
+      "themes": [
+        "T03 — RISC-V TEE & Enclaves"
+      ]
+    },
+    {
+      "title": "Varys: Protecting SGX Enclaves from Practical Side-Channel Attacks",
+      "url": "https://www.usenix.org/conference/atc18/presentation/oleksenko",
+      "publication_date": "2018-07",
+      "score": 90,
+      "summary": "Oleksenko et al. réservent des cœurs physiques aux threads sensibles malgré un OS non fiable pour limiter les fuites par caches L1/L2 et tables de pages. Surcoût moyen annoncé de 15 % sur Phoenix et PARSEC. Piste de comparaison pour l'isolation temporelle des enclaves et de la RoT ; protection L3 proposée mais distincte.",
+      "venue": "USENIX ATC 2018",
+      "publication_type": "conference",
+      "themes": [
+        "T08 — Cache & Temporal Isolation"
+      ]
+    },
+    {
+      "title": "T-SGX: Eradicating Controlled-Channel Attacks Against Enclave Programs",
+      "url": "https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/t-sgx-eradicating-controlled-channel-attacks-against-enclave-programs/",
+      "publication_date": "2017-02",
+      "score": 78,
+      "summary": "Shih et al. utilisent la mémoire transactionnelle Intel TSX et une transformation par compilateur pour masquer les fautes de pages à un OS hostile. Surcoût moyen de 50 % sur les benchmarks étudiés. Référence pour les canaux contrôlés par le système ; nécessite une adaptation importante sur RISC-V.",
+      "venue": "NDSS 2017",
+      "publication_type": "conference",
+      "themes": [
+        "T08 — Cache & Temporal Isolation"
+      ]
+    },
+    {
+      "title": "NVLeak: Off-Chip Side-Channel Attacks via Non-Volatile Memory Systems",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/wang-zixuan",
+      "publication_date": "2023-08",
+      "score": 76,
+      "summary": "Wang et al. montrent que les ressources mémoire non volatiles hors puce peuvent divulguer des informations malgré les protections internes au processeur. Ils étudient un partitionnement du cache mémoire non volatile. Piste pour étendre le modèle de menace de la RoT au système mémoire, sans supposer la présence de NVRAM sur CVA6.",
+      "venue": "USENIX Security 2023",
+      "publication_type": "conference",
+      "themes": [
+        "T08 — Cache & Temporal Isolation"
+      ]
+    },
+    {
+      "title": "SGX-Shield: Enabling Address Space Layout Randomization for SGX Programs",
+      "url": "https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/sgx-shield-enabling-address-space-layout-randomization-sgx-programs/",
+      "publication_date": "2017-02",
+      "score": 70,
+      "summary": "Seo et al. proposent un chargeur interne à l'enclave pour randomiser son espace d'adressage tout en tenant compte des contraintes d'attestation SGX. Piste pour étudier la compatibilité entre relocalisation dynamique et mesure initiale des enclaves RISC-V ; ne constitue pas une défense générale contre les canaux de cache.",
+      "venue": "NDSS 2017",
+      "publication_type": "conference",
+      "themes": [
+        "T03 — RISC-V TEE & Enclaves"
+      ]
+    }
+  ]
+}
