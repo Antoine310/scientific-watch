@@ -584,6 +584,14 @@
       "title": "Investigation of Isolated IrF 5 − , IrF 6 − Anions and M[IrF 6 ] (M=Na, K, Rb, Cs) Ion Pairs by Matrix‐Isolation Spectroscopy and Relativistic Quantum‐Chemical Calculations",
       "updated_at": "2026-11-10T03:37:53.494667+00:00"
     },
+    "doi:10.1002/cpe.5326": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Detection and mitigation of UDP flooding attack in a multicontroller software defined network using secure flow management model",
+      "updated_at": "2026-11-28T07:38:43.841379+00:00"
+    },
     "doi:10.1002/cpe.6554": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -1135,6 +1143,14 @@
       "status": "rejected",
       "title": "Security and privacy challenges, issues, and enhancing techniques for Internet of Medical Things: A systematic review",
       "updated_at": "2026-11-09T23:37:09.645945+00:00"
+    },
+    "doi:10.1002/spy2.70": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 25,
+      "status": "rejected",
+      "title": "Secure delegation of group exponentiations: Efficient and fully verifiable schemes with two servers†",
+      "updated_at": "2026-11-28T07:37:06.457885+00:00"
     },
     "doi:10.1002/sstr.202200060": {
       "category": "secondaire",
@@ -5679,6 +5695,14 @@
       "status": "rejected",
       "title": "High performance FPGA based secured hardware model for IoT devices",
       "updated_at": "2026-11-18T17:38:47.763370+00:00"
+    },
+    "doi:10.1007/s13369-019-03883-x": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Tamper-Resistant Secure Medical Image Carrier: An IWT–SVD–Chaos–FPGA Combination",
+      "updated_at": "2026-11-28T07:38:43.804011+00:00"
     },
     "doi:10.1007/s13369-022-07593-9": {
       "category": "hors_sujet",
@@ -11695,6 +11719,14 @@
       "status": "rejected",
       "title": "HINT-Sec: Hardware-in-the-loop nuclear power plant testbed for cyber security",
       "updated_at": "2026-11-07T02:36:59.292953+00:00"
+    },
+    "doi:10.1016/j.polgeo.2019.02.008": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "‘Occupied Enclave’: Policing and the underbelly of humanitarian governance in Kakuma refugee camp, Kenya",
+      "updated_at": "2026-11-28T07:38:53.463319+00:00"
     },
     "doi:10.1016/j.polgeo.2019.102048": {
       "category": "hors_sujet",
@@ -29944,6 +29976,30 @@
       "title": "A Closer Look at the Delay-Chain based TRNG",
       "updated_at": "2026-11-16T23:14:12.902655+00:00"
     },
+    "doi:10.1109/iscas.2019.8702308": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "ECG Authentication Neural Network Hardware Design with Collective Optimization of Low Precision and Structured Compression",
+      "updated_at": "2026-11-28T07:36:32.995679+00:00"
+    },
+    "doi:10.1109/iscas.2019.8702315": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "Energy-Adaptive Lightweight Hardware Security Module using Partial Dynamic Reconfiguration for Energy Limited Internet of Things Applications",
+      "updated_at": "2026-11-28T07:36:33.033802+00:00"
+    },
+    "doi:10.1109/iscas.2019.8702538": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Low Energy Heterogeneous Computing with Multiple RISC-V and CGRA Cores",
+      "updated_at": "2026-11-28T07:39:03.515373+00:00"
+    },
     "doi:10.1109/iscas.2019.8702785": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -36119,6 +36175,14 @@
       "status": "rejected",
       "title": "HADA: Leveraging Multi-Source Data to Train Large Language Models for Hardware Security Assertion Generation",
       "updated_at": "2026-11-04T19:25:59.462000+00:00"
+    },
+    "doi:10.1109/mm.2019.2910010": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Security Verification via Automatic Hardware-Aware Exploit Synthesis: The CheckMate Approach",
+      "updated_at": "2026-11-28T07:37:06.421806+00:00"
     },
     "doi:10.1109/mm.2019.2920814": {
       "category": "coeur",
@@ -42800,6 +42864,22 @@
       "title": "FPGA Assessment Methodology of Adverse X-Ray Effects on Secure Digital Circuits",
       "updated_at": "2026-11-06T19:38:37.979613+00:00"
     },
+    "doi:10.1109/tdsc.2018.2822298": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "Decay-Based DRAM PUFs in Commodity Devices",
+      "updated_at": "2026-11-28T07:37:25.713005+00:00"
+    },
+    "doi:10.1109/tdsc.2018.2832201": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Building PUF Based Authentication and Key Exchange Protocol for IoT Without Explicit CRPs in Verifier Database",
+      "updated_at": "2026-11-28T07:37:25.749886+00:00"
+    },
     "doi:10.1109/tdsc.2018.2840709": {
       "category": "transfert_explicite",
       "decision": "examiner",
@@ -42816,6 +42896,14 @@
       "title": "CPU Elasticity to Mitigate Cross-VM Runtime Monitoring",
       "updated_at": "2026-11-23T10:36:53.208706+00:00"
     },
+    "doi:10.1109/tdsc.2018.2858257": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "Atlas: Application Confidentiality in Compromised Embedded Systems",
+      "updated_at": "2026-11-28T07:37:38.160493+00:00"
+    },
     "doi:10.1109/tdsc.2018.2866425": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -42831,6 +42919,14 @@
       "status": "rejected",
       "title": "Detection and Defense of Cache Pollution Attacks Using Clustering in Named Data Networks",
       "updated_at": "2026-11-22T17:37:46.793493+00:00"
+    },
+    "doi:10.1109/tdsc.2018.2881695": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "A Silicon PUF Based Entropy Pump",
+      "updated_at": "2026-11-28T07:37:45.119616+00:00"
     },
     "doi:10.1109/tdsc.2019.2897666": {
       "category": "secondaire_technique",
@@ -48007,6 +48103,14 @@
       "status": "rejected",
       "title": "Low-area and high-speed hardware architectures of KLEIN lightweight block cipher for image encryption",
       "updated_at": "2026-11-15T04:37:47.423521+00:00"
+    },
+    "doi:10.1117/12.2519257": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "DLA-PUF: deep learning attacks on hardware security primitives",
+      "updated_at": "2026-11-28T07:36:43.009440+00:00"
     },
     "doi:10.1117/12.2551272": {
       "category": "secondaire",
@@ -58455,6 +58559,14 @@
       "status": "rejected",
       "title": "Trusted Computing Technology and Proposals for Resolving Cloud Computing Security Problems",
       "updated_at": "2026-11-22T17:36:40.586960+00:00"
+    },
+    "doi:10.1201/9780429263897-5": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 15,
+      "status": "rejected",
+      "title": "Security and privacy in cloud and embedded systems for cyber-physical systems",
+      "updated_at": "2026-11-28T07:36:53.508371+00:00"
     },
     "doi:10.1201/9780429345593-3": {
       "category": "secondaire",

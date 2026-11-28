@@ -3516,6 +3516,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/mm.2019.2910010": {
+    "doi": "https://doi.org/10.1109/mm.2019.2910010",
+    "publication_date": "2019-05-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2019-05-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Micro",
+    "score": 85,
+    "source": "https://doi.org/10.1109/mm.2019.2910010",
+    "summary": "CheckMate est une approche et un outil automatisé permettant d'évaluer la vulnérabilité microarchitecturale face à des classes d'attaques spécifiées et de synthétiser du code d'exploitation de type preuve de concept pour les conceptions vulnérables.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Security Verification via Automatic Hardware-Aware Exploit Synthesis: The CheckMate Approach",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/mm.2019.2920814": {
     "doi": "https://doi.org/10.1109/mm.2019.2920814",
     "publication_date": "2019-06-04",
@@ -5089,6 +5109,26 @@
       "T01 — Root of Trust & Secure Boot"
     ],
     "title": "Retrofitting the Partially Privileged Mode for TEE Communication Channel Protection",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1109/tdsc.2018.2858257": {
+    "doi": "https://doi.org/10.1109/tdsc.2018.2858257",
+    "publication_date": "2019-05-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2019-05-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Transactions on Dependable and Secure Computing",
+    "score": 75,
+    "source": "https://doi.org/10.1109/tdsc.2018.2858257",
+    "summary": "Cet article présente Atlas, une architecture de sécurité matérielle complémentaire aux mécanismes traditionnels de protection mémoire, conçue pour garantir la confidentialité du code et des données dans les systèmes embarqués, même en cas de compromission du système d'exploitation.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Atlas: Application Confidentiality in Compromised Embedded Systems",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
