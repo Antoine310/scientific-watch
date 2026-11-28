@@ -6074,6 +6074,26 @@
     "venue_priority": 2,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.1145/3284361": {
+    "doi": "https://doi.org/10.1145/3284361",
+    "publication_date": "2019-04-02",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2019-04-02",
+    "publication_type": "revue",
+    "publication_venue": "ACM Transactions on Embedded Computing Systems",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3284361",
+    "summary": "Ce travail traite de la sécurité des appareils connectés (IoT) face à l'augmentation des attaques. Il propose une approche combinant l'exécution sécurisée d'applications et la liaison entre matériel et logiciel pour prévenir les attaques de remplacement, d'injection et d'exploitation de code. Les auteurs présentent un schéma étendu ainsi qu'une implémentation sur processeur soft-core (Secure Execution Processor) testé sur FPGA Xilinx Spartan-6, avec une analyse des performances.",
+    "themes": [
+      "T01 — Root of Trust & Secure Boot"
+    ],
+    "title": "Ensuring Secure Application Execution and Platform-Specific Execution in Embedded Devices",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3307650.3322238": {
     "doi": "https://doi.org/10.1145/3307650.3322238",
     "publication_date": "2019-06-14",
