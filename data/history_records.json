@@ -13626,6 +13626,26 @@
     ],
     "title": "Future-proofing Trusted Execution Environments Against the Emerging Threats of Speculative Execution"
   },
+  "title:abstractinterpretationunderspeculativeexecution": {
+    "doi": "",
+    "publication_date": "2019-04-25",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/1904.11170v2",
+    "summary": "Cette publication propose d'adapter l'interprétation abstraite pour qu'elle devienne saine face à l'exécution spéculative, afin d'améliorer l'estimation du temps d'exécution et la détection de canaux cachés. L'approche introduit un contrôle de flux virtuel et des optimisations pour gérer les fusions, les boucles et la profondeur de spéculation.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Abstract Interpretation under Speculative Execution",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:abusingcachelinedirtystatestoleakinformationincommercialprocessors": {
     "doi": "",
     "publication_date": "2021-04-17",
@@ -14931,6 +14951,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:detectingtimefragmentedcacheattacksagainstaesusingperformancemonitoringcounters": {
+    "doi": "",
+    "publication_date": "2019-04-25",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 80,
+    "source": "http://arxiv.org/abs/1904.11268v1",
+    "summary": "Cette publication étudie la détection des attaques temporelles par canal cache contre l'algorithme AES dans les processeurs multi-cœurs. Les auteurs proposent d'utiliser un processus de surveillance indépendant mesurant les Compteurs de Performance (PMC) pour identifier la présence d'une attaque, permettant d'activer des contre-mesures ciblées uniquement en cas de risque, évitant ainsi les pertes de performance et de surconsommation énergétique continues. L'étude démontre que l'échantillonnage des PMC à des fréquences plus faibles est plus efficace pour détecter des attaques fragmentées dans le temps que l'échantillonnage à haute fréquence.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Detecting time-fragmented cache attacks against AES using Performance Monitoring Counters",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:domainpagetableisolation": {
     "doi": "",
     "publication_date": "2021-11-21",
@@ -15852,6 +15892,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Investigating Black-Box Function Recognition Using Hardware Performance Counters",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:ironhideasecuremulticorethatefficientlymitigatesmicroarchitecturestateattacksforinteractiveapplications": {
+    "doi": "",
+    "publication_date": "2019-04-29",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/1904.12729v3",
+    "summary": "Cet article présente IRONHIDE, un processeur multicœur sécurisé conçu pour atténuer efficacement les attaques par état microarchitectural tout en prenant en charge les applications interactives. Contrairement aux approches existantes comme MI6 qui purgent l'état du processeur à chaque transition entre processus sécurisés et non sécurisés, IRONHIDE utilise une isolation spatiale en formant des clusters de cœurs sécurisés et non sécurisés dédiés, éliminant ainsi les surcoûts de purge fréquents.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "IRONHIDE: A Secure Multicore that Efficiently Mitigates Microarchitecture State Attacks for Interactive Applications",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
@@ -16926,6 +16986,26 @@
       "T07 — Hardware Security Verification"
     ],
     "title": "Relational Models of Microarchitectures for Formal Security Analyses",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:reloadrefreshabusingcachereplacementpoliciestoperformstealthycacheattacks": {
+    "doi": "",
+    "publication_date": "2019-04-12",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/1904.06278v1",
+    "summary": "Cette publication étudie une nouvelle attaque par canal auxiliaire sur les caches, baptisée RELOAD+REFRESH. Contrairement aux attaques traditionnelles qui modifient l'état du cache et provoquent des évictions détectables, cette méthode exploite la politique de remplacement du cache pour suivre les accès de la victime de manière furtive, contournant ainsi les mécanismes de détection en ligne basés sur ces évictions.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "RELOAD+REFRESH: Abusing Cache Replacement Policies to Perform Stealthy Cache Attacks",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
