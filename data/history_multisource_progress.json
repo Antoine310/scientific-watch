@@ -1,8 +1,8 @@
 {
-  "accepted": 546,
+  "accepted": 548,
   "completed": false,
-  "cursor": "MTU2OTkwMTQxNzAwMCwxMC4xMTA5JTJGcGVwcWEuMjAxOS44ODUxNTQy",
-  "evaluated": 9641,
+  "cursor": "*",
+  "evaluated": 9659,
   "incomplete_queries": [
     "monthly/2026-10/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2026-10/query-14 : résultat tronqué au plafond 12 pages",
@@ -928,118 +928,16 @@
     "monthly/2019-05/query-13 : résultat tronqué au plafond 12 pages",
     "monthly/2019-05/query-14 : résultat tronqué au plafond 12 pages",
     "monthly/2019-05/query-15 : résultat tronqué au plafond 12 pages",
-    "monthly/2019-05/query-16 : résultat tronqué au plafond 12 pages"
+    "monthly/2019-05/query-16 : résultat tronqué au plafond 12 pages",
+    "monthly/2019-05/query-18 : résultat tronqué au plafond 12 pages",
+    "monthly/2019-05/query-19 : résultat tronqué au plafond 12 pages"
   ],
   "month": "2019-05",
   "needs_publish": false,
-  "offset": 240,
-  "pages_done": 13552,
-  "pages_in_query": 6,
-  "pending": [
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Daniel Kraak"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Innocent Agbo"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Mottaqiallah Taouil"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Said Hamdioui"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Pieter Weckx"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Stefan Cosemans"
-            }
-          },
-          {
-            "author": {
-              "display_name": "Francky Catthoor"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1109/ets.2019.8791536",
-        "id": "https://doi.org/10.1109/ets.2019.8791536",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1109/ets.2019.8791536"
-        },
-        "publication_date": "2019-05-01",
-        "publication_date_note": "Date source Crossref : 2019-05 (jour inconnu ; 01 utilisé pour classer).",
-        "publication_date_precision": "month",
-        "publication_date_source": "2019-05",
-        "publication_type": "conference",
-        "publication_venue": "2019 IEEE European Test Symposium (ETS)",
-        "title": "Hardware-Based Aging Mitigation Scheme for Memory Address Decoder",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    },
-    {
-      "paper": {
-        "abstract_inverted_index": {},
-        "authorships": [
-          {
-            "author": {
-              "display_name": "Zachary A. Collier"
-            }
-          },
-          {
-            "author": {
-              "display_name": "James H. Lambert"
-            }
-          }
-        ],
-        "doi": "https://doi.org/10.1007/s42524-019-0032-5",
-        "id": "https://doi.org/10.1007/s42524-019-0032-5",
-        "primary_location": {
-          "landing_page_url": "https://doi.org/10.1007/s42524-019-0032-5"
-        },
-        "publication_date": "2019-05-11",
-        "publication_date_note": "",
-        "publication_date_precision": "day",
-        "publication_date_source": "2019-05-11",
-        "publication_type": "revue",
-        "publication_venue": "Frontiers of Engineering Management",
-        "title": "Managing obsolescence of embedded hardware and software in secure and trusted systems",
-        "venue_landmark": "",
-        "venue_note": "",
-        "venue_priority": 0,
-        "venue_provenance": "Crossref"
-      },
-      "sources": [
-        "Crossref"
-      ],
-      "themes": [
-        "T04 — Runtime Attestation"
-      ]
-    }
-  ],
+  "offset": 0,
+  "pages_done": 13577,
+  "pages_in_query": 0,
+  "pending": [],
   "phase": "monthly",
   "prefilter_review": [
     {
@@ -3443,9 +3341,9 @@
       "title": "AI-Driven Adaptive Encryption Framework for a Modular Hardware-Based Data Security Device: Conceptual Architecture, Formal Foundations, and Security Analysis"
     }
   ],
-  "prefilter_review_overflow": 4576,
-  "query_index": 17,
-  "secondary": 546,
-  "skipped": 10844,
+  "prefilter_review_overflow": 4581,
+  "query_index": 20,
+  "secondary": 548,
+  "skipped": 10849,
   "version": 1
 }

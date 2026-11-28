@@ -1987,6 +1987,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/icassp.2019.8683839": {
+    "doi": "https://doi.org/10.1109/icassp.2019.8683839",
+    "publication_date": "2019-05-01",
+    "publication_date_note": "Date source Crossref : 2019-05 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2019-05",
+    "publication_type": "conference",
+    "publication_venue": "ICASSP 2019 - 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "score": 85,
+    "source": "https://doi.org/10.1109/icassp.2019.8683839",
+    "summary": "Ce travail propose une méthode de détection des canaux cachés temporels basés sur les caches en analysant l'occupation du cache à l'aide de techniques de traitement du signal. En exploitant la corrélation négative et la répétitivité des activités des processus, l'approche atteint un taux de faux négatifs de 0% et un taux de faux positifs de 4%.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Negative Correlation, Non-linear Filtering, and Discovering of Repetitiveness for Cache Timing Channel Detection",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/icc59461.2026.11587746": {
     "publication_date": "2026-05-24",
     "publication_type": "conference",
@@ -10683,6 +10703,26 @@
       "T03 — RISC-V TEE & Enclaves"
     ],
     "title": "Runtime Verification for Trustworthy Computing",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.46586/tches.v2019.i3.305-339": {
+    "doi": "https://doi.org/10.46586/tches.v2019.i3.305-339",
+    "publication_date": "2019-05-09",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2019-05-09",
+    "publication_type": "revue",
+    "publication_venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "score": 75,
+    "source": "https://doi.org/10.46586/tches.v2019.i3.305-339",
+    "summary": "Cet article étudie les vecteurs d'attaque par canal auxiliaire inédits dans les appareils IoT à signaux mixtes. Les auteurs démontrent que les composants analogiques et numériques intégrés sur les mêmes puces, en particulier les convertisseurs analogique-numérique (ADC), exposent une vulnérabilité permettant de déduire l'activité du CPU et de réaliser une attaque par récupération de clé sur l'algorithme AES.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Leaky Noise: New Side-Channel Attack Vectors in Mixed-Signal IoT Devices",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,
