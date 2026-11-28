@@ -9598,6 +9598,26 @@
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
   },
+  "doi:10.23919/date.2019.8714775": {
+    "doi": "https://doi.org/10.23919/date.2019.8714775",
+    "publication_date": "2019-03-01",
+    "publication_date_note": "Date source Crossref : 2019-03 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2019-03",
+    "publication_type": "conference",
+    "publication_venue": "2019 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+    "score": 75,
+    "source": "https://doi.org/10.23919/date.2019.8714775",
+    "summary": "Cet article présente SACHa, une méthode d'auto-attestation pour les matériels configurables de type FPGA. L'approche permet à un cœur de prouveur sur le FPGA de vérifier l'état global du système (matériel et logiciel) sans nécessiter de module matériel inviolable préexistant, transformant ainsi le FPGA en un module de confiance pour l'attestation d'un processeur.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "SACHa: Self-Attestation of Configurable Hardware",
+    "venue_landmark": "DATE",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.23919/date.2019.8714822": {
     "doi": "https://doi.org/10.23919/date.2019.8714822",
     "publication_date": "2019-03-01",
@@ -9614,6 +9634,26 @@
     "venue_note": "",
     "venue_priority": 0,
     "venue_provenance": "OpenAlex"
+  },
+  "doi:10.23919/date.2019.8715004": {
+    "doi": "https://doi.org/10.23919/date.2019.8715004",
+    "publication_date": "2019-03-01",
+    "publication_date_note": "Date source Crossref : 2019-03 (jour inconnu ; 01 utilisé pour classer).",
+    "publication_date_precision": "month",
+    "publication_date_source": "2019-03",
+    "publication_type": "conference",
+    "publication_venue": "2019 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+    "score": 85,
+    "source": "https://doi.org/10.23919/date.2019.8715004",
+    "summary": "Cet article analyse les vulnérabilités de sécurité matérielle liées aux canaux cachés dans les processeurs. Il démontre que ces failles ne concernent pas uniquement les architectures haut de gamme avec exécution spéculative et hors-ordre (comme Spectre ou Meltdown), mais touchent aussi les processeurs de complexité moyenne à pipeline ordonné. Pour y remédier, les auteurs introduisent une méthode formelle nommée Unique Program Execution Checking afin de détecter et localiser systématiquement ces vulnérabilités, y compris celles encore inconnues.",
+    "themes": [
+      "T07 — Hardware Security Verification"
+    ],
+    "title": "Processor Hardware Security Vulnerabilities and their Detection by Unique Program Execution Checking",
+    "venue_landmark": "DATE",
+    "venue_note": "",
+    "venue_priority": 1,
+    "venue_provenance": "Crossref"
   },
   "doi:10.23919/date.2019.8715182": {
     "doi": "https://doi.org/10.23919/date.2019.8715182",
