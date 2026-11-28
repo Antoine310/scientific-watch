@@ -6122,6 +6122,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1145/3337167.3337175": {
+    "doi": "https://doi.org/10.1145/3337167.3337175",
+    "publication_date": "2019-06-23",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2019-06-23",
+    "publication_type": "conference",
+    "publication_venue": "HASP '19: Workshop on Hardware and Architectural Support for Security and Privacy",
+    "score": 75,
+    "source": "https://doi.org/10.1145/3337167.3337175",
+    "summary": "Ce papier analyse la sécurité des architectures de jeu d'instructions (ISA) de processeur pour l'application de l'intégrité du flux de contrôle, en se concentrant sur la technologie CET (Control-flow Enforcement Technology) d'Intel. Il décrit les objectifs de sécurité, le modèle de menace et les choix de conception architecturale, et se conclut par des données de performance.",
+    "themes": [
+      "T04 — Runtime Attestation"
+    ],
+    "title": "Security Analysis of Processor Instruction Set Architecture for Enforcing Control-Flow Integrity",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1145/3337770": {
     "doi": "https://doi.org/10.1145/3337770",
     "publication_date": "2019-07-20",
