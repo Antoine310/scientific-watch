@@ -3536,6 +3536,26 @@
     "venue_priority": 0,
     "venue_provenance": "Crossref"
   },
+  "doi:10.1109/mm.2019.2897677": {
+    "doi": "https://doi.org/10.1109/mm.2019.2897677",
+    "publication_date": "2019-03-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "2019-03-01",
+    "publication_type": "revue",
+    "publication_venue": "IEEE Micro",
+    "score": 88,
+    "source": "https://doi.org/10.1109/mm.2019.2897677",
+    "summary": "Cet article examine les vulnérabilités de sécurité des processeurs Spectre et Meltdown révélées entre janvier et octobre 2018, lesquelles permettent l'extraction d'informations protégées sur des milliards de processeurs. Il discute également des mesures d'atténuation à court terme et spécule sur les implications à long terme pour le logiciel et le matériel.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "On the Spectre and Meltdown Processor Security Vulnerabilities",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "Crossref"
+  },
   "doi:10.1109/mm.2019.2910010": {
     "doi": "https://doi.org/10.1109/mm.2019.2910010",
     "publication_date": "2019-05-01",
@@ -6183,6 +6203,26 @@
     "venue_landmark": "DAC",
     "venue_note": "",
     "venue_priority": 1,
+    "venue_provenance": "Crossref"
+  },
+  "doi:10.1145/3319535.3363194": {
+    "doi": "https://doi.org/10.1145/3319535.3363194",
+    "publication_date": "2019-03-05",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "conference",
+    "publication_venue": "CCS '19: 2019 ACM SIGSAC Conference on Computer and Communications Security",
+    "score": 90,
+    "source": "http://arxiv.org/abs/1903.01843v3",
+    "summary": "SMoTherSpectre est une attaque par exécution spéculative et réutilisation de code qui exploite la contention sur les ports d'exécution dans les processeurs SMT (Simultaneous Multi-Threading) comme canal auxiliaire. Contrairement aux attaques classiques, elle ne repose pas sur les caches mais sur une détection fine de la contention au niveau d'une seule instruction victime. L'évaluation démontre son efficacité pour extraire des informations sensibles d'applications réelles telles qu'OpenSSH et OpenSSL.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SMoTherSpectre: exploiting speculative execution through port contention",
+    "venue_landmark": "ACM CCS",
+    "venue_note": "",
+    "venue_priority": 2,
     "venue_provenance": "Crossref"
   },
   "doi:10.1145/3319535.3363206": {
@@ -14656,6 +14696,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:codetrolleyhardwareassistedcontrolflowobfuscation": {
+    "doi": "",
+    "publication_date": "2019-03-03",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 75,
+    "source": "http://arxiv.org/abs/1903.00841v3",
+    "summary": "CodeTrolley propose une technique d'obfuscation et de désobfuscation du flux de contrôle assistée par matériel sur architecture RISC-V. Contrairement aux approches logicielles conventionnelles, elle repose sur un secret stocké de manière sécurisée dans le matériel pour désobfusquer le code à l'exécution, offrant ainsi une alternative légère au déchiffrement binaire à la volée.",
+    "themes": [
+      "T03 — RISC-V TEE & Enclaves"
+    ],
+    "title": "CodeTrolley: Hardware-Assisted Control Flow Obfuscation",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:coherenceattacksandcountermeasuresininterposerbasedsystems": {
     "doi": "",
     "publication_date": "2021-05-06",
@@ -17070,6 +17130,26 @@
     "venue_priority": 0,
     "venue_provenance": "arXiv"
   },
+  "title:restrictingcontrolflowduringspeculativeexecutionwithvenkman": {
+    "doi": "",
+    "publication_date": "2019-03-26",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 85,
+    "source": "http://arxiv.org/abs/1903.10651v1",
+    "summary": "Cet article présente Venkman, un système utilisant des transformations de code pour contrer les attaques par canal auxiliaire basées sur l'exécution spéculative, en particulier celles empoisonnant le Branch Target Buffer (BTB) et le Return Stack Buffer (RSB). Venkman aligne les cibles de transfert de flux de contrôle et les branches pour empêcher le contournement des instructions de protection, sans nécessiter de vider ou de restreindre le partage de ces structures matérielles.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "Restricting Control Flow During Speculative Execution with Venkman",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
   "title:reusableenclavesforconfidentialserverlesscomputing": {
     "publication_date": "2023-08-01",
     "publication_date_precision": "month",
@@ -18044,6 +18124,26 @@
       "T06 — Microarchitectural Side Channels"
     ],
     "title": "SPOILER-GUARD: Gating Latency Effects of Memory Accesses through Randomized Dependency Prediction",
+    "venue_landmark": "",
+    "venue_note": "",
+    "venue_priority": 0,
+    "venue_provenance": "arXiv"
+  },
+  "title:spoilerspeculativeloadhazardsboostrowhammerandcacheattacks": {
+    "doi": "",
+    "publication_date": "2019-03-01",
+    "publication_date_note": "",
+    "publication_date_precision": "day",
+    "publication_date_source": "",
+    "publication_type": "prepublication",
+    "publication_venue": "",
+    "score": 90,
+    "source": "http://arxiv.org/abs/1903.00446v2",
+    "summary": "Cet article étudie l'exploitation de la logique de résolution des dépendances des charges spéculatives pour obtenir des informations sur le mappage des pages physiques. Les auteurs proposent l'attaque SPOILER, qui accélère l'ingénierie inverse des adresses virtuelles vers physiques, améliore les attaques par canaux cachés (Prime+Probe) et permet d'optimiser les attaques Rowhammer de manière déterministe.",
+    "themes": [
+      "T06 — Microarchitectural Side Channels"
+    ],
+    "title": "SPOILER: Speculative Load Hazards Boost Rowhammer and Cache Attacks",
     "venue_landmark": "",
     "venue_note": "",
     "venue_priority": 0,

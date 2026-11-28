@@ -616,6 +616,14 @@
       "title": "Investigation of Isolated IrF 5 − , IrF 6 − Anions and M[IrF 6 ] (M=Na, K, Rb, Cs) Ion Pairs by Matrix‐Isolation Spectroscopy and Relativistic Quantum‐Chemical Calculations",
       "updated_at": "2026-11-10T03:37:53.494667+00:00"
     },
+    "doi:10.1002/cpe.5230": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "An efficient model for quantifying the interaction between structural properties of software and hardware in the ARM big.LITTLE architecture",
+      "updated_at": "2026-11-28T18:39:59.687390+00:00"
+    },
     "doi:10.1002/cpe.5326": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -7568,6 +7576,14 @@
       "title": "A lightweight device-level Public Key Infrastructure with DRAM based Physical Unclonable Function (PUF) for secure cyber physical systems",
       "updated_at": "2026-11-17T02:42:50.065053+00:00"
     },
+    "doi:10.1016/j.comnet.2019.01.013": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Security in hardware assisted virtualization for cloud computing—State of the art issues and challenges",
+      "updated_at": "2026-11-28T18:39:20.049104+00:00"
+    },
     "doi:10.1016/j.comnet.2020.107593": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -7847,6 +7863,14 @@
       "status": "rejected",
       "title": "Freeze and Crypt: Linux kernel support for main memory encryption",
       "updated_at": "2026-11-27T06:38:49.768905+00:00"
+    },
+    "doi:10.1016/j.cose.2018.10.008": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 30,
+      "status": "rejected",
+      "title": "MTRA: Multi-Tier randomized remote attestation in IoT networks",
+      "updated_at": "2026-11-28T18:39:10.410145+00:00"
     },
     "doi:10.1016/j.cose.2018.12.001": {
       "category": "secondaire",
@@ -14416,6 +14440,14 @@
       "title": "Auto‐correlation‐based Islanding detection technique verified through hardware‐in‐loop testing",
       "updated_at": "2026-11-27T12:39:11.345250+00:00"
     },
+    "doi:10.1049/iet-ifs.2018.5031": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 49,
+      "status": "rejected",
+      "title": "Build a trusted storage system on a mobile phone",
+      "updated_at": "2026-11-28T18:38:49.561760+00:00"
+    },
     "doi:10.1049/iet-ifs.2018.5228": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -14423,6 +14455,14 @@
       "status": "rejected",
       "title": "Chosen base‐point side‐channel attack on Montgomery ladder with x ‐only coordinate: with application to secp256k1",
       "updated_at": "2026-11-23T09:38:40.901061+00:00"
+    },
+    "doi:10.1049/iet-ifs.2018.5244": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 50,
+      "status": "rejected",
+      "title": "New second‐order threshold implementation of AES",
+      "updated_at": "2026-11-28T18:39:10.569353+00:00"
     },
     "doi:10.1049/iet-ifs.2019.0027": {
       "category": "secondaire_technique",
@@ -32224,6 +32264,14 @@
       "title": "Power-Time Series Characterisation of Heterogeneous ARM/RISC-V Cores Under Normal and Anomalous Workloads",
       "updated_at": "2026-11-06T02:37:00.244316+00:00"
     },
+    "doi:10.1109/isscc.2018.8310174": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 45,
+      "status": "rejected",
+      "title": "An Energy-Efficient Reconfigurable DTLS Cryptographic Engine for End-to-End Security in IoT Applications",
+      "updated_at": "2026-11-28T18:37:01.258755+00:00"
+    },
     "doi:10.1109/isscc42613.2021.9365789": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -35704,6 +35752,14 @@
       "title": "Secure Machine Learning Hardware: Challenges and Progress [Feature]",
       "updated_at": "2026-11-07T11:36:29.662590+00:00"
     },
+    "doi:10.1109/mce.2018.2880849": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Multilevel Watermark for Protecting DSP Kernel in CE Systems [Hardware Matters]",
+      "updated_at": "2026-11-28T18:39:20.097954+00:00"
+    },
     "doi:10.1109/mce.2019.2905539": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -36656,6 +36712,22 @@
       "title": "HADA: Leveraging Multi-Source Data to Train Large Language Models for Hardware Security Assertion Generation",
       "updated_at": "2026-11-04T19:25:59.462000+00:00"
     },
+    "doi:10.1109/mm.2019.2897677": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 88,
+      "status": "imported",
+      "title": "On the Spectre and Meltdown Processor Security Vulnerabilities",
+      "updated_at": "2026-11-28T18:39:33.371808+00:00"
+    },
+    "doi:10.1109/mm.2019.2898633": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 74,
+      "status": "rejected",
+      "title": "The Hardware Security Behind Azure Sphere",
+      "updated_at": "2026-11-28T18:39:39.689841+00:00"
+    },
     "doi:10.1109/mm.2019.2910010": {
       "category": "coeur",
       "decision": "conserver",
@@ -36919,6 +36991,22 @@
       "status": "rejected",
       "title": "Poster: Customized RISC-V SoC Design via Instruction Set Reduction Towards Cartographer",
       "updated_at": "2026-11-03T11:51:20.747972+00:00"
+    },
+    "doi:10.1109/mpot.2018.2849850": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Lightweight Security for the Internet of Things: A Soft Introduction to Physical Unclonable Functions",
+      "updated_at": "2026-11-28T18:39:50.192567+00:00"
+    },
+    "doi:10.1109/mpot.2018.2850384": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Digital Processing Core Performance Degradation Due to Hardware Stress Attacks",
+      "updated_at": "2026-11-28T18:39:59.629998+00:00"
     },
     "doi:10.1109/ms.2025.3572982": {
       "category": "hors_sujet",
@@ -43392,6 +43480,14 @@
       "title": "FPGA Assessment Methodology of Adverse X-Ray Effects on Secure Digital Circuits",
       "updated_at": "2026-11-06T19:38:37.979613+00:00"
     },
+    "doi:10.1109/tdsc.2017.2687463": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Design and Implementation of the Ascend Secure Processor",
+      "updated_at": "2026-11-28T18:40:19.212800+00:00"
+    },
     "doi:10.1109/tdsc.2018.2822298": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -45664,6 +45760,14 @@
       "title": "MOVE: Effective and Harmless Ownership Verification via Embedded External Features",
       "updated_at": "2026-11-06T02:37:15.925827+00:00"
     },
+    "doi:10.1109/tpds.2018.2867222": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 10,
+      "status": "rejected",
+      "title": "Exploiting Hardware Multicast and GPUDirect RDMA for Efficient Broadcast",
+      "updated_at": "2026-11-28T18:38:59.374952+00:00"
+    },
     "doi:10.1109/tpds.2019.2934955": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -46231,6 +46335,22 @@
       "status": "rejected",
       "title": "High-Isolation SAW Duplexer With On-Chip SAW Compensation Circuit Optimized for Isolated Multiple Frequency Bands",
       "updated_at": "2026-11-26T16:37:33.104124+00:00"
+    },
+    "doi:10.1109/tvlsi.2018.2879878": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Thwarting Security Threats From Malicious FPGA Tools With Novel FPGA-Oriented Moving Target Defense",
+      "updated_at": "2026-11-28T18:39:10.464143+00:00"
+    },
+    "doi:10.1109/tvlsi.2018.2881097": {
+      "category": "secondaire",
+      "decision": "examiner",
+      "score": 40,
+      "status": "rejected",
+      "title": "Hardware Constructions for Error Detection of Number-Theoretic Transform Utilized in Secure Cryptographic Architectures",
+      "updated_at": "2026-11-28T18:39:10.516546+00:00"
     },
     "doi:10.1109/tvlsi.2019.2906471": {
       "category": "hors_sujet",
@@ -50056,6 +50176,14 @@
       "title": "Evolution and Revolution of Computer Systems Courses with the Open RISC-V ISA",
       "updated_at": "2026-11-28T08:36:28.867965+00:00"
     },
+    "doi:10.1145/3301417.3312496": {
+      "category": "secondaire",
+      "decision": "rejeter",
+      "score": 35,
+      "status": "rejected",
+      "title": "Forward and Backward Private Searchable Encryption with SGX",
+      "updated_at": "2026-11-28T18:40:09.426040+00:00"
+    },
     "doi:10.1145/3302504.3311799": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -50279,6 +50407,14 @@
       "status": "rejected",
       "title": "Dynamically detecting USB attacks in hardware",
       "updated_at": "2026-11-28T08:38:06.268476+00:00"
+    },
+    "doi:10.1145/3319535.3363194": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "SMoTherSpectre: exploiting speculative execution through port contention",
+      "updated_at": "2026-11-28T18:37:21.419145+00:00"
     },
     "doi:10.1145/3319535.3363206": {
       "category": "coeur",
@@ -58040,6 +58176,14 @@
       "title": "Biometric-Based Attendance Tracking System for Education Sectors: A Literature Survey on Hardware Requirements",
       "updated_at": "2026-11-27T08:37:14.698293+00:00"
     },
+    "doi:10.1155/2019/8690853": {
+      "category": "secondaire_technique",
+      "decision": "examiner",
+      "score": 65,
+      "status": "rejected",
+      "title": "SoftME: A Software-Based Memory Protection Approach for TEE System to Resist Physical Attacks",
+      "updated_at": "2026-11-28T18:39:50.141029+00:00"
+    },
     "doi:10.1155/2019/9684239": {
       "category": "secondaire",
       "decision": "rejeter",
@@ -59119,6 +59263,14 @@
       "status": "rejected",
       "title": "A machine-learning-based hardware-Trojan detection approach for chips in the Internet of Things",
       "updated_at": "2026-11-26T14:36:35.270787+00:00"
+    },
+    "doi:10.1177/2331502419825610": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 0,
+      "status": "rejected",
+      "title": "Bodily Inertia and the Weaponization of the Sonoran Desert in US Boundary Enforcement: A GIS Modeling of Migration Routes through Arizona’s Altar Valley",
+      "updated_at": "2026-11-28T18:39:50.091059+00:00"
     },
     "doi:10.1177/27541223221146681": {
       "category": "hors_sujet",
@@ -82488,6 +82640,14 @@
       "title": "Clueless: A Tool Characterising Values Leaking as Addresses",
       "updated_at": "2026-11-15T02:37:35.765673+00:00"
     },
+    "title:codetrolleyhardwareassistedcontrolflowobfuscation": {
+      "category": "coeur",
+      "decision": "examiner",
+      "score": 75,
+      "status": "imported",
+      "title": "CodeTrolley: Hardware-Assisted Control Flow Obfuscation",
+      "updated_at": "2026-11-28T18:37:01.205217+00:00"
+    },
     "title:coherenceattacksandcountermeasuresininterposerbasedsystems": {
       "category": "coeur",
       "decision": "conserver",
@@ -86848,6 +87008,14 @@
       "title": "Resolving Conflicts Between RTOS Timekeeping and Uninterruptable Trusted Computing",
       "updated_at": "2026-11-03T12:28:50.780203+00:00"
     },
+    "title:restrictingcontrolflowduringspeculativeexecutionwithvenkman": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 85,
+      "status": "imported",
+      "title": "Restricting Control Flow During Speculative Execution with Venkman",
+      "updated_at": "2026-11-28T18:38:27.523083+00:00"
+    },
     "title:resynthesisbasedattacksagainstlogiclocking": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -88152,6 +88320,14 @@
       "title": "SPOILER-GUARD: Gating Latency Effects of Memory Accesses through Randomized Dependency Prediction",
       "updated_at": "2026-11-03T18:14:50.658850+00:00"
     },
+    "title:spoilerspeculativeloadhazardsboostrowhammerandcacheattacks": {
+      "category": "coeur",
+      "decision": "conserver",
+      "score": 90,
+      "status": "imported",
+      "title": "SPOILER: Speculative Load Hazards Boost Rowhammer and Cache Attacks",
+      "updated_at": "2026-11-28T18:37:57.684014+00:00"
+    },
     "title:spyinthegpuboxcovertandsidechannelattacksonmultigpusystems": {
       "category": "hors_sujet",
       "decision": "rejeter",
@@ -88247,6 +88423,14 @@
       "status": "rejected",
       "title": "Strix: An End-to-End Streaming Architecture with Two-Level Ciphertext Batching for Fully Homomorphic Encryption with Programmable Bootstrapping",
       "updated_at": "2026-11-13T21:38:59.380276+00:00"
+    },
+    "title:studyingempulseeffectsonsuperscalarmicroarchitecturesatisalevel": {
+      "category": "hors_sujet",
+      "decision": "rejeter",
+      "score": 20,
+      "status": "rejected",
+      "title": "Studying EM Pulse Effects on Superscalar Microarchitectures at ISA Level",
+      "updated_at": "2026-11-28T18:38:02.729576+00:00"
     },
     "title:studyofthresholdswitchingbehaviorofpthfo2tincellanditsapplicationintruerandomnumbergenerator": {
       "category": "secondaire",
